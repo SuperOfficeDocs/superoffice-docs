@@ -1,0 +1,2289 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.IArchiveAgent
+  id: IArchiveAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.IArchiveAgent.CreateDefaultArchiveListResultAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.ExportArchiveAsync(System.String,System.String,System.String[],System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetActivityFilterAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationV2Async(System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationWithContextAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveList2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListAsync(System.String,System.String,SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumns2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContextAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContextAsync(System.String,System.String,SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableColumnsAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableEntitiesAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetGroupAssociateIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetProviderNamesAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedData2Async(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedDataAsync(System.String,System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.SetActivityFilterAsync(SuperOffice.WebApi.Data.ActivityFilter,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsAsync(System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsV2Async(System.String,System.String,System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesAsync(System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesV2Async(System.String,System.String,System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsV2Async(System.String,System.String,System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent
+  type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nArchiveList functions of all kinds\n"
+  syntax:
+    content: 'public interface IArchiveAgent : IDisposable'
+    content.vb: >-
+      Public Interface IArchiveAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.CreateDefaultArchiveListResultAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.CreateDefaultArchiveListResultAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultArchiveListResultAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultArchiveListResultAsync(RequestOptions)
+  nameWithType: IArchiveAgent.CreateDefaultArchiveListResultAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.CreateDefaultArchiveListResultAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new ArchiveListResult.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<ArchiveListResult> CreateDefaultArchiveListResultAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListResult}
+      description: A blank ArchiveListResult
+    content.vb: Function CreateDefaultArchiveListResultAsync(requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListResult)
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.CreateDefaultArchiveListResultAsync*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetActivityFilterAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetActivityFilterAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetActivityFilterAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetActivityFilterAsync(RequestOptions)
+  nameWithType: IArchiveAgent.GetActivityFilterAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetActivityFilterAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet activity filter for the specified list.\n"
+  syntax:
+    content: Task<ActivityFilter> GetActivityFilterAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ActivityFilter}
+      description: The activity filter for the specified list
+    content.vb: Function GetActivityFilterAsync(requestOptions As RequestOptions = Nothing) As Task(Of ActivityFilter)
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetActivityFilterAsync*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.SetActivityFilterAsync(SuperOffice.WebApi.Data.ActivityFilter,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.SetActivityFilterAsync(SuperOffice.WebApi.Data.ActivityFilter,SuperOffice.WebApi.RequestOptions)
+  id: SetActivityFilterAsync(SuperOffice.WebApi.Data.ActivityFilter,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: SetActivityFilterAsync(ActivityFilter, RequestOptions)
+  nameWithType: IArchiveAgent.SetActivityFilterAsync(ActivityFilter, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.SetActivityFilterAsync(SuperOffice.WebApi.Data.ActivityFilter, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet activity filter for the specified list.\n"
+  syntax:
+    content: Task SetActivityFilterAsync(ActivityFilter activityFilter, RequestOptions requestOptions = null)
+    parameters:
+    - id: activityFilter
+      type: SuperOffice.WebApi.Data.ActivityFilter
+      description: New activity filter
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetActivityFilterAsync(activityFilter As ActivityFilter, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.SetActivityFilterAsync*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetGroupAssociateIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetGroupAssociateIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetGroupAssociateIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetGroupAssociateIdsAsync(Int32[], RequestOptions)
+  nameWithType: IArchiveAgent.GetGroupAssociateIdsAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetGroupAssociateIdsAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the  associate ids that belongs to the given groups\n"
+  syntax:
+    content: Task<int[]> GetGroupAssociateIdsAsync(int[] groupIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: groupIds
+      type: System.Int32[]
+      description: Array of group ids
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32[]}
+      description: Array of associate ids
+    content.vb: Function GetGroupAssociateIdsAsync(groupIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Integer())
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetGroupAssociateIdsAsync*
+  nameWithType.vb: IArchiveAgent.GetGroupAssociateIdsAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.GetGroupAssociateIdsAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetGroupAssociateIdsAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveConfigurationAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveConfigurationAsync(String, String, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveConfigurationAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the configuration for one archive. The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.\n"
+  syntax:
+    content: Task<ArchiveConfiguration> GetArchiveConfigurationAsync(string guiName, string providerName, RequestOptions requestOptions = null)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveConfiguration}
+      description: Archive configuration consisting of column information, orderby information and entities
+    content.vb: Function GetArchiveConfigurationAsync(guiName As String, providerName As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveConfiguration)
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationAsync*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationWithContextAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationWithContextAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveConfigurationWithContextAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveConfigurationWithContextAsync(String, String, String, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveConfigurationWithContextAsync(String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationWithContextAsync(System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the configuration for one archive, with context parameter. The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.\n"
+  syntax:
+    content: Task<ArchiveConfiguration> GetArchiveConfigurationWithContextAsync(string guiName, string providerName, string context, RequestOptions requestOptions = null)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveConfiguration}
+      description: Archive configuration consisting of column information, orderby information and entities
+    content.vb: Function GetArchiveConfigurationWithContextAsync(guiName As String, providerName As String, context As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveConfiguration)
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationWithContextAsync*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: SetColumnWidthsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: SetColumnWidthsAsync(String, String[], RequestOptions)
+  nameWithType: IArchiveAgent.SetColumnWidthsAsync(String, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsAsync(System.String, System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet the column widths for the given set of columns and GUI name. \n"
+  syntax:
+    content: Task SetColumnWidthsAsync(string guiName, string[] columnWidths, RequestOptions requestOptions = null)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: columnWidths
+      type: System.String[]
+      description: Array of column widths. A column width is specified either as a fixed number of character (10c) or as a percentage (10%). Percentages will be recalculated so that they add up to exactly 100 when the configuration is fetched again.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetColumnWidthsAsync(guiName As String, columnWidths As String(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsAsync*
+  nameWithType.vb: IArchiveAgent.SetColumnWidthsAsync(String, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsAsync(System.String, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetColumnWidthsAsync(String, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesAsync(System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesAsync(System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: SetChosenEntitiesAsync(System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: SetChosenEntitiesAsync(String, String, String[], RequestOptions)
+  nameWithType: IArchiveAgent.SetChosenEntitiesAsync(String, String, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesAsync(System.String, System.String, System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet the currently chosen entities for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo.\n"
+  syntax:
+    content: Task SetChosenEntitiesAsync(string guiName, string providerName, string[] entities, RequestOptions requestOptions = null)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: entities
+      type: System.String[]
+      description: Array of entity names
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetChosenEntitiesAsync(guiName As String, providerName As String, entities As String(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesAsync*
+  nameWithType.vb: IArchiveAgent.SetChosenEntitiesAsync(String, String, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesAsync(System.String, System.String, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetChosenEntitiesAsync(String, String, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsAsync(System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsAsync(System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: SetChosenColumnsAsync(System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: SetChosenColumnsAsync(String, String, String[], RequestOptions)
+  nameWithType: IArchiveAgent.SetChosenColumnsAsync(String, String, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsAsync(System.String, System.String, System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet the currently chosen columns for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveColumns: plus the archive provider name and gui name as its additionalInfo.\n"
+  syntax:
+    content: Task SetChosenColumnsAsync(string guiName, string providerName, string[] chosenColumns, RequestOptions requestOptions = null)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: chosenColumns
+      type: System.String[]
+      description: Array of column names, where array order indicates left to right order in the archive.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetChosenColumnsAsync(guiName As String, providerName As String, chosenColumns As String(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsAsync*
+  nameWithType.vb: IArchiveAgent.SetChosenColumnsAsync(String, String, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsAsync(System.String, System.String, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetChosenColumnsAsync(String, String, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationV2Async(System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationV2Async(System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveConfigurationV2Async(System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveConfigurationV2Async(String, String, String, String, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveConfigurationV2Async(String, String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationV2Async(System.String, System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the configuration for one archive. The configuration is keyed by a combination of archive provider name (plus optional context), gui name, and optional table binding. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.\n"
+  syntax:
+    content: Task<ArchiveConfiguration> GetArchiveConfigurationV2Async(string guiName, string providerName, string context, string ownerKeys, RequestOptions requestOptions = null)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor. Optional, but required for archives that depend on a context - for instance Quote archives that need to know their QuoteConnectionId to be meaningful
+    - id: ownerKeys
+      type: System.String
+      description: Name/value string containing ownership binding information. The first should resolve to a table/primarykey, such as selection=123. Future functionality may allow multiple/extended keys
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveConfiguration}
+      description: Archive configuration consisting of column information, orderby information and entities
+    content.vb: Function GetArchiveConfigurationV2Async(guiName As String, providerName As String, context As String, ownerKeys As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveConfiguration)
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationV2Async*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsV2Async(System.String,System.String,System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsV2Async(System.String,System.String,System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: SetColumnWidthsV2Async(System.String,System.String,System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: SetColumnWidthsV2Async(String, String, String, String, String[], RequestOptions)
+  nameWithType: IArchiveAgent.SetColumnWidthsV2Async(String, String, String, String, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsV2Async(System.String, System.String, System.String, System.String, System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet the column widths for the given set of columns and GUI name. \n"
+  syntax:
+    content: Task SetColumnWidthsV2Async(string guiName, string providerName, string context, string ownerKeys, string[] columnWidths, RequestOptions requestOptions = null)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor. Optional, but required for archives that depend on a context - for instance Quote archives that need to know their QuoteConnectionId to be meaningful
+    - id: ownerKeys
+      type: System.String
+      description: Name/value string containing ownership binding information. The first should resolve to a table/primarykey, such as selection=123. Future functionality may allow multiple/extended keys
+    - id: columnWidths
+      type: System.String[]
+      description: Array of column widths. A column width is specified either as a fixed number of character (10c) or as a percentage (10%). Percentages will be recalculated so that they add up to exactly 100 when the configuration is fetched again.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetColumnWidthsV2Async(guiName As String, providerName As String, context As String, ownerKeys As String, columnWidths As String(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsV2Async*
+  nameWithType.vb: IArchiveAgent.SetColumnWidthsV2Async(String, String, String, String, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsV2Async(System.String, System.String, System.String, System.String, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetColumnWidthsV2Async(String, String, String, String, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesV2Async(System.String,System.String,System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesV2Async(System.String,System.String,System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: SetChosenEntitiesV2Async(System.String,System.String,System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: SetChosenEntitiesV2Async(String, String, String, String, String[], RequestOptions)
+  nameWithType: IArchiveAgent.SetChosenEntitiesV2Async(String, String, String, String, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesV2Async(System.String, System.String, System.String, System.String, System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet the currently chosen entities for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo.\n"
+  syntax:
+    content: Task SetChosenEntitiesV2Async(string guiName, string providerName, string context, string ownerKeys, string[] entities, RequestOptions requestOptions = null)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor. Optional, but required for archives that depend on a context - for instance Quote archives that need to know their QuoteConnectionId to be meaningful
+    - id: ownerKeys
+      type: System.String
+      description: Name/value string containing ownership binding information. The first should resolve to a table/primarykey, such as selection=123. Future functionality may allow multiple/extended keys
+    - id: entities
+      type: System.String[]
+      description: Array of entity names
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetChosenEntitiesV2Async(guiName As String, providerName As String, context As String, ownerKeys As String, entities As String(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesV2Async*
+  nameWithType.vb: IArchiveAgent.SetChosenEntitiesV2Async(String, String, String, String, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesV2Async(System.String, System.String, System.String, System.String, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetChosenEntitiesV2Async(String, String, String, String, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsV2Async(System.String,System.String,System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsV2Async(System.String,System.String,System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: SetChosenColumnsV2Async(System.String,System.String,System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: SetChosenColumnsV2Async(String, String, String, String, String[], RequestOptions)
+  nameWithType: IArchiveAgent.SetChosenColumnsV2Async(String, String, String, String, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsV2Async(System.String, System.String, System.String, System.String, System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet the currently chosen columns for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveColumns: plus the archive provider name and gui name as its additionalInfo.\n"
+  syntax:
+    content: Task SetChosenColumnsV2Async(string guiName, string providerName, string context, string ownerKeys, string[] chosenColumns, RequestOptions requestOptions = null)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor. Optional, but required for archives that depend on a context - for instance Quote archives that need to know their QuoteConnectionId to be meaningful
+    - id: ownerKeys
+      type: System.String
+      description: Name/value string containing ownership binding information. The first should resolve to a table/primarykey, such as selection=123. Future functionality may allow multiple/extended keys
+    - id: chosenColumns
+      type: System.String[]
+      description: Array of column names, where array order indicates left to right order in the archive.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetChosenColumnsV2Async(guiName As String, providerName As String, context As String, ownerKeys As String, chosenColumns As String(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsV2Async*
+  nameWithType.vb: IArchiveAgent.SetChosenColumnsV2Async(String, String, String, String, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsV2Async(System.String, System.String, System.String, System.String, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetChosenColumnsV2Async(String, String, String, String, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveListByColumnsAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumnsAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsAsync(System.String, System.String[], SuperOffice.WebApi.Data.ArchiveOrderByInfo[], SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns.\n"
+  syntax:
+    content: Task<ArchiveListItem[]> GetArchiveListByColumnsAsync(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String[]
+      description: An array of the names of the columns wanted.
+    - id: sortOrder
+      type: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+      description: Sort order for the archive. Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+      description: Archive restrictions. Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String[]
+      description: Which entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListItem[]}
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumnsAsync(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsAsync*
+  nameWithType.vb: IArchiveAgent.GetArchiveListByColumnsAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsAsync(System.String, System.String(), SuperOffice.WebApi.Data.ArchiveOrderByInfo(), SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetArchiveListByColumnsAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContextAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContextAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveListByColumnsWithContextAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumnsWithContextAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContextAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContextAsync(System.String, System.String[], SuperOffice.WebApi.Data.ArchiveOrderByInfo[], SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a page of results for an archive list with context parameter, explicitly specifying the restrictions, orderby and chosen columns.\n"
+  syntax:
+    content: Task<ArchiveListItem[]> GetArchiveListByColumnsWithContextAsync(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string context, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String[]
+      description: An array of the names of the columns wanted.
+    - id: sortOrder
+      type: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+      description: Sort order for the archive. Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+      description: Archive restrictions. Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String[]
+      description: Which entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListItem[]}
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumnsWithContextAsync(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, context As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContextAsync*
+  nameWithType.vb: IArchiveAgent.GetArchiveListByColumnsWithContextAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContextAsync(System.String, System.String(), SuperOffice.WebApi.Data.ArchiveOrderByInfo(), SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetArchiveListByColumnsWithContextAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListAsync(System.String,System.String,SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListAsync(System.String,System.String,SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveListAsync(System.String,System.String,SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListAsync(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveListAsync(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListAsync(System.String, System.String, SuperOffice.WebApi.Data.ArchiveOrderByInfo[], SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a page of data for an archive. The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.\n"
+  syntax:
+    content: Task<ArchiveListItem[]> GetArchiveListAsync(string guiName, string providerName, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, RequestOptions requestOptions = null)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: The GUI name of the archive list, used to retrieve the currently configured set of columns (otherwise manipulated using the ArchiveConfiguration service)
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: sortOrder
+      type: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+      description: Sort order for the archive. Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+      description: Archive restrictions. Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String[]
+      description: Which entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListItem[]}
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListAsync(guiName As String, providerName As String, sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListAsync*
+  nameWithType.vb: IArchiveAgent.GetArchiveListAsync(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListAsync(System.String, System.String, SuperOffice.WebApi.Data.ArchiveOrderByInfo(), SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetArchiveListAsync(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContextAsync(System.String,System.String,SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContextAsync(System.String,System.String,SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveListWithContextAsync(System.String,System.String,SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListWithContextAsync(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveListWithContextAsync(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContextAsync(System.String, System.String, SuperOffice.WebApi.Data.ArchiveOrderByInfo[], SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a page of data for an archive, with context parameter. The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.\n"
+  syntax:
+    content: Task<ArchiveListItem[]> GetArchiveListWithContextAsync(string guiName, string providerName, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string context, RequestOptions requestOptions = null)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: The GUI name of the archive list, used to retrieve the currently configured set of columns (otherwise manipulated using the ArchiveConfiguration service)
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: sortOrder
+      type: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+      description: Sort order for the archive. Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+      description: Archive restrictions. Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String[]
+      description: Which entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListItem[]}
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListWithContextAsync(guiName As String, providerName As String, sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, context As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContextAsync*
+  nameWithType.vb: IArchiveAgent.GetArchiveListWithContextAsync(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContextAsync(System.String, System.String, SuperOffice.WebApi.Data.ArchiveOrderByInfo(), SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetArchiveListWithContextAsync(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveListByColumnsWithHeaderAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumnsWithHeaderAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync(System.String, System.String[], SuperOffice.WebApi.Data.ArchiveOrderByInfo[], SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options. The return value includes a header that has various extra information, in addition to the actual rows.\n"
+  syntax:
+    content: Task<ArchiveListResult> GetArchiveListByColumnsWithHeaderAsync(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string options, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String[]
+      description: An array of the names of the columns wanted.
+    - id: sortOrder
+      type: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+      description: Sort order for the archive. Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+      description: Archive restrictions. Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String[]
+      description: Which entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: options
+      type: System.String
+      description: name=value&amp;amp;... formatted set of options. &quot;rowcount=true&quot; will cause the rowcount to be calculated and populated.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListResult}
+      description: Header with optional row count, plus array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumnsWithHeaderAsync(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, options As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListResult)
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync*
+  nameWithType.vb: IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync(System.String, System.String(), SuperOffice.WebApi.Data.ArchiveOrderByInfo(), SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetArchiveListByColumnsWithHeaderAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetProviderNamesAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetProviderNamesAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetProviderNamesAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProviderNamesAsync(RequestOptions)
+  nameWithType: IArchiveAgent.GetProviderNamesAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetProviderNamesAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturn list of all archive provider names\n"
+  syntax:
+    content: Task<string[]> GetProviderNamesAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String[]}
+      description: 'Array of all archive provider names. '
+    content.vb: Function GetProviderNamesAsync(requestOptions As RequestOptions = Nothing) As Task(Of String())
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetProviderNamesAsync*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveListByColumnsWithHeaderWithContextAsync(System.String,System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumnsWithHeaderWithContextAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, String, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync(System.String, System.String[], SuperOffice.WebApi.Data.ArchiveOrderByInfo[], SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a page of results for an archive list, with context parameter, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options. The return value includes a header that has various extra information, in addition to the actual rows.\n"
+  syntax:
+    content: Task<ArchiveListResult> GetArchiveListByColumnsWithHeaderWithContextAsync(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string options, string context, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String[]
+      description: An array of the names of the columns wanted.
+    - id: sortOrder
+      type: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+      description: Sort order for the archive. Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+      description: Archive restrictions. Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String[]
+      description: Which entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: options
+      type: System.String
+      description: name=value&amp;amp;... formatted set of options. &quot;rowcount=true&quot; will cause the rowcount to be calculated and populated.
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListResult}
+      description: Header with optional row count, plus array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumnsWithHeaderWithContextAsync(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, options As String, context As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListResult)
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync*
+  nameWithType.vb: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync(System.String, System.String(), SuperOffice.WebApi.Data.ArchiveOrderByInfo(), SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetArchiveListByColumnsWithHeaderWithContextAsync(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableColumnsAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableColumnsAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetAvailableColumnsAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableColumnsAsync(String, String, RequestOptions)
+  nameWithType: IArchiveAgent.GetAvailableColumnsAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableColumnsAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturn list of all columns supported by an archive provider. See also GetArchiveConfiguration.\n"
+  syntax:
+    content: Task<ArchiveColumnInfo[]> GetAvailableColumnsAsync(string providerName, string context, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: context
+      type: System.String
+      description: Optional context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveColumnInfo[]}
+      description: 'Array of all columns supported by the archive provider. '
+    content.vb: Function GetAvailableColumnsAsync(providerName As String, context As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveColumnInfo())
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableColumnsAsync*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableEntitiesAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableEntitiesAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetAvailableEntitiesAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableEntitiesAsync(String, String, RequestOptions)
+  nameWithType: IArchiveAgent.GetAvailableEntitiesAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableEntitiesAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturn list of all entities supported by an archive provider. See also GetArchiveConfiguration.\n"
+  syntax:
+    content: Task<MDOListItem[]> GetAvailableEntitiesAsync(string providerName, string context, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: context
+      type: System.String
+      description: Optional context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}
+      description: 'Array of all entity types supported by the archive provider. MDOListItem.Name = DisplayName, Tooltip = DisplayTooltip, Type = code name, StyleHint = optional/mandatory, IconHint=DefaultShow '
+    content.vb: Function GetAvailableEntitiesAsync(providerName As String, context As String, requestOptions As RequestOptions = Nothing) As Task(Of MDOListItem())
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableEntitiesAsync*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumns2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumns2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveListByColumns2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumns2Async(String, String, String, String, String, Int32, Int32, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2Async(String, String, String, String, String, Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumns2Async(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a page of results for an archive list, explicitly specifying the restrictions as a string, orderby and chosen columns.\n"
+  syntax:
+    content: Task<ArchiveListItem[]> GetArchiveListByColumns2Async(string providerName, string columns, string sortOrder, string restrictions, string entities, int page, int pageSize, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String
+      description: An array of the names of the columns wanted.
+    - id: sortOrder
+      type: System.String
+      description: Sort order for the archive as string (&apos;name asc, dept desc&apos;). Can be null, which indicates &apos;no particular order&apos;
+    - id: restrictions
+      type: System.String
+      description: Archive restrictions as string (&apos;category = 1 and business oneOf (1,2,3)&apos;). Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String
+      description: Comma separated list of entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListItem[]}
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumns2Async(providerName As String, columns As String, sortOrder As String, restrictions As String, entities As String, page As Integer, pageSize As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumns2Async*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveListByColumnsWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumnsWithContext2Async(String, String, String, String, String, Int32, Int32, String, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContext2Async(String, String, String, String, String, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContext2Async(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a page of results for an archive list with context parameter, explicitly specifying the restrictions as a string, orderby and chosen columns.\n"
+  syntax:
+    content: Task<ArchiveListItem[]> GetArchiveListByColumnsWithContext2Async(string providerName, string columns, string sortOrder, string restriction, string entities, int page, int pageSize, string context, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String
+      description: Comma separated names of the columns wanted.
+    - id: sortOrder
+      type: System.String
+      description: 'Comma separated list of columns to sort order for the archive. e.g.: &quot;name asc, dept desc, registeredBy&quot; Can be null, which indicates &apos;no particular order&apos;'
+    - id: restriction
+      type: System.String
+      description: Archive restrictions as string. e.g. &quot;name startsWith &apos;foo&apos; and (dept = &apos;bar&apos; or dept = &apos;baz&apos;)&quot; Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String
+      description: Comma separated list of entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListItem[]}
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumnsWithContext2Async(providerName As String, columns As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, context As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContext2Async*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveList2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveList2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveList2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveList2Async(String, String, String, String, String, Int32, Int32, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveList2Async(String, String, String, String, String, Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveList2Async(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a page of data for an archive using a restriction string. The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.\n"
+  syntax:
+    content: Task<ArchiveListItem[]> GetArchiveList2Async(string guiName, string providerName, string sortOrder, string restriction, string entities, int page, int pageSize, RequestOptions requestOptions = null)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: The GUI name of the archive list, used to retrieve the currently configured set of columns (otherwise manipulated using the ArchiveConfiguration service)
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: sortOrder
+      type: System.String
+      description: Sort order for the archive. Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: System.String
+      description: Archive restrictions as string. e.g. &quot;name = &apos;baz&apos; or category oneOf (1,2,3)&quot;. Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String
+      description: Comma separated list of entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListItem[]}
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveList2Async(guiName As String, providerName As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveList2Async*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveListWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListWithContext2Async(String, String, String, String, String, Int32, Int32, String, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveListWithContext2Async(String, String, String, String, String, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContext2Async(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a page of data for an archive using restrictions as strings, with context parameter. The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.\n"
+  syntax:
+    content: Task<ArchiveListItem[]> GetArchiveListWithContext2Async(string guiName, string providerName, string sortOrder, string restriction, string entities, int page, int pageSize, string context, RequestOptions requestOptions = null)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: The GUI name of the archive list, used to retrieve the currently configured set of columns (otherwise manipulated using the ArchiveConfiguration service)
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: sortOrder
+      type: System.String
+      description: Sort order for the archive. e.g. &quot;name asc, dept desc&quot; Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: System.String
+      description: Archive restrictions as string. e.g. &quot;name gt &apos;B&apos; or dept = &apos;baz&apos;&quot; Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String
+      description: Comma separated list of entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListItem[]}
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListWithContext2Async(guiName As String, providerName As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, context As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContext2Async*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveListByColumnsWithHeader2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumnsWithHeader2Async(String, String, String, String, String, Int32, Int32, String, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeader2Async(String, String, String, String, String, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a page of results for an archive list, explicitly specifying the restrictions as strings, orderby and chosen columns; as well as a name/value string formatted set of options. The return value includes a header that has various extra information, in addition to the actual rows.\n"
+  syntax:
+    content: Task<ArchiveListResult> GetArchiveListByColumnsWithHeader2Async(string providerName, string columns, string sortOrder, string restriction, string entities, int page, int pageSize, string options, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String
+      description: Comma separated string of the names of the columns wanted.
+    - id: sortOrder
+      type: System.String
+      description: Comma separated string of sort order for the archive. e.g. &quot;name asc, dept desc&quot; Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: System.String
+      description: Archive restrictions. e.g. &quot;category = 2 or business oneOf (2,3,4)&quot; Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String
+      description: Comma separated list of entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: options
+      type: System.String
+      description: name=value&amp;amp;... formatted set of options. &quot;rowcount=true&quot; will cause the rowcount to be calculated and populated.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListResult}
+      description: Header with optional row count, plus array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumnsWithHeader2Async(providerName As String, columns As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, options As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListResult)
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetArchiveListByColumnsWithHeaderWithContext2Async(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumnsWithHeaderWithContext2Async(String, String, String, String, String, Int32, Int32, String, String, RequestOptions)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async(String, String, String, String, String, Int32, Int32, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a page of results for an archive list, with context parameter, explicitly specifying the restrictions as strings, orderby and chosen columns; as well as a name/value string formatted set of options. The return value includes a header that has various extra information, in addition to the actual rows.\n"
+  syntax:
+    content: Task<ArchiveListResult> GetArchiveListByColumnsWithHeaderWithContext2Async(string providerName, string columns, string sortOrder, string restriction, string entities, int page, int pageSize, string options, string context, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String
+      description: Comma separated list of the names of the columns wanted.
+    - id: sortOrder
+      type: System.String
+      description: Sort order for the archive. &quot;name asc, dept desc&quot; Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: System.String
+      description: Archive restrictions as string. &quot;updated > &apos;2009.1.1&apos; and registeredBy = 2&quot; Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String
+      description: Comma separated list of entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: options
+      type: System.String
+      description: name=value&amp;amp;... formatted set of options. &quot;rowcount=true&quot; will cause the rowcount to be calculated and populated.
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListResult}
+      description: Header with optional row count, plus array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumnsWithHeaderWithContext2Async(providerName As String, columns As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, options As String, context As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListResult)
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async*
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.ExportArchiveAsync(System.String,System.String,System.String[],System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.ExportArchiveAsync(System.String,System.String,System.String[],System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: ExportArchiveAsync(System.String,System.String,System.String[],System.String[],SuperOffice.WebApi.Data.ArchiveOrderByInfo[],SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: ExportArchiveAsync(String, String, String[], String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String, String[], Int32, RequestOptions)
+  nameWithType: IArchiveAgent.ExportArchiveAsync(String, String, String[], String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String, String[], Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.ExportArchiveAsync(System.String, System.String, System.String[], System.String[], SuperOffice.WebApi.Data.ArchiveOrderByInfo[], SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.String, System.String[], System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nExports the target archive to a downloadable format.\n"
+  syntax:
+    content: Task<ExportArchiveResult> ExportArchiveAsync(string providerName, string context, string[] desiredEntities, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restrictions, string exportType, string[] selectedRowIds, int estimatedRowCount, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    - id: desiredEntities
+      type: System.String[]
+      description: Comma separated list of the names of the desired entities.
+    - id: columns
+      type: System.String[]
+      description: Comma separated list of the names of the columns wanted; supports display names
+    - id: sortOrder
+      type: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+    - id: restrictions
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+    - id: exportType
+      type: System.String
+      description: To what format the archive should be exported; Excel, etc.
+    - id: selectedRowIds
+      type: System.String[]
+    - id: estimatedRowCount
+      type: System.Int32
+      description: The estimated amount of rows to be exported. Used to determine if the operation should be run as a batch task or immediately.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExportArchiveResult}
+    content.vb: Function ExportArchiveAsync(providerName As String, context As String, desiredEntities As String(), columns As String(), sortOrder As ArchiveOrderByInfo(), restrictions As ArchiveRestrictionInfo(), exportType As String, selectedRowIds As String(), estimatedRowCount As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ExportArchiveResult)
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.ExportArchiveAsync*
+  nameWithType.vb: IArchiveAgent.ExportArchiveAsync(String, String, String(), String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String, String(), Int32, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.ExportArchiveAsync(System.String, System.String, System.String(), System.String(), SuperOffice.WebApi.Data.ArchiveOrderByInfo(), SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.String, System.String(), System.Int32, SuperOffice.WebApi.RequestOptions)
+  name.vb: ExportArchiveAsync(String, String, String(), String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String, String(), Int32, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedDataAsync(System.String,System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedDataAsync(System.String,System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: GetRelatedDataAsync(System.String,System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRelatedDataAsync(String, Int32, String[], RequestOptions)
+  nameWithType: IArchiveAgent.GetRelatedDataAsync(String, Int32, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedDataAsync(System.String, System.Int32, System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet data for fields related to a table record. While this method /can/ be used to fetch plain fields, that is not the intended usage and it does not replace the Entity.Get methods available for that purpose. Nor does it replace the generic DotSyntax/Dynamic archive provider.\n"
+  syntax:
+    content: Task<RelatedData[]> GetRelatedDataAsync(string table, int recordId, string[] fields, RequestOptions requestOptions = null)
+    parameters:
+    - id: table
+      type: System.String
+      description: The root table to get related data for, such as &apos;ticket&apos; or &apos;y_car&apos;
+    - id: recordId
+      type: System.Int32
+      description: The primary key of the root table to get related data for
+    - id: fields
+      type: System.String[]
+      description: 'Names of fields - these need to be valid in the DotSyntax for this table, and can be arbitrarily deep. Examples: &apos;title&apos;, &apos;created_by.associate_id.person.fullName&apos;, &apos;x_comment&apos;. Do not start with the root table name.'
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RelatedData[]}
+      description: Array of field => ArchiveColumnData objects
+    content.vb: Function GetRelatedDataAsync(table As String, recordId As Integer, fields As String(), requestOptions As RequestOptions = Nothing) As Task(Of RelatedData())
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedDataAsync*
+  nameWithType.vb: IArchiveAgent.GetRelatedDataAsync(String, Int32, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedDataAsync(System.String, System.Int32, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetRelatedDataAsync(String, Int32, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedData2Async(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedData2Async(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetRelatedData2Async(System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRelatedData2Async(String, Int32, String, RequestOptions)
+  nameWithType: IArchiveAgent.GetRelatedData2Async(String, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedData2Async(System.String, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet data for fields related to a table record. While this method /can/ be used to fetch plain fields, that is not the intended usage and it does not replace the Entity.Get methods available for that purpose. Nor does it replace the generic DotSyntax/Dynamic archive provider.\n"
+  syntax:
+    content: Task<RelatedData[]> GetRelatedData2Async(string table, int recordId, string fields, RequestOptions requestOptions = null)
+    parameters:
+    - id: table
+      type: System.String
+      description: The root table to get related data for, such as &apos;ticket&apos; or &apos;y_car&apos;
+    - id: recordId
+      type: System.Int32
+      description: The primary key of the root table to get related data for
+    - id: fields
+      type: System.String
+      description: 'Names of fields as a comma-separated list - these need to be valid in the DotSyntax for this table, and can be arbitrarily deep. Example: &apos;title,created_by.associate_id.person.fullName, x_comment&apos;. Do not start with the root table name.'
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RelatedData[]}
+      description: Array of field => ArchiveColumnData objects
+    content.vb: Function GetRelatedData2Async(table As String, recordId As Integer, fields As String, requestOptions As RequestOptions = Nothing) As Task(Of RelatedData())
+  overload: SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedData2Async*
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.CreateDefaultArchiveListResultAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.CreateDefaultArchiveListResultAsync
+  isExternal: true
+  name: CreateDefaultArchiveListResultAsync
+  nameWithType: IArchiveAgent.CreateDefaultArchiveListResultAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.CreateDefaultArchiveListResultAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListResult}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ArchiveListResult>
+  nameWithType: Task<ArchiveListResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ArchiveListResult>
+  nameWithType.vb: Task(Of ArchiveListResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ArchiveListResult)
+  name.vb: Task(Of ArchiveListResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ArchiveListResult
+    name: ArchiveListResult
+    nameWithType: ArchiveListResult
+    fullName: SuperOffice.WebApi.Data.ArchiveListResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ArchiveListResult
+    name: ArchiveListResult
+    nameWithType: ArchiveListResult
+    fullName: SuperOffice.WebApi.Data.ArchiveListResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetActivityFilterAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetActivityFilterAsync
+  isExternal: true
+  name: GetActivityFilterAsync
+  nameWithType: IArchiveAgent.GetActivityFilterAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetActivityFilterAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ActivityFilter}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ActivityFilter}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ActivityFilter>
+  nameWithType: Task<ActivityFilter>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ActivityFilter>
+  nameWithType.vb: Task(Of ActivityFilter)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ActivityFilter)
+  name.vb: Task(Of ActivityFilter)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ActivityFilter
+    name: ActivityFilter
+    nameWithType: ActivityFilter
+    fullName: SuperOffice.WebApi.Data.ActivityFilter
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ActivityFilter
+    name: ActivityFilter
+    nameWithType: ActivityFilter
+    fullName: SuperOffice.WebApi.Data.ActivityFilter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.SetActivityFilterAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.SetActivityFilterAsync
+  isExternal: true
+  name: SetActivityFilterAsync
+  nameWithType: IArchiveAgent.SetActivityFilterAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.SetActivityFilterAsync
+- uid: SuperOffice.WebApi.Data.ActivityFilter
+  commentId: T:SuperOffice.WebApi.Data.ActivityFilter
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ActivityFilter
+  nameWithType: ActivityFilter
+  fullName: SuperOffice.WebApi.Data.ActivityFilter
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetGroupAssociateIdsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetGroupAssociateIdsAsync
+  isExternal: true
+  name: GetGroupAssociateIdsAsync
+  nameWithType: IArchiveAgent.GetGroupAssociateIdsAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetGroupAssociateIdsAsync
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{System.Int32[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32[]>
+  nameWithType: Task<Int32[]>
+  fullName: System.Threading.Tasks.Task<System.Int32[]>
+  nameWithType.vb: Task(Of Int32())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32())
+  name.vb: Task(Of Int32())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationAsync
+  isExternal: true
+  name: GetArchiveConfigurationAsync
+  nameWithType: IArchiveAgent.GetArchiveConfigurationAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveConfiguration}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveConfiguration}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ArchiveConfiguration>
+  nameWithType: Task<ArchiveConfiguration>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ArchiveConfiguration>
+  nameWithType.vb: Task(Of ArchiveConfiguration)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ArchiveConfiguration)
+  name.vb: Task(Of ArchiveConfiguration)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ArchiveConfiguration
+    name: ArchiveConfiguration
+    nameWithType: ArchiveConfiguration
+    fullName: SuperOffice.WebApi.Data.ArchiveConfiguration
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ArchiveConfiguration
+    name: ArchiveConfiguration
+    nameWithType: ArchiveConfiguration
+    fullName: SuperOffice.WebApi.Data.ArchiveConfiguration
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationWithContextAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationWithContextAsync
+  isExternal: true
+  name: GetArchiveConfigurationWithContextAsync
+  nameWithType: IArchiveAgent.GetArchiveConfigurationWithContextAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationWithContextAsync
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsAsync
+  isExternal: true
+  name: SetColumnWidthsAsync
+  nameWithType: IArchiveAgent.SetColumnWidthsAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsAsync
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesAsync
+  isExternal: true
+  name: SetChosenEntitiesAsync
+  nameWithType: IArchiveAgent.SetChosenEntitiesAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesAsync
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsAsync
+  isExternal: true
+  name: SetChosenColumnsAsync
+  nameWithType: IArchiveAgent.SetChosenColumnsAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsAsync
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationV2Async*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationV2Async
+  isExternal: true
+  name: GetArchiveConfigurationV2Async
+  nameWithType: IArchiveAgent.GetArchiveConfigurationV2Async
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveConfigurationV2Async
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsV2Async*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsV2Async
+  isExternal: true
+  name: SetColumnWidthsV2Async
+  nameWithType: IArchiveAgent.SetColumnWidthsV2Async
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.SetColumnWidthsV2Async
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesV2Async*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesV2Async
+  isExternal: true
+  name: SetChosenEntitiesV2Async
+  nameWithType: IArchiveAgent.SetChosenEntitiesV2Async
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenEntitiesV2Async
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsV2Async*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsV2Async
+  isExternal: true
+  name: SetChosenColumnsV2Async
+  nameWithType: IArchiveAgent.SetChosenColumnsV2Async
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.SetChosenColumnsV2Async
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsAsync
+  isExternal: true
+  name: GetArchiveListByColumnsAsync
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsAsync
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+  isExternal: true
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListItem[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListItem[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ArchiveListItem[]>
+  nameWithType: Task<ArchiveListItem[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ArchiveListItem[]>
+  nameWithType.vb: Task(Of ArchiveListItem())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ArchiveListItem())
+  name.vb: Task(Of ArchiveListItem())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.WebApi.Data.ArchiveListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.WebApi.Data.ArchiveListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContextAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContextAsync
+  isExternal: true
+  name: GetArchiveListByColumnsWithContextAsync
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContextAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContextAsync
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListAsync
+  isExternal: true
+  name: GetArchiveListAsync
+  nameWithType: IArchiveAgent.GetArchiveListAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListAsync
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContextAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContextAsync
+  isExternal: true
+  name: GetArchiveListWithContextAsync
+  nameWithType: IArchiveAgent.GetArchiveListWithContextAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContextAsync
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync
+  isExternal: true
+  name: GetArchiveListByColumnsWithHeaderAsync
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderAsync
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetProviderNamesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetProviderNamesAsync
+  isExternal: true
+  name: GetProviderNamesAsync
+  nameWithType: IArchiveAgent.GetProviderNamesAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetProviderNamesAsync
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync
+  isExternal: true
+  name: GetArchiveListByColumnsWithHeaderWithContextAsync
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContextAsync
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableColumnsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableColumnsAsync
+  isExternal: true
+  name: GetAvailableColumnsAsync
+  nameWithType: IArchiveAgent.GetAvailableColumnsAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableColumnsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveColumnInfo[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveColumnInfo[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ArchiveColumnInfo[]>
+  nameWithType: Task<ArchiveColumnInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ArchiveColumnInfo[]>
+  nameWithType.vb: Task(Of ArchiveColumnInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ArchiveColumnInfo())
+  name.vb: Task(Of ArchiveColumnInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableEntitiesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableEntitiesAsync
+  isExternal: true
+  name: GetAvailableEntitiesAsync
+  nameWithType: IArchiveAgent.GetAvailableEntitiesAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetAvailableEntitiesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<MDOListItem[]>
+  nameWithType: Task<MDOListItem[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.MDOListItem[]>
+  nameWithType.vb: Task(Of MDOListItem())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.MDOListItem())
+  name.vb: Task(Of MDOListItem())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.WebApi.Data.MDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.WebApi.Data.MDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumns2Async*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumns2Async
+  isExternal: true
+  name: GetArchiveListByColumns2Async
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2Async
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumns2Async
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContext2Async*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContext2Async
+  isExternal: true
+  name: GetArchiveListByColumnsWithContext2Async
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContext2Async
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithContext2Async
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveList2Async*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveList2Async
+  isExternal: true
+  name: GetArchiveList2Async
+  nameWithType: IArchiveAgent.GetArchiveList2Async
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveList2Async
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContext2Async*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContext2Async
+  isExternal: true
+  name: GetArchiveListWithContext2Async
+  nameWithType: IArchiveAgent.GetArchiveListWithContext2Async
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListWithContext2Async
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async
+  isExternal: true
+  name: GetArchiveListByColumnsWithHeader2Async
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeader2Async
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeader2Async
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async
+  isExternal: true
+  name: GetArchiveListByColumnsWithHeaderWithContext2Async
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2Async
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.ExportArchiveAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.ExportArchiveAsync
+  isExternal: true
+  name: ExportArchiveAsync
+  nameWithType: IArchiveAgent.ExportArchiveAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.ExportArchiveAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExportArchiveResult}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExportArchiveResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ExportArchiveResult>
+  nameWithType: Task<ExportArchiveResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ExportArchiveResult>
+  nameWithType.vb: Task(Of ExportArchiveResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ExportArchiveResult)
+  name.vb: Task(Of ExportArchiveResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ExportArchiveResult
+    name: ExportArchiveResult
+    nameWithType: ExportArchiveResult
+    fullName: SuperOffice.WebApi.Data.ExportArchiveResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ExportArchiveResult
+    name: ExportArchiveResult
+    nameWithType: ExportArchiveResult
+    fullName: SuperOffice.WebApi.Data.ExportArchiveResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedDataAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedDataAsync
+  isExternal: true
+  name: GetRelatedDataAsync
+  nameWithType: IArchiveAgent.GetRelatedDataAsync
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedDataAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RelatedData[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RelatedData[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RelatedData[]>
+  nameWithType: Task<RelatedData[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.RelatedData[]>
+  nameWithType.vb: Task(Of RelatedData())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.RelatedData())
+  name.vb: Task(Of RelatedData())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.RelatedData
+    name: RelatedData
+    nameWithType: RelatedData
+    fullName: SuperOffice.WebApi.Data.RelatedData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.RelatedData
+    name: RelatedData
+    nameWithType: RelatedData
+    fullName: SuperOffice.WebApi.Data.RelatedData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedData2Async*
+  commentId: Overload:SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedData2Async
+  isExternal: true
+  name: GetRelatedData2Async
+  nameWithType: IArchiveAgent.GetRelatedData2Async
+  fullName: SuperOffice.WebApi.Agents.IArchiveAgent.GetRelatedData2Async

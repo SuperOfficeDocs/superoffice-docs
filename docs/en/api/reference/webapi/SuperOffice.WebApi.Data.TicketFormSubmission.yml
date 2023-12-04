@@ -1,0 +1,350 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketFormSubmission
+  commentId: T:SuperOffice.WebApi.Data.TicketFormSubmission
+  id: TicketFormSubmission
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketFormSubmission.#ctor
+  - SuperOffice.WebApi.Data.TicketFormSubmission.EmailAddress
+  - SuperOffice.WebApi.Data.TicketFormSubmission.FormSubmissionId
+  - SuperOffice.WebApi.Data.TicketFormSubmission.Status
+  - SuperOffice.WebApi.Data.TicketFormSubmission.Status_String
+  langs:
+  - csharp
+  - vb
+  name: TicketFormSubmission
+  nameWithType: TicketFormSubmission
+  fullName: SuperOffice.WebApi.Data.TicketFormSubmission
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TicketFormSubmission.\nClass representing form submission related to ticket.    \n"
+  syntax:
+    content: 'public class TicketFormSubmission : Object'
+    content.vb: >-
+      Public Class TicketFormSubmission
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketFormSubmission.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TicketFormSubmission.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TicketFormSubmission
+  langs:
+  - csharp
+  - vb
+  name: TicketFormSubmission()
+  nameWithType: TicketFormSubmission.TicketFormSubmission()
+  fullName: SuperOffice.WebApi.Data.TicketFormSubmission.TicketFormSubmission()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TicketFormSubmission()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TicketFormSubmission.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketFormSubmission.FormSubmissionId
+  commentId: P:SuperOffice.WebApi.Data.TicketFormSubmission.FormSubmissionId
+  id: FormSubmissionId
+  parent: SuperOffice.WebApi.Data.TicketFormSubmission
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId
+  nameWithType: TicketFormSubmission.FormSubmissionId
+  fullName: SuperOffice.WebApi.Data.TicketFormSubmission.FormSubmissionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int FormSubmissionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property FormSubmissionId As Integer
+  overload: SuperOffice.WebApi.Data.TicketFormSubmission.FormSubmissionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketFormSubmission.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.TicketFormSubmission.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.TicketFormSubmission
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: TicketFormSubmission.EmailAddress
+  fullName: SuperOffice.WebApi.Data.TicketFormSubmission.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe email address of the person who submitted\n"
+  syntax:
+    content: public virtual string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.TicketFormSubmission.EmailAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketFormSubmission.Status_String
+  commentId: P:SuperOffice.WebApi.Data.TicketFormSubmission.Status_String
+  id: Status_String
+  parent: SuperOffice.WebApi.Data.TicketFormSubmission
+  langs:
+  - csharp
+  - vb
+  name: Status_String
+  nameWithType: TicketFormSubmission.Status_String
+  fullName: SuperOffice.WebApi.Data.TicketFormSubmission.Status_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat is the status of this submission\nRaw string enum value.\n"
+  syntax:
+    content: public string Status_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Status_String As String
+  overload: SuperOffice.WebApi.Data.TicketFormSubmission.Status_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketFormSubmission.Status
+    commentId: P:SuperOffice.WebApi.Data.TicketFormSubmission.Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketFormSubmission.Status
+  commentId: P:SuperOffice.WebApi.Data.TicketFormSubmission.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.TicketFormSubmission
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: TicketFormSubmission.Status
+  fullName: SuperOffice.WebApi.Data.TicketFormSubmission.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat is the status of this submission\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<FormSubmissionStatus> Status { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.FormSubmissionStatus}
+    content.vb: Public Property Status As Nullable(Of FormSubmissionStatus)
+  overload: SuperOffice.WebApi.Data.TicketFormSubmission.Status*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketFormSubmission.Status_String
+    commentId: P:SuperOffice.WebApi.Data.TicketFormSubmission.Status_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TicketFormSubmission.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketFormSubmission.#ctor
+  isExternal: true
+  name: TicketFormSubmission
+  nameWithType: TicketFormSubmission.TicketFormSubmission
+  fullName: SuperOffice.WebApi.Data.TicketFormSubmission.TicketFormSubmission
+- uid: SuperOffice.WebApi.Data.TicketFormSubmission.FormSubmissionId*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketFormSubmission.FormSubmissionId
+  isExternal: true
+  name: FormSubmissionId
+  nameWithType: TicketFormSubmission.FormSubmissionId
+  fullName: SuperOffice.WebApi.Data.TicketFormSubmission.FormSubmissionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TicketFormSubmission.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketFormSubmission.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: TicketFormSubmission.EmailAddress
+  fullName: SuperOffice.WebApi.Data.TicketFormSubmission.EmailAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TicketFormSubmission.Status_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketFormSubmission.Status_String
+  isExternal: true
+  name: Status_String
+  nameWithType: TicketFormSubmission.Status_String
+  fullName: SuperOffice.WebApi.Data.TicketFormSubmission.Status_String
+- uid: SuperOffice.WebApi.Data.TicketFormSubmission.Status
+  commentId: P:SuperOffice.WebApi.Data.TicketFormSubmission.Status
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketFormSubmission.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketFormSubmission.Status
+  isExternal: true
+  name: Status
+  nameWithType: TicketFormSubmission.Status
+  fullName: SuperOffice.WebApi.Data.TicketFormSubmission.Status
+- uid: SuperOffice.WebApi.Data.TicketFormSubmission.Status_String
+  commentId: P:SuperOffice.WebApi.Data.TicketFormSubmission.Status_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.FormSubmissionStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.FormSubmissionStatus}'
+  definition: System.Nullable`1
+  name: Nullable<FormSubmissionStatus>
+  nameWithType: Nullable<FormSubmissionStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.FormSubmissionStatus>
+  nameWithType.vb: Nullable(Of FormSubmissionStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.FormSubmissionStatus)
+  name.vb: Nullable(Of FormSubmissionStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.FormSubmissionStatus
+    name: FormSubmissionStatus
+    nameWithType: FormSubmissionStatus
+    fullName: SuperOffice.WebApi.Data.FormSubmissionStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.FormSubmissionStatus
+    name: FormSubmissionStatus
+    nameWithType: FormSubmissionStatus
+    fullName: SuperOffice.WebApi.Data.FormSubmissionStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

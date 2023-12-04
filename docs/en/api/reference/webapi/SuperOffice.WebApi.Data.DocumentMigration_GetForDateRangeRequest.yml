@@ -1,0 +1,252 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest
+  commentId: T:SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest
+  id: DocumentMigration_GetForDateRangeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.#ctor
+  - SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.DocumentPluginId
+  - SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.IncludeEmails
+  - SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MaxDate
+  - SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MinDate
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigration_GetForDateRangeRequest
+  nameWithType: DocumentMigration_GetForDateRangeRequest
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class DocumentMigration_GetForDateRangeRequest : Object'
+    content.vb: >-
+      Public Class DocumentMigration_GetForDateRangeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigration_GetForDateRangeRequest()
+  nameWithType: DocumentMigration_GetForDateRangeRequest.DocumentMigration_GetForDateRangeRequest()
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.DocumentMigration_GetForDateRangeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DocumentMigration_GetForDateRangeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.DocumentPluginId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.DocumentPluginId
+  id: DocumentPluginId
+  parent: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentPluginId
+  nameWithType: DocumentMigration_GetForDateRangeRequest.DocumentPluginId
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.DocumentPluginId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentPluginId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentPluginId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.DocumentPluginId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MinDate
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MinDate
+  id: MinDate
+  parent: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest
+  langs:
+  - csharp
+  - vb
+  name: MinDate
+  nameWithType: DocumentMigration_GetForDateRangeRequest.MinDate
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MinDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime MinDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property MinDate As DateTime
+  overload: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MinDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MaxDate
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MaxDate
+  id: MaxDate
+  parent: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest
+  langs:
+  - csharp
+  - vb
+  name: MaxDate
+  nameWithType: DocumentMigration_GetForDateRangeRequest.MaxDate
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MaxDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime MaxDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property MaxDate As DateTime
+  overload: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MaxDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.IncludeEmails
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.IncludeEmails
+  id: IncludeEmails
+  parent: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeEmails
+  nameWithType: DocumentMigration_GetForDateRangeRequest.IncludeEmails
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.IncludeEmails
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeEmails { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeEmails As Boolean
+  overload: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.IncludeEmails*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.#ctor
+  isExternal: true
+  name: DocumentMigration_GetForDateRangeRequest
+  nameWithType: DocumentMigration_GetForDateRangeRequest.DocumentMigration_GetForDateRangeRequest
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.DocumentMigration_GetForDateRangeRequest
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.DocumentPluginId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.DocumentPluginId
+  isExternal: true
+  name: DocumentPluginId
+  nameWithType: DocumentMigration_GetForDateRangeRequest.DocumentPluginId
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.DocumentPluginId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MinDate*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MinDate
+  isExternal: true
+  name: MinDate
+  nameWithType: DocumentMigration_GetForDateRangeRequest.MinDate
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MinDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MaxDate*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MaxDate
+  isExternal: true
+  name: MaxDate
+  nameWithType: DocumentMigration_GetForDateRangeRequest.MaxDate
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.MaxDate
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.IncludeEmails*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.IncludeEmails
+  isExternal: true
+  name: IncludeEmails
+  nameWithType: DocumentMigration_GetForDateRangeRequest.IncludeEmails
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForDateRangeRequest.IncludeEmails
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

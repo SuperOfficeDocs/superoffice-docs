@@ -12,6 +12,8 @@ items:
   - SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedSale
   - SuperOffice.WebApi.Data.QuoteVersionValidated.ErrorCode
   - SuperOffice.WebApi.Data.QuoteVersionValidated.IsOk
+  - SuperOffice.WebApi.Data.QuoteVersionValidated.Status
+  - SuperOffice.WebApi.Data.QuoteVersionValidated.Status_String
   - SuperOffice.WebApi.Data.QuoteVersionValidated.TechExplanation
   - SuperOffice.WebApi.Data.QuoteVersionValidated.UserExplanation
   langs:
@@ -91,7 +93,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAnswer to the question / An indication if the operation went well.\n"
+  summary: "\nAnswer to the question / An indication if the operation went well. Equivalent to Status != Error.\n"
   syntax:
     content: public virtual bool IsOk { get; set; }
     parameters: []
@@ -338,6 +340,74 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.Status_String
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionValidated.Status_String
+  id: Status_String
+  parent: SuperOffice.WebApi.Data.QuoteVersionValidated
+  langs:
+  - csharp
+  - vb
+  name: Status_String
+  nameWithType: QuoteVersionValidated.Status_String
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.Status_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nQuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false.\nRaw string enum value.\n"
+  syntax:
+    content: public string Status_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Status_String As String
+  overload: SuperOffice.WebApi.Data.QuoteVersionValidated.Status_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.QuoteVersionValidated.Status
+    commentId: P:SuperOffice.WebApi.Data.QuoteVersionValidated.Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.Status
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionValidated.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.QuoteVersionValidated
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: QuoteVersionValidated.Status
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nQuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<QuoteStatus> Status { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.QuoteStatus}
+    content.vb: Public Property Status As Nullable(Of QuoteStatus)
+  overload: SuperOffice.WebApi.Data.QuoteVersionValidated.Status*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.QuoteVersionValidated.Status_String
+    commentId: P:SuperOffice.WebApi.Data.QuoteVersionValidated.Status_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -500,3 +570,102 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.Status_String*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionValidated.Status_String
+  isExternal: true
+  name: Status_String
+  nameWithType: QuoteVersionValidated.Status_String
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.Status_String
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.Status
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionValidated.Status
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionValidated.Status
+  isExternal: true
+  name: Status
+  nameWithType: QuoteVersionValidated.Status
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.Status
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.Status_String
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionValidated.Status_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.QuoteStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.QuoteStatus}'
+  definition: System.Nullable`1
+  name: Nullable<QuoteStatus>
+  nameWithType: Nullable<QuoteStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.QuoteStatus>
+  nameWithType.vb: Nullable(Of QuoteStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.QuoteStatus)
+  name.vb: Nullable(Of QuoteStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.QuoteStatus
+    name: QuoteStatus
+    nameWithType: QuoteStatus
+    fullName: SuperOffice.WebApi.Data.QuoteStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.QuoteStatus
+    name: QuoteStatus
+    nameWithType: QuoteStatus
+    fullName: SuperOffice.WebApi.Data.QuoteStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

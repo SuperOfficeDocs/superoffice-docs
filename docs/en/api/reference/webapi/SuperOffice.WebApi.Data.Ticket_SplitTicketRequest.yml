@@ -1,0 +1,315 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_SplitTicketRequest
+  id: Ticket_SplitTicketRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.NewTicketEntity
+  - SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityActivate
+  - SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityId
+  - SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityStatusId
+  - SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.TransferMessageIds
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SplitTicketRequest
+  nameWithType: Ticket_SplitTicketRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_SplitTicketRequest : Object'
+    content.vb: >-
+      Public Class Ticket_SplitTicketRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SplitTicketRequest()
+  nameWithType: Ticket_SplitTicketRequest.Ticket_SplitTicketRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.Ticket_SplitTicketRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_SplitTicketRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityId
+  id: SourceTicketEntityId
+  parent: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest
+  langs:
+  - csharp
+  - vb
+  name: SourceTicketEntityId
+  nameWithType: Ticket_SplitTicketRequest.SourceTicketEntityId
+  fullName: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SourceTicketEntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SourceTicketEntityId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityStatusId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityStatusId
+  id: SourceTicketEntityStatusId
+  parent: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest
+  langs:
+  - csharp
+  - vb
+  name: SourceTicketEntityStatusId
+  nameWithType: Ticket_SplitTicketRequest.SourceTicketEntityStatusId
+  fullName: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityStatusId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SourceTicketEntityStatusId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SourceTicketEntityStatusId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityStatusId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityActivate
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityActivate
+  id: SourceTicketEntityActivate
+  parent: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest
+  langs:
+  - csharp
+  - vb
+  name: SourceTicketEntityActivate
+  nameWithType: Ticket_SplitTicketRequest.SourceTicketEntityActivate
+  fullName: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityActivate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime SourceTicketEntityActivate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property SourceTicketEntityActivate As DateTime
+  overload: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityActivate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.TransferMessageIds
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.TransferMessageIds
+  id: TransferMessageIds
+  parent: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest
+  langs:
+  - csharp
+  - vb
+  name: TransferMessageIds
+  nameWithType: Ticket_SplitTicketRequest.TransferMessageIds
+  fullName: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.TransferMessageIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] TransferMessageIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property TransferMessageIds As Integer()
+  overload: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.TransferMessageIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.NewTicketEntity
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.NewTicketEntity
+  id: NewTicketEntity
+  parent: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest
+  langs:
+  - csharp
+  - vb
+  name: NewTicketEntity
+  nameWithType: Ticket_SplitTicketRequest.NewTicketEntity
+  fullName: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.NewTicketEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TicketEntity NewTicketEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketEntity
+    content.vb: Public Property NewTicketEntity As TicketEntity
+  overload: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.NewTicketEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.#ctor
+  isExternal: true
+  name: Ticket_SplitTicketRequest
+  nameWithType: Ticket_SplitTicketRequest.Ticket_SplitTicketRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.Ticket_SplitTicketRequest
+- uid: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityId
+  isExternal: true
+  name: SourceTicketEntityId
+  nameWithType: Ticket_SplitTicketRequest.SourceTicketEntityId
+  fullName: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityStatusId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityStatusId
+  isExternal: true
+  name: SourceTicketEntityStatusId
+  nameWithType: Ticket_SplitTicketRequest.SourceTicketEntityStatusId
+  fullName: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityStatusId
+- uid: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityActivate*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityActivate
+  isExternal: true
+  name: SourceTicketEntityActivate
+  nameWithType: Ticket_SplitTicketRequest.SourceTicketEntityActivate
+  fullName: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.SourceTicketEntityActivate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.TransferMessageIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.TransferMessageIds
+  isExternal: true
+  name: TransferMessageIds
+  nameWithType: Ticket_SplitTicketRequest.TransferMessageIds
+  fullName: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.TransferMessageIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.NewTicketEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.NewTicketEntity
+  isExternal: true
+  name: NewTicketEntity
+  nameWithType: Ticket_SplitTicketRequest.NewTicketEntity
+  fullName: SuperOffice.WebApi.Data.Ticket_SplitTicketRequest.NewTicketEntity
+- uid: SuperOffice.WebApi.Data.TicketEntity
+  commentId: T:SuperOffice.WebApi.Data.TicketEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketEntity
+  nameWithType: TicketEntity
+  fullName: SuperOffice.WebApi.Data.TicketEntity

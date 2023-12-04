@@ -9,11 +9,14 @@ items:
   - SuperOffice.WebApi.Agents.FavouriteAgent.#ctor(System.Net.Http.HttpClient)
   - SuperOffice.WebApi.Agents.FavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.FavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.FavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.FavouriteAgent.GetFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.FavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.FavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.FavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   langs:
   - csharp
@@ -32,27 +35,31 @@ items:
   example:
   - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (FavouriteAgent agent = new FavouriteAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
   syntax:
-    content: 'public class FavouriteAgent : AgentBase, IDisposable'
+    content: 'public class FavouriteAgent : AgentBase, IFavouriteAgent, IDisposable'
     content.vb: >-
       Public Class FavouriteAgent
           Inherits AgentBase
-          Implements IDisposable
+          Implements IFavouriteAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
+  - SuperOffice.WebApi.Agents.IFavouriteAgent
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
   - SuperOffice.WebApi.Agents.AgentBase._binary
   - SuperOffice.WebApi.Agents.AgentBase._config
   - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase._disposeClient
   - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
@@ -63,6 +70,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
   - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   modifiers.csharp:
   - public
   - class
@@ -92,7 +100,7 @@ items:
     parameters:
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+      description: Use this HTTP client instead of making own HttpClient instance.
     content.vb: Public Sub New(httpClient As HttpClient)
   overload: SuperOffice.WebApi.Agents.FavouriteAgent.#ctor*
   modifiers.csharp:
@@ -125,7 +133,7 @@ items:
       description: Base URL and authentication values.
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+      description: 'Optional: Use this HTTP client instead of making a new one.'
     content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
   overload: SuperOffice.WebApi.Agents.FavouriteAgent.#ctor*
   modifiers.csharp:
@@ -158,15 +166,20 @@ items:
       description: Table name, transformed to and from numeric table id by the service layer.
     - id: recordId
       type: System.Int32
+      description: Id of a record in your specified table (tableName)
     - id: associateId
       type: System.Int32
+      description: Id of a current user
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
+      description: Is Favourite?
     content.vb: Public Function IsFavouriteAsync(tableName As String, recordId As Integer, associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.FavouriteAgent.IsFavouriteAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -197,17 +210,23 @@ items:
       description: Table name, transformed to and from numeric table id by the service layer.
     - id: recordId
       type: System.Int32
+      description: Id of a record in your specified table (tableName)
     - id: associateId
       type: System.Int32
+      description: Id of a current user
     - id: extraInfo
       type: System.String
+      description: Any extra information
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Public Function AddFavouriteAsync(tableName As String, recordId As Integer, associateId As Integer, extraInfo As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.FavouriteAgent.AddFavouriteAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -238,17 +257,23 @@ items:
       description: Table name, transformed to and from numeric table id by the service layer.
     - id: recordIds
       type: System.Int32[]
+      description: Ids of records in your specified table (tableName). Corresponding rows will be added as Favourites.
     - id: associateId
       type: System.Int32
+      description: Id of a current user
     - id: extraInfo
       type: System.String
+      description: Any extra information
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Public Function AddFavouritesAsync(tableName As String, recordIds As Integer(), associateId As Integer, extraInfo As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.FavouriteAgent.AddFavouritesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: FavouriteAgent.AddFavouritesAsync(String, Int32(), Int32, String, RequestOptions)
   modifiers.csharp:
   - public
@@ -256,6 +281,150 @@ items:
   - Public
   fullName.vb: SuperOffice.WebApi.Agents.FavouriteAgent.AddFavouritesAsync(System.String, System.Int32(), System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
   name.vb: AddFavouritesAsync(String, Int32(), Int32, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.FavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.FavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.FavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo[], Int32, String, RequestOptions)
+  nameWithType: FavouriteAgent.AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo[], Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.FavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdd a list of tickets as favourites that are given by the ticket provider.\n"
+  syntax:
+    content: public Task AddTicketsToFavouritesByProviderAsync(string providerName, ArchiveRestrictionInfo[] restrictions, int associateId, string extraInfo, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of a ticket provider
+    - id: restrictions
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+      description: Query restrictions to be added to provider. Fixed providers, such as LastTicketsProvider, FavouriteTicketsProvider etc. already have mandatory restrictions setup - in such case extra restrictions will be combined, however for general use case for fixed providers you can pass an empty array and provider will return default results. For selection providers generally you should pass selectionId as a restriction.
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    - id: extraInfo
+      type: System.String
+      description: Any extra information
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function AddTicketsToFavouritesByProviderAsync(providerName As String, restrictions As ArchiveRestrictionInfo(), associateId As Integer, extraInfo As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.FavouriteAgent.AddTicketsToFavouritesByProviderAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: FavouriteAgent.AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Int32, String, RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.FavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Int32, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.FavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveFavouritesAsync(String, Int32[], Int32, RequestOptions)
+  nameWithType: FavouriteAgent.RemoveFavouritesAsync(String, Int32[], Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouritesAsync(System.String, System.Int32[], System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemove a list of record ids from favourites for an associate\n"
+  syntax:
+    content: public Task RemoveFavouritesAsync(string tableName, int[] recordIds, int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.
+    - id: recordIds
+      type: System.Int32[]
+      description: Ids of records in your specified table (tableName). Corresponding rows will be removed from Favourites.
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function RemoveFavouritesAsync(tableName As String, recordIds As Integer(), associateId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouritesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: FavouriteAgent.RemoveFavouritesAsync(String, Int32(), Int32, RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouritesAsync(System.String, System.Int32(), System.Int32, SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveFavouritesAsync(String, Int32(), Int32, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.FavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo[], Int32, RequestOptions)
+  nameWithType: FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo[], Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemove a list of tickets from favourites that are given by the ticket provider.\n"
+  syntax:
+    content: public Task RemoveTicketsFromFavouritesByProviderAsync(string providerName, ArchiveRestrictionInfo[] restrictions, int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of a ticket provider
+    - id: restrictions
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+      description: Query restrictions to be added to provider. Fixed providers, such as LastTicketsProvider, FavouriteTicketsProvider etc. already have mandatory restrictions setup - in such case extra restrictions will be combined, however for general use case for fixed providers you can pass an empty array and provider will return default results. For selection providers generally you should pass selectionId as a restriction.
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function RemoveTicketsFromFavouritesByProviderAsync(providerName As String, restrictions As ArchiveRestrictionInfo(), associateId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Int32, RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.Int32, SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Int32, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.FavouriteAgent.GetFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.FavouriteAgent.GetFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -282,13 +451,17 @@ items:
       description: Table name, transformed to and from numeric table id by the service layer.
     - id: associateId
       type: System.Int32
+      description: Id of a current user
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Favourite[]}
+      description: Requested favourites for a table and associate
     content.vb: Public Function GetFavouritesAsync(tableName As String, associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Favourite())
   overload: SuperOffice.WebApi.Agents.FavouriteAgent.GetFavouritesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -319,15 +492,20 @@ items:
       description: Table name, transformed to and from numeric table id by the service layer.
     - id: recordId
       type: System.Int32
+      description: Id of a record in your specified table (tableName)
     - id: associateId
       type: System.Int32
+      description: Id of a current user
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Public Function RemoveFavouriteAsync(tableName As String, recordId As Integer, associateId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouriteAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -358,13 +536,17 @@ items:
       description: Table name, transformed to and from numeric table id by the service layer.
     - id: associateId
       type: System.Int32
+      description: Id of a current user
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Public Function RemoveAllFavouritesAsync(tableName As String, associateId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveAllFavouritesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -395,10 +577,13 @@ items:
       description: Table name, transformed to and from numeric table id by the service layer.
     - id: recordId
       type: System.Int32
+      description: Id of a record in your specified table (tableName)
     - id: associateId
       type: System.Int32
+      description: Id of a current user
     - id: extraInfo
       type: System.String
+      description: Any extra information
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: 'Override language/culture codes on this request. '
@@ -407,6 +592,8 @@ items:
       description: Return the new value, true if added, false if removed
     content.vb: Public Function ToggleFavouriteAsync(tableName As String, recordId As Integer, associateId As Integer, extraInfo As String, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.FavouriteAgent.ToggleFavouriteAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -440,8 +627,11 @@ items:
       description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Public Function RemoveFavouritesByIdAsync(favouriteIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouritesByIdAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: FavouriteAgent.RemoveFavouritesByIdAsync(Int32(), RequestOptions)
   modifiers.csharp:
   - public
@@ -470,6 +660,13 @@ references:
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent
+  commentId: T:SuperOffice.WebApi.Agents.IFavouriteAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: IFavouriteAgent
+  nameWithType: IFavouriteAgent
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent
 - uid: System.IDisposable
   isExternal: true
   name: IDisposable
@@ -503,6 +700,13 @@ references:
   name: _client
   nameWithType: AgentBase._client
   fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _disposeClient
+  nameWithType: AgentBase._disposeClient
+  fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
 - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
@@ -754,32 +958,136 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ParseAuthorization(IAuthorization)
-  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  name: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-    name: ParseAuthorization
-    nameWithType: AgentBase.ParseAuthorization
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
-    name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
     nameWithType: AgentBase.ParseAuthorization
     fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
@@ -787,10 +1095,27 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
     nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
     nameWithType: )
@@ -911,6 +1236,127 @@ references:
     name: Object
     nameWithType: Object
     fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -1196,6 +1642,13 @@ references:
   name: ProgressListener
   nameWithType: AgentBase.ProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: UploadProgressListener
+  nameWithType: AgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1232,6 +1685,95 @@ references:
   name: IsFavouriteAsync
   nameWithType: FavouriteAgent.IsFavouriteAsync
   fullName: SuperOffice.WebApi.Agents.FavouriteAgent.IsFavouriteAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  isExternal: true
+  name: IsFavouriteAsync(String, Int32, Int32, RequestOptions)
+  nameWithType: IFavouriteAgent.IsFavouriteAsync(String, Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync(System.String, System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: IsFavouriteAsync
+    nameWithType: IFavouriteAgent.IsFavouriteAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: IsFavouriteAsync
+    nameWithType: IFavouriteAgent.IsFavouriteAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1340,6 +1882,111 @@ references:
   name: AddFavouriteAsync
   nameWithType: FavouriteAgent.AddFavouriteAsync
   fullName: SuperOffice.WebApi.Agents.FavouriteAgent.AddFavouriteAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  isExternal: true
+  name: AddFavouriteAsync(String, Int32, Int32, String, RequestOptions)
+  nameWithType: IFavouriteAgent.AddFavouriteAsync(String, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync(System.String, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: AddFavouriteAsync
+    nameWithType: IFavouriteAgent.AddFavouriteAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: AddFavouriteAsync
+    nameWithType: IFavouriteAgent.AddFavouriteAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task
   isExternal: true
   name: Task
@@ -1351,6 +1998,120 @@ references:
   name: AddFavouritesAsync
   nameWithType: FavouriteAgent.AddFavouritesAsync
   fullName: SuperOffice.WebApi.Agents.FavouriteAgent.AddFavouritesAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  isExternal: true
+  name: AddFavouritesAsync(String, Int32[], Int32, String, RequestOptions)
+  nameWithType: IFavouriteAgent.AddFavouritesAsync(String, Int32[], Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync(System.String, System.Int32[], System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IFavouriteAgent.AddFavouritesAsync(String, Int32(), Int32, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync(System.String, System.Int32(), System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: AddFavouritesAsync(String, Int32(), Int32, String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: AddFavouritesAsync
+    nameWithType: IFavouriteAgent.AddFavouritesAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: AddFavouritesAsync
+    nameWithType: IFavouriteAgent.AddFavouritesAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -1377,12 +2138,439 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.WebApi.Agents.FavouriteAgent.AddTicketsToFavouritesByProviderAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.FavouriteAgent.AddTicketsToFavouritesByProviderAsync
+  isExternal: true
+  name: AddTicketsToFavouritesByProviderAsync
+  nameWithType: FavouriteAgent.AddTicketsToFavouritesByProviderAsync
+  fullName: SuperOffice.WebApi.Agents.FavouriteAgent.AddTicketsToFavouritesByProviderAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  isExternal: true
+  name: AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo[], Int32, String, RequestOptions)
+  nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo[], Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Int32, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Int32, String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: AddTicketsToFavouritesByProviderAsync
+    nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProviderAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: AddTicketsToFavouritesByProviderAsync
+    nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProviderAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouritesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouritesAsync
+  isExternal: true
+  name: RemoveFavouritesAsync
+  nameWithType: FavouriteAgent.RemoveFavouritesAsync
+  fullName: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouritesAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  isExternal: true
+  name: RemoveFavouritesAsync(String, Int32[], Int32, RequestOptions)
+  nameWithType: IFavouriteAgent.RemoveFavouritesAsync(String, Int32[], Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync(System.String, System.Int32[], System.Int32, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IFavouriteAgent.RemoveFavouritesAsync(String, Int32(), Int32, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync(System.String, System.Int32(), System.Int32, SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveFavouritesAsync(String, Int32(), Int32, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: RemoveFavouritesAsync
+    nameWithType: IFavouriteAgent.RemoveFavouritesAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: RemoveFavouritesAsync
+    nameWithType: IFavouriteAgent.RemoveFavouritesAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync
+  isExternal: true
+  name: RemoveTicketsFromFavouritesByProviderAsync
+  nameWithType: FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync
+  fullName: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  isExternal: true
+  name: RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo[], Int32, RequestOptions)
+  nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo[], Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.Int32, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Int32, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.Int32, SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Int32, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: RemoveTicketsFromFavouritesByProviderAsync
+    nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: RemoveTicketsFromFavouritesByProviderAsync
+    nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.FavouriteAgent.GetFavouritesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.FavouriteAgent.GetFavouritesAsync
   isExternal: true
   name: GetFavouritesAsync
   nameWithType: FavouriteAgent.GetFavouritesAsync
   fullName: SuperOffice.WebApi.Agents.FavouriteAgent.GetFavouritesAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  isExternal: true
+  name: GetFavouritesAsync(String, Int32, RequestOptions)
+  nameWithType: IFavouriteAgent.GetFavouritesAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetFavouritesAsync
+    nameWithType: IFavouriteAgent.GetFavouritesAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetFavouritesAsync
+    nameWithType: IFavouriteAgent.GetFavouritesAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Favourite[]}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Favourite[]}'
   definition: System.Threading.Tasks.Task`1
@@ -1438,21 +2626,354 @@ references:
   name: RemoveFavouriteAsync
   nameWithType: FavouriteAgent.RemoveFavouriteAsync
   fullName: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouriteAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  isExternal: true
+  name: RemoveFavouriteAsync(String, Int32, Int32, RequestOptions)
+  nameWithType: IFavouriteAgent.RemoveFavouriteAsync(String, Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync(System.String, System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: RemoveFavouriteAsync
+    nameWithType: IFavouriteAgent.RemoveFavouriteAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: RemoveFavouriteAsync
+    nameWithType: IFavouriteAgent.RemoveFavouriteAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveAllFavouritesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.FavouriteAgent.RemoveAllFavouritesAsync
   isExternal: true
   name: RemoveAllFavouritesAsync
   nameWithType: FavouriteAgent.RemoveAllFavouritesAsync
   fullName: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveAllFavouritesAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  isExternal: true
+  name: RemoveAllFavouritesAsync(String, Int32, RequestOptions)
+  nameWithType: IFavouriteAgent.RemoveAllFavouritesAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: RemoveAllFavouritesAsync
+    nameWithType: IFavouriteAgent.RemoveAllFavouritesAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: RemoveAllFavouritesAsync
+    nameWithType: IFavouriteAgent.RemoveAllFavouritesAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.FavouriteAgent.ToggleFavouriteAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.FavouriteAgent.ToggleFavouriteAsync
   isExternal: true
   name: ToggleFavouriteAsync
   nameWithType: FavouriteAgent.ToggleFavouriteAsync
   fullName: SuperOffice.WebApi.Agents.FavouriteAgent.ToggleFavouriteAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  isExternal: true
+  name: ToggleFavouriteAsync(String, Int32, Int32, String, RequestOptions)
+  nameWithType: IFavouriteAgent.ToggleFavouriteAsync(String, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync(System.String, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: ToggleFavouriteAsync
+    nameWithType: IFavouriteAgent.ToggleFavouriteAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: ToggleFavouriteAsync
+    nameWithType: IFavouriteAgent.ToggleFavouriteAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouritesByIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouritesByIdAsync
   isExternal: true
   name: RemoveFavouritesByIdAsync
   nameWithType: FavouriteAgent.RemoveFavouritesByIdAsync
   fullName: SuperOffice.WebApi.Agents.FavouriteAgent.RemoveFavouritesByIdAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  isExternal: true
+  name: RemoveFavouritesByIdAsync(Int32[], RequestOptions)
+  nameWithType: IFavouriteAgent.RemoveFavouritesByIdAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IFavouriteAgent.RemoveFavouritesByIdAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveFavouritesByIdAsync(Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: RemoveFavouritesByIdAsync
+    nameWithType: IFavouriteAgent.RemoveFavouritesByIdAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: RemoveFavouritesByIdAsync
+    nameWithType: IFavouriteAgent.RemoveFavouritesByIdAsync
+    fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

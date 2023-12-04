@@ -23,7 +23,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nUrl encoding\n"
+  summary: "\nUrl encoding\nThis Enum is used by:  TaskMenu.encoding\n"
   syntax:
     content: 'public sealed class UrlEncoding : Enum'
     content.vb: >-
@@ -59,10 +59,10 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   syntax:
-    content: public int value__
+    content: public short value__
     return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
+      type: System.Int16
+    content.vb: Public value__ As Short
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -203,13 +203,13 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
+- uid: System.Int16
+  commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.UrlEncoding
   commentId: T:SuperOffice.WebApi.Data.UrlEncoding
   parent: SuperOffice.WebApi.Data

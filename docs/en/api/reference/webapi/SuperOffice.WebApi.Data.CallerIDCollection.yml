@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CallerIDCollection
+  commentId: T:SuperOffice.WebApi.Data.CallerIDCollection
+  id: CallerIDCollection
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CallerIDCollection.#ctor
+  - SuperOffice.WebApi.Data.CallerIDCollection.CallerIDHash
+  - SuperOffice.WebApi.Data.CallerIDCollection.CallerIDs
+  langs:
+  - csharp
+  - vb
+  name: CallerIDCollection
+  nameWithType: CallerIDCollection
+  fullName: SuperOffice.WebApi.Data.CallerIDCollection
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CallerIDCollection.\nCollection of caller ids with their corresponding hash    \n"
+  syntax:
+    content: 'public class CallerIDCollection : Object'
+    content.vb: >-
+      Public Class CallerIDCollection
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PocketAgent
+    commentId: T:SuperOffice.WebApi.Agents.PocketAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CallerIDCollection.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CallerIDCollection.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CallerIDCollection
+  langs:
+  - csharp
+  - vb
+  name: CallerIDCollection()
+  nameWithType: CallerIDCollection.CallerIDCollection()
+  fullName: SuperOffice.WebApi.Data.CallerIDCollection.CallerIDCollection()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CallerIDCollection()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CallerIDCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CallerIDCollection.CallerIDHash
+  commentId: P:SuperOffice.WebApi.Data.CallerIDCollection.CallerIDHash
+  id: CallerIDHash
+  parent: SuperOffice.WebApi.Data.CallerIDCollection
+  langs:
+  - csharp
+  - vb
+  name: CallerIDHash
+  nameWithType: CallerIDCollection.CallerIDHash
+  fullName: SuperOffice.WebApi.Data.CallerIDCollection.CallerIDHash
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHash of the caller ids, used for checking if the same set of caller ids was sent earlier\n"
+  syntax:
+    content: public virtual string CallerIDHash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CallerIDHash As String
+  overload: SuperOffice.WebApi.Data.CallerIDCollection.CallerIDHash*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CallerIDCollection.CallerIDs
+  commentId: P:SuperOffice.WebApi.Data.CallerIDCollection.CallerIDs
+  id: CallerIDs
+  parent: SuperOffice.WebApi.Data.CallerIDCollection
+  langs:
+  - csharp
+  - vb
+  name: CallerIDs
+  nameWithType: CallerIDCollection.CallerIDs
+  fullName: SuperOffice.WebApi.Data.CallerIDCollection.CallerIDs
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray of caller ids, sorted numerically on the phone number\n"
+  syntax:
+    content: public virtual CallerID[] CallerIDs { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CallerID[]
+    content.vb: Public Overridable Property CallerIDs As CallerID()
+  overload: SuperOffice.WebApi.Data.CallerIDCollection.CallerIDs*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.PocketAgent
+  commentId: T:SuperOffice.WebApi.Agents.PocketAgent
+  isExternal: true
+  name: PocketAgent
+  nameWithType: PocketAgent
+  fullName: SuperOffice.WebApi.Agents.PocketAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CallerIDCollection.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CallerIDCollection.#ctor
+  isExternal: true
+  name: CallerIDCollection
+  nameWithType: CallerIDCollection.CallerIDCollection
+  fullName: SuperOffice.WebApi.Data.CallerIDCollection.CallerIDCollection
+- uid: SuperOffice.WebApi.Data.CallerIDCollection.CallerIDHash*
+  commentId: Overload:SuperOffice.WebApi.Data.CallerIDCollection.CallerIDHash
+  isExternal: true
+  name: CallerIDHash
+  nameWithType: CallerIDCollection.CallerIDHash
+  fullName: SuperOffice.WebApi.Data.CallerIDCollection.CallerIDHash
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CallerIDCollection.CallerIDs*
+  commentId: Overload:SuperOffice.WebApi.Data.CallerIDCollection.CallerIDs
+  isExternal: true
+  name: CallerIDs
+  nameWithType: CallerIDCollection.CallerIDs
+  fullName: SuperOffice.WebApi.Data.CallerIDCollection.CallerIDs
+- uid: SuperOffice.WebApi.Data.CallerID[]
+  isExternal: true
+  name: CallerID[]
+  nameWithType: CallerID[]
+  fullName: SuperOffice.WebApi.Data.CallerID[]
+  nameWithType.vb: CallerID()
+  fullName.vb: SuperOffice.WebApi.Data.CallerID()
+  name.vb: CallerID()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.CallerID
+    name: CallerID
+    nameWithType: CallerID
+    fullName: SuperOffice.WebApi.Data.CallerID
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.CallerID
+    name: CallerID
+    nameWithType: CallerID
+    fullName: SuperOffice.WebApi.Data.CallerID
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

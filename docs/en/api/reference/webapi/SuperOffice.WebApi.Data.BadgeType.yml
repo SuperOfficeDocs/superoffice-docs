@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BadgeType
+  commentId: T:SuperOffice.WebApi.Data.BadgeType
+  id: BadgeType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BadgeType.Comment
+  - SuperOffice.WebApi.Data.BadgeType.Forward
+  - SuperOffice.WebApi.Data.BadgeType.Incoming
+  - SuperOffice.WebApi.Data.BadgeType.Outgoing
+  - SuperOffice.WebApi.Data.BadgeType.Reply
+  - SuperOffice.WebApi.Data.BadgeType.Unknown
+  - SuperOffice.WebApi.Data.BadgeType.value__
+  langs:
+  - csharp
+  - vb
+  name: BadgeType
+  nameWithType: BadgeType
+  fullName: SuperOffice.WebApi.Data.BadgeType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue for field &apos;badge&apos; in table &apos;ej_message&apos;. Defines the initial source of a message.\nThis Enum is used by:  ej_message.badge\n"
+  syntax:
+    content: 'public sealed class BadgeType : Enum'
+    content.vb: >-
+      Public NotInheritable Class BadgeType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.BadgeType.value__
+  commentId: F:SuperOffice.WebApi.Data.BadgeType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.BadgeType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: BadgeType.value__
+  fullName: SuperOffice.WebApi.Data.BadgeType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BadgeType.Unknown
+  commentId: F:SuperOffice.WebApi.Data.BadgeType.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.BadgeType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: BadgeType.Unknown
+  fullName: SuperOffice.WebApi.Data.BadgeType.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Initial message source is unknown\n"
+  syntax:
+    content: public const BadgeType Unknown
+    return:
+      type: SuperOffice.WebApi.Data.BadgeType
+    content.vb: Public Const Unknown As BadgeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BadgeType.Reply
+  commentId: F:SuperOffice.WebApi.Data.BadgeType.Reply
+  id: Reply
+  parent: SuperOffice.WebApi.Data.BadgeType
+  langs:
+  - csharp
+  - vb
+  name: Reply
+  nameWithType: BadgeType.Reply
+  fullName: SuperOffice.WebApi.Data.BadgeType.Reply
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Message created as a reply\n"
+  syntax:
+    content: public const BadgeType Reply
+    return:
+      type: SuperOffice.WebApi.Data.BadgeType
+    content.vb: Public Const Reply As BadgeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BadgeType.Forward
+  commentId: F:SuperOffice.WebApi.Data.BadgeType.Forward
+  id: Forward
+  parent: SuperOffice.WebApi.Data.BadgeType
+  langs:
+  - csharp
+  - vb
+  name: Forward
+  nameWithType: BadgeType.Forward
+  fullName: SuperOffice.WebApi.Data.BadgeType.Forward
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Message created as a forward\n"
+  syntax:
+    content: public const BadgeType Forward
+    return:
+      type: SuperOffice.WebApi.Data.BadgeType
+    content.vb: Public Const Forward As BadgeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BadgeType.Comment
+  commentId: F:SuperOffice.WebApi.Data.BadgeType.Comment
+  id: Comment
+  parent: SuperOffice.WebApi.Data.BadgeType
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: BadgeType.Comment
+  fullName: SuperOffice.WebApi.Data.BadgeType.Comment
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Message created as an internal comment\n"
+  syntax:
+    content: public const BadgeType Comment
+    return:
+      type: SuperOffice.WebApi.Data.BadgeType
+    content.vb: Public Const Comment As BadgeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BadgeType.Incoming
+  commentId: F:SuperOffice.WebApi.Data.BadgeType.Incoming
+  id: Incoming
+  parent: SuperOffice.WebApi.Data.BadgeType
+  langs:
+  - csharp
+  - vb
+  name: Incoming
+  nameWithType: BadgeType.Incoming
+  fullName: SuperOffice.WebApi.Data.BadgeType.Incoming
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Message created as a result of other events processing\n"
+  syntax:
+    content: public const BadgeType Incoming
+    return:
+      type: SuperOffice.WebApi.Data.BadgeType
+    content.vb: Public Const Incoming As BadgeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BadgeType.Outgoing
+  commentId: F:SuperOffice.WebApi.Data.BadgeType.Outgoing
+  id: Outgoing
+  parent: SuperOffice.WebApi.Data.BadgeType
+  langs:
+  - csharp
+  - vb
+  name: Outgoing
+  nameWithType: BadgeType.Outgoing
+  fullName: SuperOffice.WebApi.Data.BadgeType.Outgoing
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Message created as first outgoing message on ticket\n"
+  syntax:
+    content: public const BadgeType Outgoing
+    return:
+      type: SuperOffice.WebApi.Data.BadgeType
+    content.vb: Public Const Outgoing As BadgeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.BadgeType
+  commentId: T:SuperOffice.WebApi.Data.BadgeType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: BadgeType
+  nameWithType: BadgeType
+  fullName: SuperOffice.WebApi.Data.BadgeType

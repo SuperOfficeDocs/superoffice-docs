@@ -10,6 +10,14 @@ items:
   - SuperOffice.WebApi.Data.TicketBaseStatus.Deleted
   - SuperOffice.WebApi.Data.TicketBaseStatus.Merged
   - SuperOffice.WebApi.Data.TicketBaseStatus.Postponed
+  - SuperOffice.WebApi.Data.TicketBaseStatus.Postponed1Hour
+  - SuperOffice.WebApi.Data.TicketBaseStatus.Postponed2Hours
+  - SuperOffice.WebApi.Data.TicketBaseStatus.Postponed3Hours
+  - SuperOffice.WebApi.Data.TicketBaseStatus.Postponed4Hours
+  - SuperOffice.WebApi.Data.TicketBaseStatus.PostponedDay
+  - SuperOffice.WebApi.Data.TicketBaseStatus.PostponedMonth
+  - SuperOffice.WebApi.Data.TicketBaseStatus.PostponedSpecific
+  - SuperOffice.WebApi.Data.TicketBaseStatus.PostponedWeek
   - SuperOffice.WebApi.Data.TicketBaseStatus.Unknown
   - SuperOffice.WebApi.Data.TicketBaseStatus.value__
   langs:
@@ -237,6 +245,238 @@ items:
     return:
       type: SuperOffice.WebApi.Data.TicketBaseStatus
     content.vb: Public Const Merged As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedSpecific
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.PostponedSpecific
+  id: PostponedSpecific
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: PostponedSpecific
+  nameWithType: TicketBaseStatus.PostponedSpecific
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedSpecific
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1001: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  syntax:
+    content: public const TicketBaseStatus PostponedSpecific
+    return:
+      type: SuperOffice.WebApi.Data.TicketBaseStatus
+    content.vb: Public Const PostponedSpecific As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed1Hour
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Postponed1Hour
+  id: Postponed1Hour
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: Postponed1Hour
+  nameWithType: TicketBaseStatus.Postponed1Hour
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed1Hour
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1002: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  syntax:
+    content: public const TicketBaseStatus Postponed1Hour
+    return:
+      type: SuperOffice.WebApi.Data.TicketBaseStatus
+    content.vb: Public Const Postponed1Hour As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed2Hours
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Postponed2Hours
+  id: Postponed2Hours
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: Postponed2Hours
+  nameWithType: TicketBaseStatus.Postponed2Hours
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed2Hours
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1003: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  syntax:
+    content: public const TicketBaseStatus Postponed2Hours
+    return:
+      type: SuperOffice.WebApi.Data.TicketBaseStatus
+    content.vb: Public Const Postponed2Hours As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed3Hours
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Postponed3Hours
+  id: Postponed3Hours
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: Postponed3Hours
+  nameWithType: TicketBaseStatus.Postponed3Hours
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed3Hours
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1004: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  syntax:
+    content: public const TicketBaseStatus Postponed3Hours
+    return:
+      type: SuperOffice.WebApi.Data.TicketBaseStatus
+    content.vb: Public Const Postponed3Hours As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed4Hours
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.Postponed4Hours
+  id: Postponed4Hours
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: Postponed4Hours
+  nameWithType: TicketBaseStatus.Postponed4Hours
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.Postponed4Hours
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1005: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  syntax:
+    content: public const TicketBaseStatus Postponed4Hours
+    return:
+      type: SuperOffice.WebApi.Data.TicketBaseStatus
+    content.vb: Public Const Postponed4Hours As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedDay
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.PostponedDay
+  id: PostponedDay
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: PostponedDay
+  nameWithType: TicketBaseStatus.PostponedDay
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedDay
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1006: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  syntax:
+    content: public const TicketBaseStatus PostponedDay
+    return:
+      type: SuperOffice.WebApi.Data.TicketBaseStatus
+    content.vb: Public Const PostponedDay As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedWeek
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.PostponedWeek
+  id: PostponedWeek
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: PostponedWeek
+  nameWithType: TicketBaseStatus.PostponedWeek
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedWeek
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1007: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  syntax:
+    content: public const TicketBaseStatus PostponedWeek
+    return:
+      type: SuperOffice.WebApi.Data.TicketBaseStatus
+    content.vb: Public Const PostponedWeek As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedMonth
+  commentId: F:SuperOffice.WebApi.Data.TicketBaseStatus.PostponedMonth
+  id: PostponedMonth
+  parent: SuperOffice.WebApi.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: PostponedMonth
+  nameWithType: TicketBaseStatus.PostponedMonth
+  fullName: SuperOffice.WebApi.Data.TicketBaseStatus.PostponedMonth
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1008: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
+  syntax:
+    content: public const TicketBaseStatus PostponedMonth
+    return:
+      type: SuperOffice.WebApi.Data.TicketBaseStatus
+    content.vb: Public Const PostponedMonth As TicketBaseStatus
   modifiers.csharp:
   - public
   - const

@@ -1,0 +1,333 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry
+  commentId: T:SuperOffice.WebApi.Data.PreviewFaqEntry
+  id: PreviewFaqEntry
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PreviewFaqEntry.#ctor
+  - SuperOffice.WebApi.Data.PreviewFaqEntry.Answer
+  - SuperOffice.WebApi.Data.PreviewFaqEntry.Question
+  - SuperOffice.WebApi.Data.PreviewFaqEntry.RegisteredByFullName
+  - SuperOffice.WebApi.Data.PreviewFaqEntry.Title
+  - SuperOffice.WebApi.Data.PreviewFaqEntry.Updated
+  langs:
+  - csharp
+  - vb
+  name: PreviewFaqEntry
+  nameWithType: PreviewFaqEntry
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PreviewFaqEntry.\nA faq entry with information suitable for preview.    \n"
+  syntax:
+    content: 'public class PreviewFaqEntry : Carrier'
+    content.vb: >-
+      Public Class PreviewFaqEntry
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PreviewFaqEntry.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PreviewFaqEntry
+  langs:
+  - csharp
+  - vb
+  name: PreviewFaqEntry()
+  nameWithType: PreviewFaqEntry.PreviewFaqEntry()
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.PreviewFaqEntry()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PreviewFaqEntry()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PreviewFaqEntry.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.Title
+  commentId: P:SuperOffice.WebApi.Data.PreviewFaqEntry.Title
+  id: Title
+  parent: SuperOffice.WebApi.Data.PreviewFaqEntry
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: PreviewFaqEntry.Title
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.Title
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe title of this entry.\n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.WebApi.Data.PreviewFaqEntry.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.RegisteredByFullName
+  commentId: P:SuperOffice.WebApi.Data.PreviewFaqEntry.RegisteredByFullName
+  id: RegisteredByFullName
+  parent: SuperOffice.WebApi.Data.PreviewFaqEntry
+  langs:
+  - csharp
+  - vb
+  name: RegisteredByFullName
+  nameWithType: PreviewFaqEntry.RegisteredByFullName
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.RegisteredByFullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFull name of associate that created this faq entry\n"
+  syntax:
+    content: public virtual string RegisteredByFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RegisteredByFullName As String
+  overload: SuperOffice.WebApi.Data.PreviewFaqEntry.RegisteredByFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.Updated
+  commentId: P:SuperOffice.WebApi.Data.PreviewFaqEntry.Updated
+  id: Updated
+  parent: SuperOffice.WebApi.Data.PreviewFaqEntry
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: PreviewFaqEntry.Updated
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.Updated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDate/time this faq entry was last updated.\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As DateTime
+  overload: SuperOffice.WebApi.Data.PreviewFaqEntry.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.Question
+  commentId: P:SuperOffice.WebApi.Data.PreviewFaqEntry.Question
+  id: Question
+  parent: SuperOffice.WebApi.Data.PreviewFaqEntry
+  langs:
+  - csharp
+  - vb
+  name: Question
+  nameWithType: PreviewFaqEntry.Question
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.Question
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe question for this entry.\n"
+  syntax:
+    content: public virtual string Question { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Question As String
+  overload: SuperOffice.WebApi.Data.PreviewFaqEntry.Question*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.Answer
+  commentId: P:SuperOffice.WebApi.Data.PreviewFaqEntry.Answer
+  id: Answer
+  parent: SuperOffice.WebApi.Data.PreviewFaqEntry
+  langs:
+  - csharp
+  - vb
+  name: Answer
+  nameWithType: PreviewFaqEntry.Answer
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.Answer
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe answer for this entry.\n"
+  syntax:
+    content: public virtual string Answer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Answer As String
+  overload: SuperOffice.WebApi.Data.PreviewFaqEntry.Answer*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewFaqEntry.#ctor
+  isExternal: true
+  name: PreviewFaqEntry
+  nameWithType: PreviewFaqEntry.PreviewFaqEntry
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.PreviewFaqEntry
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.Title*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewFaqEntry.Title
+  isExternal: true
+  name: Title
+  nameWithType: PreviewFaqEntry.Title
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.RegisteredByFullName*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewFaqEntry.RegisteredByFullName
+  isExternal: true
+  name: RegisteredByFullName
+  nameWithType: PreviewFaqEntry.RegisteredByFullName
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.RegisteredByFullName
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.Updated*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewFaqEntry.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: PreviewFaqEntry.Updated
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.Updated
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.Question*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewFaqEntry.Question
+  isExternal: true
+  name: Question
+  nameWithType: PreviewFaqEntry.Question
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.Question
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.Answer*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewFaqEntry.Answer
+  isExternal: true
+  name: Answer
+  nameWithType: PreviewFaqEntry.Answer
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.Answer

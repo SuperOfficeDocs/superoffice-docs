@@ -1,0 +1,274 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TargetRevisionHistory
+  commentId: T:SuperOffice.WebApi.Data.TargetRevisionHistory
+  id: TargetRevisionHistory
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TargetRevisionHistory.#ctor
+  - SuperOffice.WebApi.Data.TargetRevisionHistory.Revisions
+  - SuperOffice.WebApi.Data.TargetRevisionHistory.TargetGroupId
+  - SuperOffice.WebApi.Data.TargetRevisionHistory.Year
+  langs:
+  - csharp
+  - vb
+  name: TargetRevisionHistory
+  nameWithType: TargetRevisionHistory
+  fullName: SuperOffice.WebApi.Data.TargetRevisionHistory
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TargetRevisionHistory.\nTarget revision history carrier    \n"
+  syntax:
+    content: 'public class TargetRevisionHistory : Carrier'
+    content.vb: >-
+      Public Class TargetRevisionHistory
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.TargetsAgent
+    commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TargetRevisionHistory.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TargetRevisionHistory.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TargetRevisionHistory
+  langs:
+  - csharp
+  - vb
+  name: TargetRevisionHistory()
+  nameWithType: TargetRevisionHistory.TargetRevisionHistory()
+  fullName: SuperOffice.WebApi.Data.TargetRevisionHistory.TargetRevisionHistory()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TargetRevisionHistory()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TargetRevisionHistory.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TargetRevisionHistory.TargetGroupId
+  commentId: P:SuperOffice.WebApi.Data.TargetRevisionHistory.TargetGroupId
+  id: TargetGroupId
+  parent: SuperOffice.WebApi.Data.TargetRevisionHistory
+  langs:
+  - csharp
+  - vb
+  name: TargetGroupId
+  nameWithType: TargetRevisionHistory.TargetGroupId
+  fullName: SuperOffice.WebApi.Data.TargetRevisionHistory.TargetGroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe group id - but it may not still exist\n"
+  syntax:
+    content: public virtual int TargetGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TargetGroupId As Integer
+  overload: SuperOffice.WebApi.Data.TargetRevisionHistory.TargetGroupId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TargetRevisionHistory.Year
+  commentId: P:SuperOffice.WebApi.Data.TargetRevisionHistory.Year
+  id: Year
+  parent: SuperOffice.WebApi.Data.TargetRevisionHistory
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: TargetRevisionHistory.Year
+  fullName: SuperOffice.WebApi.Data.TargetRevisionHistory.Year
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe year this set of targets are associated with (2020, 2021...)\n"
+  syntax:
+    content: public virtual int Year { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Year As Integer
+  overload: SuperOffice.WebApi.Data.TargetRevisionHistory.Year*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TargetRevisionHistory.Revisions
+  commentId: P:SuperOffice.WebApi.Data.TargetRevisionHistory.Revisions
+  id: Revisions
+  parent: SuperOffice.WebApi.Data.TargetRevisionHistory
+  langs:
+  - csharp
+  - vb
+  name: Revisions
+  nameWithType: TargetRevisionHistory.Revisions
+  fullName: SuperOffice.WebApi.Data.TargetRevisionHistory.Revisions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCollection of revisions (with changes)\n"
+  syntax:
+    content: public virtual TargetRevision[] Revisions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TargetRevision[]
+    content.vb: Public Overridable Property Revisions As TargetRevision()
+  overload: SuperOffice.WebApi.Data.TargetRevisionHistory.Revisions*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.TargetsAgent
+  commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
+  isExternal: true
+  name: TargetsAgent
+  nameWithType: TargetsAgent
+  fullName: SuperOffice.WebApi.Agents.TargetsAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TargetRevisionHistory.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetRevisionHistory.#ctor
+  isExternal: true
+  name: TargetRevisionHistory
+  nameWithType: TargetRevisionHistory.TargetRevisionHistory
+  fullName: SuperOffice.WebApi.Data.TargetRevisionHistory.TargetRevisionHistory
+- uid: SuperOffice.WebApi.Data.TargetRevisionHistory.TargetGroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetRevisionHistory.TargetGroupId
+  isExternal: true
+  name: TargetGroupId
+  nameWithType: TargetRevisionHistory.TargetGroupId
+  fullName: SuperOffice.WebApi.Data.TargetRevisionHistory.TargetGroupId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TargetRevisionHistory.Year*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetRevisionHistory.Year
+  isExternal: true
+  name: Year
+  nameWithType: TargetRevisionHistory.Year
+  fullName: SuperOffice.WebApi.Data.TargetRevisionHistory.Year
+- uid: SuperOffice.WebApi.Data.TargetRevisionHistory.Revisions*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetRevisionHistory.Revisions
+  isExternal: true
+  name: Revisions
+  nameWithType: TargetRevisionHistory.Revisions
+  fullName: SuperOffice.WebApi.Data.TargetRevisionHistory.Revisions
+- uid: SuperOffice.WebApi.Data.TargetRevision[]
+  isExternal: true
+  name: TargetRevision[]
+  nameWithType: TargetRevision[]
+  fullName: SuperOffice.WebApi.Data.TargetRevision[]
+  nameWithType.vb: TargetRevision()
+  fullName.vb: SuperOffice.WebApi.Data.TargetRevision()
+  name.vb: TargetRevision()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.TargetRevision
+    name: TargetRevision
+    nameWithType: TargetRevision
+    fullName: SuperOffice.WebApi.Data.TargetRevision
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.TargetRevision
+    name: TargetRevision
+    nameWithType: TargetRevision
+    fullName: SuperOffice.WebApi.Data.TargetRevision
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

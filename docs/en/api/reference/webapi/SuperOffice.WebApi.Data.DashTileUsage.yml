@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DashTileUsage
+  commentId: T:SuperOffice.WebApi.Data.DashTileUsage
+  id: DashTileUsage
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DashTileUsage.Dashboard
+  - SuperOffice.WebApi.Data.DashTileUsage.None
+  - SuperOffice.WebApi.Data.DashTileUsage.Selection
+  - SuperOffice.WebApi.Data.DashTileUsage.value__
+  langs:
+  - csharp
+  - vb
+  name: DashTileUsage
+  nameWithType: DashTileUsage
+  fullName: SuperOffice.WebApi.Data.DashTileUsage
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefines where a DashTileDefinition can be used\nThis Enum is used by:  dashboard_tile_definition.usage\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class DashTileUsage : Enum'
+    content.vb: >-
+      Public NotInheritable Class DashTileUsage
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DashTileUsage.value__
+  commentId: F:SuperOffice.WebApi.Data.DashTileUsage.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DashTileUsage
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DashTileUsage.value__
+  fullName: SuperOffice.WebApi.Data.DashTileUsage.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DashTileUsage.None
+  commentId: F:SuperOffice.WebApi.Data.DashTileUsage.None
+  id: None
+  parent: SuperOffice.WebApi.Data.DashTileUsage
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DashTileUsage.None
+  fullName: SuperOffice.WebApi.Data.DashTileUsage.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Not visible anywhere\n"
+  syntax:
+    content: public const DashTileUsage None
+    return:
+      type: SuperOffice.WebApi.Data.DashTileUsage
+    content.vb: Public Const None As DashTileUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileUsage.Dashboard
+  commentId: F:SuperOffice.WebApi.Data.DashTileUsage.Dashboard
+  id: Dashboard
+  parent: SuperOffice.WebApi.Data.DashTileUsage
+  langs:
+  - csharp
+  - vb
+  name: Dashboard
+  nameWithType: DashTileUsage.Dashboard
+  fullName: SuperOffice.WebApi.Data.DashTileUsage.Dashboard
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Visible in the tile library on the dashboard page\n"
+  syntax:
+    content: public const DashTileUsage Dashboard
+    return:
+      type: SuperOffice.WebApi.Data.DashTileUsage
+    content.vb: Public Const Dashboard As DashTileUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileUsage.Selection
+  commentId: F:SuperOffice.WebApi.Data.DashTileUsage.Selection
+  id: Selection
+  parent: SuperOffice.WebApi.Data.DashTileUsage
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: DashTileUsage.Selection
+  fullName: SuperOffice.WebApi.Data.DashTileUsage.Selection
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Visible in the tile library on the selection page\n"
+  syntax:
+    content: public const DashTileUsage Selection
+    return:
+      type: SuperOffice.WebApi.Data.DashTileUsage
+    content.vb: Public Const Selection As DashTileUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.DashTileUsage
+  commentId: T:SuperOffice.WebApi.Data.DashTileUsage
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DashTileUsage
+  nameWithType: DashTileUsage
+  fullName: SuperOffice.WebApi.Data.DashTileUsage

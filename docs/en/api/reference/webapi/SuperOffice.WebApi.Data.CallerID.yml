@@ -1,0 +1,404 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CallerID
+  commentId: T:SuperOffice.WebApi.Data.CallerID
+  id: CallerID
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CallerID.#ctor
+  - SuperOffice.WebApi.Data.CallerID.ContactId
+  - SuperOffice.WebApi.Data.CallerID.ContactName
+  - SuperOffice.WebApi.Data.CallerID.DialInPrefix
+  - SuperOffice.WebApi.Data.CallerID.Mrmrs
+  - SuperOffice.WebApi.Data.CallerID.PersonId
+  - SuperOffice.WebApi.Data.CallerID.PersonName
+  - SuperOffice.WebApi.Data.CallerID.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: CallerID
+  nameWithType: CallerID
+  fullName: SuperOffice.WebApi.Data.CallerID
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CallerID.\nDescribes a caller ID for Mobile to lookup phone calls. Can be for a person, or for a company, in which case the personId field will be 0    \n"
+  syntax:
+    content: 'public class CallerID : Object'
+    content.vb: >-
+      Public Class CallerID
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PocketAgent
+    commentId: T:SuperOffice.WebApi.Agents.PocketAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CallerID.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CallerID.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CallerID
+  langs:
+  - csharp
+  - vb
+  name: CallerID()
+  nameWithType: CallerID.CallerID()
+  fullName: SuperOffice.WebApi.Data.CallerID.CallerID()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CallerID()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CallerID.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CallerID.PhoneNumber
+  commentId: P:SuperOffice.WebApi.Data.CallerID.PhoneNumber
+  id: PhoneNumber
+  parent: SuperOffice.WebApi.Data.CallerID
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: CallerID.PhoneNumber
+  fullName: SuperOffice.WebApi.Data.CallerID.PhoneNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPhone number, as a long instead of a string, to avoid parsing all the phonenumbers in Mobile CRM\n"
+  syntax:
+    content: public virtual long PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Overridable Property PhoneNumber As Long
+  overload: SuperOffice.WebApi.Data.CallerID.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CallerID.DialInPrefix
+  commentId: P:SuperOffice.WebApi.Data.CallerID.DialInPrefix
+  id: DialInPrefix
+  parent: SuperOffice.WebApi.Data.CallerID
+  langs:
+  - csharp
+  - vb
+  name: DialInPrefix
+  nameWithType: CallerID.DialInPrefix
+  fullName: SuperOffice.WebApi.Data.CallerID.DialInPrefix
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrefix for dialing into the country from outside (country code), empty if PhoneNumber already contains the country code\n"
+  syntax:
+    content: public virtual short DialInPrefix { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property DialInPrefix As Short
+  overload: SuperOffice.WebApi.Data.CallerID.DialInPrefix*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CallerID.PersonId
+  commentId: P:SuperOffice.WebApi.Data.CallerID.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.CallerID
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: CallerID.PersonId
+  fullName: SuperOffice.WebApi.Data.CallerID.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.CallerID.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CallerID.PersonName
+  commentId: P:SuperOffice.WebApi.Data.CallerID.PersonName
+  id: PersonName
+  parent: SuperOffice.WebApi.Data.CallerID
+  langs:
+  - csharp
+  - vb
+  name: PersonName
+  nameWithType: CallerID.PersonName
+  fullName: SuperOffice.WebApi.Data.CallerID.PersonName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFull name of the person\n"
+  syntax:
+    content: public virtual string PersonName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonName As String
+  overload: SuperOffice.WebApi.Data.CallerID.PersonName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CallerID.Mrmrs
+  commentId: P:SuperOffice.WebApi.Data.CallerID.Mrmrs
+  id: Mrmrs
+  parent: SuperOffice.WebApi.Data.CallerID
+  langs:
+  - csharp
+  - vb
+  name: Mrmrs
+  nameWithType: CallerID.Mrmrs
+  fullName: SuperOffice.WebApi.Data.CallerID.Mrmrs
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\ne.g. Mrs   sex_title\n"
+  syntax:
+    content: public virtual string Mrmrs { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Mrmrs As String
+  overload: SuperOffice.WebApi.Data.CallerID.Mrmrs*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CallerID.ContactId
+  commentId: P:SuperOffice.WebApi.Data.CallerID.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.CallerID
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: CallerID.ContactId
+  fullName: SuperOffice.WebApi.Data.CallerID.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.CallerID.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CallerID.ContactName
+  commentId: P:SuperOffice.WebApi.Data.CallerID.ContactName
+  id: ContactName
+  parent: SuperOffice.WebApi.Data.CallerID
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: CallerID.ContactName
+  fullName: SuperOffice.WebApi.Data.CallerID.ContactName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContact name\n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.WebApi.Data.CallerID.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.PocketAgent
+  commentId: T:SuperOffice.WebApi.Agents.PocketAgent
+  isExternal: true
+  name: PocketAgent
+  nameWithType: PocketAgent
+  fullName: SuperOffice.WebApi.Agents.PocketAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CallerID.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CallerID.#ctor
+  isExternal: true
+  name: CallerID
+  nameWithType: CallerID.CallerID
+  fullName: SuperOffice.WebApi.Data.CallerID.CallerID
+- uid: SuperOffice.WebApi.Data.CallerID.PhoneNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.CallerID.PhoneNumber
+  isExternal: true
+  name: PhoneNumber
+  nameWithType: CallerID.PhoneNumber
+  fullName: SuperOffice.WebApi.Data.CallerID.PhoneNumber
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: SuperOffice.WebApi.Data.CallerID.DialInPrefix*
+  commentId: Overload:SuperOffice.WebApi.Data.CallerID.DialInPrefix
+  isExternal: true
+  name: DialInPrefix
+  nameWithType: CallerID.DialInPrefix
+  fullName: SuperOffice.WebApi.Data.CallerID.DialInPrefix
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.CallerID.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.CallerID.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: CallerID.PersonId
+  fullName: SuperOffice.WebApi.Data.CallerID.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CallerID.PersonName*
+  commentId: Overload:SuperOffice.WebApi.Data.CallerID.PersonName
+  isExternal: true
+  name: PersonName
+  nameWithType: CallerID.PersonName
+  fullName: SuperOffice.WebApi.Data.CallerID.PersonName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CallerID.Mrmrs*
+  commentId: Overload:SuperOffice.WebApi.Data.CallerID.Mrmrs
+  isExternal: true
+  name: Mrmrs
+  nameWithType: CallerID.Mrmrs
+  fullName: SuperOffice.WebApi.Data.CallerID.Mrmrs
+- uid: SuperOffice.WebApi.Data.CallerID.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.CallerID.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: CallerID.ContactId
+  fullName: SuperOffice.WebApi.Data.CallerID.ContactId
+- uid: SuperOffice.WebApi.Data.CallerID.ContactName*
+  commentId: Overload:SuperOffice.WebApi.Data.CallerID.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: CallerID.ContactName
+  fullName: SuperOffice.WebApi.Data.CallerID.ContactName

@@ -1,0 +1,315 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SelectionSummaryItem
+  commentId: T:SuperOffice.WebApi.Data.SelectionSummaryItem
+  id: SelectionSummaryItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SelectionSummaryItem.#ctor
+  - SuperOffice.WebApi.Data.SelectionSummaryItem.Name
+  - SuperOffice.WebApi.Data.SelectionSummaryItem.ProviderName
+  - SuperOffice.WebApi.Data.SelectionSummaryItem.Registered
+  - SuperOffice.WebApi.Data.SelectionSummaryItem.SelectionId
+  - SuperOffice.WebApi.Data.SelectionSummaryItem.TargetTable
+  langs:
+  - csharp
+  - vb
+  name: SelectionSummaryItem
+  nameWithType: SelectionSummaryItem
+  fullName: SuperOffice.WebApi.Data.SelectionSummaryItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SelectionSummaryItem.\nThe selection summary, for tabs or other concise views.    \n"
+  syntax:
+    content: 'public class SelectionSummaryItem : Object'
+    content.vb: >-
+      Public Class SelectionSummaryItem
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.SelectionAgent
+    commentId: T:SuperOffice.WebApi.Agents.SelectionAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SelectionSummaryItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SelectionSummaryItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SelectionSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: SelectionSummaryItem()
+  nameWithType: SelectionSummaryItem.SelectionSummaryItem()
+  fullName: SuperOffice.WebApi.Data.SelectionSummaryItem.SelectionSummaryItem()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SelectionSummaryItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SelectionSummaryItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SelectionSummaryItem.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.SelectionSummaryItem.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.SelectionSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: SelectionSummaryItem.SelectionId
+  fullName: SuperOffice.WebApi.Data.SelectionSummaryItem.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.SelectionSummaryItem.SelectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectionSummaryItem.Name
+  commentId: P:SuperOffice.WebApi.Data.SelectionSummaryItem.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.SelectionSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SelectionSummaryItem.Name
+  fullName: SuperOffice.WebApi.Data.SelectionSummaryItem.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName, freetext indexed\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.SelectionSummaryItem.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectionSummaryItem.TargetTable
+  commentId: P:SuperOffice.WebApi.Data.SelectionSummaryItem.TargetTable
+  id: TargetTable
+  parent: SuperOffice.WebApi.Data.SelectionSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: TargetTable
+  nameWithType: SelectionSummaryItem.TargetTable
+  fullName: SuperOffice.WebApi.Data.SelectionSummaryItem.TargetTable
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe main table this is a selection of\n"
+  syntax:
+    content: public virtual string TargetTable { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TargetTable As String
+  overload: SuperOffice.WebApi.Data.SelectionSummaryItem.TargetTable*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectionSummaryItem.Registered
+  commentId: P:SuperOffice.WebApi.Data.SelectionSummaryItem.Registered
+  id: Registered
+  parent: SuperOffice.WebApi.Data.SelectionSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: SelectionSummaryItem.Registered
+  fullName: SuperOffice.WebApi.Data.SelectionSummaryItem.Registered
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As DateTime
+  overload: SuperOffice.WebApi.Data.SelectionSummaryItem.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectionSummaryItem.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.SelectionSummaryItem.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.SelectionSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: SelectionSummaryItem.ProviderName
+  fullName: SuperOffice.WebApi.Data.SelectionSummaryItem.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProvider name for this selection\n"
+  syntax:
+    content: public virtual string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.SelectionSummaryItem.ProviderName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.SelectionAgent
+  commentId: T:SuperOffice.WebApi.Agents.SelectionAgent
+  isExternal: true
+  name: SelectionAgent
+  nameWithType: SelectionAgent
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SelectionSummaryItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectionSummaryItem.#ctor
+  isExternal: true
+  name: SelectionSummaryItem
+  nameWithType: SelectionSummaryItem.SelectionSummaryItem
+  fullName: SuperOffice.WebApi.Data.SelectionSummaryItem.SelectionSummaryItem
+- uid: SuperOffice.WebApi.Data.SelectionSummaryItem.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectionSummaryItem.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: SelectionSummaryItem.SelectionId
+  fullName: SuperOffice.WebApi.Data.SelectionSummaryItem.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SelectionSummaryItem.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectionSummaryItem.Name
+  isExternal: true
+  name: Name
+  nameWithType: SelectionSummaryItem.Name
+  fullName: SuperOffice.WebApi.Data.SelectionSummaryItem.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SelectionSummaryItem.TargetTable*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectionSummaryItem.TargetTable
+  isExternal: true
+  name: TargetTable
+  nameWithType: SelectionSummaryItem.TargetTable
+  fullName: SuperOffice.WebApi.Data.SelectionSummaryItem.TargetTable
+- uid: SuperOffice.WebApi.Data.SelectionSummaryItem.Registered*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectionSummaryItem.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: SelectionSummaryItem.Registered
+  fullName: SuperOffice.WebApi.Data.SelectionSummaryItem.Registered
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.SelectionSummaryItem.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectionSummaryItem.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: SelectionSummaryItem.ProviderName
+  fullName: SuperOffice.WebApi.Data.SelectionSummaryItem.ProviderName

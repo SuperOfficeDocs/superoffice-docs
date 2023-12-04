@@ -40,6 +40,7 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.MiniCardFavouriteSelectedSet
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.PhoneLinkFormat
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.StandardStartupScreen
   langs:
   - csharp
   - vb
@@ -1071,6 +1072,34 @@ items:
     return:
       type: System.String
     content.vb: Public Const DefaultInvitationTaskId As String = "DefaultInvitationTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.StandardStartupScreen
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.StandardStartupScreen
+  id: StandardStartupScreen
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: StandardStartupScreen
+  nameWithType: UserPreferenceStrings.Defaults.StandardStartupScreen
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.StandardStartupScreen
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string StandardStartupScreen = "StandardStartupScreen"
+    return:
+      type: System.String
+    content.vb: Public Const StandardStartupScreen As String = "StandardStartupScreen"
   modifiers.csharp:
   - public
   - const

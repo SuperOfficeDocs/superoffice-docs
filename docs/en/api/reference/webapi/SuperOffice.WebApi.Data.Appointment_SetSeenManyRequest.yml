@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest
+  id: Appointment_SetSeenManyRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.AppointmentIds
+  - SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.UpdateMode
+  langs:
+  - csharp
+  - vb
+  name: Appointment_SetSeenManyRequest
+  nameWithType: Appointment_SetSeenManyRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_SetSeenManyRequest : Object'
+    content.vb: >-
+      Public Class Appointment_SetSeenManyRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_SetSeenManyRequest()
+  nameWithType: Appointment_SetSeenManyRequest.Appointment_SetSeenManyRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.Appointment_SetSeenManyRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_SetSeenManyRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.AppointmentIds
+  commentId: P:SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.AppointmentIds
+  id: AppointmentIds
+  parent: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentIds
+  nameWithType: Appointment_SetSeenManyRequest.AppointmentIds
+  fullName: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.AppointmentIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] AppointmentIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property AppointmentIds As Integer()
+  overload: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.AppointmentIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.UpdateMode
+  commentId: P:SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.UpdateMode
+  id: UpdateMode
+  parent: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateMode
+  nameWithType: Appointment_SetSeenManyRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.UpdateMode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public RecurrenceUpdateMode UpdateMode { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+    content.vb: Public Property UpdateMode As RecurrenceUpdateMode
+  overload: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.UpdateMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.#ctor
+  isExternal: true
+  name: Appointment_SetSeenManyRequest
+  nameWithType: Appointment_SetSeenManyRequest.Appointment_SetSeenManyRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.Appointment_SetSeenManyRequest
+- uid: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.AppointmentIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.AppointmentIds
+  isExternal: true
+  name: AppointmentIds
+  nameWithType: Appointment_SetSeenManyRequest.AppointmentIds
+  fullName: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.AppointmentIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.UpdateMode*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.UpdateMode
+  isExternal: true
+  name: UpdateMode
+  nameWithType: Appointment_SetSeenManyRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_SetSeenManyRequest.UpdateMode
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode

@@ -7,6 +7,8 @@ items:
   children:
   - SuperOffice.WebApi.Data.BatchTaskInfo.#ctor
   - SuperOffice.WebApi.Data.BatchTaskInfo.AssociateId
+  - SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
+  - SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
   - SuperOffice.WebApi.Data.BatchTaskInfo.Context
   - SuperOffice.WebApi.Data.BatchTaskInfo.Created
   - SuperOffice.WebApi.Data.BatchTaskInfo.DatabaseSerialNumber
@@ -816,6 +818,74 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
+  commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
+  id: CancellationBehaviour_String
+  parent: SuperOffice.WebApi.Data.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: CancellationBehaviour_String
+  nameWithType: BatchTaskInfo.CancellationBehaviour_String
+  fullName: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicate if the task can be stopped.\nRaw string enum value.\n"
+  syntax:
+    content: public string CancellationBehaviour_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CancellationBehaviour_String As String
+  overload: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
+    commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
+  commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
+  id: CancellationBehaviour
+  parent: SuperOffice.WebApi.Data.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: CancellationBehaviour
+  nameWithType: BatchTaskInfo.CancellationBehaviour
+  fullName: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicate if the task can be stopped.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<BatchTaskCancellationBehaviour> CancellationBehaviour { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour}
+    content.vb: Public Property CancellationBehaviour As Nullable(Of BatchTaskCancellationBehaviour)
+  overload: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
+    commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -1128,3 +1198,64 @@ references:
   name: FileName
   nameWithType: BatchTaskInfo.FileName
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.FileName
+- uid: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String*
+  commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
+  isExternal: true
+  name: CancellationBehaviour_String
+  nameWithType: BatchTaskInfo.CancellationBehaviour_String
+  fullName: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
+- uid: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
+  commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour*
+  commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
+  isExternal: true
+  name: CancellationBehaviour
+  nameWithType: BatchTaskInfo.CancellationBehaviour
+  fullName: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
+- uid: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
+  commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour}'
+  definition: System.Nullable`1
+  name: Nullable<BatchTaskCancellationBehaviour>
+  nameWithType: Nullable<BatchTaskCancellationBehaviour>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour>
+  nameWithType.vb: Nullable(Of BatchTaskCancellationBehaviour)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour)
+  name.vb: Nullable(Of BatchTaskCancellationBehaviour)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+    name: BatchTaskCancellationBehaviour
+    nameWithType: BatchTaskCancellationBehaviour
+    fullName: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+    name: BatchTaskCancellationBehaviour
+    nameWithType: BatchTaskCancellationBehaviour
+    fullName: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

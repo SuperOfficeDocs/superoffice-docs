@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest
+  id: CustomerService_GetUnparsedTemplateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.LanguageId
+  - SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.ReplyTemplateId
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_GetUnparsedTemplateRequest
+  nameWithType: CustomerService_GetUnparsedTemplateRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_GetUnparsedTemplateRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_GetUnparsedTemplateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_GetUnparsedTemplateRequest()
+  nameWithType: CustomerService_GetUnparsedTemplateRequest.CustomerService_GetUnparsedTemplateRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.CustomerService_GetUnparsedTemplateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_GetUnparsedTemplateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.ReplyTemplateId
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.ReplyTemplateId
+  id: ReplyTemplateId
+  parent: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateId
+  nameWithType: CustomerService_GetUnparsedTemplateRequest.ReplyTemplateId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.ReplyTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ReplyTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReplyTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.ReplyTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.LanguageId
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.LanguageId
+  id: LanguageId
+  parent: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: LanguageId
+  nameWithType: CustomerService_GetUnparsedTemplateRequest.LanguageId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.LanguageId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int LanguageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LanguageId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.LanguageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.#ctor
+  isExternal: true
+  name: CustomerService_GetUnparsedTemplateRequest
+  nameWithType: CustomerService_GetUnparsedTemplateRequest.CustomerService_GetUnparsedTemplateRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.CustomerService_GetUnparsedTemplateRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.ReplyTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.ReplyTemplateId
+  isExternal: true
+  name: ReplyTemplateId
+  nameWithType: CustomerService_GetUnparsedTemplateRequest.ReplyTemplateId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.ReplyTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.LanguageId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.LanguageId
+  isExternal: true
+  name: LanguageId
+  nameWithType: CustomerService_GetUnparsedTemplateRequest.LanguageId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetUnparsedTemplateRequest.LanguageId

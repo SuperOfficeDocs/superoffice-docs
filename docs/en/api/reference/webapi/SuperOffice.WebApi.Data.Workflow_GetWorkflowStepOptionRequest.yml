@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest
+  commentId: T:SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest
+  id: Workflow_GetWorkflowStepOptionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.#ctor
+  - SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.WorkflowStepOptionId
+  langs:
+  - csharp
+  - vb
+  name: Workflow_GetWorkflowStepOptionRequest
+  nameWithType: Workflow_GetWorkflowStepOptionRequest
+  fullName: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Workflow_GetWorkflowStepOptionRequest : Object'
+    content.vb: >-
+      Public Class Workflow_GetWorkflowStepOptionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest
+  langs:
+  - csharp
+  - vb
+  name: Workflow_GetWorkflowStepOptionRequest()
+  nameWithType: Workflow_GetWorkflowStepOptionRequest.Workflow_GetWorkflowStepOptionRequest()
+  fullName: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.Workflow_GetWorkflowStepOptionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Workflow_GetWorkflowStepOptionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.WorkflowStepOptionId
+  commentId: P:SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.WorkflowStepOptionId
+  id: WorkflowStepOptionId
+  parent: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepOptionId
+  nameWithType: Workflow_GetWorkflowStepOptionRequest.WorkflowStepOptionId
+  fullName: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.WorkflowStepOptionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int WorkflowStepOptionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property WorkflowStepOptionId As Integer
+  overload: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.WorkflowStepOptionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.#ctor
+  isExternal: true
+  name: Workflow_GetWorkflowStepOptionRequest
+  nameWithType: Workflow_GetWorkflowStepOptionRequest.Workflow_GetWorkflowStepOptionRequest
+  fullName: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.Workflow_GetWorkflowStepOptionRequest
+- uid: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.WorkflowStepOptionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.WorkflowStepOptionId
+  isExternal: true
+  name: WorkflowStepOptionId
+  nameWithType: Workflow_GetWorkflowStepOptionRequest.WorkflowStepOptionId
+  fullName: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest.WorkflowStepOptionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

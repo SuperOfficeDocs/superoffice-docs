@@ -31,27 +31,31 @@ items:
   example:
   - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (NumberAllocationAgent agent = new NumberAllocationAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
   syntax:
-    content: 'public class NumberAllocationAgent : AgentBase, IDisposable'
+    content: 'public class NumberAllocationAgent : AgentBase, INumberAllocationAgent, IDisposable'
     content.vb: >-
       Public Class NumberAllocationAgent
           Inherits AgentBase
-          Implements IDisposable
+          Implements INumberAllocationAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
+  - SuperOffice.WebApi.Agents.INumberAllocationAgent
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
   - SuperOffice.WebApi.Agents.AgentBase._binary
   - SuperOffice.WebApi.Agents.AgentBase._config
   - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase._disposeClient
   - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
@@ -62,6 +66,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
   - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   modifiers.csharp:
   - public
   - class
@@ -91,7 +96,7 @@ items:
     parameters:
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+      description: Use this HTTP client instead of making own HttpClient instance.
     content.vb: Public Sub New(httpClient As HttpClient)
   overload: SuperOffice.WebApi.Agents.NumberAllocationAgent.#ctor*
   modifiers.csharp:
@@ -124,7 +129,7 @@ items:
       description: Base URL and authentication values.
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+      description: 'Optional: Use this HTTP client instead of making a new one.'
     content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
   overload: SuperOffice.WebApi.Agents.NumberAllocationAgent.#ctor*
   modifiers.csharp:
@@ -160,6 +165,8 @@ items:
       description: A blank RefCountEntity
     content.vb: Public Function CreateDefaultRefCountEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of RefCountEntity)
   overload: SuperOffice.WebApi.Agents.NumberAllocationAgent.CreateDefaultRefCountEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -196,6 +203,8 @@ items:
       description: New or updated RefCountEntity
     content.vb: Public Function SaveRefCountEntityAsync(refCountEntity As RefCountEntity, requestOptions As RequestOptions = Nothing) As Task(Of RefCountEntity)
   overload: SuperOffice.WebApi.Agents.NumberAllocationAgent.SaveRefCountEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.WebApi.Data.RefCountEntity,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -231,6 +240,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function DeleteRefCountEntityAsync(refCountEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.NumberAllocationAgent.DeleteRefCountEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -267,6 +278,8 @@ items:
       description: RefCountEntity
     content.vb: Public Function GetRefCountEntityAsync(refCountEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of RefCountEntity)
   overload: SuperOffice.WebApi.Agents.NumberAllocationAgent.GetRefCountEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -303,6 +316,8 @@ items:
       description: void
     content.vb: Public Function SaveDefaultNumberingAsync(refCountEntity As RefCountEntity, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.NumberAllocationAgent.SaveDefaultNumberingAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.WebApi.Data.RefCountEntity,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -336,6 +351,8 @@ items:
       description: Is NumberEachTemplate?
     content.vb: Public Function GetNumberEachTemplateAsync(requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.NumberAllocationAgent.GetNumberEachTemplateAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.INumberAllocationAgent.GetNumberEachTemplateAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -372,6 +389,8 @@ items:
       description: void
     content.vb: Public Function SetNumberEachTemplateAsync(setValue As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.NumberAllocationAgent.SetNumberEachTemplateAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -397,6 +416,13 @@ references:
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.INumberAllocationAgent
+  commentId: T:SuperOffice.WebApi.Agents.INumberAllocationAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: INumberAllocationAgent
+  nameWithType: INumberAllocationAgent
+  fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent
 - uid: System.IDisposable
   isExternal: true
   name: IDisposable
@@ -430,6 +456,13 @@ references:
   name: _client
   nameWithType: AgentBase._client
   fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _disposeClient
+  nameWithType: AgentBase._disposeClient
+  fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
 - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
@@ -681,32 +714,136 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ParseAuthorization(IAuthorization)
-  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  name: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-    name: ParseAuthorization
-    nameWithType: AgentBase.ParseAuthorization
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
-    name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
     nameWithType: AgentBase.ParseAuthorization
     fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
@@ -714,10 +851,27 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
     nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
     nameWithType: )
@@ -838,6 +992,127 @@ references:
     name: Object
     nameWithType: Object
     fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -1123,6 +1398,13 @@ references:
   name: ProgressListener
   nameWithType: AgentBase.ProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: UploadProgressListener
+  nameWithType: AgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1159,6 +1441,47 @@ references:
   name: CreateDefaultRefCountEntityAsync
   nameWithType: NumberAllocationAgent.CreateDefaultRefCountEntityAsync
   fullName: SuperOffice.WebApi.Agents.NumberAllocationAgent.CreateDefaultRefCountEntityAsync
+- uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INumberAllocationAgent
+  isExternal: true
+  name: CreateDefaultRefCountEntityAsync(RequestOptions)
+  nameWithType: INumberAllocationAgent.CreateDefaultRefCountEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultRefCountEntityAsync
+    nameWithType: INumberAllocationAgent.CreateDefaultRefCountEntityAsync
+    fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.CreateDefaultRefCountEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.CreateDefaultRefCountEntityAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultRefCountEntityAsync
+    nameWithType: INumberAllocationAgent.CreateDefaultRefCountEntityAsync
+    fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.CreateDefaultRefCountEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
@@ -1253,6 +1576,63 @@ references:
   name: SaveRefCountEntityAsync
   nameWithType: NumberAllocationAgent.SaveRefCountEntityAsync
   fullName: SuperOffice.WebApi.Agents.NumberAllocationAgent.SaveRefCountEntityAsync
+- uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.WebApi.Data.RefCountEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.WebApi.Data.RefCountEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INumberAllocationAgent
+  isExternal: true
+  name: SaveRefCountEntityAsync(RefCountEntity, RequestOptions)
+  nameWithType: INumberAllocationAgent.SaveRefCountEntityAsync(RefCountEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.WebApi.Data.RefCountEntity, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.WebApi.Data.RefCountEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveRefCountEntityAsync
+    nameWithType: INumberAllocationAgent.SaveRefCountEntityAsync
+    fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveRefCountEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.RefCountEntity
+    name: RefCountEntity
+    nameWithType: RefCountEntity
+    fullName: SuperOffice.WebApi.Data.RefCountEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveRefCountEntityAsync(SuperOffice.WebApi.Data.RefCountEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveRefCountEntityAsync
+    nameWithType: INumberAllocationAgent.SaveRefCountEntityAsync
+    fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveRefCountEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.RefCountEntity
+    name: RefCountEntity
+    nameWithType: RefCountEntity
+    fullName: SuperOffice.WebApi.Data.RefCountEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.RefCountEntity
   commentId: T:SuperOffice.WebApi.Data.RefCountEntity
   parent: SuperOffice.WebApi.Data
@@ -1272,6 +1652,63 @@ references:
   name: DeleteRefCountEntityAsync
   nameWithType: NumberAllocationAgent.DeleteRefCountEntityAsync
   fullName: SuperOffice.WebApi.Agents.NumberAllocationAgent.DeleteRefCountEntityAsync
+- uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INumberAllocationAgent
+  isExternal: true
+  name: DeleteRefCountEntityAsync(Int32, RequestOptions)
+  nameWithType: INumberAllocationAgent.DeleteRefCountEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteRefCountEntityAsync
+    nameWithType: INumberAllocationAgent.DeleteRefCountEntityAsync
+    fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteRefCountEntityAsync
+    nameWithType: INumberAllocationAgent.DeleteRefCountEntityAsync
+    fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.DeleteRefCountEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1290,18 +1727,173 @@ references:
   name: GetRefCountEntityAsync
   nameWithType: NumberAllocationAgent.GetRefCountEntityAsync
   fullName: SuperOffice.WebApi.Agents.NumberAllocationAgent.GetRefCountEntityAsync
+- uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INumberAllocationAgent
+  isExternal: true
+  name: GetRefCountEntityAsync(Int32, RequestOptions)
+  nameWithType: INumberAllocationAgent.GetRefCountEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetRefCountEntityAsync
+    nameWithType: INumberAllocationAgent.GetRefCountEntityAsync
+    fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetRefCountEntityAsync
+    nameWithType: INumberAllocationAgent.GetRefCountEntityAsync
+    fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetRefCountEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.NumberAllocationAgent.SaveDefaultNumberingAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.NumberAllocationAgent.SaveDefaultNumberingAsync
   isExternal: true
   name: SaveDefaultNumberingAsync
   nameWithType: NumberAllocationAgent.SaveDefaultNumberingAsync
   fullName: SuperOffice.WebApi.Agents.NumberAllocationAgent.SaveDefaultNumberingAsync
+- uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.WebApi.Data.RefCountEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.WebApi.Data.RefCountEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INumberAllocationAgent
+  isExternal: true
+  name: SaveDefaultNumberingAsync(RefCountEntity, RequestOptions)
+  nameWithType: INumberAllocationAgent.SaveDefaultNumberingAsync(RefCountEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.WebApi.Data.RefCountEntity, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.WebApi.Data.RefCountEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveDefaultNumberingAsync
+    nameWithType: INumberAllocationAgent.SaveDefaultNumberingAsync
+    fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveDefaultNumberingAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.RefCountEntity
+    name: RefCountEntity
+    nameWithType: RefCountEntity
+    fullName: SuperOffice.WebApi.Data.RefCountEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveDefaultNumberingAsync(SuperOffice.WebApi.Data.RefCountEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveDefaultNumberingAsync
+    nameWithType: INumberAllocationAgent.SaveDefaultNumberingAsync
+    fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SaveDefaultNumberingAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.RefCountEntity
+    name: RefCountEntity
+    nameWithType: RefCountEntity
+    fullName: SuperOffice.WebApi.Data.RefCountEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.NumberAllocationAgent.GetNumberEachTemplateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.NumberAllocationAgent.GetNumberEachTemplateAsync
   isExternal: true
   name: GetNumberEachTemplateAsync
   nameWithType: NumberAllocationAgent.GetNumberEachTemplateAsync
   fullName: SuperOffice.WebApi.Agents.NumberAllocationAgent.GetNumberEachTemplateAsync
+- uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetNumberEachTemplateAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INumberAllocationAgent.GetNumberEachTemplateAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INumberAllocationAgent
+  isExternal: true
+  name: GetNumberEachTemplateAsync(RequestOptions)
+  nameWithType: INumberAllocationAgent.GetNumberEachTemplateAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetNumberEachTemplateAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetNumberEachTemplateAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetNumberEachTemplateAsync
+    nameWithType: INumberAllocationAgent.GetNumberEachTemplateAsync
+    fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetNumberEachTemplateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetNumberEachTemplateAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetNumberEachTemplateAsync
+    nameWithType: INumberAllocationAgent.GetNumberEachTemplateAsync
+    fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.GetNumberEachTemplateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{System.Boolean}
   commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
   definition: System.Threading.Tasks.Task`1
@@ -1351,6 +1943,63 @@ references:
   name: SetNumberEachTemplateAsync
   nameWithType: NumberAllocationAgent.SetNumberEachTemplateAsync
   fullName: SuperOffice.WebApi.Agents.NumberAllocationAgent.SetNumberEachTemplateAsync
+- uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INumberAllocationAgent
+  isExternal: true
+  name: SetNumberEachTemplateAsync(Boolean, RequestOptions)
+  nameWithType: INumberAllocationAgent.SetNumberEachTemplateAsync(Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: SetNumberEachTemplateAsync
+    nameWithType: INumberAllocationAgent.SetNumberEachTemplateAsync
+    fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: SetNumberEachTemplateAsync
+    nameWithType: INumberAllocationAgent.SetNumberEachTemplateAsync
+    fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent.SetNumberEachTemplateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System

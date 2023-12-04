@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest
+  id: AI_GetSummarizeContactPromptRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.ContactId
+  - SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.IsoLangCode
+  - SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.NumSentences
+  - SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.Summary
+  langs:
+  - csharp
+  - vb
+  name: AI_GetSummarizeContactPromptRequest
+  nameWithType: AI_GetSummarizeContactPromptRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class AI_GetSummarizeContactPromptRequest : Object'
+    content.vb: >-
+      Public Class AI_GetSummarizeContactPromptRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest
+  langs:
+  - csharp
+  - vb
+  name: AI_GetSummarizeContactPromptRequest()
+  nameWithType: AI_GetSummarizeContactPromptRequest.AI_GetSummarizeContactPromptRequest()
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.AI_GetSummarizeContactPromptRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AI_GetSummarizeContactPromptRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.ContactId
+  commentId: P:SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: AI_GetSummarizeContactPromptRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.NumSentences
+  commentId: P:SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.NumSentences
+  id: NumSentences
+  parent: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest
+  langs:
+  - csharp
+  - vb
+  name: NumSentences
+  nameWithType: AI_GetSummarizeContactPromptRequest.NumSentences
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.NumSentences
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int NumSentences { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NumSentences As Integer
+  overload: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.NumSentences*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.Summary
+  commentId: P:SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.Summary
+  id: Summary
+  parent: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest
+  langs:
+  - csharp
+  - vb
+  name: Summary
+  nameWithType: AI_GetSummarizeContactPromptRequest.Summary
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.Summary
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Summary { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Summary As String
+  overload: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.Summary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.IsoLangCode
+  commentId: P:SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.IsoLangCode
+  id: IsoLangCode
+  parent: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest
+  langs:
+  - csharp
+  - vb
+  name: IsoLangCode
+  nameWithType: AI_GetSummarizeContactPromptRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.IsoLangCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string IsoLangCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IsoLangCode As String
+  overload: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.IsoLangCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.#ctor
+  isExternal: true
+  name: AI_GetSummarizeContactPromptRequest
+  nameWithType: AI_GetSummarizeContactPromptRequest.AI_GetSummarizeContactPromptRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.AI_GetSummarizeContactPromptRequest
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: AI_GetSummarizeContactPromptRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.NumSentences*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.NumSentences
+  isExternal: true
+  name: NumSentences
+  nameWithType: AI_GetSummarizeContactPromptRequest.NumSentences
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.NumSentences
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.Summary*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.Summary
+  isExternal: true
+  name: Summary
+  nameWithType: AI_GetSummarizeContactPromptRequest.Summary
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.Summary
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.IsoLangCode*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.IsoLangCode
+  isExternal: true
+  name: IsoLangCode
+  nameWithType: AI_GetSummarizeContactPromptRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest.IsoLangCode

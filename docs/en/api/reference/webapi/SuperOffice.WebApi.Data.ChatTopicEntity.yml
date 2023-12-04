@@ -20,18 +20,23 @@ items:
   - SuperOffice.WebApi.Data.ChatTopicEntity.LastAccept
   - SuperOffice.WebApi.Data.ChatTopicEntity.Name
   - SuperOffice.WebApi.Data.ChatTopicEntity.OfflineCollectConsent
+  - SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormQueueLength
+  - SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormTimeLimit
   - SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHours
   - SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHoursEnabled
   - SuperOffice.WebApi.Data.ChatTopicEntity.SecondsPrAccept
   - SuperOffice.WebApi.Data.ChatTopicEntity.TicketCategory
   - SuperOffice.WebApi.Data.ChatTopicEntity.TicketEnabled
   - SuperOffice.WebApi.Data.ChatTopicEntity.TicketPriority
+  - SuperOffice.WebApi.Data.ChatTopicEntity.UseQueueOfflineForm
   - SuperOffice.WebApi.Data.ChatTopicEntity.WarnChatMessageMinutes
   - SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerChatMessageMinutes
   - SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerNewChatMinutes
   - SuperOffice.WebApi.Data.ChatTopicEntity.WarnNewChatMinutes
   - SuperOffice.WebApi.Data.ChatTopicEntity.WelcomeMessage
   - SuperOffice.WebApi.Data.ChatTopicEntity.Widget
+  - SuperOffice.WebApi.Data.ChatTopicEntity.WidgetEnableRating
+  - SuperOffice.WebApi.Data.ChatTopicEntity.WidgetRatingText
   langs:
   - csharp
   - vb
@@ -960,6 +965,171 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.UseQueueOfflineForm
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.UseQueueOfflineForm
+  id: UseQueueOfflineForm
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: UseQueueOfflineForm
+  nameWithType: ChatTopicEntity.UseQueueOfflineForm
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.UseQueueOfflineForm
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUse offline form capability from chat queue\n"
+  syntax:
+    content: public virtual bool UseQueueOfflineForm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseQueueOfflineForm As Boolean
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.UseQueueOfflineForm*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormTimeLimit
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormTimeLimit
+  id: OfflineFormTimeLimit
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: OfflineFormTimeLimit
+  nameWithType: ChatTopicEntity.OfflineFormTimeLimit
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormTimeLimit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe number of minutes in the queue before the offline form is available\n"
+  syntax:
+    content: public virtual int OfflineFormTimeLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OfflineFormTimeLimit As Integer
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormTimeLimit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormQueueLength
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormQueueLength
+  id: OfflineFormQueueLength
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: OfflineFormQueueLength
+  nameWithType: ChatTopicEntity.OfflineFormQueueLength
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormQueueLength
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe number of customers in the queue before the offline form is available\n"
+  syntax:
+    content: public virtual int OfflineFormQueueLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OfflineFormQueueLength As Integer
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormQueueLength*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.WidgetEnableRating
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.WidgetEnableRating
+  id: WidgetEnableRating
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: WidgetEnableRating
+  nameWithType: ChatTopicEntity.WidgetEnableRating
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WidgetEnableRating
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnable rating functionality in the chat widgte\n"
+  syntax:
+    content: public virtual bool WidgetEnableRating { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property WidgetEnableRating As Boolean
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.WidgetEnableRating*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.WidgetRatingText
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.WidgetRatingText
+  id: WidgetRatingText
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: WidgetRatingText
+  nameWithType: ChatTopicEntity.WidgetRatingText
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WidgetRatingText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe text to be displayed in the widget next to the rating stars\n"
+  syntax:
+    content: public virtual string WidgetRatingText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property WidgetRatingText As String
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.WidgetRatingText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -1253,3 +1423,33 @@ references:
   name: WarnManagerChatMessageMinutes
   nameWithType: ChatTopicEntity.WarnManagerChatMessageMinutes
   fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerChatMessageMinutes
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.UseQueueOfflineForm*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.UseQueueOfflineForm
+  isExternal: true
+  name: UseQueueOfflineForm
+  nameWithType: ChatTopicEntity.UseQueueOfflineForm
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.UseQueueOfflineForm
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormTimeLimit*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormTimeLimit
+  isExternal: true
+  name: OfflineFormTimeLimit
+  nameWithType: ChatTopicEntity.OfflineFormTimeLimit
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormTimeLimit
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormQueueLength*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormQueueLength
+  isExternal: true
+  name: OfflineFormQueueLength
+  nameWithType: ChatTopicEntity.OfflineFormQueueLength
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.OfflineFormQueueLength
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.WidgetEnableRating*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.WidgetEnableRating
+  isExternal: true
+  name: WidgetEnableRating
+  nameWithType: ChatTopicEntity.WidgetEnableRating
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WidgetEnableRating
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.WidgetRatingText*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.WidgetRatingText
+  isExternal: true
+  name: WidgetRatingText
+  nameWithType: ChatTopicEntity.WidgetRatingText
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WidgetRatingText

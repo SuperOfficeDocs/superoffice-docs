@@ -22,6 +22,7 @@ items:
   - SuperOffice.WebApi.Data.TemplateVariablesParameters.SaleId
   - SuperOffice.WebApi.Data.TemplateVariablesParameters.SelectionId
   - SuperOffice.WebApi.Data.TemplateVariablesParameters.SourceInput
+  - SuperOffice.WebApi.Data.TemplateVariablesParameters.TicketId
   langs:
   - csharp
   - vb
@@ -579,6 +580,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.TicketId
+  commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.TicketId
+  id: TicketId
+  parent: SuperOffice.WebApi.Data.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: TemplateVariablesParameters.TicketId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.TicketId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIdentifier for ticket\n"
+  syntax:
+    content: public virtual int TicketId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketId As Integer
+  overload: SuperOffice.WebApi.Data.TemplateVariablesParameters.TicketId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentEntity
   commentId: P:SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentEntity
   id: DocumentEntity
@@ -888,6 +922,12 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.TicketId*
+  commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.TicketId
+  isExternal: true
+  name: TicketId
+  nameWithType: TemplateVariablesParameters.TicketId
+  fullName: SuperOffice.WebApi.Data.TemplateVariablesParameters.TicketId
 - uid: SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentEntity*
   commentId: Overload:SuperOffice.WebApi.Data.TemplateVariablesParameters.DocumentEntity
   isExternal: true

@@ -25,8 +25,10 @@ items:
   - SuperOffice.WebApi.Data.Ticket.CustId
   - SuperOffice.WebApi.Data.Ticket.Deadline
   - SuperOffice.WebApi.Data.Ticket.FirstReadByUser
+  - SuperOffice.WebApi.Data.Ticket.FormSubmissionId
   - SuperOffice.WebApi.Data.Ticket.FromAddress
   - SuperOffice.WebApi.Data.Ticket.HasAttachment
+  - SuperOffice.WebApi.Data.Ticket.Language
   - SuperOffice.WebApi.Data.Ticket.LastChanged
   - SuperOffice.WebApi.Data.Ticket.NumMessages
   - SuperOffice.WebApi.Data.Ticket.NumReplies
@@ -41,6 +43,8 @@ items:
   - SuperOffice.WebApi.Data.Ticket.PersonMiddleName
   - SuperOffice.WebApi.Data.Ticket.Priority
   - SuperOffice.WebApi.Data.Ticket.PriorityName
+  - SuperOffice.WebApi.Data.Ticket.ProjectId
+  - SuperOffice.WebApi.Data.Ticket.ProjectName
   - SuperOffice.WebApi.Data.Ticket.ReadByCustomer
   - SuperOffice.WebApi.Data.Ticket.ReadByOwner
   - SuperOffice.WebApi.Data.Ticket.ReadStatus
@@ -51,11 +55,16 @@ items:
   - SuperOffice.WebApi.Data.Ticket.RealTimeToClose
   - SuperOffice.WebApi.Data.Ticket.RealTimeToReply
   - SuperOffice.WebApi.Data.Ticket.RepliedAt
+  - SuperOffice.WebApi.Data.Ticket.SaleHeading
+  - SuperOffice.WebApi.Data.Ticket.SaleId
+  - SuperOffice.WebApi.Data.Ticket.Sentiment
+  - SuperOffice.WebApi.Data.Ticket.SentimentConfidence
   - SuperOffice.WebApi.Data.Ticket.Slevel
   - SuperOffice.WebApi.Data.Ticket.Slevel_String
   - SuperOffice.WebApi.Data.Ticket.TicketId
   - SuperOffice.WebApi.Data.Ticket.TicketStatus
   - SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
+  - SuperOffice.WebApi.Data.Ticket.TimeSpent
   - SuperOffice.WebApi.Data.Ticket.TimeSpentExternally
   - SuperOffice.WebApi.Data.Ticket.TimeSpentInternally
   - SuperOffice.WebApi.Data.Ticket.TimeSpentQueue
@@ -1749,6 +1758,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.Ticket.TimeSpent
+  commentId: P:SuperOffice.WebApi.Data.Ticket.TimeSpent
+  id: TimeSpent
+  parent: SuperOffice.WebApi.Data.Ticket
+  langs:
+  - csharp
+  - vb
+  name: TimeSpent
+  nameWithType: Ticket.TimeSpent
+  fullName: SuperOffice.WebApi.Data.Ticket.TimeSpent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use.\n"
+  syntax:
+    content: public virtual int TimeSpent { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TimeSpent As Integer
+  overload: SuperOffice.WebApi.Data.Ticket.TimeSpent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.HasAttachment
   commentId: P:SuperOffice.WebApi.Data.Ticket.HasAttachment
   id: HasAttachment
@@ -1972,6 +2014,270 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property OwnedByAssociateId As Integer
   overload: SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Ticket.Language
+  commentId: P:SuperOffice.WebApi.Data.Ticket.Language
+  id: Language
+  parent: SuperOffice.WebApi.Data.Ticket
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: Ticket.Language
+  fullName: SuperOffice.WebApi.Data.Ticket.Language
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe language of the first external message\n"
+  syntax:
+    content: public virtual string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Language As String
+  overload: SuperOffice.WebApi.Data.Ticket.Language*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Ticket.Sentiment
+  commentId: P:SuperOffice.WebApi.Data.Ticket.Sentiment
+  id: Sentiment
+  parent: SuperOffice.WebApi.Data.Ticket
+  langs:
+  - csharp
+  - vb
+  name: Sentiment
+  nameWithType: Ticket.Sentiment
+  fullName: SuperOffice.WebApi.Data.Ticket.Sentiment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe sentiment index of the last external message\n"
+  syntax:
+    content: public virtual int Sentiment { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Sentiment As Integer
+  overload: SuperOffice.WebApi.Data.Ticket.Sentiment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Ticket.SentimentConfidence
+  commentId: P:SuperOffice.WebApi.Data.Ticket.SentimentConfidence
+  id: SentimentConfidence
+  parent: SuperOffice.WebApi.Data.Ticket
+  langs:
+  - csharp
+  - vb
+  name: SentimentConfidence
+  nameWithType: Ticket.SentimentConfidence
+  fullName: SuperOffice.WebApi.Data.Ticket.SentimentConfidence
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe sentiment confidence of the last external message\n"
+  syntax:
+    content: public virtual int SentimentConfidence { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SentimentConfidence As Integer
+  overload: SuperOffice.WebApi.Data.Ticket.SentimentConfidence*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Ticket.SaleId
+  commentId: P:SuperOffice.WebApi.Data.Ticket.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.Ticket
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: Ticket.SaleId
+  fullName: SuperOffice.WebApi.Data.Ticket.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReference to sale table\n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Ticket.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.Ticket.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.Ticket
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: Ticket.ProjectId
+  fullName: SuperOffice.WebApi.Data.Ticket.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReference to project table\n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Ticket.SaleHeading
+  commentId: P:SuperOffice.WebApi.Data.Ticket.SaleHeading
+  id: SaleHeading
+  parent: SuperOffice.WebApi.Data.Ticket
+  langs:
+  - csharp
+  - vb
+  name: SaleHeading
+  nameWithType: Ticket.SaleHeading
+  fullName: SuperOffice.WebApi.Data.Ticket.SaleHeading
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe heading of the connected sale\n"
+  syntax:
+    content: public virtual string SaleHeading { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SaleHeading As String
+  overload: SuperOffice.WebApi.Data.Ticket.SaleHeading*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Ticket.ProjectName
+  commentId: P:SuperOffice.WebApi.Data.Ticket.ProjectName
+  id: ProjectName
+  parent: SuperOffice.WebApi.Data.Ticket
+  langs:
+  - csharp
+  - vb
+  name: ProjectName
+  nameWithType: Ticket.ProjectName
+  fullName: SuperOffice.WebApi.Data.Ticket.ProjectName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the connected project\n"
+  syntax:
+    content: public virtual string ProjectName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProjectName As String
+  overload: SuperOffice.WebApi.Data.Ticket.ProjectName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Ticket.FormSubmissionId
+  commentId: P:SuperOffice.WebApi.Data.Ticket.FormSubmissionId
+  id: FormSubmissionId
+  parent: SuperOffice.WebApi.Data.Ticket
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId
+  nameWithType: Ticket.FormSubmissionId
+  fullName: SuperOffice.WebApi.Data.Ticket.FormSubmissionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf this ticket was created from a form submission, this field will point to that record\n"
+  syntax:
+    content: public virtual int FormSubmissionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property FormSubmissionId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket.FormSubmissionId*
   modifiers.csharp:
   - public
   - virtual
@@ -2587,6 +2893,12 @@ references:
   name: RealTimeSpentQueue
   nameWithType: Ticket.RealTimeSpentQueue
   fullName: SuperOffice.WebApi.Data.Ticket.RealTimeSpentQueue
+- uid: SuperOffice.WebApi.Data.Ticket.TimeSpent*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.TimeSpent
+  isExternal: true
+  name: TimeSpent
+  nameWithType: Ticket.TimeSpent
+  fullName: SuperOffice.WebApi.Data.Ticket.TimeSpent
 - uid: SuperOffice.WebApi.Data.Ticket.HasAttachment*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.HasAttachment
   isExternal: true
@@ -2636,3 +2948,51 @@ references:
   name: OwnedByAssociateId
   nameWithType: Ticket.OwnedByAssociateId
   fullName: SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId
+- uid: SuperOffice.WebApi.Data.Ticket.Language*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.Language
+  isExternal: true
+  name: Language
+  nameWithType: Ticket.Language
+  fullName: SuperOffice.WebApi.Data.Ticket.Language
+- uid: SuperOffice.WebApi.Data.Ticket.Sentiment*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.Sentiment
+  isExternal: true
+  name: Sentiment
+  nameWithType: Ticket.Sentiment
+  fullName: SuperOffice.WebApi.Data.Ticket.Sentiment
+- uid: SuperOffice.WebApi.Data.Ticket.SentimentConfidence*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.SentimentConfidence
+  isExternal: true
+  name: SentimentConfidence
+  nameWithType: Ticket.SentimentConfidence
+  fullName: SuperOffice.WebApi.Data.Ticket.SentimentConfidence
+- uid: SuperOffice.WebApi.Data.Ticket.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: Ticket.SaleId
+  fullName: SuperOffice.WebApi.Data.Ticket.SaleId
+- uid: SuperOffice.WebApi.Data.Ticket.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: Ticket.ProjectId
+  fullName: SuperOffice.WebApi.Data.Ticket.ProjectId
+- uid: SuperOffice.WebApi.Data.Ticket.SaleHeading*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.SaleHeading
+  isExternal: true
+  name: SaleHeading
+  nameWithType: Ticket.SaleHeading
+  fullName: SuperOffice.WebApi.Data.Ticket.SaleHeading
+- uid: SuperOffice.WebApi.Data.Ticket.ProjectName*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.ProjectName
+  isExternal: true
+  name: ProjectName
+  nameWithType: Ticket.ProjectName
+  fullName: SuperOffice.WebApi.Data.Ticket.ProjectName
+- uid: SuperOffice.WebApi.Data.Ticket.FormSubmissionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket.FormSubmissionId
+  isExternal: true
+  name: FormSubmissionId
+  nameWithType: Ticket.FormSubmissionId
+  fullName: SuperOffice.WebApi.Data.Ticket.FormSubmissionId

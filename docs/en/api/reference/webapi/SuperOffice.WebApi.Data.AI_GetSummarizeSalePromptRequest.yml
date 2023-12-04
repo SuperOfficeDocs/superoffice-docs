@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest
+  id: AI_GetSummarizeSalePromptRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.IsoLangCode
+  - SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.NumSentences
+  - SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.SaleId
+  - SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.Summary
+  langs:
+  - csharp
+  - vb
+  name: AI_GetSummarizeSalePromptRequest
+  nameWithType: AI_GetSummarizeSalePromptRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class AI_GetSummarizeSalePromptRequest : Object'
+    content.vb: >-
+      Public Class AI_GetSummarizeSalePromptRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest
+  langs:
+  - csharp
+  - vb
+  name: AI_GetSummarizeSalePromptRequest()
+  nameWithType: AI_GetSummarizeSalePromptRequest.AI_GetSummarizeSalePromptRequest()
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.AI_GetSummarizeSalePromptRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AI_GetSummarizeSalePromptRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.SaleId
+  commentId: P:SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: AI_GetSummarizeSalePromptRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.NumSentences
+  commentId: P:SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.NumSentences
+  id: NumSentences
+  parent: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest
+  langs:
+  - csharp
+  - vb
+  name: NumSentences
+  nameWithType: AI_GetSummarizeSalePromptRequest.NumSentences
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.NumSentences
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int NumSentences { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NumSentences As Integer
+  overload: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.NumSentences*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.Summary
+  commentId: P:SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.Summary
+  id: Summary
+  parent: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest
+  langs:
+  - csharp
+  - vb
+  name: Summary
+  nameWithType: AI_GetSummarizeSalePromptRequest.Summary
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.Summary
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Summary { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Summary As String
+  overload: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.Summary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.IsoLangCode
+  commentId: P:SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.IsoLangCode
+  id: IsoLangCode
+  parent: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest
+  langs:
+  - csharp
+  - vb
+  name: IsoLangCode
+  nameWithType: AI_GetSummarizeSalePromptRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.IsoLangCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string IsoLangCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IsoLangCode As String
+  overload: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.IsoLangCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.#ctor
+  isExternal: true
+  name: AI_GetSummarizeSalePromptRequest
+  nameWithType: AI_GetSummarizeSalePromptRequest.AI_GetSummarizeSalePromptRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.AI_GetSummarizeSalePromptRequest
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: AI_GetSummarizeSalePromptRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.SaleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.NumSentences*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.NumSentences
+  isExternal: true
+  name: NumSentences
+  nameWithType: AI_GetSummarizeSalePromptRequest.NumSentences
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.NumSentences
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.Summary*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.Summary
+  isExternal: true
+  name: Summary
+  nameWithType: AI_GetSummarizeSalePromptRequest.Summary
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.Summary
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.IsoLangCode*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.IsoLangCode
+  isExternal: true
+  name: IsoLangCode
+  nameWithType: AI_GetSummarizeSalePromptRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest.IsoLangCode

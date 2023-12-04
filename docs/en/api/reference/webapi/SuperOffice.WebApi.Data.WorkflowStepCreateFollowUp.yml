@@ -1,0 +1,1048 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  id: WorkflowStepCreateFollowUp
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.#ctor
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTime
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit_String
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType_String
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Agenda
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability_String
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Completed
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Duration
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.FollowUpType
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Owner
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType_String
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Project
+  - SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Title
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepCreateFollowUp
+  nameWithType: WorkflowStepCreateFollowUp
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for WorkflowStepCreateFollowUp.\nStep in workflow.    \n"
+  syntax:
+    content: 'public class WorkflowStepCreateFollowUp : WorkflowStepBase'
+    content.vb: >-
+      Public Class WorkflowStepCreateFollowUp
+          Inherits WorkflowStepBase
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
+    commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.WorkflowStepBase
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  - SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.#ctor
+  commentId: M:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepCreateFollowUp()
+  nameWithType: WorkflowStepCreateFollowUp.WorkflowStepCreateFollowUp()
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.WorkflowStepCreateFollowUp()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public WorkflowStepCreateFollowUp()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Title
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Title
+  id: Title
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: WorkflowStepCreateFollowUp.Title
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Title
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFollow-up title\n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.FollowUpType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.FollowUpType
+  id: FollowUpType
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: FollowUpType
+  nameWithType: WorkflowStepCreateFollowUp.FollowUpType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.FollowUpType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFollow-up type\n"
+  syntax:
+    content: public virtual int FollowUpType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property FollowUpType As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.FollowUpType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Project
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Project
+  id: Project
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: WorkflowStepCreateFollowUp.Project
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Project
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRelated project\n"
+  syntax:
+    content: public virtual int Project { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Project As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Project*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Completed
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Completed
+  id: Completed
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: WorkflowStepCreateFollowUp.Completed
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Completed
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFollow-up status\n"
+  syntax:
+    content: public virtual bool Completed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Completed As Boolean
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Completed*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType_String
+  id: ActionType_String
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: ActionType_String
+  nameWithType: WorkflowStepCreateFollowUp.ActionType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWorkflow action type\nRaw string enum value.\n"
+  syntax:
+    content: public string ActionType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ActionType_String As String
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType
+    commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType
+  id: ActionType
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: ActionType
+  nameWithType: WorkflowStepCreateFollowUp.ActionType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWorkflow action type\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<WorkflowActionType> ActionType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.WorkflowActionType}
+    content.vb: Public Property ActionType As Nullable(Of WorkflowActionType)
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType_String
+    commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTime
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTime
+  id: ActionTime
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: ActionTime
+  nameWithType: WorkflowStepCreateFollowUp.ActionTime
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWorkflow action time to wait\n"
+  syntax:
+    content: public virtual int ActionTime { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActionTime As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit_String
+  id: ActionTimeUnit_String
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: ActionTimeUnit_String
+  nameWithType: WorkflowStepCreateFollowUp.ActionTimeUnit_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWorflow action time unit\nRaw string enum value.\n"
+  syntax:
+    content: public string ActionTimeUnit_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ActionTimeUnit_String As String
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit
+    commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit
+  id: ActionTimeUnit
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: ActionTimeUnit
+  nameWithType: WorkflowStepCreateFollowUp.ActionTimeUnit
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWorflow action time unit\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<WorkflowTimeWaitIntervalType> ActionTimeUnit { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType}
+    content.vb: Public Property ActionTimeUnit As Nullable(Of WorkflowTimeWaitIntervalType)
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit_String
+    commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Duration
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Duration
+  id: Duration
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: WorkflowStepCreateFollowUp.Duration
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Duration
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDuration in seconds\n"
+  syntax:
+    content: public virtual int Duration { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Duration As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Duration*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability_String
+  id: Availability_String
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Availability_String
+  nameWithType: WorkflowStepCreateFollowUp.Availability_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAvailability, Free or Busy\nRaw string enum value.\n"
+  syntax:
+    content: public string Availability_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Availability_String As String
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability
+    commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability
+  id: Availability
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Availability
+  nameWithType: WorkflowStepCreateFollowUp.Availability
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAvailability, Free or Busy\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<FreeBusy> Availability { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.FreeBusy}
+    content.vb: Public Property Availability As Nullable(Of FreeBusy)
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability_String
+    commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType_String
+  id: OwnerType_String
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: OwnerType_String
+  nameWithType: WorkflowStepCreateFollowUp.OwnerType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFollow-up assignee type\nRaw string enum value.\n"
+  syntax:
+    content: public string OwnerType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OwnerType_String As String
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType
+    commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType
+  id: OwnerType
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: OwnerType
+  nameWithType: WorkflowStepCreateFollowUp.OwnerType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFollow-up assignee type\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<WorkflowOwnerType> OwnerType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.WorkflowOwnerType}
+    content.vb: Public Property OwnerType As Nullable(Of WorkflowOwnerType)
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType_String
+    commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Agenda
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Agenda
+  id: Agenda
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Agenda
+  nameWithType: WorkflowStepCreateFollowUp.Agenda
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Agenda
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAgenda\n"
+  syntax:
+    content: public virtual string Agenda { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Agenda As String
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Agenda*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Owner
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Owner
+  id: Owner
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: WorkflowStepCreateFollowUp.Owner
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Owner
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFollow-up owner\n"
+  syntax:
+    content: public virtual int Owner { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Owner As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Owner*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: WorkflowStepId
+  nameWithType: WorkflowStepBase.WorkflowStepId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowStepBase.WorkflowId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: StepType_String
+  nameWithType: WorkflowStepBase.StepType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: StepType
+  nameWithType: WorkflowStepBase.StepType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: Rank
+  nameWithType: WorkflowStepBase.Rank
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.#ctor
+  isExternal: true
+  name: WorkflowStepCreateFollowUp
+  nameWithType: WorkflowStepCreateFollowUp.WorkflowStepCreateFollowUp
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.WorkflowStepCreateFollowUp
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Title*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Title
+  isExternal: true
+  name: Title
+  nameWithType: WorkflowStepCreateFollowUp.Title
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.FollowUpType*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.FollowUpType
+  isExternal: true
+  name: FollowUpType
+  nameWithType: WorkflowStepCreateFollowUp.FollowUpType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.FollowUpType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Project*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Project
+  isExternal: true
+  name: Project
+  nameWithType: WorkflowStepCreateFollowUp.Project
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Project
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Completed*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Completed
+  isExternal: true
+  name: Completed
+  nameWithType: WorkflowStepCreateFollowUp.Completed
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Completed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType_String
+  isExternal: true
+  name: ActionType_String
+  nameWithType: WorkflowStepCreateFollowUp.ActionType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType_String
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType
+  isExternal: true
+  name: ActionType
+  nameWithType: WorkflowStepCreateFollowUp.ActionType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowActionType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WorkflowActionType}'
+  definition: System.Nullable`1
+  name: Nullable<WorkflowActionType>
+  nameWithType: Nullable<WorkflowActionType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.WorkflowActionType>
+  nameWithType.vb: Nullable(Of WorkflowActionType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WorkflowActionType)
+  name.vb: Nullable(Of WorkflowActionType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowActionType
+    name: WorkflowActionType
+    nameWithType: WorkflowActionType
+    fullName: SuperOffice.WebApi.Data.WorkflowActionType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowActionType
+    name: WorkflowActionType
+    nameWithType: WorkflowActionType
+    fullName: SuperOffice.WebApi.Data.WorkflowActionType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTime*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTime
+  isExternal: true
+  name: ActionTime
+  nameWithType: WorkflowStepCreateFollowUp.ActionTime
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTime
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit_String*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit_String
+  isExternal: true
+  name: ActionTimeUnit_String
+  nameWithType: WorkflowStepCreateFollowUp.ActionTimeUnit_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit_String
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit
+  isExternal: true
+  name: ActionTimeUnit
+  nameWithType: WorkflowStepCreateFollowUp.ActionTimeUnit
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.ActionTimeUnit_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType}'
+  definition: System.Nullable`1
+  name: Nullable<WorkflowTimeWaitIntervalType>
+  nameWithType: Nullable<WorkflowTimeWaitIntervalType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType>
+  nameWithType.vb: Nullable(Of WorkflowTimeWaitIntervalType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType)
+  name.vb: Nullable(Of WorkflowTimeWaitIntervalType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+    name: WorkflowTimeWaitIntervalType
+    nameWithType: WorkflowTimeWaitIntervalType
+    fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+    name: WorkflowTimeWaitIntervalType
+    nameWithType: WorkflowTimeWaitIntervalType
+    fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Duration*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Duration
+  isExternal: true
+  name: Duration
+  nameWithType: WorkflowStepCreateFollowUp.Duration
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Duration
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability_String*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability_String
+  isExternal: true
+  name: Availability_String
+  nameWithType: WorkflowStepCreateFollowUp.Availability_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability_String
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability
+  isExternal: true
+  name: Availability
+  nameWithType: WorkflowStepCreateFollowUp.Availability
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Availability_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.FreeBusy}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.FreeBusy}'
+  definition: System.Nullable`1
+  name: Nullable<FreeBusy>
+  nameWithType: Nullable<FreeBusy>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.FreeBusy>
+  nameWithType.vb: Nullable(Of FreeBusy)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.FreeBusy)
+  name.vb: Nullable(Of FreeBusy)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.FreeBusy
+    name: FreeBusy
+    nameWithType: FreeBusy
+    fullName: SuperOffice.WebApi.Data.FreeBusy
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.FreeBusy
+    name: FreeBusy
+    nameWithType: FreeBusy
+    fullName: SuperOffice.WebApi.Data.FreeBusy
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType_String
+  isExternal: true
+  name: OwnerType_String
+  nameWithType: WorkflowStepCreateFollowUp.OwnerType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType_String
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType
+  isExternal: true
+  name: OwnerType
+  nameWithType: WorkflowStepCreateFollowUp.OwnerType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.OwnerType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowOwnerType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WorkflowOwnerType}'
+  definition: System.Nullable`1
+  name: Nullable<WorkflowOwnerType>
+  nameWithType: Nullable<WorkflowOwnerType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.WorkflowOwnerType>
+  nameWithType.vb: Nullable(Of WorkflowOwnerType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WorkflowOwnerType)
+  name.vb: Nullable(Of WorkflowOwnerType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowOwnerType
+    name: WorkflowOwnerType
+    nameWithType: WorkflowOwnerType
+    fullName: SuperOffice.WebApi.Data.WorkflowOwnerType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowOwnerType
+    name: WorkflowOwnerType
+    nameWithType: WorkflowOwnerType
+    fullName: SuperOffice.WebApi.Data.WorkflowOwnerType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Agenda*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Agenda
+  isExternal: true
+  name: Agenda
+  nameWithType: WorkflowStepCreateFollowUp.Agenda
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Agenda
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Owner*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Owner
+  isExternal: true
+  name: Owner
+  nameWithType: WorkflowStepCreateFollowUp.Owner
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateFollowUp.Owner

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest
+  commentId: T:SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest
+  id: Targets_GetTargetGroupIdsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.#ctor
+  - SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.TargetDimensionId
+  langs:
+  - csharp
+  - vb
+  name: Targets_GetTargetGroupIdsRequest
+  nameWithType: Targets_GetTargetGroupIdsRequest
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Targets_GetTargetGroupIdsRequest : Object'
+    content.vb: >-
+      Public Class Targets_GetTargetGroupIdsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: Targets_GetTargetGroupIdsRequest()
+  nameWithType: Targets_GetTargetGroupIdsRequest.Targets_GetTargetGroupIdsRequest()
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.Targets_GetTargetGroupIdsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Targets_GetTargetGroupIdsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.TargetDimensionId
+  commentId: P:SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.TargetDimensionId
+  id: TargetDimensionId
+  parent: SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetDimensionId
+  nameWithType: Targets_GetTargetGroupIdsRequest.TargetDimensionId
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.TargetDimensionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TargetDimensionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TargetDimensionId As Integer
+  overload: SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.TargetDimensionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.#ctor
+  isExternal: true
+  name: Targets_GetTargetGroupIdsRequest
+  nameWithType: Targets_GetTargetGroupIdsRequest.Targets_GetTargetGroupIdsRequest
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.Targets_GetTargetGroupIdsRequest
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.TargetDimensionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.TargetDimensionId
+  isExternal: true
+  name: TargetDimensionId
+  nameWithType: Targets_GetTargetGroupIdsRequest.TargetDimensionId
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetGroupIdsRequest.TargetDimensionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

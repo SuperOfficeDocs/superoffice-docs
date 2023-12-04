@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketMessageContent
+  commentId: T:SuperOffice.WebApi.Data.TicketMessageContent
+  id: TicketMessageContent
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketMessageContent.#ctor
+  - SuperOffice.WebApi.Data.TicketMessageContent.AttachmentsInfo
+  - SuperOffice.WebApi.Data.TicketMessageContent.Body
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageContent
+  nameWithType: TicketMessageContent
+  fullName: SuperOffice.WebApi.Data.TicketMessageContent
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TicketMessageContent.\nMessage content to fill a new message.    \n"
+  syntax:
+    content: 'public class TicketMessageContent : Object'
+    content.vb: >-
+      Public Class TicketMessageContent
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.TicketAgent
+    commentId: T:SuperOffice.WebApi.Agents.TicketAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketMessageContent.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TicketMessageContent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TicketMessageContent
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageContent()
+  nameWithType: TicketMessageContent.TicketMessageContent()
+  fullName: SuperOffice.WebApi.Data.TicketMessageContent.TicketMessageContent()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TicketMessageContent()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TicketMessageContent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketMessageContent.Body
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageContent.Body
+  id: Body
+  parent: SuperOffice.WebApi.Data.TicketMessageContent
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: TicketMessageContent.Body
+  fullName: SuperOffice.WebApi.Data.TicketMessageContent.Body
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBody (including default editor content, content from template, user signature, quoted message content) as sanitized HTML\n"
+  syntax:
+    content: public virtual string Body { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Body As String
+  overload: SuperOffice.WebApi.Data.TicketMessageContent.Body*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessageContent.AttachmentsInfo
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageContent.AttachmentsInfo
+  id: AttachmentsInfo
+  parent: SuperOffice.WebApi.Data.TicketMessageContent
+  langs:
+  - csharp
+  - vb
+  name: AttachmentsInfo
+  nameWithType: TicketMessageContent.AttachmentsInfo
+  fullName: SuperOffice.WebApi.Data.TicketMessageContent.AttachmentsInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMessage attachments information\n"
+  syntax:
+    content: public virtual AttachmentEntity[] AttachmentsInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.AttachmentEntity[]
+    content.vb: Public Overridable Property AttachmentsInfo As AttachmentEntity()
+  overload: SuperOffice.WebApi.Data.TicketMessageContent.AttachmentsInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.TicketAgent
+  commentId: T:SuperOffice.WebApi.Agents.TicketAgent
+  isExternal: true
+  name: TicketAgent
+  nameWithType: TicketAgent
+  fullName: SuperOffice.WebApi.Agents.TicketAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TicketMessageContent.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageContent.#ctor
+  isExternal: true
+  name: TicketMessageContent
+  nameWithType: TicketMessageContent.TicketMessageContent
+  fullName: SuperOffice.WebApi.Data.TicketMessageContent.TicketMessageContent
+- uid: SuperOffice.WebApi.Data.TicketMessageContent.Body*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageContent.Body
+  isExternal: true
+  name: Body
+  nameWithType: TicketMessageContent.Body
+  fullName: SuperOffice.WebApi.Data.TicketMessageContent.Body
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TicketMessageContent.AttachmentsInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageContent.AttachmentsInfo
+  isExternal: true
+  name: AttachmentsInfo
+  nameWithType: TicketMessageContent.AttachmentsInfo
+  fullName: SuperOffice.WebApi.Data.TicketMessageContent.AttachmentsInfo
+- uid: SuperOffice.WebApi.Data.AttachmentEntity[]
+  isExternal: true
+  name: AttachmentEntity[]
+  nameWithType: AttachmentEntity[]
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity[]
+  nameWithType.vb: AttachmentEntity()
+  fullName.vb: SuperOffice.WebApi.Data.AttachmentEntity()
+  name.vb: AttachmentEntity()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.WebApi.Data.AttachmentEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.WebApi.Data.AttachmentEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

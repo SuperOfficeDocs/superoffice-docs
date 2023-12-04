@@ -25,6 +25,8 @@ items:
   - SuperOffice.WebApi.Data.Contact.IsOwnerContact
   - SuperOffice.WebApi.Data.Contact.Kananame
   - SuperOffice.WebApi.Data.Contact.Name
+  - SuperOffice.WebApi.Data.Contact.Number1
+  - SuperOffice.WebApi.Data.Contact.Number2
   - SuperOffice.WebApi.Data.Contact.OrgNr
   - SuperOffice.WebApi.Data.Contact.URL
   - SuperOffice.WebApi.Data.Contact.URLName
@@ -816,6 +818,72 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.Contact.Number1
+  commentId: P:SuperOffice.WebApi.Data.Contact.Number1
+  id: Number1
+  parent: SuperOffice.WebApi.Data.Contact
+  langs:
+  - csharp
+  - vb
+  name: Number1
+  nameWithType: Contact.Number1
+  fullName: SuperOffice.WebApi.Data.Contact.Number1
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAlphanumeric user field\n"
+  syntax:
+    content: public virtual string Number1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Number1 As String
+  overload: SuperOffice.WebApi.Data.Contact.Number1*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Contact.Number2
+  commentId: P:SuperOffice.WebApi.Data.Contact.Number2
+  id: Number2
+  parent: SuperOffice.WebApi.Data.Contact
+  langs:
+  - csharp
+  - vb
+  name: Number2
+  nameWithType: Contact.Number2
+  fullName: SuperOffice.WebApi.Data.Contact.Number2
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAlphanumeric user field\n"
+  syntax:
+    content: public virtual string Number2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Number2 As String
+  overload: SuperOffice.WebApi.Data.Contact.Number2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -1029,3 +1097,15 @@ references:
   name: ActiveErpLinks
   nameWithType: Contact.ActiveErpLinks
   fullName: SuperOffice.WebApi.Data.Contact.ActiveErpLinks
+- uid: SuperOffice.WebApi.Data.Contact.Number1*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact.Number1
+  isExternal: true
+  name: Number1
+  nameWithType: Contact.Number1
+  fullName: SuperOffice.WebApi.Data.Contact.Number1
+- uid: SuperOffice.WebApi.Data.Contact.Number2*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact.Number2
+  isExternal: true
+  name: Number2
+  nameWithType: Contact.Number2
+  fullName: SuperOffice.WebApi.Data.Contact.Number2

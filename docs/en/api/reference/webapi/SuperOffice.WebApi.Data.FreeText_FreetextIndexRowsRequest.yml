@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest
+  commentId: T:SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest
+  id: FreeText_FreetextIndexRowsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.#ctor
+  - SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.IDs
+  - SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.TableName
+  langs:
+  - csharp
+  - vb
+  name: FreeText_FreetextIndexRowsRequest
+  nameWithType: FreeText_FreetextIndexRowsRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class FreeText_FreetextIndexRowsRequest : Object'
+    content.vb: >-
+      Public Class FreeText_FreetextIndexRowsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest
+  langs:
+  - csharp
+  - vb
+  name: FreeText_FreetextIndexRowsRequest()
+  nameWithType: FreeText_FreetextIndexRowsRequest.FreeText_FreetextIndexRowsRequest()
+  fullName: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.FreeText_FreetextIndexRowsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public FreeText_FreetextIndexRowsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.TableName
+  commentId: P:SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: FreeText_FreetextIndexRowsRequest.TableName
+  fullName: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.IDs
+  commentId: P:SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.IDs
+  id: IDs
+  parent: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest
+  langs:
+  - csharp
+  - vb
+  name: IDs
+  nameWithType: FreeText_FreetextIndexRowsRequest.IDs
+  fullName: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.IDs
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] IDs { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property IDs As Integer()
+  overload: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.IDs*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.#ctor
+  isExternal: true
+  name: FreeText_FreetextIndexRowsRequest
+  nameWithType: FreeText_FreetextIndexRowsRequest.FreeText_FreetextIndexRowsRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.FreeText_FreetextIndexRowsRequest
+- uid: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: FreeText_FreetextIndexRowsRequest.TableName
+  fullName: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.TableName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.IDs*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.IDs
+  isExternal: true
+  name: IDs
+  nameWithType: FreeText_FreetextIndexRowsRequest.IDs
+  fullName: SuperOffice.WebApi.Data.FreeText_FreetextIndexRowsRequest.IDs
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

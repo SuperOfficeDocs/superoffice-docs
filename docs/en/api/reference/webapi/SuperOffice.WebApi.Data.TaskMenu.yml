@@ -1,0 +1,1113 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TaskMenu
+  commentId: T:SuperOffice.WebApi.Data.TaskMenu
+  id: TaskMenu
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TaskMenu.#ctor
+  - SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour
+  - SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour_String
+  - SuperOffice.WebApi.Data.TaskMenu.Area
+  - SuperOffice.WebApi.Data.TaskMenu.CrmScriptId
+  - SuperOffice.WebApi.Data.TaskMenu.Deleted
+  - SuperOffice.WebApi.Data.TaskMenu.Encoding
+  - SuperOffice.WebApi.Data.TaskMenu.Encoding_String
+  - SuperOffice.WebApi.Data.TaskMenu.Name
+  - SuperOffice.WebApi.Data.TaskMenu.ProgId
+  - SuperOffice.WebApi.Data.TaskMenu.Rank
+  - SuperOffice.WebApi.Data.TaskMenu.ShowInClient
+  - SuperOffice.WebApi.Data.TaskMenu.ShowInClient_String
+  - SuperOffice.WebApi.Data.TaskMenu.TableName
+  - SuperOffice.WebApi.Data.TaskMenu.TaskMenuId
+  - SuperOffice.WebApi.Data.TaskMenu.TaskType
+  - SuperOffice.WebApi.Data.TaskMenu.TaskType_String
+  - SuperOffice.WebApi.Data.TaskMenu.Tooltip
+  - SuperOffice.WebApi.Data.TaskMenu.UrlOrSoprotocol
+  langs:
+  - csharp
+  - vb
+  name: TaskMenu
+  nameWithType: TaskMenu
+  fullName: SuperOffice.WebApi.Data.TaskMenu
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TaskMenu.\nConfigurable Menu Items are items that will be merged into menus in given area and entity    \n"
+  example:
+  - "\nGet TaskMenu 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar taskMenu = agent.GetTaskMenu( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class TaskMenu : Carrier'
+    content.vb: >-
+      Public Class TaskMenu
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TaskMenu.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TaskMenu.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: TaskMenu()
+  nameWithType: TaskMenu.TaskMenu()
+  fullName: SuperOffice.WebApi.Data.TaskMenu.TaskMenu()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TaskMenu()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TaskMenu.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TaskMenu.TaskMenuId
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.TaskMenuId
+  id: TaskMenuId
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: TaskMenuId
+  nameWithType: TaskMenu.TaskMenuId
+  fullName: SuperOffice.WebApi.Data.TaskMenu.TaskMenuId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int TaskMenuId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TaskMenuId As Integer
+  overload: SuperOffice.WebApi.Data.TaskMenu.TaskMenuId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TaskMenu.Name
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TaskMenu.Name
+  fullName: SuperOffice.WebApi.Data.TaskMenu.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe list item\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.TaskMenu.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TaskMenu.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: TaskMenu.Tooltip
+  fullName: SuperOffice.WebApi.Data.TaskMenu.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip or other description\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.TaskMenu.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TaskMenu.TableName
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: TaskMenu.TableName
+  fullName: SuperOffice.WebApi.Data.TaskMenu.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of entity that this task item can be used at\n"
+  syntax:
+    content: public virtual string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TableName As String
+  overload: SuperOffice.WebApi.Data.TaskMenu.TableName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TaskMenu.Area
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.Area
+  id: Area
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: Area
+  nameWithType: TaskMenu.Area
+  fullName: SuperOffice.WebApi.Data.TaskMenu.Area
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCan be Task or other that can identify which menu recipe to merge the item into\n"
+  syntax:
+    content: public virtual string Area { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Area As String
+  overload: SuperOffice.WebApi.Data.TaskMenu.Area*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TaskMenu.UrlOrSoprotocol
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.UrlOrSoprotocol
+  id: UrlOrSoprotocol
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: UrlOrSoprotocol
+  nameWithType: TaskMenu.UrlOrSoprotocol
+  fullName: SuperOffice.WebApi.Data.TaskMenu.UrlOrSoprotocol
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe url or soprotocol\n"
+  syntax:
+    content: public virtual string UrlOrSoprotocol { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UrlOrSoprotocol As String
+  overload: SuperOffice.WebApi.Data.TaskMenu.UrlOrSoprotocol*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TaskMenu.TaskType_String
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.TaskType_String
+  id: TaskType_String
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: TaskType_String
+  nameWithType: TaskMenu.TaskType_String
+  fullName: SuperOffice.WebApi.Data.TaskMenu.TaskType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of task item Url, SoProtocol or CRMScript.\nRaw string enum value.\n"
+  syntax:
+    content: public string TaskType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TaskType_String As String
+  overload: SuperOffice.WebApi.Data.TaskMenu.TaskType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TaskMenu.TaskType
+    commentId: P:SuperOffice.WebApi.Data.TaskMenu.TaskType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TaskMenu.TaskType
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.TaskType
+  id: TaskType
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: TaskType
+  nameWithType: TaskMenu.TaskType
+  fullName: SuperOffice.WebApi.Data.TaskMenu.TaskType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of task item Url, SoProtocol or CRMScript.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<TaskListItemType> TaskType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.TaskListItemType}
+    content.vb: Public Property TaskType As Nullable(Of TaskListItemType)
+  overload: SuperOffice.WebApi.Data.TaskMenu.TaskType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TaskMenu.TaskType_String
+    commentId: P:SuperOffice.WebApi.Data.TaskMenu.TaskType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TaskMenu.CrmScriptId
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.CrmScriptId
+  id: CrmScriptId
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: CrmScriptId
+  nameWithType: TaskMenu.CrmScriptId
+  fullName: SuperOffice.WebApi.Data.TaskMenu.CrmScriptId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe CRMScript or Macro which will be run task item is selected.\n"
+  syntax:
+    content: public virtual int CrmScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CrmScriptId As Integer
+  overload: SuperOffice.WebApi.Data.TaskMenu.CrmScriptId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TaskMenu.ShowInClient_String
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.ShowInClient_String
+  id: ShowInClient_String
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: ShowInClient_String
+  nameWithType: TaskMenu.ShowInClient_String
+  fullName: SuperOffice.WebApi.Data.TaskMenu.ShowInClient_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShow task list item in which clients (web, mobile)\nRaw string enum value.\n"
+  syntax:
+    content: public string ShowInClient_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShowInClient_String As String
+  overload: SuperOffice.WebApi.Data.TaskMenu.ShowInClient_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TaskMenu.ShowInClient
+    commentId: P:SuperOffice.WebApi.Data.TaskMenu.ShowInClient
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TaskMenu.ShowInClient
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.ShowInClient
+  id: ShowInClient
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: ShowInClient
+  nameWithType: TaskMenu.ShowInClient
+  fullName: SuperOffice.WebApi.Data.TaskMenu.ShowInClient
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShow task list item in which clients (web, mobile)\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ShowTaskItemInClient> ShowInClient { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ShowTaskItemInClient}
+    content.vb: Public Property ShowInClient As Nullable(Of ShowTaskItemInClient)
+  overload: SuperOffice.WebApi.Data.TaskMenu.ShowInClient*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TaskMenu.ShowInClient_String
+    commentId: P:SuperOffice.WebApi.Data.TaskMenu.ShowInClient_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour_String
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour_String
+  id: ArchiveBehaviour_String
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: ArchiveBehaviour_String
+  nameWithType: TaskMenu.ArchiveBehaviour_String
+  fullName: SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNone, rightclick on, multiselect\nRaw string enum value.\n"
+  syntax:
+    content: public string ArchiveBehaviour_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ArchiveBehaviour_String As String
+  overload: SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour
+    commentId: P:SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour
+  id: ArchiveBehaviour
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: ArchiveBehaviour
+  nameWithType: TaskMenu.ArchiveBehaviour
+  fullName: SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNone, rightclick on, multiselect\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ArchiveBehaviour> ArchiveBehaviour { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ArchiveBehaviour}
+    content.vb: Public Property ArchiveBehaviour As Nullable(Of ArchiveBehaviour)
+  overload: SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour_String
+    commentId: P:SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TaskMenu.Rank
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: TaskMenu.Rank
+  fullName: SuperOffice.WebApi.Data.TaskMenu.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank order\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.TaskMenu.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TaskMenu.Encoding_String
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.Encoding_String
+  id: Encoding_String
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: Encoding_String
+  nameWithType: TaskMenu.Encoding_String
+  fullName: SuperOffice.WebApi.Data.TaskMenu.Encoding_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEncoding for url\nRaw string enum value.\n"
+  syntax:
+    content: public string Encoding_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Encoding_String As String
+  overload: SuperOffice.WebApi.Data.TaskMenu.Encoding_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TaskMenu.Encoding
+    commentId: P:SuperOffice.WebApi.Data.TaskMenu.Encoding
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TaskMenu.Encoding
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.Encoding
+  id: Encoding
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: TaskMenu.Encoding
+  fullName: SuperOffice.WebApi.Data.TaskMenu.Encoding
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEncoding for url\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<UrlEncoding> Encoding { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.UrlEncoding}
+    content.vb: Public Property Encoding As Nullable(Of UrlEncoding)
+  overload: SuperOffice.WebApi.Data.TaskMenu.Encoding*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TaskMenu.Encoding_String
+    commentId: P:SuperOffice.WebApi.Data.TaskMenu.Encoding_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TaskMenu.ProgId
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.ProgId
+  id: ProgId
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: ProgId
+  nameWithType: TaskMenu.ProgId
+  fullName: SuperOffice.WebApi.Data.TaskMenu.ProgId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nString key that can be used to uniquely retrieve the task menu; particularly useful for partners and others who do not wish to store database ID&apos;s\n"
+  syntax:
+    content: public virtual string ProgId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProgId As String
+  overload: SuperOffice.WebApi.Data.TaskMenu.ProgId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TaskMenu.Deleted
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.TaskMenu
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: TaskMenu.Deleted
+  fullName: SuperOffice.WebApi.Data.TaskMenu.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if deleted\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.TaskMenu.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TaskMenu.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.#ctor
+  isExternal: true
+  name: TaskMenu
+  nameWithType: TaskMenu.TaskMenu
+  fullName: SuperOffice.WebApi.Data.TaskMenu.TaskMenu
+- uid: SuperOffice.WebApi.Data.TaskMenu.TaskMenuId*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.TaskMenuId
+  isExternal: true
+  name: TaskMenuId
+  nameWithType: TaskMenu.TaskMenuId
+  fullName: SuperOffice.WebApi.Data.TaskMenu.TaskMenuId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TaskMenu.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.Name
+  isExternal: true
+  name: Name
+  nameWithType: TaskMenu.Name
+  fullName: SuperOffice.WebApi.Data.TaskMenu.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TaskMenu.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: TaskMenu.Tooltip
+  fullName: SuperOffice.WebApi.Data.TaskMenu.Tooltip
+- uid: SuperOffice.WebApi.Data.TaskMenu.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: TaskMenu.TableName
+  fullName: SuperOffice.WebApi.Data.TaskMenu.TableName
+- uid: SuperOffice.WebApi.Data.TaskMenu.Area*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.Area
+  isExternal: true
+  name: Area
+  nameWithType: TaskMenu.Area
+  fullName: SuperOffice.WebApi.Data.TaskMenu.Area
+- uid: SuperOffice.WebApi.Data.TaskMenu.UrlOrSoprotocol*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.UrlOrSoprotocol
+  isExternal: true
+  name: UrlOrSoprotocol
+  nameWithType: TaskMenu.UrlOrSoprotocol
+  fullName: SuperOffice.WebApi.Data.TaskMenu.UrlOrSoprotocol
+- uid: SuperOffice.WebApi.Data.TaskMenu.TaskType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.TaskType_String
+  isExternal: true
+  name: TaskType_String
+  nameWithType: TaskMenu.TaskType_String
+  fullName: SuperOffice.WebApi.Data.TaskMenu.TaskType_String
+- uid: SuperOffice.WebApi.Data.TaskMenu.TaskType
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.TaskType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TaskMenu.TaskType*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.TaskType
+  isExternal: true
+  name: TaskType
+  nameWithType: TaskMenu.TaskType
+  fullName: SuperOffice.WebApi.Data.TaskMenu.TaskType
+- uid: SuperOffice.WebApi.Data.TaskMenu.TaskType_String
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.TaskType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.TaskListItemType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TaskListItemType}'
+  definition: System.Nullable`1
+  name: Nullable<TaskListItemType>
+  nameWithType: Nullable<TaskListItemType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TaskListItemType>
+  nameWithType.vb: Nullable(Of TaskListItemType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TaskListItemType)
+  name.vb: Nullable(Of TaskListItemType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TaskListItemType
+    name: TaskListItemType
+    nameWithType: TaskListItemType
+    fullName: SuperOffice.WebApi.Data.TaskListItemType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TaskListItemType
+    name: TaskListItemType
+    nameWithType: TaskListItemType
+    fullName: SuperOffice.WebApi.Data.TaskListItemType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TaskMenu.CrmScriptId*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.CrmScriptId
+  isExternal: true
+  name: CrmScriptId
+  nameWithType: TaskMenu.CrmScriptId
+  fullName: SuperOffice.WebApi.Data.TaskMenu.CrmScriptId
+- uid: SuperOffice.WebApi.Data.TaskMenu.ShowInClient_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.ShowInClient_String
+  isExternal: true
+  name: ShowInClient_String
+  nameWithType: TaskMenu.ShowInClient_String
+  fullName: SuperOffice.WebApi.Data.TaskMenu.ShowInClient_String
+- uid: SuperOffice.WebApi.Data.TaskMenu.ShowInClient
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.ShowInClient
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TaskMenu.ShowInClient*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.ShowInClient
+  isExternal: true
+  name: ShowInClient
+  nameWithType: TaskMenu.ShowInClient
+  fullName: SuperOffice.WebApi.Data.TaskMenu.ShowInClient
+- uid: SuperOffice.WebApi.Data.TaskMenu.ShowInClient_String
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.ShowInClient_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ShowTaskItemInClient}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ShowTaskItemInClient}'
+  definition: System.Nullable`1
+  name: Nullable<ShowTaskItemInClient>
+  nameWithType: Nullable<ShowTaskItemInClient>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ShowTaskItemInClient>
+  nameWithType.vb: Nullable(Of ShowTaskItemInClient)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ShowTaskItemInClient)
+  name.vb: Nullable(Of ShowTaskItemInClient)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ShowTaskItemInClient
+    name: ShowTaskItemInClient
+    nameWithType: ShowTaskItemInClient
+    fullName: SuperOffice.WebApi.Data.ShowTaskItemInClient
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ShowTaskItemInClient
+    name: ShowTaskItemInClient
+    nameWithType: ShowTaskItemInClient
+    fullName: SuperOffice.WebApi.Data.ShowTaskItemInClient
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour_String
+  isExternal: true
+  name: ArchiveBehaviour_String
+  nameWithType: TaskMenu.ArchiveBehaviour_String
+  fullName: SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour_String
+- uid: SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour
+  isExternal: true
+  name: ArchiveBehaviour
+  nameWithType: TaskMenu.ArchiveBehaviour
+  fullName: SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour
+- uid: SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour_String
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.ArchiveBehaviour_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ArchiveBehaviour}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ArchiveBehaviour}'
+  definition: System.Nullable`1
+  name: Nullable<ArchiveBehaviour>
+  nameWithType: Nullable<ArchiveBehaviour>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ArchiveBehaviour>
+  nameWithType.vb: Nullable(Of ArchiveBehaviour)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ArchiveBehaviour)
+  name.vb: Nullable(Of ArchiveBehaviour)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ArchiveBehaviour
+    name: ArchiveBehaviour
+    nameWithType: ArchiveBehaviour
+    fullName: SuperOffice.WebApi.Data.ArchiveBehaviour
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ArchiveBehaviour
+    name: ArchiveBehaviour
+    nameWithType: ArchiveBehaviour
+    fullName: SuperOffice.WebApi.Data.ArchiveBehaviour
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TaskMenu.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: TaskMenu.Rank
+  fullName: SuperOffice.WebApi.Data.TaskMenu.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.TaskMenu.Encoding_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.Encoding_String
+  isExternal: true
+  name: Encoding_String
+  nameWithType: TaskMenu.Encoding_String
+  fullName: SuperOffice.WebApi.Data.TaskMenu.Encoding_String
+- uid: SuperOffice.WebApi.Data.TaskMenu.Encoding
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.Encoding
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TaskMenu.Encoding*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.Encoding
+  isExternal: true
+  name: Encoding
+  nameWithType: TaskMenu.Encoding
+  fullName: SuperOffice.WebApi.Data.TaskMenu.Encoding
+- uid: SuperOffice.WebApi.Data.TaskMenu.Encoding_String
+  commentId: P:SuperOffice.WebApi.Data.TaskMenu.Encoding_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.UrlEncoding}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.UrlEncoding}'
+  definition: System.Nullable`1
+  name: Nullable<UrlEncoding>
+  nameWithType: Nullable<UrlEncoding>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.UrlEncoding>
+  nameWithType.vb: Nullable(Of UrlEncoding)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.UrlEncoding)
+  name.vb: Nullable(Of UrlEncoding)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.UrlEncoding
+    name: UrlEncoding
+    nameWithType: UrlEncoding
+    fullName: SuperOffice.WebApi.Data.UrlEncoding
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.UrlEncoding
+    name: UrlEncoding
+    nameWithType: UrlEncoding
+    fullName: SuperOffice.WebApi.Data.UrlEncoding
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TaskMenu.ProgId*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.ProgId
+  isExternal: true
+  name: ProgId
+  nameWithType: TaskMenu.ProgId
+  fullName: SuperOffice.WebApi.Data.TaskMenu.ProgId
+- uid: SuperOffice.WebApi.Data.TaskMenu.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.TaskMenu.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: TaskMenu.Deleted
+  fullName: SuperOffice.WebApi.Data.TaskMenu.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -6,12 +6,12 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.DeltaQuery.#ctor
+  - SuperOffice.WebApi.Data.DeltaQuery.AppliesToIds
   - SuperOffice.WebApi.Data.DeltaQuery.DeltaStates
   - SuperOffice.WebApi.Data.DeltaQuery.DeltaStates_String
   - SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes
   - SuperOffice.WebApi.Data.DeltaQuery.DeltaTypes_String
   - SuperOffice.WebApi.Data.DeltaQuery.RecipeId
-  - SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds
   langs:
   - csharp
   - vb
@@ -241,16 +241,16 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds
-  commentId: P:SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds
-  id: UserGroupIds
+- uid: SuperOffice.WebApi.Data.DeltaQuery.AppliesToIds
+  commentId: P:SuperOffice.WebApi.Data.DeltaQuery.AppliesToIds
+  id: AppliesToIds
   parent: SuperOffice.WebApi.Data.DeltaQuery
   langs:
   - csharp
   - vb
-  name: UserGroupIds
-  nameWithType: DeltaQuery.UserGroupIds
-  fullName: SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds
+  name: AppliesToIds
+  nameWithType: DeltaQuery.AppliesToIds
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.AppliesToIds
   type: Property
   source:
     path: SuperOffice.WebApi
@@ -258,14 +258,14 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nMembers of this usergroup will have this delta applied to their resulting ui\n"
+  summary: "\nLayouts with appliesToKey in these ids will have this delta applied to the resulting ui\n"
   syntax:
-    content: public virtual int[] UserGroupIds { get; set; }
+    content: public virtual int[] AppliesToIds { get; set; }
     parameters: []
     return:
       type: System.Int32[]
-    content.vb: Public Overridable Property UserGroupIds As Integer()
-  overload: SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds*
+    content.vb: Public Overridable Property AppliesToIds As Integer()
+  overload: SuperOffice.WebApi.Data.DeltaQuery.AppliesToIds*
   modifiers.csharp:
   - public
   - virtual
@@ -498,12 +498,12 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds*
-  commentId: Overload:SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds
+- uid: SuperOffice.WebApi.Data.DeltaQuery.AppliesToIds*
+  commentId: Overload:SuperOffice.WebApi.Data.DeltaQuery.AppliesToIds
   isExternal: true
-  name: UserGroupIds
-  nameWithType: DeltaQuery.UserGroupIds
-  fullName: SuperOffice.WebApi.Data.DeltaQuery.UserGroupIds
+  name: AppliesToIds
+  nameWithType: DeltaQuery.AppliesToIds
+  fullName: SuperOffice.WebApi.Data.DeltaQuery.AppliesToIds
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]

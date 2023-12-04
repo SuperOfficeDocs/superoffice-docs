@@ -1,0 +1,549 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowStepType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepType
+  id: WorkflowStepType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowStepType.AddToList
+  - SuperOffice.WebApi.Data.WorkflowStepType.CreateFollowUp
+  - SuperOffice.WebApi.Data.WorkflowStepType.CreateRequest
+  - SuperOffice.WebApi.Data.WorkflowStepType.CreateSale
+  - SuperOffice.WebApi.Data.WorkflowStepType.None
+  - SuperOffice.WebApi.Data.WorkflowStepType.NotifyByEmail
+  - SuperOffice.WebApi.Data.WorkflowStepType.NotifyBySMS
+  - SuperOffice.WebApi.Data.WorkflowStepType.RemoveFromList
+  - SuperOffice.WebApi.Data.WorkflowStepType.RunScript
+  - SuperOffice.WebApi.Data.WorkflowStepType.SendEmail
+  - SuperOffice.WebApi.Data.WorkflowStepType.SendSMS
+  - SuperOffice.WebApi.Data.WorkflowStepType.Split
+  - SuperOffice.WebApi.Data.WorkflowStepType.UpdateParticipant
+  - SuperOffice.WebApi.Data.WorkflowStepType.value__
+  - SuperOffice.WebApi.Data.WorkflowStepType.WaitForAction
+  - SuperOffice.WebApi.Data.WorkflowStepType.WaitForTime
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepType
+  nameWithType: WorkflowStepType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWorkflow Step Type\nThis Enum is used by:  workflow_step.step_type\n"
+  syntax:
+    content: 'public sealed class WorkflowStepType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowStepType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.value__
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowStepType.value__
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.None
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowStepType.None
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const WorkflowStepType None
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const None As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.SendEmail
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.SendEmail
+  id: SendEmail
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: SendEmail
+  nameWithType: WorkflowStepType.SendEmail
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.SendEmail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: SendEmail\n"
+  syntax:
+    content: public const WorkflowStepType SendEmail
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const SendEmail As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.SendSMS
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.SendSMS
+  id: SendSMS
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: SendSMS
+  nameWithType: WorkflowStepType.SendSMS
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.SendSMS
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: SendSMS\n"
+  syntax:
+    content: public const WorkflowStepType SendSMS
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const SendSMS As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.WaitForTime
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.WaitForTime
+  id: WaitForTime
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: WaitForTime
+  nameWithType: WorkflowStepType.WaitForTime
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.WaitForTime
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: WaitForTime\n"
+  syntax:
+    content: public const WorkflowStepType WaitForTime
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const WaitForTime As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.WaitForAction
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.WaitForAction
+  id: WaitForAction
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: WaitForAction
+  nameWithType: WorkflowStepType.WaitForAction
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.WaitForAction
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: WaitForAction\n"
+  syntax:
+    content: public const WorkflowStepType WaitForAction
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const WaitForAction As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.Split
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.Split
+  id: Split
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: Split
+  nameWithType: WorkflowStepType.Split
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.Split
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Split\n"
+  syntax:
+    content: public const WorkflowStepType Split
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const Split As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.UpdateParticipant
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.UpdateParticipant
+  id: UpdateParticipant
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: UpdateParticipant
+  nameWithType: WorkflowStepType.UpdateParticipant
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.UpdateParticipant
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: UpdateParticipant\n"
+  syntax:
+    content: public const WorkflowStepType UpdateParticipant
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const UpdateParticipant As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.AddToList
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.AddToList
+  id: AddToList
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: AddToList
+  nameWithType: WorkflowStepType.AddToList
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.AddToList
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: AddToList\n"
+  syntax:
+    content: public const WorkflowStepType AddToList
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const AddToList As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.RemoveFromList
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.RemoveFromList
+  id: RemoveFromList
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromList
+  nameWithType: WorkflowStepType.RemoveFromList
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.RemoveFromList
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: RemoveFromList\n"
+  syntax:
+    content: public const WorkflowStepType RemoveFromList
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const RemoveFromList As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.CreateRequest
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.CreateRequest
+  id: CreateRequest
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: CreateRequest
+  nameWithType: WorkflowStepType.CreateRequest
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.CreateRequest
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: CreateRequest\n"
+  syntax:
+    content: public const WorkflowStepType CreateRequest
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const CreateRequest As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.CreateFollowUp
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.CreateFollowUp
+  id: CreateFollowUp
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: CreateFollowUp
+  nameWithType: WorkflowStepType.CreateFollowUp
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.CreateFollowUp
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n10: CreateFollowUp\n"
+  syntax:
+    content: public const WorkflowStepType CreateFollowUp
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const CreateFollowUp As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.CreateSale
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.CreateSale
+  id: CreateSale
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: CreateSale
+  nameWithType: WorkflowStepType.CreateSale
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.CreateSale
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n11: CreateSale\n"
+  syntax:
+    content: public const WorkflowStepType CreateSale
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const CreateSale As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.NotifyByEmail
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.NotifyByEmail
+  id: NotifyByEmail
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: NotifyByEmail
+  nameWithType: WorkflowStepType.NotifyByEmail
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.NotifyByEmail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n12: NotifyByEmail\n"
+  syntax:
+    content: public const WorkflowStepType NotifyByEmail
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const NotifyByEmail As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.NotifyBySMS
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.NotifyBySMS
+  id: NotifyBySMS
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: NotifyBySMS
+  nameWithType: WorkflowStepType.NotifyBySMS
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.NotifyBySMS
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n13: NotifyBySMS\n"
+  syntax:
+    content: public const WorkflowStepType NotifyBySMS
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const NotifyBySMS As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowStepType.RunScript
+  commentId: F:SuperOffice.WebApi.Data.WorkflowStepType.RunScript
+  id: RunScript
+  parent: SuperOffice.WebApi.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: RunScript
+  nameWithType: WorkflowStepType.RunScript
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType.RunScript
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n14: RunScript\n"
+  syntax:
+    content: public const WorkflowStepType RunScript
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+    content.vb: Public Const RunScript As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.WorkflowStepType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowStepType
+  nameWithType: WorkflowStepType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType

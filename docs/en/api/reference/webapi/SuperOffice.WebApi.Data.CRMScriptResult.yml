@@ -6,7 +6,9 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.CRMScriptResult.#ctor
+  - SuperOffice.WebApi.Data.CRMScriptResult.ErrorInformation
   - SuperOffice.WebApi.Data.CRMScriptResult.ErrorMessage
+  - SuperOffice.WebApi.Data.CRMScriptResult.LineNumber
   - SuperOffice.WebApi.Data.CRMScriptResult.Valid
   langs:
   - csharp
@@ -118,7 +120,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nContains the error message for a non-valide CRMScript\n"
+  summary: "\nDeprecated, see ErrorInformation instead. Contains the error message for a non-valide CRMScript\n"
   syntax:
     content: public virtual string ErrorMessage { get; set; }
     parameters: []
@@ -126,6 +128,72 @@ items:
       type: System.String
     content.vb: Public Overridable Property ErrorMessage As String
   overload: SuperOffice.WebApi.Data.CRMScriptResult.ErrorMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptResult.LineNumber
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptResult.LineNumber
+  id: LineNumber
+  parent: SuperOffice.WebApi.Data.CRMScriptResult
+  langs:
+  - csharp
+  - vb
+  name: LineNumber
+  nameWithType: CRMScriptResult.LineNumber
+  fullName: SuperOffice.WebApi.Data.CRMScriptResult.LineNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDeprecated, see ErrorInformation instead. The line number containing the incorrect syntax, if available\n"
+  syntax:
+    content: public virtual int LineNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LineNumber As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptResult.LineNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptResult.ErrorInformation
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptResult.ErrorInformation
+  id: ErrorInformation
+  parent: SuperOffice.WebApi.Data.CRMScriptResult
+  langs:
+  - csharp
+  - vb
+  name: ErrorInformation
+  nameWithType: CRMScriptResult.ErrorInformation
+  fullName: SuperOffice.WebApi.Data.CRMScriptResult.ErrorInformation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContains error information if the validation failed\n"
+  syntax:
+    content: public virtual CRMScriptErrorInfo ErrorInformation { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CRMScriptErrorInfo
+    content.vb: Public Overridable Property ErrorInformation As CRMScriptErrorInfo
+  overload: SuperOffice.WebApi.Data.CRMScriptResult.ErrorInformation*
   modifiers.csharp:
   - public
   - virtual
@@ -213,3 +281,29 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.WebApi.Data.CRMScriptResult.LineNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptResult.LineNumber
+  isExternal: true
+  name: LineNumber
+  nameWithType: CRMScriptResult.LineNumber
+  fullName: SuperOffice.WebApi.Data.CRMScriptResult.LineNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CRMScriptResult.ErrorInformation*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptResult.ErrorInformation
+  isExternal: true
+  name: ErrorInformation
+  nameWithType: CRMScriptResult.ErrorInformation
+  fullName: SuperOffice.WebApi.Data.CRMScriptResult.ErrorInformation
+- uid: SuperOffice.WebApi.Data.CRMScriptErrorInfo
+  commentId: T:SuperOffice.WebApi.Data.CRMScriptErrorInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CRMScriptErrorInfo
+  nameWithType: CRMScriptErrorInfo
+  fullName: SuperOffice.WebApi.Data.CRMScriptErrorInfo

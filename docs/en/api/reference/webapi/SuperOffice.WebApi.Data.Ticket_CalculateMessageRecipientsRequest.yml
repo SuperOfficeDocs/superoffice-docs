@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest
+  id: Ticket_CalculateMessageRecipientsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.ActionType
+  - SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.MessageId
+  - SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.TicketId
+  langs:
+  - csharp
+  - vb
+  name: Ticket_CalculateMessageRecipientsRequest
+  nameWithType: Ticket_CalculateMessageRecipientsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_CalculateMessageRecipientsRequest : Object'
+    content.vb: >-
+      Public Class Ticket_CalculateMessageRecipientsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_CalculateMessageRecipientsRequest()
+  nameWithType: Ticket_CalculateMessageRecipientsRequest.Ticket_CalculateMessageRecipientsRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.Ticket_CalculateMessageRecipientsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_CalculateMessageRecipientsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.TicketId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.TicketId
+  id: TicketId
+  parent: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: Ticket_CalculateMessageRecipientsRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.TicketId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.TicketId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.ActionType
+  commentId: P:SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.ActionType
+  id: ActionType
+  parent: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest
+  langs:
+  - csharp
+  - vb
+  name: ActionType
+  nameWithType: Ticket_CalculateMessageRecipientsRequest.ActionType
+  fullName: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.ActionType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public MessageActionType ActionType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.MessageActionType
+    content.vb: Public Property ActionType As MessageActionType
+  overload: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.ActionType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.MessageId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.MessageId
+  id: MessageId
+  parent: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: Ticket_CalculateMessageRecipientsRequest.MessageId
+  fullName: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.MessageId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int MessageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MessageId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.MessageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.#ctor
+  isExternal: true
+  name: Ticket_CalculateMessageRecipientsRequest
+  nameWithType: Ticket_CalculateMessageRecipientsRequest.Ticket_CalculateMessageRecipientsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.Ticket_CalculateMessageRecipientsRequest
+- uid: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.TicketId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.TicketId
+  isExternal: true
+  name: TicketId
+  nameWithType: Ticket_CalculateMessageRecipientsRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.TicketId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.ActionType*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.ActionType
+  isExternal: true
+  name: ActionType
+  nameWithType: Ticket_CalculateMessageRecipientsRequest.ActionType
+  fullName: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.ActionType
+- uid: SuperOffice.WebApi.Data.MessageActionType
+  commentId: T:SuperOffice.WebApi.Data.MessageActionType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: MessageActionType
+  nameWithType: MessageActionType
+  fullName: SuperOffice.WebApi.Data.MessageActionType
+- uid: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.MessageId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.MessageId
+  isExternal: true
+  name: MessageId
+  nameWithType: Ticket_CalculateMessageRecipientsRequest.MessageId
+  fullName: SuperOffice.WebApi.Data.Ticket_CalculateMessageRecipientsRequest.MessageId

@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FreeBusy
+  commentId: T:SuperOffice.WebApi.Data.FreeBusy
+  id: FreeBusy
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FreeBusy.Busy
+  - SuperOffice.WebApi.Data.FreeBusy.Free
+  - SuperOffice.WebApi.Data.FreeBusy.value__
+  langs:
+  - csharp
+  - vb
+  name: FreeBusy
+  nameWithType: FreeBusy
+  fullName: SuperOffice.WebApi.Data.FreeBusy
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat kind of time is this: 0 = Busy, 1 = Free\nThis Enum is used by:  appointment.freeBusy; Task.defaultFreeBusy\n"
+  syntax:
+    content: 'public sealed class FreeBusy : Enum'
+    content.vb: >-
+      Public NotInheritable Class FreeBusy
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.FreeBusy.value__
+  commentId: F:SuperOffice.WebApi.Data.FreeBusy.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.FreeBusy
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: FreeBusy.value__
+  fullName: SuperOffice.WebApi.Data.FreeBusy.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeBusy.Busy
+  commentId: F:SuperOffice.WebApi.Data.FreeBusy.Busy
+  id: Busy
+  parent: SuperOffice.WebApi.Data.FreeBusy
+  langs:
+  - csharp
+  - vb
+  name: Busy
+  nameWithType: FreeBusy.Busy
+  fullName: SuperOffice.WebApi.Data.FreeBusy.Busy
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: \n"
+  syntax:
+    content: public const FreeBusy Busy
+    return:
+      type: SuperOffice.WebApi.Data.FreeBusy
+    content.vb: Public Const Busy As FreeBusy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.FreeBusy.Free
+  commentId: F:SuperOffice.WebApi.Data.FreeBusy.Free
+  id: Free
+  parent: SuperOffice.WebApi.Data.FreeBusy
+  langs:
+  - csharp
+  - vb
+  name: Free
+  nameWithType: FreeBusy.Free
+  fullName: SuperOffice.WebApi.Data.FreeBusy.Free
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: \n"
+  syntax:
+    content: public const FreeBusy Free
+    return:
+      type: SuperOffice.WebApi.Data.FreeBusy
+    content.vb: Public Const Free As FreeBusy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.FreeBusy
+  commentId: T:SuperOffice.WebApi.Data.FreeBusy
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: FreeBusy
+  nameWithType: FreeBusy
+  fullName: SuperOffice.WebApi.Data.FreeBusy

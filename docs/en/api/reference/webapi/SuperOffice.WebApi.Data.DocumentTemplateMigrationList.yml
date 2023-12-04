@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DocumentTemplateMigrationList
+  commentId: T:SuperOffice.WebApi.Data.DocumentTemplateMigrationList
+  id: DocumentTemplateMigrationList
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DocumentTemplateMigrationList.#ctor
+  - SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesAlreadyMigrated
+  - SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesOmitted
+  - SuperOffice.WebApi.Data.DocumentTemplateMigrationList.TemplateIds
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplateMigrationList
+  nameWithType: DocumentTemplateMigrationList
+  fullName: SuperOffice.WebApi.Data.DocumentTemplateMigrationList
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for DocumentTemplateMigrationList.\n\n"
+  syntax:
+    content: 'public class DocumentTemplateMigrationList : Object'
+    content.vb: >-
+      Public Class DocumentTemplateMigrationList
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DocumentMigrationAgent
+    commentId: T:SuperOffice.WebApi.Agents.DocumentMigrationAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DocumentTemplateMigrationList.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DocumentTemplateMigrationList
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplateMigrationList()
+  nameWithType: DocumentTemplateMigrationList.DocumentTemplateMigrationList()
+  fullName: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.DocumentTemplateMigrationList()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public DocumentTemplateMigrationList()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesOmitted
+  commentId: P:SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesOmitted
+  id: NumTemplatesOmitted
+  parent: SuperOffice.WebApi.Data.DocumentTemplateMigrationList
+  langs:
+  - csharp
+  - vb
+  name: NumTemplatesOmitted
+  nameWithType: DocumentTemplateMigrationList.NumTemplatesOmitted
+  fullName: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesOmitted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTotal amount of templates which has been omitted from the migration.\n"
+  syntax:
+    content: public virtual int NumTemplatesOmitted { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumTemplatesOmitted As Integer
+  overload: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesOmitted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesAlreadyMigrated
+  commentId: P:SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesAlreadyMigrated
+  id: NumTemplatesAlreadyMigrated
+  parent: SuperOffice.WebApi.Data.DocumentTemplateMigrationList
+  langs:
+  - csharp
+  - vb
+  name: NumTemplatesAlreadyMigrated
+  nameWithType: DocumentTemplateMigrationList.NumTemplatesAlreadyMigrated
+  fullName: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesAlreadyMigrated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTotal amount of templates already migrated to the requested documentplugin.\n"
+  syntax:
+    content: public virtual int NumTemplatesAlreadyMigrated { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumTemplatesAlreadyMigrated As Integer
+  overload: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesAlreadyMigrated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.TemplateIds
+  commentId: P:SuperOffice.WebApi.Data.DocumentTemplateMigrationList.TemplateIds
+  id: TemplateIds
+  parent: SuperOffice.WebApi.Data.DocumentTemplateMigrationList
+  langs:
+  - csharp
+  - vb
+  name: TemplateIds
+  nameWithType: DocumentTemplateMigrationList.TemplateIds
+  fullName: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.TemplateIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nList of IDs for templates to be migrated.\n"
+  syntax:
+    content: public virtual int[] TemplateIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property TemplateIds As Integer()
+  overload: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.TemplateIds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.DocumentMigrationAgent
+  commentId: T:SuperOffice.WebApi.Agents.DocumentMigrationAgent
+  isExternal: true
+  name: DocumentMigrationAgent
+  nameWithType: DocumentMigrationAgent
+  fullName: SuperOffice.WebApi.Agents.DocumentMigrationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplateMigrationList.#ctor
+  isExternal: true
+  name: DocumentTemplateMigrationList
+  nameWithType: DocumentTemplateMigrationList.DocumentTemplateMigrationList
+  fullName: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.DocumentTemplateMigrationList
+- uid: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesOmitted*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesOmitted
+  isExternal: true
+  name: NumTemplatesOmitted
+  nameWithType: DocumentTemplateMigrationList.NumTemplatesOmitted
+  fullName: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesOmitted
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesAlreadyMigrated*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesAlreadyMigrated
+  isExternal: true
+  name: NumTemplatesAlreadyMigrated
+  nameWithType: DocumentTemplateMigrationList.NumTemplatesAlreadyMigrated
+  fullName: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.NumTemplatesAlreadyMigrated
+- uid: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.TemplateIds*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplateMigrationList.TemplateIds
+  isExternal: true
+  name: TemplateIds
+  nameWithType: DocumentTemplateMigrationList.TemplateIds
+  fullName: SuperOffice.WebApi.Data.DocumentTemplateMigrationList.TemplateIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

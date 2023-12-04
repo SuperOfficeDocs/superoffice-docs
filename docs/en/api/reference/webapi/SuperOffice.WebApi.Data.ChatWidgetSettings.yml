@@ -6,10 +6,19 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.ChatWidgetSettings.#ctor
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgColor
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgTextColor
   - SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqCategory
   - SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqEnabled
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeColor
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeTextColor
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonColor
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonTextColor
   - SuperOffice.WebApi.Data.ChatWidgetSettings.Color
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgColor
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgTextColor
   - SuperOffice.WebApi.Data.ChatWidgetSettings.Font
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.FontSize
   - SuperOffice.WebApi.Data.ChatWidgetSettings.LanguageIsoCode
   - SuperOffice.WebApi.Data.ChatWidgetSettings.LogoBlobId
   - SuperOffice.WebApi.Data.ChatWidgetSettings.LogoEnabled
@@ -624,6 +633,270 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeColor
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeColor
+  id: BadgeColor
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: BadgeColor
+  nameWithType: ChatWidgetSettings.BadgeColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeColor
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional color for chat widget badge\n"
+  syntax:
+    content: public virtual string BadgeColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BadgeColor As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeTextColor
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeTextColor
+  id: BadgeTextColor
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: BadgeTextColor
+  nameWithType: ChatWidgetSettings.BadgeTextColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeTextColor
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional color for chat widget badge text\n"
+  syntax:
+    content: public virtual string BadgeTextColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BadgeTextColor As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeTextColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgColor
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgColor
+  id: CustMsgColor
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: CustMsgColor
+  nameWithType: ChatWidgetSettings.CustMsgColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgColor
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional color for chat widget customer message\n"
+  syntax:
+    content: public virtual string CustMsgColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CustMsgColor As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgTextColor
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgTextColor
+  id: CustMsgTextColor
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: CustMsgTextColor
+  nameWithType: ChatWidgetSettings.CustMsgTextColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgTextColor
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional color for chat widget customer message text\n"
+  syntax:
+    content: public virtual string CustMsgTextColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CustMsgTextColor As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgTextColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgColor
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgColor
+  id: AgentMsgColor
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: AgentMsgColor
+  nameWithType: ChatWidgetSettings.AgentMsgColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgColor
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional color for chat widget agent message\n"
+  syntax:
+    content: public virtual string AgentMsgColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AgentMsgColor As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgTextColor
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgTextColor
+  id: AgentMsgTextColor
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: AgentMsgTextColor
+  nameWithType: ChatWidgetSettings.AgentMsgTextColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgTextColor
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional color for chat widget agent message text\n"
+  syntax:
+    content: public virtual string AgentMsgTextColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AgentMsgTextColor As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgTextColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonColor
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonColor
+  id: ButtonColor
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: ButtonColor
+  nameWithType: ChatWidgetSettings.ButtonColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonColor
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional color for chat widget button\n"
+  syntax:
+    content: public virtual string ButtonColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ButtonColor As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonTextColor
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonTextColor
+  id: ButtonTextColor
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: ButtonTextColor
+  nameWithType: ChatWidgetSettings.ButtonTextColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonTextColor
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional color for chat widget button text\n"
+  syntax:
+    content: public virtual string ButtonTextColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ButtonTextColor As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonTextColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Font
   commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Font
   id: Font
@@ -649,6 +922,39 @@ items:
       type: System.String
     content.vb: Public Overridable Property Font As String
   overload: SuperOffice.WebApi.Data.ChatWidgetSettings.Font*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.FontSize
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.FontSize
+  id: FontSize
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: FontSize
+  nameWithType: ChatWidgetSettings.FontSize
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.FontSize
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional size for chat widget font\n"
+  syntax:
+    content: public virtual string FontSize { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FontSize As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.FontSize*
   modifiers.csharp:
   - public
   - virtual
@@ -1356,12 +1662,66 @@ references:
   name: Color
   nameWithType: ChatWidgetSettings.Color
   fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Color
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeColor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeColor
+  isExternal: true
+  name: BadgeColor
+  nameWithType: ChatWidgetSettings.BadgeColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeColor
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeTextColor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeTextColor
+  isExternal: true
+  name: BadgeTextColor
+  nameWithType: ChatWidgetSettings.BadgeTextColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.BadgeTextColor
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgColor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgColor
+  isExternal: true
+  name: CustMsgColor
+  nameWithType: ChatWidgetSettings.CustMsgColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgColor
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgTextColor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgTextColor
+  isExternal: true
+  name: CustMsgTextColor
+  nameWithType: ChatWidgetSettings.CustMsgTextColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.CustMsgTextColor
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgColor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgColor
+  isExternal: true
+  name: AgentMsgColor
+  nameWithType: ChatWidgetSettings.AgentMsgColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgColor
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgTextColor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgTextColor
+  isExternal: true
+  name: AgentMsgTextColor
+  nameWithType: ChatWidgetSettings.AgentMsgTextColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.AgentMsgTextColor
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonColor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonColor
+  isExternal: true
+  name: ButtonColor
+  nameWithType: ChatWidgetSettings.ButtonColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonColor
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonTextColor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonTextColor
+  isExternal: true
+  name: ButtonTextColor
+  nameWithType: ChatWidgetSettings.ButtonTextColor
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.ButtonTextColor
 - uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Font*
   commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.Font
   isExternal: true
   name: Font
   nameWithType: ChatWidgetSettings.Font
   fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Font
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.FontSize*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.FontSize
+  isExternal: true
+  name: FontSize
+  nameWithType: ChatWidgetSettings.FontSize
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.FontSize
 - uid: SuperOffice.WebApi.Data.ChatWidgetSettings.LogoEnabled*
   commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.LogoEnabled
   isExternal: true

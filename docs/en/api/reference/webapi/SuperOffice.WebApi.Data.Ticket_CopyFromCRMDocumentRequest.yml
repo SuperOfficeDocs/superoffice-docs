@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest
+  id: Ticket_CopyFromCRMDocumentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.DocumentId
+  langs:
+  - csharp
+  - vb
+  name: Ticket_CopyFromCRMDocumentRequest
+  nameWithType: Ticket_CopyFromCRMDocumentRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_CopyFromCRMDocumentRequest : Object'
+    content.vb: >-
+      Public Class Ticket_CopyFromCRMDocumentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_CopyFromCRMDocumentRequest()
+  nameWithType: Ticket_CopyFromCRMDocumentRequest.Ticket_CopyFromCRMDocumentRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.Ticket_CopyFromCRMDocumentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_CopyFromCRMDocumentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: Ticket_CopyFromCRMDocumentRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.DocumentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.#ctor
+  isExternal: true
+  name: Ticket_CopyFromCRMDocumentRequest
+  nameWithType: Ticket_CopyFromCRMDocumentRequest.Ticket_CopyFromCRMDocumentRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.Ticket_CopyFromCRMDocumentRequest
+- uid: SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: Ticket_CopyFromCRMDocumentRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Ticket_CopyFromCRMDocumentRequest.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

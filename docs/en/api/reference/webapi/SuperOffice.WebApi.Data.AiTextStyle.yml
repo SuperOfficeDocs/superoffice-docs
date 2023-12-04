@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AiTextStyle
+  commentId: T:SuperOffice.WebApi.Data.AiTextStyle
+  id: AiTextStyle
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AiTextStyle.Casual
+  - SuperOffice.WebApi.Data.AiTextStyle.Correct
+  - SuperOffice.WebApi.Data.AiTextStyle.Formal
+  - SuperOffice.WebApi.Data.AiTextStyle.None
+  - SuperOffice.WebApi.Data.AiTextStyle.Rephrase
+  - SuperOffice.WebApi.Data.AiTextStyle.value__
+  langs:
+  - csharp
+  - vb
+  name: AiTextStyle
+  nameWithType: AiTextStyle
+  fullName: SuperOffice.WebApi.Data.AiTextStyle
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAI Text reformmating styles\n"
+  syntax:
+    content: 'public sealed class AiTextStyle : Enum'
+    content.vb: >-
+      Public NotInheritable Class AiTextStyle
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.AiTextStyle.value__
+  commentId: F:SuperOffice.WebApi.Data.AiTextStyle.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.AiTextStyle
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AiTextStyle.value__
+  fullName: SuperOffice.WebApi.Data.AiTextStyle.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AiTextStyle.None
+  commentId: F:SuperOffice.WebApi.Data.AiTextStyle.None
+  id: None
+  parent: SuperOffice.WebApi.Data.AiTextStyle
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AiTextStyle.None
+  fullName: SuperOffice.WebApi.Data.AiTextStyle.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None - just return text\n"
+  syntax:
+    content: public const AiTextStyle None
+    return:
+      type: SuperOffice.WebApi.Data.AiTextStyle
+    content.vb: Public Const None As AiTextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AiTextStyle.Rephrase
+  commentId: F:SuperOffice.WebApi.Data.AiTextStyle.Rephrase
+  id: Rephrase
+  parent: SuperOffice.WebApi.Data.AiTextStyle
+  langs:
+  - csharp
+  - vb
+  name: Rephrase
+  nameWithType: AiTextStyle.Rephrase
+  fullName: SuperOffice.WebApi.Data.AiTextStyle.Rephrase
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Rephrase - just rephrase the text\n"
+  syntax:
+    content: public const AiTextStyle Rephrase
+    return:
+      type: SuperOffice.WebApi.Data.AiTextStyle
+    content.vb: Public Const Rephrase As AiTextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AiTextStyle.Correct
+  commentId: F:SuperOffice.WebApi.Data.AiTextStyle.Correct
+  id: Correct
+  parent: SuperOffice.WebApi.Data.AiTextStyle
+  langs:
+  - csharp
+  - vb
+  name: Correct
+  nameWithType: AiTextStyle.Correct
+  fullName: SuperOffice.WebApi.Data.AiTextStyle.Correct
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Correct - fix grammar and spelling errors\n"
+  syntax:
+    content: public const AiTextStyle Correct
+    return:
+      type: SuperOffice.WebApi.Data.AiTextStyle
+    content.vb: Public Const Correct As AiTextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AiTextStyle.Casual
+  commentId: F:SuperOffice.WebApi.Data.AiTextStyle.Casual
+  id: Casual
+  parent: SuperOffice.WebApi.Data.AiTextStyle
+  langs:
+  - csharp
+  - vb
+  name: Casual
+  nameWithType: AiTextStyle.Casual
+  fullName: SuperOffice.WebApi.Data.AiTextStyle.Casual
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Casual - make text more casual\n"
+  syntax:
+    content: public const AiTextStyle Casual
+    return:
+      type: SuperOffice.WebApi.Data.AiTextStyle
+    content.vb: Public Const Casual As AiTextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AiTextStyle.Formal
+  commentId: F:SuperOffice.WebApi.Data.AiTextStyle.Formal
+  id: Formal
+  parent: SuperOffice.WebApi.Data.AiTextStyle
+  langs:
+  - csharp
+  - vb
+  name: Formal
+  nameWithType: AiTextStyle.Formal
+  fullName: SuperOffice.WebApi.Data.AiTextStyle.Formal
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Formal - make text more formal\n"
+  syntax:
+    content: public const AiTextStyle Formal
+    return:
+      type: SuperOffice.WebApi.Data.AiTextStyle
+    content.vb: Public Const Formal As AiTextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AiTextStyle
+  commentId: T:SuperOffice.WebApi.Data.AiTextStyle
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AiTextStyle
+  nameWithType: AiTextStyle
+  fullName: SuperOffice.WebApi.Data.AiTextStyle

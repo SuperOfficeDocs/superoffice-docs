@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+  id: WorkflowTimeWaitIntervalType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Days
+  - SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Hours
+  - SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Minutes
+  - SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.None
+  - SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Seconds
+  - SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.value__
+  - SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Weeks
+  - SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.WorkingDays
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTimeWaitIntervalType
+  nameWithType: WorkflowTimeWaitIntervalType
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWorkflow waiting time interval type\n"
+  syntax:
+    content: 'public sealed class WorkflowTimeWaitIntervalType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowTimeWaitIntervalType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.value__
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowTimeWaitIntervalType.value__
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.None
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowTimeWaitIntervalType.None
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const WorkflowTimeWaitIntervalType None
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+    content.vb: Public Const None As WorkflowTimeWaitIntervalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Seconds
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Seconds
+  id: Seconds
+  parent: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+  langs:
+  - csharp
+  - vb
+  name: Seconds
+  nameWithType: WorkflowTimeWaitIntervalType.Seconds
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Seconds
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Seconds\n"
+  syntax:
+    content: public const WorkflowTimeWaitIntervalType Seconds
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+    content.vb: Public Const Seconds As WorkflowTimeWaitIntervalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Minutes
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Minutes
+  id: Minutes
+  parent: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+  langs:
+  - csharp
+  - vb
+  name: Minutes
+  nameWithType: WorkflowTimeWaitIntervalType.Minutes
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Minutes
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Minutes\n"
+  syntax:
+    content: public const WorkflowTimeWaitIntervalType Minutes
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+    content.vb: Public Const Minutes As WorkflowTimeWaitIntervalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Hours
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Hours
+  id: Hours
+  parent: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+  langs:
+  - csharp
+  - vb
+  name: Hours
+  nameWithType: WorkflowTimeWaitIntervalType.Hours
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Hours
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Hours\n"
+  syntax:
+    content: public const WorkflowTimeWaitIntervalType Hours
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+    content.vb: Public Const Hours As WorkflowTimeWaitIntervalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.WorkingDays
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.WorkingDays
+  id: WorkingDays
+  parent: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+  langs:
+  - csharp
+  - vb
+  name: WorkingDays
+  nameWithType: WorkflowTimeWaitIntervalType.WorkingDays
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.WorkingDays
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Working days\n"
+  syntax:
+    content: public const WorkflowTimeWaitIntervalType WorkingDays
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+    content.vb: Public Const WorkingDays As WorkflowTimeWaitIntervalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Days
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Days
+  id: Days
+  parent: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+  langs:
+  - csharp
+  - vb
+  name: Days
+  nameWithType: WorkflowTimeWaitIntervalType.Days
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Days
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Days\n"
+  syntax:
+    content: public const WorkflowTimeWaitIntervalType Days
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+    content.vb: Public Const Days As WorkflowTimeWaitIntervalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Weeks
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Weeks
+  id: Weeks
+  parent: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+  langs:
+  - csharp
+  - vb
+  name: Weeks
+  nameWithType: WorkflowTimeWaitIntervalType.Weeks
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Weeks
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Weeks\n"
+  syntax:
+    content: public const WorkflowTimeWaitIntervalType Weeks
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+    content.vb: Public Const Weeks As WorkflowTimeWaitIntervalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowTimeWaitIntervalType
+  nameWithType: WorkflowTimeWaitIntervalType
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType

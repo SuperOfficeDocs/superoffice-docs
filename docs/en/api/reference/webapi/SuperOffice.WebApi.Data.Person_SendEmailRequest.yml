@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_SendEmailRequest
+  id: Person_SendEmailRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_SendEmailRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds
+  - SuperOffice.WebApi.Data.Person_SendEmailRequest.From
+  - SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody
+  - SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody
+  - SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject
+  - SuperOffice.WebApi.Data.Person_SendEmailRequest.To
+  langs:
+  - csharp
+  - vb
+  name: Person_SendEmailRequest
+  nameWithType: Person_SendEmailRequest
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_SendEmailRequest : Object'
+    content.vb: >-
+      Public Class Person_SendEmailRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_SendEmailRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_SendEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_SendEmailRequest()
+  nameWithType: Person_SendEmailRequest.Person_SendEmailRequest()
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.Person_SendEmailRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_SendEmailRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_SendEmailRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.From
+  commentId: P:SuperOffice.WebApi.Data.Person_SendEmailRequest.From
+  id: From
+  parent: SuperOffice.WebApi.Data.Person_SendEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: Person_SendEmailRequest.From
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.From
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string From { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property From As String
+  overload: SuperOffice.WebApi.Data.Person_SendEmailRequest.From*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.To
+  commentId: P:SuperOffice.WebApi.Data.Person_SendEmailRequest.To
+  id: To
+  parent: SuperOffice.WebApi.Data.Person_SendEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: To
+  nameWithType: Person_SendEmailRequest.To
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.To
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string To { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property To As String
+  overload: SuperOffice.WebApi.Data.Person_SendEmailRequest.To*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject
+  commentId: P:SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject
+  id: Subject
+  parent: SuperOffice.WebApi.Data.Person_SendEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: Person_SendEmailRequest.Subject
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Subject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Subject As String
+  overload: SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody
+  commentId: P:SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody
+  id: PlainBody
+  parent: SuperOffice.WebApi.Data.Person_SendEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: PlainBody
+  nameWithType: Person_SendEmailRequest.PlainBody
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string PlainBody { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PlainBody As String
+  overload: SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody
+  commentId: P:SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody
+  id: HtmlBody
+  parent: SuperOffice.WebApi.Data.Person_SendEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: HtmlBody
+  nameWithType: Person_SendEmailRequest.HtmlBody
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string HtmlBody { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HtmlBody As String
+  overload: SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds
+  commentId: P:SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds
+  id: AttachmentIds
+  parent: SuperOffice.WebApi.Data.Person_SendEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: AttachmentIds
+  nameWithType: Person_SendEmailRequest.AttachmentIds
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] AttachmentIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property AttachmentIds As Integer()
+  overload: SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SendEmailRequest.#ctor
+  isExternal: true
+  name: Person_SendEmailRequest
+  nameWithType: Person_SendEmailRequest.Person_SendEmailRequest
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.Person_SendEmailRequest
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.From*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SendEmailRequest.From
+  isExternal: true
+  name: From
+  nameWithType: Person_SendEmailRequest.From
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.From
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.To*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SendEmailRequest.To
+  isExternal: true
+  name: To
+  nameWithType: Person_SendEmailRequest.To
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.To
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject
+  isExternal: true
+  name: Subject
+  nameWithType: Person_SendEmailRequest.Subject
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody
+  isExternal: true
+  name: PlainBody
+  nameWithType: Person_SendEmailRequest.PlainBody
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody
+  isExternal: true
+  name: HtmlBody
+  nameWithType: Person_SendEmailRequest.HtmlBody
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody
+- uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds
+  isExternal: true
+  name: AttachmentIds
+  nameWithType: Person_SendEmailRequest.AttachmentIds
+  fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

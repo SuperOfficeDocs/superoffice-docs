@@ -1,0 +1,3291 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent
+  commentId: T:SuperOffice.WebApi.Agents.ISelectionAgent
+  id: ISelectionAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersAsync(System.Int32,SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.AddRemoveContactSelectionMemberInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CopyContactSelectionMembersAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CopySelectionMembersAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.Data.SelectionType,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromShadowSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionEntityAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.Data.SelectionType,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIdsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporarySelectionFromIdsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.DeleteContactsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.DeleteEntitiesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.DeletePersonsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.EditContactSelectionMemberDetailsAsync(System.Int32,SuperOffice.WebApi.Data.SelectionMemberEditValues,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersWithOrderByAsync(System.Int32,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GenerateFollowUpsAsync(System.Int32,SuperOffice.WebApi.Data.AppointmentEntity,System.Int32,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicatesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaGroupsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetParentCombinedSelectionsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionForFindAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionMembersArchiveRowsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionShadowMembersArchiveRowsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionSummariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersAsync(System.Int32,SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromIdsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersByIdAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.SaveSelectionEntityAsync(SuperOffice.WebApi.Data.SelectionEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria2Async(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria3Async(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaAsync(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionGroup[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync(SuperOffice.WebApi.Data.MailMergeSettings,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISelectionAgent.UpdateTypicalSearchAsync(SuperOffice.WebApi.Data.TypicalSearches,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: ISelectionAgent
+  nameWithType: ISelectionAgent
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent
+  type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSelections, entities, members and tasks\n"
+  syntax:
+    content: 'public interface ISelectionAgent : IDisposable'
+    content.vb: >-
+      Public Interface ISelectionAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultMailMergeSettingsAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultMailMergeSettingsAsync(RequestOptions)
+  nameWithType: ISelectionAgent.CreateDefaultMailMergeSettingsAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new MailMergeSettings.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<MailMergeSettings> CreateDefaultMailMergeSettingsAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailMergeSettings}
+      description: A blank MailMergeSettings
+    content.vb: Function CreateDefaultMailMergeSettingsAsync(requestOptions As RequestOptions = Nothing) As Task(Of MailMergeSettings)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultMailMergeTaskAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultMailMergeTaskAsync(RequestOptions)
+  nameWithType: ISelectionAgent.CreateDefaultMailMergeTaskAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new MailMergeTask.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<MailMergeTask> CreateDefaultMailMergeTaskAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailMergeTask}
+      description: A blank MailMergeTask
+    content.vb: Function CreateDefaultMailMergeTaskAsync(requestOptions As RequestOptions = Nothing) As Task(Of MailMergeTask)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultSelectionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultSelectionEntityAsync(RequestOptions)
+  nameWithType: ISelectionAgent.CreateDefaultSelectionEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new SelectionEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<SelectionEntity> CreateDefaultSelectionEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+      description: A blank SelectionEntity
+    content.vb: Function CreateDefaultSelectionEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.SaveSelectionEntityAsync(SuperOffice.WebApi.Data.SelectionEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.SaveSelectionEntityAsync(SuperOffice.WebApi.Data.SelectionEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveSelectionEntityAsync(SuperOffice.WebApi.Data.SelectionEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveSelectionEntityAsync(SelectionEntity, RequestOptions)
+  nameWithType: ISelectionAgent.SaveSelectionEntityAsync(SelectionEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.SaveSelectionEntityAsync(SuperOffice.WebApi.Data.SelectionEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing SelectionEntity or creates a new SelectionEntity if the id parameter is 0. \n"
+  syntax:
+    content: Task<SelectionEntity> SaveSelectionEntityAsync(SelectionEntity selectionEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionEntity
+      type: SuperOffice.WebApi.Data.SelectionEntity
+      description: The SelectionEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+      description: New or updated SelectionEntity
+    content.vb: Function SaveSelectionEntityAsync(selectionEntity As SelectionEntity, requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.SaveSelectionEntityAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteSelectionEntityAsync(Int32, RequestOptions)
+  nameWithType: ISelectionAgent.DeleteSelectionEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the SelectionEntity\n"
+  syntax:
+    content: Task DeleteSelectionEntityAsync(int selectionEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionEntityId
+      type: System.Int32
+      description: The identity of the SelectionEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteSelectionEntityAsync(selectionEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionEntityAsync(Int32, RequestOptions)
+  nameWithType: ISelectionAgent.GetSelectionEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific SelectionEntity object.                        \n"
+  syntax:
+    content: Task<SelectionEntity> GetSelectionEntityAsync(int selectionEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionEntityId
+      type: System.Int32
+      description: The identifier of the SelectionEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+      description: SelectionEntity
+    content.vb: Function GetSelectionEntityAsync(selectionEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionEntityAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionEntityAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: CreateSelectionEntityAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateSelectionEntityAsync(String, RequestOptions)
+  nameWithType: ISelectionAgent.CreateSelectionEntityAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionEntityAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreate (but do not save) a new selection entity, for the current user and the given target table; other fields populated as by CreateDefaultSelectionEntity()\n"
+  syntax:
+    content: Task<SelectionEntity> CreateSelectionEntityAsync(string targetTableName, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetTableName
+      type: System.String
+      description: The name of the target table, such as &apos;contact&apos; or &apos;appointment&apos;; any table for which Selection functionality is enabled
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+      description: The new SelectionEntity, which has not yet been saved
+    content.vb: Function CreateSelectionEntityAsync(targetTableName As String, requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionEntityAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.Data.SelectionType,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.Data.SelectionType,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: CreateContactSelectionFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.Data.SelectionType,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateContactSelectionFromSelectionAsync(Int32, String, SelectionType, Boolean, RequestOptions)
+  nameWithType: ISelectionAgent.CreateContactSelectionFromSelectionAsync(Int32, String, SelectionType, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromSelectionAsync(System.Int32, System.String, SuperOffice.WebApi.Data.SelectionType, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a new selection based on selection members from an existing selection.\n"
+  syntax:
+    content: Task<SelectionEntity> CreateContactSelectionFromSelectionAsync(int selectionId, string name, SelectionType targetSelectionType, bool copyMembers, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to copy members from.
+    - id: name
+      type: System.String
+      description: The name of the new selection.
+    - id: targetSelectionType
+      type: SuperOffice.WebApi.Data.SelectionType
+      description: The type of ContactSelection to create. The type can be static or dynamic. If the original selection to copy from is static, the SelectionType can only be static. If the original selection is dynamic, both a static and dynamic selection can be created.
+    - id: copyMembers
+      type: System.Boolean
+      description: If true, the members from the original selection will be added to the newly created selection.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateContactSelectionFromSelectionAsync(selectionId As Integer, name As String, targetSelectionType As SelectionType, copyMembers As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromSelectionAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  id: CreateTemporaryContactSelectionFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporaryContactSelectionFromContactPersonIdsAsync(ContactPersonId[], RequestOptions)
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync(ContactPersonId[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a temporary selection with members from a collection of ContactPerson id&apos;s.\n"
+  syntax:
+    content: Task<SelectionEntity> CreateTemporaryContactSelectionFromContactPersonIdsAsync(ContactPersonId[] contactPersonIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactPersonIds
+      type: SuperOffice.WebApi.Data.ContactPersonId[]
+      description: A collection of ContactPersonId to copy into the temporary contact selection as members.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateTemporaryContactSelectionFromContactPersonIdsAsync(contactPersonIds As ContactPersonId(), requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync*
+  nameWithType.vb: ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync(ContactPersonId(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId(), SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateTemporaryContactSelectionFromContactPersonIdsAsync(ContactPersonId(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CreateTemporaryContactSelectionFromProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporaryContactSelectionFromProjectMembersAsync(Int32, RequestOptions)
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a temporary selection with members from an existing project.\n"
+  syntax:
+    content: Task<SelectionEntity> CreateTemporaryContactSelectionFromProjectMembersAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The id of the project to add members from.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateTemporaryContactSelectionFromProjectMembersAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CopyContactSelectionMembersAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CopyContactSelectionMembersAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CopyContactSelectionMembersAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CopyContactSelectionMembersAsync(Int32, Int32, RequestOptions)
+  nameWithType: ISelectionAgent.CopyContactSelectionMembersAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CopyContactSelectionMembersAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCopy contact selection members from selection into an existing selection.\n"
+  syntax:
+    content: Task CopyContactSelectionMembersAsync(int fromSelectionId, int toSelectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: fromSelectionId
+      type: System.Int32
+      description: The id of the selection to copy members from.
+    - id: toSelectionId
+      type: System.Int32
+      description: The id of the selection to copy members to.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function CopyContactSelectionMembersAsync(fromSelectionId As Integer, toSelectionId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CopyContactSelectionMembersAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetRecipientStatisticsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRecipientStatisticsAsync(Int32, RequestOptions)
+  nameWithType: ISelectionAgent.GetRecipientStatisticsAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses.\n"
+  syntax:
+    content: Task<RecipientStatistics> GetRecipientStatisticsAsync(int selectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to get the statistics for.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RecipientStatistics}
+      description: Returns a RecipientStatistics object.
+    content.vb: Function GetRecipientStatisticsAsync(selectionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of RecipientStatistics)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetRecipientStatisticsFromProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRecipientStatisticsFromProjectMembersAsync(Int32, RequestOptions)
+  nameWithType: ISelectionAgent.GetRecipientStatisticsFromProjectMembersAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromProjectMembersAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on members in a project.\n"
+  syntax:
+    content: Task<RecipientStatistics> GetRecipientStatisticsFromProjectMembersAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The id of the project to get the member statistics for.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RecipientStatistics}
+      description: Returns a RecipientStatistics object.
+    content.vb: Function GetRecipientStatisticsFromProjectMembersAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of RecipientStatistics)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromProjectMembersAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  id: GetRecipientStatisticsFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRecipientStatisticsFromContactPersonIdsAsync(ContactPersonId[], RequestOptions)
+  nameWithType: ISelectionAgent.GetRecipientStatisticsFromContactPersonIdsAsync(ContactPersonId[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on contact and persons in a collection of ContactPersonId.\n"
+  syntax:
+    content: Task<RecipientStatistics> GetRecipientStatisticsFromContactPersonIdsAsync(ContactPersonId[] contactPersonIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactPersonIds
+      type: SuperOffice.WebApi.Data.ContactPersonId[]
+      description: A collection of ContactPersonId to get the statistics for.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RecipientStatistics}
+      description: Returns a RecipientStatistics object.
+    content.vb: Function GetRecipientStatisticsFromContactPersonIdsAsync(contactPersonIds As ContactPersonId(), requestOptions As RequestOptions = Nothing) As Task(Of RecipientStatistics)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromContactPersonIdsAsync*
+  nameWithType.vb: ISelectionAgent.GetRecipientStatisticsFromContactPersonIdsAsync(ContactPersonId(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetRecipientStatisticsFromContactPersonIdsAsync(ContactPersonId(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersAsync(System.Int32,SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersAsync(System.Int32,SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  id: AddContactSelectionMembersAsync(System.Int32,SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: AddContactSelectionMembersAsync(Int32, ContactPersonId[], RequestOptions)
+  nameWithType: ISelectionAgent.AddContactSelectionMembersAsync(Int32, ContactPersonId[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersAsync(System.Int32, SuperOffice.WebApi.Data.ContactPersonId[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdds the collection of ContactPersonId as members to the static selection\n"
+  syntax:
+    content: Task AddContactSelectionMembersAsync(int selectionId, ContactPersonId[] contactPersonIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection where to members will be added to.
+    - id: contactPersonIds
+      type: SuperOffice.WebApi.Data.ContactPersonId[]
+      description: A collection of ContactPersonId to add to the selection.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddContactSelectionMembersAsync(selectionId As Integer, contactPersonIds As ContactPersonId(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersAsync*
+  nameWithType.vb: ISelectionAgent.AddContactSelectionMembersAsync(Int32, ContactPersonId(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersAsync(System.Int32, SuperOffice.WebApi.Data.ContactPersonId(), SuperOffice.WebApi.RequestOptions)
+  name.vb: AddContactSelectionMembersAsync(Int32, ContactPersonId(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersAsync(System.Int32,SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersAsync(System.Int32,SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  id: RemoveContactSelectionMembersAsync(System.Int32,SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveContactSelectionMembersAsync(Int32, ContactPersonId[], RequestOptions)
+  nameWithType: ISelectionAgent.RemoveContactSelectionMembersAsync(Int32, ContactPersonId[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersAsync(System.Int32, SuperOffice.WebApi.Data.ContactPersonId[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemoves members from the selection as  specified in the collection of ContactPersonId.\n"
+  syntax:
+    content: Task RemoveContactSelectionMembersAsync(int selectionId, ContactPersonId[] contactPersonIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection where to members will be removed.
+    - id: contactPersonIds
+      type: SuperOffice.WebApi.Data.ContactPersonId[]
+      description: A collection of ContactPersonId to remove from the static selection.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveContactSelectionMembersAsync(selectionId As Integer, contactPersonIds As ContactPersonId(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersAsync*
+  nameWithType.vb: ISelectionAgent.RemoveContactSelectionMembersAsync(Int32, ContactPersonId(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersAsync(System.Int32, SuperOffice.WebApi.Data.ContactPersonId(), SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveContactSelectionMembersAsync(Int32, ContactPersonId(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromIdsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromIdsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: RemoveContactSelectionMembersFromIdsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveContactSelectionMembersFromIdsAsync(Int32, Int32[], RequestOptions)
+  nameWithType: ISelectionAgent.RemoveContactSelectionMembersFromIdsAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromIdsAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemoves members from the selection using a collection a selectionmember id&apos;s. Members can only be removed from single selection.\n"
+  syntax:
+    content: Task RemoveContactSelectionMembersFromIdsAsync(int selectionId, int[] selectionMembersIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection where to members will be removed.
+    - id: selectionMembersIds
+      type: System.Int32[]
+      description: An array of selectionmember id&apos;s to remove from the selection.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveContactSelectionMembersFromIdsAsync(selectionId As Integer, selectionMembersIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromIdsAsync*
+  nameWithType.vb: ISelectionAgent.RemoveContactSelectionMembersFromIdsAsync(Int32, Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromIdsAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveContactSelectionMembersFromIdsAsync(Int32, Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: AddContactSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: AddContactSelectionMembersFromSearchAsync(Int32, String, RequestOptions)
+  nameWithType: ISelectionAgent.AddContactSelectionMembersFromSearchAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersFromSearchAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdds members to the selection from the search result.\n"
+  syntax:
+    content: Task<int> AddContactSelectionMembersFromSearchAsync(int selectionId, string storageKey, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    - id: storageKey
+      type: System.String
+      description: Storage key to be interpreted by the restriction storage provider, when it fetches criteria for the search
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: Number of members added
+    content.vb: Function AddContactSelectionMembersFromSearchAsync(selectionId As Integer, storageKey As String, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersFromSearchAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: RemoveContactSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveContactSelectionMembersFromSearchAsync(Int32, String, RequestOptions)
+  nameWithType: ISelectionAgent.RemoveContactSelectionMembersFromSearchAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromSearchAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemoves members from the selection using the search result.\n"
+  syntax:
+    content: Task<int> RemoveContactSelectionMembersFromSearchAsync(int selectionId, string storageKey, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to remove members.
+    - id: storageKey
+      type: System.String
+      description: Storage key to be interpreted by the restriction storage provider, when it fetches criteria for the search.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: Number of members removed
+    content.vb: Function RemoveContactSelectionMembersFromSearchAsync(selectionId As Integer, storageKey As String, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromSearchAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateTemporaryContactSelectionAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporaryContactSelectionAsync(RequestOptions)
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a temporary selection.\n"
+  syntax:
+    content: Task<SelectionEntity> CreateTemporaryContactSelectionAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateTemporaryContactSelectionAsync(requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIdsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIdsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: CreateTemporaryContactSelectionFromSelectionMemberIdsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporaryContactSelectionFromSelectionMemberIdsAsync(Int32, Int32[], RequestOptions)
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIdsAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIdsAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a temporary selection with members from a collection of selectionmember id&apos;s.\n"
+  syntax:
+    content: Task<SelectionEntity> CreateTemporaryContactSelectionFromSelectionMemberIdsAsync(int selectionId, int[] selectionMemberIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The selectionId the selectionmembers is a part of.
+    - id: selectionMemberIds
+      type: System.Int32[]
+      description: A collection of int ids to copy into the temporary contact selection as members.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateTemporaryContactSelectionFromSelectionMemberIdsAsync(selectionId As Integer, selectionMemberIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIdsAsync*
+  nameWithType.vb: ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIdsAsync(Int32, Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIdsAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateTemporaryContactSelectionFromSelectionMemberIdsAsync(Int32, Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.AddRemoveContactSelectionMemberInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.AddRemoveContactSelectionMemberInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: AddRemoveContactSelectionMemberInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: AddRemoveContactSelectionMemberInterestsAsync(Int32, Int32[], Int32[], Int32[], Int32[], RequestOptions)
+  nameWithType: ISelectionAgent.AddRemoveContactSelectionMemberInterestsAsync(Int32, Int32[], Int32[], Int32[], Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.AddRemoveContactSelectionMemberInterestsAsync(System.Int32, System.Int32[], System.Int32[], System.Int32[], System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdds or removes interests on companies and persons in a selection.\n"
+  syntax:
+    content: Task AddRemoveContactSelectionMemberInterestsAsync(int selectionId, int[] addCompanyInterests, int[] removeCompanyInterests, int[] addContactInterests, int[] removeContactInterests, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add or remove interests members from.
+    - id: addCompanyInterests
+      type: System.Int32[]
+      description: Array of int containing the id&apos;s of the interests to add to the company.
+    - id: removeCompanyInterests
+      type: System.Int32[]
+      description: Array of int containing the id&apos;s of the interests to remove from the company.
+    - id: addContactInterests
+      type: System.Int32[]
+      description: Array of int containing the id&apos;s of the interests to add to the contact.
+    - id: removeContactInterests
+      type: System.Int32[]
+      description: Array of int containing the id&apos;s of the interests to remove from the contact.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddRemoveContactSelectionMemberInterestsAsync(selectionId As Integer, addCompanyInterests As Integer(), removeCompanyInterests As Integer(), addContactInterests As Integer(), removeContactInterests As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.AddRemoveContactSelectionMemberInterestsAsync*
+  nameWithType.vb: ISelectionAgent.AddRemoveContactSelectionMemberInterestsAsync(Int32, Int32(), Int32(), Int32(), Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.AddRemoveContactSelectionMemberInterestsAsync(System.Int32, System.Int32(), System.Int32(), System.Int32(), System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: AddRemoveContactSelectionMemberInterestsAsync(Int32, Int32(), Int32(), Int32(), Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.EditContactSelectionMemberDetailsAsync(System.Int32,SuperOffice.WebApi.Data.SelectionMemberEditValues,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.EditContactSelectionMemberDetailsAsync(System.Int32,SuperOffice.WebApi.Data.SelectionMemberEditValues,SuperOffice.WebApi.RequestOptions)
+  id: EditContactSelectionMemberDetailsAsync(System.Int32,SuperOffice.WebApi.Data.SelectionMemberEditValues,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: EditContactSelectionMemberDetailsAsync(Int32, SelectionMemberEditValues, RequestOptions)
+  nameWithType: ISelectionAgent.EditContactSelectionMemberDetailsAsync(Int32, SelectionMemberEditValues, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.EditContactSelectionMemberDetailsAsync(System.Int32, SuperOffice.WebApi.Data.SelectionMemberEditValues, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nEdit company and contact details in a selection based on contents in selectionMemberEditValues.\n"
+  syntax:
+    content: Task EditContactSelectionMemberDetailsAsync(int selectionId, SelectionMemberEditValues selectionMemberEditValues, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to edit members from.
+    - id: selectionMemberEditValues
+      type: SuperOffice.WebApi.Data.SelectionMemberEditValues
+      description: An object of &lt;see cref=&quot;SelectionMemberEditValues&quot;/> describing what should be changed for companys and contacts.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function EditContactSelectionMemberDetailsAsync(selectionId As Integer, selectionMemberEditValues As SelectionMemberEditValues, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.EditContactSelectionMemberDetailsAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GenerateFollowUpsAsync(System.Int32,SuperOffice.WebApi.Data.AppointmentEntity,System.Int32,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GenerateFollowUpsAsync(System.Int32,SuperOffice.WebApi.Data.AppointmentEntity,System.Int32,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: GenerateFollowUpsAsync(System.Int32,SuperOffice.WebApi.Data.AppointmentEntity,System.Int32,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GenerateFollowUpsAsync(Int32, AppointmentEntity, Int32, Boolean, Boolean, RequestOptions)
+  nameWithType: ISelectionAgent.GenerateFollowUpsAsync(Int32, AppointmentEntity, Int32, Boolean, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GenerateFollowUpsAsync(System.Int32, SuperOffice.WebApi.Data.AppointmentEntity, System.Int32, System.Boolean, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGenerate follow-ups for members in the selection.\n"
+  syntax:
+    content: Task GenerateFollowUpsAsync(int selectionId, AppointmentEntity appointmentEntity, int associateId, bool saveOnContactOwner, bool uniqueContact, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to generate the follow-ups for.
+    - id: appointmentEntity
+      type: SuperOffice.WebApi.Data.AppointmentEntity
+      description: The AppointmentEntity with information about the appointment.
+    - id: associateId
+      type: System.Int32
+      description: The associate to save the appointments on. If saveOnContactOwner is true, this id will be ignored. Appointments wil be saved on current user if associateId = 0.
+    - id: saveOnContactOwner
+      type: System.Boolean
+      description: If true, the appointments will be saved on contact owner (Our contact). This parameter will override associateId if true.
+    - id: uniqueContact
+      type: System.Boolean
+      description: If true, only one appointment will be created for each contact.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function GenerateFollowUpsAsync(selectionId As Integer, appointmentEntity As AppointmentEntity, associateId As Integer, saveOnContactOwner As Boolean, uniqueContact As Boolean, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.GenerateFollowUpsAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: ExportSelectionMembersAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: ExportSelectionMembersAsync(Int32, String, Boolean, RequestOptions)
+  nameWithType: ISelectionAgent.ExportSelectionMembersAsync(Int32, String, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersAsync(System.Int32, System.String, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nExportSelectionMembers will generate a string that is the result of substituting the template variables with values from selectionmembers.\n"
+  syntax:
+    content: Task<byte[]> ExportSelectionMembersAsync(int selectionId, string templateName, bool useContacts, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to generate the exported file.
+    - id: templateName
+      type: System.String
+      description: The templateName parameter is the relative path of a .sxf file template. The .sxf files can be found in \template or in the user folder of the so archive.
+    - id: useContacts
+      type: System.Boolean
+      description: If the selection contains other members than contacts, setting this to true will export the contact archive of the selection.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: Returns a unicode byte array with the file to export to the user.
+    content.vb: Function ExportSelectionMembersAsync(selectionId As Integer, templateName As String, useContacts As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersWithOrderByAsync(System.Int32,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersWithOrderByAsync(System.Int32,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+  id: ExportSelectionMembersWithOrderByAsync(System.Int32,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: ExportSelectionMembersWithOrderByAsync(Int32, String, Boolean, String, RequestOptions)
+  nameWithType: ISelectionAgent.ExportSelectionMembersWithOrderByAsync(Int32, String, Boolean, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersWithOrderByAsync(System.Int32, System.String, System.Boolean, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nExportSelectionMembers will generate a string that is the result of substituting the template variables with values from selectionmembers.\n"
+  syntax:
+    content: Task<byte[]> ExportSelectionMembersWithOrderByAsync(int selectionId, string templateName, bool useContacts, string orderBy, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to generate the exported file.
+    - id: templateName
+      type: System.String
+      description: The templateName parameter is the relative path of a .sxf file template. The .sxf files can be found in \template or in the user folder of the so archive.
+    - id: useContacts
+      type: System.Boolean
+      description: If the selection contains other members than contacts, setting this to true will export the contact archive of the selection.
+    - id: orderBy
+      type: System.String
+      description: OrderBy. &lt;Column,OrderBySortType>
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: Returns a unicode byte array with the file to export to the user.
+    content.vb: Function ExportSelectionMembersWithOrderByAsync(selectionId As Integer, templateName As String, useContacts As Boolean, orderBy As String, requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersWithOrderByAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync(SuperOffice.WebApi.Data.MailMergeSettings,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync(SuperOffice.WebApi.Data.MailMergeSettings,SuperOffice.WebApi.RequestOptions)
+  id: StartMailMergeAsync(SuperOffice.WebApi.Data.MailMergeSettings,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: StartMailMergeAsync(MailMergeSettings, RequestOptions)
+  nameWithType: ISelectionAgent.StartMailMergeAsync(MailMergeSettings, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync(SuperOffice.WebApi.Data.MailMergeSettings, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStart a mailmerge operation with specified settings.\n"
+  syntax:
+    content: Task StartMailMergeAsync(MailMergeSettings settings, RequestOptions requestOptions = null)
+    parameters:
+    - id: settings
+      type: SuperOffice.WebApi.Data.MailMergeSettings
+      description: All settings needed to perform the mailmerge operation.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function StartMailMergeAsync(settings As MailMergeSettings, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
+  id: SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDuplicateRulesStatusAsync(DuplicateRule[], RequestOptions)
+  nameWithType: ISelectionAgent.SetDuplicateRulesStatusAsync(DuplicateRule[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet which duplicate rules should be active or not\n"
+  syntax:
+    content: Task SetDuplicateRulesStatusAsync(DuplicateRule[] rules, RequestOptions requestOptions = null)
+    parameters:
+    - id: rules
+      type: SuperOffice.WebApi.Data.DuplicateRule[]
+      description: Duplicate rules to update active status for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetDuplicateRulesStatusAsync(rules As DuplicateRule(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.SetDuplicateRulesStatusAsync*
+  nameWithType.vb: ISelectionAgent.SetDuplicateRulesStatusAsync(DuplicateRule(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetDuplicateRulesStatusAsync(DuplicateRule(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicatesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicatesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetDuplicatesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDuplicatesAsync(String, RequestOptions)
+  nameWithType: ISelectionAgent.GetDuplicatesAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicatesAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet duplicates(exact or similar in the database) based on the name\n"
+  syntax:
+    content: Task<DuplicateEntry[]> GetDuplicatesAsync(string name, RequestOptions requestOptions = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name used for lookup
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateEntry[]}
+      description: Any records matching the specified name
+    content.vb: Function GetDuplicatesAsync(name As String, requestOptions As RequestOptions = Nothing) As Task(Of DuplicateEntry())
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicatesAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDuplicateRulesAsync(RequestOptions)
+  nameWithType: ISelectionAgent.GetDuplicateRulesAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRetrieve all available duplicate rules for selection\n"
+  syntax:
+    content: Task<DuplicateRule[]> GetDuplicateRulesAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateRule[]}
+      description: All available duplicate rules
+    content.vb: Function GetDuplicateRulesAsync(requestOptions As RequestOptions = Nothing) As Task(Of DuplicateRule())
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicateRulesAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
+  id: CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateNewEntryAsync(DuplicateEntry, RequestOptions)
+  nameWithType: ISelectionAgent.CreateNewEntryAsync(DuplicateEntry, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a new selection based on external duplicate\n"
+  syntax:
+    content: Task<int> CreateNewEntryAsync(DuplicateEntry duplicate, RequestOptions requestOptions = null)
+    parameters:
+    - id: duplicate
+      type: SuperOffice.WebApi.Data.DuplicateEntry
+      description: The duplicate to create a new entry based upon
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: The database identity of the newly created entry
+    content.vb: Function CreateNewEntryAsync(duplicate As DuplicateEntry, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateNewEntryAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteContactsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.DeleteContactsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteContactsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteContactsAsync(Int32, RequestOptions)
+  nameWithType: ISelectionAgent.DeleteContactsAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteContactsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes all contacts from a selection. If a contact does not have delete rights, it will be skipped.\n"
+  syntax:
+    content: Task DeleteContactsAsync(int selectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: Id of the selection the delete operation will be performed.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteContactsAsync(selectionId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteContactsAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: AddSelectionMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: AddSelectionMembersAsync(Int32, Int32[], RequestOptions)
+  nameWithType: ISelectionAgent.AddSelectionMembersAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdd selection members to a static selection of type others than contacts.\n"
+  syntax:
+    content: Task<int> AddSelectionMembersAsync(int selectionId, int[] ids, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The selection id to add the members to.
+    - id: ids
+      type: System.Int32[]
+      description: Collection of ids to add to the selection.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: Returns number of members added to the selection.
+    content.vb: Function AddSelectionMembersAsync(selectionId As Integer, ids As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersAsync*
+  nameWithType.vb: ISelectionAgent.AddSelectionMembersAsync(Int32, Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: AddSelectionMembersAsync(Int32, Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: RemoveSelectionMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveSelectionMembersAsync(Int32, Int32[], RequestOptions)
+  nameWithType: ISelectionAgent.RemoveSelectionMembersAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemoves members from the selection as  specified in the collection of entity ids. The ids are selection member ids (selection member primary key)\n"
+  syntax:
+    content: Task RemoveSelectionMembersAsync(int selectionId, int[] selectionMemberIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection where to members will be removed.
+    - id: selectionMemberIds
+      type: System.Int32[]
+      description: Selection member primary keys
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveSelectionMembersAsync(selectionId As Integer, selectionMemberIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersAsync*
+  nameWithType.vb: ISelectionAgent.RemoveSelectionMembersAsync(Int32, Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveSelectionMembersAsync(Int32, Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersByIdAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersByIdAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: RemoveSelectionMembersByIdAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveSelectionMembersByIdAsync(Int32, Int32[], RequestOptions)
+  nameWithType: ISelectionAgent.RemoveSelectionMembersByIdAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersByIdAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemoves members from the selection as specified in the collection of entity ids. The ids can be a collection of sale ids, or other supported types.\n"
+  syntax:
+    content: Task RemoveSelectionMembersByIdAsync(int selectionId, int[] ids, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection where to members will be removed.
+    - id: ids
+      type: System.Int32[]
+      description: A collection of sale/project/contact ids to remove from the selection. The ids can be a collection of sale ids, or other supported types.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveSelectionMembersByIdAsync(selectionId As Integer, ids As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersByIdAsync*
+  nameWithType.vb: ISelectionAgent.RemoveSelectionMembersByIdAsync(Int32, Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersByIdAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveSelectionMembersByIdAsync(Int32, Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: AddSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: AddSelectionMembersFromSearchAsync(Int32, String, RequestOptions)
+  nameWithType: ISelectionAgent.AddSelectionMembersFromSearchAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersFromSearchAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdds members from the selection using the search result.\n"
+  syntax:
+    content: Task<int> AddSelectionMembersFromSearchAsync(int selectionId, string storageKey, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    - id: storageKey
+      type: System.String
+      description: Storage key to be interpreted by the restriction storage provider, when it fetches criteria for the search
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: Number of members added.
+    content.vb: Function AddSelectionMembersFromSearchAsync(selectionId As Integer, storageKey As String, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersFromSearchAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: RemoveSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveSelectionMembersFromSearchAsync(Int32, String, RequestOptions)
+  nameWithType: ISelectionAgent.RemoveSelectionMembersFromSearchAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersFromSearchAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemoves members from the selection using the search result.\n"
+  syntax:
+    content: Task<int> RemoveSelectionMembersFromSearchAsync(int selectionId, string storageKey, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to remove members.
+    - id: storageKey
+      type: System.String
+      description: Storage key to be interpreted by the restriction storage provider, when it fetches criteria for the search.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: Number of members removed
+    content.vb: Function RemoveSelectionMembersFromSearchAsync(selectionId As Integer, storageKey As String, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersFromSearchAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CopySelectionMembersAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CopySelectionMembersAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CopySelectionMembersAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CopySelectionMembersAsync(Int32, Int32, RequestOptions)
+  nameWithType: ISelectionAgent.CopySelectionMembersAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CopySelectionMembersAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCopy selection members from selection into an existing selection.\n"
+  syntax:
+    content: Task CopySelectionMembersAsync(int fromSelectionId, int toSelectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: fromSelectionId
+      type: System.Int32
+      description: The id of the selection to copy members from.
+    - id: toSelectionId
+      type: System.Int32
+      description: The id of the selection to copy members to.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function CopySelectionMembersAsync(fromSelectionId As Integer, toSelectionId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CopySelectionMembersAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporarySelectionFromIdsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporarySelectionFromIdsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CreateTemporarySelectionFromIdsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporarySelectionFromIdsAsync(Int32[], Int32, RequestOptions)
+  nameWithType: ISelectionAgent.CreateTemporarySelectionFromIdsAsync(Int32[], Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporarySelectionFromIdsAsync(System.Int32[], System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a temporary selection with members from a collection of entity id&apos;s.\n"
+  syntax:
+    content: Task<SelectionEntity> CreateTemporarySelectionFromIdsAsync(int[] ids, int targetTableNumber, RequestOptions requestOptions = null)
+    parameters:
+    - id: ids
+      type: System.Int32[]
+      description: A collection of Ids to copy into the temporary selection as members. The ids are primary keys of entities defined by the targetTableNumber parameter.
+    - id: targetTableNumber
+      type: System.Int32
+      description: The type of selection to create.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateTemporarySelectionFromIdsAsync(ids As Integer(), targetTableNumber As Integer, requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporarySelectionFromIdsAsync*
+  nameWithType.vb: ISelectionAgent.CreateTemporarySelectionFromIdsAsync(Int32(), Int32, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporarySelectionFromIdsAsync(System.Int32(), System.Int32, SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateTemporarySelectionFromIdsAsync(Int32(), Int32, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.Data.SelectionType,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.Data.SelectionType,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: CreateSelectionFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.Data.SelectionType,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateSelectionFromSelectionAsync(Int32, String, SelectionType, Boolean, RequestOptions)
+  nameWithType: ISelectionAgent.CreateSelectionFromSelectionAsync(Int32, String, SelectionType, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionFromSelectionAsync(System.Int32, System.String, SuperOffice.WebApi.Data.SelectionType, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a new selection based on selection members from an existing selection.\n"
+  syntax:
+    content: Task<SelectionEntity> CreateSelectionFromSelectionAsync(int selectionId, string name, SelectionType targetSelectionType, bool copyMembers, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to copy members from.
+    - id: name
+      type: System.String
+      description: The name of the new selection.
+    - id: targetSelectionType
+      type: SuperOffice.WebApi.Data.SelectionType
+      description: The type of Selection to create. The type can be static or dynamic. If the original selection to copy from is static, the SelectionType can only be static. If the original selection is dynamic, both a static and dynamic selection can be created.
+    - id: copyMembers
+      type: System.Boolean
+      description: If true, the members from the original selection will be added to the newly created selection.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateSelectionFromSelectionAsync(selectionId As Integer, name As String, targetSelectionType As SelectionType, copyMembers As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionFromSelectionAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromShadowSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromShadowSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: CreateContactSelectionFromShadowSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateContactSelectionFromShadowSelectionAsync(Int32, String, RequestOptions)
+  nameWithType: ISelectionAgent.CreateContactSelectionFromShadowSelectionAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromShadowSelectionAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a new contact selection based on contact selection members from an existing shadow sale, appointment, project or document selection. The new selection will always be static even if the original selection is dynamic.\n"
+  syntax:
+    content: Task<SelectionEntity> CreateContactSelectionFromShadowSelectionAsync(int selectionId, string name, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to copy members from.
+    - id: name
+      type: System.String
+      description: The name of the new selection.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateContactSelectionFromShadowSelectionAsync(selectionId As Integer, name As String, requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromShadowSelectionAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteEntitiesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.DeleteEntitiesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteEntitiesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteEntitiesAsync(Int32, RequestOptions)
+  nameWithType: ISelectionAgent.DeleteEntitiesAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteEntitiesAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes all entities from a selection. If an entity does not have delete rights, it will be skipped.\n"
+  syntax:
+    content: Task DeleteEntitiesAsync(int selectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: Id of the selection the delete operation will be performed.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteEntitiesAsync(selectionId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteEntitiesAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetParentCombinedSelectionsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetParentCombinedSelectionsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetParentCombinedSelectionsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetParentCombinedSelectionsAsync(Int32, RequestOptions)
+  nameWithType: ISelectionAgent.GetParentCombinedSelectionsAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetParentCombinedSelectionsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a list of all selection ids where the given selection is used to create a combined selection.\n"
+  syntax:
+    content: Task<int[]> GetParentCombinedSelectionsAsync(int selectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The selectionId to query for.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32[]}
+      description: Array of selectionIds.
+    content.vb: Function GetParentCombinedSelectionsAsync(selectionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Integer())
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.GetParentCombinedSelectionsAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionMembersArchiveRowsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionMembersArchiveRowsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetSelectionMembersArchiveRowsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionMembersArchiveRowsAsync(Int32, String, RequestOptions)
+  nameWithType: ISelectionAgent.GetSelectionMembersArchiveRowsAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionMembersArchiveRowsAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the list of members in this selection. The type of members depends on the target table of the selection.\n"
+  syntax:
+    content: Task<ArchiveListItem[]> GetSelectionMembersArchiveRowsAsync(int selectionId, string select, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The selectionId we want selection members for.
+    - id: select
+      type: System.String
+      description: (optional) Comma separated Column names to include in result. List of columns varies depending on the selection&apos;s TargetTable. e.g. &apos;name&apos;, &apos;firstname&apos;, &apos;startTime&apos;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListItem[]}
+      description: Array of archive rows, where each item represents one row of data (row level data + the requested columns). NULL if selection does not exist.
+    content.vb: Function GetSelectionMembersArchiveRowsAsync(selectionId As Integer, select As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionMembersArchiveRowsAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionShadowMembersArchiveRowsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionShadowMembersArchiveRowsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetSelectionShadowMembersArchiveRowsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionShadowMembersArchiveRowsAsync(Int32, String, RequestOptions)
+  nameWithType: ISelectionAgent.GetSelectionShadowMembersArchiveRowsAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionShadowMembersArchiveRowsAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the list of members in this selection&apos;s shadow (i.e. the list of contacts + persons referenced in the main selection).\n"
+  syntax:
+    content: Task<ArchiveListItem[]> GetSelectionShadowMembersArchiveRowsAsync(int selectionId, string select, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The selectionId we want selection members for.
+    - id: select
+      type: System.String
+      description: (optional) Comma separated Column names to include in result. List of columns varies depending on the selection&apos;s TargetTable. e.g. &apos;name&apos;, &apos;firstname,name&apos;, &apos;startTime,firstname,name&apos;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListItem[]}
+      description: Array of archive rows, where each item represents one row of data (row level data + the requested columns). NULL if selection does not exist.
+    content.vb: Function GetSelectionShadowMembersArchiveRowsAsync(selectionId As Integer, select As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveListItem())
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionShadowMembersArchiveRowsAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetDynamicSelectionCriteriaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDynamicSelectionCriteriaAsync(Int32, RequestOptions)
+  nameWithType: ISelectionAgent.GetDynamicSelectionCriteriaAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the criteria for this dynamic selection.\n"
+  syntax:
+    content: Task<ArchiveRestrictionInfo[]> GetDynamicSelectionCriteriaAsync(int selectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]}
+      description: Criteria defining the selection result. NULL if selection does not exist, or if this is not a dynamic selection.
+    content.vb: Function GetDynamicSelectionCriteriaAsync(selectionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveRestrictionInfo())
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaAsync(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaAsync(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
+  id: SetDynamicSelectionCriteriaAsync(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDynamicSelectionCriteriaAsync(Int32, ArchiveRestrictionInfo[], RequestOptions)
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteriaAsync(Int32, ArchiveRestrictionInfo[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaAsync(System.Int32, SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdate the criteria for this dynamic selection. Replaces existing criteria with the new values.\n"
+  syntax:
+    content: Task<ArchiveRestrictionInfo[]> SetDynamicSelectionCriteriaAsync(int selectionId, ArchiveRestrictionInfo[] criteria, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    - id: criteria
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+      description: Criteria defining the selection result.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]}
+      description: Criteria defining the selection result. NULL if this is not a dynamic selection.
+    content.vb: Function SetDynamicSelectionCriteriaAsync(selectionId As Integer, criteria As ArchiveRestrictionInfo(), requestOptions As RequestOptions = Nothing) As Task(Of ArchiveRestrictionInfo())
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaAsync*
+  nameWithType.vb: ISelectionAgent.SetDynamicSelectionCriteriaAsync(Int32, ArchiveRestrictionInfo(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaAsync(System.Int32, SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetDynamicSelectionCriteriaAsync(Int32, ArchiveRestrictionInfo(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria2Async(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria2Async(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: SetDynamicSelectionCriteria2Async(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDynamicSelectionCriteria2Async(Int32, String, RequestOptions)
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteria2Async(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria2Async(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdate the criteria for this dynamic selection using string. Criteria are parsed from the OData filter form: &apos;&apos;name startswith &apos;foo&apos; and category in (1,2,3)&apos;&apos;\n"
+  syntax:
+    content: Task<ArchiveRestrictionInfo[]> SetDynamicSelectionCriteria2Async(int selectionId, string filter, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    - id: filter
+      type: System.String
+      description: 'Criteria defining the selection result in OData filter form: `category in (1,2,3) and name = &apos;foo&apos;` '
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]}
+      description: Criteria defining the selection result. NULL if this is not a dynamic selection.
+    content.vb: Function SetDynamicSelectionCriteria2Async(selectionId As Integer, filter As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveRestrictionInfo())
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria2Async*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria3Async(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria3Async(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String,SuperOffice.WebApi.RequestOptions)
+  id: SetDynamicSelectionCriteria3Async(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDynamicSelectionCriteria3Async(Int32, ArchiveRestrictionInfo[], String, RequestOptions)
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteria3Async(Int32, ArchiveRestrictionInfo[], String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria3Async(System.Int32, SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdate the criteria for this dynamic selection. Use criteria as either restriction objects or OData string format. Criteria are parsed from the OData filter form: &apos;&apos;name startswith &apos;foo&apos; and category in (1,2,3)&apos;&apos;\n"
+  syntax:
+    content: Task<ArchiveRestrictionInfo[]> SetDynamicSelectionCriteria3Async(int selectionId, ArchiveRestrictionInfo[] criteria, string filter, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    - id: criteria
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+      description: Criteria defining the selection result. Pass NULL if using the filter string instead.
+    - id: filter
+      type: System.String
+      description: 'Criteria defining the selection result in OData filter form: `category in (1,2,3) and name = &apos;foo&apos;`. Pass NULL or empty string &apos;&apos; if using the criteria objects.'
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]}
+      description: Criteria defining the selection result. NULL if this is not a dynamic selection.
+    content.vb: Function SetDynamicSelectionCriteria3Async(selectionId As Integer, criteria As ArchiveRestrictionInfo(), filter As String, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveRestrictionInfo())
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria3Async*
+  nameWithType.vb: ISelectionAgent.SetDynamicSelectionCriteria3Async(Int32, ArchiveRestrictionInfo(), String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria3Async(System.Int32, SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetDynamicSelectionCriteria3Async(Int32, ArchiveRestrictionInfo(), String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeletePersonsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.DeletePersonsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeletePersonsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: DeletePersonsAsync(Int32, RequestOptions)
+  nameWithType: ISelectionAgent.DeletePersonsAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.DeletePersonsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes all persons from a selection. If a person does not have delete rights, it will be skipped.\n"
+  syntax:
+    content: Task DeletePersonsAsync(int selectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: Id of the selection the delete operation will be performed.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeletePersonsAsync(selectionId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.DeletePersonsAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaGroupsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaGroupsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetDynamicSelectionCriteriaGroupsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDynamicSelectionCriteriaGroupsAsync(Int32, RequestOptions)
+  nameWithType: ISelectionAgent.GetDynamicSelectionCriteriaGroupsAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaGroupsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the criteria for this dynamic selection. This call supports multiple criteria groups.\n"
+  syntax:
+    content: Task<ArchiveRestrictionGroup[]> GetDynamicSelectionCriteriaGroupsAsync(int selectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]}
+      description: Criteria groups defining the selection result. NULL if selection does not exist, or if this is not a dynamic selection.
+    content.vb: Function GetDynamicSelectionCriteriaGroupsAsync(selectionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ArchiveRestrictionGroup())
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaGroupsAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionGroup[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionGroup[],SuperOffice.WebApi.RequestOptions)
+  id: SetDynamicSelectionCriteriaGroupsAsync(System.Int32,SuperOffice.WebApi.Data.ArchiveRestrictionGroup[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDynamicSelectionCriteriaGroupsAsync(Int32, ArchiveRestrictionGroup[], RequestOptions)
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync(Int32, ArchiveRestrictionGroup[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync(System.Int32, SuperOffice.WebApi.Data.ArchiveRestrictionGroup[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdate the criteria for this dynamic selection. Replaces existing criteria with the new values. This call supports multiple criteria groups.\n"
+  syntax:
+    content: Task<ArchiveRestrictionGroup[]> SetDynamicSelectionCriteriaGroupsAsync(int selectionId, ArchiveRestrictionGroup[] criteria, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    - id: criteria
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
+      description: Criteria groups defining the selection result. Empty array is legal, simply means no criteria have been set
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]}
+      description: Criteria groups defining the selection result. NULL if this is not a dynamic selection.
+    content.vb: Function SetDynamicSelectionCriteriaGroupsAsync(selectionId As Integer, criteria As ArchiveRestrictionGroup(), requestOptions As RequestOptions = Nothing) As Task(Of ArchiveRestrictionGroup())
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync*
+  nameWithType.vb: ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync(Int32, ArchiveRestrictionGroup(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync(System.Int32, SuperOffice.WebApi.Data.ArchiveRestrictionGroup(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetDynamicSelectionCriteriaGroupsAsync(Int32, ArchiveRestrictionGroup(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionForFindAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionForFindAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetSelectionForFindAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionForFindAsync(String, Int32, RequestOptions)
+  nameWithType: ISelectionAgent.GetSelectionForFindAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionForFindAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nObtain a selection for the given entity, for the current user, of type WorkingSetForFind. Optionally populate criteria from the TypicalSearches system\n"
+  syntax:
+    content: Task<SelectionForFind> GetSelectionForFindAsync(string entityName, int typicalSearchId, RequestOptions requestOptions = null)
+    parameters:
+    - id: entityName
+      type: System.String
+      description: The name of the entity to make a selection for; examples &apos;sale&apos;, &apos;project&apos;, &apos;y_equipment&apos;
+    - id: typicalSearchId
+      type: System.Int32
+      description: If 0, keep existing criteria; if -1, reset to entity default; > 0 get criteria from given TypicalSearch
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionForFind}
+      description: Target selection id and provider name
+    content.vb: Function GetSelectionForFindAsync(entityName As String, typicalSearchId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of SelectionForFind)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionForFindAsync*
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionSummariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionSummariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetSelectionSummariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionSummariesAsync(Int32[], RequestOptions)
+  nameWithType: ISelectionAgent.GetSelectionSummariesAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionSummariesAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet an array of summaryitem for the given selections\n"
+  syntax:
+    content: Task<SelectionSummaryItem[]> GetSelectionSummariesAsync(int[] selectionIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionIds
+      type: System.Int32[]
+      description: The selections to fetch summaries for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionSummaryItem[]}
+      description: Summary items for the given id&apos;s, in no particular order
+    content.vb: Function GetSelectionSummariesAsync(selectionIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of SelectionSummaryItem())
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionSummariesAsync*
+  nameWithType.vb: ISelectionAgent.GetSelectionSummariesAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionSummariesAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetSelectionSummariesAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.UpdateTypicalSearchAsync(SuperOffice.WebApi.Data.TypicalSearches,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.UpdateTypicalSearchAsync(SuperOffice.WebApi.Data.TypicalSearches,SuperOffice.WebApi.RequestOptions)
+  id: UpdateTypicalSearchAsync(SuperOffice.WebApi.Data.TypicalSearches,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateTypicalSearchAsync(TypicalSearches, RequestOptions)
+  nameWithType: ISelectionAgent.UpdateTypicalSearchAsync(TypicalSearches, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.UpdateTypicalSearchAsync(SuperOffice.WebApi.Data.TypicalSearches, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdate (import) TypicalSearch information in the database\n"
+  syntax:
+    content: Task<string> UpdateTypicalSearchAsync(TypicalSearches searches, RequestOptions requestOptions = null)
+    parameters:
+    - id: searches
+      type: SuperOffice.WebApi.Data.TypicalSearches
+      description: TypicalSearch structures to import. If null, then the fileset is scanned for *TypicalSearch.json files and those are imported instead
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: Message that can be shown to the user, summarizing what has been done, if anything.
+    content.vb: Function UpdateTypicalSearchAsync(searches As TypicalSearches, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.UpdateTypicalSearchAsync*
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync
+  isExternal: true
+  name: CreateDefaultMailMergeSettingsAsync
+  nameWithType: ISelectionAgent.CreateDefaultMailMergeSettingsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeSettingsAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailMergeSettings}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailMergeSettings}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<MailMergeSettings>
+  nameWithType: Task<MailMergeSettings>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.MailMergeSettings>
+  nameWithType.vb: Task(Of MailMergeSettings)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.MailMergeSettings)
+  name.vb: Task(Of MailMergeSettings)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.MailMergeSettings
+    name: MailMergeSettings
+    nameWithType: MailMergeSettings
+    fullName: SuperOffice.WebApi.Data.MailMergeSettings
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.MailMergeSettings
+    name: MailMergeSettings
+    nameWithType: MailMergeSettings
+    fullName: SuperOffice.WebApi.Data.MailMergeSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync
+  isExternal: true
+  name: CreateDefaultMailMergeTaskAsync
+  nameWithType: ISelectionAgent.CreateDefaultMailMergeTaskAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultMailMergeTaskAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailMergeTask}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MailMergeTask}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<MailMergeTask>
+  nameWithType: Task<MailMergeTask>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.MailMergeTask>
+  nameWithType.vb: Task(Of MailMergeTask)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.MailMergeTask)
+  name.vb: Task(Of MailMergeTask)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.MailMergeTask
+    name: MailMergeTask
+    nameWithType: MailMergeTask
+    fullName: SuperOffice.WebApi.Data.MailMergeTask
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.MailMergeTask
+    name: MailMergeTask
+    nameWithType: MailMergeTask
+    fullName: SuperOffice.WebApi.Data.MailMergeTask
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync
+  isExternal: true
+  name: CreateDefaultSelectionEntityAsync
+  nameWithType: ISelectionAgent.CreateDefaultSelectionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultSelectionEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SelectionEntity>
+  nameWithType: Task<SelectionEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SelectionEntity>
+  nameWithType.vb: Task(Of SelectionEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.SelectionEntity)
+  name.vb: Task(Of SelectionEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.SelectionEntity
+    name: SelectionEntity
+    nameWithType: SelectionEntity
+    fullName: SuperOffice.WebApi.Data.SelectionEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.SelectionEntity
+    name: SelectionEntity
+    nameWithType: SelectionEntity
+    fullName: SuperOffice.WebApi.Data.SelectionEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.SaveSelectionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.SaveSelectionEntityAsync
+  isExternal: true
+  name: SaveSelectionEntityAsync
+  nameWithType: ISelectionAgent.SaveSelectionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.SaveSelectionEntityAsync
+- uid: SuperOffice.WebApi.Data.SelectionEntity
+  commentId: T:SuperOffice.WebApi.Data.SelectionEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: SelectionEntity
+  nameWithType: SelectionEntity
+  fullName: SuperOffice.WebApi.Data.SelectionEntity
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync
+  isExternal: true
+  name: DeleteSelectionEntityAsync
+  nameWithType: ISelectionAgent.DeleteSelectionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync
+  isExternal: true
+  name: GetSelectionEntityAsync
+  nameWithType: ISelectionAgent.GetSelectionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionEntityAsync
+  isExternal: true
+  name: CreateSelectionEntityAsync
+  nameWithType: ISelectionAgent.CreateSelectionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionEntityAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromSelectionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromSelectionAsync
+  isExternal: true
+  name: CreateContactSelectionFromSelectionAsync
+  nameWithType: ISelectionAgent.CreateContactSelectionFromSelectionAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromSelectionAsync
+- uid: SuperOffice.WebApi.Data.SelectionType
+  commentId: T:SuperOffice.WebApi.Data.SelectionType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: SelectionType
+  nameWithType: SelectionType
+  fullName: SuperOffice.WebApi.Data.SelectionType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync
+  isExternal: true
+  name: CreateTemporaryContactSelectionFromContactPersonIdsAsync
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync
+- uid: SuperOffice.WebApi.Data.ContactPersonId[]
+  isExternal: true
+  name: ContactPersonId[]
+  nameWithType: ContactPersonId[]
+  fullName: SuperOffice.WebApi.Data.ContactPersonId[]
+  nameWithType.vb: ContactPersonId()
+  fullName.vb: SuperOffice.WebApi.Data.ContactPersonId()
+  name.vb: ContactPersonId()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ContactPersonId
+    name: ContactPersonId
+    nameWithType: ContactPersonId
+    fullName: SuperOffice.WebApi.Data.ContactPersonId
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ContactPersonId
+    name: ContactPersonId
+    nameWithType: ContactPersonId
+    fullName: SuperOffice.WebApi.Data.ContactPersonId
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync
+  isExternal: true
+  name: CreateTemporaryContactSelectionFromProjectMembersAsync
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembersAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CopyContactSelectionMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CopyContactSelectionMembersAsync
+  isExternal: true
+  name: CopyContactSelectionMembersAsync
+  nameWithType: ISelectionAgent.CopyContactSelectionMembersAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CopyContactSelectionMembersAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsAsync
+  isExternal: true
+  name: GetRecipientStatisticsAsync
+  nameWithType: ISelectionAgent.GetRecipientStatisticsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RecipientStatistics}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RecipientStatistics}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RecipientStatistics>
+  nameWithType: Task<RecipientStatistics>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.RecipientStatistics>
+  nameWithType.vb: Task(Of RecipientStatistics)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.RecipientStatistics)
+  name.vb: Task(Of RecipientStatistics)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.RecipientStatistics
+    name: RecipientStatistics
+    nameWithType: RecipientStatistics
+    fullName: SuperOffice.WebApi.Data.RecipientStatistics
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.RecipientStatistics
+    name: RecipientStatistics
+    nameWithType: RecipientStatistics
+    fullName: SuperOffice.WebApi.Data.RecipientStatistics
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromProjectMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromProjectMembersAsync
+  isExternal: true
+  name: GetRecipientStatisticsFromProjectMembersAsync
+  nameWithType: ISelectionAgent.GetRecipientStatisticsFromProjectMembersAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromProjectMembersAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromContactPersonIdsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromContactPersonIdsAsync
+  isExternal: true
+  name: GetRecipientStatisticsFromContactPersonIdsAsync
+  nameWithType: ISelectionAgent.GetRecipientStatisticsFromContactPersonIdsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsFromContactPersonIdsAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersAsync
+  isExternal: true
+  name: AddContactSelectionMembersAsync
+  nameWithType: ISelectionAgent.AddContactSelectionMembersAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersAsync
+  isExternal: true
+  name: RemoveContactSelectionMembersAsync
+  nameWithType: ISelectionAgent.RemoveContactSelectionMembersAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromIdsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromIdsAsync
+  isExternal: true
+  name: RemoveContactSelectionMembersFromIdsAsync
+  nameWithType: ISelectionAgent.RemoveContactSelectionMembersFromIdsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromIdsAsync
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersFromSearchAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersFromSearchAsync
+  isExternal: true
+  name: AddContactSelectionMembersFromSearchAsync
+  nameWithType: ISelectionAgent.AddContactSelectionMembersFromSearchAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.AddContactSelectionMembersFromSearchAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromSearchAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromSearchAsync
+  isExternal: true
+  name: RemoveContactSelectionMembersFromSearchAsync
+  nameWithType: ISelectionAgent.RemoveContactSelectionMembersFromSearchAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveContactSelectionMembersFromSearchAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionAsync
+  isExternal: true
+  name: CreateTemporaryContactSelectionAsync
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIdsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIdsAsync
+  isExternal: true
+  name: CreateTemporaryContactSelectionFromSelectionMemberIdsAsync
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIdsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIdsAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.AddRemoveContactSelectionMemberInterestsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.AddRemoveContactSelectionMemberInterestsAsync
+  isExternal: true
+  name: AddRemoveContactSelectionMemberInterestsAsync
+  nameWithType: ISelectionAgent.AddRemoveContactSelectionMemberInterestsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.AddRemoveContactSelectionMemberInterestsAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.EditContactSelectionMemberDetailsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.EditContactSelectionMemberDetailsAsync
+  isExternal: true
+  name: EditContactSelectionMemberDetailsAsync
+  nameWithType: ISelectionAgent.EditContactSelectionMemberDetailsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.EditContactSelectionMemberDetailsAsync
+- uid: SuperOffice.WebApi.Data.SelectionMemberEditValues
+  commentId: T:SuperOffice.WebApi.Data.SelectionMemberEditValues
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: SelectionMemberEditValues
+  nameWithType: SelectionMemberEditValues
+  fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GenerateFollowUpsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GenerateFollowUpsAsync
+  isExternal: true
+  name: GenerateFollowUpsAsync
+  nameWithType: ISelectionAgent.GenerateFollowUpsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GenerateFollowUpsAsync
+- uid: SuperOffice.WebApi.Data.AppointmentEntity
+  commentId: T:SuperOffice.WebApi.Data.AppointmentEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersAsync
+  isExternal: true
+  name: ExportSelectionMembersAsync
+  nameWithType: ISelectionAgent.ExportSelectionMembersAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersAsync
+- uid: System.Threading.Tasks.Task{System.Byte[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Byte[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Byte[]>
+  nameWithType: Task<Byte[]>
+  fullName: System.Threading.Tasks.Task<System.Byte[]>
+  nameWithType.vb: Task(Of Byte())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Byte())
+  name.vb: Task(Of Byte())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersWithOrderByAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersWithOrderByAsync
+  isExternal: true
+  name: ExportSelectionMembersWithOrderByAsync
+  nameWithType: ISelectionAgent.ExportSelectionMembersWithOrderByAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.ExportSelectionMembersWithOrderByAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync
+  isExternal: true
+  name: StartMailMergeAsync
+  nameWithType: ISelectionAgent.StartMailMergeAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.StartMailMergeAsync
+- uid: SuperOffice.WebApi.Data.MailMergeSettings
+  commentId: T:SuperOffice.WebApi.Data.MailMergeSettings
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: MailMergeSettings
+  nameWithType: MailMergeSettings
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.SetDuplicateRulesStatusAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.SetDuplicateRulesStatusAsync
+  isExternal: true
+  name: SetDuplicateRulesStatusAsync
+  nameWithType: ISelectionAgent.SetDuplicateRulesStatusAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.SetDuplicateRulesStatusAsync
+- uid: SuperOffice.WebApi.Data.DuplicateRule[]
+  isExternal: true
+  name: DuplicateRule[]
+  nameWithType: DuplicateRule[]
+  fullName: SuperOffice.WebApi.Data.DuplicateRule[]
+  nameWithType.vb: DuplicateRule()
+  fullName.vb: SuperOffice.WebApi.Data.DuplicateRule()
+  name.vb: DuplicateRule()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.WebApi.Data.DuplicateRule
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.WebApi.Data.DuplicateRule
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicatesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicatesAsync
+  isExternal: true
+  name: GetDuplicatesAsync
+  nameWithType: ISelectionAgent.GetDuplicatesAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicatesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateEntry[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateEntry[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<DuplicateEntry[]>
+  nameWithType: Task<DuplicateEntry[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.DuplicateEntry[]>
+  nameWithType.vb: Task(Of DuplicateEntry())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.DuplicateEntry())
+  name.vb: Task(Of DuplicateEntry())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.WebApi.Data.DuplicateEntry
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.WebApi.Data.DuplicateEntry
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicateRulesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicateRulesAsync
+  isExternal: true
+  name: GetDuplicateRulesAsync
+  nameWithType: ISelectionAgent.GetDuplicateRulesAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetDuplicateRulesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateRule[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateRule[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<DuplicateRule[]>
+  nameWithType: Task<DuplicateRule[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.DuplicateRule[]>
+  nameWithType.vb: Task(Of DuplicateRule())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.DuplicateRule())
+  name.vb: Task(Of DuplicateRule())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.WebApi.Data.DuplicateRule
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.WebApi.Data.DuplicateRule
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateNewEntryAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateNewEntryAsync
+  isExternal: true
+  name: CreateNewEntryAsync
+  nameWithType: ISelectionAgent.CreateNewEntryAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateNewEntryAsync
+- uid: SuperOffice.WebApi.Data.DuplicateEntry
+  commentId: T:SuperOffice.WebApi.Data.DuplicateEntry
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DuplicateEntry
+  nameWithType: DuplicateEntry
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteContactsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.DeleteContactsAsync
+  isExternal: true
+  name: DeleteContactsAsync
+  nameWithType: ISelectionAgent.DeleteContactsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteContactsAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersAsync
+  isExternal: true
+  name: AddSelectionMembersAsync
+  nameWithType: ISelectionAgent.AddSelectionMembersAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersAsync
+  isExternal: true
+  name: RemoveSelectionMembersAsync
+  nameWithType: ISelectionAgent.RemoveSelectionMembersAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersByIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersByIdAsync
+  isExternal: true
+  name: RemoveSelectionMembersByIdAsync
+  nameWithType: ISelectionAgent.RemoveSelectionMembersByIdAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersByIdAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersFromSearchAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersFromSearchAsync
+  isExternal: true
+  name: AddSelectionMembersFromSearchAsync
+  nameWithType: ISelectionAgent.AddSelectionMembersFromSearchAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.AddSelectionMembersFromSearchAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersFromSearchAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersFromSearchAsync
+  isExternal: true
+  name: RemoveSelectionMembersFromSearchAsync
+  nameWithType: ISelectionAgent.RemoveSelectionMembersFromSearchAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.RemoveSelectionMembersFromSearchAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CopySelectionMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CopySelectionMembersAsync
+  isExternal: true
+  name: CopySelectionMembersAsync
+  nameWithType: ISelectionAgent.CopySelectionMembersAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CopySelectionMembersAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporarySelectionFromIdsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporarySelectionFromIdsAsync
+  isExternal: true
+  name: CreateTemporarySelectionFromIdsAsync
+  nameWithType: ISelectionAgent.CreateTemporarySelectionFromIdsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateTemporarySelectionFromIdsAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionFromSelectionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionFromSelectionAsync
+  isExternal: true
+  name: CreateSelectionFromSelectionAsync
+  nameWithType: ISelectionAgent.CreateSelectionFromSelectionAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionFromSelectionAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromShadowSelectionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromShadowSelectionAsync
+  isExternal: true
+  name: CreateContactSelectionFromShadowSelectionAsync
+  nameWithType: ISelectionAgent.CreateContactSelectionFromShadowSelectionAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateContactSelectionFromShadowSelectionAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteEntitiesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.DeleteEntitiesAsync
+  isExternal: true
+  name: DeleteEntitiesAsync
+  nameWithType: ISelectionAgent.DeleteEntitiesAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteEntitiesAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetParentCombinedSelectionsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetParentCombinedSelectionsAsync
+  isExternal: true
+  name: GetParentCombinedSelectionsAsync
+  nameWithType: ISelectionAgent.GetParentCombinedSelectionsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetParentCombinedSelectionsAsync
+- uid: System.Threading.Tasks.Task{System.Int32[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32[]>
+  nameWithType: Task<Int32[]>
+  fullName: System.Threading.Tasks.Task<System.Int32[]>
+  nameWithType.vb: Task(Of Int32())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32())
+  name.vb: Task(Of Int32())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionMembersArchiveRowsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionMembersArchiveRowsAsync
+  isExternal: true
+  name: GetSelectionMembersArchiveRowsAsync
+  nameWithType: ISelectionAgent.GetSelectionMembersArchiveRowsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionMembersArchiveRowsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListItem[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveListItem[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ArchiveListItem[]>
+  nameWithType: Task<ArchiveListItem[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ArchiveListItem[]>
+  nameWithType.vb: Task(Of ArchiveListItem())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ArchiveListItem())
+  name.vb: Task(Of ArchiveListItem())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.WebApi.Data.ArchiveListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.WebApi.Data.ArchiveListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionShadowMembersArchiveRowsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionShadowMembersArchiveRowsAsync
+  isExternal: true
+  name: GetSelectionShadowMembersArchiveRowsAsync
+  nameWithType: ISelectionAgent.GetSelectionShadowMembersArchiveRowsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionShadowMembersArchiveRowsAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaAsync
+  isExternal: true
+  name: GetDynamicSelectionCriteriaAsync
+  nameWithType: ISelectionAgent.GetDynamicSelectionCriteriaAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ArchiveRestrictionInfo[]>
+  nameWithType: Task<ArchiveRestrictionInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]>
+  nameWithType.vb: Task(Of ArchiveRestrictionInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ArchiveRestrictionInfo())
+  name.vb: Task(Of ArchiveRestrictionInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaAsync
+  isExternal: true
+  name: SetDynamicSelectionCriteriaAsync
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteriaAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaAsync
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria2Async*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria2Async
+  isExternal: true
+  name: SetDynamicSelectionCriteria2Async
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteria2Async
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria2Async
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria3Async*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria3Async
+  isExternal: true
+  name: SetDynamicSelectionCriteria3Async
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteria3Async
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteria3Async
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeletePersonsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.DeletePersonsAsync
+  isExternal: true
+  name: DeletePersonsAsync
+  nameWithType: ISelectionAgent.DeletePersonsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.DeletePersonsAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaGroupsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaGroupsAsync
+  isExternal: true
+  name: GetDynamicSelectionCriteriaGroupsAsync
+  nameWithType: ISelectionAgent.GetDynamicSelectionCriteriaGroupsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetDynamicSelectionCriteriaGroupsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ArchiveRestrictionGroup[]>
+  nameWithType: Task<ArchiveRestrictionGroup[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]>
+  nameWithType.vb: Task(Of ArchiveRestrictionGroup())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ArchiveRestrictionGroup())
+  name.vb: Task(Of ArchiveRestrictionGroup())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync
+  isExternal: true
+  name: SetDynamicSelectionCriteriaGroupsAsync
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
+  isExternal: true
+  name: ArchiveRestrictionGroup[]
+  nameWithType: ArchiveRestrictionGroup[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
+  nameWithType.vb: ArchiveRestrictionGroup()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionGroup()
+  name.vb: ArchiveRestrictionGroup()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionForFindAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionForFindAsync
+  isExternal: true
+  name: GetSelectionForFindAsync
+  nameWithType: ISelectionAgent.GetSelectionForFindAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionForFindAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionForFind}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionForFind}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SelectionForFind>
+  nameWithType: Task<SelectionForFind>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SelectionForFind>
+  nameWithType.vb: Task(Of SelectionForFind)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.SelectionForFind)
+  name.vb: Task(Of SelectionForFind)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.SelectionForFind
+    name: SelectionForFind
+    nameWithType: SelectionForFind
+    fullName: SuperOffice.WebApi.Data.SelectionForFind
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.SelectionForFind
+    name: SelectionForFind
+    nameWithType: SelectionForFind
+    fullName: SuperOffice.WebApi.Data.SelectionForFind
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionSummariesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionSummariesAsync
+  isExternal: true
+  name: GetSelectionSummariesAsync
+  nameWithType: ISelectionAgent.GetSelectionSummariesAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionSummariesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionSummaryItem[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectionSummaryItem[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SelectionSummaryItem[]>
+  nameWithType: Task<SelectionSummaryItem[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SelectionSummaryItem[]>
+  nameWithType.vb: Task(Of SelectionSummaryItem())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.SelectionSummaryItem())
+  name.vb: Task(Of SelectionSummaryItem())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.SelectionSummaryItem
+    name: SelectionSummaryItem
+    nameWithType: SelectionSummaryItem
+    fullName: SuperOffice.WebApi.Data.SelectionSummaryItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.SelectionSummaryItem
+    name: SelectionSummaryItem
+    nameWithType: SelectionSummaryItem
+    fullName: SuperOffice.WebApi.Data.SelectionSummaryItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.UpdateTypicalSearchAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.UpdateTypicalSearchAsync
+  isExternal: true
+  name: UpdateTypicalSearchAsync
+  nameWithType: ISelectionAgent.UpdateTypicalSearchAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.UpdateTypicalSearchAsync
+- uid: SuperOffice.WebApi.Data.TypicalSearches
+  commentId: T:SuperOffice.WebApi.Data.TypicalSearches
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TypicalSearches
+  nameWithType: TypicalSearches
+  fullName: SuperOffice.WebApi.Data.TypicalSearches
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

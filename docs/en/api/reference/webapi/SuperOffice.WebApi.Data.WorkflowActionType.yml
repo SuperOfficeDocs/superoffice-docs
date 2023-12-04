@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowActionType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowActionType
+  id: WorkflowActionType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowActionType.After
+  - SuperOffice.WebApi.Data.WorkflowActionType.FirstAvailable
+  - SuperOffice.WebApi.Data.WorkflowActionType.FirstAvailableAfter
+  - SuperOffice.WebApi.Data.WorkflowActionType.None
+  - SuperOffice.WebApi.Data.WorkflowActionType.Today
+  - SuperOffice.WebApi.Data.WorkflowActionType.value__
+  langs:
+  - csharp
+  - vb
+  name: WorkflowActionType
+  nameWithType: WorkflowActionType
+  fullName: SuperOffice.WebApi.Data.WorkflowActionType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWorkflow action type\n"
+  syntax:
+    content: 'public sealed class WorkflowActionType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowActionType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowActionType.value__
+  commentId: F:SuperOffice.WebApi.Data.WorkflowActionType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.WorkflowActionType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowActionType.value__
+  fullName: SuperOffice.WebApi.Data.WorkflowActionType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowActionType.None
+  commentId: F:SuperOffice.WebApi.Data.WorkflowActionType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.WorkflowActionType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowActionType.None
+  fullName: SuperOffice.WebApi.Data.WorkflowActionType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const WorkflowActionType None
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowActionType
+    content.vb: Public Const None As WorkflowActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowActionType.FirstAvailable
+  commentId: F:SuperOffice.WebApi.Data.WorkflowActionType.FirstAvailable
+  id: FirstAvailable
+  parent: SuperOffice.WebApi.Data.WorkflowActionType
+  langs:
+  - csharp
+  - vb
+  name: FirstAvailable
+  nameWithType: WorkflowActionType.FirstAvailable
+  fullName: SuperOffice.WebApi.Data.WorkflowActionType.FirstAvailable
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: First available\n"
+  syntax:
+    content: public const WorkflowActionType FirstAvailable
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowActionType
+    content.vb: Public Const FirstAvailable As WorkflowActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowActionType.FirstAvailableAfter
+  commentId: F:SuperOffice.WebApi.Data.WorkflowActionType.FirstAvailableAfter
+  id: FirstAvailableAfter
+  parent: SuperOffice.WebApi.Data.WorkflowActionType
+  langs:
+  - csharp
+  - vb
+  name: FirstAvailableAfter
+  nameWithType: WorkflowActionType.FirstAvailableAfter
+  fullName: SuperOffice.WebApi.Data.WorkflowActionType.FirstAvailableAfter
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: First available after\n"
+  syntax:
+    content: public const WorkflowActionType FirstAvailableAfter
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowActionType
+    content.vb: Public Const FirstAvailableAfter As WorkflowActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowActionType.Today
+  commentId: F:SuperOffice.WebApi.Data.WorkflowActionType.Today
+  id: Today
+  parent: SuperOffice.WebApi.Data.WorkflowActionType
+  langs:
+  - csharp
+  - vb
+  name: Today
+  nameWithType: WorkflowActionType.Today
+  fullName: SuperOffice.WebApi.Data.WorkflowActionType.Today
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Today\n"
+  syntax:
+    content: public const WorkflowActionType Today
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowActionType
+    content.vb: Public Const Today As WorkflowActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowActionType.After
+  commentId: F:SuperOffice.WebApi.Data.WorkflowActionType.After
+  id: After
+  parent: SuperOffice.WebApi.Data.WorkflowActionType
+  langs:
+  - csharp
+  - vb
+  name: After
+  nameWithType: WorkflowActionType.After
+  fullName: SuperOffice.WebApi.Data.WorkflowActionType.After
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: After\n"
+  syntax:
+    content: public const WorkflowActionType After
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowActionType
+    content.vb: Public Const After As WorkflowActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.WorkflowActionType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowActionType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowActionType
+  nameWithType: WorkflowActionType
+  fullName: SuperOffice.WebApi.Data.WorkflowActionType

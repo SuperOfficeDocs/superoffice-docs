@@ -1,0 +1,667 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent
+  commentId: T:SuperOffice.WebApi.Agents.IAssociateAgent
+  id: IAssociateAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: IAssociateAgent
+  nameWithType: IAssociateAgent
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent
+  type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAssociate utilities, notes, not user admininstration\n"
+  syntax:
+    content: 'public interface IAssociateAgent : IDisposable'
+    content.vb: >-
+      Public Interface IAssociateAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetAssociateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateAsync(Int32, RequestOptions)
+  nameWithType: IAssociateAgent.GetAssociateAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific Associate object.                        \n"
+  syntax:
+    content: Task<Associate> GetAssociateAsync(int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The identifier of the Associate object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate}
+      description: Associate
+    content.vb: Function GetAssociateAsync(associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Associate)
+  overload: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync*
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetAssociateByPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateByPersonIdAsync(Int32, RequestOptions)
+  nameWithType: IAssociateAgent.GetAssociateByPersonIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the associate that belongs to this person if the person is an associate.\n"
+  syntax:
+    content: Task<Associate> GetAssociateByPersonIdAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate}
+      description: Associate if person is associate
+    content.vb: Function GetAssociateByPersonIdAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Associate)
+  overload: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync*
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetNoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNoteAsync(Int32, RequestOptions)
+  nameWithType: IAssociateAgent.GetNoteAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns an array of strings(notepad pages).\n"
+  syntax:
+    content: Task<string[]> GetNoteAsync(int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The associate id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String[]}
+      description: Returns an array of strings(notepad pages).
+    content.vb: Function GetNoteAsync(associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of String())
+  overload: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync*
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: SaveNoteAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveNoteAsync(Int32, String[], RequestOptions)
+  nameWithType: IAssociateAgent.SaveNoteAsync(Int32, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32, System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSaves an array of strings(notepad pages).\n"
+  syntax:
+    content: Task SaveNoteAsync(int associateId, string[] note, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The associate id
+    - id: note
+      type: System.String[]
+      description: The array of strings(notepad pages).
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SaveNoteAsync(associateId As Integer, note As String(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync*
+  nameWithType.vb: IAssociateAgent.SaveNoteAsync(Int32, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveNoteAsync(Int32, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEncryptionKeyAsync(RequestOptions)
+  nameWithType: IAssociateAgent.GetEncryptionKeyAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet unique key made from AssociateId and dbTag used for local storage encryption operations.\n"
+  syntax:
+    content: Task<string> GetEncryptionKeyAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: encryptionKey
+    content.vb: Function GetEncryptionKeyAsync(requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync*
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetAssociateListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateListAsync(Int32[], RequestOptions)
+  nameWithType: IAssociateAgent.GetAssociateListAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets an array of specific Associate objects.                        \n"
+  syntax:
+    content: Task<Associate[]> GetAssociateListAsync(int[] associateIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+      description: The identifiers of the Associate object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate[]}
+      description: Array of Associate objects
+    content.vb: Function GetAssociateListAsync(associateIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Associate())
+  overload: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync*
+  nameWithType.vb: IAssociateAgent.GetAssociateListAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetAssociateListAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetAssociatesByGroupAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAssociatesByGroupAsync(Int32, Int32, RequestOptions)
+  nameWithType: IAssociateAgent.GetAssociatesByGroupAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nMethod that returns a array of associate , based on DiaryGroupType and groupId. The differernt types are, Userdefined, Usergroup and ResourceHeadings\n"
+  syntax:
+    content: Task<Associate[]> GetAssociatesByGroupAsync(int groupId, int type, RequestOptions requestOptions = null)
+    parameters:
+    - id: groupId
+      type: System.Int32
+      description: Id of the group
+    - id: type
+      type: System.Int32
+      description: The type of group. See DiaryGroupType
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate[]}
+      description: Array of associate
+    content.vb: Function GetAssociatesByGroupAsync(groupId As Integer, type As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Associate())
+  overload: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync*
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: LogOffWindowsUsersAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: LogOffWindowsUsersAsync(Int32[], RequestOptions)
+  nameWithType: IAssociateAgent.LogOffWindowsUsersAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nMethod that logs off associates that are logged on to the win client\n"
+  syntax:
+    content: Task LogOffWindowsUsersAsync(int[] associateIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+      description: The ids of the associates that shall be logged off
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: A void return
+    content.vb: Function LogOffWindowsUsersAsync(associateIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync*
+  nameWithType.vb: IAssociateAgent.LogOffWindowsUsersAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: LogOffWindowsUsersAsync(Int32(), RequestOptions)
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync
+  isExternal: true
+  name: GetAssociateAsync
+  nameWithType: IAssociateAgent.GetAssociateAsync
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Associate>
+  nameWithType: Task<Associate>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Associate>
+  nameWithType.vb: Task(Of Associate)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Associate)
+  name.vb: Task(Of Associate)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Associate
+    name: Associate
+    nameWithType: Associate
+    fullName: SuperOffice.WebApi.Data.Associate
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Associate
+    name: Associate
+    nameWithType: Associate
+    fullName: SuperOffice.WebApi.Data.Associate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync
+  isExternal: true
+  name: GetAssociateByPersonIdAsync
+  nameWithType: IAssociateAgent.GetAssociateByPersonIdAsync
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync
+  isExternal: true
+  name: GetNoteAsync
+  nameWithType: IAssociateAgent.GetNoteAsync
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync
+  isExternal: true
+  name: SaveNoteAsync
+  nameWithType: IAssociateAgent.SaveNoteAsync
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync
+  isExternal: true
+  name: GetEncryptionKeyAsync
+  nameWithType: IAssociateAgent.GetEncryptionKeyAsync
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync
+  isExternal: true
+  name: GetAssociateListAsync
+  nameWithType: IAssociateAgent.GetAssociateListAsync
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Associate[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Associate[]>
+  nameWithType: Task<Associate[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Associate[]>
+  nameWithType.vb: Task(Of Associate())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Associate())
+  name.vb: Task(Of Associate())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Associate
+    name: Associate
+    nameWithType: Associate
+    fullName: SuperOffice.WebApi.Data.Associate
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Associate
+    name: Associate
+    nameWithType: Associate
+    fullName: SuperOffice.WebApi.Data.Associate
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync
+  isExternal: true
+  name: GetAssociatesByGroupAsync
+  nameWithType: IAssociateAgent.GetAssociatesByGroupAsync
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync
+  isExternal: true
+  name: LogOffWindowsUsersAsync
+  nameWithType: IAssociateAgent.LogOffWindowsUsersAsync
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync

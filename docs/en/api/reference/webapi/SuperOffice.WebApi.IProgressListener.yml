@@ -85,7 +85,7 @@ items:
       description: URL being loaded
     - id: errorMessage
       type: System.Exception
-      description: Exception that is being thrown. Probably a <xref href="SuperOffice.Exceptions.WebApiException" data-throw-if-not-resolved="false"></xref>.
+      description: Exception that is being thrown. Probably a <xref href="SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException" data-throw-if-not-resolved="false"></xref>.
     content.vb: Sub OnError(request As String, errorMessage As Exception)
   overload: SuperOffice.WebApi.IProgressListener.OnError*
 references:

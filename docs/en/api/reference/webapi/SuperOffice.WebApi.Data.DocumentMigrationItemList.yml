@@ -1,0 +1,315 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItemList
+  commentId: T:SuperOffice.WebApi.Data.DocumentMigrationItemList
+  id: DocumentMigrationItemList
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DocumentMigrationItemList.#ctor
+  - SuperOffice.WebApi.Data.DocumentMigrationItemList.Associates
+  - SuperOffice.WebApi.Data.DocumentMigrationItemList.Documents
+  - SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsAlreadyMigrated
+  - SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsOmitted
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigrationItemList
+  nameWithType: DocumentMigrationItemList
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItemList
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for DocumentMigrationItemList.\n\n"
+  syntax:
+    content: 'public class DocumentMigrationItemList : Object'
+    content.vb: >-
+      Public Class DocumentMigrationItemList
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DocumentMigrationAgent
+    commentId: T:SuperOffice.WebApi.Agents.DocumentMigrationAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItemList.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DocumentMigrationItemList.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItemList
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigrationItemList()
+  nameWithType: DocumentMigrationItemList.DocumentMigrationItemList()
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItemList.DocumentMigrationItemList()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public DocumentMigrationItemList()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItemList.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsOmitted
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsOmitted
+  id: NumDocumentsOmitted
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItemList
+  langs:
+  - csharp
+  - vb
+  name: NumDocumentsOmitted
+  nameWithType: DocumentMigrationItemList.NumDocumentsOmitted
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsOmitted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTotal amount of documents within the selection criteria, which has been omitted from the migration.\n"
+  syntax:
+    content: public virtual int NumDocumentsOmitted { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumDocumentsOmitted As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsOmitted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsAlreadyMigrated
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsAlreadyMigrated
+  id: NumDocumentsAlreadyMigrated
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItemList
+  langs:
+  - csharp
+  - vb
+  name: NumDocumentsAlreadyMigrated
+  nameWithType: DocumentMigrationItemList.NumDocumentsAlreadyMigrated
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsAlreadyMigrated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDocuments already migrated to the requested documentplugin.\n"
+  syntax:
+    content: public virtual int NumDocumentsAlreadyMigrated { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumDocumentsAlreadyMigrated As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsAlreadyMigrated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItemList.Documents
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationItemList.Documents
+  id: Documents
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItemList
+  langs:
+  - csharp
+  - vb
+  name: Documents
+  nameWithType: DocumentMigrationItemList.Documents
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItemList.Documents
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nList of documents to be migrated.\n"
+  syntax:
+    content: public virtual DocumentMigrationItem[] Documents { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DocumentMigrationItem[]
+    content.vb: Public Overridable Property Documents As DocumentMigrationItem()
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItemList.Documents*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItemList.Associates
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationItemList.Associates
+  id: Associates
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItemList
+  langs:
+  - csharp
+  - vb
+  name: Associates
+  nameWithType: DocumentMigrationItemList.Associates
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItemList.Associates
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nList of associates whose documents will be migrated.\n"
+  syntax:
+    content: public virtual DocumentMigrationAssociate[] Associates { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DocumentMigrationAssociate[]
+    content.vb: Public Overridable Property Associates As DocumentMigrationAssociate()
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItemList.Associates*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.DocumentMigrationAgent
+  commentId: T:SuperOffice.WebApi.Agents.DocumentMigrationAgent
+  isExternal: true
+  name: DocumentMigrationAgent
+  nameWithType: DocumentMigrationAgent
+  fullName: SuperOffice.WebApi.Agents.DocumentMigrationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItemList.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItemList.#ctor
+  isExternal: true
+  name: DocumentMigrationItemList
+  nameWithType: DocumentMigrationItemList.DocumentMigrationItemList
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItemList.DocumentMigrationItemList
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsOmitted*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsOmitted
+  isExternal: true
+  name: NumDocumentsOmitted
+  nameWithType: DocumentMigrationItemList.NumDocumentsOmitted
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsOmitted
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsAlreadyMigrated*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsAlreadyMigrated
+  isExternal: true
+  name: NumDocumentsAlreadyMigrated
+  nameWithType: DocumentMigrationItemList.NumDocumentsAlreadyMigrated
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItemList.NumDocumentsAlreadyMigrated
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItemList.Documents*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItemList.Documents
+  isExternal: true
+  name: Documents
+  nameWithType: DocumentMigrationItemList.Documents
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItemList.Documents
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem[]
+  isExternal: true
+  name: DocumentMigrationItem[]
+  nameWithType: DocumentMigrationItem[]
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem[]
+  nameWithType.vb: DocumentMigrationItem()
+  fullName.vb: SuperOffice.WebApi.Data.DocumentMigrationItem()
+  name.vb: DocumentMigrationItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.DocumentMigrationItem
+    name: DocumentMigrationItem
+    nameWithType: DocumentMigrationItem
+    fullName: SuperOffice.WebApi.Data.DocumentMigrationItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.DocumentMigrationItem
+    name: DocumentMigrationItem
+    nameWithType: DocumentMigrationItem
+    fullName: SuperOffice.WebApi.Data.DocumentMigrationItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItemList.Associates*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItemList.Associates
+  isExternal: true
+  name: Associates
+  nameWithType: DocumentMigrationItemList.Associates
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItemList.Associates
+- uid: SuperOffice.WebApi.Data.DocumentMigrationAssociate[]
+  isExternal: true
+  name: DocumentMigrationAssociate[]
+  nameWithType: DocumentMigrationAssociate[]
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationAssociate[]
+  nameWithType.vb: DocumentMigrationAssociate()
+  fullName.vb: SuperOffice.WebApi.Data.DocumentMigrationAssociate()
+  name.vb: DocumentMigrationAssociate()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.DocumentMigrationAssociate
+    name: DocumentMigrationAssociate
+    nameWithType: DocumentMigrationAssociate
+    fullName: SuperOffice.WebApi.Data.DocumentMigrationAssociate
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.DocumentMigrationAssociate
+    name: DocumentMigrationAssociate
+    nameWithType: DocumentMigrationAssociate
+    fullName: SuperOffice.WebApi.Data.DocumentMigrationAssociate
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

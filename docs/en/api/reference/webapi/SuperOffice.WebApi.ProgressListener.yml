@@ -1,0 +1,591 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.ProgressListener
+  commentId: T:SuperOffice.WebApi.ProgressListener
+  id: ProgressListener
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.ProgressListener.#ctor
+  - SuperOffice.WebApi.ProgressListener.#ctor(System.Action{System.String,System.Single},System.Action{System.String,System.Exception})
+  - SuperOffice.WebApi.ProgressListener.OnError(System.String,System.Exception)
+  - SuperOffice.WebApi.ProgressListener.OnErrorDelegate
+  - SuperOffice.WebApi.ProgressListener.OnProgress(System.String,System.Single)
+  - SuperOffice.WebApi.ProgressListener.OnProgressDelegate
+  langs:
+  - csharp
+  - vb
+  name: ProgressListener
+  nameWithType: ProgressListener
+  fullName: SuperOffice.WebApi.ProgressListener
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nDefault ProgressListener implementation with delegates for event callbacks.\n"
+  syntax:
+    content: 'public class ProgressListener : Object, IProgressListener'
+    content.vb: >-
+      Public Class ProgressListener
+          Inherits Object
+          Implements IProgressListener
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.WebApi.IProgressListener
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.ProgressListener.#ctor
+  commentId: M:SuperOffice.WebApi.ProgressListener.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.ProgressListener
+  langs:
+  - csharp
+  - vb
+  name: ProgressListener()
+  nameWithType: ProgressListener.ProgressListener()
+  fullName: SuperOffice.WebApi.ProgressListener.ProgressListener()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public ProgressListener()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.ProgressListener.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.ProgressListener.#ctor(System.Action{System.String,System.Single},System.Action{System.String,System.Exception})
+  commentId: M:SuperOffice.WebApi.ProgressListener.#ctor(System.Action{System.String,System.Single},System.Action{System.String,System.Exception})
+  id: '#ctor(System.Action{System.String,System.Single},System.Action{System.String,System.Exception})'
+  parent: SuperOffice.WebApi.ProgressListener
+  langs:
+  - csharp
+  - vb
+  name: ProgressListener(Action<String, Single>, Action<String, Exception>)
+  nameWithType: ProgressListener.ProgressListener(Action<String, Single>, Action<String, Exception>)
+  fullName: SuperOffice.WebApi.ProgressListener.ProgressListener(System.Action<System.String, System.Single>, System.Action<System.String, System.Exception>)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public ProgressListener(Action<string, float> onProgress, Action<string, Exception> onError)
+    parameters:
+    - id: onProgress
+      type: System.Action{System.String,System.Single}
+    - id: onError
+      type: System.Action{System.String,System.Exception}
+    content.vb: Public Sub New(onProgress As Action(Of String, Single), onError As Action(Of String, Exception))
+  overload: SuperOffice.WebApi.ProgressListener.#ctor*
+  nameWithType.vb: ProgressListener.ProgressListener(Action(Of String, Single), Action(Of String, Exception))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.ProgressListener.ProgressListener(System.Action(Of System.String, System.Single), System.Action(Of System.String, System.Exception))
+  name.vb: ProgressListener(Action(Of String, Single), Action(Of String, Exception))
+- uid: SuperOffice.WebApi.ProgressListener.OnError(System.String,System.Exception)
+  commentId: M:SuperOffice.WebApi.ProgressListener.OnError(System.String,System.Exception)
+  id: OnError(System.String,System.Exception)
+  parent: SuperOffice.WebApi.ProgressListener
+  langs:
+  - csharp
+  - vb
+  name: OnError(String, Exception)
+  nameWithType: ProgressListener.OnError(String, Exception)
+  fullName: SuperOffice.WebApi.ProgressListener.OnError(System.String, System.Exception)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nCalled when request fails.\n"
+  syntax:
+    content: public void OnError(string request, Exception errorMessage)
+    parameters:
+    - id: request
+      type: System.String
+      description: URL being loaded
+    - id: errorMessage
+      type: System.Exception
+      description: Exception that is being thrown. Probably a <xref href="SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Sub OnError(request As String, errorMessage As Exception)
+  overload: SuperOffice.WebApi.ProgressListener.OnError*
+  implements:
+  - SuperOffice.WebApi.IProgressListener.OnError(System.String,System.Exception)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.ProgressListener.OnProgress(System.String,System.Single)
+  commentId: M:SuperOffice.WebApi.ProgressListener.OnProgress(System.String,System.Single)
+  id: OnProgress(System.String,System.Single)
+  parent: SuperOffice.WebApi.ProgressListener
+  langs:
+  - csharp
+  - vb
+  name: OnProgress(String, Single)
+  nameWithType: ProgressListener.OnProgress(String, Single)
+  fullName: SuperOffice.WebApi.ProgressListener.OnProgress(System.String, System.Single)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nCalled during upload/download, and at end to indicate completion.\n"
+  syntax:
+    content: public void OnProgress(string request, float progress)
+    parameters:
+    - id: request
+      type: System.String
+      description: URL for the request
+    - id: progress
+      type: System.Single
+      description: Complete progress. 0.0 not started, 1.0 finished
+    content.vb: Public Sub OnProgress(request As String, progress As Single)
+  overload: SuperOffice.WebApi.ProgressListener.OnProgress*
+  implements:
+  - SuperOffice.WebApi.IProgressListener.OnProgress(System.String,System.Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.ProgressListener.OnProgressDelegate
+  commentId: P:SuperOffice.WebApi.ProgressListener.OnProgressDelegate
+  id: OnProgressDelegate
+  parent: SuperOffice.WebApi.ProgressListener
+  langs:
+  - csharp
+  - vb
+  name: OnProgressDelegate
+  nameWithType: ProgressListener.OnProgressDelegate
+  fullName: SuperOffice.WebApi.ProgressListener.OnProgressDelegate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nTriggered when request has made progress.\n"
+  syntax:
+    content: public Action<string, float> OnProgressDelegate { get; set; }
+    parameters: []
+    return:
+      type: System.Action{System.String,System.Single}
+    content.vb: Public Property OnProgressDelegate As Action(Of String, Single)
+  overload: SuperOffice.WebApi.ProgressListener.OnProgressDelegate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.ProgressListener.OnErrorDelegate
+  commentId: P:SuperOffice.WebApi.ProgressListener.OnErrorDelegate
+  id: OnErrorDelegate
+  parent: SuperOffice.WebApi.ProgressListener
+  langs:
+  - csharp
+  - vb
+  name: OnErrorDelegate
+  nameWithType: ProgressListener.OnErrorDelegate
+  fullName: SuperOffice.WebApi.ProgressListener.OnErrorDelegate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nTriggered if request fails.\n"
+  syntax:
+    content: public Action<string, Exception> OnErrorDelegate { get; set; }
+    parameters: []
+    return:
+      type: System.Action{System.String,System.Exception}
+    content.vb: Public Property OnErrorDelegate As Action(Of String, Exception)
+  overload: SuperOffice.WebApi.ProgressListener.OnErrorDelegate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.IProgressListener
+  commentId: T:SuperOffice.WebApi.IProgressListener
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: IProgressListener
+  nameWithType: IProgressListener
+  fullName: SuperOffice.WebApi.IProgressListener
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.ProgressListener.#ctor*
+  commentId: Overload:SuperOffice.WebApi.ProgressListener.#ctor
+  isExternal: true
+  name: ProgressListener
+  nameWithType: ProgressListener.ProgressListener
+  fullName: SuperOffice.WebApi.ProgressListener.ProgressListener
+- uid: System.Action{System.String,System.Single}
+  commentId: '!:System.Action{System.String,System.Single}'
+  definition: System.Action`2
+  name: Action<String, Single>
+  nameWithType: Action<String, Single>
+  fullName: System.Action<System.String, System.Single>
+  nameWithType.vb: Action(Of String, Single)
+  fullName.vb: System.Action(Of System.String, System.Single)
+  name.vb: Action(Of String, Single)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{System.String,System.Exception}
+  commentId: '!:System.Action{System.String,System.Exception}'
+  definition: System.Action`2
+  name: Action<String, Exception>
+  nameWithType: Action<String, Exception>
+  fullName: System.Action<System.String, System.Exception>
+  nameWithType.vb: Action(Of String, Exception)
+  fullName.vb: System.Action(Of System.String, System.Exception)
+  name.vb: Action(Of String, Exception)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: System.Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: System.Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.ProgressListener.OnError*
+  commentId: Overload:SuperOffice.WebApi.ProgressListener.OnError
+  isExternal: true
+  name: OnError
+  nameWithType: ProgressListener.OnError
+  fullName: SuperOffice.WebApi.ProgressListener.OnError
+- uid: SuperOffice.WebApi.IProgressListener.OnError(System.String,System.Exception)
+  commentId: M:SuperOffice.WebApi.IProgressListener.OnError(System.String,System.Exception)
+  parent: SuperOffice.WebApi.IProgressListener
+  isExternal: true
+  name: OnError(String, Exception)
+  nameWithType: IProgressListener.OnError(String, Exception)
+  fullName: SuperOffice.WebApi.IProgressListener.OnError(System.String, System.Exception)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.IProgressListener.OnError(System.String,System.Exception)
+    name: OnError
+    nameWithType: IProgressListener.OnError
+    fullName: SuperOffice.WebApi.IProgressListener.OnError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.IProgressListener.OnError(System.String,System.Exception)
+    name: OnError
+    nameWithType: IProgressListener.OnError
+    fullName: SuperOffice.WebApi.IProgressListener.OnError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: SuperOffice.WebApi.ProgressListener.OnProgress*
+  commentId: Overload:SuperOffice.WebApi.ProgressListener.OnProgress
+  isExternal: true
+  name: OnProgress
+  nameWithType: ProgressListener.OnProgress
+  fullName: SuperOffice.WebApi.ProgressListener.OnProgress
+- uid: SuperOffice.WebApi.IProgressListener.OnProgress(System.String,System.Single)
+  commentId: M:SuperOffice.WebApi.IProgressListener.OnProgress(System.String,System.Single)
+  parent: SuperOffice.WebApi.IProgressListener
+  isExternal: true
+  name: OnProgress(String, Single)
+  nameWithType: IProgressListener.OnProgress(String, Single)
+  fullName: SuperOffice.WebApi.IProgressListener.OnProgress(System.String, System.Single)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.IProgressListener.OnProgress(System.String,System.Single)
+    name: OnProgress
+    nameWithType: IProgressListener.OnProgress
+    fullName: SuperOffice.WebApi.IProgressListener.OnProgress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.IProgressListener.OnProgress(System.String,System.Single)
+    name: OnProgress
+    nameWithType: IProgressListener.OnProgress
+    fullName: SuperOffice.WebApi.IProgressListener.OnProgress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: SuperOffice.WebApi.ProgressListener.OnProgressDelegate*
+  commentId: Overload:SuperOffice.WebApi.ProgressListener.OnProgressDelegate
+  isExternal: true
+  name: OnProgressDelegate
+  nameWithType: ProgressListener.OnProgressDelegate
+  fullName: SuperOffice.WebApi.ProgressListener.OnProgressDelegate
+- uid: SuperOffice.WebApi.ProgressListener.OnErrorDelegate*
+  commentId: Overload:SuperOffice.WebApi.ProgressListener.OnErrorDelegate
+  isExternal: true
+  name: OnErrorDelegate
+  nameWithType: ProgressListener.OnErrorDelegate
+  fullName: SuperOffice.WebApi.ProgressListener.OnErrorDelegate

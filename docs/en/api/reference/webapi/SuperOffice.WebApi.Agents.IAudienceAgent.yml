@@ -1,0 +1,1437 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent
+  commentId: T:SuperOffice.WebApi.Agents.IAudienceAgent
+  id: IAudienceAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.IAudienceAgent.CreateDefaultAudienceLayoutEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.DeleteAudienceLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.DeleteConfigParameterAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterOnPersonAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersByLayoutNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueOnPersonAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultCountryFlagAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultPersonImageAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultProjectImageAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetLogoImageAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetMyAudienceLayoutAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParametersAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterValueAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.SaveAudienceLayoutEntityAsync(SuperOffice.WebApi.Data.AudienceLayoutEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.SaveConfigParameterAsync(System.String,SuperOffice.WebApi.Data.AudienceConfigParameter,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultCountryFlagAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultPersonImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultProjectImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAudienceAgent.SetLogoImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: IAudienceAgent
+  nameWithType: IAudienceAgent
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent
+  type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nServices specific to the Audience client\n"
+  syntax:
+    content: 'public interface IAudienceAgent : IDisposable'
+    content.vb: >-
+      Public Interface IAudienceAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.CreateDefaultAudienceLayoutEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.CreateDefaultAudienceLayoutEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultAudienceLayoutEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultAudienceLayoutEntityAsync(RequestOptions)
+  nameWithType: IAudienceAgent.CreateDefaultAudienceLayoutEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.CreateDefaultAudienceLayoutEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new AudienceLayoutEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<AudienceLayoutEntity> CreateDefaultAudienceLayoutEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceLayoutEntity}
+      description: A blank AudienceLayoutEntity
+    content.vb: Function CreateDefaultAudienceLayoutEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of AudienceLayoutEntity)
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.CreateDefaultAudienceLayoutEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.SaveAudienceLayoutEntityAsync(SuperOffice.WebApi.Data.AudienceLayoutEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.SaveAudienceLayoutEntityAsync(SuperOffice.WebApi.Data.AudienceLayoutEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveAudienceLayoutEntityAsync(SuperOffice.WebApi.Data.AudienceLayoutEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveAudienceLayoutEntityAsync(AudienceLayoutEntity, RequestOptions)
+  nameWithType: IAudienceAgent.SaveAudienceLayoutEntityAsync(AudienceLayoutEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.SaveAudienceLayoutEntityAsync(SuperOffice.WebApi.Data.AudienceLayoutEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity if the id parameter is 0. \n"
+  syntax:
+    content: Task<AudienceLayoutEntity> SaveAudienceLayoutEntityAsync(AudienceLayoutEntity audienceLayoutEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: audienceLayoutEntity
+      type: SuperOffice.WebApi.Data.AudienceLayoutEntity
+      description: The AudienceLayoutEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceLayoutEntity}
+      description: New or updated AudienceLayoutEntity
+    content.vb: Function SaveAudienceLayoutEntityAsync(audienceLayoutEntity As AudienceLayoutEntity, requestOptions As RequestOptions = Nothing) As Task(Of AudienceLayoutEntity)
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.SaveAudienceLayoutEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.DeleteAudienceLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.DeleteAudienceLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteAudienceLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteAudienceLayoutEntityAsync(Int32, RequestOptions)
+  nameWithType: IAudienceAgent.DeleteAudienceLayoutEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.DeleteAudienceLayoutEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the AudienceLayoutEntity\n"
+  syntax:
+    content: Task DeleteAudienceLayoutEntityAsync(int audienceLayoutEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: audienceLayoutEntityId
+      type: System.Int32
+      description: The identity of the AudienceLayoutEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteAudienceLayoutEntityAsync(audienceLayoutEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.DeleteAudienceLayoutEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.SaveConfigParameterAsync(System.String,SuperOffice.WebApi.Data.AudienceConfigParameter,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.SaveConfigParameterAsync(System.String,SuperOffice.WebApi.Data.AudienceConfigParameter,SuperOffice.WebApi.RequestOptions)
+  id: SaveConfigParameterAsync(System.String,SuperOffice.WebApi.Data.AudienceConfigParameter,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveConfigParameterAsync(String, AudienceConfigParameter, RequestOptions)
+  nameWithType: IAudienceAgent.SaveConfigParameterAsync(String, AudienceConfigParameter, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.SaveConfigParameterAsync(System.String, SuperOffice.WebApi.Data.AudienceConfigParameter, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSaves an Audience configuration parameter belonging to a Audience layout\n"
+  syntax:
+    content: Task<AudienceConfigParameter> SaveConfigParameterAsync(string layoutName, AudienceConfigParameter configParameter, RequestOptions requestOptions = null)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: configParameter
+      type: SuperOffice.WebApi.Data.AudienceConfigParameter
+      description: The Audience configuration parameter to save.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceConfigParameter}
+      description: The new or updated configuration parameter
+    content.vb: Function SaveConfigParameterAsync(layoutName As String, configParameter As AudienceConfigParameter, requestOptions As RequestOptions = Nothing) As Task(Of AudienceConfigParameter)
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.SaveConfigParameterAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetConfigParameterValueAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigParameterValueAsync(String, String, RequestOptions)
+  nameWithType: IAudienceAgent.GetConfigParameterValueAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the string value of an Audience configuration parameter belonging to a given Audience layout with the specified configuration parameter name\n"
+  syntax:
+    content: Task<string> GetConfigParameterValueAsync(string layoutName, string parameterName, RequestOptions requestOptions = null)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: parameterName
+      type: System.String
+      description: The name of the Audience configuration parameter
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The string value of the Audience configuration parameter.
+    content.vb: Function GetConfigParameterValueAsync(layoutName As String, parameterName As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetConfigParameterAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigParameterAsync(String, String, RequestOptions)
+  nameWithType: IAudienceAgent.GetConfigParameterAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets an Audience configuration parameter belonging to a given Audience layout with the specified configuration parameter name\n"
+  syntax:
+    content: Task<AudienceConfigParameter> GetConfigParameterAsync(string layoutName, string parameterName, RequestOptions requestOptions = null)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: parameterName
+      type: System.String
+      description: The name of the Audience configuration parameter
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceConfigParameter}
+      description: The Audience configuration parameter.
+    content.vb: Function GetConfigParameterAsync(layoutName As String, parameterName As String, requestOptions As RequestOptions = Nothing) As Task(Of AudienceConfigParameter)
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.DeleteConfigParameterAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.DeleteConfigParameterAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: DeleteConfigParameterAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteConfigParameterAsync(String, String, RequestOptions)
+  nameWithType: IAudienceAgent.DeleteConfigParameterAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.DeleteConfigParameterAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes an Audience configuration parameter belonging to a Audience layout\n"
+  syntax:
+    content: Task DeleteConfigParameterAsync(string layoutName, string parameterName, RequestOptions requestOptions = null)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: parameterName
+      type: System.String
+      description: The name of the Audience configuration parameter
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteConfigParameterAsync(layoutName As String, parameterName As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.DeleteConfigParameterAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetMyConfigParameterAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyConfigParameterAsync(String, RequestOptions)
+  nameWithType: IAudienceAgent.GetMyConfigParameterAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.\n"
+  syntax:
+    content: Task<AudienceConfigParameter> GetMyConfigParameterAsync(string parameterName, RequestOptions requestOptions = null)
+    parameters:
+    - id: parameterName
+      type: System.String
+      description: The name of the Audience configuration parameter
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceConfigParameter}
+      description: The Audience configuration parameter.
+    content.vb: Function GetMyConfigParameterAsync(parameterName As String, requestOptions As RequestOptions = Nothing) As Task(Of AudienceConfigParameter)
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterValueAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterValueAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetMyConfigParameterValueAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyConfigParameterValueAsync(String, RequestOptions)
+  nameWithType: IAudienceAgent.GetMyConfigParameterValueAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterValueAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the string value of an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.\n"
+  syntax:
+    content: Task<string> GetMyConfigParameterValueAsync(string parameterName, RequestOptions requestOptions = null)
+    parameters:
+    - id: parameterName
+      type: System.String
+      description: The name of the Audience configuration parameter
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The string value of the Audience configuration parameter.
+    content.vb: Function GetMyConfigParameterValueAsync(parameterName As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterValueAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueOnPersonAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueOnPersonAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetConfigParameterValueOnPersonAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigParameterValueOnPersonAsync(String, Int32, RequestOptions)
+  nameWithType: IAudienceAgent.GetConfigParameterValueOnPersonAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueOnPersonAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the string value of an Audience configuration parameter with the specified configuration parameter name on the person specified\n"
+  syntax:
+    content: Task<string> GetConfigParameterValueOnPersonAsync(string parameterName, int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: parameterName
+      type: System.String
+      description: The name of the Audience configuration parameter
+    - id: personId
+      type: System.Int32
+      description: Id of the person the parameter belongs to
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The string value of the Audience configuration parameter.
+    content.vb: Function GetConfigParameterValueOnPersonAsync(parameterName As String, personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueOnPersonAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterOnPersonAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterOnPersonAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetConfigParameterOnPersonAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigParameterOnPersonAsync(String, Int32, RequestOptions)
+  nameWithType: IAudienceAgent.GetConfigParameterOnPersonAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterOnPersonAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets an Audience configuration parameter with the specified configuration parameter name on the person specified\n"
+  syntax:
+    content: Task<AudienceConfigParameter> GetConfigParameterOnPersonAsync(string parameterName, int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: parameterName
+      type: System.String
+      description: The name of the Audience configuration parameter
+    - id: personId
+      type: System.Int32
+      description: Id of the person the parameter belongs to
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceConfigParameter}
+      description: The Audience configuration parameter.
+    content.vb: Function GetConfigParameterOnPersonAsync(parameterName As String, personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of AudienceConfigParameter)
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterOnPersonAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersByLayoutNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersByLayoutNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetConfigParametersByLayoutNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigParametersByLayoutNameAsync(String, RequestOptions)
+  nameWithType: IAudienceAgent.GetConfigParametersByLayoutNameAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersByLayoutNameAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the Audience configuration parameters belonging to a given Audience layout.\n"
+  syntax:
+    content: Task<AudienceConfigParameter[]> GetConfigParametersByLayoutNameAsync(string layoutName, RequestOptions requestOptions = null)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceConfigParameter[]}
+      description: Array of Audience configuration parameters.
+    content.vb: Function GetConfigParametersByLayoutNameAsync(layoutName As String, requestOptions As RequestOptions = Nothing) As Task(Of AudienceConfigParameter())
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersByLayoutNameAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParametersAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParametersAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetMyConfigParametersAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyConfigParametersAsync(RequestOptions)
+  nameWithType: IAudienceAgent.GetMyConfigParametersAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParametersAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the Audience configuration parameters belonging to the currently logged on user.\n"
+  syntax:
+    content: Task<AudienceConfigParameter[]> GetMyConfigParametersAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceConfigParameter[]}
+      description: Array of Audience configuration parameters.
+    content.vb: Function GetMyConfigParametersAsync(requestOptions As RequestOptions = Nothing) As Task(Of AudienceConfigParameter())
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParametersAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetConfigParametersOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigParametersOnPersonAsync(Int32, RequestOptions)
+  nameWithType: IAudienceAgent.GetConfigParametersOnPersonAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersOnPersonAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the Audience configuration parameters belonging to the person specified\n"
+  syntax:
+    content: Task<AudienceConfigParameter[]> GetConfigParametersOnPersonAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Id of the person the parameter belongs to
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceConfigParameter[]}
+      description: Array of Audience configuration parameters.
+    content.vb: Function GetConfigParametersOnPersonAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of AudienceConfigParameter())
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersOnPersonAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetAudienceLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAudienceLayoutEntityAsync(Int32, RequestOptions)
+  nameWithType: IAudienceAgent.GetAudienceLayoutEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific AudienceLayoutEntity object.                        \n"
+  syntax:
+    content: Task<AudienceLayoutEntity> GetAudienceLayoutEntityAsync(int audienceLayoutEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: audienceLayoutEntityId
+      type: System.Int32
+      description: The identifier of the AudienceLayoutEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceLayoutEntity}
+      description: AudienceLayoutEntity
+    content.vb: Function GetAudienceLayoutEntityAsync(audienceLayoutEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of AudienceLayoutEntity)
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetAudienceLayoutByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAudienceLayoutByNameAsync(String, RequestOptions)
+  nameWithType: IAudienceAgent.GetAudienceLayoutByNameAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutByNameAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets an Audience layout by it&apos;s instance name\n"
+  syntax:
+    content: Task<AudienceLayoutEntity> GetAudienceLayoutByNameAsync(string layoutName, RequestOptions requestOptions = null)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceLayoutEntity}
+      description: Audience layout entity
+    content.vb: Function GetAudienceLayoutByNameAsync(layoutName As String, requestOptions As RequestOptions = Nothing) As Task(Of AudienceLayoutEntity)
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutByNameAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyAudienceLayoutAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetMyAudienceLayoutAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetMyAudienceLayoutAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyAudienceLayoutAsync(RequestOptions)
+  nameWithType: IAudienceAgent.GetMyAudienceLayoutAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyAudienceLayoutAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the Audience layout belonging to the currently logged on user.\n"
+  syntax:
+    content: Task<AudienceLayoutEntity> GetMyAudienceLayoutAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceLayoutEntity}
+      description: Audience layout entity
+    content.vb: Function GetMyAudienceLayoutAsync(requestOptions As RequestOptions = Nothing) As Task(Of AudienceLayoutEntity)
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyAudienceLayoutAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetAudienceLayoutOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAudienceLayoutOnPersonAsync(Int32, RequestOptions)
+  nameWithType: IAudienceAgent.GetAudienceLayoutOnPersonAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutOnPersonAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the Audience layout belonging to the person specified.\n"
+  syntax:
+    content: Task<AudienceLayoutEntity> GetAudienceLayoutOnPersonAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceLayoutEntity}
+      description: Audience layout entity
+    content.vb: Function GetAudienceLayoutOnPersonAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of AudienceLayoutEntity)
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutOnPersonAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultProjectImageAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultProjectImageAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetDefaultProjectImageAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultProjectImageAsync(String, String, RequestOptions)
+  nameWithType: IAudienceAgent.GetDefaultProjectImageAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultProjectImageAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the default project or event image that is displayed in Audience when no project/event image is found. The image belongs to a specific Audience layout instance.\n"
+  syntax:
+    content: Task<byte[]> GetDefaultProjectImageAsync(string layoutName, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetDefaultProjectImageAsync(layoutName As String, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultProjectImageAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultProjectImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultProjectImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: SetDefaultProjectImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultProjectImageAsync(String, Byte[], RequestOptions)
+  nameWithType: IAudienceAgent.SetDefaultProjectImageAsync(String, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultProjectImageAsync(System.String, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStores the default project or event image that is displayed in Audience when no project/event image is found. The image is set on a specific Audience layout instance.\n"
+  syntax:
+    content: Task SetDefaultProjectImageAsync(string layoutName, byte[] image, RequestOptions requestOptions = null)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: image
+      type: System.Byte[]
+      description: The default project/event image to be stored for this Audience layout instance (System.Drawing.Image)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetDefaultProjectImageAsync(layoutName As String, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultProjectImageAsync*
+  nameWithType.vb: IAudienceAgent.SetDefaultProjectImageAsync(String, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultProjectImageAsync(System.String, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetDefaultProjectImageAsync(String, Byte(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultPersonImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultPersonImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: SetDefaultPersonImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultPersonImageAsync(String, Byte[], RequestOptions)
+  nameWithType: IAudienceAgent.SetDefaultPersonImageAsync(String, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultPersonImageAsync(System.String, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStores the default person (sales rep) image that is displayed in Audience when no person image is found. The image is set on a specific Audience layout instance.\n"
+  syntax:
+    content: Task SetDefaultPersonImageAsync(string layoutName, byte[] image, RequestOptions requestOptions = null)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: image
+      type: System.Byte[]
+      description: The default project/event image to be stored for this Audience layout instance (System.Drawing.Image)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetDefaultPersonImageAsync(layoutName As String, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultPersonImageAsync*
+  nameWithType.vb: IAudienceAgent.SetDefaultPersonImageAsync(String, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultPersonImageAsync(System.String, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetDefaultPersonImageAsync(String, Byte(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultPersonImageAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultPersonImageAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetDefaultPersonImageAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultPersonImageAsync(String, String, RequestOptions)
+  nameWithType: IAudienceAgent.GetDefaultPersonImageAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultPersonImageAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the default person (sales rep) image that is displayed in Audience when no person image is found. The image belongs to a specific Audience layout instance.\n"
+  syntax:
+    content: Task<byte[]> GetDefaultPersonImageAsync(string layoutName, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetDefaultPersonImageAsync(layoutName As String, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultPersonImageAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultCountryFlagAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultCountryFlagAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: SetDefaultCountryFlagAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultCountryFlagAsync(String, Byte[], RequestOptions)
+  nameWithType: IAudienceAgent.SetDefaultCountryFlagAsync(String, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultCountryFlagAsync(System.String, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStores the default country flag image that is displayed in Audience when no person image is found. The image is set on a specific Audience layout instance.\n"
+  syntax:
+    content: Task SetDefaultCountryFlagAsync(string layoutName, byte[] image, RequestOptions requestOptions = null)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: image
+      type: System.Byte[]
+      description: The default country image to be stored for this Audience layout instance (System.Drawing.Image)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetDefaultCountryFlagAsync(layoutName As String, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultCountryFlagAsync*
+  nameWithType.vb: IAudienceAgent.SetDefaultCountryFlagAsync(String, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultCountryFlagAsync(System.String, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetDefaultCountryFlagAsync(String, Byte(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultCountryFlagAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultCountryFlagAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetDefaultCountryFlagAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultCountryFlagAsync(String, String, RequestOptions)
+  nameWithType: IAudienceAgent.GetDefaultCountryFlagAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultCountryFlagAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the default country flag image that is displayed in Audience when no person image is found. The image belongs to a specific Audience layout instance.\n"
+  syntax:
+    content: Task<byte[]> GetDefaultCountryFlagAsync(string layoutName, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetDefaultCountryFlagAsync(layoutName As String, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultCountryFlagAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetLogoImageAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.GetLogoImageAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetLogoImageAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLogoImageAsync(String, String, RequestOptions)
+  nameWithType: IAudienceAgent.GetLogoImageAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetLogoImageAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\n\n"
+  syntax:
+    content: Task<byte[]> GetLogoImageAsync(string layoutName, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: layoutName
+      type: System.String
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+    content.vb: Function GetLogoImageAsync(layoutName As String, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.GetLogoImageAsync*
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.SetLogoImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAudienceAgent.SetLogoImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: SetLogoImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: SetLogoImageAsync(String, Byte[], RequestOptions)
+  nameWithType: IAudienceAgent.SetLogoImageAsync(String, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.SetLogoImageAsync(System.String, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\n\n"
+  syntax:
+    content: Task SetLogoImageAsync(string layoutName, byte[] image, RequestOptions requestOptions = null)
+    parameters:
+    - id: layoutName
+      type: System.String
+    - id: image
+      type: System.Byte[]
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetLogoImageAsync(layoutName As String, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IAudienceAgent.SetLogoImageAsync*
+  nameWithType.vb: IAudienceAgent.SetLogoImageAsync(String, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAudienceAgent.SetLogoImageAsync(System.String, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetLogoImageAsync(String, Byte(), RequestOptions)
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.CreateDefaultAudienceLayoutEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.CreateDefaultAudienceLayoutEntityAsync
+  isExternal: true
+  name: CreateDefaultAudienceLayoutEntityAsync
+  nameWithType: IAudienceAgent.CreateDefaultAudienceLayoutEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.CreateDefaultAudienceLayoutEntityAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceLayoutEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceLayoutEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<AudienceLayoutEntity>
+  nameWithType: Task<AudienceLayoutEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.AudienceLayoutEntity>
+  nameWithType.vb: Task(Of AudienceLayoutEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.AudienceLayoutEntity)
+  name.vb: Task(Of AudienceLayoutEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.AudienceLayoutEntity
+    name: AudienceLayoutEntity
+    nameWithType: AudienceLayoutEntity
+    fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.AudienceLayoutEntity
+    name: AudienceLayoutEntity
+    nameWithType: AudienceLayoutEntity
+    fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.SaveAudienceLayoutEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.SaveAudienceLayoutEntityAsync
+  isExternal: true
+  name: SaveAudienceLayoutEntityAsync
+  nameWithType: IAudienceAgent.SaveAudienceLayoutEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.SaveAudienceLayoutEntityAsync
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity
+  commentId: T:SuperOffice.WebApi.Data.AudienceLayoutEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AudienceLayoutEntity
+  nameWithType: AudienceLayoutEntity
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.DeleteAudienceLayoutEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.DeleteAudienceLayoutEntityAsync
+  isExternal: true
+  name: DeleteAudienceLayoutEntityAsync
+  nameWithType: IAudienceAgent.DeleteAudienceLayoutEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.DeleteAudienceLayoutEntityAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.SaveConfigParameterAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.SaveConfigParameterAsync
+  isExternal: true
+  name: SaveConfigParameterAsync
+  nameWithType: IAudienceAgent.SaveConfigParameterAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.SaveConfigParameterAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AudienceConfigParameter
+  commentId: T:SuperOffice.WebApi.Data.AudienceConfigParameter
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AudienceConfigParameter
+  nameWithType: AudienceConfigParameter
+  fullName: SuperOffice.WebApi.Data.AudienceConfigParameter
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceConfigParameter}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceConfigParameter}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<AudienceConfigParameter>
+  nameWithType: Task<AudienceConfigParameter>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.AudienceConfigParameter>
+  nameWithType.vb: Task(Of AudienceConfigParameter)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.AudienceConfigParameter)
+  name.vb: Task(Of AudienceConfigParameter)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.AudienceConfigParameter
+    name: AudienceConfigParameter
+    nameWithType: AudienceConfigParameter
+    fullName: SuperOffice.WebApi.Data.AudienceConfigParameter
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.AudienceConfigParameter
+    name: AudienceConfigParameter
+    nameWithType: AudienceConfigParameter
+    fullName: SuperOffice.WebApi.Data.AudienceConfigParameter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueAsync
+  isExternal: true
+  name: GetConfigParameterValueAsync
+  nameWithType: IAudienceAgent.GetConfigParameterValueAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterAsync
+  isExternal: true
+  name: GetConfigParameterAsync
+  nameWithType: IAudienceAgent.GetConfigParameterAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.DeleteConfigParameterAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.DeleteConfigParameterAsync
+  isExternal: true
+  name: DeleteConfigParameterAsync
+  nameWithType: IAudienceAgent.DeleteConfigParameterAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.DeleteConfigParameterAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterAsync
+  isExternal: true
+  name: GetMyConfigParameterAsync
+  nameWithType: IAudienceAgent.GetMyConfigParameterAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterValueAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterValueAsync
+  isExternal: true
+  name: GetMyConfigParameterValueAsync
+  nameWithType: IAudienceAgent.GetMyConfigParameterValueAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParameterValueAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueOnPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueOnPersonAsync
+  isExternal: true
+  name: GetConfigParameterValueOnPersonAsync
+  nameWithType: IAudienceAgent.GetConfigParameterValueOnPersonAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterValueOnPersonAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterOnPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterOnPersonAsync
+  isExternal: true
+  name: GetConfigParameterOnPersonAsync
+  nameWithType: IAudienceAgent.GetConfigParameterOnPersonAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParameterOnPersonAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersByLayoutNameAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersByLayoutNameAsync
+  isExternal: true
+  name: GetConfigParametersByLayoutNameAsync
+  nameWithType: IAudienceAgent.GetConfigParametersByLayoutNameAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersByLayoutNameAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceConfigParameter[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AudienceConfigParameter[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<AudienceConfigParameter[]>
+  nameWithType: Task<AudienceConfigParameter[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.AudienceConfigParameter[]>
+  nameWithType.vb: Task(Of AudienceConfigParameter())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.AudienceConfigParameter())
+  name.vb: Task(Of AudienceConfigParameter())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.AudienceConfigParameter
+    name: AudienceConfigParameter
+    nameWithType: AudienceConfigParameter
+    fullName: SuperOffice.WebApi.Data.AudienceConfigParameter
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.AudienceConfigParameter
+    name: AudienceConfigParameter
+    nameWithType: AudienceConfigParameter
+    fullName: SuperOffice.WebApi.Data.AudienceConfigParameter
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParametersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParametersAsync
+  isExternal: true
+  name: GetMyConfigParametersAsync
+  nameWithType: IAudienceAgent.GetMyConfigParametersAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyConfigParametersAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersOnPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersOnPersonAsync
+  isExternal: true
+  name: GetConfigParametersOnPersonAsync
+  nameWithType: IAudienceAgent.GetConfigParametersOnPersonAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetConfigParametersOnPersonAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutEntityAsync
+  isExternal: true
+  name: GetAudienceLayoutEntityAsync
+  nameWithType: IAudienceAgent.GetAudienceLayoutEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutEntityAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutByNameAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutByNameAsync
+  isExternal: true
+  name: GetAudienceLayoutByNameAsync
+  nameWithType: IAudienceAgent.GetAudienceLayoutByNameAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutByNameAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyAudienceLayoutAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetMyAudienceLayoutAsync
+  isExternal: true
+  name: GetMyAudienceLayoutAsync
+  nameWithType: IAudienceAgent.GetMyAudienceLayoutAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetMyAudienceLayoutAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutOnPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutOnPersonAsync
+  isExternal: true
+  name: GetAudienceLayoutOnPersonAsync
+  nameWithType: IAudienceAgent.GetAudienceLayoutOnPersonAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetAudienceLayoutOnPersonAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultProjectImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultProjectImageAsync
+  isExternal: true
+  name: GetDefaultProjectImageAsync
+  nameWithType: IAudienceAgent.GetDefaultProjectImageAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultProjectImageAsync
+- uid: System.Threading.Tasks.Task{System.Byte[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Byte[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Byte[]>
+  nameWithType: Task<Byte[]>
+  fullName: System.Threading.Tasks.Task<System.Byte[]>
+  nameWithType.vb: Task(Of Byte())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Byte())
+  name.vb: Task(Of Byte())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultProjectImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultProjectImageAsync
+  isExternal: true
+  name: SetDefaultProjectImageAsync
+  nameWithType: IAudienceAgent.SetDefaultProjectImageAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultProjectImageAsync
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultPersonImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultPersonImageAsync
+  isExternal: true
+  name: SetDefaultPersonImageAsync
+  nameWithType: IAudienceAgent.SetDefaultPersonImageAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultPersonImageAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultPersonImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultPersonImageAsync
+  isExternal: true
+  name: GetDefaultPersonImageAsync
+  nameWithType: IAudienceAgent.GetDefaultPersonImageAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultPersonImageAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultCountryFlagAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultCountryFlagAsync
+  isExternal: true
+  name: SetDefaultCountryFlagAsync
+  nameWithType: IAudienceAgent.SetDefaultCountryFlagAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.SetDefaultCountryFlagAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultCountryFlagAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultCountryFlagAsync
+  isExternal: true
+  name: GetDefaultCountryFlagAsync
+  nameWithType: IAudienceAgent.GetDefaultCountryFlagAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetDefaultCountryFlagAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.GetLogoImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.GetLogoImageAsync
+  isExternal: true
+  name: GetLogoImageAsync
+  nameWithType: IAudienceAgent.GetLogoImageAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.GetLogoImageAsync
+- uid: SuperOffice.WebApi.Agents.IAudienceAgent.SetLogoImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAudienceAgent.SetLogoImageAsync
+  isExternal: true
+  name: SetLogoImageAsync
+  nameWithType: IAudienceAgent.SetLogoImageAsync
+  fullName: SuperOffice.WebApi.Agents.IAudienceAgent.SetLogoImageAsync

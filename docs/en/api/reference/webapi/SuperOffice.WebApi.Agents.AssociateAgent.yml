@@ -11,6 +11,7 @@ items:
   - SuperOffice.WebApi.Agents.AssociateAgent.GetAssociateByPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AssociateAgent.GetAssociateListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AssociateAgent.GetNoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AssociateAgent.LogOffWindowsUsersAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AssociateAgent.SaveNoteAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
@@ -31,27 +32,31 @@ items:
   example:
   - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (AssociateAgent agent = new AssociateAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
   syntax:
-    content: 'public class AssociateAgent : AgentBase, IDisposable'
+    content: 'public class AssociateAgent : AgentBase, IAssociateAgent, IDisposable'
     content.vb: >-
       Public Class AssociateAgent
           Inherits AgentBase
-          Implements IDisposable
+          Implements IAssociateAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
+  - SuperOffice.WebApi.Agents.IAssociateAgent
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
   - SuperOffice.WebApi.Agents.AgentBase._binary
   - SuperOffice.WebApi.Agents.AgentBase._config
   - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase._disposeClient
   - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
@@ -62,6 +67,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
   - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   modifiers.csharp:
   - public
   - class
@@ -91,7 +97,7 @@ items:
     parameters:
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+      description: Use this HTTP client instead of making own HttpClient instance.
     content.vb: Public Sub New(httpClient As HttpClient)
   overload: SuperOffice.WebApi.Agents.AssociateAgent.#ctor*
   modifiers.csharp:
@@ -124,7 +130,7 @@ items:
       description: Base URL and authentication values.
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+      description: 'Optional: Use this HTTP client instead of making a new one.'
     content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
   overload: SuperOffice.WebApi.Agents.AssociateAgent.#ctor*
   modifiers.csharp:
@@ -163,6 +169,8 @@ items:
       description: Associate
     content.vb: Public Function GetAssociateAsync(associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Associate)
   overload: SuperOffice.WebApi.Agents.AssociateAgent.GetAssociateAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -199,6 +207,8 @@ items:
       description: Associate if person is associate
     content.vb: Public Function GetAssociateByPersonIdAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Associate)
   overload: SuperOffice.WebApi.Agents.AssociateAgent.GetAssociateByPersonIdAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -235,6 +245,8 @@ items:
       description: Returns an array of strings(notepad pages).
     content.vb: Public Function GetNoteAsync(associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of String())
   overload: SuperOffice.WebApi.Agents.AssociateAgent.GetNoteAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -273,6 +285,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SaveNoteAsync(associateId As Integer, note As String(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.AssociateAgent.SaveNoteAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: AssociateAgent.SaveNoteAsync(Int32, String(), RequestOptions)
   modifiers.csharp:
   - public
@@ -280,6 +294,41 @@ items:
   - Public
   fullName.vb: SuperOffice.WebApi.Agents.AssociateAgent.SaveNoteAsync(System.Int32, System.String(), SuperOffice.WebApi.RequestOptions)
   name.vb: SaveNoteAsync(Int32, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEncryptionKeyAsync(RequestOptions)
+  nameWithType: AssociateAgent.GetEncryptionKeyAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet unique key made from AssociateId and dbTag used for local storage encryption operations.\n"
+  syntax:
+    content: public Task<string> GetEncryptionKeyAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: encryptionKey
+    content.vb: Public Function GetEncryptionKeyAsync(requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.AssociateAgent.GetEncryptionKeyAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.AssociateAgent.GetAssociateListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AssociateAgent.GetAssociateListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetAssociateListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -312,6 +361,8 @@ items:
       description: Array of Associate objects
     content.vb: Public Function GetAssociateListAsync(associateIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Associate())
   overload: SuperOffice.WebApi.Agents.AssociateAgent.GetAssociateListAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: AssociateAgent.GetAssociateListAsync(Int32(), RequestOptions)
   modifiers.csharp:
   - public
@@ -354,6 +405,8 @@ items:
       description: Array of associate
     content.vb: Public Function GetAssociatesByGroupAsync(groupId As Integer, type As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Associate())
   overload: SuperOffice.WebApi.Agents.AssociateAgent.GetAssociatesByGroupAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -390,6 +443,8 @@ items:
       description: A void return
     content.vb: Public Function LogOffWindowsUsersAsync(associateIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.AssociateAgent.LogOffWindowsUsersAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: AssociateAgent.LogOffWindowsUsersAsync(Int32(), RequestOptions)
   modifiers.csharp:
   - public
@@ -418,6 +473,13 @@ references:
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent
+  commentId: T:SuperOffice.WebApi.Agents.IAssociateAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: IAssociateAgent
+  nameWithType: IAssociateAgent
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent
 - uid: System.IDisposable
   isExternal: true
   name: IDisposable
@@ -451,6 +513,13 @@ references:
   name: _client
   nameWithType: AgentBase._client
   fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _disposeClient
+  nameWithType: AgentBase._disposeClient
+  fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
 - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
@@ -702,32 +771,136 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ParseAuthorization(IAuthorization)
-  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  name: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-    name: ParseAuthorization
-    nameWithType: AgentBase.ParseAuthorization
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
-    name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
     nameWithType: AgentBase.ParseAuthorization
     fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
@@ -735,10 +908,27 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
     nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
     nameWithType: )
@@ -859,6 +1049,127 @@ references:
     name: Object
     nameWithType: Object
     fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -1144,6 +1455,13 @@ references:
   name: ProgressListener
   nameWithType: AgentBase.ProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: UploadProgressListener
+  nameWithType: AgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1180,6 +1498,63 @@ references:
   name: GetAssociateAsync
   nameWithType: AssociateAgent.GetAssociateAsync
   fullName: SuperOffice.WebApi.Agents.AssociateAgent.GetAssociateAsync
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  isExternal: true
+  name: GetAssociateAsync(Int32, RequestOptions)
+  nameWithType: IAssociateAgent.GetAssociateAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetAssociateAsync
+    nameWithType: IAssociateAgent.GetAssociateAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetAssociateAsync
+    nameWithType: IAssociateAgent.GetAssociateAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1281,12 +1656,126 @@ references:
   name: GetAssociateByPersonIdAsync
   nameWithType: AssociateAgent.GetAssociateByPersonIdAsync
   fullName: SuperOffice.WebApi.Agents.AssociateAgent.GetAssociateByPersonIdAsync
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  isExternal: true
+  name: GetAssociateByPersonIdAsync(Int32, RequestOptions)
+  nameWithType: IAssociateAgent.GetAssociateByPersonIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetAssociateByPersonIdAsync
+    nameWithType: IAssociateAgent.GetAssociateByPersonIdAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetAssociateByPersonIdAsync
+    nameWithType: IAssociateAgent.GetAssociateByPersonIdAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateByPersonIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AssociateAgent.GetNoteAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.AssociateAgent.GetNoteAsync
   isExternal: true
   name: GetNoteAsync
   nameWithType: AssociateAgent.GetNoteAsync
   fullName: SuperOffice.WebApi.Agents.AssociateAgent.GetNoteAsync
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  isExternal: true
+  name: GetNoteAsync(Int32, RequestOptions)
+  nameWithType: IAssociateAgent.GetNoteAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetNoteAsync
+    nameWithType: IAssociateAgent.GetNoteAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetNoteAsync
+    nameWithType: IAssociateAgent.GetNoteAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetNoteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{System.String[]}
   commentId: '!:System.Threading.Tasks.Task{System.String[]}'
   definition: System.Threading.Tasks.Task`1
@@ -1342,6 +1831,88 @@ references:
   name: SaveNoteAsync
   nameWithType: AssociateAgent.SaveNoteAsync
   fullName: SuperOffice.WebApi.Agents.AssociateAgent.SaveNoteAsync
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  isExternal: true
+  name: SaveNoteAsync(Int32, String[], RequestOptions)
+  nameWithType: IAssociateAgent.SaveNoteAsync(Int32, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32, System.String[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAssociateAgent.SaveNoteAsync(Int32, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveNoteAsync(Int32, String(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+    name: SaveNoteAsync
+    nameWithType: IAssociateAgent.SaveNoteAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync(System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+    name: SaveNoteAsync
+    nameWithType: IAssociateAgent.SaveNoteAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.SaveNoteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String[]
   isExternal: true
   name: String[]
@@ -1373,12 +1944,168 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.AssociateAgent.GetEncryptionKeyAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AssociateAgent.GetEncryptionKeyAsync
+  isExternal: true
+  name: GetEncryptionKeyAsync
+  nameWithType: AssociateAgent.GetEncryptionKeyAsync
+  fullName: SuperOffice.WebApi.Agents.AssociateAgent.GetEncryptionKeyAsync
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  isExternal: true
+  name: GetEncryptionKeyAsync(RequestOptions)
+  nameWithType: IAssociateAgent.GetEncryptionKeyAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetEncryptionKeyAsync
+    nameWithType: IAssociateAgent.GetEncryptionKeyAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetEncryptionKeyAsync
+    nameWithType: IAssociateAgent.GetEncryptionKeyAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetEncryptionKeyAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AssociateAgent.GetAssociateListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.AssociateAgent.GetAssociateListAsync
   isExternal: true
   name: GetAssociateListAsync
   nameWithType: AssociateAgent.GetAssociateListAsync
   fullName: SuperOffice.WebApi.Agents.AssociateAgent.GetAssociateListAsync
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  isExternal: true
+  name: GetAssociateListAsync(Int32[], RequestOptions)
+  nameWithType: IAssociateAgent.GetAssociateListAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAssociateAgent.GetAssociateListAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetAssociateListAsync(Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: GetAssociateListAsync
+    nameWithType: IAssociateAgent.GetAssociateListAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: GetAssociateListAsync
+    nameWithType: IAssociateAgent.GetAssociateListAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociateListAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -1460,9 +2187,148 @@ references:
   name: GetAssociatesByGroupAsync
   nameWithType: AssociateAgent.GetAssociatesByGroupAsync
   fullName: SuperOffice.WebApi.Agents.AssociateAgent.GetAssociatesByGroupAsync
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  isExternal: true
+  name: GetAssociatesByGroupAsync(Int32, Int32, RequestOptions)
+  nameWithType: IAssociateAgent.GetAssociatesByGroupAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetAssociatesByGroupAsync
+    nameWithType: IAssociateAgent.GetAssociatesByGroupAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetAssociatesByGroupAsync
+    nameWithType: IAssociateAgent.GetAssociatesByGroupAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.GetAssociatesByGroupAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AssociateAgent.LogOffWindowsUsersAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.AssociateAgent.LogOffWindowsUsersAsync
   isExternal: true
   name: LogOffWindowsUsersAsync
   nameWithType: AssociateAgent.LogOffWindowsUsersAsync
   fullName: SuperOffice.WebApi.Agents.AssociateAgent.LogOffWindowsUsersAsync
+- uid: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAssociateAgent
+  isExternal: true
+  name: LogOffWindowsUsersAsync(Int32[], RequestOptions)
+  nameWithType: IAssociateAgent.LogOffWindowsUsersAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAssociateAgent.LogOffWindowsUsersAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: LogOffWindowsUsersAsync(Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: LogOffWindowsUsersAsync
+    nameWithType: IAssociateAgent.LogOffWindowsUsersAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: LogOffWindowsUsersAsync
+    nameWithType: IAssociateAgent.LogOffWindowsUsersAsync
+    fullName: SuperOffice.WebApi.Agents.IAssociateAgent.LogOffWindowsUsersAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

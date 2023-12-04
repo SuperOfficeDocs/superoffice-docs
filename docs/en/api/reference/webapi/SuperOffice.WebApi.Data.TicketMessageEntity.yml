@@ -6,7 +6,10 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.TicketMessageEntity.#ctor
+  - SuperOffice.WebApi.Data.TicketMessageEntity.AttachmentsInfo
   - SuperOffice.WebApi.Data.TicketMessageEntity.Author
+  - SuperOffice.WebApi.Data.TicketMessageEntity.Badge
+  - SuperOffice.WebApi.Data.TicketMessageEntity.Badge_String
   - SuperOffice.WebApi.Data.TicketMessageEntity.Body
   - SuperOffice.WebApi.Data.TicketMessageEntity.CreatedAt
   - SuperOffice.WebApi.Data.TicketMessageEntity.CreatedBy
@@ -17,6 +20,7 @@ items:
   - SuperOffice.WebApi.Data.TicketMessageEntity.ExtraFields
   - SuperOffice.WebApi.Data.TicketMessageEntity.HtmlBody
   - SuperOffice.WebApi.Data.TicketMessageEntity.Important
+  - SuperOffice.WebApi.Data.TicketMessageEntity.Language
   - SuperOffice.WebApi.Data.TicketMessageEntity.MailSorter
   - SuperOffice.WebApi.Data.TicketMessageEntity.MessageCategory
   - SuperOffice.WebApi.Data.TicketMessageEntity.MessageCategory_String
@@ -24,6 +28,8 @@ items:
   - SuperOffice.WebApi.Data.TicketMessageEntity.MessageId
   - SuperOffice.WebApi.Data.TicketMessageEntity.Person
   - SuperOffice.WebApi.Data.TicketMessageEntity.SearchTitle
+  - SuperOffice.WebApi.Data.TicketMessageEntity.Sentiment
+  - SuperOffice.WebApi.Data.TicketMessageEntity.SentimentConfidence
   - SuperOffice.WebApi.Data.TicketMessageEntity.Slevel
   - SuperOffice.WebApi.Data.TicketMessageEntity.Slevel_String
   - SuperOffice.WebApi.Data.TicketMessageEntity.Ticket
@@ -418,7 +424,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets.\n"
+  summary: "\nThe Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets.\n"
   syntax:
     content: public virtual string MessageId { get; set; }
     parameters: []
@@ -832,6 +838,206 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.Language
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageEntity.Language
+  id: Language
+  parent: SuperOffice.WebApi.Data.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: TicketMessageEntity.Language
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity.Language
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe language this message is in, based on some kind of analysis\n"
+  syntax:
+    content: public virtual string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Language As String
+  overload: SuperOffice.WebApi.Data.TicketMessageEntity.Language*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.Sentiment
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageEntity.Sentiment
+  id: Sentiment
+  parent: SuperOffice.WebApi.Data.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: Sentiment
+  nameWithType: TicketMessageEntity.Sentiment
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity.Sentiment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea\n"
+  syntax:
+    content: public virtual int Sentiment { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Sentiment As Integer
+  overload: SuperOffice.WebApi.Data.TicketMessageEntity.Sentiment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.SentimentConfidence
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageEntity.SentimentConfidence
+  id: SentimentConfidence
+  parent: SuperOffice.WebApi.Data.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: SentimentConfidence
+  nameWithType: TicketMessageEntity.SentimentConfidence
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity.SentimentConfidence
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nConfidence of sentiment index, 0 = no idea, 100 = completely sure\n"
+  syntax:
+    content: public virtual int SentimentConfidence { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SentimentConfidence As Integer
+  overload: SuperOffice.WebApi.Data.TicketMessageEntity.SentimentConfidence*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.Badge_String
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageEntity.Badge_String
+  id: Badge_String
+  parent: SuperOffice.WebApi.Data.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: Badge_String
+  nameWithType: TicketMessageEntity.Badge_String
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity.Badge_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBadge to explicitly determine how a message was generated\nRaw string enum value.\n"
+  syntax:
+    content: public string Badge_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Badge_String As String
+  overload: SuperOffice.WebApi.Data.TicketMessageEntity.Badge_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketMessageEntity.Badge
+    commentId: P:SuperOffice.WebApi.Data.TicketMessageEntity.Badge
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.Badge
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageEntity.Badge
+  id: Badge
+  parent: SuperOffice.WebApi.Data.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: Badge
+  nameWithType: TicketMessageEntity.Badge
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity.Badge
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBadge to explicitly determine how a message was generated\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<BadgeType> Badge { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.BadgeType}
+    content.vb: Public Property Badge As Nullable(Of BadgeType)
+  overload: SuperOffice.WebApi.Data.TicketMessageEntity.Badge*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketMessageEntity.Badge_String
+    commentId: P:SuperOffice.WebApi.Data.TicketMessageEntity.Badge_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.AttachmentsInfo
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageEntity.AttachmentsInfo
+  id: AttachmentsInfo
+  parent: SuperOffice.WebApi.Data.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: AttachmentsInfo
+  nameWithType: TicketMessageEntity.AttachmentsInfo
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity.AttachmentsInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMessage attachments information\n"
+  syntax:
+    content: public virtual AttachmentEntity[] AttachmentsInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.AttachmentEntity[]
+    content.vb: Public Overridable Property AttachmentsInfo As AttachmentEntity()
+  overload: SuperOffice.WebApi.Data.TicketMessageEntity.AttachmentsInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketMessageEntity.ExtraFields
   commentId: P:SuperOffice.WebApi.Data.TicketMessageEntity.ExtraFields
   id: ExtraFields
@@ -850,7 +1056,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: "\nDeprecated: Use <xref href=\"SuperOffice.WebApi.Data.TicketMessageEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nExtra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.\nThe value string is the encoded value: &quot;[I:123]&quot; or &quot;[DT:2019-09-11]&quot;.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n	[Plug-in name].[Property name]\n	Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \n   This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \n   and hence we would ensure an unique key if this field is used.\n   Example: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n[Table name].[Field name]\nExample: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n       [Plug-in name].[Property name]\n       Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \nThis is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \nand hence we would ensure an unique key if this field is used.\nExample: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n   [Table name].[Field name]\n   Example: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
   syntax:
     content: public virtual StringDictionary ExtraFields { get; set; }
     parameters: []
@@ -884,7 +1090,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: "\nUdef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.\nCustom fields combines user defined fields and extra fields into one bucket. \nThe individual <xref href=\"SuperOffice.WebApi.Data.TicketMessageEntity.ExtraFields\" data-throw-if-not-resolved=\"false\"></xref> and <see cref=\"!:UserDefinedFields\">UserDefinedFields</see> properties are deprecated in favor of this\ncombined collection.\nThe value string is the encoded value: &quot;[I:123]&quot; or &quot;[DT:2019-09-11]&quot;.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n	[Extra field name]<p></p>\n	Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\n   Example: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n       [Extra field name]<p></p>\n       Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\nExample: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
   syntax:
     content: public virtual StringDictionary CustomFields { get; set; }
     parameters: []
@@ -1352,6 +1558,117 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.Language*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageEntity.Language
+  isExternal: true
+  name: Language
+  nameWithType: TicketMessageEntity.Language
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity.Language
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.Sentiment*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageEntity.Sentiment
+  isExternal: true
+  name: Sentiment
+  nameWithType: TicketMessageEntity.Sentiment
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity.Sentiment
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.SentimentConfidence*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageEntity.SentimentConfidence
+  isExternal: true
+  name: SentimentConfidence
+  nameWithType: TicketMessageEntity.SentimentConfidence
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity.SentimentConfidence
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.Badge_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageEntity.Badge_String
+  isExternal: true
+  name: Badge_String
+  nameWithType: TicketMessageEntity.Badge_String
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity.Badge_String
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.Badge
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageEntity.Badge
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.Badge*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageEntity.Badge
+  isExternal: true
+  name: Badge
+  nameWithType: TicketMessageEntity.Badge
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity.Badge
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.Badge_String
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageEntity.Badge_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.BadgeType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.BadgeType}'
+  definition: System.Nullable`1
+  name: Nullable<BadgeType>
+  nameWithType: Nullable<BadgeType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.BadgeType>
+  nameWithType.vb: Nullable(Of BadgeType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.BadgeType)
+  name.vb: Nullable(Of BadgeType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.BadgeType
+    name: BadgeType
+    nameWithType: BadgeType
+    fullName: SuperOffice.WebApi.Data.BadgeType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.BadgeType
+    name: BadgeType
+    nameWithType: BadgeType
+    fullName: SuperOffice.WebApi.Data.BadgeType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity.AttachmentsInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageEntity.AttachmentsInfo
+  isExternal: true
+  name: AttachmentsInfo
+  nameWithType: TicketMessageEntity.AttachmentsInfo
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity.AttachmentsInfo
+- uid: SuperOffice.WebApi.Data.AttachmentEntity[]
+  isExternal: true
+  name: AttachmentEntity[]
+  nameWithType: AttachmentEntity[]
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity[]
+  nameWithType.vb: AttachmentEntity()
+  fullName.vb: SuperOffice.WebApi.Data.AttachmentEntity()
+  name.vb: AttachmentEntity()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.WebApi.Data.AttachmentEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.WebApi.Data.AttachmentEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.TicketMessageEntity.ExtraFields*
   commentId: Overload:SuperOffice.WebApi.Data.TicketMessageEntity.ExtraFields
   isExternal: true

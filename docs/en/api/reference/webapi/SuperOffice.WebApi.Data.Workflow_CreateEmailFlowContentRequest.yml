@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest
+  commentId: T:SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest
+  id: Workflow_CreateEmailFlowContentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.#ctor
+  - SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.ContentName
+  - SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.EmailFlowId
+  langs:
+  - csharp
+  - vb
+  name: Workflow_CreateEmailFlowContentRequest
+  nameWithType: Workflow_CreateEmailFlowContentRequest
+  fullName: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Workflow_CreateEmailFlowContentRequest : Object'
+    content.vb: >-
+      Public Class Workflow_CreateEmailFlowContentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest
+  langs:
+  - csharp
+  - vb
+  name: Workflow_CreateEmailFlowContentRequest()
+  nameWithType: Workflow_CreateEmailFlowContentRequest.Workflow_CreateEmailFlowContentRequest()
+  fullName: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.Workflow_CreateEmailFlowContentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Workflow_CreateEmailFlowContentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.EmailFlowId
+  commentId: P:SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.EmailFlowId
+  id: EmailFlowId
+  parent: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailFlowId
+  nameWithType: Workflow_CreateEmailFlowContentRequest.EmailFlowId
+  fullName: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.EmailFlowId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int EmailFlowId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EmailFlowId As Integer
+  overload: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.EmailFlowId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.ContentName
+  commentId: P:SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.ContentName
+  id: ContentName
+  parent: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest
+  langs:
+  - csharp
+  - vb
+  name: ContentName
+  nameWithType: Workflow_CreateEmailFlowContentRequest.ContentName
+  fullName: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.ContentName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ContentName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContentName As String
+  overload: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.ContentName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.#ctor
+  isExternal: true
+  name: Workflow_CreateEmailFlowContentRequest
+  nameWithType: Workflow_CreateEmailFlowContentRequest.Workflow_CreateEmailFlowContentRequest
+  fullName: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.Workflow_CreateEmailFlowContentRequest
+- uid: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.EmailFlowId*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.EmailFlowId
+  isExternal: true
+  name: EmailFlowId
+  nameWithType: Workflow_CreateEmailFlowContentRequest.EmailFlowId
+  fullName: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.EmailFlowId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.ContentName*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.ContentName
+  isExternal: true
+  name: ContentName
+  nameWithType: Workflow_CreateEmailFlowContentRequest.ContentName
+  fullName: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest.ContentName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

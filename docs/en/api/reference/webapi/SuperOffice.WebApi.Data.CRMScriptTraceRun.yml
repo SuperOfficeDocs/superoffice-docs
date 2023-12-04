@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  commentId: T:SuperOffice.WebApi.Data.CRMScriptTraceRun
+  id: CRMScriptTraceRun
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CRMScriptTraceRun.#ctor
+  - SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId
+  - SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt
+  - SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime
+  - SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize
+  - SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace
+  - SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames
+  - SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames
+  - SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory
+  - SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt
+  - SuperOffice.WebApi.Data.CRMScriptTraceRun.Status
+  - SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptTraceRun
+  nameWithType: CRMScriptTraceRun
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CRMScriptTraceRun.\nObject for returning Trace run result from a CRMScript    \n"
+  syntax:
+    content: 'public class CRMScriptTraceRun : Carrier'
+    content.vb: >-
+      Public Class CRMScriptTraceRun
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CRMScriptAgent
+    commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CRMScriptTraceRun.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptTraceRun()
+  nameWithType: CRMScriptTraceRun.CRMScriptTraceRun()
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.CRMScriptTraceRun()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CRMScriptTraceRun()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt
+  id: StartedAt
+  parent: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  langs:
+  - csharp
+  - vb
+  name: StartedAt
+  nameWithType: CRMScriptTraceRun.StartedAt
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen the trace was started\n"
+  syntax:
+    content: public virtual DateTime StartedAt { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property StartedAt As DateTime
+  overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt
+  id: EndedAt
+  parent: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  langs:
+  - csharp
+  - vb
+  name: EndedAt
+  nameWithType: CRMScriptTraceRun.EndedAt
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen the trace was ended\n"
+  syntax:
+    content: public virtual DateTime EndedAt { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property EndedAt As DateTime
+  overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime
+  id: ExecutionTime
+  parent: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  langs:
+  - csharp
+  - vb
+  name: ExecutionTime
+  nameWithType: CRMScriptTraceRun.ExecutionTime
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReal seconds spent executing\n"
+  syntax:
+    content: public virtual int ExecutionTime { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ExecutionTime As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime
+  id: UserExecutionTime
+  parent: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  langs:
+  - csharp
+  - vb
+  name: UserExecutionTime
+  nameWithType: CRMScriptTraceRun.UserExecutionTime
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCPU seconds spent executing\n"
+  syntax:
+    content: public virtual int UserExecutionTime { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserExecutionTime As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory
+  id: PeakMemory
+  parent: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  langs:
+  - csharp
+  - vb
+  name: PeakMemory
+  nameWithType: CRMScriptTraceRun.PeakMemory
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe maximum amount of used memory during execution (in kB)\n"
+  syntax:
+    content: public virtual int PeakMemory { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PeakMemory As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames
+  id: NumFrames
+  parent: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  langs:
+  - csharp
+  - vb
+  name: NumFrames
+  nameWithType: CRMScriptTraceRun.NumFrames
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe number of frames saved\n"
+  syntax:
+    content: public virtual int NumFrames { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumFrames As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize
+  id: FileSize
+  parent: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  langs:
+  - csharp
+  - vb
+  name: FileSize
+  nameWithType: CRMScriptTraceRun.FileSize
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe size of the trace file\n"
+  syntax:
+    content: public virtual int FileSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property FileSize As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: CRMScriptTraceRun.AssociateId
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAssociate who the script was executed as\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.Status
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: CRMScriptTraceRun.Status
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe status of the script, or exception if it fails\n"
+  syntax:
+    content: public virtual string Status { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Status As String
+  overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.Status*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames
+  id: Frames
+  parent: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  langs:
+  - csharp
+  - vb
+  name: Frames
+  nameWithType: CRMScriptTraceRun.Frames
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe frames of the the trace\n"
+  syntax:
+    content: public virtual string Frames { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Frames As String
+  overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace
+  id: ForceSaveTrace
+  parent: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  langs:
+  - csharp
+  - vb
+  name: ForceSaveTrace
+  nameWithType: CRMScriptTraceRun.ForceSaveTrace
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis trace should be saved even if script_trace.exception_only is true.\n"
+  syntax:
+    content: public virtual bool ForceSaveTrace { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ForceSaveTrace As Boolean
+  overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent
+  commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
+  isExternal: true
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.#ctor
+  isExternal: true
+  name: CRMScriptTraceRun
+  nameWithType: CRMScriptTraceRun.CRMScriptTraceRun
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.CRMScriptTraceRun
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt
+  isExternal: true
+  name: StartedAt
+  nameWithType: CRMScriptTraceRun.StartedAt
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt
+  isExternal: true
+  name: EndedAt
+  nameWithType: CRMScriptTraceRun.EndedAt
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime
+  isExternal: true
+  name: ExecutionTime
+  nameWithType: CRMScriptTraceRun.ExecutionTime
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime
+  isExternal: true
+  name: UserExecutionTime
+  nameWithType: CRMScriptTraceRun.UserExecutionTime
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory
+  isExternal: true
+  name: PeakMemory
+  nameWithType: CRMScriptTraceRun.PeakMemory
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames
+  isExternal: true
+  name: NumFrames
+  nameWithType: CRMScriptTraceRun.NumFrames
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize
+  isExternal: true
+  name: FileSize
+  nameWithType: CRMScriptTraceRun.FileSize
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: CRMScriptTraceRun.AssociateId
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.Status
+  isExternal: true
+  name: Status
+  nameWithType: CRMScriptTraceRun.Status
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.Status
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames
+  isExternal: true
+  name: Frames
+  nameWithType: CRMScriptTraceRun.Frames
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace
+  isExternal: true
+  name: ForceSaveTrace
+  nameWithType: CRMScriptTraceRun.ForceSaveTrace
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -11,6 +11,7 @@ items:
   - SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayName
   - SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayTooltip
   - SuperOffice.WebApi.Data.ArchiveColumnInfo.DisplayType
+  - SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo
   - SuperOffice.WebApi.Data.ArchiveColumnInfo.HeadingIconHint
   - SuperOffice.WebApi.Data.ArchiveColumnInfo.IconHint
   - SuperOffice.WebApi.Data.ArchiveColumnInfo.IsVisible
@@ -470,6 +471,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.WebApi.Data.ArchiveColumnInfo
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: ArchiveColumnInfo.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExample: &apos;navigator&apos; -> Should this column be mapped to a hyperlinked navigator text type?\n"
+  syntax:
+    content: public virtual string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraInfo As String
+  overload: SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -588,3 +622,9 @@ references:
   name: HeadingIconHint
   nameWithType: ArchiveColumnInfo.HeadingIconHint
   fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.HeadingIconHint
+- uid: SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: ArchiveColumnInfo.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo.ExtraInfo

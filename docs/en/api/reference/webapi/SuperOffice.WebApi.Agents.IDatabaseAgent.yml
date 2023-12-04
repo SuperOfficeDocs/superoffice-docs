@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.IDatabaseAgent
+  commentId: T:SuperOffice.WebApi.Agents.IDatabaseAgent
+  id: IDatabaseAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsFromNetServerCodeAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsInDatabaseAsync(SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: IDatabaseAgent
+  nameWithType: IDatabaseAgent
+  fullName: SuperOffice.WebApi.Agents.IDatabaseAgent
+  type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDatabase schema queries and changes\n"
+  syntax:
+    content: 'public interface IDatabaseAgent : IDisposable'
+    content.vb: >-
+      Public Interface IDatabaseAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsInDatabaseAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsInDatabaseAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetStepsInDatabaseAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDatabaseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetStepsInDatabaseAsync(RequestOptions)
+  nameWithType: IDatabaseAgent.GetStepsInDatabaseAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsInDatabaseAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet information about the dictionary steps that are in the currently-loggedon database\n"
+  syntax:
+    content: Task<DictionaryStepInformation[]> GetStepsInDatabaseAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DictionaryStepInformation[]}
+      description: Array of dictionary steps in the database, listing only the highest number for each step
+    content.vb: Function GetStepsInDatabaseAsync(requestOptions As RequestOptions = Nothing) As Task(Of DictionaryStepInformation())
+  overload: SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsInDatabaseAsync*
+- uid: SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsFromNetServerCodeAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsFromNetServerCodeAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetStepsFromNetServerCodeAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDatabaseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetStepsFromNetServerCodeAsync(RequestOptions)
+  nameWithType: IDatabaseAgent.GetStepsFromNetServerCodeAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsFromNetServerCodeAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet information about the dictionary steps that NetServer was generated for\n"
+  syntax:
+    content: Task<DictionaryStepInformation[]> GetStepsFromNetServerCodeAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DictionaryStepInformation[]}
+      description: Array of dictionary steps used when NetServer was generated, listing only the highest number for each step
+    content.vb: Function GetStepsFromNetServerCodeAsync(requestOptions As RequestOptions = Nothing) As Task(Of DictionaryStepInformation())
+  overload: SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsFromNetServerCodeAsync*
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsInDatabaseAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsInDatabaseAsync
+  isExternal: true
+  name: GetStepsInDatabaseAsync
+  nameWithType: IDatabaseAgent.GetStepsInDatabaseAsync
+  fullName: SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsInDatabaseAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DictionaryStepInformation[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DictionaryStepInformation[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<DictionaryStepInformation[]>
+  nameWithType: Task<DictionaryStepInformation[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.DictionaryStepInformation[]>
+  nameWithType.vb: Task(Of DictionaryStepInformation())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.DictionaryStepInformation())
+  name.vb: Task(Of DictionaryStepInformation())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DictionaryStepInformation
+    name: DictionaryStepInformation
+    nameWithType: DictionaryStepInformation
+    fullName: SuperOffice.WebApi.Data.DictionaryStepInformation
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DictionaryStepInformation
+    name: DictionaryStepInformation
+    nameWithType: DictionaryStepInformation
+    fullName: SuperOffice.WebApi.Data.DictionaryStepInformation
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsFromNetServerCodeAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsFromNetServerCodeAsync
+  isExternal: true
+  name: GetStepsFromNetServerCodeAsync
+  nameWithType: IDatabaseAgent.GetStepsFromNetServerCodeAsync
+  fullName: SuperOffice.WebApi.Agents.IDatabaseAgent.GetStepsFromNetServerCodeAsync

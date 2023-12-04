@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity
+  commentId: T:SuperOffice.WebApi.Data.TicketCategoryMembershipEntity
+  id: TicketCategoryMembershipEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.#ctor
+  - SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.User
+  - SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.Weight
+  langs:
+  - csharp
+  - vb
+  name: TicketCategoryMembershipEntity
+  nameWithType: TicketCategoryMembershipEntity
+  fullName: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TicketCategoryMembershipEntity.\nThis entity describes ticket category membership.    \n"
+  syntax:
+    content: 'public class TicketCategoryMembershipEntity : Carrier'
+    content.vb: >-
+      Public Class TicketCategoryMembershipEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketCategoryMembershipEntity()
+  nameWithType: TicketCategoryMembershipEntity.TicketCategoryMembershipEntity()
+  fullName: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.TicketCategoryMembershipEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TicketCategoryMembershipEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.User
+  commentId: P:SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.User
+  id: User
+  parent: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: TicketCategoryMembershipEntity.User
+  fullName: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.User
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUser\n"
+  syntax:
+    content: public virtual Associate User { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property User As Associate
+  overload: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.User*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.Weight
+  commentId: P:SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.Weight
+  id: Weight
+  parent: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity
+  langs:
+  - csharp
+  - vb
+  name: Weight
+  nameWithType: TicketCategoryMembershipEntity.Weight
+  fullName: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.Weight
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWeight\n"
+  syntax:
+    content: public virtual short Weight { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Weight As Short
+  overload: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.Weight*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.#ctor
+  isExternal: true
+  name: TicketCategoryMembershipEntity
+  nameWithType: TicketCategoryMembershipEntity.TicketCategoryMembershipEntity
+  fullName: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.TicketCategoryMembershipEntity
+- uid: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.User*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.User
+  isExternal: true
+  name: User
+  nameWithType: TicketCategoryMembershipEntity.User
+  fullName: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.User
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate
+- uid: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.Weight*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.Weight
+  isExternal: true
+  name: Weight
+  nameWithType: TicketCategoryMembershipEntity.Weight
+  fullName: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity.Weight
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16

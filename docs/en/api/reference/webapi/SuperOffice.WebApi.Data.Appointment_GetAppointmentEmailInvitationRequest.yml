@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest
+  id: Appointment_GetAppointmentEmailInvitationRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Appointment
+  - SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Language
+  - SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.TemplateName
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetAppointmentEmailInvitationRequest
+  nameWithType: Appointment_GetAppointmentEmailInvitationRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetAppointmentEmailInvitationRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetAppointmentEmailInvitationRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetAppointmentEmailInvitationRequest()
+  nameWithType: Appointment_GetAppointmentEmailInvitationRequest.Appointment_GetAppointmentEmailInvitationRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Appointment_GetAppointmentEmailInvitationRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetAppointmentEmailInvitationRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Appointment
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Appointment
+  id: Appointment
+  parent: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: Appointment_GetAppointmentEmailInvitationRequest.Appointment
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Appointment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AppointmentEntity Appointment { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentEntity
+    content.vb: Public Property Appointment As AppointmentEntity
+  overload: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Appointment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.TemplateName
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.TemplateName
+  id: TemplateName
+  parent: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest
+  langs:
+  - csharp
+  - vb
+  name: TemplateName
+  nameWithType: Appointment_GetAppointmentEmailInvitationRequest.TemplateName
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.TemplateName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TemplateName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TemplateName As String
+  overload: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.TemplateName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Language
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Language
+  id: Language
+  parent: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: Appointment_GetAppointmentEmailInvitationRequest.Language
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Language
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Language As String
+  overload: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Language*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.#ctor
+  isExternal: true
+  name: Appointment_GetAppointmentEmailInvitationRequest
+  nameWithType: Appointment_GetAppointmentEmailInvitationRequest.Appointment_GetAppointmentEmailInvitationRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Appointment_GetAppointmentEmailInvitationRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Appointment*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Appointment
+  isExternal: true
+  name: Appointment
+  nameWithType: Appointment_GetAppointmentEmailInvitationRequest.Appointment
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Appointment
+- uid: SuperOffice.WebApi.Data.AppointmentEntity
+  commentId: T:SuperOffice.WebApi.Data.AppointmentEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.TemplateName*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.TemplateName
+  isExternal: true
+  name: TemplateName
+  nameWithType: Appointment_GetAppointmentEmailInvitationRequest.TemplateName
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.TemplateName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Language*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Language
+  isExternal: true
+  name: Language
+  nameWithType: Appointment_GetAppointmentEmailInvitationRequest.Language
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentEmailInvitationRequest.Language

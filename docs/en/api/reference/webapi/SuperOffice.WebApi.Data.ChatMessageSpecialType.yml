@@ -13,6 +13,7 @@ items:
   - SuperOffice.WebApi.Data.ChatMessageSpecialType.ClosedByUser
   - SuperOffice.WebApi.Data.ChatMessageSpecialType.Error
   - SuperOffice.WebApi.Data.ChatMessageSpecialType.FaqSuccessQuestion
+  - SuperOffice.WebApi.Data.ChatMessageSpecialType.IllegalFileType
   - SuperOffice.WebApi.Data.ChatMessageSpecialType.NewSession
   - SuperOffice.WebApi.Data.ChatMessageSpecialType.None
   - SuperOffice.WebApi.Data.ChatMessageSpecialType.Options
@@ -567,6 +568,35 @@ items:
     return:
       type: SuperOffice.WebApi.Data.ChatMessageSpecialType
     content.vb: Public Const Options As ChatMessageSpecialType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatMessageSpecialType.IllegalFileType
+  commentId: F:SuperOffice.WebApi.Data.ChatMessageSpecialType.IllegalFileType
+  id: IllegalFileType
+  parent: SuperOffice.WebApi.Data.ChatMessageSpecialType
+  langs:
+  - csharp
+  - vb
+  name: IllegalFileType
+  nameWithType: ChatMessageSpecialType.IllegalFileType
+  fullName: SuperOffice.WebApi.Data.ChatMessageSpecialType.IllegalFileType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n18: Uploaded file has illegal type\n"
+  syntax:
+    content: public const ChatMessageSpecialType IllegalFileType
+    return:
+      type: SuperOffice.WebApi.Data.ChatMessageSpecialType
+    content.vb: Public Const IllegalFileType As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const

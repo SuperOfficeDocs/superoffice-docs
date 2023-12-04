@@ -1,0 +1,1325 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent
+  commentId: T:SuperOffice.WebApi.Agents.ILicenseAgent
+  id: ILicenseAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.ILicenseAgent.ActivateLicenseInfoAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.AddLicenseFromFileAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.AssignThirdPartyLicensesAsync(System.Int32,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.ChangeSerialNumberAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseForAllOwnersFromDBAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromDBAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromFileAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromLicenseServerAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseStatusFromLicenseServerAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseFromDBAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServerAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo,SuperOffice.WebApi.Data.ExtendedModuleLicense,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.GetSatelliteLicensesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.GetShopUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.GetThirdPartyLicenseAssignmentsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesMDOListAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.RemoveLicenseFromDBAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.UnassignThirdPartyLicensesAsync(System.Int32,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.ValidateLicenseInfoAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: ILicenseAgent
+  nameWithType: ILicenseAgent
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent
+  type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nLicense query, download, activation\n"
+  syntax:
+    content: 'public interface ILicenseAgent : IDisposable'
+    content.vb: >-
+      Public Interface ILicenseAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseForAllOwnersFromDBAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseForAllOwnersFromDBAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetLicenseForAllOwnersFromDBAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseForAllOwnersFromDBAsync(RequestOptions)
+  nameWithType: ILicenseAgent.GetLicenseForAllOwnersFromDBAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseForAllOwnersFromDBAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet all licenses, with usage, from all module owners as they are stored in the database\n"
+  syntax:
+    content: Task<ExtendedLicenseInfo[]> GetLicenseForAllOwnersFromDBAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExtendedLicenseInfo[]}
+    content.vb: Function GetLicenseForAllOwnersFromDBAsync(requestOptions As RequestOptions = Nothing) As Task(Of ExtendedLicenseInfo())
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseForAllOwnersFromDBAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromLicenseServerAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromLicenseServerAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetLicenseFromLicenseServerAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseFromLicenseServerAsync(String, RequestOptions)
+  nameWithType: ILicenseAgent.GetLicenseFromLicenseServerAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromLicenseServerAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\n\n"
+  syntax:
+    content: Task<ExtendedLicenseInfo> GetLicenseFromLicenseServerAsync(string ownerName, RequestOptions requestOptions = null)
+    parameters:
+    - id: ownerName
+      type: System.String
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExtendedLicenseInfo}
+    content.vb: Function GetLicenseFromLicenseServerAsync(ownerName As String, requestOptions As RequestOptions = Nothing) As Task(Of ExtendedLicenseInfo)
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromLicenseServerAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServerAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo,SuperOffice.WebApi.Data.ExtendedModuleLicense,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServerAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo,SuperOffice.WebApi.Data.ExtendedModuleLicense,SuperOffice.WebApi.RequestOptions)
+  id: GetModuleLicenseHistoryFromLicenseServerAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo,SuperOffice.WebApi.Data.ExtendedModuleLicense,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetModuleLicenseHistoryFromLicenseServerAsync(ExtendedLicenseInfo, ExtendedModuleLicense, RequestOptions)
+  nameWithType: ILicenseAgent.GetModuleLicenseHistoryFromLicenseServerAsync(ExtendedLicenseInfo, ExtendedModuleLicense, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServerAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo, SuperOffice.WebApi.Data.ExtendedModuleLicense, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet details about a license from the license server.\n"
+  syntax:
+    content: Task<string> GetModuleLicenseHistoryFromLicenseServerAsync(ExtendedLicenseInfo licenseInfo, ExtendedModuleLicense moduleLicense, RequestOptions requestOptions = null)
+    parameters:
+    - id: licenseInfo
+      type: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+      description: Description of the license
+    - id: moduleLicense
+      type: SuperOffice.WebApi.Data.ExtendedModuleLicense
+      description: Information about a particular module to get information for.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: Information about a particular license module.
+    content.vb: Function GetModuleLicenseHistoryFromLicenseServerAsync(licenseInfo As ExtendedLicenseInfo, moduleLicense As ExtendedModuleLicense, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServerAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.ValidateLicenseInfoAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.ValidateLicenseInfoAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo,SuperOffice.WebApi.RequestOptions)
+  id: ValidateLicenseInfoAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidateLicenseInfoAsync(ExtendedLicenseInfo, RequestOptions)
+  nameWithType: ILicenseAgent.ValidateLicenseInfoAsync(ExtendedLicenseInfo, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.ValidateLicenseInfoAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nValidate that a license is consistant.\n"
+  syntax:
+    content: Task<LicenseResult> ValidateLicenseInfoAsync(ExtendedLicenseInfo licenseInfo, RequestOptions requestOptions = null)
+    parameters:
+    - id: licenseInfo
+      type: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+      description: License to validate consistancy for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseResult}
+    content.vb: Function ValidateLicenseInfoAsync(licenseInfo As ExtendedLicenseInfo, requestOptions As RequestOptions = Nothing) As Task(Of LicenseResult)
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.ValidateLicenseInfoAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.ActivateLicenseInfoAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.ActivateLicenseInfoAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo,SuperOffice.WebApi.RequestOptions)
+  id: ActivateLicenseInfoAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: ActivateLicenseInfoAsync(ExtendedLicenseInfo, RequestOptions)
+  nameWithType: ILicenseAgent.ActivateLicenseInfoAsync(ExtendedLicenseInfo, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.ActivateLicenseInfoAsync(SuperOffice.WebApi.Data.ExtendedLicenseInfo, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSave a new license to the database.\n"
+  syntax:
+    content: Task<LicenseResult> ActivateLicenseInfoAsync(ExtendedLicenseInfo newLicense, RequestOptions requestOptions = null)
+    parameters:
+    - id: newLicense
+      type: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+      description: New license to save to the database.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseResult}
+    content.vb: Function ActivateLicenseInfoAsync(newLicense As ExtendedLicenseInfo, requestOptions As RequestOptions = Nothing) As Task(Of LicenseResult)
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.ActivateLicenseInfoAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseStatusFromLicenseServerAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseStatusFromLicenseServerAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetLicenseStatusFromLicenseServerAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseStatusFromLicenseServerAsync(String, RequestOptions)
+  nameWithType: ILicenseAgent.GetLicenseStatusFromLicenseServerAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseStatusFromLicenseServerAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet License from the license server for a particular module owner.\n"
+  syntax:
+    content: Task<CheckLicenseStatusResult> GetLicenseStatusFromLicenseServerAsync(string ownerName, RequestOptions requestOptions = null)
+    parameters:
+    - id: ownerName
+      type: System.String
+      description: Name of the module owner to get license from.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CheckLicenseStatusResult}
+      description: License from the database, from the license server and with usage.
+    content.vb: Function GetLicenseStatusFromLicenseServerAsync(ownerName As String, requestOptions As RequestOptions = Nothing) As Task(Of CheckLicenseStatusResult)
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseStatusFromLicenseServerAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromDBAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromDBAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetLicenseFromDBAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseFromDBAsync(String, RequestOptions)
+  nameWithType: ILicenseAgent.GetLicenseFromDBAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromDBAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet license, with usage, as it is stored in the database for one particular module owner.\n"
+  syntax:
+    content: Task<ExtendedLicenseInfo> GetLicenseFromDBAsync(string ownerName, RequestOptions requestOptions = null)
+    parameters:
+    - id: ownerName
+      type: System.String
+      description: Name of the module owner.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExtendedLicenseInfo}
+      description: License, with usage, as it is stored in the database.
+    content.vb: Function GetLicenseFromDBAsync(ownerName As String, requestOptions As RequestOptions = Nothing) As Task(Of ExtendedLicenseInfo)
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromDBAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.ChangeSerialNumberAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.ChangeSerialNumberAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: ChangeSerialNumberAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangeSerialNumberAsync(String, String, RequestOptions)
+  nameWithType: ILicenseAgent.ChangeSerialNumberAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.ChangeSerialNumberAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nChange the new serial number for the installation. Requests a new license from SuperLicense, checks if change is authorized.\n"
+  syntax:
+    content: Task<LicenseResult> ChangeSerialNumberAsync(string newCompanyName, string newSerialNumber, RequestOptions requestOptions = null)
+    parameters:
+    - id: newCompanyName
+      type: System.String
+      description: The new company name
+    - id: newSerialNumber
+      type: System.String
+      description: New serial number to change to.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseResult}
+      description: License after serial number/name change
+    content.vb: Function ChangeSerialNumberAsync(newCompanyName As String, newSerialNumber As String, requestOptions As RequestOptions = Nothing) As Task(Of LicenseResult)
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.ChangeSerialNumberAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetUserLicensesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUserLicensesAsync(Int32, RequestOptions)
+  nameWithType: ILicenseAgent.GetUserLicensesAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nObtain information about associate module licenses\n"
+  syntax:
+    content: Task<LicenseOwner[]> GetUserLicensesAsync(int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate id to check for associate module licenses
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseOwner[]}
+      description: Associate module licenses grouped by owners.
+    content.vb: Function GetUserLicensesAsync(associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of LicenseOwner())
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetSatelliteLicensesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.GetSatelliteLicensesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetSatelliteLicensesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSatelliteLicensesAsync(Int32, RequestOptions)
+  nameWithType: ILicenseAgent.GetSatelliteLicensesAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetSatelliteLicensesAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nObtain information about satellite module licenses\n"
+  syntax:
+    content: Task<LicenseOwner[]> GetSatelliteLicensesAsync(int satelliteId, RequestOptions requestOptions = null)
+    parameters:
+    - id: satelliteId
+      type: System.Int32
+      description: Satellite id to check for satellite module licenses
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseOwner[]}
+      description: Satellite module licenses grouped by owners.
+    content.vb: Function GetSatelliteLicensesAsync(satelliteId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of LicenseOwner())
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetSatelliteLicensesAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.RemoveLicenseFromDBAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.RemoveLicenseFromDBAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: RemoveLicenseFromDBAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveLicenseFromDBAsync(String, RequestOptions)
+  nameWithType: ILicenseAgent.RemoveLicenseFromDBAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.RemoveLicenseFromDBAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemove the license from a particular module owner from the database.  It is not permitted to remove licenses from SuperOffice\n"
+  syntax:
+    content: Task<LicenseResult> RemoveLicenseFromDBAsync(string moduleOwner, RequestOptions requestOptions = null)
+    parameters:
+    - id: moduleOwner
+      type: System.String
+      description: Name of the module owner to remove license from.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseResult}
+    content.vb: Function RemoveLicenseFromDBAsync(moduleOwner As String, requestOptions As RequestOptions = Nothing) As Task(Of LicenseResult)
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.RemoveLicenseFromDBAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromFileAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromFileAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetLicenseFromFileAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseFromFileAsync(String, RequestOptions)
+  nameWithType: ILicenseAgent.GetLicenseFromFileAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromFileAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nLoad a new license from file\n"
+  syntax:
+    content: Task<ExtendedLicenseInfo> GetLicenseFromFileAsync(string fileContent, RequestOptions requestOptions = null)
+    parameters:
+    - id: fileContent
+      type: System.String
+      description: Content of the license file as read.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExtendedLicenseInfo}
+    content.vb: Function GetLicenseFromFileAsync(fileContent As String, requestOptions As RequestOptions = Nothing) As Task(Of ExtendedLicenseInfo)
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromFileAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetShopUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.GetShopUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetShopUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetShopUrlAsync(String, RequestOptions)
+  nameWithType: ILicenseAgent.GetShopUrlAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetShopUrlAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the shop URL for the specified module owner. This can be used to redirect user to the web shop.\n"
+  syntax:
+    content: Task<string> GetShopUrlAsync(string ownerName, RequestOptions requestOptions = null)
+    parameters:
+    - id: ownerName
+      type: System.String
+      description: Name of the module owner.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The URL which contains the shop for the specified module owner.
+    content.vb: Function GetShopUrlAsync(ownerName As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetShopUrlAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesMDOListAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesMDOListAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetUserLicensesMDOListAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUserLicensesMDOListAsync(RequestOptions)
+  nameWithType: ILicenseAgent.GetUserLicensesMDOListAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesMDOListAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet all licenses in a MDOListItem structure.\n"
+  syntax:
+    content: Task<SelectableMDOListItem[]> GetUserLicensesMDOListAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectableMDOListItem[]}
+      description: Hierarchical structure of user licenses.
+    content.vb: Function GetUserLicensesMDOListAsync(requestOptions As RequestOptions = Nothing) As Task(Of SelectableMDOListItem())
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesMDOListAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseFromDBAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseFromDBAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetModuleLicenseFromDBAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetModuleLicenseFromDBAsync(String, String, RequestOptions)
+  nameWithType: ILicenseAgent.GetModuleLicenseFromDBAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseFromDBAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet license information for one particular license module.\n"
+  syntax:
+    content: Task<ModuleLicense> GetModuleLicenseFromDBAsync(string ownerName, string moduleName, RequestOptions requestOptions = null)
+    parameters:
+    - id: ownerName
+      type: System.String
+      description: Name of the module owner.
+    - id: moduleName
+      type: System.String
+      description: Name of the license module.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ModuleLicense}
+      description: Module License details, as it is stored in the database. NULL if not found.
+    content.vb: Function GetModuleLicenseFromDBAsync(ownerName As String, moduleName As String, requestOptions As RequestOptions = Nothing) As Task(Of ModuleLicense)
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseFromDBAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.AddLicenseFromFileAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.AddLicenseFromFileAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: AddLicenseFromFileAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: AddLicenseFromFileAsync(String, RequestOptions)
+  nameWithType: ILicenseAgent.AddLicenseFromFileAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.AddLicenseFromFileAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nLoad and activate a new license from file/string if the new license is valid.\n"
+  syntax:
+    content: Task<ExtendedLicenseInfo> AddLicenseFromFileAsync(string fileContent, RequestOptions requestOptions = null)
+    parameters:
+    - id: fileContent
+      type: System.String
+      description: Content of the license file as XML.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExtendedLicenseInfo}
+      description: Activated license
+    content.vb: Function AddLicenseFromFileAsync(fileContent As String, requestOptions As RequestOptions = Nothing) As Task(Of ExtendedLicenseInfo)
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.AddLicenseFromFileAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetThirdPartyLicenseAssignmentsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.GetThirdPartyLicenseAssignmentsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetThirdPartyLicenseAssignmentsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetThirdPartyLicenseAssignmentsAsync(Int32, String, RequestOptions)
+  nameWithType: ILicenseAgent.GetThirdPartyLicenseAssignmentsAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetThirdPartyLicenseAssignmentsAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet license assignments for an associate for licenses belonging to an other module owner than SuperOffice\n"
+  syntax:
+    content: Task<ModuleLicenseLink[]> GetThirdPartyLicenseAssignmentsAsync(int associateId, string moduleOwner, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: User to get third party license assignments for
+    - id: moduleOwner
+      type: System.String
+      description: Name of the module owner to get license assignments for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ModuleLicenseLink[]}
+      description: Module license names
+    content.vb: Function GetThirdPartyLicenseAssignmentsAsync(associateId As Integer, moduleOwner As String, requestOptions As RequestOptions = Nothing) As Task(Of ModuleLicenseLink())
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetThirdPartyLicenseAssignmentsAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.AssignThirdPartyLicensesAsync(System.Int32,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.AssignThirdPartyLicensesAsync(System.Int32,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: AssignThirdPartyLicensesAsync(System.Int32,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: AssignThirdPartyLicensesAsync(Int32, String, String[], RequestOptions)
+  nameWithType: ILicenseAgent.AssignThirdPartyLicensesAsync(Int32, String, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.AssignThirdPartyLicensesAsync(System.Int32, System.String, System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAssign third party licenses\n"
+  syntax:
+    content: Task<ModuleLicenseLink[]> AssignThirdPartyLicensesAsync(int associateId, string moduleOwner, string[] moduleLicenseNames, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: User to assign third party licenses for
+    - id: moduleOwner
+      type: System.String
+      description: Name of the module owner to assign license for
+    - id: moduleLicenseNames
+      type: System.String[]
+      description: Name of module licenses to assign
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ModuleLicenseLink[]}
+      description: All module license names assigned
+    content.vb: Function AssignThirdPartyLicensesAsync(associateId As Integer, moduleOwner As String, moduleLicenseNames As String(), requestOptions As RequestOptions = Nothing) As Task(Of ModuleLicenseLink())
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.AssignThirdPartyLicensesAsync*
+  nameWithType.vb: ILicenseAgent.AssignThirdPartyLicensesAsync(Int32, String, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ILicenseAgent.AssignThirdPartyLicensesAsync(System.Int32, System.String, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: AssignThirdPartyLicensesAsync(Int32, String, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.UnassignThirdPartyLicensesAsync(System.Int32,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.UnassignThirdPartyLicensesAsync(System.Int32,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: UnassignThirdPartyLicensesAsync(System.Int32,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: UnassignThirdPartyLicensesAsync(Int32, String, String[], RequestOptions)
+  nameWithType: ILicenseAgent.UnassignThirdPartyLicensesAsync(Int32, String, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.UnassignThirdPartyLicensesAsync(System.Int32, System.String, System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUnassign (remove) third party licenses\n"
+  syntax:
+    content: Task<ModuleLicenseLink[]> UnassignThirdPartyLicensesAsync(int associateId, string moduleOwner, string[] moduleLicenseNames, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: User to unassign third party licenses for
+    - id: moduleOwner
+      type: System.String
+      description: Name of the module owner to unassign license for
+    - id: moduleLicenseNames
+      type: System.String[]
+      description: Name of module licenses to unassign (remove)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ModuleLicenseLink[]}
+      description: All module license names assigned
+    content.vb: Function UnassignThirdPartyLicensesAsync(associateId As Integer, moduleOwner As String, moduleLicenseNames As String(), requestOptions As RequestOptions = Nothing) As Task(Of ModuleLicenseLink())
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.UnassignThirdPartyLicensesAsync*
+  nameWithType.vb: ILicenseAgent.UnassignThirdPartyLicensesAsync(Int32, String, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ILicenseAgent.UnassignThirdPartyLicensesAsync(System.Int32, System.String, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: UnassignThirdPartyLicensesAsync(Int32, String, String(), RequestOptions)
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseForAllOwnersFromDBAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseForAllOwnersFromDBAsync
+  isExternal: true
+  name: GetLicenseForAllOwnersFromDBAsync
+  nameWithType: ILicenseAgent.GetLicenseForAllOwnersFromDBAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseForAllOwnersFromDBAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExtendedLicenseInfo[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExtendedLicenseInfo[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ExtendedLicenseInfo[]>
+  nameWithType: Task<ExtendedLicenseInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ExtendedLicenseInfo[]>
+  nameWithType.vb: Task(Of ExtendedLicenseInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ExtendedLicenseInfo())
+  name.vb: Task(Of ExtendedLicenseInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromLicenseServerAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromLicenseServerAsync
+  isExternal: true
+  name: GetLicenseFromLicenseServerAsync
+  nameWithType: ILicenseAgent.GetLicenseFromLicenseServerAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromLicenseServerAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExtendedLicenseInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExtendedLicenseInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ExtendedLicenseInfo>
+  nameWithType: Task<ExtendedLicenseInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ExtendedLicenseInfo>
+  nameWithType.vb: Task(Of ExtendedLicenseInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ExtendedLicenseInfo)
+  name.vb: Task(Of ExtendedLicenseInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServerAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServerAsync
+  isExternal: true
+  name: GetModuleLicenseHistoryFromLicenseServerAsync
+  nameWithType: ILicenseAgent.GetModuleLicenseHistoryFromLicenseServerAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServerAsync
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  commentId: T:SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ExtendedLicenseInfo
+  nameWithType: ExtendedLicenseInfo
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+- uid: SuperOffice.WebApi.Data.ExtendedModuleLicense
+  commentId: T:SuperOffice.WebApi.Data.ExtendedModuleLicense
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ExtendedModuleLicense
+  nameWithType: ExtendedModuleLicense
+  fullName: SuperOffice.WebApi.Data.ExtendedModuleLicense
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.ValidateLicenseInfoAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.ValidateLicenseInfoAsync
+  isExternal: true
+  name: ValidateLicenseInfoAsync
+  nameWithType: ILicenseAgent.ValidateLicenseInfoAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.ValidateLicenseInfoAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseResult}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<LicenseResult>
+  nameWithType: Task<LicenseResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.LicenseResult>
+  nameWithType.vb: Task(Of LicenseResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.LicenseResult)
+  name.vb: Task(Of LicenseResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.LicenseResult
+    name: LicenseResult
+    nameWithType: LicenseResult
+    fullName: SuperOffice.WebApi.Data.LicenseResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.LicenseResult
+    name: LicenseResult
+    nameWithType: LicenseResult
+    fullName: SuperOffice.WebApi.Data.LicenseResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.ActivateLicenseInfoAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.ActivateLicenseInfoAsync
+  isExternal: true
+  name: ActivateLicenseInfoAsync
+  nameWithType: ILicenseAgent.ActivateLicenseInfoAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.ActivateLicenseInfoAsync
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseStatusFromLicenseServerAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseStatusFromLicenseServerAsync
+  isExternal: true
+  name: GetLicenseStatusFromLicenseServerAsync
+  nameWithType: ILicenseAgent.GetLicenseStatusFromLicenseServerAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseStatusFromLicenseServerAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CheckLicenseStatusResult}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CheckLicenseStatusResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CheckLicenseStatusResult>
+  nameWithType: Task<CheckLicenseStatusResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.CheckLicenseStatusResult>
+  nameWithType.vb: Task(Of CheckLicenseStatusResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.CheckLicenseStatusResult)
+  name.vb: Task(Of CheckLicenseStatusResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult
+    name: CheckLicenseStatusResult
+    nameWithType: CheckLicenseStatusResult
+    fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult
+    name: CheckLicenseStatusResult
+    nameWithType: CheckLicenseStatusResult
+    fullName: SuperOffice.WebApi.Data.CheckLicenseStatusResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromDBAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromDBAsync
+  isExternal: true
+  name: GetLicenseFromDBAsync
+  nameWithType: ILicenseAgent.GetLicenseFromDBAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromDBAsync
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.ChangeSerialNumberAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.ChangeSerialNumberAsync
+  isExternal: true
+  name: ChangeSerialNumberAsync
+  nameWithType: ILicenseAgent.ChangeSerialNumberAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.ChangeSerialNumberAsync
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesAsync
+  isExternal: true
+  name: GetUserLicensesAsync
+  nameWithType: ILicenseAgent.GetUserLicensesAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseOwner[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseOwner[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<LicenseOwner[]>
+  nameWithType: Task<LicenseOwner[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.LicenseOwner[]>
+  nameWithType.vb: Task(Of LicenseOwner())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.LicenseOwner())
+  name.vb: Task(Of LicenseOwner())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.WebApi.Data.LicenseOwner
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.WebApi.Data.LicenseOwner
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetSatelliteLicensesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.GetSatelliteLicensesAsync
+  isExternal: true
+  name: GetSatelliteLicensesAsync
+  nameWithType: ILicenseAgent.GetSatelliteLicensesAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetSatelliteLicensesAsync
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.RemoveLicenseFromDBAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.RemoveLicenseFromDBAsync
+  isExternal: true
+  name: RemoveLicenseFromDBAsync
+  nameWithType: ILicenseAgent.RemoveLicenseFromDBAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.RemoveLicenseFromDBAsync
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromFileAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromFileAsync
+  isExternal: true
+  name: GetLicenseFromFileAsync
+  nameWithType: ILicenseAgent.GetLicenseFromFileAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromFileAsync
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetShopUrlAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.GetShopUrlAsync
+  isExternal: true
+  name: GetShopUrlAsync
+  nameWithType: ILicenseAgent.GetShopUrlAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetShopUrlAsync
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesMDOListAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesMDOListAsync
+  isExternal: true
+  name: GetUserLicensesMDOListAsync
+  nameWithType: ILicenseAgent.GetUserLicensesMDOListAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesMDOListAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectableMDOListItem[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectableMDOListItem[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SelectableMDOListItem[]>
+  nameWithType: Task<SelectableMDOListItem[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SelectableMDOListItem[]>
+  nameWithType.vb: Task(Of SelectableMDOListItem())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.SelectableMDOListItem())
+  name.vb: Task(Of SelectableMDOListItem())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseFromDBAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseFromDBAsync
+  isExternal: true
+  name: GetModuleLicenseFromDBAsync
+  nameWithType: ILicenseAgent.GetModuleLicenseFromDBAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetModuleLicenseFromDBAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ModuleLicense}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ModuleLicense}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ModuleLicense>
+  nameWithType: Task<ModuleLicense>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ModuleLicense>
+  nameWithType.vb: Task(Of ModuleLicense)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ModuleLicense)
+  name.vb: Task(Of ModuleLicense)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ModuleLicense
+    name: ModuleLicense
+    nameWithType: ModuleLicense
+    fullName: SuperOffice.WebApi.Data.ModuleLicense
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ModuleLicense
+    name: ModuleLicense
+    nameWithType: ModuleLicense
+    fullName: SuperOffice.WebApi.Data.ModuleLicense
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.AddLicenseFromFileAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.AddLicenseFromFileAsync
+  isExternal: true
+  name: AddLicenseFromFileAsync
+  nameWithType: ILicenseAgent.AddLicenseFromFileAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.AddLicenseFromFileAsync
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetThirdPartyLicenseAssignmentsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.GetThirdPartyLicenseAssignmentsAsync
+  isExternal: true
+  name: GetThirdPartyLicenseAssignmentsAsync
+  nameWithType: ILicenseAgent.GetThirdPartyLicenseAssignmentsAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetThirdPartyLicenseAssignmentsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ModuleLicenseLink[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ModuleLicenseLink[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ModuleLicenseLink[]>
+  nameWithType: Task<ModuleLicenseLink[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ModuleLicenseLink[]>
+  nameWithType.vb: Task(Of ModuleLicenseLink())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ModuleLicenseLink())
+  name.vb: Task(Of ModuleLicenseLink())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ModuleLicenseLink
+    name: ModuleLicenseLink
+    nameWithType: ModuleLicenseLink
+    fullName: SuperOffice.WebApi.Data.ModuleLicenseLink
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ModuleLicenseLink
+    name: ModuleLicenseLink
+    nameWithType: ModuleLicenseLink
+    fullName: SuperOffice.WebApi.Data.ModuleLicenseLink
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.AssignThirdPartyLicensesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.AssignThirdPartyLicensesAsync
+  isExternal: true
+  name: AssignThirdPartyLicensesAsync
+  nameWithType: ILicenseAgent.AssignThirdPartyLicensesAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.AssignThirdPartyLicensesAsync
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.UnassignThirdPartyLicensesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.UnassignThirdPartyLicensesAsync
+  isExternal: true
+  name: UnassignThirdPartyLicensesAsync
+  nameWithType: ILicenseAgent.UnassignThirdPartyLicensesAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.UnassignThirdPartyLicensesAsync

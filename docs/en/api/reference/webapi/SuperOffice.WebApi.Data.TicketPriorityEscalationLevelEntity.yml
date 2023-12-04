@@ -1,0 +1,782 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  commentId: T:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  id: TicketPriorityEscalationLevelEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.#ctor
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.Action
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertLevel
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertTimeout
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.DelegateTo
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.EmailTo
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.RtiCustomerSms
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ScriptId
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.SmsTo
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.TicketAlertId
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityEscalationLevelEntity
+  nameWithType: TicketPriorityEscalationLevelEntity
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TicketPriorityEscalationLevelEntity.\nEntity for ticket priority escalation level. Entity describes properties/actions when escalation(alert) happens. Alert is raised according to TicketPriority timing intervals    \n"
+  syntax:
+    content: 'public class TicketPriorityEscalationLevelEntity : Carrier'
+    content.vb: >-
+      Public Class TicketPriorityEscalationLevelEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityEscalationLevelEntity()
+  nameWithType: TicketPriorityEscalationLevelEntity.TicketPriorityEscalationLevelEntity()
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.TicketPriorityEscalationLevelEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TicketPriorityEscalationLevelEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.TicketAlertId
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.TicketAlertId
+  id: TicketAlertId
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketAlertId
+  nameWithType: TicketPriorityEscalationLevelEntity.TicketAlertId
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.TicketAlertId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public virtual int TicketAlertId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketAlertId As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.TicketAlertId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertLevel
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertLevel
+  id: AlertLevel
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: AlertLevel
+  nameWithType: TicketPriorityEscalationLevelEntity.AlertLevel
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertLevel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe alert level (strictly ascending number).\n"
+  syntax:
+    content: public virtual short AlertLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property AlertLevel As Short
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertLevel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertTimeout
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertTimeout
+  id: AlertTimeout
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: AlertTimeout
+  nameWithType: TicketPriorityEscalationLevelEntity.AlertTimeout
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertTimeout
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe time (in minutes) before ticket is escalated to next level.\n"
+  syntax:
+    content: public virtual int AlertTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AlertTimeout As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertTimeout*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.Action
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.Action
+  id: Action
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: TicketPriorityEscalationLevelEntity.Action
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.Action
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBitmap indicating what should be done when escalating *to* this level.\n"
+  syntax:
+    content: public virtual int Action { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Action As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.Action*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.DelegateTo
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.DelegateTo
+  id: DelegateTo
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: DelegateTo
+  nameWithType: TicketPriorityEscalationLevelEntity.DelegateTo
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.DelegateTo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf ticket should be redelegated on escalation, this field contains the id of the target user.\n"
+  syntax:
+    content: public virtual int DelegateTo { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DelegateTo As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.DelegateTo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ScriptId
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ScriptId
+  id: ScriptId
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ScriptId
+  nameWithType: TicketPriorityEscalationLevelEntity.ScriptId
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ScriptId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nScript that can be executed then the ticket alert action occur.\n"
+  syntax:
+    content: public virtual int ScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ScriptId As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ScriptId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.EmailTo
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.EmailTo
+  id: EmailTo
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: EmailTo
+  nameWithType: TicketPriorityEscalationLevelEntity.EmailTo
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.EmailTo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf an email should be sent when escalating, this field will contain the recipient email address.\n"
+  syntax:
+    content: public virtual string EmailTo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailTo As String
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.EmailTo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.SmsTo
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.SmsTo
+  id: SmsTo
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: SmsTo
+  nameWithType: TicketPriorityEscalationLevelEntity.SmsTo
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.SmsTo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf an sms should be sent when escalating, this field will contain the recipient email address.\n"
+  syntax:
+    content: public virtual string SmsTo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SmsTo As String
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.SmsTo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+  id: ReplyTemplateIdCustomer
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdCustomer
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReference to the reply template used in this alert, for mail to customer\n"
+  syntax:
+    content: public virtual int ReplyTemplateIdCustomer { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateIdCustomer As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+  id: ReplyTemplateIdUser
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdUser
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReference to the reply template used in this alert, for mail to owner of ticket\n"
+  syntax:
+    content: public virtual int ReplyTemplateIdUser { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateIdUser As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+  id: ReplyTemplateIdCatmast
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdCatmast
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReference to the reply template used in this alert, for mail to category master\n"
+  syntax:
+    content: public virtual int ReplyTemplateIdCatmast { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateIdCatmast As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+  id: ReplyTemplateIdEmail
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdEmail
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReference to the reply template used in this alert, for mail to custom address\n"
+  syntax:
+    content: public virtual int ReplyTemplateIdEmail { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateIdEmail As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.RtiCustomerSms
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.RtiCustomerSms
+  id: RtiCustomerSms
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: RtiCustomerSms
+  nameWithType: TicketPriorityEscalationLevelEntity.RtiCustomerSms
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.RtiCustomerSms
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReference to the reply template used in this alert, for sms to customer\n"
+  syntax:
+    content: public virtual int RtiCustomerSms { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RtiCustomerSms As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.RtiCustomerSms*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+  id: ReplyTemplateIdUserSms
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdUserSms
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReference to the reply template used in this alert, for sms to owner of ticket\n"
+  syntax:
+    content: public virtual int ReplyTemplateIdUserSms { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateIdUserSms As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+  id: ReplyTemplateIdCatmastSms
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdCatmastSms
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReference to the reply template used in this alert, for sms to category master\n"
+  syntax:
+    content: public virtual int ReplyTemplateIdCatmastSms { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateIdCatmastSms As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms
+  id: ReplyTemplateIdSms
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdSms
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReference to the reply template used in this alert, for sms to custom address\n"
+  syntax:
+    content: public virtual int ReplyTemplateIdSms { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateIdSms As Integer
+  overload: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.#ctor
+  isExternal: true
+  name: TicketPriorityEscalationLevelEntity
+  nameWithType: TicketPriorityEscalationLevelEntity.TicketPriorityEscalationLevelEntity
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.TicketPriorityEscalationLevelEntity
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.TicketAlertId*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.TicketAlertId
+  isExternal: true
+  name: TicketAlertId
+  nameWithType: TicketPriorityEscalationLevelEntity.TicketAlertId
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.TicketAlertId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertLevel*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertLevel
+  isExternal: true
+  name: AlertLevel
+  nameWithType: TicketPriorityEscalationLevelEntity.AlertLevel
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertLevel
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertTimeout*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertTimeout
+  isExternal: true
+  name: AlertTimeout
+  nameWithType: TicketPriorityEscalationLevelEntity.AlertTimeout
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.AlertTimeout
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.Action*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.Action
+  isExternal: true
+  name: Action
+  nameWithType: TicketPriorityEscalationLevelEntity.Action
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.Action
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.DelegateTo*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.DelegateTo
+  isExternal: true
+  name: DelegateTo
+  nameWithType: TicketPriorityEscalationLevelEntity.DelegateTo
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.DelegateTo
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ScriptId*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ScriptId
+  isExternal: true
+  name: ScriptId
+  nameWithType: TicketPriorityEscalationLevelEntity.ScriptId
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ScriptId
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.EmailTo*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.EmailTo
+  isExternal: true
+  name: EmailTo
+  nameWithType: TicketPriorityEscalationLevelEntity.EmailTo
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.EmailTo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.SmsTo*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.SmsTo
+  isExternal: true
+  name: SmsTo
+  nameWithType: TicketPriorityEscalationLevelEntity.SmsTo
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.SmsTo
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+  isExternal: true
+  name: ReplyTemplateIdCustomer
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+  isExternal: true
+  name: ReplyTemplateIdUser
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+  isExternal: true
+  name: ReplyTemplateIdCatmast
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+  isExternal: true
+  name: ReplyTemplateIdEmail
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.RtiCustomerSms*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.RtiCustomerSms
+  isExternal: true
+  name: RtiCustomerSms
+  nameWithType: TicketPriorityEscalationLevelEntity.RtiCustomerSms
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.RtiCustomerSms
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+  isExternal: true
+  name: ReplyTemplateIdUserSms
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+  isExternal: true
+  name: ReplyTemplateIdCatmastSms
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms
+  isExternal: true
+  name: ReplyTemplateIdSms
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms

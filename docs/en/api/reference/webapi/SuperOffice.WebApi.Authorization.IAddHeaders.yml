@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Authorization.IAddHeaders
+  commentId: T:SuperOffice.WebApi.Authorization.IAddHeaders
+  id: IAddHeaders
+  parent: SuperOffice.WebApi.Authorization
+  children:
+  - SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+  langs:
+  - csharp
+  - vb
+  name: IAddHeaders
+  nameWithType: IAddHeaders
+  fullName: SuperOffice.WebApi.Authorization.IAddHeaders
+  type: Interface
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization
+  summary: "\nUsed by IAuthorization implementations to add headers for each request.\n"
+  syntax:
+    content: public interface IAddHeaders
+    content.vb: Public Interface IAddHeaders
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+  commentId: M:SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+  id: AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+  parent: SuperOffice.WebApi.Authorization.IAddHeaders
+  langs:
+  - csharp
+  - vb
+  name: AddHeaders(HttpRequestHeaders)
+  nameWithType: IAddHeaders.AddHeaders(HttpRequestHeaders)
+  fullName: SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+  type: Method
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization
+  summary: "\nCalled by the AgentBase to add headers to IAuthorization implementation.\n"
+  syntax:
+    content: void AddHeaders(HttpRequestHeaders headers)
+    parameters:
+    - id: headers
+      type: System.Net.Http.Headers.HttpRequestHeaders
+      description: HttpRequestMessage headers.
+    content.vb: Sub AddHeaders(headers As HttpRequestHeaders)
+  overload: SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders*
+references:
+- uid: SuperOffice.WebApi.Authorization
+  commentId: N:SuperOffice.WebApi.Authorization
+  isExternal: true
+  name: SuperOffice.WebApi.Authorization
+  nameWithType: SuperOffice.WebApi.Authorization
+  fullName: SuperOffice.WebApi.Authorization
+- uid: SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders*
+  commentId: Overload:SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders
+  isExternal: true
+  name: AddHeaders
+  nameWithType: IAddHeaders.AddHeaders
+  fullName: SuperOffice.WebApi.Authorization.IAddHeaders.AddHeaders
+- uid: System.Net.Http.Headers.HttpRequestHeaders
+  isExternal: true
+  name: HttpRequestHeaders
+  nameWithType: HttpRequestHeaders
+  fullName: System.Net.Http.Headers.HttpRequestHeaders

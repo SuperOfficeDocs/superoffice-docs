@@ -1,0 +1,549 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowEventType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowEventType
+  id: WorkflowEventType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowEventType.AddedMessage
+  - SuperOffice.WebApi.Data.WorkflowEventType.AddedToProject
+  - SuperOffice.WebApi.Data.WorkflowEventType.AddedToSelection
+  - SuperOffice.WebApi.Data.WorkflowEventType.CreatedRequest
+  - SuperOffice.WebApi.Data.WorkflowEventType.FormSubmitted
+  - SuperOffice.WebApi.Data.WorkflowEventType.LinkClicked
+  - SuperOffice.WebApi.Data.WorkflowEventType.None
+  - SuperOffice.WebApi.Data.WorkflowEventType.OrderPlaced
+  - SuperOffice.WebApi.Data.WorkflowEventType.PersonCreated
+  - SuperOffice.WebApi.Data.WorkflowEventType.PersonUpdated
+  - SuperOffice.WebApi.Data.WorkflowEventType.Run
+  - SuperOffice.WebApi.Data.WorkflowEventType.SaleCreated
+  - SuperOffice.WebApi.Data.WorkflowEventType.SaleLost
+  - SuperOffice.WebApi.Data.WorkflowEventType.SaleSold
+  - SuperOffice.WebApi.Data.WorkflowEventType.StartedChat
+  - SuperOffice.WebApi.Data.WorkflowEventType.value__
+  langs:
+  - csharp
+  - vb
+  name: WorkflowEventType
+  nameWithType: WorkflowEventType
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWorkflow event type\n"
+  syntax:
+    content: 'public sealed class WorkflowEventType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowEventType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.value__
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowEventType.value__
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.None
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowEventType.None
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const WorkflowEventType None
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const None As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.Run
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.Run
+  id: Run
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: Run
+  nameWithType: WorkflowEventType.Run
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.Run
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Run\n"
+  syntax:
+    content: public const WorkflowEventType Run
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const Run As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.PersonCreated
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.PersonCreated
+  id: PersonCreated
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: PersonCreated
+  nameWithType: WorkflowEventType.PersonCreated
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.PersonCreated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1001: PersonCreated\n"
+  syntax:
+    content: public const WorkflowEventType PersonCreated
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const PersonCreated As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.PersonUpdated
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.PersonUpdated
+  id: PersonUpdated
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: PersonUpdated
+  nameWithType: WorkflowEventType.PersonUpdated
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.PersonUpdated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1002: PersonUpdated\n"
+  syntax:
+    content: public const WorkflowEventType PersonUpdated
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const PersonUpdated As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.AddedToProject
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.AddedToProject
+  id: AddedToProject
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: AddedToProject
+  nameWithType: WorkflowEventType.AddedToProject
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.AddedToProject
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1003: AddedToProject\n"
+  syntax:
+    content: public const WorkflowEventType AddedToProject
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const AddedToProject As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.CreatedRequest
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.CreatedRequest
+  id: CreatedRequest
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: CreatedRequest
+  nameWithType: WorkflowEventType.CreatedRequest
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.CreatedRequest
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1004: CreatedRequest\n"
+  syntax:
+    content: public const WorkflowEventType CreatedRequest
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const CreatedRequest As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.LinkClicked
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.LinkClicked
+  id: LinkClicked
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: LinkClicked
+  nameWithType: WorkflowEventType.LinkClicked
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.LinkClicked
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1005: LinkClicked\n"
+  syntax:
+    content: public const WorkflowEventType LinkClicked
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const LinkClicked As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.AddedToSelection
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.AddedToSelection
+  id: AddedToSelection
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: AddedToSelection
+  nameWithType: WorkflowEventType.AddedToSelection
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.AddedToSelection
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1006: AddedToSelection\n"
+  syntax:
+    content: public const WorkflowEventType AddedToSelection
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const AddedToSelection As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.FormSubmitted
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.FormSubmitted
+  id: FormSubmitted
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: FormSubmitted
+  nameWithType: WorkflowEventType.FormSubmitted
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.FormSubmitted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1007: FormSubmitted\n"
+  syntax:
+    content: public const WorkflowEventType FormSubmitted
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const FormSubmitted As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.AddedMessage
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.AddedMessage
+  id: AddedMessage
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: AddedMessage
+  nameWithType: WorkflowEventType.AddedMessage
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.AddedMessage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1008: AddedMessage\n"
+  syntax:
+    content: public const WorkflowEventType AddedMessage
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const AddedMessage As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.StartedChat
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.StartedChat
+  id: StartedChat
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: StartedChat
+  nameWithType: WorkflowEventType.StartedChat
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.StartedChat
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1009: StartedChat\n"
+  syntax:
+    content: public const WorkflowEventType StartedChat
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const StartedChat As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.OrderPlaced
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.OrderPlaced
+  id: OrderPlaced
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: OrderPlaced
+  nameWithType: WorkflowEventType.OrderPlaced
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.OrderPlaced
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1010: OrderPlaced\n"
+  syntax:
+    content: public const WorkflowEventType OrderPlaced
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const OrderPlaced As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.SaleCreated
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.SaleCreated
+  id: SaleCreated
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: SaleCreated
+  nameWithType: WorkflowEventType.SaleCreated
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.SaleCreated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1011: SaleCreated\n"
+  syntax:
+    content: public const WorkflowEventType SaleCreated
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const SaleCreated As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.SaleSold
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.SaleSold
+  id: SaleSold
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: SaleSold
+  nameWithType: WorkflowEventType.SaleSold
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.SaleSold
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1012: SaleSold\n"
+  syntax:
+    content: public const WorkflowEventType SaleSold
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const SaleSold As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowEventType.SaleLost
+  commentId: F:SuperOffice.WebApi.Data.WorkflowEventType.SaleLost
+  id: SaleLost
+  parent: SuperOffice.WebApi.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: SaleLost
+  nameWithType: WorkflowEventType.SaleLost
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType.SaleLost
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1013: SaleLost\n"
+  syntax:
+    content: public const WorkflowEventType SaleLost
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEventType
+    content.vb: Public Const SaleLost As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.WorkflowEventType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowEventType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowEventType
+  nameWithType: WorkflowEventType
+  fullName: SuperOffice.WebApi.Data.WorkflowEventType

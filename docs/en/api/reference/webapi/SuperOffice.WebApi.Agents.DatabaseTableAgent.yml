@@ -28,31 +28,35 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nAgent used for CRUD operations on database tables. Read, add, update, delete rows in tables.\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nAgent used for CRUD operations on database tables. Read, add, update, delete rows in tables.\n"
   example:
   - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (DatabaseTableAgent agent = new DatabaseTableAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
   syntax:
-    content: 'public class DatabaseTableAgent : AgentBase, IDisposable'
+    content: 'public class DatabaseTableAgent : AgentBase, IDatabaseTableAgent, IDisposable'
     content.vb: >-
       Public Class DatabaseTableAgent
           Inherits AgentBase
-          Implements IDisposable
+          Implements IDatabaseTableAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
+  - SuperOffice.WebApi.Agents.IDatabaseTableAgent
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
   - SuperOffice.WebApi.Agents.AgentBase._binary
   - SuperOffice.WebApi.Agents.AgentBase._config
   - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase._disposeClient
   - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
@@ -63,6 +67,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
   - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   modifiers.csharp:
   - public
   - class
@@ -92,7 +97,7 @@ items:
     parameters:
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+      description: Use this HTTP client instead of making own HttpClient instance.
     content.vb: Public Sub New(httpClient As HttpClient)
   overload: SuperOffice.WebApi.Agents.DatabaseTableAgent.#ctor*
   modifiers.csharp:
@@ -125,7 +130,7 @@ items:
       description: Base URL and authentication values.
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+      description: 'Optional: Use this HTTP client instead of making a new one.'
     content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
   overload: SuperOffice.WebApi.Agents.DatabaseTableAgent.#ctor*
   modifiers.csharp:
@@ -149,7 +154,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nRead a row from a table\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nRead a row from a table\n"
   syntax:
     content: public Task<TableRecord> ReadRowAsync(string tableName, int id, RequestOptions requestOptions = null)
     parameters:
@@ -167,6 +172,8 @@ items:
       description: The row from the table
     content.vb: Public Function ReadRowAsync(tableName As String, id As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TableRecord)
   overload: SuperOffice.WebApi.Agents.DatabaseTableAgent.ReadRowAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDatabaseTableAgent.ReadRowAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -188,7 +195,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nInsert a row into a table\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nInsert a row into a table\n"
   syntax:
     content: public Task<int> InsertRowAsync(string tableName, StringDictionary values, RequestOptions requestOptions = null)
     parameters:
@@ -206,6 +213,8 @@ items:
       description: The id of the newly inserted row
     content.vb: Public Function InsertRowAsync(tableName As String, values As StringDictionary, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
   overload: SuperOffice.WebApi.Agents.DatabaseTableAgent.InsertRowAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertRowAsync(System.String,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -227,7 +236,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nUpdate a row in a table\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nUpdate a row in a table\n"
   syntax:
     content: public Task UpdateRowAsync(string tableName, int id, StringDictionary values, RequestOptions requestOptions = null)
     parameters:
@@ -247,6 +256,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function UpdateRowAsync(tableName As String, id As Integer, values As StringDictionary, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.DatabaseTableAgent.UpdateRowAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpdateRowAsync(System.String,System.Int32,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -268,7 +279,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDelete a row from a table\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nDelete a row from a table\n"
   syntax:
     content: public Task DeleteRowAsync(string tableName, int id, RequestOptions requestOptions = null)
     parameters:
@@ -285,6 +296,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function DeleteRowAsync(tableName As String, id As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.DatabaseTableAgent.DeleteRowAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteRowAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -306,7 +319,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nMass-insert rows, with or without primary keys specified. Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nMass-insert rows, with or without primary keys specified. Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported\n"
   syntax:
     content: public Task<MassOperationResult> InsertAsync(string tableName, string[] columns, string[][] data, RequestOptions requestOptions = null)
     parameters:
@@ -327,6 +340,8 @@ items:
       description: Summary of results
     content.vb: Public Function InsertAsync(tableName As String, columns As String(), data As String()(), requestOptions As RequestOptions = Nothing) As Task(Of MassOperationResult)
   overload: SuperOffice.WebApi.Agents.DatabaseTableAgent.InsertAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertAsync(System.String,System.String[],System.String[][],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: DatabaseTableAgent.InsertAsync(String, String(), String()(), RequestOptions)
   modifiers.csharp:
   - public
@@ -351,7 +366,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDrop all rows in a table. This clearance is not individually logged in TravelTransactionlog or Webhook/script calls\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nDrop all rows in a table. This clearance is not individually logged in TravelTransactionlog or Webhook/script calls\n"
   syntax:
     content: public Task<MassOperationResult> TruncateAsync(string tableName, RequestOptions requestOptions = null)
     parameters:
@@ -366,6 +381,8 @@ items:
       description: Summary of results
     content.vb: Public Function TruncateAsync(tableName As String, requestOptions As RequestOptions = Nothing) As Task(Of MassOperationResult)
   overload: SuperOffice.WebApi.Agents.DatabaseTableAgent.TruncateAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDatabaseTableAgent.TruncateAsync(System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -387,7 +404,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nInsert or update rows, optionally deleting/zeroing &apos;leftover&apos; rows. Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nInsert or update rows, optionally deleting/zeroing &apos;leftover&apos; rows. Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported\n"
   syntax:
     content: public Task<MassOperationResult> UpsertAsync(string tableName, string[] columns, string[] keys, string[][] data, UpsertNomatchAction nomatchAction, bool returnRowStatus, RequestOptions requestOptions = null)
     parameters:
@@ -417,6 +434,8 @@ items:
       description: Summary of results
     content.vb: Public Function UpsertAsync(tableName As String, columns As String(), keys As String(), data As String()(), nomatchAction As UpsertNomatchAction, returnRowStatus As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of MassOperationResult)
   overload: SuperOffice.WebApi.Agents.DatabaseTableAgent.UpsertAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.WebApi.Data.UpsertNomatchAction,System.Boolean,SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: DatabaseTableAgent.UpsertAsync(String, String(), String(), String()(), UpsertNomatchAction, Boolean, RequestOptions)
   modifiers.csharp:
   - public
@@ -441,7 +460,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDelete rows, by primary key; traveltransactionlog and WebHooks are supported\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nDelete rows, by primary key; traveltransactionlog and WebHooks are supported\n"
   syntax:
     content: public Task<MassOperationResult> DeleteAsync(string tableName, int[] iDs, RequestOptions requestOptions = null)
     parameters:
@@ -459,6 +478,8 @@ items:
       description: Summary of results
     content.vb: Public Function DeleteAsync(tableName As String, iDs As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of MassOperationResult)
   overload: SuperOffice.WebApi.Agents.DatabaseTableAgent.DeleteAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: DatabaseTableAgent.DeleteAsync(String, Int32(), RequestOptions)
   modifiers.csharp:
   - public
@@ -487,6 +508,13 @@ references:
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent
+  commentId: T:SuperOffice.WebApi.Agents.IDatabaseTableAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: IDatabaseTableAgent
+  nameWithType: IDatabaseTableAgent
+  fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent
 - uid: System.IDisposable
   isExternal: true
   name: IDisposable
@@ -520,6 +548,13 @@ references:
   name: _client
   nameWithType: AgentBase._client
   fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _disposeClient
+  nameWithType: AgentBase._disposeClient
+  fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
 - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
@@ -771,32 +806,136 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ParseAuthorization(IAuthorization)
-  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  name: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-    name: ParseAuthorization
-    nameWithType: AgentBase.ParseAuthorization
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
-    name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
     nameWithType: AgentBase.ParseAuthorization
     fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
@@ -804,10 +943,27 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
     nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
     nameWithType: )
@@ -928,6 +1084,127 @@ references:
     name: Object
     nameWithType: Object
     fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -1213,6 +1490,13 @@ references:
   name: ProgressListener
   nameWithType: AgentBase.ProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: UploadProgressListener
+  nameWithType: AgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1249,6 +1533,79 @@ references:
   name: ReadRowAsync
   nameWithType: DatabaseTableAgent.ReadRowAsync
   fullName: SuperOffice.WebApi.Agents.DatabaseTableAgent.ReadRowAsync
+- uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.ReadRowAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDatabaseTableAgent.ReadRowAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDatabaseTableAgent
+  isExternal: true
+  name: ReadRowAsync(String, Int32, RequestOptions)
+  nameWithType: IDatabaseTableAgent.ReadRowAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.ReadRowAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.ReadRowAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ReadRowAsync
+    nameWithType: IDatabaseTableAgent.ReadRowAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.ReadRowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.ReadRowAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ReadRowAsync
+    nameWithType: IDatabaseTableAgent.ReadRowAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.ReadRowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1357,6 +1714,79 @@ references:
   name: InsertRowAsync
   nameWithType: DatabaseTableAgent.InsertRowAsync
   fullName: SuperOffice.WebApi.Agents.DatabaseTableAgent.InsertRowAsync
+- uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertRowAsync(System.String,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertRowAsync(System.String,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDatabaseTableAgent
+  isExternal: true
+  name: InsertRowAsync(String, StringDictionary, RequestOptions)
+  nameWithType: IDatabaseTableAgent.InsertRowAsync(String, StringDictionary, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertRowAsync(System.String, SuperOffice.WebApi.Data.StringDictionary, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertRowAsync(System.String,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+    name: InsertRowAsync
+    nameWithType: IDatabaseTableAgent.InsertRowAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertRowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.WebApi.Data.StringDictionary
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertRowAsync(System.String,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+    name: InsertRowAsync
+    nameWithType: IDatabaseTableAgent.InsertRowAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertRowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.WebApi.Data.StringDictionary
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.StringDictionary
   commentId: T:SuperOffice.WebApi.Data.StringDictionary
   parent: SuperOffice.WebApi.Data
@@ -1419,6 +1849,95 @@ references:
   name: UpdateRowAsync
   nameWithType: DatabaseTableAgent.UpdateRowAsync
   fullName: SuperOffice.WebApi.Agents.DatabaseTableAgent.UpdateRowAsync
+- uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpdateRowAsync(System.String,System.Int32,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpdateRowAsync(System.String,System.Int32,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDatabaseTableAgent
+  isExternal: true
+  name: UpdateRowAsync(String, Int32, StringDictionary, RequestOptions)
+  nameWithType: IDatabaseTableAgent.UpdateRowAsync(String, Int32, StringDictionary, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpdateRowAsync(System.String, System.Int32, SuperOffice.WebApi.Data.StringDictionary, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpdateRowAsync(System.String,System.Int32,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+    name: UpdateRowAsync
+    nameWithType: IDatabaseTableAgent.UpdateRowAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpdateRowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.WebApi.Data.StringDictionary
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpdateRowAsync(System.String,System.Int32,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+    name: UpdateRowAsync
+    nameWithType: IDatabaseTableAgent.UpdateRowAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpdateRowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.WebApi.Data.StringDictionary
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task
   isExternal: true
   name: Task
@@ -1430,12 +1949,195 @@ references:
   name: DeleteRowAsync
   nameWithType: DatabaseTableAgent.DeleteRowAsync
   fullName: SuperOffice.WebApi.Agents.DatabaseTableAgent.DeleteRowAsync
+- uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteRowAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteRowAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDatabaseTableAgent
+  isExternal: true
+  name: DeleteRowAsync(String, Int32, RequestOptions)
+  nameWithType: IDatabaseTableAgent.DeleteRowAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteRowAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteRowAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteRowAsync
+    nameWithType: IDatabaseTableAgent.DeleteRowAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteRowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteRowAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteRowAsync
+    nameWithType: IDatabaseTableAgent.DeleteRowAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteRowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.DatabaseTableAgent.InsertAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DatabaseTableAgent.InsertAsync
   isExternal: true
   name: InsertAsync
   nameWithType: DatabaseTableAgent.InsertAsync
   fullName: SuperOffice.WebApi.Agents.DatabaseTableAgent.InsertAsync
+- uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertAsync(System.String,System.String[],System.String[][],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertAsync(System.String,System.String[],System.String[][],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDatabaseTableAgent
+  isExternal: true
+  name: InsertAsync(String, String[], String[][], RequestOptions)
+  nameWithType: IDatabaseTableAgent.InsertAsync(String, String[], String[][], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertAsync(System.String, System.String[], System.String[][], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDatabaseTableAgent.InsertAsync(String, String(), String()(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertAsync(System.String, System.String(), System.String()(), SuperOffice.WebApi.RequestOptions)
+  name.vb: InsertAsync(String, String(), String()(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertAsync(System.String,System.String[],System.String[][],SuperOffice.WebApi.RequestOptions)
+    name: InsertAsync
+    nameWithType: IDatabaseTableAgent.InsertAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertAsync(System.String,System.String[],System.String[][],SuperOffice.WebApi.RequestOptions)
+    name: InsertAsync
+    nameWithType: IDatabaseTableAgent.InsertAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.InsertAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String[]
   isExternal: true
   name: String[]
@@ -1543,12 +2245,233 @@ references:
   name: TruncateAsync
   nameWithType: DatabaseTableAgent.TruncateAsync
   fullName: SuperOffice.WebApi.Agents.DatabaseTableAgent.TruncateAsync
+- uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.TruncateAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDatabaseTableAgent.TruncateAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDatabaseTableAgent
+  isExternal: true
+  name: TruncateAsync(String, RequestOptions)
+  nameWithType: IDatabaseTableAgent.TruncateAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.TruncateAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.TruncateAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: TruncateAsync
+    nameWithType: IDatabaseTableAgent.TruncateAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.TruncateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.TruncateAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: TruncateAsync
+    nameWithType: IDatabaseTableAgent.TruncateAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.TruncateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.DatabaseTableAgent.UpsertAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DatabaseTableAgent.UpsertAsync
   isExternal: true
   name: UpsertAsync
   nameWithType: DatabaseTableAgent.UpsertAsync
   fullName: SuperOffice.WebApi.Agents.DatabaseTableAgent.UpsertAsync
+- uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.WebApi.Data.UpsertNomatchAction,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.WebApi.Data.UpsertNomatchAction,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDatabaseTableAgent
+  isExternal: true
+  name: UpsertAsync(String, String[], String[], String[][], UpsertNomatchAction, Boolean, RequestOptions)
+  nameWithType: IDatabaseTableAgent.UpsertAsync(String, String[], String[], String[][], UpsertNomatchAction, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpsertAsync(System.String, System.String[], System.String[], System.String[][], SuperOffice.WebApi.Data.UpsertNomatchAction, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDatabaseTableAgent.UpsertAsync(String, String(), String(), String()(), UpsertNomatchAction, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpsertAsync(System.String, System.String(), System.String(), System.String()(), SuperOffice.WebApi.Data.UpsertNomatchAction, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: UpsertAsync(String, String(), String(), String()(), UpsertNomatchAction, Boolean, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.WebApi.Data.UpsertNomatchAction,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: UpsertAsync
+    nameWithType: IDatabaseTableAgent.UpsertAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpsertAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.UpsertNomatchAction
+    name: UpsertNomatchAction
+    nameWithType: UpsertNomatchAction
+    fullName: SuperOffice.WebApi.Data.UpsertNomatchAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.WebApi.Data.UpsertNomatchAction,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: UpsertAsync
+    nameWithType: IDatabaseTableAgent.UpsertAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.UpsertAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.UpsertNomatchAction
+    name: UpsertNomatchAction
+    nameWithType: UpsertNomatchAction
+    fullName: SuperOffice.WebApi.Data.UpsertNomatchAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.UpsertNomatchAction
   commentId: T:SuperOffice.WebApi.Data.UpsertNomatchAction
   parent: SuperOffice.WebApi.Data
@@ -1569,6 +2492,88 @@ references:
   name: DeleteAsync
   nameWithType: DatabaseTableAgent.DeleteAsync
   fullName: SuperOffice.WebApi.Agents.DatabaseTableAgent.DeleteAsync
+- uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDatabaseTableAgent
+  isExternal: true
+  name: DeleteAsync(String, Int32[], RequestOptions)
+  nameWithType: IDatabaseTableAgent.DeleteAsync(String, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteAsync(System.String, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDatabaseTableAgent.DeleteAsync(String, Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteAsync(System.String, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteAsync(String, Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: DeleteAsync
+    nameWithType: IDatabaseTableAgent.DeleteAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: DeleteAsync
+    nameWithType: IDatabaseTableAgent.DeleteAsync
+    fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent.DeleteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]

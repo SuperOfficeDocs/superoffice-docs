@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest
+  commentId: T:SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest
+  id: Targets_GetTargetRevisionHistoryRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.#ctor
+  - SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.TargetAssignmentInfoId
+  langs:
+  - csharp
+  - vb
+  name: Targets_GetTargetRevisionHistoryRequest
+  nameWithType: Targets_GetTargetRevisionHistoryRequest
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Targets_GetTargetRevisionHistoryRequest : Object'
+    content.vb: >-
+      Public Class Targets_GetTargetRevisionHistoryRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest
+  langs:
+  - csharp
+  - vb
+  name: Targets_GetTargetRevisionHistoryRequest()
+  nameWithType: Targets_GetTargetRevisionHistoryRequest.Targets_GetTargetRevisionHistoryRequest()
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.Targets_GetTargetRevisionHistoryRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Targets_GetTargetRevisionHistoryRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.TargetAssignmentInfoId
+  commentId: P:SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.TargetAssignmentInfoId
+  id: TargetAssignmentInfoId
+  parent: SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetAssignmentInfoId
+  nameWithType: Targets_GetTargetRevisionHistoryRequest.TargetAssignmentInfoId
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.TargetAssignmentInfoId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TargetAssignmentInfoId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TargetAssignmentInfoId As Integer
+  overload: SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.TargetAssignmentInfoId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.#ctor
+  isExternal: true
+  name: Targets_GetTargetRevisionHistoryRequest
+  nameWithType: Targets_GetTargetRevisionHistoryRequest.Targets_GetTargetRevisionHistoryRequest
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.Targets_GetTargetRevisionHistoryRequest
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.TargetAssignmentInfoId*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.TargetAssignmentInfoId
+  isExternal: true
+  name: TargetAssignmentInfoId
+  nameWithType: Targets_GetTargetRevisionHistoryRequest.TargetAssignmentInfoId
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetRevisionHistoryRequest.TargetAssignmentInfoId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

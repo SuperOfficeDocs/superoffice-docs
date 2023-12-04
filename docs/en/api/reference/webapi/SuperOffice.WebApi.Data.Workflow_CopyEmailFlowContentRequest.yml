@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest
+  commentId: T:SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest
+  id: Workflow_CopyEmailFlowContentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.#ctor
+  - SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.EmailFlowId
+  - SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.ShipmentId
+  langs:
+  - csharp
+  - vb
+  name: Workflow_CopyEmailFlowContentRequest
+  nameWithType: Workflow_CopyEmailFlowContentRequest
+  fullName: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Workflow_CopyEmailFlowContentRequest : Object'
+    content.vb: >-
+      Public Class Workflow_CopyEmailFlowContentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest
+  langs:
+  - csharp
+  - vb
+  name: Workflow_CopyEmailFlowContentRequest()
+  nameWithType: Workflow_CopyEmailFlowContentRequest.Workflow_CopyEmailFlowContentRequest()
+  fullName: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.Workflow_CopyEmailFlowContentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Workflow_CopyEmailFlowContentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.EmailFlowId
+  commentId: P:SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.EmailFlowId
+  id: EmailFlowId
+  parent: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailFlowId
+  nameWithType: Workflow_CopyEmailFlowContentRequest.EmailFlowId
+  fullName: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.EmailFlowId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int EmailFlowId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EmailFlowId As Integer
+  overload: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.EmailFlowId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.ShipmentId
+  commentId: P:SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.ShipmentId
+  id: ShipmentId
+  parent: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest
+  langs:
+  - csharp
+  - vb
+  name: ShipmentId
+  nameWithType: Workflow_CopyEmailFlowContentRequest.ShipmentId
+  fullName: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.ShipmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ShipmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ShipmentId As Integer
+  overload: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.ShipmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.#ctor
+  isExternal: true
+  name: Workflow_CopyEmailFlowContentRequest
+  nameWithType: Workflow_CopyEmailFlowContentRequest.Workflow_CopyEmailFlowContentRequest
+  fullName: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.Workflow_CopyEmailFlowContentRequest
+- uid: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.EmailFlowId*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.EmailFlowId
+  isExternal: true
+  name: EmailFlowId
+  nameWithType: Workflow_CopyEmailFlowContentRequest.EmailFlowId
+  fullName: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.EmailFlowId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.ShipmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.ShipmentId
+  isExternal: true
+  name: ShipmentId
+  nameWithType: Workflow_CopyEmailFlowContentRequest.ShipmentId
+  fullName: SuperOffice.WebApi.Data.Workflow_CopyEmailFlowContentRequest.ShipmentId

@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTextRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_SummarizeTextRequest
+  id: AI_SummarizeTextRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AI_SummarizeTextRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_SummarizeTextRequest.IsoLangCode
+  - SuperOffice.WebApi.Data.AI_SummarizeTextRequest.PercentSmaller
+  - SuperOffice.WebApi.Data.AI_SummarizeTextRequest.Text
+  langs:
+  - csharp
+  - vb
+  name: AI_SummarizeTextRequest
+  nameWithType: AI_SummarizeTextRequest
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTextRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class AI_SummarizeTextRequest : Object'
+    content.vb: >-
+      Public Class AI_SummarizeTextRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_SummarizeTextRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AI_SummarizeTextRequest
+  langs:
+  - csharp
+  - vb
+  name: AI_SummarizeTextRequest()
+  nameWithType: AI_SummarizeTextRequest.AI_SummarizeTextRequest()
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.AI_SummarizeTextRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AI_SummarizeTextRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.Text
+  commentId: P:SuperOffice.WebApi.Data.AI_SummarizeTextRequest.Text
+  id: Text
+  parent: SuperOffice.WebApi.Data.AI_SummarizeTextRequest
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: AI_SummarizeTextRequest.Text
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.Text
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.PercentSmaller
+  commentId: P:SuperOffice.WebApi.Data.AI_SummarizeTextRequest.PercentSmaller
+  id: PercentSmaller
+  parent: SuperOffice.WebApi.Data.AI_SummarizeTextRequest
+  langs:
+  - csharp
+  - vb
+  name: PercentSmaller
+  nameWithType: AI_SummarizeTextRequest.PercentSmaller
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.PercentSmaller
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PercentSmaller { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PercentSmaller As Integer
+  overload: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.PercentSmaller*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.IsoLangCode
+  commentId: P:SuperOffice.WebApi.Data.AI_SummarizeTextRequest.IsoLangCode
+  id: IsoLangCode
+  parent: SuperOffice.WebApi.Data.AI_SummarizeTextRequest
+  langs:
+  - csharp
+  - vb
+  name: IsoLangCode
+  nameWithType: AI_SummarizeTextRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.IsoLangCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string IsoLangCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IsoLangCode As String
+  overload: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.IsoLangCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_SummarizeTextRequest.#ctor
+  isExternal: true
+  name: AI_SummarizeTextRequest
+  nameWithType: AI_SummarizeTextRequest.AI_SummarizeTextRequest
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.AI_SummarizeTextRequest
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.Text*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_SummarizeTextRequest.Text
+  isExternal: true
+  name: Text
+  nameWithType: AI_SummarizeTextRequest.Text
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.PercentSmaller*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_SummarizeTextRequest.PercentSmaller
+  isExternal: true
+  name: PercentSmaller
+  nameWithType: AI_SummarizeTextRequest.PercentSmaller
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.PercentSmaller
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.IsoLangCode*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_SummarizeTextRequest.IsoLangCode
+  isExternal: true
+  name: IsoLangCode
+  nameWithType: AI_SummarizeTextRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTextRequest.IsoLangCode

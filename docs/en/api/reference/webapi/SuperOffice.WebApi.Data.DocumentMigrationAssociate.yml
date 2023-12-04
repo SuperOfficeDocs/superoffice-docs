@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DocumentMigrationAssociate
+  commentId: T:SuperOffice.WebApi.Data.DocumentMigrationAssociate
+  id: DocumentMigrationAssociate
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DocumentMigrationAssociate.#ctor
+  - SuperOffice.WebApi.Data.DocumentMigrationAssociate.AssociateId
+  - SuperOffice.WebApi.Data.DocumentMigrationAssociate.EmailAddress
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigrationAssociate
+  nameWithType: DocumentMigrationAssociate
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationAssociate
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for DocumentMigrationAssociate.\nClass used to map relationship between AssociateId and the user&apos;s email.    \n"
+  syntax:
+    content: 'public class DocumentMigrationAssociate : Object'
+    content.vb: >-
+      Public Class DocumentMigrationAssociate
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DocumentMigrationAgent
+    commentId: T:SuperOffice.WebApi.Agents.DocumentMigrationAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DocumentMigrationAssociate.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DocumentMigrationAssociate.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DocumentMigrationAssociate
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigrationAssociate()
+  nameWithType: DocumentMigrationAssociate.DocumentMigrationAssociate()
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationAssociate.DocumentMigrationAssociate()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public DocumentMigrationAssociate()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DocumentMigrationAssociate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentMigrationAssociate.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationAssociate.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.DocumentMigrationAssociate
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DocumentMigrationAssociate.AssociateId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationAssociate.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigrationAssociate.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentMigrationAssociate.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationAssociate.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.DocumentMigrationAssociate
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: DocumentMigrationAssociate.EmailAddress
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationAssociate.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe address itself\n"
+  syntax:
+    content: public virtual string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.DocumentMigrationAssociate.EmailAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.DocumentMigrationAgent
+  commentId: T:SuperOffice.WebApi.Agents.DocumentMigrationAgent
+  isExternal: true
+  name: DocumentMigrationAgent
+  nameWithType: DocumentMigrationAgent
+  fullName: SuperOffice.WebApi.Agents.DocumentMigrationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DocumentMigrationAssociate.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationAssociate.#ctor
+  isExternal: true
+  name: DocumentMigrationAssociate
+  nameWithType: DocumentMigrationAssociate.DocumentMigrationAssociate
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationAssociate.DocumentMigrationAssociate
+- uid: SuperOffice.WebApi.Data.DocumentMigrationAssociate.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationAssociate.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: DocumentMigrationAssociate.AssociateId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationAssociate.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DocumentMigrationAssociate.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationAssociate.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: DocumentMigrationAssociate.EmailAddress
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationAssociate.EmailAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,337 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PreviewDashTile
+  commentId: T:SuperOffice.WebApi.Data.PreviewDashTile
+  id: PreviewDashTile
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PreviewDashTile.#ctor
+  - SuperOffice.WebApi.Data.PreviewDashTile.Name
+  - SuperOffice.WebApi.Data.PreviewDashTile.TileType
+  - SuperOffice.WebApi.Data.PreviewDashTile.TileType_String
+  langs:
+  - csharp
+  - vb
+  name: PreviewDashTile
+  nameWithType: PreviewDashTile
+  fullName: SuperOffice.WebApi.Data.PreviewDashTile
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PreviewDashTile.\nDashboard tile preview    \n"
+  syntax:
+    content: 'public class PreviewDashTile : Carrier'
+    content.vb: >-
+      Public Class PreviewDashTile
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DashAgent
+    commentId: T:SuperOffice.WebApi.Agents.DashAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PreviewDashTile.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PreviewDashTile.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PreviewDashTile
+  langs:
+  - csharp
+  - vb
+  name: PreviewDashTile()
+  nameWithType: PreviewDashTile.PreviewDashTile()
+  fullName: SuperOffice.WebApi.Data.PreviewDashTile.PreviewDashTile()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PreviewDashTile()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PreviewDashTile.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PreviewDashTile.Name
+  commentId: P:SuperOffice.WebApi.Data.PreviewDashTile.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.PreviewDashTile
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PreviewDashTile.Name
+  fullName: SuperOffice.WebApi.Data.PreviewDashTile.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the tile\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.PreviewDashTile.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewDashTile.TileType_String
+  commentId: P:SuperOffice.WebApi.Data.PreviewDashTile.TileType_String
+  id: TileType_String
+  parent: SuperOffice.WebApi.Data.PreviewDashTile
+  langs:
+  - csharp
+  - vb
+  name: TileType_String
+  nameWithType: PreviewDashTile.TileType_String
+  fullName: SuperOffice.WebApi.Data.PreviewDashTile.TileType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDashboard tile type\nRaw string enum value.\n"
+  syntax:
+    content: public string TileType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TileType_String As String
+  overload: SuperOffice.WebApi.Data.PreviewDashTile.TileType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PreviewDashTile.TileType
+    commentId: P:SuperOffice.WebApi.Data.PreviewDashTile.TileType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PreviewDashTile.TileType
+  commentId: P:SuperOffice.WebApi.Data.PreviewDashTile.TileType
+  id: TileType
+  parent: SuperOffice.WebApi.Data.PreviewDashTile
+  langs:
+  - csharp
+  - vb
+  name: TileType
+  nameWithType: PreviewDashTile.TileType
+  fullName: SuperOffice.WebApi.Data.PreviewDashTile.TileType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDashboard tile type\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<DashTileType> TileType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.DashTileType}
+    content.vb: Public Property TileType As Nullable(Of DashTileType)
+  overload: SuperOffice.WebApi.Data.PreviewDashTile.TileType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PreviewDashTile.TileType_String
+    commentId: P:SuperOffice.WebApi.Data.PreviewDashTile.TileType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DashAgent
+  commentId: T:SuperOffice.WebApi.Agents.DashAgent
+  isExternal: true
+  name: DashAgent
+  nameWithType: DashAgent
+  fullName: SuperOffice.WebApi.Agents.DashAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PreviewDashTile.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewDashTile.#ctor
+  isExternal: true
+  name: PreviewDashTile
+  nameWithType: PreviewDashTile.PreviewDashTile
+  fullName: SuperOffice.WebApi.Data.PreviewDashTile.PreviewDashTile
+- uid: SuperOffice.WebApi.Data.PreviewDashTile.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewDashTile.Name
+  isExternal: true
+  name: Name
+  nameWithType: PreviewDashTile.Name
+  fullName: SuperOffice.WebApi.Data.PreviewDashTile.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.PreviewDashTile.TileType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewDashTile.TileType_String
+  isExternal: true
+  name: TileType_String
+  nameWithType: PreviewDashTile.TileType_String
+  fullName: SuperOffice.WebApi.Data.PreviewDashTile.TileType_String
+- uid: SuperOffice.WebApi.Data.PreviewDashTile.TileType
+  commentId: P:SuperOffice.WebApi.Data.PreviewDashTile.TileType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.PreviewDashTile.TileType*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewDashTile.TileType
+  isExternal: true
+  name: TileType
+  nameWithType: PreviewDashTile.TileType
+  fullName: SuperOffice.WebApi.Data.PreviewDashTile.TileType
+- uid: SuperOffice.WebApi.Data.PreviewDashTile.TileType_String
+  commentId: P:SuperOffice.WebApi.Data.PreviewDashTile.TileType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.DashTileType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.DashTileType}'
+  definition: System.Nullable`1
+  name: Nullable<DashTileType>
+  nameWithType: Nullable<DashTileType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.DashTileType>
+  nameWithType.vb: Nullable(Of DashTileType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.DashTileType)
+  name.vb: Nullable(Of DashTileType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DashTileType
+    name: DashTileType
+    nameWithType: DashTileType
+    fullName: SuperOffice.WebApi.Data.DashTileType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DashTileType
+    name: DashTileType
+    nameWithType: DashTileType
+    fullName: SuperOffice.WebApi.Data.DashTileType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

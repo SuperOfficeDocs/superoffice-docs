@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.OperationResult
+  commentId: T:SuperOffice.WebApi.Data.OperationResult
+  id: OperationResult
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.OperationResult.#ctor
+  - SuperOffice.WebApi.Data.OperationResult.Message
+  - SuperOffice.WebApi.Data.OperationResult.Success
+  langs:
+  - csharp
+  - vb
+  name: OperationResult
+  nameWithType: OperationResult
+  fullName: SuperOffice.WebApi.Data.OperationResult
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for OperationResult.\nOperation result    \n"
+  syntax:
+    content: 'public class OperationResult : Object'
+    content.vb: >-
+      Public Class OperationResult
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.OperationResult.#ctor
+  commentId: M:SuperOffice.WebApi.Data.OperationResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.OperationResult
+  langs:
+  - csharp
+  - vb
+  name: OperationResult()
+  nameWithType: OperationResult.OperationResult()
+  fullName: SuperOffice.WebApi.Data.OperationResult.OperationResult()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public OperationResult()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.OperationResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.OperationResult.Success
+  commentId: P:SuperOffice.WebApi.Data.OperationResult.Success
+  id: Success
+  parent: SuperOffice.WebApi.Data.OperationResult
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: OperationResult.Success
+  fullName: SuperOffice.WebApi.Data.OperationResult.Success
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates if the operation was successful.\n"
+  syntax:
+    content: public virtual bool Success { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Success As Boolean
+  overload: SuperOffice.WebApi.Data.OperationResult.Success*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.OperationResult.Message
+  commentId: P:SuperOffice.WebApi.Data.OperationResult.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.OperationResult
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: OperationResult.Message
+  fullName: SuperOffice.WebApi.Data.OperationResult.Message
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSuccess/Error message. This can be a symbol ([SR_xxxx])\n"
+  syntax:
+    content: public virtual string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Message As String
+  overload: SuperOffice.WebApi.Data.OperationResult.Message*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.OperationResult.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.OperationResult.#ctor
+  isExternal: true
+  name: OperationResult
+  nameWithType: OperationResult.OperationResult
+  fullName: SuperOffice.WebApi.Data.OperationResult.OperationResult
+- uid: SuperOffice.WebApi.Data.OperationResult.Success*
+  commentId: Overload:SuperOffice.WebApi.Data.OperationResult.Success
+  isExternal: true
+  name: Success
+  nameWithType: OperationResult.Success
+  fullName: SuperOffice.WebApi.Data.OperationResult.Success
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.OperationResult.Message*
+  commentId: Overload:SuperOffice.WebApi.Data.OperationResult.Message
+  isExternal: true
+  name: Message
+  nameWithType: OperationResult.Message
+  fullName: SuperOffice.WebApi.Data.OperationResult.Message
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TargetMeasurementUnit
+  commentId: T:SuperOffice.WebApi.Data.TargetMeasurementUnit
+  id: TargetMeasurementUnit
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TargetMeasurementUnit.Amount
+  - SuperOffice.WebApi.Data.TargetMeasurementUnit.Count
+  - SuperOffice.WebApi.Data.TargetMeasurementUnit.None
+  - SuperOffice.WebApi.Data.TargetMeasurementUnit.Profit
+  - SuperOffice.WebApi.Data.TargetMeasurementUnit.value__
+  langs:
+  - csharp
+  - vb
+  name: TargetMeasurementUnit
+  nameWithType: TargetMeasurementUnit
+  fullName: SuperOffice.WebApi.Data.TargetMeasurementUnit
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTarget measurement unit\nThis Enum is used by:  target_dimension.measurement_unit\n"
+  syntax:
+    content: 'public sealed class TargetMeasurementUnit : Enum'
+    content.vb: >-
+      Public NotInheritable Class TargetMeasurementUnit
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TargetMeasurementUnit.value__
+  commentId: F:SuperOffice.WebApi.Data.TargetMeasurementUnit.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TargetMeasurementUnit
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TargetMeasurementUnit.value__
+  fullName: SuperOffice.WebApi.Data.TargetMeasurementUnit.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TargetMeasurementUnit.None
+  commentId: F:SuperOffice.WebApi.Data.TargetMeasurementUnit.None
+  id: None
+  parent: SuperOffice.WebApi.Data.TargetMeasurementUnit
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: TargetMeasurementUnit.None
+  fullName: SuperOffice.WebApi.Data.TargetMeasurementUnit.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const TargetMeasurementUnit None
+    return:
+      type: SuperOffice.WebApi.Data.TargetMeasurementUnit
+    content.vb: Public Const None As TargetMeasurementUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TargetMeasurementUnit.Amount
+  commentId: F:SuperOffice.WebApi.Data.TargetMeasurementUnit.Amount
+  id: Amount
+  parent: SuperOffice.WebApi.Data.TargetMeasurementUnit
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: TargetMeasurementUnit.Amount
+  fullName: SuperOffice.WebApi.Data.TargetMeasurementUnit.Amount
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Amount\n"
+  syntax:
+    content: public const TargetMeasurementUnit Amount
+    return:
+      type: SuperOffice.WebApi.Data.TargetMeasurementUnit
+    content.vb: Public Const Amount As TargetMeasurementUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TargetMeasurementUnit.Count
+  commentId: F:SuperOffice.WebApi.Data.TargetMeasurementUnit.Count
+  id: Count
+  parent: SuperOffice.WebApi.Data.TargetMeasurementUnit
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: TargetMeasurementUnit.Count
+  fullName: SuperOffice.WebApi.Data.TargetMeasurementUnit.Count
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Count\n"
+  syntax:
+    content: public const TargetMeasurementUnit Count
+    return:
+      type: SuperOffice.WebApi.Data.TargetMeasurementUnit
+    content.vb: Public Const Count As TargetMeasurementUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TargetMeasurementUnit.Profit
+  commentId: F:SuperOffice.WebApi.Data.TargetMeasurementUnit.Profit
+  id: Profit
+  parent: SuperOffice.WebApi.Data.TargetMeasurementUnit
+  langs:
+  - csharp
+  - vb
+  name: Profit
+  nameWithType: TargetMeasurementUnit.Profit
+  fullName: SuperOffice.WebApi.Data.TargetMeasurementUnit.Profit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Profit\n"
+  syntax:
+    content: public const TargetMeasurementUnit Profit
+    return:
+      type: SuperOffice.WebApi.Data.TargetMeasurementUnit
+    content.vb: Public Const Profit As TargetMeasurementUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.TargetMeasurementUnit
+  commentId: T:SuperOffice.WebApi.Data.TargetMeasurementUnit
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TargetMeasurementUnit
+  nameWithType: TargetMeasurementUnit
+  fullName: SuperOffice.WebApi.Data.TargetMeasurementUnit

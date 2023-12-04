@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EntityCounts
+  commentId: T:SuperOffice.WebApi.Data.EntityCounts
+  id: EntityCounts
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EntityCounts.#ctor
+  - SuperOffice.WebApi.Data.EntityCounts.EntityName
+  - SuperOffice.WebApi.Data.EntityCounts.Records
+  langs:
+  - csharp
+  - vb
+  name: EntityCounts
+  nameWithType: EntityCounts
+  fullName: SuperOffice.WebApi.Data.EntityCounts
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for EntityCounts.\n\n"
+  syntax:
+    content: 'public class EntityCounts : Carrier'
+    content.vb: >-
+      Public Class EntityCounts
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DiagnosticsAgent
+    commentId: T:SuperOffice.WebApi.Agents.DiagnosticsAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EntityCounts.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EntityCounts.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EntityCounts
+  langs:
+  - csharp
+  - vb
+  name: EntityCounts()
+  nameWithType: EntityCounts.EntityCounts()
+  fullName: SuperOffice.WebApi.Data.EntityCounts.EntityCounts()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public EntityCounts()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EntityCounts.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EntityCounts.EntityName
+  commentId: P:SuperOffice.WebApi.Data.EntityCounts.EntityName
+  id: EntityName
+  parent: SuperOffice.WebApi.Data.EntityCounts
+  langs:
+  - csharp
+  - vb
+  name: EntityName
+  nameWithType: EntityCounts.EntityName
+  fullName: SuperOffice.WebApi.Data.EntityCounts.EntityName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe entity measured by this tile\n"
+  syntax:
+    content: public virtual string EntityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EntityName As String
+  overload: SuperOffice.WebApi.Data.EntityCounts.EntityName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EntityCounts.Records
+  commentId: P:SuperOffice.WebApi.Data.EntityCounts.Records
+  id: Records
+  parent: SuperOffice.WebApi.Data.EntityCounts
+  langs:
+  - csharp
+  - vb
+  name: Records
+  nameWithType: EntityCounts.Records
+  fullName: SuperOffice.WebApi.Data.EntityCounts.Records
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of entities (EntityName) an associate has created\n"
+  syntax:
+    content: public virtual int Records { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Records As Integer
+  overload: SuperOffice.WebApi.Data.EntityCounts.Records*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent
+  commentId: T:SuperOffice.WebApi.Agents.DiagnosticsAgent
+  isExternal: true
+  name: DiagnosticsAgent
+  nameWithType: DiagnosticsAgent
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EntityCounts.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EntityCounts.#ctor
+  isExternal: true
+  name: EntityCounts
+  nameWithType: EntityCounts.EntityCounts
+  fullName: SuperOffice.WebApi.Data.EntityCounts.EntityCounts
+- uid: SuperOffice.WebApi.Data.EntityCounts.EntityName*
+  commentId: Overload:SuperOffice.WebApi.Data.EntityCounts.EntityName
+  isExternal: true
+  name: EntityName
+  nameWithType: EntityCounts.EntityName
+  fullName: SuperOffice.WebApi.Data.EntityCounts.EntityName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EntityCounts.Records*
+  commentId: Overload:SuperOffice.WebApi.Data.EntityCounts.Records
+  isExternal: true
+  name: Records
+  nameWithType: EntityCounts.Records
+  fullName: SuperOffice.WebApi.Data.EntityCounts.Records
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

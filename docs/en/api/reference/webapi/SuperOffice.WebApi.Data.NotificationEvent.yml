@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.NotificationEvent
+  commentId: T:SuperOffice.WebApi.Data.NotificationEvent
+  id: NotificationEvent
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.NotificationEvent.#ctor
+  - SuperOffice.WebApi.Data.NotificationEvent.Id
+  - SuperOffice.WebApi.Data.NotificationEvent.Type
+  - SuperOffice.WebApi.Data.NotificationEvent.Type_String
+  langs:
+  - csharp
+  - vb
+  name: NotificationEvent
+  nameWithType: NotificationEvent
+  fullName: SuperOffice.WebApi.Data.NotificationEvent
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for NotificationEvent.\nCarrier for a notification event for a given notification type and entity id    \n"
+  syntax:
+    content: 'public class NotificationEvent : Object'
+    content.vb: >-
+      Public Class NotificationEvent
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PocketAgent
+    commentId: T:SuperOffice.WebApi.Agents.PocketAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.NotificationEvent.#ctor
+  commentId: M:SuperOffice.WebApi.Data.NotificationEvent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.NotificationEvent
+  langs:
+  - csharp
+  - vb
+  name: NotificationEvent()
+  nameWithType: NotificationEvent.NotificationEvent()
+  fullName: SuperOffice.WebApi.Data.NotificationEvent.NotificationEvent()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public NotificationEvent()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.NotificationEvent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.NotificationEvent.Type_String
+  commentId: P:SuperOffice.WebApi.Data.NotificationEvent.Type_String
+  id: Type_String
+  parent: SuperOffice.WebApi.Data.NotificationEvent
+  langs:
+  - csharp
+  - vb
+  name: Type_String
+  nameWithType: NotificationEvent.Type_String
+  fullName: SuperOffice.WebApi.Data.NotificationEvent.Type_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of notification event\nRaw string enum value.\n"
+  syntax:
+    content: public string Type_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type_String As String
+  overload: SuperOffice.WebApi.Data.NotificationEvent.Type_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.NotificationEvent.Type
+    commentId: P:SuperOffice.WebApi.Data.NotificationEvent.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.NotificationEvent.Type
+  commentId: P:SuperOffice.WebApi.Data.NotificationEvent.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.NotificationEvent
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: NotificationEvent.Type
+  fullName: SuperOffice.WebApi.Data.NotificationEvent.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of notification event\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<NotificationEventType> Type { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.NotificationEventType}
+    content.vb: Public Property Type As Nullable(Of NotificationEventType)
+  overload: SuperOffice.WebApi.Data.NotificationEvent.Type*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.NotificationEvent.Type_String
+    commentId: P:SuperOffice.WebApi.Data.NotificationEvent.Type_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.NotificationEvent.Id
+  commentId: P:SuperOffice.WebApi.Data.NotificationEvent.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.NotificationEvent
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: NotificationEvent.Id
+  fullName: SuperOffice.WebApi.Data.NotificationEvent.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of entity this notification event is about\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.NotificationEvent.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.PocketAgent
+  commentId: T:SuperOffice.WebApi.Agents.PocketAgent
+  isExternal: true
+  name: PocketAgent
+  nameWithType: PocketAgent
+  fullName: SuperOffice.WebApi.Agents.PocketAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.NotificationEvent.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.NotificationEvent.#ctor
+  isExternal: true
+  name: NotificationEvent
+  nameWithType: NotificationEvent.NotificationEvent
+  fullName: SuperOffice.WebApi.Data.NotificationEvent.NotificationEvent
+- uid: SuperOffice.WebApi.Data.NotificationEvent.Type_String*
+  commentId: Overload:SuperOffice.WebApi.Data.NotificationEvent.Type_String
+  isExternal: true
+  name: Type_String
+  nameWithType: NotificationEvent.Type_String
+  fullName: SuperOffice.WebApi.Data.NotificationEvent.Type_String
+- uid: SuperOffice.WebApi.Data.NotificationEvent.Type
+  commentId: P:SuperOffice.WebApi.Data.NotificationEvent.Type
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.NotificationEvent.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.NotificationEvent.Type
+  isExternal: true
+  name: Type
+  nameWithType: NotificationEvent.Type
+  fullName: SuperOffice.WebApi.Data.NotificationEvent.Type
+- uid: SuperOffice.WebApi.Data.NotificationEvent.Type_String
+  commentId: P:SuperOffice.WebApi.Data.NotificationEvent.Type_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.NotificationEventType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.NotificationEventType}'
+  definition: System.Nullable`1
+  name: Nullable<NotificationEventType>
+  nameWithType: Nullable<NotificationEventType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.NotificationEventType>
+  nameWithType.vb: Nullable(Of NotificationEventType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.NotificationEventType)
+  name.vb: Nullable(Of NotificationEventType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.NotificationEventType
+    name: NotificationEventType
+    nameWithType: NotificationEventType
+    fullName: SuperOffice.WebApi.Data.NotificationEventType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.NotificationEventType
+    name: NotificationEventType
+    nameWithType: NotificationEventType
+    fullName: SuperOffice.WebApi.Data.NotificationEventType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.NotificationEvent.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.NotificationEvent.Id
+  isExternal: true
+  name: Id
+  nameWithType: NotificationEvent.Id
+  fullName: SuperOffice.WebApi.Data.NotificationEvent.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

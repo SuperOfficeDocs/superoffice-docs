@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest
+  commentId: T:SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest
+  id: ViewState_PublishAndRetrieveUiEventsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.#ctor
+  - SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.LatestKnownEventId
+  - SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.Metrics
+  - SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.PublishEvents
+  langs:
+  - csharp
+  - vb
+  name: ViewState_PublishAndRetrieveUiEventsRequest
+  nameWithType: ViewState_PublishAndRetrieveUiEventsRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ViewState_PublishAndRetrieveUiEventsRequest : Object'
+    content.vb: >-
+      Public Class ViewState_PublishAndRetrieveUiEventsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest
+  langs:
+  - csharp
+  - vb
+  name: ViewState_PublishAndRetrieveUiEventsRequest()
+  nameWithType: ViewState_PublishAndRetrieveUiEventsRequest.ViewState_PublishAndRetrieveUiEventsRequest()
+  fullName: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.ViewState_PublishAndRetrieveUiEventsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ViewState_PublishAndRetrieveUiEventsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.LatestKnownEventId
+  commentId: P:SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.LatestKnownEventId
+  id: LatestKnownEventId
+  parent: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest
+  langs:
+  - csharp
+  - vb
+  name: LatestKnownEventId
+  nameWithType: ViewState_PublishAndRetrieveUiEventsRequest.LatestKnownEventId
+  fullName: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.LatestKnownEventId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int LatestKnownEventId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LatestKnownEventId As Integer
+  overload: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.LatestKnownEventId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.PublishEvents
+  commentId: P:SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.PublishEvents
+  id: PublishEvents
+  parent: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest
+  langs:
+  - csharp
+  - vb
+  name: PublishEvents
+  nameWithType: ViewState_PublishAndRetrieveUiEventsRequest.PublishEvents
+  fullName: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.PublishEvents
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UiEvent[] PublishEvents { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UiEvent[]
+    content.vb: Public Property PublishEvents As UiEvent()
+  overload: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.PublishEvents*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.Metrics
+  commentId: P:SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.Metrics
+  id: Metrics
+  parent: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest
+  langs:
+  - csharp
+  - vb
+  name: Metrics
+  nameWithType: ViewState_PublishAndRetrieveUiEventsRequest.Metrics
+  fullName: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.Metrics
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public MetricPair[] Metrics { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.MetricPair[]
+    content.vb: Public Property Metrics As MetricPair()
+  overload: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.Metrics*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.#ctor
+  isExternal: true
+  name: ViewState_PublishAndRetrieveUiEventsRequest
+  nameWithType: ViewState_PublishAndRetrieveUiEventsRequest.ViewState_PublishAndRetrieveUiEventsRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.ViewState_PublishAndRetrieveUiEventsRequest
+- uid: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.LatestKnownEventId*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.LatestKnownEventId
+  isExternal: true
+  name: LatestKnownEventId
+  nameWithType: ViewState_PublishAndRetrieveUiEventsRequest.LatestKnownEventId
+  fullName: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.LatestKnownEventId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.PublishEvents*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.PublishEvents
+  isExternal: true
+  name: PublishEvents
+  nameWithType: ViewState_PublishAndRetrieveUiEventsRequest.PublishEvents
+  fullName: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.PublishEvents
+- uid: SuperOffice.WebApi.Data.UiEvent[]
+  isExternal: true
+  name: UiEvent[]
+  nameWithType: UiEvent[]
+  fullName: SuperOffice.WebApi.Data.UiEvent[]
+  nameWithType.vb: UiEvent()
+  fullName.vb: SuperOffice.WebApi.Data.UiEvent()
+  name.vb: UiEvent()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.UiEvent
+    name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.WebApi.Data.UiEvent
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.UiEvent
+    name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.WebApi.Data.UiEvent
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.Metrics*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.Metrics
+  isExternal: true
+  name: Metrics
+  nameWithType: ViewState_PublishAndRetrieveUiEventsRequest.Metrics
+  fullName: SuperOffice.WebApi.Data.ViewState_PublishAndRetrieveUiEventsRequest.Metrics
+- uid: SuperOffice.WebApi.Data.MetricPair[]
+  isExternal: true
+  name: MetricPair[]
+  nameWithType: MetricPair[]
+  fullName: SuperOffice.WebApi.Data.MetricPair[]
+  nameWithType.vb: MetricPair()
+  fullName.vb: SuperOffice.WebApi.Data.MetricPair()
+  name.vb: MetricPair()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.MetricPair
+    name: MetricPair
+    nameWithType: MetricPair
+    fullName: SuperOffice.WebApi.Data.MetricPair
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.MetricPair
+    name: MetricPair
+    nameWithType: MetricPair
+    fullName: SuperOffice.WebApi.Data.MetricPair
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

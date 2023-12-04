@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_BatchReplyRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_BatchReplyRequest
+  id: Ticket_BatchReplyRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.BatchReplyData
+  langs:
+  - csharp
+  - vb
+  name: Ticket_BatchReplyRequest
+  nameWithType: Ticket_BatchReplyRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_BatchReplyRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_BatchReplyRequest : Object'
+    content.vb: >-
+      Public Class Ticket_BatchReplyRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_BatchReplyRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_BatchReplyRequest()
+  nameWithType: Ticket_BatchReplyRequest.Ticket_BatchReplyRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.Ticket_BatchReplyRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_BatchReplyRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.BatchReplyData
+  commentId: P:SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.BatchReplyData
+  id: BatchReplyData
+  parent: SuperOffice.WebApi.Data.Ticket_BatchReplyRequest
+  langs:
+  - csharp
+  - vb
+  name: BatchReplyData
+  nameWithType: Ticket_BatchReplyRequest.BatchReplyData
+  fullName: SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.BatchReplyData
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TicketBatchReplyData BatchReplyData { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketBatchReplyData
+    content.vb: Public Property BatchReplyData As TicketBatchReplyData
+  overload: SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.BatchReplyData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.#ctor
+  isExternal: true
+  name: Ticket_BatchReplyRequest
+  nameWithType: Ticket_BatchReplyRequest.Ticket_BatchReplyRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.Ticket_BatchReplyRequest
+- uid: SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.BatchReplyData*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.BatchReplyData
+  isExternal: true
+  name: BatchReplyData
+  nameWithType: Ticket_BatchReplyRequest.BatchReplyData
+  fullName: SuperOffice.WebApi.Data.Ticket_BatchReplyRequest.BatchReplyData
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData
+  commentId: T:SuperOffice.WebApi.Data.TicketBatchReplyData
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketBatchReplyData
+  nameWithType: TicketBatchReplyData
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData

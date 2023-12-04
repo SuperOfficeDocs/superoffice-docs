@@ -40,6 +40,7 @@ items:
   - SuperOffice.WebApi.Data.AmountClassEntity
   - SuperOffice.WebApi.Data.Appointment
   - SuperOffice.WebApi.Data.AppointmentEntity
+  - SuperOffice.WebApi.Data.AppointmentSaveData
   - SuperOffice.WebApi.Data.AppointmentSyncData
   - SuperOffice.WebApi.Data.ApproveRejectResponse
   - SuperOffice.WebApi.Data.ArchiveConfiguration
@@ -89,7 +90,10 @@ items:
   - SuperOffice.WebApi.Data.Credited
   - SuperOffice.WebApi.Data.CriteriaInformation
   - SuperOffice.WebApi.Data.CRMScriptEntity
+  - SuperOffice.WebApi.Data.CRMScriptErrorInfo
   - SuperOffice.WebApi.Data.CRMScriptResult
+  - SuperOffice.WebApi.Data.CRMScriptRunResult
+  - SuperOffice.WebApi.Data.CRMScriptTraceRun
   - SuperOffice.WebApi.Data.CsFeatureToggle
   - SuperOffice.WebApi.Data.CsSessionKey
   - SuperOffice.WebApi.Data.Currency
@@ -133,8 +137,10 @@ items:
   - SuperOffice.WebApi.Data.EMailCustomHeader
   - SuperOffice.WebApi.Data.EMailEntity
   - SuperOffice.WebApi.Data.EMailEnvelope
+  - SuperOffice.WebApi.Data.EmailFlow
   - SuperOffice.WebApi.Data.EMailFolder
   - SuperOffice.WebApi.Data.EMailSOInfo
+  - SuperOffice.WebApi.Data.EntityCounts
   - SuperOffice.WebApi.Data.EntityElement
   - SuperOffice.WebApi.Data.EntityName
   - SuperOffice.WebApi.Data.ErpConnection
@@ -156,6 +162,7 @@ items:
   - SuperOffice.WebApi.Data.ExtAppEntity
   - SuperOffice.WebApi.Data.Favourite
   - SuperOffice.WebApi.Data.FieldMetadata
+  - SuperOffice.WebApi.Data.FieldValue
   - SuperOffice.WebApi.Data.FindResults
   - SuperOffice.WebApi.Data.ForeignAppEntity
   - SuperOffice.WebApi.Data.ForeignDevice
@@ -181,6 +188,7 @@ items:
   - SuperOffice.WebApi.Data.Link
   - SuperOffice.WebApi.Data.ListEntity
   - SuperOffice.WebApi.Data.ListItemEntity
+  - SuperOffice.WebApi.Data.LiveUiConfig
   - SuperOffice.WebApi.Data.LocalizedField
   - SuperOffice.WebApi.Data.LocalizedText
   - SuperOffice.WebApi.Data.Logging
@@ -196,6 +204,7 @@ items:
   - SuperOffice.WebApi.Data.MrMrs
   - SuperOffice.WebApi.Data.MultiAlarmData
   - SuperOffice.WebApi.Data.NavigatorCompany
+  - SuperOffice.WebApi.Data.NextAvailableTime
   - SuperOffice.WebApi.Data.OperationInfo
   - SuperOffice.WebApi.Data.OutgoingMessage
   - SuperOffice.WebApi.Data.ParticipantSyncData
@@ -213,8 +222,13 @@ items:
   - SuperOffice.WebApi.Data.PreferenceDescription
   - SuperOffice.WebApi.Data.PreferenceDescriptionLine
   - SuperOffice.WebApi.Data.PreferenceSpec
+  - SuperOffice.WebApi.Data.PreviewDash
+  - SuperOffice.WebApi.Data.PreviewDashTile
+  - SuperOffice.WebApi.Data.PreviewFaqEntry
   - SuperOffice.WebApi.Data.PreviewMailing
   - SuperOffice.WebApi.Data.PreviewMailingHeader
+  - SuperOffice.WebApi.Data.PreviewQuickReply
+  - SuperOffice.WebApi.Data.PreviewReplyTemplate
   - SuperOffice.WebApi.Data.Previews
   - SuperOffice.WebApi.Data.PriceList
   - SuperOffice.WebApi.Data.Priority
@@ -237,8 +251,10 @@ items:
   - SuperOffice.WebApi.Data.Quote
   - SuperOffice.WebApi.Data.QuoteAlternative
   - SuperOffice.WebApi.Data.QuoteAlternativeRecalculated
+  - SuperOffice.WebApi.Data.QuoteApproveReason
   - SuperOffice.WebApi.Data.QuoteConnection
   - SuperOffice.WebApi.Data.QuoteContext
+  - SuperOffice.WebApi.Data.QuoteDenyReason
   - SuperOffice.WebApi.Data.QuoteEntity
   - SuperOffice.WebApi.Data.QuoteLine
   - SuperOffice.WebApi.Data.QuoteLineConfiguration
@@ -306,16 +322,25 @@ items:
   - SuperOffice.WebApi.Data.SuggestedDocumentEntity
   - SuperOffice.WebApi.Data.SyncUserAccount
   - SuperOffice.WebApi.Data.SystemEventEntity
+  - SuperOffice.WebApi.Data.SystemTemplateSettings
   - SuperOffice.WebApi.Data.TableRecord
   - SuperOffice.WebApi.Data.TabOrder
   - SuperOffice.WebApi.Data.Tag
+  - SuperOffice.WebApi.Data.TargetAssignment
+  - SuperOffice.WebApi.Data.TargetChange
+  - SuperOffice.WebApi.Data.TargetDimension
+  - SuperOffice.WebApi.Data.TargetGroup
+  - SuperOffice.WebApi.Data.TargetRevision
+  - SuperOffice.WebApi.Data.TargetRevisionHistory
   - SuperOffice.WebApi.Data.Task
   - SuperOffice.WebApi.Data.TaskListItem
+  - SuperOffice.WebApi.Data.TaskMenu
   - SuperOffice.WebApi.Data.TemplateVariablesParameters
   - SuperOffice.WebApi.Data.TemporaryKeyInfo
   - SuperOffice.WebApi.Data.Ticket
   - SuperOffice.WebApi.Data.TicketCategory
   - SuperOffice.WebApi.Data.TicketCategoryEntity
+  - SuperOffice.WebApi.Data.TicketCategoryMembershipEntity
   - SuperOffice.WebApi.Data.TicketEntity
   - SuperOffice.WebApi.Data.TicketInfo
   - SuperOffice.WebApi.Data.TicketMessage
@@ -323,16 +348,21 @@ items:
   - SuperOffice.WebApi.Data.TicketMessageHeader
   - SuperOffice.WebApi.Data.TicketPriority
   - SuperOffice.WebApi.Data.TicketPriorityEntity
+  - SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
   - SuperOffice.WebApi.Data.TicketStatusEntity
+  - SuperOffice.WebApi.Data.TicketType
+  - SuperOffice.WebApi.Data.TicketTypeEntity
   - SuperOffice.WebApi.Data.TokenManagementInfo
   - SuperOffice.WebApi.Data.Tooltips
   - SuperOffice.WebApi.Data.TriggerScriptEntity
   - SuperOffice.WebApi.Data.TypicalSearch
   - SuperOffice.WebApi.Data.TypicalSearches
+  - SuperOffice.WebApi.Data.UiEvent
   - SuperOffice.WebApi.Data.UntrustedCredentials
   - SuperOffice.WebApi.Data.UpsertRowStatus
   - SuperOffice.WebApi.Data.UsageStats
   - SuperOffice.WebApi.Data.User
+  - SuperOffice.WebApi.Data.UserCandidate
   - SuperOffice.WebApi.Data.UserDefinedFieldInfo
   - SuperOffice.WebApi.Data.UserGroup
   - SuperOffice.WebApi.Data.UserInfo
@@ -342,6 +372,11 @@ items:
   - SuperOffice.WebApi.Data.WebhookResult
   - SuperOffice.WebApi.Data.WebPanelEntity
   - SuperOffice.WebApi.Data.WindowPosSize
+  - SuperOffice.WebApi.Data.WorkflowEvent
+  - SuperOffice.WebApi.Data.WorkflowEventResult
+  - SuperOffice.WebApi.Data.WorkflowFilter
+  - SuperOffice.WebApi.Data.WorkflowGoal
+  - SuperOffice.WebApi.Data.WorkflowTrigger
   modifiers.csharp:
   - public
   - class

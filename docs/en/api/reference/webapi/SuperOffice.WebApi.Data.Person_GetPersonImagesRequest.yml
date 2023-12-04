@@ -1,0 +1,229 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_GetPersonImagesRequest
+  id: Person_GetPersonImagesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.PersonIds
+  - SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledHeight
+  - SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledWidth
+  langs:
+  - csharp
+  - vb
+  name: Person_GetPersonImagesRequest
+  nameWithType: Person_GetPersonImagesRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_GetPersonImagesRequest : Object'
+    content.vb: >-
+      Public Class Person_GetPersonImagesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_GetPersonImagesRequest()
+  nameWithType: Person_GetPersonImagesRequest.Person_GetPersonImagesRequest()
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.Person_GetPersonImagesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_GetPersonImagesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.PersonIds
+  commentId: P:SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.PersonIds
+  id: PersonIds
+  parent: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonIds
+  nameWithType: Person_GetPersonImagesRequest.PersonIds
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.PersonIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] PersonIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property PersonIds As Integer()
+  overload: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.PersonIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledWidth
+  commentId: P:SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledWidth
+  id: ScaledWidth
+  parent: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest
+  langs:
+  - csharp
+  - vb
+  name: ScaledWidth
+  nameWithType: Person_GetPersonImagesRequest.ScaledWidth
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledWidth
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ScaledWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ScaledWidth As Integer
+  overload: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledHeight
+  commentId: P:SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledHeight
+  id: ScaledHeight
+  parent: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest
+  langs:
+  - csharp
+  - vb
+  name: ScaledHeight
+  nameWithType: Person_GetPersonImagesRequest.ScaledHeight
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledHeight
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ScaledHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ScaledHeight As Integer
+  overload: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledHeight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.#ctor
+  isExternal: true
+  name: Person_GetPersonImagesRequest
+  nameWithType: Person_GetPersonImagesRequest.Person_GetPersonImagesRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.Person_GetPersonImagesRequest
+- uid: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.PersonIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.PersonIds
+  isExternal: true
+  name: PersonIds
+  nameWithType: Person_GetPersonImagesRequest.PersonIds
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.PersonIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledWidth*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledWidth
+  isExternal: true
+  name: ScaledWidth
+  nameWithType: Person_GetPersonImagesRequest.ScaledWidth
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledWidth
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledHeight*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledHeight
+  isExternal: true
+  name: ScaledHeight
+  nameWithType: Person_GetPersonImagesRequest.ScaledHeight
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonImagesRequest.ScaledHeight

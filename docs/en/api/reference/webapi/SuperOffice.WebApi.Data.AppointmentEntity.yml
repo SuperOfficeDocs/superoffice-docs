@@ -8,6 +8,7 @@ items:
   - SuperOffice.WebApi.Data.AppointmentEntity.#ctor
   - SuperOffice.WebApi.Data.AppointmentEntity.ActiveDate
   - SuperOffice.WebApi.Data.AppointmentEntity.ActiveLinks
+  - SuperOffice.WebApi.Data.AppointmentEntity.Agenda
   - SuperOffice.WebApi.Data.AppointmentEntity.AlarmLeadTime
   - SuperOffice.WebApi.Data.AppointmentEntity.AppointmentId
   - SuperOffice.WebApi.Data.AppointmentEntity.AssignedBy
@@ -31,6 +32,7 @@ items:
   - SuperOffice.WebApi.Data.AppointmentEntity.ExtraFields
   - SuperOffice.WebApi.Data.AppointmentEntity.HasAlarm
   - SuperOffice.WebApi.Data.AppointmentEntity.HasConflict
+  - SuperOffice.WebApi.Data.AppointmentEntity.InternalNotes
   - SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus
   - SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus_String
   - SuperOffice.WebApi.Data.AppointmentEntity.InvitedPerson
@@ -48,6 +50,7 @@ items:
   - SuperOffice.WebApi.Data.AppointmentEntity.Participants
   - SuperOffice.WebApi.Data.AppointmentEntity.Person
   - SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocation
+  - SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocationData
   - SuperOffice.WebApi.Data.AppointmentEntity.Priority
   - SuperOffice.WebApi.Data.AppointmentEntity.Private
   - SuperOffice.WebApi.Data.AppointmentEntity.Private_String
@@ -62,6 +65,7 @@ items:
   - SuperOffice.WebApi.Data.AppointmentEntity.StartDate
   - SuperOffice.WebApi.Data.AppointmentEntity.SuggestedAppointmentId
   - SuperOffice.WebApi.Data.AppointmentEntity.Task
+  - SuperOffice.WebApi.Data.AppointmentEntity.Title
   - SuperOffice.WebApi.Data.AppointmentEntity.Type
   - SuperOffice.WebApi.Data.AppointmentEntity.Type_String
   - SuperOffice.WebApi.Data.AppointmentEntity.UpdatedBy
@@ -365,6 +369,105 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.AppointmentEntity.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Title
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Title
+  id: Title
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: AppointmentEntity.Title
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Title
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe title of the appointment.\n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Agenda
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Agenda
+  id: Agenda
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Agenda
+  nameWithType: AppointmentEntity.Agenda
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Agenda
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe agenda of the appointment.\n"
+  syntax:
+    content: public virtual string Agenda { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Agenda As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Agenda*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.InternalNotes
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.InternalNotes
+  id: InternalNotes
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: InternalNotes
+  nameWithType: AppointmentEntity.InternalNotes
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.InternalNotes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInternal notes for the appointment.\n"
+  syntax:
+    content: public virtual string InternalNotes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property InternalNotes As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.InternalNotes*
   modifiers.csharp:
   - public
   - virtual
@@ -1689,7 +1792,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAppoinmtments preferred timezone location.\n"
+  summary: "\nAppointments preferred timezone location.\n"
   syntax:
     content: public virtual int PreferredTZLocation { get; set; }
     parameters: []
@@ -1697,6 +1800,39 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property PreferredTZLocation As Integer
   overload: SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocationData
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocationData
+  id: PreferredTZLocationData
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: PreferredTZLocationData
+  nameWithType: AppointmentEntity.PreferredTZLocationData
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocationData
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRead-only timezone data for PreferredTZLocation.\n"
+  syntax:
+    content: public virtual TimeZoneData PreferredTZLocationData { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TimeZoneData
+    content.vb: Public Overridable Property PreferredTZLocationData As TimeZoneData
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocationData*
   modifiers.csharp:
   - public
   - virtual
@@ -1989,7 +2125,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: "\nDeprecated: Use <xref href=\"SuperOffice.WebApi.Data.AppointmentEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nExtra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.\nThe value string is the encoded value: &quot;[I:123]&quot; or &quot;[DT:2019-09-11]&quot;.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n	[Plug-in name].[Property name]\n	Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \n   This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \n   and hence we would ensure an unique key if this field is used.\n   Example: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n[Table name].[Field name]\nExample: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n       [Plug-in name].[Property name]\n       Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \nThis is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \nand hence we would ensure an unique key if this field is used.\nExample: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n   [Table name].[Field name]\n   Example: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
   syntax:
     content: public virtual StringDictionary ExtraFields { get; set; }
     parameters: []
@@ -2023,7 +2159,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: "\nUdef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.\nCustom fields combines user defined fields and extra fields into one bucket. \nThe individual <xref href=\"SuperOffice.WebApi.Data.AppointmentEntity.ExtraFields\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.WebApi.Data.AppointmentEntity.UserDefinedFields\" data-throw-if-not-resolved=\"false\"></xref> properties are deprecated in favor of this\ncombined collection.\nThe value string is the encoded value: &quot;[I:123]&quot; or &quot;[DT:2019-09-11]&quot;.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n	[Extra field name]<p></p>\n	Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\n   Example: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n       [Extra field name]<p></p>\n       Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\nExample: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
   syntax:
     content: public virtual StringDictionary CustomFields { get; set; }
     parameters: []
@@ -2341,6 +2477,24 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Title*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Title
+  isExternal: true
+  name: Title
+  nameWithType: AppointmentEntity.Title
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Title
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Agenda*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Agenda
+  isExternal: true
+  name: Agenda
+  nameWithType: AppointmentEntity.Agenda
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Agenda
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.InternalNotes*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.InternalNotes
+  isExternal: true
+  name: InternalNotes
+  nameWithType: AppointmentEntity.InternalNotes
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.InternalNotes
 - uid: SuperOffice.WebApi.Data.AppointmentEntity.StartDate*
   commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.StartDate
   isExternal: true
@@ -3019,6 +3173,19 @@ references:
   name: PreferredTZLocation
   nameWithType: AppointmentEntity.PreferredTZLocation
   fullName: SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocation
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocationData*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocationData
+  isExternal: true
+  name: PreferredTZLocationData
+  nameWithType: AppointmentEntity.PreferredTZLocationData
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocationData
+- uid: SuperOffice.WebApi.Data.TimeZoneData
+  commentId: T:SuperOffice.WebApi.Data.TimeZoneData
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TimeZoneData
+  nameWithType: TimeZoneData
+  fullName: SuperOffice.WebApi.Data.TimeZoneData
 - uid: SuperOffice.WebApi.Data.AppointmentEntity.Sale*
   commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Sale
   isExternal: true

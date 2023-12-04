@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendEmail
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepSendEmail
+  id: WorkflowStepSendEmail
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowStepSendEmail.#ctor
+  - SuperOffice.WebApi.Data.WorkflowStepSendEmail.Attachments
+  - SuperOffice.WebApi.Data.WorkflowStepSendEmail.ShipmentId
+  - SuperOffice.WebApi.Data.WorkflowStepSendEmail.Subject
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepSendEmail
+  nameWithType: WorkflowStepSendEmail
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendEmail
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for WorkflowStepSendEmail.\nStep in workflow that waits for time.    \n"
+  syntax:
+    content: 'public class WorkflowStepSendEmail : WorkflowStepBase'
+    content.vb: >-
+      Public Class WorkflowStepSendEmail
+          Inherits WorkflowStepBase
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
+    commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.WorkflowStepBase
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  - SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendEmail.#ctor
+  commentId: M:SuperOffice.WebApi.Data.WorkflowStepSendEmail.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.WorkflowStepSendEmail
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepSendEmail()
+  nameWithType: WorkflowStepSendEmail.WorkflowStepSendEmail()
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendEmail.WorkflowStepSendEmail()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public WorkflowStepSendEmail()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.WorkflowStepSendEmail.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendEmail.Subject
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepSendEmail.Subject
+  id: Subject
+  parent: SuperOffice.WebApi.Data.WorkflowStepSendEmail
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: WorkflowStepSendEmail.Subject
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendEmail.Subject
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEmail subject\n"
+  syntax:
+    content: public virtual string Subject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Subject As String
+  overload: SuperOffice.WebApi.Data.WorkflowStepSendEmail.Subject*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendEmail.Attachments
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepSendEmail.Attachments
+  id: Attachments
+  parent: SuperOffice.WebApi.Data.WorkflowStepSendEmail
+  langs:
+  - csharp
+  - vb
+  name: Attachments
+  nameWithType: WorkflowStepSendEmail.Attachments
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendEmail.Attachments
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId&apos;s of the selected CS attachments to be sent as attachments in the email\n"
+  syntax:
+    content: public virtual int[] Attachments { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property Attachments As Integer()
+  overload: SuperOffice.WebApi.Data.WorkflowStepSendEmail.Attachments*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendEmail.ShipmentId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepSendEmail.ShipmentId
+  id: ShipmentId
+  parent: SuperOffice.WebApi.Data.WorkflowStepSendEmail
+  langs:
+  - csharp
+  - vb
+  name: ShipmentId
+  nameWithType: WorkflowStepSendEmail.ShipmentId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendEmail.ShipmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe selected mailing (s_shipment)\n"
+  syntax:
+    content: public virtual int ShipmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ShipmentId As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepSendEmail.ShipmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: WorkflowStepId
+  nameWithType: WorkflowStepBase.WorkflowStepId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowStepBase.WorkflowId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: StepType_String
+  nameWithType: WorkflowStepBase.StepType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: StepType
+  nameWithType: WorkflowStepBase.StepType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: Rank
+  nameWithType: WorkflowStepBase.Rank
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendEmail.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepSendEmail.#ctor
+  isExternal: true
+  name: WorkflowStepSendEmail
+  nameWithType: WorkflowStepSendEmail.WorkflowStepSendEmail
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendEmail.WorkflowStepSendEmail
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendEmail.Subject*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepSendEmail.Subject
+  isExternal: true
+  name: Subject
+  nameWithType: WorkflowStepSendEmail.Subject
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendEmail.Subject
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendEmail.Attachments*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepSendEmail.Attachments
+  isExternal: true
+  name: Attachments
+  nameWithType: WorkflowStepSendEmail.Attachments
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendEmail.Attachments
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendEmail.ShipmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepSendEmail.ShipmentId
+  isExternal: true
+  name: ShipmentId
+  nameWithType: WorkflowStepSendEmail.ShipmentId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendEmail.ShipmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

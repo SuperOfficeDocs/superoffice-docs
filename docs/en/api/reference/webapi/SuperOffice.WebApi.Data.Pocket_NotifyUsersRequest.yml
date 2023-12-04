@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest
+  commentId: T:SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest
+  id: Pocket_NotifyUsersRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.#ctor
+  - SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.Id
+  - SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.NotificationEventType
+  langs:
+  - csharp
+  - vb
+  name: Pocket_NotifyUsersRequest
+  nameWithType: Pocket_NotifyUsersRequest
+  fullName: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Pocket_NotifyUsersRequest : Object'
+    content.vb: >-
+      Public Class Pocket_NotifyUsersRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest
+  langs:
+  - csharp
+  - vb
+  name: Pocket_NotifyUsersRequest()
+  nameWithType: Pocket_NotifyUsersRequest.Pocket_NotifyUsersRequest()
+  fullName: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.Pocket_NotifyUsersRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Pocket_NotifyUsersRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.NotificationEventType
+  commentId: P:SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.NotificationEventType
+  id: NotificationEventType
+  parent: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest
+  langs:
+  - csharp
+  - vb
+  name: NotificationEventType
+  nameWithType: Pocket_NotifyUsersRequest.NotificationEventType
+  fullName: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.NotificationEventType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public NotificationEventType NotificationEventType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.NotificationEventType
+    content.vb: Public Property NotificationEventType As NotificationEventType
+  overload: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.NotificationEventType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Pocket_NotifyUsersRequest.Id
+  fullName: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.#ctor
+  isExternal: true
+  name: Pocket_NotifyUsersRequest
+  nameWithType: Pocket_NotifyUsersRequest.Pocket_NotifyUsersRequest
+  fullName: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.Pocket_NotifyUsersRequest
+- uid: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.NotificationEventType*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.NotificationEventType
+  isExternal: true
+  name: NotificationEventType
+  nameWithType: Pocket_NotifyUsersRequest.NotificationEventType
+  fullName: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.NotificationEventType
+- uid: SuperOffice.WebApi.Data.NotificationEventType
+  commentId: T:SuperOffice.WebApi.Data.NotificationEventType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: NotificationEventType
+  nameWithType: NotificationEventType
+  fullName: SuperOffice.WebApi.Data.NotificationEventType
+- uid: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: Pocket_NotifyUsersRequest.Id
+  fullName: SuperOffice.WebApi.Data.Pocket_NotifyUsersRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

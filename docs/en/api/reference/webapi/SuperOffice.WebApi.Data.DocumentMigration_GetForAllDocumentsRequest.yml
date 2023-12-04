@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest
+  commentId: T:SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest
+  id: DocumentMigration_GetForAllDocumentsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.#ctor
+  - SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.DocumentPluginId
+  - SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.IncludeEmails
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigration_GetForAllDocumentsRequest
+  nameWithType: DocumentMigration_GetForAllDocumentsRequest
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class DocumentMigration_GetForAllDocumentsRequest : Object'
+    content.vb: >-
+      Public Class DocumentMigration_GetForAllDocumentsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigration_GetForAllDocumentsRequest()
+  nameWithType: DocumentMigration_GetForAllDocumentsRequest.DocumentMigration_GetForAllDocumentsRequest()
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.DocumentMigration_GetForAllDocumentsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DocumentMigration_GetForAllDocumentsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.DocumentPluginId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.DocumentPluginId
+  id: DocumentPluginId
+  parent: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentPluginId
+  nameWithType: DocumentMigration_GetForAllDocumentsRequest.DocumentPluginId
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.DocumentPluginId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentPluginId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentPluginId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.DocumentPluginId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.IncludeEmails
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.IncludeEmails
+  id: IncludeEmails
+  parent: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeEmails
+  nameWithType: DocumentMigration_GetForAllDocumentsRequest.IncludeEmails
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.IncludeEmails
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeEmails { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeEmails As Boolean
+  overload: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.IncludeEmails*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.#ctor
+  isExternal: true
+  name: DocumentMigration_GetForAllDocumentsRequest
+  nameWithType: DocumentMigration_GetForAllDocumentsRequest.DocumentMigration_GetForAllDocumentsRequest
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.DocumentMigration_GetForAllDocumentsRequest
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.DocumentPluginId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.DocumentPluginId
+  isExternal: true
+  name: DocumentPluginId
+  nameWithType: DocumentMigration_GetForAllDocumentsRequest.DocumentPluginId
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.DocumentPluginId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.IncludeEmails*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.IncludeEmails
+  isExternal: true
+  name: IncludeEmails
+  nameWithType: DocumentMigration_GetForAllDocumentsRequest.IncludeEmails
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForAllDocumentsRequest.IncludeEmails
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest
+  commentId: T:SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest
+  id: Pocket_GetCallerIDsFromSelectionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.#ctor
+  - SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.LastHash
+  - SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.SelectionId
+  langs:
+  - csharp
+  - vb
+  name: Pocket_GetCallerIDsFromSelectionRequest
+  nameWithType: Pocket_GetCallerIDsFromSelectionRequest
+  fullName: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Pocket_GetCallerIDsFromSelectionRequest : Object'
+    content.vb: >-
+      Public Class Pocket_GetCallerIDsFromSelectionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: Pocket_GetCallerIDsFromSelectionRequest()
+  nameWithType: Pocket_GetCallerIDsFromSelectionRequest.Pocket_GetCallerIDsFromSelectionRequest()
+  fullName: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.Pocket_GetCallerIDsFromSelectionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Pocket_GetCallerIDsFromSelectionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Pocket_GetCallerIDsFromSelectionRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.LastHash
+  commentId: P:SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.LastHash
+  id: LastHash
+  parent: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: LastHash
+  nameWithType: Pocket_GetCallerIDsFromSelectionRequest.LastHash
+  fullName: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.LastHash
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string LastHash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastHash As String
+  overload: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.LastHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.#ctor
+  isExternal: true
+  name: Pocket_GetCallerIDsFromSelectionRequest
+  nameWithType: Pocket_GetCallerIDsFromSelectionRequest.Pocket_GetCallerIDsFromSelectionRequest
+  fullName: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.Pocket_GetCallerIDsFromSelectionRequest
+- uid: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Pocket_GetCallerIDsFromSelectionRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.LastHash*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.LastHash
+  isExternal: true
+  name: LastHash
+  nameWithType: Pocket_GetCallerIDsFromSelectionRequest.LastHash
+  fullName: SuperOffice.WebApi.Data.Pocket_GetCallerIDsFromSelectionRequest.LastHash
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

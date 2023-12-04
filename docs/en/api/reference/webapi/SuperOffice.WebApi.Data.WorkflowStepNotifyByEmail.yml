@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail
+  id: WorkflowStepNotifyByEmail
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail.#ctor
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepNotifyByEmail
+  nameWithType: WorkflowStepNotifyByEmail
+  fullName: SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for WorkflowStepNotifyByEmail.\nStep in workflow.    \n"
+  syntax:
+    content: 'public class WorkflowStepNotifyByEmail : WorkflowStepBase'
+    content.vb: >-
+      Public Class WorkflowStepNotifyByEmail
+          Inherits WorkflowStepBase
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
+    commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.WorkflowStepBase
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  - SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail.#ctor
+  commentId: M:SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepNotifyByEmail()
+  nameWithType: WorkflowStepNotifyByEmail.WorkflowStepNotifyByEmail()
+  fullName: SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail.WorkflowStepNotifyByEmail()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public WorkflowStepNotifyByEmail()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: WorkflowStepId
+  nameWithType: WorkflowStepBase.WorkflowStepId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowStepBase.WorkflowId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: StepType_String
+  nameWithType: WorkflowStepBase.StepType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: StepType
+  nameWithType: WorkflowStepBase.StepType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: Rank
+  nameWithType: WorkflowStepBase.Rank
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail.#ctor
+  isExternal: true
+  name: WorkflowStepNotifyByEmail
+  nameWithType: WorkflowStepNotifyByEmail.WorkflowStepNotifyByEmail
+  fullName: SuperOffice.WebApi.Data.WorkflowStepNotifyByEmail.WorkflowStepNotifyByEmail

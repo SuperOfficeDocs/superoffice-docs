@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest
+  commentId: T:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest
+  id: Targets_CreateDefaultTargetAssignmentForUserGroupRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.#ctor
+  - SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.UserGroupId
+  langs:
+  - csharp
+  - vb
+  name: Targets_CreateDefaultTargetAssignmentForUserGroupRequest
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupRequest
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Targets_CreateDefaultTargetAssignmentForUserGroupRequest : Object'
+    content.vb: >-
+      Public Class Targets_CreateDefaultTargetAssignmentForUserGroupRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: Targets_CreateDefaultTargetAssignmentForUserGroupRequest()
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupRequest.Targets_CreateDefaultTargetAssignmentForUserGroupRequest()
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.Targets_CreateDefaultTargetAssignmentForUserGroupRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Targets_CreateDefaultTargetAssignmentForUserGroupRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.UserGroupId
+  commentId: P:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.UserGroupId
+  id: UserGroupId
+  parent: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: UserGroupId
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupRequest.UserGroupId
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.UserGroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UserGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserGroupId As Integer
+  overload: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.UserGroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.#ctor
+  isExternal: true
+  name: Targets_CreateDefaultTargetAssignmentForUserGroupRequest
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupRequest.Targets_CreateDefaultTargetAssignmentForUserGroupRequest
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.Targets_CreateDefaultTargetAssignmentForUserGroupRequest
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.UserGroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.UserGroupId
+  isExternal: true
+  name: UserGroupId
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupRequest.UserGroupId
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupRequest.UserGroupId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

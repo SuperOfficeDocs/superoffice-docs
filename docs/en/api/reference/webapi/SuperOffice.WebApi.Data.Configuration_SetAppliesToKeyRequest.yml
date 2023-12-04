@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest
+  id: Configuration_SetAppliesToKeyRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.#ctor
+  - SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.AppliesToKey
+  - SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.RecipeId
+  langs:
+  - csharp
+  - vb
+  name: Configuration_SetAppliesToKeyRequest
+  nameWithType: Configuration_SetAppliesToKeyRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Configuration_SetAppliesToKeyRequest : Object'
+    content.vb: >-
+      Public Class Configuration_SetAppliesToKeyRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Configuration_SetAppliesToKeyRequest()
+  nameWithType: Configuration_SetAppliesToKeyRequest.Configuration_SetAppliesToKeyRequest()
+  fullName: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.Configuration_SetAppliesToKeyRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Configuration_SetAppliesToKeyRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.RecipeId
+  commentId: P:SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.RecipeId
+  id: RecipeId
+  parent: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: RecipeId
+  nameWithType: Configuration_SetAppliesToKeyRequest.RecipeId
+  fullName: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.RecipeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string RecipeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RecipeId As String
+  overload: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.RecipeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.AppliesToKey
+  commentId: P:SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.AppliesToKey
+  id: AppliesToKey
+  parent: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: AppliesToKey
+  nameWithType: Configuration_SetAppliesToKeyRequest.AppliesToKey
+  fullName: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.AppliesToKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string AppliesToKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AppliesToKey As String
+  overload: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.AppliesToKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.#ctor
+  isExternal: true
+  name: Configuration_SetAppliesToKeyRequest
+  nameWithType: Configuration_SetAppliesToKeyRequest.Configuration_SetAppliesToKeyRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.Configuration_SetAppliesToKeyRequest
+- uid: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.RecipeId*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.RecipeId
+  isExternal: true
+  name: RecipeId
+  nameWithType: Configuration_SetAppliesToKeyRequest.RecipeId
+  fullName: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.RecipeId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.AppliesToKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.AppliesToKey
+  isExternal: true
+  name: AppliesToKey
+  nameWithType: Configuration_SetAppliesToKeyRequest.AppliesToKey
+  fullName: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest.AppliesToKey

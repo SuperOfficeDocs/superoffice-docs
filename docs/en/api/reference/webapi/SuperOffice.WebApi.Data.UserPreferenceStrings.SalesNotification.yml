@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification
+  id: UserPreferenceStrings.SalesNotification
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentCancel
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentChange
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentDecline
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentInvitation
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.SalesNotification
+  nameWithType: UserPreferenceStrings.SalesNotification
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public static class SalesNotification : Object'
+    content.vb: >-
+      Public Module SalesNotification
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.SalesNotification.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string Section = "salesNotification"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "salesNotification"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentInvitation
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentInvitation
+  id: NotifyAppointmentInvitation
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification
+  langs:
+  - csharp
+  - vb
+  name: NotifyAppointmentInvitation
+  nameWithType: UserPreferenceStrings.SalesNotification.NotifyAppointmentInvitation
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentInvitation
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Indicates if the user wants meeting invite notifications\n"
+  syntax:
+    content: public const string NotifyAppointmentInvitation = "notifyAppointmentInvitation"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyAppointmentInvitation As String = "notifyAppointmentInvitation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentChange
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentChange
+  id: NotifyAppointmentChange
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification
+  langs:
+  - csharp
+  - vb
+  name: NotifyAppointmentChange
+  nameWithType: UserPreferenceStrings.SalesNotification.NotifyAppointmentChange
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentChange
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Indicates if the user wants meeting update notifications (moved date/time or location)\n"
+  syntax:
+    content: public const string NotifyAppointmentChange = "notifyAppointmentChange"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyAppointmentChange As String = "notifyAppointmentChange"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentCancel
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentCancel
+  id: NotifyAppointmentCancel
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification
+  langs:
+  - csharp
+  - vb
+  name: NotifyAppointmentCancel
+  nameWithType: UserPreferenceStrings.SalesNotification.NotifyAppointmentCancel
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentCancel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Indicates if the user wants notifications for cancelled meetings.\n"
+  syntax:
+    content: public const string NotifyAppointmentCancel = "notifyAppointmentCancel"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyAppointmentCancel As String = "notifyAppointmentCancel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentDecline
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentDecline
+  id: NotifyAppointmentDecline
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification
+  langs:
+  - csharp
+  - vb
+  name: NotifyAppointmentDecline
+  nameWithType: UserPreferenceStrings.SalesNotification.NotifyAppointmentDecline
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentDecline
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Indicates if the user wants notifications when people decline one of his/her meetings.\n"
+  syntax:
+    content: public const string NotifyAppointmentDecline = "notifyAppointmentDecline"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyAppointmentDecline As String = "notifyAppointmentDecline"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

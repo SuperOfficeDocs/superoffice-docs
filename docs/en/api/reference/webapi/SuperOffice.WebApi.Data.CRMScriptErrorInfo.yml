@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CRMScriptErrorInfo
+  commentId: T:SuperOffice.WebApi.Data.CRMScriptErrorInfo
+  id: CRMScriptErrorInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CRMScriptErrorInfo.#ctor
+  - SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorCharacterPosition
+  - SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorLine
+  - SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorMessage
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptErrorInfo
+  nameWithType: CRMScriptErrorInfo
+  fullName: SuperOffice.WebApi.Data.CRMScriptErrorInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CRMScriptErrorInfo.\nObject containing error information for a CRMScript    \n"
+  syntax:
+    content: 'public class CRMScriptErrorInfo : Carrier'
+    content.vb: >-
+      Public Class CRMScriptErrorInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CRMScriptAgent
+    commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CRMScriptErrorInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CRMScriptErrorInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CRMScriptErrorInfo
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptErrorInfo()
+  nameWithType: CRMScriptErrorInfo.CRMScriptErrorInfo()
+  fullName: SuperOffice.WebApi.Data.CRMScriptErrorInfo.CRMScriptErrorInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CRMScriptErrorInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CRMScriptErrorInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorMessage
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorMessage
+  id: ErrorMessage
+  parent: SuperOffice.WebApi.Data.CRMScriptErrorInfo
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: CRMScriptErrorInfo.ErrorMessage
+  fullName: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescriptive message of the script failed\n"
+  syntax:
+    content: public virtual string ErrorMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErrorMessage As String
+  overload: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorLine
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorLine
+  id: ErrorLine
+  parent: SuperOffice.WebApi.Data.CRMScriptErrorInfo
+  langs:
+  - csharp
+  - vb
+  name: ErrorLine
+  nameWithType: CRMScriptErrorInfo.ErrorLine
+  fullName: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorLine
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe line number where the error occured\n"
+  syntax:
+    content: public virtual int ErrorLine { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErrorLine As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorLine*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorCharacterPosition
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorCharacterPosition
+  id: ErrorCharacterPosition
+  parent: SuperOffice.WebApi.Data.CRMScriptErrorInfo
+  langs:
+  - csharp
+  - vb
+  name: ErrorCharacterPosition
+  nameWithType: CRMScriptErrorInfo.ErrorCharacterPosition
+  fullName: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorCharacterPosition
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe character position on the ErrorLine, if available\n"
+  syntax:
+    content: public virtual int ErrorCharacterPosition { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErrorCharacterPosition As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorCharacterPosition*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent
+  commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
+  isExternal: true
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CRMScriptErrorInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptErrorInfo.#ctor
+  isExternal: true
+  name: CRMScriptErrorInfo
+  nameWithType: CRMScriptErrorInfo.CRMScriptErrorInfo
+  fullName: SuperOffice.WebApi.Data.CRMScriptErrorInfo.CRMScriptErrorInfo
+- uid: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorMessage
+  isExternal: true
+  name: ErrorMessage
+  nameWithType: CRMScriptErrorInfo.ErrorMessage
+  fullName: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorMessage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorLine*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorLine
+  isExternal: true
+  name: ErrorLine
+  nameWithType: CRMScriptErrorInfo.ErrorLine
+  fullName: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorLine
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorCharacterPosition*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorCharacterPosition
+  isExternal: true
+  name: ErrorCharacterPosition
+  nameWithType: CRMScriptErrorInfo.ErrorCharacterPosition
+  fullName: SuperOffice.WebApi.Data.CRMScriptErrorInfo.ErrorCharacterPosition

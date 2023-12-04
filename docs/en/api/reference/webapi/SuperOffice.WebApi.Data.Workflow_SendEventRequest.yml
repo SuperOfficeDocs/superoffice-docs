@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Workflow_SendEventRequest
+  commentId: T:SuperOffice.WebApi.Data.Workflow_SendEventRequest
+  id: Workflow_SendEventRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Workflow_SendEventRequest.#ctor
+  - SuperOffice.WebApi.Data.Workflow_SendEventRequest.WorkflowEvent
+  langs:
+  - csharp
+  - vb
+  name: Workflow_SendEventRequest
+  nameWithType: Workflow_SendEventRequest
+  fullName: SuperOffice.WebApi.Data.Workflow_SendEventRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Workflow_SendEventRequest : Object'
+    content.vb: >-
+      Public Class Workflow_SendEventRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Workflow_SendEventRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Workflow_SendEventRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Workflow_SendEventRequest
+  langs:
+  - csharp
+  - vb
+  name: Workflow_SendEventRequest()
+  nameWithType: Workflow_SendEventRequest.Workflow_SendEventRequest()
+  fullName: SuperOffice.WebApi.Data.Workflow_SendEventRequest.Workflow_SendEventRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Workflow_SendEventRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Workflow_SendEventRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Workflow_SendEventRequest.WorkflowEvent
+  commentId: P:SuperOffice.WebApi.Data.Workflow_SendEventRequest.WorkflowEvent
+  id: WorkflowEvent
+  parent: SuperOffice.WebApi.Data.Workflow_SendEventRequest
+  langs:
+  - csharp
+  - vb
+  name: WorkflowEvent
+  nameWithType: Workflow_SendEventRequest.WorkflowEvent
+  fullName: SuperOffice.WebApi.Data.Workflow_SendEventRequest.WorkflowEvent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public WorkflowEvent WorkflowEvent { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowEvent
+    content.vb: Public Property WorkflowEvent As WorkflowEvent
+  overload: SuperOffice.WebApi.Data.Workflow_SendEventRequest.WorkflowEvent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Workflow_SendEventRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_SendEventRequest.#ctor
+  isExternal: true
+  name: Workflow_SendEventRequest
+  nameWithType: Workflow_SendEventRequest.Workflow_SendEventRequest
+  fullName: SuperOffice.WebApi.Data.Workflow_SendEventRequest.Workflow_SendEventRequest
+- uid: SuperOffice.WebApi.Data.Workflow_SendEventRequest.WorkflowEvent*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_SendEventRequest.WorkflowEvent
+  isExternal: true
+  name: WorkflowEvent
+  nameWithType: Workflow_SendEventRequest.WorkflowEvent
+  fullName: SuperOffice.WebApi.Data.Workflow_SendEventRequest.WorkflowEvent
+- uid: SuperOffice.WebApi.Data.WorkflowEvent
+  commentId: T:SuperOffice.WebApi.Data.WorkflowEvent
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowEvent
+  nameWithType: WorkflowEvent
+  fullName: SuperOffice.WebApi.Data.WorkflowEvent

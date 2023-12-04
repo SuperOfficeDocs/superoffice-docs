@@ -1,0 +1,359 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PreviewDash
+  commentId: T:SuperOffice.WebApi.Data.PreviewDash
+  id: PreviewDash
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PreviewDash.#ctor
+  - SuperOffice.WebApi.Data.PreviewDash.Description
+  - SuperOffice.WebApi.Data.PreviewDash.Name
+  - SuperOffice.WebApi.Data.PreviewDash.OwnedByFullName
+  - SuperOffice.WebApi.Data.PreviewDash.Registered
+  - SuperOffice.WebApi.Data.PreviewDash.Tiles
+  langs:
+  - csharp
+  - vb
+  name: PreviewDash
+  nameWithType: PreviewDash
+  fullName: SuperOffice.WebApi.Data.PreviewDash
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PreviewDash.\nDashboard preview    \n"
+  syntax:
+    content: 'public class PreviewDash : Carrier'
+    content.vb: >-
+      Public Class PreviewDash
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DashAgent
+    commentId: T:SuperOffice.WebApi.Agents.DashAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PreviewDash.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PreviewDash.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PreviewDash
+  langs:
+  - csharp
+  - vb
+  name: PreviewDash()
+  nameWithType: PreviewDash.PreviewDash()
+  fullName: SuperOffice.WebApi.Data.PreviewDash.PreviewDash()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PreviewDash()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PreviewDash.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PreviewDash.Name
+  commentId: P:SuperOffice.WebApi.Data.PreviewDash.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.PreviewDash
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PreviewDash.Name
+  fullName: SuperOffice.WebApi.Data.PreviewDash.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of this dashboard\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.PreviewDash.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewDash.Description
+  commentId: P:SuperOffice.WebApi.Data.PreviewDash.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.PreviewDash
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: PreviewDash.Description
+  fullName: SuperOffice.WebApi.Data.PreviewDash.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDetailed description\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.PreviewDash.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewDash.OwnedByFullName
+  commentId: P:SuperOffice.WebApi.Data.PreviewDash.OwnedByFullName
+  id: OwnedByFullName
+  parent: SuperOffice.WebApi.Data.PreviewDash
+  langs:
+  - csharp
+  - vb
+  name: OwnedByFullName
+  nameWithType: PreviewDash.OwnedByFullName
+  fullName: SuperOffice.WebApi.Data.PreviewDash.OwnedByFullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFull name of dashboard owner\n"
+  syntax:
+    content: public virtual string OwnedByFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OwnedByFullName As String
+  overload: SuperOffice.WebApi.Data.PreviewDash.OwnedByFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewDash.Registered
+  commentId: P:SuperOffice.WebApi.Data.PreviewDash.Registered
+  id: Registered
+  parent: SuperOffice.WebApi.Data.PreviewDash
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: PreviewDash.Registered
+  fullName: SuperOffice.WebApi.Data.PreviewDash.Registered
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As DateTime
+  overload: SuperOffice.WebApi.Data.PreviewDash.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewDash.Tiles
+  commentId: P:SuperOffice.WebApi.Data.PreviewDash.Tiles
+  id: Tiles
+  parent: SuperOffice.WebApi.Data.PreviewDash
+  langs:
+  - csharp
+  - vb
+  name: Tiles
+  nameWithType: PreviewDash.Tiles
+  fullName: SuperOffice.WebApi.Data.PreviewDash.Tiles
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDashboard tiles\n"
+  syntax:
+    content: public virtual PreviewDashTile[] Tiles { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.PreviewDashTile[]
+    content.vb: Public Overridable Property Tiles As PreviewDashTile()
+  overload: SuperOffice.WebApi.Data.PreviewDash.Tiles*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DashAgent
+  commentId: T:SuperOffice.WebApi.Agents.DashAgent
+  isExternal: true
+  name: DashAgent
+  nameWithType: DashAgent
+  fullName: SuperOffice.WebApi.Agents.DashAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PreviewDash.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewDash.#ctor
+  isExternal: true
+  name: PreviewDash
+  nameWithType: PreviewDash.PreviewDash
+  fullName: SuperOffice.WebApi.Data.PreviewDash.PreviewDash
+- uid: SuperOffice.WebApi.Data.PreviewDash.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewDash.Name
+  isExternal: true
+  name: Name
+  nameWithType: PreviewDash.Name
+  fullName: SuperOffice.WebApi.Data.PreviewDash.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.PreviewDash.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewDash.Description
+  isExternal: true
+  name: Description
+  nameWithType: PreviewDash.Description
+  fullName: SuperOffice.WebApi.Data.PreviewDash.Description
+- uid: SuperOffice.WebApi.Data.PreviewDash.OwnedByFullName*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewDash.OwnedByFullName
+  isExternal: true
+  name: OwnedByFullName
+  nameWithType: PreviewDash.OwnedByFullName
+  fullName: SuperOffice.WebApi.Data.PreviewDash.OwnedByFullName
+- uid: SuperOffice.WebApi.Data.PreviewDash.Registered*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewDash.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: PreviewDash.Registered
+  fullName: SuperOffice.WebApi.Data.PreviewDash.Registered
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.PreviewDash.Tiles*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewDash.Tiles
+  isExternal: true
+  name: Tiles
+  nameWithType: PreviewDash.Tiles
+  fullName: SuperOffice.WebApi.Data.PreviewDash.Tiles
+- uid: SuperOffice.WebApi.Data.PreviewDashTile[]
+  isExternal: true
+  name: PreviewDashTile[]
+  nameWithType: PreviewDashTile[]
+  fullName: SuperOffice.WebApi.Data.PreviewDashTile[]
+  nameWithType.vb: PreviewDashTile()
+  fullName.vb: SuperOffice.WebApi.Data.PreviewDashTile()
+  name.vb: PreviewDashTile()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.PreviewDashTile
+    name: PreviewDashTile
+    nameWithType: PreviewDashTile
+    fullName: SuperOffice.WebApi.Data.PreviewDashTile
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.PreviewDashTile
+    name: PreviewDashTile
+    nameWithType: PreviewDashTile
+    fullName: SuperOffice.WebApi.Data.PreviewDashTile
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

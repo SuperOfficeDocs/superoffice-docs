@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest
+  id: Ticket_SaveTicketEntityWithNotifyRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.NewEntity
+  - SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.Notify
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SaveTicketEntityWithNotifyRequest
+  nameWithType: Ticket_SaveTicketEntityWithNotifyRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_SaveTicketEntityWithNotifyRequest : Object'
+    content.vb: >-
+      Public Class Ticket_SaveTicketEntityWithNotifyRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SaveTicketEntityWithNotifyRequest()
+  nameWithType: Ticket_SaveTicketEntityWithNotifyRequest.Ticket_SaveTicketEntityWithNotifyRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.Ticket_SaveTicketEntityWithNotifyRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_SaveTicketEntityWithNotifyRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.NewEntity
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.NewEntity
+  id: NewEntity
+  parent: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest
+  langs:
+  - csharp
+  - vb
+  name: NewEntity
+  nameWithType: Ticket_SaveTicketEntityWithNotifyRequest.NewEntity
+  fullName: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.NewEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TicketEntity NewEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketEntity
+    content.vb: Public Property NewEntity As TicketEntity
+  overload: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.NewEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.Notify
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.Notify
+  id: Notify
+  parent: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest
+  langs:
+  - csharp
+  - vb
+  name: Notify
+  nameWithType: Ticket_SaveTicketEntityWithNotifyRequest.Notify
+  fullName: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.Notify
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool Notify { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Notify As Boolean
+  overload: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.Notify*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.#ctor
+  isExternal: true
+  name: Ticket_SaveTicketEntityWithNotifyRequest
+  nameWithType: Ticket_SaveTicketEntityWithNotifyRequest.Ticket_SaveTicketEntityWithNotifyRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.Ticket_SaveTicketEntityWithNotifyRequest
+- uid: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.NewEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.NewEntity
+  isExternal: true
+  name: NewEntity
+  nameWithType: Ticket_SaveTicketEntityWithNotifyRequest.NewEntity
+  fullName: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.NewEntity
+- uid: SuperOffice.WebApi.Data.TicketEntity
+  commentId: T:SuperOffice.WebApi.Data.TicketEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketEntity
+  nameWithType: TicketEntity
+  fullName: SuperOffice.WebApi.Data.TicketEntity
+- uid: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.Notify*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.Notify
+  isExternal: true
+  name: Notify
+  nameWithType: Ticket_SaveTicketEntityWithNotifyRequest.Notify
+  fullName: SuperOffice.WebApi.Data.Ticket_SaveTicketEntityWithNotifyRequest.Notify
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

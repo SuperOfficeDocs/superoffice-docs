@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest
+  id: List_SetTicketPrioritySortOrderRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.SortOrder
+  - SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.TicketPriorityId
+  langs:
+  - csharp
+  - vb
+  name: List_SetTicketPrioritySortOrderRequest
+  nameWithType: List_SetTicketPrioritySortOrderRequest
+  fullName: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SetTicketPrioritySortOrderRequest : Object'
+    content.vb: >-
+      Public Class List_SetTicketPrioritySortOrderRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SetTicketPrioritySortOrderRequest()
+  nameWithType: List_SetTicketPrioritySortOrderRequest.List_SetTicketPrioritySortOrderRequest()
+  fullName: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.List_SetTicketPrioritySortOrderRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SetTicketPrioritySortOrderRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.TicketPriorityId
+  commentId: P:SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.TicketPriorityId
+  id: TicketPriorityId
+  parent: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityId
+  nameWithType: List_SetTicketPrioritySortOrderRequest.TicketPriorityId
+  fullName: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.TicketPriorityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketPriorityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketPriorityId As Integer
+  overload: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.TicketPriorityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.SortOrder
+  commentId: P:SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.SortOrder
+  id: SortOrder
+  parent: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: List_SetTicketPrioritySortOrderRequest.SortOrder
+  fullName: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.SortOrder
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SortOrder { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SortOrder As Integer
+  overload: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.SortOrder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.#ctor
+  isExternal: true
+  name: List_SetTicketPrioritySortOrderRequest
+  nameWithType: List_SetTicketPrioritySortOrderRequest.List_SetTicketPrioritySortOrderRequest
+  fullName: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.List_SetTicketPrioritySortOrderRequest
+- uid: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.TicketPriorityId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.TicketPriorityId
+  isExternal: true
+  name: TicketPriorityId
+  nameWithType: List_SetTicketPrioritySortOrderRequest.TicketPriorityId
+  fullName: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.TicketPriorityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.SortOrder*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.SortOrder
+  isExternal: true
+  name: SortOrder
+  nameWithType: List_SetTicketPrioritySortOrderRequest.SortOrder
+  fullName: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest.SortOrder

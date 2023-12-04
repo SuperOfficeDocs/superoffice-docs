@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest
+  id: Ticket_GetTicketMessageWithOptionsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.IncludeNonInlineAttachmentsInfo
+  - SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.TicketMessageEntityId
+  langs:
+  - csharp
+  - vb
+  name: Ticket_GetTicketMessageWithOptionsRequest
+  nameWithType: Ticket_GetTicketMessageWithOptionsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_GetTicketMessageWithOptionsRequest : Object'
+    content.vb: >-
+      Public Class Ticket_GetTicketMessageWithOptionsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_GetTicketMessageWithOptionsRequest()
+  nameWithType: Ticket_GetTicketMessageWithOptionsRequest.Ticket_GetTicketMessageWithOptionsRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.Ticket_GetTicketMessageWithOptionsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_GetTicketMessageWithOptionsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.TicketMessageEntityId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.TicketMessageEntityId
+  id: TicketMessageEntityId
+  parent: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageEntityId
+  nameWithType: Ticket_GetTicketMessageWithOptionsRequest.TicketMessageEntityId
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.TicketMessageEntityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketMessageEntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketMessageEntityId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.TicketMessageEntityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.IncludeNonInlineAttachmentsInfo
+  commentId: P:SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.IncludeNonInlineAttachmentsInfo
+  id: IncludeNonInlineAttachmentsInfo
+  parent: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeNonInlineAttachmentsInfo
+  nameWithType: Ticket_GetTicketMessageWithOptionsRequest.IncludeNonInlineAttachmentsInfo
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.IncludeNonInlineAttachmentsInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeNonInlineAttachmentsInfo { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeNonInlineAttachmentsInfo As Boolean
+  overload: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.IncludeNonInlineAttachmentsInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.#ctor
+  isExternal: true
+  name: Ticket_GetTicketMessageWithOptionsRequest
+  nameWithType: Ticket_GetTicketMessageWithOptionsRequest.Ticket_GetTicketMessageWithOptionsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.Ticket_GetTicketMessageWithOptionsRequest
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.TicketMessageEntityId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.TicketMessageEntityId
+  isExternal: true
+  name: TicketMessageEntityId
+  nameWithType: Ticket_GetTicketMessageWithOptionsRequest.TicketMessageEntityId
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.TicketMessageEntityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.IncludeNonInlineAttachmentsInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.IncludeNonInlineAttachmentsInfo
+  isExternal: true
+  name: IncludeNonInlineAttachmentsInfo
+  nameWithType: Ticket_GetTicketMessageWithOptionsRequest.IncludeNonInlineAttachmentsInfo
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest.IncludeNonInlineAttachmentsInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

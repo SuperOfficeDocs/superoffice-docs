@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MessageActionType
+  commentId: T:SuperOffice.WebApi.Data.MessageActionType
+  id: MessageActionType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MessageActionType.Forward
+  - SuperOffice.WebApi.Data.MessageActionType.InternalComment
+  - SuperOffice.WebApi.Data.MessageActionType.None
+  - SuperOffice.WebApi.Data.MessageActionType.Reply
+  - SuperOffice.WebApi.Data.MessageActionType.ReplyAll
+  - SuperOffice.WebApi.Data.MessageActionType.value__
+  langs:
+  - csharp
+  - vb
+  name: MessageActionType
+  nameWithType: MessageActionType
+  fullName: SuperOffice.WebApi.Data.MessageActionType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTicket message actions\n"
+  syntax:
+    content: 'public sealed class MessageActionType : Enum'
+    content.vb: >-
+      Public NotInheritable Class MessageActionType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.MessageActionType.value__
+  commentId: F:SuperOffice.WebApi.Data.MessageActionType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.MessageActionType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MessageActionType.value__
+  fullName: SuperOffice.WebApi.Data.MessageActionType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MessageActionType.None
+  commentId: F:SuperOffice.WebApi.Data.MessageActionType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.MessageActionType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: MessageActionType.None
+  fullName: SuperOffice.WebApi.Data.MessageActionType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const MessageActionType None
+    return:
+      type: SuperOffice.WebApi.Data.MessageActionType
+    content.vb: Public Const None As MessageActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MessageActionType.Reply
+  commentId: F:SuperOffice.WebApi.Data.MessageActionType.Reply
+  id: Reply
+  parent: SuperOffice.WebApi.Data.MessageActionType
+  langs:
+  - csharp
+  - vb
+  name: Reply
+  nameWithType: MessageActionType.Reply
+  fullName: SuperOffice.WebApi.Data.MessageActionType.Reply
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Reply to message\n"
+  syntax:
+    content: public const MessageActionType Reply
+    return:
+      type: SuperOffice.WebApi.Data.MessageActionType
+    content.vb: Public Const Reply As MessageActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MessageActionType.ReplyAll
+  commentId: F:SuperOffice.WebApi.Data.MessageActionType.ReplyAll
+  id: ReplyAll
+  parent: SuperOffice.WebApi.Data.MessageActionType
+  langs:
+  - csharp
+  - vb
+  name: ReplyAll
+  nameWithType: MessageActionType.ReplyAll
+  fullName: SuperOffice.WebApi.Data.MessageActionType.ReplyAll
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Reply to all\n"
+  syntax:
+    content: public const MessageActionType ReplyAll
+    return:
+      type: SuperOffice.WebApi.Data.MessageActionType
+    content.vb: Public Const ReplyAll As MessageActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MessageActionType.Forward
+  commentId: F:SuperOffice.WebApi.Data.MessageActionType.Forward
+  id: Forward
+  parent: SuperOffice.WebApi.Data.MessageActionType
+  langs:
+  - csharp
+  - vb
+  name: Forward
+  nameWithType: MessageActionType.Forward
+  fullName: SuperOffice.WebApi.Data.MessageActionType.Forward
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Forward message\n"
+  syntax:
+    content: public const MessageActionType Forward
+    return:
+      type: SuperOffice.WebApi.Data.MessageActionType
+    content.vb: Public Const Forward As MessageActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MessageActionType.InternalComment
+  commentId: F:SuperOffice.WebApi.Data.MessageActionType.InternalComment
+  id: InternalComment
+  parent: SuperOffice.WebApi.Data.MessageActionType
+  langs:
+  - csharp
+  - vb
+  name: InternalComment
+  nameWithType: MessageActionType.InternalComment
+  fullName: SuperOffice.WebApi.Data.MessageActionType.InternalComment
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Add internal commnet\n"
+  syntax:
+    content: public const MessageActionType InternalComment
+    return:
+      type: SuperOffice.WebApi.Data.MessageActionType
+    content.vb: Public Const InternalComment As MessageActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.MessageActionType
+  commentId: T:SuperOffice.WebApi.Data.MessageActionType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: MessageActionType
+  nameWithType: MessageActionType
+  fullName: SuperOffice.WebApi.Data.MessageActionType

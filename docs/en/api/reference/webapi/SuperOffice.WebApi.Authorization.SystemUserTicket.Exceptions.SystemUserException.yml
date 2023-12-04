@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException
+  commentId: T:SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException
+  id: SystemUserException
+  parent: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  children:
+  - SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.#ctor
+  - SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.#ctor(System.String)
+  - SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.#ctor(System.String,System.Exception)
+  langs:
+  - csharp
+  - vb
+  name: SystemUserException
+  nameWithType: SystemUserException
+  fullName: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException
+  type: Class
+  source:
+    path: SuperOffice.WebApi.Authorization.SystemUserTicket
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization.SystemUserTicket
+  namespace: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  summary: "\nThrown when exception occurs obtaining a new SystemUser ticket.\n"
+  syntax:
+    content: 'public class SystemUserException : Exception'
+    content.vb: >-
+      Public Class SystemUserException
+          Inherits Exception
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.#ctor
+  commentId: M:SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException
+  langs:
+  - csharp
+  - vb
+  name: SystemUserException()
+  nameWithType: SystemUserException.SystemUserException()
+  fullName: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.SystemUserException()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi.Authorization.SystemUserTicket
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization.SystemUserTicket
+  namespace: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  summary: "\nDefault - all blank\n"
+  syntax:
+    content: public SystemUserException()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.#ctor(System.String)
+  commentId: M:SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException
+  langs:
+  - csharp
+  - vb
+  name: SystemUserException(String)
+  nameWithType: SystemUserException.SystemUserException(String)
+  fullName: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.SystemUserException(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi.Authorization.SystemUserTicket
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization.SystemUserTicket
+  namespace: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  summary: "\nMessage\n"
+  syntax:
+    content: public SystemUserException(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: '&quot;halp!&quot;'
+    content.vb: Public Sub New(message As String)
+  overload: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.#ctor(System.String,System.Exception)
+  commentId: M:SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException
+  langs:
+  - csharp
+  - vb
+  name: SystemUserException(String, Exception)
+  nameWithType: SystemUserException.SystemUserException(String, Exception)
+  fullName: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.SystemUserException(System.String, System.Exception)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi.Authorization.SystemUserTicket
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization.SystemUserTicket
+  namespace: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  summary: "\nWrapper\n"
+  syntax:
+    content: public SystemUserException(string message, Exception innerException)
+    parameters:
+    - id: message
+      type: System.String
+      description: '&quot;Halp!&quot;'
+    - id: innerException
+      type: System.Exception
+      description: the real problem
+    content.vb: Public Sub New(message As String, innerException As Exception)
+  overload: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  commentId: N:SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  isExternal: true
+  name: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  nameWithType: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  fullName: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.#ctor
+  isExternal: true
+  name: SystemUserException
+  nameWithType: SystemUserException.SystemUserException
+  fullName: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.SystemUserException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception

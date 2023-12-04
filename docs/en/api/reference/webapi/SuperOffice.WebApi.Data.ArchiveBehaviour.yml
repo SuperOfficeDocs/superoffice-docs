@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ArchiveBehaviour
+  commentId: T:SuperOffice.WebApi.Data.ArchiveBehaviour
+  id: ArchiveBehaviour
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ArchiveBehaviour.InArchives
+  - SuperOffice.WebApi.Data.ArchiveBehaviour.MultiSelectInArchives
+  - SuperOffice.WebApi.Data.ArchiveBehaviour.None
+  - SuperOffice.WebApi.Data.ArchiveBehaviour.value__
+  langs:
+  - csharp
+  - vb
+  name: ArchiveBehaviour
+  nameWithType: ArchiveBehaviour
+  fullName: SuperOffice.WebApi.Data.ArchiveBehaviour
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBehaviour in archives\nThis Enum is used by:  TaskMenu.archiveBehaviour\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class ArchiveBehaviour : Enum'
+    content.vb: >-
+      Public NotInheritable Class ArchiveBehaviour
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ArchiveBehaviour.value__
+  commentId: F:SuperOffice.WebApi.Data.ArchiveBehaviour.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ArchiveBehaviour
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ArchiveBehaviour.value__
+  fullName: SuperOffice.WebApi.Data.ArchiveBehaviour.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ArchiveBehaviour.None
+  commentId: F:SuperOffice.WebApi.Data.ArchiveBehaviour.None
+  id: None
+  parent: SuperOffice.WebApi.Data.ArchiveBehaviour
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ArchiveBehaviour.None
+  fullName: SuperOffice.WebApi.Data.ArchiveBehaviour.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const ArchiveBehaviour None
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveBehaviour
+    content.vb: Public Const None As ArchiveBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ArchiveBehaviour.InArchives
+  commentId: F:SuperOffice.WebApi.Data.ArchiveBehaviour.InArchives
+  id: InArchives
+  parent: SuperOffice.WebApi.Data.ArchiveBehaviour
+  langs:
+  - csharp
+  - vb
+  name: InArchives
+  nameWithType: ArchiveBehaviour.InArchives
+  fullName: SuperOffice.WebApi.Data.ArchiveBehaviour.InArchives
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: RightClick in archives\n"
+  syntax:
+    content: public const ArchiveBehaviour InArchives
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveBehaviour
+    content.vb: Public Const InArchives As ArchiveBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ArchiveBehaviour.MultiSelectInArchives
+  commentId: F:SuperOffice.WebApi.Data.ArchiveBehaviour.MultiSelectInArchives
+  id: MultiSelectInArchives
+  parent: SuperOffice.WebApi.Data.ArchiveBehaviour
+  langs:
+  - csharp
+  - vb
+  name: MultiSelectInArchives
+  nameWithType: ArchiveBehaviour.MultiSelectInArchives
+  fullName: SuperOffice.WebApi.Data.ArchiveBehaviour.MultiSelectInArchives
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: RightClick with multiselect in archives\n"
+  syntax:
+    content: public const ArchiveBehaviour MultiSelectInArchives
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveBehaviour
+    content.vb: Public Const MultiSelectInArchives As ArchiveBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.ArchiveBehaviour
+  commentId: T:SuperOffice.WebApi.Data.ArchiveBehaviour
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ArchiveBehaviour
+  nameWithType: ArchiveBehaviour
+  fullName: SuperOffice.WebApi.Data.ArchiveBehaviour

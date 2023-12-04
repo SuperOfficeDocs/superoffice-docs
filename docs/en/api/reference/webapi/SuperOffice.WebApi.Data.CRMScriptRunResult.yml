@@ -1,0 +1,403 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult
+  commentId: T:SuperOffice.WebApi.Data.CRMScriptRunResult
+  id: CRMScriptRunResult
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CRMScriptRunResult.#ctor
+  - SuperOffice.WebApi.Data.CRMScriptRunResult.ErrorInformation
+  - SuperOffice.WebApi.Data.CRMScriptRunResult.Eventdata
+  - SuperOffice.WebApi.Data.CRMScriptRunResult.Output
+  - SuperOffice.WebApi.Data.CRMScriptRunResult.Parameters
+  - SuperOffice.WebApi.Data.CRMScriptRunResult.Success
+  - SuperOffice.WebApi.Data.CRMScriptRunResult.TraceRun
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptRunResult
+  nameWithType: CRMScriptRunResult
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CRMScriptRunResult.\nObject for returning result from a CRMScript    \n"
+  syntax:
+    content: 'public class CRMScriptRunResult : Carrier'
+    content.vb: >-
+      Public Class CRMScriptRunResult
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CRMScriptAgent
+    commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CRMScriptRunResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CRMScriptRunResult
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptRunResult()
+  nameWithType: CRMScriptRunResult.CRMScriptRunResult()
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.CRMScriptRunResult()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CRMScriptRunResult()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CRMScriptRunResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.Output
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptRunResult.Output
+  id: Output
+  parent: SuperOffice.WebApi.Data.CRMScriptRunResult
+  langs:
+  - csharp
+  - vb
+  name: Output
+  nameWithType: CRMScriptRunResult.Output
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.Output
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe output from the script, normally from a print or printLine statement\n"
+  syntax:
+    content: public virtual string Output { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Output As String
+  overload: SuperOffice.WebApi.Data.CRMScriptRunResult.Output*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.Parameters
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptRunResult.Parameters
+  id: Parameters
+  parent: SuperOffice.WebApi.Data.CRMScriptRunResult
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: CRMScriptRunResult.Parameters
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.Parameters
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe parameters/variables that might have been modified by the script\n"
+  syntax:
+    content: public virtual StringDictionary Parameters { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property Parameters As StringDictionary
+  overload: SuperOffice.WebApi.Data.CRMScriptRunResult.Parameters*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.TraceRun
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptRunResult.TraceRun
+  id: TraceRun
+  parent: SuperOffice.WebApi.Data.CRMScriptRunResult
+  langs:
+  - csharp
+  - vb
+  name: TraceRun
+  nameWithType: CRMScriptRunResult.TraceRun
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.TraceRun
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContains the trace information from the script execution\n"
+  syntax:
+    content: public virtual CRMScriptTraceRun TraceRun { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CRMScriptTraceRun
+    content.vb: Public Overridable Property TraceRun As CRMScriptTraceRun
+  overload: SuperOffice.WebApi.Data.CRMScriptRunResult.TraceRun*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.Eventdata
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptRunResult.Eventdata
+  id: Eventdata
+  parent: SuperOffice.WebApi.Data.CRMScriptRunResult
+  langs:
+  - csharp
+  - vb
+  name: Eventdata
+  nameWithType: CRMScriptRunResult.Eventdata
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.Eventdata
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe EventData instance after script execution with output values\n"
+  syntax:
+    content: public virtual EventData Eventdata { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EventData
+    content.vb: Public Overridable Property Eventdata As EventData
+  overload: SuperOffice.WebApi.Data.CRMScriptRunResult.Eventdata*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.Success
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptRunResult.Success
+  id: Success
+  parent: SuperOffice.WebApi.Data.CRMScriptRunResult
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: CRMScriptRunResult.Success
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.Success
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates if the script was executed successfully, or if it failed. In case of failing, the error members will contain more information\n"
+  syntax:
+    content: public virtual bool Success { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Success As Boolean
+  overload: SuperOffice.WebApi.Data.CRMScriptRunResult.Success*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.ErrorInformation
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptRunResult.ErrorInformation
+  id: ErrorInformation
+  parent: SuperOffice.WebApi.Data.CRMScriptRunResult
+  langs:
+  - csharp
+  - vb
+  name: ErrorInformation
+  nameWithType: CRMScriptRunResult.ErrorInformation
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.ErrorInformation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContains error information if the execution failed\n"
+  syntax:
+    content: public virtual CRMScriptErrorInfo ErrorInformation { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CRMScriptErrorInfo
+    content.vb: Public Overridable Property ErrorInformation As CRMScriptErrorInfo
+  overload: SuperOffice.WebApi.Data.CRMScriptRunResult.ErrorInformation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent
+  commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
+  isExternal: true
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptRunResult.#ctor
+  isExternal: true
+  name: CRMScriptRunResult
+  nameWithType: CRMScriptRunResult.CRMScriptRunResult
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.CRMScriptRunResult
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.Output*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptRunResult.Output
+  isExternal: true
+  name: Output
+  nameWithType: CRMScriptRunResult.Output
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.Output
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.Parameters*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptRunResult.Parameters
+  isExternal: true
+  name: Parameters
+  nameWithType: CRMScriptRunResult.Parameters
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.Parameters
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.TraceRun*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptRunResult.TraceRun
+  isExternal: true
+  name: TraceRun
+  nameWithType: CRMScriptRunResult.TraceRun
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.TraceRun
+- uid: SuperOffice.WebApi.Data.CRMScriptTraceRun
+  commentId: T:SuperOffice.WebApi.Data.CRMScriptTraceRun
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CRMScriptTraceRun
+  nameWithType: CRMScriptTraceRun
+  fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.Eventdata*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptRunResult.Eventdata
+  isExternal: true
+  name: Eventdata
+  nameWithType: CRMScriptRunResult.Eventdata
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.Eventdata
+- uid: SuperOffice.WebApi.Data.EventData
+  commentId: T:SuperOffice.WebApi.Data.EventData
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EventData
+  nameWithType: EventData
+  fullName: SuperOffice.WebApi.Data.EventData
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.Success*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptRunResult.Success
+  isExternal: true
+  name: Success
+  nameWithType: CRMScriptRunResult.Success
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.Success
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.ErrorInformation*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptRunResult.ErrorInformation
+  isExternal: true
+  name: ErrorInformation
+  nameWithType: CRMScriptRunResult.ErrorInformation
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.ErrorInformation
+- uid: SuperOffice.WebApi.Data.CRMScriptErrorInfo
+  commentId: T:SuperOffice.WebApi.Data.CRMScriptErrorInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CRMScriptErrorInfo
+  nameWithType: CRMScriptErrorInfo
+  fullName: SuperOffice.WebApi.Data.CRMScriptErrorInfo

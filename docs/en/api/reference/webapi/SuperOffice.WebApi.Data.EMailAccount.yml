@@ -12,8 +12,10 @@ items:
   - SuperOffice.WebApi.Data.EMailAccount.EMailAddress
   - SuperOffice.WebApi.Data.EMailAccount.ErrorCount
   - SuperOffice.WebApi.Data.EMailAccount.ErrorReason
+  - SuperOffice.WebApi.Data.EMailAccount.InboxFolder
   - SuperOffice.WebApi.Data.EMailAccount.IncomingCredentials
   - SuperOffice.WebApi.Data.EMailAccount.OutgoingCredentials
+  - SuperOffice.WebApi.Data.EMailAccount.SentFolder
   langs:
   - csharp
   - vb
@@ -340,6 +342,72 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAccount.InboxFolder
+  commentId: P:SuperOffice.WebApi.Data.EMailAccount.InboxFolder
+  id: InboxFolder
+  parent: SuperOffice.WebApi.Data.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: InboxFolder
+  nameWithType: EMailAccount.InboxFolder
+  fullName: SuperOffice.WebApi.Data.EMailAccount.InboxFolder
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInbox folder name if available in the db\n"
+  syntax:
+    content: public virtual string InboxFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property InboxFolder As String
+  overload: SuperOffice.WebApi.Data.EMailAccount.InboxFolder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EMailAccount.SentFolder
+  commentId: P:SuperOffice.WebApi.Data.EMailAccount.SentFolder
+  id: SentFolder
+  parent: SuperOffice.WebApi.Data.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: SentFolder
+  nameWithType: EMailAccount.SentFolder
+  fullName: SuperOffice.WebApi.Data.EMailAccount.SentFolder
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSent email folder name if available in the db\n"
+  syntax:
+    content: public virtual string SentFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SentFolder As String
+  overload: SuperOffice.WebApi.Data.EMailAccount.SentFolder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -469,3 +537,15 @@ references:
   name: ErrorReason
   nameWithType: EMailAccount.ErrorReason
   fullName: SuperOffice.WebApi.Data.EMailAccount.ErrorReason
+- uid: SuperOffice.WebApi.Data.EMailAccount.InboxFolder*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAccount.InboxFolder
+  isExternal: true
+  name: InboxFolder
+  nameWithType: EMailAccount.InboxFolder
+  fullName: SuperOffice.WebApi.Data.EMailAccount.InboxFolder
+- uid: SuperOffice.WebApi.Data.EMailAccount.SentFolder*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAccount.SentFolder
+  isExternal: true
+  name: SentFolder
+  nameWithType: EMailAccount.SentFolder
+  fullName: SuperOffice.WebApi.Data.EMailAccount.SentFolder

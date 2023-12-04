@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Summarizer
+  commentId: T:SuperOffice.WebApi.Data.Summarizer
+  id: Summarizer
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Summarizer.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Summarizer
+  nameWithType: Summarizer
+  fullName: SuperOffice.WebApi.Data.Summarizer
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Summarizer.\nSummary functions for various entities    \n"
+  syntax:
+    content: 'public class Summarizer : Object'
+    content.vb: >-
+      Public Class Summarizer
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AIAgent
+    commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Summarizer.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Summarizer.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Summarizer
+  langs:
+  - csharp
+  - vb
+  name: Summarizer()
+  nameWithType: Summarizer.Summarizer()
+  fullName: SuperOffice.WebApi.Data.Summarizer.Summarizer()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Summarizer()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Summarizer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.AIAgent
+  commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  isExternal: true
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.WebApi.Agents.AIAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Summarizer.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Summarizer.#ctor
+  isExternal: true
+  name: Summarizer
+  nameWithType: Summarizer.Summarizer
+  fullName: SuperOffice.WebApi.Data.Summarizer.Summarizer

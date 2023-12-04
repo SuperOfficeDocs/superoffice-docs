@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPresenceStatus
+  commentId: T:SuperOffice.WebApi.Data.UserPresenceStatus
+  id: UserPresenceStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPresenceStatus.#ctor
+  - SuperOffice.WebApi.Data.UserPresenceStatus.Message
+  - SuperOffice.WebApi.Data.UserPresenceStatus.Status
+  - SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
+  langs:
+  - csharp
+  - vb
+  name: UserPresenceStatus
+  nameWithType: UserPresenceStatus
+  fullName: SuperOffice.WebApi.Data.UserPresenceStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for UserPresenceStatus.\nManage present/absent status for a Service user account (influences ticket assignments).    \n"
+  syntax:
+    content: 'public class UserPresenceStatus : Object'
+    content.vb: >-
+      Public Class UserPresenceStatus
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.UserAgent
+    commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserPresenceStatus.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserPresenceStatus.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserPresenceStatus
+  langs:
+  - csharp
+  - vb
+  name: UserPresenceStatus()
+  nameWithType: UserPresenceStatus.UserPresenceStatus()
+  fullName: SuperOffice.WebApi.Data.UserPresenceStatus.UserPresenceStatus()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public UserPresenceStatus()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserPresenceStatus.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
+  commentId: P:SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
+  id: Status_String
+  parent: SuperOffice.WebApi.Data.UserPresenceStatus
+  langs:
+  - csharp
+  - vb
+  name: Status_String
+  nameWithType: UserPresenceStatus.Status_String
+  fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe status (enum) for this user.\nRaw string enum value.\n"
+  syntax:
+    content: public string Status_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Status_String As String
+  overload: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.UserPresenceStatus.Status
+    commentId: P:SuperOffice.WebApi.Data.UserPresenceStatus.Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserPresenceStatus.Status
+  commentId: P:SuperOffice.WebApi.Data.UserPresenceStatus.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.UserPresenceStatus
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: UserPresenceStatus.Status
+  fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe status (enum) for this user.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<EjUserStatus> Status { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.EjUserStatus}
+    content.vb: Public Property Status As Nullable(Of EjUserStatus)
+  overload: SuperOffice.WebApi.Data.UserPresenceStatus.Status*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
+    commentId: P:SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserPresenceStatus.Message
+  commentId: P:SuperOffice.WebApi.Data.UserPresenceStatus.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.UserPresenceStatus
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: UserPresenceStatus.Message
+  fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Message
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nComment to add for user when status is not present.\n"
+  syntax:
+    content: public virtual string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Message As String
+  overload: SuperOffice.WebApi.Data.UserPresenceStatus.Message*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.UserAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: UserAgent
+  fullName: SuperOffice.WebApi.Agents.UserAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserPresenceStatus.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserPresenceStatus.#ctor
+  isExternal: true
+  name: UserPresenceStatus
+  nameWithType: UserPresenceStatus.UserPresenceStatus
+  fullName: SuperOffice.WebApi.Data.UserPresenceStatus.UserPresenceStatus
+- uid: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String*
+  commentId: Overload:SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
+  isExternal: true
+  name: Status_String
+  nameWithType: UserPresenceStatus.Status_String
+  fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
+- uid: SuperOffice.WebApi.Data.UserPresenceStatus.Status
+  commentId: P:SuperOffice.WebApi.Data.UserPresenceStatus.Status
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.UserPresenceStatus.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.UserPresenceStatus.Status
+  isExternal: true
+  name: Status
+  nameWithType: UserPresenceStatus.Status
+  fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Status
+- uid: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
+  commentId: P:SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.EjUserStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.EjUserStatus}'
+  definition: System.Nullable`1
+  name: Nullable<EjUserStatus>
+  nameWithType: Nullable<EjUserStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.EjUserStatus>
+  nameWithType.vb: Nullable(Of EjUserStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.EjUserStatus)
+  name.vb: Nullable(Of EjUserStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.EjUserStatus
+    name: EjUserStatus
+    nameWithType: EjUserStatus
+    fullName: SuperOffice.WebApi.Data.EjUserStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.EjUserStatus
+    name: EjUserStatus
+    nameWithType: EjUserStatus
+    fullName: SuperOffice.WebApi.Data.EjUserStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.UserPresenceStatus.Message*
+  commentId: Overload:SuperOffice.WebApi.Data.UserPresenceStatus.Message
+  isExternal: true
+  name: Message
+  nameWithType: UserPresenceStatus.Message
+  fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Message

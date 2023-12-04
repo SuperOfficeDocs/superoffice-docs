@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest
+  commentId: T:SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest
+  id: Targets_ExportTargetGroupToExcelRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.#ctor
+  - SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.TargetGroupId
+  langs:
+  - csharp
+  - vb
+  name: Targets_ExportTargetGroupToExcelRequest
+  nameWithType: Targets_ExportTargetGroupToExcelRequest
+  fullName: SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Targets_ExportTargetGroupToExcelRequest : Object'
+    content.vb: >-
+      Public Class Targets_ExportTargetGroupToExcelRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest
+  langs:
+  - csharp
+  - vb
+  name: Targets_ExportTargetGroupToExcelRequest()
+  nameWithType: Targets_ExportTargetGroupToExcelRequest.Targets_ExportTargetGroupToExcelRequest()
+  fullName: SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.Targets_ExportTargetGroupToExcelRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Targets_ExportTargetGroupToExcelRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.TargetGroupId
+  commentId: P:SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.TargetGroupId
+  id: TargetGroupId
+  parent: SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetGroupId
+  nameWithType: Targets_ExportTargetGroupToExcelRequest.TargetGroupId
+  fullName: SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.TargetGroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TargetGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TargetGroupId As Integer
+  overload: SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.TargetGroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.#ctor
+  isExternal: true
+  name: Targets_ExportTargetGroupToExcelRequest
+  nameWithType: Targets_ExportTargetGroupToExcelRequest.Targets_ExportTargetGroupToExcelRequest
+  fullName: SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.Targets_ExportTargetGroupToExcelRequest
+- uid: SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.TargetGroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.TargetGroupId
+  isExternal: true
+  name: TargetGroupId
+  nameWithType: Targets_ExportTargetGroupToExcelRequest.TargetGroupId
+  fullName: SuperOffice.WebApi.Data.Targets_ExportTargetGroupToExcelRequest.TargetGroupId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

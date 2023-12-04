@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.PocketSection.AutoLogoutTime
   - SuperOffice.WebApi.Data.UserPreferenceStrings.PocketSection.DisableAutoLogin
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.PocketSection.EnableCRMScript
   - SuperOffice.WebApi.Data.UserPreferenceStrings.PocketSection.LastLoggedIn
   - SuperOffice.WebApi.Data.UserPreferenceStrings.PocketSection.Section
   langs:
@@ -147,6 +148,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const LastLoggedIn As String = "LastLoggedIn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.PocketSection.EnableCRMScript
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.PocketSection.EnableCRMScript
+  id: EnableCRMScript
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.PocketSection
+  langs:
+  - csharp
+  - vb
+  name: EnableCRMScript
+  nameWithType: UserPreferenceStrings.PocketSection.EnableCRMScript
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.PocketSection.EnableCRMScript
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnable/disable execution of CRMScripts from Mobile CRM client\n"
+  syntax:
+    content: public const string EnableCRMScript = "EnableCRMScript"
+    return:
+      type: System.String
+    content.vb: Public Const EnableCRMScript As String = "EnableCRMScript"
   modifiers.csharp:
   - public
   - const

@@ -31,27 +31,31 @@ items:
   example:
   - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (SentryAgent agent = new SentryAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
   syntax:
-    content: 'public class SentryAgent : AgentBase, IDisposable'
+    content: 'public class SentryAgent : AgentBase, ISentryAgent, IDisposable'
     content.vb: >-
       Public Class SentryAgent
           Inherits AgentBase
-          Implements IDisposable
+          Implements ISentryAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
+  - SuperOffice.WebApi.Agents.ISentryAgent
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
   - SuperOffice.WebApi.Agents.AgentBase._binary
   - SuperOffice.WebApi.Agents.AgentBase._config
   - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase._disposeClient
   - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
@@ -62,6 +66,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
   - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   modifiers.csharp:
   - public
   - class
@@ -91,7 +96,7 @@ items:
     parameters:
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+      description: Use this HTTP client instead of making own HttpClient instance.
     content.vb: Public Sub New(httpClient As HttpClient)
   overload: SuperOffice.WebApi.Agents.SentryAgent.#ctor*
   modifiers.csharp:
@@ -124,7 +129,7 @@ items:
       description: Base URL and authentication values.
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+      description: 'Optional: Use this HTTP client instead of making a new one.'
     content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
   overload: SuperOffice.WebApi.Agents.SentryAgent.#ctor*
   modifiers.csharp:
@@ -163,6 +168,8 @@ items:
       description: The TableRight
     content.vb: Public Function GetNewTableRightAsync(tableName As String, requestOptions As RequestOptions = Nothing) As Task(Of TableRight)
   overload: SuperOffice.WebApi.Agents.SentryAgent.GetNewTableRightAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync(System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -205,6 +212,8 @@ items:
       description: The TableRight
     content.vb: Public Function GetTableRightByOwnershipAsync(tableName As String, contactGroupId As Integer, contactAssociateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TableRight)
   overload: SuperOffice.WebApi.Agents.SentryAgent.GetTableRightByOwnershipAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -238,6 +247,8 @@ items:
       description: String array with the technical names of assigned function rights
     content.vb: Public Function GetFunctionRightsAsync(requestOptions As RequestOptions = Nothing) As Task(Of String())
   overload: SuperOffice.WebApi.Agents.SentryAgent.GetFunctionRightsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ISentryAgent.GetFunctionRightsAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -273,6 +284,8 @@ items:
       type: System.Threading.Tasks.Task{System.Boolean}
     content.vb: Public Function HasFunctionRightAsync(functionRight As String, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.SentryAgent.HasFunctionRightAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync(System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -309,6 +322,8 @@ items:
       description: Returns true if the current associate can create appointments in the diary of all the other associates, otherwise false.
     content.vb: Public Function CanCreateAppointmentInAssociateDiariesAsync(associateIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInAssociateDiariesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: SentryAgent.CanCreateAppointmentInAssociateDiariesAsync(Int32(), RequestOptions)
   modifiers.csharp:
   - public
@@ -345,6 +360,8 @@ items:
       description: Returns true if the current associate can create appointments in the diary of all the other associates, otherwise false.
     content.vb: Public Function CanCreateAppointmentInAllDiariesAsync(requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInAllDiariesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -384,6 +401,8 @@ items:
       description: The TableRight
     content.vb: Public Function GetTableRightByContactOwnershipAsync(tableName As String, contactId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TableRight)
   overload: SuperOffice.WebApi.Agents.SentryAgent.GetTableRightByContactOwnershipAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -409,6 +428,13 @@ references:
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.ISentryAgent
+  commentId: T:SuperOffice.WebApi.Agents.ISentryAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: ISentryAgent
+  nameWithType: ISentryAgent
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent
 - uid: System.IDisposable
   isExternal: true
   name: IDisposable
@@ -442,6 +468,13 @@ references:
   name: _client
   nameWithType: AgentBase._client
   fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _disposeClient
+  nameWithType: AgentBase._disposeClient
+  fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
 - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
@@ -693,32 +726,136 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ParseAuthorization(IAuthorization)
-  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  name: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-    name: ParseAuthorization
-    nameWithType: AgentBase.ParseAuthorization
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
-    name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
     nameWithType: AgentBase.ParseAuthorization
     fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
@@ -726,10 +863,27 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
     nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
     nameWithType: )
@@ -850,6 +1004,127 @@ references:
     name: Object
     nameWithType: Object
     fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -1135,6 +1410,13 @@ references:
   name: ProgressListener
   nameWithType: AgentBase.ProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: UploadProgressListener
+  nameWithType: AgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1171,6 +1453,63 @@ references:
   name: GetNewTableRightAsync
   nameWithType: SentryAgent.GetNewTableRightAsync
   fullName: SuperOffice.WebApi.Agents.SentryAgent.GetNewTableRightAsync
+- uid: SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISentryAgent
+  isExternal: true
+  name: GetNewTableRightAsync(String, RequestOptions)
+  nameWithType: ISentryAgent.GetNewTableRightAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetNewTableRightAsync
+    nameWithType: ISentryAgent.GetNewTableRightAsync
+    fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetNewTableRightAsync
+    nameWithType: ISentryAgent.GetNewTableRightAsync
+    fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1272,6 +1611,95 @@ references:
   name: GetTableRightByOwnershipAsync
   nameWithType: SentryAgent.GetTableRightByOwnershipAsync
   fullName: SuperOffice.WebApi.Agents.SentryAgent.GetTableRightByOwnershipAsync
+- uid: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISentryAgent
+  isExternal: true
+  name: GetTableRightByOwnershipAsync(String, Int32, Int32, RequestOptions)
+  nameWithType: ISentryAgent.GetTableRightByOwnershipAsync(String, Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync(System.String, System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetTableRightByOwnershipAsync
+    nameWithType: ISentryAgent.GetTableRightByOwnershipAsync
+    fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetTableRightByOwnershipAsync
+    nameWithType: ISentryAgent.GetTableRightByOwnershipAsync
+    fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1285,6 +1713,47 @@ references:
   name: GetFunctionRightsAsync
   nameWithType: SentryAgent.GetFunctionRightsAsync
   fullName: SuperOffice.WebApi.Agents.SentryAgent.GetFunctionRightsAsync
+- uid: SuperOffice.WebApi.Agents.ISentryAgent.GetFunctionRightsAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISentryAgent.GetFunctionRightsAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISentryAgent
+  isExternal: true
+  name: GetFunctionRightsAsync(RequestOptions)
+  nameWithType: ISentryAgent.GetFunctionRightsAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetFunctionRightsAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetFunctionRightsAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetFunctionRightsAsync
+    nameWithType: ISentryAgent.GetFunctionRightsAsync
+    fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetFunctionRightsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetFunctionRightsAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetFunctionRightsAsync
+    nameWithType: ISentryAgent.GetFunctionRightsAsync
+    fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetFunctionRightsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{System.String[]}
   commentId: '!:System.Threading.Tasks.Task{System.String[]}'
   definition: System.Threading.Tasks.Task`1
@@ -1340,6 +1809,63 @@ references:
   name: HasFunctionRightAsync
   nameWithType: SentryAgent.HasFunctionRightAsync
   fullName: SuperOffice.WebApi.Agents.SentryAgent.HasFunctionRightAsync
+- uid: SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISentryAgent
+  isExternal: true
+  name: HasFunctionRightAsync(String, RequestOptions)
+  nameWithType: ISentryAgent.HasFunctionRightAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: HasFunctionRightAsync
+    nameWithType: ISentryAgent.HasFunctionRightAsync
+    fullName: SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: HasFunctionRightAsync
+    nameWithType: ISentryAgent.HasFunctionRightAsync
+    fullName: SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{System.Boolean}
   commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
   definition: System.Threading.Tasks.Task`1
@@ -1389,6 +1915,72 @@ references:
   name: CanCreateAppointmentInAssociateDiariesAsync
   nameWithType: SentryAgent.CanCreateAppointmentInAssociateDiariesAsync
   fullName: SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInAssociateDiariesAsync
+- uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISentryAgent
+  isExternal: true
+  name: CanCreateAppointmentInAssociateDiariesAsync(Int32[], RequestOptions)
+  nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: CanCreateAppointmentInAssociateDiariesAsync(Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: CanCreateAppointmentInAssociateDiariesAsync
+    nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync
+    fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: CanCreateAppointmentInAssociateDiariesAsync
+    nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync
+    fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -1421,9 +2013,123 @@ references:
   name: CanCreateAppointmentInAllDiariesAsync
   nameWithType: SentryAgent.CanCreateAppointmentInAllDiariesAsync
   fullName: SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInAllDiariesAsync
+- uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISentryAgent
+  isExternal: true
+  name: CanCreateAppointmentInAllDiariesAsync(RequestOptions)
+  nameWithType: ISentryAgent.CanCreateAppointmentInAllDiariesAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(SuperOffice.WebApi.RequestOptions)
+    name: CanCreateAppointmentInAllDiariesAsync
+    nameWithType: ISentryAgent.CanCreateAppointmentInAllDiariesAsync
+    fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAllDiariesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(SuperOffice.WebApi.RequestOptions)
+    name: CanCreateAppointmentInAllDiariesAsync
+    nameWithType: ISentryAgent.CanCreateAppointmentInAllDiariesAsync
+    fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAllDiariesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.SentryAgent.GetTableRightByContactOwnershipAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.SentryAgent.GetTableRightByContactOwnershipAsync
   isExternal: true
   name: GetTableRightByContactOwnershipAsync
   nameWithType: SentryAgent.GetTableRightByContactOwnershipAsync
   fullName: SuperOffice.WebApi.Agents.SentryAgent.GetTableRightByContactOwnershipAsync
+- uid: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISentryAgent
+  isExternal: true
+  name: GetTableRightByContactOwnershipAsync(String, Int32, RequestOptions)
+  nameWithType: ISentryAgent.GetTableRightByContactOwnershipAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetTableRightByContactOwnershipAsync
+    nameWithType: ISentryAgent.GetTableRightByContactOwnershipAsync
+    fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetTableRightByContactOwnershipAsync
+    nameWithType: ISentryAgent.GetTableRightByContactOwnershipAsync
+    fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

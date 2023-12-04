@@ -23,7 +23,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe state of a quote-alternative or line\nThis Enum is used by:  QuoteVersion.Status; QuoteAlternative.Status; QuoteLine.Status\n"
+  summary: "\nThe state of a quote-alternative or line: Ok / OkWithInfo / Warn / Error\nThis Enum is used by:  QuoteVersion.Status; QuoteAlternative.Status; QuoteLine.Status\n"
   syntax:
     content: 'public sealed class QuoteStatus : Enum'
     content.vb: >-

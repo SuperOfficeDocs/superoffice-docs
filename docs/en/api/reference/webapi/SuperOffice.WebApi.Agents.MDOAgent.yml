@@ -36,27 +36,31 @@ items:
   example:
   - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (MDOAgent agent = new MDOAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
   syntax:
-    content: 'public class MDOAgent : AgentBase, IDisposable'
+    content: 'public class MDOAgent : AgentBase, IMDOAgent, IDisposable'
     content.vb: >-
       Public Class MDOAgent
           Inherits AgentBase
-          Implements IDisposable
+          Implements IMDOAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
+  - SuperOffice.WebApi.Agents.IMDOAgent
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
   - SuperOffice.WebApi.Agents.AgentBase._binary
   - SuperOffice.WebApi.Agents.AgentBase._config
   - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase._disposeClient
   - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
@@ -67,6 +71,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
   - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   modifiers.csharp:
   - public
   - class
@@ -96,7 +101,7 @@ items:
     parameters:
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+      description: Use this HTTP client instead of making own HttpClient instance.
     content.vb: Public Sub New(httpClient As HttpClient)
   overload: SuperOffice.WebApi.Agents.MDOAgent.#ctor*
   modifiers.csharp:
@@ -129,7 +134,7 @@ items:
       description: Base URL and authentication values.
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+      description: 'Optional: Use this HTTP client instead of making a new one.'
     content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
   overload: SuperOffice.WebApi.Agents.MDOAgent.#ctor*
   modifiers.csharp:
@@ -177,6 +182,8 @@ items:
       description: Array of MDOListItem
     content.vb: Public Function GetListAsync(name As String, forceFlatList As Boolean, additionalInfo As String, onlyHistory As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of MDOListItem())
   overload: SuperOffice.WebApi.Agents.MDOAgent.GetListAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -225,6 +232,8 @@ items:
       description: Array of MDOListItem
     content.vb: Public Function GetListWithHistoryAsync(name As String, forceFlatList As Boolean, additionalInfo As String, historyItems As Integer(), onlyHistory As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of MDOListItem())
   overload: SuperOffice.WebApi.Agents.MDOAgent.GetListWithHistoryAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: MDOAgent.GetListWithHistoryAsync(String, Boolean, String, Int32(), Boolean, RequestOptions)
   modifiers.csharp:
   - public
@@ -270,6 +279,8 @@ items:
       description: Array of MDOListItem
     content.vb: Public Function GetListWithRestrictionAsync(name As String, additionalInfo As String, searchValue As String, requestOptions As RequestOptions = Nothing) As Task(Of MDOListItem())
   overload: SuperOffice.WebApi.Agents.MDOAgent.GetListWithRestrictionAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -306,6 +317,8 @@ items:
       description: Array of MDOListItem
     content.vb: Public Function GetSimpleListAsync(name As String, requestOptions As RequestOptions = Nothing) As Task(Of MDOListItem())
   overload: SuperOffice.WebApi.Agents.MDOAgent.GetSimpleListAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -345,6 +358,8 @@ items:
       description: Single MDO list item
     content.vb: Public Function GetListItemAsync(listName As String, id As Integer, requestOptions As RequestOptions = Nothing) As Task(Of MDOListItem)
   overload: SuperOffice.WebApi.Agents.MDOAgent.GetListItemAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -378,6 +393,8 @@ items:
       description: Array of list names.
     content.vb: Public Function GetListNamesAsync(requestOptions As RequestOptions = Nothing) As Task(Of String())
   overload: SuperOffice.WebApi.Agents.MDOAgent.GetListNamesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IMDOAgent.GetListNamesAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -414,6 +431,8 @@ items:
       description: List id in the UdListDefinition table
     content.vb: Public Function GetListIdByListNameAsync(name As String, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
   overload: SuperOffice.WebApi.Agents.MDOAgent.GetListIdByListNameAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -450,6 +469,8 @@ items:
       description: Array of SelectableMDOListItem
     content.vb: Public Function GetSelectableSimpleListAsync(name As String, requestOptions As RequestOptions = Nothing) As Task(Of SelectableMDOListItem())
   overload: SuperOffice.WebApi.Agents.MDOAgent.GetSelectableSimpleListAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -492,6 +513,8 @@ items:
       description: Array of SelectableMDOListItem
     content.vb: Public Function GetSelectableListWithRestrictionAsync(name As String, additionalInfo As String, searchValue As String, requestOptions As RequestOptions = Nothing) As Task(Of SelectableMDOListItem())
   overload: SuperOffice.WebApi.Agents.MDOAgent.GetSelectableListWithRestrictionAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -540,6 +563,8 @@ items:
       description: Array of SelectableMDOListItem
     content.vb: Public Function GetSelectableListWithHistoryAsync(name As String, forceFlatList As Boolean, additionalInfo As String, historyItems As Integer(), onlyHistory As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of SelectableMDOListItem())
   overload: SuperOffice.WebApi.Agents.MDOAgent.GetSelectableListWithHistoryAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: MDOAgent.GetSelectableListWithHistoryAsync(String, Boolean, String, Int32(), Boolean, RequestOptions)
   modifiers.csharp:
   - public
@@ -588,6 +613,8 @@ items:
       description: Array of SelectableMDOListItem
     content.vb: Public Function GetSelectableListAsync(name As String, forceFlatList As Boolean, additionalInfo As String, onlyHistory As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of SelectableMDOListItem())
   overload: SuperOffice.WebApi.Agents.MDOAgent.GetSelectableListAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -630,6 +657,8 @@ items:
       description: Array of updated SelectableMDOListItems
     content.vb: Public Function SetSelectedAsync(name As String, additionalInfo As String, selectableMDOList As SelectableMDOListItem(), requestOptions As RequestOptions = Nothing) As Task(Of SelectableMDOListItem())
   overload: SuperOffice.WebApi.Agents.MDOAgent.SetSelectedAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.WebApi.Data.SelectableMDOListItem[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: MDOAgent.SetSelectedAsync(String, String, SelectableMDOListItem(), RequestOptions)
   modifiers.csharp:
   - public
@@ -658,6 +687,13 @@ references:
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.IMDOAgent
+  commentId: T:SuperOffice.WebApi.Agents.IMDOAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: IMDOAgent
+  nameWithType: IMDOAgent
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent
 - uid: System.IDisposable
   isExternal: true
   name: IDisposable
@@ -691,6 +727,13 @@ references:
   name: _client
   nameWithType: AgentBase._client
   fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _disposeClient
+  nameWithType: AgentBase._disposeClient
+  fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
 - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
@@ -942,32 +985,136 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ParseAuthorization(IAuthorization)
-  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  name: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-    name: ParseAuthorization
-    nameWithType: AgentBase.ParseAuthorization
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
-    name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
     nameWithType: AgentBase.ParseAuthorization
     fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
@@ -975,10 +1122,27 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
     nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
     nameWithType: )
@@ -1099,6 +1263,127 @@ references:
     name: Object
     nameWithType: Object
     fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -1384,6 +1669,13 @@ references:
   name: ProgressListener
   nameWithType: AgentBase.ProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: UploadProgressListener
+  nameWithType: AgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1420,6 +1712,111 @@ references:
   name: GetListAsync
   nameWithType: MDOAgent.GetListAsync
   fullName: SuperOffice.WebApi.Agents.MDOAgent.GetListAsync
+- uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMDOAgent
+  isExternal: true
+  name: GetListAsync(String, Boolean, String, Boolean, RequestOptions)
+  nameWithType: IMDOAgent.GetListAsync(String, Boolean, String, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync(System.String, System.Boolean, System.String, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: GetListAsync
+    nameWithType: IMDOAgent.GetListAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: GetListAsync
+    nameWithType: IMDOAgent.GetListAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1534,6 +1931,136 @@ references:
   name: GetListWithHistoryAsync
   nameWithType: MDOAgent.GetListWithHistoryAsync
   fullName: SuperOffice.WebApi.Agents.MDOAgent.GetListWithHistoryAsync
+- uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMDOAgent
+  isExternal: true
+  name: GetListWithHistoryAsync(String, Boolean, String, Int32[], Boolean, RequestOptions)
+  nameWithType: IMDOAgent.GetListWithHistoryAsync(String, Boolean, String, Int32[], Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync(System.String, System.Boolean, System.String, System.Int32[], System.Boolean, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IMDOAgent.GetListWithHistoryAsync(String, Boolean, String, Int32(), Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync(System.String, System.Boolean, System.String, System.Int32(), System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetListWithHistoryAsync(String, Boolean, String, Int32(), Boolean, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: GetListWithHistoryAsync
+    nameWithType: IMDOAgent.GetListWithHistoryAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: GetListWithHistoryAsync
+    nameWithType: IMDOAgent.GetListWithHistoryAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -1566,18 +2093,237 @@ references:
   name: GetListWithRestrictionAsync
   nameWithType: MDOAgent.GetListWithRestrictionAsync
   fullName: SuperOffice.WebApi.Agents.MDOAgent.GetListWithRestrictionAsync
+- uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMDOAgent
+  isExternal: true
+  name: GetListWithRestrictionAsync(String, String, String, RequestOptions)
+  nameWithType: IMDOAgent.GetListWithRestrictionAsync(String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync(System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetListWithRestrictionAsync
+    nameWithType: IMDOAgent.GetListWithRestrictionAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetListWithRestrictionAsync
+    nameWithType: IMDOAgent.GetListWithRestrictionAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.MDOAgent.GetSimpleListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.MDOAgent.GetSimpleListAsync
   isExternal: true
   name: GetSimpleListAsync
   nameWithType: MDOAgent.GetSimpleListAsync
   fullName: SuperOffice.WebApi.Agents.MDOAgent.GetSimpleListAsync
+- uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMDOAgent
+  isExternal: true
+  name: GetSimpleListAsync(String, RequestOptions)
+  nameWithType: IMDOAgent.GetSimpleListAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetSimpleListAsync
+    nameWithType: IMDOAgent.GetSimpleListAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetSimpleListAsync
+    nameWithType: IMDOAgent.GetSimpleListAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.MDOAgent.GetListItemAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.MDOAgent.GetListItemAsync
   isExternal: true
   name: GetListItemAsync
   nameWithType: MDOAgent.GetListItemAsync
   fullName: SuperOffice.WebApi.Agents.MDOAgent.GetListItemAsync
+- uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMDOAgent
+  isExternal: true
+  name: GetListItemAsync(String, Int32, RequestOptions)
+  nameWithType: IMDOAgent.GetListItemAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetListItemAsync
+    nameWithType: IMDOAgent.GetListItemAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetListItemAsync
+    nameWithType: IMDOAgent.GetListItemAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1634,6 +2380,47 @@ references:
   name: GetListNamesAsync
   nameWithType: MDOAgent.GetListNamesAsync
   fullName: SuperOffice.WebApi.Agents.MDOAgent.GetListNamesAsync
+- uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListNamesAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetListNamesAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMDOAgent
+  isExternal: true
+  name: GetListNamesAsync(RequestOptions)
+  nameWithType: IMDOAgent.GetListNamesAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListNamesAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListNamesAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetListNamesAsync
+    nameWithType: IMDOAgent.GetListNamesAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListNamesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListNamesAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetListNamesAsync
+    nameWithType: IMDOAgent.GetListNamesAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListNamesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{System.String[]}
   commentId: '!:System.Threading.Tasks.Task{System.String[]}'
   definition: System.Threading.Tasks.Task`1
@@ -1689,6 +2476,63 @@ references:
   name: GetListIdByListNameAsync
   nameWithType: MDOAgent.GetListIdByListNameAsync
   fullName: SuperOffice.WebApi.Agents.MDOAgent.GetListIdByListNameAsync
+- uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMDOAgent
+  isExternal: true
+  name: GetListIdByListNameAsync(String, RequestOptions)
+  nameWithType: IMDOAgent.GetListIdByListNameAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetListIdByListNameAsync
+    nameWithType: IMDOAgent.GetListIdByListNameAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetListIdByListNameAsync
+    nameWithType: IMDOAgent.GetListIdByListNameAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{System.Int32}
   commentId: '!:System.Threading.Tasks.Task{System.Int32}'
   definition: System.Threading.Tasks.Task`1
@@ -1738,6 +2582,63 @@ references:
   name: GetSelectableSimpleListAsync
   nameWithType: MDOAgent.GetSelectableSimpleListAsync
   fullName: SuperOffice.WebApi.Agents.MDOAgent.GetSelectableSimpleListAsync
+- uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMDOAgent
+  isExternal: true
+  name: GetSelectableSimpleListAsync(String, RequestOptions)
+  nameWithType: IMDOAgent.GetSelectableSimpleListAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetSelectableSimpleListAsync
+    nameWithType: IMDOAgent.GetSelectableSimpleListAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetSelectableSimpleListAsync
+    nameWithType: IMDOAgent.GetSelectableSimpleListAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectableMDOListItem[]}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectableMDOListItem[]}'
   definition: System.Threading.Tasks.Task`1
@@ -1793,24 +2694,446 @@ references:
   name: GetSelectableListWithRestrictionAsync
   nameWithType: MDOAgent.GetSelectableListWithRestrictionAsync
   fullName: SuperOffice.WebApi.Agents.MDOAgent.GetSelectableListWithRestrictionAsync
+- uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMDOAgent
+  isExternal: true
+  name: GetSelectableListWithRestrictionAsync(String, String, String, RequestOptions)
+  nameWithType: IMDOAgent.GetSelectableListWithRestrictionAsync(String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync(System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetSelectableListWithRestrictionAsync
+    nameWithType: IMDOAgent.GetSelectableListWithRestrictionAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetSelectableListWithRestrictionAsync
+    nameWithType: IMDOAgent.GetSelectableListWithRestrictionAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.MDOAgent.GetSelectableListWithHistoryAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.MDOAgent.GetSelectableListWithHistoryAsync
   isExternal: true
   name: GetSelectableListWithHistoryAsync
   nameWithType: MDOAgent.GetSelectableListWithHistoryAsync
   fullName: SuperOffice.WebApi.Agents.MDOAgent.GetSelectableListWithHistoryAsync
+- uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMDOAgent
+  isExternal: true
+  name: GetSelectableListWithHistoryAsync(String, Boolean, String, Int32[], Boolean, RequestOptions)
+  nameWithType: IMDOAgent.GetSelectableListWithHistoryAsync(String, Boolean, String, Int32[], Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync(System.String, System.Boolean, System.String, System.Int32[], System.Boolean, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IMDOAgent.GetSelectableListWithHistoryAsync(String, Boolean, String, Int32(), Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync(System.String, System.Boolean, System.String, System.Int32(), System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetSelectableListWithHistoryAsync(String, Boolean, String, Int32(), Boolean, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: GetSelectableListWithHistoryAsync
+    nameWithType: IMDOAgent.GetSelectableListWithHistoryAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: GetSelectableListWithHistoryAsync
+    nameWithType: IMDOAgent.GetSelectableListWithHistoryAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.MDOAgent.GetSelectableListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.MDOAgent.GetSelectableListAsync
   isExternal: true
   name: GetSelectableListAsync
   nameWithType: MDOAgent.GetSelectableListAsync
   fullName: SuperOffice.WebApi.Agents.MDOAgent.GetSelectableListAsync
+- uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMDOAgent
+  isExternal: true
+  name: GetSelectableListAsync(String, Boolean, String, Boolean, RequestOptions)
+  nameWithType: IMDOAgent.GetSelectableListAsync(String, Boolean, String, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync(System.String, System.Boolean, System.String, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: GetSelectableListAsync
+    nameWithType: IMDOAgent.GetSelectableListAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: GetSelectableListAsync
+    nameWithType: IMDOAgent.GetSelectableListAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.MDOAgent.SetSelectedAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.MDOAgent.SetSelectedAsync
   isExternal: true
   name: SetSelectedAsync
   nameWithType: MDOAgent.SetSelectedAsync
   fullName: SuperOffice.WebApi.Agents.MDOAgent.SetSelectedAsync
+- uid: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.WebApi.Data.SelectableMDOListItem[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.WebApi.Data.SelectableMDOListItem[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMDOAgent
+  isExternal: true
+  name: SetSelectedAsync(String, String, SelectableMDOListItem[], RequestOptions)
+  nameWithType: IMDOAgent.SetSelectedAsync(String, String, SelectableMDOListItem[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync(System.String, System.String, SuperOffice.WebApi.Data.SelectableMDOListItem[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IMDOAgent.SetSelectedAsync(String, String, SelectableMDOListItem(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync(System.String, System.String, SuperOffice.WebApi.Data.SelectableMDOListItem(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetSelectedAsync(String, String, SelectableMDOListItem(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.WebApi.Data.SelectableMDOListItem[],SuperOffice.WebApi.RequestOptions)
+    name: SetSelectedAsync
+    nameWithType: IMDOAgent.SetSelectedAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.WebApi.Data.SelectableMDOListItem[],SuperOffice.WebApi.RequestOptions)
+    name: SetSelectedAsync
+    nameWithType: IMDOAgent.SetSelectedAsync
+    fullName: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.SelectableMDOListItem[]
   isExternal: true
   name: SelectableMDOListItem[]

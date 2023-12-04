@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest
+  id: Appointment_CreateAppointmentEntityFromExistingRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AppointmentId
+  - SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AssociateId
+  langs:
+  - csharp
+  - vb
+  name: Appointment_CreateAppointmentEntityFromExistingRequest
+  nameWithType: Appointment_CreateAppointmentEntityFromExistingRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_CreateAppointmentEntityFromExistingRequest : Object'
+    content.vb: >-
+      Public Class Appointment_CreateAppointmentEntityFromExistingRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_CreateAppointmentEntityFromExistingRequest()
+  nameWithType: Appointment_CreateAppointmentEntityFromExistingRequest.Appointment_CreateAppointmentEntityFromExistingRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.Appointment_CreateAppointmentEntityFromExistingRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_CreateAppointmentEntityFromExistingRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: Appointment_CreateAppointmentEntityFromExistingRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Appointment_CreateAppointmentEntityFromExistingRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.#ctor
+  isExternal: true
+  name: Appointment_CreateAppointmentEntityFromExistingRequest
+  nameWithType: Appointment_CreateAppointmentEntityFromExistingRequest.Appointment_CreateAppointmentEntityFromExistingRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.Appointment_CreateAppointmentEntityFromExistingRequest
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: Appointment_CreateAppointmentEntityFromExistingRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Appointment_CreateAppointmentEntityFromExistingRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest.AssociateId

@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest
+  id: AI_GetChatbotPromptSuggestionsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentContactId
+  - SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentPersonId
+  - SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentProjectId
+  - SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.IsoLangCode
+  - SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.SoProtocol
+  langs:
+  - csharp
+  - vb
+  name: AI_GetChatbotPromptSuggestionsRequest
+  nameWithType: AI_GetChatbotPromptSuggestionsRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class AI_GetChatbotPromptSuggestionsRequest : Object'
+    content.vb: >-
+      Public Class AI_GetChatbotPromptSuggestionsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest
+  langs:
+  - csharp
+  - vb
+  name: AI_GetChatbotPromptSuggestionsRequest()
+  nameWithType: AI_GetChatbotPromptSuggestionsRequest.AI_GetChatbotPromptSuggestionsRequest()
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.AI_GetChatbotPromptSuggestionsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AI_GetChatbotPromptSuggestionsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.IsoLangCode
+  commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.IsoLangCode
+  id: IsoLangCode
+  parent: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest
+  langs:
+  - csharp
+  - vb
+  name: IsoLangCode
+  nameWithType: AI_GetChatbotPromptSuggestionsRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.IsoLangCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string IsoLangCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IsoLangCode As String
+  overload: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.IsoLangCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.SoProtocol
+  commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.SoProtocol
+  id: SoProtocol
+  parent: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest
+  langs:
+  - csharp
+  - vb
+  name: SoProtocol
+  nameWithType: AI_GetChatbotPromptSuggestionsRequest.SoProtocol
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.SoProtocol
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string SoProtocol { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SoProtocol As String
+  overload: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.SoProtocol*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentContactId
+  commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentContactId
+  id: CurrentContactId
+  parent: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest
+  langs:
+  - csharp
+  - vb
+  name: CurrentContactId
+  nameWithType: AI_GetChatbotPromptSuggestionsRequest.CurrentContactId
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CurrentContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CurrentContactId As Integer
+  overload: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentPersonId
+  commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentPersonId
+  id: CurrentPersonId
+  parent: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest
+  langs:
+  - csharp
+  - vb
+  name: CurrentPersonId
+  nameWithType: AI_GetChatbotPromptSuggestionsRequest.CurrentPersonId
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentPersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CurrentPersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CurrentPersonId As Integer
+  overload: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentPersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentProjectId
+  commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentProjectId
+  id: CurrentProjectId
+  parent: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest
+  langs:
+  - csharp
+  - vb
+  name: CurrentProjectId
+  nameWithType: AI_GetChatbotPromptSuggestionsRequest.CurrentProjectId
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CurrentProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CurrentProjectId As Integer
+  overload: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.#ctor
+  isExternal: true
+  name: AI_GetChatbotPromptSuggestionsRequest
+  nameWithType: AI_GetChatbotPromptSuggestionsRequest.AI_GetChatbotPromptSuggestionsRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.AI_GetChatbotPromptSuggestionsRequest
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.IsoLangCode*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.IsoLangCode
+  isExternal: true
+  name: IsoLangCode
+  nameWithType: AI_GetChatbotPromptSuggestionsRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.IsoLangCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.SoProtocol*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.SoProtocol
+  isExternal: true
+  name: SoProtocol
+  nameWithType: AI_GetChatbotPromptSuggestionsRequest.SoProtocol
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.SoProtocol
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentContactId
+  isExternal: true
+  name: CurrentContactId
+  nameWithType: AI_GetChatbotPromptSuggestionsRequest.CurrentContactId
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentPersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentPersonId
+  isExternal: true
+  name: CurrentPersonId
+  nameWithType: AI_GetChatbotPromptSuggestionsRequest.CurrentPersonId
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentPersonId
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentProjectId
+  isExternal: true
+  name: CurrentProjectId
+  nameWithType: AI_GetChatbotPromptSuggestionsRequest.CurrentProjectId
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest.CurrentProjectId

@@ -1,0 +1,1540 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent
+  commentId: T:SuperOffice.WebApi.Agents.ITargetsAgent
+  id: ITargetsAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetDimensionAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetGroupAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetDimensionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetGroupAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.ExportTargetGroupToExcelAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync(System.Int32,SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.Data.TargetLevel,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAsync(System.Int32,SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.Data.TargetLevel,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync(SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAsync(System.Int32,SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupIdsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetRevisionHistoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetDimensionAsync(SuperOffice.WebApi.Data.TargetDimension,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetGroupAsync(SuperOffice.WebApi.Data.TargetGroup,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: ITargetsAgent
+  nameWithType: ITargetsAgent
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent
+  type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAgent lets you configure targets, and retrieve targets\n"
+  syntax:
+    content: 'public interface ITargetsAgent : IDisposable'
+    content.vb: >-
+      Public Interface ITargetsAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultTargetAssignmentAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetAssignmentAsync(RequestOptions)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new TargetAssignment.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<TargetAssignment> CreateDefaultTargetAssignmentAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetAssignment}
+      description: A blank TargetAssignment
+    content.vb: Function CreateDefaultTargetAssignmentAsync(requestOptions As RequestOptions = Nothing) As Task(Of TargetAssignment)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetDimensionAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetDimensionAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultTargetDimensionAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetDimensionAsync(RequestOptions)
+  nameWithType: ITargetsAgent.CreateDefaultTargetDimensionAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetDimensionAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new TargetDimension.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<TargetDimension> CreateDefaultTargetDimensionAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetDimension}
+      description: A blank TargetDimension
+    content.vb: Function CreateDefaultTargetDimensionAsync(requestOptions As RequestOptions = Nothing) As Task(Of TargetDimension)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetDimensionAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetDimensionAsync(SuperOffice.WebApi.Data.TargetDimension,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetDimensionAsync(SuperOffice.WebApi.Data.TargetDimension,SuperOffice.WebApi.RequestOptions)
+  id: SaveTargetDimensionAsync(SuperOffice.WebApi.Data.TargetDimension,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTargetDimensionAsync(TargetDimension, RequestOptions)
+  nameWithType: ITargetsAgent.SaveTargetDimensionAsync(TargetDimension, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetDimensionAsync(SuperOffice.WebApi.Data.TargetDimension, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing TargetDimension or creates a new TargetDimension if the id parameter is 0. \n"
+  syntax:
+    content: Task<TargetDimension> SaveTargetDimensionAsync(TargetDimension targetDimension, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetDimension
+      type: SuperOffice.WebApi.Data.TargetDimension
+      description: The TargetDimension that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetDimension}
+      description: New or updated TargetDimension
+    content.vb: Function SaveTargetDimensionAsync(targetDimension As TargetDimension, requestOptions As RequestOptions = Nothing) As Task(Of TargetDimension)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetDimensionAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetDimensionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetDimensionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteTargetDimensionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTargetDimensionAsync(Int32, RequestOptions)
+  nameWithType: ITargetsAgent.DeleteTargetDimensionAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetDimensionAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the TargetDimension\n"
+  syntax:
+    content: Task DeleteTargetDimensionAsync(int targetDimensionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetDimensionId
+      type: System.Int32
+      description: The identity of the TargetDimension
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteTargetDimensionAsync(targetDimensionId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetDimensionAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetGroupAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetGroupAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultTargetGroupAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetGroupAsync(RequestOptions)
+  nameWithType: ITargetsAgent.CreateDefaultTargetGroupAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetGroupAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new TargetGroup.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<TargetGroup> CreateDefaultTargetGroupAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetGroup}
+      description: A blank TargetGroup
+    content.vb: Function CreateDefaultTargetGroupAsync(requestOptions As RequestOptions = Nothing) As Task(Of TargetGroup)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetGroupAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetGroupAsync(SuperOffice.WebApi.Data.TargetGroup,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetGroupAsync(SuperOffice.WebApi.Data.TargetGroup,SuperOffice.WebApi.RequestOptions)
+  id: SaveTargetGroupAsync(SuperOffice.WebApi.Data.TargetGroup,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTargetGroupAsync(TargetGroup, RequestOptions)
+  nameWithType: ITargetsAgent.SaveTargetGroupAsync(TargetGroup, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetGroupAsync(SuperOffice.WebApi.Data.TargetGroup, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing TargetGroup or creates a new TargetGroup if the id parameter is 0. \n"
+  syntax:
+    content: Task<TargetGroup> SaveTargetGroupAsync(TargetGroup targetGroup, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetGroup
+      type: SuperOffice.WebApi.Data.TargetGroup
+      description: The TargetGroup that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetGroup}
+      description: New or updated TargetGroup
+    content.vb: Function SaveTargetGroupAsync(targetGroup As TargetGroup, requestOptions As RequestOptions = Nothing) As Task(Of TargetGroup)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetGroupAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetGroupAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetGroupAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteTargetGroupAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTargetGroupAsync(Int32, RequestOptions)
+  nameWithType: ITargetsAgent.DeleteTargetGroupAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetGroupAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the TargetGroup\n"
+  syntax:
+    content: Task DeleteTargetGroupAsync(int targetGroupId, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetGroupId
+      type: System.Int32
+      description: The identity of the TargetGroup
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteTargetGroupAsync(targetGroupId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetGroupAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultTargetRevisionAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetRevisionAsync(RequestOptions)
+  nameWithType: ITargetsAgent.CreateDefaultTargetRevisionAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new TargetRevision.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<TargetRevision> CreateDefaultTargetRevisionAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetRevision}
+      description: A blank TargetRevision
+    content.vb: Function CreateDefaultTargetRevisionAsync(requestOptions As RequestOptions = Nothing) As Task(Of TargetRevision)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultTargetRevisionHistoryAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetRevisionHistoryAsync(RequestOptions)
+  nameWithType: ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new TargetRevisionHistory.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<TargetRevisionHistory> CreateDefaultTargetRevisionHistoryAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetRevisionHistory}
+      description: A blank TargetRevisionHistory
+    content.vb: Function CreateDefaultTargetRevisionHistoryAsync(requestOptions As RequestOptions = Nothing) As Task(Of TargetRevisionHistory)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultTargetAssignmentForCompanyAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetAssignmentForCompanyAsync(RequestOptions)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns a default target assignment for the owner company.\n"
+  syntax:
+    content: Task<TargetAssignment> CreateDefaultTargetAssignmentForCompanyAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetAssignment}
+      description: Default target assignment for the owner company.
+    content.vb: Function CreateDefaultTargetAssignmentForCompanyAsync(requestOptions As RequestOptions = Nothing) As Task(Of TargetAssignment)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultTargetAssignmentForUserGroupAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetAssignmentForUserGroupAsync(Int32, RequestOptions)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns a default target assignment for the specified usergroup.\n"
+  syntax:
+    content: Task<TargetAssignment[]> CreateDefaultTargetAssignmentForUserGroupAsync(int userGroupId, RequestOptions requestOptions = null)
+    parameters:
+    - id: userGroupId
+      type: System.Int32
+      description: The id of the UserGroup
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetAssignment[]}
+      description: Default target assignment for the specified usergroup.
+    content.vb: Function CreateDefaultTargetAssignmentForUserGroupAsync(userGroupId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TargetAssignment())
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAsync(System.Int32,SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.Data.TargetLevel,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAsync(System.Int32,SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.Data.TargetLevel,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTargetAssignmentForYearAsync(System.Int32,SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.Data.TargetLevel,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetAssignmentForYearAsync(Int32, TargetEntityType, TargetLevel, Int32, RequestOptions)
+  nameWithType: ITargetsAgent.GetTargetAssignmentForYearAsync(Int32, TargetEntityType, TargetLevel, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAsync(System.Int32, SuperOffice.WebApi.Data.TargetEntityType, SuperOffice.WebApi.Data.TargetLevel, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the target assignment for the specified year and entity type.\n"
+  syntax:
+    content: Task<TargetAssignment> GetTargetAssignmentForYearAsync(int targetYear, TargetEntityType entityType, TargetLevel targetLevel, int id, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetYear
+      type: System.Int32
+      description: Targeted year
+    - id: entityType
+      type: SuperOffice.WebApi.Data.TargetEntityType
+      description: Targeted entity type
+    - id: targetLevel
+      type: SuperOffice.WebApi.Data.TargetLevel
+      description: The level of target the id is referring to.
+    - id: id
+      type: System.Int32
+      description: Contact, UserGroup or Associate id.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetAssignment}
+      description: Target assignment for a specified entity for year and entity type. Null if not found.
+    content.vb: Function GetTargetAssignmentForYearAsync(targetYear As Integer, entityType As TargetEntityType, targetLevel As TargetLevel, id As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TargetAssignment)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(Int32, RequestOptions)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns a default target assignment for the owner company, for the specified dimension.\n"
+  syntax:
+    content: Task<TargetAssignment[]> CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(int targetDimensionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetDimensionId
+      type: System.Int32
+      description: The dimension id to use.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetAssignment[]}
+      description: Default target assignments for the owner company.
+    content.vb: Function CreateDefaultTargetAssignmentForCompanyWithDimensionAsync(targetDimensionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TargetAssignment())
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(Int32, Int32, RequestOptions)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns a default target assignment for the specified usergroup, for the specified dimension.\n"
+  syntax:
+    content: Task<TargetAssignment[]> CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(int userGroupId, int targetDimensionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: userGroupId
+      type: System.Int32
+      description: The id of the UserGroup
+    - id: targetDimensionId
+      type: System.Int32
+      description: The dimension id to use.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetAssignment[]}
+      description: Default target assignment for the specified usergroup.
+    content.vb: Function CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync(userGroupId As Integer, targetDimensionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TargetAssignment())
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync(System.Int32,SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.Data.TargetLevel,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync(System.Int32,SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.Data.TargetLevel,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTargetAssignmentForYearAndDimensionAsync(System.Int32,SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.Data.TargetLevel,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetAssignmentForYearAndDimensionAsync(Int32, TargetEntityType, TargetLevel, Int32, Int32, RequestOptions)
+  nameWithType: ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync(Int32, TargetEntityType, TargetLevel, Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync(System.Int32, SuperOffice.WebApi.Data.TargetEntityType, SuperOffice.WebApi.Data.TargetLevel, System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the target assignment for the specified year, entity type and dimension.\n"
+  syntax:
+    content: Task<TargetAssignment> GetTargetAssignmentForYearAndDimensionAsync(int targetYear, TargetEntityType entityType, TargetLevel targetLevel, int id, int dimensionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetYear
+      type: System.Int32
+      description: Targeted year
+    - id: entityType
+      type: SuperOffice.WebApi.Data.TargetEntityType
+      description: Targeted entity type
+    - id: targetLevel
+      type: SuperOffice.WebApi.Data.TargetLevel
+      description: The level of target the id is referring to.
+    - id: id
+      type: System.Int32
+      description: Contact, UserGroup or Associate id.
+    - id: dimensionId
+      type: System.Int32
+      description: Id of dimension.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetAssignment}
+      description: Target assignment for a specified entity for year and entity type. Null if not found.
+    content.vb: Function GetTargetAssignmentForYearAndDimensionAsync(targetYear As Integer, entityType As TargetEntityType, targetLevel As TargetLevel, id As Integer, dimensionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TargetAssignment)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(Int32, Int32, RequestOptions)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns a default target assignment for the owner company, for the specified year and dimension.\n"
+  syntax:
+    content: Task<TargetAssignment[]> CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(int year, int targetDimensionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: year
+      type: System.Int32
+      description: The year from which to retrieve dimension data.
+    - id: targetDimensionId
+      type: System.Int32
+      description: The dimension id to use.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetAssignment[]}
+      description: Default target assignments for the owner company.
+    content.vb: Function CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync(year As Integer, targetDimensionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TargetAssignment())
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(Int32, Int32, Int32, RequestOptions)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(Int32, Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(System.Int32, System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns a default target assignment for the specified usergroup, for the specified year and dimension.\n"
+  syntax:
+    content: Task<TargetAssignment[]> CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(int userGroupId, int year, int targetDimensionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: userGroupId
+      type: System.Int32
+      description: The id of the UserGroup
+    - id: year
+      type: System.Int32
+      description: The year from which to retrieve dimension data.
+    - id: targetDimensionId
+      type: System.Int32
+      description: The dimension id to use.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetAssignment[]}
+      description: Default target assignment for the specified usergroup.
+    content.vb: Function CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync(userGroupId As Integer, year As Integer, targetDimensionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TargetAssignment())
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTargetDimensionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetDimensionAsync(Int32, RequestOptions)
+  nameWithType: ITargetsAgent.GetTargetDimensionAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific TargetDimension object.                        \n"
+  syntax:
+    content: Task<TargetDimension> GetTargetDimensionAsync(int targetDimensionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetDimensionId
+      type: System.Int32
+      description: The identifier of the TargetDimension object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetDimension}
+      description: TargetDimension
+    content.vb: Function GetTargetDimensionAsync(targetDimensionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TargetDimension)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync(SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync(SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.RequestOptions)
+  id: GetTargetDimensionsForEntityTypeAsync(SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetDimensionsForEntityTypeAsync(TargetEntityType, RequestOptions)
+  nameWithType: ITargetsAgent.GetTargetDimensionsForEntityTypeAsync(TargetEntityType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync(SuperOffice.WebApi.Data.TargetEntityType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the target dimensions for the given entity type.\n"
+  syntax:
+    content: Task<TargetDimension[]> GetTargetDimensionsForEntityTypeAsync(TargetEntityType entityType, RequestOptions requestOptions = null)
+    parameters:
+    - id: entityType
+      type: SuperOffice.WebApi.Data.TargetEntityType
+      description: Targeted entity type
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetDimension[]}
+      description: Target dimensions for year and entity type.
+    content.vb: Function GetTargetDimensionsForEntityTypeAsync(entityType As TargetEntityType, requestOptions As RequestOptions = Nothing) As Task(Of TargetDimension())
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupIdsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupIdsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTargetGroupIdsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetGroupIdsAsync(Int32, RequestOptions)
+  nameWithType: ITargetsAgent.GetTargetGroupIdsAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupIdsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns ids of the target groups that use this dimension.\n"
+  syntax:
+    content: Task<int[]> GetTargetGroupIdsAsync(int targetDimensionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetDimensionId
+      type: System.Int32
+      description: The target dimension id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32[]}
+      description: Target group ids.
+    content.vb: Function GetTargetGroupIdsAsync(targetDimensionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Integer())
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupIdsAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTargetGroupAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetGroupAsync(Int32, RequestOptions)
+  nameWithType: ITargetsAgent.GetTargetGroupAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific TargetGroup object.                        \n"
+  syntax:
+    content: Task<TargetGroup> GetTargetGroupAsync(int targetGroupId, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetGroupId
+      type: System.Int32
+      description: The identifier of the TargetGroup object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetGroup}
+      description: TargetGroup
+    content.vb: Function GetTargetGroupAsync(targetGroupId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TargetGroup)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAsync(System.Int32,SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAsync(System.Int32,SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.RequestOptions)
+  id: GetTargetGroupForYearAsync(System.Int32,SuperOffice.WebApi.Data.TargetEntityType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetGroupForYearAsync(Int32, TargetEntityType, RequestOptions)
+  nameWithType: ITargetsAgent.GetTargetGroupForYearAsync(Int32, TargetEntityType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAsync(System.Int32, SuperOffice.WebApi.Data.TargetEntityType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the target group for the specified year and entity type.\n"
+  syntax:
+    content: Task<TargetGroup> GetTargetGroupForYearAsync(int targetYear, TargetEntityType entityType, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetYear
+      type: System.Int32
+      description: Targeted year
+    - id: entityType
+      type: SuperOffice.WebApi.Data.TargetEntityType
+      description: Targeted entity type
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetGroup}
+      description: Target Group for year and entity type.
+    content.vb: Function GetTargetGroupForYearAsync(targetYear As Integer, entityType As TargetEntityType, requestOptions As RequestOptions = Nothing) As Task(Of TargetGroup)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.ExportTargetGroupToExcelAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.ExportTargetGroupToExcelAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: ExportTargetGroupToExcelAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: ExportTargetGroupToExcelAsync(Int32, RequestOptions)
+  nameWithType: ITargetsAgent.ExportTargetGroupToExcelAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.ExportTargetGroupToExcelAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRenders the given targetgroup to excel, and returns the path to the temporary file.\n"
+  syntax:
+    content: Task<ExportArchiveResult> ExportTargetGroupToExcelAsync(int targetGroupId, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetGroupId
+      type: System.Int32
+      description: The id of the targetgroup to be rendered to excel.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExportArchiveResult}
+    content.vb: Function ExportTargetGroupToExcelAsync(targetGroupId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ExportArchiveResult)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.ExportTargetGroupToExcelAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTargetGroupForYearAndDimensionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetGroupForYearAndDimensionAsync(Int32, Int32, RequestOptions)
+  nameWithType: ITargetsAgent.GetTargetGroupForYearAndDimensionAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the target group for the specified year and dimension.\n"
+  syntax:
+    content: Task<TargetGroup> GetTargetGroupForYearAndDimensionAsync(int targetYear, int dimensionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetYear
+      type: System.Int32
+      description: Targeted year
+    - id: dimensionId
+      type: System.Int32
+      description: Targeted dimension Id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetGroup}
+      description: Target Group for year and dimension.
+    content.vb: Function GetTargetGroupForYearAndDimensionAsync(targetYear As Integer, dimensionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TargetGroup)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync*
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetRevisionHistoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetRevisionHistoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTargetRevisionHistoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetRevisionHistoryAsync(Int32, RequestOptions)
+  nameWithType: ITargetsAgent.GetTargetRevisionHistoryAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetRevisionHistoryAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the revision history for a given TargetAssignmentInfo in chronological order.\n"
+  syntax:
+    content: Task<TargetRevisionHistory> GetTargetRevisionHistoryAsync(int targetAssignmentInfoId, RequestOptions requestOptions = null)
+    parameters:
+    - id: targetAssignmentInfoId
+      type: System.Int32
+      description: Target assignment info id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetRevisionHistory}
+      description: Target revision history for the given TargetAssignmentInfo
+    content.vb: Function GetTargetRevisionHistoryAsync(targetAssignmentInfoId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TargetRevisionHistory)
+  overload: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetRevisionHistoryAsync*
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentAsync
+  isExternal: true
+  name: CreateDefaultTargetAssignmentAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetAssignment}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetAssignment}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TargetAssignment>
+  nameWithType: Task<TargetAssignment>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TargetAssignment>
+  nameWithType.vb: Task(Of TargetAssignment)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TargetAssignment)
+  name.vb: Task(Of TargetAssignment)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TargetAssignment
+    name: TargetAssignment
+    nameWithType: TargetAssignment
+    fullName: SuperOffice.WebApi.Data.TargetAssignment
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TargetAssignment
+    name: TargetAssignment
+    nameWithType: TargetAssignment
+    fullName: SuperOffice.WebApi.Data.TargetAssignment
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetDimensionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetDimensionAsync
+  isExternal: true
+  name: CreateDefaultTargetDimensionAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetDimensionAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetDimensionAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetDimension}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetDimension}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TargetDimension>
+  nameWithType: Task<TargetDimension>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TargetDimension>
+  nameWithType.vb: Task(Of TargetDimension)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TargetDimension)
+  name.vb: Task(Of TargetDimension)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TargetDimension
+    name: TargetDimension
+    nameWithType: TargetDimension
+    fullName: SuperOffice.WebApi.Data.TargetDimension
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TargetDimension
+    name: TargetDimension
+    nameWithType: TargetDimension
+    fullName: SuperOffice.WebApi.Data.TargetDimension
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetDimensionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetDimensionAsync
+  isExternal: true
+  name: SaveTargetDimensionAsync
+  nameWithType: ITargetsAgent.SaveTargetDimensionAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetDimensionAsync
+- uid: SuperOffice.WebApi.Data.TargetDimension
+  commentId: T:SuperOffice.WebApi.Data.TargetDimension
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TargetDimension
+  nameWithType: TargetDimension
+  fullName: SuperOffice.WebApi.Data.TargetDimension
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetDimensionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetDimensionAsync
+  isExternal: true
+  name: DeleteTargetDimensionAsync
+  nameWithType: ITargetsAgent.DeleteTargetDimensionAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetDimensionAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetGroupAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetGroupAsync
+  isExternal: true
+  name: CreateDefaultTargetGroupAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetGroupAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetGroupAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetGroup}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetGroup}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TargetGroup>
+  nameWithType: Task<TargetGroup>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TargetGroup>
+  nameWithType.vb: Task(Of TargetGroup)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TargetGroup)
+  name.vb: Task(Of TargetGroup)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TargetGroup
+    name: TargetGroup
+    nameWithType: TargetGroup
+    fullName: SuperOffice.WebApi.Data.TargetGroup
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TargetGroup
+    name: TargetGroup
+    nameWithType: TargetGroup
+    fullName: SuperOffice.WebApi.Data.TargetGroup
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetGroupAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetGroupAsync
+  isExternal: true
+  name: SaveTargetGroupAsync
+  nameWithType: ITargetsAgent.SaveTargetGroupAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.SaveTargetGroupAsync
+- uid: SuperOffice.WebApi.Data.TargetGroup
+  commentId: T:SuperOffice.WebApi.Data.TargetGroup
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TargetGroup
+  nameWithType: TargetGroup
+  fullName: SuperOffice.WebApi.Data.TargetGroup
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetGroupAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetGroupAsync
+  isExternal: true
+  name: DeleteTargetGroupAsync
+  nameWithType: ITargetsAgent.DeleteTargetGroupAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.DeleteTargetGroupAsync
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionAsync
+  isExternal: true
+  name: CreateDefaultTargetRevisionAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetRevisionAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetRevision}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetRevision}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TargetRevision>
+  nameWithType: Task<TargetRevision>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TargetRevision>
+  nameWithType.vb: Task(Of TargetRevision)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TargetRevision)
+  name.vb: Task(Of TargetRevision)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TargetRevision
+    name: TargetRevision
+    nameWithType: TargetRevision
+    fullName: SuperOffice.WebApi.Data.TargetRevision
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TargetRevision
+    name: TargetRevision
+    nameWithType: TargetRevision
+    fullName: SuperOffice.WebApi.Data.TargetRevision
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync
+  isExternal: true
+  name: CreateDefaultTargetRevisionHistoryAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetRevisionHistoryAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetRevisionHistory}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetRevisionHistory}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TargetRevisionHistory>
+  nameWithType: Task<TargetRevisionHistory>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TargetRevisionHistory>
+  nameWithType.vb: Task(Of TargetRevisionHistory)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TargetRevisionHistory)
+  name.vb: Task(Of TargetRevisionHistory)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TargetRevisionHistory
+    name: TargetRevisionHistory
+    nameWithType: TargetRevisionHistory
+    fullName: SuperOffice.WebApi.Data.TargetRevisionHistory
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TargetRevisionHistory
+    name: TargetRevisionHistory
+    nameWithType: TargetRevisionHistory
+    fullName: SuperOffice.WebApi.Data.TargetRevisionHistory
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync
+  isExternal: true
+  name: CreateDefaultTargetAssignmentForCompanyAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyAsync
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync
+  isExternal: true
+  name: CreateDefaultTargetAssignmentForUserGroupAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetAssignment[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetAssignment[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TargetAssignment[]>
+  nameWithType: Task<TargetAssignment[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TargetAssignment[]>
+  nameWithType.vb: Task(Of TargetAssignment())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TargetAssignment())
+  name.vb: Task(Of TargetAssignment())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TargetAssignment
+    name: TargetAssignment
+    nameWithType: TargetAssignment
+    fullName: SuperOffice.WebApi.Data.TargetAssignment
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TargetAssignment
+    name: TargetAssignment
+    nameWithType: TargetAssignment
+    fullName: SuperOffice.WebApi.Data.TargetAssignment
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAsync
+  isExternal: true
+  name: GetTargetAssignmentForYearAsync
+  nameWithType: ITargetsAgent.GetTargetAssignmentForYearAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAsync
+- uid: SuperOffice.WebApi.Data.TargetEntityType
+  commentId: T:SuperOffice.WebApi.Data.TargetEntityType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TargetEntityType
+  nameWithType: TargetEntityType
+  fullName: SuperOffice.WebApi.Data.TargetEntityType
+- uid: SuperOffice.WebApi.Data.TargetLevel
+  commentId: T:SuperOffice.WebApi.Data.TargetLevel
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TargetLevel
+  nameWithType: TargetLevel
+  fullName: SuperOffice.WebApi.Data.TargetLevel
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync
+  isExternal: true
+  name: CreateDefaultTargetAssignmentForCompanyWithDimensionAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimensionAsync
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync
+  isExternal: true
+  name: CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimensionAsync
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync
+  isExternal: true
+  name: GetTargetAssignmentForYearAndDimensionAsync
+  nameWithType: ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetAssignmentForYearAndDimensionAsync
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync
+  isExternal: true
+  name: CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimensionAsync
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync
+  isExternal: true
+  name: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionAsync
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionAsync
+  isExternal: true
+  name: GetTargetDimensionAsync
+  nameWithType: ITargetsAgent.GetTargetDimensionAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionAsync
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync
+  isExternal: true
+  name: GetTargetDimensionsForEntityTypeAsync
+  nameWithType: ITargetsAgent.GetTargetDimensionsForEntityTypeAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetDimensionsForEntityTypeAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetDimension[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TargetDimension[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TargetDimension[]>
+  nameWithType: Task<TargetDimension[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TargetDimension[]>
+  nameWithType.vb: Task(Of TargetDimension())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TargetDimension())
+  name.vb: Task(Of TargetDimension())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TargetDimension
+    name: TargetDimension
+    nameWithType: TargetDimension
+    fullName: SuperOffice.WebApi.Data.TargetDimension
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TargetDimension
+    name: TargetDimension
+    nameWithType: TargetDimension
+    fullName: SuperOffice.WebApi.Data.TargetDimension
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupIdsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupIdsAsync
+  isExternal: true
+  name: GetTargetGroupIdsAsync
+  nameWithType: ITargetsAgent.GetTargetGroupIdsAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupIdsAsync
+- uid: System.Threading.Tasks.Task{System.Int32[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32[]>
+  nameWithType: Task<Int32[]>
+  fullName: System.Threading.Tasks.Task<System.Int32[]>
+  nameWithType.vb: Task(Of Int32())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32())
+  name.vb: Task(Of Int32())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupAsync
+  isExternal: true
+  name: GetTargetGroupAsync
+  nameWithType: ITargetsAgent.GetTargetGroupAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupAsync
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAsync
+  isExternal: true
+  name: GetTargetGroupForYearAsync
+  nameWithType: ITargetsAgent.GetTargetGroupForYearAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAsync
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.ExportTargetGroupToExcelAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.ExportTargetGroupToExcelAsync
+  isExternal: true
+  name: ExportTargetGroupToExcelAsync
+  nameWithType: ITargetsAgent.ExportTargetGroupToExcelAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.ExportTargetGroupToExcelAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExportArchiveResult}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ExportArchiveResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ExportArchiveResult>
+  nameWithType: Task<ExportArchiveResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ExportArchiveResult>
+  nameWithType.vb: Task(Of ExportArchiveResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ExportArchiveResult)
+  name.vb: Task(Of ExportArchiveResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ExportArchiveResult
+    name: ExportArchiveResult
+    nameWithType: ExportArchiveResult
+    fullName: SuperOffice.WebApi.Data.ExportArchiveResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ExportArchiveResult
+    name: ExportArchiveResult
+    nameWithType: ExportArchiveResult
+    fullName: SuperOffice.WebApi.Data.ExportArchiveResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync
+  isExternal: true
+  name: GetTargetGroupForYearAndDimensionAsync
+  nameWithType: ITargetsAgent.GetTargetGroupForYearAndDimensionAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetGroupForYearAndDimensionAsync
+- uid: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetRevisionHistoryAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetRevisionHistoryAsync
+  isExternal: true
+  name: GetTargetRevisionHistoryAsync
+  nameWithType: ITargetsAgent.GetTargetRevisionHistoryAsync
+  fullName: SuperOffice.WebApi.Agents.ITargetsAgent.GetTargetRevisionHistoryAsync

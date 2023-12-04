@@ -6,7 +6,12 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.TicketMessageHeader.#ctor
+  - SuperOffice.WebApi.Data.TicketMessageHeader.Id
   - SuperOffice.WebApi.Data.TicketMessageHeader.Name
+  - SuperOffice.WebApi.Data.TicketMessageHeader.StdItem
+  - SuperOffice.WebApi.Data.TicketMessageHeader.StdItem_String
+  - SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol
+  - SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol_String
   - SuperOffice.WebApi.Data.TicketMessageHeader.Value
   langs:
   - csharp
@@ -65,6 +70,39 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.Id
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.TicketMessageHeader
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TicketMessageHeader.Id
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.TicketMessageHeader.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketMessageHeader.Name
   commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.Name
   id: Name
@@ -131,6 +169,142 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.StdItem_String
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.StdItem_String
+  id: StdItem_String
+  parent: SuperOffice.WebApi.Data.TicketMessageHeader
+  langs:
+  - csharp
+  - vb
+  name: StdItem_String
+  nameWithType: TicketMessageHeader.StdItem_String
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.StdItem_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf this has a value, it indicates that a standard header text from the language database should be used - and witch one to use\nRaw string enum value.\n"
+  syntax:
+    content: public string StdItem_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StdItem_String As String
+  overload: SuperOffice.WebApi.Data.TicketMessageHeader.StdItem_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketMessageHeader.StdItem
+    commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.StdItem
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.StdItem
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.StdItem
+  id: StdItem
+  parent: SuperOffice.WebApi.Data.TicketMessageHeader
+  langs:
+  - csharp
+  - vb
+  name: StdItem
+  nameWithType: TicketMessageHeader.StdItem
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.StdItem
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf this has a value, it indicates that a standard header text from the language database should be used - and witch one to use\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<MessageHeaderStdItem> StdItem { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.MessageHeaderStdItem}
+    content.vb: Public Property StdItem As Nullable(Of MessageHeaderStdItem)
+  overload: SuperOffice.WebApi.Data.TicketMessageHeader.StdItem*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketMessageHeader.StdItem_String
+    commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.StdItem_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol_String
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol_String
+  id: StdItemCol_String
+  parent: SuperOffice.WebApi.Data.TicketMessageHeader
+  langs:
+  - csharp
+  - vb
+  name: StdItemCol_String
+  nameWithType: TicketMessageHeader.StdItemCol_String
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf this is 1, concatenate the standard item text with header name field, if 2 use header value field instead. If this col is 0, use the empty field - preferably the value column.\nRaw string enum value.\n"
+  syntax:
+    content: public string StdItemCol_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StdItemCol_String As String
+  overload: SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol
+    commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol
+  id: StdItemCol
+  parent: SuperOffice.WebApi.Data.TicketMessageHeader
+  langs:
+  - csharp
+  - vb
+  name: StdItemCol
+  nameWithType: TicketMessageHeader.StdItemCol
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf this is 1, concatenate the standard item text with header name field, if 2 use header value field instead. If this col is 0, use the empty field - preferably the value column.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<MessageHeaderStdItemCol> StdItemCol { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.MessageHeaderStdItemCol}
+    content.vb: Public Property StdItemCol As Nullable(Of MessageHeaderStdItemCol)
+  overload: SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol_String
+    commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -178,6 +352,19 @@ references:
   name: TicketMessageHeader
   nameWithType: TicketMessageHeader.TicketMessageHeader
   fullName: SuperOffice.WebApi.Data.TicketMessageHeader.TicketMessageHeader
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageHeader.Id
+  isExternal: true
+  name: Id
+  nameWithType: TicketMessageHeader.Id
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.TicketMessageHeader.Name*
   commentId: Overload:SuperOffice.WebApi.Data.TicketMessageHeader.Name
   isExternal: true
@@ -197,3 +384,163 @@ references:
   name: Value
   nameWithType: TicketMessageHeader.Value
   fullName: SuperOffice.WebApi.Data.TicketMessageHeader.Value
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.StdItem_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageHeader.StdItem_String
+  isExternal: true
+  name: StdItem_String
+  nameWithType: TicketMessageHeader.StdItem_String
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.StdItem_String
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.StdItem
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.StdItem
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.StdItem*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageHeader.StdItem
+  isExternal: true
+  name: StdItem
+  nameWithType: TicketMessageHeader.StdItem
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.StdItem
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.StdItem_String
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.StdItem_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.MessageHeaderStdItem}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.MessageHeaderStdItem}'
+  definition: System.Nullable`1
+  name: Nullable<MessageHeaderStdItem>
+  nameWithType: Nullable<MessageHeaderStdItem>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.MessageHeaderStdItem>
+  nameWithType.vb: Nullable(Of MessageHeaderStdItem)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.MessageHeaderStdItem)
+  name.vb: Nullable(Of MessageHeaderStdItem)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.MessageHeaderStdItem
+    name: MessageHeaderStdItem
+    nameWithType: MessageHeaderStdItem
+    fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.MessageHeaderStdItem
+    name: MessageHeaderStdItem
+    nameWithType: MessageHeaderStdItem
+    fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol_String
+  isExternal: true
+  name: StdItemCol_String
+  nameWithType: TicketMessageHeader.StdItemCol_String
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol_String
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol
+  isExternal: true
+  name: StdItemCol
+  nameWithType: TicketMessageHeader.StdItemCol
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol_String
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.StdItemCol_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.MessageHeaderStdItemCol}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.MessageHeaderStdItemCol}'
+  definition: System.Nullable`1
+  name: Nullable<MessageHeaderStdItemCol>
+  nameWithType: Nullable<MessageHeaderStdItemCol>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.MessageHeaderStdItemCol>
+  nameWithType.vb: Nullable(Of MessageHeaderStdItemCol)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.MessageHeaderStdItemCol)
+  name.vb: Nullable(Of MessageHeaderStdItemCol)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+    name: MessageHeaderStdItemCol
+    nameWithType: MessageHeaderStdItemCol
+    fullName: SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+    name: MessageHeaderStdItemCol
+    nameWithType: MessageHeaderStdItemCol
+    fullName: SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -36,8 +36,10 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.System.Section
   - SuperOffice.WebApi.Data.UserPreferenceStrings.System.SendLoginEmailNewUsers
   - SuperOffice.WebApi.Data.UserPreferenceStrings.System.SoftDeleteRetention
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.UnsafeFileTypes
   - SuperOffice.WebApi.Data.UserPreferenceStrings.System.UpdateStatusMonitorsRealTime
   - SuperOffice.WebApi.Data.UserPreferenceStrings.System.WebAppUsage
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.System.WebToolsDetectionTimeout
   langs:
   - csharp
   - vb
@@ -1018,6 +1020,64 @@ items:
     return:
       type: System.String
     content.vb: Public Const SendLoginEmailNewUsers As String = "SendLoginEmailNewUsers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.UnsafeFileTypes
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.UnsafeFileTypes
+  id: UnsafeFileTypes
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: UnsafeFileTypes
+  nameWithType: UserPreferenceStrings.System.UnsafeFileTypes
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.UnsafeFileTypes
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault unsafe file types. Downloading and archiving these are not allowed.\n\nValues are seperated by either , or ;.\nValues with or without . are both valid value-formats.\n\nExample: &quot;msi,bat,exe&quot;\nExample: &quot;.msi;.bat;.exe&quot;\n"
+  syntax:
+    content: public const string UnsafeFileTypes = "UnsafeFileTypes"
+    return:
+      type: System.String
+    content.vb: Public Const UnsafeFileTypes As String = "UnsafeFileTypes"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.System.WebToolsDetectionTimeout
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.System.WebToolsDetectionTimeout
+  id: WebToolsDetectionTimeout
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: WebToolsDetectionTimeout
+  nameWithType: UserPreferenceStrings.System.WebToolsDetectionTimeout
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.System.WebToolsDetectionTimeout
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen trying to open a document or email via WebTools, how many seconds\nshould CRM wait before assuming document failed to open and present\nwarning-dialog for user.\n\nDefault: 10.\n\nA value of 0 means never show dialog.\n"
+  syntax:
+    content: public const string WebToolsDetectionTimeout = "WebToolsDetectionTimeout"
+    return:
+      type: System.String
+    content.vb: Public Const WebToolsDetectionTimeout As String = "WebToolsDetectionTimeout"
   modifiers.csharp:
   - public
   - const

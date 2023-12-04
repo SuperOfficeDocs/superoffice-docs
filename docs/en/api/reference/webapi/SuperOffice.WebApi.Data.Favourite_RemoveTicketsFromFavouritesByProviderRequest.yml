@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest
+  commentId: T:SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest
+  id: Favourite_RemoveTicketsFromFavouritesByProviderRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.#ctor
+  - SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.AssociateId
+  - SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.ProviderName
+  - SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.Restrictions
+  langs:
+  - csharp
+  - vb
+  name: Favourite_RemoveTicketsFromFavouritesByProviderRequest
+  nameWithType: Favourite_RemoveTicketsFromFavouritesByProviderRequest
+  fullName: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Favourite_RemoveTicketsFromFavouritesByProviderRequest : Object'
+    content.vb: >-
+      Public Class Favourite_RemoveTicketsFromFavouritesByProviderRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest
+  langs:
+  - csharp
+  - vb
+  name: Favourite_RemoveTicketsFromFavouritesByProviderRequest()
+  nameWithType: Favourite_RemoveTicketsFromFavouritesByProviderRequest.Favourite_RemoveTicketsFromFavouritesByProviderRequest()
+  fullName: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.Favourite_RemoveTicketsFromFavouritesByProviderRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Favourite_RemoveTicketsFromFavouritesByProviderRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Favourite_RemoveTicketsFromFavouritesByProviderRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.Restrictions
+  commentId: P:SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.Restrictions
+  id: Restrictions
+  parent: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: Favourite_RemoveTicketsFromFavouritesByProviderRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.Restrictions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ArchiveRestrictionInfo[] Restrictions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+    content.vb: Public Property Restrictions As ArchiveRestrictionInfo()
+  overload: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.Restrictions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Favourite_RemoveTicketsFromFavouritesByProviderRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.#ctor
+  isExternal: true
+  name: Favourite_RemoveTicketsFromFavouritesByProviderRequest
+  nameWithType: Favourite_RemoveTicketsFromFavouritesByProviderRequest.Favourite_RemoveTicketsFromFavouritesByProviderRequest
+  fullName: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.Favourite_RemoveTicketsFromFavouritesByProviderRequest
+- uid: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Favourite_RemoveTicketsFromFavouritesByProviderRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.ProviderName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.Restrictions*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.Restrictions
+  isExternal: true
+  name: Restrictions
+  nameWithType: Favourite_RemoveTicketsFromFavouritesByProviderRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.Restrictions
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Favourite_RemoveTicketsFromFavouritesByProviderRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Favourite_RemoveTicketsFromFavouritesByProviderRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Authorization.Utility.UrlHelper
+  commentId: T:SuperOffice.WebApi.Authorization.Utility.UrlHelper
+  id: UrlHelper
+  parent: SuperOffice.WebApi.Authorization.Utility
+  children:
+  - SuperOffice.WebApi.Authorization.Utility.UrlHelper.#ctor(System.String)
+  - SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetAuthority
+  - SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetClaimsIssuer
+  - SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetMetadataAddress
+  - SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetTenantStatusUrl(System.String)
+  langs:
+  - csharp
+  - vb
+  name: UrlHelper
+  nameWithType: UrlHelper
+  fullName: SuperOffice.WebApi.Authorization.Utility.UrlHelper
+  type: Class
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Utility
+  summary: "\nUseful for getting formatted URL strings.\n"
+  syntax:
+    content: 'public class UrlHelper : Object'
+    content.vb: >-
+      Public Class UrlHelper
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Authorization.Utility.UrlHelper.#ctor(System.String)
+  commentId: M:SuperOffice.WebApi.Authorization.Utility.UrlHelper.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.WebApi.Authorization.Utility.UrlHelper
+  langs:
+  - csharp
+  - vb
+  name: UrlHelper(String)
+  nameWithType: UrlHelper.UrlHelper(String)
+  fullName: SuperOffice.WebApi.Authorization.Utility.UrlHelper.UrlHelper(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Utility
+  summary: "\nHelper class for getting common URL strings for the specified subdomain environment.\n"
+  syntax:
+    content: public UrlHelper(string subdomain)
+    parameters:
+    - id: subdomain
+      type: System.String
+      description: Online environment subdomain (sod, qastage, online)
+    content.vb: Public Sub New(subdomain As String)
+  overload: SuperOffice.WebApi.Authorization.Utility.UrlHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetClaimsIssuer
+  commentId: M:SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetClaimsIssuer
+  id: GetClaimsIssuer
+  parent: SuperOffice.WebApi.Authorization.Utility.UrlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetClaimsIssuer()
+  nameWithType: UrlHelper.GetClaimsIssuer()
+  fullName: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetClaimsIssuer()
+  type: Method
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Utility
+  syntax:
+    content: public string GetClaimsIssuer()
+    return:
+      type: System.String
+    content.vb: Public Function GetClaimsIssuer As String
+  overload: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetClaimsIssuer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetMetadataAddress
+  commentId: M:SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetMetadataAddress
+  id: GetMetadataAddress
+  parent: SuperOffice.WebApi.Authorization.Utility.UrlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetMetadataAddress()
+  nameWithType: UrlHelper.GetMetadataAddress()
+  fullName: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetMetadataAddress()
+  type: Method
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Utility
+  syntax:
+    content: public string GetMetadataAddress()
+    return:
+      type: System.String
+    content.vb: Public Function GetMetadataAddress As String
+  overload: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetMetadataAddress*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetAuthority
+  commentId: M:SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetAuthority
+  id: GetAuthority
+  parent: SuperOffice.WebApi.Authorization.Utility.UrlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetAuthority()
+  nameWithType: UrlHelper.GetAuthority()
+  fullName: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetAuthority()
+  type: Method
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Utility
+  syntax:
+    content: public string GetAuthority()
+    return:
+      type: System.String
+    content.vb: Public Function GetAuthority As String
+  overload: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetAuthority*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetTenantStatusUrl(System.String)
+  commentId: M:SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetTenantStatusUrl(System.String)
+  id: GetTenantStatusUrl(System.String)
+  parent: SuperOffice.WebApi.Authorization.Utility.UrlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTenantStatusUrl(String)
+  nameWithType: UrlHelper.GetTenantStatusUrl(String)
+  fullName: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetTenantStatusUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Utility
+  syntax:
+    content: public string GetTenantStatusUrl(string tenantCustId)
+    parameters:
+    - id: tenantCustId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetTenantStatusUrl(tenantCustId As String) As String
+  overload: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetTenantStatusUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Authorization.Utility
+  commentId: N:SuperOffice.WebApi.Authorization.Utility
+  isExternal: true
+  name: SuperOffice.WebApi.Authorization.Utility
+  nameWithType: SuperOffice.WebApi.Authorization.Utility
+  fullName: SuperOffice.WebApi.Authorization.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Authorization.Utility.UrlHelper.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Authorization.Utility.UrlHelper.#ctor
+  isExternal: true
+  name: UrlHelper
+  nameWithType: UrlHelper.UrlHelper
+  fullName: SuperOffice.WebApi.Authorization.Utility.UrlHelper.UrlHelper
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetClaimsIssuer*
+  commentId: Overload:SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetClaimsIssuer
+  isExternal: true
+  name: GetClaimsIssuer
+  nameWithType: UrlHelper.GetClaimsIssuer
+  fullName: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetClaimsIssuer
+- uid: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetMetadataAddress*
+  commentId: Overload:SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetMetadataAddress
+  isExternal: true
+  name: GetMetadataAddress
+  nameWithType: UrlHelper.GetMetadataAddress
+  fullName: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetMetadataAddress
+- uid: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetAuthority*
+  commentId: Overload:SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetAuthority
+  isExternal: true
+  name: GetAuthority
+  nameWithType: UrlHelper.GetAuthority
+  fullName: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetAuthority
+- uid: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetTenantStatusUrl*
+  commentId: Overload:SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetTenantStatusUrl
+  isExternal: true
+  name: GetTenantStatusUrl
+  nameWithType: UrlHelper.GetTenantStatusUrl
+  fullName: SuperOffice.WebApi.Authorization.Utility.UrlHelper.GetTenantStatusUrl

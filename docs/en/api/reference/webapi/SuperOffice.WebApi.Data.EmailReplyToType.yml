@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EmailReplyToType
+  commentId: T:SuperOffice.WebApi.Data.EmailReplyToType
+  id: EmailReplyToType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EmailReplyToType.ReplyToEmpty
+  - SuperOffice.WebApi.Data.EmailReplyToType.ReplyToOnlySpecified
+  - SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSalesContact
+  - SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSupportContact
+  - SuperOffice.WebApi.Data.EmailReplyToType.value__
+  langs:
+  - csharp
+  - vb
+  name: EmailReplyToType
+  nameWithType: EmailReplyToType
+  fullName: SuperOffice.WebApi.Data.EmailReplyToType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEmail/Mailing ReplyTo field address algorithm\nThis Enum is used by:  email_flow.reply_to_type\n"
+  syntax:
+    content: 'public sealed class EmailReplyToType : Enum'
+    content.vb: >-
+      Public NotInheritable Class EmailReplyToType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.EmailReplyToType.value__
+  commentId: F:SuperOffice.WebApi.Data.EmailReplyToType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.EmailReplyToType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: EmailReplyToType.value__
+  fullName: SuperOffice.WebApi.Data.EmailReplyToType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToOnlySpecified
+  commentId: F:SuperOffice.WebApi.Data.EmailReplyToType.ReplyToOnlySpecified
+  id: ReplyToOnlySpecified
+  parent: SuperOffice.WebApi.Data.EmailReplyToType
+  langs:
+  - csharp
+  - vb
+  name: ReplyToOnlySpecified
+  nameWithType: EmailReplyToType.ReplyToOnlySpecified
+  fullName: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToOnlySpecified
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: ReplyToOnlySpecified\n"
+  syntax:
+    content: public const EmailReplyToType ReplyToOnlySpecified
+    return:
+      type: SuperOffice.WebApi.Data.EmailReplyToType
+    content.vb: Public Const ReplyToOnlySpecified As EmailReplyToType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSalesContact
+  commentId: F:SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSalesContact
+  id: ReplyToSalesContact
+  parent: SuperOffice.WebApi.Data.EmailReplyToType
+  langs:
+  - csharp
+  - vb
+  name: ReplyToSalesContact
+  nameWithType: EmailReplyToType.ReplyToSalesContact
+  fullName: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSalesContact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: ReplyToSalesContact\n"
+  syntax:
+    content: public const EmailReplyToType ReplyToSalesContact
+    return:
+      type: SuperOffice.WebApi.Data.EmailReplyToType
+    content.vb: Public Const ReplyToSalesContact As EmailReplyToType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSupportContact
+  commentId: F:SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSupportContact
+  id: ReplyToSupportContact
+  parent: SuperOffice.WebApi.Data.EmailReplyToType
+  langs:
+  - csharp
+  - vb
+  name: ReplyToSupportContact
+  nameWithType: EmailReplyToType.ReplyToSupportContact
+  fullName: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToSupportContact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: ReplyToSupportContact\n"
+  syntax:
+    content: public const EmailReplyToType ReplyToSupportContact
+    return:
+      type: SuperOffice.WebApi.Data.EmailReplyToType
+    content.vb: Public Const ReplyToSupportContact As EmailReplyToType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToEmpty
+  commentId: F:SuperOffice.WebApi.Data.EmailReplyToType.ReplyToEmpty
+  id: ReplyToEmpty
+  parent: SuperOffice.WebApi.Data.EmailReplyToType
+  langs:
+  - csharp
+  - vb
+  name: ReplyToEmpty
+  nameWithType: EmailReplyToType.ReplyToEmpty
+  fullName: SuperOffice.WebApi.Data.EmailReplyToType.ReplyToEmpty
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: ReplyToEmpty (skip reply-to header, email agents will use from instead)\n"
+  syntax:
+    content: public const EmailReplyToType ReplyToEmpty
+    return:
+      type: SuperOffice.WebApi.Data.EmailReplyToType
+    content.vb: Public Const ReplyToEmpty As EmailReplyToType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.EmailReplyToType
+  commentId: T:SuperOffice.WebApi.Data.EmailReplyToType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EmailReplyToType
+  nameWithType: EmailReplyToType
+  fullName: SuperOffice.WebApi.Data.EmailReplyToType

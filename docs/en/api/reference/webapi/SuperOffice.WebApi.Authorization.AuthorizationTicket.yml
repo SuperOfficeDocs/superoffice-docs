@@ -1,0 +1,378 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket
+  commentId: T:SuperOffice.WebApi.Authorization.AuthorizationTicket
+  id: AuthorizationTicket
+  parent: SuperOffice.WebApi.Authorization
+  children:
+  - SuperOffice.WebApi.Authorization.AuthorizationTicket.#ctor(System.String)
+  - SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization
+  - SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
+  - SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket
+  langs:
+  - csharp
+  - vb
+  name: AuthorizationTicket
+  nameWithType: AuthorizationTicket
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket
+  type: Class
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization
+  summary: "\nSOTicket for use in onsite scenarios. See also <xref href=\"SuperOffice.WebApi.Authorization.IAuthorization\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class AuthorizationTicket : Object, IAuthorization'
+    content.vb: >-
+      Public Class AuthorizationTicket
+          Inherits Object
+          Implements IAuthorization
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket
+  implements:
+  - SuperOffice.WebApi.Authorization.IAuthorization
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.#ctor(System.String)
+  commentId: M:SuperOffice.WebApi.Authorization.AuthorizationTicket.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.WebApi.Authorization.AuthorizationTicket
+  langs:
+  - csharp
+  - vb
+  name: AuthorizationTicket(String)
+  nameWithType: AuthorizationTicket.AuthorizationTicket(String)
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.AuthorizationTicket(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization
+  summary: "\nTicket Authorization constructor used in CRM onsite scenario&apos;s.\n"
+  syntax:
+    content: public AuthorizationTicket(string ticket)
+    parameters:
+    - id: ticket
+      type: System.String
+      description: 'SOTicket string: &quot;7T:abc123==&quot;'
+    content.vb: Public Sub New(ticket As String)
+  overload: SuperOffice.WebApi.Authorization.AuthorizationTicket.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization
+  commentId: M:SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization
+  id: GetAuthorization
+  parent: SuperOffice.WebApi.Authorization.AuthorizationTicket
+  langs:
+  - csharp
+  - vb
+  name: GetAuthorization()
+  nameWithType: AuthorizationTicket.GetAuthorization()
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization()
+  type: Method
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization
+  summary: "\nGets a tuple that represents authorization scheme and parameter for an SOTicket.\n"
+  syntax:
+    content: public AuthenticationHeaderValue GetAuthorization()
+    return:
+      type: System.Net.Http.Headers.AuthenticationHeaderValue
+      description: Gets a <xref href="System.Tuple%602" data-throw-if-not-resolved="false"></xref> (string,string) where scheme is SOTicket and parameter is SOTicket string.
+    content.vb: Public Function GetAuthorization As AuthenticationHeaderValue
+  overload: SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization*
+  implements:
+  - SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
+  commentId: P:SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
+  id: RefreshAuthorization
+  parent: SuperOffice.WebApi.Authorization.AuthorizationTicket
+  langs:
+  - csharp
+  - vb
+  name: RefreshAuthorization
+  nameWithType: AuthorizationTicket.RefreshAuthorization
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
+  type: Property
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization
+  summary: "\nTry to refresh this <xref href=\"SuperOffice.WebApi.Authorization.IAuthorization\" data-throw-if-not-resolved=\"false\"></xref> instance.\n"
+  syntax:
+    content: public Func<ReAuthorizationArgs, IAuthorization> RefreshAuthorization { get; set; }
+    parameters: []
+    return:
+      type: System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,SuperOffice.WebApi.Authorization.IAuthorization}
+    content.vb: Public Property RefreshAuthorization As Func(Of ReAuthorizationArgs, IAuthorization)
+  overload: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization*
+  implements:
+  - SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket
+  commentId: P:SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket
+  id: Ticket
+  parent: SuperOffice.WebApi.Authorization.AuthorizationTicket
+  langs:
+  - csharp
+  - vb
+  name: Ticket
+  nameWithType: AuthorizationTicket.Ticket
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket
+  type: Property
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization
+  summary: "\nThe SOTicket value.\n"
+  syntax:
+    content: protected string Ticket { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected Property Ticket As String
+  overload: SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+references:
+- uid: SuperOffice.WebApi.Authorization
+  commentId: N:SuperOffice.WebApi.Authorization
+  isExternal: true
+  name: SuperOffice.WebApi.Authorization
+  nameWithType: SuperOffice.WebApi.Authorization
+  fullName: SuperOffice.WebApi.Authorization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Authorization.IAuthorization
+  commentId: T:SuperOffice.WebApi.Authorization.IAuthorization
+  parent: SuperOffice.WebApi.Authorization
+  isExternal: true
+  name: IAuthorization
+  nameWithType: IAuthorization
+  fullName: SuperOffice.WebApi.Authorization.IAuthorization
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Authorization.AuthorizationTicket.#ctor
+  isExternal: true
+  name: AuthorizationTicket
+  nameWithType: AuthorizationTicket.AuthorizationTicket
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.AuthorizationTicket
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization*
+  commentId: Overload:SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization
+  isExternal: true
+  name: GetAuthorization
+  nameWithType: AuthorizationTicket.GetAuthorization
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.GetAuthorization
+- uid: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
+  commentId: M:SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
+  parent: SuperOffice.WebApi.Authorization.IAuthorization
+  isExternal: true
+  name: GetAuthorization()
+  nameWithType: IAuthorization.GetAuthorization()
+  fullName: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
+    name: GetAuthorization
+    nameWithType: IAuthorization.GetAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
+    name: GetAuthorization
+    nameWithType: IAuthorization.GetAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.Headers.AuthenticationHeaderValue
+  isExternal: true
+  name: AuthenticationHeaderValue
+  nameWithType: AuthenticationHeaderValue
+  fullName: System.Net.Http.Headers.AuthenticationHeaderValue
+- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization*
+  commentId: Overload:SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
+  isExternal: true
+  name: RefreshAuthorization
+  nameWithType: AuthorizationTicket.RefreshAuthorization
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.RefreshAuthorization
+- uid: SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
+  commentId: P:SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
+  parent: SuperOffice.WebApi.Authorization.IAuthorization
+  isExternal: true
+  name: RefreshAuthorization
+  nameWithType: IAuthorization.RefreshAuthorization
+  fullName: SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
+- uid: System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,SuperOffice.WebApi.Authorization.IAuthorization}
+  commentId: '!:System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,SuperOffice.WebApi.Authorization.IAuthorization}'
+  definition: System.Func`2
+  name: Func<ReAuthorizationArgs, IAuthorization>
+  nameWithType: Func<ReAuthorizationArgs, IAuthorization>
+  fullName: System.Func<SuperOffice.WebApi.Authorization.ReAuthorizationArgs, SuperOffice.WebApi.Authorization.IAuthorization>
+  nameWithType.vb: Func(Of ReAuthorizationArgs, IAuthorization)
+  fullName.vb: System.Func(Of SuperOffice.WebApi.Authorization.ReAuthorizationArgs, SuperOffice.WebApi.Authorization.IAuthorization)
+  name.vb: Func(Of ReAuthorizationArgs, IAuthorization)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Authorization.ReAuthorizationArgs
+    name: ReAuthorizationArgs
+    nameWithType: ReAuthorizationArgs
+    fullName: SuperOffice.WebApi.Authorization.ReAuthorizationArgs
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Authorization.ReAuthorizationArgs
+    name: ReAuthorizationArgs
+    nameWithType: ReAuthorizationArgs
+    fullName: SuperOffice.WebApi.Authorization.ReAuthorizationArgs
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: System.Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: System.Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket*
+  commentId: Overload:SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket
+  isExternal: true
+  name: Ticket
+  nameWithType: AuthorizationTicket.Ticket
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket.Ticket

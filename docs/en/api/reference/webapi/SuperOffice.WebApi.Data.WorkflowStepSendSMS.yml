@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepSendSMS
+  id: WorkflowStepSendSMS
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowStepSendSMS.#ctor
+  - SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit
+  - SuperOffice.WebApi.Data.WorkflowStepSendSMS.From
+  - SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepSendSMS
+  nameWithType: WorkflowStepSendSMS
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for WorkflowStepSendSMS.\nStep in workflow.    \n"
+  syntax:
+    content: 'public class WorkflowStepSendSMS : WorkflowStepBase'
+    content.vb: >-
+      Public Class WorkflowStepSendSMS
+          Inherits WorkflowStepBase
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
+    commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.WorkflowStepBase
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  - SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.#ctor
+  commentId: M:SuperOffice.WebApi.Data.WorkflowStepSendSMS.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.WorkflowStepSendSMS
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepSendSMS()
+  nameWithType: WorkflowStepSendSMS.WorkflowStepSendSMS()
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.WorkflowStepSendSMS()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public WorkflowStepSendSMS()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.WorkflowStepSendSMS.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.From
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepSendSMS.From
+  id: From
+  parent: SuperOffice.WebApi.Data.WorkflowStepSendSMS
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: WorkflowStepSendSMS.From
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.From
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSMS Sender\n"
+  syntax:
+    content: public virtual string From { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property From As String
+  overload: SuperOffice.WebApi.Data.WorkflowStepSendSMS.From*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text
+  id: Text
+  parent: SuperOffice.WebApi.Data.WorkflowStepSendSMS
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: WorkflowStepSendSMS.Text
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSMS text message\n"
+  syntax:
+    content: public virtual string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Text As String
+  overload: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit
+  id: Exit
+  parent: SuperOffice.WebApi.Data.WorkflowStepSendSMS
+  langs:
+  - csharp
+  - vb
+  name: Exit
+  nameWithType: WorkflowStepSendSMS.Exit
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExit flow if no mobile phone registered\n"
+  syntax:
+    content: public virtual bool Exit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Exit As Boolean
+  overload: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: WorkflowStepId
+  nameWithType: WorkflowStepBase.WorkflowStepId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowStepBase.WorkflowId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: StepType_String
+  nameWithType: WorkflowStepBase.StepType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: StepType
+  nameWithType: WorkflowStepBase.StepType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: Rank
+  nameWithType: WorkflowStepBase.Rank
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepSendSMS.#ctor
+  isExternal: true
+  name: WorkflowStepSendSMS
+  nameWithType: WorkflowStepSendSMS.WorkflowStepSendSMS
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.WorkflowStepSendSMS
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.From*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepSendSMS.From
+  isExternal: true
+  name: From
+  nameWithType: WorkflowStepSendSMS.From
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.From
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text
+  isExternal: true
+  name: Text
+  nameWithType: WorkflowStepSendSMS.Text
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text
+- uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit
+  isExternal: true
+  name: Exit
+  nameWithType: WorkflowStepSendSMS.Exit
+  fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

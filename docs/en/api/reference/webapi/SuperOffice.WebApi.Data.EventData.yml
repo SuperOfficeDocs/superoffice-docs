@@ -7,11 +7,15 @@ items:
   children:
   - SuperOffice.WebApi.Data.EventData.#ctor
   - SuperOffice.WebApi.Data.EventData.BlockExecution
+  - SuperOffice.WebApi.Data.EventData.CgiContent
+  - SuperOffice.WebApi.Data.EventData.CgiVariables
   - SuperOffice.WebApi.Data.EventData.Exception
   - SuperOffice.WebApi.Data.EventData.InputValues
   - SuperOffice.WebApi.Data.EventData.Message
   - SuperOffice.WebApi.Data.EventData.NavigateTo
   - SuperOffice.WebApi.Data.EventData.OutputValues
+  - SuperOffice.WebApi.Data.EventData.ParserValues
+  - SuperOffice.WebApi.Data.EventData.ShowDialog
   - SuperOffice.WebApi.Data.EventData.StateValues
   - SuperOffice.WebApi.Data.EventData.Type
   - SuperOffice.WebApi.Data.EventData.Type_String
@@ -275,6 +279,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.EventData.ShowDialog
+  commentId: P:SuperOffice.WebApi.Data.EventData.ShowDialog
+  id: ShowDialog
+  parent: SuperOffice.WebApi.Data.EventData
+  langs:
+  - csharp
+  - vb
+  name: ShowDialog
+  nameWithType: EventData.ShowDialog
+  fullName: SuperOffice.WebApi.Data.EventData.ShowDialog
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nJSON structure of dialog to show\n"
+  syntax:
+    content: public virtual string ShowDialog { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ShowDialog As String
+  overload: SuperOffice.WebApi.Data.EventData.ShowDialog*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.EventData.OutputValues
   commentId: P:SuperOffice.WebApi.Data.EventData.OutputValues
   id: OutputValues
@@ -366,6 +403,105 @@ items:
       type: System.String
     content.vb: Public Overridable Property Exception As String
   overload: SuperOffice.WebApi.Data.EventData.Exception*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EventData.ParserValues
+  commentId: P:SuperOffice.WebApi.Data.EventData.ParserValues
+  id: ParserValues
+  parent: SuperOffice.WebApi.Data.EventData
+  langs:
+  - csharp
+  - vb
+  name: ParserValues
+  nameWithType: EventData.ParserValues
+  fullName: SuperOffice.WebApi.Data.EventData.ParserValues
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nParser values sent to the event handler\n"
+  syntax:
+    content: public virtual StringDictionary ParserValues { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property ParserValues As StringDictionary
+  overload: SuperOffice.WebApi.Data.EventData.ParserValues*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EventData.CgiVariables
+  commentId: P:SuperOffice.WebApi.Data.EventData.CgiVariables
+  id: CgiVariables
+  parent: SuperOffice.WebApi.Data.EventData
+  langs:
+  - csharp
+  - vb
+  name: CgiVariables
+  nameWithType: EventData.CgiVariables
+  fullName: SuperOffice.WebApi.Data.EventData.CgiVariables
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCgi variables sent by some events\n"
+  syntax:
+    content: public virtual StringDictionary CgiVariables { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property CgiVariables As StringDictionary
+  overload: SuperOffice.WebApi.Data.EventData.CgiVariables*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EventData.CgiContent
+  commentId: P:SuperOffice.WebApi.Data.EventData.CgiContent
+  id: CgiContent
+  parent: SuperOffice.WebApi.Data.EventData
+  langs:
+  - csharp
+  - vb
+  name: CgiContent
+  nameWithType: EventData.CgiContent
+  fullName: SuperOffice.WebApi.Data.EventData.CgiContent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Cgi content/body, sent by some events\n"
+  syntax:
+    content: public virtual string CgiContent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CgiContent As String
+  overload: SuperOffice.WebApi.Data.EventData.CgiContent*
   modifiers.csharp:
   - public
   - virtual
@@ -571,6 +707,12 @@ references:
   name: Message
   nameWithType: EventData.Message
   fullName: SuperOffice.WebApi.Data.EventData.Message
+- uid: SuperOffice.WebApi.Data.EventData.ShowDialog*
+  commentId: Overload:SuperOffice.WebApi.Data.EventData.ShowDialog
+  isExternal: true
+  name: ShowDialog
+  nameWithType: EventData.ShowDialog
+  fullName: SuperOffice.WebApi.Data.EventData.ShowDialog
 - uid: SuperOffice.WebApi.Data.EventData.OutputValues*
   commentId: Overload:SuperOffice.WebApi.Data.EventData.OutputValues
   isExternal: true
@@ -589,3 +731,21 @@ references:
   name: Exception
   nameWithType: EventData.Exception
   fullName: SuperOffice.WebApi.Data.EventData.Exception
+- uid: SuperOffice.WebApi.Data.EventData.ParserValues*
+  commentId: Overload:SuperOffice.WebApi.Data.EventData.ParserValues
+  isExternal: true
+  name: ParserValues
+  nameWithType: EventData.ParserValues
+  fullName: SuperOffice.WebApi.Data.EventData.ParserValues
+- uid: SuperOffice.WebApi.Data.EventData.CgiVariables*
+  commentId: Overload:SuperOffice.WebApi.Data.EventData.CgiVariables
+  isExternal: true
+  name: CgiVariables
+  nameWithType: EventData.CgiVariables
+  fullName: SuperOffice.WebApi.Data.EventData.CgiVariables
+- uid: SuperOffice.WebApi.Data.EventData.CgiContent*
+  commentId: Overload:SuperOffice.WebApi.Data.EventData.CgiContent
+  isExternal: true
+  name: CgiContent
+  nameWithType: EventData.CgiContent
+  fullName: SuperOffice.WebApi.Data.EventData.CgiContent

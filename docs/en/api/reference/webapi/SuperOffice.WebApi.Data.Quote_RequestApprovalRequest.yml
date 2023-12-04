@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_RequestApprovalRequest
+  id: Quote_RequestApprovalRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.AssociateId
+  - SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.Comment
+  - SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.QuoteVersionId
+  langs:
+  - csharp
+  - vb
+  name: Quote_RequestApprovalRequest
+  nameWithType: Quote_RequestApprovalRequest
+  fullName: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_RequestApprovalRequest : Object'
+    content.vb: >-
+      Public Class Quote_RequestApprovalRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_RequestApprovalRequest()
+  nameWithType: Quote_RequestApprovalRequest.Quote_RequestApprovalRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.Quote_RequestApprovalRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_RequestApprovalRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.QuoteVersionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: Quote_RequestApprovalRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.QuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteVersionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Quote_RequestApprovalRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.Comment
+  commentId: P:SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.Comment
+  id: Comment
+  parent: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: Quote_RequestApprovalRequest.Comment
+  fullName: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.Comment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Comment As String
+  overload: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.Comment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.#ctor
+  isExternal: true
+  name: Quote_RequestApprovalRequest
+  nameWithType: Quote_RequestApprovalRequest.Quote_RequestApprovalRequest
+  fullName: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.Quote_RequestApprovalRequest
+- uid: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.QuoteVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: Quote_RequestApprovalRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.QuoteVersionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Quote_RequestApprovalRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.AssociateId
+- uid: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.Comment*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.Comment
+  isExternal: true
+  name: Comment
+  nameWithType: Quote_RequestApprovalRequest.Comment
+  fullName: SuperOffice.WebApi.Data.Quote_RequestApprovalRequest.Comment
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

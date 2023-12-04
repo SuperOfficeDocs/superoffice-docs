@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest
+  id: CustomerService_GetPreviewReplyTemplateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.ReplyTemplateId
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_GetPreviewReplyTemplateRequest
+  nameWithType: CustomerService_GetPreviewReplyTemplateRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_GetPreviewReplyTemplateRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_GetPreviewReplyTemplateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_GetPreviewReplyTemplateRequest()
+  nameWithType: CustomerService_GetPreviewReplyTemplateRequest.CustomerService_GetPreviewReplyTemplateRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.CustomerService_GetPreviewReplyTemplateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_GetPreviewReplyTemplateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.ReplyTemplateId
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.ReplyTemplateId
+  id: ReplyTemplateId
+  parent: SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateId
+  nameWithType: CustomerService_GetPreviewReplyTemplateRequest.ReplyTemplateId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.ReplyTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ReplyTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReplyTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.ReplyTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.#ctor
+  isExternal: true
+  name: CustomerService_GetPreviewReplyTemplateRequest
+  nameWithType: CustomerService_GetPreviewReplyTemplateRequest.CustomerService_GetPreviewReplyTemplateRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.CustomerService_GetPreviewReplyTemplateRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.ReplyTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.ReplyTemplateId
+  isExternal: true
+  name: ReplyTemplateId
+  nameWithType: CustomerService_GetPreviewReplyTemplateRequest.ReplyTemplateId
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetPreviewReplyTemplateRequest.ReplyTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

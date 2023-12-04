@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AI_SummarizeContactRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_SummarizeContactRequest
+  id: AI_SummarizeContactRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AI_SummarizeContactRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_SummarizeContactRequest.ContactId
+  - SuperOffice.WebApi.Data.AI_SummarizeContactRequest.IsoLangCode
+  - SuperOffice.WebApi.Data.AI_SummarizeContactRequest.NumSentences
+  langs:
+  - csharp
+  - vb
+  name: AI_SummarizeContactRequest
+  nameWithType: AI_SummarizeContactRequest
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeContactRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class AI_SummarizeContactRequest : Object'
+    content.vb: >-
+      Public Class AI_SummarizeContactRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_SummarizeContactRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AI_SummarizeContactRequest
+  langs:
+  - csharp
+  - vb
+  name: AI_SummarizeContactRequest()
+  nameWithType: AI_SummarizeContactRequest.AI_SummarizeContactRequest()
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.AI_SummarizeContactRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AI_SummarizeContactRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.ContactId
+  commentId: P:SuperOffice.WebApi.Data.AI_SummarizeContactRequest.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.AI_SummarizeContactRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: AI_SummarizeContactRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.NumSentences
+  commentId: P:SuperOffice.WebApi.Data.AI_SummarizeContactRequest.NumSentences
+  id: NumSentences
+  parent: SuperOffice.WebApi.Data.AI_SummarizeContactRequest
+  langs:
+  - csharp
+  - vb
+  name: NumSentences
+  nameWithType: AI_SummarizeContactRequest.NumSentences
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.NumSentences
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int NumSentences { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NumSentences As Integer
+  overload: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.NumSentences*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.IsoLangCode
+  commentId: P:SuperOffice.WebApi.Data.AI_SummarizeContactRequest.IsoLangCode
+  id: IsoLangCode
+  parent: SuperOffice.WebApi.Data.AI_SummarizeContactRequest
+  langs:
+  - csharp
+  - vb
+  name: IsoLangCode
+  nameWithType: AI_SummarizeContactRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.IsoLangCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string IsoLangCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IsoLangCode As String
+  overload: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.IsoLangCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_SummarizeContactRequest.#ctor
+  isExternal: true
+  name: AI_SummarizeContactRequest
+  nameWithType: AI_SummarizeContactRequest.AI_SummarizeContactRequest
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.AI_SummarizeContactRequest
+- uid: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_SummarizeContactRequest.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: AI_SummarizeContactRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.NumSentences*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_SummarizeContactRequest.NumSentences
+  isExternal: true
+  name: NumSentences
+  nameWithType: AI_SummarizeContactRequest.NumSentences
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.NumSentences
+- uid: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.IsoLangCode*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_SummarizeContactRequest.IsoLangCode
+  isExternal: true
+  name: IsoLangCode
+  nameWithType: AI_SummarizeContactRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeContactRequest.IsoLangCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

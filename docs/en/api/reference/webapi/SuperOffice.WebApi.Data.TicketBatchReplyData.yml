@@ -1,0 +1,552 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData
+  commentId: T:SuperOffice.WebApi.Data.TicketBatchReplyData
+  id: TicketBatchReplyData
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketBatchReplyData.#ctor
+  - SuperOffice.WebApi.Data.TicketBatchReplyData.AttachmentIds
+  - SuperOffice.WebApi.Data.TicketBatchReplyData.CloseTickets
+  - SuperOffice.WebApi.Data.TicketBatchReplyData.HtmlBody
+  - SuperOffice.WebApi.Data.TicketBatchReplyData.SendCopyToCustomer
+  - SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel
+  - SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel_String
+  - SuperOffice.WebApi.Data.TicketBatchReplyData.TicketIds
+  - SuperOffice.WebApi.Data.TicketBatchReplyData.TimeSpent
+  langs:
+  - csharp
+  - vb
+  name: TicketBatchReplyData
+  nameWithType: TicketBatchReplyData
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TicketBatchReplyData.\nData to add a batched ticket reply.    \n"
+  syntax:
+    content: 'public class TicketBatchReplyData : Object'
+    content.vb: >-
+      Public Class TicketBatchReplyData
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.TicketAgent
+    commentId: T:SuperOffice.WebApi.Agents.TicketAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TicketBatchReplyData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TicketBatchReplyData
+  langs:
+  - csharp
+  - vb
+  name: TicketBatchReplyData()
+  nameWithType: TicketBatchReplyData.TicketBatchReplyData()
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.TicketBatchReplyData()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TicketBatchReplyData()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TicketBatchReplyData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.TicketIds
+  commentId: P:SuperOffice.WebApi.Data.TicketBatchReplyData.TicketIds
+  id: TicketIds
+  parent: SuperOffice.WebApi.Data.TicketBatchReplyData
+  langs:
+  - csharp
+  - vb
+  name: TicketIds
+  nameWithType: TicketBatchReplyData.TicketIds
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.TicketIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIDs of tickets to reply to.\n"
+  syntax:
+    content: public virtual int[] TicketIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property TicketIds As Integer()
+  overload: SuperOffice.WebApi.Data.TicketBatchReplyData.TicketIds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.CloseTickets
+  commentId: P:SuperOffice.WebApi.Data.TicketBatchReplyData.CloseTickets
+  id: CloseTickets
+  parent: SuperOffice.WebApi.Data.TicketBatchReplyData
+  langs:
+  - csharp
+  - vb
+  name: CloseTickets
+  nameWithType: TicketBatchReplyData.CloseTickets
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.CloseTickets
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\ntrue to close the tickets after replying; otherwise, false.\n"
+  syntax:
+    content: public virtual bool CloseTickets { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property CloseTickets As Boolean
+  overload: SuperOffice.WebApi.Data.TicketBatchReplyData.CloseTickets*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.AttachmentIds
+  commentId: P:SuperOffice.WebApi.Data.TicketBatchReplyData.AttachmentIds
+  id: AttachmentIds
+  parent: SuperOffice.WebApi.Data.TicketBatchReplyData
+  langs:
+  - csharp
+  - vb
+  name: AttachmentIds
+  nameWithType: TicketBatchReplyData.AttachmentIds
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.AttachmentIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe IDs of attachments to connect to the reply message.\n"
+  syntax:
+    content: public virtual int[] AttachmentIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property AttachmentIds As Integer()
+  overload: SuperOffice.WebApi.Data.TicketBatchReplyData.AttachmentIds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.HtmlBody
+  commentId: P:SuperOffice.WebApi.Data.TicketBatchReplyData.HtmlBody
+  id: HtmlBody
+  parent: SuperOffice.WebApi.Data.TicketBatchReplyData
+  langs:
+  - csharp
+  - vb
+  name: HtmlBody
+  nameWithType: TicketBatchReplyData.HtmlBody
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.HtmlBody
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe html body for the message (if any).\n"
+  syntax:
+    content: public virtual string HtmlBody { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property HtmlBody As String
+  overload: SuperOffice.WebApi.Data.TicketBatchReplyData.HtmlBody*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel_String
+  commentId: P:SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel_String
+  id: Slevel_String
+  parent: SuperOffice.WebApi.Data.TicketBatchReplyData
+  langs:
+  - csharp
+  - vb
+  name: Slevel_String
+  nameWithType: TicketBatchReplyData.Slevel_String
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe securitylevel of the message.\nRaw string enum value.\n"
+  syntax:
+    content: public string Slevel_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Slevel_String As String
+  overload: SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel
+    commentId: P:SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel
+  commentId: P:SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel
+  id: Slevel
+  parent: SuperOffice.WebApi.Data.TicketBatchReplyData
+  langs:
+  - csharp
+  - vb
+  name: Slevel
+  nameWithType: TicketBatchReplyData.Slevel
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe securitylevel of the message.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<TicketSecurityLevel> Slevel { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.TicketSecurityLevel}
+    content.vb: Public Property Slevel As Nullable(Of TicketSecurityLevel)
+  overload: SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel_String
+    commentId: P:SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.TimeSpent
+  commentId: P:SuperOffice.WebApi.Data.TicketBatchReplyData.TimeSpent
+  id: TimeSpent
+  parent: SuperOffice.WebApi.Data.TicketBatchReplyData
+  langs:
+  - csharp
+  - vb
+  name: TimeSpent
+  nameWithType: TicketBatchReplyData.TimeSpent
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.TimeSpent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe time spent (minutes) for this message.\n"
+  syntax:
+    content: public virtual int TimeSpent { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TimeSpent As Integer
+  overload: SuperOffice.WebApi.Data.TicketBatchReplyData.TimeSpent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.SendCopyToCustomer
+  commentId: P:SuperOffice.WebApi.Data.TicketBatchReplyData.SendCopyToCustomer
+  id: SendCopyToCustomer
+  parent: SuperOffice.WebApi.Data.TicketBatchReplyData
+  langs:
+  - csharp
+  - vb
+  name: SendCopyToCustomer
+  nameWithType: TicketBatchReplyData.SendCopyToCustomer
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.SendCopyToCustomer
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\ntrue to email the reply message to customers; otherwise, false.\n"
+  syntax:
+    content: public virtual bool SendCopyToCustomer { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SendCopyToCustomer As Boolean
+  overload: SuperOffice.WebApi.Data.TicketBatchReplyData.SendCopyToCustomer*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.TicketAgent
+  commentId: T:SuperOffice.WebApi.Agents.TicketAgent
+  isExternal: true
+  name: TicketAgent
+  nameWithType: TicketAgent
+  fullName: SuperOffice.WebApi.Agents.TicketAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketBatchReplyData.#ctor
+  isExternal: true
+  name: TicketBatchReplyData
+  nameWithType: TicketBatchReplyData.TicketBatchReplyData
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.TicketBatchReplyData
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.TicketIds*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketBatchReplyData.TicketIds
+  isExternal: true
+  name: TicketIds
+  nameWithType: TicketBatchReplyData.TicketIds
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.TicketIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.CloseTickets*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketBatchReplyData.CloseTickets
+  isExternal: true
+  name: CloseTickets
+  nameWithType: TicketBatchReplyData.CloseTickets
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.CloseTickets
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.AttachmentIds*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketBatchReplyData.AttachmentIds
+  isExternal: true
+  name: AttachmentIds
+  nameWithType: TicketBatchReplyData.AttachmentIds
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.AttachmentIds
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.HtmlBody*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketBatchReplyData.HtmlBody
+  isExternal: true
+  name: HtmlBody
+  nameWithType: TicketBatchReplyData.HtmlBody
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.HtmlBody
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel_String
+  isExternal: true
+  name: Slevel_String
+  nameWithType: TicketBatchReplyData.Slevel_String
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel_String
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel
+  commentId: P:SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel
+  isExternal: true
+  name: Slevel
+  nameWithType: TicketBatchReplyData.Slevel
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel_String
+  commentId: P:SuperOffice.WebApi.Data.TicketBatchReplyData.Slevel_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.TicketSecurityLevel}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TicketSecurityLevel}'
+  definition: System.Nullable`1
+  name: Nullable<TicketSecurityLevel>
+  nameWithType: Nullable<TicketSecurityLevel>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TicketSecurityLevel>
+  nameWithType.vb: Nullable(Of TicketSecurityLevel)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TicketSecurityLevel)
+  name.vb: Nullable(Of TicketSecurityLevel)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TicketSecurityLevel
+    name: TicketSecurityLevel
+    nameWithType: TicketSecurityLevel
+    fullName: SuperOffice.WebApi.Data.TicketSecurityLevel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TicketSecurityLevel
+    name: TicketSecurityLevel
+    nameWithType: TicketSecurityLevel
+    fullName: SuperOffice.WebApi.Data.TicketSecurityLevel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.TimeSpent*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketBatchReplyData.TimeSpent
+  isExternal: true
+  name: TimeSpent
+  nameWithType: TicketBatchReplyData.TimeSpent
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.TimeSpent
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TicketBatchReplyData.SendCopyToCustomer*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketBatchReplyData.SendCopyToCustomer
+  isExternal: true
+  name: SendCopyToCustomer
+  nameWithType: TicketBatchReplyData.SendCopyToCustomer
+  fullName: SuperOffice.WebApi.Data.TicketBatchReplyData.SendCopyToCustomer

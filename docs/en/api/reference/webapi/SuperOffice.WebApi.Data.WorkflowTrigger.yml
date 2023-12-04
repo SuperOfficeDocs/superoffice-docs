@@ -1,0 +1,452 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger
+  commentId: T:SuperOffice.WebApi.Data.WorkflowTrigger
+  id: WorkflowTrigger
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowTrigger.#ctor
+  - SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups
+  - SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
+  - SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
+  - SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId
+  - SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTrigger
+  nameWithType: WorkflowTrigger
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for WorkflowTrigger.\nWorkflow trigger carrier    \n"
+  example:
+  - "\nGet WorkflowTrigger 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new WorkflowAgent(configuration);\nvar workflowTrigger = agent.GetWorkflowTrigger( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class WorkflowTrigger : Carrier'
+    content.vb: >-
+      Public Class WorkflowTrigger
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
+    commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.#ctor
+  commentId: M:SuperOffice.WebApi.Data.WorkflowTrigger.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.WorkflowTrigger
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTrigger()
+  nameWithType: WorkflowTrigger.WorkflowTrigger()
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTrigger()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public WorkflowTrigger()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.WorkflowTrigger.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId
+  id: WorkflowTriggerId
+  parent: SuperOffice.WebApi.Data.WorkflowTrigger
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTriggerId
+  nameWithType: WorkflowTrigger.WorkflowTriggerId
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int WorkflowTriggerId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WorkflowTriggerId As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId
+  id: WorkflowId
+  parent: SuperOffice.WebApi.Data.WorkflowTrigger
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId
+  nameWithType: WorkflowTrigger.WorkflowId
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe flow this trigger belongs to\n"
+  syntax:
+    content: public virtual int WorkflowId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WorkflowId As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
+  id: TriggerType_String
+  parent: SuperOffice.WebApi.Data.WorkflowTrigger
+  langs:
+  - csharp
+  - vb
+  name: TriggerType_String
+  nameWithType: WorkflowTrigger.TriggerType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe workflow trigger type\nRaw string enum value.\n"
+  syntax:
+    content: public string TriggerType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TriggerType_String As String
+  overload: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
+    commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
+  id: TriggerType
+  parent: SuperOffice.WebApi.Data.WorkflowTrigger
+  langs:
+  - csharp
+  - vb
+  name: TriggerType
+  nameWithType: WorkflowTrigger.TriggerType
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe workflow trigger type\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<WorkflowTriggerType> TriggerType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.WorkflowTriggerType}
+    content.vb: Public Property TriggerType As Nullable(Of WorkflowTriggerType)
+  overload: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
+    commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups
+  commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups
+  id: RestrictionGroups
+  parent: SuperOffice.WebApi.Data.WorkflowTrigger
+  langs:
+  - csharp
+  - vb
+  name: RestrictionGroups
+  nameWithType: WorkflowTrigger.RestrictionGroups
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe restrictions (can be multiple groups) that make up the Workflow trigger criteria\n"
+  syntax:
+    content: public virtual ArchiveRestrictionGroup[] RestrictionGroups { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
+    content.vb: Public Overridable Property RestrictionGroups As ArchiveRestrictionGroup()
+  overload: SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowTrigger.#ctor
+  isExternal: true
+  name: WorkflowTrigger
+  nameWithType: WorkflowTrigger.WorkflowTrigger
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTrigger
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId
+  isExternal: true
+  name: WorkflowTriggerId
+  nameWithType: WorkflowTrigger.WorkflowTriggerId
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowTrigger.WorkflowId
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
+  isExternal: true
+  name: TriggerType_String
+  nameWithType: WorkflowTrigger.TriggerType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
+  isExternal: true
+  name: TriggerType
+  nameWithType: WorkflowTrigger.TriggerType
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowTriggerType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WorkflowTriggerType}'
+  definition: System.Nullable`1
+  name: Nullable<WorkflowTriggerType>
+  nameWithType: Nullable<WorkflowTriggerType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.WorkflowTriggerType>
+  nameWithType.vb: Nullable(Of WorkflowTriggerType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WorkflowTriggerType)
+  name.vb: Nullable(Of WorkflowTriggerType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowTriggerType
+    name: WorkflowTriggerType
+    nameWithType: WorkflowTriggerType
+    fullName: SuperOffice.WebApi.Data.WorkflowTriggerType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowTriggerType
+    name: WorkflowTriggerType
+    nameWithType: WorkflowTriggerType
+    fullName: SuperOffice.WebApi.Data.WorkflowTriggerType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups
+  isExternal: true
+  name: RestrictionGroups
+  nameWithType: WorkflowTrigger.RestrictionGroups
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
+  isExternal: true
+  name: ArchiveRestrictionGroup[]
+  nameWithType: ArchiveRestrictionGroup[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
+  nameWithType.vb: ArchiveRestrictionGroup()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionGroup()
+  name.vb: ArchiveRestrictionGroup()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

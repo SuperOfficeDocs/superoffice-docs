@@ -1,0 +1,769 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent
+  commentId: T:SuperOffice.WebApi.Agents.IFavouriteAgent
+  id: IFavouriteAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: IFavouriteAgent
+  nameWithType: IFavouriteAgent
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent
+  type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAgent used for retrieveing and setting favourites\n"
+  syntax:
+    content: 'public interface IFavouriteAgent : IDisposable'
+    content.vb: >-
+      Public Interface IFavouriteAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: IsFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: IsFavouriteAsync(String, Int32, Int32, RequestOptions)
+  nameWithType: IFavouriteAgent.IsFavouriteAsync(String, Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync(System.String, System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nChecks if a record in a table is a favourite for an associate\n"
+  syntax:
+    content: Task<bool> IsFavouriteAsync(string tableName, int recordId, int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.
+    - id: recordId
+      type: System.Int32
+      description: Id of a record in your specified table (tableName)
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Is Favourite?
+    content.vb: Function IsFavouriteAsync(tableName As String, recordId As Integer, associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync*
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: AddFavouriteAsync(String, Int32, Int32, String, RequestOptions)
+  nameWithType: IFavouriteAgent.AddFavouriteAsync(String, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync(System.String, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdd a record in a table as a favourite for an associate\n"
+  syntax:
+    content: Task AddFavouriteAsync(string tableName, int recordId, int associateId, string extraInfo, RequestOptions requestOptions = null)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.
+    - id: recordId
+      type: System.Int32
+      description: Id of a record in your specified table (tableName)
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    - id: extraInfo
+      type: System.String
+      description: Any extra information
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function AddFavouriteAsync(tableName As String, recordId As Integer, associateId As Integer, extraInfo As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync*
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: AddFavouritesAsync(String, Int32[], Int32, String, RequestOptions)
+  nameWithType: IFavouriteAgent.AddFavouritesAsync(String, Int32[], Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync(System.String, System.Int32[], System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdd a list of record ids as favourites for an associate\n"
+  syntax:
+    content: Task AddFavouritesAsync(string tableName, int[] recordIds, int associateId, string extraInfo, RequestOptions requestOptions = null)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.
+    - id: recordIds
+      type: System.Int32[]
+      description: Ids of records in your specified table (tableName). Corresponding rows will be added as Favourites.
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    - id: extraInfo
+      type: System.String
+      description: Any extra information
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function AddFavouritesAsync(tableName As String, recordIds As Integer(), associateId As Integer, extraInfo As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync*
+  nameWithType.vb: IFavouriteAgent.AddFavouritesAsync(String, Int32(), Int32, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync(System.String, System.Int32(), System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: AddFavouritesAsync(String, Int32(), Int32, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo[], Int32, String, RequestOptions)
+  nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo[], Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdd a list of tickets as favourites that are given by the ticket provider.\n"
+  syntax:
+    content: Task AddTicketsToFavouritesByProviderAsync(string providerName, ArchiveRestrictionInfo[] restrictions, int associateId, string extraInfo, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of a ticket provider
+    - id: restrictions
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+      description: Query restrictions to be added to provider. Fixed providers, such as LastTicketsProvider, FavouriteTicketsProvider etc. already have mandatory restrictions setup - in such case extra restrictions will be combined, however for general use case for fixed providers you can pass an empty array and provider will return default results. For selection providers generally you should pass selectionId as a restriction.
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    - id: extraInfo
+      type: System.String
+      description: Any extra information
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function AddTicketsToFavouritesByProviderAsync(providerName As String, restrictions As ArchiveRestrictionInfo(), associateId As Integer, extraInfo As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync*
+  nameWithType.vb: IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Int32, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: AddTicketsToFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Int32, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: RemoveFavouritesAsync(System.String,System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveFavouritesAsync(String, Int32[], Int32, RequestOptions)
+  nameWithType: IFavouriteAgent.RemoveFavouritesAsync(String, Int32[], Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync(System.String, System.Int32[], System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemove a list of record ids from favourites for an associate\n"
+  syntax:
+    content: Task RemoveFavouritesAsync(string tableName, int[] recordIds, int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.
+    - id: recordIds
+      type: System.Int32[]
+      description: Ids of records in your specified table (tableName). Corresponding rows will be removed from Favourites.
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function RemoveFavouritesAsync(tableName As String, recordIds As Integer(), associateId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync*
+  nameWithType.vb: IFavouriteAgent.RemoveFavouritesAsync(String, Int32(), Int32, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync(System.String, System.Int32(), System.Int32, SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveFavouritesAsync(String, Int32(), Int32, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: RemoveTicketsFromFavouritesByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo[], Int32, RequestOptions)
+  nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo[], Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemove a list of tickets from favourites that are given by the ticket provider.\n"
+  syntax:
+    content: Task RemoveTicketsFromFavouritesByProviderAsync(string providerName, ArchiveRestrictionInfo[] restrictions, int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of a ticket provider
+    - id: restrictions
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+      description: Query restrictions to be added to provider. Fixed providers, such as LastTicketsProvider, FavouriteTicketsProvider etc. already have mandatory restrictions setup - in such case extra restrictions will be combined, however for general use case for fixed providers you can pass an empty array and provider will return default results. For selection providers generally you should pass selectionId as a restriction.
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function RemoveTicketsFromFavouritesByProviderAsync(providerName As String, restrictions As ArchiveRestrictionInfo(), associateId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync*
+  nameWithType.vb: IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Int32, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync(System.String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), System.Int32, SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveTicketsFromFavouritesByProviderAsync(String, ArchiveRestrictionInfo(), Int32, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFavouritesAsync(String, Int32, RequestOptions)
+  nameWithType: IFavouriteAgent.GetFavouritesAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet all favourites for a table and associate\n"
+  syntax:
+    content: Task<Favourite[]> GetFavouritesAsync(string tableName, int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Favourite[]}
+      description: Requested favourites for a table and associate
+    content.vb: Function GetFavouritesAsync(tableName As String, associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Favourite())
+  overload: SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync*
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: RemoveFavouriteAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveFavouriteAsync(String, Int32, Int32, RequestOptions)
+  nameWithType: IFavouriteAgent.RemoveFavouriteAsync(String, Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync(System.String, System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemove favourite for a table, record id and associate\n"
+  syntax:
+    content: Task RemoveFavouriteAsync(string tableName, int recordId, int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.
+    - id: recordId
+      type: System.Int32
+      description: Id of a record in your specified table (tableName)
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function RemoveFavouriteAsync(tableName As String, recordId As Integer, associateId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync*
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: RemoveAllFavouritesAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveAllFavouritesAsync(String, Int32, RequestOptions)
+  nameWithType: IFavouriteAgent.RemoveAllFavouritesAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemove all favourites for a table and associate\n"
+  syntax:
+    content: Task RemoveAllFavouritesAsync(string tableName, int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function RemoveAllFavouritesAsync(tableName As String, associateId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync*
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: ToggleFavouriteAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: ToggleFavouriteAsync(String, Int32, Int32, String, RequestOptions)
+  nameWithType: IFavouriteAgent.ToggleFavouriteAsync(String, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync(System.String, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nToggle a record in a table as a favourite for an associate\n"
+  syntax:
+    content: Task<bool> ToggleFavouriteAsync(string tableName, int recordId, int associateId, string extraInfo, RequestOptions requestOptions = null)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.
+    - id: recordId
+      type: System.Int32
+      description: Id of a record in your specified table (tableName)
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    - id: extraInfo
+      type: System.String
+      description: Any extra information
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Return the new value, true if added, false if removed
+    content.vb: Function ToggleFavouriteAsync(tableName As String, recordId As Integer, associateId As Integer, extraInfo As String, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync*
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: RemoveFavouritesByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IFavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveFavouritesByIdAsync(Int32[], RequestOptions)
+  nameWithType: IFavouriteAgent.RemoveFavouritesByIdAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemove favourite using favourite id \n"
+  syntax:
+    content: Task RemoveFavouritesByIdAsync(int[] favouriteIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: favouriteIds
+      type: System.Int32[]
+      description: Ids of favourite rows to delete
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function RemoveFavouritesByIdAsync(favouriteIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync*
+  nameWithType.vb: IFavouriteAgent.RemoveFavouritesByIdAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveFavouritesByIdAsync(Int32(), RequestOptions)
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync
+  isExternal: true
+  name: IsFavouriteAsync
+  nameWithType: IFavouriteAgent.IsFavouriteAsync
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.IsFavouriteAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync
+  isExternal: true
+  name: AddFavouriteAsync
+  nameWithType: IFavouriteAgent.AddFavouriteAsync
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouriteAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync
+  isExternal: true
+  name: AddFavouritesAsync
+  nameWithType: IFavouriteAgent.AddFavouritesAsync
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddFavouritesAsync
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync
+  isExternal: true
+  name: AddTicketsToFavouritesByProviderAsync
+  nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProviderAsync
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.AddTicketsToFavouritesByProviderAsync
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync
+  isExternal: true
+  name: RemoveFavouritesAsync
+  nameWithType: IFavouriteAgent.RemoveFavouritesAsync
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync
+  isExternal: true
+  name: RemoveTicketsFromFavouritesByProviderAsync
+  nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveTicketsFromFavouritesByProviderAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync
+  isExternal: true
+  name: GetFavouritesAsync
+  nameWithType: IFavouriteAgent.GetFavouritesAsync
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.GetFavouritesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Favourite[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Favourite[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Favourite[]>
+  nameWithType: Task<Favourite[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Favourite[]>
+  nameWithType.vb: Task(Of Favourite())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Favourite())
+  name.vb: Task(Of Favourite())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Favourite
+    name: Favourite
+    nameWithType: Favourite
+    fullName: SuperOffice.WebApi.Data.Favourite
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Favourite
+    name: Favourite
+    nameWithType: Favourite
+    fullName: SuperOffice.WebApi.Data.Favourite
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync
+  isExternal: true
+  name: RemoveFavouriteAsync
+  nameWithType: IFavouriteAgent.RemoveFavouriteAsync
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouriteAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync
+  isExternal: true
+  name: RemoveAllFavouritesAsync
+  nameWithType: IFavouriteAgent.RemoveAllFavouritesAsync
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveAllFavouritesAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync
+  isExternal: true
+  name: ToggleFavouriteAsync
+  nameWithType: IFavouriteAgent.ToggleFavouriteAsync
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.ToggleFavouriteAsync
+- uid: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync
+  isExternal: true
+  name: RemoveFavouritesByIdAsync
+  nameWithType: IFavouriteAgent.RemoveFavouritesByIdAsync
+  fullName: SuperOffice.WebApi.Agents.IFavouriteAgent.RemoveFavouritesByIdAsync

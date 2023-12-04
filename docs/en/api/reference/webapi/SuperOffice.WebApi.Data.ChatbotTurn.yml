@@ -1,0 +1,381 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChatbotTurn
+  commentId: T:SuperOffice.WebApi.Data.ChatbotTurn
+  id: ChatbotTurn
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChatbotTurn.#ctor
+  - SuperOffice.WebApi.Data.ChatbotTurn.Attachments
+  - SuperOffice.WebApi.Data.ChatbotTurn.BotActions
+  - SuperOffice.WebApi.Data.ChatbotTurn.BotResponse
+  - SuperOffice.WebApi.Data.ChatbotTurn.Timestamp
+  - SuperOffice.WebApi.Data.ChatbotTurn.UserDisplayText
+  - SuperOffice.WebApi.Data.ChatbotTurn.UserPrompt
+  langs:
+  - csharp
+  - vb
+  name: ChatbotTurn
+  nameWithType: ChatbotTurn
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ChatbotTurn.\nChat turn contains one user question, an optional display value for the user prompt, and one chatbot response.    \n"
+  syntax:
+    content: 'public class ChatbotTurn : Object'
+    content.vb: >-
+      Public Class ChatbotTurn
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AIAgent
+    commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ChatbotTurn.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ChatbotTurn.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: ChatbotTurn()
+  nameWithType: ChatbotTurn.ChatbotTurn()
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn.ChatbotTurn()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ChatbotTurn()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ChatbotTurn.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatbotTurn.Timestamp
+  commentId: P:SuperOffice.WebApi.Data.ChatbotTurn.Timestamp
+  id: Timestamp
+  parent: SuperOffice.WebApi.Data.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: Timestamp
+  nameWithType: ChatbotTurn.Timestamp
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn.Timestamp
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUTC timestamp for turn - when response was generated\n"
+  syntax:
+    content: public virtual DateTime Timestamp { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Timestamp As DateTime
+  overload: SuperOffice.WebApi.Data.ChatbotTurn.Timestamp*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatbotTurn.UserPrompt
+  commentId: P:SuperOffice.WebApi.Data.ChatbotTurn.UserPrompt
+  id: UserPrompt
+  parent: SuperOffice.WebApi.Data.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: UserPrompt
+  nameWithType: ChatbotTurn.UserPrompt
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn.UserPrompt
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nText from the user\n"
+  syntax:
+    content: public virtual string UserPrompt { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UserPrompt As String
+  overload: SuperOffice.WebApi.Data.ChatbotTurn.UserPrompt*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatbotTurn.UserDisplayText
+  commentId: P:SuperOffice.WebApi.Data.ChatbotTurn.UserDisplayText
+  id: UserDisplayText
+  parent: SuperOffice.WebApi.Data.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: UserDisplayText
+  nameWithType: ChatbotTurn.UserDisplayText
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn.UserDisplayText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional display value to use instead of the the UserPrompt\n"
+  syntax:
+    content: public virtual string UserDisplayText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UserDisplayText As String
+  overload: SuperOffice.WebApi.Data.ChatbotTurn.UserDisplayText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatbotTurn.BotResponse
+  commentId: P:SuperOffice.WebApi.Data.ChatbotTurn.BotResponse
+  id: BotResponse
+  parent: SuperOffice.WebApi.Data.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: BotResponse
+  nameWithType: ChatbotTurn.BotResponse
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn.BotResponse
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nText from the chatbot\n"
+  syntax:
+    content: public virtual string BotResponse { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BotResponse As String
+  overload: SuperOffice.WebApi.Data.ChatbotTurn.BotResponse*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatbotTurn.BotActions
+  commentId: P:SuperOffice.WebApi.Data.ChatbotTurn.BotActions
+  id: BotActions
+  parent: SuperOffice.WebApi.Data.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: BotActions
+  nameWithType: ChatbotTurn.BotActions
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn.BotActions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\noptional dictionary of action buttons. Key = Display text, Value = Prompt text\n"
+  syntax:
+    content: public virtual StringDictionary BotActions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property BotActions As StringDictionary
+  overload: SuperOffice.WebApi.Data.ChatbotTurn.BotActions*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatbotTurn.Attachments
+  commentId: P:SuperOffice.WebApi.Data.ChatbotTurn.Attachments
+  id: Attachments
+  parent: SuperOffice.WebApi.Data.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: Attachments
+  nameWithType: ChatbotTurn.Attachments
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn.Attachments
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\noptional array of attachments - can be URL or Base64 encoded data\n"
+  syntax:
+    content: public virtual string[] Attachments { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property Attachments As String()
+  overload: SuperOffice.WebApi.Data.ChatbotTurn.Attachments*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.AIAgent
+  commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  isExternal: true
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.WebApi.Agents.AIAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ChatbotTurn.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatbotTurn.#ctor
+  isExternal: true
+  name: ChatbotTurn
+  nameWithType: ChatbotTurn.ChatbotTurn
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn.ChatbotTurn
+- uid: SuperOffice.WebApi.Data.ChatbotTurn.Timestamp*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatbotTurn.Timestamp
+  isExternal: true
+  name: Timestamp
+  nameWithType: ChatbotTurn.Timestamp
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn.Timestamp
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.ChatbotTurn.UserPrompt*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatbotTurn.UserPrompt
+  isExternal: true
+  name: UserPrompt
+  nameWithType: ChatbotTurn.UserPrompt
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn.UserPrompt
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ChatbotTurn.UserDisplayText*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatbotTurn.UserDisplayText
+  isExternal: true
+  name: UserDisplayText
+  nameWithType: ChatbotTurn.UserDisplayText
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn.UserDisplayText
+- uid: SuperOffice.WebApi.Data.ChatbotTurn.BotResponse*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatbotTurn.BotResponse
+  isExternal: true
+  name: BotResponse
+  nameWithType: ChatbotTurn.BotResponse
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn.BotResponse
+- uid: SuperOffice.WebApi.Data.ChatbotTurn.BotActions*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatbotTurn.BotActions
+  isExternal: true
+  name: BotActions
+  nameWithType: ChatbotTurn.BotActions
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn.BotActions
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary
+- uid: SuperOffice.WebApi.Data.ChatbotTurn.Attachments*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatbotTurn.Attachments
+  isExternal: true
+  name: Attachments
+  nameWithType: ChatbotTurn.Attachments
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn.Attachments
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

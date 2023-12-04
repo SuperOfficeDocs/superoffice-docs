@@ -59,6 +59,7 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Section
   - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.source
   - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.task
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.taskmenu
   - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef0
   - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef1
   - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.Udef2
@@ -441,6 +442,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const saletype As String = "saletype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.taskmenu
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.taskmenu
+  id: taskmenu
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
+  langs:
+  - csharp
+  - vb
+  name: taskmenu
+  nameWithType: UserPreferenceStrings.MDOList.taskmenu
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList.taskmenu
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the list be displayed grouped and filtered\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string taskmenu = "taskmenu"
+    return:
+      type: System.String
+    content.vb: Public Const taskmenu As String = "taskmenu"
   modifiers.csharp:
   - public
   - const

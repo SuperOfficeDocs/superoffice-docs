@@ -8,6 +8,7 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.ZFD.CurrentZFDProvider
   - SuperOffice.WebApi.Data.UserPreferenceStrings.ZFD.HasConfiguredGoogle
   - SuperOffice.WebApi.Data.UserPreferenceStrings.ZFD.HasConfiguredSharepoint
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.ZFD.IncludeEmail
   - SuperOffice.WebApi.Data.UserPreferenceStrings.ZFD.PreferredZFDProvider
   - SuperOffice.WebApi.Data.UserPreferenceStrings.ZFD.Section
   langs:
@@ -141,6 +142,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Signalizes if SharePoint is configured or not\n"
   syntax:
     content: public const string HasConfiguredSharepoint = "HasConfiguredSharepoint"
     return:
@@ -169,11 +171,41 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Signalizes if Google is configured or not\n"
   syntax:
     content: public const string HasConfiguredGoogle = "HasConfiguredGoogle"
     return:
       type: System.String
     content.vb: Public Const HasConfiguredGoogle As String = "HasConfiguredGoogle"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ZFD.IncludeEmail
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.ZFD.IncludeEmail
+  id: IncludeEmail
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.ZFD
+  langs:
+  - csharp
+  - vb
+  name: IncludeEmail
+  nameWithType: UserPreferenceStrings.ZFD.IncludeEmail
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.ZFD.IncludeEmail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Signalizes if ZFD should include email\n"
+  syntax:
+    content: public const string IncludeEmail = "IncludeEmail"
+    return:
+      type: System.String
+    content.vb: Public Const IncludeEmail As String = "IncludeEmail"
   modifiers.csharp:
   - public
   - const

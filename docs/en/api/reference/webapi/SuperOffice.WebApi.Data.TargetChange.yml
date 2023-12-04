@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TargetChange
+  commentId: T:SuperOffice.WebApi.Data.TargetChange
+  id: TargetChange
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TargetChange.#ctor
+  - SuperOffice.WebApi.Data.TargetChange.FieldIdentifier
+  - SuperOffice.WebApi.Data.TargetChange.ValueChangeFrom
+  - SuperOffice.WebApi.Data.TargetChange.ValueChangeTo
+  langs:
+  - csharp
+  - vb
+  name: TargetChange
+  nameWithType: TargetChange
+  fullName: SuperOffice.WebApi.Data.TargetChange
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TargetChange.\nTarget field change    \n"
+  syntax:
+    content: 'public class TargetChange : Carrier'
+    content.vb: >-
+      Public Class TargetChange
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.TargetsAgent
+    commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TargetChange.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TargetChange.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TargetChange
+  langs:
+  - csharp
+  - vb
+  name: TargetChange()
+  nameWithType: TargetChange.TargetChange()
+  fullName: SuperOffice.WebApi.Data.TargetChange.TargetChange()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TargetChange()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TargetChange.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TargetChange.FieldIdentifier
+  commentId: P:SuperOffice.WebApi.Data.TargetChange.FieldIdentifier
+  id: FieldIdentifier
+  parent: SuperOffice.WebApi.Data.TargetChange
+  langs:
+  - csharp
+  - vb
+  name: FieldIdentifier
+  nameWithType: TargetChange.FieldIdentifier
+  fullName: SuperOffice.WebApi.Data.TargetChange.FieldIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat field was changed - target_group.period_type or target_assignment_value.month01.target_value or target_assignment_value.quarter01.target_value etc.\n"
+  syntax:
+    content: public virtual string FieldIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FieldIdentifier As String
+  overload: SuperOffice.WebApi.Data.TargetChange.FieldIdentifier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TargetChange.ValueChangeFrom
+  commentId: P:SuperOffice.WebApi.Data.TargetChange.ValueChangeFrom
+  id: ValueChangeFrom
+  parent: SuperOffice.WebApi.Data.TargetChange
+  langs:
+  - csharp
+  - vb
+  name: ValueChangeFrom
+  nameWithType: TargetChange.ValueChangeFrom
+  fullName: SuperOffice.WebApi.Data.TargetChange.ValueChangeFrom
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrevious value\n"
+  syntax:
+    content: public virtual double ValueChangeFrom { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property ValueChangeFrom As Double
+  overload: SuperOffice.WebApi.Data.TargetChange.ValueChangeFrom*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TargetChange.ValueChangeTo
+  commentId: P:SuperOffice.WebApi.Data.TargetChange.ValueChangeTo
+  id: ValueChangeTo
+  parent: SuperOffice.WebApi.Data.TargetChange
+  langs:
+  - csharp
+  - vb
+  name: ValueChangeTo
+  nameWithType: TargetChange.ValueChangeTo
+  fullName: SuperOffice.WebApi.Data.TargetChange.ValueChangeTo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNew value\n"
+  syntax:
+    content: public virtual double ValueChangeTo { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property ValueChangeTo As Double
+  overload: SuperOffice.WebApi.Data.TargetChange.ValueChangeTo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.TargetsAgent
+  commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
+  isExternal: true
+  name: TargetsAgent
+  nameWithType: TargetsAgent
+  fullName: SuperOffice.WebApi.Agents.TargetsAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TargetChange.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetChange.#ctor
+  isExternal: true
+  name: TargetChange
+  nameWithType: TargetChange.TargetChange
+  fullName: SuperOffice.WebApi.Data.TargetChange.TargetChange
+- uid: SuperOffice.WebApi.Data.TargetChange.FieldIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetChange.FieldIdentifier
+  isExternal: true
+  name: FieldIdentifier
+  nameWithType: TargetChange.FieldIdentifier
+  fullName: SuperOffice.WebApi.Data.TargetChange.FieldIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TargetChange.ValueChangeFrom*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetChange.ValueChangeFrom
+  isExternal: true
+  name: ValueChangeFrom
+  nameWithType: TargetChange.ValueChangeFrom
+  fullName: SuperOffice.WebApi.Data.TargetChange.ValueChangeFrom
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.WebApi.Data.TargetChange.ValueChangeTo*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetChange.ValueChangeTo
+  isExternal: true
+  name: ValueChangeTo
+  nameWithType: TargetChange.ValueChangeTo
+  fullName: SuperOffice.WebApi.Data.TargetChange.ValueChangeTo

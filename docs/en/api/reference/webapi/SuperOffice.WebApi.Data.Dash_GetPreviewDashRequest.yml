@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest
+  id: Dash_GetPreviewDashRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.#ctor
+  - SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.DashboardId
+  langs:
+  - csharp
+  - vb
+  name: Dash_GetPreviewDashRequest
+  nameWithType: Dash_GetPreviewDashRequest
+  fullName: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dash_GetPreviewDashRequest : Object'
+    content.vb: >-
+      Public Class Dash_GetPreviewDashRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest
+  langs:
+  - csharp
+  - vb
+  name: Dash_GetPreviewDashRequest()
+  nameWithType: Dash_GetPreviewDashRequest.Dash_GetPreviewDashRequest()
+  fullName: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.Dash_GetPreviewDashRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dash_GetPreviewDashRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.DashboardId
+  commentId: P:SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.DashboardId
+  id: DashboardId
+  parent: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest
+  langs:
+  - csharp
+  - vb
+  name: DashboardId
+  nameWithType: Dash_GetPreviewDashRequest.DashboardId
+  fullName: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.DashboardId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DashboardId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DashboardId As Integer
+  overload: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.DashboardId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.#ctor
+  isExternal: true
+  name: Dash_GetPreviewDashRequest
+  nameWithType: Dash_GetPreviewDashRequest.Dash_GetPreviewDashRequest
+  fullName: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.Dash_GetPreviewDashRequest
+- uid: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.DashboardId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.DashboardId
+  isExternal: true
+  name: DashboardId
+  nameWithType: Dash_GetPreviewDashRequest.DashboardId
+  fullName: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest.DashboardId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

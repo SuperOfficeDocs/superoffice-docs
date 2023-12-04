@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest
+  id: Person_CreateOrUpdateUserCandidateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.AccessAllRequests
+  - SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.PersonId
+  - SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.Username
+  langs:
+  - csharp
+  - vb
+  name: Person_CreateOrUpdateUserCandidateRequest
+  nameWithType: Person_CreateOrUpdateUserCandidateRequest
+  fullName: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_CreateOrUpdateUserCandidateRequest : Object'
+    content.vb: >-
+      Public Class Person_CreateOrUpdateUserCandidateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_CreateOrUpdateUserCandidateRequest()
+  nameWithType: Person_CreateOrUpdateUserCandidateRequest.Person_CreateOrUpdateUserCandidateRequest()
+  fullName: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.Person_CreateOrUpdateUserCandidateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_CreateOrUpdateUserCandidateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Person_CreateOrUpdateUserCandidateRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.Username
+  commentId: P:SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.Username
+  id: Username
+  parent: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: Person_CreateOrUpdateUserCandidateRequest.Username
+  fullName: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.Username
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Username { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Username As String
+  overload: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.Username*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.AccessAllRequests
+  commentId: P:SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.AccessAllRequests
+  id: AccessAllRequests
+  parent: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest
+  langs:
+  - csharp
+  - vb
+  name: AccessAllRequests
+  nameWithType: Person_CreateOrUpdateUserCandidateRequest.AccessAllRequests
+  fullName: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.AccessAllRequests
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool AccessAllRequests { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AccessAllRequests As Boolean
+  overload: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.AccessAllRequests*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.#ctor
+  isExternal: true
+  name: Person_CreateOrUpdateUserCandidateRequest
+  nameWithType: Person_CreateOrUpdateUserCandidateRequest.Person_CreateOrUpdateUserCandidateRequest
+  fullName: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.Person_CreateOrUpdateUserCandidateRequest
+- uid: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Person_CreateOrUpdateUserCandidateRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.Username*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.Username
+  isExternal: true
+  name: Username
+  nameWithType: Person_CreateOrUpdateUserCandidateRequest.Username
+  fullName: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.Username
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.AccessAllRequests*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.AccessAllRequests
+  isExternal: true
+  name: AccessAllRequests
+  nameWithType: Person_CreateOrUpdateUserCandidateRequest.AccessAllRequests
+  fullName: SuperOffice.WebApi.Data.Person_CreateOrUpdateUserCandidateRequest.AccessAllRequests
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

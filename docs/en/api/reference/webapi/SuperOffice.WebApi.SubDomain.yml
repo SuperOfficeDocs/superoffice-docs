@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.SubDomain
+  commentId: T:SuperOffice.WebApi.SubDomain
+  id: SubDomain
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.SubDomain.Development
+  - SuperOffice.WebApi.SubDomain.Production
+  - SuperOffice.WebApi.SubDomain.Stage
+  langs:
+  - csharp
+  - vb
+  name: SubDomain
+  nameWithType: SubDomain
+  fullName: SuperOffice.WebApi.SubDomain
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nDevelopment(&quot;sod&quot;) / Stage(&quot;qoonline&quot;) / Production(&quot;online&quot;)\n<p>\nUse with the <pre><code>subdomain</code></pre> parameter in <see cref=\"!:SuperOffice.WebApi.Authorization.AuthorizationAccessToken\"></see> or <xref href=\"SuperOffice.WebApi.Agents.ApiAgent.GetTenantStatusAsync(System.String%2cSystem.String%2cSuperOffice.WebApi.RequestOptions)\" data-throw-if-not-resolved=\"false\"></xref>\n</p>\n"
+  syntax:
+    content: 'public static class SubDomain : Object'
+    content.vb: >-
+      Public Module SubDomain
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.SubDomain.Development
+  commentId: F:SuperOffice.WebApi.SubDomain.Development
+  id: Development
+  parent: SuperOffice.WebApi.SubDomain
+  langs:
+  - csharp
+  - vb
+  name: Development
+  nameWithType: SubDomain.Development
+  fullName: SuperOffice.WebApi.SubDomain.Development
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\n&quot;sod&quot;\n"
+  syntax:
+    content: public const string Development = "sod"
+    return:
+      type: System.String
+    content.vb: Public Const Development As String = "sod"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.SubDomain.Stage
+  commentId: F:SuperOffice.WebApi.SubDomain.Stage
+  id: Stage
+  parent: SuperOffice.WebApi.SubDomain
+  langs:
+  - csharp
+  - vb
+  name: Stage
+  nameWithType: SubDomain.Stage
+  fullName: SuperOffice.WebApi.SubDomain.Stage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\n&quot;qaonline&quot;\n"
+  syntax:
+    content: public const string Stage = "qaonline"
+    return:
+      type: System.String
+    content.vb: Public Const Stage As String = "qaonline"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.SubDomain.Production
+  commentId: F:SuperOffice.WebApi.SubDomain.Production
+  id: Production
+  parent: SuperOffice.WebApi.SubDomain
+  langs:
+  - csharp
+  - vb
+  name: Production
+  nameWithType: SubDomain.Production
+  fullName: SuperOffice.WebApi.SubDomain.Production
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\n&quot;online&quot;\n"
+  syntax:
+    content: public const string Production = "online"
+    return:
+      type: System.String
+    content.vb: Public Const Production As String = "online"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

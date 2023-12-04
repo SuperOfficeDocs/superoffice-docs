@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest
+  id: CustomerService_SaveSystemTemplateSettingsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_SaveSystemTemplateSettingsRequest
+  nameWithType: CustomerService_SaveSystemTemplateSettingsRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_SaveSystemTemplateSettingsRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_SaveSystemTemplateSettingsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_SaveSystemTemplateSettingsRequest()
+  nameWithType: CustomerService_SaveSystemTemplateSettingsRequest.CustomerService_SaveSystemTemplateSettingsRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.CustomerService_SaveSystemTemplateSettingsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_SaveSystemTemplateSettingsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.SystemTemplateSettings
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.SystemTemplateSettings
+  id: SystemTemplateSettings
+  parent: SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest
+  langs:
+  - csharp
+  - vb
+  name: SystemTemplateSettings
+  nameWithType: CustomerService_SaveSystemTemplateSettingsRequest.SystemTemplateSettings
+  fullName: SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.SystemTemplateSettings
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public SystemTemplateSettings SystemTemplateSettings { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SystemTemplateSettings
+    content.vb: Public Property SystemTemplateSettings As SystemTemplateSettings
+  overload: SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.SystemTemplateSettings*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.#ctor
+  isExternal: true
+  name: CustomerService_SaveSystemTemplateSettingsRequest
+  nameWithType: CustomerService_SaveSystemTemplateSettingsRequest.CustomerService_SaveSystemTemplateSettingsRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.CustomerService_SaveSystemTemplateSettingsRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.SystemTemplateSettings*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.SystemTemplateSettings
+  isExternal: true
+  name: SystemTemplateSettings
+  nameWithType: CustomerService_SaveSystemTemplateSettingsRequest.SystemTemplateSettings
+  fullName: SuperOffice.WebApi.Data.CustomerService_SaveSystemTemplateSettingsRequest.SystemTemplateSettings
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings
+  commentId: T:SuperOffice.WebApi.Data.SystemTemplateSettings
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: SystemTemplateSettings
+  nameWithType: SystemTemplateSettings
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings

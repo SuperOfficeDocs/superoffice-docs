@@ -7,14 +7,15 @@ items:
   children:
   - SuperOffice.WebApi.WebApiOptions.#ctor
   - SuperOffice.WebApi.WebApiOptions.#ctor(System.String)
-  - SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.IAuthorization)
-  - SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.IAuthorization,Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Boolean)
+  - SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.Authorization.IAuthorization)
+  - SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.Authorization.IAuthorization,Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Boolean)
   - SuperOffice.WebApi.WebApiOptions.Authorization
   - SuperOffice.WebApi.WebApiOptions.BaseUrl
   - SuperOffice.WebApi.WebApiOptions.Clone
   - SuperOffice.WebApi.WebApiOptions.Compressed
   - SuperOffice.WebApi.WebApiOptions.Logger
   - SuperOffice.WebApi.WebApiOptions.ProgressListener
+  - SuperOffice.WebApi.WebApiOptions.UploadProgressListener
   - SuperOffice.WebApi.WebApiOptions.UserAgent
   langs:
   - csharp
@@ -39,11 +40,13 @@ items:
   - System.Object
   - SuperOffice.WebApi.RequestOptions
   inheritedMembers:
+  - SuperOffice.WebApi.RequestOptions.DefaultTimeout
   - SuperOffice.WebApi.RequestOptions.LanguageCode
   - SuperOffice.WebApi.RequestOptions.CultureCode
   - SuperOffice.WebApi.RequestOptions.Timeout
   - SuperOffice.WebApi.RequestOptions.TimeZone
   - SuperOffice.WebApi.RequestOptions.TimeZoneIncludeOffset
+  - SuperOffice.WebApi.RequestOptions.CustomHeaders
   modifiers.csharp:
   - public
   - class
@@ -105,16 +108,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.IAuthorization)
-  commentId: M:SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.IAuthorization)
-  id: '#ctor(System.String,SuperOffice.WebApi.IAuthorization)'
+- uid: SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.Authorization.IAuthorization)
+  commentId: M:SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.Authorization.IAuthorization)
+  id: '#ctor(System.String,SuperOffice.WebApi.Authorization.IAuthorization)'
   parent: SuperOffice.WebApi.WebApiOptions
   langs:
   - csharp
   - vb
   name: WebApiOptions(String, IAuthorization)
   nameWithType: WebApiOptions.WebApiOptions(String, IAuthorization)
-  fullName: SuperOffice.WebApi.WebApiOptions.WebApiOptions(System.String, SuperOffice.WebApi.IAuthorization)
+  fullName: SuperOffice.WebApi.WebApiOptions.WebApiOptions(System.String, SuperOffice.WebApi.Authorization.IAuthorization)
   type: Constructor
   source:
     path: SuperOffice.WebApi
@@ -129,23 +132,23 @@ items:
     - id: baseUrl
       type: System.String
     - id: authorization
-      type: SuperOffice.WebApi.IAuthorization
+      type: SuperOffice.WebApi.Authorization.IAuthorization
     content.vb: Public Sub New(baseUrl As String, authorization As IAuthorization)
   overload: SuperOffice.WebApi.WebApiOptions.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.IAuthorization,Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Boolean)
-  commentId: M:SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.IAuthorization,Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Boolean)
-  id: '#ctor(System.String,SuperOffice.WebApi.IAuthorization,Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Boolean)'
+- uid: SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.Authorization.IAuthorization,Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.WebApi.WebApiOptions.#ctor(System.String,SuperOffice.WebApi.Authorization.IAuthorization,Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Boolean)
+  id: '#ctor(System.String,SuperOffice.WebApi.Authorization.IAuthorization,Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Boolean)'
   parent: SuperOffice.WebApi.WebApiOptions
   langs:
   - csharp
   - vb
   name: WebApiOptions(String, IAuthorization, ILogger, String, String, Boolean)
   nameWithType: WebApiOptions.WebApiOptions(String, IAuthorization, ILogger, String, String, Boolean)
-  fullName: SuperOffice.WebApi.WebApiOptions.WebApiOptions(System.String, SuperOffice.WebApi.IAuthorization, Microsoft.Extensions.Logging.ILogger, System.String, System.String, System.Boolean)
+  fullName: SuperOffice.WebApi.WebApiOptions.WebApiOptions(System.String, SuperOffice.WebApi.Authorization.IAuthorization, Microsoft.Extensions.Logging.ILogger, System.String, System.String, System.Boolean)
   type: Constructor
   source:
     path: SuperOffice.WebApi
@@ -161,7 +164,7 @@ items:
       type: System.String
       description: 'SuperOffice WebAPI base URL: &quot;https://example.com/Super/api/&quot;'
     - id: authorization
-      type: SuperOffice.WebApi.IAuthorization
+      type: SuperOffice.WebApi.Authorization.IAuthorization
       description: Instance used to set Authorization scheme and value.
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger
@@ -227,12 +230,12 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi
-  summary: "\nUsed to set the Authorization header scheme and value.\nUse <xref href=\"SuperOffice.WebApi.AuthorizationUsernamePassword\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"SuperOffice.WebApi.AuthorizationAccessToken\" data-throw-if-not-resolved=\"false\"></xref>, \n<xref href=\"SuperOffice.WebApi.AuthorizationTicket\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"SuperOffice.WebApi.AuthorizationImplicit\" data-throw-if-not-resolved=\"false\"></xref>\n<xref href=\"SuperOffice.WebApi.AuthorizationSystemUserTicket\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"SuperOffice.WebApi.AuthorizationUserToken\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nUsed to set the Authorization header scheme and value.\nUse <xref href=\"SuperOffice.WebApi.Authorization.AuthorizationUsernamePassword\" data-throw-if-not-resolved=\"false\"></xref>, <see cref=\"!:AuthorizationAccessToken\"></see>, \n<xref href=\"SuperOffice.WebApi.Authorization.AuthorizationTicket\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"SuperOffice.WebApi.Authorization.AuthorizationImplicit\" data-throw-if-not-resolved=\"false\"></xref>\n<see cref=\"!:AuthorizationSystemUserTicket\"></see> or <xref href=\"SuperOffice.WebApi.AuthorizationUserToken\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public IAuthorization Authorization { get; set; }
     parameters: []
     return:
-      type: SuperOffice.WebApi.IAuthorization
+      type: SuperOffice.WebApi.Authorization.IAuthorization
     content.vb: Public Property Authorization As IAuthorization
   overload: SuperOffice.WebApi.WebApiOptions.Authorization*
   modifiers.csharp:
@@ -396,6 +399,37 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.WebApiOptions.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.WebApiOptions.UploadProgressListener
+  id: UploadProgressListener
+  parent: SuperOffice.WebApi.WebApiOptions
+  langs:
+  - csharp
+  - vb
+  name: UploadProgressListener
+  nameWithType: WebApiOptions.UploadProgressListener
+  fullName: SuperOffice.WebApi.WebApiOptions.UploadProgressListener
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nCallback for progress during uploads.\nCopied to the agent during initialization - can be overridden on each agent using <xref href=\"SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public IProgressListener UploadProgressListener { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.IProgressListener
+    content.vb: Public Property UploadProgressListener As IProgressListener
+  overload: SuperOffice.WebApi.WebApiOptions.UploadProgressListener*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
@@ -417,6 +451,13 @@ references:
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
+- uid: SuperOffice.WebApi.RequestOptions.DefaultTimeout
+  commentId: F:SuperOffice.WebApi.RequestOptions.DefaultTimeout
+  parent: SuperOffice.WebApi.RequestOptions
+  isExternal: true
+  name: DefaultTimeout
+  nameWithType: RequestOptions.DefaultTimeout
+  fullName: SuperOffice.WebApi.RequestOptions.DefaultTimeout
 - uid: SuperOffice.WebApi.RequestOptions.LanguageCode
   commentId: P:SuperOffice.WebApi.RequestOptions.LanguageCode
   parent: SuperOffice.WebApi.RequestOptions
@@ -452,6 +493,13 @@ references:
   name: TimeZoneIncludeOffset
   nameWithType: RequestOptions.TimeZoneIncludeOffset
   fullName: SuperOffice.WebApi.RequestOptions.TimeZoneIncludeOffset
+- uid: SuperOffice.WebApi.RequestOptions.CustomHeaders
+  commentId: P:SuperOffice.WebApi.RequestOptions.CustomHeaders
+  parent: SuperOffice.WebApi.RequestOptions
+  isExternal: true
+  name: CustomHeaders
+  nameWithType: RequestOptions.CustomHeaders
+  fullName: SuperOffice.WebApi.RequestOptions.CustomHeaders
 - uid: System
   commentId: N:System
   isExternal: true
@@ -471,13 +519,19 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.WebApi.IAuthorization
-  commentId: T:SuperOffice.WebApi.IAuthorization
-  parent: SuperOffice.WebApi
+- uid: SuperOffice.WebApi.Authorization.IAuthorization
+  commentId: T:SuperOffice.WebApi.Authorization.IAuthorization
+  parent: SuperOffice.WebApi.Authorization
   isExternal: true
   name: IAuthorization
   nameWithType: IAuthorization
-  fullName: SuperOffice.WebApi.IAuthorization
+  fullName: SuperOffice.WebApi.Authorization.IAuthorization
+- uid: SuperOffice.WebApi.Authorization
+  commentId: N:SuperOffice.WebApi.Authorization
+  isExternal: true
+  name: SuperOffice.WebApi.Authorization
+  nameWithType: SuperOffice.WebApi.Authorization
+  fullName: SuperOffice.WebApi.Authorization
 - uid: Microsoft.Extensions.Logging.ILogger
   isExternal: true
   name: ILogger
@@ -546,3 +600,9 @@ references:
   name: IProgressListener
   nameWithType: IProgressListener
   fullName: SuperOffice.WebApi.IProgressListener
+- uid: SuperOffice.WebApi.WebApiOptions.UploadProgressListener*
+  commentId: Overload:SuperOffice.WebApi.WebApiOptions.UploadProgressListener
+  isExternal: true
+  name: UploadProgressListener
+  nameWithType: WebApiOptions.UploadProgressListener
+  fullName: SuperOffice.WebApi.WebApiOptions.UploadProgressListener

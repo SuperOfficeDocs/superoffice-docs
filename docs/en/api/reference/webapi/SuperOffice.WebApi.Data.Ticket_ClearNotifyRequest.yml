@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest
+  id: Ticket_ClearNotifyRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.Ids
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ClearNotifyRequest
+  nameWithType: Ticket_ClearNotifyRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_ClearNotifyRequest : Object'
+    content.vb: >-
+      Public Class Ticket_ClearNotifyRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ClearNotifyRequest()
+  nameWithType: Ticket_ClearNotifyRequest.Ticket_ClearNotifyRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.Ticket_ClearNotifyRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_ClearNotifyRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.Ids
+  commentId: P:SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.Ids
+  id: Ids
+  parent: SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest
+  langs:
+  - csharp
+  - vb
+  name: Ids
+  nameWithType: Ticket_ClearNotifyRequest.Ids
+  fullName: SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.Ids
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] Ids { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property Ids As Integer()
+  overload: SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.Ids*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.#ctor
+  isExternal: true
+  name: Ticket_ClearNotifyRequest
+  nameWithType: Ticket_ClearNotifyRequest.Ticket_ClearNotifyRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.Ticket_ClearNotifyRequest
+- uid: SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.Ids*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.Ids
+  isExternal: true
+  name: Ids
+  nameWithType: Ticket_ClearNotifyRequest.Ids
+  fullName: SuperOffice.WebApi.Data.Ticket_ClearNotifyRequest.Ids
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

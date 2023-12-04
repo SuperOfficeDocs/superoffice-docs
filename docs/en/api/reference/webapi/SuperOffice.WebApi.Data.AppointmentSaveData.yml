@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AppointmentSaveData
+  commentId: T:SuperOffice.WebApi.Data.AppointmentSaveData
+  id: AppointmentSaveData
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AppointmentSaveData.#ctor
+  - SuperOffice.WebApi.Data.AppointmentSaveData.AppointmentEntity
+  - SuperOffice.WebApi.Data.AppointmentSaveData.EmailCreated
+  langs:
+  - csharp
+  - vb
+  name: AppointmentSaveData
+  nameWithType: AppointmentSaveData
+  fullName: SuperOffice.WebApi.Data.AppointmentSaveData
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for AppointmentSaveData.\nThis class contains the updated appointment entity and a flag for if any emails were queued when saving    \n"
+  syntax:
+    content: 'public class AppointmentSaveData : Carrier'
+    content.vb: >-
+      Public Class AppointmentSaveData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AppointmentSaveData.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AppointmentSaveData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AppointmentSaveData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentSaveData()
+  nameWithType: AppointmentSaveData.AppointmentSaveData()
+  fullName: SuperOffice.WebApi.Data.AppointmentSaveData.AppointmentSaveData()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public AppointmentSaveData()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AppointmentSaveData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentSaveData.AppointmentEntity
+  commentId: P:SuperOffice.WebApi.Data.AppointmentSaveData.AppointmentEntity
+  id: AppointmentEntity
+  parent: SuperOffice.WebApi.Data.AppointmentSaveData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentEntity
+  nameWithType: AppointmentSaveData.AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.AppointmentSaveData.AppointmentEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUpdated AppointmentEntity\n"
+  syntax:
+    content: public virtual AppointmentEntity AppointmentEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentEntity
+    content.vb: Public Overridable Property AppointmentEntity As AppointmentEntity
+  overload: SuperOffice.WebApi.Data.AppointmentSaveData.AppointmentEntity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentSaveData.EmailCreated
+  commentId: P:SuperOffice.WebApi.Data.AppointmentSaveData.EmailCreated
+  id: EmailCreated
+  parent: SuperOffice.WebApi.Data.AppointmentSaveData
+  langs:
+  - csharp
+  - vb
+  name: EmailCreated
+  nameWithType: AppointmentSaveData.EmailCreated
+  fullName: SuperOffice.WebApi.Data.AppointmentSaveData.EmailCreated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFlag for if an email was created for webtools, or if an email is queued on an smtp server\n"
+  syntax:
+    content: public virtual bool EmailCreated { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property EmailCreated As Boolean
+  overload: SuperOffice.WebApi.Data.AppointmentSaveData.EmailCreated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AppointmentSaveData.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentSaveData.#ctor
+  isExternal: true
+  name: AppointmentSaveData
+  nameWithType: AppointmentSaveData.AppointmentSaveData
+  fullName: SuperOffice.WebApi.Data.AppointmentSaveData.AppointmentSaveData
+- uid: SuperOffice.WebApi.Data.AppointmentSaveData.AppointmentEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentSaveData.AppointmentEntity
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: AppointmentSaveData.AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.AppointmentSaveData.AppointmentEntity
+- uid: SuperOffice.WebApi.Data.AppointmentEntity
+  commentId: T:SuperOffice.WebApi.Data.AppointmentEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity
+- uid: SuperOffice.WebApi.Data.AppointmentSaveData.EmailCreated*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentSaveData.EmailCreated
+  isExternal: true
+  name: EmailCreated
+  nameWithType: AppointmentSaveData.EmailCreated
+  fullName: SuperOffice.WebApi.Data.AppointmentSaveData.EmailCreated
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

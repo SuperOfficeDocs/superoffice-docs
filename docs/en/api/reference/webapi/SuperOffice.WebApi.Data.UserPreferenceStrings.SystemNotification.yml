@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification
+  id: UserPreferenceStrings.SystemNotification
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.NotifySystemAppointment
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.NotifySystemChat
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.NotifySystemEmail
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.SystemNotification
+  nameWithType: UserPreferenceStrings.SystemNotification
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public static class SystemNotification : Object'
+    content.vb: >-
+      Public Module SystemNotification
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.SystemNotification.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string Section = "systemNotification"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "systemNotification"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.NotifySystemAppointment
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.NotifySystemAppointment
+  id: NotifySystemAppointment
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification
+  langs:
+  - csharp
+  - vb
+  name: NotifySystemAppointment
+  nameWithType: UserPreferenceStrings.SystemNotification.NotifySystemAppointment
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.NotifySystemAppointment
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Rceive system notifications for appointments\n"
+  syntax:
+    content: public const string NotifySystemAppointment = "notifySystemAppointment"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySystemAppointment As String = "notifySystemAppointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.NotifySystemEmail
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.NotifySystemEmail
+  id: NotifySystemEmail
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification
+  langs:
+  - csharp
+  - vb
+  name: NotifySystemEmail
+  nameWithType: UserPreferenceStrings.SystemNotification.NotifySystemEmail
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.NotifySystemEmail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Rceive system notifications for e-mails\n"
+  syntax:
+    content: public const string NotifySystemEmail = "notifySystemEmail"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySystemEmail As String = "notifySystemEmail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.NotifySystemChat
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.NotifySystemChat
+  id: NotifySystemChat
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification
+  langs:
+  - csharp
+  - vb
+  name: NotifySystemChat
+  nameWithType: UserPreferenceStrings.SystemNotification.NotifySystemChat
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification.NotifySystemChat
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Rceive system notifications for chats\n"
+  syntax:
+    content: public const string NotifySystemChat = "notifySystemChat"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySystemChat As String = "notifySystemChat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

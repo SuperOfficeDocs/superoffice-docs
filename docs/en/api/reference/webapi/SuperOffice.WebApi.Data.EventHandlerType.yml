@@ -24,6 +24,7 @@ items:
   - SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromForm
   - SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromSpmLink
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveAppointment
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveApproveQuote
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveContact
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveDocument
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSavePerson
@@ -31,12 +32,15 @@ items:
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveProjectMember
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveQuote
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveQuoteLine
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveRejectQuote
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveRelation
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSale
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSelection
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSelectionMember
   - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveStakeholder
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveTicket
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveAppointment
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveApproveQuote
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveContact
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveDocument
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSavePerson
@@ -44,11 +48,13 @@ items:
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveProjectMember
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveQuote
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveQuoteLine
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveRejectQuote
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveRelation
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSale
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSelection
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSelectionMember
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveStakeholder
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveTicket
   - SuperOffice.WebApi.Data.EventHandlerType.ScheduledTaskFailed
   - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
   - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
@@ -2596,6 +2602,93 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveApproveQuote
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveApproveQuote
+  id: SalesBeforeSaveApproveQuote
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveApproveQuote
+  nameWithType: EventHandlerType.SalesBeforeSaveApproveQuote
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveApproveQuote
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1014: SalesBeforeSaveApproveQuote\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveApproveQuote
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveApproveQuote As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveRejectQuote
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveRejectQuote
+  id: SalesBeforeSaveRejectQuote
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveRejectQuote
+  nameWithType: EventHandlerType.SalesBeforeSaveRejectQuote
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveRejectQuote
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1015: SalesBeforeSaveRejectQuote\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveRejectQuote
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveRejectQuote As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveTicket
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveTicket
+  id: SalesBeforeSaveTicket
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveTicket
+  nameWithType: EventHandlerType.SalesBeforeSaveTicket
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveTicket
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1016: SalesBeforeSaveTicket\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveTicket
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveTicket As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveAppointment
   commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveAppointment
   id: SalesAfterSaveAppointment
@@ -2967,6 +3060,93 @@ items:
     return:
       type: SuperOffice.WebApi.Data.EventHandlerType
     content.vb: Public Const SalesAfterSaveQuoteLine As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveApproveQuote
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveApproveQuote
+  id: SalesAfterSaveApproveQuote
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveApproveQuote
+  nameWithType: EventHandlerType.SalesAfterSaveApproveQuote
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveApproveQuote
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1114: SalesAfterSaveApproveQuote\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveApproveQuote
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveApproveQuote As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveRejectQuote
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveRejectQuote
+  id: SalesAfterSaveRejectQuote
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveRejectQuote
+  nameWithType: EventHandlerType.SalesAfterSaveRejectQuote
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveRejectQuote
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1115: SalesAfterSaveRejectQuote\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveRejectQuote
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveRejectQuote As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveTicket
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveTicket
+  id: SalesAfterSaveTicket
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveTicket
+  nameWithType: EventHandlerType.SalesAfterSaveTicket
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveTicket
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1116: SalesAfterSaveTicket\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveTicket
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveTicket As EventHandlerType
   modifiers.csharp:
   - public
   - const

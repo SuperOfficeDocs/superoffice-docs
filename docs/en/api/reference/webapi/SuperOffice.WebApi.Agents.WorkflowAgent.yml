@@ -1,0 +1,4547 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  id: WorkflowAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.WorkflowAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.#ctor(System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.AddAfterWorkflowStepAsync(System.Int32,SuperOffice.WebApi.Data.WorkflowStepBase,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.ConnectEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.CopyEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultEmailFlowAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventResultAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowFilterAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowGoalAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync(SuperOffice.WebApi.Data.WorkflowStepType,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync(SuperOffice.WebApi.Data.WorkflowSplitOptionType,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowTriggerAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.CreateEmailFlowContentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.DeleteEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.GetEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepOptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.RemoveParticipantsFromEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.RunAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.SaveEmailFlowAsync(SuperOffice.WebApi.Data.EmailFlow,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.WebApi.Data.WorkflowGoal,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.WebApi.Data.WorkflowTrigger,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.SendEventAsync(SuperOffice.WebApi.Data.WorkflowEvent,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAgent lets you configure workflow automation\n"
+  example:
+  - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (WorkflowAgent agent = new WorkflowAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
+  syntax:
+    content: 'public class WorkflowAgent : AgentBase, IWorkflowAgent, IDisposable'
+    content.vb: >-
+      Public Class WorkflowAgent
+          Inherits AgentBase
+          Implements IWorkflowAgent, IDisposable
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Agents.AgentBase
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent
+  - System.IDisposable
+  inheritedMembers:
+  - SuperOffice.WebApi.Agents.AgentBase._json
+  - SuperOffice.WebApi.Agents.AgentBase._binary
+  - SuperOffice.WebApi.Agents.AgentBase._config
+  - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.Dispose
+  - SuperOffice.WebApi.Agents.AgentBase.Configuration
+  - SuperOffice.WebApi.Agents.AgentBase.Client
+  - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.#ctor(System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.#ctor(System.Net.Http.HttpClient)
+  id: '#ctor(System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: WorkflowAgent(HttpClient)
+  nameWithType: WorkflowAgent.WorkflowAgent(HttpClient)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.WorkflowAgent(System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Agent lets you configure workflow automation\n"
+  syntax:
+    content: public WorkflowAgent(HttpClient httpClient)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: Use this HTTP client instead of making own HttpClient instance.
+    content.vb: Public Sub New(httpClient As HttpClient)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  id: '#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: WorkflowAgent(WebApiOptions, HttpClient)
+  nameWithType: WorkflowAgent.WorkflowAgent(WebApiOptions, HttpClient)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.WorkflowAgent(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Agent lets you configure workflow automation\n"
+  syntax:
+    content: public WorkflowAgent(WebApiOptions options, HttpClient httpClient = null)
+    parameters:
+    - id: options
+      type: SuperOffice.WebApi.WebApiOptions
+      description: Base URL and authentication values.
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: 'Optional: Use this HTTP client instead of making a new one.'
+    content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultEmailFlowAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultEmailFlowAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultEmailFlowAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultEmailFlowAsync(RequestOptions)
+  nameWithType: WorkflowAgent.CreateDefaultEmailFlowAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultEmailFlowAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new EmailFlow.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<EmailFlow> CreateDefaultEmailFlowAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EmailFlow}
+      description: A blank EmailFlow
+    content.vb: Public Function CreateDefaultEmailFlowAsync(requestOptions As RequestOptions = Nothing) As Task(Of EmailFlow)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultEmailFlowAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultEmailFlowAsync(SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.SaveEmailFlowAsync(SuperOffice.WebApi.Data.EmailFlow,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.SaveEmailFlowAsync(SuperOffice.WebApi.Data.EmailFlow,SuperOffice.WebApi.RequestOptions)
+  id: SaveEmailFlowAsync(SuperOffice.WebApi.Data.EmailFlow,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveEmailFlowAsync(EmailFlow, RequestOptions)
+  nameWithType: WorkflowAgent.SaveEmailFlowAsync(EmailFlow, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.SaveEmailFlowAsync(SuperOffice.WebApi.Data.EmailFlow, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing EmailFlow or creates a new EmailFlow if the id parameter is 0. \n"
+  syntax:
+    content: public Task<EmailFlow> SaveEmailFlowAsync(EmailFlow emailFlow, RequestOptions requestOptions = null)
+    parameters:
+    - id: emailFlow
+      type: SuperOffice.WebApi.Data.EmailFlow
+      description: The EmailFlow that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EmailFlow}
+      description: New or updated EmailFlow
+    content.vb: Public Function SaveEmailFlowAsync(emailFlow As EmailFlow, requestOptions As RequestOptions = Nothing) As Task(Of EmailFlow)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.SaveEmailFlowAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.SaveEmailFlowAsync(SuperOffice.WebApi.Data.EmailFlow,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.DeleteEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteEmailFlowAsync(Int32, RequestOptions)
+  nameWithType: WorkflowAgent.DeleteEmailFlowAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteEmailFlowAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the EmailFlow\n"
+  syntax:
+    content: public Task DeleteEmailFlowAsync(int emailFlowId, RequestOptions requestOptions = null)
+    parameters:
+    - id: emailFlowId
+      type: System.Int32
+      description: The identity of the EmailFlow
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteEmailFlowAsync(emailFlowId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteEmailFlowAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultWorkflowEventAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultWorkflowEventAsync(RequestOptions)
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowEventAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new WorkflowEvent.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<WorkflowEvent> CreateDefaultWorkflowEventAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowEvent}
+      description: A blank WorkflowEvent
+    content.vb: Public Function CreateDefaultWorkflowEventAsync(requestOptions As RequestOptions = Nothing) As Task(Of WorkflowEvent)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventAsync(SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventResultAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventResultAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultWorkflowEventResultAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultWorkflowEventResultAsync(RequestOptions)
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowEventResultAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventResultAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new WorkflowEventResult.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<WorkflowEventResult> CreateDefaultWorkflowEventResultAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowEventResult}
+      description: A blank WorkflowEventResult
+    content.vb: Public Function CreateDefaultWorkflowEventResultAsync(requestOptions As RequestOptions = Nothing) As Task(Of WorkflowEventResult)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventResultAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowFilterAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowFilterAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultWorkflowFilterAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultWorkflowFilterAsync(RequestOptions)
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowFilterAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowFilterAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new WorkflowFilter.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<WorkflowFilter> CreateDefaultWorkflowFilterAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowFilter}
+      description: A blank WorkflowFilter
+    content.vb: Public Function CreateDefaultWorkflowFilterAsync(requestOptions As RequestOptions = Nothing) As Task(Of WorkflowFilter)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowFilterAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowGoalAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowGoalAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultWorkflowGoalAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultWorkflowGoalAsync(RequestOptions)
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowGoalAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowGoalAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new WorkflowGoal.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<WorkflowGoal> CreateDefaultWorkflowGoalAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowGoal}
+      description: A blank WorkflowGoal
+    content.vb: Public Function CreateDefaultWorkflowGoalAsync(requestOptions As RequestOptions = Nothing) As Task(Of WorkflowGoal)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowGoalAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.WebApi.Data.WorkflowGoal,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.WebApi.Data.WorkflowGoal,SuperOffice.WebApi.RequestOptions)
+  id: SaveWorkflowGoalAsync(SuperOffice.WebApi.Data.WorkflowGoal,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveWorkflowGoalAsync(WorkflowGoal, RequestOptions)
+  nameWithType: WorkflowAgent.SaveWorkflowGoalAsync(WorkflowGoal, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.WebApi.Data.WorkflowGoal, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing WorkflowGoal or creates a new WorkflowGoal if the id parameter is 0. \n"
+  syntax:
+    content: public Task<WorkflowGoal> SaveWorkflowGoalAsync(WorkflowGoal workflowGoal, RequestOptions requestOptions = null)
+    parameters:
+    - id: workflowGoal
+      type: SuperOffice.WebApi.Data.WorkflowGoal
+      description: The WorkflowGoal that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowGoal}
+      description: New or updated WorkflowGoal
+    content.vb: Public Function SaveWorkflowGoalAsync(workflowGoal As WorkflowGoal, requestOptions As RequestOptions = Nothing) As Task(Of WorkflowGoal)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowGoalAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.WebApi.Data.WorkflowGoal,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteWorkflowGoalAsync(Int32, RequestOptions)
+  nameWithType: WorkflowAgent.DeleteWorkflowGoalAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowGoalAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the WorkflowGoal\n"
+  syntax:
+    content: public Task DeleteWorkflowGoalAsync(int workflowGoalId, RequestOptions requestOptions = null)
+    parameters:
+    - id: workflowGoalId
+      type: System.Int32
+      description: The identity of the WorkflowGoal
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteWorkflowGoalAsync(workflowGoalId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowGoalAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowTriggerAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowTriggerAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultWorkflowTriggerAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultWorkflowTriggerAsync(RequestOptions)
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowTriggerAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowTriggerAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new WorkflowTrigger.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<WorkflowTrigger> CreateDefaultWorkflowTriggerAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowTrigger}
+      description: A blank WorkflowTrigger
+    content.vb: Public Function CreateDefaultWorkflowTriggerAsync(requestOptions As RequestOptions = Nothing) As Task(Of WorkflowTrigger)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowTriggerAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.WebApi.Data.WorkflowTrigger,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.WebApi.Data.WorkflowTrigger,SuperOffice.WebApi.RequestOptions)
+  id: SaveWorkflowTriggerAsync(SuperOffice.WebApi.Data.WorkflowTrigger,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveWorkflowTriggerAsync(WorkflowTrigger, RequestOptions)
+  nameWithType: WorkflowAgent.SaveWorkflowTriggerAsync(WorkflowTrigger, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.WebApi.Data.WorkflowTrigger, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing WorkflowTrigger or creates a new WorkflowTrigger if the id parameter is 0. \n"
+  syntax:
+    content: public Task<WorkflowTrigger> SaveWorkflowTriggerAsync(WorkflowTrigger workflowTrigger, RequestOptions requestOptions = null)
+    parameters:
+    - id: workflowTrigger
+      type: SuperOffice.WebApi.Data.WorkflowTrigger
+      description: The WorkflowTrigger that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowTrigger}
+      description: New or updated WorkflowTrigger
+    content.vb: Public Function SaveWorkflowTriggerAsync(workflowTrigger As WorkflowTrigger, requestOptions As RequestOptions = Nothing) As Task(Of WorkflowTrigger)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowTriggerAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.WebApi.Data.WorkflowTrigger,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteWorkflowTriggerAsync(Int32, RequestOptions)
+  nameWithType: WorkflowAgent.DeleteWorkflowTriggerAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the WorkflowTrigger\n"
+  syntax:
+    content: public Task DeleteWorkflowTriggerAsync(int workflowTriggerId, RequestOptions requestOptions = null)
+    parameters:
+    - id: workflowTriggerId
+      type: System.Int32
+      description: The identity of the WorkflowTrigger
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteWorkflowTriggerAsync(workflowTriggerId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowTriggerAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.GetEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.GetEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEmailFlowAsync(Int32, RequestOptions)
+  nameWithType: WorkflowAgent.GetEmailFlowAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.GetEmailFlowAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific EmailFlow object.                        \n"
+  syntax:
+    content: public Task<EmailFlow> GetEmailFlowAsync(int emailFlowId, RequestOptions requestOptions = null)
+    parameters:
+    - id: emailFlowId
+      type: System.Int32
+      description: The identifier of the EmailFlow object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EmailFlow}
+      description: EmailFlow
+    content.vb: Public Function GetEmailFlowAsync(emailFlowId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of EmailFlow)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.GetEmailFlowAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.GetEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: TryAddPersonsToEmailFlowAsync(Int32, Int32[], RequestOptions)
+  nameWithType: WorkflowAgent.TryAddPersonsToEmailFlowAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.TryAddPersonsToEmailFlowAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nTry to add a participant to the EmailFlow\n"
+  syntax:
+    content: public Task<bool[]> TryAddPersonsToEmailFlowAsync(int emailFlowId, int[] personIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: emailFlowId
+      type: System.Int32
+      description: Primary key of EmailFlow
+    - id: personIds
+      type: System.Int32[]
+      description: Array of Person Ids
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean[]}
+      description: True if the corresponding participant was successfully added, false if it could not be added because of filter criteria or other reason
+    content.vb: Public Function TryAddPersonsToEmailFlowAsync(emailFlowId As Integer, personIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Boolean())
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.TryAddPersonsToEmailFlowAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: WorkflowAgent.TryAddPersonsToEmailFlowAsync(Int32, Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.WorkflowAgent.TryAddPersonsToEmailFlowAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: TryAddPersonsToEmailFlowAsync(Int32, Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.RemoveParticipantsFromEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.RemoveParticipantsFromEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: RemoveParticipantsFromEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveParticipantsFromEmailFlowAsync(Int32, Int32[], RequestOptions)
+  nameWithType: WorkflowAgent.RemoveParticipantsFromEmailFlowAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.RemoveParticipantsFromEmailFlowAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemove participants (actually workflow instances) from the workflow\n"
+  syntax:
+    content: public Task RemoveParticipantsFromEmailFlowAsync(int emailFlowId, int[] workflowInstanceIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: emailFlowId
+      type: System.Int32
+      description: Primary key of EmailFlow
+    - id: workflowInstanceIds
+      type: System.Int32[]
+      description: Array of Workflow instances (representing participants) to be completely removed from the workflow
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function RemoveParticipantsFromEmailFlowAsync(emailFlowId As Integer, workflowInstanceIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.RemoveParticipantsFromEmailFlowAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.RemoveParticipantsFromEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: WorkflowAgent.RemoveParticipantsFromEmailFlowAsync(Int32, Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.WorkflowAgent.RemoveParticipantsFromEmailFlowAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveParticipantsFromEmailFlowAsync(Int32, Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateEmailFlowContentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.CreateEmailFlowContentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: CreateEmailFlowContentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateEmailFlowContentAsync(Int32, String, RequestOptions)
+  nameWithType: WorkflowAgent.CreateEmailFlowContentAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateEmailFlowContentAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreate content to an email flow\n"
+  syntax:
+    content: public Task<int> CreateEmailFlowContentAsync(int emailFlowId, string contentName, RequestOptions requestOptions = null)
+    parameters:
+    - id: emailFlowId
+      type: System.Int32
+      description: The EmailFlow to connect the created message to.
+    - id: contentName
+      type: System.String
+      description: The name of the content created
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: Id of shipment created
+    content.vb: Public Function CreateEmailFlowContentAsync(emailFlowId As Integer, contentName As String, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.CreateEmailFlowContentAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.CreateEmailFlowContentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.ConnectEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.ConnectEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: ConnectEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: ConnectEmailFlowContentAsync(Int32, Int32, RequestOptions)
+  nameWithType: WorkflowAgent.ConnectEmailFlowContentAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.ConnectEmailFlowContentAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nLink any SMessage to the email flow. The SMessage (and any related SShipment etc) should probably not be used/visible elsewhere.\n"
+  syntax:
+    content: public Task ConnectEmailFlowContentAsync(int emailFlowId, int messageId, RequestOptions requestOptions = null)
+    parameters:
+    - id: emailFlowId
+      type: System.Int32
+      description: The EmailFlow to connect the message to.
+    - id: messageId
+      type: System.Int32
+      description: The s_message to connect to the flow. A shipment, form or flow may be connected to that s_message.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function ConnectEmailFlowContentAsync(emailFlowId As Integer, messageId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.ConnectEmailFlowContentAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.ConnectEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CopyEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.CopyEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CopyEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CopyEmailFlowContentAsync(Int32, Int32, RequestOptions)
+  nameWithType: WorkflowAgent.CopyEmailFlowContentAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CopyEmailFlowContentAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCopy smessage and connected shipment to the email flow. The SMessage (and any related SShipment etc) should probably not be used/visible elsewhere.\n"
+  syntax:
+    content: public Task<int> CopyEmailFlowContentAsync(int emailFlowId, int shipmentId, RequestOptions requestOptions = null)
+    parameters:
+    - id: emailFlowId
+      type: System.Int32
+      description: The EmailFlow to connect the copied content to.
+    - id: shipmentId
+      type: System.Int32
+      description: The id of the shipment to copy to the flow. The message of this shipment will also be connected
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: Newly created shipment id for this content
+    content.vb: Public Function CopyEmailFlowContentAsync(emailFlowId As Integer, shipmentId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.CopyEmailFlowContentAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.CopyEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.RunAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.RunAsync(SuperOffice.WebApi.RequestOptions)
+  id: RunAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: RunAsync(RequestOptions)
+  nameWithType: WorkflowAgent.RunAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.RunAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRun the workflow engine right now\n"
+  syntax:
+    content: public Task<DateTime> RunAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.DateTime}
+      description: Suggested time for next run
+    content.vb: Public Function RunAsync(requestOptions As RequestOptions = Nothing) As Task(Of DateTime)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.RunAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.RunAsync(SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.SendEventAsync(SuperOffice.WebApi.Data.WorkflowEvent,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.SendEventAsync(SuperOffice.WebApi.Data.WorkflowEvent,SuperOffice.WebApi.RequestOptions)
+  id: SendEventAsync(SuperOffice.WebApi.Data.WorkflowEvent,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: SendEventAsync(WorkflowEvent, RequestOptions)
+  nameWithType: WorkflowAgent.SendEventAsync(WorkflowEvent, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.SendEventAsync(SuperOffice.WebApi.Data.WorkflowEvent, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSend a workflow event. Most event signaling will finish very quickly as they normally just change the state of a workflow instance\n"
+  syntax:
+    content: public Task<WorkflowEventResult> SendEventAsync(WorkflowEvent workflowEvent, RequestOptions requestOptions = null)
+    parameters:
+    - id: workflowEvent
+      type: SuperOffice.WebApi.Data.WorkflowEvent
+      description: Information about the signaled event
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowEventResult}
+      description: Any relevant info about the event
+    content.vb: Public Function SendEventAsync(workflowEvent As WorkflowEvent, requestOptions As RequestOptions = Nothing) As Task(Of WorkflowEventResult)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.SendEventAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.SendEventAsync(SuperOffice.WebApi.Data.WorkflowEvent,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowGoalAsync(Int32, RequestOptions)
+  nameWithType: WorkflowAgent.GetWorkflowGoalAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowGoalAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific WorkflowGoal object.                        \n"
+  syntax:
+    content: public Task<WorkflowGoal> GetWorkflowGoalAsync(int workflowGoalId, RequestOptions requestOptions = null)
+    parameters:
+    - id: workflowGoalId
+      type: System.Int32
+      description: The identifier of the WorkflowGoal object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowGoal}
+      description: WorkflowGoal
+    content.vb: Public Function GetWorkflowGoalAsync(workflowGoalId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of WorkflowGoal)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowGoalAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetWorkflowStepAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowStepAsync(Int32, RequestOptions)
+  nameWithType: WorkflowAgent.GetWorkflowStepAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet Workflowstep by ID\n"
+  syntax:
+    content: public Task<WorkflowStepBase> GetWorkflowStepAsync(int workflowStepId, RequestOptions requestOptions = null)
+    parameters:
+    - id: workflowStepId
+      type: System.Int32
+      description: Primary key of WorkflowStep
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowStepBase}
+      description: The Workflow step
+    content.vb: Public Function GetWorkflowStepAsync(workflowStepId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of WorkflowStepBase)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.AddAfterWorkflowStepAsync(System.Int32,SuperOffice.WebApi.Data.WorkflowStepBase,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.AddAfterWorkflowStepAsync(System.Int32,SuperOffice.WebApi.Data.WorkflowStepBase,SuperOffice.WebApi.RequestOptions)
+  id: AddAfterWorkflowStepAsync(System.Int32,SuperOffice.WebApi.Data.WorkflowStepBase,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: AddAfterWorkflowStepAsync(Int32, WorkflowStepBase, RequestOptions)
+  nameWithType: WorkflowAgent.AddAfterWorkflowStepAsync(Int32, WorkflowStepBase, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.AddAfterWorkflowStepAsync(System.Int32, SuperOffice.WebApi.Data.WorkflowStepBase, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdd another step (and any of its substeps) after the given step id (which must exist), and move any following steps in the workflow further down the line.\n"
+  syntax:
+    content: public Task<WorkflowStepBase> AddAfterWorkflowStepAsync(int workflowStepId, WorkflowStepBase subStep, RequestOptions requestOptions = null)
+    parameters:
+    - id: workflowStepId
+      type: System.Int32
+      description: Primary key of WorkflowStep
+    - id: subStep
+      type: SuperOffice.WebApi.Data.WorkflowStepBase
+      description: The step to be inserted after given step id.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowStepBase}
+      description: The added step
+    content.vb: Public Function AddAfterWorkflowStepAsync(workflowStepId As Integer, subStep As WorkflowStepBase, requestOptions As RequestOptions = Nothing) As Task(Of WorkflowStepBase)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.AddAfterWorkflowStepAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.AddAfterWorkflowStepAsync(System.Int32,SuperOffice.WebApi.Data.WorkflowStepBase,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync(SuperOffice.WebApi.Data.WorkflowStepType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync(SuperOffice.WebApi.Data.WorkflowStepType,SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultWorkflowStepFromTypeAsync(SuperOffice.WebApi.Data.WorkflowStepType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultWorkflowStepFromTypeAsync(WorkflowStepType, RequestOptions)
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync(WorkflowStepType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync(SuperOffice.WebApi.Data.WorkflowStepType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a new carrier from the step type given, with the right kind of properties, defaults set.\n"
+  syntax:
+    content: public Task<WorkflowStepBase> CreateDefaultWorkflowStepFromTypeAsync(WorkflowStepType stepType, RequestOptions requestOptions = null)
+    parameters:
+    - id: stepType
+      type: SuperOffice.WebApi.Data.WorkflowStepType
+      description: Step type to create
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowStepBase}
+    content.vb: Public Function CreateDefaultWorkflowStepFromTypeAsync(stepType As WorkflowStepType, requestOptions As RequestOptions = Nothing) As Task(Of WorkflowStepBase)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync(SuperOffice.WebApi.Data.WorkflowStepType,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync(SuperOffice.WebApi.Data.WorkflowSplitOptionType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync(SuperOffice.WebApi.Data.WorkflowSplitOptionType,SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultWorkflowStepOptionFromTypeAsync(SuperOffice.WebApi.Data.WorkflowSplitOptionType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultWorkflowStepOptionFromTypeAsync(WorkflowSplitOptionType, RequestOptions)
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync(WorkflowSplitOptionType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync(SuperOffice.WebApi.Data.WorkflowSplitOptionType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a new carrier from the option type given, with the right kind of properties, defaults set.\n"
+  syntax:
+    content: public Task<WorkflowStepOptionBase> CreateDefaultWorkflowStepOptionFromTypeAsync(WorkflowSplitOptionType optionType, RequestOptions requestOptions = null)
+    parameters:
+    - id: optionType
+      type: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+      description: Option type to create
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowStepOptionBase}
+    content.vb: Public Function CreateDefaultWorkflowStepOptionFromTypeAsync(optionType As WorkflowSplitOptionType, requestOptions As RequestOptions = Nothing) As Task(Of WorkflowStepOptionBase)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync(SuperOffice.WebApi.Data.WorkflowSplitOptionType,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepOptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepOptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetWorkflowStepOptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowStepOptionAsync(Int32, RequestOptions)
+  nameWithType: WorkflowAgent.GetWorkflowStepOptionAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepOptionAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet WorkflowStepOption by ID\n"
+  syntax:
+    content: public Task<WorkflowStepOptionBase> GetWorkflowStepOptionAsync(int workflowStepOptionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: workflowStepOptionId
+      type: System.Int32
+      description: Primary key of WorkflowStep option
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowStepOptionBase}
+      description: The Workflow step option
+    content.vb: Public Function GetWorkflowStepOptionAsync(workflowStepOptionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of WorkflowStepOptionBase)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepOptionAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepOptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowTriggerAsync(Int32, RequestOptions)
+  nameWithType: WorkflowAgent.GetWorkflowTriggerAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowTriggerAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific WorkflowTrigger object.                        \n"
+  syntax:
+    content: public Task<WorkflowTrigger> GetWorkflowTriggerAsync(int workflowTriggerId, RequestOptions requestOptions = null)
+    parameters:
+    - id: workflowTriggerId
+      type: System.Int32
+      description: The identifier of the WorkflowTrigger object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowTrigger}
+      description: WorkflowTrigger
+    content.vb: Public Function GetWorkflowTriggerAsync(workflowTriggerId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of WorkflowTrigger)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowTriggerAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.AgentBase
+  commentId: T:SuperOffice.WebApi.Agents.AgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: AgentBase
+  nameWithType: AgentBase
+  fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.IWorkflowAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.WebApi.Agents.AgentBase._json
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._json
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _json
+  nameWithType: AgentBase._json
+  fullName: SuperOffice.WebApi.Agents.AgentBase._json
+- uid: SuperOffice.WebApi.Agents.AgentBase._binary
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._binary
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _binary
+  nameWithType: AgentBase._binary
+  fullName: SuperOffice.WebApi.Agents.AgentBase._binary
+- uid: SuperOffice.WebApi.Agents.AgentBase._config
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._config
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _config
+  nameWithType: AgentBase._config
+  fullName: SuperOffice.WebApi.Agents.AgentBase._config
+- uid: SuperOffice.WebApi.Agents.AgentBase._client
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _client
+  nameWithType: AgentBase._client
+  fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _disposeClient
+  nameWithType: AgentBase._disposeClient
+  fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+- uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Merge(RequestOptions)
+  nameWithType: AgentBase.Merge(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, System.String, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: CancelRequest()
+  nameWithType: AgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequest(HttpRequestMessage, RequestOptions)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseResponse<T>(HttpResponseMessage)
+  nameWithType: AgentBase.ParseResponse<T>(HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>(System.Net.Http.HttpResponseMessage)
+  nameWithType.vb: AgentBase.ParseResponse(Of T)(HttpResponseMessage)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)(System.Net.Http.HttpResponseMessage)
+  name.vb: ParseResponse(Of T)(HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse<T>
+    nameWithType: AgentBase.ParseResponse<T>
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse(Of T)
+    nameWithType: AgentBase.ParseResponse(Of T)
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Finally(RequestOptions)
+  nameWithType: AgentBase.Finally(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Dispose
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase.Dispose()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Configuration
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Configuration
+  nameWithType: AgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.AgentBase.Client
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Client
+  nameWithType: AgentBase.Client
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Client
+- uid: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: HasRunningRequest
+  nameWithType: AgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+- uid: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ClientCancellationTokenSource
+  nameWithType: AgentBase.ClientCancellationTokenSource
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+- uid: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ProgressListener
+  nameWithType: AgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: UploadProgressListener
+  nameWithType: AgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.#ctor
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent.WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.WorkflowAgent
+- uid: System.Net.Http.HttpClient
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: SuperOffice.WebApi.WebApiOptions
+  commentId: T:SuperOffice.WebApi.WebApiOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: WebApiOptions
+  nameWithType: WebApiOptions
+  fullName: SuperOffice.WebApi.WebApiOptions
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultEmailFlowAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultEmailFlowAsync
+  isExternal: true
+  name: CreateDefaultEmailFlowAsync
+  nameWithType: WorkflowAgent.CreateDefaultEmailFlowAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultEmailFlowAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultEmailFlowAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultEmailFlowAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: CreateDefaultEmailFlowAsync(RequestOptions)
+  nameWithType: IWorkflowAgent.CreateDefaultEmailFlowAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultEmailFlowAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultEmailFlowAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultEmailFlowAsync
+    nameWithType: IWorkflowAgent.CreateDefaultEmailFlowAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultEmailFlowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultEmailFlowAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultEmailFlowAsync
+    nameWithType: IWorkflowAgent.CreateDefaultEmailFlowAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultEmailFlowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EmailFlow}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EmailFlow}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<EmailFlow>
+  nameWithType: Task<EmailFlow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.EmailFlow>
+  nameWithType.vb: Task(Of EmailFlow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.EmailFlow)
+  name.vb: Task(Of EmailFlow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.EmailFlow
+    name: EmailFlow
+    nameWithType: EmailFlow
+    fullName: SuperOffice.WebApi.Data.EmailFlow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.EmailFlow
+    name: EmailFlow
+    nameWithType: EmailFlow
+    fullName: SuperOffice.WebApi.Data.EmailFlow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.SaveEmailFlowAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.SaveEmailFlowAsync
+  isExternal: true
+  name: SaveEmailFlowAsync
+  nameWithType: WorkflowAgent.SaveEmailFlowAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.SaveEmailFlowAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveEmailFlowAsync(SuperOffice.WebApi.Data.EmailFlow,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.SaveEmailFlowAsync(SuperOffice.WebApi.Data.EmailFlow,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: SaveEmailFlowAsync(EmailFlow, RequestOptions)
+  nameWithType: IWorkflowAgent.SaveEmailFlowAsync(EmailFlow, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveEmailFlowAsync(SuperOffice.WebApi.Data.EmailFlow, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveEmailFlowAsync(SuperOffice.WebApi.Data.EmailFlow,SuperOffice.WebApi.RequestOptions)
+    name: SaveEmailFlowAsync
+    nameWithType: IWorkflowAgent.SaveEmailFlowAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveEmailFlowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.EmailFlow
+    name: EmailFlow
+    nameWithType: EmailFlow
+    fullName: SuperOffice.WebApi.Data.EmailFlow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveEmailFlowAsync(SuperOffice.WebApi.Data.EmailFlow,SuperOffice.WebApi.RequestOptions)
+    name: SaveEmailFlowAsync
+    nameWithType: IWorkflowAgent.SaveEmailFlowAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveEmailFlowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.EmailFlow
+    name: EmailFlow
+    nameWithType: EmailFlow
+    fullName: SuperOffice.WebApi.Data.EmailFlow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.EmailFlow
+  commentId: T:SuperOffice.WebApi.Data.EmailFlow
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EmailFlow
+  nameWithType: EmailFlow
+  fullName: SuperOffice.WebApi.Data.EmailFlow
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteEmailFlowAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.DeleteEmailFlowAsync
+  isExternal: true
+  name: DeleteEmailFlowAsync
+  nameWithType: WorkflowAgent.DeleteEmailFlowAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteEmailFlowAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: DeleteEmailFlowAsync(Int32, RequestOptions)
+  nameWithType: IWorkflowAgent.DeleteEmailFlowAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteEmailFlowAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteEmailFlowAsync
+    nameWithType: IWorkflowAgent.DeleteEmailFlowAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteEmailFlowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteEmailFlowAsync
+    nameWithType: IWorkflowAgent.DeleteEmailFlowAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteEmailFlowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventAsync
+  isExternal: true
+  name: CreateDefaultWorkflowEventAsync
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowEventAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: CreateDefaultWorkflowEventAsync(RequestOptions)
+  nameWithType: IWorkflowAgent.CreateDefaultWorkflowEventAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWorkflowEventAsync
+    nameWithType: IWorkflowAgent.CreateDefaultWorkflowEventAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWorkflowEventAsync
+    nameWithType: IWorkflowAgent.CreateDefaultWorkflowEventAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowEvent}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowEvent}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<WorkflowEvent>
+  nameWithType: Task<WorkflowEvent>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.WorkflowEvent>
+  nameWithType.vb: Task(Of WorkflowEvent)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.WorkflowEvent)
+  name.vb: Task(Of WorkflowEvent)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowEvent
+    name: WorkflowEvent
+    nameWithType: WorkflowEvent
+    fullName: SuperOffice.WebApi.Data.WorkflowEvent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowEvent
+    name: WorkflowEvent
+    nameWithType: WorkflowEvent
+    fullName: SuperOffice.WebApi.Data.WorkflowEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventResultAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventResultAsync
+  isExternal: true
+  name: CreateDefaultWorkflowEventResultAsync
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowEventResultAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowEventResultAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: CreateDefaultWorkflowEventResultAsync(RequestOptions)
+  nameWithType: IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWorkflowEventResultAsync
+    nameWithType: IWorkflowAgent.CreateDefaultWorkflowEventResultAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWorkflowEventResultAsync
+    nameWithType: IWorkflowAgent.CreateDefaultWorkflowEventResultAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowEventResult}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowEventResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<WorkflowEventResult>
+  nameWithType: Task<WorkflowEventResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.WorkflowEventResult>
+  nameWithType.vb: Task(Of WorkflowEventResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.WorkflowEventResult)
+  name.vb: Task(Of WorkflowEventResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowEventResult
+    name: WorkflowEventResult
+    nameWithType: WorkflowEventResult
+    fullName: SuperOffice.WebApi.Data.WorkflowEventResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowEventResult
+    name: WorkflowEventResult
+    nameWithType: WorkflowEventResult
+    fullName: SuperOffice.WebApi.Data.WorkflowEventResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowFilterAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowFilterAsync
+  isExternal: true
+  name: CreateDefaultWorkflowFilterAsync
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowFilterAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowFilterAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: CreateDefaultWorkflowFilterAsync(RequestOptions)
+  nameWithType: IWorkflowAgent.CreateDefaultWorkflowFilterAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWorkflowFilterAsync
+    nameWithType: IWorkflowAgent.CreateDefaultWorkflowFilterAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowFilterAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWorkflowFilterAsync
+    nameWithType: IWorkflowAgent.CreateDefaultWorkflowFilterAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowFilterAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowFilter}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowFilter}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<WorkflowFilter>
+  nameWithType: Task<WorkflowFilter>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.WorkflowFilter>
+  nameWithType.vb: Task(Of WorkflowFilter)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.WorkflowFilter)
+  name.vb: Task(Of WorkflowFilter)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowFilter
+    name: WorkflowFilter
+    nameWithType: WorkflowFilter
+    fullName: SuperOffice.WebApi.Data.WorkflowFilter
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowFilter
+    name: WorkflowFilter
+    nameWithType: WorkflowFilter
+    fullName: SuperOffice.WebApi.Data.WorkflowFilter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowGoalAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowGoalAsync
+  isExternal: true
+  name: CreateDefaultWorkflowGoalAsync
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowGoalAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowGoalAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: CreateDefaultWorkflowGoalAsync(RequestOptions)
+  nameWithType: IWorkflowAgent.CreateDefaultWorkflowGoalAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWorkflowGoalAsync
+    nameWithType: IWorkflowAgent.CreateDefaultWorkflowGoalAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowGoalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWorkflowGoalAsync
+    nameWithType: IWorkflowAgent.CreateDefaultWorkflowGoalAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowGoalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowGoal}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowGoal}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<WorkflowGoal>
+  nameWithType: Task<WorkflowGoal>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.WorkflowGoal>
+  nameWithType.vb: Task(Of WorkflowGoal)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.WorkflowGoal)
+  name.vb: Task(Of WorkflowGoal)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowGoal
+    name: WorkflowGoal
+    nameWithType: WorkflowGoal
+    fullName: SuperOffice.WebApi.Data.WorkflowGoal
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowGoal
+    name: WorkflowGoal
+    nameWithType: WorkflowGoal
+    fullName: SuperOffice.WebApi.Data.WorkflowGoal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowGoalAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowGoalAsync
+  isExternal: true
+  name: SaveWorkflowGoalAsync
+  nameWithType: WorkflowAgent.SaveWorkflowGoalAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowGoalAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.WebApi.Data.WorkflowGoal,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.WebApi.Data.WorkflowGoal,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: SaveWorkflowGoalAsync(WorkflowGoal, RequestOptions)
+  nameWithType: IWorkflowAgent.SaveWorkflowGoalAsync(WorkflowGoal, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.WebApi.Data.WorkflowGoal, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.WebApi.Data.WorkflowGoal,SuperOffice.WebApi.RequestOptions)
+    name: SaveWorkflowGoalAsync
+    nameWithType: IWorkflowAgent.SaveWorkflowGoalAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowGoalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.WorkflowGoal
+    name: WorkflowGoal
+    nameWithType: WorkflowGoal
+    fullName: SuperOffice.WebApi.Data.WorkflowGoal
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.WebApi.Data.WorkflowGoal,SuperOffice.WebApi.RequestOptions)
+    name: SaveWorkflowGoalAsync
+    nameWithType: IWorkflowAgent.SaveWorkflowGoalAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowGoalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.WorkflowGoal
+    name: WorkflowGoal
+    nameWithType: WorkflowGoal
+    fullName: SuperOffice.WebApi.Data.WorkflowGoal
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WorkflowGoal
+  commentId: T:SuperOffice.WebApi.Data.WorkflowGoal
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowGoal
+  nameWithType: WorkflowGoal
+  fullName: SuperOffice.WebApi.Data.WorkflowGoal
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowGoalAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowGoalAsync
+  isExternal: true
+  name: DeleteWorkflowGoalAsync
+  nameWithType: WorkflowAgent.DeleteWorkflowGoalAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowGoalAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: DeleteWorkflowGoalAsync(Int32, RequestOptions)
+  nameWithType: IWorkflowAgent.DeleteWorkflowGoalAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteWorkflowGoalAsync
+    nameWithType: IWorkflowAgent.DeleteWorkflowGoalAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowGoalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteWorkflowGoalAsync
+    nameWithType: IWorkflowAgent.DeleteWorkflowGoalAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowGoalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowTriggerAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowTriggerAsync
+  isExternal: true
+  name: CreateDefaultWorkflowTriggerAsync
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowTriggerAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowTriggerAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: CreateDefaultWorkflowTriggerAsync(RequestOptions)
+  nameWithType: IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWorkflowTriggerAsync
+    nameWithType: IWorkflowAgent.CreateDefaultWorkflowTriggerAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWorkflowTriggerAsync
+    nameWithType: IWorkflowAgent.CreateDefaultWorkflowTriggerAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowTrigger}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowTrigger}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<WorkflowTrigger>
+  nameWithType: Task<WorkflowTrigger>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.WorkflowTrigger>
+  nameWithType.vb: Task(Of WorkflowTrigger)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.WorkflowTrigger)
+  name.vb: Task(Of WorkflowTrigger)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowTrigger
+    name: WorkflowTrigger
+    nameWithType: WorkflowTrigger
+    fullName: SuperOffice.WebApi.Data.WorkflowTrigger
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowTrigger
+    name: WorkflowTrigger
+    nameWithType: WorkflowTrigger
+    fullName: SuperOffice.WebApi.Data.WorkflowTrigger
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowTriggerAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowTriggerAsync
+  isExternal: true
+  name: SaveWorkflowTriggerAsync
+  nameWithType: WorkflowAgent.SaveWorkflowTriggerAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.SaveWorkflowTriggerAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.WebApi.Data.WorkflowTrigger,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.WebApi.Data.WorkflowTrigger,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: SaveWorkflowTriggerAsync(WorkflowTrigger, RequestOptions)
+  nameWithType: IWorkflowAgent.SaveWorkflowTriggerAsync(WorkflowTrigger, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.WebApi.Data.WorkflowTrigger, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.WebApi.Data.WorkflowTrigger,SuperOffice.WebApi.RequestOptions)
+    name: SaveWorkflowTriggerAsync
+    nameWithType: IWorkflowAgent.SaveWorkflowTriggerAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.WorkflowTrigger
+    name: WorkflowTrigger
+    nameWithType: WorkflowTrigger
+    fullName: SuperOffice.WebApi.Data.WorkflowTrigger
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.WebApi.Data.WorkflowTrigger,SuperOffice.WebApi.RequestOptions)
+    name: SaveWorkflowTriggerAsync
+    nameWithType: IWorkflowAgent.SaveWorkflowTriggerAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.SaveWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.WorkflowTrigger
+    name: WorkflowTrigger
+    nameWithType: WorkflowTrigger
+    fullName: SuperOffice.WebApi.Data.WorkflowTrigger
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger
+  commentId: T:SuperOffice.WebApi.Data.WorkflowTrigger
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowTrigger
+  nameWithType: WorkflowTrigger
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowTriggerAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowTriggerAsync
+  isExternal: true
+  name: DeleteWorkflowTriggerAsync
+  nameWithType: WorkflowAgent.DeleteWorkflowTriggerAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowTriggerAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: DeleteWorkflowTriggerAsync(Int32, RequestOptions)
+  nameWithType: IWorkflowAgent.DeleteWorkflowTriggerAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteWorkflowTriggerAsync
+    nameWithType: IWorkflowAgent.DeleteWorkflowTriggerAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteWorkflowTriggerAsync
+    nameWithType: IWorkflowAgent.DeleteWorkflowTriggerAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.DeleteWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.GetEmailFlowAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.GetEmailFlowAsync
+  isExternal: true
+  name: GetEmailFlowAsync
+  nameWithType: WorkflowAgent.GetEmailFlowAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.GetEmailFlowAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.GetEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: GetEmailFlowAsync(Int32, RequestOptions)
+  nameWithType: IWorkflowAgent.GetEmailFlowAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetEmailFlowAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetEmailFlowAsync
+    nameWithType: IWorkflowAgent.GetEmailFlowAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetEmailFlowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetEmailFlowAsync
+    nameWithType: IWorkflowAgent.GetEmailFlowAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetEmailFlowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.TryAddPersonsToEmailFlowAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.TryAddPersonsToEmailFlowAsync
+  isExternal: true
+  name: TryAddPersonsToEmailFlowAsync
+  nameWithType: WorkflowAgent.TryAddPersonsToEmailFlowAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.TryAddPersonsToEmailFlowAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: TryAddPersonsToEmailFlowAsync(Int32, Int32[], RequestOptions)
+  nameWithType: IWorkflowAgent.TryAddPersonsToEmailFlowAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.TryAddPersonsToEmailFlowAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IWorkflowAgent.TryAddPersonsToEmailFlowAsync(Int32, Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IWorkflowAgent.TryAddPersonsToEmailFlowAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: TryAddPersonsToEmailFlowAsync(Int32, Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: TryAddPersonsToEmailFlowAsync
+    nameWithType: IWorkflowAgent.TryAddPersonsToEmailFlowAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.TryAddPersonsToEmailFlowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: TryAddPersonsToEmailFlowAsync
+    nameWithType: IWorkflowAgent.TryAddPersonsToEmailFlowAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.TryAddPersonsToEmailFlowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{System.Boolean[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean[]>
+  nameWithType: Task<Boolean[]>
+  fullName: System.Threading.Tasks.Task<System.Boolean[]>
+  nameWithType.vb: Task(Of Boolean())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean())
+  name.vb: Task(Of Boolean())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.RemoveParticipantsFromEmailFlowAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.RemoveParticipantsFromEmailFlowAsync
+  isExternal: true
+  name: RemoveParticipantsFromEmailFlowAsync
+  nameWithType: WorkflowAgent.RemoveParticipantsFromEmailFlowAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.RemoveParticipantsFromEmailFlowAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.RemoveParticipantsFromEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.RemoveParticipantsFromEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: RemoveParticipantsFromEmailFlowAsync(Int32, Int32[], RequestOptions)
+  nameWithType: IWorkflowAgent.RemoveParticipantsFromEmailFlowAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.RemoveParticipantsFromEmailFlowAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IWorkflowAgent.RemoveParticipantsFromEmailFlowAsync(Int32, Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IWorkflowAgent.RemoveParticipantsFromEmailFlowAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: RemoveParticipantsFromEmailFlowAsync(Int32, Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.RemoveParticipantsFromEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: RemoveParticipantsFromEmailFlowAsync
+    nameWithType: IWorkflowAgent.RemoveParticipantsFromEmailFlowAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.RemoveParticipantsFromEmailFlowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.RemoveParticipantsFromEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: RemoveParticipantsFromEmailFlowAsync
+    nameWithType: IWorkflowAgent.RemoveParticipantsFromEmailFlowAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.RemoveParticipantsFromEmailFlowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateEmailFlowContentAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.CreateEmailFlowContentAsync
+  isExternal: true
+  name: CreateEmailFlowContentAsync
+  nameWithType: WorkflowAgent.CreateEmailFlowContentAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateEmailFlowContentAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateEmailFlowContentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.CreateEmailFlowContentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: CreateEmailFlowContentAsync(Int32, String, RequestOptions)
+  nameWithType: IWorkflowAgent.CreateEmailFlowContentAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateEmailFlowContentAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateEmailFlowContentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: CreateEmailFlowContentAsync
+    nameWithType: IWorkflowAgent.CreateEmailFlowContentAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateEmailFlowContentAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateEmailFlowContentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: CreateEmailFlowContentAsync
+    nameWithType: IWorkflowAgent.CreateEmailFlowContentAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateEmailFlowContentAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.ConnectEmailFlowContentAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.ConnectEmailFlowContentAsync
+  isExternal: true
+  name: ConnectEmailFlowContentAsync
+  nameWithType: WorkflowAgent.ConnectEmailFlowContentAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.ConnectEmailFlowContentAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.ConnectEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.ConnectEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: ConnectEmailFlowContentAsync(Int32, Int32, RequestOptions)
+  nameWithType: IWorkflowAgent.ConnectEmailFlowContentAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.ConnectEmailFlowContentAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.ConnectEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ConnectEmailFlowContentAsync
+    nameWithType: IWorkflowAgent.ConnectEmailFlowContentAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.ConnectEmailFlowContentAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.ConnectEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ConnectEmailFlowContentAsync
+    nameWithType: IWorkflowAgent.ConnectEmailFlowContentAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.ConnectEmailFlowContentAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CopyEmailFlowContentAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.CopyEmailFlowContentAsync
+  isExternal: true
+  name: CopyEmailFlowContentAsync
+  nameWithType: WorkflowAgent.CopyEmailFlowContentAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CopyEmailFlowContentAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CopyEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.CopyEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: CopyEmailFlowContentAsync(Int32, Int32, RequestOptions)
+  nameWithType: IWorkflowAgent.CopyEmailFlowContentAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CopyEmailFlowContentAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CopyEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: CopyEmailFlowContentAsync
+    nameWithType: IWorkflowAgent.CopyEmailFlowContentAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CopyEmailFlowContentAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CopyEmailFlowContentAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: CopyEmailFlowContentAsync
+    nameWithType: IWorkflowAgent.CopyEmailFlowContentAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CopyEmailFlowContentAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.RunAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.RunAsync
+  isExternal: true
+  name: RunAsync
+  nameWithType: WorkflowAgent.RunAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.RunAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.RunAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.RunAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: RunAsync(RequestOptions)
+  nameWithType: IWorkflowAgent.RunAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.RunAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.RunAsync(SuperOffice.WebApi.RequestOptions)
+    name: RunAsync
+    nameWithType: IWorkflowAgent.RunAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.RunAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.RunAsync(SuperOffice.WebApi.RequestOptions)
+    name: RunAsync
+    nameWithType: IWorkflowAgent.RunAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.RunAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.DateTime}
+  commentId: '!:System.Threading.Tasks.Task{System.DateTime}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<DateTime>
+  nameWithType: Task<DateTime>
+  fullName: System.Threading.Tasks.Task<System.DateTime>
+  nameWithType.vb: Task(Of DateTime)
+  fullName.vb: System.Threading.Tasks.Task(Of System.DateTime)
+  name.vb: Task(Of DateTime)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.SendEventAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.SendEventAsync
+  isExternal: true
+  name: SendEventAsync
+  nameWithType: WorkflowAgent.SendEventAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.SendEventAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.SendEventAsync(SuperOffice.WebApi.Data.WorkflowEvent,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.SendEventAsync(SuperOffice.WebApi.Data.WorkflowEvent,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: SendEventAsync(WorkflowEvent, RequestOptions)
+  nameWithType: IWorkflowAgent.SendEventAsync(WorkflowEvent, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.SendEventAsync(SuperOffice.WebApi.Data.WorkflowEvent, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.SendEventAsync(SuperOffice.WebApi.Data.WorkflowEvent,SuperOffice.WebApi.RequestOptions)
+    name: SendEventAsync
+    nameWithType: IWorkflowAgent.SendEventAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.SendEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.WorkflowEvent
+    name: WorkflowEvent
+    nameWithType: WorkflowEvent
+    fullName: SuperOffice.WebApi.Data.WorkflowEvent
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.SendEventAsync(SuperOffice.WebApi.Data.WorkflowEvent,SuperOffice.WebApi.RequestOptions)
+    name: SendEventAsync
+    nameWithType: IWorkflowAgent.SendEventAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.SendEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.WorkflowEvent
+    name: WorkflowEvent
+    nameWithType: WorkflowEvent
+    fullName: SuperOffice.WebApi.Data.WorkflowEvent
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WorkflowEvent
+  commentId: T:SuperOffice.WebApi.Data.WorkflowEvent
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowEvent
+  nameWithType: WorkflowEvent
+  fullName: SuperOffice.WebApi.Data.WorkflowEvent
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowGoalAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowGoalAsync
+  isExternal: true
+  name: GetWorkflowGoalAsync
+  nameWithType: WorkflowAgent.GetWorkflowGoalAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowGoalAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: GetWorkflowGoalAsync(Int32, RequestOptions)
+  nameWithType: IWorkflowAgent.GetWorkflowGoalAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowGoalAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetWorkflowGoalAsync
+    nameWithType: IWorkflowAgent.GetWorkflowGoalAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowGoalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetWorkflowGoalAsync
+    nameWithType: IWorkflowAgent.GetWorkflowGoalAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowGoalAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepAsync
+  isExternal: true
+  name: GetWorkflowStepAsync
+  nameWithType: WorkflowAgent.GetWorkflowStepAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: GetWorkflowStepAsync(Int32, RequestOptions)
+  nameWithType: IWorkflowAgent.GetWorkflowStepAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetWorkflowStepAsync
+    nameWithType: IWorkflowAgent.GetWorkflowStepAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetWorkflowStepAsync
+    nameWithType: IWorkflowAgent.GetWorkflowStepAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowStepBase}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowStepBase}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<WorkflowStepBase>
+  nameWithType: Task<WorkflowStepBase>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.WorkflowStepBase>
+  nameWithType.vb: Task(Of WorkflowStepBase)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.WorkflowStepBase)
+  name.vb: Task(Of WorkflowStepBase)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowStepBase
+    name: WorkflowStepBase
+    nameWithType: WorkflowStepBase
+    fullName: SuperOffice.WebApi.Data.WorkflowStepBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowStepBase
+    name: WorkflowStepBase
+    nameWithType: WorkflowStepBase
+    fullName: SuperOffice.WebApi.Data.WorkflowStepBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.AddAfterWorkflowStepAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.AddAfterWorkflowStepAsync
+  isExternal: true
+  name: AddAfterWorkflowStepAsync
+  nameWithType: WorkflowAgent.AddAfterWorkflowStepAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.AddAfterWorkflowStepAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.AddAfterWorkflowStepAsync(System.Int32,SuperOffice.WebApi.Data.WorkflowStepBase,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.AddAfterWorkflowStepAsync(System.Int32,SuperOffice.WebApi.Data.WorkflowStepBase,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: AddAfterWorkflowStepAsync(Int32, WorkflowStepBase, RequestOptions)
+  nameWithType: IWorkflowAgent.AddAfterWorkflowStepAsync(Int32, WorkflowStepBase, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.AddAfterWorkflowStepAsync(System.Int32, SuperOffice.WebApi.Data.WorkflowStepBase, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.AddAfterWorkflowStepAsync(System.Int32,SuperOffice.WebApi.Data.WorkflowStepBase,SuperOffice.WebApi.RequestOptions)
+    name: AddAfterWorkflowStepAsync
+    nameWithType: IWorkflowAgent.AddAfterWorkflowStepAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.AddAfterWorkflowStepAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.WorkflowStepBase
+    name: WorkflowStepBase
+    nameWithType: WorkflowStepBase
+    fullName: SuperOffice.WebApi.Data.WorkflowStepBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.AddAfterWorkflowStepAsync(System.Int32,SuperOffice.WebApi.Data.WorkflowStepBase,SuperOffice.WebApi.RequestOptions)
+    name: AddAfterWorkflowStepAsync
+    nameWithType: IWorkflowAgent.AddAfterWorkflowStepAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.AddAfterWorkflowStepAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.WorkflowStepBase
+    name: WorkflowStepBase
+    nameWithType: WorkflowStepBase
+    fullName: SuperOffice.WebApi.Data.WorkflowStepBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync
+  isExternal: true
+  name: CreateDefaultWorkflowStepFromTypeAsync
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync(SuperOffice.WebApi.Data.WorkflowStepType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync(SuperOffice.WebApi.Data.WorkflowStepType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: CreateDefaultWorkflowStepFromTypeAsync(WorkflowStepType, RequestOptions)
+  nameWithType: IWorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync(WorkflowStepType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync(SuperOffice.WebApi.Data.WorkflowStepType, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync(SuperOffice.WebApi.Data.WorkflowStepType,SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWorkflowStepFromTypeAsync
+    nameWithType: IWorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.WorkflowStepType
+    name: WorkflowStepType
+    nameWithType: WorkflowStepType
+    fullName: SuperOffice.WebApi.Data.WorkflowStepType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync(SuperOffice.WebApi.Data.WorkflowStepType,SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWorkflowStepFromTypeAsync
+    nameWithType: IWorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepFromTypeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.WorkflowStepType
+    name: WorkflowStepType
+    nameWithType: WorkflowStepType
+    fullName: SuperOffice.WebApi.Data.WorkflowStepType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WorkflowStepType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowStepType
+  nameWithType: WorkflowStepType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepType
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync
+  isExternal: true
+  name: CreateDefaultWorkflowStepOptionFromTypeAsync
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync(SuperOffice.WebApi.Data.WorkflowSplitOptionType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync(SuperOffice.WebApi.Data.WorkflowSplitOptionType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: CreateDefaultWorkflowStepOptionFromTypeAsync(WorkflowSplitOptionType, RequestOptions)
+  nameWithType: IWorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync(WorkflowSplitOptionType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync(SuperOffice.WebApi.Data.WorkflowSplitOptionType, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync(SuperOffice.WebApi.Data.WorkflowSplitOptionType,SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWorkflowStepOptionFromTypeAsync
+    nameWithType: IWorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    name: WorkflowSplitOptionType
+    nameWithType: WorkflowSplitOptionType
+    fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync(SuperOffice.WebApi.Data.WorkflowSplitOptionType,SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWorkflowStepOptionFromTypeAsync
+    nameWithType: IWorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromTypeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    name: WorkflowSplitOptionType
+    nameWithType: WorkflowSplitOptionType
+    fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowSplitOptionType
+  nameWithType: WorkflowSplitOptionType
+  fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowStepOptionBase}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WorkflowStepOptionBase}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<WorkflowStepOptionBase>
+  nameWithType: Task<WorkflowStepOptionBase>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.WorkflowStepOptionBase>
+  nameWithType.vb: Task(Of WorkflowStepOptionBase)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.WorkflowStepOptionBase)
+  name.vb: Task(Of WorkflowStepOptionBase)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+    name: WorkflowStepOptionBase
+    nameWithType: WorkflowStepOptionBase
+    fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+    name: WorkflowStepOptionBase
+    nameWithType: WorkflowStepOptionBase
+    fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepOptionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepOptionAsync
+  isExternal: true
+  name: GetWorkflowStepOptionAsync
+  nameWithType: WorkflowAgent.GetWorkflowStepOptionAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepOptionAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepOptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepOptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: GetWorkflowStepOptionAsync(Int32, RequestOptions)
+  nameWithType: IWorkflowAgent.GetWorkflowStepOptionAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepOptionAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepOptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetWorkflowStepOptionAsync
+    nameWithType: IWorkflowAgent.GetWorkflowStepOptionAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepOptionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepOptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetWorkflowStepOptionAsync
+    nameWithType: IWorkflowAgent.GetWorkflowStepOptionAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowStepOptionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowTriggerAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowTriggerAsync
+  isExternal: true
+  name: GetWorkflowTriggerAsync
+  nameWithType: WorkflowAgent.GetWorkflowTriggerAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowTriggerAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  name: GetWorkflowTriggerAsync(Int32, RequestOptions)
+  nameWithType: IWorkflowAgent.GetWorkflowTriggerAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowTriggerAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetWorkflowTriggerAsync
+    nameWithType: IWorkflowAgent.GetWorkflowTriggerAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetWorkflowTriggerAsync
+    nameWithType: IWorkflowAgent.GetWorkflowTriggerAsync
+    fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,439 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepCreateRequest
+  id: WorkflowStepCreateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowStepCreateRequest.#ctor
+  - SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Category
+  - SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Message
+  - SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Owner
+  - SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Priority
+  - SuperOffice.WebApi.Data.WorkflowStepCreateRequest.RequestType
+  - SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Status
+  - SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Title
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepCreateRequest
+  nameWithType: WorkflowStepCreateRequest
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for WorkflowStepCreateRequest.\nStep in workflow.    \n"
+  syntax:
+    content: 'public class WorkflowStepCreateRequest : WorkflowStepBase'
+    content.vb: >-
+      Public Class WorkflowStepCreateRequest
+          Inherits WorkflowStepBase
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
+    commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.WorkflowStepBase
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  - SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepCreateRequest()
+  nameWithType: WorkflowStepCreateRequest.WorkflowStepCreateRequest()
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.WorkflowStepCreateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public WorkflowStepCreateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Title
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Title
+  id: Title
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: WorkflowStepCreateRequest.Title
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Title
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRequest title\n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.RequestType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.RequestType
+  id: RequestType
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: RequestType
+  nameWithType: WorkflowStepCreateRequest.RequestType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.RequestType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRequest type\n"
+  syntax:
+    content: public virtual int RequestType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RequestType As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.RequestType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Category
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Category
+  id: Category
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: WorkflowStepCreateRequest.Category
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Category
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRequest category\n"
+  syntax:
+    content: public virtual int Category { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Category As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Category*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Priority
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Priority
+  id: Priority
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: WorkflowStepCreateRequest.Priority
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Priority
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRequest priority\n"
+  syntax:
+    content: public virtual int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Priority As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Priority*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Status
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: WorkflowStepCreateRequest.Status
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRequest status\n"
+  syntax:
+    content: public virtual int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Status As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Status*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Message
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: WorkflowStepCreateRequest.Message
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Message
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMessage\n"
+  syntax:
+    content: public virtual string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Message As String
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Message*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Owner
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Owner
+  id: Owner
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: WorkflowStepCreateRequest.Owner
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Owner
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRequest owner\n"
+  syntax:
+    content: public virtual int Owner { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Owner As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Owner*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: WorkflowStepId
+  nameWithType: WorkflowStepBase.WorkflowStepId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowStepBase.WorkflowId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: StepType_String
+  nameWithType: WorkflowStepBase.StepType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: StepType
+  nameWithType: WorkflowStepBase.StepType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: Rank
+  nameWithType: WorkflowStepBase.Rank
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.#ctor
+  isExternal: true
+  name: WorkflowStepCreateRequest
+  nameWithType: WorkflowStepCreateRequest.WorkflowStepCreateRequest
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.WorkflowStepCreateRequest
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Title*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Title
+  isExternal: true
+  name: Title
+  nameWithType: WorkflowStepCreateRequest.Title
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.RequestType*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.RequestType
+  isExternal: true
+  name: RequestType
+  nameWithType: WorkflowStepCreateRequest.RequestType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.RequestType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Category*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Category
+  isExternal: true
+  name: Category
+  nameWithType: WorkflowStepCreateRequest.Category
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Category
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Priority*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: WorkflowStepCreateRequest.Priority
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Priority
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Status
+  isExternal: true
+  name: Status
+  nameWithType: WorkflowStepCreateRequest.Status
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Status
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Message*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Message
+  isExternal: true
+  name: Message
+  nameWithType: WorkflowStepCreateRequest.Message
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Message
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Owner*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Owner
+  isExternal: true
+  name: Owner
+  nameWithType: WorkflowStepCreateRequest.Owner
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateRequest.Owner

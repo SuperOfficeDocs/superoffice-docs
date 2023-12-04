@@ -1,0 +1,2316 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EmailFlow
+  commentId: T:SuperOffice.WebApi.Data.EmailFlow
+  id: EmailFlow
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EmailFlow.#ctor
+  - SuperOffice.WebApi.Data.EmailFlow.Associate
+  - SuperOffice.WebApi.Data.EmailFlow.BlockLists
+  - SuperOffice.WebApi.Data.EmailFlow.CreatedBy
+  - SuperOffice.WebApi.Data.EmailFlow.CreatedDate
+  - SuperOffice.WebApi.Data.EmailFlow.Description
+  - SuperOffice.WebApi.Data.EmailFlow.EmailFlowId
+  - SuperOffice.WebApi.Data.EmailFlow.EnrollmentEnd
+  - SuperOffice.WebApi.Data.EmailFlow.Filter
+  - SuperOffice.WebApi.Data.EmailFlow.Folder
+  - SuperOffice.WebApi.Data.EmailFlow.FromAddr
+  - SuperOffice.WebApi.Data.EmailFlow.FromName
+  - SuperOffice.WebApi.Data.EmailFlow.FromType
+  - SuperOffice.WebApi.Data.EmailFlow.FromType_String
+  - SuperOffice.WebApi.Data.EmailFlow.GaCampaign
+  - SuperOffice.WebApi.Data.EmailFlow.GaSource
+  - SuperOffice.WebApi.Data.EmailFlow.Goals
+  - SuperOffice.WebApi.Data.EmailFlow.JumpToFinish
+  - SuperOffice.WebApi.Data.EmailFlow.Name
+  - SuperOffice.WebApi.Data.EmailFlow.OverrideConsentSubscription
+  - SuperOffice.WebApi.Data.EmailFlow.RemoveFromFlows
+  - SuperOffice.WebApi.Data.EmailFlow.ReplyToAddr
+  - SuperOffice.WebApi.Data.EmailFlow.ReplyToName
+  - SuperOffice.WebApi.Data.EmailFlow.ReplyToType
+  - SuperOffice.WebApi.Data.EmailFlow.ReplyToType_String
+  - SuperOffice.WebApi.Data.EmailFlow.SelectedDays
+  - SuperOffice.WebApi.Data.EmailFlow.SelectedDays_String
+  - SuperOffice.WebApi.Data.EmailFlow.ShipmentType
+  - SuperOffice.WebApi.Data.EmailFlow.SmsSender
+  - SuperOffice.WebApi.Data.EmailFlow.StartOnlyOnce
+  - SuperOffice.WebApi.Data.EmailFlow.Status
+  - SuperOffice.WebApi.Data.EmailFlow.Status_String
+  - SuperOffice.WebApi.Data.EmailFlow.Steps
+  - SuperOffice.WebApi.Data.EmailFlow.TimeframeEnd
+  - SuperOffice.WebApi.Data.EmailFlow.TimeframeStart
+  - SuperOffice.WebApi.Data.EmailFlow.Triggers
+  - SuperOffice.WebApi.Data.EmailFlow.TzLocation
+  - SuperOffice.WebApi.Data.EmailFlow.UpdatedBy
+  - SuperOffice.WebApi.Data.EmailFlow.UpdatedDate
+  - SuperOffice.WebApi.Data.EmailFlow.UseEnrollmentEnd
+  - SuperOffice.WebApi.Data.EmailFlow.UseGoogleAnalytics
+  - SuperOffice.WebApi.Data.EmailFlow.UseTimeframe
+  - SuperOffice.WebApi.Data.EmailFlow.UseWorkflowStart
+  - SuperOffice.WebApi.Data.EmailFlow.VisibleFor
+  - SuperOffice.WebApi.Data.EmailFlow.WorkflowStart
+  langs:
+  - csharp
+  - vb
+  name: EmailFlow
+  nameWithType: EmailFlow
+  fullName: SuperOffice.WebApi.Data.EmailFlow
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for EmailFlow.\nEmail flow carrier    \n"
+  example:
+  - "\nGet EmailFlow 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new WorkflowAgent(configuration);\nvar emailFlow = agent.GetEmailFlow( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class EmailFlow : Carrier'
+    content.vb: >-
+      Public Class EmailFlow
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
+    commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EmailFlow.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EmailFlow.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: EmailFlow()
+  nameWithType: EmailFlow.EmailFlow()
+  fullName: SuperOffice.WebApi.Data.EmailFlow.EmailFlow()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public EmailFlow()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EmailFlow.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EmailFlow.EmailFlowId
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.EmailFlowId
+  id: EmailFlowId
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: EmailFlowId
+  nameWithType: EmailFlow.EmailFlowId
+  fullName: SuperOffice.WebApi.Data.EmailFlow.EmailFlowId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int EmailFlowId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EmailFlowId As Integer
+  overload: SuperOffice.WebApi.Data.EmailFlow.EmailFlowId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.Name
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: EmailFlow.Name
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the workflow\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.Description
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: EmailFlow.Description
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescription of the workflow\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.Status_String
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.Status_String
+  id: Status_String
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Status_String
+  nameWithType: EmailFlow.Status_String
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Status_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus of the workflow definition\nRaw string enum value.\n"
+  syntax:
+    content: public string Status_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Status_String As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.Status_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EmailFlow.Status
+    commentId: P:SuperOffice.WebApi.Data.EmailFlow.Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EmailFlow.Status
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: EmailFlow.Status
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus of the workflow definition\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<WorkflowDefinitionStatus> Status { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.WorkflowDefinitionStatus}
+    content.vb: Public Property Status As Nullable(Of WorkflowDefinitionStatus)
+  overload: SuperOffice.WebApi.Data.EmailFlow.Status*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EmailFlow.Status_String
+    commentId: P:SuperOffice.WebApi.Data.EmailFlow.Status_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EmailFlow.JumpToFinish
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.JumpToFinish
+  id: JumpToFinish
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: JumpToFinish
+  nameWithType: EmailFlow.JumpToFinish
+  fullName: SuperOffice.WebApi.Data.EmailFlow.JumpToFinish
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen a goal is reached, contact jumps directly to finished\n"
+  syntax:
+    content: public virtual bool JumpToFinish { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property JumpToFinish As Boolean
+  overload: SuperOffice.WebApi.Data.EmailFlow.JumpToFinish*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.StartOnlyOnce
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.StartOnlyOnce
+  id: StartOnlyOnce
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: StartOnlyOnce
+  nameWithType: EmailFlow.StartOnlyOnce
+  fullName: SuperOffice.WebApi.Data.EmailFlow.StartOnlyOnce
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA contact can start this flow only once\n"
+  syntax:
+    content: public virtual bool StartOnlyOnce { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property StartOnlyOnce As Boolean
+  overload: SuperOffice.WebApi.Data.EmailFlow.StartOnlyOnce*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.OverrideConsentSubscription
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.OverrideConsentSubscription
+  id: OverrideConsentSubscription
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: OverrideConsentSubscription
+  nameWithType: EmailFlow.OverrideConsentSubscription
+  fullName: SuperOffice.WebApi.Data.EmailFlow.OverrideConsentSubscription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOverride consent and subscription\n"
+  syntax:
+    content: public virtual bool OverrideConsentSubscription { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property OverrideConsentSubscription As Boolean
+  overload: SuperOffice.WebApi.Data.EmailFlow.OverrideConsentSubscription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.FromType_String
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.FromType_String
+  id: FromType_String
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: FromType_String
+  nameWithType: EmailFlow.FromType_String
+  fullName: SuperOffice.WebApi.Data.EmailFlow.FromType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEmail/Mailing From field address algorithm\nRaw string enum value.\n"
+  syntax:
+    content: public string FromType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FromType_String As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.FromType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EmailFlow.FromType
+    commentId: P:SuperOffice.WebApi.Data.EmailFlow.FromType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EmailFlow.FromType
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.FromType
+  id: FromType
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: FromType
+  nameWithType: EmailFlow.FromType
+  fullName: SuperOffice.WebApi.Data.EmailFlow.FromType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEmail/Mailing From field address algorithm\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<EmailFromType> FromType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.EmailFromType}
+    content.vb: Public Property FromType As Nullable(Of EmailFromType)
+  overload: SuperOffice.WebApi.Data.EmailFlow.FromType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EmailFlow.FromType_String
+    commentId: P:SuperOffice.WebApi.Data.EmailFlow.FromType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EmailFlow.FromName
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.FromName
+  id: FromName
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: FromName
+  nameWithType: EmailFlow.FromName
+  fullName: SuperOffice.WebApi.Data.EmailFlow.FromName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEmail From name\n"
+  syntax:
+    content: public virtual string FromName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FromName As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.FromName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.FromAddr
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.FromAddr
+  id: FromAddr
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: FromAddr
+  nameWithType: EmailFlow.FromAddr
+  fullName: SuperOffice.WebApi.Data.EmailFlow.FromAddr
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEmail From address: name@domain.com\n"
+  syntax:
+    content: public virtual string FromAddr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FromAddr As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.FromAddr*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.ReplyToType_String
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.ReplyToType_String
+  id: ReplyToType_String
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: ReplyToType_String
+  nameWithType: EmailFlow.ReplyToType_String
+  fullName: SuperOffice.WebApi.Data.EmailFlow.ReplyToType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEmail/Mailing Reply-To field address algorithm\nRaw string enum value.\n"
+  syntax:
+    content: public string ReplyToType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReplyToType_String As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.ReplyToType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EmailFlow.ReplyToType
+    commentId: P:SuperOffice.WebApi.Data.EmailFlow.ReplyToType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EmailFlow.ReplyToType
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.ReplyToType
+  id: ReplyToType
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: ReplyToType
+  nameWithType: EmailFlow.ReplyToType
+  fullName: SuperOffice.WebApi.Data.EmailFlow.ReplyToType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEmail/Mailing Reply-To field address algorithm\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<EmailReplyToType> ReplyToType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.EmailReplyToType}
+    content.vb: Public Property ReplyToType As Nullable(Of EmailReplyToType)
+  overload: SuperOffice.WebApi.Data.EmailFlow.ReplyToType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EmailFlow.ReplyToType_String
+    commentId: P:SuperOffice.WebApi.Data.EmailFlow.ReplyToType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EmailFlow.ReplyToAddr
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.ReplyToAddr
+  id: ReplyToAddr
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: ReplyToAddr
+  nameWithType: EmailFlow.ReplyToAddr
+  fullName: SuperOffice.WebApi.Data.EmailFlow.ReplyToAddr
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReply to address, if different from From-address\n"
+  syntax:
+    content: public virtual string ReplyToAddr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ReplyToAddr As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.ReplyToAddr*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.ReplyToName
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.ReplyToName
+  id: ReplyToName
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: ReplyToName
+  nameWithType: EmailFlow.ReplyToName
+  fullName: SuperOffice.WebApi.Data.EmailFlow.ReplyToName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEmail Reply-To name\n"
+  syntax:
+    content: public virtual string ReplyToName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ReplyToName As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.ReplyToName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.SmsSender
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.SmsSender
+  id: SmsSender
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: SmsSender
+  nameWithType: EmailFlow.SmsSender
+  fullName: SuperOffice.WebApi.Data.EmailFlow.SmsSender
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSMS sender (number or name)\n"
+  syntax:
+    content: public virtual string SmsSender { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SmsSender As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.SmsSender*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.UseGoogleAnalytics
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.UseGoogleAnalytics
+  id: UseGoogleAnalytics
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: UseGoogleAnalytics
+  nameWithType: EmailFlow.UseGoogleAnalytics
+  fullName: SuperOffice.WebApi.Data.EmailFlow.UseGoogleAnalytics
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUse Google Analytics\n"
+  syntax:
+    content: public virtual bool UseGoogleAnalytics { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseGoogleAnalytics As Boolean
+  overload: SuperOffice.WebApi.Data.EmailFlow.UseGoogleAnalytics*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.GaSource
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.GaSource
+  id: GaSource
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: GaSource
+  nameWithType: EmailFlow.GaSource
+  fullName: SuperOffice.WebApi.Data.EmailFlow.GaSource
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGA Source\n"
+  syntax:
+    content: public virtual string GaSource { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property GaSource As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.GaSource*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.GaCampaign
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.GaCampaign
+  id: GaCampaign
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: GaCampaign
+  nameWithType: EmailFlow.GaCampaign
+  fullName: SuperOffice.WebApi.Data.EmailFlow.GaCampaign
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGA Campaign\n"
+  syntax:
+    content: public virtual string GaCampaign { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property GaCampaign As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.GaCampaign*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.UseTimeframe
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.UseTimeframe
+  id: UseTimeframe
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: UseTimeframe
+  nameWithType: EmailFlow.UseTimeframe
+  fullName: SuperOffice.WebApi.Data.EmailFlow.UseTimeframe
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUse sender timeframe settings, only send email/sms within the timeframe\n"
+  syntax:
+    content: public virtual bool UseTimeframe { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseTimeframe As Boolean
+  overload: SuperOffice.WebApi.Data.EmailFlow.UseTimeframe*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.SelectedDays_String
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.SelectedDays_String
+  id: SelectedDays_String
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: SelectedDays_String
+  nameWithType: EmailFlow.SelectedDays_String
+  fullName: SuperOffice.WebApi.Data.EmailFlow.SelectedDays_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSelected days (flags, so several days can be selected) for time frame\nRaw string enum value.\n"
+  syntax:
+    content: public string SelectedDays_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedDays_String As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.SelectedDays_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EmailFlow.SelectedDays
+    commentId: P:SuperOffice.WebApi.Data.EmailFlow.SelectedDays
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EmailFlow.SelectedDays
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.SelectedDays
+  id: SelectedDays
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: SelectedDays
+  nameWithType: EmailFlow.SelectedDays
+  fullName: SuperOffice.WebApi.Data.EmailFlow.SelectedDays
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSelected days (flags, so several days can be selected) for time frame\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<Weekday> SelectedDays { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.Weekday}
+    content.vb: Public Property SelectedDays As Nullable(Of Weekday)
+  overload: SuperOffice.WebApi.Data.EmailFlow.SelectedDays*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EmailFlow.SelectedDays_String
+    commentId: P:SuperOffice.WebApi.Data.EmailFlow.SelectedDays_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EmailFlow.TimeframeStart
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.TimeframeStart
+  id: TimeframeStart
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: TimeframeStart
+  nameWithType: EmailFlow.TimeframeStart
+  fullName: SuperOffice.WebApi.Data.EmailFlow.TimeframeStart
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStart of email/sms sending timeframe in [DT: ] format, interpreted in workflow time zone\n"
+  syntax:
+    content: public virtual string TimeframeStart { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TimeframeStart As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.TimeframeStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.TimeframeEnd
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.TimeframeEnd
+  id: TimeframeEnd
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: TimeframeEnd
+  nameWithType: EmailFlow.TimeframeEnd
+  fullName: SuperOffice.WebApi.Data.EmailFlow.TimeframeEnd
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnd of email/sms sending timeframe in [DT: ] format, interpreted in workflow time zone\n"
+  syntax:
+    content: public virtual string TimeframeEnd { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TimeframeEnd As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.TimeframeEnd*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.UseWorkflowStart
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.UseWorkflowStart
+  id: UseWorkflowStart
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: UseWorkflowStart
+  nameWithType: EmailFlow.UseWorkflowStart
+  fullName: SuperOffice.WebApi.Data.EmailFlow.UseWorkflowStart
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStart the flow running with enrolled participants at the given time\n"
+  syntax:
+    content: public virtual bool UseWorkflowStart { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseWorkflowStart As Boolean
+  overload: SuperOffice.WebApi.Data.EmailFlow.UseWorkflowStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.WorkflowStart
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.WorkflowStart
+  id: WorkflowStart
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStart
+  nameWithType: EmailFlow.WorkflowStart
+  fullName: SuperOffice.WebApi.Data.EmailFlow.WorkflowStart
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. In [DT: ] format, interpreted in workflow time zone\n"
+  syntax:
+    content: public virtual string WorkflowStart { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property WorkflowStart As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.WorkflowStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.UseEnrollmentEnd
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.UseEnrollmentEnd
+  id: UseEnrollmentEnd
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: UseEnrollmentEnd
+  nameWithType: EmailFlow.UseEnrollmentEnd
+  fullName: SuperOffice.WebApi.Data.EmailFlow.UseEnrollmentEnd
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnd enrollment into the workflow at the given time\n"
+  syntax:
+    content: public virtual bool UseEnrollmentEnd { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseEnrollmentEnd As Boolean
+  overload: SuperOffice.WebApi.Data.EmailFlow.UseEnrollmentEnd*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.EnrollmentEnd
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.EnrollmentEnd
+  id: EnrollmentEnd
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: EnrollmentEnd
+  nameWithType: EmailFlow.EnrollmentEnd
+  fullName: SuperOffice.WebApi.Data.EmailFlow.EnrollmentEnd
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDo not enroll more participant after given time. In [DT: ] format, interpreted in workflow time zone\n"
+  syntax:
+    content: public virtual string EnrollmentEnd { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EnrollmentEnd As String
+  overload: SuperOffice.WebApi.Data.EmailFlow.EnrollmentEnd*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.RemoveFromFlows
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.RemoveFromFlows
+  id: RemoveFromFlows
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromFlows
+  nameWithType: EmailFlow.RemoveFromFlows
+  fullName: SuperOffice.WebApi.Data.EmailFlow.RemoveFromFlows
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWorkflows to remove the participants from when they are enrolled in this workflow\n"
+  syntax:
+    content: public virtual int[] RemoveFromFlows { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property RemoveFromFlows As Integer()
+  overload: SuperOffice.WebApi.Data.EmailFlow.RemoveFromFlows*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.TzLocation
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.TzLocation
+  id: TzLocation
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: TzLocation
+  nameWithType: EmailFlow.TzLocation
+  fullName: SuperOffice.WebApi.Data.EmailFlow.TzLocation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe workflow timezone setting\n"
+  syntax:
+    content: public virtual TimeZoneData TzLocation { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TimeZoneData
+    content.vb: Public Overridable Property TzLocation As TimeZoneData
+  overload: SuperOffice.WebApi.Data.EmailFlow.TzLocation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.Folder
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.Folder
+  id: Folder
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Folder
+  nameWithType: EmailFlow.Folder
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Folder
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe folder/hierarchy the email flow is in.\n<p>Use MDO List name &quot;hierarchy&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual HierarchyEntity Folder { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.HierarchyEntity
+    content.vb: Public Overridable Property Folder As HierarchyEntity
+  overload: SuperOffice.WebApi.Data.EmailFlow.Folder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.Associate
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.Associate
+  id: Associate
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: EmailFlow.Associate
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Associate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe owner of the workflow.\n<p>Use MDO List name &quot;associate&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Associate Associate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property Associate As Associate
+  overload: SuperOffice.WebApi.Data.EmailFlow.Associate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.ShipmentType
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.ShipmentType
+  id: ShipmentType
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: ShipmentType
+  nameWithType: EmailFlow.ShipmentType
+  fullName: SuperOffice.WebApi.Data.EmailFlow.ShipmentType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Shipment type (mailing type)\n"
+  syntax:
+    content: public virtual MDOListItem ShipmentType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.MDOListItem
+    content.vb: Public Overridable Property ShipmentType As MDOListItem
+  overload: SuperOffice.WebApi.Data.EmailFlow.ShipmentType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.Steps
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.Steps
+  id: Steps
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Steps
+  nameWithType: EmailFlow.Steps
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Steps
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe steps in the workflow, mainline steps - forking steps are indicated by its WorkflowStepType.\n"
+  syntax:
+    content: public virtual WorkflowStepBase[] Steps { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowStepBase[]
+    content.vb: Public Overridable Property Steps As WorkflowStepBase()
+  overload: SuperOffice.WebApi.Data.EmailFlow.Steps*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.Triggers
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.Triggers
+  id: Triggers
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Triggers
+  nameWithType: EmailFlow.Triggers
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Triggers
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe triggers for the workflow.\n"
+  syntax:
+    content: public virtual WorkflowTrigger[] Triggers { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTrigger[]
+    content.vb: Public Overridable Property Triggers As WorkflowTrigger()
+  overload: SuperOffice.WebApi.Data.EmailFlow.Triggers*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.Goals
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.Goals
+  id: Goals
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Goals
+  nameWithType: EmailFlow.Goals
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Goals
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe goals for the workflow.\n"
+  syntax:
+    content: public virtual WorkflowGoal[] Goals { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowGoal[]
+    content.vb: Public Overridable Property Goals As WorkflowGoal()
+  overload: SuperOffice.WebApi.Data.EmailFlow.Goals*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.Filter
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.Filter
+  id: Filter
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Filter
+  nameWithType: EmailFlow.Filter
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Filter
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe filter for the workflow.\n"
+  syntax:
+    content: public virtual WorkflowFilter Filter { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowFilter
+    content.vb: Public Overridable Property Filter As WorkflowFilter
+  overload: SuperOffice.WebApi.Data.EmailFlow.Filter*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.BlockLists
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.BlockLists
+  id: BlockLists
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: BlockLists
+  nameWithType: EmailFlow.BlockLists
+  fullName: SuperOffice.WebApi.Data.EmailFlow.BlockLists
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPersons in the given selections are not allowed to enter this workflow\n"
+  syntax:
+    content: public virtual int[] BlockLists { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property BlockLists As Integer()
+  overload: SuperOffice.WebApi.Data.EmailFlow.BlockLists*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.CreatedBy
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: EmailFlow.CreatedBy
+  fullName: SuperOffice.WebApi.Data.EmailFlow.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associate that first created the flow. The property is read-only.\n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.WebApi.Data.EmailFlow.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.UpdatedBy
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: EmailFlow.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.EmailFlow.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person that last updated the flow.\n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.WebApi.Data.EmailFlow.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.CreatedDate
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: EmailFlow.CreatedDate
+  fullName: SuperOffice.WebApi.Data.EmailFlow.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered date\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.EmailFlow.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.UpdatedDate
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: EmailFlow.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.EmailFlow.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUpdated date\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.EmailFlow.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EmailFlow.VisibleFor
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.VisibleFor
+  id: VisibleFor
+  parent: SuperOffice.WebApi.Data.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: VisibleFor
+  nameWithType: EmailFlow.VisibleFor
+  fullName: SuperOffice.WebApi.Data.EmailFlow.VisibleFor
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe set of users or groups the record is visible for\n"
+  syntax:
+    content: public virtual VisibleFor[] VisibleFor { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.VisibleFor[]
+    content.vb: Public Overridable Property VisibleFor As VisibleFor()
+  overload: SuperOffice.WebApi.Data.EmailFlow.VisibleFor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EmailFlow.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.#ctor
+  isExternal: true
+  name: EmailFlow
+  nameWithType: EmailFlow.EmailFlow
+  fullName: SuperOffice.WebApi.Data.EmailFlow.EmailFlow
+- uid: SuperOffice.WebApi.Data.EmailFlow.EmailFlowId*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.EmailFlowId
+  isExternal: true
+  name: EmailFlowId
+  nameWithType: EmailFlow.EmailFlowId
+  fullName: SuperOffice.WebApi.Data.EmailFlow.EmailFlowId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EmailFlow.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.Name
+  isExternal: true
+  name: Name
+  nameWithType: EmailFlow.Name
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EmailFlow.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.Description
+  isExternal: true
+  name: Description
+  nameWithType: EmailFlow.Description
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Description
+- uid: SuperOffice.WebApi.Data.EmailFlow.Status_String*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.Status_String
+  isExternal: true
+  name: Status_String
+  nameWithType: EmailFlow.Status_String
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Status_String
+- uid: SuperOffice.WebApi.Data.EmailFlow.Status
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.Status
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.EmailFlow.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.Status
+  isExternal: true
+  name: Status
+  nameWithType: EmailFlow.Status
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Status
+- uid: SuperOffice.WebApi.Data.EmailFlow.Status_String
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.Status_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowDefinitionStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WorkflowDefinitionStatus}'
+  definition: System.Nullable`1
+  name: Nullable<WorkflowDefinitionStatus>
+  nameWithType: Nullable<WorkflowDefinitionStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.WorkflowDefinitionStatus>
+  nameWithType.vb: Nullable(Of WorkflowDefinitionStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WorkflowDefinitionStatus)
+  name.vb: Nullable(Of WorkflowDefinitionStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowDefinitionStatus
+    name: WorkflowDefinitionStatus
+    nameWithType: WorkflowDefinitionStatus
+    fullName: SuperOffice.WebApi.Data.WorkflowDefinitionStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowDefinitionStatus
+    name: WorkflowDefinitionStatus
+    nameWithType: WorkflowDefinitionStatus
+    fullName: SuperOffice.WebApi.Data.WorkflowDefinitionStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.EmailFlow.JumpToFinish*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.JumpToFinish
+  isExternal: true
+  name: JumpToFinish
+  nameWithType: EmailFlow.JumpToFinish
+  fullName: SuperOffice.WebApi.Data.EmailFlow.JumpToFinish
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.EmailFlow.StartOnlyOnce*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.StartOnlyOnce
+  isExternal: true
+  name: StartOnlyOnce
+  nameWithType: EmailFlow.StartOnlyOnce
+  fullName: SuperOffice.WebApi.Data.EmailFlow.StartOnlyOnce
+- uid: SuperOffice.WebApi.Data.EmailFlow.OverrideConsentSubscription*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.OverrideConsentSubscription
+  isExternal: true
+  name: OverrideConsentSubscription
+  nameWithType: EmailFlow.OverrideConsentSubscription
+  fullName: SuperOffice.WebApi.Data.EmailFlow.OverrideConsentSubscription
+- uid: SuperOffice.WebApi.Data.EmailFlow.FromType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.FromType_String
+  isExternal: true
+  name: FromType_String
+  nameWithType: EmailFlow.FromType_String
+  fullName: SuperOffice.WebApi.Data.EmailFlow.FromType_String
+- uid: SuperOffice.WebApi.Data.EmailFlow.FromType
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.FromType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.EmailFlow.FromType*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.FromType
+  isExternal: true
+  name: FromType
+  nameWithType: EmailFlow.FromType
+  fullName: SuperOffice.WebApi.Data.EmailFlow.FromType
+- uid: SuperOffice.WebApi.Data.EmailFlow.FromType_String
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.FromType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.EmailFromType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.EmailFromType}'
+  definition: System.Nullable`1
+  name: Nullable<EmailFromType>
+  nameWithType: Nullable<EmailFromType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.EmailFromType>
+  nameWithType.vb: Nullable(Of EmailFromType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.EmailFromType)
+  name.vb: Nullable(Of EmailFromType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.EmailFromType
+    name: EmailFromType
+    nameWithType: EmailFromType
+    fullName: SuperOffice.WebApi.Data.EmailFromType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.EmailFromType
+    name: EmailFromType
+    nameWithType: EmailFromType
+    fullName: SuperOffice.WebApi.Data.EmailFromType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.EmailFlow.FromName*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.FromName
+  isExternal: true
+  name: FromName
+  nameWithType: EmailFlow.FromName
+  fullName: SuperOffice.WebApi.Data.EmailFlow.FromName
+- uid: SuperOffice.WebApi.Data.EmailFlow.FromAddr*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.FromAddr
+  isExternal: true
+  name: FromAddr
+  nameWithType: EmailFlow.FromAddr
+  fullName: SuperOffice.WebApi.Data.EmailFlow.FromAddr
+- uid: SuperOffice.WebApi.Data.EmailFlow.ReplyToType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.ReplyToType_String
+  isExternal: true
+  name: ReplyToType_String
+  nameWithType: EmailFlow.ReplyToType_String
+  fullName: SuperOffice.WebApi.Data.EmailFlow.ReplyToType_String
+- uid: SuperOffice.WebApi.Data.EmailFlow.ReplyToType
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.ReplyToType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.EmailFlow.ReplyToType*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.ReplyToType
+  isExternal: true
+  name: ReplyToType
+  nameWithType: EmailFlow.ReplyToType
+  fullName: SuperOffice.WebApi.Data.EmailFlow.ReplyToType
+- uid: SuperOffice.WebApi.Data.EmailFlow.ReplyToType_String
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.ReplyToType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.EmailReplyToType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.EmailReplyToType}'
+  definition: System.Nullable`1
+  name: Nullable<EmailReplyToType>
+  nameWithType: Nullable<EmailReplyToType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.EmailReplyToType>
+  nameWithType.vb: Nullable(Of EmailReplyToType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.EmailReplyToType)
+  name.vb: Nullable(Of EmailReplyToType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.EmailReplyToType
+    name: EmailReplyToType
+    nameWithType: EmailReplyToType
+    fullName: SuperOffice.WebApi.Data.EmailReplyToType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.EmailReplyToType
+    name: EmailReplyToType
+    nameWithType: EmailReplyToType
+    fullName: SuperOffice.WebApi.Data.EmailReplyToType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.EmailFlow.ReplyToAddr*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.ReplyToAddr
+  isExternal: true
+  name: ReplyToAddr
+  nameWithType: EmailFlow.ReplyToAddr
+  fullName: SuperOffice.WebApi.Data.EmailFlow.ReplyToAddr
+- uid: SuperOffice.WebApi.Data.EmailFlow.ReplyToName*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.ReplyToName
+  isExternal: true
+  name: ReplyToName
+  nameWithType: EmailFlow.ReplyToName
+  fullName: SuperOffice.WebApi.Data.EmailFlow.ReplyToName
+- uid: SuperOffice.WebApi.Data.EmailFlow.SmsSender*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.SmsSender
+  isExternal: true
+  name: SmsSender
+  nameWithType: EmailFlow.SmsSender
+  fullName: SuperOffice.WebApi.Data.EmailFlow.SmsSender
+- uid: SuperOffice.WebApi.Data.EmailFlow.UseGoogleAnalytics*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.UseGoogleAnalytics
+  isExternal: true
+  name: UseGoogleAnalytics
+  nameWithType: EmailFlow.UseGoogleAnalytics
+  fullName: SuperOffice.WebApi.Data.EmailFlow.UseGoogleAnalytics
+- uid: SuperOffice.WebApi.Data.EmailFlow.GaSource*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.GaSource
+  isExternal: true
+  name: GaSource
+  nameWithType: EmailFlow.GaSource
+  fullName: SuperOffice.WebApi.Data.EmailFlow.GaSource
+- uid: SuperOffice.WebApi.Data.EmailFlow.GaCampaign*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.GaCampaign
+  isExternal: true
+  name: GaCampaign
+  nameWithType: EmailFlow.GaCampaign
+  fullName: SuperOffice.WebApi.Data.EmailFlow.GaCampaign
+- uid: SuperOffice.WebApi.Data.EmailFlow.UseTimeframe*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.UseTimeframe
+  isExternal: true
+  name: UseTimeframe
+  nameWithType: EmailFlow.UseTimeframe
+  fullName: SuperOffice.WebApi.Data.EmailFlow.UseTimeframe
+- uid: SuperOffice.WebApi.Data.EmailFlow.SelectedDays_String*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.SelectedDays_String
+  isExternal: true
+  name: SelectedDays_String
+  nameWithType: EmailFlow.SelectedDays_String
+  fullName: SuperOffice.WebApi.Data.EmailFlow.SelectedDays_String
+- uid: SuperOffice.WebApi.Data.EmailFlow.SelectedDays
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.SelectedDays
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.EmailFlow.SelectedDays*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.SelectedDays
+  isExternal: true
+  name: SelectedDays
+  nameWithType: EmailFlow.SelectedDays
+  fullName: SuperOffice.WebApi.Data.EmailFlow.SelectedDays
+- uid: SuperOffice.WebApi.Data.EmailFlow.SelectedDays_String
+  commentId: P:SuperOffice.WebApi.Data.EmailFlow.SelectedDays_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.Weekday}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.Weekday}'
+  definition: System.Nullable`1
+  name: Nullable<Weekday>
+  nameWithType: Nullable<Weekday>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.Weekday>
+  nameWithType.vb: Nullable(Of Weekday)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.Weekday)
+  name.vb: Nullable(Of Weekday)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Weekday
+    name: Weekday
+    nameWithType: Weekday
+    fullName: SuperOffice.WebApi.Data.Weekday
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Weekday
+    name: Weekday
+    nameWithType: Weekday
+    fullName: SuperOffice.WebApi.Data.Weekday
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.EmailFlow.TimeframeStart*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.TimeframeStart
+  isExternal: true
+  name: TimeframeStart
+  nameWithType: EmailFlow.TimeframeStart
+  fullName: SuperOffice.WebApi.Data.EmailFlow.TimeframeStart
+- uid: SuperOffice.WebApi.Data.EmailFlow.TimeframeEnd*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.TimeframeEnd
+  isExternal: true
+  name: TimeframeEnd
+  nameWithType: EmailFlow.TimeframeEnd
+  fullName: SuperOffice.WebApi.Data.EmailFlow.TimeframeEnd
+- uid: SuperOffice.WebApi.Data.EmailFlow.UseWorkflowStart*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.UseWorkflowStart
+  isExternal: true
+  name: UseWorkflowStart
+  nameWithType: EmailFlow.UseWorkflowStart
+  fullName: SuperOffice.WebApi.Data.EmailFlow.UseWorkflowStart
+- uid: SuperOffice.WebApi.Data.EmailFlow.WorkflowStart*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.WorkflowStart
+  isExternal: true
+  name: WorkflowStart
+  nameWithType: EmailFlow.WorkflowStart
+  fullName: SuperOffice.WebApi.Data.EmailFlow.WorkflowStart
+- uid: SuperOffice.WebApi.Data.EmailFlow.UseEnrollmentEnd*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.UseEnrollmentEnd
+  isExternal: true
+  name: UseEnrollmentEnd
+  nameWithType: EmailFlow.UseEnrollmentEnd
+  fullName: SuperOffice.WebApi.Data.EmailFlow.UseEnrollmentEnd
+- uid: SuperOffice.WebApi.Data.EmailFlow.EnrollmentEnd*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.EnrollmentEnd
+  isExternal: true
+  name: EnrollmentEnd
+  nameWithType: EmailFlow.EnrollmentEnd
+  fullName: SuperOffice.WebApi.Data.EmailFlow.EnrollmentEnd
+- uid: SuperOffice.WebApi.Data.EmailFlow.RemoveFromFlows*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.RemoveFromFlows
+  isExternal: true
+  name: RemoveFromFlows
+  nameWithType: EmailFlow.RemoveFromFlows
+  fullName: SuperOffice.WebApi.Data.EmailFlow.RemoveFromFlows
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.EmailFlow.TzLocation*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.TzLocation
+  isExternal: true
+  name: TzLocation
+  nameWithType: EmailFlow.TzLocation
+  fullName: SuperOffice.WebApi.Data.EmailFlow.TzLocation
+- uid: SuperOffice.WebApi.Data.TimeZoneData
+  commentId: T:SuperOffice.WebApi.Data.TimeZoneData
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TimeZoneData
+  nameWithType: TimeZoneData
+  fullName: SuperOffice.WebApi.Data.TimeZoneData
+- uid: SuperOffice.WebApi.Data.EmailFlow.Folder*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.Folder
+  isExternal: true
+  name: Folder
+  nameWithType: EmailFlow.Folder
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Folder
+- uid: SuperOffice.WebApi.Data.HierarchyEntity
+  commentId: T:SuperOffice.WebApi.Data.HierarchyEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: HierarchyEntity
+  nameWithType: HierarchyEntity
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity
+- uid: SuperOffice.WebApi.Data.EmailFlow.Associate*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: EmailFlow.Associate
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Associate
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate
+- uid: SuperOffice.WebApi.Data.EmailFlow.ShipmentType*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.ShipmentType
+  isExternal: true
+  name: ShipmentType
+  nameWithType: EmailFlow.ShipmentType
+  fullName: SuperOffice.WebApi.Data.EmailFlow.ShipmentType
+- uid: SuperOffice.WebApi.Data.MDOListItem
+  commentId: T:SuperOffice.WebApi.Data.MDOListItem
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: MDOListItem
+  nameWithType: MDOListItem
+  fullName: SuperOffice.WebApi.Data.MDOListItem
+- uid: SuperOffice.WebApi.Data.EmailFlow.Steps*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.Steps
+  isExternal: true
+  name: Steps
+  nameWithType: EmailFlow.Steps
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Steps
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase[]
+  isExternal: true
+  name: WorkflowStepBase[]
+  nameWithType: WorkflowStepBase[]
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase[]
+  nameWithType.vb: WorkflowStepBase()
+  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepBase()
+  name.vb: WorkflowStepBase()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.WorkflowStepBase
+    name: WorkflowStepBase
+    nameWithType: WorkflowStepBase
+    fullName: SuperOffice.WebApi.Data.WorkflowStepBase
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.WorkflowStepBase
+    name: WorkflowStepBase
+    nameWithType: WorkflowStepBase
+    fullName: SuperOffice.WebApi.Data.WorkflowStepBase
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.EmailFlow.Triggers*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.Triggers
+  isExternal: true
+  name: Triggers
+  nameWithType: EmailFlow.Triggers
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Triggers
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger[]
+  isExternal: true
+  name: WorkflowTrigger[]
+  nameWithType: WorkflowTrigger[]
+  fullName: SuperOffice.WebApi.Data.WorkflowTrigger[]
+  nameWithType.vb: WorkflowTrigger()
+  fullName.vb: SuperOffice.WebApi.Data.WorkflowTrigger()
+  name.vb: WorkflowTrigger()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.WorkflowTrigger
+    name: WorkflowTrigger
+    nameWithType: WorkflowTrigger
+    fullName: SuperOffice.WebApi.Data.WorkflowTrigger
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.WorkflowTrigger
+    name: WorkflowTrigger
+    nameWithType: WorkflowTrigger
+    fullName: SuperOffice.WebApi.Data.WorkflowTrigger
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.EmailFlow.Goals*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.Goals
+  isExternal: true
+  name: Goals
+  nameWithType: EmailFlow.Goals
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Goals
+- uid: SuperOffice.WebApi.Data.WorkflowGoal[]
+  isExternal: true
+  name: WorkflowGoal[]
+  nameWithType: WorkflowGoal[]
+  fullName: SuperOffice.WebApi.Data.WorkflowGoal[]
+  nameWithType.vb: WorkflowGoal()
+  fullName.vb: SuperOffice.WebApi.Data.WorkflowGoal()
+  name.vb: WorkflowGoal()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.WorkflowGoal
+    name: WorkflowGoal
+    nameWithType: WorkflowGoal
+    fullName: SuperOffice.WebApi.Data.WorkflowGoal
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.WorkflowGoal
+    name: WorkflowGoal
+    nameWithType: WorkflowGoal
+    fullName: SuperOffice.WebApi.Data.WorkflowGoal
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.EmailFlow.Filter*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.Filter
+  isExternal: true
+  name: Filter
+  nameWithType: EmailFlow.Filter
+  fullName: SuperOffice.WebApi.Data.EmailFlow.Filter
+- uid: SuperOffice.WebApi.Data.WorkflowFilter
+  commentId: T:SuperOffice.WebApi.Data.WorkflowFilter
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowFilter
+  nameWithType: WorkflowFilter
+  fullName: SuperOffice.WebApi.Data.WorkflowFilter
+- uid: SuperOffice.WebApi.Data.EmailFlow.BlockLists*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.BlockLists
+  isExternal: true
+  name: BlockLists
+  nameWithType: EmailFlow.BlockLists
+  fullName: SuperOffice.WebApi.Data.EmailFlow.BlockLists
+- uid: SuperOffice.WebApi.Data.EmailFlow.CreatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: EmailFlow.CreatedBy
+  fullName: SuperOffice.WebApi.Data.EmailFlow.CreatedBy
+- uid: SuperOffice.WebApi.Data.EmailFlow.UpdatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: EmailFlow.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.EmailFlow.UpdatedBy
+- uid: SuperOffice.WebApi.Data.EmailFlow.CreatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: EmailFlow.CreatedDate
+  fullName: SuperOffice.WebApi.Data.EmailFlow.CreatedDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.EmailFlow.UpdatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: EmailFlow.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.EmailFlow.UpdatedDate
+- uid: SuperOffice.WebApi.Data.EmailFlow.VisibleFor*
+  commentId: Overload:SuperOffice.WebApi.Data.EmailFlow.VisibleFor
+  isExternal: true
+  name: VisibleFor
+  nameWithType: EmailFlow.VisibleFor
+  fullName: SuperOffice.WebApi.Data.EmailFlow.VisibleFor
+- uid: SuperOffice.WebApi.Data.VisibleFor[]
+  isExternal: true
+  name: VisibleFor[]
+  nameWithType: VisibleFor[]
+  fullName: SuperOffice.WebApi.Data.VisibleFor[]
+  nameWithType.vb: VisibleFor()
+  fullName.vb: SuperOffice.WebApi.Data.VisibleFor()
+  name.vb: VisibleFor()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.VisibleFor
+    name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.WebApi.Data.VisibleFor
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.VisibleFor
+    name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.WebApi.Data.VisibleFor
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

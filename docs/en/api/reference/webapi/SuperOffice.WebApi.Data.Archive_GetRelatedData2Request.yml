@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request
+  commentId: T:SuperOffice.WebApi.Data.Archive_GetRelatedData2Request
+  id: Archive_GetRelatedData2Request
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.#ctor
+  - SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Fields
+  - SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.RecordId
+  - SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Table
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetRelatedData2Request
+  nameWithType: Archive_GetRelatedData2Request
+  fullName: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Archive_GetRelatedData2Request : Object'
+    content.vb: >-
+      Public Class Archive_GetRelatedData2Request
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetRelatedData2Request()
+  nameWithType: Archive_GetRelatedData2Request.Archive_GetRelatedData2Request()
+  fullName: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Archive_GetRelatedData2Request()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Archive_GetRelatedData2Request()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Table
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Table
+  id: Table
+  parent: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request
+  langs:
+  - csharp
+  - vb
+  name: Table
+  nameWithType: Archive_GetRelatedData2Request.Table
+  fullName: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Table
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Table { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Table As String
+  overload: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Table*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.RecordId
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.RecordId
+  id: RecordId
+  parent: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: Archive_GetRelatedData2Request.RecordId
+  fullName: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.RecordId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int RecordId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RecordId As Integer
+  overload: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.RecordId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Fields
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Fields
+  id: Fields
+  parent: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request
+  langs:
+  - csharp
+  - vb
+  name: Fields
+  nameWithType: Archive_GetRelatedData2Request.Fields
+  fullName: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Fields
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Fields { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Fields As String
+  overload: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Fields*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.#ctor
+  isExternal: true
+  name: Archive_GetRelatedData2Request
+  nameWithType: Archive_GetRelatedData2Request.Archive_GetRelatedData2Request
+  fullName: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Archive_GetRelatedData2Request
+- uid: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Table*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Table
+  isExternal: true
+  name: Table
+  nameWithType: Archive_GetRelatedData2Request.Table
+  fullName: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Table
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.RecordId*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.RecordId
+  isExternal: true
+  name: RecordId
+  nameWithType: Archive_GetRelatedData2Request.RecordId
+  fullName: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.RecordId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Fields*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Fields
+  isExternal: true
+  name: Fields
+  nameWithType: Archive_GetRelatedData2Request.Fields
+  fullName: SuperOffice.WebApi.Data.Archive_GetRelatedData2Request.Fields

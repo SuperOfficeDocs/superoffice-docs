@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.TicketStatusEntity.#ctor
+  - SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault
   - SuperOffice.WebApi.Data.TicketStatusEntity.Name
   - SuperOffice.WebApi.Data.TicketStatusEntity.NoEmailReopen
   - SuperOffice.WebApi.Data.TicketStatusEntity.Status
@@ -13,6 +14,7 @@ items:
   - SuperOffice.WebApi.Data.TicketStatusEntity.TicketStatusId
   - SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter
   - SuperOffice.WebApi.Data.TicketStatusEntity.TimeCounter_String
+  - SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue
   langs:
   - csharp
   - vb
@@ -310,6 +312,72 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault
+  commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault
+  id: IsDefault
+  parent: SuperOffice.WebApi.Data.TicketStatusEntity
+  langs:
+  - csharp
+  - vb
+  name: IsDefault
+  nameWithType: TicketStatusEntity.IsDefault
+  fullName: SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates if status is default one as there might be more than one status with same internal status\n"
+  syntax:
+    content: public virtual bool IsDefault { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsDefault As Boolean
+  overload: SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue
+  commentId: P:SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue
+  id: UsedInQueue
+  parent: SuperOffice.WebApi.Data.TicketStatusEntity
+  langs:
+  - csharp
+  - vb
+  name: UsedInQueue
+  nameWithType: TicketStatusEntity.UsedInQueue
+  fullName: SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf set, status is used in GetNext calculations\n"
+  syntax:
+    content: public virtual bool UsedInQueue { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UsedInQueue As Boolean
+  overload: SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -562,3 +630,15 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault
+  isExternal: true
+  name: IsDefault
+  nameWithType: TicketStatusEntity.IsDefault
+  fullName: SuperOffice.WebApi.Data.TicketStatusEntity.IsDefault
+- uid: SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue
+  isExternal: true
+  name: UsedInQueue
+  nameWithType: TicketStatusEntity.UsedInQueue
+  fullName: SuperOffice.WebApi.Data.TicketStatusEntity.UsedInQueue

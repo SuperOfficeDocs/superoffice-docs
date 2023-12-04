@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowSaleDateType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowSaleDateType
+  id: WorkflowSaleDateType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowSaleDateType.Equals
+  - SuperOffice.WebApi.Data.WorkflowSaleDateType.Estimated
+  - SuperOffice.WebApi.Data.WorkflowSaleDateType.value__
+  langs:
+  - csharp
+  - vb
+  name: WorkflowSaleDateType
+  nameWithType: WorkflowSaleDateType
+  fullName: SuperOffice.WebApi.Data.WorkflowSaleDateType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue for the create sale step date selection\n"
+  syntax:
+    content: 'public sealed class WorkflowSaleDateType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowSaleDateType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowSaleDateType.value__
+  commentId: F:SuperOffice.WebApi.Data.WorkflowSaleDateType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.WorkflowSaleDateType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowSaleDateType.value__
+  fullName: SuperOffice.WebApi.Data.WorkflowSaleDateType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowSaleDateType.Estimated
+  commentId: F:SuperOffice.WebApi.Data.WorkflowSaleDateType.Estimated
+  id: Estimated
+  parent: SuperOffice.WebApi.Data.WorkflowSaleDateType
+  langs:
+  - csharp
+  - vb
+  name: Estimated
+  nameWithType: WorkflowSaleDateType.Estimated
+  fullName: SuperOffice.WebApi.Data.WorkflowSaleDateType.Estimated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Estimated by sale type\n"
+  syntax:
+    content: public const WorkflowSaleDateType Estimated
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowSaleDateType
+    content.vb: Public Const Estimated As WorkflowSaleDateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowSaleDateType.Equals
+  commentId: F:SuperOffice.WebApi.Data.WorkflowSaleDateType.Equals
+  id: Equals
+  parent: SuperOffice.WebApi.Data.WorkflowSaleDateType
+  langs:
+  - csharp
+  - vb
+  name: Equals
+  nameWithType: WorkflowSaleDateType.Equals
+  fullName: SuperOffice.WebApi.Data.WorkflowSaleDateType.Equals
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Equals\n"
+  syntax:
+    content: public const WorkflowSaleDateType Equals
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowSaleDateType
+    content.vb: Public Const Equals As WorkflowSaleDateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.WorkflowSaleDateType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowSaleDateType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowSaleDateType
+  nameWithType: WorkflowSaleDateType
+  fullName: SuperOffice.WebApi.Data.WorkflowSaleDateType

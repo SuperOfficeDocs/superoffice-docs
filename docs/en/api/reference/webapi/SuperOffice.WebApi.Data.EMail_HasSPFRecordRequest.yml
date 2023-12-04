@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest
+  id: EMail_HasSPFRecordRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.SourceSpf
+  - SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.TargetDomain
+  langs:
+  - csharp
+  - vb
+  name: EMail_HasSPFRecordRequest
+  nameWithType: EMail_HasSPFRecordRequest
+  fullName: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_HasSPFRecordRequest : Object'
+    content.vb: >-
+      Public Class EMail_HasSPFRecordRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_HasSPFRecordRequest()
+  nameWithType: EMail_HasSPFRecordRequest.EMail_HasSPFRecordRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.EMail_HasSPFRecordRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_HasSPFRecordRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.SourceSpf
+  commentId: P:SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.SourceSpf
+  id: SourceSpf
+  parent: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest
+  langs:
+  - csharp
+  - vb
+  name: SourceSpf
+  nameWithType: EMail_HasSPFRecordRequest.SourceSpf
+  fullName: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.SourceSpf
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string SourceSpf { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SourceSpf As String
+  overload: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.SourceSpf*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.TargetDomain
+  commentId: P:SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.TargetDomain
+  id: TargetDomain
+  parent: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetDomain
+  nameWithType: EMail_HasSPFRecordRequest.TargetDomain
+  fullName: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.TargetDomain
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TargetDomain { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetDomain As String
+  overload: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.TargetDomain*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.#ctor
+  isExternal: true
+  name: EMail_HasSPFRecordRequest
+  nameWithType: EMail_HasSPFRecordRequest.EMail_HasSPFRecordRequest
+  fullName: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.EMail_HasSPFRecordRequest
+- uid: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.SourceSpf*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.SourceSpf
+  isExternal: true
+  name: SourceSpf
+  nameWithType: EMail_HasSPFRecordRequest.SourceSpf
+  fullName: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.SourceSpf
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.TargetDomain*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.TargetDomain
+  isExternal: true
+  name: TargetDomain
+  nameWithType: EMail_HasSPFRecordRequest.TargetDomain
+  fullName: SuperOffice.WebApi.Data.EMail_HasSPFRecordRequest.TargetDomain

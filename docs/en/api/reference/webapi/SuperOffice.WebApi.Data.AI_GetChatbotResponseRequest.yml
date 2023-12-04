@@ -1,0 +1,266 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest
+  id: AI_GetChatbotResponseRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue
+  - SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode
+  - SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns
+  - SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt
+  langs:
+  - csharp
+  - vb
+  name: AI_GetChatbotResponseRequest
+  nameWithType: AI_GetChatbotResponseRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class AI_GetChatbotResponseRequest : Object'
+    content.vb: >-
+      Public Class AI_GetChatbotResponseRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest
+  langs:
+  - csharp
+  - vb
+  name: AI_GetChatbotResponseRequest()
+  nameWithType: AI_GetChatbotResponseRequest.AI_GetChatbotResponseRequest()
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.AI_GetChatbotResponseRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AI_GetChatbotResponseRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode
+  commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode
+  id: IsoLangCode
+  parent: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest
+  langs:
+  - csharp
+  - vb
+  name: IsoLangCode
+  nameWithType: AI_GetChatbotResponseRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string IsoLangCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IsoLangCode As String
+  overload: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt
+  commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt
+  id: UserPrompt
+  parent: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest
+  langs:
+  - csharp
+  - vb
+  name: UserPrompt
+  nameWithType: AI_GetChatbotResponseRequest.UserPrompt
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UserPrompt { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserPrompt As String
+  overload: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue
+  commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue
+  id: DisplayValue
+  parent: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest
+  langs:
+  - csharp
+  - vb
+  name: DisplayValue
+  nameWithType: AI_GetChatbotResponseRequest.DisplayValue
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string DisplayValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayValue As String
+  overload: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns
+  commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns
+  id: PreviousTurns
+  parent: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest
+  langs:
+  - csharp
+  - vb
+  name: PreviousTurns
+  nameWithType: AI_GetChatbotResponseRequest.PreviousTurns
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ChatbotTurn[] PreviousTurns { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ChatbotTurn[]
+    content.vb: Public Property PreviousTurns As ChatbotTurn()
+  overload: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.#ctor
+  isExternal: true
+  name: AI_GetChatbotResponseRequest
+  nameWithType: AI_GetChatbotResponseRequest.AI_GetChatbotResponseRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.AI_GetChatbotResponseRequest
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode
+  isExternal: true
+  name: IsoLangCode
+  nameWithType: AI_GetChatbotResponseRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt
+  isExternal: true
+  name: UserPrompt
+  nameWithType: AI_GetChatbotResponseRequest.UserPrompt
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue
+  isExternal: true
+  name: DisplayValue
+  nameWithType: AI_GetChatbotResponseRequest.DisplayValue
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue
+- uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns
+  isExternal: true
+  name: PreviousTurns
+  nameWithType: AI_GetChatbotResponseRequest.PreviousTurns
+  fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns
+- uid: SuperOffice.WebApi.Data.ChatbotTurn[]
+  isExternal: true
+  name: ChatbotTurn[]
+  nameWithType: ChatbotTurn[]
+  fullName: SuperOffice.WebApi.Data.ChatbotTurn[]
+  nameWithType.vb: ChatbotTurn()
+  fullName.vb: SuperOffice.WebApi.Data.ChatbotTurn()
+  name.vb: ChatbotTurn()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ChatbotTurn
+    name: ChatbotTurn
+    nameWithType: ChatbotTurn
+    fullName: SuperOffice.WebApi.Data.ChatbotTurn
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ChatbotTurn
+    name: ChatbotTurn
+    nameWithType: ChatbotTurn
+    fullName: SuperOffice.WebApi.Data.ChatbotTurn
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

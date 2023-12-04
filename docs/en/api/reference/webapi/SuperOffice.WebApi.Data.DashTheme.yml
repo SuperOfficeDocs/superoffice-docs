@@ -11,6 +11,7 @@ items:
   - SuperOffice.WebApi.Data.DashTheme.DashboardThemeId
   - SuperOffice.WebApi.Data.DashTheme.Name
   - SuperOffice.WebApi.Data.DashTheme.Rank
+  - SuperOffice.WebApi.Data.DashTheme.Style
   langs:
   - csharp
   - vb
@@ -238,6 +239,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.DashTheme.Style
+  commentId: P:SuperOffice.WebApi.Data.DashTheme.Style
+  id: Style
+  parent: SuperOffice.WebApi.Data.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: Style
+  nameWithType: DashTheme.Style
+  fullName: SuperOffice.WebApi.Data.DashTheme.Style
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStyle value - for example &apos;light&apos; or &apos;dark&apos;\n"
+  syntax:
+    content: public virtual string Style { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Style As String
+  overload: SuperOffice.WebApi.Data.DashTheme.Style*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -342,3 +376,9 @@ references:
   name: Client
   nameWithType: DashTheme.Client
   fullName: SuperOffice.WebApi.Data.DashTheme.Client
+- uid: SuperOffice.WebApi.Data.DashTheme.Style*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTheme.Style
+  isExternal: true
+  name: Style
+  nameWithType: DashTheme.Style
+  fullName: SuperOffice.WebApi.Data.DashTheme.Style

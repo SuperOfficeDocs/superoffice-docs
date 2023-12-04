@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.EFieldRight.None
+  - SuperOffice.WebApi.Data.EFieldRight.Nullable
   - SuperOffice.WebApi.Data.EFieldRight.Read
   - SuperOffice.WebApi.Data.EFieldRight.UIHintMandatory
   - SuperOffice.WebApi.Data.EFieldRight.UIHintReadOnly
@@ -417,6 +418,35 @@ items:
     return:
       type: SuperOffice.WebApi.Data.EFieldRight
     content.vb: Public Const UndefinedValue256 As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EFieldRight.Nullable
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.Nullable
+  id: Nullable
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: Nullable
+  nameWithType: EFieldRight.Nullable
+  fullName: SuperOffice.WebApi.Data.EFieldRight.Nullable
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n32: Field can have NULL as a valid value.\n"
+  syntax:
+    content: public const EFieldRight Nullable
+    return:
+      type: SuperOffice.WebApi.Data.EFieldRight
+    content.vb: Public Const Nullable As EFieldRight
   modifiers.csharp:
   - public
   - const

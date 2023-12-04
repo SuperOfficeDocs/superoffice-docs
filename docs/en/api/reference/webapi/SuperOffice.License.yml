@@ -5,6 +5,7 @@ items:
   id: SuperOffice.License
   children:
   - SuperOffice.License.SoLicenseNames
+  - SuperOffice.License.UserLicenseAttribute
   langs:
   - csharp
   - vb
@@ -15,9 +16,22 @@ items:
   assemblies:
   - SuperOffice.WebApi
 references:
+- uid: SuperOffice.License.UserLicenseAttribute
+  commentId: T:SuperOffice.License.UserLicenseAttribute
+  parent: SuperOffice.License
+  isExternal: true
+  name: UserLicenseAttribute
+  nameWithType: UserLicenseAttribute
+  fullName: SuperOffice.License.UserLicenseAttribute
 - uid: SuperOffice.License.SoLicenseNames
   commentId: T:SuperOffice.License.SoLicenseNames
   isExternal: true
   name: SoLicenseNames
   nameWithType: SoLicenseNames
   fullName: SuperOffice.License.SoLicenseNames
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License

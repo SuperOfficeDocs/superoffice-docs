@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TimeZone_GetDefaultTimeZoneInformationRequest
+  commentId: T:SuperOffice.WebApi.Data.TimeZone_GetDefaultTimeZoneInformationRequest
+  id: TimeZone_GetDefaultTimeZoneInformationRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TimeZone_GetDefaultTimeZoneInformationRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: TimeZone_GetDefaultTimeZoneInformationRequest
+  nameWithType: TimeZone_GetDefaultTimeZoneInformationRequest
+  fullName: SuperOffice.WebApi.Data.TimeZone_GetDefaultTimeZoneInformationRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class TimeZone_GetDefaultTimeZoneInformationRequest : Object'
+    content.vb: >-
+      Public Class TimeZone_GetDefaultTimeZoneInformationRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TimeZone_GetDefaultTimeZoneInformationRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TimeZone_GetDefaultTimeZoneInformationRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TimeZone_GetDefaultTimeZoneInformationRequest
+  langs:
+  - csharp
+  - vb
+  name: TimeZone_GetDefaultTimeZoneInformationRequest()
+  nameWithType: TimeZone_GetDefaultTimeZoneInformationRequest.TimeZone_GetDefaultTimeZoneInformationRequest()
+  fullName: SuperOffice.WebApi.Data.TimeZone_GetDefaultTimeZoneInformationRequest.TimeZone_GetDefaultTimeZoneInformationRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TimeZone_GetDefaultTimeZoneInformationRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TimeZone_GetDefaultTimeZoneInformationRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TimeZone_GetDefaultTimeZoneInformationRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZone_GetDefaultTimeZoneInformationRequest.#ctor
+  isExternal: true
+  name: TimeZone_GetDefaultTimeZoneInformationRequest
+  nameWithType: TimeZone_GetDefaultTimeZoneInformationRequest.TimeZone_GetDefaultTimeZoneInformationRequest
+  fullName: SuperOffice.WebApi.Data.TimeZone_GetDefaultTimeZoneInformationRequest.TimeZone_GetDefaultTimeZoneInformationRequest

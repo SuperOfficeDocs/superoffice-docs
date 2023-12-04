@@ -28,6 +28,8 @@ items:
   - SuperOffice.WebApi.Data.DashTileDefinition.SortBy
   - SuperOffice.WebApi.Data.DashTileDefinition.TileType
   - SuperOffice.WebApi.Data.DashTileDefinition.TileType_String
+  - SuperOffice.WebApi.Data.DashTileDefinition.Usage
+  - SuperOffice.WebApi.Data.DashTileDefinition.Usage_String
   langs:
   - csharp
   - vb
@@ -791,6 +793,74 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.DashTileDefinition.Usage_String
+  commentId: P:SuperOffice.WebApi.Data.DashTileDefinition.Usage_String
+  id: Usage_String
+  parent: SuperOffice.WebApi.Data.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: Usage_String
+  nameWithType: DashTileDefinition.Usage_String
+  fullName: SuperOffice.WebApi.Data.DashTileDefinition.Usage_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhere this tile can be used\nRaw string enum value.\n"
+  syntax:
+    content: public string Usage_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Usage_String As String
+  overload: SuperOffice.WebApi.Data.DashTileDefinition.Usage_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.DashTileDefinition.Usage
+    commentId: P:SuperOffice.WebApi.Data.DashTileDefinition.Usage
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DashTileDefinition.Usage
+  commentId: P:SuperOffice.WebApi.Data.DashTileDefinition.Usage
+  id: Usage
+  parent: SuperOffice.WebApi.Data.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: Usage
+  nameWithType: DashTileDefinition.Usage
+  fullName: SuperOffice.WebApi.Data.DashTileDefinition.Usage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhere this tile can be used\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<DashTileUsage> Usage { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.DashTileUsage}
+    content.vb: Public Property Usage As Nullable(Of DashTileUsage)
+  overload: SuperOffice.WebApi.Data.DashTileDefinition.Usage*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.DashTileDefinition.Usage_String
+    commentId: P:SuperOffice.WebApi.Data.DashTileDefinition.Usage_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.DashTileDefinition.ProviderName
   commentId: P:SuperOffice.WebApi.Data.DashTileDefinition.ProviderName
   id: ProviderName
@@ -1251,6 +1321,67 @@ references:
   name: MeasureByField
   nameWithType: DashTileDefinition.MeasureByField
   fullName: SuperOffice.WebApi.Data.DashTileDefinition.MeasureByField
+- uid: SuperOffice.WebApi.Data.DashTileDefinition.Usage_String*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTileDefinition.Usage_String
+  isExternal: true
+  name: Usage_String
+  nameWithType: DashTileDefinition.Usage_String
+  fullName: SuperOffice.WebApi.Data.DashTileDefinition.Usage_String
+- uid: SuperOffice.WebApi.Data.DashTileDefinition.Usage
+  commentId: P:SuperOffice.WebApi.Data.DashTileDefinition.Usage
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.DashTileDefinition.Usage*
+  commentId: Overload:SuperOffice.WebApi.Data.DashTileDefinition.Usage
+  isExternal: true
+  name: Usage
+  nameWithType: DashTileDefinition.Usage
+  fullName: SuperOffice.WebApi.Data.DashTileDefinition.Usage
+- uid: SuperOffice.WebApi.Data.DashTileDefinition.Usage_String
+  commentId: P:SuperOffice.WebApi.Data.DashTileDefinition.Usage_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.DashTileUsage}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.DashTileUsage}'
+  definition: System.Nullable`1
+  name: Nullable<DashTileUsage>
+  nameWithType: Nullable<DashTileUsage>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.DashTileUsage>
+  nameWithType.vb: Nullable(Of DashTileUsage)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.DashTileUsage)
+  name.vb: Nullable(Of DashTileUsage)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DashTileUsage
+    name: DashTileUsage
+    nameWithType: DashTileUsage
+    fullName: SuperOffice.WebApi.Data.DashTileUsage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DashTileUsage
+    name: DashTileUsage
+    nameWithType: DashTileUsage
+    fullName: SuperOffice.WebApi.Data.DashTileUsage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.DashTileDefinition.ProviderName*
   commentId: Overload:SuperOffice.WebApi.Data.DashTileDefinition.ProviderName
   isExternal: true

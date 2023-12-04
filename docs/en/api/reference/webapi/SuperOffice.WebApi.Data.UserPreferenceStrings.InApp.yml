@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.InApp
+  id: UserPreferenceStrings.InApp
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.ComResourceCentre
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.FeatureUpdatesNews
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.HelpTipsLearning
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.SurveysFeedback
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.InApp
+  nameWithType: UserPreferenceStrings.InApp
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIn-App\n"
+  syntax:
+    content: 'public static class InApp : Object'
+    content.vb: >-
+      Public Module InApp
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.InApp.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "InApp"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "InApp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.ComResourceCentre
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.ComResourceCentre
+  id: ComResourceCentre
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp
+  langs:
+  - csharp
+  - vb
+  name: ComResourceCentre
+  nameWithType: UserPreferenceStrings.InApp.ComResourceCentre
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.ComResourceCentre
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string ComResourceCentre = "ComResourceCentre"
+    return:
+      type: System.String
+    content.vb: Public Const ComResourceCentre As String = "ComResourceCentre"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.SurveysFeedback
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.SurveysFeedback
+  id: SurveysFeedback
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp
+  langs:
+  - csharp
+  - vb
+  name: SurveysFeedback
+  nameWithType: UserPreferenceStrings.InApp.SurveysFeedback
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.SurveysFeedback
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string SurveysFeedback = "SurveysFeedback"
+    return:
+      type: System.String
+    content.vb: Public Const SurveysFeedback As String = "SurveysFeedback"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.FeatureUpdatesNews
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.FeatureUpdatesNews
+  id: FeatureUpdatesNews
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp
+  langs:
+  - csharp
+  - vb
+  name: FeatureUpdatesNews
+  nameWithType: UserPreferenceStrings.InApp.FeatureUpdatesNews
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.FeatureUpdatesNews
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string FeatureUpdatesNews = "FeatureUpdatesNews"
+    return:
+      type: System.String
+    content.vb: Public Const FeatureUpdatesNews As String = "FeatureUpdatesNews"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.HelpTipsLearning
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.HelpTipsLearning
+  id: HelpTipsLearning
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp
+  langs:
+  - csharp
+  - vb
+  name: HelpTipsLearning
+  nameWithType: UserPreferenceStrings.InApp.HelpTipsLearning
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp.HelpTipsLearning
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string HelpTipsLearning = "HelpTipsLearning"
+    return:
+      type: System.String
+    content.vb: Public Const HelpTipsLearning As String = "HelpTipsLearning"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

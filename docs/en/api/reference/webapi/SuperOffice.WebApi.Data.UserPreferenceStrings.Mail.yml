@@ -29,6 +29,7 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.DiarySynchronizerActive
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EmailBounceThreshold
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EnableContextualProjectsAndSalesForContact
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EnableEmailInvitationPreview
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EnableMailSync
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.FirstMailSync
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.FontColor
@@ -57,6 +58,7 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.NameSent
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.NotesEmailTemplatesDeployed
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.NotifyAssociateByMail
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.NotifyAttendeesByMail
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.NotifyExtPersonByMail
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.NotifyOnlineUsers
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.NotifyWhenNewMail
@@ -2337,6 +2339,64 @@ items:
     return:
       type: System.String
     content.vb: Public Const EnableContextualProjectsAndSalesForContact As String = "EnableContextualProjectsAndSalesForContact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EnableEmailInvitationPreview
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EnableEmailInvitationPreview
+  id: EnableEmailInvitationPreview
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: EnableEmailInvitationPreview
+  nameWithType: UserPreferenceStrings.Mail.EnableEmailInvitationPreview
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EnableEmailInvitationPreview
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnable preview of e-mail invitations\n"
+  syntax:
+    content: public const string EnableEmailInvitationPreview = "EnableEmailInvitationPreview"
+    return:
+      type: System.String
+    content.vb: Public Const EnableEmailInvitationPreview As String = "EnableEmailInvitationPreview"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.NotifyAttendeesByMail
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.NotifyAttendeesByMail
+  id: NotifyAttendeesByMail
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: NotifyAttendeesByMail
+  nameWithType: UserPreferenceStrings.Mail.NotifyAttendeesByMail
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.NotifyAttendeesByMail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnable sending emails to attendees in follow-ups by default.\n"
+  syntax:
+    content: public const string NotifyAttendeesByMail = "NotifyAttendeesByMail"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyAttendeesByMail As String = "NotifyAttendeesByMail"
   modifiers.csharp:
   - public
   - const

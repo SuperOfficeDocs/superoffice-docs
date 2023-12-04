@@ -6,16 +6,20 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.ETableRight.Delete
+  - SuperOffice.WebApi.Data.ETableRight.F
   - SuperOffice.WebApi.Data.ETableRight.FI
   - SuperOffice.WebApi.Data.ETableRight.Filtering
   - SuperOffice.WebApi.Data.ETableRight.FULL
   - SuperOffice.WebApi.Data.ETableRight.Insert
   - SuperOffice.WebApi.Data.ETableRight.None
+  - SuperOffice.WebApi.Data.ETableRight.R
   - SuperOffice.WebApi.Data.ETableRight.RestrictedUpdate
   - SuperOffice.WebApi.Data.ETableRight.RF
   - SuperOffice.WebApi.Data.ETableRight.RI
   - SuperOffice.WebApi.Data.ETableRight.Select
   - SuperOffice.WebApi.Data.ETableRight.UDR
+  - SuperOffice.WebApi.Data.ETableRight.Uninitialized
+  - SuperOffice.WebApi.Data.ETableRight.Unused1
   - SuperOffice.WebApi.Data.ETableRight.Update
   - SuperOffice.WebApi.Data.ETableRight.UR
   - SuperOffice.WebApi.Data.ETableRight.URI
@@ -477,6 +481,122 @@ items:
     return:
       type: SuperOffice.WebApi.Data.ETableRight
     content.vb: Public Const RestrictedUpdate As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.Unused1
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.Unused1
+  id: Unused1
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: Unused1
+  nameWithType: ETableRight.Unused1
+  fullName: SuperOffice.WebApi.Data.ETableRight.Unused1
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n64: Unused value only present for serializatrion purposes\n"
+  syntax:
+    content: public const ETableRight Unused1
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const Unused1 As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.Uninitialized
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.Uninitialized
+  id: Uninitialized
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: Uninitialized
+  nameWithType: ETableRight.Uninitialized
+  fullName: SuperOffice.WebApi.Data.ETableRight.Uninitialized
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n128: Magic value to indicate not\n"
+  syntax:
+    content: public const ETableRight Uninitialized
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const Uninitialized As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.R
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.R
+  id: R
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: R
+  nameWithType: ETableRight.R
+  fullName: SuperOffice.WebApi.Data.ETableRight.R
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Select only\n"
+  syntax:
+    content: public const ETableRight R
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const R As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.F
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.F
+  id: F
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: F
+  nameWithType: ETableRight.F
+  fullName: SuperOffice.WebApi.Data.ETableRight.F
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n16: just Filtering\n"
+  syntax:
+    content: public const ETableRight F
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const F As ETableRight
   modifiers.csharp:
   - public
   - const

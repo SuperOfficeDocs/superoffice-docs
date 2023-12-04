@@ -1,0 +1,293 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PreviewQuickReply
+  commentId: T:SuperOffice.WebApi.Data.PreviewQuickReply
+  id: PreviewQuickReply
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PreviewQuickReply.#ctor
+  - SuperOffice.WebApi.Data.PreviewQuickReply.HtmlBody
+  - SuperOffice.WebApi.Data.PreviewQuickReply.Name
+  - SuperOffice.WebApi.Data.PreviewQuickReply.Updated
+  - SuperOffice.WebApi.Data.PreviewQuickReply.UpdatedByFullName
+  langs:
+  - csharp
+  - vb
+  name: PreviewQuickReply
+  nameWithType: PreviewQuickReply
+  fullName: SuperOffice.WebApi.Data.PreviewQuickReply
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PreviewQuickReply.\nA quick reply with information suitable for preview.    \n"
+  syntax:
+    content: 'public class PreviewQuickReply : Carrier'
+    content.vb: >-
+      Public Class PreviewQuickReply
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PreviewQuickReply.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PreviewQuickReply.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PreviewQuickReply
+  langs:
+  - csharp
+  - vb
+  name: PreviewQuickReply()
+  nameWithType: PreviewQuickReply.PreviewQuickReply()
+  fullName: SuperOffice.WebApi.Data.PreviewQuickReply.PreviewQuickReply()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PreviewQuickReply()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PreviewQuickReply.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PreviewQuickReply.Name
+  commentId: P:SuperOffice.WebApi.Data.PreviewQuickReply.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.PreviewQuickReply
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PreviewQuickReply.Name
+  fullName: SuperOffice.WebApi.Data.PreviewQuickReply.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe short name of the quick reply\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.PreviewQuickReply.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewQuickReply.UpdatedByFullName
+  commentId: P:SuperOffice.WebApi.Data.PreviewQuickReply.UpdatedByFullName
+  id: UpdatedByFullName
+  parent: SuperOffice.WebApi.Data.PreviewQuickReply
+  langs:
+  - csharp
+  - vb
+  name: UpdatedByFullName
+  nameWithType: PreviewQuickReply.UpdatedByFullName
+  fullName: SuperOffice.WebApi.Data.PreviewQuickReply.UpdatedByFullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFull name of associate last updating this quick reply\n"
+  syntax:
+    content: public virtual string UpdatedByFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UpdatedByFullName As String
+  overload: SuperOffice.WebApi.Data.PreviewQuickReply.UpdatedByFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewQuickReply.Updated
+  commentId: P:SuperOffice.WebApi.Data.PreviewQuickReply.Updated
+  id: Updated
+  parent: SuperOffice.WebApi.Data.PreviewQuickReply
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: PreviewQuickReply.Updated
+  fullName: SuperOffice.WebApi.Data.PreviewQuickReply.Updated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDate/time this quick reply was last updated.\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As DateTime
+  overload: SuperOffice.WebApi.Data.PreviewQuickReply.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewQuickReply.HtmlBody
+  commentId: P:SuperOffice.WebApi.Data.PreviewQuickReply.HtmlBody
+  id: HtmlBody
+  parent: SuperOffice.WebApi.Data.PreviewQuickReply
+  langs:
+  - csharp
+  - vb
+  name: HtmlBody
+  nameWithType: PreviewQuickReply.HtmlBody
+  fullName: SuperOffice.WebApi.Data.PreviewQuickReply.HtmlBody
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nQuick reply body in HTML format.\n"
+  syntax:
+    content: public virtual string HtmlBody { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property HtmlBody As String
+  overload: SuperOffice.WebApi.Data.PreviewQuickReply.HtmlBody*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PreviewQuickReply.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewQuickReply.#ctor
+  isExternal: true
+  name: PreviewQuickReply
+  nameWithType: PreviewQuickReply.PreviewQuickReply
+  fullName: SuperOffice.WebApi.Data.PreviewQuickReply.PreviewQuickReply
+- uid: SuperOffice.WebApi.Data.PreviewQuickReply.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewQuickReply.Name
+  isExternal: true
+  name: Name
+  nameWithType: PreviewQuickReply.Name
+  fullName: SuperOffice.WebApi.Data.PreviewQuickReply.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.PreviewQuickReply.UpdatedByFullName*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewQuickReply.UpdatedByFullName
+  isExternal: true
+  name: UpdatedByFullName
+  nameWithType: PreviewQuickReply.UpdatedByFullName
+  fullName: SuperOffice.WebApi.Data.PreviewQuickReply.UpdatedByFullName
+- uid: SuperOffice.WebApi.Data.PreviewQuickReply.Updated*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewQuickReply.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: PreviewQuickReply.Updated
+  fullName: SuperOffice.WebApi.Data.PreviewQuickReply.Updated
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.PreviewQuickReply.HtmlBody*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewQuickReply.HtmlBody
+  isExternal: true
+  name: HtmlBody
+  nameWithType: PreviewQuickReply.HtmlBody
+  fullName: SuperOffice.WebApi.Data.PreviewQuickReply.HtmlBody

@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.WebApi.Data.Appointment.#ctor
   - SuperOffice.WebApi.Data.Appointment.ActiveDate
+  - SuperOffice.WebApi.Data.Appointment.Agenda
   - SuperOffice.WebApi.Data.Appointment.AlarmLeadTime
   - SuperOffice.WebApi.Data.Appointment.AppointmentId
   - SuperOffice.WebApi.Data.Appointment.AssignedBy
@@ -32,6 +33,7 @@ items:
   - SuperOffice.WebApi.Data.Appointment.Description
   - SuperOffice.WebApi.Data.Appointment.EndDate
   - SuperOffice.WebApi.Data.Appointment.HasAlarm
+  - SuperOffice.WebApi.Data.Appointment.InternalNotes
   - SuperOffice.WebApi.Data.Appointment.InvitationStatus
   - SuperOffice.WebApi.Data.Appointment.InvitationStatus_String
   - SuperOffice.WebApi.Data.Appointment.IsAlldayEvent
@@ -45,6 +47,7 @@ items:
   - SuperOffice.WebApi.Data.Appointment.MotherId
   - SuperOffice.WebApi.Data.Appointment.PersonFullName
   - SuperOffice.WebApi.Data.Appointment.PersonId
+  - SuperOffice.WebApi.Data.Appointment.PreferredTZLocation
   - SuperOffice.WebApi.Data.Appointment.PriorityId
   - SuperOffice.WebApi.Data.Appointment.PriorityName
   - SuperOffice.WebApi.Data.Appointment.Private
@@ -62,6 +65,7 @@ items:
   - SuperOffice.WebApi.Data.Appointment.Task
   - SuperOffice.WebApi.Data.Appointment.TaskType
   - SuperOffice.WebApi.Data.Appointment.TaskType_String
+  - SuperOffice.WebApi.Data.Appointment.Title
   - SuperOffice.WebApi.Data.Appointment.Type
   - SuperOffice.WebApi.Data.Appointment.Type_String
   langs:
@@ -2058,6 +2062,138 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.Appointment.PreferredTZLocation
+  commentId: P:SuperOffice.WebApi.Data.Appointment.PreferredTZLocation
+  id: PreferredTZLocation
+  parent: SuperOffice.WebApi.Data.Appointment
+  langs:
+  - csharp
+  - vb
+  name: PreferredTZLocation
+  nameWithType: Appointment.PreferredTZLocation
+  fullName: SuperOffice.WebApi.Data.Appointment.PreferredTZLocation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreferred timezone location to use when displaying/editing this appointment\n"
+  syntax:
+    content: public virtual int PreferredTZLocation { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PreferredTZLocation As Integer
+  overload: SuperOffice.WebApi.Data.Appointment.PreferredTZLocation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Appointment.Title
+  commentId: P:SuperOffice.WebApi.Data.Appointment.Title
+  id: Title
+  parent: SuperOffice.WebApi.Data.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: Appointment.Title
+  fullName: SuperOffice.WebApi.Data.Appointment.Title
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe title of the appointment.\n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.WebApi.Data.Appointment.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Appointment.Agenda
+  commentId: P:SuperOffice.WebApi.Data.Appointment.Agenda
+  id: Agenda
+  parent: SuperOffice.WebApi.Data.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Agenda
+  nameWithType: Appointment.Agenda
+  fullName: SuperOffice.WebApi.Data.Appointment.Agenda
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe agenda of the appointment.\n"
+  syntax:
+    content: public virtual string Agenda { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Agenda As String
+  overload: SuperOffice.WebApi.Data.Appointment.Agenda*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Appointment.InternalNotes
+  commentId: P:SuperOffice.WebApi.Data.Appointment.InternalNotes
+  id: InternalNotes
+  parent: SuperOffice.WebApi.Data.Appointment
+  langs:
+  - csharp
+  - vb
+  name: InternalNotes
+  nameWithType: Appointment.InternalNotes
+  fullName: SuperOffice.WebApi.Data.Appointment.InternalNotes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInternal notes for the appointment.\n"
+  syntax:
+    content: public virtual string InternalNotes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property InternalNotes As String
+  overload: SuperOffice.WebApi.Data.Appointment.InternalNotes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -2976,3 +3112,27 @@ references:
   name: JoinVideomeetUrl
   nameWithType: Appointment.JoinVideomeetUrl
   fullName: SuperOffice.WebApi.Data.Appointment.JoinVideomeetUrl
+- uid: SuperOffice.WebApi.Data.Appointment.PreferredTZLocation*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment.PreferredTZLocation
+  isExternal: true
+  name: PreferredTZLocation
+  nameWithType: Appointment.PreferredTZLocation
+  fullName: SuperOffice.WebApi.Data.Appointment.PreferredTZLocation
+- uid: SuperOffice.WebApi.Data.Appointment.Title*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment.Title
+  isExternal: true
+  name: Title
+  nameWithType: Appointment.Title
+  fullName: SuperOffice.WebApi.Data.Appointment.Title
+- uid: SuperOffice.WebApi.Data.Appointment.Agenda*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment.Agenda
+  isExternal: true
+  name: Agenda
+  nameWithType: Appointment.Agenda
+  fullName: SuperOffice.WebApi.Data.Appointment.Agenda
+- uid: SuperOffice.WebApi.Data.Appointment.InternalNotes*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment.InternalNotes
+  isExternal: true
+  name: InternalNotes
+  nameWithType: Appointment.InternalNotes
+  fullName: SuperOffice.WebApi.Data.Appointment.InternalNotes

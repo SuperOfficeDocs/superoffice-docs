@@ -73,6 +73,8 @@ items:
   - SuperOffice.WebApi.Data.Navigation.SelectionQuoteLineArchive
   - SuperOffice.WebApi.Data.Navigation.SelectionSaleArchive
   - SuperOffice.WebApi.Data.Navigation.SelectionTaskCard
+  - SuperOffice.WebApi.Data.Navigation.TicketCard
+  - SuperOffice.WebApi.Data.Navigation.TicketMinicard
   - SuperOffice.WebApi.Data.Navigation.ToolboxMenu
   - SuperOffice.WebApi.Data.Navigation.TopPanelNewMenu
   - SuperOffice.WebApi.Data.Navigation.value__
@@ -2187,6 +2189,64 @@ items:
     return:
       type: SuperOffice.WebApi.Data.Navigation
     content.vb: Public Const ProjectCardTask As Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Navigation.TicketCard
+  commentId: F:SuperOffice.WebApi.Data.Navigation.TicketCard
+  id: TicketCard
+  parent: SuperOffice.WebApi.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: TicketCard
+  nameWithType: Navigation.TicketCard
+  fullName: SuperOffice.WebApi.Data.Navigation.TicketCard
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n71: This application (type IntegratedHTML or IntegratedURL) appears as a tab in the Request card\n"
+  syntax:
+    content: public const Navigation TicketCard
+    return:
+      type: SuperOffice.WebApi.Data.Navigation
+    content.vb: Public Const TicketCard As Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Navigation.TicketMinicard
+  commentId: F:SuperOffice.WebApi.Data.Navigation.TicketMinicard
+  id: TicketMinicard
+  parent: SuperOffice.WebApi.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: TicketMinicard
+  nameWithType: Navigation.TicketMinicard
+  fullName: SuperOffice.WebApi.Data.Navigation.TicketMinicard
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n72: In the ticket minicard\n"
+  syntax:
+    content: public const Navigation TicketMinicard
+    return:
+      type: SuperOffice.WebApi.Data.Navigation
+    content.vb: Public Const TicketMinicard As Navigation
   modifiers.csharp:
   - public
   - const

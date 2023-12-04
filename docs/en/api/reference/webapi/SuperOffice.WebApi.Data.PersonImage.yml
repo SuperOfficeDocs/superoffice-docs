@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PersonImage
+  commentId: T:SuperOffice.WebApi.Data.PersonImage
+  id: PersonImage
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PersonImage.#ctor
+  - SuperOffice.WebApi.Data.PersonImage.ImageData
+  - SuperOffice.WebApi.Data.PersonImage.PersonId
+  langs:
+  - csharp
+  - vb
+  name: PersonImage
+  nameWithType: PersonImage
+  fullName: SuperOffice.WebApi.Data.PersonImage
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PersonImage.\nScaled person image    \n"
+  syntax:
+    content: 'public class PersonImage : Object'
+    content.vb: >-
+      Public Class PersonImage
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PersonAgent
+    commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PersonImage.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PersonImage.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PersonImage
+  langs:
+  - csharp
+  - vb
+  name: PersonImage()
+  nameWithType: PersonImage.PersonImage()
+  fullName: SuperOffice.WebApi.Data.PersonImage.PersonImage()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PersonImage()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PersonImage.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PersonImage.PersonId
+  commentId: P:SuperOffice.WebApi.Data.PersonImage.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.PersonImage
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: PersonImage.PersonId
+  fullName: SuperOffice.WebApi.Data.PersonImage.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.PersonImage.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonImage.ImageData
+  commentId: P:SuperOffice.WebApi.Data.PersonImage.ImageData
+  id: ImageData
+  parent: SuperOffice.WebApi.Data.PersonImage
+  langs:
+  - csharp
+  - vb
+  name: ImageData
+  nameWithType: PersonImage.ImageData
+  fullName: SuperOffice.WebApi.Data.PersonImage.ImageData
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nImage data in PNG format.\n"
+  syntax:
+    content: public virtual byte[] ImageData { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Overridable Property ImageData As Byte()
+  overload: SuperOffice.WebApi.Data.PersonImage.ImageData*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.PersonAgent
+  commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  isExternal: true
+  name: PersonAgent
+  nameWithType: PersonAgent
+  fullName: SuperOffice.WebApi.Agents.PersonAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PersonImage.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonImage.#ctor
+  isExternal: true
+  name: PersonImage
+  nameWithType: PersonImage.PersonImage
+  fullName: SuperOffice.WebApi.Data.PersonImage.PersonImage
+- uid: SuperOffice.WebApi.Data.PersonImage.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonImage.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: PersonImage.PersonId
+  fullName: SuperOffice.WebApi.Data.PersonImage.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.PersonImage.ImageData*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonImage.ImageData
+  isExternal: true
+  name: ImageData
+  nameWithType: PersonImage.ImageData
+  fullName: SuperOffice.WebApi.Data.PersonImage.ImageData
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

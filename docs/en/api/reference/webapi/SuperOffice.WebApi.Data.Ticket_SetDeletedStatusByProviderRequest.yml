@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest
+  id: Ticket_SetDeletedStatusByProviderRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.ProviderName
+  - SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.Restrictions
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SetDeletedStatusByProviderRequest
+  nameWithType: Ticket_SetDeletedStatusByProviderRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_SetDeletedStatusByProviderRequest : Object'
+    content.vb: >-
+      Public Class Ticket_SetDeletedStatusByProviderRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SetDeletedStatusByProviderRequest()
+  nameWithType: Ticket_SetDeletedStatusByProviderRequest.Ticket_SetDeletedStatusByProviderRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.Ticket_SetDeletedStatusByProviderRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_SetDeletedStatusByProviderRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Ticket_SetDeletedStatusByProviderRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.Restrictions
+  commentId: P:SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.Restrictions
+  id: Restrictions
+  parent: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: Ticket_SetDeletedStatusByProviderRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.Restrictions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ArchiveRestrictionInfo[] Restrictions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+    content.vb: Public Property Restrictions As ArchiveRestrictionInfo()
+  overload: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.Restrictions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.#ctor
+  isExternal: true
+  name: Ticket_SetDeletedStatusByProviderRequest
+  nameWithType: Ticket_SetDeletedStatusByProviderRequest.Ticket_SetDeletedStatusByProviderRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.Ticket_SetDeletedStatusByProviderRequest
+- uid: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Ticket_SetDeletedStatusByProviderRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.ProviderName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.Restrictions*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.Restrictions
+  isExternal: true
+  name: Restrictions
+  nameWithType: Ticket_SetDeletedStatusByProviderRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest.Restrictions
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

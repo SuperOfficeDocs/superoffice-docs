@@ -1,0 +1,316 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.IRelationAgent
+  commentId: T:SuperOffice.WebApi.Agents.IRelationAgent
+  id: IRelationAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.IRelationAgent.CreateDefaultContactRelationEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IRelationAgent.SaveContactRelationAsync(SuperOffice.WebApi.Data.ContactRelationEntity,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: IRelationAgent
+  nameWithType: IRelationAgent
+  fullName: SuperOffice.WebApi.Agents.IRelationAgent
+  type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nContact/Person relations\n"
+  syntax:
+    content: 'public interface IRelationAgent : IDisposable'
+    content.vb: >-
+      Public Interface IRelationAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.Agents.IRelationAgent.CreateDefaultContactRelationEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IRelationAgent.CreateDefaultContactRelationEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultContactRelationEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IRelationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultContactRelationEntityAsync(RequestOptions)
+  nameWithType: IRelationAgent.CreateDefaultContactRelationEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IRelationAgent.CreateDefaultContactRelationEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new ContactRelationEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<ContactRelationEntity> CreateDefaultContactRelationEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ContactRelationEntity}
+      description: A blank ContactRelationEntity
+    content.vb: Function CreateDefaultContactRelationEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of ContactRelationEntity)
+  overload: SuperOffice.WebApi.Agents.IRelationAgent.CreateDefaultContactRelationEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetContactRelationEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IRelationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetContactRelationEntityAsync(Int32, RequestOptions)
+  nameWithType: IRelationAgent.GetContactRelationEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific ContactRelationEntity object.                        \n"
+  syntax:
+    content: Task<ContactRelationEntity> GetContactRelationEntityAsync(int contactRelationEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactRelationEntityId
+      type: System.Int32
+      description: The identifier of the ContactRelationEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ContactRelationEntity}
+      description: ContactRelationEntity
+    content.vb: Function GetContactRelationEntityAsync(contactRelationEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ContactRelationEntity)
+  overload: SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IRelationAgent.SaveContactRelationAsync(SuperOffice.WebApi.Data.ContactRelationEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IRelationAgent.SaveContactRelationAsync(SuperOffice.WebApi.Data.ContactRelationEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveContactRelationAsync(SuperOffice.WebApi.Data.ContactRelationEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IRelationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveContactRelationAsync(ContactRelationEntity, RequestOptions)
+  nameWithType: IRelationAgent.SaveContactRelationAsync(ContactRelationEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IRelationAgent.SaveContactRelationAsync(SuperOffice.WebApi.Data.ContactRelationEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a new or updates an existing contact relation.\n"
+  syntax:
+    content: Task<ContactRelationEntity> SaveContactRelationAsync(ContactRelationEntity contactRelationEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactRelationEntity
+      type: SuperOffice.WebApi.Data.ContactRelationEntity
+      description: Relation to save
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ContactRelationEntity}
+      description: Saved relation
+    content.vb: Function SaveContactRelationAsync(contactRelationEntity As ContactRelationEntity, requestOptions As RequestOptions = Nothing) As Task(Of ContactRelationEntity)
+  overload: SuperOffice.WebApi.Agents.IRelationAgent.SaveContactRelationAsync*
+- uid: SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteContactRelationAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IRelationAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteContactRelationAsync(Int32, RequestOptions)
+  nameWithType: IRelationAgent.DeleteContactRelationAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the spesified contact relation.\n"
+  syntax:
+    content: Task DeleteContactRelationAsync(int contactRelationEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactRelationEntityId
+      type: System.Int32
+      description: Relation to delete
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteContactRelationAsync(contactRelationEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync*
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: SuperOffice.WebApi.Agents.IRelationAgent.CreateDefaultContactRelationEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IRelationAgent.CreateDefaultContactRelationEntityAsync
+  isExternal: true
+  name: CreateDefaultContactRelationEntityAsync
+  nameWithType: IRelationAgent.CreateDefaultContactRelationEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IRelationAgent.CreateDefaultContactRelationEntityAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ContactRelationEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ContactRelationEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ContactRelationEntity>
+  nameWithType: Task<ContactRelationEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ContactRelationEntity>
+  nameWithType.vb: Task(Of ContactRelationEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ContactRelationEntity)
+  name.vb: Task(Of ContactRelationEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ContactRelationEntity
+    name: ContactRelationEntity
+    nameWithType: ContactRelationEntity
+    fullName: SuperOffice.WebApi.Data.ContactRelationEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ContactRelationEntity
+    name: ContactRelationEntity
+    nameWithType: ContactRelationEntity
+    fullName: SuperOffice.WebApi.Data.ContactRelationEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync
+  isExternal: true
+  name: GetContactRelationEntityAsync
+  nameWithType: IRelationAgent.GetContactRelationEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.IRelationAgent.SaveContactRelationAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IRelationAgent.SaveContactRelationAsync
+  isExternal: true
+  name: SaveContactRelationAsync
+  nameWithType: IRelationAgent.SaveContactRelationAsync
+  fullName: SuperOffice.WebApi.Agents.IRelationAgent.SaveContactRelationAsync
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity
+  commentId: T:SuperOffice.WebApi.Data.ContactRelationEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ContactRelationEntity
+  nameWithType: ContactRelationEntity
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync
+  isExternal: true
+  name: DeleteContactRelationAsync
+  nameWithType: IRelationAgent.DeleteContactRelationAsync
+  fullName: SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task

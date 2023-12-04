@@ -74,27 +74,31 @@ items:
   example:
   - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (ProjectAgent agent = new ProjectAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
   syntax:
-    content: 'public class ProjectAgent : AgentBase, IDisposable'
+    content: 'public class ProjectAgent : AgentBase, IProjectAgent, IDisposable'
     content.vb: >-
       Public Class ProjectAgent
           Inherits AgentBase
-          Implements IDisposable
+          Implements IProjectAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
   - SuperOffice.WebApi.Agents.AgentBase._binary
   - SuperOffice.WebApi.Agents.AgentBase._config
   - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase._disposeClient
   - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
@@ -105,6 +109,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
   - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   modifiers.csharp:
   - public
   - class
@@ -134,7 +139,7 @@ items:
     parameters:
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+      description: Use this HTTP client instead of making own HttpClient instance.
     content.vb: Public Sub New(httpClient As HttpClient)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.#ctor*
   modifiers.csharp:
@@ -167,7 +172,7 @@ items:
       description: Base URL and authentication values.
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+      description: 'Optional: Use this HTTP client instead of making a new one.'
     content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.#ctor*
   modifiers.csharp:
@@ -203,6 +208,8 @@ items:
       description: A blank ProjectEntity
     content.vb: Public Function CreateDefaultProjectEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of ProjectEntity)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEntityAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -239,6 +246,8 @@ items:
       description: New or updated ProjectEntity
     content.vb: Public Function SaveProjectEntityAsync(projectEntity As ProjectEntity, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEntity)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -274,6 +283,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function DeleteProjectEntityAsync(projectEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -307,6 +318,8 @@ items:
       description: A blank ProjectEventEntity
     content.vb: Public Function CreateDefaultProjectEventEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of ProjectEventEntity)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEventEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEventEntityAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -343,6 +356,8 @@ items:
       description: New or updated ProjectEventEntity
     content.vb: Public Function SaveProjectEventEntityAsync(projectEventEntity As ProjectEventEntity, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEventEntity)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEventEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.WebApi.Data.ProjectEventEntity,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -378,6 +393,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function DeleteProjectEventEntityAsync(projectEventEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -411,6 +428,8 @@ items:
       description: A blank ProjectMember
     content.vb: Public Function CreateDefaultProjectMemberAsync(requestOptions As RequestOptions = Nothing) As Task(Of ProjectMember)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectMemberAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectMemberAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -447,6 +466,8 @@ items:
       description: New or updated ProjectMember
     content.vb: Public Function SaveProjectMemberAsync(projectMember As ProjectMember, requestOptions As RequestOptions = Nothing) As Task(Of ProjectMember)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMemberAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -482,6 +503,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function DeleteProjectMemberAsync(projectMemberId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -518,6 +541,8 @@ items:
       description: Project
     content.vb: Public Function GetProjectAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Project)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -554,6 +579,8 @@ items:
       description: ProjectEntity
     content.vb: Public Function GetProjectEntityAsync(projectEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEntity)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -592,6 +619,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function AddProjectMembersAsync(projectEntityId As Integer, projectMembers As ProjectMember(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ProjectAgent.AddProjectMembersAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.AddProjectMembersAsync(System.Int32,SuperOffice.WebApi.Data.ProjectMember[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ProjectAgent.AddProjectMembersAsync(Int32, ProjectMember(), RequestOptions)
   modifiers.csharp:
   - public
@@ -633,6 +662,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function DeleteProjectMembersAsync(projectEntityId As Integer, memberIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMembersAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ProjectAgent.DeleteProjectMembersAsync(Int32, Int32(), RequestOptions)
   modifiers.csharp:
   - public
@@ -675,6 +706,8 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
     content.vb: Public Function GetProjectImageAsync(projectId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -713,6 +746,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SetProjectImageAsync(projectId As Integer, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ProjectAgent.SetProjectImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ProjectAgent.SetProjectImageAsync(Int32, Byte(), RequestOptions)
   modifiers.csharp:
   - public
@@ -751,6 +786,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function DeleteProjectMemberByIdsAsync(projectMemberIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberByIdsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ProjectAgent.DeleteProjectMemberByIdsAsync(Int32(), RequestOptions)
   modifiers.csharp:
   - public
@@ -790,6 +827,8 @@ items:
       description: Any records matching the specified name
     content.vb: Public Function GetDuplicatesAsync(name As String, requestOptions As RequestOptions = Nothing) As Task(Of DuplicateEntry())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicatesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicatesAsync(System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -826,6 +865,8 @@ items:
       description: The database identity of the newly created entry
     content.vb: Public Function CreateNewEntryAsync(duplicate As DuplicateEntry, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.CreateNewEntryAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -861,6 +902,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SetDuplicateRulesStatusAsync(rules As DuplicateRule(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ProjectAgent.SetDuplicateRulesStatusAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ProjectAgent.SetDuplicateRulesStatusAsync(DuplicateRule(), RequestOptions)
   modifiers.csharp:
   - public
@@ -897,6 +940,8 @@ items:
       description: All available duplicate rules
     content.vb: Public Function GetDuplicateRulesAsync(requestOptions As RequestOptions = Nothing) As Task(Of DuplicateRule())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicateRulesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -938,6 +983,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function MergeAsync(sourceProjectId As Integer, destinationProjectId As Integer, replaceEmptyFieldsOnDestination As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ProjectAgent.MergeAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.MergeAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -977,6 +1024,8 @@ items:
       description: True if the number is valid
     content.vb: Public Function IsNumberValidAsync(contactId As Integer, number As String, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.IsNumberValidAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1013,6 +1062,8 @@ items:
       description: True if the project has a guide
     content.vb: Public Function HasGuideAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.HasGuideAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1049,6 +1100,8 @@ items:
       description: Upcoming milestone appointment
     content.vb: Public Function GetNextMilestoneAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Appointment)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetNextMilestoneAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetNextMilestoneAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1083,6 +1136,8 @@ items:
       type: System.Threading.Tasks.Task{System.Boolean}
     content.vb: Public Function OfferAutoNextStatusOnApppointmentCompletedAsync(appointmentId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1117,6 +1172,8 @@ items:
       type: System.Threading.Tasks.Task{System.Int32}
     content.vb: Public Function GetNextProjectStatusAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetNextProjectStatusAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetNextProjectStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1151,6 +1208,8 @@ items:
       type: System.Threading.Tasks.Task{System.Boolean}
     content.vb: Public Function HasGuideActivitiesAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideActivitiesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.HasGuideActivitiesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1187,6 +1246,8 @@ items:
       description: Error messages tagged by field.
     content.vb: Public Function ValidateProjectEntityAsync(projectEntity As ProjectEntity, requestOptions As RequestOptions = Nothing) As Task(Of StringDictionary)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.ValidateProjectEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.ValidateProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1223,6 +1284,8 @@ items:
       description: ProjectEvent
     content.vb: Public Function GetProjectEventAsync(projectEventId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEvent)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1261,6 +1324,8 @@ items:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEvent}
     content.vb: Public Function GetProjectEventOnPersonAsync(projectId As Integer, personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEvent)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventOnPersonAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventOnPersonAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1297,6 +1362,8 @@ items:
       description: ProjectEventEntity
     content.vb: Public Function GetProjectEventEntityAsync(projectEventEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEventEntity)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1333,6 +1400,8 @@ items:
       description: ProjectEventEntity
     content.vb: Public Function GetProjectEventEntityFromProjectIdAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEventEntity)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityFromProjectIdAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1369,6 +1438,8 @@ items:
       description: Nothing
     content.vb: Public Function DeleteProjectEventEntityFromProjectIdAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1405,6 +1476,8 @@ items:
       description: Array of ProjectEvent objects
     content.vb: Public Function GetProjectEventListAsync(projectEventIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of ProjectEvent())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventListAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ProjectAgent.GetProjectEventListAsync(Int32(), RequestOptions)
   modifiers.csharp:
   - public
@@ -1441,6 +1514,8 @@ items:
       description: Array of project events
     content.vb: Public Function GetMyProjectEventsAsync(requestOptions As RequestOptions = Nothing) As Task(Of ProjectEvent())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectEventsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectEventsAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1477,6 +1552,8 @@ items:
       description: Array of project events
     content.vb: Public Function GetProjectEventsOnPersonAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEvent())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventsOnPersonAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventsOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1513,6 +1590,8 @@ items:
       description: Array of Project objects
     content.vb: Public Function GetProjectListAsync(projectIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Project())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectListAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ProjectAgent.GetProjectListAsync(Int32(), RequestOptions)
   modifiers.csharp:
   - public
@@ -1552,6 +1631,8 @@ items:
       description: The list of projects
     content.vb: Public Function GetMyProjectsAsync(includeMemberProjects As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of Project())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1585,6 +1666,8 @@ items:
       description: The list of projects.
     content.vb: Public Function GetMyMemberProjectsAsync(requestOptions As RequestOptions = Nothing) As Task(Of Project())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetMyMemberProjectsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetMyMemberProjectsAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1621,6 +1704,8 @@ items:
       description: ProjectListEntity
     content.vb: Public Function GetProjectsFromPersonAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Project())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromPersonAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1657,6 +1742,8 @@ items:
       description: ProjectListEntity
     content.vb: Public Function GetProjectsFromContactAsync(contactId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Project())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromContactAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1693,6 +1780,8 @@ items:
       description: Project
     content.vb: Public Function GetPublishedProjectAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Project)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1729,6 +1818,8 @@ items:
       description: Projects
     content.vb: Public Function GetPublishedProjectsAsync(projectIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Project())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ProjectAgent.GetPublishedProjectsAsync(Int32(), RequestOptions)
   modifiers.csharp:
   - public
@@ -1765,6 +1856,8 @@ items:
       description: Projects
     content.vb: Public Function GetMyPublishedProjectsAsync(requestOptions As RequestOptions = Nothing) As Task(Of Project())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetMyPublishedProjectsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetMyPublishedProjectsAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1801,6 +1894,8 @@ items:
       description: Array of project
     content.vb: Public Function GetPublishedProjectsOnPersonIdAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Project())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsOnPersonIdAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1837,6 +1932,8 @@ items:
       description: ProjectMember
     content.vb: Public Function GetProjectMemberAsync(projectMemberId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectMember)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMemberAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1873,6 +1970,8 @@ items:
       description: An array of project members
     content.vb: Public Function GetProjectMembersAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectMember())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1909,6 +2008,8 @@ items:
       description: The Updated ProjectMember
     content.vb: Public Function UpdateProjectMemberAsync(projectMember As ProjectMember, requestOptions As RequestOptions = Nothing) As Task(Of ProjectMember)
   overload: SuperOffice.WebApi.Agents.ProjectAgent.UpdateProjectMemberAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.UpdateProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1944,6 +2045,8 @@ items:
       description: An array of project members
     content.vb: Public Function GetProjectMembersByIdAsync(projectMemberIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of ProjectMember())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersByIdAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ProjectAgent.GetProjectMembersByIdAsync(Int32(), RequestOptions)
   modifiers.csharp:
   - public
@@ -1985,6 +2088,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SaveProjectMembersFunctionAndCommentAsync(projectMemberIds As Integer(), roleId As Integer, comment As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ProjectAgent.SaveProjectMembersFunctionAndCommentAsync(Int32(), Int32, String, RequestOptions)
   modifiers.csharp:
   - public
@@ -2013,6 +2118,13 @@ references:
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.IProjectAgent
+  commentId: T:SuperOffice.WebApi.Agents.IProjectAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: IProjectAgent
+  nameWithType: IProjectAgent
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent
 - uid: System.IDisposable
   isExternal: true
   name: IDisposable
@@ -2046,6 +2158,13 @@ references:
   name: _client
   nameWithType: AgentBase._client
   fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _disposeClient
+  nameWithType: AgentBase._disposeClient
+  fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
 - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
@@ -2297,32 +2416,136 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ParseAuthorization(IAuthorization)
-  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  name: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-    name: ParseAuthorization
-    nameWithType: AgentBase.ParseAuthorization
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
-    name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
     nameWithType: AgentBase.ParseAuthorization
     fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
@@ -2330,10 +2553,27 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
     nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
     nameWithType: )
@@ -2454,6 +2694,127 @@ references:
     name: Object
     nameWithType: Object
     fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -2739,6 +3100,13 @@ references:
   name: ProgressListener
   nameWithType: AgentBase.ProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: UploadProgressListener
+  nameWithType: AgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
 - uid: System
   commentId: N:System
   isExternal: true
@@ -2775,6 +3143,47 @@ references:
   name: CreateDefaultProjectEntityAsync
   nameWithType: ProjectAgent.CreateDefaultProjectEntityAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEntityAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: CreateDefaultProjectEntityAsync(RequestOptions)
+  nameWithType: IProjectAgent.CreateDefaultProjectEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEntityAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEntityAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultProjectEntityAsync
+    nameWithType: IProjectAgent.CreateDefaultProjectEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEntityAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultProjectEntityAsync
+    nameWithType: IProjectAgent.CreateDefaultProjectEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
@@ -2869,6 +3278,63 @@ references:
   name: SaveProjectEntityAsync
   nameWithType: ProjectAgent.SaveProjectEntityAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: SaveProjectEntityAsync(ProjectEntity, RequestOptions)
+  nameWithType: IProjectAgent.SaveProjectEntityAsync(ProjectEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveProjectEntityAsync
+    nameWithType: IProjectAgent.SaveProjectEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.ProjectEntity
+    name: ProjectEntity
+    nameWithType: ProjectEntity
+    fullName: SuperOffice.WebApi.Data.ProjectEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveProjectEntityAsync
+    nameWithType: IProjectAgent.SaveProjectEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.ProjectEntity
+    name: ProjectEntity
+    nameWithType: ProjectEntity
+    fullName: SuperOffice.WebApi.Data.ProjectEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.ProjectEntity
   commentId: T:SuperOffice.WebApi.Data.ProjectEntity
   parent: SuperOffice.WebApi.Data
@@ -2888,6 +3354,63 @@ references:
   name: DeleteProjectEntityAsync
   nameWithType: ProjectAgent.DeleteProjectEntityAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEntityAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: DeleteProjectEntityAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.DeleteProjectEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteProjectEntityAsync
+    nameWithType: IProjectAgent.DeleteProjectEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteProjectEntityAsync
+    nameWithType: IProjectAgent.DeleteProjectEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -2906,6 +3429,47 @@ references:
   name: CreateDefaultProjectEventEntityAsync
   nameWithType: ProjectAgent.CreateDefaultProjectEventEntityAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEventEntityAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEventEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEventEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: CreateDefaultProjectEventEntityAsync(RequestOptions)
+  nameWithType: IProjectAgent.CreateDefaultProjectEventEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEventEntityAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEventEntityAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultProjectEventEntityAsync
+    nameWithType: IProjectAgent.CreateDefaultProjectEventEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEventEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEventEntityAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultProjectEventEntityAsync
+    nameWithType: IProjectAgent.CreateDefaultProjectEventEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectEventEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEventEntity}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEventEntity}'
   definition: System.Threading.Tasks.Task`1
@@ -2955,6 +3519,63 @@ references:
   name: SaveProjectEventEntityAsync
   nameWithType: ProjectAgent.SaveProjectEventEntityAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEventEntityAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.WebApi.Data.ProjectEventEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.WebApi.Data.ProjectEventEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: SaveProjectEventEntityAsync(ProjectEventEntity, RequestOptions)
+  nameWithType: IProjectAgent.SaveProjectEventEntityAsync(ProjectEventEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.WebApi.Data.ProjectEventEntity, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.WebApi.Data.ProjectEventEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveProjectEventEntityAsync
+    nameWithType: IProjectAgent.SaveProjectEventEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEventEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.ProjectEventEntity
+    name: ProjectEventEntity
+    nameWithType: ProjectEventEntity
+    fullName: SuperOffice.WebApi.Data.ProjectEventEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.WebApi.Data.ProjectEventEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveProjectEventEntityAsync
+    nameWithType: IProjectAgent.SaveProjectEventEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEventEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.ProjectEventEntity
+    name: ProjectEventEntity
+    nameWithType: ProjectEventEntity
+    fullName: SuperOffice.WebApi.Data.ProjectEventEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.ProjectEventEntity
   commentId: T:SuperOffice.WebApi.Data.ProjectEventEntity
   parent: SuperOffice.WebApi.Data
@@ -2968,12 +3589,110 @@ references:
   name: DeleteProjectEventEntityAsync
   nameWithType: ProjectAgent.DeleteProjectEventEntityAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: DeleteProjectEventEntityAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.DeleteProjectEventEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteProjectEventEntityAsync
+    nameWithType: IProjectAgent.DeleteProjectEventEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteProjectEventEntityAsync
+    nameWithType: IProjectAgent.DeleteProjectEventEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectMemberAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectMemberAsync
   isExternal: true
   name: CreateDefaultProjectMemberAsync
   nameWithType: ProjectAgent.CreateDefaultProjectMemberAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectMemberAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectMemberAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectMemberAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: CreateDefaultProjectMemberAsync(RequestOptions)
+  nameWithType: IProjectAgent.CreateDefaultProjectMemberAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectMemberAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectMemberAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultProjectMemberAsync
+    nameWithType: IProjectAgent.CreateDefaultProjectMemberAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectMemberAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectMemberAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultProjectMemberAsync
+    nameWithType: IProjectAgent.CreateDefaultProjectMemberAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.CreateDefaultProjectMemberAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectMember}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectMember}'
   definition: System.Threading.Tasks.Task`1
@@ -3023,6 +3742,63 @@ references:
   name: SaveProjectMemberAsync
   nameWithType: ProjectAgent.SaveProjectMemberAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMemberAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: SaveProjectMemberAsync(ProjectMember, RequestOptions)
+  nameWithType: IProjectAgent.SaveProjectMemberAsync(ProjectMember, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+    name: SaveProjectMemberAsync
+    nameWithType: IProjectAgent.SaveProjectMemberAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMemberAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.WebApi.Data.ProjectMember
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+    name: SaveProjectMemberAsync
+    nameWithType: IProjectAgent.SaveProjectMemberAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMemberAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.WebApi.Data.ProjectMember
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.ProjectMember
   commentId: T:SuperOffice.WebApi.Data.ProjectMember
   parent: SuperOffice.WebApi.Data
@@ -3036,12 +3812,126 @@ references:
   name: DeleteProjectMemberAsync
   nameWithType: ProjectAgent.DeleteProjectMemberAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: DeleteProjectMemberAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.DeleteProjectMemberAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteProjectMemberAsync
+    nameWithType: IProjectAgent.DeleteProjectMemberAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteProjectMemberAsync
+    nameWithType: IProjectAgent.DeleteProjectMemberAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectAsync
   isExternal: true
   name: GetProjectAsync
   nameWithType: ProjectAgent.GetProjectAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetProjectAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectAsync
+    nameWithType: IProjectAgent.GetProjectAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectAsync
+    nameWithType: IProjectAgent.GetProjectAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project}'
   definition: System.Threading.Tasks.Task`1
@@ -3091,12 +3981,151 @@ references:
   name: GetProjectEntityAsync
   nameWithType: ProjectAgent.GetProjectEntityAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectEntityAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetProjectEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEntityAsync
+    nameWithType: IProjectAgent.GetProjectEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEntityAsync
+    nameWithType: IProjectAgent.GetProjectEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.AddProjectMembersAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.AddProjectMembersAsync
   isExternal: true
   name: AddProjectMembersAsync
   nameWithType: ProjectAgent.AddProjectMembersAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.AddProjectMembersAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.AddProjectMembersAsync(System.Int32,SuperOffice.WebApi.Data.ProjectMember[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.AddProjectMembersAsync(System.Int32,SuperOffice.WebApi.Data.ProjectMember[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: AddProjectMembersAsync(Int32, ProjectMember[], RequestOptions)
+  nameWithType: IProjectAgent.AddProjectMembersAsync(Int32, ProjectMember[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.AddProjectMembersAsync(System.Int32, SuperOffice.WebApi.Data.ProjectMember[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IProjectAgent.AddProjectMembersAsync(Int32, ProjectMember(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IProjectAgent.AddProjectMembersAsync(System.Int32, SuperOffice.WebApi.Data.ProjectMember(), SuperOffice.WebApi.RequestOptions)
+  name.vb: AddProjectMembersAsync(Int32, ProjectMember(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.AddProjectMembersAsync(System.Int32,SuperOffice.WebApi.Data.ProjectMember[],SuperOffice.WebApi.RequestOptions)
+    name: AddProjectMembersAsync
+    nameWithType: IProjectAgent.AddProjectMembersAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.AddProjectMembersAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.WebApi.Data.ProjectMember
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.AddProjectMembersAsync(System.Int32,SuperOffice.WebApi.Data.ProjectMember[],SuperOffice.WebApi.RequestOptions)
+    name: AddProjectMembersAsync
+    nameWithType: IProjectAgent.AddProjectMembersAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.AddProjectMembersAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.WebApi.Data.ProjectMember
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.ProjectMember[]
   isExternal: true
   name: ProjectMember[]
@@ -3129,6 +4158,88 @@ references:
   name: DeleteProjectMembersAsync
   nameWithType: ProjectAgent.DeleteProjectMembersAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMembersAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: DeleteProjectMembersAsync(Int32, Int32[], RequestOptions)
+  nameWithType: IProjectAgent.DeleteProjectMembersAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMembersAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IProjectAgent.DeleteProjectMembersAsync(Int32, Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMembersAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteProjectMembersAsync(Int32, Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: DeleteProjectMembersAsync
+    nameWithType: IProjectAgent.DeleteProjectMembersAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMembersAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: DeleteProjectMembersAsync
+    nameWithType: IProjectAgent.DeleteProjectMembersAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMembersAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -3161,6 +4272,79 @@ references:
   name: GetProjectImageAsync
   nameWithType: ProjectAgent.GetProjectImageAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectImageAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectImageAsync(Int32, String, RequestOptions)
+  nameWithType: IProjectAgent.GetProjectImageAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectImageAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectImageAsync
+    nameWithType: IProjectAgent.GetProjectImageAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectImageAsync
+    nameWithType: IProjectAgent.GetProjectImageAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -3223,6 +4407,88 @@ references:
   name: SetProjectImageAsync
   nameWithType: ProjectAgent.SetProjectImageAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.SetProjectImageAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: SetProjectImageAsync(Int32, Byte[], RequestOptions)
+  nameWithType: IProjectAgent.SetProjectImageAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.SetProjectImageAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IProjectAgent.SetProjectImageAsync(Int32, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IProjectAgent.SetProjectImageAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetProjectImageAsync(Int32, Byte(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SetProjectImageAsync
+    nameWithType: IProjectAgent.SetProjectImageAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.SetProjectImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SetProjectImageAsync
+    nameWithType: IProjectAgent.SetProjectImageAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.SetProjectImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Byte[]
   isExternal: true
   name: Byte[]
@@ -3255,12 +4521,135 @@ references:
   name: DeleteProjectMemberByIdsAsync
   nameWithType: ProjectAgent.DeleteProjectMemberByIdsAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberByIdsAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: DeleteProjectMemberByIdsAsync(Int32[], RequestOptions)
+  nameWithType: IProjectAgent.DeleteProjectMemberByIdsAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IProjectAgent.DeleteProjectMemberByIdsAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteProjectMemberByIdsAsync(Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: DeleteProjectMemberByIdsAsync
+    nameWithType: IProjectAgent.DeleteProjectMemberByIdsAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberByIdsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: DeleteProjectMemberByIdsAsync
+    nameWithType: IProjectAgent.DeleteProjectMemberByIdsAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectMemberByIdsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicatesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicatesAsync
   isExternal: true
   name: GetDuplicatesAsync
   nameWithType: ProjectAgent.GetDuplicatesAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicatesAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicatesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicatesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetDuplicatesAsync(String, RequestOptions)
+  nameWithType: IProjectAgent.GetDuplicatesAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicatesAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicatesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetDuplicatesAsync
+    nameWithType: IProjectAgent.GetDuplicatesAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicatesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicatesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetDuplicatesAsync
+    nameWithType: IProjectAgent.GetDuplicatesAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicatesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateEntry[]}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateEntry[]}'
   definition: System.Threading.Tasks.Task`1
@@ -3316,6 +4705,63 @@ references:
   name: CreateNewEntryAsync
   nameWithType: ProjectAgent.CreateNewEntryAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.CreateNewEntryAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: CreateNewEntryAsync(DuplicateEntry, RequestOptions)
+  nameWithType: IProjectAgent.CreateNewEntryAsync(DuplicateEntry, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
+    name: CreateNewEntryAsync
+    nameWithType: IProjectAgent.CreateNewEntryAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.CreateNewEntryAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.WebApi.Data.DuplicateEntry
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
+    name: CreateNewEntryAsync
+    nameWithType: IProjectAgent.CreateNewEntryAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.CreateNewEntryAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.WebApi.Data.DuplicateEntry
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.DuplicateEntry
   commentId: T:SuperOffice.WebApi.Data.DuplicateEntry
   parent: SuperOffice.WebApi.Data
@@ -3372,6 +4818,72 @@ references:
   name: SetDuplicateRulesStatusAsync
   nameWithType: ProjectAgent.SetDuplicateRulesStatusAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.SetDuplicateRulesStatusAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: SetDuplicateRulesStatusAsync(DuplicateRule[], RequestOptions)
+  nameWithType: IProjectAgent.SetDuplicateRulesStatusAsync(DuplicateRule[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IProjectAgent.SetDuplicateRulesStatusAsync(DuplicateRule(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetDuplicateRulesStatusAsync(DuplicateRule(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
+    name: SetDuplicateRulesStatusAsync
+    nameWithType: IProjectAgent.SetDuplicateRulesStatusAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.SetDuplicateRulesStatusAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.WebApi.Data.DuplicateRule
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
+    name: SetDuplicateRulesStatusAsync
+    nameWithType: IProjectAgent.SetDuplicateRulesStatusAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.SetDuplicateRulesStatusAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.WebApi.Data.DuplicateRule
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.DuplicateRule[]
   isExternal: true
   name: DuplicateRule[]
@@ -3404,6 +4916,47 @@ references:
   name: GetDuplicateRulesAsync
   nameWithType: ProjectAgent.GetDuplicateRulesAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicateRulesAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetDuplicateRulesAsync(RequestOptions)
+  nameWithType: IProjectAgent.GetDuplicateRulesAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetDuplicateRulesAsync
+    nameWithType: IProjectAgent.GetDuplicateRulesAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicateRulesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetDuplicateRulesAsync
+    nameWithType: IProjectAgent.GetDuplicateRulesAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetDuplicateRulesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateRule[]}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateRule[]}'
   definition: System.Threading.Tasks.Task`1
@@ -3459,6 +5012,95 @@ references:
   name: MergeAsync
   nameWithType: ProjectAgent.MergeAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.MergeAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.MergeAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.MergeAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: MergeAsync(Int32, Int32, Boolean, RequestOptions)
+  nameWithType: IProjectAgent.MergeAsync(Int32, Int32, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.MergeAsync(System.Int32, System.Int32, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.MergeAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: MergeAsync
+    nameWithType: IProjectAgent.MergeAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.MergeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.MergeAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: MergeAsync
+    nameWithType: IProjectAgent.MergeAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.MergeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -3472,6 +5114,79 @@ references:
   name: IsNumberValidAsync
   nameWithType: ProjectAgent.IsNumberValidAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.IsNumberValidAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: IsNumberValidAsync(Int32, String, RequestOptions)
+  nameWithType: IProjectAgent.IsNumberValidAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.IsNumberValidAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: IsNumberValidAsync
+    nameWithType: IProjectAgent.IsNumberValidAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.IsNumberValidAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: IsNumberValidAsync
+    nameWithType: IProjectAgent.IsNumberValidAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.IsNumberValidAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{System.Boolean}
   commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
   definition: System.Threading.Tasks.Task`1
@@ -3521,12 +5236,126 @@ references:
   name: HasGuideAsync
   nameWithType: ProjectAgent.HasGuideAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.HasGuideAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.HasGuideAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: HasGuideAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.HasGuideAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.HasGuideAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.HasGuideAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: HasGuideAsync
+    nameWithType: IProjectAgent.HasGuideAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.HasGuideAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.HasGuideAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: HasGuideAsync
+    nameWithType: IProjectAgent.HasGuideAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.HasGuideAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetNextMilestoneAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetNextMilestoneAsync
   isExternal: true
   name: GetNextMilestoneAsync
   nameWithType: ProjectAgent.GetNextMilestoneAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetNextMilestoneAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetNextMilestoneAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetNextMilestoneAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetNextMilestoneAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetNextMilestoneAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetNextMilestoneAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetNextMilestoneAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetNextMilestoneAsync
+    nameWithType: IProjectAgent.GetNextMilestoneAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetNextMilestoneAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetNextMilestoneAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetNextMilestoneAsync
+    nameWithType: IProjectAgent.GetNextMilestoneAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetNextMilestoneAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Appointment}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Appointment}'
   definition: System.Threading.Tasks.Task`1
@@ -3576,24 +5405,252 @@ references:
   name: OfferAutoNextStatusOnApppointmentCompletedAsync
   nameWithType: ProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: OfferAutoNextStatusOnApppointmentCompletedAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: OfferAutoNextStatusOnApppointmentCompletedAsync
+    nameWithType: IProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: OfferAutoNextStatusOnApppointmentCompletedAsync
+    nameWithType: IProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetNextProjectStatusAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetNextProjectStatusAsync
   isExternal: true
   name: GetNextProjectStatusAsync
   nameWithType: ProjectAgent.GetNextProjectStatusAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetNextProjectStatusAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetNextProjectStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetNextProjectStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetNextProjectStatusAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetNextProjectStatusAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetNextProjectStatusAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetNextProjectStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetNextProjectStatusAsync
+    nameWithType: IProjectAgent.GetNextProjectStatusAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetNextProjectStatusAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetNextProjectStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetNextProjectStatusAsync
+    nameWithType: IProjectAgent.GetNextProjectStatusAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetNextProjectStatusAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideActivitiesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.HasGuideActivitiesAsync
   isExternal: true
   name: HasGuideActivitiesAsync
   nameWithType: ProjectAgent.HasGuideActivitiesAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideActivitiesAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.HasGuideActivitiesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.HasGuideActivitiesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: HasGuideActivitiesAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.HasGuideActivitiesAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.HasGuideActivitiesAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.HasGuideActivitiesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: HasGuideActivitiesAsync
+    nameWithType: IProjectAgent.HasGuideActivitiesAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.HasGuideActivitiesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.HasGuideActivitiesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: HasGuideActivitiesAsync
+    nameWithType: IProjectAgent.HasGuideActivitiesAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.HasGuideActivitiesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.ValidateProjectEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.ValidateProjectEntityAsync
   isExternal: true
   name: ValidateProjectEntityAsync
   nameWithType: ProjectAgent.ValidateProjectEntityAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.ValidateProjectEntityAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.ValidateProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.ValidateProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: ValidateProjectEntityAsync(ProjectEntity, RequestOptions)
+  nameWithType: IProjectAgent.ValidateProjectEntityAsync(ProjectEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.ValidateProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.ValidateProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+    name: ValidateProjectEntityAsync
+    nameWithType: IProjectAgent.ValidateProjectEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.ValidateProjectEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.ProjectEntity
+    name: ProjectEntity
+    nameWithType: ProjectEntity
+    fullName: SuperOffice.WebApi.Data.ProjectEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.ValidateProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+    name: ValidateProjectEntityAsync
+    nameWithType: IProjectAgent.ValidateProjectEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.ValidateProjectEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.ProjectEntity
+    name: ProjectEntity
+    nameWithType: ProjectEntity
+    fullName: SuperOffice.WebApi.Data.ProjectEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}'
   definition: System.Threading.Tasks.Task`1
@@ -3643,6 +5700,63 @@ references:
   name: GetProjectEventAsync
   nameWithType: ProjectAgent.GetProjectEventAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectEventAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetProjectEventAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEventAsync
+    nameWithType: IProjectAgent.GetProjectEventAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEventAsync
+    nameWithType: IProjectAgent.GetProjectEventAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEvent}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEvent}'
   definition: System.Threading.Tasks.Task`1
@@ -3692,30 +5806,340 @@ references:
   name: GetProjectEventOnPersonAsync
   nameWithType: ProjectAgent.GetProjectEventOnPersonAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventOnPersonAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventOnPersonAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventOnPersonAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectEventOnPersonAsync(Int32, Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetProjectEventOnPersonAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventOnPersonAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventOnPersonAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEventOnPersonAsync
+    nameWithType: IProjectAgent.GetProjectEventOnPersonAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventOnPersonAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventOnPersonAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEventOnPersonAsync
+    nameWithType: IProjectAgent.GetProjectEventOnPersonAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventOnPersonAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityAsync
   isExternal: true
   name: GetProjectEventEntityAsync
   nameWithType: ProjectAgent.GetProjectEventEntityAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectEventEntityAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetProjectEventEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEventEntityAsync
+    nameWithType: IProjectAgent.GetProjectEventEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEventEntityAsync
+    nameWithType: IProjectAgent.GetProjectEventEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityFromProjectIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityFromProjectIdAsync
   isExternal: true
   name: GetProjectEventEntityFromProjectIdAsync
   nameWithType: ProjectAgent.GetProjectEventEntityFromProjectIdAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityFromProjectIdAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectEventEntityFromProjectIdAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetProjectEventEntityFromProjectIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityFromProjectIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEventEntityFromProjectIdAsync
+    nameWithType: IProjectAgent.GetProjectEventEntityFromProjectIdAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityFromProjectIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEventEntityFromProjectIdAsync
+    nameWithType: IProjectAgent.GetProjectEventEntityFromProjectIdAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityFromProjectIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync
   isExternal: true
   name: DeleteProjectEventEntityFromProjectIdAsync
   nameWithType: ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: DeleteProjectEventEntityFromProjectIdAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.DeleteProjectEventEntityFromProjectIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityFromProjectIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteProjectEventEntityFromProjectIdAsync
+    nameWithType: IProjectAgent.DeleteProjectEventEntityFromProjectIdAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityFromProjectIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteProjectEventEntityFromProjectIdAsync
+    nameWithType: IProjectAgent.DeleteProjectEventEntityFromProjectIdAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.DeleteProjectEventEntityFromProjectIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventListAsync
   isExternal: true
   name: GetProjectEventListAsync
   nameWithType: ProjectAgent.GetProjectEventListAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventListAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectEventListAsync(Int32[], RequestOptions)
+  nameWithType: IProjectAgent.GetProjectEventListAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventListAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IProjectAgent.GetProjectEventListAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventListAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetProjectEventListAsync(Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEventListAsync
+    nameWithType: IProjectAgent.GetProjectEventListAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventListAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEventListAsync
+    nameWithType: IProjectAgent.GetProjectEventListAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventListAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEvent[]}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEvent[]}'
   definition: System.Threading.Tasks.Task`1
@@ -3771,18 +6195,182 @@ references:
   name: GetMyProjectEventsAsync
   nameWithType: ProjectAgent.GetMyProjectEventsAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectEventsAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectEventsAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectEventsAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetMyProjectEventsAsync(RequestOptions)
+  nameWithType: IProjectAgent.GetMyProjectEventsAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectEventsAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectEventsAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetMyProjectEventsAsync
+    nameWithType: IProjectAgent.GetMyProjectEventsAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectEventsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectEventsAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetMyProjectEventsAsync
+    nameWithType: IProjectAgent.GetMyProjectEventsAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectEventsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventsOnPersonAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventsOnPersonAsync
   isExternal: true
   name: GetProjectEventsOnPersonAsync
   nameWithType: ProjectAgent.GetProjectEventsOnPersonAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventsOnPersonAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventsOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventsOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectEventsOnPersonAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetProjectEventsOnPersonAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventsOnPersonAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventsOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEventsOnPersonAsync
+    nameWithType: IProjectAgent.GetProjectEventsOnPersonAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventsOnPersonAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventsOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEventsOnPersonAsync
+    nameWithType: IProjectAgent.GetProjectEventsOnPersonAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventsOnPersonAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectListAsync
   isExternal: true
   name: GetProjectListAsync
   nameWithType: ProjectAgent.GetProjectListAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectListAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectListAsync(Int32[], RequestOptions)
+  nameWithType: IProjectAgent.GetProjectListAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectListAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IProjectAgent.GetProjectListAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectListAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetProjectListAsync(Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: GetProjectListAsync
+    nameWithType: IProjectAgent.GetProjectListAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectListAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: GetProjectListAsync
+    nameWithType: IProjectAgent.GetProjectListAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectListAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project[]}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project[]}'
   definition: System.Threading.Tasks.Task`1
@@ -3838,60 +6426,607 @@ references:
   name: GetMyProjectsAsync
   nameWithType: ProjectAgent.GetMyProjectsAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectsAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetMyProjectsAsync(Boolean, RequestOptions)
+  nameWithType: IProjectAgent.GetMyProjectsAsync(Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectsAsync(System.Boolean, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: GetMyProjectsAsync
+    nameWithType: IProjectAgent.GetMyProjectsAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: GetMyProjectsAsync
+    nameWithType: IProjectAgent.GetMyProjectsAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetMyProjectsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetMyMemberProjectsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetMyMemberProjectsAsync
   isExternal: true
   name: GetMyMemberProjectsAsync
   nameWithType: ProjectAgent.GetMyMemberProjectsAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetMyMemberProjectsAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetMyMemberProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetMyMemberProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetMyMemberProjectsAsync(RequestOptions)
+  nameWithType: IProjectAgent.GetMyMemberProjectsAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetMyMemberProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetMyMemberProjectsAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetMyMemberProjectsAsync
+    nameWithType: IProjectAgent.GetMyMemberProjectsAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetMyMemberProjectsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetMyMemberProjectsAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetMyMemberProjectsAsync
+    nameWithType: IProjectAgent.GetMyMemberProjectsAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetMyMemberProjectsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromPersonAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromPersonAsync
   isExternal: true
   name: GetProjectsFromPersonAsync
   nameWithType: ProjectAgent.GetProjectsFromPersonAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromPersonAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectsFromPersonAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetProjectsFromPersonAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromPersonAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectsFromPersonAsync
+    nameWithType: IProjectAgent.GetProjectsFromPersonAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromPersonAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectsFromPersonAsync
+    nameWithType: IProjectAgent.GetProjectsFromPersonAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromPersonAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromContactAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromContactAsync
   isExternal: true
   name: GetProjectsFromContactAsync
   nameWithType: ProjectAgent.GetProjectsFromContactAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromContactAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectsFromContactAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetProjectsFromContactAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromContactAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectsFromContactAsync
+    nameWithType: IProjectAgent.GetProjectsFromContactAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromContactAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectsFromContactAsync
+    nameWithType: IProjectAgent.GetProjectsFromContactAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectsFromContactAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectAsync
   isExternal: true
   name: GetPublishedProjectAsync
   nameWithType: ProjectAgent.GetPublishedProjectAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetPublishedProjectAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetPublishedProjectAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPublishedProjectAsync
+    nameWithType: IProjectAgent.GetPublishedProjectAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPublishedProjectAsync
+    nameWithType: IProjectAgent.GetPublishedProjectAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsAsync
   isExternal: true
   name: GetPublishedProjectsAsync
   nameWithType: ProjectAgent.GetPublishedProjectsAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetPublishedProjectsAsync(Int32[], RequestOptions)
+  nameWithType: IProjectAgent.GetPublishedProjectsAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IProjectAgent.GetPublishedProjectsAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetPublishedProjectsAsync(Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: GetPublishedProjectsAsync
+    nameWithType: IProjectAgent.GetPublishedProjectsAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: GetPublishedProjectsAsync
+    nameWithType: IProjectAgent.GetPublishedProjectsAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetMyPublishedProjectsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetMyPublishedProjectsAsync
   isExternal: true
   name: GetMyPublishedProjectsAsync
   nameWithType: ProjectAgent.GetMyPublishedProjectsAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetMyPublishedProjectsAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetMyPublishedProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetMyPublishedProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetMyPublishedProjectsAsync(RequestOptions)
+  nameWithType: IProjectAgent.GetMyPublishedProjectsAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetMyPublishedProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetMyPublishedProjectsAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetMyPublishedProjectsAsync
+    nameWithType: IProjectAgent.GetMyPublishedProjectsAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetMyPublishedProjectsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetMyPublishedProjectsAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetMyPublishedProjectsAsync
+    nameWithType: IProjectAgent.GetMyPublishedProjectsAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetMyPublishedProjectsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsOnPersonIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsOnPersonIdAsync
   isExternal: true
   name: GetPublishedProjectsOnPersonIdAsync
   nameWithType: ProjectAgent.GetPublishedProjectsOnPersonIdAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsOnPersonIdAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetPublishedProjectsOnPersonIdAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetPublishedProjectsOnPersonIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsOnPersonIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPublishedProjectsOnPersonIdAsync
+    nameWithType: IProjectAgent.GetPublishedProjectsOnPersonIdAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsOnPersonIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPublishedProjectsOnPersonIdAsync
+    nameWithType: IProjectAgent.GetPublishedProjectsOnPersonIdAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetPublishedProjectsOnPersonIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMemberAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMemberAsync
   isExternal: true
   name: GetProjectMemberAsync
   nameWithType: ProjectAgent.GetProjectMemberAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMemberAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectMemberAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetProjectMemberAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMemberAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectMemberAsync
+    nameWithType: IProjectAgent.GetProjectMemberAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMemberAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectMemberAsync
+    nameWithType: IProjectAgent.GetProjectMemberAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMemberAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersAsync
   isExternal: true
   name: GetProjectMembersAsync
   nameWithType: ProjectAgent.GetProjectMembersAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectMembersAsync(Int32, RequestOptions)
+  nameWithType: IProjectAgent.GetProjectMembersAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectMembersAsync
+    nameWithType: IProjectAgent.GetProjectMembersAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectMembersAsync
+    nameWithType: IProjectAgent.GetProjectMembersAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectMember[]}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectMember[]}'
   definition: System.Threading.Tasks.Task`1
@@ -3947,15 +7082,236 @@ references:
   name: UpdateProjectMemberAsync
   nameWithType: ProjectAgent.UpdateProjectMemberAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.UpdateProjectMemberAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.UpdateProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.UpdateProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: UpdateProjectMemberAsync(ProjectMember, RequestOptions)
+  nameWithType: IProjectAgent.UpdateProjectMemberAsync(ProjectMember, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.UpdateProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.UpdateProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+    name: UpdateProjectMemberAsync
+    nameWithType: IProjectAgent.UpdateProjectMemberAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.UpdateProjectMemberAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.WebApi.Data.ProjectMember
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.UpdateProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+    name: UpdateProjectMemberAsync
+    nameWithType: IProjectAgent.UpdateProjectMemberAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.UpdateProjectMemberAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.WebApi.Data.ProjectMember
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersByIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersByIdAsync
   isExternal: true
   name: GetProjectMembersByIdAsync
   nameWithType: ProjectAgent.GetProjectMembersByIdAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersByIdAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: GetProjectMembersByIdAsync(Int32[], RequestOptions)
+  nameWithType: IProjectAgent.GetProjectMembersByIdAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersByIdAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IProjectAgent.GetProjectMembersByIdAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersByIdAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetProjectMembersByIdAsync(Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: GetProjectMembersByIdAsync
+    nameWithType: IProjectAgent.GetProjectMembersByIdAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersByIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: GetProjectMembersByIdAsync
+    nameWithType: IProjectAgent.GetProjectMembersByIdAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMembersByIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync
   isExternal: true
   name: SaveProjectMembersFunctionAndCommentAsync
   nameWithType: ProjectAgent.SaveProjectMembersFunctionAndCommentAsync
   fullName: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  name: SaveProjectMembersFunctionAndCommentAsync(Int32[], Int32, String, RequestOptions)
+  nameWithType: IProjectAgent.SaveProjectMembersFunctionAndCommentAsync(Int32[], Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[], System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IProjectAgent.SaveProjectMembersFunctionAndCommentAsync(Int32(), Int32, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32(), System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveProjectMembersFunctionAndCommentAsync(Int32(), Int32, String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: SaveProjectMembersFunctionAndCommentAsync
+    nameWithType: IProjectAgent.SaveProjectMembersFunctionAndCommentAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMembersFunctionAndCommentAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: SaveProjectMembersFunctionAndCommentAsync
+    nameWithType: IProjectAgent.SaveProjectMembersFunctionAndCommentAsync
+    fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMembersFunctionAndCommentAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

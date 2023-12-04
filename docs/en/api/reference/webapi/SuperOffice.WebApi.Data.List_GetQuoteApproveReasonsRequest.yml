@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetQuoteApproveReasonsRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetQuoteApproveReasonsRequest
+  id: List_GetQuoteApproveReasonsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetQuoteApproveReasonsRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: List_GetQuoteApproveReasonsRequest
+  nameWithType: List_GetQuoteApproveReasonsRequest
+  fullName: SuperOffice.WebApi.Data.List_GetQuoteApproveReasonsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetQuoteApproveReasonsRequest : Object'
+    content.vb: >-
+      Public Class List_GetQuoteApproveReasonsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetQuoteApproveReasonsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetQuoteApproveReasonsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetQuoteApproveReasonsRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetQuoteApproveReasonsRequest()
+  nameWithType: List_GetQuoteApproveReasonsRequest.List_GetQuoteApproveReasonsRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetQuoteApproveReasonsRequest.List_GetQuoteApproveReasonsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetQuoteApproveReasonsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetQuoteApproveReasonsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetQuoteApproveReasonsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetQuoteApproveReasonsRequest.#ctor
+  isExternal: true
+  name: List_GetQuoteApproveReasonsRequest
+  nameWithType: List_GetQuoteApproveReasonsRequest.List_GetQuoteApproveReasonsRequest
+  fullName: SuperOffice.WebApi.Data.List_GetQuoteApproveReasonsRequest.List_GetQuoteApproveReasonsRequest

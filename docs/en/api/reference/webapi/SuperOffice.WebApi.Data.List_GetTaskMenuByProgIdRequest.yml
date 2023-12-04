@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest
+  id: List_GetTaskMenuByProgIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.ProgId
+  langs:
+  - csharp
+  - vb
+  name: List_GetTaskMenuByProgIdRequest
+  nameWithType: List_GetTaskMenuByProgIdRequest
+  fullName: SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetTaskMenuByProgIdRequest : Object'
+    content.vb: >-
+      Public Class List_GetTaskMenuByProgIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetTaskMenuByProgIdRequest()
+  nameWithType: List_GetTaskMenuByProgIdRequest.List_GetTaskMenuByProgIdRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.List_GetTaskMenuByProgIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetTaskMenuByProgIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.ProgId
+  commentId: P:SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.ProgId
+  id: ProgId
+  parent: SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest
+  langs:
+  - csharp
+  - vb
+  name: ProgId
+  nameWithType: List_GetTaskMenuByProgIdRequest.ProgId
+  fullName: SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.ProgId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProgId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProgId As String
+  overload: SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.ProgId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.#ctor
+  isExternal: true
+  name: List_GetTaskMenuByProgIdRequest
+  nameWithType: List_GetTaskMenuByProgIdRequest.List_GetTaskMenuByProgIdRequest
+  fullName: SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.List_GetTaskMenuByProgIdRequest
+- uid: SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.ProgId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.ProgId
+  isExternal: true
+  name: ProgId
+  nameWithType: List_GetTaskMenuByProgIdRequest.ProgId
+  fullName: SuperOffice.WebApi.Data.List_GetTaskMenuByProgIdRequest.ProgId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

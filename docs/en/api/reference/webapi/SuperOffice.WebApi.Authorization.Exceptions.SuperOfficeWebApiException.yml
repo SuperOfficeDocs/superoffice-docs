@@ -1,0 +1,365 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  commentId: T:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  id: SuperOfficeWebApiException
+  parent: SuperOffice.WebApi.Authorization.Exceptions
+  children:
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor(System.String)
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor(System.String,System.Exception)
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request
+  langs:
+  - csharp
+  - vb
+  name: SuperOfficeWebApiException
+  nameWithType: SuperOfficeWebApiException
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  type: Class
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Exceptions
+  summary: "\nThrown when bad things happen in the API. Contains the HTTP error and any body we can read.\n"
+  syntax:
+    content: 'public class SuperOfficeWebApiException : Exception'
+    content.vb: >-
+      Public Class SuperOfficeWebApiException
+          Inherits Exception
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor
+  commentId: M:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  langs:
+  - csharp
+  - vb
+  name: SuperOfficeWebApiException()
+  nameWithType: SuperOfficeWebApiException.SuperOfficeWebApiException()
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.SuperOfficeWebApiException()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Exceptions
+  summary: "\nDefault - all blank\n"
+  syntax:
+    content: public SuperOfficeWebApiException()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor(System.String)
+  commentId: M:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  langs:
+  - csharp
+  - vb
+  name: SuperOfficeWebApiException(String)
+  nameWithType: SuperOfficeWebApiException.SuperOfficeWebApiException(String)
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.SuperOfficeWebApiException(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Exceptions
+  summary: "\nMessage\n"
+  syntax:
+    content: public SuperOfficeWebApiException(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: '&quot;halp!&quot;'
+    content.vb: Public Sub New(message As String)
+  overload: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  langs:
+  - csharp
+  - vb
+  name: SuperOfficeWebApiException(SerializationInfo, StreamingContext)
+  nameWithType: SuperOfficeWebApiException.SuperOfficeWebApiException(SerializationInfo, StreamingContext)
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.SuperOfficeWebApiException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Exceptions
+  summary: "\nMandatory constructor to support <xref href=\"System.SerializableAttribute\" data-throw-if-not-resolved=\"false\"></xref> ]\n"
+  syntax:
+    content: public SuperOfficeWebApiException(SerializationInfo info, StreamingContext context)
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+    content.vb: Public Sub New(info As SerializationInfo, context As StreamingContext)
+  overload: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor(System.String,System.Exception)
+  commentId: M:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  langs:
+  - csharp
+  - vb
+  name: SuperOfficeWebApiException(String, Exception)
+  nameWithType: SuperOfficeWebApiException.SuperOfficeWebApiException(String, Exception)
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.SuperOfficeWebApiException(System.String, System.Exception)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Exceptions
+  summary: "\nWrapper\n"
+  syntax:
+    content: public SuperOfficeWebApiException(string message, Exception innerException)
+    parameters:
+    - id: message
+      type: System.String
+      description: '&quot;Halp!&quot;'
+    - id: innerException
+      type: System.Exception
+      description: the real problem
+    content.vb: Public Sub New(message As String, innerException As Exception)
+  overload: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)
+  commentId: M:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)
+  id: '#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)'
+  parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  langs:
+  - csharp
+  - vb
+  name: SuperOfficeWebApiException(String, String, HttpResponseHeaders, String)
+  nameWithType: SuperOfficeWebApiException.SuperOfficeWebApiException(String, String, HttpResponseHeaders, String)
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.SuperOfficeWebApiException(System.String, System.String, System.Net.Http.Headers.HttpResponseHeaders, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Exceptions
+  summary: "\nDetails\n"
+  syntax:
+    content: public SuperOfficeWebApiException(string message, string request, HttpResponseHeaders headers, string body)
+    parameters:
+    - id: message
+      type: System.String
+      description: '&quot;Halp!&quot;'
+    - id: request
+      type: System.String
+      description: HTTP Request that triggered problem
+    - id: headers
+      type: System.Net.Http.Headers.HttpResponseHeaders
+      description: HTTP Response headers from failed request. Might contain clues.
+    - id: body
+      type: System.String
+      description: body (if any) of response. Might contain JSON
+    content.vb: Public Sub New(message As String, request As String, headers As HttpResponseHeaders, body As String)
+  overload: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request
+  commentId: P:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request
+  id: Request
+  parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  langs:
+  - csharp
+  - vb
+  name: Request
+  nameWithType: SuperOfficeWebApiException.Request
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request
+  type: Property
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Exceptions
+  syntax:
+    content: public string Request { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Request As String
+  overload: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers
+  commentId: P:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers
+  id: Headers
+  parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  langs:
+  - csharp
+  - vb
+  name: Headers
+  nameWithType: SuperOfficeWebApiException.Headers
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers
+  type: Property
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Exceptions
+  syntax:
+    content: public HttpResponseHeaders Headers { get; }
+    parameters: []
+    return:
+      type: System.Net.Http.Headers.HttpResponseHeaders
+    content.vb: Public ReadOnly Property Headers As HttpResponseHeaders
+  overload: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body
+  commentId: P:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body
+  id: Body
+  parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: SuperOfficeWebApiException.Body
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body
+  type: Property
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Exceptions
+  syntax:
+    content: public string Body { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Body As String
+  overload: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.WebApi.Authorization.Exceptions
+  commentId: N:SuperOffice.WebApi.Authorization.Exceptions
+  isExternal: true
+  name: SuperOffice.WebApi.Authorization.Exceptions
+  nameWithType: SuperOffice.WebApi.Authorization.Exceptions
+  fullName: SuperOffice.WebApi.Authorization.Exceptions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.#ctor
+  isExternal: true
+  name: SuperOfficeWebApiException
+  nameWithType: SuperOfficeWebApiException.SuperOfficeWebApiException
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.SuperOfficeWebApiException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Runtime.Serialization.SerializationInfo
+  isExternal: true
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  isExternal: true
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Net.Http.Headers.HttpResponseHeaders
+  isExternal: true
+  name: HttpResponseHeaders
+  nameWithType: HttpResponseHeaders
+  fullName: System.Net.Http.Headers.HttpResponseHeaders
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request*
+  commentId: Overload:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request
+  isExternal: true
+  name: Request
+  nameWithType: SuperOfficeWebApiException.Request
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers*
+  commentId: Overload:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers
+  isExternal: true
+  name: Headers
+  nameWithType: SuperOfficeWebApiException.Headers
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body*
+  commentId: Overload:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body
+  isExternal: true
+  name: Body
+  nameWithType: SuperOfficeWebApiException.Body
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body

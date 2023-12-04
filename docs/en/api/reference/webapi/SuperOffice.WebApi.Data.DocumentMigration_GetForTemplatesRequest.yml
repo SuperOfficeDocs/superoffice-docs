@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest
+  commentId: T:SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest
+  id: DocumentMigration_GetForTemplatesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.#ctor
+  - SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.IncludeEmails
+  - SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.TargetDocumentPluginId
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigration_GetForTemplatesRequest
+  nameWithType: DocumentMigration_GetForTemplatesRequest
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class DocumentMigration_GetForTemplatesRequest : Object'
+    content.vb: >-
+      Public Class DocumentMigration_GetForTemplatesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigration_GetForTemplatesRequest()
+  nameWithType: DocumentMigration_GetForTemplatesRequest.DocumentMigration_GetForTemplatesRequest()
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.DocumentMigration_GetForTemplatesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DocumentMigration_GetForTemplatesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.TargetDocumentPluginId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.TargetDocumentPluginId
+  id: TargetDocumentPluginId
+  parent: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetDocumentPluginId
+  nameWithType: DocumentMigration_GetForTemplatesRequest.TargetDocumentPluginId
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.TargetDocumentPluginId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TargetDocumentPluginId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TargetDocumentPluginId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.TargetDocumentPluginId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.IncludeEmails
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.IncludeEmails
+  id: IncludeEmails
+  parent: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeEmails
+  nameWithType: DocumentMigration_GetForTemplatesRequest.IncludeEmails
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.IncludeEmails
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeEmails { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeEmails As Boolean
+  overload: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.IncludeEmails*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.#ctor
+  isExternal: true
+  name: DocumentMigration_GetForTemplatesRequest
+  nameWithType: DocumentMigration_GetForTemplatesRequest.DocumentMigration_GetForTemplatesRequest
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.DocumentMigration_GetForTemplatesRequest
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.TargetDocumentPluginId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.TargetDocumentPluginId
+  isExternal: true
+  name: TargetDocumentPluginId
+  nameWithType: DocumentMigration_GetForTemplatesRequest.TargetDocumentPluginId
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.TargetDocumentPluginId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.IncludeEmails*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.IncludeEmails
+  isExternal: true
+  name: IncludeEmails
+  nameWithType: DocumentMigration_GetForTemplatesRequest.IncludeEmails
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_GetForTemplatesRequest.IncludeEmails
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

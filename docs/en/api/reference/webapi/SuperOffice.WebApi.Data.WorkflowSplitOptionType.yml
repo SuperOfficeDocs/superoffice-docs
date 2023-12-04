@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  id: WorkflowSplitOptionType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowSplitOptionType.FormSubmission
+  - SuperOffice.WebApi.Data.WorkflowSplitOptionType.LinkClicked
+  - SuperOffice.WebApi.Data.WorkflowSplitOptionType.None
+  - SuperOffice.WebApi.Data.WorkflowSplitOptionType.PersonData
+  - SuperOffice.WebApi.Data.WorkflowSplitOptionType.ProjectMembership
+  - SuperOffice.WebApi.Data.WorkflowSplitOptionType.SelectionMembership
+  - SuperOffice.WebApi.Data.WorkflowSplitOptionType.value__
+  langs:
+  - csharp
+  - vb
+  name: WorkflowSplitOptionType
+  nameWithType: WorkflowSplitOptionType
+  fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWorkflow Split Option type\n"
+  syntax:
+    content: 'public sealed class WorkflowSplitOptionType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowSplitOptionType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType.value__
+  commentId: F:SuperOffice.WebApi.Data.WorkflowSplitOptionType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowSplitOptionType.value__
+  fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType.None
+  commentId: F:SuperOffice.WebApi.Data.WorkflowSplitOptionType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowSplitOptionType.None
+  fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const WorkflowSplitOptionType None
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    content.vb: Public Const None As WorkflowSplitOptionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType.PersonData
+  commentId: F:SuperOffice.WebApi.Data.WorkflowSplitOptionType.PersonData
+  id: PersonData
+  parent: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  langs:
+  - csharp
+  - vb
+  name: PersonData
+  nameWithType: WorkflowSplitOptionType.PersonData
+  fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType.PersonData
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: PersonData\n"
+  syntax:
+    content: public const WorkflowSplitOptionType PersonData
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    content.vb: Public Const PersonData As WorkflowSplitOptionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType.FormSubmission
+  commentId: F:SuperOffice.WebApi.Data.WorkflowSplitOptionType.FormSubmission
+  id: FormSubmission
+  parent: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  langs:
+  - csharp
+  - vb
+  name: FormSubmission
+  nameWithType: WorkflowSplitOptionType.FormSubmission
+  fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType.FormSubmission
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: FormSubmission\n"
+  syntax:
+    content: public const WorkflowSplitOptionType FormSubmission
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    content.vb: Public Const FormSubmission As WorkflowSplitOptionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType.LinkClicked
+  commentId: F:SuperOffice.WebApi.Data.WorkflowSplitOptionType.LinkClicked
+  id: LinkClicked
+  parent: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  langs:
+  - csharp
+  - vb
+  name: LinkClicked
+  nameWithType: WorkflowSplitOptionType.LinkClicked
+  fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType.LinkClicked
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: LinkClicked\n"
+  syntax:
+    content: public const WorkflowSplitOptionType LinkClicked
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    content.vb: Public Const LinkClicked As WorkflowSplitOptionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType.ProjectMembership
+  commentId: F:SuperOffice.WebApi.Data.WorkflowSplitOptionType.ProjectMembership
+  id: ProjectMembership
+  parent: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  langs:
+  - csharp
+  - vb
+  name: ProjectMembership
+  nameWithType: WorkflowSplitOptionType.ProjectMembership
+  fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType.ProjectMembership
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: ProjectMembership\n"
+  syntax:
+    content: public const WorkflowSplitOptionType ProjectMembership
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    content.vb: Public Const ProjectMembership As WorkflowSplitOptionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType.SelectionMembership
+  commentId: F:SuperOffice.WebApi.Data.WorkflowSplitOptionType.SelectionMembership
+  id: SelectionMembership
+  parent: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  langs:
+  - csharp
+  - vb
+  name: SelectionMembership
+  nameWithType: WorkflowSplitOptionType.SelectionMembership
+  fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType.SelectionMembership
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: SelectionMembership\n"
+  syntax:
+    content: public const WorkflowSplitOptionType SelectionMembership
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    content.vb: Public Const SelectionMembership As WorkflowSplitOptionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowSplitOptionType
+  nameWithType: WorkflowSplitOptionType
+  fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType

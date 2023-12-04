@@ -25,6 +25,7 @@ items:
   - SuperOffice.WebApi.Data.ChatSessionEntity.Person
   - SuperOffice.WebApi.Data.ChatSessionEntity.Project
   - SuperOffice.WebApi.Data.ChatSessionEntity.Rank
+  - SuperOffice.WebApi.Data.ChatSessionEntity.Rating
   - SuperOffice.WebApi.Data.ChatSessionEntity.Sale
   - SuperOffice.WebApi.Data.ChatSessionEntity.SessionKey
   - SuperOffice.WebApi.Data.ChatSessionEntity.Status
@@ -1168,6 +1169,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.ChatSessionEntity.Rating
+  commentId: P:SuperOffice.WebApi.Data.ChatSessionEntity.Rating
+  id: Rating
+  parent: SuperOffice.WebApi.Data.ChatSessionEntity
+  langs:
+  - csharp
+  - vb
+  name: Rating
+  nameWithType: ChatSessionEntity.Rating
+  fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Rating
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRating of this chat conversation given by the customer\n"
+  syntax:
+    content: public virtual int Rating { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rating As Integer
+  overload: SuperOffice.WebApi.Data.ChatSessionEntity.Rating*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -1626,3 +1660,9 @@ references:
   name: ChatbotIsActive
   nameWithType: ChatSessionEntity.ChatbotIsActive
   fullName: SuperOffice.WebApi.Data.ChatSessionEntity.ChatbotIsActive
+- uid: SuperOffice.WebApi.Data.ChatSessionEntity.Rating*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSessionEntity.Rating
+  isExternal: true
+  name: Rating
+  nameWithType: ChatSessionEntity.Rating
+  fullName: SuperOffice.WebApi.Data.ChatSessionEntity.Rating

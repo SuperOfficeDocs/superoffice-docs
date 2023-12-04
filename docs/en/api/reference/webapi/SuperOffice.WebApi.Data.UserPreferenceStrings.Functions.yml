@@ -47,6 +47,7 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowProgressInfo
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowTipNumber
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowTipsAtStart
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowWeekNumbersInCalendars
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
@@ -1406,6 +1407,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const DisableDashboardTileExport As String = "DisableDashboardTileExport"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowWeekNumbersInCalendars
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowWeekNumbersInCalendars
+  id: ShowWeekNumbersInCalendars
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ShowWeekNumbersInCalendars
+  nameWithType: UserPreferenceStrings.Functions.ShowWeekNumbersInCalendars
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowWeekNumbersInCalendars
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShow week numbers in popup calendars.\n"
+  syntax:
+    content: public const string ShowWeekNumbersInCalendars = "ShowWeekNumbersInCalendars"
+    return:
+      type: System.String
+    content.vb: Public Const ShowWeekNumbersInCalendars As String = "ShowWeekNumbersInCalendars"
   modifiers.csharp:
   - public
   - const

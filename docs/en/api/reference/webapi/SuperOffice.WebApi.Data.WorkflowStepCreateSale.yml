@@ -1,0 +1,700 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  id: WorkflowStepCreateSale
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowStepCreateSale.#ctor
+  - SuperOffice.WebApi.Data.WorkflowStepCreateSale.Amount
+  - SuperOffice.WebApi.Data.WorkflowStepCreateSale.Currency
+  - SuperOffice.WebApi.Data.WorkflowStepCreateSale.Date
+  - SuperOffice.WebApi.Data.WorkflowStepCreateSale.Description
+  - SuperOffice.WebApi.Data.WorkflowStepCreateSale.Owner
+  - SuperOffice.WebApi.Data.WorkflowStepCreateSale.Project
+  - SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType
+  - SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType_String
+  - SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleType
+  - SuperOffice.WebApi.Data.WorkflowStepCreateSale.Stage
+  - SuperOffice.WebApi.Data.WorkflowStepCreateSale.Title
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepCreateSale
+  nameWithType: WorkflowStepCreateSale
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for WorkflowStepCreateSale.\nStep in workflow.    \n"
+  syntax:
+    content: 'public class WorkflowStepCreateSale : WorkflowStepBase'
+    content.vb: >-
+      Public Class WorkflowStepCreateSale
+          Inherits WorkflowStepBase
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
+    commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.WorkflowStepBase
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  - SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  - SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  - SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.#ctor
+  commentId: M:SuperOffice.WebApi.Data.WorkflowStepCreateSale.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepCreateSale()
+  nameWithType: WorkflowStepCreateSale.WorkflowStepCreateSale()
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.WorkflowStepCreateSale()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public WorkflowStepCreateSale()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateSale.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Title
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Title
+  id: Title
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: WorkflowStepCreateSale.Title
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Title
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSale title\n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleType
+  id: SaleType
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: SaleType
+  nameWithType: WorkflowStepCreateSale.SaleType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSale type\n"
+  syntax:
+    content: public virtual int SaleType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleType As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Stage
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Stage
+  id: Stage
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Stage
+  nameWithType: WorkflowStepCreateSale.Stage
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Stage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSale stage\n"
+  syntax:
+    content: public virtual int Stage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Stage As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Stage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Amount
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Amount
+  id: Amount
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: WorkflowStepCreateSale.Amount
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Amount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSale amount\n"
+  syntax:
+    content: public virtual double Amount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property Amount As Double
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Amount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Currency
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Currency
+  id: Currency
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: WorkflowStepCreateSale.Currency
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Currency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSale currency\n"
+  syntax:
+    content: public virtual int Currency { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Currency As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Currency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Description
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: WorkflowStepCreateSale.Description
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSale description\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Project
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Project
+  id: Project
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: WorkflowStepCreateSale.Project
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Project
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRelated project\n"
+  syntax:
+    content: public virtual int Project { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Project As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Project*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType_String
+  id: SaleDateType_String
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: SaleDateType_String
+  nameWithType: WorkflowStepCreateSale.SaleDateType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSale date selection type\nRaw string enum value.\n"
+  syntax:
+    content: public string SaleDateType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SaleDateType_String As String
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType
+    commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType
+  id: SaleDateType
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: SaleDateType
+  nameWithType: WorkflowStepCreateSale.SaleDateType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSale date selection type\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<WorkflowSaleDateType> SaleDateType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.WorkflowSaleDateType}
+    content.vb: Public Property SaleDateType As Nullable(Of WorkflowSaleDateType)
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType_String
+    commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Date
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Date
+  id: Date
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: WorkflowStepCreateSale.Date
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Date
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSale date\n"
+  syntax:
+    content: public virtual DateTime Date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Date As DateTime
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Date*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Owner
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Owner
+  id: Owner
+  parent: SuperOffice.WebApi.Data.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: WorkflowStepCreateSale.Owner
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Owner
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSale owner\n"
+  syntax:
+    content: public virtual int Owner { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Owner As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Owner*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: WorkflowStepId
+  nameWithType: WorkflowStepBase.WorkflowStepId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowStepBase.WorkflowId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: StepType_String
+  nameWithType: WorkflowStepBase.StepType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: StepType
+  nameWithType: WorkflowStepBase.StepType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
+- uid: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+  parent: SuperOffice.WebApi.Data.WorkflowStepBase
+  isExternal: true
+  name: Rank
+  nameWithType: WorkflowStepBase.Rank
+  fullName: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateSale.#ctor
+  isExternal: true
+  name: WorkflowStepCreateSale
+  nameWithType: WorkflowStepCreateSale.WorkflowStepCreateSale
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.WorkflowStepCreateSale
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Title*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Title
+  isExternal: true
+  name: Title
+  nameWithType: WorkflowStepCreateSale.Title
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleType*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleType
+  isExternal: true
+  name: SaleType
+  nameWithType: WorkflowStepCreateSale.SaleType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Stage*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Stage
+  isExternal: true
+  name: Stage
+  nameWithType: WorkflowStepCreateSale.Stage
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Stage
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Amount*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Amount
+  isExternal: true
+  name: Amount
+  nameWithType: WorkflowStepCreateSale.Amount
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Amount
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Currency*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Currency
+  isExternal: true
+  name: Currency
+  nameWithType: WorkflowStepCreateSale.Currency
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Currency
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Description
+  isExternal: true
+  name: Description
+  nameWithType: WorkflowStepCreateSale.Description
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Description
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Project*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Project
+  isExternal: true
+  name: Project
+  nameWithType: WorkflowStepCreateSale.Project
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Project
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType_String
+  isExternal: true
+  name: SaleDateType_String
+  nameWithType: WorkflowStepCreateSale.SaleDateType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType_String
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType
+  isExternal: true
+  name: SaleDateType
+  nameWithType: WorkflowStepCreateSale.SaleDateType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepCreateSale.SaleDateType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowSaleDateType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WorkflowSaleDateType}'
+  definition: System.Nullable`1
+  name: Nullable<WorkflowSaleDateType>
+  nameWithType: Nullable<WorkflowSaleDateType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.WorkflowSaleDateType>
+  nameWithType.vb: Nullable(Of WorkflowSaleDateType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WorkflowSaleDateType)
+  name.vb: Nullable(Of WorkflowSaleDateType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowSaleDateType
+    name: WorkflowSaleDateType
+    nameWithType: WorkflowSaleDateType
+    fullName: SuperOffice.WebApi.Data.WorkflowSaleDateType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowSaleDateType
+    name: WorkflowSaleDateType
+    nameWithType: WorkflowSaleDateType
+    fullName: SuperOffice.WebApi.Data.WorkflowSaleDateType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Date*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Date
+  isExternal: true
+  name: Date
+  nameWithType: WorkflowStepCreateSale.Date
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Date
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Owner*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepCreateSale.Owner
+  isExternal: true
+  name: Owner
+  nameWithType: WorkflowStepCreateSale.Owner
+  fullName: SuperOffice.WebApi.Data.WorkflowStepCreateSale.Owner

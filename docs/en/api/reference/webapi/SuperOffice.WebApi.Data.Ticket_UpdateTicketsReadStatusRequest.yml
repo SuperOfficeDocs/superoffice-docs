@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest
+  id: Ticket_UpdateTicketsReadStatusRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.NewStatus
+  - SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.TicketIds
+  langs:
+  - csharp
+  - vb
+  name: Ticket_UpdateTicketsReadStatusRequest
+  nameWithType: Ticket_UpdateTicketsReadStatusRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_UpdateTicketsReadStatusRequest : Object'
+    content.vb: >-
+      Public Class Ticket_UpdateTicketsReadStatusRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_UpdateTicketsReadStatusRequest()
+  nameWithType: Ticket_UpdateTicketsReadStatusRequest.Ticket_UpdateTicketsReadStatusRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.Ticket_UpdateTicketsReadStatusRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_UpdateTicketsReadStatusRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.TicketIds
+  commentId: P:SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.TicketIds
+  id: TicketIds
+  parent: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketIds
+  nameWithType: Ticket_UpdateTicketsReadStatusRequest.TicketIds
+  fullName: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.TicketIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] TicketIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property TicketIds As Integer()
+  overload: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.TicketIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.NewStatus
+  commentId: P:SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.NewStatus
+  id: NewStatus
+  parent: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: NewStatus
+  nameWithType: Ticket_UpdateTicketsReadStatusRequest.NewStatus
+  fullName: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.NewStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TicketReadStatus NewStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketReadStatus
+    content.vb: Public Property NewStatus As TicketReadStatus
+  overload: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.NewStatus*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.#ctor
+  isExternal: true
+  name: Ticket_UpdateTicketsReadStatusRequest
+  nameWithType: Ticket_UpdateTicketsReadStatusRequest.Ticket_UpdateTicketsReadStatusRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.Ticket_UpdateTicketsReadStatusRequest
+- uid: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.TicketIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.TicketIds
+  isExternal: true
+  name: TicketIds
+  nameWithType: Ticket_UpdateTicketsReadStatusRequest.TicketIds
+  fullName: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.TicketIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.NewStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.NewStatus
+  isExternal: true
+  name: NewStatus
+  nameWithType: Ticket_UpdateTicketsReadStatusRequest.NewStatus
+  fullName: SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest.NewStatus
+- uid: SuperOffice.WebApi.Data.TicketReadStatus
+  commentId: T:SuperOffice.WebApi.Data.TicketReadStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketReadStatus
+  nameWithType: TicketReadStatus
+  fullName: SuperOffice.WebApi.Data.TicketReadStatus

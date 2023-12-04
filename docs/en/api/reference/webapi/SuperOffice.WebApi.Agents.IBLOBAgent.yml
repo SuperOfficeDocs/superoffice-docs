@@ -1,0 +1,1853 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent
+  commentId: T:SuperOffice.WebApi.Agents.IBLOBAgent
+  id: IBLOBAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync(SuperOffice.WebApi.Data.BlobEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync(SuperOffice.WebApi.Data.BlobLinkType,System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: IBLOBAgent
+  nameWithType: IBLOBAgent
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent
+  type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCollection of all services that works with binary objects (BLOBS), e.g. Images and documents.\n"
+  syntax:
+    content: 'public interface IBLOBAgent : IDisposable'
+    content.vb: >-
+      Public Interface IBLOBAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultBlobEntityAsync(RequestOptions)
+  nameWithType: IBLOBAgent.CreateDefaultBlobEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new BlobEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<BlobEntity> CreateDefaultBlobEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BlobEntity}
+      description: A blank BlobEntity
+    content.vb: Function CreateDefaultBlobEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync(SuperOffice.WebApi.Data.BlobEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync(SuperOffice.WebApi.Data.BlobEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveBlobEntityAsync(SuperOffice.WebApi.Data.BlobEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveBlobEntityAsync(BlobEntity, RequestOptions)
+  nameWithType: IBLOBAgent.SaveBlobEntityAsync(BlobEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync(SuperOffice.WebApi.Data.BlobEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing BlobEntity or creates a new BlobEntity if the id parameter is 0. \n"
+  syntax:
+    content: Task<BlobEntity> SaveBlobEntityAsync(BlobEntity blobEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: blobEntity
+      type: SuperOffice.WebApi.Data.BlobEntity
+      description: The BlobEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BlobEntity}
+      description: New or updated BlobEntity
+    content.vb: Function SaveBlobEntityAsync(blobEntity As BlobEntity, requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteBlobEntityAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.DeleteBlobEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the BlobEntity\n"
+  syntax:
+    content: Task DeleteBlobEntityAsync(int blobEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: blobEntityId
+      type: System.Int32
+      description: The identity of the BlobEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteBlobEntityAsync(blobEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobEntityAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.GetBlobEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific BlobEntity object.                        \n"
+  syntax:
+    content: Task<BlobEntity> GetBlobEntityAsync(int blobEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: blobEntityId
+      type: System.Int32
+      description: The identifier of the BlobEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BlobEntity}
+      description: BlobEntity
+    content.vb: Function GetBlobEntityAsync(blobEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: SetBlobStreamAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetBlobStreamAsync(Int32, Byte[], RequestOptions)
+  nameWithType: IBLOBAgent.SetBlobStreamAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStore a binary object from it&apos;s stream\n"
+  syntax:
+    content: Task SetBlobStreamAsync(int blobEntityId, byte[] stream, RequestOptions requestOptions = null)
+    parameters:
+    - id: blobEntityId
+      type: System.Int32
+      description: Id of the BLOB entity object that the binary data should be stored to.
+    - id: stream
+      type: System.Byte[]
+      description: The binary object as a Stream
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetBlobStreamAsync(blobEntityId As Integer, stream As Byte(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync*
+  nameWithType.vb: IBLOBAgent.SetBlobStreamAsync(Int32, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetBlobStreamAsync(Int32, Byte(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetBlobStreamAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobStreamAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetBlobStreamAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the binary object as a stream\n"
+  syntax:
+    content: Task<byte[]> GetBlobStreamAsync(int blobEntityId, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: blobEntityId
+      type: System.Int32
+      description: The ID of the BLOB entity object that refers to the binary data
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The binary object as a Stream
+    content.vb: Function GetBlobStreamAsync(blobEntityId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectImageAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetProjectImageAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the project image that is displayed in the CRM application.\n"
+  syntax:
+    content: Task<byte[]> GetProjectImageAsync(int projectId, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetProjectImageAsync(projectId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetPersonImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonImageAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetPersonImageAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the person image that is displayed in the CRM application.\n"
+  syntax:
+    content: Task<byte[]> GetPersonImageAsync(int personId, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetPersonImageAsync(personId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetProjectImageAsync(Int32, Byte[], RequestOptions)
+  nameWithType: IBLOBAgent.SetProjectImageAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStores the project image that is displayed in the CRM application.\n"
+  syntax:
+    content: Task SetProjectImageAsync(int projectId, byte[] image, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    - id: image
+      type: System.Byte[]
+      description: The image that is stored on the project (System.Drawing.Image)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetProjectImageAsync(projectId As Integer, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync*
+  nameWithType.vb: IBLOBAgent.SetProjectImageAsync(Int32, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetProjectImageAsync(Int32, Byte(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetPersonImageAsync(Int32, Byte[], RequestOptions)
+  nameWithType: IBLOBAgent.SetPersonImageAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStores the person image that is displayed in the CRM application.\n"
+  syntax:
+    content: Task SetPersonImageAsync(int personId, byte[] image, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    - id: image
+      type: System.Byte[]
+      description: The image that is stored on the person (System.Drawing.Image)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetPersonImageAsync(personId As Integer, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync*
+  nameWithType.vb: IBLOBAgent.SetPersonImageAsync(Int32, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetPersonImageAsync(Int32, Byte(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: ChangeProjectImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangeProjectImageAsync(Int32, Int32, RequestOptions)
+  nameWithType: IBLOBAgent.ChangeProjectImageAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nChanges the project image link. If the Binary object id is 0, any image link is removed from the project.\n"
+  syntax:
+    content: Task ChangeProjectImageAsync(int projectId, int blobId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project the image is linked to
+    - id: blobId
+      type: System.Int32
+      description: The Binary object id. If the Binary object id is 0, any image link is removed from the project.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ChangeProjectImageAsync(projectId As Integer, blobId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: SaveProjectImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectImageAsync(String, Byte[], RequestOptions)
+  nameWithType: IBLOBAgent.SaveProjectImageAsync(String, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync(System.String, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSaves a project image that is displayed in the CRM application&apos;s project image selection dialog to the database.\n"
+  syntax:
+    content: Task SaveProjectImageAsync(string description, byte[] image, RequestOptions requestOptions = null)
+    parameters:
+    - id: description
+      type: System.String
+      description: Image description. Should be image name (e.g. winter.jpg) for project images
+    - id: image
+      type: System.Byte[]
+      description: The project image (System.Drawing.Image)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SaveProjectImageAsync(description As String, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync*
+  nameWithType.vb: IBLOBAgent.SaveProjectImageAsync(String, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync(System.String, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveProjectImageAsync(String, Byte(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetBlobEntityOnProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobEntityOnProjectAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.GetBlobEntityOnProjectAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the blob entity that represents the project image binary object.\n"
+  syntax:
+    content: Task<BlobEntity> GetBlobEntityOnProjectAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BlobEntity}
+      description: BlobEntity object
+    content.vb: Function GetBlobEntityOnProjectAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetBlobEntityOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobEntityOnPersonAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.GetBlobEntityOnPersonAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the blob entity that represents the person image binary object.\n"
+  syntax:
+    content: Task<BlobEntity> GetBlobEntityOnPersonAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BlobEntity}
+      description: BlobEntity object
+    content.vb: Function GetBlobEntityOnPersonAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetBlobEntityOnCountryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobEntityOnCountryAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.GetBlobEntityOnCountryAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the blob entity that represents the country flag binary object.\n"
+  syntax:
+    content: Task<BlobEntity> GetBlobEntityOnCountryAsync(int countryId, RequestOptions requestOptions = null)
+    parameters:
+    - id: countryId
+      type: System.Int32
+      description: The country id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BlobEntity}
+      description: BlobEntity object
+    content.vb: Function GetBlobEntityOnCountryAsync(countryId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetBlobEntityOnProductAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobEntityOnProductAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.GetBlobEntityOnProductAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the blob entity that represents the product image binary object.\n"
+  syntax:
+    content: Task<BlobEntity> GetBlobEntityOnProductAsync(int productId, RequestOptions requestOptions = null)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BlobEntity}
+      description: BlobEntity object
+    content.vb: Function GetBlobEntityOnProductAsync(productId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: ChangePersonImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangePersonImageAsync(Int32, Int32, RequestOptions)
+  nameWithType: IBLOBAgent.ChangePersonImageAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\n\n"
+  syntax:
+    content: Task ChangePersonImageAsync(int personId, int blobId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person the image is linked to
+    - id: blobId
+      type: System.Int32
+      description: The Binary object id. If the Binary object id is 0, any image link is removed from the person.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ChangePersonImageAsync(personId As Integer, blobId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync(SuperOffice.WebApi.Data.BlobLinkType,System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync(SuperOffice.WebApi.Data.BlobLinkType,System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+  id: SaveImageStreamAsync(SuperOffice.WebApi.Data.BlobLinkType,System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveImageStreamAsync(BlobLinkType, Byte[], String, RequestOptions)
+  nameWithType: IBLOBAgent.SaveImageStreamAsync(BlobLinkType, Byte[], String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync(SuperOffice.WebApi.Data.BlobLinkType, System.Byte[], System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStores an image in the database without linking it to a project or a person. It is possible to ChangePersonImage or ChangeProjectImage to attach image later.\n"
+  syntax:
+    content: Task<int> SaveImageStreamAsync(BlobLinkType type, byte[] image, string description, RequestOptions requestOptions = null)
+    parameters:
+    - id: type
+      type: SuperOffice.WebApi.Data.BlobLinkType
+      description: The type of the image.
+    - id: image
+      type: System.Byte[]
+      description: Image to store
+    - id: description
+      type: System.String
+      description: Image description
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: The blob id
+    content.vb: Function SaveImageStreamAsync(type As BlobLinkType, image As Byte(), description As String, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync*
+  nameWithType.vb: IBLOBAgent.SaveImageStreamAsync(BlobLinkType, Byte(), String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync(SuperOffice.WebApi.Data.BlobLinkType, System.Byte(), System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveImageStreamAsync(BlobLinkType, Byte(), String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetProductImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProductImageAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetProductImageAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the product image (rank=1) that is displayed in the CRM application.\n"
+  syntax:
+    content: Task<byte[]> GetProductImageAsync(int productId, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product id of the product the image belongs to.
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetProductImageAsync(productId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: SetProductImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetProductImageAsync(Int32, Byte[], RequestOptions)
+  nameWithType: IBLOBAgent.SetProductImageAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStores the product image that is displayed in the CRM application. The image is scaled down to max 1000x1000. This method operates only the main (rank=1) image; future extensions may support multiple images. A thumbnail of size 75x75 is also automatically set.\n"
+  syntax:
+    content: Task SetProductImageAsync(int productId, byte[] image, RequestOptions requestOptions = null)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product id of the product the image belongs to.
+    - id: image
+      type: System.Byte[]
+      description: The image that is stored on the product (System.Drawing.Image), scaled down to no more than 1000x1000
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetProductImageAsync(productId As Integer, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync*
+  nameWithType.vb: IBLOBAgent.SetProductImageAsync(Int32, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetProductImageAsync(Int32, Byte(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetProductThumbnailAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProductThumbnailAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetProductThumbnailAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the product thumbnail that is displayed in the CRM application.\n"
+  syntax:
+    content: Task<byte[]> GetProductThumbnailAsync(int productId, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product id of the product the thumbnail belongs to.
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The thumbnail as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetProductThumbnailAsync(productId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: SetProductThumbnailAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetProductThumbnailAsync(Int32, Byte[], RequestOptions)
+  nameWithType: IBLOBAgent.SetProductThumbnailAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStores the product thumbnail that is displayed in the CRM application. The image is scaled down to max 200x200 pixels.\n"
+  syntax:
+    content: Task SetProductThumbnailAsync(int productId, byte[] image, RequestOptions requestOptions = null)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product id of the product the image belongs to.
+    - id: image
+      type: System.Byte[]
+      description: The image that is stored on the product (System.Drawing.Image); scaled down to no more than 200x200
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetProductThumbnailAsync(productId As Integer, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync*
+  nameWithType.vb: IBLOBAgent.SetProductThumbnailAsync(Int32, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetProductThumbnailAsync(Int32, Byte(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: ChangeProductImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangeProductImageAsync(Int32, Int32, RequestOptions)
+  nameWithType: IBLOBAgent.ChangeProductImageAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\n\n"
+  syntax:
+    content: Task ChangeProductImageAsync(int productId, int blobId, RequestOptions requestOptions = null)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product the image is linked to
+    - id: blobId
+      type: System.Int32
+      description: The Binary object id. If the Binary object id is 0, any image link is removed from the product.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ChangeProductImageAsync(productId As Integer, blobId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetQuoteLineImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteLineImageAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetQuoteLineImageAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the quoteline image (rank=1) that is displayed in the CRM application.\n"
+  syntax:
+    content: Task<byte[]> GetQuoteLineImageAsync(int quoteLineId, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: quoteLineId
+      type: System.Int32
+      description: The product id of the quoteline the image belongs to.
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetQuoteLineImageAsync(quoteLineId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAppDataAsync(String, RequestOptions)
+  nameWithType: IBLOBAgent.GetAppDataAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any\n"
+  syntax:
+    content: Task<string> GetAppDataAsync(string key, RequestOptions requestOptions = null)
+    parameters:
+    - id: key
+      type: System.String
+      description: The key string, less than 200 characters. Must be unique within each application.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The applications value, suggested to be a JSON, XML or other readable structure
+    content.vb: Function GetAppDataAsync(key As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetAppDataAsync(String, String, RequestOptions)
+  nameWithType: IBLOBAgent.SetAppDataAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any. Existing data, if any, will be overwritten. Overwrite with a blank value to delete.\n"
+  syntax:
+    content: Task SetAppDataAsync(string key, string data, RequestOptions requestOptions = null)
+    parameters:
+    - id: key
+      type: System.String
+      description: The key string, less than 200 characters. Must be unique within each application.
+    - id: data
+      type: System.String
+      description: The applications value, suggested to be a JSON, XML or other readable structure
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SetAppDataAsync(key As String, data As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetPersonImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetPersonImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync(System.Int32, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the person image that is displayed in the CRM application with a specified maximum size.\n"
+  syntax:
+    content: Task<byte[]> GetPersonImageWithSizeAsync(int personId, int width, int height, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    - id: width
+      type: System.Int32
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    - id: height
+      type: System.Int32
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
+    content.vb: Function GetPersonImageWithSizeAsync(personId As Integer, width As Integer, height As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetProjectImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync(System.Int32, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the project image that is displayed in the CRM application with a specified maximum size.\n"
+  syntax:
+    content: Task<byte[]> GetProjectImageWithSizeAsync(int projectId, int width, int height, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    - id: width
+      type: System.Int32
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    - id: height
+      type: System.Int32
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
+    content.vb: Function GetProjectImageWithSizeAsync(projectId As Integer, width As Integer, height As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetChatImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetChatImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetChatImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync(System.Int32, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the chat image that is displayed in chat with a specified maximum size.\n"
+  syntax:
+    content: Task<byte[]> GetChatImageWithSizeAsync(int chatTopicId, int width, int height, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: chatTopicId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    - id: width
+      type: System.Int32
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    - id: height
+      type: System.Int32
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
+    content.vb: Function GetChatImageWithSizeAsync(chatTopicId As Integer, width As Integer, height As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetContactImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetContactImageAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetContactImageAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the contact image that is displayed in the CRM application.\n"
+  syntax:
+    content: Task<byte[]> GetContactImageAsync(int contactId, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact id of the contact the image belongs to.
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetContactImageAsync(contactId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: SetContactImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetContactImageAsync(Int32, Byte[], RequestOptions)
+  nameWithType: IBLOBAgent.SetContactImageAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStores the contact image that is displayed in the CRM application.\n"
+  syntax:
+    content: Task SetContactImageAsync(int contactId, byte[] image, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact id of the contact the image belongs to.
+    - id: image
+      type: System.Byte[]
+      description: The image that is stored on the contact (System.Drawing.Image)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetContactImageAsync(contactId As Integer, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync*
+  nameWithType.vb: IBLOBAgent.SetContactImageAsync(Int32, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetContactImageAsync(Int32, Byte(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: ChangeContactImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangeContactImageAsync(Int32, Int32, RequestOptions)
+  nameWithType: IBLOBAgent.ChangeContactImageAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nChanges the contact image link. If the Binary object id is 0, any image link is removed from the contact.\n"
+  syntax:
+    content: Task ChangeContactImageAsync(int contactId, int blobId, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The Contact the image is linked to
+    - id: blobId
+      type: System.Int32
+      description: The Binary object id. If the Binary object id is 0, any image link is removed from the Contact.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ChangeContactImageAsync(contactId As Integer, blobId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetBlobEntityOnContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobEntityOnContactAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.GetBlobEntityOnContactAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the blob entity that represents the contact image binary object.\n"
+  syntax:
+    content: Task<BlobEntity> GetBlobEntityOnContactAsync(int contactId, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The Contact id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BlobEntity}
+      description: BlobEntity object
+    content.vb: Function GetBlobEntityOnContactAsync(contactId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetContactImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetContactImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetContactImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync(System.Int32, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the contact image that is displayed in the CRM application with a specified maximum size.\n"
+  syntax:
+    content: Task<byte[]> GetContactImageWithSizeAsync(int contactId, int width, int height, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact id of the Contact the image belongs to.
+    - id: width
+      type: System.Int32
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    - id: height
+      type: System.Int32
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
+    content.vb: Function GetContactImageWithSizeAsync(contactId As Integer, width As Integer, height As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetOutputFromBatchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetOutputFromBatchAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetOutputFromBatchAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the output of a batchtask as a stream\n"
+  syntax:
+    content: Task<byte[]> GetOutputFromBatchAsync(int batchTaskId, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: batchTaskId
+      type: System.Int32
+      description: The ID of the batchtask that created the output data
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The binary object as a Stream
+    content.vb: Function GetOutputFromBatchAsync(batchTaskId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync*
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CleanupBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: CleanupBatchTaskAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.CleanupBatchTaskAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemoves the binary objects linked to the batch task, the links themselves and the batch task.\n"
+  syntax:
+    content: Task CleanupBatchTaskAsync(int batchTaskId, RequestOptions requestOptions = null)
+    parameters:
+    - id: batchTaskId
+      type: System.Int32
+      description: The ID of the batchtask that created the output data
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function CleanupBatchTaskAsync(batchTaskId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync*
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync
+  isExternal: true
+  name: CreateDefaultBlobEntityAsync
+  nameWithType: IBLOBAgent.CreateDefaultBlobEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BlobEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BlobEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<BlobEntity>
+  nameWithType: Task<BlobEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.BlobEntity>
+  nameWithType.vb: Task(Of BlobEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.BlobEntity)
+  name.vb: Task(Of BlobEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.BlobEntity
+    name: BlobEntity
+    nameWithType: BlobEntity
+    fullName: SuperOffice.WebApi.Data.BlobEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.BlobEntity
+    name: BlobEntity
+    nameWithType: BlobEntity
+    fullName: SuperOffice.WebApi.Data.BlobEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync
+  isExternal: true
+  name: SaveBlobEntityAsync
+  nameWithType: IBLOBAgent.SaveBlobEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync
+- uid: SuperOffice.WebApi.Data.BlobEntity
+  commentId: T:SuperOffice.WebApi.Data.BlobEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: BlobEntity
+  nameWithType: BlobEntity
+  fullName: SuperOffice.WebApi.Data.BlobEntity
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync
+  isExternal: true
+  name: DeleteBlobEntityAsync
+  nameWithType: IBLOBAgent.DeleteBlobEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync
+  isExternal: true
+  name: GetBlobEntityAsync
+  nameWithType: IBLOBAgent.GetBlobEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync
+  isExternal: true
+  name: SetBlobStreamAsync
+  nameWithType: IBLOBAgent.SetBlobStreamAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync
+  isExternal: true
+  name: GetBlobStreamAsync
+  nameWithType: IBLOBAgent.GetBlobStreamAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{System.Byte[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Byte[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Byte[]>
+  nameWithType: Task<Byte[]>
+  fullName: System.Threading.Tasks.Task<System.Byte[]>
+  nameWithType.vb: Task(Of Byte())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Byte())
+  name.vb: Task(Of Byte())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync
+  isExternal: true
+  name: GetProjectImageAsync
+  nameWithType: IBLOBAgent.GetProjectImageAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync
+  isExternal: true
+  name: GetPersonImageAsync
+  nameWithType: IBLOBAgent.GetPersonImageAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync
+  isExternal: true
+  name: SetProjectImageAsync
+  nameWithType: IBLOBAgent.SetProjectImageAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync
+  isExternal: true
+  name: SetPersonImageAsync
+  nameWithType: IBLOBAgent.SetPersonImageAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync
+  isExternal: true
+  name: ChangeProjectImageAsync
+  nameWithType: IBLOBAgent.ChangeProjectImageAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync
+  isExternal: true
+  name: SaveProjectImageAsync
+  nameWithType: IBLOBAgent.SaveProjectImageAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync
+  isExternal: true
+  name: GetBlobEntityOnProjectAsync
+  nameWithType: IBLOBAgent.GetBlobEntityOnProjectAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync
+  isExternal: true
+  name: GetBlobEntityOnPersonAsync
+  nameWithType: IBLOBAgent.GetBlobEntityOnPersonAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync
+  isExternal: true
+  name: GetBlobEntityOnCountryAsync
+  nameWithType: IBLOBAgent.GetBlobEntityOnCountryAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync
+  isExternal: true
+  name: GetBlobEntityOnProductAsync
+  nameWithType: IBLOBAgent.GetBlobEntityOnProductAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync
+  isExternal: true
+  name: ChangePersonImageAsync
+  nameWithType: IBLOBAgent.ChangePersonImageAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync
+  isExternal: true
+  name: SaveImageStreamAsync
+  nameWithType: IBLOBAgent.SaveImageStreamAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync
+- uid: SuperOffice.WebApi.Data.BlobLinkType
+  commentId: T:SuperOffice.WebApi.Data.BlobLinkType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: BlobLinkType
+  nameWithType: BlobLinkType
+  fullName: SuperOffice.WebApi.Data.BlobLinkType
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync
+  isExternal: true
+  name: GetProductImageAsync
+  nameWithType: IBLOBAgent.GetProductImageAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync
+  isExternal: true
+  name: SetProductImageAsync
+  nameWithType: IBLOBAgent.SetProductImageAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync
+  isExternal: true
+  name: GetProductThumbnailAsync
+  nameWithType: IBLOBAgent.GetProductThumbnailAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync
+  isExternal: true
+  name: SetProductThumbnailAsync
+  nameWithType: IBLOBAgent.SetProductThumbnailAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync
+  isExternal: true
+  name: ChangeProductImageAsync
+  nameWithType: IBLOBAgent.ChangeProductImageAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync
+  isExternal: true
+  name: GetQuoteLineImageAsync
+  nameWithType: IBLOBAgent.GetQuoteLineImageAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync
+  isExternal: true
+  name: GetAppDataAsync
+  nameWithType: IBLOBAgent.GetAppDataAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync
+  isExternal: true
+  name: SetAppDataAsync
+  nameWithType: IBLOBAgent.SetAppDataAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync
+  isExternal: true
+  name: GetPersonImageWithSizeAsync
+  nameWithType: IBLOBAgent.GetPersonImageWithSizeAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync
+  isExternal: true
+  name: GetProjectImageWithSizeAsync
+  nameWithType: IBLOBAgent.GetProjectImageWithSizeAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync
+  isExternal: true
+  name: GetChatImageWithSizeAsync
+  nameWithType: IBLOBAgent.GetChatImageWithSizeAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync
+  isExternal: true
+  name: GetContactImageAsync
+  nameWithType: IBLOBAgent.GetContactImageAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync
+  isExternal: true
+  name: SetContactImageAsync
+  nameWithType: IBLOBAgent.SetContactImageAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync
+  isExternal: true
+  name: ChangeContactImageAsync
+  nameWithType: IBLOBAgent.ChangeContactImageAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync
+  isExternal: true
+  name: GetBlobEntityOnContactAsync
+  nameWithType: IBLOBAgent.GetBlobEntityOnContactAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync
+  isExternal: true
+  name: GetContactImageWithSizeAsync
+  nameWithType: IBLOBAgent.GetContactImageWithSizeAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync
+  isExternal: true
+  name: GetOutputFromBatchAsync
+  nameWithType: IBLOBAgent.GetOutputFromBatchAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync
+  isExternal: true
+  name: CleanupBatchTaskAsync
+  nameWithType: IBLOBAgent.CleanupBatchTaskAsync
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync

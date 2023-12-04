@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MetricPair
+  commentId: T:SuperOffice.WebApi.Data.MetricPair
+  id: MetricPair
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MetricPair.#ctor
+  - SuperOffice.WebApi.Data.MetricPair.Name
+  - SuperOffice.WebApi.Data.MetricPair.Value
+  langs:
+  - csharp
+  - vb
+  name: MetricPair
+  nameWithType: MetricPair
+  fullName: SuperOffice.WebApi.Data.MetricPair
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for MetricPair.\nMetric, in the form of string->int    \n"
+  syntax:
+    content: 'public class MetricPair : Object'
+    content.vb: >-
+      Public Class MetricPair
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.MetricPair.#ctor
+  commentId: M:SuperOffice.WebApi.Data.MetricPair.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.MetricPair
+  langs:
+  - csharp
+  - vb
+  name: MetricPair()
+  nameWithType: MetricPair.MetricPair()
+  fullName: SuperOffice.WebApi.Data.MetricPair.MetricPair()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public MetricPair()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.MetricPair.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MetricPair.Name
+  commentId: P:SuperOffice.WebApi.Data.MetricPair.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.MetricPair
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MetricPair.Name
+  fullName: SuperOffice.WebApi.Data.MetricPair.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the metric\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.MetricPair.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MetricPair.Value
+  commentId: P:SuperOffice.WebApi.Data.MetricPair.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.MetricPair
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: MetricPair.Value
+  fullName: SuperOffice.WebApi.Data.MetricPair.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe value of the metric\n"
+  syntax:
+    content: public virtual int Value { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Value As Integer
+  overload: SuperOffice.WebApi.Data.MetricPair.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.MetricPair.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.MetricPair.#ctor
+  isExternal: true
+  name: MetricPair
+  nameWithType: MetricPair.MetricPair
+  fullName: SuperOffice.WebApi.Data.MetricPair.MetricPair
+- uid: SuperOffice.WebApi.Data.MetricPair.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.MetricPair.Name
+  isExternal: true
+  name: Name
+  nameWithType: MetricPair.Name
+  fullName: SuperOffice.WebApi.Data.MetricPair.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.MetricPair.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.MetricPair.Value
+  isExternal: true
+  name: Value
+  nameWithType: MetricPair.Value
+  fullName: SuperOffice.WebApi.Data.MetricPair.Value
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

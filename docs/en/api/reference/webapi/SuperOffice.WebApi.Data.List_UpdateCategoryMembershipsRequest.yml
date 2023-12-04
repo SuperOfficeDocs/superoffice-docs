@@ -1,0 +1,266 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest
+  commentId: T:SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest
+  id: List_UpdateCategoryMembershipsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.#ctor
+  - SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToAdd
+  - SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToDelete
+  - SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToUpdate
+  - SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.TicketCategoryId
+  langs:
+  - csharp
+  - vb
+  name: List_UpdateCategoryMembershipsRequest
+  nameWithType: List_UpdateCategoryMembershipsRequest
+  fullName: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_UpdateCategoryMembershipsRequest : Object'
+    content.vb: >-
+      Public Class List_UpdateCategoryMembershipsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest
+  langs:
+  - csharp
+  - vb
+  name: List_UpdateCategoryMembershipsRequest()
+  nameWithType: List_UpdateCategoryMembershipsRequest.List_UpdateCategoryMembershipsRequest()
+  fullName: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.List_UpdateCategoryMembershipsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_UpdateCategoryMembershipsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.TicketCategoryId
+  commentId: P:SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.TicketCategoryId
+  id: TicketCategoryId
+  parent: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketCategoryId
+  nameWithType: List_UpdateCategoryMembershipsRequest.TicketCategoryId
+  fullName: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.TicketCategoryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketCategoryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketCategoryId As Integer
+  overload: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.TicketCategoryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToAdd
+  commentId: P:SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToAdd
+  id: MembershipsToAdd
+  parent: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest
+  langs:
+  - csharp
+  - vb
+  name: MembershipsToAdd
+  nameWithType: List_UpdateCategoryMembershipsRequest.MembershipsToAdd
+  fullName: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToAdd
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TicketCategoryMembershipEntity[] MembershipsToAdd { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity[]
+    content.vb: Public Property MembershipsToAdd As TicketCategoryMembershipEntity()
+  overload: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToAdd*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToUpdate
+  commentId: P:SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToUpdate
+  id: MembershipsToUpdate
+  parent: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest
+  langs:
+  - csharp
+  - vb
+  name: MembershipsToUpdate
+  nameWithType: List_UpdateCategoryMembershipsRequest.MembershipsToUpdate
+  fullName: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToUpdate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TicketCategoryMembershipEntity[] MembershipsToUpdate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity[]
+    content.vb: Public Property MembershipsToUpdate As TicketCategoryMembershipEntity()
+  overload: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToUpdate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToDelete
+  commentId: P:SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToDelete
+  id: MembershipsToDelete
+  parent: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest
+  langs:
+  - csharp
+  - vb
+  name: MembershipsToDelete
+  nameWithType: List_UpdateCategoryMembershipsRequest.MembershipsToDelete
+  fullName: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToDelete
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TicketCategoryMembershipEntity[] MembershipsToDelete { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity[]
+    content.vb: Public Property MembershipsToDelete As TicketCategoryMembershipEntity()
+  overload: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToDelete*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.#ctor
+  isExternal: true
+  name: List_UpdateCategoryMembershipsRequest
+  nameWithType: List_UpdateCategoryMembershipsRequest.List_UpdateCategoryMembershipsRequest
+  fullName: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.List_UpdateCategoryMembershipsRequest
+- uid: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.TicketCategoryId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.TicketCategoryId
+  isExternal: true
+  name: TicketCategoryId
+  nameWithType: List_UpdateCategoryMembershipsRequest.TicketCategoryId
+  fullName: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.TicketCategoryId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToAdd*
+  commentId: Overload:SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToAdd
+  isExternal: true
+  name: MembershipsToAdd
+  nameWithType: List_UpdateCategoryMembershipsRequest.MembershipsToAdd
+  fullName: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToAdd
+- uid: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity[]
+  isExternal: true
+  name: TicketCategoryMembershipEntity[]
+  nameWithType: TicketCategoryMembershipEntity[]
+  fullName: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity[]
+  nameWithType.vb: TicketCategoryMembershipEntity()
+  fullName.vb: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity()
+  name.vb: TicketCategoryMembershipEntity()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity
+    name: TicketCategoryMembershipEntity
+    nameWithType: TicketCategoryMembershipEntity
+    fullName: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity
+    name: TicketCategoryMembershipEntity
+    nameWithType: TicketCategoryMembershipEntity
+    fullName: SuperOffice.WebApi.Data.TicketCategoryMembershipEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToUpdate*
+  commentId: Overload:SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToUpdate
+  isExternal: true
+  name: MembershipsToUpdate
+  nameWithType: List_UpdateCategoryMembershipsRequest.MembershipsToUpdate
+  fullName: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToUpdate
+- uid: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToDelete*
+  commentId: Overload:SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToDelete
+  isExternal: true
+  name: MembershipsToDelete
+  nameWithType: List_UpdateCategoryMembershipsRequest.MembershipsToDelete
+  fullName: SuperOffice.WebApi.Data.List_UpdateCategoryMembershipsRequest.MembershipsToDelete

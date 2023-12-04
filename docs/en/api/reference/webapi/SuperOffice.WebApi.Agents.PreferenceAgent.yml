@@ -33,6 +33,7 @@ items:
   - SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferencesWithDisplayValuesAsync(SuperOffice.WebApi.Data.PreferenceSpec[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PreferenceAgent.GetTabOrderAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PreferenceAgent.GetTabOrdersAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.PreferenceAgent.GetXsrfPathsAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PreferenceAgent.SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceAsync(SuperOffice.WebApi.Data.Preference,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceDescriptionAsync(SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
@@ -43,6 +44,7 @@ items:
   - SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferencesAsync(SuperOffice.WebApi.Data.Preference[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PreferenceAgent.SaveTabOrderAsync(SuperOffice.WebApi.Data.TabOrder,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PreferenceAgent.SaveTabOrdersAsync(SuperOffice.WebApi.Data.TabOrder[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.PreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PreferenceAgent.UpdateNetServicesStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
   langs:
   - csharp
@@ -61,27 +63,31 @@ items:
   example:
   - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (PreferenceAgent agent = new PreferenceAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
   syntax:
-    content: 'public class PreferenceAgent : AgentBase, IDisposable'
+    content: 'public class PreferenceAgent : AgentBase, IPreferenceAgent, IDisposable'
     content.vb: >-
       Public Class PreferenceAgent
           Inherits AgentBase
-          Implements IDisposable
+          Implements IPreferenceAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
   - SuperOffice.WebApi.Agents.AgentBase._binary
   - SuperOffice.WebApi.Agents.AgentBase._config
   - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase._disposeClient
   - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
@@ -92,6 +98,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
   - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   modifiers.csharp:
   - public
   - class
@@ -121,7 +128,7 @@ items:
     parameters:
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+      description: Use this HTTP client instead of making own HttpClient instance.
     content.vb: Public Sub New(httpClient As HttpClient)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.#ctor*
   modifiers.csharp:
@@ -154,7 +161,7 @@ items:
       description: Base URL and authentication values.
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+      description: 'Optional: Use this HTTP client instead of making a new one.'
     content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.#ctor*
   modifiers.csharp:
@@ -190,6 +197,8 @@ items:
       description: A blank Preference
     content.vb: Public Function CreateDefaultPreferenceAsync(requestOptions As RequestOptions = Nothing) As Task(Of Preference)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.CreateDefaultPreferenceAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -223,6 +232,8 @@ items:
       description: A blank PreferenceDescription
     content.vb: Public Function CreateDefaultPreferenceDescriptionAsync(requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescription)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.CreateDefaultPreferenceDescriptionAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -259,6 +270,8 @@ items:
       description: New or updated PreferenceDescription
     content.vb: Public Function SavePreferenceDescriptionAsync(preferenceDescription As PreferenceDescription, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescription)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceDescriptionAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionAsync(SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -294,6 +307,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function DeletePreferenceDescriptionAsync(preferenceDescriptionId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePreferenceDescriptionAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -327,6 +342,8 @@ items:
       description: A blank PreferenceDescriptionLine
     content.vb: Public Function CreateDefaultPreferenceDescriptionLineAsync(requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescriptionLine)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -363,6 +380,8 @@ items:
       description: New or updated PreferenceDescriptionLine
     content.vb: Public Function SavePreferenceDescriptionLineAsync(preferenceDescriptionLine As PreferenceDescriptionLine, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescriptionLine)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceDescriptionLineAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLineAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -398,6 +417,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function DeletePreferenceDescriptionLineAsync(preferenceDescriptionLineId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePreferenceDescriptionLineAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -434,6 +455,8 @@ items:
       description: This method has no return value
     content.vb: Public Function SavePreferenceAsync(preference As Preference, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync(SuperOffice.WebApi.Data.Preference,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -470,6 +493,8 @@ items:
       description: This method has no return value
     content.vb: Public Function SaveTabOrderAsync(tabOrder As TabOrder, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.SaveTabOrderAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrderAsync(SuperOffice.WebApi.Data.TabOrder,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -506,6 +531,8 @@ items:
       description: Tab order. Array of strings. Each string represent a named tab.
     content.vb: Public Function GetTabOrderAsync(tabName As String, requestOptions As RequestOptions = Nothing) As Task(Of TabOrder)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetTabOrderAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync(System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -542,6 +569,8 @@ items:
       description: The preference loaded
     content.vb: Public Function GetPreferenceAsync(id As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Preference)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -581,6 +610,8 @@ items:
       description: Returns the saved preference
     content.vb: Public Function SavePreferenceEntityAsync(preference As Preference, removeLowerLevels As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of Preference)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.WebApi.Data.Preference,System.Boolean,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -617,6 +648,8 @@ items:
       description: This method has no return value
     content.vb: Public Function DeletePreferenceAsync(id As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePreferenceAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -653,6 +686,8 @@ items:
       description: This method has no return value
     content.vb: Public Function DeletePreferencesAsync(ids As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePreferencesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: PreferenceAgent.DeletePreferencesAsync(Int32(), RequestOptions)
   modifiers.csharp:
   - public
@@ -698,6 +733,8 @@ items:
       description: The preference. Note that id = 0 and value = null if preference not found in the database at the requested pref-level.
     content.vb: Public Function GetPreferenceByNameAsync(prefSection As String, prefKey As String, prefLevel As PreferenceLevel, requestOptions As RequestOptions = Nothing) As Task(Of Preference)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceByNameAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -743,6 +780,8 @@ items:
       description: The preference. Note that id = 0 and value = null if preference not found in the database at the requested pref-level.
     content.vb: Public Function GetPreferenceByNameAndIdAsync(prefSection As String, prefKey As String, prefLevel As PreferenceLevel, ownerId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Preference)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceByNameAndIdAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -776,6 +815,8 @@ items:
       description: NULL or URL of the status service that returns an XML or JSON block.
     content.vb: Public Function GetNetServicesStatusUrlAsync(requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetNetServicesStatusUrlAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetNetServicesStatusUrlAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -812,10 +853,94 @@ items:
       description: This method has no return value
     content.vb: Public Function UpdateNetServicesStatusAsync(xml_or_json As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.UpdateNetServicesStatusAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.PreferenceAgent.GetXsrfPathsAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.PreferenceAgent.GetXsrfPathsAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetXsrfPathsAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetXsrfPathsAsync(String, RequestOptions)
+  nameWithType: PreferenceAgent.GetXsrfPathsAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetXsrfPathsAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns paths that XSRF cookies should be set on\n"
+  syntax:
+    content: public Task<string[]> GetXsrfPathsAsync(string hostname, RequestOptions requestOptions = null)
+    parameters:
+    - id: hostname
+      type: System.String
+      description: The hostname that we are storing paths for.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String[]}
+      description: 'Paths that XSRF cookies should be set for: [&apos;/cs&apos;, &apos;/crm&apos;]'
+    content.vb: Public Function GetXsrfPathsAsync(hostname As String, requestOptions As RequestOptions = Nothing) As Task(Of String())
+  overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetXsrfPathsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.PreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.PreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: SetXsrfPathsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: SetXsrfPathsAsync(String, String[], RequestOptions)
+  nameWithType: PreferenceAgent.SetXsrfPathsAsync(String, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.PreferenceAgent.SetXsrfPathsAsync(System.String, System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdate the paths that need XSRF cookies\n"
+  syntax:
+    content: public Task SetXsrfPathsAsync(string hostname, string[] paths, RequestOptions requestOptions = null)
+    parameters:
+    - id: hostname
+      type: System.String
+      description: The hostname that we are storing paths for.
+    - id: paths
+      type: System.String[]
+      description: 'Paths that XSRF cookies should be set for: [&apos;/cs&apos;, &apos;/crm&apos;]'
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function SetXsrfPathsAsync(hostname As String, paths As String(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.PreferenceAgent.SetXsrfPathsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: PreferenceAgent.SetXsrfPathsAsync(String, String(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.PreferenceAgent.SetXsrfPathsAsync(System.String, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetXsrfPathsAsync(String, String(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetPreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -848,6 +973,8 @@ items:
       description: PreferenceDescription
     content.vb: Public Function GetPreferenceDescriptionAsync(preferenceDescriptionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescription)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -887,6 +1014,8 @@ items:
       description: A PreferenceDescription or null
     content.vb: Public Function GetFromSectionAndKeyAsync(section As String, key As String, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescription)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetFromSectionAndKeyAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -920,6 +1049,8 @@ items:
       description: All PreferenceDescriptions in the system
     content.vb: Public Function GetAllAsync(requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescription())
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetAllAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -956,6 +1087,8 @@ items:
       description: All PreferenceDescriptions found.
     content.vb: Public Function GetAllFromSectionAsync(section As String, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescription())
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetAllFromSectionAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync(System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -998,6 +1131,8 @@ items:
       description: Saved PreferenceDescription
     content.vb: Public Function SaveFromSectionAndKeyAsync(section As String, key As String, preferenceDescription As PreferenceDescription, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescription)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.SaveFromSectionAndKeyAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1037,6 +1172,8 @@ items:
       description: This method has no return value
     content.vb: Public Function DeleteFromSectionAndKeyAsync(section As String, key As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.DeleteFromSectionAndKeyAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1073,6 +1210,8 @@ items:
       description: PreferenceDescriptionLine
     content.vb: Public Function GetPreferenceDescriptionLineAsync(preferenceDescriptionLineId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescriptionLine)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionLineAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1112,6 +1251,8 @@ items:
       description: The preference description line matching the id and the value
     content.vb: Public Function GetPreferenceDescriptionLineFromIdAndValueAsync(prefDescId As Integer, prefValue As String, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescriptionLine)
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1148,6 +1289,8 @@ items:
       description: The preference description lines matching the id
     content.vb: Public Function GetPreferenceDescriptionLinesByPrefDescIdAsync(prefDescId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescriptionLine())
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1184,6 +1327,8 @@ items:
       description: The updated PrefDesc lines (If the PreferenceDescriptionLine array was new, it returns with id&apos;s set.
     content.vb: Public Function SavePreferenceDescriptionLinesAsync(preferenceDescriptionLines As PreferenceDescriptionLine(), requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescriptionLine())
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceDescriptionLinesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: PreferenceAgent.SavePreferenceDescriptionLinesAsync(PreferenceDescriptionLine(), RequestOptions)
   modifiers.csharp:
   - public
@@ -1223,6 +1368,8 @@ items:
       description: Nothing
     content.vb: Public Function DeletePreferenceDescriptionLinesAsync(prefDescLineIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePreferenceDescriptionLinesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: PreferenceAgent.DeletePreferenceDescriptionLinesAsync(Int32(), RequestOptions)
   modifiers.csharp:
   - public
@@ -1262,6 +1409,8 @@ items:
       description: Nothing
     content.vb: Public Function DeletePrefDescLinesByPrefDescIdAsync(prefDescId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1298,6 +1447,8 @@ items:
       description: Nothing
     content.vb: Public Function DeletePrefDescLinesByPrefDescIdsAsync(prefDescIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: PreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(Int32(), RequestOptions)
   modifiers.csharp:
   - public
@@ -1337,6 +1488,8 @@ items:
       description: 'Array of preference values for your given specification(s). More strictly: &apos;all keys actually set at any accessible level for this associate&apos;; you will NOT get entries for preferences that might exist, but have no set value anywhere.'
     content.vb: Public Function GetPreferencesAsync(specifications As PreferenceSpec(), requestOptions As RequestOptions = Nothing) As Task(Of Preference())
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferencesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync(SuperOffice.WebApi.Data.PreferenceSpec[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: PreferenceAgent.GetPreferencesAsync(PreferenceSpec(), RequestOptions)
   modifiers.csharp:
   - public
@@ -1375,6 +1528,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SavePreferencesAsync(preferences As Preference(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferencesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferencesAsync(SuperOffice.WebApi.Data.Preference[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: PreferenceAgent.SavePreferencesAsync(Preference(), RequestOptions)
   modifiers.csharp:
   - public
@@ -1414,6 +1569,8 @@ items:
       description: 'Array of preference values for your given specification(s). More strictly: &apos;all keys actually set at any accessible level for this associate&apos;; you will NOT get entries for preferences that might exist, but have no set value anywhere.&lt;br/>The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.'
     content.vb: Public Function GetPreferencesWithDisplayValuesAsync(specifications As PreferenceSpec(), requestOptions As RequestOptions = Nothing) As Task(Of Preference())
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferencesWithDisplayValuesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(SuperOffice.WebApi.Data.PreferenceSpec[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: PreferenceAgent.GetPreferencesWithDisplayValuesAsync(PreferenceSpec(), RequestOptions)
   modifiers.csharp:
   - public
@@ -1449,6 +1606,8 @@ items:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TabOrder[]}
     content.vb: Public Function GetTabOrdersAsync(requestOptions As RequestOptions = Nothing) As Task(Of TabOrder())
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.GetTabOrdersAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrdersAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1483,6 +1642,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SaveTabOrdersAsync(tabOrders As TabOrder(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.SaveTabOrdersAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.WebApi.Data.TabOrder[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: PreferenceAgent.SaveTabOrdersAsync(TabOrder(), RequestOptions)
   modifiers.csharp:
   - public
@@ -1524,6 +1685,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SavePreferenceEntitiesAsync(preferences As Preference(), removeLowerLevels As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceEntitiesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.WebApi.Data.Preference[],System.Boolean,SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: PreferenceAgent.SavePreferenceEntitiesAsync(Preference(), Boolean, RequestOptions)
   modifiers.csharp:
   - public
@@ -1552,6 +1715,13 @@ references:
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent
+  commentId: T:SuperOffice.WebApi.Agents.IPreferenceAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: IPreferenceAgent
+  nameWithType: IPreferenceAgent
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent
 - uid: System.IDisposable
   isExternal: true
   name: IDisposable
@@ -1585,6 +1755,13 @@ references:
   name: _client
   nameWithType: AgentBase._client
   fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _disposeClient
+  nameWithType: AgentBase._disposeClient
+  fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
 - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
@@ -1836,32 +2013,136 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ParseAuthorization(IAuthorization)
-  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  name: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-    name: ParseAuthorization
-    nameWithType: AgentBase.ParseAuthorization
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
-    name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
     nameWithType: AgentBase.ParseAuthorization
     fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
@@ -1869,10 +2150,27 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
     nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
     nameWithType: )
@@ -1993,6 +2291,127 @@ references:
     name: Object
     nameWithType: Object
     fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -2278,6 +2697,13 @@ references:
   name: ProgressListener
   nameWithType: AgentBase.ProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: UploadProgressListener
+  nameWithType: AgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
 - uid: System
   commentId: N:System
   isExternal: true
@@ -2314,6 +2740,47 @@ references:
   name: CreateDefaultPreferenceAsync
   nameWithType: PreferenceAgent.CreateDefaultPreferenceAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.CreateDefaultPreferenceAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: CreateDefaultPreferenceAsync(RequestOptions)
+  nameWithType: IPreferenceAgent.CreateDefaultPreferenceAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultPreferenceAsync
+    nameWithType: IPreferenceAgent.CreateDefaultPreferenceAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultPreferenceAsync
+    nameWithType: IPreferenceAgent.CreateDefaultPreferenceAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
@@ -2408,6 +2875,47 @@ references:
   name: CreateDefaultPreferenceDescriptionAsync
   nameWithType: PreferenceAgent.CreateDefaultPreferenceDescriptionAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.CreateDefaultPreferenceDescriptionAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: CreateDefaultPreferenceDescriptionAsync(RequestOptions)
+  nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultPreferenceDescriptionAsync
+    nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultPreferenceDescriptionAsync
+    nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription}'
   definition: System.Threading.Tasks.Task`1
@@ -2457,6 +2965,63 @@ references:
   name: SavePreferenceDescriptionAsync
   nameWithType: PreferenceAgent.SavePreferenceDescriptionAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceDescriptionAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionAsync(SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionAsync(SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: SavePreferenceDescriptionAsync(PreferenceDescription, RequestOptions)
+  nameWithType: IPreferenceAgent.SavePreferenceDescriptionAsync(PreferenceDescription, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionAsync(SuperOffice.WebApi.Data.PreferenceDescription, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionAsync(SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
+    name: SavePreferenceDescriptionAsync
+    nameWithType: IPreferenceAgent.SavePreferenceDescriptionAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.PreferenceDescription
+    name: PreferenceDescription
+    nameWithType: PreferenceDescription
+    fullName: SuperOffice.WebApi.Data.PreferenceDescription
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionAsync(SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
+    name: SavePreferenceDescriptionAsync
+    nameWithType: IPreferenceAgent.SavePreferenceDescriptionAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.PreferenceDescription
+    name: PreferenceDescription
+    nameWithType: PreferenceDescription
+    fullName: SuperOffice.WebApi.Data.PreferenceDescription
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.PreferenceDescription
   commentId: T:SuperOffice.WebApi.Data.PreferenceDescription
   parent: SuperOffice.WebApi.Data
@@ -2476,6 +3041,63 @@ references:
   name: DeletePreferenceDescriptionAsync
   nameWithType: PreferenceAgent.DeletePreferenceDescriptionAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePreferenceDescriptionAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: DeletePreferenceDescriptionAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeletePreferenceDescriptionAsync
+    nameWithType: IPreferenceAgent.DeletePreferenceDescriptionAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeletePreferenceDescriptionAsync
+    nameWithType: IPreferenceAgent.DeletePreferenceDescriptionAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -2494,6 +3116,47 @@ references:
   name: CreateDefaultPreferenceDescriptionLineAsync
   nameWithType: PreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: CreateDefaultPreferenceDescriptionLineAsync(RequestOptions)
+  nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultPreferenceDescriptionLineAsync
+    nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultPreferenceDescriptionLineAsync
+    nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine}'
   definition: System.Threading.Tasks.Task`1
@@ -2543,6 +3206,63 @@ references:
   name: SavePreferenceDescriptionLineAsync
   nameWithType: PreferenceAgent.SavePreferenceDescriptionLineAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceDescriptionLineAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLineAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLineAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: SavePreferenceDescriptionLineAsync(PreferenceDescriptionLine, RequestOptions)
+  nameWithType: IPreferenceAgent.SavePreferenceDescriptionLineAsync(PreferenceDescriptionLine, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLineAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLineAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine,SuperOffice.WebApi.RequestOptions)
+    name: SavePreferenceDescriptionLineAsync
+    nameWithType: IPreferenceAgent.SavePreferenceDescriptionLineAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+    name: PreferenceDescriptionLine
+    nameWithType: PreferenceDescriptionLine
+    fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLineAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine,SuperOffice.WebApi.RequestOptions)
+    name: SavePreferenceDescriptionLineAsync
+    nameWithType: IPreferenceAgent.SavePreferenceDescriptionLineAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+    name: PreferenceDescriptionLine
+    nameWithType: PreferenceDescriptionLine
+    fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine
   commentId: T:SuperOffice.WebApi.Data.PreferenceDescriptionLine
   parent: SuperOffice.WebApi.Data
@@ -2556,12 +3276,126 @@ references:
   name: DeletePreferenceDescriptionLineAsync
   nameWithType: PreferenceAgent.DeletePreferenceDescriptionLineAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePreferenceDescriptionLineAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: DeletePreferenceDescriptionLineAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLineAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeletePreferenceDescriptionLineAsync
+    nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLineAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeletePreferenceDescriptionLineAsync
+    nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLineAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceAsync
   isExternal: true
   name: SavePreferenceAsync
   nameWithType: PreferenceAgent.SavePreferenceAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync(SuperOffice.WebApi.Data.Preference,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync(SuperOffice.WebApi.Data.Preference,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: SavePreferenceAsync(Preference, RequestOptions)
+  nameWithType: IPreferenceAgent.SavePreferenceAsync(Preference, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync(SuperOffice.WebApi.Data.Preference, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync(SuperOffice.WebApi.Data.Preference,SuperOffice.WebApi.RequestOptions)
+    name: SavePreferenceAsync
+    nameWithType: IPreferenceAgent.SavePreferenceAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync(SuperOffice.WebApi.Data.Preference,SuperOffice.WebApi.RequestOptions)
+    name: SavePreferenceAsync
+    nameWithType: IPreferenceAgent.SavePreferenceAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.Preference
   commentId: T:SuperOffice.WebApi.Data.Preference
   parent: SuperOffice.WebApi.Data
@@ -2575,6 +3409,63 @@ references:
   name: SaveTabOrderAsync
   nameWithType: PreferenceAgent.SaveTabOrderAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.SaveTabOrderAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrderAsync(SuperOffice.WebApi.Data.TabOrder,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrderAsync(SuperOffice.WebApi.Data.TabOrder,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: SaveTabOrderAsync(TabOrder, RequestOptions)
+  nameWithType: IPreferenceAgent.SaveTabOrderAsync(TabOrder, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrderAsync(SuperOffice.WebApi.Data.TabOrder, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrderAsync(SuperOffice.WebApi.Data.TabOrder,SuperOffice.WebApi.RequestOptions)
+    name: SaveTabOrderAsync
+    nameWithType: IPreferenceAgent.SaveTabOrderAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrderAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.TabOrder
+    name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.WebApi.Data.TabOrder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrderAsync(SuperOffice.WebApi.Data.TabOrder,SuperOffice.WebApi.RequestOptions)
+    name: SaveTabOrderAsync
+    nameWithType: IPreferenceAgent.SaveTabOrderAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrderAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.TabOrder
+    name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.WebApi.Data.TabOrder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.TabOrder
   commentId: T:SuperOffice.WebApi.Data.TabOrder
   parent: SuperOffice.WebApi.Data
@@ -2588,6 +3479,63 @@ references:
   name: GetTabOrderAsync
   nameWithType: PreferenceAgent.GetTabOrderAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetTabOrderAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetTabOrderAsync(String, RequestOptions)
+  nameWithType: IPreferenceAgent.GetTabOrderAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetTabOrderAsync
+    nameWithType: IPreferenceAgent.GetTabOrderAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetTabOrderAsync
+    nameWithType: IPreferenceAgent.GetTabOrderAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -2644,12 +3592,142 @@ references:
   name: GetPreferenceAsync
   nameWithType: PreferenceAgent.GetPreferenceAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetPreferenceAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferenceAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPreferenceAsync
+    nameWithType: IPreferenceAgent.GetPreferenceAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPreferenceAsync
+    nameWithType: IPreferenceAgent.GetPreferenceAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceEntityAsync
   isExternal: true
   name: SavePreferenceEntityAsync
   nameWithType: PreferenceAgent.SavePreferenceEntityAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceEntityAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.WebApi.Data.Preference,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.WebApi.Data.Preference,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: SavePreferenceEntityAsync(Preference, Boolean, RequestOptions)
+  nameWithType: IPreferenceAgent.SavePreferenceEntityAsync(Preference, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.WebApi.Data.Preference, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.WebApi.Data.Preference,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: SavePreferenceEntityAsync
+    nameWithType: IPreferenceAgent.SavePreferenceEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.WebApi.Data.Preference,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: SavePreferenceEntityAsync
+    nameWithType: IPreferenceAgent.SavePreferenceEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -2663,12 +3741,135 @@ references:
   name: DeletePreferenceAsync
   nameWithType: PreferenceAgent.DeletePreferenceAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePreferenceAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: DeletePreferenceAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.DeletePreferenceAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeletePreferenceAsync
+    nameWithType: IPreferenceAgent.DeletePreferenceAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeletePreferenceAsync
+    nameWithType: IPreferenceAgent.DeletePreferenceAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePreferencesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.DeletePreferencesAsync
   isExternal: true
   name: DeletePreferencesAsync
   nameWithType: PreferenceAgent.DeletePreferencesAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePreferencesAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: DeletePreferencesAsync(Int32[], RequestOptions)
+  nameWithType: IPreferenceAgent.DeletePreferencesAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPreferenceAgent.DeletePreferencesAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: DeletePreferencesAsync(Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: DeletePreferencesAsync
+    nameWithType: IPreferenceAgent.DeletePreferencesAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: DeletePreferencesAsync
+    nameWithType: IPreferenceAgent.DeletePreferencesAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -2701,6 +3902,95 @@ references:
   name: GetPreferenceByNameAsync
   nameWithType: PreferenceAgent.GetPreferenceByNameAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceByNameAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetPreferenceByNameAsync(String, String, PreferenceLevel, RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferenceByNameAsync(String, String, PreferenceLevel, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync(System.String, System.String, SuperOffice.WebApi.Data.PreferenceLevel, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,SuperOffice.WebApi.RequestOptions)
+    name: GetPreferenceByNameAsync
+    nameWithType: IPreferenceAgent.GetPreferenceByNameAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.PreferenceLevel
+    name: PreferenceLevel
+    nameWithType: PreferenceLevel
+    fullName: SuperOffice.WebApi.Data.PreferenceLevel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,SuperOffice.WebApi.RequestOptions)
+    name: GetPreferenceByNameAsync
+    nameWithType: IPreferenceAgent.GetPreferenceByNameAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.PreferenceLevel
+    name: PreferenceLevel
+    nameWithType: PreferenceLevel
+    fullName: SuperOffice.WebApi.Data.PreferenceLevel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.PreferenceLevel
   commentId: T:SuperOffice.WebApi.Data.PreferenceLevel
   parent: SuperOffice.WebApi.Data
@@ -2714,12 +4004,158 @@ references:
   name: GetPreferenceByNameAndIdAsync
   nameWithType: PreferenceAgent.GetPreferenceByNameAndIdAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceByNameAndIdAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetPreferenceByNameAndIdAsync(String, String, PreferenceLevel, Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferenceByNameAndIdAsync(String, String, PreferenceLevel, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync(System.String, System.String, SuperOffice.WebApi.Data.PreferenceLevel, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPreferenceByNameAndIdAsync
+    nameWithType: IPreferenceAgent.GetPreferenceByNameAndIdAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.PreferenceLevel
+    name: PreferenceLevel
+    nameWithType: PreferenceLevel
+    fullName: SuperOffice.WebApi.Data.PreferenceLevel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPreferenceByNameAndIdAsync
+    nameWithType: IPreferenceAgent.GetPreferenceByNameAndIdAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.PreferenceLevel
+    name: PreferenceLevel
+    nameWithType: PreferenceLevel
+    fullName: SuperOffice.WebApi.Data.PreferenceLevel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.GetNetServicesStatusUrlAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.GetNetServicesStatusUrlAsync
   isExternal: true
   name: GetNetServicesStatusUrlAsync
   nameWithType: PreferenceAgent.GetNetServicesStatusUrlAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetNetServicesStatusUrlAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetNetServicesStatusUrlAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetNetServicesStatusUrlAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetNetServicesStatusUrlAsync(RequestOptions)
+  nameWithType: IPreferenceAgent.GetNetServicesStatusUrlAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetNetServicesStatusUrlAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetNetServicesStatusUrlAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetNetServicesStatusUrlAsync
+    nameWithType: IPreferenceAgent.GetNetServicesStatusUrlAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetNetServicesStatusUrlAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetNetServicesStatusUrlAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetNetServicesStatusUrlAsync
+    nameWithType: IPreferenceAgent.GetNetServicesStatusUrlAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetNetServicesStatusUrlAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{System.String}
   commentId: '!:System.Threading.Tasks.Task{System.String}'
   definition: System.Threading.Tasks.Task`1
@@ -2769,24 +4205,478 @@ references:
   name: UpdateNetServicesStatusAsync
   nameWithType: PreferenceAgent.UpdateNetServicesStatusAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.UpdateNetServicesStatusAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: UpdateNetServicesStatusAsync(String, RequestOptions)
+  nameWithType: IPreferenceAgent.UpdateNetServicesStatusAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: UpdateNetServicesStatusAsync
+    nameWithType: IPreferenceAgent.UpdateNetServicesStatusAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: UpdateNetServicesStatusAsync
+    nameWithType: IPreferenceAgent.UpdateNetServicesStatusAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.PreferenceAgent.GetXsrfPathsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.GetXsrfPathsAsync
+  isExternal: true
+  name: GetXsrfPathsAsync
+  nameWithType: PreferenceAgent.GetXsrfPathsAsync
+  fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetXsrfPathsAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetXsrfPathsAsync(String, RequestOptions)
+  nameWithType: IPreferenceAgent.GetXsrfPathsAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetXsrfPathsAsync
+    nameWithType: IPreferenceAgent.GetXsrfPathsAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetXsrfPathsAsync
+    nameWithType: IPreferenceAgent.GetXsrfPathsAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.PreferenceAgent.SetXsrfPathsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.SetXsrfPathsAsync
+  isExternal: true
+  name: SetXsrfPathsAsync
+  nameWithType: PreferenceAgent.SetXsrfPathsAsync
+  fullName: SuperOffice.WebApi.Agents.PreferenceAgent.SetXsrfPathsAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: SetXsrfPathsAsync(String, String[], RequestOptions)
+  nameWithType: IPreferenceAgent.SetXsrfPathsAsync(String, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(System.String, System.String[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPreferenceAgent.SetXsrfPathsAsync(String, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(System.String, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetXsrfPathsAsync(String, String(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+    name: SetXsrfPathsAsync
+    nameWithType: IPreferenceAgent.SetXsrfPathsAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+    name: SetXsrfPathsAsync
+    nameWithType: IPreferenceAgent.SetXsrfPathsAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionAsync
   isExternal: true
   name: GetPreferenceDescriptionAsync
   nameWithType: PreferenceAgent.GetPreferenceDescriptionAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetPreferenceDescriptionAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPreferenceDescriptionAsync
+    nameWithType: IPreferenceAgent.GetPreferenceDescriptionAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPreferenceDescriptionAsync
+    nameWithType: IPreferenceAgent.GetPreferenceDescriptionAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.GetFromSectionAndKeyAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.GetFromSectionAndKeyAsync
   isExternal: true
   name: GetFromSectionAndKeyAsync
   nameWithType: PreferenceAgent.GetFromSectionAndKeyAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetFromSectionAndKeyAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetFromSectionAndKeyAsync(String, String, RequestOptions)
+  nameWithType: IPreferenceAgent.GetFromSectionAndKeyAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetFromSectionAndKeyAsync
+    nameWithType: IPreferenceAgent.GetFromSectionAndKeyAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetFromSectionAndKeyAsync
+    nameWithType: IPreferenceAgent.GetFromSectionAndKeyAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.GetAllAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.GetAllAsync
   isExternal: true
   name: GetAllAsync
   nameWithType: PreferenceAgent.GetAllAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetAllAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetAllAsync(RequestOptions)
+  nameWithType: IPreferenceAgent.GetAllAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetAllAsync
+    nameWithType: IPreferenceAgent.GetAllAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetAllAsync
+    nameWithType: IPreferenceAgent.GetAllAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription[]}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription[]}'
   definition: System.Threading.Tasks.Task`1
@@ -2842,36 +4732,442 @@ references:
   name: GetAllFromSectionAsync
   nameWithType: PreferenceAgent.GetAllFromSectionAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetAllFromSectionAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetAllFromSectionAsync(String, RequestOptions)
+  nameWithType: IPreferenceAgent.GetAllFromSectionAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetAllFromSectionAsync
+    nameWithType: IPreferenceAgent.GetAllFromSectionAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetAllFromSectionAsync
+    nameWithType: IPreferenceAgent.GetAllFromSectionAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.SaveFromSectionAndKeyAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.SaveFromSectionAndKeyAsync
   isExternal: true
   name: SaveFromSectionAndKeyAsync
   nameWithType: PreferenceAgent.SaveFromSectionAndKeyAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.SaveFromSectionAndKeyAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: SaveFromSectionAndKeyAsync(String, String, PreferenceDescription, RequestOptions)
+  nameWithType: IPreferenceAgent.SaveFromSectionAndKeyAsync(String, String, PreferenceDescription, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync(System.String, System.String, SuperOffice.WebApi.Data.PreferenceDescription, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
+    name: SaveFromSectionAndKeyAsync
+    nameWithType: IPreferenceAgent.SaveFromSectionAndKeyAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.PreferenceDescription
+    name: PreferenceDescription
+    nameWithType: PreferenceDescription
+    fullName: SuperOffice.WebApi.Data.PreferenceDescription
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
+    name: SaveFromSectionAndKeyAsync
+    nameWithType: IPreferenceAgent.SaveFromSectionAndKeyAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.PreferenceDescription
+    name: PreferenceDescription
+    nameWithType: PreferenceDescription
+    fullName: SuperOffice.WebApi.Data.PreferenceDescription
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.DeleteFromSectionAndKeyAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.DeleteFromSectionAndKeyAsync
   isExternal: true
   name: DeleteFromSectionAndKeyAsync
   nameWithType: PreferenceAgent.DeleteFromSectionAndKeyAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.DeleteFromSectionAndKeyAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: DeleteFromSectionAndKeyAsync(String, String, RequestOptions)
+  nameWithType: IPreferenceAgent.DeleteFromSectionAndKeyAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+    name: DeleteFromSectionAndKeyAsync
+    nameWithType: IPreferenceAgent.DeleteFromSectionAndKeyAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+    name: DeleteFromSectionAndKeyAsync
+    nameWithType: IPreferenceAgent.DeleteFromSectionAndKeyAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionLineAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionLineAsync
   isExternal: true
   name: GetPreferenceDescriptionLineAsync
   nameWithType: PreferenceAgent.GetPreferenceDescriptionLineAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionLineAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetPreferenceDescriptionLineAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPreferenceDescriptionLineAsync
+    nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPreferenceDescriptionLineAsync
+    nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync
   isExternal: true
   name: GetPreferenceDescriptionLineFromIdAndValueAsync
   nameWithType: PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetPreferenceDescriptionLineFromIdAndValueAsync(Int32, String, RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetPreferenceDescriptionLineFromIdAndValueAsync
+    nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetPreferenceDescriptionLineFromIdAndValueAsync
+    nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync
   isExternal: true
   name: GetPreferenceDescriptionLinesByPrefDescIdAsync
   nameWithType: PreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetPreferenceDescriptionLinesByPrefDescIdAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPreferenceDescriptionLinesByPrefDescIdAsync
+    nameWithType: IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPreferenceDescriptionLinesByPrefDescIdAsync
+    nameWithType: IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine[]}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine[]}'
   definition: System.Threading.Tasks.Task`1
@@ -2927,6 +5223,72 @@ references:
   name: SavePreferenceDescriptionLinesAsync
   nameWithType: PreferenceAgent.SavePreferenceDescriptionLinesAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceDescriptionLinesAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: SavePreferenceDescriptionLinesAsync(PreferenceDescriptionLine[], RequestOptions)
+  nameWithType: IPreferenceAgent.SavePreferenceDescriptionLinesAsync(PreferenceDescriptionLine[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPreferenceAgent.SavePreferenceDescriptionLinesAsync(PreferenceDescriptionLine(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SavePreferenceDescriptionLinesAsync(PreferenceDescriptionLine(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine[],SuperOffice.WebApi.RequestOptions)
+    name: SavePreferenceDescriptionLinesAsync
+    nameWithType: IPreferenceAgent.SavePreferenceDescriptionLinesAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+    name: PreferenceDescriptionLine
+    nameWithType: PreferenceDescriptionLine
+    fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine[],SuperOffice.WebApi.RequestOptions)
+    name: SavePreferenceDescriptionLinesAsync
+    nameWithType: IPreferenceAgent.SavePreferenceDescriptionLinesAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+    name: PreferenceDescriptionLine
+    nameWithType: PreferenceDescriptionLine
+    fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine[]
   isExternal: true
   name: PreferenceDescriptionLine[]
@@ -2959,24 +5321,279 @@ references:
   name: DeletePreferenceDescriptionLinesAsync
   nameWithType: PreferenceAgent.DeletePreferenceDescriptionLinesAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePreferenceDescriptionLinesAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: DeletePreferenceDescriptionLinesAsync(Int32[], RequestOptions)
+  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: DeletePreferenceDescriptionLinesAsync(Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: DeletePreferenceDescriptionLinesAsync
+    nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLinesAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: DeletePreferenceDescriptionLinesAsync
+    nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLinesAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync
   isExternal: true
   name: DeletePrefDescLinesByPrefDescIdAsync
   nameWithType: PreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: DeletePrefDescLinesByPrefDescIdAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeletePrefDescLinesByPrefDescIdAsync
+    nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeletePrefDescLinesByPrefDescIdAsync
+    nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync
   isExternal: true
   name: DeletePrefDescLinesByPrefDescIdsAsync
   nameWithType: PreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: DeletePrefDescLinesByPrefDescIdsAsync(Int32[], RequestOptions)
+  nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: DeletePrefDescLinesByPrefDescIdsAsync(Int32(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: DeletePrefDescLinesByPrefDescIdsAsync
+    nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: DeletePrefDescLinesByPrefDescIdsAsync
+    nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferencesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferencesAsync
   isExternal: true
   name: GetPreferencesAsync
   nameWithType: PreferenceAgent.GetPreferencesAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferencesAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync(SuperOffice.WebApi.Data.PreferenceSpec[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync(SuperOffice.WebApi.Data.PreferenceSpec[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetPreferencesAsync(PreferenceSpec[], RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferencesAsync(PreferenceSpec[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync(SuperOffice.WebApi.Data.PreferenceSpec[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPreferenceAgent.GetPreferencesAsync(PreferenceSpec(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync(SuperOffice.WebApi.Data.PreferenceSpec(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetPreferencesAsync(PreferenceSpec(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync(SuperOffice.WebApi.Data.PreferenceSpec[],SuperOffice.WebApi.RequestOptions)
+    name: GetPreferencesAsync
+    nameWithType: IPreferenceAgent.GetPreferencesAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.PreferenceSpec
+    name: PreferenceSpec
+    nameWithType: PreferenceSpec
+    fullName: SuperOffice.WebApi.Data.PreferenceSpec
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync(SuperOffice.WebApi.Data.PreferenceSpec[],SuperOffice.WebApi.RequestOptions)
+    name: GetPreferencesAsync
+    nameWithType: IPreferenceAgent.GetPreferencesAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.PreferenceSpec
+    name: PreferenceSpec
+    nameWithType: PreferenceSpec
+    fullName: SuperOffice.WebApi.Data.PreferenceSpec
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.PreferenceSpec[]
   isExternal: true
   name: PreferenceSpec[]
@@ -3058,6 +5675,72 @@ references:
   name: SavePreferencesAsync
   nameWithType: PreferenceAgent.SavePreferencesAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferencesAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferencesAsync(SuperOffice.WebApi.Data.Preference[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferencesAsync(SuperOffice.WebApi.Data.Preference[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: SavePreferencesAsync(Preference[], RequestOptions)
+  nameWithType: IPreferenceAgent.SavePreferencesAsync(Preference[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferencesAsync(SuperOffice.WebApi.Data.Preference[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPreferenceAgent.SavePreferencesAsync(Preference(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferencesAsync(SuperOffice.WebApi.Data.Preference(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SavePreferencesAsync(Preference(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferencesAsync(SuperOffice.WebApi.Data.Preference[],SuperOffice.WebApi.RequestOptions)
+    name: SavePreferencesAsync
+    nameWithType: IPreferenceAgent.SavePreferencesAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferencesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferencesAsync(SuperOffice.WebApi.Data.Preference[],SuperOffice.WebApi.RequestOptions)
+    name: SavePreferencesAsync
+    nameWithType: IPreferenceAgent.SavePreferencesAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferencesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.Preference[]
   isExternal: true
   name: Preference[]
@@ -3090,12 +5773,119 @@ references:
   name: GetPreferencesWithDisplayValuesAsync
   nameWithType: PreferenceAgent.GetPreferencesWithDisplayValuesAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetPreferencesWithDisplayValuesAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(SuperOffice.WebApi.Data.PreferenceSpec[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(SuperOffice.WebApi.Data.PreferenceSpec[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetPreferencesWithDisplayValuesAsync(PreferenceSpec[], RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(PreferenceSpec[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(SuperOffice.WebApi.Data.PreferenceSpec[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(PreferenceSpec(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(SuperOffice.WebApi.Data.PreferenceSpec(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetPreferencesWithDisplayValuesAsync(PreferenceSpec(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(SuperOffice.WebApi.Data.PreferenceSpec[],SuperOffice.WebApi.RequestOptions)
+    name: GetPreferencesWithDisplayValuesAsync
+    nameWithType: IPreferenceAgent.GetPreferencesWithDisplayValuesAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.PreferenceSpec
+    name: PreferenceSpec
+    nameWithType: PreferenceSpec
+    fullName: SuperOffice.WebApi.Data.PreferenceSpec
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(SuperOffice.WebApi.Data.PreferenceSpec[],SuperOffice.WebApi.RequestOptions)
+    name: GetPreferencesWithDisplayValuesAsync
+    nameWithType: IPreferenceAgent.GetPreferencesWithDisplayValuesAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.PreferenceSpec
+    name: PreferenceSpec
+    nameWithType: PreferenceSpec
+    fullName: SuperOffice.WebApi.Data.PreferenceSpec
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.PreferenceAgent.GetTabOrdersAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PreferenceAgent.GetTabOrdersAsync
   isExternal: true
   name: GetTabOrdersAsync
   nameWithType: PreferenceAgent.GetTabOrdersAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.GetTabOrdersAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrdersAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrdersAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: GetTabOrdersAsync(RequestOptions)
+  nameWithType: IPreferenceAgent.GetTabOrdersAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrdersAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrdersAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetTabOrdersAsync
+    nameWithType: IPreferenceAgent.GetTabOrdersAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrdersAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrdersAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetTabOrdersAsync
+    nameWithType: IPreferenceAgent.GetTabOrdersAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrdersAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TabOrder[]}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TabOrder[]}'
   definition: System.Threading.Tasks.Task`1
@@ -3151,6 +5941,72 @@ references:
   name: SaveTabOrdersAsync
   nameWithType: PreferenceAgent.SaveTabOrdersAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.SaveTabOrdersAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.WebApi.Data.TabOrder[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.WebApi.Data.TabOrder[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: SaveTabOrdersAsync(TabOrder[], RequestOptions)
+  nameWithType: IPreferenceAgent.SaveTabOrdersAsync(TabOrder[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.WebApi.Data.TabOrder[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPreferenceAgent.SaveTabOrdersAsync(TabOrder(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.WebApi.Data.TabOrder(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveTabOrdersAsync(TabOrder(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.WebApi.Data.TabOrder[],SuperOffice.WebApi.RequestOptions)
+    name: SaveTabOrdersAsync
+    nameWithType: IPreferenceAgent.SaveTabOrdersAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.TabOrder
+    name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.WebApi.Data.TabOrder
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.WebApi.Data.TabOrder[],SuperOffice.WebApi.RequestOptions)
+    name: SaveTabOrdersAsync
+    nameWithType: IPreferenceAgent.SaveTabOrdersAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.TabOrder
+    name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.WebApi.Data.TabOrder
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.TabOrder[]
   isExternal: true
   name: TabOrder[]
@@ -3183,3 +6039,85 @@ references:
   name: SavePreferenceEntitiesAsync
   nameWithType: PreferenceAgent.SavePreferenceEntitiesAsync
   fullName: SuperOffice.WebApi.Agents.PreferenceAgent.SavePreferenceEntitiesAsync
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.WebApi.Data.Preference[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.WebApi.Data.Preference[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  isExternal: true
+  name: SavePreferenceEntitiesAsync(Preference[], Boolean, RequestOptions)
+  nameWithType: IPreferenceAgent.SavePreferenceEntitiesAsync(Preference[], Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.WebApi.Data.Preference[], System.Boolean, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPreferenceAgent.SavePreferenceEntitiesAsync(Preference(), Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.WebApi.Data.Preference(), System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: SavePreferenceEntitiesAsync(Preference(), Boolean, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.WebApi.Data.Preference[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: SavePreferenceEntitiesAsync
+    nameWithType: IPreferenceAgent.SavePreferenceEntitiesAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.WebApi.Data.Preference[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: SavePreferenceEntitiesAsync
+    nameWithType: IPreferenceAgent.SavePreferenceEntitiesAsync
+    fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

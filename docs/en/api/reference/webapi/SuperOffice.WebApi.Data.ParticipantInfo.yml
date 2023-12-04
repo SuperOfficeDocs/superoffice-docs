@@ -8,6 +8,8 @@ items:
   - SuperOffice.WebApi.Data.ParticipantInfo.#ctor
   - SuperOffice.WebApi.Data.ParticipantInfo.AssociateId
   - SuperOffice.WebApi.Data.ParticipantInfo.ContactId
+  - SuperOffice.WebApi.Data.ParticipantInfo.Description
+  - SuperOffice.WebApi.Data.ParticipantInfo.EmailAddress
   - SuperOffice.WebApi.Data.ParticipantInfo.EmailId
   - SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus
   - SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus_String
@@ -302,6 +304,72 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: ParticipantInfo.EmailAddress
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe email address to be used as a participant if neither person id nor associate id has been set.\n"
+  syntax:
+    content: public virtual string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.ParticipantInfo.EmailAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.Description
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ParticipantInfo.Description
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescription added for the email address participant, added to the email-table&apos;s description field if present.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.ParticipantInfo.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -484,3 +552,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantInfo.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: ParticipantInfo.EmailAddress
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.EmailAddress
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantInfo.Description
+  isExternal: true
+  name: Description
+  nameWithType: ParticipantInfo.Description
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.Description

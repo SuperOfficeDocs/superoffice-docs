@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest
+  commentId: T:SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest
+  id: Targets_GetTargetGroupForYearRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.#ctor
+  - SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.EntityType
+  - SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.TargetYear
+  langs:
+  - csharp
+  - vb
+  name: Targets_GetTargetGroupForYearRequest
+  nameWithType: Targets_GetTargetGroupForYearRequest
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Targets_GetTargetGroupForYearRequest : Object'
+    content.vb: >-
+      Public Class Targets_GetTargetGroupForYearRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest
+  langs:
+  - csharp
+  - vb
+  name: Targets_GetTargetGroupForYearRequest()
+  nameWithType: Targets_GetTargetGroupForYearRequest.Targets_GetTargetGroupForYearRequest()
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.Targets_GetTargetGroupForYearRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Targets_GetTargetGroupForYearRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.TargetYear
+  commentId: P:SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.TargetYear
+  id: TargetYear
+  parent: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetYear
+  nameWithType: Targets_GetTargetGroupForYearRequest.TargetYear
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.TargetYear
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TargetYear { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TargetYear As Integer
+  overload: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.TargetYear*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.EntityType
+  commentId: P:SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.EntityType
+  id: EntityType
+  parent: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest
+  langs:
+  - csharp
+  - vb
+  name: EntityType
+  nameWithType: Targets_GetTargetGroupForYearRequest.EntityType
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.EntityType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TargetEntityType EntityType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TargetEntityType
+    content.vb: Public Property EntityType As TargetEntityType
+  overload: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.EntityType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.#ctor
+  isExternal: true
+  name: Targets_GetTargetGroupForYearRequest
+  nameWithType: Targets_GetTargetGroupForYearRequest.Targets_GetTargetGroupForYearRequest
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.Targets_GetTargetGroupForYearRequest
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.TargetYear*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.TargetYear
+  isExternal: true
+  name: TargetYear
+  nameWithType: Targets_GetTargetGroupForYearRequest.TargetYear
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.TargetYear
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.EntityType*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.EntityType
+  isExternal: true
+  name: EntityType
+  nameWithType: Targets_GetTargetGroupForYearRequest.EntityType
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetGroupForYearRequest.EntityType
+- uid: SuperOffice.WebApi.Data.TargetEntityType
+  commentId: T:SuperOffice.WebApi.Data.TargetEntityType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TargetEntityType
+  nameWithType: TargetEntityType
+  fullName: SuperOffice.WebApi.Data.TargetEntityType

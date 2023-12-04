@@ -14,6 +14,9 @@ items:
   - SuperOffice.WebApi.Data.CultureDataFormatter.DateTimeMarker
   - SuperOffice.WebApi.Data.CultureDataFormatter.DoubleMarker
   - SuperOffice.WebApi.Data.CultureDataFormatter.Encode(System.Object)
+  - SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream)
+  - SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream,System.Boolean)
+  - SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags(System.IO.Stream)
   - SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime)
   - SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime,System.Boolean)
   - SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDateTime(System.DateTime)
@@ -32,6 +35,8 @@ items:
   - SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan(System.Int32,System.Boolean)
   - SuperOffice.WebApi.Data.CultureDataFormatter.EncodeTimeSpan(System.TimeSpan,System.Boolean)
   - SuperOffice.WebApi.Data.CultureDataFormatter.EndTag
+  - SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName(System.Globalization.CultureInfo)
+  - SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan(System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String)
   - SuperOffice.WebApi.Data.CultureDataFormatter.GetStringType(System.String,System.String@,System.Int32@)
   - SuperOffice.WebApi.Data.CultureDataFormatter.GetSuperOfficeLanguages
   - SuperOffice.WebApi.Data.CultureDataFormatter.IntArrMarker
@@ -87,7 +92,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: "\nThis is a helper class designed to encode, parse and reformat culturally sensitive data types between\nan application server without culture knowledge, and a front-end with such knowledge.\n"
-  remarks: "\nThis class is split between the SuperOffice.Plugins and SuperOffice.Plugins.Shared projects\nThis PLUGINS.DLL class duplicates the implementation of SOCORE.DLL SuperOffice.CRM.Globalization.CultureDataFormatter\n<p></p>\nThe problem: The application server does not know the culture of the current client. At the same time,\nwe need to be able to include culturally sensitive data (such as a date) as part of a tooltip or other\nserver-side generated text. Before displaying this text to the user, culturally sensitive elements need \nto be parsed and reformatted to the correct culture.\n<p></p>\nThe methods in this class take care of both sides of this process. The Encode methods, such as \n<xref href=\"SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime)\" data-throw-if-not-resolved=\"false\"></xref>, take a native data type as input and return a string that contains both\na specification of what it is (a date) and the value formatted in the invariant culture.\n<p></p>\nThe <xref href=\"SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method will take such a formatted element, and by calling on the\nproper LocalFormat method (such as <xref href=\"SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate(System.DateTime)\" data-throw-if-not-resolved=\"false\"></xref>, return it in its correct form according\nto the current culture settings for the thread.\n"
+  remarks: "\n<p></p>\nThe problem: The application server does not know the culture of the current client. At the same time,\nwe need to be able to include culturally sensitive data (such as a date) as part of a tooltip or other\nserver-side generated text. Before displaying this text to the user, culturally sensitive elements need \nto be parsed and reformatted to the correct culture.\n<p></p>\nThe methods in this class take care of both sides of this process. The Encode methods, such as \n<xref href=\"SuperOffice.WebApi.Data.CultureDataFormatter.EncodeDate(System.DateTime)\" data-throw-if-not-resolved=\"false\"></xref>, take a native data type as input and return a string that contains both\na specification of what it is (a date) and the value formatted in the invariant culture.\n<p></p>\nThe <xref href=\"SuperOffice.WebApi.Data.CultureDataFormatter.LocalizeEncoded(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method will take such a formatted element, and by calling on the\nproper LocalFormat method (such as <xref href=\"SuperOffice.WebApi.Data.CultureDataFormatter.LocalFormatDate(System.DateTime)\" data-throw-if-not-resolved=\"false\"></xref>, return it in its correct form according\nto the current culture settings for the thread.\n"
   syntax:
     content: 'public static class CultureDataFormatter : Object'
     content.vb: >-
@@ -1221,6 +1226,59 @@ items:
   - Shared
   fullName.vb: SuperOffice.WebApi.Data.CultureDataFormatter.GetStringType(System.String, ByRef System.String, ByRef System.Int32)
   name.vb: GetStringType(String, ByRef String, ByRef Int32)
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan(System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan(System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String)
+  id: GetReadableTimeSpan(System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.WebApi.Data.CultureDataFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetReadableTimeSpan(Int32, Boolean, String, String, String, String, String)
+  nameWithType: CultureDataFormatter.GetReadableTimeSpan(Int32, Boolean, String, String, String, String, String)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan(System.Int32, System.Boolean, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nConvert the time/duration/timespan to a &quot;readable&quot; text - either seconds, or day/hour/minute/second\n"
+  syntax:
+    content: public static string GetReadableTimeSpan(int seconds, bool mostSignificant, string daySignifier = "d", string hourSignifier = "h", string minuteSignifier = "m", string secondSignifier = "s", string zeroSignifier = null)
+    parameters:
+    - id: seconds
+      type: System.Int32
+      description: Total seconds to convert
+    - id: mostSignificant
+      type: System.Boolean
+      description: If true, then only show the most-significant unit; otherwise show d/h/m/s
+    - id: daySignifier
+      type: System.String
+      description: The string to use for the day component suffix
+    - id: hourSignifier
+      type: System.String
+      description: The string to use for the hour component suffix
+    - id: minuteSignifier
+      type: System.String
+      description: The string to use for the minute component suffix
+    - id: secondSignifier
+      type: System.String
+      description: The string to use for the second component suffix
+    - id: zeroSignifier
+      type: System.String
+      description: The suffix string to use when 0 seconds were passed. Empty string might be returned if this parameter was missing
+    return:
+      type: System.String
+      description: Formatted string
+    content.vb: Public Shared Function GetReadableTimeSpan(seconds As Integer, mostSignificant As Boolean, daySignifier As String = "d", hourSignifier As String = "h", minuteSignifier As String = "m", secondSignifier As String = "s", zeroSignifier As String = Nothing) As String
+  overload: SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.CompareEncoded(System.String,System.String)
   commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.CompareEncoded(System.String,System.String)
   id: CompareEncoded(System.String,System.String)
@@ -2211,15 +2269,15 @@ items:
   summary: "\nConverts a SuperOffice language code (&quot;SW&quot;) to a neutral .net culture name (&quot;sv&quot;)\n"
   remarks: "\nIf unable to determine a mapping, the default is US (English).\n<p></p>\nSee also <a href=\"http://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo.aspx\">MSDN on culture codes</a>.\n"
   syntax:
-    content: public static string MapSuperOfficeLanguageToCulture(string SuperOfficeLanguageCode)
+    content: public static string MapSuperOfficeLanguageToCulture(string superOfficeLanguageCode)
     parameters:
-    - id: SuperOfficeLanguageCode
+    - id: superOfficeLanguageCode
       type: System.String
-      description: SuperOffice language code. (US, NO, SW, DA, FI, FR, GE, IT, NL, SP, PL, RU, CN, CZ)
+      description: SuperOffice language code. (US, NO, SW, DA, FI, FR, GE, IT, NL, SP, PL, RU, CN, CZ, JP, UK, KO, VI, BR, CH)
     return:
       type: System.String
       description: .net neutral Culture name, or empty string (invariant culture) if no mapping found
-    content.vb: Public Shared Function MapSuperOfficeLanguageToCulture(SuperOfficeLanguageCode As String) As String
+    content.vb: Public Shared Function MapSuperOfficeLanguageToCulture(superOfficeLanguageCode As String) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.MapSuperOfficeLanguageToCulture*
   seealso:
   - linkId: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage(System.String)
@@ -2287,7 +2345,7 @@ items:
       description: Either a culture name or a SuperOffice language code.
     return:
       type: System.String
-      description: A SuperOffice language code. (US, NO, SW, DA, FI, FR, GE, IT, NL, SP, PL, RU, CN, CZ)
+      description: A SuperOffice language code. (US, NO, SW, DA, FI, FR, GE, IT, NL, SP, PL, RU, CN, CZ, JP, UK, KO, VI, BR, CH)
     content.vb: Public Shared Function MapCultureToSuperOfficeLanguage(cultureName As String) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.MapCultureToSuperOfficeLanguage*
   seealso:
@@ -2395,6 +2453,38 @@ items:
       description: SuperOffice languagecode or string.empty if none found
     content.vb: Public Shared Function MapCsLanguageToSuperOfficeLanguage(csLang As String) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName(System.Globalization.CultureInfo)
+  commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName(System.Globalization.CultureInfo)
+  id: GetCultureDisplayName(System.Globalization.CultureInfo)
+  parent: SuperOffice.WebApi.Data.CultureDataFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetCultureDisplayName(CultureInfo)
+  nameWithType: CultureDataFormatter.GetCultureDisplayName(CultureInfo)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName(System.Globalization.CultureInfo)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public static string GetCultureDisplayName(CultureInfo cultureInfo)
+    parameters:
+    - id: cultureInfo
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetCultureDisplayName(cultureInfo As CultureInfo) As String
+  overload: SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName*
   modifiers.csharp:
   - public
   - static
@@ -2513,6 +2603,116 @@ items:
       description: Parsed resource string.
     content.vb: Public Shared Function ParseInlineElements(resourceString As String, cultureName As String) As String
   overload: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineElements*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream)
+  commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream)
+  id: EncodeBinary(System.IO.Stream)
+  parent: SuperOffice.WebApi.Data.CultureDataFormatter
+  langs:
+  - csharp
+  - vb
+  name: EncodeBinary(Stream)
+  nameWithType: CultureDataFormatter.EncodeBinary(Stream)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEncode a block of binary data, such as an image\n"
+  syntax:
+    content: public static string EncodeBinary(Stream data)
+    parameters:
+    - id: data
+      type: System.IO.Stream
+      description: DateTime whose date component is to be encoded
+    return:
+      type: System.String
+      description: Encoded date
+    content.vb: Public Shared Function EncodeBinary(data As Stream) As String
+  overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags(System.IO.Stream)
+  commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags(System.IO.Stream)
+  id: EncodeBinaryNoTags(System.IO.Stream)
+  parent: SuperOffice.WebApi.Data.CultureDataFormatter
+  langs:
+  - csharp
+  - vb
+  name: EncodeBinaryNoTags(Stream)
+  nameWithType: CultureDataFormatter.EncodeBinaryNoTags(Stream)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags(System.IO.Stream)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public static string EncodeBinaryNoTags(Stream data)
+    parameters:
+    - id: data
+      type: System.IO.Stream
+    return:
+      type: System.String
+    content.vb: Public Shared Function EncodeBinaryNoTags(data As Stream) As String
+  overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream,System.Boolean)
+  commentId: M:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream,System.Boolean)
+  id: EncodeBinary(System.IO.Stream,System.Boolean)
+  parent: SuperOffice.WebApi.Data.CultureDataFormatter
+  langs:
+  - csharp
+  - vb
+  name: EncodeBinary(Stream, Boolean)
+  nameWithType: CultureDataFormatter.EncodeBinary(Stream, Boolean)
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary(System.IO.Stream, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEncode a block of binary data, such as an image\n"
+  syntax:
+    content: public static string EncodeBinary(Stream data, bool performEncode)
+    parameters:
+    - id: data
+      type: System.IO.Stream
+      description: Stream be encoded
+    - id: performEncode
+      type: System.Boolean
+      description: >-
+        If true, the input parameter is encoded to string. If false, an empty string is returned instead.
+
+        This parameter is implemented to streamline coding of optimized field population in the archive providers, where a mode
+
+        switch may eliminate the need for string-encoded display values.
+    return:
+      type: System.String
+      description: Encoded date
+    content.vb: Public Shared Function EncodeBinary(data As Stream, performEncode As Boolean) As String
+  overload: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary*
   modifiers.csharp:
   - public
   - static
@@ -2676,6 +2876,12 @@ references:
   name: GetStringType
   nameWithType: CultureDataFormatter.GetStringType
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetStringType
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan*
+  commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan
+  isExternal: true
+  name: GetReadableTimeSpan
+  nameWithType: CultureDataFormatter.GetReadableTimeSpan
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetReadableTimeSpan
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.CompareEncoded*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.CompareEncoded
   isExternal: true
@@ -2905,6 +3111,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
+  commentId: '!:System.Collections.Generic.IEnumerable`1'
   isExternal: true
   name: IEnumerable<>
   nameWithType: IEnumerable<>
@@ -2969,6 +3176,18 @@ references:
   name: MapCsLanguageToSuperOfficeLanguage
   nameWithType: CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.MapCsLanguageToSuperOfficeLanguage
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName*
+  commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName
+  isExternal: true
+  name: GetCultureDisplayName
+  nameWithType: CultureDataFormatter.GetCultureDisplayName
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.GetCultureDisplayName
+- uid: System.Globalization.CultureInfo
+  commentId: '!:System.Globalization.CultureInfo'
+  isExternal: true
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString*
   commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.ParseMultiLanguageString
   isExternal: true
@@ -2987,3 +3206,20 @@ references:
   name: ParseInlineElements
   nameWithType: CultureDataFormatter.ParseInlineElements
   fullName: SuperOffice.WebApi.Data.CultureDataFormatter.ParseInlineElements
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary*
+  commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary
+  isExternal: true
+  name: EncodeBinary
+  nameWithType: CultureDataFormatter.EncodeBinary
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinary
+- uid: System.IO.Stream
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags*
+  commentId: Overload:SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags
+  isExternal: true
+  name: EncodeBinaryNoTags
+  nameWithType: CultureDataFormatter.EncodeBinaryNoTags
+  fullName: SuperOffice.WebApi.Data.CultureDataFormatter.EncodeBinaryNoTags

@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AI_TranslateEntityRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_TranslateEntityRequest
+  id: AI_TranslateEntityRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AI_TranslateEntityRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityId
+  - SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityName
+  - SuperOffice.WebApi.Data.AI_TranslateEntityRequest.TargetLanguage
+  langs:
+  - csharp
+  - vb
+  name: AI_TranslateEntityRequest
+  nameWithType: AI_TranslateEntityRequest
+  fullName: SuperOffice.WebApi.Data.AI_TranslateEntityRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class AI_TranslateEntityRequest : Object'
+    content.vb: >-
+      Public Class AI_TranslateEntityRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_TranslateEntityRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AI_TranslateEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: AI_TranslateEntityRequest()
+  nameWithType: AI_TranslateEntityRequest.AI_TranslateEntityRequest()
+  fullName: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.AI_TranslateEntityRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AI_TranslateEntityRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityName
+  commentId: P:SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityName
+  id: EntityName
+  parent: SuperOffice.WebApi.Data.AI_TranslateEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: EntityName
+  nameWithType: AI_TranslateEntityRequest.EntityName
+  fullName: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EntityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EntityName As String
+  overload: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityId
+  commentId: P:SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityId
+  id: EntityId
+  parent: SuperOffice.WebApi.Data.AI_TranslateEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: EntityId
+  nameWithType: AI_TranslateEntityRequest.EntityId
+  fullName: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int EntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EntityId As Integer
+  overload: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.TargetLanguage
+  commentId: P:SuperOffice.WebApi.Data.AI_TranslateEntityRequest.TargetLanguage
+  id: TargetLanguage
+  parent: SuperOffice.WebApi.Data.AI_TranslateEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetLanguage
+  nameWithType: AI_TranslateEntityRequest.TargetLanguage
+  fullName: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.TargetLanguage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TargetLanguage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetLanguage As String
+  overload: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.TargetLanguage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_TranslateEntityRequest.#ctor
+  isExternal: true
+  name: AI_TranslateEntityRequest
+  nameWithType: AI_TranslateEntityRequest.AI_TranslateEntityRequest
+  fullName: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.AI_TranslateEntityRequest
+- uid: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityName*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityName
+  isExternal: true
+  name: EntityName
+  nameWithType: AI_TranslateEntityRequest.EntityName
+  fullName: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityId*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityId
+  isExternal: true
+  name: EntityId
+  nameWithType: AI_TranslateEntityRequest.EntityId
+  fullName: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.EntityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.TargetLanguage*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_TranslateEntityRequest.TargetLanguage
+  isExternal: true
+  name: TargetLanguage
+  nameWithType: AI_TranslateEntityRequest.TargetLanguage
+  fullName: SuperOffice.WebApi.Data.AI_TranslateEntityRequest.TargetLanguage

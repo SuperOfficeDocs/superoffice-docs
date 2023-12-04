@@ -1,0 +1,455 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TargetRevision
+  commentId: T:SuperOffice.WebApi.Data.TargetRevision
+  id: TargetRevision
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TargetRevision.#ctor
+  - SuperOffice.WebApi.Data.TargetRevision.Changes
+  - SuperOffice.WebApi.Data.TargetRevision.LogEvent
+  - SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
+  - SuperOffice.WebApi.Data.TargetRevision.When
+  - SuperOffice.WebApi.Data.TargetRevision.Who
+  langs:
+  - csharp
+  - vb
+  name: TargetRevision
+  nameWithType: TargetRevision
+  fullName: SuperOffice.WebApi.Data.TargetRevision
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TargetRevision.\nTarget revision carrier    \n"
+  syntax:
+    content: 'public class TargetRevision : Carrier'
+    content.vb: >-
+      Public Class TargetRevision
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.TargetsAgent
+    commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TargetRevision.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TargetRevision.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TargetRevision
+  langs:
+  - csharp
+  - vb
+  name: TargetRevision()
+  nameWithType: TargetRevision.TargetRevision()
+  fullName: SuperOffice.WebApi.Data.TargetRevision.TargetRevision()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TargetRevision()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TargetRevision.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
+  commentId: P:SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
+  id: LogEvent_String
+  parent: SuperOffice.WebApi.Data.TargetRevision
+  langs:
+  - csharp
+  - vb
+  name: LogEvent_String
+  nameWithType: TargetRevision.LogEvent_String
+  fullName: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLog event class (create, edit, delete, lock, unlock...\nRaw string enum value.\n"
+  syntax:
+    content: public string LogEvent_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LogEvent_String As String
+  overload: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TargetRevision.LogEvent
+    commentId: P:SuperOffice.WebApi.Data.TargetRevision.LogEvent
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TargetRevision.LogEvent
+  commentId: P:SuperOffice.WebApi.Data.TargetRevision.LogEvent
+  id: LogEvent
+  parent: SuperOffice.WebApi.Data.TargetRevision
+  langs:
+  - csharp
+  - vb
+  name: LogEvent
+  nameWithType: TargetRevision.LogEvent
+  fullName: SuperOffice.WebApi.Data.TargetRevision.LogEvent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLog event class (create, edit, delete, lock, unlock...\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<LogEvent> LogEvent { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.LogEvent}
+    content.vb: Public Property LogEvent As Nullable(Of LogEvent)
+  overload: SuperOffice.WebApi.Data.TargetRevision.LogEvent*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
+    commentId: P:SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TargetRevision.Who
+  commentId: P:SuperOffice.WebApi.Data.TargetRevision.Who
+  id: Who
+  parent: SuperOffice.WebApi.Data.TargetRevision
+  langs:
+  - csharp
+  - vb
+  name: Who
+  nameWithType: TargetRevision.Who
+  fullName: SuperOffice.WebApi.Data.TargetRevision.Who
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWho made the change\n"
+  syntax:
+    content: public virtual Associate Who { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property Who As Associate
+  overload: SuperOffice.WebApi.Data.TargetRevision.Who*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TargetRevision.When
+  commentId: P:SuperOffice.WebApi.Data.TargetRevision.When
+  id: When
+  parent: SuperOffice.WebApi.Data.TargetRevision
+  langs:
+  - csharp
+  - vb
+  name: When
+  nameWithType: TargetRevision.When
+  fullName: SuperOffice.WebApi.Data.TargetRevision.When
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime When { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property When As DateTime
+  overload: SuperOffice.WebApi.Data.TargetRevision.When*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TargetRevision.Changes
+  commentId: P:SuperOffice.WebApi.Data.TargetRevision.Changes
+  id: Changes
+  parent: SuperOffice.WebApi.Data.TargetRevision
+  langs:
+  - csharp
+  - vb
+  name: Changes
+  nameWithType: TargetRevision.Changes
+  fullName: SuperOffice.WebApi.Data.TargetRevision.Changes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCollection of changes\n"
+  syntax:
+    content: public virtual TargetChange[] Changes { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TargetChange[]
+    content.vb: Public Overridable Property Changes As TargetChange()
+  overload: SuperOffice.WebApi.Data.TargetRevision.Changes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.TargetsAgent
+  commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
+  isExternal: true
+  name: TargetsAgent
+  nameWithType: TargetsAgent
+  fullName: SuperOffice.WebApi.Agents.TargetsAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TargetRevision.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetRevision.#ctor
+  isExternal: true
+  name: TargetRevision
+  nameWithType: TargetRevision.TargetRevision
+  fullName: SuperOffice.WebApi.Data.TargetRevision.TargetRevision
+- uid: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
+  isExternal: true
+  name: LogEvent_String
+  nameWithType: TargetRevision.LogEvent_String
+  fullName: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
+- uid: SuperOffice.WebApi.Data.TargetRevision.LogEvent
+  commentId: P:SuperOffice.WebApi.Data.TargetRevision.LogEvent
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TargetRevision.LogEvent*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetRevision.LogEvent
+  isExternal: true
+  name: LogEvent
+  nameWithType: TargetRevision.LogEvent
+  fullName: SuperOffice.WebApi.Data.TargetRevision.LogEvent
+- uid: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
+  commentId: P:SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.LogEvent}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.LogEvent}'
+  definition: System.Nullable`1
+  name: Nullable<LogEvent>
+  nameWithType: Nullable<LogEvent>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.LogEvent>
+  nameWithType.vb: Nullable(Of LogEvent)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.LogEvent)
+  name.vb: Nullable(Of LogEvent)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.LogEvent
+    name: LogEvent
+    nameWithType: LogEvent
+    fullName: SuperOffice.WebApi.Data.LogEvent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.LogEvent
+    name: LogEvent
+    nameWithType: LogEvent
+    fullName: SuperOffice.WebApi.Data.LogEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TargetRevision.Who*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetRevision.Who
+  isExternal: true
+  name: Who
+  nameWithType: TargetRevision.Who
+  fullName: SuperOffice.WebApi.Data.TargetRevision.Who
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate
+- uid: SuperOffice.WebApi.Data.TargetRevision.When*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetRevision.When
+  isExternal: true
+  name: When
+  nameWithType: TargetRevision.When
+  fullName: SuperOffice.WebApi.Data.TargetRevision.When
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.TargetRevision.Changes*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetRevision.Changes
+  isExternal: true
+  name: Changes
+  nameWithType: TargetRevision.Changes
+  fullName: SuperOffice.WebApi.Data.TargetRevision.Changes
+- uid: SuperOffice.WebApi.Data.TargetChange[]
+  isExternal: true
+  name: TargetChange[]
+  nameWithType: TargetChange[]
+  fullName: SuperOffice.WebApi.Data.TargetChange[]
+  nameWithType.vb: TargetChange()
+  fullName.vb: SuperOffice.WebApi.Data.TargetChange()
+  name.vb: TargetChange()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.TargetChange
+    name: TargetChange
+    nameWithType: TargetChange
+    fullName: SuperOffice.WebApi.Data.TargetChange
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.TargetChange
+    name: TargetChange
+    nameWithType: TargetChange
+    fullName: SuperOffice.WebApi.Data.TargetChange
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

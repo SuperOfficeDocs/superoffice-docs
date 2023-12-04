@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TextServices
+  commentId: T:SuperOffice.WebApi.Data.TextServices
+  id: TextServices
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TextServices.#ctor
+  langs:
+  - csharp
+  - vb
+  name: TextServices
+  nameWithType: TextServices
+  fullName: SuperOffice.WebApi.Data.TextServices
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TextServices.\nText generation functions for various entities    \n"
+  syntax:
+    content: 'public class TextServices : Object'
+    content.vb: >-
+      Public Class TextServices
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AIAgent
+    commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TextServices.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TextServices.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TextServices
+  langs:
+  - csharp
+  - vb
+  name: TextServices()
+  nameWithType: TextServices.TextServices()
+  fullName: SuperOffice.WebApi.Data.TextServices.TextServices()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TextServices()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TextServices.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.AIAgent
+  commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  isExternal: true
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.WebApi.Agents.AIAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TextServices.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TextServices.#ctor
+  isExternal: true
+  name: TextServices
+  nameWithType: TextServices.TextServices
+  fullName: SuperOffice.WebApi.Data.TextServices.TextServices

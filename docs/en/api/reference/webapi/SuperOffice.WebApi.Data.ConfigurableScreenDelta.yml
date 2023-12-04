@@ -6,7 +6,11 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.ConfigurableScreenDelta.#ctor
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToIds
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToKey
   - SuperOffice.WebApi.Data.ConfigurableScreenDelta.ConfigurableScreenDeltaId
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedBy
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedDate
   - SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaJson
   - SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState
   - SuperOffice.WebApi.Data.ConfigurableScreenDelta.DeltaState_String
@@ -15,7 +19,8 @@ items:
   - SuperOffice.WebApi.Data.ConfigurableScreenDelta.Description
   - SuperOffice.WebApi.Data.ConfigurableScreenDelta.Name
   - SuperOffice.WebApi.Data.ConfigurableScreenDelta.RecipeId
-  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedBy
+  - SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedDate
   langs:
   - csharp
   - vb
@@ -379,16 +384,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds
-  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds
-  id: UserGroupIds
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedDate
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedDate
+  id: UpdatedDate
   parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
   langs:
   - csharp
   - vb
-  name: UserGroupIds
-  nameWithType: ConfigurableScreenDelta.UserGroupIds
-  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds
+  name: UpdatedDate
+  nameWithType: ConfigurableScreenDelta.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedDate
   type: Property
   source:
     path: SuperOffice.WebApi
@@ -396,14 +401,179 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nMembers of these usergroups will have this delta applied to their resulting ui\n"
+  summary: "\nDate last updated\n"
   syntax:
-    content: public virtual int[] UserGroupIds { get; set; }
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedDate
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: ConfigurableScreenDelta.CreatedDate
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDate registered\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedBy
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: ConfigurableScreenDelta.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe user that last updated the ConfigurableScreenDelta\n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedBy
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: ConfigurableScreenDelta.CreatedBy
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe user that created the ConfigurableScreenDelta\n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToIds
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToIds
+  id: AppliesToIds
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: AppliesToIds
+  nameWithType: ConfigurableScreenDelta.AppliesToIds
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIds to which type will have this delta applied to their resulting ui. Type depends on configuration. Like project type, more types probably to come\n"
+  syntax:
+    content: public virtual int[] AppliesToIds { get; set; }
     parameters: []
     return:
       type: System.Int32[]
-    content.vb: Public Overridable Property UserGroupIds As Integer()
-  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds*
+    content.vb: Public Overridable Property AppliesToIds As Integer()
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToIds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToKey
+  commentId: P:SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToKey
+  id: AppliesToKey
+  parent: SuperOffice.WebApi.Data.ConfigurableScreenDelta
+  langs:
+  - csharp
+  - vb
+  name: AppliesToKey
+  nameWithType: ConfigurableScreenDelta.AppliesToKey
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat property to use to differ on configs. Like UserGroup or ProjectType. (Read only, can only be set on recipe level)\n"
+  syntax:
+    content: public virtual string AppliesToKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AppliesToKey As String
+  overload: SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToKey*
   modifiers.csharp:
   - public
   - virtual
@@ -669,12 +839,48 @@ references:
   name: RecipeId
   nameWithType: ConfigurableScreenDelta.RecipeId
   fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.RecipeId
-- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds*
-  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedDate
   isExternal: true
-  name: UserGroupIds
-  nameWithType: ConfigurableScreenDelta.UserGroupIds
-  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UserGroupIds
+  name: UpdatedDate
+  nameWithType: ConfigurableScreenDelta.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: ConfigurableScreenDelta.CreatedDate
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedDate
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: ConfigurableScreenDelta.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.UpdatedBy
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: ConfigurableScreenDelta.CreatedBy
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.CreatedBy
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToIds*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToIds
+  isExternal: true
+  name: AppliesToIds
+  nameWithType: ConfigurableScreenDelta.AppliesToIds
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToIds
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -701,3 +907,9 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToKey*
+  commentId: Overload:SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToKey
+  isExternal: true
+  name: AppliesToKey
+  nameWithType: ConfigurableScreenDelta.AppliesToKey
+  fullName: SuperOffice.WebApi.Data.ConfigurableScreenDelta.AppliesToKey

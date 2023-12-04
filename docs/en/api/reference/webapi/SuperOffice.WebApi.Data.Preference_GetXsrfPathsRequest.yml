@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest
+  commentId: T:SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest
+  id: Preference_GetXsrfPathsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.#ctor
+  - SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.Hostname
+  langs:
+  - csharp
+  - vb
+  name: Preference_GetXsrfPathsRequest
+  nameWithType: Preference_GetXsrfPathsRequest
+  fullName: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Preference_GetXsrfPathsRequest : Object'
+    content.vb: >-
+      Public Class Preference_GetXsrfPathsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest
+  langs:
+  - csharp
+  - vb
+  name: Preference_GetXsrfPathsRequest()
+  nameWithType: Preference_GetXsrfPathsRequest.Preference_GetXsrfPathsRequest()
+  fullName: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.Preference_GetXsrfPathsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Preference_GetXsrfPathsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.Hostname
+  commentId: P:SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.Hostname
+  id: Hostname
+  parent: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest
+  langs:
+  - csharp
+  - vb
+  name: Hostname
+  nameWithType: Preference_GetXsrfPathsRequest.Hostname
+  fullName: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.Hostname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Hostname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Hostname As String
+  overload: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.Hostname*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.#ctor
+  isExternal: true
+  name: Preference_GetXsrfPathsRequest
+  nameWithType: Preference_GetXsrfPathsRequest.Preference_GetXsrfPathsRequest
+  fullName: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.Preference_GetXsrfPathsRequest
+- uid: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.Hostname*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.Hostname
+  isExternal: true
+  name: Hostname
+  nameWithType: Preference_GetXsrfPathsRequest.Hostname
+  fullName: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest.Hostname
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

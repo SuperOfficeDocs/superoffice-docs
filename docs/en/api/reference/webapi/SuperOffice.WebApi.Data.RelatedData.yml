@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RelatedData
+  commentId: T:SuperOffice.WebApi.Data.RelatedData
+  id: RelatedData
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RelatedData.#ctor
+  - SuperOffice.WebApi.Data.RelatedData.Field
+  - SuperOffice.WebApi.Data.RelatedData.FieldValue
+  langs:
+  - csharp
+  - vb
+  name: RelatedData
+  nameWithType: RelatedData
+  fullName: SuperOffice.WebApi.Data.RelatedData
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for RelatedData.\nDisplay data items for one or more related-table fields, specified using a root entity and dot-syntax    \n"
+  syntax:
+    content: 'public class RelatedData : Object'
+    content.vb: >-
+      Public Class RelatedData
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.RelatedData.#ctor
+  commentId: M:SuperOffice.WebApi.Data.RelatedData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.RelatedData
+  langs:
+  - csharp
+  - vb
+  name: RelatedData()
+  nameWithType: RelatedData.RelatedData()
+  fullName: SuperOffice.WebApi.Data.RelatedData.RelatedData()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public RelatedData()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.RelatedData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RelatedData.Field
+  commentId: P:SuperOffice.WebApi.Data.RelatedData.Field
+  id: Field
+  parent: SuperOffice.WebApi.Data.RelatedData
+  langs:
+  - csharp
+  - vb
+  name: Field
+  nameWithType: RelatedData.Field
+  fullName: SuperOffice.WebApi.Data.RelatedData.Field
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of a &apos;related field&apos;. This must be a valid column name in the DotSyntax/Dynamic system, implicitly starting with the given root table\n"
+  syntax:
+    content: public virtual string Field { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Field As String
+  overload: SuperOffice.WebApi.Data.RelatedData.Field*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RelatedData.FieldValue
+  commentId: P:SuperOffice.WebApi.Data.RelatedData.FieldValue
+  id: FieldValue
+  parent: SuperOffice.WebApi.Data.RelatedData
+  langs:
+  - csharp
+  - vb
+  name: FieldValue
+  nameWithType: RelatedData.FieldValue
+  fullName: SuperOffice.WebApi.Data.RelatedData.FieldValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe value for the Field, expressed as an archive column data cell\n"
+  syntax:
+    content: public virtual ArchiveColumnData FieldValue { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveColumnData
+    content.vb: Public Overridable Property FieldValue As ArchiveColumnData
+  overload: SuperOffice.WebApi.Data.RelatedData.FieldValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.RelatedData.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.RelatedData.#ctor
+  isExternal: true
+  name: RelatedData
+  nameWithType: RelatedData.RelatedData
+  fullName: SuperOffice.WebApi.Data.RelatedData.RelatedData
+- uid: SuperOffice.WebApi.Data.RelatedData.Field*
+  commentId: Overload:SuperOffice.WebApi.Data.RelatedData.Field
+  isExternal: true
+  name: Field
+  nameWithType: RelatedData.Field
+  fullName: SuperOffice.WebApi.Data.RelatedData.Field
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.RelatedData.FieldValue*
+  commentId: Overload:SuperOffice.WebApi.Data.RelatedData.FieldValue
+  isExternal: true
+  name: FieldValue
+  nameWithType: RelatedData.FieldValue
+  fullName: SuperOffice.WebApi.Data.RelatedData.FieldValue
+- uid: SuperOffice.WebApi.Data.ArchiveColumnData
+  commentId: T:SuperOffice.WebApi.Data.ArchiveColumnData
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ArchiveColumnData
+  nameWithType: ArchiveColumnData
+  fullName: SuperOffice.WebApi.Data.ArchiveColumnData

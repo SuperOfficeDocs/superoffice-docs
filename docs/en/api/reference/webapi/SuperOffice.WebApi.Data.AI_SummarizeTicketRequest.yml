@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_SummarizeTicketRequest
+  id: AI_SummarizeTicketRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.IsoLangCode
+  - SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.NumSentences
+  - SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.TicketId
+  langs:
+  - csharp
+  - vb
+  name: AI_SummarizeTicketRequest
+  nameWithType: AI_SummarizeTicketRequest
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class AI_SummarizeTicketRequest : Object'
+    content.vb: >-
+      Public Class AI_SummarizeTicketRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest
+  langs:
+  - csharp
+  - vb
+  name: AI_SummarizeTicketRequest()
+  nameWithType: AI_SummarizeTicketRequest.AI_SummarizeTicketRequest()
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.AI_SummarizeTicketRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AI_SummarizeTicketRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.TicketId
+  commentId: P:SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.TicketId
+  id: TicketId
+  parent: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: AI_SummarizeTicketRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.TicketId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketId As Integer
+  overload: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.TicketId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.NumSentences
+  commentId: P:SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.NumSentences
+  id: NumSentences
+  parent: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest
+  langs:
+  - csharp
+  - vb
+  name: NumSentences
+  nameWithType: AI_SummarizeTicketRequest.NumSentences
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.NumSentences
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int NumSentences { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NumSentences As Integer
+  overload: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.NumSentences*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.IsoLangCode
+  commentId: P:SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.IsoLangCode
+  id: IsoLangCode
+  parent: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest
+  langs:
+  - csharp
+  - vb
+  name: IsoLangCode
+  nameWithType: AI_SummarizeTicketRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.IsoLangCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string IsoLangCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IsoLangCode As String
+  overload: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.IsoLangCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.#ctor
+  isExternal: true
+  name: AI_SummarizeTicketRequest
+  nameWithType: AI_SummarizeTicketRequest.AI_SummarizeTicketRequest
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.AI_SummarizeTicketRequest
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.TicketId*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.TicketId
+  isExternal: true
+  name: TicketId
+  nameWithType: AI_SummarizeTicketRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.TicketId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.NumSentences*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.NumSentences
+  isExternal: true
+  name: NumSentences
+  nameWithType: AI_SummarizeTicketRequest.NumSentences
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.NumSentences
+- uid: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.IsoLangCode*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.IsoLangCode
+  isExternal: true
+  name: IsoLangCode
+  nameWithType: AI_SummarizeTicketRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_SummarizeTicketRequest.IsoLangCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

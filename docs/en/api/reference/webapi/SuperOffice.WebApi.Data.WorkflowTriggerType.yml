@@ -1,0 +1,519 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowTriggerType
+  id: WorkflowTriggerType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.AddedMessage
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.AddedToProject
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.AddedToSelection
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.CreatedRequest
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.FormSubmitted
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.LinkClicked
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.None
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.OrderPlaced
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.PersonCreated
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.PersonUpdated
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.SaleCreated
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.SaleLost
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.SaleSold
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.StartedChat
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.value__
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTriggerType
+  nameWithType: WorkflowTriggerType
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWorkflow Trigger Type\nThis Enum is used by:  workflow_trigger.trigger_type\n"
+  syntax:
+    content: 'public sealed class WorkflowTriggerType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowTriggerType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.value__
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowTriggerType.value__
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.None
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowTriggerType.None
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const WorkflowTriggerType None
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTriggerType
+    content.vb: Public Const None As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.PersonCreated
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.PersonCreated
+  id: PersonCreated
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: PersonCreated
+  nameWithType: WorkflowTriggerType.PersonCreated
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.PersonCreated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: PersonCreated\n"
+  syntax:
+    content: public const WorkflowTriggerType PersonCreated
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTriggerType
+    content.vb: Public Const PersonCreated As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.PersonUpdated
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.PersonUpdated
+  id: PersonUpdated
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: PersonUpdated
+  nameWithType: WorkflowTriggerType.PersonUpdated
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.PersonUpdated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: PersonUpdated\n"
+  syntax:
+    content: public const WorkflowTriggerType PersonUpdated
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTriggerType
+    content.vb: Public Const PersonUpdated As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.AddedToProject
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.AddedToProject
+  id: AddedToProject
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: AddedToProject
+  nameWithType: WorkflowTriggerType.AddedToProject
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.AddedToProject
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: AddedToProject\n"
+  syntax:
+    content: public const WorkflowTriggerType AddedToProject
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTriggerType
+    content.vb: Public Const AddedToProject As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.CreatedRequest
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.CreatedRequest
+  id: CreatedRequest
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: CreatedRequest
+  nameWithType: WorkflowTriggerType.CreatedRequest
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.CreatedRequest
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: CreatedRequest\n"
+  syntax:
+    content: public const WorkflowTriggerType CreatedRequest
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTriggerType
+    content.vb: Public Const CreatedRequest As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.LinkClicked
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.LinkClicked
+  id: LinkClicked
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: LinkClicked
+  nameWithType: WorkflowTriggerType.LinkClicked
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.LinkClicked
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: LinkClicked\n"
+  syntax:
+    content: public const WorkflowTriggerType LinkClicked
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTriggerType
+    content.vb: Public Const LinkClicked As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.AddedToSelection
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.AddedToSelection
+  id: AddedToSelection
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: AddedToSelection
+  nameWithType: WorkflowTriggerType.AddedToSelection
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.AddedToSelection
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: AddedToSelection\n"
+  syntax:
+    content: public const WorkflowTriggerType AddedToSelection
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTriggerType
+    content.vb: Public Const AddedToSelection As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.FormSubmitted
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.FormSubmitted
+  id: FormSubmitted
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: FormSubmitted
+  nameWithType: WorkflowTriggerType.FormSubmitted
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.FormSubmitted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: FormSubmitted\n"
+  syntax:
+    content: public const WorkflowTriggerType FormSubmitted
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTriggerType
+    content.vb: Public Const FormSubmitted As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.AddedMessage
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.AddedMessage
+  id: AddedMessage
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: AddedMessage
+  nameWithType: WorkflowTriggerType.AddedMessage
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.AddedMessage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: AddedMessage\n"
+  syntax:
+    content: public const WorkflowTriggerType AddedMessage
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTriggerType
+    content.vb: Public Const AddedMessage As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.StartedChat
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.StartedChat
+  id: StartedChat
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: StartedChat
+  nameWithType: WorkflowTriggerType.StartedChat
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.StartedChat
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: StartedChat\n"
+  syntax:
+    content: public const WorkflowTriggerType StartedChat
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTriggerType
+    content.vb: Public Const StartedChat As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.OrderPlaced
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.OrderPlaced
+  id: OrderPlaced
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: OrderPlaced
+  nameWithType: WorkflowTriggerType.OrderPlaced
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.OrderPlaced
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n10: OrderPlaced\n"
+  syntax:
+    content: public const WorkflowTriggerType OrderPlaced
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTriggerType
+    content.vb: Public Const OrderPlaced As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.SaleCreated
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.SaleCreated
+  id: SaleCreated
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: SaleCreated
+  nameWithType: WorkflowTriggerType.SaleCreated
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.SaleCreated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n11: SaleCreated\n"
+  syntax:
+    content: public const WorkflowTriggerType SaleCreated
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTriggerType
+    content.vb: Public Const SaleCreated As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.SaleSold
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.SaleSold
+  id: SaleSold
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: SaleSold
+  nameWithType: WorkflowTriggerType.SaleSold
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.SaleSold
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n12: SaleSold\n"
+  syntax:
+    content: public const WorkflowTriggerType SaleSold
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTriggerType
+    content.vb: Public Const SaleSold As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.SaleLost
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.SaleLost
+  id: SaleLost
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: SaleLost
+  nameWithType: WorkflowTriggerType.SaleLost
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.SaleLost
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n13: SaleLost\n"
+  syntax:
+    content: public const WorkflowTriggerType SaleLost
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTriggerType
+    content.vb: Public Const SaleLost As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowTriggerType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowTriggerType
+  nameWithType: WorkflowTriggerType
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType

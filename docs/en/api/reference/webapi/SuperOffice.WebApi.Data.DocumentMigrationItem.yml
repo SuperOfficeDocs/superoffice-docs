@@ -1,0 +1,463 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem
+  commentId: T:SuperOffice.WebApi.Data.DocumentMigrationItem
+  id: DocumentMigrationItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DocumentMigrationItem.#ctor
+  - SuperOffice.WebApi.Data.DocumentMigrationItem.AssociateId
+  - SuperOffice.WebApi.Data.DocumentMigrationItem.ContactId
+  - SuperOffice.WebApi.Data.DocumentMigrationItem.DocTmplId
+  - SuperOffice.WebApi.Data.DocumentMigrationItem.DocumentId
+  - SuperOffice.WebApi.Data.DocumentMigrationItem.PersonId
+  - SuperOffice.WebApi.Data.DocumentMigrationItem.ProjectId
+  - SuperOffice.WebApi.Data.DocumentMigrationItem.SaleId
+  - SuperOffice.WebApi.Data.DocumentMigrationItem.UserGroupId
+  - SuperOffice.WebApi.Data.DocumentMigrationItem.VisibleForId
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigrationItem
+  nameWithType: DocumentMigrationItem
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for DocumentMigrationItem.\nClass used to summarize all document-properties relevant for migrating documents.    \n"
+  syntax:
+    content: 'public class DocumentMigrationItem : Object'
+    content.vb: >-
+      Public Class DocumentMigrationItem
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DocumentMigrationAgent
+    commentId: T:SuperOffice.WebApi.Agents.DocumentMigrationAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DocumentMigrationItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigrationItem()
+  nameWithType: DocumentMigrationItem.DocumentMigrationItem()
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.DocumentMigrationItem()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public DocumentMigrationItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationItem.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: DocumentMigrationItem.DocumentId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItem.DocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.ContactId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationItem.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: DocumentMigrationItem.ContactId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContact ID of owning contact, may be 0\n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItem.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.PersonId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationItem.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: DocumentMigrationItem.PersonId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson ID of person the appointment is with, may be 0\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItem.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.SaleId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationItem.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: DocumentMigrationItem.SaleId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOwning sale, if any (may be 0)\n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItem.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationItem.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: DocumentMigrationItem.ProjectId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nID of project referred to, may be 0\n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItem.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.DocTmplId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationItem.DocTmplId
+  id: DocTmplId
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: DocTmplId
+  nameWithType: DocumentMigrationItem.DocTmplId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.DocTmplId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int DocTmplId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocTmplId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItem.DocTmplId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationItem.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DocumentMigrationItem.AssociateId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nID of associate whose diary the appointment is in, REQUIRED\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItem.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.UserGroupId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationItem.UserGroupId
+  id: UserGroupId
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: UserGroupId
+  nameWithType: DocumentMigrationItem.UserGroupId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.UserGroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int UserGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserGroupId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItem.UserGroupId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.VisibleForId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigrationItem.VisibleForId
+  id: VisibleForId
+  parent: SuperOffice.WebApi.Data.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: VisibleForId
+  nameWithType: DocumentMigrationItem.VisibleForId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.VisibleForId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int VisibleForId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property VisibleForId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigrationItem.VisibleForId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.DocumentMigrationAgent
+  commentId: T:SuperOffice.WebApi.Agents.DocumentMigrationAgent
+  isExternal: true
+  name: DocumentMigrationAgent
+  nameWithType: DocumentMigrationAgent
+  fullName: SuperOffice.WebApi.Agents.DocumentMigrationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItem.#ctor
+  isExternal: true
+  name: DocumentMigrationItem
+  nameWithType: DocumentMigrationItem.DocumentMigrationItem
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.DocumentMigrationItem
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItem.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: DocumentMigrationItem.DocumentId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItem.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: DocumentMigrationItem.ContactId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.ContactId
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItem.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: DocumentMigrationItem.PersonId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.PersonId
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItem.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: DocumentMigrationItem.SaleId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.SaleId
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItem.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: DocumentMigrationItem.ProjectId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.ProjectId
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.DocTmplId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItem.DocTmplId
+  isExternal: true
+  name: DocTmplId
+  nameWithType: DocumentMigrationItem.DocTmplId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.DocTmplId
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItem.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: DocumentMigrationItem.AssociateId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.AssociateId
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.UserGroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItem.UserGroupId
+  isExternal: true
+  name: UserGroupId
+  nameWithType: DocumentMigrationItem.UserGroupId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.UserGroupId
+- uid: SuperOffice.WebApi.Data.DocumentMigrationItem.VisibleForId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigrationItem.VisibleForId
+  isExternal: true
+  name: VisibleForId
+  nameWithType: DocumentMigrationItem.VisibleForId
+  fullName: SuperOffice.WebApi.Data.DocumentMigrationItem.VisibleForId

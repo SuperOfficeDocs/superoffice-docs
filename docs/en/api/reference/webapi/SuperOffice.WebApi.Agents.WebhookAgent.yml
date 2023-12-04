@@ -32,27 +32,31 @@ items:
   example:
   - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (WebhookAgent agent = new WebhookAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
   syntax:
-    content: 'public class WebhookAgent : AgentBase, IDisposable'
+    content: 'public class WebhookAgent : AgentBase, IWebhookAgent, IDisposable'
     content.vb: >-
       Public Class WebhookAgent
           Inherits AgentBase
-          Implements IDisposable
+          Implements IWebhookAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
+  - SuperOffice.WebApi.Agents.IWebhookAgent
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
   - SuperOffice.WebApi.Agents.AgentBase._binary
   - SuperOffice.WebApi.Agents.AgentBase._config
   - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase._disposeClient
   - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
@@ -63,6 +67,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
   - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   modifiers.csharp:
   - public
   - class
@@ -92,7 +97,7 @@ items:
     parameters:
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+      description: Use this HTTP client instead of making own HttpClient instance.
     content.vb: Public Sub New(httpClient As HttpClient)
   overload: SuperOffice.WebApi.Agents.WebhookAgent.#ctor*
   modifiers.csharp:
@@ -125,7 +130,7 @@ items:
       description: Base URL and authentication values.
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+      description: 'Optional: Use this HTTP client instead of making a new one.'
     content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
   overload: SuperOffice.WebApi.Agents.WebhookAgent.#ctor*
   modifiers.csharp:
@@ -161,6 +166,8 @@ items:
       description: A blank Webhook
     content.vb: Public Function CreateDefaultWebhookAsync(requestOptions As RequestOptions = Nothing) As Task(Of Webhook)
   overload: SuperOffice.WebApi.Agents.WebhookAgent.CreateDefaultWebhookAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWebhookAgent.CreateDefaultWebhookAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -197,6 +204,8 @@ items:
       description: New or updated Webhook
     content.vb: Public Function SaveWebhookAsync(webhook As Webhook, requestOptions As RequestOptions = Nothing) As Task(Of Webhook)
   overload: SuperOffice.WebApi.Agents.WebhookAgent.SaveWebhookAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWebhookAgent.SaveWebhookAsync(SuperOffice.WebApi.Data.Webhook,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -232,6 +241,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function DeleteWebhookAsync(webhookId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.WebhookAgent.DeleteWebhookAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -268,6 +279,8 @@ items:
       description: Webhook
     content.vb: Public Function GetWebhookAsync(webhookId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Webhook)
   overload: SuperOffice.WebApi.Agents.WebhookAgent.GetWebhookAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -310,6 +323,8 @@ items:
       description: Array of all webhooks, filtered according to given criteria.
     content.vb: Public Function GetAllWebhooksAsync(nameFilter As String, eventFilter As String, statusFilter As WebhookState, requestOptions As RequestOptions = Nothing) As Task(Of Webhook())
   overload: SuperOffice.WebApi.Agents.WebhookAgent.GetAllWebhooksAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync(System.String,System.String,SuperOffice.WebApi.Data.WebhookState,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -346,6 +361,8 @@ items:
       description: Result of calling webhook. Sucess=true/false + Error message
     content.vb: Public Function TestWebhookAsync(webhook As Webhook, requestOptions As RequestOptions = Nothing) As Task(Of WebhookResult)
   overload: SuperOffice.WebApi.Agents.WebhookAgent.TestWebhookAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWebhookAgent.TestWebhookAsync(SuperOffice.WebApi.Data.Webhook,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -388,6 +405,8 @@ items:
       description: This method has no return value
     content.vb: Public Function SignalEventAsync(eventName As String, primaryKey As Integer, data As StringObjectDictionary, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.WebhookAgent.SignalEventAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync(System.String,System.Int32,SuperOffice.WebApi.Data.StringObjectDictionary,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -424,6 +443,8 @@ items:
       description: Error message, or empty string if no errors received
     content.vb: Public Function GetLastErrorAsync(webhookId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.WebhookAgent.GetLastErrorAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -449,6 +470,13 @@ references:
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.IWebhookAgent
+  commentId: T:SuperOffice.WebApi.Agents.IWebhookAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: IWebhookAgent
+  nameWithType: IWebhookAgent
+  fullName: SuperOffice.WebApi.Agents.IWebhookAgent
 - uid: System.IDisposable
   isExternal: true
   name: IDisposable
@@ -482,6 +510,13 @@ references:
   name: _client
   nameWithType: AgentBase._client
   fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _disposeClient
+  nameWithType: AgentBase._disposeClient
+  fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
 - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
@@ -733,32 +768,136 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ParseAuthorization(IAuthorization)
-  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  name: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-    name: ParseAuthorization
-    nameWithType: AgentBase.ParseAuthorization
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
-    name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
     nameWithType: AgentBase.ParseAuthorization
     fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
@@ -766,10 +905,27 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
     nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
     nameWithType: )
@@ -890,6 +1046,127 @@ references:
     name: Object
     nameWithType: Object
     fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -1175,6 +1452,13 @@ references:
   name: ProgressListener
   nameWithType: AgentBase.ProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: UploadProgressListener
+  nameWithType: AgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1211,6 +1495,47 @@ references:
   name: CreateDefaultWebhookAsync
   nameWithType: WebhookAgent.CreateDefaultWebhookAsync
   fullName: SuperOffice.WebApi.Agents.WebhookAgent.CreateDefaultWebhookAsync
+- uid: SuperOffice.WebApi.Agents.IWebhookAgent.CreateDefaultWebhookAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWebhookAgent.CreateDefaultWebhookAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWebhookAgent
+  isExternal: true
+  name: CreateDefaultWebhookAsync(RequestOptions)
+  nameWithType: IWebhookAgent.CreateDefaultWebhookAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.CreateDefaultWebhookAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.CreateDefaultWebhookAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWebhookAsync
+    nameWithType: IWebhookAgent.CreateDefaultWebhookAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.CreateDefaultWebhookAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.CreateDefaultWebhookAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultWebhookAsync
+    nameWithType: IWebhookAgent.CreateDefaultWebhookAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.CreateDefaultWebhookAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
@@ -1305,6 +1630,63 @@ references:
   name: SaveWebhookAsync
   nameWithType: WebhookAgent.SaveWebhookAsync
   fullName: SuperOffice.WebApi.Agents.WebhookAgent.SaveWebhookAsync
+- uid: SuperOffice.WebApi.Agents.IWebhookAgent.SaveWebhookAsync(SuperOffice.WebApi.Data.Webhook,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWebhookAgent.SaveWebhookAsync(SuperOffice.WebApi.Data.Webhook,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWebhookAgent
+  isExternal: true
+  name: SaveWebhookAsync(Webhook, RequestOptions)
+  nameWithType: IWebhookAgent.SaveWebhookAsync(Webhook, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.SaveWebhookAsync(SuperOffice.WebApi.Data.Webhook, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.SaveWebhookAsync(SuperOffice.WebApi.Data.Webhook,SuperOffice.WebApi.RequestOptions)
+    name: SaveWebhookAsync
+    nameWithType: IWebhookAgent.SaveWebhookAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.SaveWebhookAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.Webhook
+    name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.WebApi.Data.Webhook
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.SaveWebhookAsync(SuperOffice.WebApi.Data.Webhook,SuperOffice.WebApi.RequestOptions)
+    name: SaveWebhookAsync
+    nameWithType: IWebhookAgent.SaveWebhookAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.SaveWebhookAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.Webhook
+    name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.WebApi.Data.Webhook
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.Webhook
   commentId: T:SuperOffice.WebApi.Data.Webhook
   parent: SuperOffice.WebApi.Data
@@ -1324,6 +1706,63 @@ references:
   name: DeleteWebhookAsync
   nameWithType: WebhookAgent.DeleteWebhookAsync
   fullName: SuperOffice.WebApi.Agents.WebhookAgent.DeleteWebhookAsync
+- uid: SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWebhookAgent
+  isExternal: true
+  name: DeleteWebhookAsync(Int32, RequestOptions)
+  nameWithType: IWebhookAgent.DeleteWebhookAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteWebhookAsync
+    nameWithType: IWebhookAgent.DeleteWebhookAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteWebhookAsync
+    nameWithType: IWebhookAgent.DeleteWebhookAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1342,12 +1781,158 @@ references:
   name: GetWebhookAsync
   nameWithType: WebhookAgent.GetWebhookAsync
   fullName: SuperOffice.WebApi.Agents.WebhookAgent.GetWebhookAsync
+- uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWebhookAgent
+  isExternal: true
+  name: GetWebhookAsync(Int32, RequestOptions)
+  nameWithType: IWebhookAgent.GetWebhookAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetWebhookAsync
+    nameWithType: IWebhookAgent.GetWebhookAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetWebhookAsync
+    nameWithType: IWebhookAgent.GetWebhookAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.WebhookAgent.GetAllWebhooksAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.WebhookAgent.GetAllWebhooksAsync
   isExternal: true
   name: GetAllWebhooksAsync
   nameWithType: WebhookAgent.GetAllWebhooksAsync
   fullName: SuperOffice.WebApi.Agents.WebhookAgent.GetAllWebhooksAsync
+- uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync(System.String,System.String,SuperOffice.WebApi.Data.WebhookState,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync(System.String,System.String,SuperOffice.WebApi.Data.WebhookState,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWebhookAgent
+  isExternal: true
+  name: GetAllWebhooksAsync(String, String, WebhookState, RequestOptions)
+  nameWithType: IWebhookAgent.GetAllWebhooksAsync(String, String, WebhookState, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync(System.String, System.String, SuperOffice.WebApi.Data.WebhookState, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync(System.String,System.String,SuperOffice.WebApi.Data.WebhookState,SuperOffice.WebApi.RequestOptions)
+    name: GetAllWebhooksAsync
+    nameWithType: IWebhookAgent.GetAllWebhooksAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.WebhookState
+    name: WebhookState
+    nameWithType: WebhookState
+    fullName: SuperOffice.WebApi.Data.WebhookState
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync(System.String,System.String,SuperOffice.WebApi.Data.WebhookState,SuperOffice.WebApi.RequestOptions)
+    name: GetAllWebhooksAsync
+    nameWithType: IWebhookAgent.GetAllWebhooksAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.WebhookState
+    name: WebhookState
+    nameWithType: WebhookState
+    fullName: SuperOffice.WebApi.Data.WebhookState
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1417,6 +2002,63 @@ references:
   name: TestWebhookAsync
   nameWithType: WebhookAgent.TestWebhookAsync
   fullName: SuperOffice.WebApi.Agents.WebhookAgent.TestWebhookAsync
+- uid: SuperOffice.WebApi.Agents.IWebhookAgent.TestWebhookAsync(SuperOffice.WebApi.Data.Webhook,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWebhookAgent.TestWebhookAsync(SuperOffice.WebApi.Data.Webhook,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWebhookAgent
+  isExternal: true
+  name: TestWebhookAsync(Webhook, RequestOptions)
+  nameWithType: IWebhookAgent.TestWebhookAsync(Webhook, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.TestWebhookAsync(SuperOffice.WebApi.Data.Webhook, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.TestWebhookAsync(SuperOffice.WebApi.Data.Webhook,SuperOffice.WebApi.RequestOptions)
+    name: TestWebhookAsync
+    nameWithType: IWebhookAgent.TestWebhookAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.TestWebhookAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.Webhook
+    name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.WebApi.Data.Webhook
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.TestWebhookAsync(SuperOffice.WebApi.Data.Webhook,SuperOffice.WebApi.RequestOptions)
+    name: TestWebhookAsync
+    nameWithType: IWebhookAgent.TestWebhookAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.TestWebhookAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.Webhook
+    name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.WebApi.Data.Webhook
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WebhookResult}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WebhookResult}'
   definition: System.Threading.Tasks.Task`1
@@ -1466,6 +2108,95 @@ references:
   name: SignalEventAsync
   nameWithType: WebhookAgent.SignalEventAsync
   fullName: SuperOffice.WebApi.Agents.WebhookAgent.SignalEventAsync
+- uid: SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync(System.String,System.Int32,SuperOffice.WebApi.Data.StringObjectDictionary,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync(System.String,System.Int32,SuperOffice.WebApi.Data.StringObjectDictionary,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWebhookAgent
+  isExternal: true
+  name: SignalEventAsync(String, Int32, StringObjectDictionary, RequestOptions)
+  nameWithType: IWebhookAgent.SignalEventAsync(String, Int32, StringObjectDictionary, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync(System.String, System.Int32, SuperOffice.WebApi.Data.StringObjectDictionary, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync(System.String,System.Int32,SuperOffice.WebApi.Data.StringObjectDictionary,SuperOffice.WebApi.RequestOptions)
+    name: SignalEventAsync
+    nameWithType: IWebhookAgent.SignalEventAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.StringObjectDictionary
+    name: StringObjectDictionary
+    nameWithType: StringObjectDictionary
+    fullName: SuperOffice.WebApi.Data.StringObjectDictionary
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync(System.String,System.Int32,SuperOffice.WebApi.Data.StringObjectDictionary,SuperOffice.WebApi.RequestOptions)
+    name: SignalEventAsync
+    nameWithType: IWebhookAgent.SignalEventAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.StringObjectDictionary
+    name: StringObjectDictionary
+    nameWithType: StringObjectDictionary
+    fullName: SuperOffice.WebApi.Data.StringObjectDictionary
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.StringObjectDictionary
   commentId: T:SuperOffice.WebApi.Data.StringObjectDictionary
   parent: SuperOffice.WebApi.Data
@@ -1479,6 +2210,63 @@ references:
   name: GetLastErrorAsync
   nameWithType: WebhookAgent.GetLastErrorAsync
   fullName: SuperOffice.WebApi.Agents.WebhookAgent.GetLastErrorAsync
+- uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWebhookAgent
+  isExternal: true
+  name: GetLastErrorAsync(Int32, RequestOptions)
+  nameWithType: IWebhookAgent.GetLastErrorAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetLastErrorAsync
+    nameWithType: IWebhookAgent.GetLastErrorAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetLastErrorAsync
+    nameWithType: IWebhookAgent.GetLastErrorAsync
+    fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{System.String}
   commentId: '!:System.Threading.Tasks.Task{System.String}'
   definition: System.Threading.Tasks.Task`1

@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest
+  id: Ticket_UndeleteByIdsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.TicketIds
+  langs:
+  - csharp
+  - vb
+  name: Ticket_UndeleteByIdsRequest
+  nameWithType: Ticket_UndeleteByIdsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_UndeleteByIdsRequest : Object'
+    content.vb: >-
+      Public Class Ticket_UndeleteByIdsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_UndeleteByIdsRequest()
+  nameWithType: Ticket_UndeleteByIdsRequest.Ticket_UndeleteByIdsRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.Ticket_UndeleteByIdsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_UndeleteByIdsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.TicketIds
+  commentId: P:SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.TicketIds
+  id: TicketIds
+  parent: SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketIds
+  nameWithType: Ticket_UndeleteByIdsRequest.TicketIds
+  fullName: SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.TicketIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] TicketIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property TicketIds As Integer()
+  overload: SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.TicketIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.#ctor
+  isExternal: true
+  name: Ticket_UndeleteByIdsRequest
+  nameWithType: Ticket_UndeleteByIdsRequest.Ticket_UndeleteByIdsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.Ticket_UndeleteByIdsRequest
+- uid: SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.TicketIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.TicketIds
+  isExternal: true
+  name: TicketIds
+  nameWithType: Ticket_UndeleteByIdsRequest.TicketIds
+  fullName: SuperOffice.WebApi.Data.Ticket_UndeleteByIdsRequest.TicketIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

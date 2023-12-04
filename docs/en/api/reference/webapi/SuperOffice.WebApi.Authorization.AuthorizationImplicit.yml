@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Authorization.AuthorizationImplicit
+  commentId: T:SuperOffice.WebApi.Authorization.AuthorizationImplicit
+  id: AuthorizationImplicit
+  parent: SuperOffice.WebApi.Authorization
+  children:
+  - SuperOffice.WebApi.Authorization.AuthorizationImplicit.#ctor
+  - SuperOffice.WebApi.Authorization.AuthorizationImplicit.GetAuthorization
+  - SuperOffice.WebApi.Authorization.AuthorizationImplicit.RefreshAuthorization
+  langs:
+  - csharp
+  - vb
+  name: AuthorizationImplicit
+  nameWithType: AuthorizationImplicit
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationImplicit
+  type: Class
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization
+  summary: "\nRepresents a default <xref href=\"SuperOffice.WebApi.Authorization.IAuthorization\" data-throw-if-not-resolved=\"false\"></xref> type, used for pass-through authentication scenarios.\nUse NTLM/Negotiate protocol to authorize with windows identity.\n"
+  syntax:
+    content: 'public class AuthorizationImplicit : Object, IAuthorization'
+    content.vb: >-
+      Public Class AuthorizationImplicit
+          Inherits Object
+          Implements IAuthorization
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.WebApi.Authorization.IAuthorization
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Authorization.AuthorizationImplicit.GetAuthorization
+  commentId: M:SuperOffice.WebApi.Authorization.AuthorizationImplicit.GetAuthorization
+  id: GetAuthorization
+  parent: SuperOffice.WebApi.Authorization.AuthorizationImplicit
+  langs:
+  - csharp
+  - vb
+  name: GetAuthorization()
+  nameWithType: AuthorizationImplicit.GetAuthorization()
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationImplicit.GetAuthorization()
+  type: Method
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization
+  summary: "\nReturns an empty tuple. Signifies no authorization header - use NTLM/Negotiate with IIS.\n"
+  syntax:
+    content: public AuthenticationHeaderValue GetAuthorization()
+    return:
+      type: System.Net.Http.Headers.AuthenticationHeaderValue
+    content.vb: Public Function GetAuthorization As AuthenticationHeaderValue
+  overload: SuperOffice.WebApi.Authorization.AuthorizationImplicit.GetAuthorization*
+  implements:
+  - SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.AuthorizationImplicit.#ctor
+  commentId: M:SuperOffice.WebApi.Authorization.AuthorizationImplicit.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Authorization.AuthorizationImplicit
+  langs:
+  - csharp
+  - vb
+  name: AuthorizationImplicit()
+  nameWithType: AuthorizationImplicit.AuthorizationImplicit()
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationImplicit.AuthorizationImplicit()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization
+  syntax:
+    content: public AuthorizationImplicit()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Authorization.AuthorizationImplicit.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Authorization.AuthorizationImplicit.RefreshAuthorization
+  commentId: P:SuperOffice.WebApi.Authorization.AuthorizationImplicit.RefreshAuthorization
+  id: RefreshAuthorization
+  parent: SuperOffice.WebApi.Authorization.AuthorizationImplicit
+  langs:
+  - csharp
+  - vb
+  name: RefreshAuthorization
+  nameWithType: AuthorizationImplicit.RefreshAuthorization
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationImplicit.RefreshAuthorization
+  type: Property
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization
+  summary: "\nTry to refresh this <xref href=\"SuperOffice.WebApi.Authorization.IAuthorization\" data-throw-if-not-resolved=\"false\"></xref> instance.\n"
+  syntax:
+    content: public Func<ReAuthorizationArgs, IAuthorization> RefreshAuthorization { get; set; }
+    parameters: []
+    return:
+      type: System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,SuperOffice.WebApi.Authorization.IAuthorization}
+    content.vb: Public Property RefreshAuthorization As Func(Of ReAuthorizationArgs, IAuthorization)
+  overload: SuperOffice.WebApi.Authorization.AuthorizationImplicit.RefreshAuthorization*
+  implements:
+  - SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Authorization
+  commentId: N:SuperOffice.WebApi.Authorization
+  isExternal: true
+  name: SuperOffice.WebApi.Authorization
+  nameWithType: SuperOffice.WebApi.Authorization
+  fullName: SuperOffice.WebApi.Authorization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Authorization.IAuthorization
+  commentId: T:SuperOffice.WebApi.Authorization.IAuthorization
+  parent: SuperOffice.WebApi.Authorization
+  isExternal: true
+  name: IAuthorization
+  nameWithType: IAuthorization
+  fullName: SuperOffice.WebApi.Authorization.IAuthorization
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Authorization.AuthorizationImplicit.GetAuthorization*
+  commentId: Overload:SuperOffice.WebApi.Authorization.AuthorizationImplicit.GetAuthorization
+  isExternal: true
+  name: GetAuthorization
+  nameWithType: AuthorizationImplicit.GetAuthorization
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationImplicit.GetAuthorization
+- uid: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
+  commentId: M:SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
+  parent: SuperOffice.WebApi.Authorization.IAuthorization
+  isExternal: true
+  name: GetAuthorization()
+  nameWithType: IAuthorization.GetAuthorization()
+  fullName: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
+    name: GetAuthorization
+    nameWithType: IAuthorization.GetAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
+    name: GetAuthorization
+    nameWithType: IAuthorization.GetAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization.GetAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.Headers.AuthenticationHeaderValue
+  isExternal: true
+  name: AuthenticationHeaderValue
+  nameWithType: AuthenticationHeaderValue
+  fullName: System.Net.Http.Headers.AuthenticationHeaderValue
+- uid: SuperOffice.WebApi.Authorization.AuthorizationImplicit.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Authorization.AuthorizationImplicit.#ctor
+  isExternal: true
+  name: AuthorizationImplicit
+  nameWithType: AuthorizationImplicit.AuthorizationImplicit
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationImplicit.AuthorizationImplicit
+- uid: SuperOffice.WebApi.Authorization.AuthorizationImplicit.RefreshAuthorization*
+  commentId: Overload:SuperOffice.WebApi.Authorization.AuthorizationImplicit.RefreshAuthorization
+  isExternal: true
+  name: RefreshAuthorization
+  nameWithType: AuthorizationImplicit.RefreshAuthorization
+  fullName: SuperOffice.WebApi.Authorization.AuthorizationImplicit.RefreshAuthorization
+- uid: SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
+  commentId: P:SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
+  parent: SuperOffice.WebApi.Authorization.IAuthorization
+  isExternal: true
+  name: RefreshAuthorization
+  nameWithType: IAuthorization.RefreshAuthorization
+  fullName: SuperOffice.WebApi.Authorization.IAuthorization.RefreshAuthorization
+- uid: System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,SuperOffice.WebApi.Authorization.IAuthorization}
+  commentId: '!:System.Func{SuperOffice.WebApi.Authorization.ReAuthorizationArgs,SuperOffice.WebApi.Authorization.IAuthorization}'
+  definition: System.Func`2
+  name: Func<ReAuthorizationArgs, IAuthorization>
+  nameWithType: Func<ReAuthorizationArgs, IAuthorization>
+  fullName: System.Func<SuperOffice.WebApi.Authorization.ReAuthorizationArgs, SuperOffice.WebApi.Authorization.IAuthorization>
+  nameWithType.vb: Func(Of ReAuthorizationArgs, IAuthorization)
+  fullName.vb: System.Func(Of SuperOffice.WebApi.Authorization.ReAuthorizationArgs, SuperOffice.WebApi.Authorization.IAuthorization)
+  name.vb: Func(Of ReAuthorizationArgs, IAuthorization)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Authorization.ReAuthorizationArgs
+    name: ReAuthorizationArgs
+    nameWithType: ReAuthorizationArgs
+    fullName: SuperOffice.WebApi.Authorization.ReAuthorizationArgs
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Authorization.ReAuthorizationArgs
+    name: ReAuthorizationArgs
+    nameWithType: ReAuthorizationArgs
+    fullName: SuperOffice.WebApi.Authorization.ReAuthorizationArgs
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: System.Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: System.Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

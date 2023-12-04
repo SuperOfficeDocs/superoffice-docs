@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.Domain.Dashboards
+  - SuperOffice.WebApi.Data.Domain.EmailFlows
   - SuperOffice.WebApi.Data.Domain.ExternalDocumentRelatedToSpmMessage
   - SuperOffice.WebApi.Data.Domain.ExternalDocuments
   - SuperOffice.WebApi.Data.Domain.ExtraTables
@@ -327,6 +328,35 @@ items:
     return:
       type: SuperOffice.WebApi.Data.Domain
     content.vb: Public Const Dashboards As Domain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Domain.EmailFlows
+  commentId: F:SuperOffice.WebApi.Data.Domain.EmailFlows
+  id: EmailFlows
+  parent: SuperOffice.WebApi.Data.Domain
+  langs:
+  - csharp
+  - vb
+  name: EmailFlows
+  nameWithType: Domain.EmailFlows
+  fullName: SuperOffice.WebApi.Data.Domain.EmailFlows
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: EmailFlow folders\n"
+  syntax:
+    content: public const Domain EmailFlows
+    return:
+      type: SuperOffice.WebApi.Data.Domain
+    content.vb: Public Const EmailFlows As Domain
   modifiers.csharp:
   - public
   - const

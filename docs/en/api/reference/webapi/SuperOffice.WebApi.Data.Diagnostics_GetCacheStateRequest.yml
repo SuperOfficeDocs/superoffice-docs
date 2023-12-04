@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest
+  id: Diagnostics_GetCacheStateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.#ctor
+  - SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.CacheNames
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_GetCacheStateRequest
+  nameWithType: Diagnostics_GetCacheStateRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Diagnostics_GetCacheStateRequest : Object'
+    content.vb: >-
+      Public Class Diagnostics_GetCacheStateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_GetCacheStateRequest()
+  nameWithType: Diagnostics_GetCacheStateRequest.Diagnostics_GetCacheStateRequest()
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.Diagnostics_GetCacheStateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Diagnostics_GetCacheStateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.CacheNames
+  commentId: P:SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.CacheNames
+  id: CacheNames
+  parent: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest
+  langs:
+  - csharp
+  - vb
+  name: CacheNames
+  nameWithType: Diagnostics_GetCacheStateRequest.CacheNames
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.CacheNames
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] CacheNames { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property CacheNames As String()
+  overload: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.CacheNames*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.#ctor
+  isExternal: true
+  name: Diagnostics_GetCacheStateRequest
+  nameWithType: Diagnostics_GetCacheStateRequest.Diagnostics_GetCacheStateRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.Diagnostics_GetCacheStateRequest
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.CacheNames*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.CacheNames
+  isExternal: true
+  name: CacheNames
+  nameWithType: Diagnostics_GetCacheStateRequest.CacheNames
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest.CacheNames
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest
+  id: Ticket_ResolveTicketIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.TicketId
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ResolveTicketIdRequest
+  nameWithType: Ticket_ResolveTicketIdRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_ResolveTicketIdRequest : Object'
+    content.vb: >-
+      Public Class Ticket_ResolveTicketIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ResolveTicketIdRequest()
+  nameWithType: Ticket_ResolveTicketIdRequest.Ticket_ResolveTicketIdRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.Ticket_ResolveTicketIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_ResolveTicketIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.TicketId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.TicketId
+  id: TicketId
+  parent: SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: Ticket_ResolveTicketIdRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.TicketId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.TicketId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.#ctor
+  isExternal: true
+  name: Ticket_ResolveTicketIdRequest
+  nameWithType: Ticket_ResolveTicketIdRequest.Ticket_ResolveTicketIdRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.Ticket_ResolveTicketIdRequest
+- uid: SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.TicketId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.TicketId
+  isExternal: true
+  name: TicketId
+  nameWithType: Ticket_ResolveTicketIdRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.Ticket_ResolveTicketIdRequest.TicketId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

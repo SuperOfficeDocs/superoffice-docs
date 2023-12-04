@@ -60,27 +60,31 @@ items:
   example:
   - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (BLOBAgent agent = new BLOBAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
   syntax:
-    content: 'public class BLOBAgent : AgentBase, IDisposable'
+    content: 'public class BLOBAgent : AgentBase, IBLOBAgent, IDisposable'
     content.vb: >-
       Public Class BLOBAgent
           Inherits AgentBase
-          Implements IDisposable
+          Implements IBLOBAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
   - SuperOffice.WebApi.Agents.AgentBase._binary
   - SuperOffice.WebApi.Agents.AgentBase._config
   - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase._disposeClient
   - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
@@ -91,6 +95,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
   - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   modifiers.csharp:
   - public
   - class
@@ -120,7 +125,7 @@ items:
     parameters:
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+      description: Use this HTTP client instead of making own HttpClient instance.
     content.vb: Public Sub New(httpClient As HttpClient)
   overload: SuperOffice.WebApi.Agents.BLOBAgent.#ctor*
   modifiers.csharp:
@@ -153,7 +158,7 @@ items:
       description: Base URL and authentication values.
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+      description: 'Optional: Use this HTTP client instead of making a new one.'
     content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
   overload: SuperOffice.WebApi.Agents.BLOBAgent.#ctor*
   modifiers.csharp:
@@ -189,6 +194,8 @@ items:
       description: A blank BlobEntity
     content.vb: Public Function CreateDefaultBlobEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
   overload: SuperOffice.WebApi.Agents.BLOBAgent.CreateDefaultBlobEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -225,6 +232,8 @@ items:
       description: New or updated BlobEntity
     content.vb: Public Function SaveBlobEntityAsync(blobEntity As BlobEntity, requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
   overload: SuperOffice.WebApi.Agents.BLOBAgent.SaveBlobEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync(SuperOffice.WebApi.Data.BlobEntity,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -260,6 +269,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function DeleteBlobEntityAsync(blobEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.BLOBAgent.DeleteBlobEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -296,6 +307,8 @@ items:
       description: BlobEntity
     content.vb: Public Function GetBlobEntityAsync(blobEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -334,6 +347,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SetBlobStreamAsync(blobEntityId As Integer, stream As Byte(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.BLOBAgent.SetBlobStreamAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: BLOBAgent.SetBlobStreamAsync(Int32, Byte(), RequestOptions)
   modifiers.csharp:
   - public
@@ -376,6 +391,8 @@ items:
       description: The binary object as a Stream
     content.vb: Public Function GetBlobStreamAsync(blobEntityId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobStreamAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -415,6 +432,8 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
     content.vb: Public Function GetProjectImageAsync(projectId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetProjectImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -454,6 +473,8 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
     content.vb: Public Function GetPersonImageAsync(personId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetPersonImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -492,6 +513,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SetProjectImageAsync(projectId As Integer, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.BLOBAgent.SetProjectImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: BLOBAgent.SetProjectImageAsync(Int32, Byte(), RequestOptions)
   modifiers.csharp:
   - public
@@ -533,6 +556,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SetPersonImageAsync(personId As Integer, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.BLOBAgent.SetPersonImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: BLOBAgent.SetPersonImageAsync(Int32, Byte(), RequestOptions)
   modifiers.csharp:
   - public
@@ -574,6 +599,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function ChangeProjectImageAsync(projectId As Integer, blobId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.BLOBAgent.ChangeProjectImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -612,6 +639,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SaveProjectImageAsync(description As String, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.BLOBAgent.SaveProjectImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: BLOBAgent.SaveProjectImageAsync(String, Byte(), RequestOptions)
   modifiers.csharp:
   - public
@@ -651,6 +680,8 @@ items:
       description: BlobEntity object
     content.vb: Public Function GetBlobEntityOnProjectAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnProjectAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -687,6 +718,8 @@ items:
       description: BlobEntity object
     content.vb: Public Function GetBlobEntityOnPersonAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnPersonAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -723,6 +756,8 @@ items:
       description: BlobEntity object
     content.vb: Public Function GetBlobEntityOnCountryAsync(countryId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnCountryAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -759,6 +794,8 @@ items:
       description: BlobEntity object
     content.vb: Public Function GetBlobEntityOnProductAsync(productId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnProductAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -797,6 +834,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function ChangePersonImageAsync(personId As Integer, blobId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.BLOBAgent.ChangePersonImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -839,6 +878,8 @@ items:
       description: The blob id
     content.vb: Public Function SaveImageStreamAsync(type As BlobLinkType, image As Byte(), description As String, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
   overload: SuperOffice.WebApi.Agents.BLOBAgent.SaveImageStreamAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync(SuperOffice.WebApi.Data.BlobLinkType,System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: BLOBAgent.SaveImageStreamAsync(BlobLinkType, Byte(), String, RequestOptions)
   modifiers.csharp:
   - public
@@ -881,6 +922,8 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
     content.vb: Public Function GetProductImageAsync(productId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetProductImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -919,6 +962,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SetProductImageAsync(productId As Integer, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.BLOBAgent.SetProductImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: BLOBAgent.SetProductImageAsync(Int32, Byte(), RequestOptions)
   modifiers.csharp:
   - public
@@ -961,6 +1006,8 @@ items:
       description: The thumbnail as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
     content.vb: Public Function GetProductThumbnailAsync(productId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetProductThumbnailAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -999,6 +1046,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SetProductThumbnailAsync(productId As Integer, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.BLOBAgent.SetProductThumbnailAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: BLOBAgent.SetProductThumbnailAsync(Int32, Byte(), RequestOptions)
   modifiers.csharp:
   - public
@@ -1040,6 +1089,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function ChangeProductImageAsync(productId As Integer, blobId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.BLOBAgent.ChangeProductImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1079,6 +1130,8 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
     content.vb: Public Function GetQuoteLineImageAsync(quoteLineId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetQuoteLineImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1115,6 +1168,8 @@ items:
       description: The applications value, suggested to be a JSON, XML or other readable structure
     content.vb: Public Function GetAppDataAsync(key As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetAppDataAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1154,6 +1209,8 @@ items:
       description: This method has no return value
     content.vb: Public Function SetAppDataAsync(key As String, data As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.BLOBAgent.SetAppDataAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1199,6 +1256,8 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
     content.vb: Public Function GetPersonImageWithSizeAsync(personId As Integer, width As Integer, height As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetPersonImageWithSizeAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1244,6 +1303,8 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
     content.vb: Public Function GetProjectImageWithSizeAsync(projectId As Integer, width As Integer, height As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetProjectImageWithSizeAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1289,6 +1350,8 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
     content.vb: Public Function GetChatImageWithSizeAsync(chatTopicId As Integer, width As Integer, height As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetChatImageWithSizeAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1328,6 +1391,8 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
     content.vb: Public Function GetContactImageAsync(contactId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetContactImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1366,6 +1431,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SetContactImageAsync(contactId As Integer, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.BLOBAgent.SetContactImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: BLOBAgent.SetContactImageAsync(Int32, Byte(), RequestOptions)
   modifiers.csharp:
   - public
@@ -1407,6 +1474,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function ChangeContactImageAsync(contactId As Integer, blobId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.BLOBAgent.ChangeContactImageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1443,6 +1512,8 @@ items:
       description: BlobEntity object
     content.vb: Public Function GetBlobEntityOnContactAsync(contactId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BlobEntity)
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnContactAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1488,6 +1559,8 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
     content.vb: Public Function GetContactImageWithSizeAsync(contactId As Integer, width As Integer, height As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetContactImageWithSizeAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1527,6 +1600,8 @@ items:
       description: The binary object as a Stream
     content.vb: Public Function GetOutputFromBatchAsync(batchTaskId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.BLOBAgent.GetOutputFromBatchAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1562,6 +1637,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function CleanupBatchTaskAsync(batchTaskId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.BLOBAgent.CleanupBatchTaskAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1587,6 +1664,13 @@ references:
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent
+  commentId: T:SuperOffice.WebApi.Agents.IBLOBAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: IBLOBAgent
+  nameWithType: IBLOBAgent
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent
 - uid: System.IDisposable
   isExternal: true
   name: IDisposable
@@ -1620,6 +1704,13 @@ references:
   name: _client
   nameWithType: AgentBase._client
   fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _disposeClient
+  nameWithType: AgentBase._disposeClient
+  fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
 - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
@@ -1871,32 +1962,136 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ParseAuthorization(IAuthorization)
-  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  name: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-    name: ParseAuthorization
-    nameWithType: AgentBase.ParseAuthorization
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
-    name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
     nameWithType: AgentBase.ParseAuthorization
     fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
@@ -1904,10 +2099,27 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
     nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
     nameWithType: )
@@ -2028,6 +2240,127 @@ references:
     name: Object
     nameWithType: Object
     fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -2313,6 +2646,13 @@ references:
   name: ProgressListener
   nameWithType: AgentBase.ProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: UploadProgressListener
+  nameWithType: AgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
 - uid: System
   commentId: N:System
   isExternal: true
@@ -2349,6 +2689,47 @@ references:
   name: CreateDefaultBlobEntityAsync
   nameWithType: BLOBAgent.CreateDefaultBlobEntityAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.CreateDefaultBlobEntityAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: CreateDefaultBlobEntityAsync(RequestOptions)
+  nameWithType: IBLOBAgent.CreateDefaultBlobEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultBlobEntityAsync
+    nameWithType: IBLOBAgent.CreateDefaultBlobEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultBlobEntityAsync
+    nameWithType: IBLOBAgent.CreateDefaultBlobEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
@@ -2443,6 +2824,63 @@ references:
   name: SaveBlobEntityAsync
   nameWithType: BLOBAgent.SaveBlobEntityAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.SaveBlobEntityAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync(SuperOffice.WebApi.Data.BlobEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync(SuperOffice.WebApi.Data.BlobEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: SaveBlobEntityAsync(BlobEntity, RequestOptions)
+  nameWithType: IBLOBAgent.SaveBlobEntityAsync(BlobEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync(SuperOffice.WebApi.Data.BlobEntity, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync(SuperOffice.WebApi.Data.BlobEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveBlobEntityAsync
+    nameWithType: IBLOBAgent.SaveBlobEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.BlobEntity
+    name: BlobEntity
+    nameWithType: BlobEntity
+    fullName: SuperOffice.WebApi.Data.BlobEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync(SuperOffice.WebApi.Data.BlobEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveBlobEntityAsync
+    nameWithType: IBLOBAgent.SaveBlobEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveBlobEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.BlobEntity
+    name: BlobEntity
+    nameWithType: BlobEntity
+    fullName: SuperOffice.WebApi.Data.BlobEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.BlobEntity
   commentId: T:SuperOffice.WebApi.Data.BlobEntity
   parent: SuperOffice.WebApi.Data
@@ -2462,6 +2900,63 @@ references:
   name: DeleteBlobEntityAsync
   nameWithType: BLOBAgent.DeleteBlobEntityAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.DeleteBlobEntityAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: DeleteBlobEntityAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.DeleteBlobEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteBlobEntityAsync
+    nameWithType: IBLOBAgent.DeleteBlobEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteBlobEntityAsync
+    nameWithType: IBLOBAgent.DeleteBlobEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.DeleteBlobEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -2480,12 +2975,151 @@ references:
   name: GetBlobEntityAsync
   nameWithType: BLOBAgent.GetBlobEntityAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetBlobEntityAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.GetBlobEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBlobEntityAsync
+    nameWithType: IBLOBAgent.GetBlobEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBlobEntityAsync
+    nameWithType: IBLOBAgent.GetBlobEntityAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.SetBlobStreamAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.SetBlobStreamAsync
   isExternal: true
   name: SetBlobStreamAsync
   nameWithType: BLOBAgent.SetBlobStreamAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.SetBlobStreamAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: SetBlobStreamAsync(Int32, Byte[], RequestOptions)
+  nameWithType: IBLOBAgent.SetBlobStreamAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IBLOBAgent.SetBlobStreamAsync(Int32, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetBlobStreamAsync(Int32, Byte(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SetBlobStreamAsync
+    nameWithType: IBLOBAgent.SetBlobStreamAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SetBlobStreamAsync
+    nameWithType: IBLOBAgent.SetBlobStreamAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetBlobStreamAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Byte[]
   isExternal: true
   name: Byte[]
@@ -2518,6 +3152,79 @@ references:
   name: GetBlobStreamAsync
   nameWithType: BLOBAgent.GetBlobStreamAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobStreamAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetBlobStreamAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetBlobStreamAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetBlobStreamAsync
+    nameWithType: IBLOBAgent.GetBlobStreamAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetBlobStreamAsync
+    nameWithType: IBLOBAgent.GetBlobStreamAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobStreamAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -2580,72 +3287,936 @@ references:
   name: GetProjectImageAsync
   nameWithType: BLOBAgent.GetProjectImageAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetProjectImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetProjectImageAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetProjectImageAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectImageAsync
+    nameWithType: IBLOBAgent.GetProjectImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectImageAsync
+    nameWithType: IBLOBAgent.GetProjectImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetPersonImageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetPersonImageAsync
   isExternal: true
   name: GetPersonImageAsync
   nameWithType: BLOBAgent.GetPersonImageAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetPersonImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetPersonImageAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetPersonImageAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetPersonImageAsync
+    nameWithType: IBLOBAgent.GetPersonImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetPersonImageAsync
+    nameWithType: IBLOBAgent.GetPersonImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.SetProjectImageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.SetProjectImageAsync
   isExternal: true
   name: SetProjectImageAsync
   nameWithType: BLOBAgent.SetProjectImageAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.SetProjectImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: SetProjectImageAsync(Int32, Byte[], RequestOptions)
+  nameWithType: IBLOBAgent.SetProjectImageAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IBLOBAgent.SetProjectImageAsync(Int32, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetProjectImageAsync(Int32, Byte(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SetProjectImageAsync
+    nameWithType: IBLOBAgent.SetProjectImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SetProjectImageAsync
+    nameWithType: IBLOBAgent.SetProjectImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProjectImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.SetPersonImageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.SetPersonImageAsync
   isExternal: true
   name: SetPersonImageAsync
   nameWithType: BLOBAgent.SetPersonImageAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.SetPersonImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: SetPersonImageAsync(Int32, Byte[], RequestOptions)
+  nameWithType: IBLOBAgent.SetPersonImageAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IBLOBAgent.SetPersonImageAsync(Int32, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetPersonImageAsync(Int32, Byte(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SetPersonImageAsync
+    nameWithType: IBLOBAgent.SetPersonImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SetPersonImageAsync
+    nameWithType: IBLOBAgent.SetPersonImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetPersonImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.ChangeProjectImageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.ChangeProjectImageAsync
   isExternal: true
   name: ChangeProjectImageAsync
   nameWithType: BLOBAgent.ChangeProjectImageAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.ChangeProjectImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: ChangeProjectImageAsync(Int32, Int32, RequestOptions)
+  nameWithType: IBLOBAgent.ChangeProjectImageAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ChangeProjectImageAsync
+    nameWithType: IBLOBAgent.ChangeProjectImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ChangeProjectImageAsync
+    nameWithType: IBLOBAgent.ChangeProjectImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProjectImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.SaveProjectImageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.SaveProjectImageAsync
   isExternal: true
   name: SaveProjectImageAsync
   nameWithType: BLOBAgent.SaveProjectImageAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.SaveProjectImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: SaveProjectImageAsync(String, Byte[], RequestOptions)
+  nameWithType: IBLOBAgent.SaveProjectImageAsync(String, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync(System.String, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IBLOBAgent.SaveProjectImageAsync(String, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync(System.String, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveProjectImageAsync(String, Byte(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SaveProjectImageAsync
+    nameWithType: IBLOBAgent.SaveProjectImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SaveProjectImageAsync
+    nameWithType: IBLOBAgent.SaveProjectImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveProjectImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnProjectAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnProjectAsync
   isExternal: true
   name: GetBlobEntityOnProjectAsync
   nameWithType: BLOBAgent.GetBlobEntityOnProjectAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnProjectAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetBlobEntityOnProjectAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.GetBlobEntityOnProjectAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBlobEntityOnProjectAsync
+    nameWithType: IBLOBAgent.GetBlobEntityOnProjectAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBlobEntityOnProjectAsync
+    nameWithType: IBLOBAgent.GetBlobEntityOnProjectAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProjectAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnPersonAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnPersonAsync
   isExternal: true
   name: GetBlobEntityOnPersonAsync
   nameWithType: BLOBAgent.GetBlobEntityOnPersonAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnPersonAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetBlobEntityOnPersonAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.GetBlobEntityOnPersonAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBlobEntityOnPersonAsync
+    nameWithType: IBLOBAgent.GetBlobEntityOnPersonAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBlobEntityOnPersonAsync
+    nameWithType: IBLOBAgent.GetBlobEntityOnPersonAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnPersonAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnCountryAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnCountryAsync
   isExternal: true
   name: GetBlobEntityOnCountryAsync
   nameWithType: BLOBAgent.GetBlobEntityOnCountryAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnCountryAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetBlobEntityOnCountryAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.GetBlobEntityOnCountryAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBlobEntityOnCountryAsync
+    nameWithType: IBLOBAgent.GetBlobEntityOnCountryAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBlobEntityOnCountryAsync
+    nameWithType: IBLOBAgent.GetBlobEntityOnCountryAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnCountryAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnProductAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnProductAsync
   isExternal: true
   name: GetBlobEntityOnProductAsync
   nameWithType: BLOBAgent.GetBlobEntityOnProductAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnProductAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetBlobEntityOnProductAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.GetBlobEntityOnProductAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBlobEntityOnProductAsync
+    nameWithType: IBLOBAgent.GetBlobEntityOnProductAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBlobEntityOnProductAsync
+    nameWithType: IBLOBAgent.GetBlobEntityOnProductAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnProductAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.ChangePersonImageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.ChangePersonImageAsync
   isExternal: true
   name: ChangePersonImageAsync
   nameWithType: BLOBAgent.ChangePersonImageAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.ChangePersonImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: ChangePersonImageAsync(Int32, Int32, RequestOptions)
+  nameWithType: IBLOBAgent.ChangePersonImageAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ChangePersonImageAsync
+    nameWithType: IBLOBAgent.ChangePersonImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ChangePersonImageAsync
+    nameWithType: IBLOBAgent.ChangePersonImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangePersonImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.SaveImageStreamAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.SaveImageStreamAsync
   isExternal: true
   name: SaveImageStreamAsync
   nameWithType: BLOBAgent.SaveImageStreamAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.SaveImageStreamAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync(SuperOffice.WebApi.Data.BlobLinkType,System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync(SuperOffice.WebApi.Data.BlobLinkType,System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: SaveImageStreamAsync(BlobLinkType, Byte[], String, RequestOptions)
+  nameWithType: IBLOBAgent.SaveImageStreamAsync(BlobLinkType, Byte[], String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync(SuperOffice.WebApi.Data.BlobLinkType, System.Byte[], System.String, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IBLOBAgent.SaveImageStreamAsync(BlobLinkType, Byte(), String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync(SuperOffice.WebApi.Data.BlobLinkType, System.Byte(), System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveImageStreamAsync(BlobLinkType, Byte(), String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync(SuperOffice.WebApi.Data.BlobLinkType,System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+    name: SaveImageStreamAsync
+    nameWithType: IBLOBAgent.SaveImageStreamAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.BlobLinkType
+    name: BlobLinkType
+    nameWithType: BlobLinkType
+    fullName: SuperOffice.WebApi.Data.BlobLinkType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync(SuperOffice.WebApi.Data.BlobLinkType,System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+    name: SaveImageStreamAsync
+    nameWithType: IBLOBAgent.SaveImageStreamAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.BlobLinkType
+    name: BlobLinkType
+    nameWithType: BlobLinkType
+    fullName: SuperOffice.WebApi.Data.BlobLinkType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.BlobLinkType
   commentId: T:SuperOffice.WebApi.Data.BlobLinkType
   parent: SuperOffice.WebApi.Data
@@ -2702,42 +4273,555 @@ references:
   name: GetProductImageAsync
   nameWithType: BLOBAgent.GetProductImageAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetProductImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetProductImageAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetProductImageAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetProductImageAsync
+    nameWithType: IBLOBAgent.GetProductImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetProductImageAsync
+    nameWithType: IBLOBAgent.GetProductImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.SetProductImageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.SetProductImageAsync
   isExternal: true
   name: SetProductImageAsync
   nameWithType: BLOBAgent.SetProductImageAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.SetProductImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: SetProductImageAsync(Int32, Byte[], RequestOptions)
+  nameWithType: IBLOBAgent.SetProductImageAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IBLOBAgent.SetProductImageAsync(Int32, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetProductImageAsync(Int32, Byte(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SetProductImageAsync
+    nameWithType: IBLOBAgent.SetProductImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SetProductImageAsync
+    nameWithType: IBLOBAgent.SetProductImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetProductThumbnailAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetProductThumbnailAsync
   isExternal: true
   name: GetProductThumbnailAsync
   nameWithType: BLOBAgent.GetProductThumbnailAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetProductThumbnailAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetProductThumbnailAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetProductThumbnailAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetProductThumbnailAsync
+    nameWithType: IBLOBAgent.GetProductThumbnailAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetProductThumbnailAsync
+    nameWithType: IBLOBAgent.GetProductThumbnailAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.SetProductThumbnailAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.SetProductThumbnailAsync
   isExternal: true
   name: SetProductThumbnailAsync
   nameWithType: BLOBAgent.SetProductThumbnailAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.SetProductThumbnailAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: SetProductThumbnailAsync(Int32, Byte[], RequestOptions)
+  nameWithType: IBLOBAgent.SetProductThumbnailAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IBLOBAgent.SetProductThumbnailAsync(Int32, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetProductThumbnailAsync(Int32, Byte(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SetProductThumbnailAsync
+    nameWithType: IBLOBAgent.SetProductThumbnailAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SetProductThumbnailAsync
+    nameWithType: IBLOBAgent.SetProductThumbnailAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetProductThumbnailAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.ChangeProductImageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.ChangeProductImageAsync
   isExternal: true
   name: ChangeProductImageAsync
   nameWithType: BLOBAgent.ChangeProductImageAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.ChangeProductImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: ChangeProductImageAsync(Int32, Int32, RequestOptions)
+  nameWithType: IBLOBAgent.ChangeProductImageAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ChangeProductImageAsync
+    nameWithType: IBLOBAgent.ChangeProductImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ChangeProductImageAsync
+    nameWithType: IBLOBAgent.ChangeProductImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeProductImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetQuoteLineImageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetQuoteLineImageAsync
   isExternal: true
   name: GetQuoteLineImageAsync
   nameWithType: BLOBAgent.GetQuoteLineImageAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetQuoteLineImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetQuoteLineImageAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetQuoteLineImageAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetQuoteLineImageAsync
+    nameWithType: IBLOBAgent.GetQuoteLineImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetQuoteLineImageAsync
+    nameWithType: IBLOBAgent.GetQuoteLineImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetAppDataAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetAppDataAsync
   isExternal: true
   name: GetAppDataAsync
   nameWithType: BLOBAgent.GetAppDataAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetAppDataAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetAppDataAsync(String, RequestOptions)
+  nameWithType: IBLOBAgent.GetAppDataAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetAppDataAsync
+    nameWithType: IBLOBAgent.GetAppDataAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetAppDataAsync
+    nameWithType: IBLOBAgent.GetAppDataAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetAppDataAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{System.String}
   commentId: '!:System.Threading.Tasks.Task{System.String}'
   definition: System.Threading.Tasks.Task`1
@@ -2787,63 +4871,971 @@ references:
   name: SetAppDataAsync
   nameWithType: BLOBAgent.SetAppDataAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.SetAppDataAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: SetAppDataAsync(String, String, RequestOptions)
+  nameWithType: IBLOBAgent.SetAppDataAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+    name: SetAppDataAsync
+    nameWithType: IBLOBAgent.SetAppDataAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+    name: SetAppDataAsync
+    nameWithType: IBLOBAgent.SetAppDataAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetAppDataAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetPersonImageWithSizeAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetPersonImageWithSizeAsync
   isExternal: true
   name: GetPersonImageWithSizeAsync
   nameWithType: BLOBAgent.GetPersonImageWithSizeAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetPersonImageWithSizeAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetPersonImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetPersonImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync(System.Int32, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetPersonImageWithSizeAsync
+    nameWithType: IBLOBAgent.GetPersonImageWithSizeAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetPersonImageWithSizeAsync
+    nameWithType: IBLOBAgent.GetPersonImageWithSizeAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetProjectImageWithSizeAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetProjectImageWithSizeAsync
   isExternal: true
   name: GetProjectImageWithSizeAsync
   nameWithType: BLOBAgent.GetProjectImageWithSizeAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetProjectImageWithSizeAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetProjectImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetProjectImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync(System.Int32, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectImageWithSizeAsync
+    nameWithType: IBLOBAgent.GetProjectImageWithSizeAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectImageWithSizeAsync
+    nameWithType: IBLOBAgent.GetProjectImageWithSizeAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetChatImageWithSizeAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetChatImageWithSizeAsync
   isExternal: true
   name: GetChatImageWithSizeAsync
   nameWithType: BLOBAgent.GetChatImageWithSizeAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetChatImageWithSizeAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetChatImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetChatImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync(System.Int32, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetChatImageWithSizeAsync
+    nameWithType: IBLOBAgent.GetChatImageWithSizeAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetChatImageWithSizeAsync
+    nameWithType: IBLOBAgent.GetChatImageWithSizeAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetContactImageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetContactImageAsync
   isExternal: true
   name: GetContactImageAsync
   nameWithType: BLOBAgent.GetContactImageAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetContactImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetContactImageAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetContactImageAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetContactImageAsync
+    nameWithType: IBLOBAgent.GetContactImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetContactImageAsync
+    nameWithType: IBLOBAgent.GetContactImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.SetContactImageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.SetContactImageAsync
   isExternal: true
   name: SetContactImageAsync
   nameWithType: BLOBAgent.SetContactImageAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.SetContactImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: SetContactImageAsync(Int32, Byte[], RequestOptions)
+  nameWithType: IBLOBAgent.SetContactImageAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IBLOBAgent.SetContactImageAsync(Int32, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetContactImageAsync(Int32, Byte(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SetContactImageAsync
+    nameWithType: IBLOBAgent.SetContactImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+    name: SetContactImageAsync
+    nameWithType: IBLOBAgent.SetContactImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.SetContactImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.ChangeContactImageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.ChangeContactImageAsync
   isExternal: true
   name: ChangeContactImageAsync
   nameWithType: BLOBAgent.ChangeContactImageAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.ChangeContactImageAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: ChangeContactImageAsync(Int32, Int32, RequestOptions)
+  nameWithType: IBLOBAgent.ChangeContactImageAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ChangeContactImageAsync
+    nameWithType: IBLOBAgent.ChangeContactImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ChangeContactImageAsync
+    nameWithType: IBLOBAgent.ChangeContactImageAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.ChangeContactImageAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnContactAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnContactAsync
   isExternal: true
   name: GetBlobEntityOnContactAsync
   nameWithType: BLOBAgent.GetBlobEntityOnContactAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetBlobEntityOnContactAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetBlobEntityOnContactAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.GetBlobEntityOnContactAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBlobEntityOnContactAsync
+    nameWithType: IBLOBAgent.GetBlobEntityOnContactAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBlobEntityOnContactAsync
+    nameWithType: IBLOBAgent.GetBlobEntityOnContactAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetBlobEntityOnContactAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetContactImageWithSizeAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetContactImageWithSizeAsync
   isExternal: true
   name: GetContactImageWithSizeAsync
   nameWithType: BLOBAgent.GetContactImageWithSizeAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetContactImageWithSizeAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetContactImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetContactImageWithSizeAsync(Int32, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync(System.Int32, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetContactImageWithSizeAsync
+    nameWithType: IBLOBAgent.GetContactImageWithSizeAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetContactImageWithSizeAsync
+    nameWithType: IBLOBAgent.GetContactImageWithSizeAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.GetOutputFromBatchAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.GetOutputFromBatchAsync
   isExternal: true
   name: GetOutputFromBatchAsync
   nameWithType: BLOBAgent.GetOutputFromBatchAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.GetOutputFromBatchAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: GetOutputFromBatchAsync(Int32, String, RequestOptions)
+  nameWithType: IBLOBAgent.GetOutputFromBatchAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetOutputFromBatchAsync
+    nameWithType: IBLOBAgent.GetOutputFromBatchAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetOutputFromBatchAsync
+    nameWithType: IBLOBAgent.GetOutputFromBatchAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.BLOBAgent.CleanupBatchTaskAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.BLOBAgent.CleanupBatchTaskAsync
   isExternal: true
   name: CleanupBatchTaskAsync
   nameWithType: BLOBAgent.CleanupBatchTaskAsync
   fullName: SuperOffice.WebApi.Agents.BLOBAgent.CleanupBatchTaskAsync
+- uid: SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IBLOBAgent
+  isExternal: true
+  name: CleanupBatchTaskAsync(Int32, RequestOptions)
+  nameWithType: IBLOBAgent.CleanupBatchTaskAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: CleanupBatchTaskAsync
+    nameWithType: IBLOBAgent.CleanupBatchTaskAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: CleanupBatchTaskAsync
+    nameWithType: IBLOBAgent.CleanupBatchTaskAsync
+    fullName: SuperOffice.WebApi.Agents.IBLOBAgent.CleanupBatchTaskAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest
+  id: Ticket_GetPreviewAttachmentStreamRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.AttachmentId
+  langs:
+  - csharp
+  - vb
+  name: Ticket_GetPreviewAttachmentStreamRequest
+  nameWithType: Ticket_GetPreviewAttachmentStreamRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_GetPreviewAttachmentStreamRequest : Object'
+    content.vb: >-
+      Public Class Ticket_GetPreviewAttachmentStreamRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_GetPreviewAttachmentStreamRequest()
+  nameWithType: Ticket_GetPreviewAttachmentStreamRequest.Ticket_GetPreviewAttachmentStreamRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.Ticket_GetPreviewAttachmentStreamRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_GetPreviewAttachmentStreamRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.AttachmentId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.AttachmentId
+  id: AttachmentId
+  parent: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: AttachmentId
+  nameWithType: Ticket_GetPreviewAttachmentStreamRequest.AttachmentId
+  fullName: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.AttachmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AttachmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AttachmentId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.AttachmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.#ctor
+  isExternal: true
+  name: Ticket_GetPreviewAttachmentStreamRequest
+  nameWithType: Ticket_GetPreviewAttachmentStreamRequest.Ticket_GetPreviewAttachmentStreamRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.Ticket_GetPreviewAttachmentStreamRequest
+- uid: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.AttachmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.AttachmentId
+  isExternal: true
+  name: AttachmentId
+  nameWithType: Ticket_GetPreviewAttachmentStreamRequest.AttachmentId
+  fullName: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest.AttachmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

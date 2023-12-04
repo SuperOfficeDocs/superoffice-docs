@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest
+  commentId: T:SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest
+  id: User_SetUserPresenceStatusRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.#ctor
+  - SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.AssociateId
+  - SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.UserPresenceStatus
+  langs:
+  - csharp
+  - vb
+  name: User_SetUserPresenceStatusRequest
+  nameWithType: User_SetUserPresenceStatusRequest
+  fullName: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_SetUserPresenceStatusRequest : Object'
+    content.vb: >-
+      Public Class User_SetUserPresenceStatusRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: User_SetUserPresenceStatusRequest()
+  nameWithType: User_SetUserPresenceStatusRequest.User_SetUserPresenceStatusRequest()
+  fullName: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.User_SetUserPresenceStatusRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_SetUserPresenceStatusRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: User_SetUserPresenceStatusRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.UserPresenceStatus
+  commentId: P:SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.UserPresenceStatus
+  id: UserPresenceStatus
+  parent: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: UserPresenceStatus
+  nameWithType: User_SetUserPresenceStatusRequest.UserPresenceStatus
+  fullName: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.UserPresenceStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserPresenceStatus UserPresenceStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UserPresenceStatus
+    content.vb: Public Property UserPresenceStatus As UserPresenceStatus
+  overload: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.UserPresenceStatus*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.#ctor
+  isExternal: true
+  name: User_SetUserPresenceStatusRequest
+  nameWithType: User_SetUserPresenceStatusRequest.User_SetUserPresenceStatusRequest
+  fullName: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.User_SetUserPresenceStatusRequest
+- uid: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: User_SetUserPresenceStatusRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.UserPresenceStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.UserPresenceStatus
+  isExternal: true
+  name: UserPresenceStatus
+  nameWithType: User_SetUserPresenceStatusRequest.UserPresenceStatus
+  fullName: SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest.UserPresenceStatus
+- uid: SuperOffice.WebApi.Data.UserPresenceStatus
+  commentId: T:SuperOffice.WebApi.Data.UserPresenceStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UserPresenceStatus
+  nameWithType: UserPresenceStatus
+  fullName: SuperOffice.WebApi.Data.UserPresenceStatus

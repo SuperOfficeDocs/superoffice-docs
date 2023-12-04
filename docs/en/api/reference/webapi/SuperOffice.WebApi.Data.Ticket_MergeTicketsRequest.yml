@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest
+  id: Ticket_MergeTicketsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.MergedTicketEntity
+  - SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.SecondaryTicketIds
+  langs:
+  - csharp
+  - vb
+  name: Ticket_MergeTicketsRequest
+  nameWithType: Ticket_MergeTicketsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_MergeTicketsRequest : Object'
+    content.vb: >-
+      Public Class Ticket_MergeTicketsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_MergeTicketsRequest()
+  nameWithType: Ticket_MergeTicketsRequest.Ticket_MergeTicketsRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.Ticket_MergeTicketsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_MergeTicketsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.MergedTicketEntity
+  commentId: P:SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.MergedTicketEntity
+  id: MergedTicketEntity
+  parent: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest
+  langs:
+  - csharp
+  - vb
+  name: MergedTicketEntity
+  nameWithType: Ticket_MergeTicketsRequest.MergedTicketEntity
+  fullName: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.MergedTicketEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TicketEntity MergedTicketEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketEntity
+    content.vb: Public Property MergedTicketEntity As TicketEntity
+  overload: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.MergedTicketEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.SecondaryTicketIds
+  commentId: P:SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.SecondaryTicketIds
+  id: SecondaryTicketIds
+  parent: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest
+  langs:
+  - csharp
+  - vb
+  name: SecondaryTicketIds
+  nameWithType: Ticket_MergeTicketsRequest.SecondaryTicketIds
+  fullName: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.SecondaryTicketIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] SecondaryTicketIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property SecondaryTicketIds As Integer()
+  overload: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.SecondaryTicketIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.#ctor
+  isExternal: true
+  name: Ticket_MergeTicketsRequest
+  nameWithType: Ticket_MergeTicketsRequest.Ticket_MergeTicketsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.Ticket_MergeTicketsRequest
+- uid: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.MergedTicketEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.MergedTicketEntity
+  isExternal: true
+  name: MergedTicketEntity
+  nameWithType: Ticket_MergeTicketsRequest.MergedTicketEntity
+  fullName: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.MergedTicketEntity
+- uid: SuperOffice.WebApi.Data.TicketEntity
+  commentId: T:SuperOffice.WebApi.Data.TicketEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketEntity
+  nameWithType: TicketEntity
+  fullName: SuperOffice.WebApi.Data.TicketEntity
+- uid: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.SecondaryTicketIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.SecondaryTicketIds
+  isExternal: true
+  name: SecondaryTicketIds
+  nameWithType: Ticket_MergeTicketsRequest.SecondaryTicketIds
+  fullName: SuperOffice.WebApi.Data.Ticket_MergeTicketsRequest.SecondaryTicketIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

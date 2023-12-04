@@ -8,6 +8,7 @@ items:
   - SuperOffice.WebApi.Data.AttachmentEntity.#ctor
   - SuperOffice.WebApi.Data.AttachmentEntity.AttachmentId
   - SuperOffice.WebApi.Data.AttachmentEntity.AttSize
+  - SuperOffice.WebApi.Data.AttachmentEntity.AuthKey
   - SuperOffice.WebApi.Data.AttachmentEntity.ContentId
   - SuperOffice.WebApi.Data.AttachmentEntity.ContentType
   - SuperOffice.WebApi.Data.AttachmentEntity.InlineImage
@@ -272,6 +273,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.AuthKey
+  commentId: P:SuperOffice.WebApi.Data.AttachmentEntity.AuthKey
+  id: AuthKey
+  parent: SuperOffice.WebApi.Data.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: AuthKey
+  nameWithType: AttachmentEntity.AuthKey
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.AuthKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe key used for authenticating access to this attachment.\n"
+  syntax:
+    content: public virtual string AuthKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AuthKey As String
+  overload: SuperOffice.WebApi.Data.AttachmentEntity.AuthKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -382,3 +416,9 @@ references:
   name: ContentId
   nameWithType: AttachmentEntity.ContentId
   fullName: SuperOffice.WebApi.Data.AttachmentEntity.ContentId
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.AuthKey*
+  commentId: Overload:SuperOffice.WebApi.Data.AttachmentEntity.AuthKey
+  isExternal: true
+  name: AuthKey
+  nameWithType: AttachmentEntity.AuthKey
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.AuthKey

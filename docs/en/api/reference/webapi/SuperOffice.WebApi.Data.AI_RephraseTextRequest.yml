@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AI_RephraseTextRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_RephraseTextRequest
+  id: AI_RephraseTextRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AI_RephraseTextRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_RephraseTextRequest.IsoLangCode
+  - SuperOffice.WebApi.Data.AI_RephraseTextRequest.Style
+  - SuperOffice.WebApi.Data.AI_RephraseTextRequest.Text
+  langs:
+  - csharp
+  - vb
+  name: AI_RephraseTextRequest
+  nameWithType: AI_RephraseTextRequest
+  fullName: SuperOffice.WebApi.Data.AI_RephraseTextRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class AI_RephraseTextRequest : Object'
+    content.vb: >-
+      Public Class AI_RephraseTextRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AI_RephraseTextRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_RephraseTextRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AI_RephraseTextRequest
+  langs:
+  - csharp
+  - vb
+  name: AI_RephraseTextRequest()
+  nameWithType: AI_RephraseTextRequest.AI_RephraseTextRequest()
+  fullName: SuperOffice.WebApi.Data.AI_RephraseTextRequest.AI_RephraseTextRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AI_RephraseTextRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AI_RephraseTextRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_RephraseTextRequest.Text
+  commentId: P:SuperOffice.WebApi.Data.AI_RephraseTextRequest.Text
+  id: Text
+  parent: SuperOffice.WebApi.Data.AI_RephraseTextRequest
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: AI_RephraseTextRequest.Text
+  fullName: SuperOffice.WebApi.Data.AI_RephraseTextRequest.Text
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: SuperOffice.WebApi.Data.AI_RephraseTextRequest.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_RephraseTextRequest.Style
+  commentId: P:SuperOffice.WebApi.Data.AI_RephraseTextRequest.Style
+  id: Style
+  parent: SuperOffice.WebApi.Data.AI_RephraseTextRequest
+  langs:
+  - csharp
+  - vb
+  name: Style
+  nameWithType: AI_RephraseTextRequest.Style
+  fullName: SuperOffice.WebApi.Data.AI_RephraseTextRequest.Style
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AiTextStyle Style { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.AiTextStyle
+    content.vb: Public Property Style As AiTextStyle
+  overload: SuperOffice.WebApi.Data.AI_RephraseTextRequest.Style*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_RephraseTextRequest.IsoLangCode
+  commentId: P:SuperOffice.WebApi.Data.AI_RephraseTextRequest.IsoLangCode
+  id: IsoLangCode
+  parent: SuperOffice.WebApi.Data.AI_RephraseTextRequest
+  langs:
+  - csharp
+  - vb
+  name: IsoLangCode
+  nameWithType: AI_RephraseTextRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_RephraseTextRequest.IsoLangCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string IsoLangCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IsoLangCode As String
+  overload: SuperOffice.WebApi.Data.AI_RephraseTextRequest.IsoLangCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AI_RephraseTextRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_RephraseTextRequest.#ctor
+  isExternal: true
+  name: AI_RephraseTextRequest
+  nameWithType: AI_RephraseTextRequest.AI_RephraseTextRequest
+  fullName: SuperOffice.WebApi.Data.AI_RephraseTextRequest.AI_RephraseTextRequest
+- uid: SuperOffice.WebApi.Data.AI_RephraseTextRequest.Text*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_RephraseTextRequest.Text
+  isExternal: true
+  name: Text
+  nameWithType: AI_RephraseTextRequest.Text
+  fullName: SuperOffice.WebApi.Data.AI_RephraseTextRequest.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AI_RephraseTextRequest.Style*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_RephraseTextRequest.Style
+  isExternal: true
+  name: Style
+  nameWithType: AI_RephraseTextRequest.Style
+  fullName: SuperOffice.WebApi.Data.AI_RephraseTextRequest.Style
+- uid: SuperOffice.WebApi.Data.AiTextStyle
+  commentId: T:SuperOffice.WebApi.Data.AiTextStyle
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AiTextStyle
+  nameWithType: AiTextStyle
+  fullName: SuperOffice.WebApi.Data.AiTextStyle
+- uid: SuperOffice.WebApi.Data.AI_RephraseTextRequest.IsoLangCode*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_RephraseTextRequest.IsoLangCode
+  isExternal: true
+  name: IsoLangCode
+  nameWithType: AI_RephraseTextRequest.IsoLangCode
+  fullName: SuperOffice.WebApi.Data.AI_RephraseTextRequest.IsoLangCode

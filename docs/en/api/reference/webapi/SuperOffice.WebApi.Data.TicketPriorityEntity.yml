@@ -9,6 +9,7 @@ items:
   - SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner
   - SuperOffice.WebApi.Data.TicketPriorityEntity.ChangedOwner_String
   - SuperOffice.WebApi.Data.TicketPriorityEntity.Deadline
+  - SuperOffice.WebApi.Data.TicketPriorityEntity.EscalationLevels
   - SuperOffice.WebApi.Data.TicketPriorityEntity.Flags
   - SuperOffice.WebApi.Data.TicketPriorityEntity.Flags_String
   - SuperOffice.WebApi.Data.TicketPriorityEntity.FriStart
@@ -829,7 +830,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe work hour sstop for Mondays. Note that only the time part of the DateTime is used\n"
+  summary: "\nThe work hour start for Mondays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public virtual DateTime MonStop { get; set; }
     parameters: []
@@ -1258,7 +1259,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime\n"
+  summary: "\nDates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year\n"
   syntax:
     content: public virtual DateTime[] NonDates { get; set; }
     parameters: []
@@ -1266,6 +1267,39 @@ items:
       type: System.DateTime[]
     content.vb: Public Overridable Property NonDates As DateTime()
   overload: SuperOffice.WebApi.Data.TicketPriorityEntity.NonDates*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.EscalationLevels
+  commentId: P:SuperOffice.WebApi.Data.TicketPriorityEntity.EscalationLevels
+  id: EscalationLevels
+  parent: SuperOffice.WebApi.Data.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: EscalationLevels
+  nameWithType: TicketPriorityEntity.EscalationLevels
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.EscalationLevels
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEscalation levels bound to the parent priority\n"
+  syntax:
+    content: public virtual TicketPriorityEscalationLevelEntity[] EscalationLevels { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity[]
+    content.vb: Public Overridable Property EscalationLevels As TicketPriorityEscalationLevelEntity()
+  overload: SuperOffice.WebApi.Data.TicketPriorityEntity.EscalationLevels*
   modifiers.csharp:
   - public
   - virtual
@@ -1793,6 +1827,38 @@ references:
     name: DateTime
     nameWithType: DateTime
     fullName: System.DateTime
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.TicketPriorityEntity.EscalationLevels*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketPriorityEntity.EscalationLevels
+  isExternal: true
+  name: EscalationLevels
+  nameWithType: TicketPriorityEntity.EscalationLevels
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEntity.EscalationLevels
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity[]
+  isExternal: true
+  name: TicketPriorityEscalationLevelEntity[]
+  nameWithType: TicketPriorityEscalationLevelEntity[]
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity[]
+  nameWithType.vb: TicketPriorityEscalationLevelEntity()
+  fullName.vb: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity()
+  name.vb: TicketPriorityEscalationLevelEntity()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+    name: TicketPriorityEscalationLevelEntity
+    nameWithType: TicketPriorityEscalationLevelEntity
+    fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
+    name: TicketPriorityEscalationLevelEntity
+    nameWithType: TicketPriorityEscalationLevelEntity
+    fullName: SuperOffice.WebApi.Data.TicketPriorityEscalationLevelEntity
     isExternal: true
   - name: ()
     nameWithType: ()

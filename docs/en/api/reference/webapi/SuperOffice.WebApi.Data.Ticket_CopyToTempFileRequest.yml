@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest
+  id: Ticket_CopyToTempFileRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.AttachmentId
+  - SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.Filename
+  langs:
+  - csharp
+  - vb
+  name: Ticket_CopyToTempFileRequest
+  nameWithType: Ticket_CopyToTempFileRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_CopyToTempFileRequest : Object'
+    content.vb: >-
+      Public Class Ticket_CopyToTempFileRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_CopyToTempFileRequest()
+  nameWithType: Ticket_CopyToTempFileRequest.Ticket_CopyToTempFileRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.Ticket_CopyToTempFileRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_CopyToTempFileRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.Filename
+  commentId: P:SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.Filename
+  id: Filename
+  parent: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest
+  langs:
+  - csharp
+  - vb
+  name: Filename
+  nameWithType: Ticket_CopyToTempFileRequest.Filename
+  fullName: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.Filename
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Filename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Filename As String
+  overload: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.Filename*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.AttachmentId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.AttachmentId
+  id: AttachmentId
+  parent: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest
+  langs:
+  - csharp
+  - vb
+  name: AttachmentId
+  nameWithType: Ticket_CopyToTempFileRequest.AttachmentId
+  fullName: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.AttachmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AttachmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AttachmentId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.AttachmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.#ctor
+  isExternal: true
+  name: Ticket_CopyToTempFileRequest
+  nameWithType: Ticket_CopyToTempFileRequest.Ticket_CopyToTempFileRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.Ticket_CopyToTempFileRequest
+- uid: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.Filename*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.Filename
+  isExternal: true
+  name: Filename
+  nameWithType: Ticket_CopyToTempFileRequest.Filename
+  fullName: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.Filename
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.AttachmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.AttachmentId
+  isExternal: true
+  name: AttachmentId
+  nameWithType: Ticket_CopyToTempFileRequest.AttachmentId
+  fullName: SuperOffice.WebApi.Data.Ticket_CopyToTempFileRequest.AttachmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

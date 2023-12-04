@@ -88,7 +88,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nStatus information for the quote version.\nRaw string enum value.\n"
+  summary: "\nStatus information for the quote version: Ok / OkWithInfo / Warn / Error.\nRaw string enum value.\n"
   syntax:
     content: public string Status_String { get; set; }
     parameters: []
@@ -122,7 +122,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nStatus information for the quote version.\nNULL if unknown enum value.\n"
+  summary: "\nStatus information for the quote version: Ok / OkWithInfo / Warn / Error.\nNULL if unknown enum value.\n"
   syntax:
     content: public Nullable<QuoteStatus> Status { get; set; }
     parameters: []

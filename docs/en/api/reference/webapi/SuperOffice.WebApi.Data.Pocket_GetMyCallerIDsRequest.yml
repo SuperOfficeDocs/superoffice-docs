@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest
+  commentId: T:SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest
+  id: Pocket_GetMyCallerIDsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.#ctor
+  - SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.LastHash
+  - SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MaxDate
+  - SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MinDate
+  langs:
+  - csharp
+  - vb
+  name: Pocket_GetMyCallerIDsRequest
+  nameWithType: Pocket_GetMyCallerIDsRequest
+  fullName: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Pocket_GetMyCallerIDsRequest : Object'
+    content.vb: >-
+      Public Class Pocket_GetMyCallerIDsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest
+  langs:
+  - csharp
+  - vb
+  name: Pocket_GetMyCallerIDsRequest()
+  nameWithType: Pocket_GetMyCallerIDsRequest.Pocket_GetMyCallerIDsRequest()
+  fullName: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.Pocket_GetMyCallerIDsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Pocket_GetMyCallerIDsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.LastHash
+  commentId: P:SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.LastHash
+  id: LastHash
+  parent: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest
+  langs:
+  - csharp
+  - vb
+  name: LastHash
+  nameWithType: Pocket_GetMyCallerIDsRequest.LastHash
+  fullName: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.LastHash
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string LastHash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastHash As String
+  overload: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.LastHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MinDate
+  commentId: P:SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MinDate
+  id: MinDate
+  parent: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest
+  langs:
+  - csharp
+  - vb
+  name: MinDate
+  nameWithType: Pocket_GetMyCallerIDsRequest.MinDate
+  fullName: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MinDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime MinDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property MinDate As DateTime
+  overload: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MinDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MaxDate
+  commentId: P:SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MaxDate
+  id: MaxDate
+  parent: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest
+  langs:
+  - csharp
+  - vb
+  name: MaxDate
+  nameWithType: Pocket_GetMyCallerIDsRequest.MaxDate
+  fullName: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MaxDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime MaxDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property MaxDate As DateTime
+  overload: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MaxDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.#ctor
+  isExternal: true
+  name: Pocket_GetMyCallerIDsRequest
+  nameWithType: Pocket_GetMyCallerIDsRequest.Pocket_GetMyCallerIDsRequest
+  fullName: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.Pocket_GetMyCallerIDsRequest
+- uid: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.LastHash*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.LastHash
+  isExternal: true
+  name: LastHash
+  nameWithType: Pocket_GetMyCallerIDsRequest.LastHash
+  fullName: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.LastHash
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MinDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MinDate
+  isExternal: true
+  name: MinDate
+  nameWithType: Pocket_GetMyCallerIDsRequest.MinDate
+  fullName: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MinDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MaxDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MaxDate
+  isExternal: true
+  name: MaxDate
+  nameWithType: Pocket_GetMyCallerIDsRequest.MaxDate
+  fullName: SuperOffice.WebApi.Data.Pocket_GetMyCallerIDsRequest.MaxDate

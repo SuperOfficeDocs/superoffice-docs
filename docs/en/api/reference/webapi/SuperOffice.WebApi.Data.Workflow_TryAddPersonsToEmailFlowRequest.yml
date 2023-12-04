@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest
+  commentId: T:SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest
+  id: Workflow_TryAddPersonsToEmailFlowRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.#ctor
+  - SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.EmailFlowId
+  - SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.PersonIds
+  langs:
+  - csharp
+  - vb
+  name: Workflow_TryAddPersonsToEmailFlowRequest
+  nameWithType: Workflow_TryAddPersonsToEmailFlowRequest
+  fullName: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Workflow_TryAddPersonsToEmailFlowRequest : Object'
+    content.vb: >-
+      Public Class Workflow_TryAddPersonsToEmailFlowRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest
+  langs:
+  - csharp
+  - vb
+  name: Workflow_TryAddPersonsToEmailFlowRequest()
+  nameWithType: Workflow_TryAddPersonsToEmailFlowRequest.Workflow_TryAddPersonsToEmailFlowRequest()
+  fullName: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.Workflow_TryAddPersonsToEmailFlowRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Workflow_TryAddPersonsToEmailFlowRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.EmailFlowId
+  commentId: P:SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.EmailFlowId
+  id: EmailFlowId
+  parent: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailFlowId
+  nameWithType: Workflow_TryAddPersonsToEmailFlowRequest.EmailFlowId
+  fullName: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.EmailFlowId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int EmailFlowId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EmailFlowId As Integer
+  overload: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.EmailFlowId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.PersonIds
+  commentId: P:SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.PersonIds
+  id: PersonIds
+  parent: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonIds
+  nameWithType: Workflow_TryAddPersonsToEmailFlowRequest.PersonIds
+  fullName: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.PersonIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] PersonIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property PersonIds As Integer()
+  overload: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.PersonIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.#ctor
+  isExternal: true
+  name: Workflow_TryAddPersonsToEmailFlowRequest
+  nameWithType: Workflow_TryAddPersonsToEmailFlowRequest.Workflow_TryAddPersonsToEmailFlowRequest
+  fullName: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.Workflow_TryAddPersonsToEmailFlowRequest
+- uid: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.EmailFlowId*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.EmailFlowId
+  isExternal: true
+  name: EmailFlowId
+  nameWithType: Workflow_TryAddPersonsToEmailFlowRequest.EmailFlowId
+  fullName: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.EmailFlowId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.PersonIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.PersonIds
+  isExternal: true
+  name: PersonIds
+  nameWithType: Workflow_TryAddPersonsToEmailFlowRequest.PersonIds
+  fullName: SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest.PersonIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

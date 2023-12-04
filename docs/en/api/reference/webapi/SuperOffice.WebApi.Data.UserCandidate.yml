@@ -1,0 +1,286 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserCandidate
+  commentId: T:SuperOffice.WebApi.Data.UserCandidate
+  id: UserCandidate
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserCandidate.#ctor
+  - SuperOffice.WebApi.Data.UserCandidate.PersonId
+  - SuperOffice.WebApi.Data.UserCandidate.SecretKey
+  - SuperOffice.WebApi.Data.UserCandidate.SecretValue
+  - SuperOffice.WebApi.Data.UserCandidate.UserCandidateId
+  langs:
+  - csharp
+  - vb
+  name: UserCandidate
+  nameWithType: UserCandidate
+  fullName: SuperOffice.WebApi.Data.UserCandidate
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for UserCandidate.\nThe UserCandidate carrier is used to represent a Customer Centre User.    \n"
+  syntax:
+    content: 'public class UserCandidate : Carrier'
+    content.vb: >-
+      Public Class UserCandidate
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserCandidate.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserCandidate.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserCandidate
+  langs:
+  - csharp
+  - vb
+  name: UserCandidate()
+  nameWithType: UserCandidate.UserCandidate()
+  fullName: SuperOffice.WebApi.Data.UserCandidate.UserCandidate()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public UserCandidate()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserCandidate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserCandidate.UserCandidateId
+  commentId: P:SuperOffice.WebApi.Data.UserCandidate.UserCandidateId
+  id: UserCandidateId
+  parent: SuperOffice.WebApi.Data.UserCandidate
+  langs:
+  - csharp
+  - vb
+  name: UserCandidateId
+  nameWithType: UserCandidate.UserCandidateId
+  fullName: SuperOffice.WebApi.Data.UserCandidate.UserCandidateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int UserCandidateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserCandidateId As Integer
+  overload: SuperOffice.WebApi.Data.UserCandidate.UserCandidateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserCandidate.PersonId
+  commentId: P:SuperOffice.WebApi.Data.UserCandidate.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.UserCandidate
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: UserCandidate.PersonId
+  fullName: SuperOffice.WebApi.Data.UserCandidate.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nForeign key. Id of a person representing Customer Center User.\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.UserCandidate.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserCandidate.SecretKey
+  commentId: P:SuperOffice.WebApi.Data.UserCandidate.SecretKey
+  id: SecretKey
+  parent: SuperOffice.WebApi.Data.UserCandidate
+  langs:
+  - csharp
+  - vb
+  name: SecretKey
+  nameWithType: UserCandidate.SecretKey
+  fullName: SuperOffice.WebApi.Data.UserCandidate.SecretKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUsername of a Customer Centre User.\n"
+  syntax:
+    content: public virtual string SecretKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SecretKey As String
+  overload: SuperOffice.WebApi.Data.UserCandidate.SecretKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserCandidate.SecretValue
+  commentId: P:SuperOffice.WebApi.Data.UserCandidate.SecretValue
+  id: SecretValue
+  parent: SuperOffice.WebApi.Data.UserCandidate
+  langs:
+  - csharp
+  - vb
+  name: SecretValue
+  nameWithType: UserCandidate.SecretValue
+  fullName: SuperOffice.WebApi.Data.UserCandidate.SecretValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPassword of a Customer Centre User.\n"
+  syntax:
+    content: public virtual string SecretValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SecretValue As String
+  overload: SuperOffice.WebApi.Data.UserCandidate.SecretValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserCandidate.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserCandidate.#ctor
+  isExternal: true
+  name: UserCandidate
+  nameWithType: UserCandidate.UserCandidate
+  fullName: SuperOffice.WebApi.Data.UserCandidate.UserCandidate
+- uid: SuperOffice.WebApi.Data.UserCandidate.UserCandidateId*
+  commentId: Overload:SuperOffice.WebApi.Data.UserCandidate.UserCandidateId
+  isExternal: true
+  name: UserCandidateId
+  nameWithType: UserCandidate.UserCandidateId
+  fullName: SuperOffice.WebApi.Data.UserCandidate.UserCandidateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.UserCandidate.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.UserCandidate.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: UserCandidate.PersonId
+  fullName: SuperOffice.WebApi.Data.UserCandidate.PersonId
+- uid: SuperOffice.WebApi.Data.UserCandidate.SecretKey*
+  commentId: Overload:SuperOffice.WebApi.Data.UserCandidate.SecretKey
+  isExternal: true
+  name: SecretKey
+  nameWithType: UserCandidate.SecretKey
+  fullName: SuperOffice.WebApi.Data.UserCandidate.SecretKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.UserCandidate.SecretValue*
+  commentId: Overload:SuperOffice.WebApi.Data.UserCandidate.SecretValue
+  isExternal: true
+  name: SecretValue
+  nameWithType: UserCandidate.SecretValue
+  fullName: SuperOffice.WebApi.Data.UserCandidate.SecretValue

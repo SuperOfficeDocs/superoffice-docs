@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
+  commentId: T:SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
+  id: Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.#ctor
+  - SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.OptionType
+  langs:
+  - csharp
+  - vb
+  name: Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
+  nameWithType: Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
+  fullName: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest : Object'
+    content.vb: >-
+      Public Class Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest()
+  nameWithType: Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest()
+  fullName: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.OptionType
+  commentId: P:SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.OptionType
+  id: OptionType
+  parent: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: OptionType
+  nameWithType: Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.OptionType
+  fullName: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.OptionType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public WorkflowSplitOptionType OptionType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    content.vb: Public Property OptionType As WorkflowSplitOptionType
+  overload: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.OptionType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.#ctor
+  isExternal: true
+  name: Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
+  nameWithType: Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
+  fullName: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
+- uid: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.OptionType*
+  commentId: Overload:SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.OptionType
+  isExternal: true
+  name: OptionType
+  nameWithType: Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.OptionType
+  fullName: SuperOffice.WebApi.Data.Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest.OptionType
+- uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowSplitOptionType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowSplitOptionType
+  nameWithType: WorkflowSplitOptionType
+  fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType

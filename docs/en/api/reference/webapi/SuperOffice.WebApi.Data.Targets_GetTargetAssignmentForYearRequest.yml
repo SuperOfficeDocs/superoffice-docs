@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest
+  commentId: T:SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest
+  id: Targets_GetTargetAssignmentForYearRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.#ctor
+  - SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.EntityType
+  - SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.Id
+  - SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetLevel
+  - SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetYear
+  langs:
+  - csharp
+  - vb
+  name: Targets_GetTargetAssignmentForYearRequest
+  nameWithType: Targets_GetTargetAssignmentForYearRequest
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Targets_GetTargetAssignmentForYearRequest : Object'
+    content.vb: >-
+      Public Class Targets_GetTargetAssignmentForYearRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest
+  langs:
+  - csharp
+  - vb
+  name: Targets_GetTargetAssignmentForYearRequest()
+  nameWithType: Targets_GetTargetAssignmentForYearRequest.Targets_GetTargetAssignmentForYearRequest()
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.Targets_GetTargetAssignmentForYearRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Targets_GetTargetAssignmentForYearRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetYear
+  commentId: P:SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetYear
+  id: TargetYear
+  parent: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetYear
+  nameWithType: Targets_GetTargetAssignmentForYearRequest.TargetYear
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetYear
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TargetYear { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TargetYear As Integer
+  overload: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetYear*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.EntityType
+  commentId: P:SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.EntityType
+  id: EntityType
+  parent: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest
+  langs:
+  - csharp
+  - vb
+  name: EntityType
+  nameWithType: Targets_GetTargetAssignmentForYearRequest.EntityType
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.EntityType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TargetEntityType EntityType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TargetEntityType
+    content.vb: Public Property EntityType As TargetEntityType
+  overload: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.EntityType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetLevel
+  commentId: P:SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetLevel
+  id: TargetLevel
+  parent: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetLevel
+  nameWithType: Targets_GetTargetAssignmentForYearRequest.TargetLevel
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetLevel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TargetLevel TargetLevel { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TargetLevel
+    content.vb: Public Property TargetLevel As TargetLevel
+  overload: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetLevel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Targets_GetTargetAssignmentForYearRequest.Id
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.#ctor
+  isExternal: true
+  name: Targets_GetTargetAssignmentForYearRequest
+  nameWithType: Targets_GetTargetAssignmentForYearRequest.Targets_GetTargetAssignmentForYearRequest
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.Targets_GetTargetAssignmentForYearRequest
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetYear*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetYear
+  isExternal: true
+  name: TargetYear
+  nameWithType: Targets_GetTargetAssignmentForYearRequest.TargetYear
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetYear
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.EntityType*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.EntityType
+  isExternal: true
+  name: EntityType
+  nameWithType: Targets_GetTargetAssignmentForYearRequest.EntityType
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.EntityType
+- uid: SuperOffice.WebApi.Data.TargetEntityType
+  commentId: T:SuperOffice.WebApi.Data.TargetEntityType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TargetEntityType
+  nameWithType: TargetEntityType
+  fullName: SuperOffice.WebApi.Data.TargetEntityType
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetLevel*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetLevel
+  isExternal: true
+  name: TargetLevel
+  nameWithType: Targets_GetTargetAssignmentForYearRequest.TargetLevel
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.TargetLevel
+- uid: SuperOffice.WebApi.Data.TargetLevel
+  commentId: T:SuperOffice.WebApi.Data.TargetLevel
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TargetLevel
+  nameWithType: TargetLevel
+  fullName: SuperOffice.WebApi.Data.TargetLevel
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: Targets_GetTargetAssignmentForYearRequest.Id
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetAssignmentForYearRequest.Id

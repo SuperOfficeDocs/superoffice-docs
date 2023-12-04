@@ -15,6 +15,7 @@ items:
   - SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultTicketStatus
   - SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod
   - SuperOffice.WebApi.Data.TicketCategoryEntity.DelegateMethod_String
+  - SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId
   - SuperOffice.WebApi.Data.TicketCategoryEntity.ExternalName
   - SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields
   - SuperOffice.WebApi.Data.TicketCategoryEntity.Flags
@@ -724,6 +725,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId
+  commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId
+  id: EffectiveReplyTemplateId
+  parent: SuperOffice.WebApi.Data.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: EffectiveReplyTemplateId
+  nameWithType: TicketCategoryEntity.EffectiveReplyTemplateId
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of reply template to merge into messages, whose ticket belongs to this category. Also takes into account &apos;Apply to subcategories&apos; on parent categories. This is a calculated, readonly field.\n"
+  syntax:
+    content: public virtual int EffectiveReplyTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EffectiveReplyTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields
   commentId: P:SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields
   id: ExtraFields
@@ -742,7 +776,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: "\nDeprecated: Use <xref href=\"SuperOffice.WebApi.Data.TicketCategoryEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nExtra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.\nThe value string is the encoded value: &quot;[I:123]&quot; or &quot;[DT:2019-09-11]&quot;.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n	[Plug-in name].[Property name]\n	Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \n   This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \n   and hence we would ensure an unique key if this field is used.\n   Example: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n[Table name].[Field name]\nExample: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n       [Plug-in name].[Property name]\n       Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \nThis is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \nand hence we would ensure an unique key if this field is used.\nExample: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n   [Table name].[Field name]\n   Example: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
   syntax:
     content: public virtual StringDictionary ExtraFields { get; set; }
     parameters: []
@@ -776,7 +810,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: "\nUdef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.\nCustom fields combines user defined fields and extra fields into one bucket. \nThe individual <xref href=\"SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields\" data-throw-if-not-resolved=\"false\"></xref> and <see cref=\"!:UserDefinedFields\">UserDefinedFields</see> properties are deprecated in favor of this\ncombined collection.\nThe value string is the encoded value: &quot;[I:123]&quot; or &quot;[DT:2019-09-11]&quot;.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n	[Extra field name]<p></p>\n	Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\n   Example: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n       [Extra field name]<p></p>\n       Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\nExample: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
   syntax:
     content: public virtual StringDictionary CustomFields { get; set; }
     parameters: []
@@ -1171,6 +1205,12 @@ references:
   name: DefaultMessageStatus
   nameWithType: TicketCategoryEntity.DefaultMessageStatus
   fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.DefaultMessageStatus
+- uid: SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId
+  isExternal: true
+  name: EffectiveReplyTemplateId
+  nameWithType: TicketCategoryEntity.EffectiveReplyTemplateId
+  fullName: SuperOffice.WebApi.Data.TicketCategoryEntity.EffectiveReplyTemplateId
 - uid: SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields*
   commentId: Overload:SuperOffice.WebApi.Data.TicketCategoryEntity.ExtraFields
   isExternal: true

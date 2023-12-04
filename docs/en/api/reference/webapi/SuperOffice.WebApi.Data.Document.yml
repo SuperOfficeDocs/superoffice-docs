@@ -22,6 +22,8 @@ items:
   - SuperOffice.WebApi.Data.Document.PersonId
   - SuperOffice.WebApi.Data.Document.ProjectId
   - SuperOffice.WebApi.Data.Document.ProjectName
+  - SuperOffice.WebApi.Data.Document.SaleId
+  - SuperOffice.WebApi.Data.Document.SaleName
   - SuperOffice.WebApi.Data.Document.Snum
   - SuperOffice.WebApi.Data.Document.YourRef
   langs:
@@ -680,6 +682,72 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.Document.SaleId
+  commentId: P:SuperOffice.WebApi.Data.Document.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: Document.SaleId
+  fullName: SuperOffice.WebApi.Data.Document.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOwning sale, if any (may be 0)\n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.Document.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Document.SaleName
+  commentId: P:SuperOffice.WebApi.Data.Document.SaleName
+  id: SaleName
+  parent: SuperOffice.WebApi.Data.Document
+  langs:
+  - csharp
+  - vb
+  name: SaleName
+  nameWithType: Document.SaleName
+  fullName: SuperOffice.WebApi.Data.Document.SaleName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHeading of Owning sale, if any. (may be blank)\n"
+  syntax:
+    content: public virtual string SaleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SaleName As String
+  overload: SuperOffice.WebApi.Data.Document.SaleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -862,3 +930,15 @@ references:
   name: Snum
   nameWithType: Document.Snum
   fullName: SuperOffice.WebApi.Data.Document.Snum
+- uid: SuperOffice.WebApi.Data.Document.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: Document.SaleId
+  fullName: SuperOffice.WebApi.Data.Document.SaleId
+- uid: SuperOffice.WebApi.Data.Document.SaleName*
+  commentId: Overload:SuperOffice.WebApi.Data.Document.SaleName
+  isExternal: true
+  name: SaleName
+  nameWithType: Document.SaleName
+  fullName: SuperOffice.WebApi.Data.Document.SaleName

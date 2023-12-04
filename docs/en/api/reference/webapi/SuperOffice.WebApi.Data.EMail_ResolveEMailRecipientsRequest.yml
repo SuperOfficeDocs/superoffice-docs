@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest
+  id: EMail_ResolveEMailRecipientsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.EmailAddress
+  langs:
+  - csharp
+  - vb
+  name: EMail_ResolveEMailRecipientsRequest
+  nameWithType: EMail_ResolveEMailRecipientsRequest
+  fullName: SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_ResolveEMailRecipientsRequest : Object'
+    content.vb: >-
+      Public Class EMail_ResolveEMailRecipientsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_ResolveEMailRecipientsRequest()
+  nameWithType: EMail_ResolveEMailRecipientsRequest.EMail_ResolveEMailRecipientsRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.EMail_ResolveEMailRecipientsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_ResolveEMailRecipientsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: EMail_ResolveEMailRecipientsRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.EmailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.#ctor
+  isExternal: true
+  name: EMail_ResolveEMailRecipientsRequest
+  nameWithType: EMail_ResolveEMailRecipientsRequest.EMail_ResolveEMailRecipientsRequest
+  fullName: SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.EMail_ResolveEMailRecipientsRequest
+- uid: SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: EMail_ResolveEMailRecipientsRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.EMail_ResolveEMailRecipientsRequest.EmailAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

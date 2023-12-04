@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  commentId: N:SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  id: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  children:
+  - SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  nameWithType: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  fullName: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions
+  type: Namespace
+  assemblies:
+  - SuperOffice.WebApi.Authorization.SystemUserTicket
+references:
+- uid: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException
+  commentId: T:SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException
+  isExternal: true
+  name: SystemUserException
+  nameWithType: SystemUserException
+  fullName: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest
+  commentId: T:SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest
+  id: Targets_GetTargetDimensionsForEntityTypeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.#ctor
+  - SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.EntityType
+  langs:
+  - csharp
+  - vb
+  name: Targets_GetTargetDimensionsForEntityTypeRequest
+  nameWithType: Targets_GetTargetDimensionsForEntityTypeRequest
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Targets_GetTargetDimensionsForEntityTypeRequest : Object'
+    content.vb: >-
+      Public Class Targets_GetTargetDimensionsForEntityTypeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: Targets_GetTargetDimensionsForEntityTypeRequest()
+  nameWithType: Targets_GetTargetDimensionsForEntityTypeRequest.Targets_GetTargetDimensionsForEntityTypeRequest()
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.Targets_GetTargetDimensionsForEntityTypeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Targets_GetTargetDimensionsForEntityTypeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.EntityType
+  commentId: P:SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.EntityType
+  id: EntityType
+  parent: SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: EntityType
+  nameWithType: Targets_GetTargetDimensionsForEntityTypeRequest.EntityType
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.EntityType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TargetEntityType EntityType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TargetEntityType
+    content.vb: Public Property EntityType As TargetEntityType
+  overload: SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.EntityType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.#ctor
+  isExternal: true
+  name: Targets_GetTargetDimensionsForEntityTypeRequest
+  nameWithType: Targets_GetTargetDimensionsForEntityTypeRequest.Targets_GetTargetDimensionsForEntityTypeRequest
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.Targets_GetTargetDimensionsForEntityTypeRequest
+- uid: SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.EntityType*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.EntityType
+  isExternal: true
+  name: EntityType
+  nameWithType: Targets_GetTargetDimensionsForEntityTypeRequest.EntityType
+  fullName: SuperOffice.WebApi.Data.Targets_GetTargetDimensionsForEntityTypeRequest.EntityType
+- uid: SuperOffice.WebApi.Data.TargetEntityType
+  commentId: T:SuperOffice.WebApi.Data.TargetEntityType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TargetEntityType
+  nameWithType: TargetEntityType
+  fullName: SuperOffice.WebApi.Data.TargetEntityType

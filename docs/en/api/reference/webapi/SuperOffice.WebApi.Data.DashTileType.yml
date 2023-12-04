@@ -11,6 +11,7 @@ items:
   - SuperOffice.WebApi.Data.DashTileType.Column
   - SuperOffice.WebApi.Data.DashTileType.CombinedBarLine
   - SuperOffice.WebApi.Data.DashTileType.CombinedColumnLine
+  - SuperOffice.WebApi.Data.DashTileType.Gauge
   - SuperOffice.WebApi.Data.DashTileType.HTML
   - SuperOffice.WebApi.Data.DashTileType.Line
   - SuperOffice.WebApi.Data.DashTileType.List
@@ -417,6 +418,35 @@ items:
     return:
       type: SuperOffice.WebApi.Data.DashTileType
     content.vb: Public Const HTML As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashTileType.Gauge
+  commentId: F:SuperOffice.WebApi.Data.DashTileType.Gauge
+  id: Gauge
+  parent: SuperOffice.WebApi.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: Gauge
+  nameWithType: DashTileType.Gauge
+  fullName: SuperOffice.WebApi.Data.DashTileType.Gauge
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n12: Gauge\n"
+  syntax:
+    content: public const DashTileType Gauge
+    return:
+      type: SuperOffice.WebApi.Data.DashTileType
+    content.vb: Public Const Gauge As DashTileType
   modifiers.csharp:
   - public
   - const

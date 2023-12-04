@@ -1,0 +1,676 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent
+  commentId: T:SuperOffice.WebApi.Agents.IReplicationAgent
+  id: IReplicationAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.IReplicationAgent.CreateDefaultSatelliteAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IReplicationAgent.GetCentralLicenseAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IReplicationAgent.GetSatelliteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IReplicationAgent.SaveCentralLicenseAsync(SuperOffice.WebApi.Data.LicenseOwner[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IReplicationAgent.SaveSatelliteAsync(SuperOffice.WebApi.Data.Satellite,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IReplicationAgent.SetFreetextSearchEnabledOnAreaAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: IReplicationAgent
+  nameWithType: IReplicationAgent
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent
+  type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReplication/Travel administration\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: 'public interface IReplicationAgent : IDisposable'
+    content.vb: >-
+      Public Interface IReplicationAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.CreateDefaultSatelliteAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IReplicationAgent.CreateDefaultSatelliteAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultSatelliteAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultSatelliteAsync(RequestOptions)
+  nameWithType: IReplicationAgent.CreateDefaultSatelliteAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.CreateDefaultSatelliteAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new Satellite.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<Satellite> CreateDefaultSatelliteAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Satellite}
+      description: A blank Satellite
+    content.vb: Function CreateDefaultSatelliteAsync(requestOptions As RequestOptions = Nothing) As Task(Of Satellite)
+  overload: SuperOffice.WebApi.Agents.IReplicationAgent.CreateDefaultSatelliteAsync*
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.SaveSatelliteAsync(SuperOffice.WebApi.Data.Satellite,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IReplicationAgent.SaveSatelliteAsync(SuperOffice.WebApi.Data.Satellite,SuperOffice.WebApi.RequestOptions)
+  id: SaveSatelliteAsync(SuperOffice.WebApi.Data.Satellite,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveSatelliteAsync(Satellite, RequestOptions)
+  nameWithType: IReplicationAgent.SaveSatelliteAsync(Satellite, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.SaveSatelliteAsync(SuperOffice.WebApi.Data.Satellite, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing Satellite or creates a new Satellite if the id parameter is 0. \n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: Task<Satellite> SaveSatelliteAsync(Satellite satellite, RequestOptions requestOptions = null)
+    parameters:
+    - id: satellite
+      type: SuperOffice.WebApi.Data.Satellite
+      description: The Satellite that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Satellite}
+      description: New or updated Satellite
+    content.vb: Function SaveSatelliteAsync(satellite As Satellite, requestOptions As RequestOptions = Nothing) As Task(Of Satellite)
+  overload: SuperOffice.WebApi.Agents.IReplicationAgent.SaveSatelliteAsync*
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetAreaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAreaAsync(Int32, RequestOptions)
+  nameWithType: IReplicationAgent.GetAreaAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific Area object.                        \n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: Task<Area> GetAreaAsync(int areaId, RequestOptions requestOptions = null)
+    parameters:
+    - id: areaId
+      type: System.Int32
+      description: The identifier of the Area object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Area}
+      description: Area
+    content.vb: Function GetAreaAsync(areaId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Area)
+  overload: SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaAsync*
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.SetFreetextSearchEnabledOnAreaAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IReplicationAgent.SetFreetextSearchEnabledOnAreaAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: SetFreetextSearchEnabledOnAreaAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: SetFreetextSearchEnabledOnAreaAsync(Int32, Boolean, RequestOptions)
+  nameWithType: IReplicationAgent.SetFreetextSearchEnabledOnAreaAsync(Int32, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.SetFreetextSearchEnabledOnAreaAsync(System.Int32, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nEnable freetext search on this area\n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: Task SetFreetextSearchEnabledOnAreaAsync(int areaId, bool freetextEnabled, RequestOptions requestOptions = null)
+    parameters:
+    - id: areaId
+      type: System.Int32
+      description: The id of the area
+    - id: freetextEnabled
+      type: System.Boolean
+      description: True if freetextSearch on this area shall be enabled
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: No return value
+    content.vb: Function SetFreetextSearchEnabledOnAreaAsync(areaId As Integer, freetextEnabled As Boolean, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IReplicationAgent.SetFreetextSearchEnabledOnAreaAsync*
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetAreaListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAreaListAsync(Int32[], RequestOptions)
+  nameWithType: IReplicationAgent.GetAreaListAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaListAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets an array of specific Area objects.                        \n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: Task<Area[]> GetAreaListAsync(int[] areaIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: areaIds
+      type: System.Int32[]
+      description: The identifiers of the Area object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Area[]}
+      description: Array of Area objects
+    content.vb: Function GetAreaListAsync(areaIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Area())
+  overload: SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaListAsync*
+  nameWithType.vb: IReplicationAgent.GetAreaListAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaListAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetAreaListAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.GetSatelliteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IReplicationAgent.GetSatelliteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetSatelliteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSatelliteAsync(Int32, RequestOptions)
+  nameWithType: IReplicationAgent.GetSatelliteAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.GetSatelliteAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific Satellite object.                        \n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: Task<Satellite> GetSatelliteAsync(int satelliteId, RequestOptions requestOptions = null)
+    parameters:
+    - id: satelliteId
+      type: System.Int32
+      description: The identifier of the Satellite object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Satellite}
+      description: Satellite
+    content.vb: Function GetSatelliteAsync(satelliteId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Satellite)
+  overload: SuperOffice.WebApi.Agents.IReplicationAgent.GetSatelliteAsync*
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.GetCentralLicenseAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IReplicationAgent.GetCentralLicenseAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetCentralLicenseAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCentralLicenseAsync(RequestOptions)
+  nameWithType: IReplicationAgent.GetCentralLicenseAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.GetCentralLicenseAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\n\n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: Task<LicenseOwner[]> GetCentralLicenseAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseOwner[]}
+    content.vb: Function GetCentralLicenseAsync(requestOptions As RequestOptions = Nothing) As Task(Of LicenseOwner())
+  overload: SuperOffice.WebApi.Agents.IReplicationAgent.GetCentralLicenseAsync*
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.SaveCentralLicenseAsync(SuperOffice.WebApi.Data.LicenseOwner[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IReplicationAgent.SaveCentralLicenseAsync(SuperOffice.WebApi.Data.LicenseOwner[],SuperOffice.WebApi.RequestOptions)
+  id: SaveCentralLicenseAsync(SuperOffice.WebApi.Data.LicenseOwner[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCentralLicenseAsync(LicenseOwner[], RequestOptions)
+  nameWithType: IReplicationAgent.SaveCentralLicenseAsync(LicenseOwner[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.SaveCentralLicenseAsync(SuperOffice.WebApi.Data.LicenseOwner[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\n\n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: Task<LicenseOwner[]> SaveCentralLicenseAsync(LicenseOwner[] license, RequestOptions requestOptions = null)
+    parameters:
+    - id: license
+      type: SuperOffice.WebApi.Data.LicenseOwner[]
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseOwner[]}
+    content.vb: Function SaveCentralLicenseAsync(license As LicenseOwner(), requestOptions As RequestOptions = Nothing) As Task(Of LicenseOwner())
+  overload: SuperOffice.WebApi.Agents.IReplicationAgent.SaveCentralLicenseAsync*
+  nameWithType.vb: IReplicationAgent.SaveCentralLicenseAsync(LicenseOwner(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IReplicationAgent.SaveCentralLicenseAsync(SuperOffice.WebApi.Data.LicenseOwner(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveCentralLicenseAsync(LicenseOwner(), RequestOptions)
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.CreateDefaultSatelliteAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IReplicationAgent.CreateDefaultSatelliteAsync
+  isExternal: true
+  name: CreateDefaultSatelliteAsync
+  nameWithType: IReplicationAgent.CreateDefaultSatelliteAsync
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.CreateDefaultSatelliteAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Satellite}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Satellite}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Satellite>
+  nameWithType: Task<Satellite>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Satellite>
+  nameWithType.vb: Task(Of Satellite)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Satellite)
+  name.vb: Task(Of Satellite)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Satellite
+    name: Satellite
+    nameWithType: Satellite
+    fullName: SuperOffice.WebApi.Data.Satellite
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Satellite
+    name: Satellite
+    nameWithType: Satellite
+    fullName: SuperOffice.WebApi.Data.Satellite
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.SaveSatelliteAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IReplicationAgent.SaveSatelliteAsync
+  isExternal: true
+  name: SaveSatelliteAsync
+  nameWithType: IReplicationAgent.SaveSatelliteAsync
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.SaveSatelliteAsync
+- uid: SuperOffice.WebApi.Data.Satellite
+  commentId: T:SuperOffice.WebApi.Data.Satellite
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Satellite
+  nameWithType: Satellite
+  fullName: SuperOffice.WebApi.Data.Satellite
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaAsync
+  isExternal: true
+  name: GetAreaAsync
+  nameWithType: IReplicationAgent.GetAreaAsync
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Area}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Area}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Area>
+  nameWithType: Task<Area>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Area>
+  nameWithType.vb: Task(Of Area)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Area)
+  name.vb: Task(Of Area)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Area
+    name: Area
+    nameWithType: Area
+    fullName: SuperOffice.WebApi.Data.Area
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Area
+    name: Area
+    nameWithType: Area
+    fullName: SuperOffice.WebApi.Data.Area
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.SetFreetextSearchEnabledOnAreaAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IReplicationAgent.SetFreetextSearchEnabledOnAreaAsync
+  isExternal: true
+  name: SetFreetextSearchEnabledOnAreaAsync
+  nameWithType: IReplicationAgent.SetFreetextSearchEnabledOnAreaAsync
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.SetFreetextSearchEnabledOnAreaAsync
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaListAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaListAsync
+  isExternal: true
+  name: GetAreaListAsync
+  nameWithType: IReplicationAgent.GetAreaListAsync
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.GetAreaListAsync
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Area[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Area[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Area[]>
+  nameWithType: Task<Area[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Area[]>
+  nameWithType.vb: Task(Of Area())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Area())
+  name.vb: Task(Of Area())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Area
+    name: Area
+    nameWithType: Area
+    fullName: SuperOffice.WebApi.Data.Area
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Area
+    name: Area
+    nameWithType: Area
+    fullName: SuperOffice.WebApi.Data.Area
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.GetSatelliteAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IReplicationAgent.GetSatelliteAsync
+  isExternal: true
+  name: GetSatelliteAsync
+  nameWithType: IReplicationAgent.GetSatelliteAsync
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.GetSatelliteAsync
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.GetCentralLicenseAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IReplicationAgent.GetCentralLicenseAsync
+  isExternal: true
+  name: GetCentralLicenseAsync
+  nameWithType: IReplicationAgent.GetCentralLicenseAsync
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.GetCentralLicenseAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseOwner[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseOwner[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<LicenseOwner[]>
+  nameWithType: Task<LicenseOwner[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.LicenseOwner[]>
+  nameWithType.vb: Task(Of LicenseOwner())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.LicenseOwner())
+  name.vb: Task(Of LicenseOwner())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.WebApi.Data.LicenseOwner
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.WebApi.Data.LicenseOwner
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IReplicationAgent.SaveCentralLicenseAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IReplicationAgent.SaveCentralLicenseAsync
+  isExternal: true
+  name: SaveCentralLicenseAsync
+  nameWithType: IReplicationAgent.SaveCentralLicenseAsync
+  fullName: SuperOffice.WebApi.Agents.IReplicationAgent.SaveCentralLicenseAsync
+- uid: SuperOffice.WebApi.Data.LicenseOwner[]
+  isExternal: true
+  name: LicenseOwner[]
+  nameWithType: LicenseOwner[]
+  fullName: SuperOffice.WebApi.Data.LicenseOwner[]
+  nameWithType.vb: LicenseOwner()
+  fullName.vb: SuperOffice.WebApi.Data.LicenseOwner()
+  name.vb: LicenseOwner()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.WebApi.Data.LicenseOwner
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.WebApi.Data.LicenseOwner
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

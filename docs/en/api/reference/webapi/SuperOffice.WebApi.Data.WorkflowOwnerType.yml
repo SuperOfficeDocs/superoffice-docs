@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowOwnerType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowOwnerType
+  id: WorkflowOwnerType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowOwnerType.None
+  - SuperOffice.WebApi.Data.WorkflowOwnerType.OurContact
+  - SuperOffice.WebApi.Data.WorkflowOwnerType.OurSupportContact
+  - SuperOffice.WebApi.Data.WorkflowOwnerType.Specified
+  - SuperOffice.WebApi.Data.WorkflowOwnerType.value__
+  langs:
+  - csharp
+  - vb
+  name: WorkflowOwnerType
+  nameWithType: WorkflowOwnerType
+  fullName: SuperOffice.WebApi.Data.WorkflowOwnerType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWorkflow owner type\n"
+  syntax:
+    content: 'public sealed class WorkflowOwnerType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowOwnerType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowOwnerType.value__
+  commentId: F:SuperOffice.WebApi.Data.WorkflowOwnerType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.WorkflowOwnerType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowOwnerType.value__
+  fullName: SuperOffice.WebApi.Data.WorkflowOwnerType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowOwnerType.None
+  commentId: F:SuperOffice.WebApi.Data.WorkflowOwnerType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.WorkflowOwnerType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowOwnerType.None
+  fullName: SuperOffice.WebApi.Data.WorkflowOwnerType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const WorkflowOwnerType None
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowOwnerType
+    content.vb: Public Const None As WorkflowOwnerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowOwnerType.Specified
+  commentId: F:SuperOffice.WebApi.Data.WorkflowOwnerType.Specified
+  id: Specified
+  parent: SuperOffice.WebApi.Data.WorkflowOwnerType
+  langs:
+  - csharp
+  - vb
+  name: Specified
+  nameWithType: WorkflowOwnerType.Specified
+  fullName: SuperOffice.WebApi.Data.WorkflowOwnerType.Specified
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Specified\n"
+  syntax:
+    content: public const WorkflowOwnerType Specified
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowOwnerType
+    content.vb: Public Const Specified As WorkflowOwnerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowOwnerType.OurContact
+  commentId: F:SuperOffice.WebApi.Data.WorkflowOwnerType.OurContact
+  id: OurContact
+  parent: SuperOffice.WebApi.Data.WorkflowOwnerType
+  langs:
+  - csharp
+  - vb
+  name: OurContact
+  nameWithType: WorkflowOwnerType.OurContact
+  fullName: SuperOffice.WebApi.Data.WorkflowOwnerType.OurContact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Our contact\n"
+  syntax:
+    content: public const WorkflowOwnerType OurContact
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowOwnerType
+    content.vb: Public Const OurContact As WorkflowOwnerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowOwnerType.OurSupportContact
+  commentId: F:SuperOffice.WebApi.Data.WorkflowOwnerType.OurSupportContact
+  id: OurSupportContact
+  parent: SuperOffice.WebApi.Data.WorkflowOwnerType
+  langs:
+  - csharp
+  - vb
+  name: OurSupportContact
+  nameWithType: WorkflowOwnerType.OurSupportContact
+  fullName: SuperOffice.WebApi.Data.WorkflowOwnerType.OurSupportContact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Our support contact\n"
+  syntax:
+    content: public const WorkflowOwnerType OurSupportContact
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowOwnerType
+    content.vb: Public Const OurSupportContact As WorkflowOwnerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.WorkflowOwnerType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowOwnerType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowOwnerType
+  nameWithType: WorkflowOwnerType
+  fullName: SuperOffice.WebApi.Data.WorkflowOwnerType

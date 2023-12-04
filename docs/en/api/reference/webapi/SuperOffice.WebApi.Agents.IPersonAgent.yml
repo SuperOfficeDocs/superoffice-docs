@@ -1,0 +1,3515 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.IPersonAgent
+  commentId: T:SuperOffice.WebApi.Agents.IPersonAgent
+  id: IPersonAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.IPersonAgent.AddBounceAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithCountAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithDetailsAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.AddEmailAddressToPersonAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.ChangeCountryAsync(SuperOffice.WebApi.Data.PersonEntity,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.ChangePersonRankAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.CheckTemporaryKeyAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultByContactIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultConsentPersonAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultFromCredentialAsync(System.Int32,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonImageAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.CreateOrUpdateUserCandidateAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.DeleteConsentPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.DeleteExpiredAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.DeletePersonEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.DeleteTemporaryKeysOfDomainAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetAddressAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetAddressByCountryAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetBestSoLanguageForTemplateAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesByDepartmentAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesBySourceAsync(SuperOffice.WebApi.Data.AssociateSourceType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetConsentInfosAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetConsentPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetCustomerCentrePasswordReplyTemplateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetMyOwnerAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetMyPersonAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetOwnerOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetPersonEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImagesAsync(System.Int32[],System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetPersonSummaryAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetPhonesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetSalesRepAsync(System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetUserCandidateByPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.HasConsentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.MergeAsync(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.MoveAsync(System.Int32,System.Int32,System.DateTime,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.NormalizeRanksAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.RemoveConsentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.ResolvePersonFromInfoAsync(System.Int32,System.String,System.String[],System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.SaveConsentPersonAsync(SuperOffice.WebApi.Data.ConsentPerson,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.SavePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.SendConsentConfirmationEmailAsync(System.Int32,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.SendEmailAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.SendEmailWithEventNameAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.SetConsentAsync(System.Int32,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.SetPersonRankAsync(System.Int32,System.Int16,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.UndeleteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.ValidatePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: IPersonAgent
+  nameWithType: IPersonAgent
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent
+  type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nPerson data services.\n"
+  syntax:
+    content: 'public interface IPersonAgent : IDisposable'
+    content.vb: >-
+      Public Interface IPersonAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultConsentPersonAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultConsentPersonAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultConsentPersonAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultConsentPersonAsync(RequestOptions)
+  nameWithType: IPersonAgent.CreateDefaultConsentPersonAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultConsentPersonAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new ConsentPerson.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<ConsentPerson> CreateDefaultConsentPersonAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConsentPerson}
+      description: A blank ConsentPerson
+    content.vb: Function CreateDefaultConsentPersonAsync(requestOptions As RequestOptions = Nothing) As Task(Of ConsentPerson)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultConsentPersonAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SaveConsentPersonAsync(SuperOffice.WebApi.Data.ConsentPerson,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.SaveConsentPersonAsync(SuperOffice.WebApi.Data.ConsentPerson,SuperOffice.WebApi.RequestOptions)
+  id: SaveConsentPersonAsync(SuperOffice.WebApi.Data.ConsentPerson,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveConsentPersonAsync(ConsentPerson, RequestOptions)
+  nameWithType: IPersonAgent.SaveConsentPersonAsync(ConsentPerson, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SaveConsentPersonAsync(SuperOffice.WebApi.Data.ConsentPerson, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is 0. \n"
+  syntax:
+    content: Task<ConsentPerson> SaveConsentPersonAsync(ConsentPerson consentPerson, RequestOptions requestOptions = null)
+    parameters:
+    - id: consentPerson
+      type: SuperOffice.WebApi.Data.ConsentPerson
+      description: The ConsentPerson that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConsentPerson}
+      description: New or updated ConsentPerson
+    content.vb: Function SaveConsentPersonAsync(consentPerson As ConsentPerson, requestOptions As RequestOptions = Nothing) As Task(Of ConsentPerson)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.SaveConsentPersonAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.DeleteConsentPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.DeleteConsentPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteConsentPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteConsentPersonAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.DeleteConsentPersonAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.DeleteConsentPersonAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the ConsentPerson\n"
+  syntax:
+    content: Task DeleteConsentPersonAsync(int consentPersonId, RequestOptions requestOptions = null)
+    parameters:
+    - id: consentPersonId
+      type: System.Int32
+      description: The identity of the ConsentPerson
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteConsentPersonAsync(consentPersonId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.DeleteConsentPersonAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultPersonEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultPersonEntityAsync(RequestOptions)
+  nameWithType: IPersonAgent.CreateDefaultPersonEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new PersonEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<PersonEntity> CreateDefaultPersonEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonEntity}
+      description: A blank PersonEntity
+    content.vb: Function CreateDefaultPersonEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of PersonEntity)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SavePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.SavePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity,SuperOffice.WebApi.RequestOptions)
+  id: SavePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SavePersonEntityAsync(PersonEntity, RequestOptions)
+  nameWithType: IPersonAgent.SavePersonEntityAsync(PersonEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SavePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing PersonEntity or creates a new PersonEntity if the id parameter is 0. \n"
+  syntax:
+    content: Task<PersonEntity> SavePersonEntityAsync(PersonEntity personEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: personEntity
+      type: SuperOffice.WebApi.Data.PersonEntity
+      description: The PersonEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonEntity}
+      description: New or updated PersonEntity
+    content.vb: Function SavePersonEntityAsync(personEntity As PersonEntity, requestOptions As RequestOptions = Nothing) As Task(Of PersonEntity)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.SavePersonEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.DeletePersonEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.DeletePersonEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeletePersonEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: DeletePersonEntityAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.DeletePersonEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.DeletePersonEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the PersonEntity\n"
+  syntax:
+    content: Task DeletePersonEntityAsync(int personEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personEntityId
+      type: System.Int32
+      description: The identity of the PersonEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeletePersonEntityAsync(personEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.DeletePersonEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonImageAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonImageAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultPersonImageAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultPersonImageAsync(RequestOptions)
+  nameWithType: IPersonAgent.CreateDefaultPersonImageAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonImageAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new PersonImage.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: Task<PersonImage> CreateDefaultPersonImageAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonImage}
+      description: A blank PersonImage
+    content.vb: Function CreateDefaultPersonImageAsync(requestOptions As RequestOptions = Nothing) As Task(Of PersonImage)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonImageAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetConsentPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetConsentPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetConsentPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConsentPersonAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetConsentPersonAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetConsentPersonAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific ConsentPerson object.                        \n"
+  syntax:
+    content: Task<ConsentPerson> GetConsentPersonAsync(int consentPersonId, RequestOptions requestOptions = null)
+    parameters:
+    - id: consentPersonId
+      type: System.Int32
+      description: The identifier of the ConsentPerson object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConsentPerson}
+      description: ConsentPerson
+    content.vb: Function GetConsentPersonAsync(consentPersonId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ConsentPerson)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetConsentPersonAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetPersonAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific Person object.                        \n"
+  syntax:
+    content: Task<Person> GetPersonAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The identifier of the Person object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Person}
+      description: Person
+    content.vb: Function GetPersonAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Person)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetPersonEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonEntityAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetPersonEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific PersonEntity object.                        \n"
+  syntax:
+    content: Task<PersonEntity> GetPersonEntityAsync(int personEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personEntityId
+      type: System.Int32
+      description: The identifier of the PersonEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonEntity}
+      description: PersonEntity
+    content.vb: Function GetPersonEntityAsync(personEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PersonEntity)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.UndeleteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.UndeleteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: UndeleteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: UndeleteAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.UndeleteAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.UndeleteAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nThis entity supports Soft Delete. Call this method to Undelete a previously soft-deleted record\n"
+  syntax:
+    content: Task UndeleteAsync(int id, RequestOptions requestOptions = null)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The primary key of the entity to undelete
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function UndeleteAsync(id As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.UndeleteAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetMyPersonAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetMyPersonAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetMyPersonAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyPersonAsync(RequestOptions)
+  nameWithType: IPersonAgent.GetMyPersonAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetMyPersonAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the person info belonging to the currently logged on user.\n"
+  syntax:
+    content: Task<PersonEntity> GetMyPersonAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonEntity}
+      description: The PersonEntity
+    content.vb: Function GetMyPersonAsync(requestOptions As RequestOptions = Nothing) As Task(Of PersonEntity)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetMyPersonAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetSalesRepAsync(System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetSalesRepAsync(System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetSalesRepAsync(System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSalesRepAsync(String, String, String, String, String, RequestOptions)
+  nameWithType: IPersonAgent.GetSalesRepAsync(String, String, String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetSalesRepAsync(System.String, System.String, System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the sales representative for an external user. If this method is accessed with anonymous authentication the external user is recognized by contact and name, or by email, or phone number. If the external user is recognized as an CRM5 user (internal or external) the input fields can be left blank.\n"
+  syntax:
+    content: Task<PersonEntity> GetSalesRepAsync(string contactName, string personFirstname, string personLastname, string emailAddress, string phoneNumber, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactName
+      type: System.String
+      description: The company name of the person requesting his sales representative. May be empty if email or phone is provided.
+    - id: personFirstname
+      type: System.String
+      description: The firstname of the person requesting his sales representative. May be empty if email or phone is provided.
+    - id: personLastname
+      type: System.String
+      description: The lastname of the person requesting his sales representative. May be empty if email or phone is provided.
+    - id: emailAddress
+      type: System.String
+      description: The email address of the person requesting his sales representative. May be empty if phone, or contact and person name is provided.
+    - id: phoneNumber
+      type: System.String
+      description: The phone number of the person requesting his sales representative. May be empty if email, or contact and person name is provided.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonEntity}
+      description: The PersonEntity of the sales rep.
+    content.vb: Function GetSalesRepAsync(contactName As String, personFirstname As String, personLastname As String, emailAddress As String, phoneNumber As String, requestOptions As RequestOptions = Nothing) As Task(Of PersonEntity)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetSalesRepAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPhonesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetPhonesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetPhonesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPhonesAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetPhonesAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPhonesAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturning all phones that belong to a person, ordered by the phone type.\n"
+  syntax:
+    content: Task<EntityElement[]> GetPhonesAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EntityElement[]}
+      description: An array of Phones
+    content.vb: Function GetPhonesAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of EntityElement())
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetPhonesAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.ChangeCountryAsync(SuperOffice.WebApi.Data.PersonEntity,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.ChangeCountryAsync(SuperOffice.WebApi.Data.PersonEntity,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: ChangeCountryAsync(SuperOffice.WebApi.Data.PersonEntity,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangeCountryAsync(PersonEntity, Int32, RequestOptions)
+  nameWithType: IPersonAgent.ChangeCountryAsync(PersonEntity, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.ChangeCountryAsync(SuperOffice.WebApi.Data.PersonEntity, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nChange country regenerates the default values and localized information such as phone number and address format for this entity.\n"
+  syntax:
+    content: Task<PersonEntity> ChangeCountryAsync(PersonEntity personEntity, int toCountryId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personEntity
+      type: SuperOffice.WebApi.Data.PersonEntity
+      description: The PersonEntity to change country on
+    - id: toCountryId
+      type: System.Int32
+      description: The country to switch to
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonEntity}
+      description: The PersonEntity
+    content.vb: Function ChangeCountryAsync(personEntity As PersonEntity, toCountryId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PersonEntity)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.ChangeCountryAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetAddressAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetAddressAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetAddressAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAddressAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetAddressAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetAddressAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the person&apos;s localized address.\n"
+  syntax:
+    content: Task<Address> GetAddressAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Address}
+      description: The address as LocalizedField[][].
+    content.vb: Function GetAddressAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Address)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetAddressAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetAddressByCountryAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetAddressByCountryAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetAddressByCountryAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAddressByCountryAsync(Int32, Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetAddressByCountryAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetAddressByCountryAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the person&apos;s localized address.\n"
+  syntax:
+    content: Task<Address> GetAddressByCountryAsync(int personId, int countryId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: countryId
+      type: System.Int32
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Address}
+      description: The address as LocalizedField[][].
+    content.vb: Function GetAddressByCountryAsync(personId As Integer, countryId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Address)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetAddressByCountryAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetPersonImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonImageAsync(Int32, String, RequestOptions)
+  nameWithType: IPersonAgent.GetPersonImageAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImageAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the person image that is displayed in the CRM application.\n"
+  syntax:
+    content: Task<byte[]> GetPersonImageAsync(int personId, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetPersonImageAsync(personId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImageAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SetPersonImageAsync(Int32, Byte[], RequestOptions)
+  nameWithType: IPersonAgent.SetPersonImageAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SetPersonImageAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStores the person image that is displayed in the CRM application.\n"
+  syntax:
+    content: Task SetPersonImageAsync(int personId, byte[] image, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    - id: image
+      type: System.Byte[]
+      description: The image that is stored on the person (System.Drawing.Image)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetPersonImageAsync(personId As Integer, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.SetPersonImageAsync*
+  nameWithType.vb: IPersonAgent.SetPersonImageAsync(Int32, Byte(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPersonAgent.SetPersonImageAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetPersonImageAsync(Int32, Byte(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultByContactIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultByContactIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultByContactIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultByContactIdAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.CreateDefaultByContactIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultByContactIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a PersonEntity with default values based on the contactId.\n"
+  syntax:
+    content: Task<PersonEntity> CreateDefaultByContactIdAsync(int contactId, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Contact id of the person
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonEntity}
+    content.vb: Function CreateDefaultByContactIdAsync(contactId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PersonEntity)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultByContactIdAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.MoveAsync(System.Int32,System.Int32,System.DateTime,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.MoveAsync(System.Int32,System.Int32,System.DateTime,SuperOffice.WebApi.RequestOptions)
+  id: MoveAsync(System.Int32,System.Int32,System.DateTime,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: MoveAsync(Int32, Int32, DateTime, RequestOptions)
+  nameWithType: IPersonAgent.MoveAsync(Int32, Int32, DateTime, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.MoveAsync(System.Int32, System.Int32, System.DateTime, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nMove a person to a specified contact. You must specify the date after which activities will be moved along with the person.\n"
+  syntax:
+    content: Task MoveAsync(int personId, int destinationContactId, DateTime moveAfterDate, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The identifier for the person
+    - id: destinationContactId
+      type: System.Int32
+      description: The identifier for the contact which the person will be moved to
+    - id: moveAfterDate
+      type: System.DateTime
+      description: Move activites after this date. Activities before this date are left alone.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function MoveAsync(personId As Integer, destinationContactId As Integer, moveAfterDate As DateTime, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.MoveAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.MergeAsync(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.MergeAsync(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: MergeAsync(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: MergeAsync(Int32, Int32, DateTime, Boolean, Boolean, RequestOptions)
+  nameWithType: IPersonAgent.MergeAsync(Int32, Int32, DateTime, Boolean, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.MergeAsync(System.Int32, System.Int32, System.DateTime, System.Boolean, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nMerge two persons. The destination person will remain. You must specify the date after which activities will be moved along with the person.\n"
+  syntax:
+    content: Task MergeAsync(int sourcePersonId, int destinationPersonId, DateTime moveAfterDate, bool deleteSource, bool replaceEmptyFieldsOnDestination, RequestOptions requestOptions = null)
+    parameters:
+    - id: sourcePersonId
+      type: System.Int32
+      description: The identifier for the person which will be merged into the destination person. The source person is deleted/marked retired after the merge.
+    - id: destinationPersonId
+      type: System.Int32
+      description: The identifier for the person which will remain after the merge. The target person is updated.
+    - id: moveAfterDate
+      type: System.DateTime
+      description: Merge activites after this date. Activities before this date are left alone.
+    - id: deleteSource
+      type: System.Boolean
+      description: If true, the source person will be deleted after the merge. If false, it will have its retired flag set
+    - id: replaceEmptyFieldsOnDestination
+      type: System.Boolean
+      description: If true, empty fields on destination will be replaced by values from source.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function MergeAsync(sourcePersonId As Integer, destinationPersonId As Integer, moveAfterDate As DateTime, deleteSource As Boolean, replaceEmptyFieldsOnDestination As Boolean, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.MergeAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultFromCredentialAsync(System.Int32,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultFromCredentialAsync(System.Int32,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultFromCredentialAsync(System.Int32,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultFromCredentialAsync(Int32, String, String, String, RequestOptions)
+  nameWithType: IPersonAgent.CreateDefaultFromCredentialAsync(Int32, String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultFromCredentialAsync(System.Int32, System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a PersonEntity with default values based on the contactId and credentials.\n"
+  syntax:
+    content: Task<PersonEntity> CreateDefaultFromCredentialAsync(int contactId, string credentialType, string credentialValue, string credentialDisplayValue, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Contact id of the person
+    - id: credentialType
+      type: System.String
+      description: Type of credentials, corresponding to name of plugin and type in the credentials table.
+    - id: credentialValue
+      type: System.String
+      description: This is the actuall value of the credentials.  This will typically be the password or teh users SID in active directory
+    - id: credentialDisplayValue
+      type: System.String
+      description: The value displayed to the user. this will typically be the users login name in active directory.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonEntity}
+    content.vb: Function CreateDefaultFromCredentialAsync(contactId As Integer, credentialType As String, credentialValue As String, credentialDisplayValue As String, requestOptions As RequestOptions = Nothing) As Task(Of PersonEntity)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultFromCredentialAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: IsNumberValidAsync(Int32, String, RequestOptions)
+  nameWithType: IPersonAgent.IsNumberValidAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.IsNumberValidAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nChecks if the number is unique or required.  The setting is configured from admin under system options.\n"
+  syntax:
+    content: Task<bool> IsNumberValidAsync(int contactId, string number, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactId
+      type: System.Int32
+    - id: number
+      type: System.String
+      description: Number to check.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: True if number is ok (passes uniqueness/required checks)
+    content.vb: Function IsNumberValidAsync(contactId As Integer, number As String, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.IsNumberValidAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SetConsentAsync(System.Int32,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.SetConsentAsync(System.Int32,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: SetConsentAsync(System.Int32,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SetConsentAsync(Int32, String, String, String, String, RequestOptions)
+  nameWithType: IPersonAgent.SetConsentAsync(Int32, String, String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SetConsentAsync(System.Int32, System.String, System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet a specified type of consent on the person.\n"
+  syntax:
+    content: Task SetConsentAsync(int personId, string purpose, string source, string legalBase, string comment, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: purpose
+      type: System.String
+      description: The Key of the purpose this affects. e.g. &apos;STORE&apos; or &apos;EMARKETING&apos;.
+    - id: source
+      type: System.String
+      description: The Key of the source of this consent. e.g. &apos;USER&apos;, &apos;WEBFORM&apos; or &apos;API&apos;.
+    - id: legalBase
+      type: System.String
+      description: The Key of the legal base for this consent. e.g. &apos;61A&apos;, &apos;61B&apos;, &apos;61F&apos;
+    - id: comment
+      type: System.String
+      description: A comment regarding this consent. May be null or empty.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetConsentAsync(personId As Integer, purpose As String, source As String, legalBase As String, comment As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.SetConsentAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.RemoveConsentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.RemoveConsentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: RemoveConsentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveConsentAsync(Int32, String, RequestOptions)
+  nameWithType: IPersonAgent.RemoveConsentAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.RemoveConsentAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nTurn off consent for a specified person and purpose.\n"
+  syntax:
+    content: Task RemoveConsentAsync(int personId, string purpose, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: purpose
+      type: System.String
+      description: The key of the purpose to remove. (e.g. &apos;STORE&apos; or &apos;EMARKETING&apos;)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveConsentAsync(personId As Integer, purpose As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.RemoveConsentAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.HasConsentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.HasConsentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: HasConsentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: HasConsentAsync(Int32, String, RequestOptions)
+  nameWithType: IPersonAgent.HasConsentAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.HasConsentAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCheck if consent has been given by a specified person, for a specific purpose. Withdraw consents return FALSE.\n"
+  syntax:
+    content: Task<bool> HasConsentAsync(int personId, string purpose, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: purpose
+      type: System.String
+      description: The key of the purpose to check. (e.g. &apos;STORE&apos; or &apos;EMARKETING&apos;)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: True if the person has consented to the given purpose.
+    content.vb: Function HasConsentAsync(personId As Integer, purpose As String, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.HasConsentAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetConsentInfosAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetConsentInfosAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetConsentInfosAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConsentInfosAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetConsentInfosAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetConsentInfosAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet all consent information for a given person. May include withdrawn consents (check \n"
+  syntax:
+    content: Task<ConsentInfo[]> GetConsentInfosAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id to get consents for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConsentInfo[]}
+      description: List of consents recorded on this person
+    content.vb: Function GetConsentInfosAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ConsentInfo())
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetConsentInfosAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SendConsentConfirmationEmailAsync(System.Int32,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.SendConsentConfirmationEmailAsync(System.Int32,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: SendConsentConfirmationEmailAsync(System.Int32,System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SendConsentConfirmationEmailAsync(Int32, String, Int32, Int32, String, RequestOptions)
+  nameWithType: IPersonAgent.SendConsentConfirmationEmailAsync(Int32, String, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SendConsentConfirmationEmailAsync(System.Int32, System.String, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSend confirmation email to the provided person, email address (id), using the document template\n"
+  syntax:
+    content: Task SendConsentConfirmationEmailAsync(int personId, string emailAddress, int emailTemplateId, int cultureLcidId, string subject, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: emailAddress
+      type: System.String
+      description: The email address to send to.
+    - id: emailTemplateId
+      type: System.Int32
+      description: The id of the email template (doctmpl_id)
+    - id: cultureLcidId
+      type: System.Int32
+      description: The id of the culture (LCID)
+    - id: subject
+      type: System.String
+      description: Optional email subject
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SendConsentConfirmationEmailAsync(personId As Integer, emailAddress As String, emailTemplateId As Integer, cultureLcidId As Integer, subject As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.SendConsentConfirmationEmailAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.ResolvePersonFromInfoAsync(System.Int32,System.String,System.String[],System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.ResolvePersonFromInfoAsync(System.Int32,System.String,System.String[],System.String[],SuperOffice.WebApi.RequestOptions)
+  id: ResolvePersonFromInfoAsync(System.Int32,System.String,System.String[],System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: ResolvePersonFromInfoAsync(Int32, String, String[], String[], RequestOptions)
+  nameWithType: IPersonAgent.ResolvePersonFromInfoAsync(Int32, String, String[], String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.ResolvePersonFromInfoAsync(System.Int32, System.String, System.String[], System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a person from the provided information. If the person does not exist, it will be created on demand.\n"
+  syntax:
+    content: Task<ResolvedPerson> ResolvePersonFromInfoAsync(int contactId, string personName, string[] phoneNumbers, string[] emails, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact Id of the contact which the person belongs to. Cannot be 0.
+    - id: personName
+      type: System.String
+      description: The full name of the person to be resolved. Optional.
+    - id: phoneNumbers
+      type: System.String[]
+      description: Phone numbers registered on the person. Optional.
+    - id: emails
+      type: System.String[]
+      description: Email-addresses registered on the person. Optional.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ResolvedPerson}
+      description: The results of the resolve-operation.
+    content.vb: Function ResolvePersonFromInfoAsync(contactId As Integer, personName As String, phoneNumbers As String(), emails As String(), requestOptions As RequestOptions = Nothing) As Task(Of ResolvedPerson)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.ResolvePersonFromInfoAsync*
+  nameWithType.vb: IPersonAgent.ResolvePersonFromInfoAsync(Int32, String, String(), String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPersonAgent.ResolvePersonFromInfoAsync(System.Int32, System.String, System.String(), System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: ResolvePersonFromInfoAsync(Int32, String, String(), String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.AddEmailAddressToPersonAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.AddEmailAddressToPersonAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: AddEmailAddressToPersonAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: AddEmailAddressToPersonAsync(Int32, String, Boolean, RequestOptions)
+  nameWithType: IPersonAgent.AddEmailAddressToPersonAsync(Int32, String, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.AddEmailAddressToPersonAsync(System.Int32, System.String, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSets the primary email address on person, possibly re-ranking email addresses accordingly.\n"
+  syntax:
+    content: Task AddEmailAddressToPersonAsync(int personId, string emailAddress, bool setAsPrimaryEmail, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Person id of the person
+    - id: emailAddress
+      type: System.String
+      description: The email address to set as primary email address
+    - id: setAsPrimaryEmail
+      type: System.Boolean
+      description: True if the address shall be primary email address (have rank == 1)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddEmailAddressToPersonAsync(personId As Integer, emailAddress As String, setAsPrimaryEmail As Boolean, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.AddEmailAddressToPersonAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,SuperOffice.WebApi.RequestOptions)
+  id: CreateTemporaryKeyAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporaryKeyAsync(TemporaryKeyDomain, Int32, Int32, DateTime, RequestOptions)
+  nameWithType: IPersonAgent.CreateTemporaryKeyAsync(TemporaryKeyDomain, Int32, Int32, DateTime, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain, System.Int32, System.Int32, System.DateTime, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreate a temporary key in the database from the given parameters and return the key string. Used for temporary keys for accessing customer centric functionality, such as UpdateSubscriptions.\n"
+  syntax:
+    content: Task<string> CreateTemporaryKeyAsync(TemporaryKeyDomain domain, int targetId, int personId, DateTime expires, RequestOptions requestOptions = null)
+    parameters:
+    - id: domain
+      type: SuperOffice.WebApi.Data.TemporaryKeyDomain
+      description: The domain this key is for
+    - id: targetId
+      type: System.Int32
+      description: The primary key of the entity this is for. Depends on domain.
+    - id: personId
+      type: System.Int32
+      description: The person this key is for. May be null.
+    - id: expires
+      type: System.DateTime
+      description: When the key will expire (servers local time)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The key as base64, ready to be used e.g. in a URL
+    content.vb: Function CreateTemporaryKeyAsync(domain As TemporaryKeyDomain, targetId As Integer, personId As Integer, expires As DateTime, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CheckTemporaryKeyAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.CheckTemporaryKeyAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: CheckTemporaryKeyAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CheckTemporaryKeyAsync(String, RequestOptions)
+  nameWithType: IPersonAgent.CheckTemporaryKeyAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CheckTemporaryKeyAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCheck a temporary key for validity, and in case it is valid, return its domain, targetId and personId\n"
+  syntax:
+    content: Task<TemporaryKeyInfo> CheckTemporaryKeyAsync(string temporaryKey, RequestOptions requestOptions = null)
+    parameters:
+    - id: temporaryKey
+      type: System.String
+      description: The base64 encoded key value, as returned by CreateTemporaryKey
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TemporaryKeyInfo}
+      description: The info about the temporary key. Domain will be Unknown if key is not valid.
+    content.vb: Function CheckTemporaryKeyAsync(temporaryKey As String, requestOptions As RequestOptions = Nothing) As Task(Of TemporaryKeyInfo)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.CheckTemporaryKeyAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.DeleteTemporaryKeysOfDomainAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.DeleteTemporaryKeysOfDomainAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteTemporaryKeysOfDomainAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTemporaryKeysOfDomainAsync(TemporaryKeyDomain, Int32, RequestOptions)
+  nameWithType: IPersonAgent.DeleteTemporaryKeysOfDomainAsync(TemporaryKeyDomain, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.DeleteTemporaryKeysOfDomainAsync(SuperOffice.WebApi.Data.TemporaryKeyDomain, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDelete all temporary keys for a given domain and person\n"
+  syntax:
+    content: Task DeleteTemporaryKeysOfDomainAsync(TemporaryKeyDomain domain, int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: domain
+      type: SuperOffice.WebApi.Data.TemporaryKeyDomain
+      description: The domain type to delete
+    - id: personId
+      type: System.Int32
+      description: The person for which to delete the keys
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteTemporaryKeysOfDomainAsync(domain As TemporaryKeyDomain, personId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.DeleteTemporaryKeysOfDomainAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.DeleteExpiredAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.DeleteExpiredAsync(SuperOffice.WebApi.RequestOptions)
+  id: DeleteExpiredAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteExpiredAsync(RequestOptions)
+  nameWithType: IPersonAgent.DeleteExpiredAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.DeleteExpiredAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nTrigger deletion of persons that has been (soft) deleted and have timed out the expiry period (the SoftDeleteRetention preference).\n"
+  syntax:
+    content: Task DeleteExpiredAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteExpiredAsync(requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.DeleteExpiredAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonSummaryAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonSummaryAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetPersonSummaryAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonSummaryAsync(Int32, Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetPersonSummaryAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonSummaryAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet summary of person and recent activity.\n"
+  syntax:
+    content: Task<PersonSummary> GetPersonSummaryAsync(int personId, int limit, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id to summarize.
+    - id: limit
+      type: System.Int32
+      description: Max number of items to include in summary lists.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonSummary}
+      description: Summary of person, with recent requests, sales, follow-ups, chats.
+    content.vb: Function GetPersonSummaryAsync(personId As Integer, limit As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PersonSummary)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonSummaryAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.AddBounceAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: AddBounceAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: AddBounceAsync(String, RequestOptions)
+  nameWithType: IPersonAgent.AddBounceAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdd a bounce count on the email address if it exists\n"
+  syntax:
+    content: Task AddBounceAsync(string emailAddress, RequestOptions requestOptions = null)
+    parameters:
+    - id: emailAddress
+      type: System.String
+      description: The email address which we want to add a bounce count to
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddBounceAsync(emailAddress As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.ValidatePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.ValidatePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity,SuperOffice.WebApi.RequestOptions)
+  id: ValidatePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidatePersonEntityAsync(PersonEntity, RequestOptions)
+  nameWithType: IPersonAgent.ValidatePersonEntityAsync(PersonEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.ValidatePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCheck that entity is ready for saving, return error messages by field.\n"
+  syntax:
+    content: Task<StringDictionary> ValidatePersonEntityAsync(PersonEntity personEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: personEntity
+      type: SuperOffice.WebApi.Data.PersonEntity
+      description: Entity to be checked for errors.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+      description: Error messages tagged by field.
+    content.vb: Function ValidatePersonEntityAsync(personEntity As PersonEntity, requestOptions As RequestOptions = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.ValidatePersonEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithCountAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithCountAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: AddBounceWithCountAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: AddBounceWithCountAsync(String, Int32, RequestOptions)
+  nameWithType: IPersonAgent.AddBounceWithCountAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithCountAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdd a number of bounce counts on the email address if it exists\n"
+  syntax:
+    content: Task AddBounceWithCountAsync(string emailAddress, int counts, RequestOptions requestOptions = null)
+    parameters:
+    - id: emailAddress
+      type: System.String
+      description: The email address which we want to add bounce counts to
+    - id: counts
+      type: System.Int32
+      description: The number of bounce counts to add
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddBounceWithCountAsync(emailAddress As String, counts As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithCountAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetBestSoLanguageForTemplateAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetBestSoLanguageForTemplateAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetBestSoLanguageForTemplateAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBestSoLanguageForTemplateAsync(Int32, Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetBestSoLanguageForTemplateAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetBestSoLanguageForTemplateAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the best language for this person on this template\n"
+  syntax:
+    content: Task<string> GetBestSoLanguageForTemplateAsync(int personId, int templateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The id of the person
+    - id: templateId
+      type: System.Int32
+      description: The id of the template to find languages on
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The solang code for best language, empty string if no best language found
+    content.vb: Function GetBestSoLanguageForTemplateAsync(personId As Integer, templateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetBestSoLanguageForTemplateAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithDetailsAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithDetailsAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: AddBounceWithDetailsAsync(System.String,System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: AddBounceWithDetailsAsync(String, Int32, Int32, String, RequestOptions)
+  nameWithType: IPersonAgent.AddBounceWithDetailsAsync(String, Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithDetailsAsync(System.String, System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdd a number of bounce counts on the email address if it exists, and with possible bounce code and reason\n"
+  syntax:
+    content: Task AddBounceWithDetailsAsync(string emailAddress, int counts, int code, string reason, RequestOptions requestOptions = null)
+    parameters:
+    - id: emailAddress
+      type: System.String
+      description: The email address which we want to add bounce counts to
+    - id: counts
+      type: System.Int32
+      description: The number of bounce counts to add
+    - id: code
+      type: System.Int32
+      description: A numeric code representing the bounce reason
+    - id: reason
+      type: System.String
+      description: A textual tag representing the bounce reason
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddBounceWithDetailsAsync(emailAddress As String, counts As Integer, code As Integer, reason As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithDetailsAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImagesAsync(System.Int32[],System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImagesAsync(System.Int32[],System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetPersonImagesAsync(System.Int32[],System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonImagesAsync(Int32[], Int32, Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetPersonImagesAsync(Int32[], Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImagesAsync(System.Int32[], System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the image for a set of persons scaled to a specific size. Returned images are in PNG format.\n"
+  syntax:
+    content: Task<PersonImage[]> GetPersonImagesAsync(int[] personIds, int scaledWidth, int scaledHeight, RequestOptions requestOptions = null)
+    parameters:
+    - id: personIds
+      type: System.Int32[]
+      description: List of persons to get images for.
+    - id: scaledWidth
+      type: System.Int32
+      description: Returned images are scaled to this width
+    - id: scaledHeight
+      type: System.Int32
+      description: Returned images are scaled to this height
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonImage[]}
+      description: List of person images. Persons without an image are not present in this list.
+    content.vb: Function GetPersonImagesAsync(personIds As Integer(), scaledWidth As Integer, scaledHeight As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PersonImage())
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImagesAsync*
+  nameWithType.vb: IPersonAgent.GetPersonImagesAsync(Int32(), Int32, Int32, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImagesAsync(System.Int32(), System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetPersonImagesAsync(Int32(), Int32, Int32, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateOrUpdateUserCandidateAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.CreateOrUpdateUserCandidateAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: CreateOrUpdateUserCandidateAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateOrUpdateUserCandidateAsync(Int32, String, Boolean, RequestOptions)
+  nameWithType: IPersonAgent.CreateOrUpdateUserCandidateAsync(Int32, String, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateOrUpdateUserCandidateAsync(System.Int32, System.String, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a Customer Centre User (UserCandidate) for a given Contact (personId) with the supplied parameters. If the Customer Centre User already exists for a given Contact, the user is updated with the supplied parameters.\n"
+  syntax:
+    content: Task<UserCandidate> CreateOrUpdateUserCandidateAsync(int personId, string username, bool accessAllRequests, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Person to create UserCandidate for.
+    - id: username
+      type: System.String
+      description: Desired username. Username must be unique. If the username is not unique, method will throw an error.
+    - id: accessAllRequests
+      type: System.Boolean
+      description: Determines if Custom Center User has access to all requests created for all Contacts in the company.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserCandidate}
+      description: UserCandidate created or updated.
+    content.vb: Function CreateOrUpdateUserCandidateAsync(personId As Integer, username As String, accessAllRequests As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of UserCandidate)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.CreateOrUpdateUserCandidateAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetUserCandidateByPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetUserCandidateByPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetUserCandidateByPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUserCandidateByPersonAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetUserCandidateByPersonAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetUserCandidateByPersonAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets user candidate linked to a person.\n"
+  syntax:
+    content: Task<UserCandidate> GetUserCandidateByPersonAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Person related to requested UserCandidate.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserCandidate}
+      description: UserCandidate linked to a person.
+    content.vb: Function GetUserCandidateByPersonAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of UserCandidate)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetUserCandidateByPersonAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetCustomerCentrePasswordReplyTemplateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetCustomerCentrePasswordReplyTemplateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetCustomerCentrePasswordReplyTemplateAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCustomerCentrePasswordReplyTemplateAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetCustomerCentrePasswordReplyTemplateAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetCustomerCentrePasswordReplyTemplateAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a parsed Customer Centre password reply template for a particular customer\n"
+  syntax:
+    content: Task<ReplyTemplateParsed> GetCustomerCentrePasswordReplyTemplateAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Person/customer id to get the template for.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReplyTemplateParsed}
+      description: A parsed Customer Centre password reply template.
+    content.vb: Function GetCustomerCentrePasswordReplyTemplateAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ReplyTemplateParsed)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetCustomerCentrePasswordReplyTemplateAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SendEmailAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.SendEmailAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: SendEmailAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SendEmailAsync(String, String, String, String, String, Int32[], RequestOptions)
+  nameWithType: IPersonAgent.SendEmailAsync(String, String, String, String, String, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SendEmailAsync(System.String, System.String, System.String, System.String, System.String, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nInserts into outbox an email with specified details.\n"
+  syntax:
+    content: Task SendEmailAsync(string from, string to, string subject, string plainBody, string htmlBody, int[] attachmentIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: from
+      type: System.String
+      description: Sender&apos;s email address.
+    - id: to
+      type: System.String
+      description: Recipient&apos;s email address.
+    - id: subject
+      type: System.String
+      description: Email&apos;s subject.
+    - id: plainBody
+      type: System.String
+      description: Email&apos;s plain body.
+    - id: htmlBody
+      type: System.String
+      description: Email&apos;s html body.
+    - id: attachmentIds
+      type: System.Int32[]
+      description: Ids of email&apos;s attachments.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SendEmailAsync(from As String, to As String, subject As String, plainBody As String, htmlBody As String, attachmentIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.SendEmailAsync*
+  nameWithType.vb: IPersonAgent.SendEmailAsync(String, String, String, String, String, Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPersonAgent.SendEmailAsync(System.String, System.String, System.String, System.String, System.String, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SendEmailAsync(String, String, String, String, String, Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SendEmailWithEventNameAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.SendEmailWithEventNameAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],System.String,SuperOffice.WebApi.RequestOptions)
+  id: SendEmailWithEventNameAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SendEmailWithEventNameAsync(String, String, String, String, String, Int32[], String, RequestOptions)
+  nameWithType: IPersonAgent.SendEmailWithEventNameAsync(String, String, String, String, String, Int32[], String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SendEmailWithEventNameAsync(System.String, System.String, System.String, System.String, System.String, System.Int32[], System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nInserts into outbox an email with specified details and event name.\n"
+  syntax:
+    content: Task SendEmailWithEventNameAsync(string from, string to, string subject, string plainBody, string htmlBody, int[] attachmentIds, string eventName, RequestOptions requestOptions = null)
+    parameters:
+    - id: from
+      type: System.String
+      description: Sender&apos;s email address.
+    - id: to
+      type: System.String
+      description: Recipient&apos;s email address.
+    - id: subject
+      type: System.String
+      description: Email&apos;s subject.
+    - id: plainBody
+      type: System.String
+      description: Email&apos;s plain body.
+    - id: htmlBody
+      type: System.String
+      description: Email&apos;s html body.
+    - id: attachmentIds
+      type: System.Int32[]
+      description: Ids of email&apos;s attachments.
+    - id: eventName
+      type: System.String
+      description: Event name passed to outbound email trigger
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SendEmailWithEventNameAsync(from As String, to As String, subject As String, plainBody As String, htmlBody As String, attachmentIds As Integer(), eventName As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.SendEmailWithEventNameAsync*
+  nameWithType.vb: IPersonAgent.SendEmailWithEventNameAsync(String, String, String, String, String, Int32(), String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPersonAgent.SendEmailWithEventNameAsync(System.String, System.String, System.String, System.String, System.String, System.Int32(), System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SendEmailWithEventNameAsync(String, String, String, String, String, Int32(), String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonListAsync(Int32[], RequestOptions)
+  nameWithType: IPersonAgent.GetPersonListAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonListAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets an array of specific Person objects.                        \n"
+  syntax:
+    content: Task<Person[]> GetPersonListAsync(int[] personIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: personIds
+      type: System.Int32[]
+      description: The identifiers of the Person object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Person[]}
+      description: Array of Person objects
+    content.vb: Function GetPersonListAsync(personIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Person())
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonListAsync*
+  nameWithType.vb: IPersonAgent.GetPersonListAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonListAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetPersonListAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetPersonsFromContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonsFromContactAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetPersonsFromContactAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromContactAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns all the persons belonging to a contact.\n"
+  syntax:
+    content: Task<Person[]> GetPersonsFromContactAsync(int contactId, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The project id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Person[]}
+      description: The persons belonging to a contact.
+    content.vb: Function GetPersonsFromContactAsync(contactId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Person())
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromContactAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetPersonsFromProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonsFromProjectAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetPersonsFromProjectAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromProjectAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns all the persons belonging to a project.\n"
+  syntax:
+    content: Task<Person[]> GetPersonsFromProjectAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Person[]}
+      description: The persons belonging to a project.
+    content.vb: Function GetPersonsFromProjectAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Person())
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromProjectAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetColleaguesAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetColleaguesAsync(RequestOptions)
+  nameWithType: IPersonAgent.GetColleaguesAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the persons working in the same company as the logged on user.\n"
+  syntax:
+    content: Task<Person[]> GetColleaguesAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Person[]}
+      description: Colleagues.
+    content.vb: Function GetColleaguesAsync(requestOptions As RequestOptions = Nothing) As Task(Of Person())
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesByDepartmentAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesByDepartmentAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetColleaguesByDepartmentAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetColleaguesByDepartmentAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetColleaguesByDepartmentAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesByDepartmentAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the persons working in a specific department in the same company as the logged on user. Departments can be retrieved with the PhoneList.DepartmentList service.\n"
+  syntax:
+    content: Task<Person[]> GetColleaguesByDepartmentAsync(int departmentId, RequestOptions requestOptions = null)
+    parameters:
+    - id: departmentId
+      type: System.Int32
+      description: The department id.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Person[]}
+      description: PersonList with colleagues.
+    content.vb: Function GetColleaguesByDepartmentAsync(departmentId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Person())
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesByDepartmentAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesBySourceAsync(SuperOffice.WebApi.Data.AssociateSourceType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesBySourceAsync(SuperOffice.WebApi.Data.AssociateSourceType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetColleaguesBySourceAsync(SuperOffice.WebApi.Data.AssociateSourceType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetColleaguesBySourceAsync(AssociateSourceType, Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetColleaguesBySourceAsync(AssociateSourceType, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesBySourceAsync(SuperOffice.WebApi.Data.AssociateSourceType, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the persons working in the same company as the logged on user. The list of person could be retrieved from the history list, the diary view list, or from all sources.\n"
+  syntax:
+    content: Task<Person[]> GetColleaguesBySourceAsync(AssociateSourceType sourceType, int count, RequestOptions requestOptions = null)
+    parameters:
+    - id: sourceType
+      type: SuperOffice.WebApi.Data.AssociateSourceType
+      description: The “source” the colleagues should be retrieved from. &lt;see cref=&quot;AssociateSourceType&quot;/> for more information.
+    - id: count
+      type: System.Int32
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Person[]}
+      description: Colleagues.
+    content.vb: Function GetColleaguesBySourceAsync(sourceType As AssociateSourceType, count As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Person())
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesBySourceAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetMyOwnerAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetMyOwnerAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetMyOwnerAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyOwnerAsync(RequestOptions)
+  nameWithType: IPersonAgent.GetMyOwnerAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetMyOwnerAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the owner of the logged in person.\n"
+  syntax:
+    content: Task<Person> GetMyOwnerAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Person}
+      description: Person
+    content.vb: Function GetMyOwnerAsync(requestOptions As RequestOptions = Nothing) As Task(Of Person)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetMyOwnerAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetOwnerOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetOwnerOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetOwnerOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetOwnerOnPersonIdAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.GetOwnerOnPersonIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetOwnerOnPersonIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the owner of the person by id.\n"
+  syntax:
+    content: Task<Person> GetOwnerOnPersonIdAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Person}
+      description: Person
+    content.vb: Function GetOwnerOnPersonIdAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Person)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.GetOwnerOnPersonIdAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.ChangePersonRankAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.ChangePersonRankAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: ChangePersonRankAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangePersonRankAsync(Int32, Boolean, RequestOptions)
+  nameWithType: IPersonAgent.ChangePersonRankAsync(Int32, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.ChangePersonRankAsync(System.Int32, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nMove one person up or down in the ranking in the Person Archive, if possible.&lt;para/>The person record that has rank = 1 is the primary contact for a company, and is the one used in situations where no person has been explicitly chosen (such as in selections).&lt;para/>This method corresponds to the move up/move down functions in the person archive in the contact panel.&lt;para/>This method always affects two records.\n"
+  syntax:
+    content: Task<int> ChangePersonRankAsync(int personId, bool moveUp, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Primary key of person record to move up or down. You must have write access both to this record AND to whatever record is adjacent in the direction you want to move.
+    - id: moveUp
+      type: System.Boolean
+      description: If true, the given person is moved to an earlier rank (lower numeric rank value, down to a limit of 1; up in the GUI if sorted by ascending rank). If false, movement is to later priority (higher numeric rank value).
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: If movement occurred, the return value will be the ID of the OTHER person that got moved. A GUI should switch the positions of the original person ID and this return value.&lt;para/>If no movement occurred, for any reason,  0 is returned.
+    content.vb: Function ChangePersonRankAsync(personId As Integer, moveUp As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.ChangePersonRankAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SetPersonRankAsync(System.Int32,System.Int16,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.SetPersonRankAsync(System.Int32,System.Int16,SuperOffice.WebApi.RequestOptions)
+  id: SetPersonRankAsync(System.Int32,System.Int16,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SetPersonRankAsync(Int32, Int16, RequestOptions)
+  nameWithType: IPersonAgent.SetPersonRankAsync(Int32, Int16, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SetPersonRankAsync(System.Int32, System.Int16, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDirectly set the rank field of a person record, adjusting all other person records under the same contact as needed.&lt;para/>This call may affect multiple records, potentially all person records belonging to one contact.&lt;para/>You must have write access for to affected records for this method to succeed.\n"
+  syntax:
+    content: Task<bool> SetPersonRankAsync(int personId, short desiredRank, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Id of person to change
+    - id: desiredRank
+      type: System.Int16
+      description: Desired rank to set, legal values are from 1 to the number of person records on this contact. Out of range values will be moved to the closest valid value and processed.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: 'If movement occurred, or the person already had exactly the desired rank value, then the return value will be true. If movement did not occur, for any other reason, the return value is false. '
+    content.vb: Function SetPersonRankAsync(personId As Integer, desiredRank As Short, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.SetPersonRankAsync*
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.NormalizeRanksAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.NormalizeRanksAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: NormalizeRanksAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: NormalizeRanksAsync(Int32, RequestOptions)
+  nameWithType: IPersonAgent.NormalizeRanksAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.NormalizeRanksAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nNomralize the ranks for all persons that belong to a contact. This means that the persons will be sorted according to their current rank values, and the ranks will be made monotonically increasing from 1.\n"
+  syntax:
+    content: Task<bool> NormalizeRanksAsync(int contactId, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Id of contact whose persons are to be rank normalized
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: The reutrn value is true if the operation suceeded, either because all persons were already normalized, or because normalization was done. It is false if Sentry blocks any required changes.
+    content.vb: Function NormalizeRanksAsync(contactId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.NormalizeRanksAsync*
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultConsentPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultConsentPersonAsync
+  isExternal: true
+  name: CreateDefaultConsentPersonAsync
+  nameWithType: IPersonAgent.CreateDefaultConsentPersonAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultConsentPersonAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConsentPerson}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConsentPerson}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ConsentPerson>
+  nameWithType: Task<ConsentPerson>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ConsentPerson>
+  nameWithType.vb: Task(Of ConsentPerson)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ConsentPerson)
+  name.vb: Task(Of ConsentPerson)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ConsentPerson
+    name: ConsentPerson
+    nameWithType: ConsentPerson
+    fullName: SuperOffice.WebApi.Data.ConsentPerson
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ConsentPerson
+    name: ConsentPerson
+    nameWithType: ConsentPerson
+    fullName: SuperOffice.WebApi.Data.ConsentPerson
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SaveConsentPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.SaveConsentPersonAsync
+  isExternal: true
+  name: SaveConsentPersonAsync
+  nameWithType: IPersonAgent.SaveConsentPersonAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SaveConsentPersonAsync
+- uid: SuperOffice.WebApi.Data.ConsentPerson
+  commentId: T:SuperOffice.WebApi.Data.ConsentPerson
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ConsentPerson
+  nameWithType: ConsentPerson
+  fullName: SuperOffice.WebApi.Data.ConsentPerson
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.DeleteConsentPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.DeleteConsentPersonAsync
+  isExternal: true
+  name: DeleteConsentPersonAsync
+  nameWithType: IPersonAgent.DeleteConsentPersonAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.DeleteConsentPersonAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonEntityAsync
+  isExternal: true
+  name: CreateDefaultPersonEntityAsync
+  nameWithType: IPersonAgent.CreateDefaultPersonEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PersonEntity>
+  nameWithType: Task<PersonEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.PersonEntity>
+  nameWithType.vb: Task(Of PersonEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.PersonEntity)
+  name.vb: Task(Of PersonEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.PersonEntity
+    name: PersonEntity
+    nameWithType: PersonEntity
+    fullName: SuperOffice.WebApi.Data.PersonEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.PersonEntity
+    name: PersonEntity
+    nameWithType: PersonEntity
+    fullName: SuperOffice.WebApi.Data.PersonEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SavePersonEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.SavePersonEntityAsync
+  isExternal: true
+  name: SavePersonEntityAsync
+  nameWithType: IPersonAgent.SavePersonEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SavePersonEntityAsync
+- uid: SuperOffice.WebApi.Data.PersonEntity
+  commentId: T:SuperOffice.WebApi.Data.PersonEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: PersonEntity
+  nameWithType: PersonEntity
+  fullName: SuperOffice.WebApi.Data.PersonEntity
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.DeletePersonEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.DeletePersonEntityAsync
+  isExternal: true
+  name: DeletePersonEntityAsync
+  nameWithType: IPersonAgent.DeletePersonEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.DeletePersonEntityAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonImageAsync
+  isExternal: true
+  name: CreateDefaultPersonImageAsync
+  nameWithType: IPersonAgent.CreateDefaultPersonImageAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultPersonImageAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonImage}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonImage}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PersonImage>
+  nameWithType: Task<PersonImage>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.PersonImage>
+  nameWithType.vb: Task(Of PersonImage)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.PersonImage)
+  name.vb: Task(Of PersonImage)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.PersonImage
+    name: PersonImage
+    nameWithType: PersonImage
+    fullName: SuperOffice.WebApi.Data.PersonImage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.PersonImage
+    name: PersonImage
+    nameWithType: PersonImage
+    fullName: SuperOffice.WebApi.Data.PersonImage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetConsentPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetConsentPersonAsync
+  isExternal: true
+  name: GetConsentPersonAsync
+  nameWithType: IPersonAgent.GetConsentPersonAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetConsentPersonAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonAsync
+  isExternal: true
+  name: GetPersonAsync
+  nameWithType: IPersonAgent.GetPersonAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Person}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Person}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Person>
+  nameWithType: Task<Person>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Person>
+  nameWithType.vb: Task(Of Person)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Person)
+  name.vb: Task(Of Person)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Person
+    name: Person
+    nameWithType: Person
+    fullName: SuperOffice.WebApi.Data.Person
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Person
+    name: Person
+    nameWithType: Person
+    fullName: SuperOffice.WebApi.Data.Person
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonEntityAsync
+  isExternal: true
+  name: GetPersonEntityAsync
+  nameWithType: IPersonAgent.GetPersonEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonEntityAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.UndeleteAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.UndeleteAsync
+  isExternal: true
+  name: UndeleteAsync
+  nameWithType: IPersonAgent.UndeleteAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.UndeleteAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetMyPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetMyPersonAsync
+  isExternal: true
+  name: GetMyPersonAsync
+  nameWithType: IPersonAgent.GetMyPersonAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetMyPersonAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetSalesRepAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetSalesRepAsync
+  isExternal: true
+  name: GetSalesRepAsync
+  nameWithType: IPersonAgent.GetSalesRepAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetSalesRepAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPhonesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetPhonesAsync
+  isExternal: true
+  name: GetPhonesAsync
+  nameWithType: IPersonAgent.GetPhonesAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPhonesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EntityElement[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EntityElement[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<EntityElement[]>
+  nameWithType: Task<EntityElement[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.EntityElement[]>
+  nameWithType.vb: Task(Of EntityElement())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.EntityElement())
+  name.vb: Task(Of EntityElement())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.EntityElement
+    name: EntityElement
+    nameWithType: EntityElement
+    fullName: SuperOffice.WebApi.Data.EntityElement
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.EntityElement
+    name: EntityElement
+    nameWithType: EntityElement
+    fullName: SuperOffice.WebApi.Data.EntityElement
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.ChangeCountryAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.ChangeCountryAsync
+  isExternal: true
+  name: ChangeCountryAsync
+  nameWithType: IPersonAgent.ChangeCountryAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.ChangeCountryAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetAddressAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetAddressAsync
+  isExternal: true
+  name: GetAddressAsync
+  nameWithType: IPersonAgent.GetAddressAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetAddressAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Address}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Address}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Address>
+  nameWithType: Task<Address>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Address>
+  nameWithType.vb: Task(Of Address)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Address)
+  name.vb: Task(Of Address)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Address
+    name: Address
+    nameWithType: Address
+    fullName: SuperOffice.WebApi.Data.Address
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Address
+    name: Address
+    nameWithType: Address
+    fullName: SuperOffice.WebApi.Data.Address
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetAddressByCountryAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetAddressByCountryAsync
+  isExternal: true
+  name: GetAddressByCountryAsync
+  nameWithType: IPersonAgent.GetAddressByCountryAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetAddressByCountryAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImageAsync
+  isExternal: true
+  name: GetPersonImageAsync
+  nameWithType: IPersonAgent.GetPersonImageAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImageAsync
+- uid: System.Threading.Tasks.Task{System.Byte[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Byte[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Byte[]>
+  nameWithType: Task<Byte[]>
+  fullName: System.Threading.Tasks.Task<System.Byte[]>
+  nameWithType.vb: Task(Of Byte())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Byte())
+  name.vb: Task(Of Byte())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SetPersonImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.SetPersonImageAsync
+  isExternal: true
+  name: SetPersonImageAsync
+  nameWithType: IPersonAgent.SetPersonImageAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SetPersonImageAsync
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultByContactIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultByContactIdAsync
+  isExternal: true
+  name: CreateDefaultByContactIdAsync
+  nameWithType: IPersonAgent.CreateDefaultByContactIdAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultByContactIdAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.MoveAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.MoveAsync
+  isExternal: true
+  name: MoveAsync
+  nameWithType: IPersonAgent.MoveAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.MoveAsync
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.MergeAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.MergeAsync
+  isExternal: true
+  name: MergeAsync
+  nameWithType: IPersonAgent.MergeAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.MergeAsync
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultFromCredentialAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultFromCredentialAsync
+  isExternal: true
+  name: CreateDefaultFromCredentialAsync
+  nameWithType: IPersonAgent.CreateDefaultFromCredentialAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateDefaultFromCredentialAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.IsNumberValidAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.IsNumberValidAsync
+  isExternal: true
+  name: IsNumberValidAsync
+  nameWithType: IPersonAgent.IsNumberValidAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.IsNumberValidAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SetConsentAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.SetConsentAsync
+  isExternal: true
+  name: SetConsentAsync
+  nameWithType: IPersonAgent.SetConsentAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SetConsentAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.RemoveConsentAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.RemoveConsentAsync
+  isExternal: true
+  name: RemoveConsentAsync
+  nameWithType: IPersonAgent.RemoveConsentAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.RemoveConsentAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.HasConsentAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.HasConsentAsync
+  isExternal: true
+  name: HasConsentAsync
+  nameWithType: IPersonAgent.HasConsentAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.HasConsentAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetConsentInfosAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetConsentInfosAsync
+  isExternal: true
+  name: GetConsentInfosAsync
+  nameWithType: IPersonAgent.GetConsentInfosAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetConsentInfosAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConsentInfo[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ConsentInfo[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ConsentInfo[]>
+  nameWithType: Task<ConsentInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ConsentInfo[]>
+  nameWithType.vb: Task(Of ConsentInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ConsentInfo())
+  name.vb: Task(Of ConsentInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ConsentInfo
+    name: ConsentInfo
+    nameWithType: ConsentInfo
+    fullName: SuperOffice.WebApi.Data.ConsentInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ConsentInfo
+    name: ConsentInfo
+    nameWithType: ConsentInfo
+    fullName: SuperOffice.WebApi.Data.ConsentInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SendConsentConfirmationEmailAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.SendConsentConfirmationEmailAsync
+  isExternal: true
+  name: SendConsentConfirmationEmailAsync
+  nameWithType: IPersonAgent.SendConsentConfirmationEmailAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SendConsentConfirmationEmailAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.ResolvePersonFromInfoAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.ResolvePersonFromInfoAsync
+  isExternal: true
+  name: ResolvePersonFromInfoAsync
+  nameWithType: IPersonAgent.ResolvePersonFromInfoAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.ResolvePersonFromInfoAsync
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ResolvedPerson}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ResolvedPerson}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ResolvedPerson>
+  nameWithType: Task<ResolvedPerson>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ResolvedPerson>
+  nameWithType.vb: Task(Of ResolvedPerson)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ResolvedPerson)
+  name.vb: Task(Of ResolvedPerson)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ResolvedPerson
+    name: ResolvedPerson
+    nameWithType: ResolvedPerson
+    fullName: SuperOffice.WebApi.Data.ResolvedPerson
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ResolvedPerson
+    name: ResolvedPerson
+    nameWithType: ResolvedPerson
+    fullName: SuperOffice.WebApi.Data.ResolvedPerson
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.AddEmailAddressToPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.AddEmailAddressToPersonAsync
+  isExternal: true
+  name: AddEmailAddressToPersonAsync
+  nameWithType: IPersonAgent.AddEmailAddressToPersonAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.AddEmailAddressToPersonAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyAsync
+  isExternal: true
+  name: CreateTemporaryKeyAsync
+  nameWithType: IPersonAgent.CreateTemporaryKeyAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateTemporaryKeyAsync
+- uid: SuperOffice.WebApi.Data.TemporaryKeyDomain
+  commentId: T:SuperOffice.WebApi.Data.TemporaryKeyDomain
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TemporaryKeyDomain
+  nameWithType: TemporaryKeyDomain
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CheckTemporaryKeyAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.CheckTemporaryKeyAsync
+  isExternal: true
+  name: CheckTemporaryKeyAsync
+  nameWithType: IPersonAgent.CheckTemporaryKeyAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CheckTemporaryKeyAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TemporaryKeyInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TemporaryKeyInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TemporaryKeyInfo>
+  nameWithType: Task<TemporaryKeyInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TemporaryKeyInfo>
+  nameWithType.vb: Task(Of TemporaryKeyInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TemporaryKeyInfo)
+  name.vb: Task(Of TemporaryKeyInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TemporaryKeyInfo
+    name: TemporaryKeyInfo
+    nameWithType: TemporaryKeyInfo
+    fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TemporaryKeyInfo
+    name: TemporaryKeyInfo
+    nameWithType: TemporaryKeyInfo
+    fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.DeleteTemporaryKeysOfDomainAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.DeleteTemporaryKeysOfDomainAsync
+  isExternal: true
+  name: DeleteTemporaryKeysOfDomainAsync
+  nameWithType: IPersonAgent.DeleteTemporaryKeysOfDomainAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.DeleteTemporaryKeysOfDomainAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.DeleteExpiredAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.DeleteExpiredAsync
+  isExternal: true
+  name: DeleteExpiredAsync
+  nameWithType: IPersonAgent.DeleteExpiredAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.DeleteExpiredAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonSummaryAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonSummaryAsync
+  isExternal: true
+  name: GetPersonSummaryAsync
+  nameWithType: IPersonAgent.GetPersonSummaryAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonSummaryAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonSummary}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonSummary}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PersonSummary>
+  nameWithType: Task<PersonSummary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.PersonSummary>
+  nameWithType.vb: Task(Of PersonSummary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.PersonSummary)
+  name.vb: Task(Of PersonSummary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.PersonSummary
+    name: PersonSummary
+    nameWithType: PersonSummary
+    fullName: SuperOffice.WebApi.Data.PersonSummary
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.PersonSummary
+    name: PersonSummary
+    nameWithType: PersonSummary
+    fullName: SuperOffice.WebApi.Data.PersonSummary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.AddBounceAsync
+  isExternal: true
+  name: AddBounceAsync
+  nameWithType: IPersonAgent.AddBounceAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.ValidatePersonEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.ValidatePersonEntityAsync
+  isExternal: true
+  name: ValidatePersonEntityAsync
+  nameWithType: IPersonAgent.ValidatePersonEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.ValidatePersonEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<StringDictionary>
+  nameWithType: Task<StringDictionary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.StringDictionary>
+  nameWithType.vb: Task(Of StringDictionary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.StringDictionary)
+  name.vb: Task(Of StringDictionary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.WebApi.Data.StringDictionary
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.WebApi.Data.StringDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithCountAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithCountAsync
+  isExternal: true
+  name: AddBounceWithCountAsync
+  nameWithType: IPersonAgent.AddBounceWithCountAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithCountAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetBestSoLanguageForTemplateAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetBestSoLanguageForTemplateAsync
+  isExternal: true
+  name: GetBestSoLanguageForTemplateAsync
+  nameWithType: IPersonAgent.GetBestSoLanguageForTemplateAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetBestSoLanguageForTemplateAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithDetailsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithDetailsAsync
+  isExternal: true
+  name: AddBounceWithDetailsAsync
+  nameWithType: IPersonAgent.AddBounceWithDetailsAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.AddBounceWithDetailsAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImagesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImagesAsync
+  isExternal: true
+  name: GetPersonImagesAsync
+  nameWithType: IPersonAgent.GetPersonImagesAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonImagesAsync
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonImage[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PersonImage[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PersonImage[]>
+  nameWithType: Task<PersonImage[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.PersonImage[]>
+  nameWithType.vb: Task(Of PersonImage())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.PersonImage())
+  name.vb: Task(Of PersonImage())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.PersonImage
+    name: PersonImage
+    nameWithType: PersonImage
+    fullName: SuperOffice.WebApi.Data.PersonImage
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.PersonImage
+    name: PersonImage
+    nameWithType: PersonImage
+    fullName: SuperOffice.WebApi.Data.PersonImage
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.CreateOrUpdateUserCandidateAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.CreateOrUpdateUserCandidateAsync
+  isExternal: true
+  name: CreateOrUpdateUserCandidateAsync
+  nameWithType: IPersonAgent.CreateOrUpdateUserCandidateAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.CreateOrUpdateUserCandidateAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserCandidate}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserCandidate}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<UserCandidate>
+  nameWithType: Task<UserCandidate>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.UserCandidate>
+  nameWithType.vb: Task(Of UserCandidate)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.UserCandidate)
+  name.vb: Task(Of UserCandidate)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.UserCandidate
+    name: UserCandidate
+    nameWithType: UserCandidate
+    fullName: SuperOffice.WebApi.Data.UserCandidate
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.UserCandidate
+    name: UserCandidate
+    nameWithType: UserCandidate
+    fullName: SuperOffice.WebApi.Data.UserCandidate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetUserCandidateByPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetUserCandidateByPersonAsync
+  isExternal: true
+  name: GetUserCandidateByPersonAsync
+  nameWithType: IPersonAgent.GetUserCandidateByPersonAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetUserCandidateByPersonAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetCustomerCentrePasswordReplyTemplateAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetCustomerCentrePasswordReplyTemplateAsync
+  isExternal: true
+  name: GetCustomerCentrePasswordReplyTemplateAsync
+  nameWithType: IPersonAgent.GetCustomerCentrePasswordReplyTemplateAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetCustomerCentrePasswordReplyTemplateAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReplyTemplateParsed}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReplyTemplateParsed}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ReplyTemplateParsed>
+  nameWithType: Task<ReplyTemplateParsed>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ReplyTemplateParsed>
+  nameWithType.vb: Task(Of ReplyTemplateParsed)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ReplyTemplateParsed)
+  name.vb: Task(Of ReplyTemplateParsed)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ReplyTemplateParsed
+    name: ReplyTemplateParsed
+    nameWithType: ReplyTemplateParsed
+    fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ReplyTemplateParsed
+    name: ReplyTemplateParsed
+    nameWithType: ReplyTemplateParsed
+    fullName: SuperOffice.WebApi.Data.ReplyTemplateParsed
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SendEmailAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.SendEmailAsync
+  isExternal: true
+  name: SendEmailAsync
+  nameWithType: IPersonAgent.SendEmailAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SendEmailAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SendEmailWithEventNameAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.SendEmailWithEventNameAsync
+  isExternal: true
+  name: SendEmailWithEventNameAsync
+  nameWithType: IPersonAgent.SendEmailWithEventNameAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SendEmailWithEventNameAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonListAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonListAsync
+  isExternal: true
+  name: GetPersonListAsync
+  nameWithType: IPersonAgent.GetPersonListAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonListAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Person[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Person[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Person[]>
+  nameWithType: Task<Person[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Person[]>
+  nameWithType.vb: Task(Of Person())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Person())
+  name.vb: Task(Of Person())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Person
+    name: Person
+    nameWithType: Person
+    fullName: SuperOffice.WebApi.Data.Person
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Person
+    name: Person
+    nameWithType: Person
+    fullName: SuperOffice.WebApi.Data.Person
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromContactAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromContactAsync
+  isExternal: true
+  name: GetPersonsFromContactAsync
+  nameWithType: IPersonAgent.GetPersonsFromContactAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromContactAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromProjectAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromProjectAsync
+  isExternal: true
+  name: GetPersonsFromProjectAsync
+  nameWithType: IPersonAgent.GetPersonsFromProjectAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonsFromProjectAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesAsync
+  isExternal: true
+  name: GetColleaguesAsync
+  nameWithType: IPersonAgent.GetColleaguesAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesByDepartmentAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesByDepartmentAsync
+  isExternal: true
+  name: GetColleaguesByDepartmentAsync
+  nameWithType: IPersonAgent.GetColleaguesByDepartmentAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesByDepartmentAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesBySourceAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesBySourceAsync
+  isExternal: true
+  name: GetColleaguesBySourceAsync
+  nameWithType: IPersonAgent.GetColleaguesBySourceAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetColleaguesBySourceAsync
+- uid: SuperOffice.WebApi.Data.AssociateSourceType
+  commentId: T:SuperOffice.WebApi.Data.AssociateSourceType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AssociateSourceType
+  nameWithType: AssociateSourceType
+  fullName: SuperOffice.WebApi.Data.AssociateSourceType
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetMyOwnerAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetMyOwnerAsync
+  isExternal: true
+  name: GetMyOwnerAsync
+  nameWithType: IPersonAgent.GetMyOwnerAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetMyOwnerAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetOwnerOnPersonIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetOwnerOnPersonIdAsync
+  isExternal: true
+  name: GetOwnerOnPersonIdAsync
+  nameWithType: IPersonAgent.GetOwnerOnPersonIdAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetOwnerOnPersonIdAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.ChangePersonRankAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.ChangePersonRankAsync
+  isExternal: true
+  name: ChangePersonRankAsync
+  nameWithType: IPersonAgent.ChangePersonRankAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.ChangePersonRankAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SetPersonRankAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.SetPersonRankAsync
+  isExternal: true
+  name: SetPersonRankAsync
+  nameWithType: IPersonAgent.SetPersonRankAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SetPersonRankAsync
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.NormalizeRanksAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.NormalizeRanksAsync
+  isExternal: true
+  name: NormalizeRanksAsync
+  nameWithType: IPersonAgent.NormalizeRanksAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.NormalizeRanksAsync

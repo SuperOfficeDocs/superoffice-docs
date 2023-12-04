@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest
+  commentId: T:SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest
+  id: DocumentMigration_MigrateTemplateToNewDocPluginRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.#ctor
+  - SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.DocumentTemplateId
+  - SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.TargetDocumentPluginId
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigration_MigrateTemplateToNewDocPluginRequest
+  nameWithType: DocumentMigration_MigrateTemplateToNewDocPluginRequest
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class DocumentMigration_MigrateTemplateToNewDocPluginRequest : Object'
+    content.vb: >-
+      Public Class DocumentMigration_MigrateTemplateToNewDocPluginRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigration_MigrateTemplateToNewDocPluginRequest()
+  nameWithType: DocumentMigration_MigrateTemplateToNewDocPluginRequest.DocumentMigration_MigrateTemplateToNewDocPluginRequest()
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.DocumentMigration_MigrateTemplateToNewDocPluginRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DocumentMigration_MigrateTemplateToNewDocPluginRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.DocumentTemplateId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.DocumentTemplateId
+  id: DocumentTemplateId
+  parent: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplateId
+  nameWithType: DocumentMigration_MigrateTemplateToNewDocPluginRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.DocumentTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.DocumentTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.TargetDocumentPluginId
+  commentId: P:SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.TargetDocumentPluginId
+  id: TargetDocumentPluginId
+  parent: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetDocumentPluginId
+  nameWithType: DocumentMigration_MigrateTemplateToNewDocPluginRequest.TargetDocumentPluginId
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.TargetDocumentPluginId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TargetDocumentPluginId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TargetDocumentPluginId As Integer
+  overload: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.TargetDocumentPluginId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.#ctor
+  isExternal: true
+  name: DocumentMigration_MigrateTemplateToNewDocPluginRequest
+  nameWithType: DocumentMigration_MigrateTemplateToNewDocPluginRequest.DocumentMigration_MigrateTemplateToNewDocPluginRequest
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.DocumentMigration_MigrateTemplateToNewDocPluginRequest
+- uid: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.DocumentTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.DocumentTemplateId
+  isExternal: true
+  name: DocumentTemplateId
+  nameWithType: DocumentMigration_MigrateTemplateToNewDocPluginRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.DocumentTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.TargetDocumentPluginId*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.TargetDocumentPluginId
+  isExternal: true
+  name: TargetDocumentPluginId
+  nameWithType: DocumentMigration_MigrateTemplateToNewDocPluginRequest.TargetDocumentPluginId
+  fullName: SuperOffice.WebApi.Data.DocumentMigration_MigrateTemplateToNewDocPluginRequest.TargetDocumentPluginId

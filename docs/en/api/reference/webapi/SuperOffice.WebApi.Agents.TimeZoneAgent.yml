@@ -10,6 +10,7 @@ items:
   - SuperOffice.WebApi.Agents.TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TimeZoneAgent.DeleteTimeZonesAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TimeZoneAgent.GetBaseTimeZoneIdAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TimeZoneAgent.GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TimeZoneAgent.GetDefaultTimeZonePreferenceAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TimeZoneAgent.InitializeTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -35,27 +36,31 @@ items:
   example:
   - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (TimeZoneAgent agent = new TimeZoneAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
   syntax:
-    content: 'public class TimeZoneAgent : AgentBase, IDisposable'
+    content: 'public class TimeZoneAgent : AgentBase, ITimeZoneAgent, IDisposable'
     content.vb: >-
       Public Class TimeZoneAgent
           Inherits AgentBase
-          Implements IDisposable
+          Implements ITimeZoneAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
+  - SuperOffice.WebApi.Agents.ITimeZoneAgent
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
   - SuperOffice.WebApi.Agents.AgentBase._binary
   - SuperOffice.WebApi.Agents.AgentBase._config
   - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase._disposeClient
   - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
-  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
@@ -66,6 +71,7 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
   - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   modifiers.csharp:
   - public
   - class
@@ -95,7 +101,7 @@ items:
     parameters:
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+      description: Use this HTTP client instead of making own HttpClient instance.
     content.vb: Public Sub New(httpClient As HttpClient)
   overload: SuperOffice.WebApi.Agents.TimeZoneAgent.#ctor*
   modifiers.csharp:
@@ -128,9 +134,44 @@ items:
       description: Base URL and authentication values.
     - id: httpClient
       type: System.Net.Http.HttpClient
-      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+      description: 'Optional: Use this HTTP client instead of making a new one.'
     content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
   overload: SuperOffice.WebApi.Agents.TimeZoneAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TimeZoneAgent.GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TimeZoneAgent.GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TimeZoneAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultTimeZoneInformationAsync(RequestOptions)
+  nameWithType: TimeZoneAgent.GetDefaultTimeZoneInformationAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TimeZoneAgent.GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet information about the current, preferred timezone for the current user. If no such preference has been set, returns the correct fallback (and UserPreferenceId is 0)\n"
+  syntax:
+    content: public Task<PreferredTimeZone> GetDefaultTimeZoneInformationAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferredTimeZone}
+      description: Get information about the current, preferred timezone for the current user.
+    content.vb: Public Function GetDefaultTimeZoneInformationAsync(requestOptions As RequestOptions = Nothing) As Task(Of PreferredTimeZone)
+  overload: SuperOffice.WebApi.Agents.TimeZoneAgent.GetDefaultTimeZoneInformationAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -163,6 +204,8 @@ items:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TimeZoneData[]}
     content.vb: Public Function InitializeTimeZoneDataAsync(requestOptions As RequestOptions = Nothing) As Task(Of TimeZoneData())
   overload: SuperOffice.WebApi.Agents.TimeZoneAgent.InitializeTimeZoneDataAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITimeZoneAgent.InitializeTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -196,6 +239,8 @@ items:
       description: Returns the base timezone id. Returns 0 if not set.
     content.vb: Public Function GetBaseTimeZoneIdAsync(requestOptions As RequestOptions = Nothing) As Task(Of Integer)
   overload: SuperOffice.WebApi.Agents.TimeZoneAgent.GetBaseTimeZoneIdAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITimeZoneAgent.GetBaseTimeZoneIdAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -229,6 +274,8 @@ items:
       description: Returns true if the operation succeeded
     content.vb: Public Function UpdateTimeZoneDataAsync(requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.TimeZoneAgent.UpdateTimeZoneDataAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITimeZoneAgent.UpdateTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -262,6 +309,8 @@ items:
       description: Returns true if new timezone info is found available, false otherwise
     content.vb: Public Function CheckNewTimeZoneDataAvailableAsync(requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -297,6 +346,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function ToggleActiveTimeZoneRowAsync(id As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.TimeZoneAgent.ToggleActiveTimeZoneRowAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -335,6 +386,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SetActiveTimeZonesByFilterAsync(filter As String, active As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.TimeZoneAgent.SetActiveTimeZonesByFilterAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -368,6 +421,8 @@ items:
       description: Time of last update
     content.vb: Public Function TimeOfLastTimeZoneUpdateAsync(requestOptions As RequestOptions = Nothing) As Task(Of DateTime)
   overload: SuperOffice.WebApi.Agents.TimeZoneAgent.TimeOfLastTimeZoneUpdateAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -404,6 +459,8 @@ items:
       description: Returns true if setting of base timezone was done
     content.vb: Public Function SetBaseTimeZoneIdAsync(timezoneId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.TimeZoneAgent.SetBaseTimeZoneIdAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -437,6 +494,8 @@ items:
       description: The id of the system wide default timezone preference
     content.vb: Public Function GetDefaultTimeZonePreferenceAsync(requestOptions As RequestOptions = Nothing) As Task(Of Integer)
   overload: SuperOffice.WebApi.Agents.TimeZoneAgent.GetDefaultTimeZonePreferenceAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -469,6 +528,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function DeleteTimeZonesAsync(requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.TimeZoneAgent.DeleteTimeZonesAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITimeZoneAgent.DeleteTimeZonesAsync(SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -507,6 +568,8 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function SetActiveTimeZoneRowAsync(id As Integer, active As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.TimeZoneAgent.SetActiveTimeZoneRowAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -532,6 +595,13 @@ references:
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.ITimeZoneAgent
+  commentId: T:SuperOffice.WebApi.Agents.ITimeZoneAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: ITimeZoneAgent
+  nameWithType: ITimeZoneAgent
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent
 - uid: System.IDisposable
   isExternal: true
   name: IDisposable
@@ -565,6 +635,13 @@ references:
   name: _client
   nameWithType: AgentBase._client
   fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _disposeClient
+  nameWithType: AgentBase._disposeClient
+  fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
 - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
@@ -816,32 +893,136 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: ParseAuthorization(IAuthorization)
-  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  name: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
-    name: ParseAuthorization
-    nameWithType: AgentBase.ParseAuthorization
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
-    name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
     nameWithType: AgentBase.ParseAuthorization
     fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
@@ -849,10 +1030,27 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - uid: SuperOffice.WebApi.IAuthorization
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
     nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Authorization.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
     nameWithType: )
@@ -973,6 +1171,127 @@ references:
     name: Object
     nameWithType: Object
     fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -1258,6 +1577,13 @@ references:
   name: ProgressListener
   nameWithType: AgentBase.ProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: UploadProgressListener
+  nameWithType: AgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1288,12 +1614,53 @@ references:
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
-- uid: SuperOffice.WebApi.Agents.TimeZoneAgent.InitializeTimeZoneDataAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.TimeZoneAgent.InitializeTimeZoneDataAsync
+- uid: SuperOffice.WebApi.Agents.TimeZoneAgent.GetDefaultTimeZoneInformationAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TimeZoneAgent.GetDefaultTimeZoneInformationAsync
   isExternal: true
-  name: InitializeTimeZoneDataAsync
-  nameWithType: TimeZoneAgent.InitializeTimeZoneDataAsync
-  fullName: SuperOffice.WebApi.Agents.TimeZoneAgent.InitializeTimeZoneDataAsync
+  name: GetDefaultTimeZoneInformationAsync
+  nameWithType: TimeZoneAgent.GetDefaultTimeZoneInformationAsync
+  fullName: SuperOffice.WebApi.Agents.TimeZoneAgent.GetDefaultTimeZoneInformationAsync
+- uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITimeZoneAgent
+  isExternal: true
+  name: GetDefaultTimeZoneInformationAsync(RequestOptions)
+  nameWithType: ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetDefaultTimeZoneInformationAsync
+    nameWithType: ITimeZoneAgent.GetDefaultTimeZoneInformationAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetDefaultTimeZoneInformationAsync
+    nameWithType: ITimeZoneAgent.GetDefaultTimeZoneInformationAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
@@ -1301,6 +1668,134 @@ references:
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferredTimeZone}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferredTimeZone}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PreferredTimeZone>
+  nameWithType: Task<PreferredTimeZone>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.PreferredTimeZone>
+  nameWithType.vb: Task(Of PreferredTimeZone)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.PreferredTimeZone)
+  name.vb: Task(Of PreferredTimeZone)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.PreferredTimeZone
+    name: PreferredTimeZone
+    nameWithType: PreferredTimeZone
+    fullName: SuperOffice.WebApi.Data.PreferredTimeZone
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.PreferredTimeZone
+    name: PreferredTimeZone
+    nameWithType: PreferredTimeZone
+    fullName: SuperOffice.WebApi.Data.PreferredTimeZone
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.TimeZoneAgent.InitializeTimeZoneDataAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TimeZoneAgent.InitializeTimeZoneDataAsync
+  isExternal: true
+  name: InitializeTimeZoneDataAsync
+  nameWithType: TimeZoneAgent.InitializeTimeZoneDataAsync
+  fullName: SuperOffice.WebApi.Agents.TimeZoneAgent.InitializeTimeZoneDataAsync
+- uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.InitializeTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.InitializeTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITimeZoneAgent
+  isExternal: true
+  name: InitializeTimeZoneDataAsync(RequestOptions)
+  nameWithType: ITimeZoneAgent.InitializeTimeZoneDataAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.InitializeTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.InitializeTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
+    name: InitializeTimeZoneDataAsync
+    nameWithType: ITimeZoneAgent.InitializeTimeZoneDataAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.InitializeTimeZoneDataAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.InitializeTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
+    name: InitializeTimeZoneDataAsync
+    nameWithType: ITimeZoneAgent.InitializeTimeZoneDataAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.InitializeTimeZoneDataAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TimeZoneData[]}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TimeZoneData[]}'
   definition: System.Threading.Tasks.Task`1
@@ -1350,50 +1845,53 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Threading.Tasks.Task`1
-  isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.TimeZoneAgent.GetBaseTimeZoneIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.TimeZoneAgent.GetBaseTimeZoneIdAsync
   isExternal: true
   name: GetBaseTimeZoneIdAsync
   nameWithType: TimeZoneAgent.GetBaseTimeZoneIdAsync
   fullName: SuperOffice.WebApi.Agents.TimeZoneAgent.GetBaseTimeZoneIdAsync
+- uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetBaseTimeZoneIdAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.GetBaseTimeZoneIdAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITimeZoneAgent
+  isExternal: true
+  name: GetBaseTimeZoneIdAsync(RequestOptions)
+  nameWithType: ITimeZoneAgent.GetBaseTimeZoneIdAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetBaseTimeZoneIdAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetBaseTimeZoneIdAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetBaseTimeZoneIdAsync
+    nameWithType: ITimeZoneAgent.GetBaseTimeZoneIdAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetBaseTimeZoneIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetBaseTimeZoneIdAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetBaseTimeZoneIdAsync
+    nameWithType: ITimeZoneAgent.GetBaseTimeZoneIdAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetBaseTimeZoneIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{System.Int32}
   commentId: '!:System.Threading.Tasks.Task{System.Int32}'
   definition: System.Threading.Tasks.Task`1
@@ -1443,6 +1941,47 @@ references:
   name: UpdateTimeZoneDataAsync
   nameWithType: TimeZoneAgent.UpdateTimeZoneDataAsync
   fullName: SuperOffice.WebApi.Agents.TimeZoneAgent.UpdateTimeZoneDataAsync
+- uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.UpdateTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.UpdateTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITimeZoneAgent
+  isExternal: true
+  name: UpdateTimeZoneDataAsync(RequestOptions)
+  nameWithType: ITimeZoneAgent.UpdateTimeZoneDataAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.UpdateTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.UpdateTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
+    name: UpdateTimeZoneDataAsync
+    nameWithType: ITimeZoneAgent.UpdateTimeZoneDataAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.UpdateTimeZoneDataAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.UpdateTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
+    name: UpdateTimeZoneDataAsync
+    nameWithType: ITimeZoneAgent.UpdateTimeZoneDataAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.UpdateTimeZoneDataAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{System.Boolean}
   commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
   definition: System.Threading.Tasks.Task`1
@@ -1492,12 +2031,110 @@ references:
   name: CheckNewTimeZoneDataAvailableAsync
   nameWithType: TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync
   fullName: SuperOffice.WebApi.Agents.TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync
+- uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITimeZoneAgent
+  isExternal: true
+  name: CheckNewTimeZoneDataAvailableAsync(RequestOptions)
+  nameWithType: ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(SuperOffice.WebApi.RequestOptions)
+    name: CheckNewTimeZoneDataAvailableAsync
+    nameWithType: ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(SuperOffice.WebApi.RequestOptions)
+    name: CheckNewTimeZoneDataAvailableAsync
+    nameWithType: ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.TimeZoneAgent.ToggleActiveTimeZoneRowAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.TimeZoneAgent.ToggleActiveTimeZoneRowAsync
   isExternal: true
   name: ToggleActiveTimeZoneRowAsync
   nameWithType: TimeZoneAgent.ToggleActiveTimeZoneRowAsync
   fullName: SuperOffice.WebApi.Agents.TimeZoneAgent.ToggleActiveTimeZoneRowAsync
+- uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITimeZoneAgent
+  isExternal: true
+  name: ToggleActiveTimeZoneRowAsync(Int32, RequestOptions)
+  nameWithType: ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ToggleActiveTimeZoneRowAsync
+    nameWithType: ITimeZoneAgent.ToggleActiveTimeZoneRowAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ToggleActiveTimeZoneRowAsync
+    nameWithType: ITimeZoneAgent.ToggleActiveTimeZoneRowAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1516,6 +2153,79 @@ references:
   name: SetActiveTimeZonesByFilterAsync
   nameWithType: TimeZoneAgent.SetActiveTimeZonesByFilterAsync
   fullName: SuperOffice.WebApi.Agents.TimeZoneAgent.SetActiveTimeZonesByFilterAsync
+- uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITimeZoneAgent
+  isExternal: true
+  name: SetActiveTimeZonesByFilterAsync(String, Boolean, RequestOptions)
+  nameWithType: ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(String, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: SetActiveTimeZonesByFilterAsync
+    nameWithType: ITimeZoneAgent.SetActiveTimeZonesByFilterAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: SetActiveTimeZonesByFilterAsync
+    nameWithType: ITimeZoneAgent.SetActiveTimeZonesByFilterAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1536,6 +2246,47 @@ references:
   name: TimeOfLastTimeZoneUpdateAsync
   nameWithType: TimeZoneAgent.TimeOfLastTimeZoneUpdateAsync
   fullName: SuperOffice.WebApi.Agents.TimeZoneAgent.TimeOfLastTimeZoneUpdateAsync
+- uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITimeZoneAgent
+  isExternal: true
+  name: TimeOfLastTimeZoneUpdateAsync(RequestOptions)
+  nameWithType: ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(SuperOffice.WebApi.RequestOptions)
+    name: TimeOfLastTimeZoneUpdateAsync
+    nameWithType: ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(SuperOffice.WebApi.RequestOptions)
+    name: TimeOfLastTimeZoneUpdateAsync
+    nameWithType: ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{System.DateTime}
   commentId: '!:System.Threading.Tasks.Task{System.DateTime}'
   definition: System.Threading.Tasks.Task`1
@@ -1585,21 +2336,233 @@ references:
   name: SetBaseTimeZoneIdAsync
   nameWithType: TimeZoneAgent.SetBaseTimeZoneIdAsync
   fullName: SuperOffice.WebApi.Agents.TimeZoneAgent.SetBaseTimeZoneIdAsync
+- uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITimeZoneAgent
+  isExternal: true
+  name: SetBaseTimeZoneIdAsync(Int32, RequestOptions)
+  nameWithType: ITimeZoneAgent.SetBaseTimeZoneIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: SetBaseTimeZoneIdAsync
+    nameWithType: ITimeZoneAgent.SetBaseTimeZoneIdAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: SetBaseTimeZoneIdAsync
+    nameWithType: ITimeZoneAgent.SetBaseTimeZoneIdAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.TimeZoneAgent.GetDefaultTimeZonePreferenceAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.TimeZoneAgent.GetDefaultTimeZonePreferenceAsync
   isExternal: true
   name: GetDefaultTimeZonePreferenceAsync
   nameWithType: TimeZoneAgent.GetDefaultTimeZonePreferenceAsync
   fullName: SuperOffice.WebApi.Agents.TimeZoneAgent.GetDefaultTimeZonePreferenceAsync
+- uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITimeZoneAgent
+  isExternal: true
+  name: GetDefaultTimeZonePreferenceAsync(RequestOptions)
+  nameWithType: ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetDefaultTimeZonePreferenceAsync
+    nameWithType: ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetDefaultTimeZonePreferenceAsync
+    nameWithType: ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.TimeZoneAgent.DeleteTimeZonesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.TimeZoneAgent.DeleteTimeZonesAsync
   isExternal: true
   name: DeleteTimeZonesAsync
   nameWithType: TimeZoneAgent.DeleteTimeZonesAsync
   fullName: SuperOffice.WebApi.Agents.TimeZoneAgent.DeleteTimeZonesAsync
+- uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.DeleteTimeZonesAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.DeleteTimeZonesAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITimeZoneAgent
+  isExternal: true
+  name: DeleteTimeZonesAsync(RequestOptions)
+  nameWithType: ITimeZoneAgent.DeleteTimeZonesAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.DeleteTimeZonesAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.DeleteTimeZonesAsync(SuperOffice.WebApi.RequestOptions)
+    name: DeleteTimeZonesAsync
+    nameWithType: ITimeZoneAgent.DeleteTimeZonesAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.DeleteTimeZonesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.DeleteTimeZonesAsync(SuperOffice.WebApi.RequestOptions)
+    name: DeleteTimeZonesAsync
+    nameWithType: ITimeZoneAgent.DeleteTimeZonesAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.DeleteTimeZonesAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.TimeZoneAgent.SetActiveTimeZoneRowAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.TimeZoneAgent.SetActiveTimeZoneRowAsync
   isExternal: true
   name: SetActiveTimeZoneRowAsync
   nameWithType: TimeZoneAgent.SetActiveTimeZoneRowAsync
   fullName: SuperOffice.WebApi.Agents.TimeZoneAgent.SetActiveTimeZoneRowAsync
+- uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITimeZoneAgent
+  isExternal: true
+  name: SetActiveTimeZoneRowAsync(Int32, Boolean, RequestOptions)
+  nameWithType: ITimeZoneAgent.SetActiveTimeZoneRowAsync(Int32, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: SetActiveTimeZoneRowAsync
+    nameWithType: ITimeZoneAgent.SetActiveTimeZoneRowAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: SetActiveTimeZoneRowAsync
+    nameWithType: ITimeZoneAgent.SetActiveTimeZoneRowAsync
+    fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

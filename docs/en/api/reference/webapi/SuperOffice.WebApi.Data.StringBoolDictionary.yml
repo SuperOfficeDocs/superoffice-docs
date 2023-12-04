@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.StringBoolDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringBoolDictionary
+  id: StringBoolDictionary
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.StringBoolDictionary.#ctor
+  - SuperOffice.WebApi.Data.StringBoolDictionary.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: StringBoolDictionary
+  nameWithType: StringBoolDictionary
+  fullName: SuperOffice.WebApi.Data.StringBoolDictionary
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSerializable dictionary.\nThis class works as a regular dictionary. The only restriction is that the string is a value type\n"
+  syntax:
+    content: 'public class StringBoolDictionary : Dictionary<string, bool>'
+    content.vb: >-
+      Public Class StringBoolDictionary
+          Inherits Dictionary(Of String, Boolean)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.StringBoolDictionary.#ctor
+  commentId: M:SuperOffice.WebApi.Data.StringBoolDictionary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.StringBoolDictionary
+  langs:
+  - csharp
+  - vb
+  name: StringBoolDictionary()
+  nameWithType: StringBoolDictionary.StringBoolDictionary()
+  fullName: SuperOffice.WebApi.Data.StringBoolDictionary.StringBoolDictionary()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public StringBoolDictionary()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.StringBoolDictionary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.StringBoolDictionary.ToString(System.String)
+  commentId: M:SuperOffice.WebApi.Data.StringBoolDictionary.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.WebApi.Data.StringBoolDictionary
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: StringBoolDictionary.ToString(String)
+  fullName: SuperOffice.WebApi.Data.StringBoolDictionary.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.WebApi.Data.StringBoolDictionary.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.StringBoolDictionary.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.StringBoolDictionary.#ctor
+  isExternal: true
+  name: StringBoolDictionary
+  nameWithType: StringBoolDictionary.StringBoolDictionary
+  fullName: SuperOffice.WebApi.Data.StringBoolDictionary.StringBoolDictionary
+- uid: SuperOffice.WebApi.Data.StringBoolDictionary.ToString*
+  commentId: Overload:SuperOffice.WebApi.Data.StringBoolDictionary.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: StringBoolDictionary.ToString
+  fullName: SuperOffice.WebApi.Data.StringBoolDictionary.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

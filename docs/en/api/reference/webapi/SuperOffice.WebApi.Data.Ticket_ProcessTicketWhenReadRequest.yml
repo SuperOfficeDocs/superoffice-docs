@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest
+  id: Ticket_ProcessTicketWhenReadRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.TicketEntityId
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ProcessTicketWhenReadRequest
+  nameWithType: Ticket_ProcessTicketWhenReadRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_ProcessTicketWhenReadRequest : Object'
+    content.vb: >-
+      Public Class Ticket_ProcessTicketWhenReadRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ProcessTicketWhenReadRequest()
+  nameWithType: Ticket_ProcessTicketWhenReadRequest.Ticket_ProcessTicketWhenReadRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.Ticket_ProcessTicketWhenReadRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_ProcessTicketWhenReadRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.TicketEntityId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.TicketEntityId
+  id: TicketEntityId
+  parent: SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketEntityId
+  nameWithType: Ticket_ProcessTicketWhenReadRequest.TicketEntityId
+  fullName: SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.TicketEntityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketEntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketEntityId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.TicketEntityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.#ctor
+  isExternal: true
+  name: Ticket_ProcessTicketWhenReadRequest
+  nameWithType: Ticket_ProcessTicketWhenReadRequest.Ticket_ProcessTicketWhenReadRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.Ticket_ProcessTicketWhenReadRequest
+- uid: SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.TicketEntityId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.TicketEntityId
+  isExternal: true
+  name: TicketEntityId
+  nameWithType: Ticket_ProcessTicketWhenReadRequest.TicketEntityId
+  fullName: SuperOffice.WebApi.Data.Ticket_ProcessTicketWhenReadRequest.TicketEntityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

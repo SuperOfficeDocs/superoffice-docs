@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItem
+  commentId: T:SuperOffice.WebApi.Data.MessageHeaderStdItem
+  id: MessageHeaderStdItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MessageHeaderStdItem.CustomerReadFAQ
+  - SuperOffice.WebApi.Data.MessageHeaderStdItem.Forward
+  - SuperOffice.WebApi.Data.MessageHeaderStdItem.NoAutoReply
+  - SuperOffice.WebApi.Data.MessageHeaderStdItem.None
+  - SuperOffice.WebApi.Data.MessageHeaderStdItem.ReplyTemplate
+  - SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
+  - SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
+  - SuperOffice.WebApi.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
+  - SuperOffice.WebApi.Data.MessageHeaderStdItem.value__
+  langs:
+  - csharp
+  - vb
+  name: MessageHeaderStdItem
+  nameWithType: MessageHeaderStdItem
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStandard/predefined values for ticket message header\n"
+  syntax:
+    content: 'public sealed class MessageHeaderStdItem : Enum'
+    content.vb: >-
+      Public NotInheritable Class MessageHeaderStdItem
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.value__
+  commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MessageHeaderStdItem.value__
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.None
+  commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.None
+  id: None
+  parent: SuperOffice.WebApi.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: MessageHeaderStdItem.None
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: A standard header without predefined meaning\n"
+  syntax:
+    content: public const MessageHeaderStdItem None
+    return:
+      type: SuperOffice.WebApi.Data.MessageHeaderStdItem
+    content.vb: Public Const None As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.Forward
+  commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.Forward
+  id: Forward
+  parent: SuperOffice.WebApi.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: Forward
+  nameWithType: MessageHeaderStdItem.Forward
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.Forward
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Forward\n"
+  syntax:
+    content: public const MessageHeaderStdItem Forward
+    return:
+      type: SuperOffice.WebApi.Data.MessageHeaderStdItem
+    content.vb: Public Const Forward As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
+  commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
+  id: UnnamedAttachmentBlocked
+  parent: SuperOffice.WebApi.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: UnnamedAttachmentBlocked
+  nameWithType: MessageHeaderStdItem.UnnamedAttachmentBlocked
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Message contains certain attachments we simply do not import\n"
+  syntax:
+    content: public const MessageHeaderStdItem UnnamedAttachmentBlocked
+    return:
+      type: SuperOffice.WebApi.Data.MessageHeaderStdItem
+    content.vb: Public Const UnnamedAttachmentBlocked As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.NoAutoReply
+  commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.NoAutoReply
+  id: NoAutoReply
+  parent: SuperOffice.WebApi.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: NoAutoReply
+  nameWithType: MessageHeaderStdItem.NoAutoReply
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.NoAutoReply
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: NoAutoReply\n"
+  syntax:
+    content: public const MessageHeaderStdItem NoAutoReply
+    return:
+      type: SuperOffice.WebApi.Data.MessageHeaderStdItem
+    content.vb: Public Const NoAutoReply As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
+  commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
+  id: SentAutoReplyToCustomersA
+  parent: SuperOffice.WebApi.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: SentAutoReplyToCustomersA
+  nameWithType: MessageHeaderStdItem.SentAutoReplyToCustomersA
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Auto-reply sent to customers A\n"
+  syntax:
+    content: public const MessageHeaderStdItem SentAutoReplyToCustomersA
+    return:
+      type: SuperOffice.WebApi.Data.MessageHeaderStdItem
+    content.vb: Public Const SentAutoReplyToCustomersA As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
+  commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
+  id: SentAutoReplyToCustomersB
+  parent: SuperOffice.WebApi.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: SentAutoReplyToCustomersB
+  nameWithType: MessageHeaderStdItem.SentAutoReplyToCustomersB
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Auto-reply sent to customers B\n"
+  syntax:
+    content: public const MessageHeaderStdItem SentAutoReplyToCustomersB
+    return:
+      type: SuperOffice.WebApi.Data.MessageHeaderStdItem
+    content.vb: Public Const SentAutoReplyToCustomersB As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.CustomerReadFAQ
+  commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.CustomerReadFAQ
+  id: CustomerReadFAQ
+  parent: SuperOffice.WebApi.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: CustomerReadFAQ
+  nameWithType: MessageHeaderStdItem.CustomerReadFAQ
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.CustomerReadFAQ
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Customer read FAQ\n"
+  syntax:
+    content: public const MessageHeaderStdItem CustomerReadFAQ
+    return:
+      type: SuperOffice.WebApi.Data.MessageHeaderStdItem
+    content.vb: Public Const CustomerReadFAQ As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.ReplyTemplate
+  commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.ReplyTemplate
+  id: ReplyTemplate
+  parent: SuperOffice.WebApi.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplate
+  nameWithType: MessageHeaderStdItem.ReplyTemplate
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.ReplyTemplate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: This message was generated from reply template\n"
+  syntax:
+    content: public const MessageHeaderStdItem ReplyTemplate
+    return:
+      type: SuperOffice.WebApi.Data.MessageHeaderStdItem
+    content.vb: Public Const ReplyTemplate As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItem
+  commentId: T:SuperOffice.WebApi.Data.MessageHeaderStdItem
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: MessageHeaderStdItem
+  nameWithType: MessageHeaderStdItem
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem

@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.License.UserLicenseAttribute
+  commentId: T:SuperOffice.License.UserLicenseAttribute
+  id: UserLicenseAttribute
+  parent: SuperOffice.License
+  children:
+  - SuperOffice.License.UserLicenseAttribute.#ctor
+  langs:
+  - csharp
+  - vb
+  name: UserLicenseAttribute
+  nameWithType: UserLicenseAttribute
+  fullName: SuperOffice.License.UserLicenseAttribute
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: "\nMark user licenses, so we can discover them by reflection.\n"
+  syntax:
+    content: 'public class UserLicenseAttribute : Attribute'
+    content.vb: >-
+      Public Class UserLicenseAttribute
+          Inherits Attribute
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.License.UserLicenseAttribute.#ctor
+  commentId: M:SuperOffice.License.UserLicenseAttribute.#ctor
+  id: '#ctor'
+  parent: SuperOffice.License.UserLicenseAttribute
+  langs:
+  - csharp
+  - vb
+  name: UserLicenseAttribute()
+  nameWithType: UserLicenseAttribute.UserLicenseAttribute()
+  fullName: SuperOffice.License.UserLicenseAttribute.UserLicenseAttribute()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  syntax:
+    content: public UserLicenseAttribute()
+    content.vb: Public Sub New
+  overload: SuperOffice.License.UserLicenseAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.License.UserLicenseAttribute.#ctor*
+  commentId: Overload:SuperOffice.License.UserLicenseAttribute.#ctor
+  isExternal: true
+  name: UserLicenseAttribute
+  nameWithType: UserLicenseAttribute.UserLicenseAttribute
+  fullName: SuperOffice.License.UserLicenseAttribute.UserLicenseAttribute

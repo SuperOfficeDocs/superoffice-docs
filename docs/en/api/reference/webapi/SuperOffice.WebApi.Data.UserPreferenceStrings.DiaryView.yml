@@ -5,6 +5,7 @@ items:
   id: UserPreferenceStrings.DiaryView
   parent: SuperOffice.WebApi.Data
   children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.AlarmOnFollowUp
   - SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.AllDayEndTime
   - SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.AllDayStartTime
   - SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.DefaultAlarmTime
@@ -477,6 +478,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const SundayFirstDay As String = "SundayFirstDay"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.AlarmOnFollowUp
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.AlarmOnFollowUp
+  id: AlarmOnFollowUp
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: AlarmOnFollowUp
+  nameWithType: UserPreferenceStrings.DiaryView.AlarmOnFollowUp
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.AlarmOnFollowUp
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen accepting a meeting invitation, this alarm setting will be used for the meeting. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string AlarmOnFollowUp = "AlarmOnFollowUp"
+    return:
+      type: System.String
+    content.vb: Public Const AlarmOnFollowUp As String = "AlarmOnFollowUp"
   modifiers.csharp:
   - public
   - const

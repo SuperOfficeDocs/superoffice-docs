@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.TicketSummaryItem.#ctor
+  - SuperOffice.WebApi.Data.TicketSummaryItem.IconHint
   - SuperOffice.WebApi.Data.TicketSummaryItem.Registered
   - SuperOffice.WebApi.Data.TicketSummaryItem.TicketId
   - SuperOffice.WebApi.Data.TicketSummaryItem.TicketStatus
@@ -198,6 +199,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem.IconHint
+  commentId: P:SuperOffice.WebApi.Data.TicketSummaryItem.IconHint
+  id: IconHint
+  parent: SuperOffice.WebApi.Data.TicketSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: IconHint
+  nameWithType: TicketSummaryItem.IconHint
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem.IconHint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIcon representing ticket&apos;s state\n"
+  syntax:
+    content: public virtual string IconHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property IconHint As String
+  overload: SuperOffice.WebApi.Data.TicketSummaryItem.IconHint*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -273,3 +307,9 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.TicketSummaryItem.IconHint*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketSummaryItem.IconHint
+  isExternal: true
+  name: IconHint
+  nameWithType: TicketSummaryItem.IconHint
+  fullName: SuperOffice.WebApi.Data.TicketSummaryItem.IconHint

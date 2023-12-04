@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest
+  id: Diagnostics_GetEntityCountsForAllUsersRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_GetEntityCountsForAllUsersRequest
+  nameWithType: Diagnostics_GetEntityCountsForAllUsersRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Diagnostics_GetEntityCountsForAllUsersRequest : Object'
+    content.vb: >-
+      Public Class Diagnostics_GetEntityCountsForAllUsersRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics_GetEntityCountsForAllUsersRequest()
+  nameWithType: Diagnostics_GetEntityCountsForAllUsersRequest.Diagnostics_GetEntityCountsForAllUsersRequest()
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest.Diagnostics_GetEntityCountsForAllUsersRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Diagnostics_GetEntityCountsForAllUsersRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest.#ctor
+  isExternal: true
+  name: Diagnostics_GetEntityCountsForAllUsersRequest
+  nameWithType: Diagnostics_GetEntityCountsForAllUsersRequest.Diagnostics_GetEntityCountsForAllUsersRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest.Diagnostics_GetEntityCountsForAllUsersRequest

@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AttachmentValidationResult
+  commentId: T:SuperOffice.WebApi.Data.AttachmentValidationResult
+  id: AttachmentValidationResult
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AttachmentValidationResult.#ctor
+  - SuperOffice.WebApi.Data.AttachmentValidationResult.AttachmentId
+  - SuperOffice.WebApi.Data.AttachmentValidationResult.ErrorMessage
+  - SuperOffice.WebApi.Data.AttachmentValidationResult.IsValid
+  langs:
+  - csharp
+  - vb
+  name: AttachmentValidationResult
+  nameWithType: AttachmentValidationResult
+  fullName: SuperOffice.WebApi.Data.AttachmentValidationResult
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for AttachmentValidationResult.\nAttachment validation info    \n"
+  syntax:
+    content: 'public class AttachmentValidationResult : Object'
+    content.vb: >-
+      Public Class AttachmentValidationResult
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.TicketAgent
+    commentId: T:SuperOffice.WebApi.Agents.TicketAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AttachmentValidationResult.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AttachmentValidationResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AttachmentValidationResult
+  langs:
+  - csharp
+  - vb
+  name: AttachmentValidationResult()
+  nameWithType: AttachmentValidationResult.AttachmentValidationResult()
+  fullName: SuperOffice.WebApi.Data.AttachmentValidationResult.AttachmentValidationResult()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public AttachmentValidationResult()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AttachmentValidationResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AttachmentValidationResult.AttachmentId
+  commentId: P:SuperOffice.WebApi.Data.AttachmentValidationResult.AttachmentId
+  id: AttachmentId
+  parent: SuperOffice.WebApi.Data.AttachmentValidationResult
+  langs:
+  - csharp
+  - vb
+  name: AttachmentId
+  nameWithType: AttachmentValidationResult.AttachmentId
+  fullName: SuperOffice.WebApi.Data.AttachmentValidationResult.AttachmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public virtual int AttachmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AttachmentId As Integer
+  overload: SuperOffice.WebApi.Data.AttachmentValidationResult.AttachmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AttachmentValidationResult.IsValid
+  commentId: P:SuperOffice.WebApi.Data.AttachmentValidationResult.IsValid
+  id: IsValid
+  parent: SuperOffice.WebApi.Data.AttachmentValidationResult
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: AttachmentValidationResult.IsValid
+  fullName: SuperOffice.WebApi.Data.AttachmentValidationResult.IsValid
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates if the attachment is valid\n"
+  syntax:
+    content: public virtual bool IsValid { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsValid As Boolean
+  overload: SuperOffice.WebApi.Data.AttachmentValidationResult.IsValid*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AttachmentValidationResult.ErrorMessage
+  commentId: P:SuperOffice.WebApi.Data.AttachmentValidationResult.ErrorMessage
+  id: ErrorMessage
+  parent: SuperOffice.WebApi.Data.AttachmentValidationResult
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: AttachmentValidationResult.ErrorMessage
+  fullName: SuperOffice.WebApi.Data.AttachmentValidationResult.ErrorMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nError message for invalid attachment\n"
+  syntax:
+    content: public virtual string ErrorMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErrorMessage As String
+  overload: SuperOffice.WebApi.Data.AttachmentValidationResult.ErrorMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.TicketAgent
+  commentId: T:SuperOffice.WebApi.Agents.TicketAgent
+  isExternal: true
+  name: TicketAgent
+  nameWithType: TicketAgent
+  fullName: SuperOffice.WebApi.Agents.TicketAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AttachmentValidationResult.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AttachmentValidationResult.#ctor
+  isExternal: true
+  name: AttachmentValidationResult
+  nameWithType: AttachmentValidationResult.AttachmentValidationResult
+  fullName: SuperOffice.WebApi.Data.AttachmentValidationResult.AttachmentValidationResult
+- uid: SuperOffice.WebApi.Data.AttachmentValidationResult.AttachmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.AttachmentValidationResult.AttachmentId
+  isExternal: true
+  name: AttachmentId
+  nameWithType: AttachmentValidationResult.AttachmentId
+  fullName: SuperOffice.WebApi.Data.AttachmentValidationResult.AttachmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AttachmentValidationResult.IsValid*
+  commentId: Overload:SuperOffice.WebApi.Data.AttachmentValidationResult.IsValid
+  isExternal: true
+  name: IsValid
+  nameWithType: AttachmentValidationResult.IsValid
+  fullName: SuperOffice.WebApi.Data.AttachmentValidationResult.IsValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.AttachmentValidationResult.ErrorMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.AttachmentValidationResult.ErrorMessage
+  isExternal: true
+  name: ErrorMessage
+  nameWithType: AttachmentValidationResult.ErrorMessage
+  fullName: SuperOffice.WebApi.Data.AttachmentValidationResult.ErrorMessage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

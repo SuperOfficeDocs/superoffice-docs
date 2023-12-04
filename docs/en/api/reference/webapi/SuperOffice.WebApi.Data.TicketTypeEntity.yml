@@ -1,0 +1,657 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity
+  commentId: T:SuperOffice.WebApi.Data.TicketTypeEntity
+  id: TicketTypeEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketTypeEntity.#ctor
+  - SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketPriority
+  - SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketStatus
+  - SuperOffice.WebApi.Data.TicketTypeEntity.Icon
+  - SuperOffice.WebApi.Data.TicketTypeEntity.IsDefault
+  - SuperOffice.WebApi.Data.TicketTypeEntity.IsExternalVisible
+  - SuperOffice.WebApi.Data.TicketTypeEntity.Name
+  - SuperOffice.WebApi.Data.TicketTypeEntity.Rank
+  - SuperOffice.WebApi.Data.TicketTypeEntity.ReplyTemplate
+  - SuperOffice.WebApi.Data.TicketTypeEntity.TicketPriorities
+  - SuperOffice.WebApi.Data.TicketTypeEntity.TicketStatuses
+  - SuperOffice.WebApi.Data.TicketTypeEntity.TicketTypeId
+  - SuperOffice.WebApi.Data.TicketTypeEntity.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: TicketTypeEntity
+  nameWithType: TicketTypeEntity
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TicketTypeEntity.\nEntity for a ticket (Request) type. This enables having diversified tickets needed for a specific process.    \n"
+  example:
+  - "\nGet TicketTypeEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar ticketTypeEntity = agent.GetTicketTypeEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class TicketTypeEntity : Carrier'
+    content.vb: >-
+      Public Class TicketTypeEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TicketTypeEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketTypeEntity()
+  nameWithType: TicketTypeEntity.TicketTypeEntity()
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.TicketTypeEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TicketTypeEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.TicketTypeId
+  commentId: P:SuperOffice.WebApi.Data.TicketTypeEntity.TicketTypeId
+  id: TicketTypeId
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketTypeId
+  nameWithType: TicketTypeEntity.TicketTypeId
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.TicketTypeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int TicketTypeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketTypeId As Integer
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.TicketTypeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.TicketTypeEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TicketTypeEntity.Name
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe list item\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.Rank
+  commentId: P:SuperOffice.WebApi.Data.TicketTypeEntity.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: TicketTypeEntity.Rank
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank order\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.TicketTypeEntity.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: TicketTypeEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip or other description\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.Icon
+  commentId: P:SuperOffice.WebApi.Data.TicketTypeEntity.Icon
+  id: Icon
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: TicketTypeEntity.Icon
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.Icon
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the icon\n"
+  syntax:
+    content: public virtual string Icon { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Icon As String
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.Icon*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketStatus
+  commentId: P:SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketStatus
+  id: DefaultTicketStatus
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: DefaultTicketStatus
+  nameWithType: TicketTypeEntity.DefaultTicketStatus
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault ticket status for new tickets\n"
+  syntax:
+    content: public virtual int DefaultTicketStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DefaultTicketStatus As Integer
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.TicketStatuses
+  commentId: P:SuperOffice.WebApi.Data.TicketTypeEntity.TicketStatuses
+  id: TicketStatuses
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketStatuses
+  nameWithType: TicketTypeEntity.TicketStatuses
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.TicketStatuses
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRelevant/available ticket statuses for this Request type. Empty field means all statuses are available.\n"
+  syntax:
+    content: public virtual int[] TicketStatuses { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property TicketStatuses As Integer()
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.TicketStatuses*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketPriority
+  commentId: P:SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketPriority
+  id: DefaultTicketPriority
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: DefaultTicketPriority
+  nameWithType: TicketTypeEntity.DefaultTicketPriority
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketPriority
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault ticket priority for new tickets\n"
+  syntax:
+    content: public virtual int DefaultTicketPriority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DefaultTicketPriority As Integer
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketPriority*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.TicketPriorities
+  commentId: P:SuperOffice.WebApi.Data.TicketTypeEntity.TicketPriorities
+  id: TicketPriorities
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorities
+  nameWithType: TicketTypeEntity.TicketPriorities
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.TicketPriorities
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRelevant/available ticket priorities for this Request type. Empty field means all priorities are available.\n"
+  syntax:
+    content: public virtual int[] TicketPriorities { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property TicketPriorities As Integer()
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.TicketPriorities*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyTemplate
+  commentId: P:SuperOffice.WebApi.Data.TicketTypeEntity.ReplyTemplate
+  id: ReplyTemplate
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplate
+  nameWithType: TicketTypeEntity.ReplyTemplate
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyTemplate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReply template to use when replying to a ticket of this type\n"
+  syntax:
+    content: public virtual int ReplyTemplate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplate As Integer
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyTemplate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.IsExternalVisible
+  commentId: P:SuperOffice.WebApi.Data.TicketTypeEntity.IsExternalVisible
+  id: IsExternalVisible
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: IsExternalVisible
+  nameWithType: TicketTypeEntity.IsExternalVisible
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.IsExternalVisible
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this request type visible to external people and they can submit requests of this type\n"
+  syntax:
+    content: public virtual bool IsExternalVisible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsExternalVisible As Boolean
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.IsExternalVisible*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.IsDefault
+  commentId: P:SuperOffice.WebApi.Data.TicketTypeEntity.IsDefault
+  id: IsDefault
+  parent: SuperOffice.WebApi.Data.TicketTypeEntity
+  langs:
+  - csharp
+  - vb
+  name: IsDefault
+  nameWithType: TicketTypeEntity.IsDefault
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.IsDefault
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this Ticket Type marked as default\n"
+  syntax:
+    content: public virtual bool IsDefault { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsDefault As Boolean
+  overload: SuperOffice.WebApi.Data.TicketTypeEntity.IsDefault*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.#ctor
+  isExternal: true
+  name: TicketTypeEntity
+  nameWithType: TicketTypeEntity.TicketTypeEntity
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.TicketTypeEntity
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.TicketTypeId*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.TicketTypeId
+  isExternal: true
+  name: TicketTypeId
+  nameWithType: TicketTypeEntity.TicketTypeId
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.TicketTypeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: TicketTypeEntity.Name
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: TicketTypeEntity.Rank
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: TicketTypeEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.Tooltip
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.Icon*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.Icon
+  isExternal: true
+  name: Icon
+  nameWithType: TicketTypeEntity.Icon
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.Icon
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketStatus
+  isExternal: true
+  name: DefaultTicketStatus
+  nameWithType: TicketTypeEntity.DefaultTicketStatus
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketStatus
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.TicketStatuses*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.TicketStatuses
+  isExternal: true
+  name: TicketStatuses
+  nameWithType: TicketTypeEntity.TicketStatuses
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.TicketStatuses
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketPriority*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketPriority
+  isExternal: true
+  name: DefaultTicketPriority
+  nameWithType: TicketTypeEntity.DefaultTicketPriority
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.DefaultTicketPriority
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.TicketPriorities*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.TicketPriorities
+  isExternal: true
+  name: TicketPriorities
+  nameWithType: TicketTypeEntity.TicketPriorities
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.TicketPriorities
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyTemplate*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.ReplyTemplate
+  isExternal: true
+  name: ReplyTemplate
+  nameWithType: TicketTypeEntity.ReplyTemplate
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.ReplyTemplate
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.IsExternalVisible*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.IsExternalVisible
+  isExternal: true
+  name: IsExternalVisible
+  nameWithType: TicketTypeEntity.IsExternalVisible
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.IsExternalVisible
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.TicketTypeEntity.IsDefault*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketTypeEntity.IsDefault
+  isExternal: true
+  name: IsDefault
+  nameWithType: TicketTypeEntity.IsDefault
+  fullName: SuperOffice.WebApi.Data.TicketTypeEntity.IsDefault

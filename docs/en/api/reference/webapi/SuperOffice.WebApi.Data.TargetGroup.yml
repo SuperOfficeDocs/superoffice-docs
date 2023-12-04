@@ -1,0 +1,630 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TargetGroup
+  commentId: T:SuperOffice.WebApi.Data.TargetGroup
+  id: TargetGroup
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TargetGroup.#ctor
+  - SuperOffice.WebApi.Data.TargetGroup.EntityType
+  - SuperOffice.WebApi.Data.TargetGroup.EntityType_String
+  - SuperOffice.WebApi.Data.TargetGroup.PeriodType
+  - SuperOffice.WebApi.Data.TargetGroup.PeriodType_String
+  - SuperOffice.WebApi.Data.TargetGroup.TargetAssignments
+  - SuperOffice.WebApi.Data.TargetGroup.TargetDimension
+  - SuperOffice.WebApi.Data.TargetGroup.TargetGroupId
+  - SuperOffice.WebApi.Data.TargetGroup.Year
+  langs:
+  - csharp
+  - vb
+  name: TargetGroup
+  nameWithType: TargetGroup
+  fullName: SuperOffice.WebApi.Data.TargetGroup
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TargetGroup.\nTarget Group carrier    \n"
+  example:
+  - "\nGet TargetGroup 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new TargetsAgent(configuration);\nvar targetGroup = agent.GetTargetGroup( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class TargetGroup : Carrier'
+    content.vb: >-
+      Public Class TargetGroup
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.TargetsAgent
+    commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TargetGroup.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TargetGroup.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TargetGroup
+  langs:
+  - csharp
+  - vb
+  name: TargetGroup()
+  nameWithType: TargetGroup.TargetGroup()
+  fullName: SuperOffice.WebApi.Data.TargetGroup.TargetGroup()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TargetGroup()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TargetGroup.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TargetGroup.TargetGroupId
+  commentId: P:SuperOffice.WebApi.Data.TargetGroup.TargetGroupId
+  id: TargetGroupId
+  parent: SuperOffice.WebApi.Data.TargetGroup
+  langs:
+  - csharp
+  - vb
+  name: TargetGroupId
+  nameWithType: TargetGroup.TargetGroupId
+  fullName: SuperOffice.WebApi.Data.TargetGroup.TargetGroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int TargetGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TargetGroupId As Integer
+  overload: SuperOffice.WebApi.Data.TargetGroup.TargetGroupId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TargetGroup.Year
+  commentId: P:SuperOffice.WebApi.Data.TargetGroup.Year
+  id: Year
+  parent: SuperOffice.WebApi.Data.TargetGroup
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: TargetGroup.Year
+  fullName: SuperOffice.WebApi.Data.TargetGroup.Year
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe year this set of targets are associated with (2020, 2021...)\n"
+  syntax:
+    content: public virtual int Year { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Year As Integer
+  overload: SuperOffice.WebApi.Data.TargetGroup.Year*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TargetGroup.EntityType_String
+  commentId: P:SuperOffice.WebApi.Data.TargetGroup.EntityType_String
+  id: EntityType_String
+  parent: SuperOffice.WebApi.Data.TargetGroup
+  langs:
+  - csharp
+  - vb
+  name: EntityType_String
+  nameWithType: TargetGroup.EntityType_String
+  fullName: SuperOffice.WebApi.Data.TargetGroup.EntityType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEntity type for this set of targets (Sale, Project, Selection, Appointment...)\nRaw string enum value.\n"
+  syntax:
+    content: public string EntityType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EntityType_String As String
+  overload: SuperOffice.WebApi.Data.TargetGroup.EntityType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TargetGroup.EntityType
+    commentId: P:SuperOffice.WebApi.Data.TargetGroup.EntityType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TargetGroup.EntityType
+  commentId: P:SuperOffice.WebApi.Data.TargetGroup.EntityType
+  id: EntityType
+  parent: SuperOffice.WebApi.Data.TargetGroup
+  langs:
+  - csharp
+  - vb
+  name: EntityType
+  nameWithType: TargetGroup.EntityType
+  fullName: SuperOffice.WebApi.Data.TargetGroup.EntityType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEntity type for this set of targets (Sale, Project, Selection, Appointment...)\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<TargetEntityType> EntityType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.TargetEntityType}
+    content.vb: Public Property EntityType As Nullable(Of TargetEntityType)
+  overload: SuperOffice.WebApi.Data.TargetGroup.EntityType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TargetGroup.EntityType_String
+    commentId: P:SuperOffice.WebApi.Data.TargetGroup.EntityType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TargetGroup.PeriodType_String
+  commentId: P:SuperOffice.WebApi.Data.TargetGroup.PeriodType_String
+  id: PeriodType_String
+  parent: SuperOffice.WebApi.Data.TargetGroup
+  langs:
+  - csharp
+  - vb
+  name: PeriodType_String
+  nameWithType: TargetGroup.PeriodType_String
+  fullName: SuperOffice.WebApi.Data.TargetGroup.PeriodType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPeriod type for editing this set of targets (Year, Quarter...)\nRaw string enum value.\n"
+  syntax:
+    content: public string PeriodType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PeriodType_String As String
+  overload: SuperOffice.WebApi.Data.TargetGroup.PeriodType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TargetGroup.PeriodType
+    commentId: P:SuperOffice.WebApi.Data.TargetGroup.PeriodType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TargetGroup.PeriodType
+  commentId: P:SuperOffice.WebApi.Data.TargetGroup.PeriodType
+  id: PeriodType
+  parent: SuperOffice.WebApi.Data.TargetGroup
+  langs:
+  - csharp
+  - vb
+  name: PeriodType
+  nameWithType: TargetGroup.PeriodType
+  fullName: SuperOffice.WebApi.Data.TargetGroup.PeriodType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPeriod type for editing this set of targets (Year, Quarter...)\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<TargetPeriodType> PeriodType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.TargetPeriodType}
+    content.vb: Public Property PeriodType As Nullable(Of TargetPeriodType)
+  overload: SuperOffice.WebApi.Data.TargetGroup.PeriodType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TargetGroup.PeriodType_String
+    commentId: P:SuperOffice.WebApi.Data.TargetGroup.PeriodType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TargetGroup.TargetAssignments
+  commentId: P:SuperOffice.WebApi.Data.TargetGroup.TargetAssignments
+  id: TargetAssignments
+  parent: SuperOffice.WebApi.Data.TargetGroup
+  langs:
+  - csharp
+  - vb
+  name: TargetAssignments
+  nameWithType: TargetGroup.TargetAssignments
+  fullName: SuperOffice.WebApi.Data.TargetGroup.TargetAssignments
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCollection of target values\n"
+  syntax:
+    content: public virtual TargetAssignment[] TargetAssignments { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TargetAssignment[]
+    content.vb: Public Overridable Property TargetAssignments As TargetAssignment()
+  overload: SuperOffice.WebApi.Data.TargetGroup.TargetAssignments*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TargetGroup.TargetDimension
+  commentId: P:SuperOffice.WebApi.Data.TargetGroup.TargetDimension
+  id: TargetDimension
+  parent: SuperOffice.WebApi.Data.TargetGroup
+  langs:
+  - csharp
+  - vb
+  name: TargetDimension
+  nameWithType: TargetGroup.TargetDimension
+  fullName: SuperOffice.WebApi.Data.TargetGroup.TargetDimension
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInfo about the target dimensions\n"
+  syntax:
+    content: public virtual TargetDimension TargetDimension { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TargetDimension
+    content.vb: Public Overridable Property TargetDimension As TargetDimension
+  overload: SuperOffice.WebApi.Data.TargetGroup.TargetDimension*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.TargetsAgent
+  commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
+  isExternal: true
+  name: TargetsAgent
+  nameWithType: TargetsAgent
+  fullName: SuperOffice.WebApi.Agents.TargetsAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TargetGroup.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetGroup.#ctor
+  isExternal: true
+  name: TargetGroup
+  nameWithType: TargetGroup.TargetGroup
+  fullName: SuperOffice.WebApi.Data.TargetGroup.TargetGroup
+- uid: SuperOffice.WebApi.Data.TargetGroup.TargetGroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetGroup.TargetGroupId
+  isExternal: true
+  name: TargetGroupId
+  nameWithType: TargetGroup.TargetGroupId
+  fullName: SuperOffice.WebApi.Data.TargetGroup.TargetGroupId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TargetGroup.Year*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetGroup.Year
+  isExternal: true
+  name: Year
+  nameWithType: TargetGroup.Year
+  fullName: SuperOffice.WebApi.Data.TargetGroup.Year
+- uid: SuperOffice.WebApi.Data.TargetGroup.EntityType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetGroup.EntityType_String
+  isExternal: true
+  name: EntityType_String
+  nameWithType: TargetGroup.EntityType_String
+  fullName: SuperOffice.WebApi.Data.TargetGroup.EntityType_String
+- uid: SuperOffice.WebApi.Data.TargetGroup.EntityType
+  commentId: P:SuperOffice.WebApi.Data.TargetGroup.EntityType
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TargetGroup.EntityType*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetGroup.EntityType
+  isExternal: true
+  name: EntityType
+  nameWithType: TargetGroup.EntityType
+  fullName: SuperOffice.WebApi.Data.TargetGroup.EntityType
+- uid: SuperOffice.WebApi.Data.TargetGroup.EntityType_String
+  commentId: P:SuperOffice.WebApi.Data.TargetGroup.EntityType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.TargetEntityType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TargetEntityType}'
+  definition: System.Nullable`1
+  name: Nullable<TargetEntityType>
+  nameWithType: Nullable<TargetEntityType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TargetEntityType>
+  nameWithType.vb: Nullable(Of TargetEntityType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TargetEntityType)
+  name.vb: Nullable(Of TargetEntityType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TargetEntityType
+    name: TargetEntityType
+    nameWithType: TargetEntityType
+    fullName: SuperOffice.WebApi.Data.TargetEntityType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TargetEntityType
+    name: TargetEntityType
+    nameWithType: TargetEntityType
+    fullName: SuperOffice.WebApi.Data.TargetEntityType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TargetGroup.PeriodType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetGroup.PeriodType_String
+  isExternal: true
+  name: PeriodType_String
+  nameWithType: TargetGroup.PeriodType_String
+  fullName: SuperOffice.WebApi.Data.TargetGroup.PeriodType_String
+- uid: SuperOffice.WebApi.Data.TargetGroup.PeriodType
+  commentId: P:SuperOffice.WebApi.Data.TargetGroup.PeriodType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.TargetGroup.PeriodType*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetGroup.PeriodType
+  isExternal: true
+  name: PeriodType
+  nameWithType: TargetGroup.PeriodType
+  fullName: SuperOffice.WebApi.Data.TargetGroup.PeriodType
+- uid: SuperOffice.WebApi.Data.TargetGroup.PeriodType_String
+  commentId: P:SuperOffice.WebApi.Data.TargetGroup.PeriodType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.TargetPeriodType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TargetPeriodType}'
+  definition: System.Nullable`1
+  name: Nullable<TargetPeriodType>
+  nameWithType: Nullable<TargetPeriodType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TargetPeriodType>
+  nameWithType.vb: Nullable(Of TargetPeriodType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TargetPeriodType)
+  name.vb: Nullable(Of TargetPeriodType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TargetPeriodType
+    name: TargetPeriodType
+    nameWithType: TargetPeriodType
+    fullName: SuperOffice.WebApi.Data.TargetPeriodType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TargetPeriodType
+    name: TargetPeriodType
+    nameWithType: TargetPeriodType
+    fullName: SuperOffice.WebApi.Data.TargetPeriodType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TargetGroup.TargetAssignments*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetGroup.TargetAssignments
+  isExternal: true
+  name: TargetAssignments
+  nameWithType: TargetGroup.TargetAssignments
+  fullName: SuperOffice.WebApi.Data.TargetGroup.TargetAssignments
+- uid: SuperOffice.WebApi.Data.TargetAssignment[]
+  isExternal: true
+  name: TargetAssignment[]
+  nameWithType: TargetAssignment[]
+  fullName: SuperOffice.WebApi.Data.TargetAssignment[]
+  nameWithType.vb: TargetAssignment()
+  fullName.vb: SuperOffice.WebApi.Data.TargetAssignment()
+  name.vb: TargetAssignment()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.TargetAssignment
+    name: TargetAssignment
+    nameWithType: TargetAssignment
+    fullName: SuperOffice.WebApi.Data.TargetAssignment
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.TargetAssignment
+    name: TargetAssignment
+    nameWithType: TargetAssignment
+    fullName: SuperOffice.WebApi.Data.TargetAssignment
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.TargetGroup.TargetDimension*
+  commentId: Overload:SuperOffice.WebApi.Data.TargetGroup.TargetDimension
+  isExternal: true
+  name: TargetDimension
+  nameWithType: TargetGroup.TargetDimension
+  fullName: SuperOffice.WebApi.Data.TargetGroup.TargetDimension
+- uid: SuperOffice.WebApi.Data.TargetDimension
+  commentId: T:SuperOffice.WebApi.Data.TargetDimension
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TargetDimension
+  nameWithType: TargetDimension
+  fullName: SuperOffice.WebApi.Data.TargetDimension

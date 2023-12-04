@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.Webhook.#ctor
+  - SuperOffice.WebApi.Data.Webhook.ErrorsEmail
   - SuperOffice.WebApi.Data.Webhook.Events
   - SuperOffice.WebApi.Data.Webhook.Headers
   - SuperOffice.WebApi.Data.Webhook.Name
@@ -328,7 +329,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nName of plugin that handles this webhook. &apos;webhook&apos; for webhooks, which are handled by the system plugin.\n"
+  summary: "\nName of plugin that handles this webhook. &apos;webhook&apos; for HTTP POST notifications, &apos;crmscript&apos; for script invocations.\n"
   syntax:
     content: public virtual string Type { get; set; }
     parameters: []
@@ -534,6 +535,39 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property UpdatedAssociate As Associate
   overload: SuperOffice.WebApi.Data.Webhook.UpdatedAssociate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Webhook.ErrorsEmail
+  commentId: P:SuperOffice.WebApi.Data.Webhook.ErrorsEmail
+  id: ErrorsEmail
+  parent: SuperOffice.WebApi.Data.Webhook
+  langs:
+  - csharp
+  - vb
+  name: ErrorsEmail
+  nameWithType: Webhook.ErrorsEmail
+  fullName: SuperOffice.WebApi.Data.Webhook.ErrorsEmail
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEmail address to send error message to when this webhook state changes to too-many errors.\n"
+  syntax:
+    content: public virtual string ErrorsEmail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErrorsEmail As String
+  overload: SuperOffice.WebApi.Data.Webhook.ErrorsEmail*
   modifiers.csharp:
   - public
   - virtual
@@ -811,3 +845,9 @@ references:
   name: UpdatedAssociate
   nameWithType: Webhook.UpdatedAssociate
   fullName: SuperOffice.WebApi.Data.Webhook.UpdatedAssociate
+- uid: SuperOffice.WebApi.Data.Webhook.ErrorsEmail*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook.ErrorsEmail
+  isExternal: true
+  name: ErrorsEmail
+  nameWithType: Webhook.ErrorsEmail
+  fullName: SuperOffice.WebApi.Data.Webhook.ErrorsEmail

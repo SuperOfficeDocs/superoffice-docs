@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+  commentId: T:SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+  id: WorkflowTimeWaitAlgorithm
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.None
+  - SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.NumIntervals
+  - SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.UntilDateField
+  - SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.UntilSpecified
+  - SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.value__
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTimeWaitAlgorithm
+  nameWithType: WorkflowTimeWaitAlgorithm
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWorkflow waiting step wait algorithm\n"
+  syntax:
+    content: 'public sealed class WorkflowTimeWaitAlgorithm : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowTimeWaitAlgorithm
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.value__
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowTimeWaitAlgorithm.value__
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.None
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.None
+  id: None
+  parent: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowTimeWaitAlgorithm.None
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const WorkflowTimeWaitAlgorithm None
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+    content.vb: Public Const None As WorkflowTimeWaitAlgorithm
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.NumIntervals
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.NumIntervals
+  id: NumIntervals
+  parent: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: NumIntervals
+  nameWithType: WorkflowTimeWaitAlgorithm.NumIntervals
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.NumIntervals
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Number of intervals (min, hour, workdays, days, weeks...)\n"
+  syntax:
+    content: public const WorkflowTimeWaitAlgorithm NumIntervals
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+    content.vb: Public Const NumIntervals As WorkflowTimeWaitAlgorithm
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.UntilSpecified
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.UntilSpecified
+  id: UntilSpecified
+  parent: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: UntilSpecified
+  nameWithType: WorkflowTimeWaitAlgorithm.UntilSpecified
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.UntilSpecified
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Until specified datetime\n"
+  syntax:
+    content: public const WorkflowTimeWaitAlgorithm UntilSpecified
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+    content.vb: Public Const UntilSpecified As WorkflowTimeWaitAlgorithm
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.UntilDateField
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.UntilDateField
+  id: UntilDateField
+  parent: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: UntilDateField
+  nameWithType: WorkflowTimeWaitAlgorithm.UntilDateField
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm.UntilDateField
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Until date on person/company (a persons birthdate etc)\n"
+  syntax:
+    content: public const WorkflowTimeWaitAlgorithm UntilDateField
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+    content.vb: Public Const UntilDateField As WorkflowTimeWaitAlgorithm
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+  commentId: T:SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowTimeWaitAlgorithm
+  nameWithType: WorkflowTimeWaitAlgorithm
+  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitAlgorithm

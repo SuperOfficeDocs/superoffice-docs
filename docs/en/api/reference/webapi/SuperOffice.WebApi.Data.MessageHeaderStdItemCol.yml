@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+  commentId: T:SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+  id: MessageHeaderStdItemCol
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MessageHeaderStdItemCol.Name
+  - SuperOffice.WebApi.Data.MessageHeaderStdItemCol.None
+  - SuperOffice.WebApi.Data.MessageHeaderStdItemCol.Value
+  - SuperOffice.WebApi.Data.MessageHeaderStdItemCol.value__
+  langs:
+  - csharp
+  - vb
+  name: MessageHeaderStdItemCol
+  nameWithType: MessageHeaderStdItemCol
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTicket message header modification options\n"
+  syntax:
+    content: 'public sealed class MessageHeaderStdItemCol : Enum'
+    content.vb: >-
+      Public NotInheritable Class MessageHeaderStdItemCol
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItemCol.value__
+  commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItemCol.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MessageHeaderStdItemCol.value__
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItemCol.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItemCol.None
+  commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItemCol.None
+  id: None
+  parent: SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: MessageHeaderStdItemCol.None
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItemCol.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: The header should be returned/treated as-is, no modifications\n"
+  syntax:
+    content: public const MessageHeaderStdItemCol None
+    return:
+      type: SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+    content.vb: Public Const None As MessageHeaderStdItemCol
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItemCol.Name
+  commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItemCol.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MessageHeaderStdItemCol.Name
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItemCol.Name
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The localization resource should be added to the Name of a header\n"
+  syntax:
+    content: public const MessageHeaderStdItemCol Name
+    return:
+      type: SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+    content.vb: Public Const Name As MessageHeaderStdItemCol
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItemCol.Value
+  commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItemCol.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: MessageHeaderStdItemCol.Value
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItemCol.Value
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: The localization resource should be added to the Value of a header\n"
+  syntax:
+    content: public const MessageHeaderStdItemCol Value
+    return:
+      type: SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+    content.vb: Public Const Value As MessageHeaderStdItemCol
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+  commentId: T:SuperOffice.WebApi.Data.MessageHeaderStdItemCol
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: MessageHeaderStdItemCol
+  nameWithType: MessageHeaderStdItemCol
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItemCol

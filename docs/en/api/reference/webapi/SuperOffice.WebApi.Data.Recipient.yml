@@ -1,0 +1,343 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Recipient
+  commentId: T:SuperOffice.WebApi.Data.Recipient
+  id: Recipient
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Recipient.#ctor
+  - SuperOffice.WebApi.Data.Recipient.DisplayValue
+  - SuperOffice.WebApi.Data.Recipient.Type
+  - SuperOffice.WebApi.Data.Recipient.Type_String
+  - SuperOffice.WebApi.Data.Recipient.Value
+  langs:
+  - csharp
+  - vb
+  name: Recipient
+  nameWithType: Recipient
+  fullName: SuperOffice.WebApi.Data.Recipient
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Recipient.\nClass representing ticket message recipient.    \n"
+  syntax:
+    content: 'public class Recipient : Object'
+    content.vb: >-
+      Public Class Recipient
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Recipient.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Recipient.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Recipient
+  langs:
+  - csharp
+  - vb
+  name: Recipient()
+  nameWithType: Recipient.Recipient()
+  fullName: SuperOffice.WebApi.Data.Recipient.Recipient()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Recipient()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Recipient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Recipient.Type_String
+  commentId: P:SuperOffice.WebApi.Data.Recipient.Type_String
+  id: Type_String
+  parent: SuperOffice.WebApi.Data.Recipient
+  langs:
+  - csharp
+  - vb
+  name: Type_String
+  nameWithType: Recipient.Type_String
+  fullName: SuperOffice.WebApi.Data.Recipient.Type_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecipient type: To, Cc.\nRaw string enum value.\n"
+  syntax:
+    content: public string Type_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type_String As String
+  overload: SuperOffice.WebApi.Data.Recipient.Type_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.Recipient.Type
+    commentId: P:SuperOffice.WebApi.Data.Recipient.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Recipient.Type
+  commentId: P:SuperOffice.WebApi.Data.Recipient.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.Recipient
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Recipient.Type
+  fullName: SuperOffice.WebApi.Data.Recipient.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecipient type: To, Cc.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<RecipientType> Type { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.RecipientType}
+    content.vb: Public Property Type As Nullable(Of RecipientType)
+  overload: SuperOffice.WebApi.Data.Recipient.Type*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.Recipient.Type_String
+    commentId: P:SuperOffice.WebApi.Data.Recipient.Type_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Recipient.Value
+  commentId: P:SuperOffice.WebApi.Data.Recipient.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.Recipient
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Recipient.Value
+  fullName: SuperOffice.WebApi.Data.Recipient.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEmail address\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.Recipient.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Recipient.DisplayValue
+  commentId: P:SuperOffice.WebApi.Data.Recipient.DisplayValue
+  id: DisplayValue
+  parent: SuperOffice.WebApi.Data.Recipient
+  langs:
+  - csharp
+  - vb
+  name: DisplayValue
+  nameWithType: Recipient.DisplayValue
+  fullName: SuperOffice.WebApi.Data.Recipient.DisplayValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUser friendly display\n"
+  syntax:
+    content: public virtual string DisplayValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayValue As String
+  overload: SuperOffice.WebApi.Data.Recipient.DisplayValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Recipient.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Recipient.#ctor
+  isExternal: true
+  name: Recipient
+  nameWithType: Recipient.Recipient
+  fullName: SuperOffice.WebApi.Data.Recipient.Recipient
+- uid: SuperOffice.WebApi.Data.Recipient.Type_String*
+  commentId: Overload:SuperOffice.WebApi.Data.Recipient.Type_String
+  isExternal: true
+  name: Type_String
+  nameWithType: Recipient.Type_String
+  fullName: SuperOffice.WebApi.Data.Recipient.Type_String
+- uid: SuperOffice.WebApi.Data.Recipient.Type
+  commentId: P:SuperOffice.WebApi.Data.Recipient.Type
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Recipient.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.Recipient.Type
+  isExternal: true
+  name: Type
+  nameWithType: Recipient.Type
+  fullName: SuperOffice.WebApi.Data.Recipient.Type
+- uid: SuperOffice.WebApi.Data.Recipient.Type_String
+  commentId: P:SuperOffice.WebApi.Data.Recipient.Type_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.RecipientType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.RecipientType}'
+  definition: System.Nullable`1
+  name: Nullable<RecipientType>
+  nameWithType: Nullable<RecipientType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.RecipientType>
+  nameWithType.vb: Nullable(Of RecipientType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.RecipientType)
+  name.vb: Nullable(Of RecipientType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.RecipientType
+    name: RecipientType
+    nameWithType: RecipientType
+    fullName: SuperOffice.WebApi.Data.RecipientType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.RecipientType
+    name: RecipientType
+    nameWithType: RecipientType
+    fullName: SuperOffice.WebApi.Data.RecipientType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.Recipient.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.Recipient.Value
+  isExternal: true
+  name: Value
+  nameWithType: Recipient.Value
+  fullName: SuperOffice.WebApi.Data.Recipient.Value
+- uid: SuperOffice.WebApi.Data.Recipient.DisplayValue*
+  commentId: Overload:SuperOffice.WebApi.Data.Recipient.DisplayValue
+  isExternal: true
+  name: DisplayValue
+  nameWithType: Recipient.DisplayValue
+  fullName: SuperOffice.WebApi.Data.Recipient.DisplayValue

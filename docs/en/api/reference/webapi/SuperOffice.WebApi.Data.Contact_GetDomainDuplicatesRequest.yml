@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest
+  id: Contact_GetDomainDuplicatesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.#ctor
+  - SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.Domain
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetDomainDuplicatesRequest
+  nameWithType: Contact_GetDomainDuplicatesRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Contact_GetDomainDuplicatesRequest : Object'
+    content.vb: >-
+      Public Class Contact_GetDomainDuplicatesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest
+  langs:
+  - csharp
+  - vb
+  name: Contact_GetDomainDuplicatesRequest()
+  nameWithType: Contact_GetDomainDuplicatesRequest.Contact_GetDomainDuplicatesRequest()
+  fullName: SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.Contact_GetDomainDuplicatesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Contact_GetDomainDuplicatesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.Domain
+  commentId: P:SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.Domain
+  id: Domain
+  parent: SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: Contact_GetDomainDuplicatesRequest.Domain
+  fullName: SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.Domain
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Domain { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Domain As String
+  overload: SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.Domain*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.#ctor
+  isExternal: true
+  name: Contact_GetDomainDuplicatesRequest
+  nameWithType: Contact_GetDomainDuplicatesRequest.Contact_GetDomainDuplicatesRequest
+  fullName: SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.Contact_GetDomainDuplicatesRequest
+- uid: SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.Domain*
+  commentId: Overload:SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: Contact_GetDomainDuplicatesRequest.Domain
+  fullName: SuperOffice.WebApi.Data.Contact_GetDomainDuplicatesRequest.Domain
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

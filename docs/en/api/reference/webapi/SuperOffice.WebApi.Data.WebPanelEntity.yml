@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.WebPanelEntity.#ctor
+  - SuperOffice.WebApi.Data.WebPanelEntity.AlwaysReloadOnShow
   - SuperOffice.WebApi.Data.WebPanelEntity.Deleted
   - SuperOffice.WebApi.Data.WebPanelEntity.Icon
   - SuperOffice.WebApi.Data.WebPanelEntity.Name
@@ -820,6 +821,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.AlwaysReloadOnShow
+  commentId: P:SuperOffice.WebApi.Data.WebPanelEntity.AlwaysReloadOnShow
+  id: AlwaysReloadOnShow
+  parent: SuperOffice.WebApi.Data.WebPanelEntity
+  langs:
+  - csharp
+  - vb
+  name: AlwaysReloadOnShow
+  nameWithType: WebPanelEntity.AlwaysReloadOnShow
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.AlwaysReloadOnShow
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf set to true, the content will reload every time the panel is shown\n"
+  syntax:
+    content: public virtual bool AlwaysReloadOnShow { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property AlwaysReloadOnShow As Boolean
+  overload: SuperOffice.WebApi.Data.WebPanelEntity.AlwaysReloadOnShow*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -1169,3 +1203,9 @@ references:
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.WebPanelEntity.AlwaysReloadOnShow*
+  commentId: Overload:SuperOffice.WebApi.Data.WebPanelEntity.AlwaysReloadOnShow
+  isExternal: true
+  name: AlwaysReloadOnShow
+  nameWithType: WebPanelEntity.AlwaysReloadOnShow
+  fullName: SuperOffice.WebApi.Data.WebPanelEntity.AlwaysReloadOnShow

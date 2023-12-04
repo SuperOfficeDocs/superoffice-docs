@@ -85,7 +85,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Contains a plain part\n"
+  summary: "\n1: Contains a plain part\n"
   syntax:
     content: public const ShipmentMessageType Plain
     return:
@@ -114,7 +114,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Contains a HTML part\n"
+  summary: "\n2: Contains a HTML part\n"
   syntax:
     content: public const ShipmentMessageType Html
     return:
@@ -143,7 +143,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Obsolete\n"
+  summary: "\n4: Obsolete\n"
   syntax:
     content: public const ShipmentMessageType SourceView
     return:
@@ -172,7 +172,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Contains a SMS\n"
+  summary: "\n8: Contains a SMS\n"
   syntax:
     content: public const ShipmentMessageType Sms
     return:
@@ -201,7 +201,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Contains a document. The document_message field contains the id of the actual document\n"
+  summary: "\n16: Contains a document. The document_message field contains the id of the actual document\n"
   syntax:
     content: public const ShipmentMessageType Document
     return:

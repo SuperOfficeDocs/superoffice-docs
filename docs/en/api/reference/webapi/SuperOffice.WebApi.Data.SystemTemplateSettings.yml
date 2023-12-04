@@ -1,0 +1,975 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings
+  commentId: T:SuperOffice.WebApi.Data.SystemTemplateSettings
+  id: SystemTemplateSettings
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.#ctor
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerChatLogTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerConfirmEmailTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerCustomerReplyTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerNewCustomerTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerPasswordTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.EmailAddresses
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistNewMessageTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketActivatedTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.NewLinkTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.PrintTicketTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbAnswerTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbQuestionTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.TicketAlarmHotlistTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.UserActiveTicketsTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewMessageTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewTicketTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketActivatedTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketAlarmTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketTakenOverTemplateId
+  - SuperOffice.WebApi.Data.SystemTemplateSettings.WeekStatTemplateId
+  langs:
+  - csharp
+  - vb
+  name: SystemTemplateSettings
+  nameWithType: SystemTemplateSettings
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SystemTemplateSettings.\nSystem template settings item    \n"
+  syntax:
+    content: 'public class SystemTemplateSettings : Carrier'
+    content.vb: >-
+      Public Class SystemTemplateSettings
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SystemTemplateSettings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: SystemTemplateSettings()
+  nameWithType: SystemTemplateSettings.SystemTemplateSettings()
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.SystemTemplateSettings()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SystemTemplateSettings()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerNewCustomerTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerNewCustomerTemplateId
+  id: CustomerNewCustomerTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomerNewCustomerTemplateId
+  nameWithType: SystemTemplateSettings.CustomerNewCustomerTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerNewCustomerTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for new contacts\n"
+  syntax:
+    content: public virtual int CustomerNewCustomerTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CustomerNewCustomerTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerNewCustomerTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerCustomerReplyTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerCustomerReplyTemplateId
+  id: CustomerCustomerReplyTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomerCustomerReplyTemplateId
+  nameWithType: SystemTemplateSettings.CustomerCustomerReplyTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerCustomerReplyTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for auto-reply\n"
+  syntax:
+    content: public virtual int CustomerCustomerReplyTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CustomerCustomerReplyTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerCustomerReplyTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerPasswordTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerPasswordTemplateId
+  id: CustomerPasswordTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomerPasswordTemplateId
+  nameWithType: SystemTemplateSettings.CustomerPasswordTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerPasswordTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for sending password to contacts\n"
+  syntax:
+    content: public virtual int CustomerPasswordTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CustomerPasswordTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerPasswordTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerConfirmEmailTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerConfirmEmailTemplateId
+  id: CustomerConfirmEmailTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomerConfirmEmailTemplateId
+  nameWithType: SystemTemplateSettings.CustomerConfirmEmailTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerConfirmEmailTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for sending confirmation e-mail to contacts\n"
+  syntax:
+    content: public virtual int CustomerConfirmEmailTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CustomerConfirmEmailTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerConfirmEmailTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerChatLogTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerChatLogTemplateId
+  id: CustomerChatLogTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomerChatLogTemplateId
+  nameWithType: SystemTemplateSettings.CustomerChatLogTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerChatLogTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for customer chat log\n"
+  syntax:
+    content: public virtual int CustomerChatLogTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CustomerChatLogTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerChatLogTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.NewLinkTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.NewLinkTemplateId
+  id: NewLinkTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: NewLinkTemplateId
+  nameWithType: SystemTemplateSettings.NewLinkTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.NewLinkTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for new link\n"
+  syntax:
+    content: public virtual int NewLinkTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NewLinkTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.NewLinkTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistNewMessageTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistNewMessageTemplateId
+  id: HotlistNewMessageTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: HotlistNewMessageTemplateId
+  nameWithType: SystemTemplateSettings.HotlistNewMessageTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistNewMessageTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for notification of a new message in the favourites list\n"
+  syntax:
+    content: public virtual int HotlistNewMessageTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property HotlistNewMessageTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistNewMessageTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketActivatedTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketActivatedTemplateId
+  id: HotlistTicketActivatedTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: HotlistTicketActivatedTemplateId
+  nameWithType: SystemTemplateSettings.HotlistTicketActivatedTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketActivatedTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for notification of a activated ticket in the favourites list\n"
+  syntax:
+    content: public virtual int HotlistTicketActivatedTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property HotlistTicketActivatedTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketActivatedTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketAlarmTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketAlarmTemplateId
+  id: UserTicketAlarmTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: UserTicketAlarmTemplateId
+  nameWithType: SystemTemplateSettings.UserTicketAlarmTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketAlarmTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for notification of escalated request\n"
+  syntax:
+    content: public virtual int UserTicketAlarmTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserTicketAlarmTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketAlarmTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+  id: HotlistTicketTakenOverTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: HotlistTicketTakenOverTemplateId
+  nameWithType: SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for notification of reassignment of a request in the favourites list\n"
+  syntax:
+    content: public virtual int HotlistTicketTakenOverTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property HotlistTicketTakenOverTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketTakenOverTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.UserActiveTicketsTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.UserActiveTicketsTemplateId
+  id: UserActiveTicketsTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: UserActiveTicketsTemplateId
+  nameWithType: SystemTemplateSettings.UserActiveTicketsTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.UserActiveTicketsTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for notification of open requests\n"
+  syntax:
+    content: public virtual int UserActiveTicketsTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserActiveTicketsTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.UserActiveTicketsTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewMessageTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewMessageTemplateId
+  id: UserNewMessageTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: UserNewMessageTemplateId
+  nameWithType: SystemTemplateSettings.UserNewMessageTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewMessageTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for notification of new message\n"
+  syntax:
+    content: public virtual int UserNewMessageTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserNewMessageTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewMessageTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketActivatedTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketActivatedTemplateId
+  id: UserTicketActivatedTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: UserTicketActivatedTemplateId
+  nameWithType: SystemTemplateSettings.UserTicketActivatedTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketActivatedTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for notification of activated request\n"
+  syntax:
+    content: public virtual int UserTicketActivatedTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserTicketActivatedTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketActivatedTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewTicketTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewTicketTemplateId
+  id: UserNewTicketTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: UserNewTicketTemplateId
+  nameWithType: SystemTemplateSettings.UserNewTicketTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewTicketTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for new ticket notification\n"
+  syntax:
+    content: public virtual int UserNewTicketTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserNewTicketTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewTicketTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbQuestionTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbQuestionTemplateId
+  id: PublishKbQuestionTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: PublishKbQuestionTemplateId
+  nameWithType: SystemTemplateSettings.PublishKbQuestionTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbQuestionTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for formatting FAQ questions\n"
+  syntax:
+    content: public virtual int PublishKbQuestionTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PublishKbQuestionTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbQuestionTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbAnswerTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbAnswerTemplateId
+  id: PublishKbAnswerTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: PublishKbAnswerTemplateId
+  nameWithType: SystemTemplateSettings.PublishKbAnswerTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbAnswerTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for formatting FAQ answers\n"
+  syntax:
+    content: public virtual int PublishKbAnswerTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PublishKbAnswerTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbAnswerTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketTakenOverTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketTakenOverTemplateId
+  id: UserTicketTakenOverTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: UserTicketTakenOverTemplateId
+  nameWithType: SystemTemplateSettings.UserTicketTakenOverTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketTakenOverTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for ticket reassignment\n"
+  syntax:
+    content: public virtual int UserTicketTakenOverTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserTicketTakenOverTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketTakenOverTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.PrintTicketTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.PrintTicketTemplateId
+  id: PrintTicketTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: PrintTicketTemplateId
+  nameWithType: SystemTemplateSettings.PrintTicketTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.PrintTicketTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for printing a ticket\n"
+  syntax:
+    content: public virtual int PrintTicketTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PrintTicketTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.PrintTicketTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.WeekStatTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.WeekStatTemplateId
+  id: WeekStatTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: WeekStatTemplateId
+  nameWithType: SystemTemplateSettings.WeekStatTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.WeekStatTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for weekly statistics\n"
+  syntax:
+    content: public virtual int WeekStatTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WeekStatTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.WeekStatTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.TicketAlarmHotlistTemplateId
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.TicketAlarmHotlistTemplateId
+  id: TicketAlarmHotlistTemplateId
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: TicketAlarmHotlistTemplateId
+  nameWithType: SystemTemplateSettings.TicketAlarmHotlistTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.TicketAlarmHotlistTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate for notification of an escalated request in the favourites list\n"
+  syntax:
+    content: public virtual int TicketAlarmHotlistTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketAlarmHotlistTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.TicketAlarmHotlistTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.EmailAddresses
+  commentId: P:SuperOffice.WebApi.Data.SystemTemplateSettings.EmailAddresses
+  id: EmailAddresses
+  parent: SuperOffice.WebApi.Data.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: EmailAddresses
+  nameWithType: SystemTemplateSettings.EmailAddresses
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.EmailAddresses
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOne or more e-mail addresses (comma-separated)\n"
+  syntax:
+    content: public virtual string EmailAddresses { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailAddresses As String
+  overload: SuperOffice.WebApi.Data.SystemTemplateSettings.EmailAddresses*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.#ctor
+  isExternal: true
+  name: SystemTemplateSettings
+  nameWithType: SystemTemplateSettings.SystemTemplateSettings
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.SystemTemplateSettings
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerNewCustomerTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerNewCustomerTemplateId
+  isExternal: true
+  name: CustomerNewCustomerTemplateId
+  nameWithType: SystemTemplateSettings.CustomerNewCustomerTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerNewCustomerTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerCustomerReplyTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerCustomerReplyTemplateId
+  isExternal: true
+  name: CustomerCustomerReplyTemplateId
+  nameWithType: SystemTemplateSettings.CustomerCustomerReplyTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerCustomerReplyTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerPasswordTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerPasswordTemplateId
+  isExternal: true
+  name: CustomerPasswordTemplateId
+  nameWithType: SystemTemplateSettings.CustomerPasswordTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerPasswordTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerConfirmEmailTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerConfirmEmailTemplateId
+  isExternal: true
+  name: CustomerConfirmEmailTemplateId
+  nameWithType: SystemTemplateSettings.CustomerConfirmEmailTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerConfirmEmailTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerChatLogTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerChatLogTemplateId
+  isExternal: true
+  name: CustomerChatLogTemplateId
+  nameWithType: SystemTemplateSettings.CustomerChatLogTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.CustomerChatLogTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.NewLinkTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.NewLinkTemplateId
+  isExternal: true
+  name: NewLinkTemplateId
+  nameWithType: SystemTemplateSettings.NewLinkTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.NewLinkTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistNewMessageTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistNewMessageTemplateId
+  isExternal: true
+  name: HotlistNewMessageTemplateId
+  nameWithType: SystemTemplateSettings.HotlistNewMessageTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistNewMessageTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketActivatedTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketActivatedTemplateId
+  isExternal: true
+  name: HotlistTicketActivatedTemplateId
+  nameWithType: SystemTemplateSettings.HotlistTicketActivatedTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketActivatedTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketAlarmTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketAlarmTemplateId
+  isExternal: true
+  name: UserTicketAlarmTemplateId
+  nameWithType: SystemTemplateSettings.UserTicketAlarmTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketAlarmTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketTakenOverTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+  isExternal: true
+  name: HotlistTicketTakenOverTemplateId
+  nameWithType: SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.UserActiveTicketsTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.UserActiveTicketsTemplateId
+  isExternal: true
+  name: UserActiveTicketsTemplateId
+  nameWithType: SystemTemplateSettings.UserActiveTicketsTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.UserActiveTicketsTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewMessageTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewMessageTemplateId
+  isExternal: true
+  name: UserNewMessageTemplateId
+  nameWithType: SystemTemplateSettings.UserNewMessageTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewMessageTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketActivatedTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketActivatedTemplateId
+  isExternal: true
+  name: UserTicketActivatedTemplateId
+  nameWithType: SystemTemplateSettings.UserTicketActivatedTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketActivatedTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewTicketTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewTicketTemplateId
+  isExternal: true
+  name: UserNewTicketTemplateId
+  nameWithType: SystemTemplateSettings.UserNewTicketTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.UserNewTicketTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbQuestionTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbQuestionTemplateId
+  isExternal: true
+  name: PublishKbQuestionTemplateId
+  nameWithType: SystemTemplateSettings.PublishKbQuestionTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbQuestionTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbAnswerTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbAnswerTemplateId
+  isExternal: true
+  name: PublishKbAnswerTemplateId
+  nameWithType: SystemTemplateSettings.PublishKbAnswerTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.PublishKbAnswerTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketTakenOverTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketTakenOverTemplateId
+  isExternal: true
+  name: UserTicketTakenOverTemplateId
+  nameWithType: SystemTemplateSettings.UserTicketTakenOverTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.UserTicketTakenOverTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.PrintTicketTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.PrintTicketTemplateId
+  isExternal: true
+  name: PrintTicketTemplateId
+  nameWithType: SystemTemplateSettings.PrintTicketTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.PrintTicketTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.WeekStatTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.WeekStatTemplateId
+  isExternal: true
+  name: WeekStatTemplateId
+  nameWithType: SystemTemplateSettings.WeekStatTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.WeekStatTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.TicketAlarmHotlistTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.TicketAlarmHotlistTemplateId
+  isExternal: true
+  name: TicketAlarmHotlistTemplateId
+  nameWithType: SystemTemplateSettings.TicketAlarmHotlistTemplateId
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.TicketAlarmHotlistTemplateId
+- uid: SuperOffice.WebApi.Data.SystemTemplateSettings.EmailAddresses*
+  commentId: Overload:SuperOffice.WebApi.Data.SystemTemplateSettings.EmailAddresses
+  isExternal: true
+  name: EmailAddresses
+  nameWithType: SystemTemplateSettings.EmailAddresses
+  fullName: SuperOffice.WebApi.Data.SystemTemplateSettings.EmailAddresses
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

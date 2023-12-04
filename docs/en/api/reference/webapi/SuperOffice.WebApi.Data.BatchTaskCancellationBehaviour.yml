@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+  commentId: T:SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+  id: BatchTaskCancellationBehaviour
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.CanCancel
+  - SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.CancelWithWarning
+  - SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.CannotCancel
+  - SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.value__
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskCancellationBehaviour
+  nameWithType: BatchTaskCancellationBehaviour
+  fullName: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBatch task cancel support\n"
+  syntax:
+    content: 'public sealed class BatchTaskCancellationBehaviour : Enum'
+    content.vb: >-
+      Public NotInheritable Class BatchTaskCancellationBehaviour
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.value__
+  commentId: F:SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: BatchTaskCancellationBehaviour.value__
+  fullName: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.CanCancel
+  commentId: F:SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.CanCancel
+  id: CanCancel
+  parent: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+  langs:
+  - csharp
+  - vb
+  name: CanCancel
+  nameWithType: BatchTaskCancellationBehaviour.CanCancel
+  fullName: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.CanCancel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: The batch task can be cancelled\n"
+  syntax:
+    content: public const BatchTaskCancellationBehaviour CanCancel
+    return:
+      type: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+    content.vb: Public Const CanCancel As BatchTaskCancellationBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.CancelWithWarning
+  commentId: F:SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.CancelWithWarning
+  id: CancelWithWarning
+  parent: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+  langs:
+  - csharp
+  - vb
+  name: CancelWithWarning
+  nameWithType: BatchTaskCancellationBehaviour.CancelWithWarning
+  fullName: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.CancelWithWarning
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The batch task can be cancelled, but the UI will display a warning (symbol SR_BATCH_&lt;snakeCaseName>_CANCELLATION\n"
+  syntax:
+    content: public const BatchTaskCancellationBehaviour CancelWithWarning
+    return:
+      type: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+    content.vb: Public Const CancelWithWarning As BatchTaskCancellationBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.CannotCancel
+  commentId: F:SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.CannotCancel
+  id: CannotCancel
+  parent: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+  langs:
+  - csharp
+  - vb
+  name: CannotCancel
+  nameWithType: BatchTaskCancellationBehaviour.CannotCancel
+  fullName: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.CannotCancel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: The batch task cannot be cancelled\n"
+  syntax:
+    content: public const BatchTaskCancellationBehaviour CannotCancel
+    return:
+      type: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+    content.vb: Public Const CannotCancel As BatchTaskCancellationBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+  commentId: T:SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: BatchTaskCancellationBehaviour
+  nameWithType: BatchTaskCancellationBehaviour
+  fullName: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour

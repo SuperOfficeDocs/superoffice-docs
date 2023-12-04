@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ImageEmbedType
+  commentId: T:SuperOffice.WebApi.Data.ImageEmbedType
+  id: ImageEmbedType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ImageEmbedType.Inline
+  - SuperOffice.WebApi.Data.ImageEmbedType.Link
+  - SuperOffice.WebApi.Data.ImageEmbedType.value__
+  langs:
+  - csharp
+  - vb
+  name: ImageEmbedType
+  nameWithType: ImageEmbedType
+  fullName: SuperOffice.WebApi.Data.ImageEmbedType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEmbedded images type\n"
+  syntax:
+    content: 'public sealed class ImageEmbedType : Enum'
+    content.vb: >-
+      Public NotInheritable Class ImageEmbedType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ImageEmbedType.value__
+  commentId: F:SuperOffice.WebApi.Data.ImageEmbedType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ImageEmbedType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ImageEmbedType.value__
+  fullName: SuperOffice.WebApi.Data.ImageEmbedType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ImageEmbedType.Link
+  commentId: F:SuperOffice.WebApi.Data.ImageEmbedType.Link
+  id: Link
+  parent: SuperOffice.WebApi.Data.ImageEmbedType
+  langs:
+  - csharp
+  - vb
+  name: Link
+  nameWithType: ImageEmbedType.Link
+  fullName: SuperOffice.WebApi.Data.ImageEmbedType.Link
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Link image via href.\n"
+  syntax:
+    content: public const ImageEmbedType Link
+    return:
+      type: SuperOffice.WebApi.Data.ImageEmbedType
+    content.vb: Public Const Link As ImageEmbedType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ImageEmbedType.Inline
+  commentId: F:SuperOffice.WebApi.Data.ImageEmbedType.Inline
+  id: Inline
+  parent: SuperOffice.WebApi.Data.ImageEmbedType
+  langs:
+  - csharp
+  - vb
+  name: Inline
+  nameWithType: ImageEmbedType.Inline
+  fullName: SuperOffice.WebApi.Data.ImageEmbedType.Inline
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Inline image via base64 encoded data in document.\n"
+  syntax:
+    content: public const ImageEmbedType Inline
+    return:
+      type: SuperOffice.WebApi.Data.ImageEmbedType
+    content.vb: Public Const Inline As ImageEmbedType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ImageEmbedType
+  commentId: T:SuperOffice.WebApi.Data.ImageEmbedType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ImageEmbedType
+  nameWithType: ImageEmbedType
+  fullName: SuperOffice.WebApi.Data.ImageEmbedType

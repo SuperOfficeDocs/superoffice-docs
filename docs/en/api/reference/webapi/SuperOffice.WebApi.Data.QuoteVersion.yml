@@ -39,6 +39,8 @@ items:
   - SuperOffice.WebApi.Data.QuoteVersion.Reason
   - SuperOffice.WebApi.Data.QuoteVersion.Registered
   - SuperOffice.WebApi.Data.QuoteVersion.RegisteredAssociateId
+  - SuperOffice.WebApi.Data.QuoteVersion.RequestAssociateId
+  - SuperOffice.WebApi.Data.QuoteVersion.RequestComment
   - SuperOffice.WebApi.Data.QuoteVersion.SentDate
   - SuperOffice.WebApi.Data.QuoteVersion.State
   - SuperOffice.WebApi.Data.QuoteVersion.State_String
@@ -1399,6 +1401,72 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersion.RequestAssociateId
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersion.RequestAssociateId
+  id: RequestAssociateId
+  parent: SuperOffice.WebApi.Data.QuoteVersion
+  langs:
+  - csharp
+  - vb
+  name: RequestAssociateId
+  nameWithType: QuoteVersion.RequestAssociateId
+  fullName: SuperOffice.WebApi.Data.QuoteVersion.RequestAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUser to whom the request proposal should be delivered\n"
+  syntax:
+    content: public virtual int RequestAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RequestAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.QuoteVersion.RequestAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersion.RequestComment
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersion.RequestComment
+  id: RequestComment
+  parent: SuperOffice.WebApi.Data.QuoteVersion
+  langs:
+  - csharp
+  - vb
+  name: RequestComment
+  nameWithType: QuoteVersion.RequestComment
+  fullName: SuperOffice.WebApi.Data.QuoteVersion.RequestComment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nComment for why quote should be approved\n"
+  syntax:
+    content: public virtual string RequestComment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RequestComment As String
+  overload: SuperOffice.WebApi.Data.QuoteVersion.RequestComment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteVersion.QuoteAlternatives
   commentId: P:SuperOffice.WebApi.Data.QuoteVersion.QuoteAlternatives
   id: QuoteAlternatives
@@ -1887,6 +1955,18 @@ references:
   name: RegisteredAssociateId
   nameWithType: QuoteVersion.RegisteredAssociateId
   fullName: SuperOffice.WebApi.Data.QuoteVersion.RegisteredAssociateId
+- uid: SuperOffice.WebApi.Data.QuoteVersion.RequestAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersion.RequestAssociateId
+  isExternal: true
+  name: RequestAssociateId
+  nameWithType: QuoteVersion.RequestAssociateId
+  fullName: SuperOffice.WebApi.Data.QuoteVersion.RequestAssociateId
+- uid: SuperOffice.WebApi.Data.QuoteVersion.RequestComment*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersion.RequestComment
+  isExternal: true
+  name: RequestComment
+  nameWithType: QuoteVersion.RequestComment
+  fullName: SuperOffice.WebApi.Data.QuoteVersion.RequestComment
 - uid: SuperOffice.WebApi.Data.QuoteVersion.QuoteAlternatives*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteVersion.QuoteAlternatives
   isExternal: true

@@ -1,0 +1,337 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowEvent
+  commentId: T:SuperOffice.WebApi.Data.WorkflowEvent
+  id: WorkflowEvent
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowEvent.#ctor
+  - SuperOffice.WebApi.Data.WorkflowEvent.Attributes
+  - SuperOffice.WebApi.Data.WorkflowEvent.EventType
+  - SuperOffice.WebApi.Data.WorkflowEvent.EventType_String
+  langs:
+  - csharp
+  - vb
+  name: WorkflowEvent
+  nameWithType: WorkflowEvent
+  fullName: SuperOffice.WebApi.Data.WorkflowEvent
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for WorkflowEvent.\nWorkflow event carrier    \n"
+  syntax:
+    content: 'public class WorkflowEvent : Carrier'
+    content.vb: >-
+      Public Class WorkflowEvent
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
+    commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowEvent.#ctor
+  commentId: M:SuperOffice.WebApi.Data.WorkflowEvent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.WorkflowEvent
+  langs:
+  - csharp
+  - vb
+  name: WorkflowEvent()
+  nameWithType: WorkflowEvent.WorkflowEvent()
+  fullName: SuperOffice.WebApi.Data.WorkflowEvent.WorkflowEvent()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public WorkflowEvent()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.WorkflowEvent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowEvent.EventType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowEvent.EventType_String
+  id: EventType_String
+  parent: SuperOffice.WebApi.Data.WorkflowEvent
+  langs:
+  - csharp
+  - vb
+  name: EventType_String
+  nameWithType: WorkflowEvent.EventType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowEvent.EventType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe workflow event type\nRaw string enum value.\n"
+  syntax:
+    content: public string EventType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EventType_String As String
+  overload: SuperOffice.WebApi.Data.WorkflowEvent.EventType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WorkflowEvent.EventType
+    commentId: P:SuperOffice.WebApi.Data.WorkflowEvent.EventType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowEvent.EventType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowEvent.EventType
+  id: EventType
+  parent: SuperOffice.WebApi.Data.WorkflowEvent
+  langs:
+  - csharp
+  - vb
+  name: EventType
+  nameWithType: WorkflowEvent.EventType
+  fullName: SuperOffice.WebApi.Data.WorkflowEvent.EventType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe workflow event type\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<WorkflowEventType> EventType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.WorkflowEventType}
+    content.vb: Public Property EventType As Nullable(Of WorkflowEventType)
+  overload: SuperOffice.WebApi.Data.WorkflowEvent.EventType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.WorkflowEvent.EventType_String
+    commentId: P:SuperOffice.WebApi.Data.WorkflowEvent.EventType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowEvent.Attributes
+  commentId: P:SuperOffice.WebApi.Data.WorkflowEvent.Attributes
+  id: Attributes
+  parent: SuperOffice.WebApi.Data.WorkflowEvent
+  langs:
+  - csharp
+  - vb
+  name: Attributes
+  nameWithType: WorkflowEvent.Attributes
+  fullName: SuperOffice.WebApi.Data.WorkflowEvent.Attributes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEvent info\n"
+  syntax:
+    content: public virtual string Attributes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Attributes As String
+  overload: SuperOffice.WebApi.Data.WorkflowEvent.Attributes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.WorkflowEvent.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowEvent.#ctor
+  isExternal: true
+  name: WorkflowEvent
+  nameWithType: WorkflowEvent.WorkflowEvent
+  fullName: SuperOffice.WebApi.Data.WorkflowEvent.WorkflowEvent
+- uid: SuperOffice.WebApi.Data.WorkflowEvent.EventType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowEvent.EventType_String
+  isExternal: true
+  name: EventType_String
+  nameWithType: WorkflowEvent.EventType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowEvent.EventType_String
+- uid: SuperOffice.WebApi.Data.WorkflowEvent.EventType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowEvent.EventType
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.WorkflowEvent.EventType*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowEvent.EventType
+  isExternal: true
+  name: EventType
+  nameWithType: WorkflowEvent.EventType
+  fullName: SuperOffice.WebApi.Data.WorkflowEvent.EventType
+- uid: SuperOffice.WebApi.Data.WorkflowEvent.EventType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowEvent.EventType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowEventType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WorkflowEventType}'
+  definition: System.Nullable`1
+  name: Nullable<WorkflowEventType>
+  nameWithType: Nullable<WorkflowEventType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.WorkflowEventType>
+  nameWithType.vb: Nullable(Of WorkflowEventType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WorkflowEventType)
+  name.vb: Nullable(Of WorkflowEventType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowEventType
+    name: WorkflowEventType
+    nameWithType: WorkflowEventType
+    fullName: SuperOffice.WebApi.Data.WorkflowEventType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowEventType
+    name: WorkflowEventType
+    nameWithType: WorkflowEventType
+    fullName: SuperOffice.WebApi.Data.WorkflowEventType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.WorkflowEvent.Attributes*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowEvent.Attributes
+  isExternal: true
+  name: Attributes
+  nameWithType: WorkflowEvent.Attributes
+  fullName: SuperOffice.WebApi.Data.WorkflowEvent.Attributes

@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException
+  commentId: T:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException
+  id: SuperOfficeWebApiWrongSubdomainException
+  parent: SuperOffice.WebApi.Authorization.Exceptions
+  children:
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException.#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)
+  langs:
+  - csharp
+  - vb
+  name: SuperOfficeWebApiWrongSubdomainException
+  nameWithType: SuperOfficeWebApiWrongSubdomainException
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException
+  type: Class
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Exceptions
+  summary: "\nThrown when tenant is located in SOD but request send to SOD2. Contains the HTTP error and any body we can read.\n"
+  syntax:
+    content: 'public class SuperOfficeWebApiWrongSubdomainException : SuperOfficeWebApiException'
+    content.vb: >-
+      Public Class SuperOfficeWebApiWrongSubdomainException
+          Inherits SuperOfficeWebApiException
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  inheritedMembers:
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException.#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)
+  commentId: M:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException.#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)
+  id: '#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)'
+  parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException
+  langs:
+  - csharp
+  - vb
+  name: SuperOfficeWebApiWrongSubdomainException(String, String, HttpResponseHeaders, String)
+  nameWithType: SuperOfficeWebApiWrongSubdomainException.SuperOfficeWebApiWrongSubdomainException(String, String, HttpResponseHeaders, String)
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException.SuperOfficeWebApiWrongSubdomainException(System.String, System.String, System.Net.Http.Headers.HttpResponseHeaders, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi.Authorization
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+  namespace: SuperOffice.WebApi.Authorization.Exceptions
+  syntax:
+    content: public SuperOfficeWebApiWrongSubdomainException(string message, string request, HttpResponseHeaders headers, string body)
+    parameters:
+    - id: message
+      type: System.String
+    - id: request
+      type: System.String
+    - id: headers
+      type: System.Net.Http.Headers.HttpResponseHeaders
+    - id: body
+      type: System.String
+    content.vb: Public Sub New(message As String, request As String, headers As HttpResponseHeaders, body As String)
+  overload: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Authorization.Exceptions
+  commentId: N:SuperOffice.WebApi.Authorization.Exceptions
+  isExternal: true
+  name: SuperOffice.WebApi.Authorization.Exceptions
+  nameWithType: SuperOffice.WebApi.Authorization.Exceptions
+  fullName: SuperOffice.WebApi.Authorization.Exceptions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  commentId: T:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  parent: SuperOffice.WebApi.Authorization.Exceptions
+  isExternal: true
+  name: SuperOfficeWebApiException
+  nameWithType: SuperOfficeWebApiException
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request
+  commentId: P:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request
+  parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  isExternal: true
+  name: Request
+  nameWithType: SuperOfficeWebApiException.Request
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Request
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers
+  commentId: P:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers
+  parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  isExternal: true
+  name: Headers
+  nameWithType: SuperOfficeWebApiException.Headers
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Headers
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body
+  commentId: P:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body
+  parent: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  isExternal: true
+  name: Body
+  nameWithType: SuperOfficeWebApiException.Body
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.Body
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException.#ctor
+  isExternal: true
+  name: SuperOfficeWebApiWrongSubdomainException
+  nameWithType: SuperOfficeWebApiWrongSubdomainException.SuperOfficeWebApiWrongSubdomainException
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException.SuperOfficeWebApiWrongSubdomainException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Net.Http.Headers.HttpResponseHeaders
+  isExternal: true
+  name: HttpResponseHeaders
+  nameWithType: HttpResponseHeaders
+  fullName: System.Net.Http.Headers.HttpResponseHeaders

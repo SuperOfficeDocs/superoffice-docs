@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Authorization.Exceptions
+  commentId: N:SuperOffice.WebApi.Authorization.Exceptions
+  id: SuperOffice.WebApi.Authorization.Exceptions
+  children:
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException
+  - SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.WebApi.Authorization.Exceptions
+  nameWithType: SuperOffice.WebApi.Authorization.Exceptions
+  fullName: SuperOffice.WebApi.Authorization.Exceptions
+  type: Namespace
+  assemblies:
+  - SuperOffice.WebApi.Authorization
+references:
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  commentId: T:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  parent: SuperOffice.WebApi.Authorization.Exceptions
+  isExternal: true
+  name: SuperOfficeWebApiException
+  nameWithType: SuperOfficeWebApiException
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException
+  commentId: T:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException
+  parent: SuperOffice.WebApi.Authorization.Exceptions
+  isExternal: true
+  name: SuperOfficeWebApiUnauthorizedException
+  nameWithType: SuperOfficeWebApiUnauthorizedException
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiUnauthorizedException
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException
+  commentId: T:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException
+  isExternal: true
+  name: SuperOfficeWebApiWrongSubdomainException
+  nameWithType: SuperOfficeWebApiWrongSubdomainException
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiWrongSubdomainException
+- uid: SuperOffice.WebApi.Authorization.Exceptions
+  commentId: N:SuperOffice.WebApi.Authorization.Exceptions
+  isExternal: true
+  name: SuperOffice.WebApi.Authorization.Exceptions
+  nameWithType: SuperOffice.WebApi.Authorization.Exceptions
+  fullName: SuperOffice.WebApi.Authorization.Exceptions

@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest
+  commentId: T:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest
+  id: Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.#ctor
+  - SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.TargetDimensionId
+  - SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.UserGroupId
+  langs:
+  - csharp
+  - vb
+  name: Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest : Object'
+    content.vb: >-
+      Public Class Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest
+  langs:
+  - csharp
+  - vb
+  name: Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest()
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest()
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.UserGroupId
+  commentId: P:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.UserGroupId
+  id: UserGroupId
+  parent: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest
+  langs:
+  - csharp
+  - vb
+  name: UserGroupId
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.UserGroupId
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.UserGroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UserGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserGroupId As Integer
+  overload: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.UserGroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.TargetDimensionId
+  commentId: P:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.TargetDimensionId
+  id: TargetDimensionId
+  parent: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetDimensionId
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.TargetDimensionId
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.TargetDimensionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TargetDimensionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TargetDimensionId As Integer
+  overload: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.TargetDimensionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.#ctor
+  isExternal: true
+  name: Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.UserGroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.UserGroupId
+  isExternal: true
+  name: UserGroupId
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.UserGroupId
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.UserGroupId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.TargetDimensionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.TargetDimensionId
+  isExternal: true
+  name: TargetDimensionId
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.TargetDimensionId
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithDimensionRequest.TargetDimensionId

@@ -1,0 +1,942 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.IPocketAgent
+  commentId: T:SuperOffice.WebApi.Agents.IPocketAgent
+  id: IPocketAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.IPocketAgent.GetCallerIDsFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPocketAgent.GetMyCallerIDsAsync(System.String,System.DateTime,System.DateTime,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPocketAgent.GetPocketStartupDataAsync(System.String[],System.DateTime,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPocketAgent.GetPushNotificationTagsForDeviceAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPocketAgent.GetRegisteredDevicesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPocketAgent.NotificationHandledAsync(SuperOffice.WebApi.Data.NotificationEventType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPocketAgent.NotificationsHandledAsync(SuperOffice.WebApi.Data.NotificationEvent[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPocketAgent.NotifyUsersAsync(SuperOffice.WebApi.Data.NotificationEventType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPocketAgent.RegisterDeviceForPushNotificationAsync(SuperOffice.WebApi.Data.PocketDeviceInfo,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPocketAgent.RunAppointmentAlarmBrokerAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPocketAgent.SendPushNotificationAsync(System.Int32[],SuperOffice.WebApi.Data.PocketNotificationMessage,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForDeviceAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForUserAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: IPocketAgent
+  nameWithType: IPocketAgent
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent
+  type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAgent with Pocket specific functionality\n"
+  syntax:
+    content: 'public interface IPocketAgent : IDisposable'
+    content.vb: >-
+      Public Interface IPocketAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.GetMyCallerIDsAsync(System.String,System.DateTime,System.DateTime,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPocketAgent.GetMyCallerIDsAsync(System.String,System.DateTime,System.DateTime,SuperOffice.WebApi.RequestOptions)
+  id: GetMyCallerIDsAsync(System.String,System.DateTime,System.DateTime,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyCallerIDsAsync(String, DateTime, DateTime, RequestOptions)
+  nameWithType: IPocketAgent.GetMyCallerIDsAsync(String, DateTime, DateTime, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.GetMyCallerIDsAsync(System.String, System.DateTime, System.DateTime, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet caller ids that the current principal might be interested in (phone numbers of related persons in sales and appointments created/owned/touched by ourselves or colleagues in our primary group\n"
+  syntax:
+    content: Task<CallerIDCollection> GetMyCallerIDsAsync(string lastHash, DateTime minDate, DateTime maxDate, RequestOptions requestOptions = null)
+    parameters:
+    - id: lastHash
+      type: System.String
+      description: Hash for the previous call, used for checking if the same set of caller ids was sent in a previous call, and returning null in that case
+    - id: minDate
+      type: System.DateTime
+      description: Only check activities after this date
+    - id: maxDate
+      type: System.DateTime
+      description: Only check activities before this date
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CallerIDCollection}
+      description: Collection of caller IDs, containing the hash of the caller ids
+    content.vb: Function GetMyCallerIDsAsync(lastHash As String, minDate As DateTime, maxDate As DateTime, requestOptions As RequestOptions = Nothing) As Task(Of CallerIDCollection)
+  overload: SuperOffice.WebApi.Agents.IPocketAgent.GetMyCallerIDsAsync*
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.GetCallerIDsFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPocketAgent.GetCallerIDsFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetCallerIDsFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCallerIDsFromSelectionAsync(Int32, String, RequestOptions)
+  nameWithType: IPocketAgent.GetCallerIDsFromSelectionAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.GetCallerIDsFromSelectionAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet caller ids from a selection. Queries the shadow selection of persons and companies, so selections of any kind can be used\n"
+  syntax:
+    content: Task<CallerIDCollection> GetCallerIDsFromSelectionAsync(int selectionId, string lastHash, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: Id of selection to get caller ids from
+    - id: lastHash
+      type: System.String
+      description: Hash for the previous call, used for checking if the same set of caller ids was sent in an earlier call, and returning null in that case
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CallerIDCollection}
+      description: Collection of caller IDs, containing the hash of the caller ids
+    content.vb: Function GetCallerIDsFromSelectionAsync(selectionId As Integer, lastHash As String, requestOptions As RequestOptions = Nothing) As Task(Of CallerIDCollection)
+  overload: SuperOffice.WebApi.Agents.IPocketAgent.GetCallerIDsFromSelectionAsync*
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.GetPocketStartupDataAsync(System.String[],System.DateTime,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPocketAgent.GetPocketStartupDataAsync(System.String[],System.DateTime,SuperOffice.WebApi.RequestOptions)
+  id: GetPocketStartupDataAsync(System.String[],System.DateTime,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPocketStartupDataAsync(String[], DateTime, RequestOptions)
+  nameWithType: IPocketAgent.GetPocketStartupDataAsync(String[], DateTime, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.GetPocketStartupDataAsync(System.String[], System.DateTime, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\n\n"
+  syntax:
+    content: Task<PocketStartupData> GetPocketStartupDataAsync(string[] tables, DateTime currentClientTime, RequestOptions requestOptions = null)
+    parameters:
+    - id: tables
+      type: System.String[]
+      description: Tables to check for license
+    - id: currentClientTime
+      type: System.DateTime
+      description: Current time on the client, used for overdue sale lookup having correct timezone relative to client
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PocketStartupData}
+      description: Startup data for pocket
+    content.vb: Function GetPocketStartupDataAsync(tables As String(), currentClientTime As DateTime, requestOptions As RequestOptions = Nothing) As Task(Of PocketStartupData)
+  overload: SuperOffice.WebApi.Agents.IPocketAgent.GetPocketStartupDataAsync*
+  nameWithType.vb: IPocketAgent.GetPocketStartupDataAsync(String(), DateTime, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPocketAgent.GetPocketStartupDataAsync(System.String(), System.DateTime, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetPocketStartupDataAsync(String(), DateTime, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.RegisterDeviceForPushNotificationAsync(SuperOffice.WebApi.Data.PocketDeviceInfo,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPocketAgent.RegisterDeviceForPushNotificationAsync(SuperOffice.WebApi.Data.PocketDeviceInfo,SuperOffice.WebApi.RequestOptions)
+  id: RegisterDeviceForPushNotificationAsync(SuperOffice.WebApi.Data.PocketDeviceInfo,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: RegisterDeviceForPushNotificationAsync(PocketDeviceInfo, RequestOptions)
+  nameWithType: IPocketAgent.RegisterDeviceForPushNotificationAsync(PocketDeviceInfo, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.RegisterDeviceForPushNotificationAsync(SuperOffice.WebApi.Data.PocketDeviceInfo, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRegister a device that should receive push notifications when notable events occour\n"
+  syntax:
+    content: Task RegisterDeviceForPushNotificationAsync(PocketDeviceInfo deviceInfo, RequestOptions requestOptions = null)
+    parameters:
+    - id: deviceInfo
+      type: SuperOffice.WebApi.Data.PocketDeviceInfo
+      description: Properties for the device to register
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function RegisterDeviceForPushNotificationAsync(deviceInfo As PocketDeviceInfo, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPocketAgent.RegisterDeviceForPushNotificationAsync*
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.GetRegisteredDevicesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPocketAgent.GetRegisteredDevicesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetRegisteredDevicesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRegisteredDevicesAsync(Int32, RequestOptions)
+  nameWithType: IPocketAgent.GetRegisteredDevicesAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.GetRegisteredDevicesAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRetrieve all registered devices for an associate\n"
+  syntax:
+    content: Task<PocketDeviceInfo[]> GetRegisteredDevicesAsync(int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The user to get devices for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PocketDeviceInfo[]}
+    content.vb: Function GetRegisteredDevicesAsync(associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PocketDeviceInfo())
+  overload: SuperOffice.WebApi.Agents.IPocketAgent.GetRegisteredDevicesAsync*
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForDeviceAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForDeviceAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: SetPushNotificationTagsForDeviceAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: SetPushNotificationTagsForDeviceAsync(String, String, RequestOptions)
+  nameWithType: IPocketAgent.SetPushNotificationTagsForDeviceAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForDeviceAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSpecify what kind of notification events a device should receive push notifications for\n"
+  syntax:
+    content: Task SetPushNotificationTagsForDeviceAsync(string deviceIdentifier, string tags, RequestOptions requestOptions = null)
+    parameters:
+    - id: deviceIdentifier
+      type: System.String
+      description: The unique identifier for a device
+    - id: tags
+      type: System.String
+      description: A comma separated list of events this device should receive push events for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SetPushNotificationTagsForDeviceAsync(deviceIdentifier As String, tags As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForDeviceAsync*
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForUserAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForUserAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: SetPushNotificationTagsForUserAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: SetPushNotificationTagsForUserAsync(Int32, String, RequestOptions)
+  nameWithType: IPocketAgent.SetPushNotificationTagsForUserAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForUserAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSpecify what kind of notification events a user should receive push notifications for.  This will update all registerred devices for this user.\n"
+  syntax:
+    content: Task SetPushNotificationTagsForUserAsync(int associateId, string tags, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The associate to set tags for
+    - id: tags
+      type: System.String
+      description: A comma separated list of events the associate should receive push events for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SetPushNotificationTagsForUserAsync(associateId As Integer, tags As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForUserAsync*
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.GetPushNotificationTagsForDeviceAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPocketAgent.GetPushNotificationTagsForDeviceAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetPushNotificationTagsForDeviceAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPushNotificationTagsForDeviceAsync(String, RequestOptions)
+  nameWithType: IPocketAgent.GetPushNotificationTagsForDeviceAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.GetPushNotificationTagsForDeviceAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRetrieve current tag value for a device\n"
+  syntax:
+    content: Task<string> GetPushNotificationTagsForDeviceAsync(string deviceIdentifier, RequestOptions requestOptions = null)
+    parameters:
+    - id: deviceIdentifier
+      type: System.String
+      description: The unique identifier of this device
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: A comma separated list of events this device should receive push events for
+    content.vb: Function GetPushNotificationTagsForDeviceAsync(deviceIdentifier As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.IPocketAgent.GetPushNotificationTagsForDeviceAsync*
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.SendPushNotificationAsync(System.Int32[],SuperOffice.WebApi.Data.PocketNotificationMessage,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPocketAgent.SendPushNotificationAsync(System.Int32[],SuperOffice.WebApi.Data.PocketNotificationMessage,SuperOffice.WebApi.RequestOptions)
+  id: SendPushNotificationAsync(System.Int32[],SuperOffice.WebApi.Data.PocketNotificationMessage,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: SendPushNotificationAsync(Int32[], PocketNotificationMessage, RequestOptions)
+  nameWithType: IPocketAgent.SendPushNotificationAsync(Int32[], PocketNotificationMessage, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.SendPushNotificationAsync(System.Int32[], SuperOffice.WebApi.Data.PocketNotificationMessage, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSend a push notification to one or more associates\n"
+  syntax:
+    content: Task SendPushNotificationAsync(int[] associateIds, PocketNotificationMessage message, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+      description: The associates to send the push notification message to
+    - id: message
+      type: SuperOffice.WebApi.Data.PocketNotificationMessage
+      description: The message to send
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SendPushNotificationAsync(associateIds As Integer(), message As PocketNotificationMessage, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPocketAgent.SendPushNotificationAsync*
+  nameWithType.vb: IPocketAgent.SendPushNotificationAsync(Int32(), PocketNotificationMessage, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPocketAgent.SendPushNotificationAsync(System.Int32(), SuperOffice.WebApi.Data.PocketNotificationMessage, SuperOffice.WebApi.RequestOptions)
+  name.vb: SendPushNotificationAsync(Int32(), PocketNotificationMessage, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.RunAppointmentAlarmBrokerAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPocketAgent.RunAppointmentAlarmBrokerAsync(SuperOffice.WebApi.RequestOptions)
+  id: RunAppointmentAlarmBrokerAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: RunAppointmentAlarmBrokerAsync(RequestOptions)
+  nameWithType: IPocketAgent.RunAppointmentAlarmBrokerAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.RunAppointmentAlarmBrokerAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nExecute the AppointmentAlarmBroker once\n"
+  syntax:
+    content: Task RunAppointmentAlarmBrokerAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function RunAppointmentAlarmBrokerAsync(requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPocketAgent.RunAppointmentAlarmBrokerAsync*
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.NotifyUsersAsync(SuperOffice.WebApi.Data.NotificationEventType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPocketAgent.NotifyUsersAsync(SuperOffice.WebApi.Data.NotificationEventType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: NotifyUsersAsync(SuperOffice.WebApi.Data.NotificationEventType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: NotifyUsersAsync(NotificationEventType, Int32, RequestOptions)
+  nameWithType: IPocketAgent.NotifyUsersAsync(NotificationEventType, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.NotifyUsersAsync(SuperOffice.WebApi.Data.NotificationEventType, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nNotify users about a new or changed entity\n"
+  syntax:
+    content: Task NotifyUsersAsync(NotificationEventType notificationEventType, int id, RequestOptions requestOptions = null)
+    parameters:
+    - id: notificationEventType
+      type: SuperOffice.WebApi.Data.NotificationEventType
+      description: Type of notification
+    - id: id
+      type: System.Int32
+      description: Id of entity to notify about
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function NotifyUsersAsync(notificationEventType As NotificationEventType, id As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPocketAgent.NotifyUsersAsync*
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.NotificationHandledAsync(SuperOffice.WebApi.Data.NotificationEventType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPocketAgent.NotificationHandledAsync(SuperOffice.WebApi.Data.NotificationEventType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: NotificationHandledAsync(SuperOffice.WebApi.Data.NotificationEventType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: NotificationHandledAsync(NotificationEventType, Int32, RequestOptions)
+  nameWithType: IPocketAgent.NotificationHandledAsync(NotificationEventType, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.NotificationHandledAsync(SuperOffice.WebApi.Data.NotificationEventType, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nMark a notification as handled, so it can be cleaned up on other clients that have received the notification\n"
+  syntax:
+    content: Task NotificationHandledAsync(NotificationEventType notificationEventType, int id, RequestOptions requestOptions = null)
+    parameters:
+    - id: notificationEventType
+      type: SuperOffice.WebApi.Data.NotificationEventType
+      description: Type of notification
+    - id: id
+      type: System.Int32
+      description: Id of entity to notify about
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function NotificationHandledAsync(notificationEventType As NotificationEventType, id As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPocketAgent.NotificationHandledAsync*
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.NotificationsHandledAsync(SuperOffice.WebApi.Data.NotificationEvent[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPocketAgent.NotificationsHandledAsync(SuperOffice.WebApi.Data.NotificationEvent[],SuperOffice.WebApi.RequestOptions)
+  id: NotificationsHandledAsync(SuperOffice.WebApi.Data.NotificationEvent[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: NotificationsHandledAsync(NotificationEvent[], RequestOptions)
+  nameWithType: IPocketAgent.NotificationsHandledAsync(NotificationEvent[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.NotificationsHandledAsync(SuperOffice.WebApi.Data.NotificationEvent[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nMark a set of notifications as handled, so they can be cleaned up on other clients that have received the notification\n"
+  syntax:
+    content: Task NotificationsHandledAsync(NotificationEvent[] notificationEvents, RequestOptions requestOptions = null)
+    parameters:
+    - id: notificationEvents
+      type: SuperOffice.WebApi.Data.NotificationEvent[]
+      description: List of notifications to mark as handled
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function NotificationsHandledAsync(notificationEvents As NotificationEvent(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPocketAgent.NotificationsHandledAsync*
+  nameWithType.vb: IPocketAgent.NotificationsHandledAsync(NotificationEvent(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPocketAgent.NotificationsHandledAsync(SuperOffice.WebApi.Data.NotificationEvent(), SuperOffice.WebApi.RequestOptions)
+  name.vb: NotificationsHandledAsync(NotificationEvent(), RequestOptions)
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.GetMyCallerIDsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPocketAgent.GetMyCallerIDsAsync
+  isExternal: true
+  name: GetMyCallerIDsAsync
+  nameWithType: IPocketAgent.GetMyCallerIDsAsync
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.GetMyCallerIDsAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CallerIDCollection}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CallerIDCollection}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CallerIDCollection>
+  nameWithType: Task<CallerIDCollection>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.CallerIDCollection>
+  nameWithType.vb: Task(Of CallerIDCollection)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.CallerIDCollection)
+  name.vb: Task(Of CallerIDCollection)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.CallerIDCollection
+    name: CallerIDCollection
+    nameWithType: CallerIDCollection
+    fullName: SuperOffice.WebApi.Data.CallerIDCollection
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.CallerIDCollection
+    name: CallerIDCollection
+    nameWithType: CallerIDCollection
+    fullName: SuperOffice.WebApi.Data.CallerIDCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.GetCallerIDsFromSelectionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPocketAgent.GetCallerIDsFromSelectionAsync
+  isExternal: true
+  name: GetCallerIDsFromSelectionAsync
+  nameWithType: IPocketAgent.GetCallerIDsFromSelectionAsync
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.GetCallerIDsFromSelectionAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.GetPocketStartupDataAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPocketAgent.GetPocketStartupDataAsync
+  isExternal: true
+  name: GetPocketStartupDataAsync
+  nameWithType: IPocketAgent.GetPocketStartupDataAsync
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.GetPocketStartupDataAsync
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PocketStartupData}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PocketStartupData}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PocketStartupData>
+  nameWithType: Task<PocketStartupData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.PocketStartupData>
+  nameWithType.vb: Task(Of PocketStartupData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.PocketStartupData)
+  name.vb: Task(Of PocketStartupData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.PocketStartupData
+    name: PocketStartupData
+    nameWithType: PocketStartupData
+    fullName: SuperOffice.WebApi.Data.PocketStartupData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.PocketStartupData
+    name: PocketStartupData
+    nameWithType: PocketStartupData
+    fullName: SuperOffice.WebApi.Data.PocketStartupData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.RegisterDeviceForPushNotificationAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPocketAgent.RegisterDeviceForPushNotificationAsync
+  isExternal: true
+  name: RegisterDeviceForPushNotificationAsync
+  nameWithType: IPocketAgent.RegisterDeviceForPushNotificationAsync
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.RegisterDeviceForPushNotificationAsync
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo
+  commentId: T:SuperOffice.WebApi.Data.PocketDeviceInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: PocketDeviceInfo
+  nameWithType: PocketDeviceInfo
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.GetRegisteredDevicesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPocketAgent.GetRegisteredDevicesAsync
+  isExternal: true
+  name: GetRegisteredDevicesAsync
+  nameWithType: IPocketAgent.GetRegisteredDevicesAsync
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.GetRegisteredDevicesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PocketDeviceInfo[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PocketDeviceInfo[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PocketDeviceInfo[]>
+  nameWithType: Task<PocketDeviceInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.PocketDeviceInfo[]>
+  nameWithType.vb: Task(Of PocketDeviceInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.PocketDeviceInfo())
+  name.vb: Task(Of PocketDeviceInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.PocketDeviceInfo
+    name: PocketDeviceInfo
+    nameWithType: PocketDeviceInfo
+    fullName: SuperOffice.WebApi.Data.PocketDeviceInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.PocketDeviceInfo
+    name: PocketDeviceInfo
+    nameWithType: PocketDeviceInfo
+    fullName: SuperOffice.WebApi.Data.PocketDeviceInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForDeviceAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForDeviceAsync
+  isExternal: true
+  name: SetPushNotificationTagsForDeviceAsync
+  nameWithType: IPocketAgent.SetPushNotificationTagsForDeviceAsync
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForDeviceAsync
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForUserAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForUserAsync
+  isExternal: true
+  name: SetPushNotificationTagsForUserAsync
+  nameWithType: IPocketAgent.SetPushNotificationTagsForUserAsync
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.SetPushNotificationTagsForUserAsync
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.GetPushNotificationTagsForDeviceAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPocketAgent.GetPushNotificationTagsForDeviceAsync
+  isExternal: true
+  name: GetPushNotificationTagsForDeviceAsync
+  nameWithType: IPocketAgent.GetPushNotificationTagsForDeviceAsync
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.GetPushNotificationTagsForDeviceAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.SendPushNotificationAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPocketAgent.SendPushNotificationAsync
+  isExternal: true
+  name: SendPushNotificationAsync
+  nameWithType: IPocketAgent.SendPushNotificationAsync
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.SendPushNotificationAsync
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.PocketNotificationMessage
+  commentId: T:SuperOffice.WebApi.Data.PocketNotificationMessage
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: PocketNotificationMessage
+  nameWithType: PocketNotificationMessage
+  fullName: SuperOffice.WebApi.Data.PocketNotificationMessage
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.RunAppointmentAlarmBrokerAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPocketAgent.RunAppointmentAlarmBrokerAsync
+  isExternal: true
+  name: RunAppointmentAlarmBrokerAsync
+  nameWithType: IPocketAgent.RunAppointmentAlarmBrokerAsync
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.RunAppointmentAlarmBrokerAsync
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.NotifyUsersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPocketAgent.NotifyUsersAsync
+  isExternal: true
+  name: NotifyUsersAsync
+  nameWithType: IPocketAgent.NotifyUsersAsync
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.NotifyUsersAsync
+- uid: SuperOffice.WebApi.Data.NotificationEventType
+  commentId: T:SuperOffice.WebApi.Data.NotificationEventType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: NotificationEventType
+  nameWithType: NotificationEventType
+  fullName: SuperOffice.WebApi.Data.NotificationEventType
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.NotificationHandledAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPocketAgent.NotificationHandledAsync
+  isExternal: true
+  name: NotificationHandledAsync
+  nameWithType: IPocketAgent.NotificationHandledAsync
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.NotificationHandledAsync
+- uid: SuperOffice.WebApi.Agents.IPocketAgent.NotificationsHandledAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPocketAgent.NotificationsHandledAsync
+  isExternal: true
+  name: NotificationsHandledAsync
+  nameWithType: IPocketAgent.NotificationsHandledAsync
+  fullName: SuperOffice.WebApi.Agents.IPocketAgent.NotificationsHandledAsync
+- uid: SuperOffice.WebApi.Data.NotificationEvent[]
+  isExternal: true
+  name: NotificationEvent[]
+  nameWithType: NotificationEvent[]
+  fullName: SuperOffice.WebApi.Data.NotificationEvent[]
+  nameWithType.vb: NotificationEvent()
+  fullName.vb: SuperOffice.WebApi.Data.NotificationEvent()
+  name.vb: NotificationEvent()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.NotificationEvent
+    name: NotificationEvent
+    nameWithType: NotificationEvent
+    fullName: SuperOffice.WebApi.Data.NotificationEvent
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.NotificationEvent
+    name: NotificationEvent
+    nameWithType: NotificationEvent
+    fullName: SuperOffice.WebApi.Data.NotificationEvent
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

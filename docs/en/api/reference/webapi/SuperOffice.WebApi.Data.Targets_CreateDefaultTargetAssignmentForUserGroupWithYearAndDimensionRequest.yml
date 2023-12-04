@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest
+  commentId: T:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest
+  id: Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.#ctor
+  - SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.TargetDimensionId
+  - SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.UserGroupId
+  - SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.Year
+  langs:
+  - csharp
+  - vb
+  name: Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest : Object'
+    content.vb: >-
+      Public Class Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest
+  langs:
+  - csharp
+  - vb
+  name: Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest()
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest()
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.UserGroupId
+  commentId: P:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.UserGroupId
+  id: UserGroupId
+  parent: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest
+  langs:
+  - csharp
+  - vb
+  name: UserGroupId
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.UserGroupId
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.UserGroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UserGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserGroupId As Integer
+  overload: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.UserGroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.Year
+  commentId: P:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.Year
+  id: Year
+  parent: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.Year
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.Year
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Year { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Year As Integer
+  overload: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.Year*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.TargetDimensionId
+  commentId: P:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.TargetDimensionId
+  id: TargetDimensionId
+  parent: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetDimensionId
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.TargetDimensionId
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.TargetDimensionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TargetDimensionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TargetDimensionId As Integer
+  overload: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.TargetDimensionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.#ctor
+  isExternal: true
+  name: Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.UserGroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.UserGroupId
+  isExternal: true
+  name: UserGroupId
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.UserGroupId
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.UserGroupId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.Year*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.Year
+  isExternal: true
+  name: Year
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.Year
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.Year
+- uid: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.TargetDimensionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.TargetDimensionId
+  isExternal: true
+  name: TargetDimensionId
+  nameWithType: Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.TargetDimensionId
+  fullName: SuperOffice.WebApi.Data.Targets_CreateDefaultTargetAssignmentForUserGroupWithYearAndDimensionRequest.TargetDimensionId

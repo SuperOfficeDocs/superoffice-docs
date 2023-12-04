@@ -1,0 +1,293 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions
+  id: UserPreferenceStrings.StandardStartupScreenOptions
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Company
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Contact
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Dashboard
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Diary
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Lastscreen
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Project
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Sale
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Ticket
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.StandardStartupScreenOptions
+  nameWithType: UserPreferenceStrings.StandardStartupScreenOptions
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public static class StandardStartupScreenOptions : Object'
+    content.vb: >-
+      Public Module StandardStartupScreenOptions
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Lastscreen
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Lastscreen
+  id: Lastscreen
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions
+  langs:
+  - csharp
+  - vb
+  name: Lastscreen
+  nameWithType: UserPreferenceStrings.StandardStartupScreenOptions.Lastscreen
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Lastscreen
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string Lastscreen = "Lastscreen"
+    return:
+      type: System.String
+    content.vb: Public Const Lastscreen As String = "Lastscreen"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Diary
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Diary
+  id: Diary
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions
+  langs:
+  - csharp
+  - vb
+  name: Diary
+  nameWithType: UserPreferenceStrings.StandardStartupScreenOptions.Diary
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Diary
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string Diary = "Diary"
+    return:
+      type: System.String
+    content.vb: Public Const Diary As String = "Diary"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Contact
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Contact
+  id: Contact
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: UserPreferenceStrings.StandardStartupScreenOptions.Contact
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Contact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string Contact = "Contact"
+    return:
+      type: System.String
+    content.vb: Public Const Contact As String = "Contact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Company
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Company
+  id: Company
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions
+  langs:
+  - csharp
+  - vb
+  name: Company
+  nameWithType: UserPreferenceStrings.StandardStartupScreenOptions.Company
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Company
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string Company = "Company"
+    return:
+      type: System.String
+    content.vb: Public Const Company As String = "Company"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Sale
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Sale
+  id: Sale
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: UserPreferenceStrings.StandardStartupScreenOptions.Sale
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Sale
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string Sale = "Sale"
+    return:
+      type: System.String
+    content.vb: Public Const Sale As String = "Sale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Project
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Project
+  id: Project
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: UserPreferenceStrings.StandardStartupScreenOptions.Project
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Project
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string Project = "Project"
+    return:
+      type: System.String
+    content.vb: Public Const Project As String = "Project"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Ticket
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Ticket
+  id: Ticket
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions
+  langs:
+  - csharp
+  - vb
+  name: Ticket
+  nameWithType: UserPreferenceStrings.StandardStartupScreenOptions.Ticket
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Ticket
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string Ticket = "Ticket"
+    return:
+      type: System.String
+    content.vb: Public Const Ticket As String = "Ticket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Dashboard
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Dashboard
+  id: Dashboard
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions
+  langs:
+  - csharp
+  - vb
+  name: Dashboard
+  nameWithType: UserPreferenceStrings.StandardStartupScreenOptions.Dashboard
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions.Dashboard
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string Dashboard = "Dashboard"
+    return:
+      type: System.String
+    content.vb: Public Const Dashboard As String = "Dashboard"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

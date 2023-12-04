@@ -1,0 +1,216 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership
+  id: WorkflowStepOptionSelectionMembership
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.#ctor
+  - SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.SelectionId
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepOptionSelectionMembership
+  nameWithType: WorkflowStepOptionSelectionMembership
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for WorkflowStepOptionSelectionMembership.\nOption that splits on matching person criteria    \n"
+  syntax:
+    content: 'public class WorkflowStepOptionSelectionMembership : WorkflowStepOptionBase'
+    content.vb: >-
+      Public Class WorkflowStepOptionSelectionMembership
+          Inherits WorkflowStepOptionBase
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
+    commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.WorkflowStepOptionBase
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
+  - SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
+  - SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepOptionId
+  - SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepId
+  - SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowId
+  - SuperOffice.WebApi.Data.WorkflowStepOptionBase.Name
+  - SuperOffice.WebApi.Data.WorkflowStepOptionBase.Rank
+  - SuperOffice.WebApi.Data.WorkflowStepOptionBase.Steps
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.#ctor
+  commentId: M:SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepOptionSelectionMembership()
+  nameWithType: WorkflowStepOptionSelectionMembership.WorkflowStepOptionSelectionMembership()
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.WorkflowStepOptionSelectionMembership()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public WorkflowStepOptionSelectionMembership()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: WorkflowStepOptionSelectionMembership.SelectionId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id of the selection\n"
+  syntax:
+    content: public virtual int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.SelectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+  commentId: T:SuperOffice.WebApi.Data.WorkflowStepOptionBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WorkflowStepOptionBase
+  nameWithType: WorkflowStepOptionBase
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
+  parent: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+  isExternal: true
+  name: OptionType_String
+  nameWithType: WorkflowStepOptionBase.OptionType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
+  parent: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+  isExternal: true
+  name: OptionType
+  nameWithType: WorkflowStepOptionBase.OptionType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepOptionId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepOptionId
+  parent: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+  isExternal: true
+  name: WorkflowStepOptionId
+  nameWithType: WorkflowStepOptionBase.WorkflowStepOptionId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepOptionId
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepId
+  parent: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+  isExternal: true
+  name: WorkflowStepId
+  nameWithType: WorkflowStepOptionBase.WorkflowStepId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepId
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowId
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowId
+  parent: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowStepOptionBase.WorkflowId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowId
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Name
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.Name
+  parent: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+  isExternal: true
+  name: Name
+  nameWithType: WorkflowStepOptionBase.Name
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Name
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Rank
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.Rank
+  parent: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+  isExternal: true
+  name: Rank
+  nameWithType: WorkflowStepOptionBase.Rank
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Rank
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Steps
+  commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.Steps
+  parent: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+  isExternal: true
+  name: Steps
+  nameWithType: WorkflowStepOptionBase.Steps
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Steps
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.#ctor
+  isExternal: true
+  name: WorkflowStepOptionSelectionMembership
+  nameWithType: WorkflowStepOptionSelectionMembership.WorkflowStepOptionSelectionMembership
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.WorkflowStepOptionSelectionMembership
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: WorkflowStepOptionSelectionMembership.SelectionId
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
