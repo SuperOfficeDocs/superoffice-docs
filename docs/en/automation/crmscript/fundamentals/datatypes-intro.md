@@ -29,7 +29,7 @@ CRMScript has 2 types of numbers:
 * Integer (without decimals)
 * Float (with decimals)
 
-You can the [arithmetic operators][1] to do basic math.
+You can use the[arithmetic operators][1] to do basic math.
 
 ```crmscript
 Integer a = 5;

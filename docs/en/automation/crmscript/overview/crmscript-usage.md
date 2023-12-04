@@ -49,15 +49,4 @@ Because of security restrictions and performance considerations in our online en
 * ODBC endpoints are unavailable, which makes it technically impossible to access an Access-database from CRMScript. You can use Zapier instead.
 * Using the HTTP class, you can only access external resources over port 80 or 443.
 
-### Complete list of blacklisted data types
-
-The following data types are unsupported in CRMScript.
-
-* NSAudienceAgent
-* NSBulkUpdateAgent
-* NSCRMScriptAgent
-* NSDashboardAgent
-* NSDatabaseAgent
-* NSDatabaseTableAgent
-* NSErpSyncAgent
-* NSTrayAppAgent
+[!include[Restricted agents](../../../includes/restricted-crmscript-agents.md)]

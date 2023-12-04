@@ -83,7 +83,7 @@ Dit zijn de meldingsopties:
 * Systeemmeldingen voor email
 * Systeemmeldingen voor chatten
 
-## Hoe de browserinstellingen voor meldingen wijzigen
+## <a id="enable-browser" />Hoe de browserinstellingen voor meldingen wijzigen
 
 **Chrome:** Klik op het hangslotsymbool voor de URL en schakel de **Meldingen**-schakelaar in.
 

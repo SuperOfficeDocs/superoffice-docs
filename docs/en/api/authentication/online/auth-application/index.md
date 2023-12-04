@@ -14,8 +14,8 @@ so.client: online
 
 The **System User Flow** offers a method for server-to-server communication, eliminating the need for an interactive user login. This approach is pivotal for applications aiming to access data without traditional user constraints.
 
-> [!NOTE]
-> Keep in mind, the system user functionality will soon transition to the OAuth 2.0 Client Credentials flow.
+> [!WARNING]
+> The ticket credential from the System User flow should be cached. It is valid for 6 hours, with a sliding expiration each time it is used. Therefore, only obtain a new one when necessary, for example when a request results in a 401 Unauthorized or the cache times out.
 
 To better grasp the process, check out our visual walk-through:
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->

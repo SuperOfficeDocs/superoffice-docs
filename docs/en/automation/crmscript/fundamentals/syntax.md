@@ -15,7 +15,7 @@ You can learn all the basic codes structures here in the fundamentals. Then chec
 
 ## Backward compatibility
 
-CRMScript is a language under continuos improvements. Some changes might alter the behavior of the script. To account for this, the **setLanguageLevel** setting indicates which compatibility level the script should run as.
+CRMScript is a language under continuous improvements. Some changes might alter the behavior of the script. To account for this, the **setLanguageLevel** setting indicates which compatibility level the script should run as.
 
 ```crmscript
 #setLanguageLevel 3;
