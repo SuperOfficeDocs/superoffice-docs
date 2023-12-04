@@ -13,7 +13,9 @@ so.topic: reference
 
 * [SuperOffice for Outlook - (3.1)][1]
 * [Updated wizard for SharePoint integration - (3.2)][2]
+* [WebTools for SuperOffice update (Windows 12.8 and Mac 12.0)][8]
 
 <!-- Referenced links-->
 [1]: 3.1-update.md
 [2]: 3.2-update.md
+[8]: 12.8-update.md

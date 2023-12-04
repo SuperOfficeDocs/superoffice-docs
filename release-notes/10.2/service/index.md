@@ -26,6 +26,10 @@ so.topic: reference
 * [Change the default style for outbound emails on requests (10.2.10)][10]
 * [More compact text format area for requests (10.2.10)][10]
 * [Script trigger on outgoing email (10.2.10)][10]
+* [Preview with quick edit (10.2.11)][11]
+* [Change tab order on Request section tabs (10.2.11)][11]
+* [New request will add contact to To field (10.2.11)][11]
+* [Add multiple tag to a request in one go (10.2.11)][11]
 
 <!-- Referenced links-->
 [5]: 10.2.5-update.md
@@ -33,3 +37,4 @@ so.topic: reference
 [8]: 10.2.8-update.md
 [9]: 10.2.9-update.md
 [10]: 10.2.10-update.md
+[11]: 10.2.11-update.md

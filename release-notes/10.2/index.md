@@ -60,6 +60,14 @@ so.version: 10.2
   * [More compact text format area for requests (10.2.10)][29] in Service
   * [Script trigger on outgoing e-mail (10.2.10)][29] in Service
 
+* 10.2.11 (12.12.2023):
+  * [][32] in CRM Core
+  * [][] in Office integrations
+  * [Preview with quick edit (10.2.11)][30] in Service
+  * [Change tab order on Request section tabs (10.2.11)][30] in Service
+  * [New request will add contact to To field (10.2.11)][30] in Service
+  * [Add multiple tag to a request in one go (10.2.11)][30] in Service
+
 ### Mobile CRM
 
 * 10.2.7 (25.01.2023):
@@ -77,6 +85,9 @@ so.version: 10.2
 * 10.2.12 (14.06.2023):
   * [Drill down on dashboards][13] in Mobile CRM
 
+* 10.2.15 (01.11.2023):
+  * Minor changes
+
 ### Office integrations
 
 * Zapier app - 3.2 (09.06.2023):
@@ -90,11 +101,14 @@ so.version: 10.2
 
 * Developer portal:
   * [Launch of Developer portal - 1.0 (07.09.2022)][14]
-  * [Message center - 1.13][20]
+  * [Message center - 1.13 (16.08.2023)][20]
+  * Icons in navigator - 1.16 (22.11.2023)
+  * [New widget to monitor API errors - 1.16 (22.11.2023)][31]
+
 * SuperOffice App store - [New or updated apps][18]
-  * [Lass of for SuperOffice][21]
-  * [MailVideo][22]
-  * [Risika - Risk & Credit][23]
+  * [Lasso of for SuperOffice (03.04.2023)][21]
+  * [MailVideo (12.06.2023)][22]
+  * [Risika - Risk & Credit (10.05.2023)][23]
 
 <!-- Referenced links -->
 [1]: admin/10.2.1-update.md
@@ -125,5 +139,9 @@ so.version: 10.2
 [27]: admin/10.2.10-update.md
 [28]: office-integrations/3.2-update.md
 [29]: service/10.2.10-update.md
+[30]: service/10.2.11-update.md
+[31]: ../../docs/en/developer-portal/widgets/index.md
+[32]: core-crm/10.2.11-update.md
+[33]: office-integrations/3.1-update.md
 
 <!-- Referenced images -->
