@@ -50,8 +50,6 @@ items:
 - name: Office integrations
   href: office-integrations/index.md
   items:
-  - name: WebTools for SuperOffice 12.8 and 12.0
-    href: office-integrations/12.8-update.md
   - name: SharePoint Documents 3.2
     href: office-integrations/3.2-update.md
   - name: SuperOffice for Outlook 3.1
