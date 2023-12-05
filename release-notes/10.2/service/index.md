@@ -3,8 +3,8 @@ title: New and improved Service
 uid: news-service-10.2
 description: Release notes. What's new in SuperOffice Service 10.2
 author: SuperOffice AS – Research and Development
-so.date: 11.14.2023
-keywords: Service, request
+so.date: 12.12.2023
+keywords: Service, request, ticket
 so.version: 10.2
 so.topic: reference
 ---
@@ -12,9 +12,9 @@ so.topic: reference
 # New and improved Service
 
 * [Preview with quick edit (10.2.11)][11]
-* [Change tab order on Request section tabs (10.2.11)][11]
-* [New request will add contact to To field (10.2.11)][11]
-* [Add multiple tag to a request in one go (10.2.11)][11]
+* [Rearrange Request section tabs (10.2.11)][11]
+* [Contact automatically added to To field in new request (10.2.11)][11]
+* [Add multiple tags at once to a request (10.2.11)][11]
 * [Add domain for a company (10.2.10)][10]
 * [Send SMS from a request (10.2.10)][10]
 * [Change the default style for outbound emails on requests (10.2.10)][10]

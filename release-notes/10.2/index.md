@@ -3,7 +3,7 @@ title: What's new in SuperOffice 10.2
 uid: release-notes-10.2
 description: Release notes. What's new in SuperOffice 10.2
 author: Kirsti Aakerholt
-so.date: 11.14.2023
+so.date: 12.12.2023
 keywords: Core CRM, Service, Requests, Sales, Marketing, Settings and maintenance, Mobile CRM, Zapier, App store, API, SuperOffice for Outlook, Office integrations, SharePoint
 so.topic: reference
 so.version: 10.2
@@ -23,9 +23,9 @@ so.version: 10.2
   * [Browser security question when opening files (10.2.11)][32] in CRM Core
   * [Document editing in Local settings dialog (10.2.11)][32] in CRM Core
   * [Preview with quick edit (10.2.11)][30] in Service
-  * [Change tab order on Request section tabs (10.2.11)][30] in Service
-  * [New request will add contact to To field (10.2.11)][30] in Service
-  * [Add multiple tag to a request in one go (10.2.11)][30] in Service
+  * [Rearrange Request section tabs (10.2.11)][30] in Service
+  * [Contact automatically added to To field in new request (10.2.11)][30] in Service
+  * [Add multiple tags at once to a request (10.2.11)][30] in Service
 
 * 10.2.10 (14.11.2023):
   * [Time zones and Daylight Saving Time (10.2.10)][27] in Settings and maintenance
