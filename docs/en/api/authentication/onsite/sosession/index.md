@@ -24,7 +24,6 @@ The application must use the `SuperOffice.SoSession` class, which is an `IPrinci
 * SoSession.Authenticate()
 * SoSession.Authenticate("username", "password")
 * SoSession.Authenticate(new SoCredentials("ticket"))
-* SoSession.Authenticate(new SoAccessTokenSecurityToken("access_token"))
 
 A new session is created when a user signs in and is successfully authenticated. **Session Cache** holds authentication information about the signed-in user, the associate of the user, a business ID of the company that the user belongs to, reference data, and so on. You can obtain the data held in the session cache through a property named `Principal` in the session object.
 
@@ -114,22 +113,6 @@ using (var session = SoSession.Authenticate(credentials.Ticket, ""))
   Console.WriteLine($"Authenticated {session.Principal.Associate} using implicit Windows Identity.");
   );
 }
-```
-
-## Authenticate with SoAccessTokenSecurityToken
-
-Online applications use an OAuth 2.0 / OpenID Connect `access_token` to authenticate.
-
-```csharp
-//Explicit User Authentication
-using (var session = SoSession.Authenticate(
-  new SoAccessTokenSecurityToken("8A:Cust12345.ey...token_string...54321abcd")
-))
-{
-  Console.WriteLine($"Authenticated {session.Principal.Associate} using implicit Windows Identity.");
-  );
-}
-
 ```
 
 ## Session handling

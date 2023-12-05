@@ -34,7 +34,7 @@ class Startup
           options.UseOnPremAD(); // See config section: ActiveDirectoryCredentialPlugin
         }) // v10.2.1
         .AddSoDatabase()
-        .AddServicesImplementation();
+        .AddServicesImplementation()
     }
 
     public void ConfigureServices(IServiceProvider serviceProvider)
@@ -42,14 +42,13 @@ class Startup
         var netServerServiceProvider = serviceProvider.RegisterWithNetServer();
     }
 }
-
 ```
 
 There are several default implementations of ISoContextProvider located in SoCore.
 
 * ThreadContextProvider
 * ContextContextProvider
-* ProcessContextProvider 
+* ProcessContextProvider
 
 Another is HttpContextProvider, located in SuperOffice.DCFWeb.
 
@@ -63,9 +62,31 @@ For Local mode calling Services Implementation, use:
 * services.AddServicesImplementation();
 * services.AddMessagingServicesImplementation();
 
-For remote mode using proxies, use: 
+For remote mode using proxies, use:
 
 * services.AddServicesProxies();
+
+```csharp
+class Startup
+{
+    public IConfigurationRoot Configuration { get; set; }
+
+    public virtual void Configure(IServiceCollection services)
+    {
+        services.AddLogging(a =>
+        {
+            a.AddConfiguration(Configuration.GetSection("Logging"));
+        });
+        services.AddNetServerCore<ThreadContextProvider>()
+        .AddServicesProxies();
+    }
+
+    public void ConfigureServices(IServiceProvider serviceProvider)
+    {
+        var netServerServiceProvider = serviceProvider.RegisterWithNetServer();
+    }
+}
+```
 
 ## Configuration Files
 

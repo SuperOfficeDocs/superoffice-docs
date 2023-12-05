@@ -180,6 +180,35 @@ so.topic: reference
 |IWorkflowAgent    | DeleteWorkflowStepOption              |10.2.10  | Deleted                           |
 |IWorkflowAgent    | SaveWorkflowStepOption                |10.2.10  | Deleted                           |
 
+### Authentication using SoAccessTokenSecurityToken
+
+The following is a breaking change in the API. SoAccessTokenSecurityToken was removed from the codebase in version 10.? without notification.
+
+```csharp
+var accessToken = "8A:Cust12345.ey...token_string...54321abcd";
+
+using (var session = SoSession.Authenticate(new SoAccessTokenSecurityToken(accessToken)))
+{
+  Console.WriteLine($"Authenticated {session.Principal.Associate} using implicit Windows Identity.");
+}
+```
+
+Instead, now you are required to use the new SoCredentials class.
+
+```csharp
+var accessToken = "8A:Cust12345.ey...token_string...54321abcd";
+
+using (var session = SoSession.Authenticate(new SoCredentials(accessToken)))
+{
+    // execute NetServer code...
+}
+```
+
+### Context Provider changes
+
+The custom ContextProvider functionality was changed and caused breaking changes for partner applications. Please refer to the [forum post on Community](https://community.superoffice.com/en/technical/forums/api-forums/online-web-services/how-to-use-netserver-nuget-packages-in-10.2-against-remote-webservices/).
+
+No additional resources exist for this topic.
 
 ## NetServer Core changes
 
