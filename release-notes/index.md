@@ -13,7 +13,7 @@ Here you will find all the small and big changes that has been released for Supe
 
 ## SuperOffice CRM versions
 
-The latest release is [**version 10.2.10**][6] - 14.11.2023.
+The latest release is [**version 10.2.11**][6] - 12.12.2023.
 
 * [10.2][6]
 * [10.1][5]
@@ -24,7 +24,7 @@ The latest release is [**version 10.2.10**][6] - 14.11.2023.
 
 ## Mobile CRM versions
 
-The latest release is [**version 10.2.14**][6] - 06.09.2023.
+The latest release is [**version 10.2.15**][6] - 01.11.2023.
 
 * [10.0 - 10.2][7]
 

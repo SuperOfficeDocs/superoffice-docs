@@ -4,6 +4,8 @@ items:
 - name: Core CRM
   href: core-crm/index.md
   items:
+  - name: 10.2.11 update
+    href: core-crm/10.2.11-update.md
   - name: 10.2.8 update
     href: core-crm/10.2.8-update.md
   - name: 10.2.4 update
@@ -24,6 +26,8 @@ items:
 - name: Requests / Service
   href: service/index.md
   items:
+  - name: 10.2.11 update
+    href: service/10.2.11-update.md
   - name: 10.2.10 update
     href: service/10.2.10-update.md
   - name: 10.2.9 update

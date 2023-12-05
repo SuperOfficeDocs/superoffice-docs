@@ -11,10 +11,10 @@ so.topic: reference
 
 # New and improved Settings and maintenance
 
-* [Task menu list items (10.2.1)][1]
-* [Email domain validation (10.2.2)][2]
-* [CRMScript with time/date fields (10.2.3)][3]
 * [Time zones and Daylight Saving Time (10.2.10)][10]
+* [CRMScript with time/date fields (10.2.3)][3]
+* [Email domain validation (10.2.2)][2]
+* [Task menu list items (10.2.1)][1]
 
 <!-- Referenced links-->
 [1]: 10.2.1-update.md

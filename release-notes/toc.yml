@@ -1,9 +1,6 @@
 items:
 - name: Introduction
   href: index.md
-- name: End of life
-  href: eol/toc.yml
-  topicHref: eol/index.md
 - name: Mobile CRM (app)
   href: mobile/toc.yml
   topicHref: mobile/index.md
@@ -87,3 +84,6 @@ items:
       href: api/ns-31.md
     - name: "3.0"
       href: api/ns-30.md
+- name: End of life
+  href: eol/toc.yml
+  topicHref: eol/index.md
