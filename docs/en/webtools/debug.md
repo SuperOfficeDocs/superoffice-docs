@@ -1,15 +1,15 @@
 ---
 title: Debug
 uid: webtools_debug
-description: How to debug Web Tools
+description: How to debug WebTools
 author: {github-id}
-keywords: debug webtools
+keywords: debug, WebTools
 so.topic: howto
 so.envir: onsite
 so.client:
 ---
 
-# Debugging Web Tools
+# Debugging WebTools
 
 The Web Extension depends on a constant connection to the CRM Server to work properly. If you are having connectivity issues, there are a few things you may do to troubleshoot.
 
@@ -37,37 +37,37 @@ You may enable 2 different log files.
     * Value name = **LogFile**
     * Value data = The full path to a log file where it should write diagnostics. User running WebTools needs to have write permission to this file and folder.
 
-![x -screenshot][img1]
+![WebTools LogFile -screenshot][img1]
 
 ### Get extra logging from SignalR - ProtocolLogfile
 
 Do the same as for LogFile, but now set name to **ProtocolLogFile**.
 
-![x -screenshot][img2]
+![WebTools ProtocolLogfile -screenshot][img2]
 
 ### Get a WebTools for Mac log file
 
 1. Click **Go** then **Library**.
 
-    ![imagewukx.png -screenshot][img4]
+    ![WebTools for Mac log file -screenshot][img4]
 
-2. Navigate to **Application Support** folder then **SuperOffice Web Tools**. Then create a new text file without an extension, call it *debug* and move it to the folder **SuperOffice Web Tools**.Restart WebTools.
+2. Navigate to *Application Support* folder then *SuperOffice WebTools*. Then create a new text file without an extension, call it *debug* and move it to the folder *SuperOffice WebTools*. Restart WebTools.
 
-    ![imagew1mo6.png -screenshot][img5]
+    ![WebTools for Mac log file -screenshot][img5]
 
 3. Open a **Console**
 
-    ![imagelzq97.png -screenshot][img6]
+    ![WebTools for Mac log file -screenshot][img6]
 
 4. In the console dialog search field fill in **SuperOffice** and click **Save**. The information should be saved in the debugging file. If it doesn’t, select all the entries and right-click and click copy then paste it in the debugging file.
 
-    ![imagedo4c.png -screenshot][img7]
+    ![WebTools for Mac log file -screenshot][img7]
 
 ## Change the default timeout value - NetworkTimeoutPeriod
 
-The timeout value is from when a message is sent and until we expect a response. By default this is set to 1000 milliseconds, meaning 1 second. If however, you have a slow connection, this may not be enough and you may experience that Web tools lose connection. You may change the default timeout period by adding a DWORD (32bit) value with a different value. Note that the value here is in milliseconds, so adding 5000 will change the default timeout value from 1 second to 5 seconds.
+The timeout value is from when a message is sent and until we expect a response. By default this is set to 1000 milliseconds, meaning 1 second. If however, you have a slow connection, this may not be enough and you may experience that WebTools lose connection. You may change the default timeout period by adding a DWORD (32bit) value with a different value. Note that the value here is in milliseconds, so adding 5000 will change the default timeout value from 1 second to 5 seconds.
 
-![x -screenshot][img2]
+![NetworkTimeoutPeriod -screenshot][img2]
 
 <!-- Referenced images -->
 [img1]: media/webtoolslog.png

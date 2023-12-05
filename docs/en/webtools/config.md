@@ -1,6 +1,6 @@
 ---
 title: Configure WebTools
-uid: configure_webtools
+uid: webtools-configure
 description: "How to configure WebTools."
 author: Hans Oluf Waaler
 keywords: WebTools, SiteInfo, registry
@@ -9,17 +9,17 @@ so.date: 10.13.2016
 so.envir: onsite
 ---
 
-# Configure Web Tools
+# Configure WebTools
 
-Configuration in SuperOffice Web Tools can be segmented into configuration stored per site in the **SiteInfo** files and configuration stored in the **Windows Registry**.
+Configuration in SuperOffice WebTools can be segmented into configuration stored per site in the **SiteInfo** files and configuration stored in the **Windows Registry**.
 
 ## SiteInfo
 
-The encrypted SiteInfo files contain all connectivity information such as the endpoint URL and the credentials used for authentication. The settings from the **Preferences** dialog in Web Tools are also included here.
+The encrypted SiteInfo files contain all connectivity information such as the endpoint URL and the credentials used for authentication. The settings from the **Preferences** dialog in WebTools are also included here.
 
 Versions before 8.0 stored SiteInfo files in the IsolatedFileStorage provided by .NET in local application data. Versions from 8.1 store the SiteInfo files in *%AppData%\SuperOffice\TrayApp* (Roaming Profiles).
 
-There are no command-line utilities for creating, modifying, and viewing the SiteInfo files directly. All manipulation must be performed through the user interface in SuperOffice Web Tools.
+There are no command-line utilities for creating, modifying, and viewing the SiteInfo files directly. All manipulation must be performed through the user interface in SuperOffice WebTools.
 
 ## Registry
 
@@ -31,8 +31,8 @@ The following registry entries in *HKCU\Software\SuperOffice\DocLink* are availa
 
 | Name | Type | Description |
 |------|------|-------------|
-| SupressExitWarning | REG_DWORD | Set to 1 to disable the exit warning when closing Web Tools |
-| ClientId | REG_SZ | The identifier which uniquely identifies the user and machine when multiple Web Tools from the same user are connecting to one installation. Incorrect values of ClientId result in loss of functionality. |
+| SupressExitWarning | REG_DWORD | Set to 1 to disable the exit warning when closing WebTools |
+| ClientId | REG_SZ | The identifier which uniquely identifies the user and machine when multiple WebTools from the same user are connecting to one installation. Incorrect values of ClientId result in loss of functionality. |
 | ProtocolLogFile | REG_SZ | The path incl filename where data sent and received through the SignalR-connection are logged. Empty or missing value results in no logging. |
 | LogFile | REG_SZ | Path incl. Filename where general logging is stored. Empty or missing value results in no logging. |
 | NetworkTimeoutPeriod | REG_DWORD | The default timeout period before network invocations are considered unresponsive. (SignalR) |
@@ -67,7 +67,7 @@ Add this key (type dword) with value 1:
 
 `HKCU\Software\SuperOffice\MailLink\ProxyUsesDefaultCredentials`
 
-By setting ProxyUsesDefaultCredentials to 1 will Web Tools authenticate with the credentials of the currently logged-on user.
+By setting ProxyUsesDefaultCredentials to 1 will WebTools authenticate with the credentials of the currently logged-on user.
 
 ### Support for forced authentication type
 

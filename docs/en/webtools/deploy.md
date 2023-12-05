@@ -1,32 +1,32 @@
 ---
 title: Deploy
 uid: deploy_webtools
-description: Web Tools deployment in a restricted environment
+description: WebTools deployment in a restricted environment
 author: {github-id}
-keywords:
+keywords: WebTools
 so.topic: howto
 so.envir: onsite
 so.client:
 ---
 
-# Web Tools deployment in a restricted environment
+# WebTools deployment in a restricted environment
 
-Currently, the best way of distributing Web Tools is by deploying the pre-requisites and allowing users to [install Web Tools themselves][4]. This method will utilize the built-in update functionality.
+Currently, the best way of distributing WebTools is by deploying the pre-requisites and allowing users to [install WebTools themselves][4]. This method will utilize the built-in update functionality.
 
 However, there are companies where users are not allowed to install software on their devices at all. Those companies need to deploy the pre-requisites and the MSI files using their preferred deployment strategy. Updates must be manually handled by the company and deployed through their solution.
 
-If Web Tools are already installed, or if you for other reasons wish to configure it, it is possible to use **SoConfig** files for the initial setup:
+If WebTools are already installed, or if you for other reasons wish to configure it, it is possible to use **SoConfig** files for the initial setup:
 
 ![Example of a SoConfig file -screenshot][img1]
 
-When deploying through GPO or other alternatives, executing the *SoConfig* file during the log-on process will set up Web Tools for the user. The site will not be added again if it has already been added.
+When deploying through GPO or other alternatives, executing the *SoConfig* file during the log-on process will set up WebTools for the user. The site will not be added again if it has already been added.
 
 > [!NOTE]
-> If you are not the administrator, you get Web Tools installed in *c:\users\\\<yourname>\appdata\local\SuperOffice*. To install on *C:\Program files*, you need to be the local administrator.
+> If you are not the administrator, you get WebTools installed in *c:\users\\\<yourname>\appdata\local\SuperOffice*. To install on *C:\Program files*, you need to be the local administrator.
 
 ## Overview
 
-1. Extract required files from the Web Tools installer.
+1. Extract required files from the WebTools installer.
 2. Distribute the MSI files (using GPO or SCCM tools) to all machines that are going to use WebTools.
 3. Auto-configure the URL and Settings using a script.
 
@@ -41,13 +41,13 @@ The following MSI files must be deployed to every SuperOffice user (AD group all
 * Username in SuperOffice must be the same as in ActiveDirectory (sAMAccountName).
 * SuperOffice needs to be configured to use Active Directory as the authentication method for all users.
 * SuperOffice Web needs to be configured to use Windows Authentication on the website.
-* We also recommend to [disable the Web Tools upgrade dialog][2].
+* We also recommend to [disable the WebTools upgrade dialog][2].
 * Blocking applications must be closed.
 * [Libraries][5] must be installed **before any SuperOffice plugins are installed**.
 
 ## Blocking applications
 
-There are several applications that need to be closed when MailLink and Web Extensions are being installed. Make sure all of these are switched off when you deploy Web Tools.
+There are several applications that need to be closed when MailLink and Web Extensions are being installed. Make sure all of these are switched off when you deploy WebTools.
 
 > [!WARNING]
 > Do not run Outlook.exe as administrator (then you do not run it as "your own local user") and that will not work for MailLink.
@@ -62,13 +62,13 @@ There are several applications that need to be closed when MailLink and Web Exte
 
 * SuperOffice TrayApp Client
 
-## Step 1: Extract required files from the Web Tools installer
+## Step 1: Extract required files from the WebTools installer
 
 You need to extract *SoCrossTableInstaller.msi*, *SuperOffice.MailLink.Setup.msi*, and *SuperOffice.Web.Extensions.msi*.
 
-1. Download the Web Tools installer from the [Download Service][3] or from inside the SuperOffice Web **Download** menu.
+1. Download the WebTools installer from the [Download Service][3] or from inside the SuperOffice CRM **Download** menu.
 
-2. Extract Mail Link and Web Extensions installers out of Web Tools installer:
+2. Extract Mail Link and Web Extensions installers out of WebTools installer:
 
     `SuperOffice.Web.Tools.exe /k /d C:\Temp`
 

@@ -27,6 +27,7 @@ Read more about on how to [connect email and documents][5].
 * [Install SuperOffice for Outlook][1]
 * [Install Gmail Link][2]
 * [Connect email, documents and diary][5]
+* [Configure Mail Link manually][7] - support page
 
 <!-- Referenced links -->
 [1]: https://appstore.superoffice.com/superoffice-as/superoffice-for-outlook
@@ -35,5 +36,6 @@ Read more about on how to [connect email and documents][5].
 [4]: ../../../webtools/learn/install.md
 [5]: ../../../learn/getting-started/connect-email-doc/index.md
 [6]: ../../inbox/learn/setup.md
+[7]: http://cs.superoffice.no/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=no&noCookies=true&action=viewKbEntry&id=112129
 
 <!-- Referenced images -->

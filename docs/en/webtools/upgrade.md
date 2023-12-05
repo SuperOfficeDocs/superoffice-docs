@@ -1,7 +1,7 @@
 ---
 title: Upgrade
-uid: upgrade_webtools
-description: Upgrade Web Tools, Hide download dialog
+uid: webtools-upgrade
+description: Upgrade WebTools, Hide download dialog
 author: {github-id}
 keywords: WebTools, upgrade
 so.topic: howto
@@ -11,21 +11,21 @@ so.client: web
 
 # Upgrading
 
-When the user logs in to an updated Web installation, Web Tools will detect there is an updated version available and prompt the user for an upgrade. Versioning in SuperOffice is defined as "MAJOR.MINOR.BUILD.REVISION". The user will be "forced" to upgrade if the MAJOR component is higher than the current major version of web tools. Other changes are optional upgrades.
+When the user logs in to an updated Web installation, WebTools will detect there is an updated version available and prompt the user for an upgrade. Versioning in SuperOffice is defined as "MAJOR.MINOR.BUILD.REVISION". The user will be "forced" to upgrade if the MAJOR component is higher than the current major version of WebTools. Other changes are optional upgrades.
 
 ## Turn off upgrade prompt
 
-The prompt to upgrade can be disabled in scenarios where you don’t want to push a new version of Web Tools. The configuration setting [SuperOffice\Downloads\WebToolVersion][1] in the *web.config* file can be set to a previous version. The user will still be able to upgrade to the latest version by pressing Download in the web client.
+The prompt to upgrade can be disabled in scenarios where you don’t want to push a new version of WebTools. The configuration setting [SuperOffice\Downloads\WebToolVersion][1] in the *web.config* file can be set to a previous version. The user will still be able to upgrade to the latest version by pressing Download in the web client.
 
 ![Logging in to Sales and Marketing (upgrade) -screenshot][img4]
 
-## Hide Web Tools download dialog
+## Hide WebTools download dialog
 
 SuperOffice WebTools upgrade dialog can be suppressed by configuration in *web.config*.
 
-When a user logs in to an updated Web installation, Web Tools will detect there is an updated version available and prompt the user to upgrade. Versioning in SuperOffice is defined as "MAJOR.MINOR.BUILD.REVISION". The user will be "forced" to upgrade if the MAJOR component is higher than the current web tools' major version. Other changes are optional upgrades.
+When a user logs in to an updated Web installation, WebTools will detect there is an updated version available and prompt the user to upgrade. Versioning in SuperOffice is defined as "MAJOR.MINOR.BUILD.REVISION". The user will be "forced" to upgrade if the MAJOR component is higher than the current WebTools' major version. Other changes are optional upgrades.
 
-The prompt for an upgrade can be disabled in scenarios where you don’t want to push a new version of Web Tools. The configuration setting `SuperOffice\Downloads\WebToolVersion` in the *web.config* file can be set to a previous version. The user will still be able to upgrade to the latest version by pressing Download in the web client.
+The prompt for an upgrade can be disabled in scenarios where you don’t want to push a new version of WebTools. The configuration setting `SuperOffice\Downloads\WebToolVersion` in the *web.config* file can be set to a previous version. The user will still be able to upgrade to the latest version by pressing Download in the web client.
 
 ## Client upgrade warnings
 
@@ -54,21 +54,21 @@ Now below `</Documents>` add the following new section:
 
 The value must be the same version as the DLL files in the MSI.
 
-If the value is blank we check against the current version installed on the server. So if you have installed SuperOffice 8.0 SR5 but do not want your clients to be asked to upgrade if they have installed Web Tools 8.0 SR2 you may set 8.0.6004.1310 in WebToolVersion value and the clients will only be prompted to upgrade if they are using a version older than 8.0.6004.1310. If they are using an older version but do not want to upgrade, they may tick the checkbox so it does not ask again. This information is stored in a persistent cookie that lasts till the next server update.
+If the value is blank we check against the current version installed on the server. So if you have installed SuperOffice 8.0 SR5 but do not want your clients to be asked to upgrade if they have installed WebTools 8.0 SR2 you may set 8.0.6004.1310 in WebToolVersion value and the clients will only be prompted to upgrade if they are using a version older than 8.0.6004.1310. If they are using an older version but do not want to upgrade, they may tick the checkbox so it does not ask again. This information is stored in a persistent cookie that lasts till the next server update.
 
 Just one reminder:
 
 This should never be the default solution. We release new versions of WebTools because it always contains improvements that solve IMPORTANT issues for our users. In general, we recommend all our users to run the last released version of WebTools. Sometimes it is even critical that users upgrade, and if customers turn this off, it is almost impossible for us to reach them with information that they should upgrade.
 
-If you are unsure which Web Tools version you have, right-click on any DLL starting with SuperOffice in the SuperOffice Mail Link folder and check the Details tab. The version number you are looking for is the Product version.
+If you are unsure which WebTools version you have, right-click on any DLL starting with SuperOffice in the SuperOffice Mail Link folder and check the Details tab. The version number you are looking for is the Product version.
 
 ![x -screenshot][img3]
 
-## Suppress the dialogue in SuperOffice Admin
+## Suppress the dialog in SuperOffice Admin
 
-Since SuperOffice 9 it is possible to suppress the Web Tools installation and upgrade dialogue in SuperOffice Admin. Go to Preferences - System and check the Offer to install Web Tools and Offer to upgrade Web Tools options. Once set to 'No' clients will not be offered to install and / or upgrade Web Tools.
+Since SuperOffice 9 it is possible to suppress the WebTools installation and upgrade dialog in SuperOffice Admin. Go to Preferences - System and check the Offer to install WebTools and Offer to upgrade WebTools options. Once set to 'No' clients will not be offered to install and / or upgrade WebTools.
 
-![Install and upgrade dialogue -screenshot][img5]
+![Install and upgrade dialog -screenshot][img5]
 
 <!-- Referenced links -->
 [1]: ../api/config/downloads.md
