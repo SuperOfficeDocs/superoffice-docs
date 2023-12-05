@@ -147,7 +147,7 @@ so.version: 10.2
 [30]: service/10.2.11-update.md
 [31]: ../../docs/en/developer-portal/widgets/index.md
 [32]: core-crm/10.2.11-update.md
-[33]: office-integrations/3.1-update.md
+[33]: office-integrations/12.8-update.md
 [34]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_10.2.15
 
 <!-- Referenced images -->
