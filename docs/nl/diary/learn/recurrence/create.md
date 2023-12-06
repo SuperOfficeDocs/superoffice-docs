@@ -3,7 +3,8 @@ uid: help-nl-recurrence-set
 title: Plan herhalende vervolgactiviteit
 description: Plan herhalende vervolgactiviteit
 author: Bergfrid Dias
-so.date: 10.09.2023
+so.date: 12.06.2023
+so.version: 10.2.11
 keywords: agenda, vervolgactiviteit, herhalen, terugkeren, plan, regelmatig, frequentie
 so.topic: howto
 language: nl
@@ -57,7 +58,7 @@ Het instellen van herhaling betekent het plannen van de startdatum van follow-up
 
 1. Klik op het herhaalsymbool ![symbool][img1] en kies een van de voorgestelde frequenties. Als geen van de patronen voor jou werkt, kies **Aangepast**.
 
-    ![Vervolgactiviteitendialoog, voorgestelde herhaling - screenshot][img8]
+    ![Vervolgactiviteitendialoog, voorgestelde herhaling -screenshot][img8]
 
     Als je het pictogram niet ziet, klik dan op **Meer tonen**.
 
@@ -65,7 +66,7 @@ Het instellen van herhaling betekent het plannen van de startdatum van follow-up
 
 1. Kies een frequentie, bijvoorbeeld, herhaal elke 2 weken. Extra opties verschijnen als je *Week(en)*, *Maand(en)* of *Jaar(en)* selecteert.
 
-    ![Vervolgactiviteitendialoog, herhaling - screenshot][img7]
+    ![Vervolgactiviteitendialoog, herhaling -screenshot][img7]
 
 1. Beslis of de vervolgactiviteit moet stoppen na een specifiek aantal keren of na een specifieke datum.
 

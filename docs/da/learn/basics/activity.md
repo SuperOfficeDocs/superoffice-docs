@@ -109,7 +109,7 @@ Du kan slette aktiviteter fra enhver skærm, hvor de vises:
 [img5]: ../../../../common/icons/filter-icon.png
 [img11]: ../../../../common/icons/appointment.png
 [img12]: ../../../../common/icons/appointment-task.png
-[img13]: ../../../../common/icons/appointment.png
+[img13]: ../../../../common/icons/appointment-followup.png
 [img14]: ../../../../common/icons/document.png
 [img15]: ../../../../common/icons/email.png
 [img16]: ../../../../common/icons/marketing.png

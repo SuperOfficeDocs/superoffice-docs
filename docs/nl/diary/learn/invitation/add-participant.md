@@ -3,7 +3,8 @@ uid: help-nl-invitation-add-participant
 title: Deelnemers toevoegen aan vervolgactiviteiten
 description: "Het uitnodigen van contactpersonen voor een afspraak kan op verschillende manieren worden gedaan. Deze handleiding laat zien hoe u deelnemers aan een afspraak kunt toevoegen."
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 12.06.2023
+so.version: 10.2.11
 keywords: agenda, vervolgactiviteit, uitnodiging, deelnemer
 so.topic: howto
 language: nl
@@ -74,6 +75,8 @@ Bekijk de video voor [Deelnemers toevoegen aan een afspraak][15].
 
     ![Opvolgingsdialog, deelnemers toegevoegd -screenshot][img16]
 
+    Als een deelnemer niet beschikbaar is, wordt er een uitroepteken weergegeven naast hun naam. Kies een van de voorgestelde tijdvakken of klik op **Beschikbaarheid controleren** om een geschiktere tijd te vinden.
+
 1. Optioneel, voeg locaties, kamers en/of middelen toe.
 
 1. Optioneel, selecteer **Stuur e-mailuitnodiging naar deelnemers**. (Dit wijzigt de **Opslaan**-knop naar **Opslaan en versturen**.)
@@ -91,7 +94,7 @@ De planningsassistent maakt deel uit van de nieuwe **Vervolgactiviteit**-dialoog
 
 1. In de **Vervolgactiviteit**-dialoog, klik op **Controleer beschikbaarheid**.
 
-1. Klik en sleep de aanwijzer naar links of rechts om een ​​vergadertijd te selecteren. Bijvoorbeeld, van 14:00 tot 15:00, zoals getoond in het groen op dit scherm. Gebruik de schuifbalk om tussen dagen te bewegen.
+1. Klik en sleep de aanwijzer naar links of rechts om een ​​vergadertijd te selecteren. Bijvoorbeeld, van 13:30 tot 15:00, zoals getoond in het groen op dit scherm. Gebruik de schuifbalk om tussen dagen te bewegen.
 
     Als alternatief kunt u de geselecteerde datum en tijd bovenaan in het dialoogvenster bijwerken.
 

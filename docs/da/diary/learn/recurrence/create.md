@@ -3,7 +3,8 @@ uid: help-da-recurrence-set
 title: Planlæg gentagen opfølgning
 description: Planlæg gentagen opfølgning
 author: Bergfrid Dias
-so.date: 10.09.2023
+so.date: 12.06.2023
+so.version: 10.2.11
 keywords: dagbog, opfølgning, gentag
 so.topic: howto
 language: da
@@ -56,7 +57,7 @@ At opsætte gentagelse betyder at planlægge *startdatoen* for opfølgningsmøde
 
 1. Klik på gentagelsesikonet ![ikon][img1] og vælg en af de foreslåede frekvenser. Hvis ingen af mønstrene passer for dig, vælg **Tilpasset**.
 
-    ![Opfølgningsdialog, foreslået tilbagevendende - skærmbillede][img8]
+    ![Opfølgningsdialog, foreslået tilbagevendende -screenshot][img8]
 
     Hvis du ikke ser ikonet, klik **Vis mere**.
 
@@ -64,7 +65,7 @@ At opsætte gentagelse betyder at planlægge *startdatoen* for opfølgningsmøde
 
 1. Vælg en frekvens, for eksempel, gentag hver 2. uge. Yderligere indstillinger vises, hvis du vælger *Uge(r)*, *Måned(er)*, eller *År*.
 
-    ![Opfølgningsdialog, tilbagevendende - skærmbillede][img7]
+    ![Opfølgningsdialog, tilbagevendende -screenshot][img7]
 
 1. Beslut, om opfølgningen skal stoppe efter et bestemt antal gange eller efter en bestemt dato.
 

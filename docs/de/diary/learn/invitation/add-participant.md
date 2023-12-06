@@ -3,7 +3,8 @@ uid: help-de-invitation-add-participant
 title: Teilnehmer zu Folgeaufgaben hinzufügen
 description: "Personen können auf unterschiedliche Weise zu einem Termin eingeladen werden. Diese Anleitung zeigt, wie Sie Teilnehmer zu einem Termin hinzufügen."
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 12.06.2023
+so.version: 10.2.11
 keywords: Kalender, Folgeaufgabe, Einladung, Teilnehmer
 so.topic: howto
 language: de
@@ -73,6 +74,8 @@ Sehen Sie sich das Video für [Teilnehmer zu einem Termin hinzufügen][15] an.
     > [!TIP]
     > Um jemanden einzuladen, der nicht in SuperOffice registriert ist, geben Sie bitte deren vollständige E-Mail-Adresse ein.
 
+    Wenn ein Teilnehmer nicht verfügbar ist, wird ein Ausrufezeichen neben seinem Namen angezeigt. Wählen Sie einen der vorgeschlagenen Zeitfenster aus oder klicken Sie auf **Verfügbarkeit überprüfen**, um eine bessere Zeit zu finden.
+
     ![Folgeaufgabedialog, hinzugefügte Teilnehmer -screenshot][img16]
 
 1. Optional, fügen Sie Standorte, Räume und/oder Ressourcen hinzu.
@@ -92,7 +95,7 @@ Der Terminassistent ist Teil des neuen **Folgeaufgabe**-Dialogs. Der detailliert
 
 1. Im **Folgeaufabe**-Dialog klicken Sie auf **Verfügbarkeit prüfen.**
 
-1. Klicken Sie und ziehen Sie den Zeiger nach links oder rechts, um eine Besprechungszeit auszuwählen. Zum Beispiel von 14:00 bis 15:00, wie in diesem Bildschirmfoto grün dargestellt. Verwenden Sie die Scrollleiste, um zwischen den Tagen zu wechseln.
+1. Klicken Sie und ziehen Sie den Zeiger nach links oder rechts, um eine Besprechungszeit auszuwählen. Zum Beispiel von 13.30 bis 15:00, wie in diesem Bildschirmfoto grün dargestellt. Verwenden Sie die Scrollleiste, um zwischen den Tagen zu wechseln.
 
     Alternativ können Sie das ausgewählte Datum und die Uhrzeit oben im Dialog aktualisieren.
 
@@ -101,7 +104,7 @@ Der Terminassistent ist Teil des neuen **Folgeaufgabe**-Dialogs. Der detailliert
 1. Klicken Sie auf **OK**, wenn Sie fertig sind.
 1. Klicken Sie auf **Speichern**, um alle Änderungen zu speichern.
 
-### <a id="preview" />Vorschau und Aktualisierung der Einladungs-E-Mail (nur in der Pilotversion)
+### <a id="preview" />Vorschau und Aktualisierung der Einladungs-E-Mail (nur in Pilotversion)
 
 Wenn Sie auf **Speichern und senden** klicken, wird eine Vorschau der E-Mail basierend auf dem Titel und der Agenda angezeigt. Alle internen Notizen, die der Folgeaufgabe hinzugefügt wurden, sind ausgeschlossen.
 

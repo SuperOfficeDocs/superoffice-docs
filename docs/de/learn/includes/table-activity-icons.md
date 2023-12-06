@@ -2,7 +2,7 @@
 | Symbol | Beschreibung |
 |:-:|---|
 | ![Symbol](../../../../common/icons/appointment.png ) | Besprechung (Termin) |
-| ![Symbol](../../../../common/icons/appointment.png) | Folgeaufgabe (Anruf) |
+| ![Symbol](../../../../common/icons/appointment-followup.png) | Folgeaufgabe (Anruf) |
 | ![Symbol](../../../../common/icons/appointment-task.png) | Zu erledigen (Aufgabe) |
 | ![Symbol](../../../../common/icons/document.png) | Dokument/Bericht |
 | ![Symbol](../../../../common/icons/email.png) | E-Mail |

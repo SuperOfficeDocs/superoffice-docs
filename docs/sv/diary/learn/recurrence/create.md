@@ -3,7 +3,8 @@ uid: help-sv-recurrence-set
 title: Schemalägg återkommande händelse
 description: Schemalägg återkommande händelse
 author: Bergfrid Dias
-so.date: 10.09.2023
+so.date: 12.06.2023
+so.version: 10.2.11
 keywords: kalender, händelse, upprepa, återkomma
 so.topic: howto
 language: sv
@@ -56,7 +57,7 @@ Att ställa in återkommande möten innebär att schemalägga startdatumet för 
 
 1. Klicka på upprepningssymbolen ![ikon][img1] och välj en av de föreslagna frekvenserna. Om inget av mönstren passar dig, välj **Anpassad**.
 
-    ![Uppföljningsdialog, föreslagen återkomst - skärmbild][img8]
+    ![Uppföljningsdialog, föreslagen återkomst -screenshot][img8]
 
     Om du inte ser ikonen, klicka på **Visa mer**.
 
@@ -64,7 +65,7 @@ Att ställa in återkommande möten innebär att schemalägga startdatumet för 
 
 1. Välj en frekvens, till exempel, upprepa var 2:a vecka. Ytterligare alternativ visas om du väljer *Vecka(r)*, *Månad(er)*, eller *År*.
 
-    ![Uppföljningsdialog, återkomst - skärmbild][img7]
+    ![Uppföljningsdialog, återkomst -screenshot][img7]
 
 1. Välj om uppföljningen ska sluta efter ett specifikt antal gånger eller efter ett specifikt datum.
 

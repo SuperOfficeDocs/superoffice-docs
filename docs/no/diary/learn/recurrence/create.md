@@ -3,7 +3,8 @@ uid: help-no-recurrence-set
 title: Planlegge repeterende oppfølging
 description: Planlegge repeterende oppfølging
 author: Bergfrid Dias
-so.date: 10.09.2023
+so.date: 12.06.2023
+so.version: 10.2.11
 keywords: dagbok, oppfølging, gjenta
 so.topic: howto
 language: no
@@ -57,7 +58,7 @@ language: no
 
 1. Klikk gjentakelsesikonet ![ikon][img1] og velg en av de foreslåtte frekvensene. Hvis ingen av mønstrene passer for deg, velg **Egendefinert**.
 
-    ![Oppfølgingsdialog, foreslått gjentakelse - skjermbilde][img8]
+    ![Oppfølgingsdialog, foreslått gjentakelse -screenshot][img8]
 
     Hvis du ikke ser ikonet, klikk **Vis mer**.
 
@@ -65,7 +66,7 @@ language: no
 
 1. Velg en frekvens, for eksempel, gjenta hver 2. uke. Ytterligere alternativer vises hvis du velger *Uke(r)*, *Måned(er)*, eller *År*.
 
-    ![Oppfølgingsdialog, gjentakelse - skjermbilde][img7]
+    ![Oppfølgingsdialog, gjentakelse -screenshot][img7]
 
 1. Velg om oppfølgingen skal stoppe etter et bestemt antall ganger eller etter en bestemt dato.
 

@@ -3,7 +3,8 @@ uid: help-no-invitation-add-participant
 title: Legge til deltakere i oppfølginger
 description: "Det er flere måter å invitere personer til en avtale på. Denne guiden viser hvordan du legger til deltakere i en avtale."
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 12.06.2023
+so.version: 10.2.11
 keywords: dagbok, oppfølging, invitasjon, deltaker
 so.topic: howto
 language: no
@@ -75,6 +76,8 @@ Se videoen [Legge til deltakere i en avtale][15].
 
     ![Oppfølgingsdialog, deltakere lagt til -screenshot][img16]
 
+    Hvis en deltaker er utilgjengelig, vises et utropstegn ved siden av navnet deres. Velg en av de foreslåtte tidspunktene eller klikk på **Sjekk tilgjengelighet** for å finne en bedre tid.
+
 1. Valgfritt, legg til steder, rom og/eller ressurser.
 
 1. Valgfritt, velg **Send e-postinvitasjon til deltakere**. (Dette endrer **Lagre**-knappen til **Lagre og send**.)
@@ -92,7 +95,7 @@ Planleggingsassistenten er en del av den nye **Oppfølgings**-dialogen. Den deta
 
 1. I **Oppfølgings**-dialogen, klikk på **Sjekk tilgjengelighet.**
 
-1. Klikk og dra pekeren til venstre eller høyre for å velge et møtetidspunkt. For eksempel, fra 14:00 til 15:00, som vist i grønt på dette skjermbildet. Bruk rullefeltet for å bevege deg mellom dagene.
+1. Klikk og dra pekeren til venstre eller høyre for å velge et møtetidspunkt. For eksempel, fra 13.30 til 15:00, som vist i grønt på dette skjermbildet. Bruk rullefeltet for å bevege deg mellom dagene.
 
     Alternativt, oppdater den valgte datoen og tiden øverst i dialogen.
 

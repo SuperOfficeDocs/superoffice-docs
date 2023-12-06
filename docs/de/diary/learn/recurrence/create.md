@@ -3,7 +3,8 @@ uid: help-de-recurrence-set
 title: Planen von regelmäßige Folgeaufgabe
 description: Planen von regelmäßige Folgeaufgabe
 author: Bergfrid Dias
-so.date: 10.09.2023
+so.date: 12.06.2023
+so.version: 10.2.11
 keywords: Kalender, Folgeaufgabe, Wiederholen, Wiederkehren, regelmäßig, planen
 so.topic: howto
 language: de
@@ -57,7 +58,7 @@ Die Einrichtung von Wiederholungen bedeutet, das Startdatum für Nachverfolgunge
 
 1. Klicken Sie auf das Wiederholungssymbol ![Symbol][img1] und wählen Sie eine der vorgeschlagenen Frequenzen aus. Wenn keines der Muster für Sie funktioniert, wählen Sie **Benutzerdefiniert**.
 
-    ![Nachverfolgungsdialog, vorgeschlagene Wiederholung - Screenshot][img8]
+    ![Nachverfolgungsdialog, vorgeschlagene Wiederholung -screenshot][img8]
 
     Wenn Sie das Symbol nicht sehen, klicken Sie auf **Mehr anzeigen**.
 
@@ -65,7 +66,7 @@ Die Einrichtung von Wiederholungen bedeutet, das Startdatum für Nachverfolgunge
 
 1. Wählen Sie eine Häufigkeit aus, zum Beispiel, wiederholen Sie alle 2 Wochen. Zusätzliche Optionen erscheinen, wenn Sie *Woche(n)*, *Monat(e)* oder *Jahr(e)* auswählen.
 
-    ![Nachverfolgungsdialog, Wiederholung - Screenshot][img7]
+    ![Nachverfolgungsdialog, Wiederholung -screenshot][img7]
 
 1. Entscheiden Sie, ob die Nachverfolgung nach einer bestimmten Anzahl von Malen oder nach einem bestimmten Datum enden soll.
 

@@ -3,7 +3,7 @@ uid: help-en-invitation-add-participant
 title: Add participants to follow-ups
 description: This how-to guide will show how you to add participants to a follow-up.
 author: Bergfrid Dias
-so.date: 11.20.2023
+so.date: 12.06.2023
 so.version: 10.2.11
 keywords: diary, follow-up, meeting, invitation, participant, attendee
 so.topic: howto
@@ -76,6 +76,8 @@ Watch the video for [Add participants to a meeting][15].
 
     ![Follow-up dialog, attendees added -screenshot][img16]
 
+    If an attendee is unavailable, an exclamation mark is shown next to their name. Choose one of the suggested time slots or click **Check availability** to find a better time.
+
 1. Optionally, add locations, rooms, and/or resources.
 
 1. Optionally, select **Send email invitation to attendees**. (This changes the **Save** button to **Save and send**.)
@@ -93,7 +95,7 @@ The scheduling assistant is part of the new **Follow-up** dialog. The detailed c
 
 1. In the **Follow-up** dialog, click **Check availability.**
 
-1. Click and drag the pointer left or right to select a meeting time. For example, from 2 to 3 PM, as shown in green in this screenshot. Use the scrollbar to move between days.
+1. Click and drag the pointer left or right to select a meeting time. For example, from 1:30 to 3 PM, as shown in green in this screenshot. Use the scrollbar to move between days.
 
     Alternatively, update the selected date and time at the top of the dialog.
 

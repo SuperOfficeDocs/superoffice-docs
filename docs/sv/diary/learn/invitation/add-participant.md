@@ -3,7 +3,8 @@ uid: help-sv-invitation-add-participant
 title: Lägga till deltagare i händelser
 description: "Att bjuda in kontakter till en bokning görs på olika sätt. Den här guiden beskriver hur du lägger till deltagare i en bokning."
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 12.06.2023
+so.version: 10.2.11
 keywords: kalender, händelse, förfrågan, deltagare
 so.topic: howto
 language: sv
@@ -74,6 +75,8 @@ Titta på filmen om att [Lägga till deltagare i en bokning][15].
 
     ![Händelsesdialog, deltagare tillagda -screenshot][img16]
 
+    Om en deltagare inte är tillgänglig visas ett utropstecken bredvid deras namn. Välj ett av de föreslagna tidsluckorna eller klicka på **Kontrollera tillgänglighet** för att hitta en bättre tid.
+
 1. Valfritt, lägg till platser, rum och/eller resurser.
 
 1. Valfritt, välj **Skicka e-postinbjudan till deltagare**. (Detta ändrar **Spara**-knappen till **Spara och skicka**.)
@@ -91,7 +94,7 @@ Schemarådgivaren är en del av den nya **Händelse**-dialogen. Den detaljerade 
 
 1. I **Händelse**-dialogen, klicka på **Kontrollera tillgänglighet.**
 
-1. Klicka och dra pekaren åt vänster eller höger för att välja ett mötestidpunkt. Till exempel, från 14:00 till 15:00, som visas i grönt på detta skärmbild. Använd rullningslisten för att röra dig mellan dagarna.
+1. Klicka och dra pekaren åt vänster eller höger för att välja ett mötestidpunkt. Till exempel, från 13.30 till 15:00, som visas i grönt på detta skärmbild. Använd rullningslisten för att röra dig mellan dagarna.
 
     Som ett alternativ kan du uppdatera den valda datumen och tiden högst upp i dialogen.
 

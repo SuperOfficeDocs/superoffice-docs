@@ -3,7 +3,7 @@ uid: help-en-recurrence-set
 title: Schedule repeating follow-up
 description: Instead of recording these meetings one at a time, you can schedule repeating follow-ups
 author: Bergfrid Dias
-so.date: 11.20.2023
+so.date: 12.06.2023
 so.version: 10.2.11
 keywords: diary, follow-up, repeat, recur, frequency, schedule, pattern
 so.topic: howto
@@ -12,7 +12,7 @@ language: en
 
 # Schedule repeating follow-up
 
-To set up recurrence means to schedule the *start date* of follow-ups in a series. At the upper left of the **Repeating follow-ups** dialog, the start date and time for the follow-up as well as the end time are displayed.
+To set up recurrence means to schedule the *start date* of follow-ups in a series. At the upper left of the dialog, the start date and time for the follow-up as well as the end time are displayed.
 
 [!include[Caution](../includes/caution-do-not-change-recurring-date.md)]
 

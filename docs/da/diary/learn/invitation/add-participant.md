@@ -3,7 +3,8 @@ uid: help-da-invitation-add-participant
 title: Tilføjelse af deltagere i opfølgninger
 description: "Invitation af kontakter til en aftale kan gøres på forskellige måder. Denne vejledning viser, hvordan du føjer deltagere til en aftale."
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 12.06.2023
+so.version: 10.2.11
 keywords: dagbog, opfølgning, invitation, deltager
 so.topic: howto
 language: da
@@ -75,6 +76,8 @@ Se videoen for [Føj deltagere til en aftale][15].
 
     ![Opfølgingsdialog, deltagere tilføjet -screenshot][img16]
 
+    Hvis en deltager ikke er tilgængelig, vises et udråbstegn ved siden af deres navn. Vælg en af de foreslåede tidspunkter eller klik på **Tjek tilgængelighed** for at finde et bedre tidspunkt.
+
 1. Valgfrit, tilføj steder, rum og/eller ressourcer.
 
 1. Valgfrit, vælg **Send e-mailinvitation til deltagere**. (Dette ændrer **Gem**-knappen til **Gem og send**.)
@@ -92,7 +95,7 @@ Planlægningsassistenten er en del af den nye **Opfølgning**-dialog. Den detalj
 
 1. I **Opfølgning**-dialogen skal du klikke på **Tjek tilgængelighed.**
 
-1. Klik og træk markøren til venstre eller højre for at vælge et mødetidspunkt. For eksempel, fra 14:00 til 15:00, som vist i grønt på dette skærmbillede. Brug rullefeltet for at bevæge dig mellem dagene.
+1. Klik og træk markøren til venstre eller højre for at vælge et mødetidspunkt. For eksempel, fra 13:30 til 15:00, som vist i grønt på dette skærmbillede. Brug rullefeltet for at bevæge dig mellem dagene.
 
     Alternativt, opdater den valgte dato og tid øverst i dialogen.
 
