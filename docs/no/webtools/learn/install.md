@@ -2,14 +2,14 @@
 uid: help-no-webtools-install
 title: Installer WebTools
 description: "Hvis du bruker Windows OS, trenger du WebTools for å integrere Outlook- og Microsoft 365-dokumentprogrammene dine med SuperOffice CRM."
-author: SuperOffice RnD
-so.date: 02.10.2023
+author: Bergfrid Dias
+so.date: 12.04.2023
 keywords: WebTools
 so.topic: howto
 language: no
 ---
 
-# Installer WebTools
+# Installer WebTools for Windows
 
 > [!NOTE]
 > På Windows består WebTools av to komponenter: Mail Link og webutvidelser. På Mac består WebTools av bare én komponent: WebTools.
@@ -18,7 +18,7 @@ language: no
 
 [!include[Requirements](includes/pre-req.md)]
 
-## Installer WebTools for Windows OS
+## Installer
 
 Se denne videoen eller følg veiledningen nedenfor for å lære hvordan du installerer WebTools for Outlook ved hjelp av Windows OS (videolengde - 3:00):
 
@@ -28,18 +28,30 @@ Se denne videoen eller følg veiledningen nedenfor for å lære hvordan du insta
 ### Trinn
 
 1. Gå til ![ikon][img1] hovedmenyen i toppraden.
-2. Velg **Last ned** > **SuperOffice WebTools**. SuperOffice WebTools-veiviseren vises.
-3. Velg **Personlig datamaskin** > **SuperOffice** i veiviseren, og klikk på **Last ned** for å laste ned installeringsfilen
-4. Klikk **Neste** og **Lukk** for å lukke WebTools-veiviseren.
-5. Klikk på den nedlastede **SuperOffice.Web.Tools.exe**-filen i nedlastingsområdet i nettleseren din.
-6. Dobbeltklikk på filen **SuperOffice WebTools Installer.pkg** for at starte installasjonen.
-7. Klikk på **Fortsett**.
-8. Klikk på **Installer**.
-9. Hvis du blir bedt om brukernavn og passord for å installere, skriver du dem inn og klikker på **Installer programvare**.
-10. Når meldingen "Installeringen er fullført" vises, lukker du dialogboksen.
-11. Deretter logger du ut av SuperOffice CRM, lukker nettleservinduet og åpner nettleservinduet på nytt for å logge på igjen.
+1. Velg **Last ned** > **SuperOffice WebTools**. SuperOffice WebTools-veiviseren vises.
+
+    ![Download WebTools -screenshot][img2]
+
+1. Velg **Personlig datamaskin** > **SuperOffice** i veiviseren, og klikk på **Last ned** for å laste ned installeringsfilen
+
+    ![WebTools installation -screenshot][img3]
+
+    ![WebTools installation -screenshot][img4]
+
+1. Klikk **Neste** og **Lukk** for å lukke WebTools-veiviseren.
+1. Klikk på den nedlastede **SuperOffice.Web.Tools.exe**-filen i nedlastingsområdet i nettleseren din.
+1. Dobbeltklikk på filen **SuperOffice WebTools Installer.pkg** for at starte installasjonen.
+1. Klikk på **Fortsett**.
+1. Klikk på **Installer**.
+1. Hvis du blir bedt om brukernavn og passord for å installere, skriver du dem inn og klikker på **Installer programvare**.
+1. Når meldingen "Installeringen er fullført" vises, lukker du dialogboksen.
+1. Deretter logger du ut av SuperOffice CRM, lukker nettleservinduet og åpner nettleservinduet på nytt for å logge på igjen.
 
 Med WebTools installert kan du begynne å opprette dokumenter fra SuperOffice
+
+## Oppgradering
+
+Vi jobber kontinuerlig med å forbedre programmene våre, inkludert WebTools. Når en ny versjon av WebTools er tilgjengelig, vil du få en melding når du logger inn. For å installere den nye versjonen, følg bare veiledningen som vises på skjermen.
 
 ## Aktuelt innhold
 
@@ -50,3 +62,6 @@ Med WebTools installert kan du begynne å opprette dokumenter fra SuperOffice
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/main-menu-small.png
+[img2]: ../../../media/loc/en/webtools/download-webtools.png
+[img3]: ../../../media/loc/en/webtools/webtools-pc.png
+[img4]: ../../../media/loc/en/webtools/webtools-email-client.png

@@ -3,7 +3,7 @@ uid: help-da-document-update
 title: Redigering af dokumenter
 description: Redigering af dokumenter
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.06.2023
 keywords: dokument
 so.topic: howto
 language: da
@@ -83,6 +83,31 @@ Hvis du vil ændre dokumentegenskaberne, f.eks. hvilket projekt dokumentet skal 
 
 5. Dokumentet tjekkes ind, og status sættes til **Udført**.
 
+### <a id="allow" />Browser sikkerhedsspørgsmål ved åbning af filer
+
+Når du får adgang til og redigerer et dokument, fil eller e-mail i SuperOffice, præsenterer din browser dig for et *sikkerhedsspørgsmål* vedrørende filoverførslen.
+
+* For at åbne filen skal du vælge knappen **Åbn**/**Tillad**.
+* Vælg **Altid tillad** for at springe spørgsmålet over næste gang.
+
+Dialogboksen er lidt anderledes i Chrome, Edge, Firefox og Safari.
+
+**Chrome:** Vælg **Åbn URL:SuperOffice-Extensions**.
+
+![Chrome: Åbn URL:SuperOffice-Extensions -screenshot][img5]
+
+**Edge:** Vælg **Åbn**.
+
+![Edge: Åbn -screenshot][img2]
+
+**Firefox:** Vælg **Åbn link**.
+
+![Firefox: Åbn link -screenshot][img3]
+
+**Safari:** Vælg **Altid tillad** eller **Tillad**.
+
+![Safari: Altid tillad eller Tillad -screenshot][img4]
+
 ## Fejlfinding
 
 Hvis du dobbeltklikker på et dokument, og der ikke sker noget, kan du prøve at højreklikke på det og vælge **Dokument**. Dette åbner dialogboksen **Dokument** . Klik på **Åbn**, og se, om dokumentet åbnes nu.
@@ -94,3 +119,7 @@ Hvis du dobbeltklikker på et dokument, og der ikke sker noget, kan du prøve at
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/document/upload.png
+[img2]: ../../../media/loc/en/webtools/webtools-edge-security-question.png
+[img3]: ../../../media/loc/en/webtools/webtools-firefox-security-question.png
+[img4]: ../../../media/loc/en/webtools/webtools-safari-security-question.png
+[img5]: ../../../media/loc/en/webtools/webtools-chrome-security-question.png

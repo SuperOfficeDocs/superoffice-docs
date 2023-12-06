@@ -1,18 +1,18 @@
 ---
-title: Web Tools
+title: WebTools
 uid: webtools
-description: Introduction to SuperOffice Web Tools
+description: Introduction to SuperOffice WebTools
 author: Hans Oluf Waaler
-keywords:
+keywords: WebTools
 so.topic: concept
 so.date: 10.13.2016
 ---
 
-# SuperOffice Web Tools
+# SuperOffice WebTools
 
-SuperOffice Web Tools bridges document editing in SuperOffice CRM Web with the associated applications on the user's desktop.
+SuperOffice WebTools bridges document editing in SuperOffice CRM with the associated applications on the user's desktop.
 
-SuperOffice Web Tools has 4 features:
+SuperOffice WebTools has 4 features:
 
 * Download, edit and upload documents
 * Alarm notifications
@@ -23,7 +23,7 @@ How it works is detailed in the [technical overview][2].
 
 ## Distribution
 
-* SuperOffice Web will automatically detect new versions of Web Tools and will offer the user to update. Web Tools can also be downloaded manually from the Download menu inside SuperOffice.
+* SuperOffice Web will automatically detect new versions of WebTools and will offer the user to update. WebTools can also be downloaded manually from the Download menu inside SuperOffice.
 
 * SuperOffice Windows users will receive new versions upon upgrading the Windows client or by manually downloading and installing from the [Download Service][1].
 

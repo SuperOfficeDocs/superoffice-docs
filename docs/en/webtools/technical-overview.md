@@ -3,7 +3,7 @@ title: Technical overview
 uid: webtools_technical_overview
 description: Technical overview of SuperOffice WebTools
 author: Hans Oluf Waaler
-keywords:
+keywords: WebTools
 so.topic: concept
 so.date: 10.13.2016
 so.envir: onsite
@@ -11,35 +11,35 @@ so.envir: onsite
 
 # Technical overview
 
-The interaction SuperOffice Web Tools and SuperOffice Sales and Marketing depends heavily on the capabilities in the browser used.
+The interaction between SuperOffice WebTools and SuperOffice CRM depends heavily on the capabilities in the browser used.
 
-We currently use SignalR-technology to communicate between SuperOffice in the web browser and Web Tools running on the user's desktop. The previous generation used NPAPI-based plugins, and before that protocol handlers.
+We currently use SignalR-technology to communicate between SuperOffice in the browser and WebTools running on the user's desktop. The previous generation used NPAPI-based plugins, and before that protocol handlers.
 
-Web Tools consists of 3 components:
+WebTools consists of 3 components:
 
 * The installed component on the user’s computer
 * TrayApp2.svc (WCF)
 * The SignalR endpoint
 
-The 2 latter are installed server-side along with SuperOffice Sales and Marketing and access the SuperOffice database through NetServer APIs. (Yes, the same APIs that are available to partners).
+The 2 latter are installed server-side along with SuperOffice CRM and access the SuperOffice database through NetServer APIs. (Yes, the same APIs that are available to partners).
 
 Check out the [system requirements][2].
 
-## Starting up Web Tools
+## Starting up WebTools
 
-![Starting up Web Tools -screenshot][img3]
+![Starting up WebTools -screenshot][img3]
 
-After Web Tools have finished starting up, it will resume incomplete tasks.
+After WebTools have finished starting up, it will resume incomplete tasks.
 
 The tasks files are stored in *%localappdata%SuperOffice\SuperOffice 7 Web Extensions\Tasks*. One task consists of a task file and a directory with the same name. This directory will contain the document during editing/reading.
 
 ## Document editing
 
-![Opening up a document in Sales and Marketing -screenshot][img4]
+![Opening up a document in CRM -screenshot][img4]
 
 ## Authentication
 
-Web Tools supports authenticating to 2 different layers to SuperOffice:
+WebTools supports authenticating to 2 different layers to SuperOffice:
 
 * The first layer is authenticating towards the Web Server (IIS) using Negotiate (Windows Authentication), NTLM, Digest, or Basic.
 
