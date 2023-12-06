@@ -3,7 +3,7 @@ uid: help-sv-document-update
 title: Redigera dokument
 description: Redigera dokument
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.06.2023
 keywords: dokument
 so.topic: howto
 language: sv
@@ -83,6 +83,31 @@ Om du vill ändra dokumentegenskaper, till exempel vilket projekt dokumentet är
 
 5. Dokumentet checkas in och statusen ändras till **Slutfört**.
 
+### <a id="allow" />Webbläsarsäkerhetsfråga vid öppning av filer
+
+När du får tillgång till och redigerar ett dokument, fil eller e-post i SuperOffice, uppmanar din webbläsare dig med en *säkerhetsfråga* angående filnedladdningen.
+
+* För att öppna filen måste du välja knappen **Öppna**/**Tillåt**.
+* Välj **Alltid tillåt** för att hoppa över frågan nästa gång.
+
+Dialogen ser något annorlunda ut i Chrome, Edge, Firefox och Safari.
+
+**Chrome:** Välj **Öppna URL:SuperOffice-Extensions**.
+
+![Chrome: Öppna URL:SuperOffice-Extensions -screenshot][img5]
+
+**Edge:** Välj **Öppna**.
+
+![Edge: Öppna -screenshot][img2]
+
+**Firefox:** Välj **Öppna länk**.
+
+![Firefox: Öppna länk -screenshot][img3]
+
+**Safari:** Välj **Alltid tillåt** eller **Tillåt**.
+
+![Safari: Alltid tillåt eller Tillåt -screenshot][img4]
+
 ## Felsökning
 
 Om du dubbelklickar på ett dokument och ingenting händer, kan du testa att högerklicka på det och välja **Dokument**. Detta öppnar dialogrutan **Dokument**. Klicka på **Öppna** och se om dokumentet öppnas nu.
@@ -94,3 +119,7 @@ Om du dubbelklickar på ett dokument och ingenting händer, kan du testa att hö
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/document/upload.png
+[img2]: ../../../media/loc/en/webtools/webtools-edge-security-question.png
+[img3]: ../../../media/loc/en/webtools/webtools-firefox-security-question.png
+[img4]: ../../../media/loc/en/webtools/webtools-safari-security-question.png
+[img5]: ../../../media/loc/en/webtools/webtools-chrome-security-question.png

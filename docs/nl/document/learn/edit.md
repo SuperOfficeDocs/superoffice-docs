@@ -3,7 +3,7 @@ uid: help-nl-document-update
 title: Documenten bewerken
 description: Documenten bewerken
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.06.2023
 keywords: document
 so.topic: howto
 language: nl
@@ -83,6 +83,31 @@ Als u documenteigenschappen wilt wijzigen, zoals het project waaraan het documen
 
 5. Het document is aangemeld en de status is ingesteld op **Voltooid**.
 
+### <a id="allow" />Beveiligingsvraag van de browser bij het openen van bestanden
+
+Wanneer u toegang krijgt tot en een document, bestand of e-mail bewerkt in SuperOffice, vraagt uw browser u om een *beveiligingsvraag* met betrekking tot het downloaden van het bestand.
+
+* Om het bestand te openen, moet u de knop **Openen**/**Toestaan** selecteren.
+* Selecteer **Altijd toestaan** om de vraag de volgende keer over te slaan.
+
+De dialoog is enigszins verschillend in Chrome, Edge, Firefox en Safari.
+
+**Chrome:** Selecteer **Openen URL:SuperOffice-Extensions**.
+
+![Chrome: Openen URL:SuperOffice-Extensions -screenshot][img5]
+
+**Edge:** Selecteer **Openen**.
+
+![Edge: Openen -screenshot][img2]
+
+**Firefox:** Selecteer **Link openen**.
+
+![Firefox: Link openen -screenshot][img3]
+
+**Safari:** Selecteer **Altijd toestaan** of **Toestaan**.
+
+![Safari: Altijd toestaan of Toestaan -screenshot][img4]
+
 ## Probleemoplossing
 
 Als u dubbelklikt op een document en er gebeurt niets, klikt u er met de rechtermuisknop op en selecteert u **Document**. Hiermee wordt het dialoogvenster **Document** geopend. Klik op **Openen** en kijk of het document nu wordt geopend.
@@ -94,3 +119,7 @@ Als u dubbelklikt op een document en er gebeurt niets, klikt u er met de rechter
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/document/upload.png
+[img2]: ../../../media/loc/en/webtools/webtools-edge-security-question.png
+[img3]: ../../../media/loc/en/webtools/webtools-firefox-security-question.png
+[img4]: ../../../media/loc/en/webtools/webtools-safari-security-question.png
+[img5]: ../../../media/loc/en/webtools/webtools-chrome-security-question.png

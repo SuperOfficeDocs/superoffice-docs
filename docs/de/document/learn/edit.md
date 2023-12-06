@@ -3,7 +3,7 @@ uid: help-de-document-update
 title: Dokumente bearbeiten
 description: Dokumente bearbeiten
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.06.2023
 keywords: Dokument
 so.topic: howto
 language: de
@@ -83,6 +83,31 @@ Verwenden Sie die Ansicht Dokument, um die Dokumenteigenschaften zu ändern, wie
 
 5. Das Dokument wird eingecheckt und erhält den Status **Abgeschlossen**.
 
+### <a id="allow" />Browser-Sicherheitsfrage beim Öffnen von Dateien
+
+Wenn Sie auf ein Dokument, eine Datei oder eine E-Mail in SuperOffice zugreifen und diese bearbeiten, fordert Ihr Browser Sie mit einer *Sicherheitsfrage* zur Dateiherunterladung auf.
+
+* Um die Datei zu öffnen, müssen Sie die Schaltfläche **Öffnen**/**Zulassen** auswählen.
+* Wählen Sie **Immer zulassen**, um die Frage beim nächsten Mal zu überspringen.
+
+Die Dialogbox sieht in Chrome, Edge, Firefox und Safari etwas anders aus.
+
+**Chrome:** Wählen Sie **Öffnen URL:SuperOffice-Extensions** aus.
+
+![Chrome: Öffnen URL:SuperOffice-Extensions button -screenshot][img5]
+
+**Edge:** Wählen Sie **Öffnen** aus.
+
+![Edge: Öffnen button -screenshot][img2]
+
+**Firefox:** Wählen Sie **Link öffnen** aus.
+
+![Firefox: Link öffnen button -screenshot][img3]
+
+**Safari:** Wählen Sie **Immer erlauben** oder **Erlauben** aus.
+
+![Safari: Immer erlauben oder Erlauben button -screenshot][img4]
+
 ## Fehlerbehebung
 
 Wenn Sie auf ein Dokument doppelklicken und nichts geschieht, klicken Sie mit der rechten Maustaste darauf und wählen Sie **Dokument**. Dadurch wird das Dialogfeld **Dokument** geöffnet. Klicken Sie auf **Öffnen** und überprüfen Sie, ob das Dokument jetzt geöffnet wird.
@@ -94,3 +119,7 @@ Wenn Sie auf ein Dokument doppelklicken und nichts geschieht, klicken Sie mit de
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/document/upload.png
+[img2]: ../../../media/loc/en/webtools/webtools-edge-security-question.png
+[img3]: ../../../media/loc/en/webtools/webtools-firefox-security-question.png
+[img4]: ../../../media/loc/en/webtools/webtools-safari-security-question.png
+[img5]: ../../../media/loc/en/webtools/webtools-chrome-security-question.png
