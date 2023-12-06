@@ -48,7 +48,7 @@ This means that you need about 2,5 - 3 Mbit/sec upload speed to be able to add/e
 
 This is both incoming and outgoing. For example, one request (ticket) cannot have 3 attachments where each attachment is 10 MB.
 
-## SuperOffice MailLink (Windows only)
+## SuperOffice MailLink (Intel-based Windows only)
 
 * Outlook 365 Click-to-run
 * Outlook 2021
