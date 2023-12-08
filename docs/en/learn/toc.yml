@@ -98,7 +98,7 @@ items:
       topicHref: ../sale/learn/screen/sales-guide-admin.md
       items:
       - name: Sales guide
-        href: ../sale/learn/screen/sales-guide-admin.md
+        topicHref: ../sale/learn/screen/sales-guide-admin.md
         items:
         - name: Overview
           href: ../sale/learn/screen/sales-guide-admin.md
@@ -109,7 +109,7 @@ items:
         - name: Deactivate sales guide
           href: ../sale/learn/sales-guide/deactivate.md
       - name: Project guide
-        href: ../project/learn/screen/project-guide-admin.md
+        topicHref: ../project/learn/screen/project-guide-admin.md
         items:
         - name: Overview
           href: ../project/learn/screen/project-guide-admin.md
@@ -153,8 +153,17 @@ items:
       items:
       - name: Overview
         href: ../request/learn/admin/index.md
+      - name: Request types
+        topicHref: ../request/learn/type/index.md
+        items:
+        - name: Overview
+          href: ../request/learn/type/index.md
+        - name: Create request type
+          href: ../request/learn/type/create.md
+        - name: Delete request type
+          href: ../request/learn/type/delete.md
       - name: Categories
-        href: ../request/learn/category/index.md
+        topicHref: ../request/learn/category/index.md
         items:
         - name: Overview
           href: ../request/learn/category/index.md
@@ -163,7 +172,7 @@ items:
         - name: Delete request category
           href: ../request/learn/category/delete.md
       - name: Priorities
-        href: ../request/learn/priority/index.md
+        topicHref: ../request/learn/priority/index.md
         items:
         - name: Overview
           href: ../request/learn/priority/index.md
@@ -174,7 +183,7 @@ items:
         - name: Create escalation levels
           href: ../request/learn/priority/escalation-levels.md
       - name: Request status
-        href: ../request/learn/status/index.md
+        topicHref: ../request/learn/status/index.md
         items:
         - name: Overview
           href: ../request/learn/status/index.md
