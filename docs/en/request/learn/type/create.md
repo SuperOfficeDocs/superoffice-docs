@@ -12,7 +12,7 @@ so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
-# Create request type
+# Create request type (pilot only)
 
 ## Steps
 
@@ -32,19 +32,22 @@ language: en
 
 1. Optionally, filter the list of available statuses and/or priorities for requests of this type.
 
-    * To allow any status/priority, leave the availability field empty.
+    * To allow any [status][4] or [priority][3], leave the availability field empty.
     * If you select one or more statuses, you must also choose a default status.
     * If you select one or more priorities, you must also choose a default priority.
 
 1. Optionally, select a default status and/or priority to use when an agent creates a request of this type. (Mandatory if you set availability.) This setting takes precedence over other preferences.
 
-1. Optionally, select a reply template to use when an agent replies to a request of this type.
+1. Optionally, select a [reply template][5] to use when an agent replies to a request of this type.
 
     ![Settings and maintenance, Request type settings -screenshot][img2]
 
 1. Click **Save**. The request type is created.
 
 <!-- Referenced links -->
+[3]: ../priority/index.md
+[4]: ../status/index.md
+[5]: ../../reply-templates/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/request/add-request-type.png

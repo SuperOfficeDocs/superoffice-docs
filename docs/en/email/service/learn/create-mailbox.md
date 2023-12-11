@@ -3,7 +3,8 @@ uid: help-en-service-mailbox-create
 title: Create mailboxes
 description: Create mailboxes
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: email
 so.topic: howto
 language: en
@@ -30,6 +31,8 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 1. Select category and priority:
 
     [!include[Select category and priority](includes/step-select-category-priority.md)]
+
+1. In the **Request type** list box, select the type the messages in this mailbox belong to. (Available in pilot only.)
 
 1. [!include[Set customer language](includes/step-set-language.md)]
 
@@ -70,6 +73,8 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 1. Select category and priority:
 
     [!include[Select category and priority](includes/step-select-category-priority.md)]
+
+1. In the **Request type** list box, select the type the messages in this mailbox belong to. (Available in pilot only.)
 
 1. In the **Interval** list box, select how often SuperOffice Service check for messages in this mailbox.
 

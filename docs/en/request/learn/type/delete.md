@@ -12,7 +12,7 @@ so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
-# Delete request type
+# Delete request type (pilot only)
 
 > [!NOTE]
 > You cannot delete the current default type (the one with a check mark in the **Use as default** box).
@@ -20,7 +20,10 @@ language: en
 ## Pre-requisites
 
 * If the type you wish to delete is used as default, set another request type as default. (Until you do, the **Delete** button is deactivated.)
-* Update any email filters and Service mailboxes that use this request type first. You cannot delete a type that is in use.
+* Update any [email filters][1] and [Service mailboxes][2] that use this request type first. You cannot delete a type that is in use.
+
+  * **Settings and maintenance** > **Requests** > **E-mail** > **Set properties** tab
+  * **Settings and maintenance** > **Requests** > **E-mail** > **E-mail boxes** tab
 
 ## Steps
 
@@ -35,5 +38,7 @@ language: en
 1. Click **OK** to confirm. The request type is deleted all the requests are moved to the specified alternative type.
 
 <!-- Referenced links -->
+[1]: ../../../email/service/learn/email-filters/create-email-filter.md
+[2]: ../../../email/service/learn/create-mailbox.md
 
 <!-- Referenced images -->
