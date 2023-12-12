@@ -3,7 +3,8 @@ uid: help-sv-screen-designer-add-layout
 title: Lägg till ny skärmlayout
 description: Så här lägger du till en ny layout för en användargrupp.
 author: Bergfrid Dias
-so.date: 03.29.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: skärmdesigner, layout, huvudkort, arkiv
 so.topic: howto
 so.audience: settings
@@ -38,7 +39,7 @@ Titta på den här videon och ta reda på hur du lägger till en ny layout eller
 4. Om det är relevant, klicka på texten bredvid **Tilldela layouter till**.
 
     Som standard kan layouterna tilldelas användargrupper.
-    Om du istället lägger till huvudkortslayouter för skärmarna Försäljning eller Projekt, kan du tilldela layouterna till försäljningstyper eller projekttyper.
+    Om du istället lägger till huvudkortslayouter för skärmarna Försäljning, Projekt, eller Ärende, kan du tilldela layouterna till försäljningstyper, projekttyper, eller ärendetyper.
 
 5. Klicka på **Lägg till** under **Layouter**.
 
@@ -54,7 +55,7 @@ Titta på den här videon och ta reda på hur du lägger till en ny layout eller
 
 8. Klicka på fältet **Tilldela till** och välj användargruppen/-grupperna som ska använda den nya layouten.
 
-    Listan kommer endast visa användargrupper som använder standardlayouten. En användargrupp kan endast tilldelas en layout. Försäljningstyper eller projekttyper kommer att bli tillgängliga här om du har valt dessa alternativ i steg 3.
+    Listan kommer endast visa användargrupper som använder standardlayouten. En användargrupp kan endast tilldelas en layout. Försäljningstyper, projekttyper, eller ärendetyper kommer att bli tillgängliga här om du har valt dessa alternativ i steg 4.
 
 9. Ange en beskrivning av layouten i fältet **Beskrivning**.
 

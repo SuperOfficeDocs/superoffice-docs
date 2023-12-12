@@ -3,7 +3,8 @@ uid: help-da-email-filter
 title: E-mailfiltre
 description: E-mailfiltre
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: e-mail
 so.topic: concept
 so.audience: settings
@@ -46,6 +47,8 @@ På fanen **E-mail-filter** finder du en oversigt over eksisterende e-mail-filtr
 
 * **Angiv kategori**: Hvis du markerer denne valgmulighed og vælger en kategori, vil e-mails, der håndteres af dette filter, havne i den angivne kategori.
 
+* **Sagstype**: Hvis du markerer her og vælger en type, vil e-mails, der behandles af dette filter, blive tildelt den angivne [sagstype][3]. (Kun tilgængelig i pilot.)
+
 * **Angiv prioritet**: Hvis du markerer denne valgmulighed og vælger en prioritet på rullemenuen, vil e-mails, der håndteres af dette filter, få den angivne prioritet.
 
 * **Angiv adgangsniveau**: Hvis du markerer denne valgmulighed og vælger et adgangsniveau i rullemenuen, vil e-mails, der håndteres af dette filter, få det angivne adgangsniveau. Hvis du vælger **Ekstern**, vil den registrerede sag være tilgængelig i SuperOffice Customer Centre.
@@ -77,5 +80,6 @@ På fanen **E-mail-filter** finder du en oversigt over eksisterende e-mail-filtr
 <!-- Referenced links -->
 [1]: create-email-filter.md
 [2]: delete-email-filter.md
+[3]: ../../../../request/learn/type/index.md
 
 <!-- Referenced images -->

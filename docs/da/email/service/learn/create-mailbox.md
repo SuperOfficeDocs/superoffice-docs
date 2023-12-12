@@ -3,7 +3,8 @@ uid: help-da-service-mailbox-create
 title: Oprettelse af e-mailkonti
 description: Oprettelse af e-mailkonti
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: e-mail
 so.topic: howto
 language: da
@@ -27,7 +28,7 @@ Du kan oprette en e-mailkonto, der bruges til at importere e-mail i SuperOffice 
     > [!NOTE]
     > Kaldenavne for e-mailadresser kan føjes til adresser ved at tilføje ("kaldenavn") ved slutningen af e-mail-adressen.Eksempel: <info@company.com> (Customer Ltd.).
 
-1. Vælg kategori og prioritet:
+1. Vælg kategori, prioritet, og sagstype:
 
     [!include[Select category and priority](includes/step-select-category-priority.md)]
 
@@ -67,7 +68,7 @@ Du kan oprette en e-mailkonto, der bruges til at importere e-mail i SuperOffice 
 
 1. I feltet **Port** kan du eventuelt ændre den foreslåede standardport for den valgte protokol.
 
-1. Vælg kategori og prioritet:
+1. Vælg kategori, prioritet, og sagstype:
 
     [!include[Select category and priority](includes/step-select-category-priority.md)]
 

@@ -3,7 +3,8 @@ uid: help-de-service-mailbox-create
 title: Postfächer erstellen
 description: Postfächer erstellen
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: E-Mail
 so.topic: howto
 language: de
@@ -27,7 +28,7 @@ Sie können ein Postfach erstellen, das zum Importieren von E-Mails in SuperOffi
     > [!NOTE]
     > Der Adresse kann eine freundliche E-Mail-Adresse hinzugefügt werden, indem ("Anzeigename") am Ende der E-Mail-Adresse hinzugefügt wird. Zum Beispiel: <info@company.com> (Customer Ltd.).
 
-1. Wählen Sie Kategorie und Priorität aus:
+1. Wählen Sie Kategorie, Priorität, und Anfragetyp aus:
 
     [!include[Select category and priority](includes/step-select-category-priority.md)]
 
@@ -67,7 +68,7 @@ Sie können ein Postfach erstellen, das zum Importieren von E-Mails in SuperOffi
 
 1. Im Feld **Port** können Sie den vorgeschlagenen Standardport für das ausgewählte Protokoll ändern.
 
-1. Wählen Sie Kategorie und Priorität aus:
+1. Wählen Sie Kategorie, Priorität, und Anfragetyp aus:
 
     [!include[Select category and priority](includes/step-select-category-priority.md)]
 

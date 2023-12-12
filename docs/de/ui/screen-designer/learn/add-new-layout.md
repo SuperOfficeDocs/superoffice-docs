@@ -3,7 +3,8 @@ uid: help-de-screen-designer-add-layout
 title: Neues Ansichtslayout hinzufügen
 description: Wie man ein neues Layout für eine Benutzergruppe hinzufügt.
 author: Bergfrid Dias
-so.date: 03.29.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: Ansichtsdesigner, Layout, Hauptkarte, Archiv
 so.topic: howto
 so.audience: settings
@@ -38,7 +39,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie ein neues Layout hinzufüg
 4. Klicken Sie gegebenenfalls auf den Text neben **Layouts zuweisen zu**.
 
     Standardmäßig können die Layouts Benutzergruppen zugewiesen werden.
-    Wenn Sie jedoch Layouts von Hauptkarten für die Ansicht Verkauf oder Projekt hinzufügen, können Sie die Layouts Verkaufstypen oder Projekttypen zuweisen.
+    Wenn Sie jedoch Layouts von Hauptkarten für die Ansicht Verkauf, Projekt, oder Anfrage hinzufügen, können Sie die Layouts Verkaufstypen, Projekttypen, oder Anfragetypen zuweisen.
 
 5. Klicken Sie auf **Hinzufügen** unter **Layouts**.
 
@@ -54,7 +55,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie ein neues Layout hinzufüg
 
 8. Klicken Sie auf das Feld **Zuweisen zu** und wählen Sie die Benutzergruppen aus, die dieses neue Layout nutzen.
 
-    In der Liste werden nur Benutzergruppen angezeigt, die das Standardlayout nutzen. Eine Benutzergruppe kann nur einem Layout zugeordnet werden. Hier sind Verkaufs- oder Projekttypen verfügbar, wenn Sie diese Optionen in Schritt 3 ausgewählt haben.
+    In der Liste werden nur Benutzergruppen angezeigt, die das Standardlayout nutzen. Eine Benutzergruppe kann nur einem Layout zugeordnet werden. Hier sind Verkaufs- Projekt- oder Anfragetypen verfügbar, wenn Sie diese Optionen in Schritt 4 ausgewählt haben.
 
 9. Geben Sie eine Beschreibung für das Layout in das Feld **Beschreibung** ein.
 

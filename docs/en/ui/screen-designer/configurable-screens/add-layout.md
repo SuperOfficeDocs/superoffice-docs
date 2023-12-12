@@ -3,10 +3,10 @@ uid: screen-add-layout
 title:  Add a layout
 description: How to add a layout using the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 05.05.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: ui, screen, customization
 so.topic: howto
-so.version: 10
 so.envir:
 so.client:
 ---
@@ -31,7 +31,7 @@ To create a new screen layout:
 
 5. Enter a name and description for the new layout.
 
-6. Click the **Used by** field and assign the new layout to one or more user groups **or** sale/project type.
+6. Click the **Used by** field and assign the new layout to one or more user groups **or** sale/project/request type.
 
     > [!NOTE]
     > Only groups currently using the default layout are shown.

@@ -3,7 +3,8 @@ uid: help-de-email-filter
 title: E-Mail-Filter
 description: E-Mail-Filter
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: E-Mail
 so.topic: concept
 so.audience: settings
@@ -46,6 +47,8 @@ Die Registerkarte **E-Mail-Filter** enthält eine Liste der vorhandenen E-Mail-F
 
 * **Kategorie festlegen**: Wenn Sie diese Option aktivieren und eine Kategorie auswählen, werden mit diesem Filter verarbeitete E-Mails in der angegebenen Kategorie abgelegt.
 
+* **Anfragetyp**: Wenn Sie hier diese Option aktivieren und einen Typ auswählen, wird die von diesem Filter verarbeitete E-Mail dem angegebenen [Anfragetyp][3] zugeordnet. (Nur im Pilot verfügbar.)
+
 * **Priorität festlegen**: Wenn Sie diese Option aktivieren und eine Priorität auswählen, wird die angegebene Priorität mit diesem Filter verarbeiteten E-Mails zugewiesen.
 
 * **Zugriffsstufe festlegen**: Wenn Sie diese Option aktivieren und eine Zugriffsstufe im Listenfeld auswählen, wird die angegebene Zugriffsstufe mit diesem Filter verarbeiteten E-Mails zugewiesen. Bei Auswahl von **Extern** kann im SuperOffice Kundenzentrum auf die erzeugte Anfrage zugegriffen werden.
@@ -77,5 +80,6 @@ Die Registerkarte **E-Mail-Filter** enthält eine Liste der vorhandenen E-Mail-F
 <!-- Referenced links -->
 [1]: create-email-filter.md
 [2]: delete-email-filter.md
+[3]: ../../../../request/learn/type/index.md
 
 <!-- Referenced images -->

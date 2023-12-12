@@ -3,7 +3,8 @@ uid: help-en-email-filter
 title: Email filters
 description: Email filters
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: email
 so.topic: concept
 so.audience: settings
@@ -46,6 +47,8 @@ The **Email filters** tab contains a list of existing email filters. This list c
 
 * **Set category**: If you check here and select a category, email processed by this filter will end up in the specified category.
 
+* **Request type:** If you check here and select a type, email processed by this filter will be assigned the specified [request type][3]. (Available in pilot only.)
+
 * **Set priority**: If you check here and select a priority, email processed by this filter will be assigned the specified priority.
 
 * **Set access level**: If you check here and select an access level from the list box, email processed by this filter will be assigned the specified access level. If you select **External**, the generated request will be accessible in SuperOffice Customer Centre.
@@ -77,5 +80,6 @@ The **Email filters** tab contains a list of existing email filters. This list c
 <!-- Referenced links -->
 [1]: create-email-filter.md
 [2]: delete-email-filter.md
+[3]: ../../../../request/learn/type/index.md
 
 <!-- Referenced images -->
