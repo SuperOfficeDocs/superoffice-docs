@@ -8,10 +8,10 @@ keywords: diary, follow-up
 so.topic: reference
 language: en
 ---
+<!-- DO NOT CHANGE TERMINOLOGY IN THIS FILE -->
+# The dialog for follow-ups
 
-# The Dialog for follow-ups
-
-Regardless of the type of follow-up you are working with, you will see the dialog for follow-ups. The actual name of this dialog varies according to the type of follow-up – [Appointment][1], [Task][2], or [Phone Call][3] – but the fields are the same in each case. The fields in the dialog and how to use them are described below.
+Regardless of the [type of follow-up][1] you are working with, you will see the dialog for follow-ups. The actual name of this dialog varies according to the type of follow-up – Appointment, Task, or Phone Call – but the fields are the same in each case. The fields in the dialog and how to use them are described below.
 
 The dialog consists of a main section with general information about the follow-up, and five tabs with additional information:
 
@@ -20,6 +20,9 @@ The dialog consists of a main section with general information about the follow-
 * Participants
 * Links
 * More
+
+> [!NOTE]
+> The descriptions on this page pertain to the **classic** dialog for follow-ups, named **Appointment**, **Phone call**, or **Task**. If you use the pilot version of the new **Follow-up** dialog, see the [Fields section][2] in the how-to for explanation of dialogs and fields.
 
 ## Information about the follow-up
 
@@ -59,9 +62,9 @@ Enter the name of the sale (if any) that the follow-up is linked to. If you cann
 
 If your SuperOffice has [time zones][10] turned on, you can select which time zone the follow-up will be created in. The time zones are displayed by country, and you can search both by country and city directly in the time zone field.
 
-### Start / End/Due / Duration
+### Start / End / Due / Duration
 
-Enter a date and, where appropriate, a time in the **Start** field and the **End** field (for appointments and phone calls) or **Due** field (for tasks), for the follow-up start and the follow-up end/deadline respectively. If you specify a time, the content of the **Duration** field is automatically adjusted accordingly.
+Enter a date and, where appropriate, a time in the **Start** field and the **End** field or **Due** field (for to-dos), for the follow-up start and the follow-up end/deadline respectively. If you specify a time, the content of the **Duration** field is automatically adjusted accordingly.
 
 > [!TIP]
 > If the follow-up conflicts with another one or has several participants, the **First available** field is displayed, showing the first available meeting time.
@@ -86,9 +89,7 @@ Completed ![icon][img5] ![icon][img6]
 
 Check here when the [follow-up is completed][11].
 
-### Task
-
-![icon][img1]
+### Task ![icon][img1]
 
 Click this button to access relevant tasks that can be performed on the active entry. Examples: Delete, Print, Send as email, Assign to and Cancel meeting. In Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
 
@@ -155,17 +156,16 @@ This tab contains information about URLs, activities (documents and follow-ups),
 
 ## The More tab
 
-This tab displays any [custom fields][14] configured in Settings and maintenance.
+This tab displays any [custom fields][14] configured in Settings and maintenance. If not configured, this tab is not shown.
 
 <!-- Referenced links -->
-[1]: ../appointment.md
-[2]: ../task.md
-[3]: ../phone-call/index.md
+[1]: ../follow-ups.md
+[2]: ../create-follow-up.md#fields
 [4]: ../recurrence/index.md
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md
-[7]: ../open.md
-[8]: ../../../learn/activity/linking-documents-to-follow-ups.md
+[7]: ../other-diaries.md
+[8]: ../linking-documents-to-follow-ups.md
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md

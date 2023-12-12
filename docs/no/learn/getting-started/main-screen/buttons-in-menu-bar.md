@@ -24,7 +24,7 @@ Elementene øverst på skjermen varierer litt mellom SuperOffice CRM, Service og
 
 | Knapp | Navn | Beskrivelse |
 |---|---|---|
-| ![icon][img3] | Ny | Klikk på denne knappen for raskt å opprette nye firmaer, personer, salg, prosjekter, utvalg, aktiviteter (avtaler, telefonsamtaler, oppgaver, dokumenter og e-post), saker, FAQ-oppføringer og utsendelser. |
+| ![icon][img3] | Ny | Klikk på denne knappen for raskt å opprette nye firmaer, personer, salg, prosjekter, utvalg, oppfølginger, dokumenter, saker, og mer. |
 | ![icon][img8] | Finn | Klikk på denne knappen for å [søke etter][5] firmaer, personer, prosjekter, utvalg, oppfølginger, salg og dokumenter i SuperOffice CRM. NA til Service |
 | ![icon][img4] | Ingen invitasjoner / varsler | Åpner en liste over nye varsler i SuperOffice CRM, for eksempel [invitasjoner][4] og godkjente salg/tilbud. Klikk på et element i listen for å åpne den relevante oppføringen. |
 | ![icon][img5] | Uleste invitasjoner | |
@@ -67,7 +67,7 @@ Elementene øverst på skjermen varierer litt mellom SuperOffice CRM, Service og
 | Duplikatinnstillinger | Brukes til å redigere [Duplikatinnstillinger][8] for firmaer, prosjekter og utvalg. |
 | Filter | Brukes til å redigere [filterinnstillingene][2]. |
 | Vis Notisblokk | Åpner [Notisblokk][9] og oppretter et nytt notat. |
-| Vis bekreftelsesdialog ved sending av invitasjoner | Brukes til å aktivere/deaktivere bekreftelsesdialogen når du sender e-post til møtedeltakere fra dialogboksen **Avtale**. |
+| Vis bekreftelsesdialog ved sending av invitasjoner | Brukes til å aktivere/deaktivere bekreftelsesdialogen når du sender e-post til møtedeltakere fra dialogboksen **Oppfølging**. |
 | Mål | Brukes til å legge til [salgsmål][17]. |
 | Redigere systemsignatur | Brukes til å redigere standard e-postsignatur. |
 | Innstillinger og vedlikehold | Åpner Innstillinger og vedlikehold. Dette alternativet er bare tilgjengelig hvis du har administratorrettigheter. |
@@ -87,7 +87,7 @@ Elementene øverst på skjermen varierer litt mellom SuperOffice CRM, Service og
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md
-[4]: ../../../diary/learn/invitation/receive.md
+[4]: ../../../diary/learn/invitation/accept-decline.md
 [5]: ../../../search-options/learn/find-screen.md
 [15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md

@@ -20,7 +20,7 @@ language: sv
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-2. Klicka på ![ikon][img1] pilen bredvid fältet **Typ** och välj önskad händelsetyp i listrutan. Du kan välja mellan **Bokning**, **Samtal** och **Uppgift**.
+2. Klicka på ![ikon][img1] pilen bredvid fältet **Typ** och välj önskad händelsetyp i listrutan.
 
 3. I fältet **Riktning** anger du om mallen ska vara utgående eller inkommande genom att klicka på pilen och välja ett alternativ i listrutan.
 

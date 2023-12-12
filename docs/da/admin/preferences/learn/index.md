@@ -66,7 +66,7 @@ Hvis du vil redigere disse indstillinger, skal du gå til skærmbilledet ![icon]
 
 ## <a id="preferences-tab" />Fanen Præferencer
 
-På fanen **Præferencer** kan du angive indstillinger for forskellige dele af SuperOffice CRM, f.eks. antallet af elementer, der skal vises på historiklisten, standardtypen for ny aftale, opgave og telefonopkald og standardvalutaen på skærmbilledet Salg.
+På fanen **Præferencer** kan du angive indstillinger for forskellige dele af SuperOffice CRM, f.eks. antallet af elementer, der skal vises på historiklisten, standardtypen for nytt møde og standardvalutaen på skærmbilledet Salg.
 
 Øverst på fanen **Præferencer** kan du vælge den ønskede præferencegruppe. Resten af fanen **Præferencer** er opdelt i tre hovedafsnit: en liste over alle præferencer, et beskrivelsesfelt, der forklarer beskrivelsen af den aktuelt valgte præference, og et felt, der viser de indstillinger, der er angivet for denne præference.
 

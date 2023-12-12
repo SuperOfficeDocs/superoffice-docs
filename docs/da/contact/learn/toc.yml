@@ -19,6 +19,8 @@ items:
     href: delete.md
   - name: Send e-mail til en person
     href: send-email.md
+  - name: Ring til person
+    href: dial.md
   - name: Tilføj relation
     href: add-relation.md
   - name: Slet relation

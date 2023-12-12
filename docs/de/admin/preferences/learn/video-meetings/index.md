@@ -15,13 +15,13 @@ Auf der Registerkarte **Videokonferenzservice** können Sie den Videokonferenzse
 
 Mit SuperOffice-Videokonferenzen können Sie Videokonferenzen direkt von Ihrer CRM-Lösung erstellen und an solchen teilnehmen. Um die Videokonferenzfunktion in SuperOffice CRM einzurichten, müssen Sie sich mit einem von fünf Videokonferenzanbietern (Cisco Webex, Google Meet, Jitsi Meet, Microsoft Teams, Zoom) verbinden.
 
-Damit die Benutzer Videokonferenzen im Termindialog nutzen können, müssen einige Schritte ausgeführt werden:
+Damit die Benutzer Videokonferenzen im Folgeaufgabedialog nutzen können, müssen einige Schritte ausgeführt werden:
 
 * Ein Administrator muss sich mit einem der ausgewählten verfügbaren Videokonferenzanbieter verbinden.
 
 * Der Benutzer muss entweder den Mail-Link oder den SuperOffice-Posteingang verwenden, um Videokonferenz-URLs an externe Benutzer senden zu können.
 
-* Die Benutzer müssen sich authentifizieren (einloggen), wenn sie zum ersten Mal auf das Symbol Videokonferenz im Popup-Dialogfeld Termin klicken.
+* Die Benutzer müssen sich authentifizieren (einloggen), wenn sie zum ersten Mal auf das Symbol Videokonferenz im Dialogfeld Folgeaufgabe klicken.
 
 ## Voraussetzungen für Videokonferenzen
 

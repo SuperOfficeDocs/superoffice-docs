@@ -27,7 +27,7 @@ In SuperOffice Marketing kunt u acties toevoegen aan uw links. Deze acties worde
 | Veld instellen | voeg een waarde toe aan een extra veld voor personen |
 | Interesses | werk de interesses bij. |
 | Selectie/project | Persoon toevoegen aan/verwijderen uit een selectie/project. |
-| Vervolg­activiteit | Maak een vervolgactiviteit (taak of afspraak) in SuperOffice CRM. |
+| Vervolg­activiteit | Maak een vervolgactiviteit (taak of vergadering) in SuperOffice CRM. |
 | Verzoek | maak een nieuw verzoek. |
 | Script | voer een script uit. |
 
@@ -70,27 +70,27 @@ Zie ook [Interesses wissen in SuperOffice CRM][1].
 
 Hier kunt u opgeven dat berichtontvangers die op de link klikken, worden toegevoegd aan of verwijderd uit selecties in SuperOffice Service of selecties of projecten in SuperOffice CRM. Typ het begin van een naam om snel zoeken te starten.
 
-## Vervolgactiviteit (taak/afspraak)
+## Vervolgactiviteit (taak/vergadering)
 
-Op het tabblad **Vervolgactiviteit** kunt u opgeven dat taken of afspraken moeten worden gegenereerd in SuperOffice CRM wanneer op een link wordt geklikt.
+Op het tabblad **Vervolgactiviteit** kunt u opgeven dat taken of vergaderingen moeten worden gegenereerd in SuperOffice CRM wanneer op een link wordt geklikt.
 
 1. selecteer **Vervolgactiviteit** om deze functie te activeren.
 
 2. **Taak/afspraak**: Kies welk type vervolgactiviteit u wilt maken.
 
-3. **Beschrijving**: voer een beschrijving in van de taak/afspraak. Bijvoorbeeld: op welke mailing de taak/afspraak betrekking heeft, op welke link de ontvanger heeft geklikt en eventueel wat de vervolgactiviteit van de taak/afspraak moet zijn.
+3. **Beschrijving**: voer een beschrijving in van de vervolgactiviteit. Bijvoorbeeld: op welke mailing de vervolgactiviteit betrekking heeft, op welke link de ontvanger heeft geklikt en eventueel wat de vervolgactiviteit van de taak/vergadering moet zijn.
 
-4. **Project**: selecteer een project waaraan de taak/afspraak moet worden gelinkt. Typ het begin van een naam om snel zoeken te starten.
+4. **Project**: selecteer een project waaraan de vervolgactiviteit moet worden gelinkt. Typ het begin van een naam om snel zoeken te starten.
 
-5. **Taak**: selecteer het gewenste taak- of afspraaktype.
+5. **Taak**: selecteer het gewenste vervolgactiviteittype.
 
-6. **Gemaakt door**: Selecteer welke gebruiker verantwoordelijk zal zijn voor de taak/afspraak of klik op de knop **Actieve gebruiker selecteren** ![pictogram][img1] om uzelf te kiezen.
+6. **Gemaakt door**: Selecteer welke gebruiker verantwoordelijk zal zijn voor de vervolgactiviteit of klik op de knop **Actieve gebruiker selecteren** ![pictogram][img1] om uzelf te kiezen.
 
-7. **Toewijzen aan onze contactpersoon indien beschikbaar**: Schakel dit selectievakje in wanneer de taak/afspraak moet worden toegewezen aan "onze contactpersoon" voor de ontvanger (de persoon die verantwoordelijk is voor deze klant).
+7. **Toewijzen aan onze contactpersoon indien beschikbaar**: Schakel dit selectievakje in wanneer de vervolgactiviteit moet worden toegewezen aan "onze contactpersoon" voor de ontvanger (de persoon die verantwoordelijk is voor deze klant).
 
-8. **Standaardontvanger**: Selecteer een standaardontvanger aan wie de taak/afspraak moet worden toegewezen of klik op de knop **Actieve gebruiker selecteren** ![pictogram][img1] om uzelf te kiezen.
+8. **Standaardontvanger**: Selecteer een standaardontvanger aan wie de vervolgactiviteit moet worden toegewezen of klik op de knop **Actieve gebruiker selecteren** ![pictogram][img1] om uzelf te kiezen.
 
-9. **Duur**: Klik op de knop **Tijdsperiode selecteren** ![pictogram][img2] naast dit veld om de duur van de taak/afspraak in te stellen.
+9. **Duur**: Klik op de knop **Tijdsperiode selecteren** ![pictogram][img2] naast dit veld om de duur van de vervolgactiviteit in te stellen.
 
 ## Verzoek
 

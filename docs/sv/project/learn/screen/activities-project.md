@@ -13,7 +13,7 @@ language: sv
 
 ![Avsnittet för projektguidesaktiviteter -screenshot][img1]
 
-Detaljkortet **Aktiviteter** visar alla [aktiviteter][1] som är kopplade till ett aktivt projekt: händelser (bokningar, uppgifter och telefonsamtal) och dokument (inklusive slå ihop dokument, rapporter och e-post).
+Detaljkortet **Aktiviteter** visar alla [aktiviteter][1] som är kopplade till ett aktivt projekt: händelser (händelser, uppgifter och telefonsamtal) och dokument (inklusive slå ihop dokument, rapporter och e-post).
 
 Dubbelklicka på en aktivitet på detaljkortet för att visa eller redigera efter behov.
 
@@ -25,7 +25,7 @@ Den första kolumnen på detaljkortet **Aktiviteter** anger statusen **Slutfört
 
 ### Typikoner
 
-Den andra kolumnen innehåller ikoner som anger typen av aktivitet, till exempel en klocka för en bokning och en telefon för ett samtal. De här ikonerna återspeglar texten i kolumnen **Typ**.
+Den andra kolumnen innehåller ikoner som anger typen av aktivitet. De här ikonerna återspeglar texten i kolumnen **Typ**.
 
 [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
@@ -45,22 +45,17 @@ Den andra kolumnen innehåller ikoner som anger typen av aktivitet, till exempel
 >
 > För händelser, visas det datum då händelsen äger rum.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
-* [Visa aktiviteter][3]
-* [Ta bort aktiviteter][4]
-* [Svara på e-post från detaljkortet Aktiviteter][5]
-* [Vidarebefordra e-post från detaljkortet Aktiviteter][6]
+* [Aktiviteter][1]
+* [Svara på eller vidarebefordra e-post från detaljkortet Aktiviteter][5]
 * [Filtrera aktiviteter][7]
 * [Ändra Slutfört-status för en aktivitet][2]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/index.md
+[1]: ../../../learn/basics/activity.md
 [2]: ../../../diary/learn/change-completed-status.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
-[5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[5]: ../../../learn/section-tabs/send-email.md
 [7]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->

@@ -19,7 +19,7 @@ For example:
 * the starting time of the calendar
 * the end time of an all-day event
 
-Preferences can also be used to add default values for a document or appointment.
+Preferences can also be used to add default values for a document or follow-up.
 
 > [!NOTE]
 > All preferences are stored in the [UserPreference table][6].

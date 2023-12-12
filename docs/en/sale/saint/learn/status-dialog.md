@@ -20,7 +20,7 @@ The **View statuses** dialog is displayed when you click a status image for a co
 | Name | The name of the status, defined in Settings and maintenance. |
 | Description | A description of the status, defined in Settings and maintenance. |
 | Other statuses | A link to any other statuses relating to the current company, contact or project. This field is displayed only if there are several statuses for the record in question. |
-| Create follow-up | Used to create a new follow-up for the company, contact or project. The type of follow-up created by default is defined in Settings and maintenance. |
+| Create follow-up | Used to [create a new follow-up][3] for the company, contact or project. The type of follow-up created by default is defined in Settings and maintenance. |
 | Add to selection | When clicked, the **Add to selection** dialog opens and you can add the current company or contact to a static selection of your choice. |
 | Close | Closes the status dialog. |
 
@@ -30,11 +30,11 @@ The **View statuses** dialog is displayed when you click a status image for a co
 ## Related topics
 
 * [Status monitors][2]
-* [Appointment dialog][3]
+* [Follow-up dialog][3]
 
 <!-- Referenced links -->
 [1]: using-status-monitors-in-dynamic-selections.md
 [2]: index.md
-[3]:  ../../../diary/learn/screen/dialog-for-followups.md
+[3]:  ../../../diary/learn/create-follow-up.md
 
 <!-- Referenced images -->

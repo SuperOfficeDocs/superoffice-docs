@@ -13,7 +13,7 @@ language: sv
 
 Ett bra sätt att ordna information för att hitta, granska och komma åt information på ett effektivt sätt är att gruppera informationen. Att gruppera information innebär att du sorterar information som en uppsättning personer eller saker som har något gemensamt.
 
-Du kan gruppera informationen i ett arkiv efter alla fält/kolumner i arkivet. Du kan till exempel gruppera en lista med aktiviteter efter kategori så att du kan visa alla dina bokningar eller webbformulär. Gruppera en lista med ärenden efter kategori och status så att du kan få en översikt över ärendestatus per kategori.
+Du kan gruppera informationen i ett arkiv efter alla fält/kolumner i arkivet. Du kan till exempel gruppera en lista med aktiviteter efter kategori så att du kan visa alla dina händelser eller webbformulär. Gruppera en lista med ärenden efter kategori och status så att du kan få en översikt över ärendestatus per kategori.
 
 Gruppering är personligt. Kolumnerna som du använder för att gruppera informationen visas bara för dig och du kan lägga till och ta bort så många grupper du vill.
 

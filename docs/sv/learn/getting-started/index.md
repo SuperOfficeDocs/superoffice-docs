@@ -41,7 +41,7 @@ Med SuperOffice CRM kan du systematisera och förenkla de dagliga arbetsuppgifte
 
 Med kalendern har du en god översikt över arbetsdagen och arbetsveckan. Du kan till exempel boka möten med dina medarbetare och reservera gemensamma resurser, exempelvis konferensrum.
 
-SuperOffice CRM blir din nya assistent som underlättar ditt arbete. Programmet kan hantera alla grundläggande arbetsuppgifter som du behöver utföra varje dag. Viktig och aktuell information är tillgänglig för alla i företaget. Med några få musklick får du tillgång till rapporter, avtal, försäljningsrapporter och marknadskampanjer, och du kan skicka e-postmeddelanden och ta del av information på Internet. Informationsstrukturen kan anpassas efter företagets behov.
+SuperOffice CRM blir din nya assistent som underlättar ditt arbete. Programmet kan hantera alla grundläggande arbetsuppgifter som du behöver utföra varje dag. Viktig och aktuell information är tillgänglig för alla i företaget. Med några få musklick får du tillgång till rapporter, händelser, försäljningsrapporter och marknadskampanjer, och du kan skicka e-postmeddelanden och ta del av information på Internet. Informationsstrukturen kan anpassas efter företagets behov.
 
 Med SuperOffices mobila lösningar kan du få tillgång till informationen i SuperOffice CRM oavsett om du är på resa, arbetar hemifrån eller arbetar på ett avdelningskontor.
 
@@ -112,10 +112,10 @@ SuperOffice CRM är kompatibelt med alla de nyaste operativsystemen och webbläs
 
 [11]: ../basics/fav.md
 [12]: ../section-tabs/index.md
-[13]: ../activity/index.md
+[13]: ../basics/activity.md
 [14]: ../../search-options/learn/index.md
 [15]: ../../globalization-and-localization/learn/change-language.md
-[16]: ../../diary/learn/phone-call/preferences.md
+[16]: ../../contact/learn/dial.md
 [21]: ../../../en/onsite/requirements/index.md
 
 <!-- Referenced images -->

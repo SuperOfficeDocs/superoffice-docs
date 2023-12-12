@@ -11,7 +11,7 @@ language: da
 
 # Dialogboksen for opfølgninger
 
-Uanset hvilken type af opfølgning du arbejder med, vil du se dialogboksen til opfølgning. Det faktiske navn på denne dialogboks varierer afhængigt af typen af opfølgning – [Aftale][1], [Opgave][2] eller [Samtale][3] – men felterne er de samme i hvert tilfælde. Felterne i dialogboksen, og hvordan du bruger dem, er beskrevet nedenfor.
+Uanset hvilken [type af opfølgning][1] du arbejder med, vil du se dialogboksen til opfølgning. Det faktiske navn på denne dialogboks varierer afhængigt af typen af opfølgning – Aftale, Opgave eller Samtale – men felterne er de samme i hvert tilfælde. Felterne i dialogboksen, og hvordan du bruger dem, er beskrevet nedenfor.
 
 Dialogboksen består af en hoveddel med generelle oplysninger om opfølgningen samt fem faner med ekstra oplysninger:
 
@@ -155,17 +155,15 @@ Denne fane indeholder oplysninger om URL-adresser, aktiviteter (dokumenter og op
 
 ## Fanen Mere
 
-Denne fane viser alle [brugerdefinerede felter][14], der er konfigureret i Indstillinger og vedligeholdelse.
+Denne fane viser alle [brugerdefinerede felter][14], der er konfigureret i Indstillinger og vedligeholdelse. Hvis ikke konfigureret, vises denne fane ikke.
 
 <!-- Referenced links -->
-[1]: ../appointment.md
-[2]: ../task.md
-[3]: ../phone-call/index.md
+[1]: ../follow-ups.md
 [4]: ../recurrence/index.md
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md
-[7]: ../open.md
-[8]: ../../../learn/activity/linking-documents-to-follow-ups.md
+[7]: ../other-diaries.md
+[8]: ../linking-documents-to-follow-ups.md
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md

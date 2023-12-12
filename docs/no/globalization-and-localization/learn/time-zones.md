@@ -18,18 +18,18 @@ SuperOffice CRM støtter oppfølginger i forskjellige tidssoner. Tidssoner er ak
 
 ## Hvordan fungerer tidssoner i SuperOffice CRM?
 
-Tidssonefunksjonalitet kan være nyttig hvis organisasjonen din har kontorer i flere land med forskjellige tidssoner, og du må planlegge møter eller telefonkonferanser med personer i et land med en annen tidssone enn din. Avtalen opprettes deretter i tidssonen for det valgte landet.
+Tidssonefunksjonalitet kan være nyttig hvis organisasjonen din har kontorer i flere land med forskjellige tidssoner, og du må planlegge møter eller telefonkonferanser med personer i et land med en annen tidssone enn din. Oppfølgingen opprettes deretter i tidssonen for det valgte landet.
 
-Hvis hovedkontoret ditt for eksempel befinner seg i Norge, og du skal ha et møte med personer i datterselskapene i Finland og USA, kan du sette opp et møte til norsk tid og deretter sjekke når det er i amerikansk og finsk tid. På denne måten kan du for eksempel unngå å opprette en avtale som foregår midt på natten amerikansk tid. For personene du inviterer til avtalen, vises avtalen i den tidssonen de har angitt i sin egen SuperOffice CRM, selv om du har satt opp avtalen i norsk tid.
+Hvis hovedkontoret ditt for eksempel befinner seg i Norge, og du skal ha et møte med personer i datterselskapene i Finland og USA, kan du sette opp et møte til norsk tid og deretter sjekke når det er i amerikansk og finsk tid. På denne måten kan du for eksempel unngå å opprette et møte som foregår midt på natten amerikansk tid. For personene du inviterer til møtet, vises møtet i den tidssonen de har angitt i sin egen SuperOffice CRM, selv om du har satt opp møtet i norsk tid.
 
 Denne funksjonen støtter sommertid.
 
 > [!NOTE]
-> Avtaler du opprettet før du aktiverte tidssoner, beholdes i den tidssonen som er standard for din SuperOffice-database.
+> Oppfølginger du opprettet før du aktiverte tidssoner, beholdes i den tidssonen som er standard for din SuperOffice-database.
 
 ## Hvordan velger du tidssoner?
 
-Tidssoner vises i en listeboks i [Dagbok][1] og i [dialogboksen for oppfølginger][3]. Standard tidssone for SuperOffice-databasen vises øverst, ved hjelp av dette ikonet: ![icon][img1].
+Tidssoner vises i en listeboks i [Dagbok][1] og for [oppfølginger][3]. Standard tidssone for SuperOffice-databasen vises øverst, ved hjelp av dette ikonet: ![icon][img1].
 
 Tidssonelisten er sortert etter land. Øverst i tidssonelisten finner du navnet på valgt land med flagg.
 
@@ -52,11 +52,11 @@ Ved å søke på antall timer for å finne riktig tidssone. Hvis du for eksempel
 
 * Hvis du holder musepekeren over tidssonelisten, vises en infoboks med hjelpetekst om hvilke større byer (i det aktuelle landet) som er i tidssonen du har valgt.
 
-* Hvis du i dagboken holder musepekeren over en avtale som er opprettet i en annen tidssone enn standarden for SuperOffice-databasen, vises en infoboks med informasjon om tidspunktet for avtalen i din tidssone og i tidssonen til personen som opprettet den.
+* Hvis du i dagboken holder musepekeren over en oppfølging som er opprettet i en annen tidssone enn standarden for SuperOffice-databasen, vises en infoboks med informasjon om tidspunktet for oppfølging i din tidssone og i tidssonen til personen som opprettet den.
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
-[3]: ../../diary/learn/screen/dialog-for-followups.md
+[3]: ../../diary/learn/follow-ups.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/time-zone-local.png

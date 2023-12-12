@@ -24,7 +24,7 @@ Objekten högst upp på skärmen varierar något mellan SuperOffice CRM, Service
 
 | Knapp | Namn | Beskrivning |
 |---|---|---|
-| ![ikon][img3] | Nytt | Klicka här för att snabbt skapa nya företag, kontakter, försäljningar, projekt, urval och aktiviteter (bokningar, samtal, uppgifter, dokument och e-post), FAQ-poster och utskick. |
+| ![ikon][img3] | Nytt | Klicka här för att snabbt skapa nya företag, kontakter, försäljningar, projekt, urval och händelser, dokument, och mer. |
 | ![ikon][img8] | Sök | Klicka på denna knapp när du ska [söka efter][5] företag, kontakter, projekt, urval, händelser, försäljningar eller dokument i SuperOffice CRM. NA in till Service |
 | ![ikon][img4] | Inga förfrågningar/meddelanden | Öppnar en lista med nya meddelanden i SuperOffice CRM, såsom [förfrågningar][4] och godkända försäljningar/offerter. Du kan klicka på en post i listan för att öppna den. |
 | ![ikon][img5] | Olästa förfrågningar | |
@@ -67,7 +67,7 @@ Objekten högst upp på skärmen varierar något mellan SuperOffice CRM, Service
 | Dubblettinställningar | Används för att redigera [dubblettinställningarna][8] för företag, projekt och urval. |
 | Filter | Används för att redigera [filterinställningarna][2]. |
 | Visa anteckningsblock | Öppnar [anteckningsblocket][9] och skapar en ny anteckning. |
-| Visa bekräftelsedialogruta när du skickar förfrågningar | Används för att aktivera/inaktivera dialogrutan med bekräftelsen när du skickar e-postmeddelanden till deltagarna på mötet från dialogrutan **Bokning**. |
+| Visa bekräftelsedialogruta när du skickar förfrågningar | Används för att aktivera/inaktivera dialogrutan med bekräftelsen när du skickar e-postmeddelanden till deltagarna på mötet från dialogrutan **Händelse**. |
 | Mål | Används för att lägga till [försäljningsmål][17]. |
 | Redigera systemsignatur | används för att redigera din standardsignatur för e-post. |
 | Inställningar och underhåll | Öppnar Inställningar och underhåll. Det här alternativet är tillgängligt endast om du har administratörsbehörighet. |
@@ -87,7 +87,7 @@ Objekten högst upp på skärmen varierar något mellan SuperOffice CRM, Service
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md
-[4]: ../../../diary/learn/invitation/receive.md
+[4]: ../../../diary/learn/invitation/accept-decline.md
 [5]: ../../../search-options/learn/find-screen.md
 [15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md

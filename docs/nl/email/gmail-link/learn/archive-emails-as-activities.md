@@ -1,7 +1,7 @@
 ---
 uid: help-nl-gmail-link-archive-as-activity
 title: E-mail archiveren als activiteit
-description: "Het direct opslaan van een e-mail als een taak, een afspraak of een telefoongesprek in uw SuperOffice-agenda zorgt ervoor dat u nooit vergeet een klant of vraag op te volgen." 
+description: "Het direct opslaan van een e-mail als een vervolgactiviteit in uw SuperOffice-agenda zorgt ervoor dat u nooit vergeet een klant of vraag op te volgen." 
 author: SuperOffice RnD
 so.date: 02.10.2023
 keywords: Gmail Link

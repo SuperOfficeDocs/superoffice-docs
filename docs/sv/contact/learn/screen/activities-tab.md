@@ -11,7 +11,7 @@ language: sv
 
 # Fliken Aktiviteter
 
-På detaljkortet **Aktiviteter** i fönstret Kontakt visas alla aktiviteter som är kopplade till den aktiva kontakten (inklusive bokningar där kontakten medverkar).
+På detaljkortet **Aktiviteter** i fönstret Kontakt visas alla aktiviteter som är kopplade till den aktiva kontakten (inklusive händelser där kontakten medverkar).
 
 Om kontakten är kopplad till ett företag är dessa aktiviteter även tillgängliga på detaljkortet **Aktiviteter** i fönstret Företag.
 

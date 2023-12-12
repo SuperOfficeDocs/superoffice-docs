@@ -25,7 +25,7 @@ Watch this video to get a quick overview of what SuperOffice CRM can do for your
 
 ## SuperOffice CRM - Core system
 
-Whether you are a marketer, a sales rep or a support agent – SuperOffice CRM is built for everyone. Our set of core features helps all teams organize their contact information, keep all data in one place, manage tasks, documents and emails, and follow up with customers!
+Whether you are a marketer, a sales rep or a support agent – SuperOffice CRM is built for everyone. Our set of core features helps all teams organize their contact information, keep all data in one place, manage to-dos, documents and emails, and follow up with customers!
 
 A system to manage and follow up all contacts, sales and projects. The core of the system are the Company card and Contact card. All information and communication concerning a company and contact are stored in these cards.
 

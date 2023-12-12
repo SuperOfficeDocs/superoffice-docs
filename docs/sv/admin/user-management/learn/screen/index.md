@@ -48,7 +48,7 @@ Fullständigt namn, e-postadress och ägarföretag visas högst upp. Längst ned
 I användaröversikten finns olika flikar:
 
 * **Detaljer** – huvudöversikt med användarinformation som **Användar-ID**, **Roll**, **Användarplan**, **Primärgrupp** och **Service-kategorier**.
-* **Licenser** – extra licensinformation som **Konfidentiella aktiviteter** som användaren kan använda för att ange **synlig för** för bokningar, dokument och urval.
+* **Licenser** – extra licensinformation som **Konfidentiella aktiviteter** som användaren kan använda för att ange **synlig för** för händelser, dokument och urval.
 * **Mer** – fliken visar om det finns extrafält för en person.
 
 ## <a id="other-users" />Andra användare (lokalt)

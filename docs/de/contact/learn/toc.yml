@@ -19,6 +19,8 @@ items:
     href: delete.md
   - name: E-Mail an eine Person senden
     href: send-email.md
+  - name: Person anrufen
+    href: dial.md
   - name: Beziehung hinzufügen
     href: add-relation.md
   - name: Beziehung löschen

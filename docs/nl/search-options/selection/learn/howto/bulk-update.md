@@ -11,7 +11,7 @@ language: nl
 
 # Bulksgewijs bijwerken
 
-Met bulksgewijs bijwerken kunt u persoonlijke gegevens bijwerken van alle bedrijven en personen en alle andere entiteiten die op dat moment opgeslagen zijn in uw SuperOffice CRM-database. U kunt u specifieke waarden wijzigen in meerdere records van hetzelfde type (personen, bedrijven, projecten, verkopen, afspraken, gesprekken, taken en documenten). U kunt specifieke waarden bijwerken of wissen.
+Met bulksgewijs bijwerken kunt u persoonlijke gegevens bijwerken van alle bedrijven en personen en alle andere entiteiten die op dat moment opgeslagen zijn in uw SuperOffice CRM-database. U kunt u specifieke waarden wijzigen in meerdere records van hetzelfde type (personen, bedrijven, projecten, verkopen, vervolgactiviteiten en documenten). U kunt specifieke waarden bijwerken of wissen.
 
 Bulksgewijs bijwerken is beschikbaar in de schermen Selectie, Bedrijf, Verkoop en Project.
 

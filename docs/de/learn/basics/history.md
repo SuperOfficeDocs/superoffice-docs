@@ -16,7 +16,7 @@ Mithilfe der Verlaufsliste können Sie von verschiedenen Ansichten in SuperOffic
 Sie können die Verlaufsliste auf unterschiedliche Weise verwenden:
 
 * Direkt im Navigator ![Symbol][img2], um zur gewünschten Firma, Person oder Selektion bzw. zum gewünschten Projekt oder Verkauf zu gelangen.
-* In Dialogfeldern, die die Felder für Firmen, Personen, Verkäufe und Projekte enthalten, wie beispielsweise **Termin** und **Dokument**, um zu dem Termin oder Dokument zu wechseln.
+* In Dialogfeldern, die die Felder für Firmen, Personen, Verkäufe und Projekte enthalten, wie beispielsweise **Folgeaufgabe** und **Dokument**, um zu der Folgeaufgabe oder Dokument zu wechseln.
 
 ## Verlaufsliste im Navigator verwenden
 

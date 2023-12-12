@@ -20,7 +20,7 @@ Das Dialogfeld **Statuskontrollen anzeigen** wird angezeigt, wenn Sie auf ein St
 | Name | Der in Einstellungen und Verwaltung definierte Statusname. |
 | Beschreibung | Eine in Einstellungen und Verwaltung definierte Statusbeschreibung. |
 | Andere Statusangaben | Eine Verknüpfung zu beliebigen Statusangaben, die sich auf die aktuelle Firma, Person bzw. das aktuelle Projekt beziehen. Dieses Feld wird nur angezeigt, wenn mehrere Statusangaben für den betreffenden Datensatz vorhanden sind. |
-| Folgeaufgabe erstellen | Wird für die Erstellung einer neuen Folgeaufgabe für die Firma, die Person oder das Projekt verwendet. Welcher Typ von Folgeaufgabe standardmäßig erstellt wird, wird in Einstellungen und Verwaltung definiert. |
+| Folgeaufgabe erstellen | Wird für [die Erstellung einer neuen Folgeaufgabe][3] für die Firma, die Person oder das Projekt verwendet. Welcher Typ von Folgeaufgabe standardmäßig erstellt wird, wird in Einstellungen und Verwaltung definiert. |
 | Zu Selektion hinzufügen | Wenn Sie auf diese Option klicken, wird das Dialogfeld **Zu Selektion hinzufügen** geöffnet und Sie können die aktuelle Firma oder Person zu einer statischen Selektion Ihrer Wahl hinzufügen. |
 | Schließen | Schließt das Dialogfeld Status. |
 
@@ -30,11 +30,11 @@ Das Dialogfeld **Statuskontrollen anzeigen** wird angezeigt, wenn Sie auf ein St
 ## Verwandte Themen
 
 * [Statuskontrollen][2]
-* [Dialogfeld Termin][3]
+* [Dialogfeld Folgeaufgabe][3]
 
 <!-- Referenced links -->
 [1]: using-status-monitors-in-dynamic-selections.md
 [2]: index.md
-[3]:  ../../../diary/learn/screen/dialog-for-followups.md
+[3]: ../../../diary/learn/create-follow-up.md
 
 <!-- Referenced images -->

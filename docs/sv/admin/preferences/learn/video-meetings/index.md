@@ -15,13 +15,13 @@ Under fliken **Videomöten** kan du välja den videomötestjänst som du vill an
 
 Med videomöten i SuperOffice kan du skapa och ansluta till videomöten direkt från din CRM-lösning. För att konfigurera videomötesfunktionen i SuperOffice CRM måste du ansluta till någon av följande videomötesleverantörer: Cisco Webex, Google Meet, Jitsi Meet, Microsoft Teams eller Zoom.
 
-För att användarna ska kunna använda videomöten i dialogrutan Bokning krävs följande:
+För att användarna ska kunna använda videomöten i dialogrutan Händelse krävs följande:
 
 * En administratör måste ansluta till någon av de tillgängliga videomötesleverantörerna.
 
 * Användaren måste använda antingen Mail Link eller SuperOffice-inkorgen för att kunna skicka webbadresser till videomöten till externa användare.
 
-* Användarna måste autentisera sig (logga in) första gången de klickar på ikonen Videomöte i dialogrutan Bokning.
+* Användarna måste autentisera sig (logga in) första gången de klickar på ikonen Videomöte i dialogrutan Händelse.
 
 ## Krav för videomöten
 

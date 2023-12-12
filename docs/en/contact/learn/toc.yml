@@ -19,6 +19,8 @@ items:
     href: delete.md
   - name: Send email to a contact
     href: send-email.md
+  - name: Dial contact
+    href: dial.md
   - name: Add relation
     href: add-relation.md
   - name: Delete relation

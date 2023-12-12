@@ -44,10 +44,10 @@ I ett [dynamiskt urval][7] kan du välja att bara visa företag, utan att ange n
 
 ## Dag
 
-Visar dagens agenda. Fungerar på samma sätt som fliken [Dag][3] i fönstret [Kalender][4]
+Visar dagens agenda. Fungerar på samma sätt som fliken **Dag** i [fönstret Kalender][4].
 
 > [!NOTE]
-> Du kan visa endast din egen kalender på sidopanelen. Om du vill visa andras dagböcker går du till [fönstret Kalender][4].
+> Du kan visa endast din egen kalender på sidopanelen. Om du vill visa andras dagböcker går du till fönstret Kalender.
 
 ## Nästa dag
 
@@ -86,7 +86,7 @@ Visar alla dina [favoriter][8].
 
 ## Förhandsgranskning
 
-Visar en förhandsgranskning av aktiviteten, projektet, kontakten, projektdeltagaren eller urvalsmedlemmen som har markerats på sidopanelen. Fönstret kan visa länkar till kontakter och aktiviteter beroende på vilka poster som har markerats. När du klickar på en sådan länk öppnas [kontaktkortet][2], [dialogrutan Dokument][5] eller [dialogrutan för händelser][6] där du kan visa och redigera kontakten eller aktiviteten.
+Visar en förhandsgranskning av aktiviteten, projektet, kontakten, projektdeltagaren eller urvalsmedlemmen som har markerats på sidopanelen. Fönstret kan visa länkar till kontakter och aktiviteter beroende på vilka poster som har markerats. När du klickar på en sådan länk öppnas [kontaktkortet][2], [dialogrutan Dokument][5] eller [dialogrutan Händelse][6] där du kan visa och redigera kontakten eller aktiviteten.
 
 [Vad ska jag göra om jag ser "Dokumentet stängt" i sidopanelen i SuperOffice CRM när Dokumentvisare används?][11] – FAQ
 
@@ -95,7 +95,7 @@ Visar en förhandsgranskning av aktiviteten, projektet, kontakten, projektdeltag
 Visar en sammanställning av uppgifterna om det aktuella projektet i fönstret Projekt.
 
 > [!TIP]
-> Om du vill visa andra projekt utan att behöva byta företag i fönstret Projekt klickar du på pilen (![ikon][img3]) bredvid företagsnamnet och öppnar [historiklistan][1].
+> Om du vill visa andra projekt utan att behöva byta företag i fönstret Projekt klickar du på pilen ![ikon][img3] bredvid företagsnamnet och öppnar [historiklistan][1].
 
 ## Projektdeltagare
 
@@ -109,7 +109,7 @@ Visar en lista över projektdeltagare i det aktuella projektet i fönstret Proje
 Visar en sammanställning av uppgifterna om den aktuella försäljningen i fönstret Försäljning.
 
 > [!TIP]
-> Om du vill visa andra försäljningar utan att behöva byta företag i fönstret Försäljning klickar du på pilen (![ikon][img3]) bredvid försäljningsnamnet och öppnar [historiklistan][1].
+> Om du vill visa andra försäljningar utan att behöva byta företag i fönstret Försäljning klickar du på pilen ![ikon][img3] bredvid försäljningsnamnet och öppnar [historiklistan][1].
 
 [Så här använder du sidopanelen effektivt för försäljning][10]
 
@@ -118,7 +118,7 @@ Visar en sammanställning av uppgifterna om den aktuella försäljningen i föns
 Visar en sammanställning av uppgifterna om det aktuella urvalet i fönstret Urval.
 
 > [!TIP]
-> Om du vill visa andra urval utan att behöva byta urval i fönstret Urval kan du använda [historiklistan][1] som du öppnar genom att klicka på pilen (![ikon][img3]) bredvid urvalsnamnet.
+> Om du vill visa andra urval utan att behöva byta urval i fönstret Urval kan du använda [historiklistan][1] som du öppnar genom att klicka på pilen ![ikon][img3] bredvid urvalsnamnet.
 
 ## Urvalsmedlemmar
 
@@ -134,7 +134,6 @@ I Inställningar och underhåll kan du även definiera egna översikter för sid
 <!-- Referenced links -->
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
-[3]: ../../../diary/learn/screen/day.md
 [4]: ../../../diary/learn/screen/index.md
 [5]: ../../../document/learn/screen/index.md
 [6]: ../../../diary/learn/screen/dialog-for-followups.md

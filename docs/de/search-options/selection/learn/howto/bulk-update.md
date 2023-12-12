@@ -11,7 +11,7 @@ language: de
 
 # Massenabgleich
 
-Durch den Massenabgleich können Sie die persönlichen Daten aller Firmen und Personen sowie aller anderen Entitäten, die derzeit in Ihrer SuperOffice CRM-Datenbank gespeichert sind, aktualisieren. Sie können bestimmte Werte in mehreren Datensätzen desselben Typs (Personen, Firmen, Projekte, Verkäufe, Termine, Anrufe, Aufgaben und Dokumente) auf einmal ändern. Sie können bestimmte Werte abgleichen oder löschen.
+Durch den Massenabgleich können Sie die persönlichen Daten aller Firmen und Personen sowie aller anderen Entitäten, die derzeit in Ihrer SuperOffice CRM-Datenbank gespeichert sind, aktualisieren. Sie können bestimmte Werte in mehreren Datensätzen desselben Typs (Personen, Firmen, Projekte, Verkäufe, Folgeaufgaben und Dokumente) auf einmal ändern. Sie können bestimmte Werte abgleichen oder löschen.
 
 Der Massenabgleich ist in der Ansicht Selektion, Firma, Verkauf und Projekt verfügbar.
 

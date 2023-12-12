@@ -13,7 +13,7 @@ Outlook can load the iCal feed using the **internet calendar** account setting.
 
     ![Outlook -screenshot][img5]
 
-3. Outlook will download the appointments once you have pasted in the link to `ical.aspx?associd=123&guid=1234-4567…`
+3. Outlook will download the follow-up once you have pasted in the link to `ical.aspx?associd=123&guid=1234-4567…`
 
 4. The calendar shows up in the calendar view in Outlook – you just need to mark the checkbox for the calendar you added.
 
@@ -35,11 +35,11 @@ So if you have a Google Phone, you can now get your SuperOffice calendar to show
 
 3. Paste the ical.aspx?associd=123&guid=1234-4567…  link in here.
 
-4. Google will read the appointments and layer them on top of your calendar. You can change the name and whether the calendar is shared by editing the settings. The resulting calendar looks like this:
+4. Google will read the follow-ups and layer them on top of your calendar. You can change the name and whether the calendar is shared by editing the settings. The resulting calendar looks like this:
 
     ![Google -screenshot][img9]
 
-These appointments will now also appear on your Android phone calendar if you have enabled calendar sync on your device
+These follow-ups will now also appear on your Android phone calendar if you have enabled calendar sync on your device
 
 ![Google -screenshot][img10]
 
@@ -61,13 +61,13 @@ The **Windows Live Calendar Gadget** is just what you need.
 
     ![Windows Live Calendar Gadget -screenshot][img12]
 
-5. Click OK and the gadget will load the appointments from the URL and display them under the week or month.
+5. Click OK and the gadget will load the follow-ups from the URL and display them under the week or month.
 
     ![Windows Live Calendar Gadget -screenshot][img13]
 
     ![Windows Live Calendar Gadget -screenshot][img14]
 
-6. Click on an appointment for the full description of the appointment.
+6. Click on a follow-up for the full description of it.
 
 <!-- Referenced links -->
 

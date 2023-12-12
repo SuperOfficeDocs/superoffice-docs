@@ -34,7 +34,7 @@ Wanneer u verkeerde of dubbele informatie hebt toegevoegd, kan het een goed idee
 * [Een persoon verwijderen][3]
 * [Bulksgewijs verwijderen van personen verwijderen en/of bedrijven met selectie][6]
 
-Wanneer u iets wilt verwijderen in SuperOffice CRM, wordt het dialoogvenster **Afspraak verwijderen**, **Verkoop verwijderen**, **Selectie verwijderen**, enzovoort, weergegeven, afhankelijk van wat u wilt verwijderen. Het dialoogvenster bevat de naam van het item, zodat u kunt controleren of u het juiste verwijdert.
+Wanneer u iets wilt verwijderen in SuperOffice CRM, wordt het dialoogvenster **Vervolgactiviteit verwijderen**, **Verkoop verwijderen**, **Selectie verwijderen**, enzovoort, weergegeven, afhankelijk van wat u wilt verwijderen. Het dialoogvenster bevat de naam van het item, zodat u kunt controleren of u het juiste verwijdert.
 
 Wanneer u veel personen of bedrijven hebt die u moet verwijderen, is de beste manier om ze massaal te verwijderen, ze toe te voegen aan een nieuwe selectie en Ttaken verwijderen in het menu Taak te gebruiken. Klik in de selectie op de knop Taak en selecteer een van de gewenste verwijderfuncties.
 
@@ -45,7 +45,7 @@ Als de knop **Verwijderen** is uitgeschakeld (lichtgrijs), betekent dit dat u ge
 Voorbeelden:
 
 * U kunt geen persoon verwijderen die een werknemer is in een SuperOffice-bedrijf.
-* U kunt geen afspraken, documenten, verkopen, projecten, enz. verwijderen die niet van u zijn, tenzij u hiervoor voldoende gebruikersrechten hebt.
+* U kunt geen vervolgactiviteit, documenten, verkopen, projecten, enz. verwijderen die niet van u zijn, tenzij u hiervoor voldoende gebruikersrechten hebt.
 
 ## <a id="restore" />Verwijderde bedrijven en personen herstellen
 

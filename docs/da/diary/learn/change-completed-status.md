@@ -3,7 +3,8 @@ uid: help-da-activity-completed
 title: Ændring af status Udført for en aktivitet
 description: Ændring af status Udført for en aktivitet
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: dagbog, opfølgning
 so.topic: howto
 language: da
@@ -17,27 +18,36 @@ Når du mener, at en aktivitet er afsluttet, kan du markere den som fuldført.
 
 ## Trin
 
-1. Åbn aktiviteten, og fjern markeringen af ikonet **Afsluttet** øverst til højre i dialogen.
+Udfør en af følgende handlinger:
 
-    ![Ændring af status Udført for en aktivitet -screenshot][img3]
+* Højreklik på aktiviteten, og vælg **Fuldført**.
 
-    Du kan finde flere oplysninger under [Åbne opfølgninger][1] og [Åbne dokumenter][2].
+* Klik på afkrydsningsfeltet i kolonnen **Fuldført** ![ikon][img2] på detaljekortet **Aktiviteter**.
 
-1. Hold musemarkøren over feltet i kolonneikonet **Fuldført** ![ikon][img2] på detaljekortet **Aktiviteter**. Klik derefter på afkrydsningsfeltikonet ![ikon][img1].
+* Åbn aktiviteten, og vælg **Afsluttet**.
 
-1. Højreklik på aktiviteten, og vælg **Fuldført**.
+<!-- markdownlint-disable MD051 -->
+### [Klassisk](#tab/complete-old)
 
-    ![Ændring af status Udført for en aktivitet -screenshot][img4]
+Click på afkrydsningsikonet øverst til højre i dialogboksen.
+
+![Ændre fuldført status for en aktivitet -screenshot][img3]
+
+### [Ny (fra version 10.2.11 pilot)](#tab/complete-new)
+
+Markér/afmarker afkrydsningsfeltet i bunden af dialogen.
+
+![Ændre fuldført status for en opfølgning -screenshot][img4]
+
+***
+<!-- markdownlint-restore -->
 
 > [!NOTE]
-> Hvis du vil redigere en fuldført aktivitet, skal du først fjerne markeringen af statussen **Fuldført** .
+> Hvis du vil redigere en fuldført aktivitet, skal du først fjerne markeringen af statussen **Fuldført**.
 
 <!-- Referenced links -->
-[1]: open-follow-up.md
-[2]: ../../document/learn/open.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.png
 [img2]: ../../../media/icons/sale-sold-details.png
 [img3]: ../../../media/loc/en/diary/completed-activity.png
-[img4]: ../../../media/loc/en/diary/completed-activity-2.png
+[img4]: ../../../media/loc/en/diary/completed.png

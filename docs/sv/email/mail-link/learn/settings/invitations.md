@@ -15,7 +15,7 @@ De här alternativen visas i fönstret **Förfrågningar** i dialogrutan **Alter
 
 | Alternativ | Beskrivning |
 |---|---|
-| Inkommande förfrågningar | När du svarar på en förfrågan i Outlook (accepterad eller preliminär) kan du även skapa eller uppdatera en bokning i SuperOffice. Välj det här alternativet: **Lägg till/uppdatera bokning i SuperOffice när du svarar på förfrågningar i Outlook** |
+| Inkommande förfrågningar | När du svarar på en förfrågan i Outlook (accepterad eller preliminär) kan du även skapa eller uppdatera en händelse i SuperOffice. Välj det här alternativet: **Lägg till/uppdatera bokning i SuperOffice när du svarar på förfrågningar i Outlook** |
 
 <!-- Referenced links -->
 

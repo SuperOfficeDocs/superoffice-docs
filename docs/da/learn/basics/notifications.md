@@ -60,7 +60,7 @@ Når du klikker på ikonet ![ikon][img2] vises panelet med meddelelsesindstillin
 
 Dette er meddelelsesmulighederne:
 
-### Præferencer om beskeder om aftaler
+### Præferencer om beskeder om opfølginger
 
 * Vis beskeder for mødeindkaldelser
 * Vis beskeder for ændrede møder

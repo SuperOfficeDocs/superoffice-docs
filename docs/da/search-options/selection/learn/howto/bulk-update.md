@@ -11,7 +11,7 @@ language: da
 
 # Masseredigering
 
-Ved at bruge masseredigering kan du opdatere personoplysninger for alle firmaerne og personerne og alle andre entiteter, der aktuelt er gemt i din SuperOffice CRM-database. Du kan ændre specifikke værdier på tværs af flere poster af samme type (personer, firmaer, projekter, salg, aftaler, samtaler, opgaver og dokumenter). Du kan opdatere bestemte værdier og tømme bestemte værdier.
+Ved at bruge masseredigering kan du opdatere personoplysninger for alle firmaerne og personerne og alle andre entiteter, der aktuelt er gemt i din SuperOffice CRM-database. Du kan ændre specifikke værdier på tværs af flere poster af samme type (personer, firmaer, projekter, salg, opfølginger og dokumenter). Du kan opdatere bestemte værdier og tømme bestemte værdier.
 
 Masseredigering er tilgængelig i skærmbillederne Udvalg, Firma, Salg og Projekt.
 

@@ -16,7 +16,7 @@ Op verschillende plaatsen in SuperOffice CRM kunt u via de historielijst eenvoud
 U kunt de historielijst op diverse manieren gebruiken:
 
 * Rechtstreeks vanuit de Navigator ![pictogram][img2] om een bedrijf, persoon, verkoop, project of selectie weer te geven.
-* Vanuit dialoogvensters met de velden voor bedrijven, personen, verkopen en projecten, bijvoorbeeld de dialoogvensters **Afspraak** en **Document**, om zo een koppeling te maken met de afspraak of het document.
+* Vanuit dialoogvensters met de velden voor bedrijven, personen, verkopen en projecten, bijvoorbeeld de dialoogvensters **Vervolgactiviteit** en **Document**, om zo een koppeling te maken met de vervolgactiviteit of het document.
 
 ## De historielijst in de navigator gebruiken
 

@@ -27,7 +27,7 @@ I SuperOffice Marknadsföring kan du lägga till åtgärder för dina länkar. D
 | Konfigurera fält | Lägg till ett värde till ett extrafält för kundkontakter |
 | Intressen | Uppdatera intressen. |
 | Urval/projekt | Lägga till eller ta bort kontakt från urval eller projekt. |
-| Uppföljning | Skapa en uppföljning (uppgift eller bokning) i SuperOffice CRM. |
+| Uppföljning | Skapa en uppföljning (uppgift eller möte) i SuperOffice CRM. |
 | Ärende | Skapa ett nytt ärende. |
 | Skript | Köra ett skript. |
 
@@ -70,27 +70,27 @@ Se även [Ta bort intressen i SuperOffice CRM][1].
 
 Här kan du ange att mottagare som klickar på länken ska läggas till i eller tas bort från urval i SuperOffice Service eller urval eller projekt i SuperOffice CRM. Skriv början av ett namn för att starta snabbsökningen.
 
-## Uppföljning (uppgift/bokning)
+## Uppföljning (uppgift/möte)
 
-På fliken **Uppföljning** kan du ange att ett länkklick ska generera uppgifter eller bokningar i SuperOffice CRM.
+På fliken **Uppföljning** kan du ange att ett länkklick ska generera uppgifter eller möter i SuperOffice CRM.
 
 1. Markera **Uppföljning** om du vill aktivera denna funktion.
 
-2. **Uppgift/Bokning**: Välj vilken typ av uppföljning du vill skapa.
+2. **Uppgift/Bokning**: Välj vilken typ av händelse du vill skapa.
 
-3. **Beskrivning**: Ange en beskrivning av uppgiften eller bokningen. T.ex. vilket utskick det gäller, vilken länk mottagaren har klickat på och eventuellt hur uppgiften eller bokningen ska följas upp.
+3. **Beskrivning**: Ange en beskrivning av händelsen. T.ex. vilket utskick det gäller, vilken länk mottagaren har klickat på och eventuellt hur händelsen ska följas upp.
 
-4. **Projekt**: Här väljer du ett projekt som uppgiften eller bokningen ska kopplas till. Skriv början av ett namn för att starta snabbsökningen.
+4. **Projekt**: Här väljer du ett projekt som händelsen ska kopplas till. Skriv början av ett namn för att starta snabbsökningen.
 
-5. **Uppgift**: Välj önskad uppgifts- eller bokningstyp.
+5. **Uppgift**: Välj önskad typ händelse.
 
-6. **Skapad av**: Välj vilken användare som ska vara ansvarig för uppgiften eller bokningen eller klicka på knappen **Välj aktiv användare** ![ikon][img1] om du vill välja dig själv.
+6. **Skapad av**: Välj vilken användare som ska vara ansvarig för händelsen eller klicka på knappen **Välj aktiv användare** ![ikon][img1] om du vill välja dig själv.
 
-7. **Tilldela vår kontakt om tillgänglig**: Kryssa i här om uppgiften eller bokningen ska tilldelas "vår kontakt" för mottagaren, (den person som är ansvarig för den aktuella kunden).
+7. **Tilldela vår kontakt om tillgänglig**: Kryssa i här om händelsen ska tilldelas "vår kontakt" för mottagaren, (den person som är ansvarig för den aktuella kunden).
 
-8. **Standardmottagare**: Välj en standardmottagare som uppgiften eller bokningen ska tilldelas eller klicka på knappen **Välj aktiv användare** ![ikon][img1] om du vill välja dig själv.
+8. **Standardmottagare**: Välj en standardmottagare som händelsen ska tilldelas eller klicka på knappen **Välj aktiv användare** ![ikon][img1] om du vill välja dig själv.
 
-9. **Varaktighet**: Klicka på knappen **Välj tidsperiod** ![ikon][img2] bredvid detta fält för att ange uppgiftens eller bokningens varaktighet.
+9. **Varaktighet**: Klicka på knappen **Välj tidsperiod** ![ikon][img2] bredvid detta fält för att ange händelsens varaktighet.
 
 ## Ärende
 

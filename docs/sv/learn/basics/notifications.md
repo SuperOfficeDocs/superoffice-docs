@@ -60,7 +60,7 @@ När du klickar på ikonen ![ikon][img2] visas panelen för aviseringsinställni
 
 Det här är aviseringsalternativen:
 
-### Inställningar för mötesaviseringar
+### Inställningar för händelsesaviseringar
 
 * Visa aviseringar för mötesinbjudningar
 * Visa aviseringar för ändrade möten

@@ -13,7 +13,7 @@ language: sv
 
 # Tidszoner
 
-SuperOffice CRM har stöd för händelser i olika tidszoner. Tidszonsfunktionen är väldigt praktisk om företaget har kontor i flera länder med olika tidszoner och användarna ska planera möten eller telefonkonferenser med medarbetare i länder som ligger i andra tidszoner än deras egna länder. Bokningen skapas då i tidszonen som motsvarar det valda landet.
+SuperOffice CRM har stöd för händelser i olika tidszoner. Tidszonsfunktionen är väldigt praktisk om företaget har kontor i flera länder med olika tidszoner och användarna ska planera möten eller telefonkonferenser med medarbetare i länder som ligger i andra tidszoner än deras egna länder. Händelsen skapas då i tidszonen som motsvarar det valda landet.
 
 Tidszonsfunktionen har stöd för sommartid.
 

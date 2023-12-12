@@ -1,75 +1,178 @@
 ---
 uid: help-da-follow-up-create
-title: "Tilføjelse af opfølgninger (aftaler, opgaver og samtaler)"
-description: "Tilføjelse af opfølgninger (aftaler, opgaver og samtaler)"
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: dagbog, opfølgning
+title: "Tilføjelse af opfølgning"
+description: "Tilføje eller kopiere møde, opgave, samtale i SuperOffice"
+author: Bergfrid Dias
+so.date: 12.12.2023
+so.version: 10.2.11
+keywords: dagbog, opfølgning, ring til, telefon, møde
 so.topic: howto
 language: da
 ---
 
-# Tilføjelse af opfølgninger (aftaler, opgaver og samtaler)
+# Tilføjelse af opfølgning
 
-Hvis du vil oprette opfølgninger i SuperOffice CRM, skal du klikke på knappen **Ny** på toplinjen.
+Oprettelse af opfølgninger og planlægning af alle møder og aktiviteter i din SuperOffice Dagbog hjælper dig med altid at have et komplet overblik over, hvad der sker, opbygge solid kommunikationshistorik og holde dine kolleger informeret.
+
+## Trin
+
+Der er mange måder at oprette en opfølging på. Denne metode fungerer fra ethvert sted i SuperOffice CRM og for alle typer af opfølgninger.
+
+1. Klik på **Ny** i toplinjen, og vælg **Møde/Aftale**, **Opfølgning/Telefonopkald** eller **Skal udføres/Opgave**.
+
+2. [Indtast de ønskede oplysninger i felterne.](#fields)
+
+    Nogle oplysninger indsættes automatisk baseret på konteksten, for eksempel dagens dato.
+
+3. Klik på knappen **Gem**.
+
+**Andre muligheder:**
+
+| Startpunkt | Møde (aftale) | Opfølging (samtale) | Skal udføres (opgave) |
+|---|---|---|---|
+| Detaljekortet Aktiviteter | x | x | x |
+| Knappen Opgave på personkortet | x | x | |
+| Dagbog | x | | |
+
+### <a id="fields" />Sådan indtastes information
+
+> [!NOTE]
+> Mange felter har en liste over foruddefinerede værdier, du kan vælge imellem. Klik på pilen ![ikon][img4] for at udvide listen. Vælg derefter en værdi for det felt. Alternativt kan du begynde at skrive i feltet for at søge efter en specifik værdi, som f.eks. et firmanavn.
+
+Hvis din SuperOffice har [tidszoner][9] slået til, kan du vælge, hvilken tidszone opfølgningen skal oprettes i. Tidszoner vises efter land, og du kan søge både efter land og by direkte i tidszonefeltet.
+
+Hvis du markerer **Hele dagen**, indstilles tidspunktet for opfølgningen til perioden angivet som [standard arbejdsdag][8] (indstillingen for **Starttidspunkt for hele dagen** og **Sluttidspunkt for hele dagen**).
+
+<!-- markdownlint-disable MD051 -->
+#### [Klassisk](#tab/fields-old)
+
+![Aftaledialog - skærmbillede][img6]
+
+* Vælg opfølgningstype.
+
+* Valgfrit, vælg et firma og/eller en kontakt, som opfølgningen vedrører.
+
+* Valgfrit, vælg et projekt og/eller salg for at linke det til opfølgningen. Du kan vælge ethvert projekt/salg, uanset hvilket firma du tidligere har valgt.
+
+* Specificér tid og dato. **Varighed**-feltet justeres automatisk.
+
+    Hvis den nye opfølgning overlapper med en eksisterende opfølgning, vises et udråbstegn ![ikon][img2] ved siden af start- og stopfelterne som en påmindelse (du kan stadig tilføje opfølgningen). Et forslag til den første ledige tidsperiode vises. Klik på det foreslåede tidspunkt til højre for **Først tilgængelig** for at vælge dette tidspunkt i stedet.
+
+    Når du opretter en ny to-do, vises ingen tid i felterne **Start** og **Slut**. Dagens dato indsættes automatisk, men du kan ændre den til den ønskede dato. Datoen angiver deadline for to-do'en.
+
+* Valgfrit, vælg eller indtast adressen, hvor opfølgningen skal finde sted.
+
+* Vælg fanen **Beskrivelse** for at tilføje en beskrivelse af opfølgningen (maksimalt 2048 tegn).
+* Vælg fanen **Detaljer** for at indstille [gentagelse][4], prioritet, [alarm][3], ejer og "vis som".
+* Vælg fanen **Deltagere** for at [tilføje deltagere][5].
 
 > [!TIP]
-Du kan også tilføje opfølgninger ved at dobbeltklikke på en tom linje på detaljekortet **Aktiviteter**. Derefter åbnes som standard dialogboksen **Aftale**. Du kan angive, hvilken dialogboks der skal åbnes, under ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Funktioner** > **Type fra detaljekortet Aktiviteter**.
+> Klik på ![ikon][img5] for at oprette et [videomøde][2].
 
-## Oprettelse af opfølgninger på aktivitetslisten
+#### [Ny (fra version 10.2.11 pilot)](#tab/fields-new)
 
-Hvis du vil oprette en ny opfølgning direkte på aktivitetslisten, skal du dobbeltklikke på en tom række under den sidste aktivitet på listen.
+![Opfølgingsdialog - skærmbillede][img7]
 
-Hvis der ikke vises en tom række nederst på aktivitetslisten, skal du udvide aktivitetslisten:
+* Indtast en titel.
 
-1. Placer musemarkøren mellem sektionsfanerne og kortet ovenfor. Markøren ændres til en dobbeltpil.
+* Klik på den farvede bold og vælg en opfølgningstype.
 
-2. Klik og træk linjen opad, indtil du ser flere tomme rækker nederst på aktivitetslisten.
+* Valgfrit, vælg et firma eller en kontakt, som opfølgningen vedrører. Hvis du vil invitere dem og andre til mødet, skal du klikke på **Inviter**.
+
+  * [Tilføj deltagere][5].
+  * Valgfrit, tilføj møderom, lokaler, eller steder.
+  * Valgfrit, tilføj sted eller adresse.
+
+    ![Udvidet opfølgingsdialog - skærmbillede][img8]
+
+* Specificér tid og dato. Klik på **Vis mere** for at indstille [gentagelse][4], "hele dagen", "optaget/fri" og tidszone. Klik på klokkeikonet i overskriften for at [sætte alarm][3].
+
+* Valgfrit, vælg et projekt og/eller salg for at linke det til opfølgningen. Du kan vælge ethvert projekt/salg, uanset hvilket firma du tidligere har valgt.
+
+* Vælg fanen **Dagsorden** for at tilføje yderligere information, såsom en dagsorden, en beskrivelse af opfølgningen, filer, billeder og links. Brug knapperne i bunden for at tilføje formatering af rig tekst og indhold.
+
+    > [!TIP]
+    > Hvis du vil begrænse adgangen til kun medarbejdere, skal du placere den information i fanen **Interne noter**. Det, der tilføjes her, sendes ikke til eksterne deltagere. Klik på uret-ikonet for at tilføje en tidsstempel. En prik på fanen indikerer, at nogen har tilføjet en note.
+
+***
+<!-- markdownlint-restore -->
+
+## Oprette opfølging fra detaljkortet Aktiviteter
+
+* Klik på knappen **Tilføj** på detaljekortet **Aktiviteter**.
+
+* Eller, dobbeltklik på en tom række under den sidste aktivitet på listen. Hvis der ikke vises en tom række nederst på aktivitetslisten, skal du udvide aktivitetslisten: Placer musemarkøren mellem sektionsfanerne og kortet ovenfor. Markøren ændres til en dobbeltpil. Klik og træk linjen opad, indtil du ser flere tomme rækker nederst på aktivitetslisten.
 
 > [!NOTE]
 > Hvis du angiver et tidspunkt eller en varighed for en opfølgning, du opretter fra aktivitetslisten, indtastes den i Dagbogen.
 
-## <a id="associate" />Opret aftaler for en medarbejder
+## Oprette opfølging fra Opgaveknappen
 
-Når du åbner en medarbejders dagbog, kan du selv oprette aftaler for denne person.
+1. Klik på ![ikonet][img3] knappen **Opgave** på personkortet.
+
+    * For at oprette et møde, vælg **Anmod om møde**.
+
+    * For at registrere et opkald, vælg **Opret samtale**
+
+1. Indtast de ønskede oplysninger og klik på knappen **Gem**.
+
+## Opret møde fra skærmbilledet Dagbog
+
+* **For at vælge et tidsinterval:** Klik ved det klokkeslæt, hvor opfølgningen skal starte, og hold museknappen nede, mens du trækker musen til det ønskede sluttidspunkt for opgaven. Du ser et blåt område, mens du definerer tidsrummet, og derefter vises dialogboksen for opfølgninger.
+
+* **For at bruge standardvarighed:** Dobbeltklik på et klokkeslæt i dagbogen eller højreklik på et klokkeslæt i dagbogen, og vælg **Ny**.
+
+> [!NOTE]
+> Hvis du opretter møtet fra fanen **Oversigt**, kan du vælge at få deltagere udfyldt med medlemmerne i oversigten. Hvis du vil angive denne indstilling, kan du gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Funktioner** og angive præferencen **Deltagere fra gruppeoversigt** til **Ja**. Klik på **Gem**.
+
+### <a id="associate" />Opret møde for en medarbejder
+
+Du kan åbne en anden brugers dagbog eller dagbogen for en tilgængelig ressource for at se, hvornår de er ledige, eller for at oprette opfølgninger direkte til dem.
 
 1. Klik på fanen **Oversigt** i skærmbilledet Dagbog.
 
-2. [Find personens dagbog][4] i **oversigten**.
+2. Klik på ejerlisten og find personens dagbog.
 
-3. [Opret en ny aftale][1] i denne dagbog ved hjælp af musen.
+3. Opret et nytt møde i denne dagbog ved hjælp af musen.
 
-4. Dialogboksen **Aftale** vises. [Vælg de deltagere, der skal inkluderes, hvis de ikke automatisk inkluderes][5], .
+4. I dialogboksen **Opfølging**, [indtast de ønskede oplysninger i felterne](#fields).
 
-    > [!NOTE]
-    > Hvis du har markeret **Deltagere fra gruppevisning** under **Præferencer**, tilføjes alle medlemmer af oversigten automatisk som deltagere i aftalen. Hvis du vil angive denne indstilling, kan du gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Funktioner** og angive præferencen til **Deltagere fra gruppeoversigt** til **Ja**. Klik på **Gem**.
+5. [Vælg de deltagere, der skal inkluderes][5], hvis de ikke automatisk inkluderes.
 
-5. [Indtast de ønskede oplysninger i felterne.][6]
+6. Klik på knappen **Gem**. Mødet vises i den valgte persons dagbog.
 
-6. Klik på knappen **Gem**. Aftalen vises i den valgte persons dagbog.
+## <a id="copy" />Kopiering af opfølgning til dagbogen
 
-## <a id="overlap" />Opret overlappende opfølgninger
+Du kan også oprette en ny opfølgning ved at kopiere en eksisterende opfølgning til en anden tid eller dag i dagbogen.
 
-Opfølgninger kan overlappe hinanden. Når du forsøger at optage en overlappende opfølgning, har dialogen et udråbstegn ![ikon][img2] ved siden af start- og stopfelterne som en påmindelse (du kan stadig optage opfølgningen).
+1. Åbn dagbogen og find den opfølgning, du ønsker at kopiere.
 
-Der vises et forslag til det første ledige tidsrum. Klik på det foreslåede tidspunkt til højre for **Først tilgængelig** for at vælge dette tidspunkt i stedet.
+2. Hvis opfølgningen er udført, højreklik på den og vælg **Fuldført** for at aktivere redigering. (Husk at nulstille statussen efter kopiering.)
 
-Overlappende opfølgninger vises på skærmbilledet Dagbog, så du kan se en del af hver opfølgning.
+3. Hold **CTRL**-tasten nede, mens du trækker og slipper opfølgningen til en anden tid.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
-* [Oprettelse af aftaler][1]
-* [Oprettelse af opgaver][2]
-* [Registrering af samtaler][3]
+* [Aftaletyper][1]
+* [Aktiviteter][7]
+* [Opret et videomøde fra SuperOffice dagbog][2]
 
 <!-- Referenced links -->
-[1]: create-appointment.md
-[2]: create-task.md
-[3]: phone-call/add.md
-[4]: open.md
+[1]: follow-ups.md
+[2]: video-meetings.md
+[3]: set-alarm.md
+[4]: recurrence/index.md
 [5]: invitation/add-participant.md
-[6]: screen/dialog-for-followups.md
+[7]: ../../learn/basics/activity.md
+[8]: ../../learn/getting-started/preferences.md
+[9]: ../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
+[img3]: ../../../media/icons/btn-menu.png
 [img2]: ../../../../common/icons/warning-red.png
+[img4]: ../../../../common/icons/dropdown-icon.png
+[img5]: ../../../../common/icons/videocall-off.png
+[img6]: ../../../media/loc/en/diary/appointment-new.png
+[img7]: ../../../media/loc/en/diary/follow-up-dialog.png
+[img8]: ../../../media/loc/en/diary/follow-up-attendees.png

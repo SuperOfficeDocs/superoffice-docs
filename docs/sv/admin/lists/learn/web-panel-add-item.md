@@ -71,7 +71,7 @@ language: sv
 
 ### Dialogruta
 
-* **Dialogrutan för händelser**: Ett kortkommando till webbadressen infogas högst upp på fliken **www** i dialogrutan**Bokning**, **Uppgift** och **Samtal**. Du kan också välja att klicka på **Öppna i eget fönster** om webbplatsen ska öppnas i ett separat fönster i webbläsaren.
+* **Dialogrutan för händelser**: Ett kortkommando till webbadressen infogas högst upp på fliken **www** i dialogrutan **Händelse**. Du kan också välja att klicka på **Öppna i eget fönster** om webbplatsen ska öppnas i ett separat fönster i webbläsaren.
 
 * **Dialogrutan Dokument/Offert/Produkt**: Ett kortkommando till webbadressen infogas högst upp på fliken **www** i dialogrutorna.
 

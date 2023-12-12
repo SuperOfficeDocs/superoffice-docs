@@ -1,27 +1,19 @@
 items:
 - name: Overview
   href: index.md
-- name: Navigate in the Diary screen
-  href: screen/navigate-in-diary.md
 - name: Dialog for follow-up
   href: screen/dialog-for-followups.md
+- name: Appointment, task, phone call
+  href: follow-ups.md
 - name: Calendar views
-  topicHref: screen/day.md
+  topicHref: screen/index.md
   items:
-  - name: Day
-    href: screen/day.md
-  - name: Month
-    href: screen/month.md
-  - name: Week
-    href: screen/week.md
-  - name: View
-    href: screen/view.md
-  - name: Group view dialog
-    href: screen/view-dialog.md
-  - name: View your or other diaries
-    href: open.md
-  - name: Create group view
-    href: create-view.md
+  - name: Day, week, month
+    href: screen/index.md
+  - name: Group view
+    href: group-view.md
+  - name: View other diaries
+    href: other-diaries.md
 - name: Section tabs
   topicHref: screen/activities-tab.md
   items:
@@ -30,57 +22,28 @@ items:
   - name: Sales
     href: screen/sales-tab.md
 - name: Work with follow-ups
-  topicHref: appointment.md
+  topicHref: create-follow-up.md
   items:
-  - name: Appointment
-    topicHref: appointment.md
-    items:
-    - name: Overview
-      href: appointment.md
-    - name: Create appointment
-      href: create-appointment.md
-  - name: Phone call
-    topicHref: phone-call/index.md
-    items:
-    - name: Overview
-      href: phone-call/index.md
-    - name: Enter phone call
-      href: phone-call/add.md
-    - name: Dial contact
-      href: phone-call/dial.md
-    - name: Phone preferences
-      href: phone-call/preferences.md
   - name: Video meetings
     href: video-meetings.md
-  - name: Tasks
-    topicHref: task.md
-    items:
-    - name: Overvew
-      href: task.md
-    - name: Create task
-      href: create-task.md
-  - name: Add follow-up (appointment, task, or phone call)
+  - name: Add follow-up (appointment, task, phone call)
     href: create-follow-up.md
-  - name: Edit follow-up
+  - name: Edit or delete follow-up
     href: edit-follow-up.md
-  - name: Copy follow-up
-    href: copy-follow-up.md
-  - name: Change end time
-    href: change-end-time.md
   - name: Move follow-up
     href: move-follow-up.md
   - name: Complete follow-up
     href: change-completed-status.md
   - name: Recurrence
     href: recurrence/toc.yml
-  - name: Assign a follow-up to someone else
+  - name: Assign follow-up (delegate)
     href: follow-up-assign.md
   - name: Sett alarm for follow-up
     href: set-alarm.md
+  - name: Link documents to follow ups
+    href: linking-documents-to-follow-ups.md
   - name: Send a follow-up as an email
     href: send-as-email.md
-  - name: Delete follow-up
-    href: delete-follow-up.md
   - name: Print follow-ups and Diary screen
     href: print.md
 

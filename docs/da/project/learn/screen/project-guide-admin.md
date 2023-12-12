@@ -17,7 +17,7 @@ Under fanen **Projektguide** på skærmbilledet Arbejdsproces under Indstillinge
 
 ## Eksempel
 
-Projekttypen "Konference" kan bestå af tre statusser: Planlagt, I gang og Lukning. Den planlagte status kan f.eks. omfatte opfølgningen på "Planlægningsmøde" (en aftale) og dokumentet "Konferenceprogram" (en note).
+Projekttypen "Konference" kan bestå af tre statusser: Planlagt, I gang og Lukning. Den planlagte status kan f.eks. omfatte opfølgningen på "Planlægningsmøde" og dokumentet "Konferenceprogram" (en note).
 
 ## Hvad vil du foretage dig nu?
 

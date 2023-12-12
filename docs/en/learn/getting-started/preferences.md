@@ -35,7 +35,7 @@ You can specify settings for different parts of SuperOffice CRM, for example, th
 | Button | Option | Description |
 |---|---|---|
 | ![icon][img1] | Default values | The default values in SuperOffice CRM. For example, the default business for new companies, the default duration of follow-ups, the default template for outbound documents. |
-| ![icon][img2] | Diary | The default settings for the diary and appointments, such as the default start time for the working day and the duration of alarms. |
+| ![icon][img2] | Diary | The default settings for the diary and follow-ups, such as the default start time for the working day and the duration of alarms. |
 | ![icon][img3] | Functions | The general settings and functions, including if to display a Tip of the Day when you start SuperOffice (Show Tips on Startup). |
 | ![icon][img14] | In-app communication | The settings for the Resource Center and which parts of the in-app learning and communication to display. |
 | ![icon][img4] | Email | The settings for email and fax, for example, the email client you have installed. |

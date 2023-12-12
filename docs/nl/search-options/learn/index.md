@@ -60,7 +60,7 @@ Het grootste verschil tussen deze gereedschappen is of je sleutelwoorden of voor
 U kunt de functie Snel zoeken op verschillende manieren gebruiken:
 
 * U kunt [rechtstreeks zoeken vanuit de navigator][3] om een bedrijf, persoon, verkoop, project of selectie weer te geven.
-* U kunt zoeken naar bedrijven, personen, projecten en selecties [vanuit dialoogvensters][8] met relevante velden, bijvoorbeeld de dialoogvensters **Afspraak** en **Document**, om ze te koppelen aan de afspraak of het document.
+* U kunt zoeken naar bedrijven, personen, projecten en selecties [vanuit dialoogvensters][8] met relevante velden, bijvoorbeeld de dialoogvensters **Vervolgactiviteit** en **Document**, om ze te koppelen aan de afspraak of het document.
 * U kunt [rechtstreeks zoeken in de tijdzoneselectie][2] om de tijdzone voor de gewenste stad of het gewenste land te vinden.
 
 ## Vrije-tekst zoekbewerking gebruiken

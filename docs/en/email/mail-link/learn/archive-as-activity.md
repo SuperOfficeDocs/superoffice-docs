@@ -1,23 +1,23 @@
 ---
 uid: help-en-mail-link-create-activity
-title: Create appointment or task from email
-description: Saving an email directly as an appointment or a task in your SuperOffice diary will ensure that you never forget to follow up on a customer or query.
+title: Create meeting or to-do from email
+description: Saving an email directly as a meeting or to-do in your SuperOffice diary will ensure that you never forget to follow up on a customer or query.
 author: Bergfrid Dias
 so.date: 08.30.2023
-keywords: Mail Link, email, inbox, archive, appointment, task
+keywords: Mail Link, email, inbox, archive, appointment, meeting, task, to-do, follow-up
 so.topic: howto
 language: en
 ---
 
-# Create appointment or task from email
+# Create meeting or to-do from email
 
-If you receive an email requesting you to take action, you can convert the email into an appointment or task in SuperOffice CRM.
+If you receive an email requesting you to take action, you can convert the email into a follow-up in SuperOffice CRM.
 
-![Use Mail link in Outlook to convert an email into an appointment or task in SuperOffice CRM -app-screen][img2]
-![Mail link: create appointment in SuperOffice CRM -app-screen][img3]
+![Use Mail link in Outlook to convert an email into a meeting or to-do in SuperOffice CRM -app-screen][img2]
+![Mail link: create meeting in SuperOffice CRM -app-screen][img3]
 ![Mail link: create task in SuperOffice CRM -app-screen][img4]
 
-## Create appointment
+## Create meeting
 
 1. Select the emails you want to archive.
 
@@ -29,9 +29,9 @@ If you receive an email requesting you to take action, you can convert the email
 
 5. In the **Contact** field, select one of the contacts belonging to the company you selected in step 4. You can also start typing to search for the contact name.
 
-6. Optionally, select a project and/or sale that you want to link the appointment to.
+6. Optionally, select a project and/or sale that you want to link the follow-up to.
 
-7. Use the **Type** dropdown menu to select an appointment types.
+7. Use the **Type** dropdown menu to select a follow-up type.
 
 8. Click to select a **Date** and enter a **Time** of day. Today's date is automatically inserted, but can be changed.
 
@@ -44,18 +44,18 @@ If you receive an email requesting you to take action, you can convert the email
 
 11. Outlook only: Check the **Remove from inbox** box if you would like to remove the email from the inbox and move it to the **Deleted items** folder in the mail client after it was archived successfully in SuperOffice CRM.
 
-12. Click **OK**. The selected emails are archived to SuperOffice CRM as appointments.
+12. Click **OK**. The selected emails are archived to SuperOffice CRM as meetings.
 
-## <a id="task" />Create task
+## <a id="todo" />Create task (to-do)
 
 1. Select the emails you want to archive.
 
 2. Click the **Archive email** button on the toolbar, and select **Create task in SuperOffice**.
 
-3. Fill in the fields as described above for creating an appointment.
+3. Fill in the fields as described above for creating a meeting.
 
     > [!NOTE]
-    > Tasks do not have time property, only date.
+    > To-dos do not have time property, only date.
 
 4. Click **OK**.
 

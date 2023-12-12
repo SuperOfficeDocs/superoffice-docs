@@ -13,7 +13,7 @@ language: nl
 
 E-mail is de meest populaire vorm van communicatie tussen bedrijven. Met SuperOffice CRM kunt u ervoor kiezen om uw e-mails op verschillende manieren op te slaan en te delen, waardoor u en uw team productiever kunnen werken.
 
-Wanneer u uw favoriete e-mailclient hebt [geïntegreerd met SuperOffice][13], kunt u e-maildialogen en bijlagen opslaan onder elk bedrijf, persoon, verkoop of project in uw CRM-systeem. U kunt e-mails ook rechtstreeks opslaan als afspraken of activiteiten, zodat u nooit vergeet om op te volgen en door te gaan.
+Wanneer u uw favoriete e-mailclient hebt [geïntegreerd met SuperOffice][13], kunt u e-maildialogen en bijlagen opslaan onder elk bedrijf, persoon, verkoop of project in uw CRM-systeem. U kunt e-mails ook rechtstreeks opslaan als vervolgactiviteiten of activiteiten, zodat u nooit vergeet om op te volgen en door te gaan.
 
 ## E-mailclients
 
@@ -36,12 +36,12 @@ Om alle klantgerelateerde informatie op één plek te bewaren, kunt u uw e-mails
 * [E-mail archiveren met WebTools en Mail Link][8]
 * [E-mail archiveren met Gmail Link][3]
 
-### E-mail opslaan als afspraak
+### E-mail opslaan als vervolgactiviteit
 
-Het direct opslaan van een e-mail als een taak, een afspraak of een telefoongesprek in uw SuperOffice-agenda zorgt ervoor dat u nooit vergeet een klant of vraag op te volgen.
+Het direct opslaan van een e-mail als een vervolgactiviteit in uw SuperOffice-agenda zorgt ervoor dat u nooit vergeet een klant of vraag op te volgen.
 
-* [E-mail archiveren als afspraak met WebTools en Mail Link][7]
-* [E-mail archiveren als afspraak met Gmail Link][4]
+* [E-mail archiveren als vervolgactiviteit met WebTools en Mail Link][7]
+* [E-mail archiveren als vervolgactiviteit met Gmail Link][4]
 
 ## Bijlagen
 

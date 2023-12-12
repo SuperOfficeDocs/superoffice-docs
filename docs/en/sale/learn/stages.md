@@ -35,7 +35,7 @@ If you set the sales to **Stalled**, the following fields are displayed:
 
 ![Stalled sale -screenshot][img5]
 
-The **Appointment** dialog opens when you click **Save**. Here you can set up a future meeting or phone call to follow up the stalled sale.
+The **Follow-up** dialog opens when you click **Save**. Here you can set up a future meeting or phone call to follow up the stalled sale.
 
 ## Sold/Lost
 

@@ -1,9 +1,10 @@
 ---
 uid: help-en-diary
 title: Diary
-description: The SuperOffice Diary is the heart of your CRM system. These how-to guides will help you learn how to work with the diary.
-author: SuperOffice RnD
-so.date: 02.10.2023
+description: The SuperOffice Diary is the heart of your CRM system. These how-to guides will help you learn how to navigate in and work with the diary.
+author: Bergfrid Dias
+so.date: 11.20.2023
+so.version: 10.2.11
 keywords: diary
 so.topic: concept
 language: en
@@ -11,73 +12,68 @@ language: en
 
 # Diary
 
-The diary in SuperOffice CRM is used much like a filofax and has separate pages for every day, week and month.
+The SuperOffice diary consists of a calendar and a todo list and is used similar to a Filofax with separate pages for every day, week, and month.
 
-![Keep track of all your appointments and tasks by registering them in your diary -screenshot][img1]
+* **Calendar**: shows entries allocated to a particular time or date.
+* **Todo list**: shows stuff that you have not yet completed, mostly calls and to-dos without time or date.
 
-The diary is a useful tool when you want to plan and perform different types of tasks. From the diary, you can view, edit and delete [activities][16].
+![Keep track of all your meetings and to-dos by registering them in your diary -screenshot][img3]
+<!-- TODO: Retake with new-look side panel for GA -->
 
-You also get a [list of sales][13] to work on, using the **Sales** section tab in the Diary screen.
+The diary is a useful tool when you want to plan and perform different types of activities. From the diary, you can view, edit and delete [activities][16]. You also get a [list of sales][13] to work on, using the **Sales** section tab in the Diary screen.
 
-Regular use of the diary helps you to automatically connect and share appointments and activities linked to a contact or a company, allowing you and your team to effortlessly stay on track and work productively.
+Regular use of the diary, connecting activities to a contact or a company, ensures that you and your team can stay organized effortlessly, promoting smooth collaboration and heightened productivity.
 
-## Work with follow-ups
+## <a id="open" />View diary
 
-Follow-up is a collective term for the [appointment][1], [task][2], and [phone call][3] activities. These all function in largely the same way.
+To open your diary, click the word **Diary** in the Navigator and select a time period from the list, or click **Today** or **This week** to move to the current day or week. Your name is displayed at the upper right of the Diary screen. If two or more follow-ups overlap, you can see part of each follow-up.
 
-> [!NOTE]
-> It is important to understand the distinction between activities and follow-ups (appointments, tasks and phone calls).
-When you create follow-ups from the Diary screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the [**Appointment** dialog][22].
+You can access the diary of another user or an available resource to check their availability or create follow-ups directly. To view multiple diaries at once, create a [group view][2].
 
-Follow-ups are closely linked to the Diary screen, and some functions apply especially to the Diary.
+## <a id="nav" />Navigate in the Diary screen
 
-> [!TIP]
-> In Settings and maintenance, you can define that all follow-ups of a specific type should be displayed in the Diary screen with the same background color.
+The diary consists of [four tabs][24]: **Day** tab, **Week** tab, **Month** tab, and **View** tab. Switching between these views is easy: simply click the tabs at the top of the Diary screen. The relevant day, week, or month is displayed at the top of the page, depending on which tab you selected.
+
+* In the **Day** tab, **Week** tab, and **Month** tab, click **Today** or **This week** to move to the current day or week.
+
+* Click a month, week number, or day in the calendar to move directly to one of the tabs.
+
+* Click the previous/next buttons ![icon][img2] ![icon][img1] at the lower right of the Diary.
+
+* (If open) click a day or week in the day, week, or month view in the side panel.
 
 ## What would you like to do now?
 
-* [Navigate in the Diary screen][14]
 * [Select a time zone][15]
-* [Open follow-ups][4]
 * [Edit follow-up][6]
-* [Set alarms for follow-up][7]
-* [Send follow-ups][8]
-* [Create appointment using the Diary][18]
-* [Create overlapping follow-ups][9]
-* [Create repeating follow-up][10]
+* [Create follow-up (meeting, to-do)][18]
+* [Schedule repeating follow-up][10]
 * [Invite your associates to a follow-up][11]
-* [Link activities][12]
 * [Move follow-ups][19]
 * [Change the end time of follow-up][20]
 * [Copy follow-up to the Diary][21]
-* [Print][5]
 * [Delete follow-up][17]
 * [Video meetings][23]
+* [Working with follow-ups in API][50]
 
 <!-- Referenced links -->
-[1]: appointment.md
-[2]: task.md
-[3]: phone-call/index.md
-[4]: open-follow-up.md
-[5]: print.md
+[2]: group-view.md
 [6]: edit-follow-up.md
-[7]: set-alarm.md
-[8]: send-as-email.md
-[9]: create-follow-up.md#overlap
 [10]: recurrence/create.md
 [11]: invitation/index.md
-[12]: ../../learn/activity/linking-documents-to-follow-ups.md
 [13]: screen/sales-tab.md
-[14]: screen/navigate-in-diary.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
-[16]: ../../learn/activity/index.md
-[17]: delete-follow-up.md
-[18]: create-appointment.md
+[16]: ../../learn/basics/activity.md
+[17]: edit-follow-up.md#delete
+[18]: create-follow-up.md
 [19]: move-follow-up.md
-[20]: change-end-time.md
-[21]: copy-follow-up.md
-[22]: screen/dialog-for-followups.md
+[20]: edit-follow-up.md#change-end
+[21]: create-follow-up.md#copy
+[24]: screen/index.md
 [23]: video-meetings.md
+[50]: ../../../en/diary/howto/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/diary/diary.png
+[img1]: ../../../media/icons/arrow-right.png
+[img2]: ../../../media/icons/arrow-left.png
+[img3]: ../../../media/loc/en/diary/diary.png

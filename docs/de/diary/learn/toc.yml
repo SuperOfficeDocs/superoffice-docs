@@ -1,27 +1,19 @@
 items:
 - name: Überblick
   href: index.md
-- name: In der Ansicht Kalender navigieren
-  href: screen/navigate-in-diary.md
 - name: Dialogfeld für Folgeaufgabe
   href: screen/dialog-for-followups.md
+- name: Termin, Telefonanruf, Aufgabe
+  href: follow-ups.md
 - name: Kalender-Ansichten
-  topicHref: screen/day.md
+  topicHref: screen/index.md
   items:
-  - name: Tag
-    href: screen/day.md
-  - name: Monat
-    href: screen/month.md
-  - name: Woche
-    href: screen/week.md
-  - name: Ansicht
-    href: screen/view.md
-  - name: Dialogfeld Gruppenansicht
-    href: screen/view-dialog.md
-  - name: Ihre oder andere Tagebücher ansehen
-    href: open.md
-  - name: Gruppenansicht erstellen
-    href: create-view.md
+  - name: Tag, Woche, Monat
+    href: screen/index.md
+  - name: Gruppenansicht
+    href: group-view.md
+  - name: Andere Tagebücher ansehen
+    href: other-diaries.md
 - name: Bereichsregisterkarten
   topicHref: screen/activities-tab.md
   items:
@@ -30,43 +22,14 @@ items:
   - name: Verkäufe
     href: screen/sales-tab.md
 - name: Mit Folgeaufgaben arbeiten
-  topicHref: appointment.md
+  topicHref: create-follow-up.md
   items:
-  - name: Termin
-    topicHref: appointment.md
-    items:
-    - name: Überblick
-      href: appointment.md
-    - name: Termin erstellen
-      href: create-appointment.md
-  - name: Telefonanruf
-    topicHref: phone-call/index.md
-    items:
-    - name: Überblick
-      href: phone-call/index.md
-    - name: Anruf eintragen
-      href: phone-call/add.md
-    - name: Person anrufen
-      href: phone-call/dial.md
-    - name: Telefoneinstellungen
-      href: phone-call/preferences.md
   - name: Videokonferenzen
     href: video-meetings.md
-  - name: Aufgaben
-    topicHref: task.md
-    items:
-    - name: Überblick
-      href: task.md
-    - name: Aufgabe erstellen
-      href: create-task.md
   - name: "Eine Folgeaufgabe (Termin, Aufgabe oder Telefonanruf) hinzufügen"
     href: create-follow-up.md
-  - name: Folgeaufgabe bearbeiten
+  - name: Folgeaufgabe bearbeiten oder löschen
     href: edit-follow-up.md
-  - name: Folgeaufgabe kopieren
-    href: copy-follow-up.md
-  - name: Endzeitpunkt ändern
-    href: change-end-time.md
   - name: Folgeaufgabe verschieben
     href: move-follow-up.md
   - name: Folgeaufgabe abschließen
@@ -77,10 +40,10 @@ items:
     href: follow-up-assign.md
   - name: Alarm für Folgeaufgabe festlegen
     href: set-alarm.md
+  - name: Dokumente mit Folgeaufgaben verknüpfen
+    href: linking-documents-to-follow-ups.md
   - name: Folgeaufgabe als E-Mail senden
     href: send-as-email.md
-  - name: Folgeaufgabe löschen
-    href: delete-follow-up.md
   - name: Folgeaufgaben und Kalender drucken
     href: print.md
 

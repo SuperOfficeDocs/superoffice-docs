@@ -1,27 +1,19 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Navigere i Dagbok-bildet
-  href: screen/navigate-in-diary.md
 - name: Dialog for oppfølging
   href: screen/dialog-for-followups.md
+- name: Avtale, telefonsamtale, oppgave
+  href: follow-ups.md
 - name: Kalendervisninger
-  topicHref: screen/day.md
+  topicHref: screen/index.md
   items:
-  - name: Dag
-    href: screen/day.md
-  - name: Måned
-    href: screen/month.md
-  - name: Uke
-    href: screen/week.md
-  - name: Oversikt
-    href: screen/view.md
-  - name: Dialogboksen Gruppeoversikt
-    href: screen/view-dialog.md
-  - name: Se dine eller andre dagbøker
-    href: open.md
-  - name: Opprette gruppeoversikt
-    href: create-view.md
+  - name: Dag, uke, måned
+    href: screen/index.md
+  - name: Gruppeoversikt
+    href: group-view.md
+  - name: Se andre dagbøker
+    href: other-diaries.md
 - name: Detaljkort
   topicHref: screen/activities-tab.md
   items:
@@ -30,43 +22,14 @@ items:
   - name: Salg
     href: screen/sales-tab.md
 - name: Jobbe med oppfølginger
-  topicHref: appointment.md
+  topicHref: create-follow-up.md
   items:
-  - name: Avtale
-    topicHref: appointment.md
-    items:
-    - name: Oversikt
-      href: appointment.md
-    - name: Opprette avtale
-      href: create-appointment.md
-  - name: Telefonsamtale
-    topicHref: phone-call/index.md
-    items:
-    - name: Oversikt
-      href: phone-call/index.md
-    - name: Gå inn i telefonsamtale
-      href: phone-call/add.md
-    - name: Ringe person
-      href: phone-call/dial.md
-    - name: Telefonpreferanser
-      href: phone-call/preferences.md
   - name: Videomøter
     href: video-meetings.md
-  - name: Oppgaver
-    topicHref: task.md
-    items:
-    - name: Oversikt
-      href: task.md
-    - name: Opprette oppgave
-      href: create-task.md
   - name: "Legge til oppfølging (avtale, oppgave eller samtale)"
     href: create-follow-up.md
-  - name: Redigere oppfølging
+  - name: Redigere eller slette oppfølging
     href: edit-follow-up.md
-  - name: Kopiere oppfølging
-    href: copy-follow-up.md
-  - name: Endre sluttid
-    href: change-end-time.md
   - name: Flytte oppfølgingen
     href: move-follow-up.md
   - name: Fullfør oppfølging
@@ -77,10 +40,10 @@ items:
     href: follow-up-assign.md
   - name: Sette alarm for oppfølging
     href: set-alarm.md
+  - name: Koble dokumenter til oppfølging
+    href: linking-documents-to-follow-ups.md
   - name: Sende en oppfølging som e-post
     href: send-as-email.md
-  - name: Slette oppfølging
-    href: delete-follow-up.md
   - name: Skrive ut oppfølginger og Dagbok-skjerm
     href: print.md
 

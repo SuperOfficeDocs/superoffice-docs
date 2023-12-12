@@ -11,9 +11,9 @@ language: sv
 
 # Detaljkortet Aktiviteter
 
-!Detaljkortet Aktiviteter (Kalendern) -screenshot][img4]
+[!Detaljkortet Aktiviteter (Kalendern) -screenshot][img4]
 
-Detaljkortet **Aktiviteter** visar en översikt över aktiviteter och fungerar som en att göra-lista eller uppgiftslista. Det innehåller bland annat bokningar och uppgifter som du ännu inte har slutfört och du kan använda det för att tillfälligt spara händelser som du ännu inte har placerat på en viss tid eller ett visst datum.
+Detaljkortet **Aktiviteter** visar en översikt över aktiviteter och fungerar som en att göra-lista eller uppgiftslista. Det innehåller bland annat [möte och uppgifter][2] som du ännu inte har slutfört och du kan använda det för att tillfälligt spara händelser som du ännu inte har placerat på en viss tid eller ett visst datum.
 
 Aktivitetslistan ändras inte när du växlar mellan de olika flikarna i den övre delen av Kalender-fönstret.
 
@@ -21,16 +21,16 @@ Aktivitetslistan ändras inte när du växlar mellan de olika flikarna i den öv
 
 I kolumnerna i aktivitetslistan finns följande information:
 
-* ![ikon][img3]: Den första kolumnen i aktivitetslistan anger **Slutförd**[-status för en aktivitet][1]. En bock i kryssrutan (![ikon][img2]) betyder att aktiviteten är slutförd, medan en tom ruta betyder att aktiviteten inte är slutförd.
+* ![ikon][img3]: Den första kolumnen i aktivitetslistan anger **Slutförd**[-status för en aktivitet][1]. En bock i kryssrutan ![ikon][img2] betyder att aktiviteten är slutförd, medan en tom ruta betyder att aktiviteten inte är slutförd.
 
     > [!TIP]
     > Du kan enkelt ändra **Slutförd**-statusen för en aktivitet genom att klicka i rutan.
 
-* Den andra kolumnen innehåller ikoner som anger typen av aktivitet, till exempel en telefon för samtal. De här ikonerna återspeglar texten i kolumnen **Typ**.
+* Den andra kolumnen innehåller ikoner som anger typen av aktivitet.
 
     [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
-* Resten av kolumnerna i aktivitetslistan visar annan [information om aktiviteten][2]. Om du inte ser all text i ett fält kan du hålla muspekaren över texten så visas den i en inforuta.
+* Resten av kolumnerna i aktivitetslistan visar annan information om aktiviteten. Om du inte ser all text i ett fält kan du hålla muspekaren över texten så visas den i en inforuta.
 
 ## Visa aktiviteter i aktivitetslistan
 
@@ -41,7 +41,7 @@ Använd kryssrutorna under aktivitetslistan för att ange vilka aktiviteter som 
 
 ## Öppna aktiviteter i aktivitetslistan
 
-Öppna en aktivitet direkt från aktivitetslistan genom att dubbelklicka på den. Dialogrutan **Bokning**, **Uppgift** eller **Samtal** visas beroende på typen av aktivitet. Om du dubbelklickar på ett dokument öppnas själva dokumentet.
+Öppna en aktivitet direkt från aktivitetslistan genom att dubbelklicka på den. Om du dubbelklickar på ett dokument öppnas själva dokumentet.
 
 ## Bläddra mellan aktiviteter i aktivitetslistan
 
@@ -58,23 +58,23 @@ När en aktivitet har slutförts tas den bort från aktivitetslistan efterfölja
 
 ### Visa framtida uppgifter
 
-1. Gå till ![ikon][img1] **Personliga inställningar &gt; Inställningar**.
+1. Gå till ![ikon][img1] **Personliga inställningar** > **Inställningar**.
 2. Välj **Funktioner** och hitta alternativet **Visa dagar framåt**.
-
-    Här definierar du för hur många dagar framåt du vill att slutförda aktiviteter ska vara synliga.
-    Om du till exempel anger 7 här visas uppgifter för nästa vecka.
+3. Definier du för hur många dagar framåt du vill att slutförda aktiviteter ska vara synliga. Om du till exempel anger 7 här visas uppgifter för nästa vecka.
 
 ### Ta bort en aktivitet från listan när den är slutförd
 
-1. Gå till ![ikon][img1] **Personliga inställningar &gt; Inställningar**.
-2. Välj **Visuella effekter** och anpassa [inställningen][8] **Ta bort slutförda aktiviteter**.
+1. Gå till ![ikon][img1] **Personliga inställningar** > **Inställningar**.
+2. Välj **Visuella effekter**.
+3. Anpassa [inställningen][8] **Ta bort slutförda aktiviteter**.
 
 ### Markera försenade aktiviteter
 
 Om en aktivitet skrivs med röd text betyder det att dess preliminära datum har passerat. Om du vill ändra den här inställningen:
 
-1. Gå till ![ikon][img1] **Personliga inställningar &gt; Inställningar**.
-2. Välj **Funktioner** och redigera alternativet **Markera aktiviteter som har utgått**.
+1. Gå till ![ikon][img1] **Personliga inställningar** > **Inställningar**.
+2. Välj **Funktioner**.
+3. Redigera alternativet **Markera aktiviteter som har utgått**.
 
 ## Vad vill du göra nu?
 
@@ -83,9 +83,9 @@ Om en aktivitet skrivs med röd text betyder det att dess preliminära datum har
 
 <!-- Referenced links -->
 [1]: ../change-completed-status.md
-[2]: dialog-for-followups.md
+[2]: ../follow-ups.md
 [5]: ../create-follow-up.md
-[7]: ../../../learn/activity/index.md
+[7]: ../../../learn/basics/activity.md
 [8]: ../../../learn/getting-started/preferences.md
 
 <!-- Referenced images -->

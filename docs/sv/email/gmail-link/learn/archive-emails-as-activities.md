@@ -1,7 +1,7 @@
 ---
 uid: help-sv-gmail-link-archive-as-activity
 title: Arkivera e-postmeddelande som en aktivitet
-description: "Genom att spara ett e-postmeddelande direkt som en uppgift, ett möte eller ett telefonsamtal i din SuperOffice-kalender ser du till att du aldrig glömmer att följa upp en kund eller fråga." 
+description: "Genom att spara ett e-postmeddelande direkt som en händelse i din SuperOffice-kalender ser du till att du aldrig glömmer att följa upp en kund eller fråga." 
 author: SuperOffice RnD
 so.date: 02.10.2023
 keywords: Gmail-länk

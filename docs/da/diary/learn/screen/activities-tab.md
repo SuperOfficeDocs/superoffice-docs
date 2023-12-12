@@ -13,7 +13,7 @@ language: da
 
 ![Detaljekortet Aktiviteter (Dagbog) -screenshot][img4]
 
-Detaljekortet **Aktiviteter** giver dig et overblik over aktiviteter og fungerer som en opgaveliste eller opgaveliste. Det indeholder blandt andet aftaler og opgaver, som du endnu ikke har afsluttet, og du kan bruge den til midlertidigt at gemme opfølgninger, som du endnu ikke har allokeret til et bestemt tidspunkt eller dato.
+Detaljekortet **Aktiviteter** giver dig et overblik over aktiviteter og fungerer som en opgaveliste eller opgaveliste. Det indeholder blandt andet [møder og opgaver][2], som du endnu ikke har afsluttet, og du kan bruge den til midlertidigt at gemme opfølgninger, som du endnu ikke har allokeret til et bestemt tidspunkt eller dato.
 
 Aktivitetslisten ændres ikke, når du skifter mellem de forskellige faner i den øverste del af skærmbilledet Dagbog.
 
@@ -21,16 +21,16 @@ Aktivitetslisten ændres ikke, når du skifter mellem de forskellige faner i den
 
 I kolonnerne på aktivitetslisten finder du følgende oplysninger:
 
-* ![ikon][img3] : Den første kolonne på aktivitetslisten angiver statussen **Udført** [for en aktivitet][1]. Et flueben i afkrydsningsfeltet (![ikon][img2]) betyder, at aktiviteten er udført, mens et tomt felt betyder, at den ikke er udført.
+* ![ikon][img3] : Den første kolonne på aktivitetslisten angiver statussen **Udført** [for en aktivitet][1]. Et flueben i afkrydsningsfeltet ![ikon][img2] betyder, at aktiviteten er udført, mens et tomt felt betyder, at den ikke er udført.
 
     > [!TIP]
     > Du kan nemt og enkelt ændre statussen **Udført** for en aktivitet ved at klikke på feltet.
 
-* Den anden kolonne indeholder ikoner, som angiver aktivitetstype, for eksempel en telefon for samtale. Disse ikoner modsvarer teksten i kolonnen **Type**.
+* Den anden kolonne indeholder ikoner, som angiver aktivitetstype.
 
     [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
-* Resten af kolonnerne på aktivitetslisten viser diverse [oplysninger om aktiviteten][2]. Hvis du ikke kan se hele teksten i et felt, kan du holde musemarkøren over teksten for at få den vist i en infoboks.
+* Resten af kolonnerne på aktivitetslisten viser diverse oplysninger om aktiviteten. Hvis du ikke kan se hele teksten i et felt, kan du holde musemarkøren over teksten for at få den vist i en infoboks.
 
 ## Visning af aktiviteter på aktivitetslisten
 
@@ -41,7 +41,7 @@ Brug afkrydsningsfelterne under aktivitetslisten til at angive, hvilke aktivitet
 
 ## Åbning af aktiviteter på aktivitetslisten
 
-Åbn en aktivitet direkte fra aktivitetslisten ved at dobbeltklikke på den. Dette åbner dialogboksen **Aftale**, **Opgave** eller **Samtale** afhængig af typen af opfølgning. Hvis du dobbeltklikker på et dokument, åbnes selve dokumentet.
+Åbn en aktivitet direkte fra aktivitetslisten ved at dobbeltklikke på den. Hvis du dobbeltklikker på et dokument, åbnes selve dokumentet.
 
 ## Skift mellem aktiviteter på aktivitetslisten
 
@@ -49,7 +49,7 @@ Brug rullepilene til at rulle op og ned på aktivitetslisten.
 
 Hvis du vil have vist detaljerne for flere aktiviteter, kan du gøre dette via aktivitetslisten uden at skulle åbne hver enkelt aktivitet:
 
-1. Gå til sidepanelet, og vælg visningen **Eksempel.**
+1. Gå til sidepanelet, og vælg visningen **Eksempel**.
 2. Klik på en aktivitet på aktivitetslisten. Sidepanelet viser en forhåndsvisning af den valgte aktivitet.
 
 ## Præferencer
@@ -58,23 +58,23 @@ Når en aktivitet er fuldført, fjernes den fra aktivitetslisten den næste dag.
 
 ### Vis fremtidige opgaver
 
-1. Gå til ![ikon][img1] **Personlige indstillinger &gt; Præferencer**.
-2. Vælg **Funktioner** og find indstillingen **Vis dage forude** .
-
-    Her definerer du, hvor mange dage frem i tiden du ønsker, at afsluttede aktiviteter skal være synlige for.
-    Hvis du f.eks. angiver 7 her, vises opgaver for den næste uge.
+1. Gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer**.
+2. Vælg **Funktioner** og find indstillingen **Vis dage forude**.
+3. Angi hvor mange dage frem i tiden du ønsker, at afsluttede aktiviteter skal være synlige for. Hvis du f.eks. angiver 7 her, vises opgaver for den næste uge.
 
 ### Fjern aktivitet fra listen, når den er fuldført
 
-1. Gå til ![ikon][img1] **Personlige indstillinger &gt; Præferencer**.
-2. Vælg **Visuelle effekter**, og rediger derefter præferencen **Fjern fuldførte**aktiviteter [.][8]
+1. Gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer**.
+2. Vælg **Visuelle effekter**.
+3. Rediger derefter [præferencen][8] **Fjern fuldførte aktiviteter**.
 
 ### Fremhæv forsinkede aktiviteter
 
 Hvis en aktivitet er fremhævet med rød skrift, betyder det, at dens foreløbige dato blev overskredet. For at ændre dette:
 
-1. Gå til ![ikon][img1] **Personlige indstillinger &gt; Præferencer**.
-2. Vælg **Funktioner**, og rediger indstillingen **Markér forfaldne aktiviteter** .
+1. Gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer**.
+2. Vælg **Funktioner**.
+3. Rediger indstillingen **Markér forfaldne aktiviteter**.
 
 ## Hvad vil du foretage dig nu?
 
@@ -83,9 +83,9 @@ Hvis en aktivitet er fremhævet med rød skrift, betyder det, at dens foreløbig
 
 <!-- Referenced links -->
 [1]: ../change-completed-status.md
-[2]: dialog-for-followups.md
+[2]: ../follow-ups.md
 [5]: ../create-follow-up.md
-[7]: ../../../learn/activity/index.md
+[7]: ../../../learn/basics/activity.md
 [8]: ../../../learn/getting-started/preferences.md
 
 <!-- Referenced images -->

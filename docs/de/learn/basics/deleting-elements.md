@@ -34,7 +34,7 @@ Wenn Sie falsche oder doppelte Informationen hinzugefügt haben, wird empfohlen,
 * [Person löschen][3]
 * [Massenlöschung von Personen und/oder Firmen mit Selektion][6]
 
-Wenn Sie ein Element in SuperOffice CRM löschen, wird je nach zu löschendem Element das Dialogfeld **Termin löschen**, **Verkauf löschen**, **Selektion löschen** usw. angezeigt. Das Dialogfeld zeigt den Namen des zu löschenden Elements an, sodass Sie Ihre Auswahl prüfen können.
+Wenn Sie ein Element in SuperOffice CRM löschen, wird je nach zu löschendem Element das Dialogfeld **Folgeaufgabe löschen**, **Verkauf löschen**, **Selektion löschen** usw. angezeigt. Das Dialogfeld zeigt den Namen des zu löschenden Elements an, sodass Sie Ihre Auswahl prüfen können.
 
 Wenn Sie viele Personen oder Firmen löschen müssen, wird eine Massenlöschung empfohlen, für die Sie sie zu einer neuen Selektion hinzufügen und die Option Aufgaben löschen im Menü Aufgabe verwenden. Klicken Sie bei der Selektion auf die Schaltfläche Aufgabe und wählen Sie eine der gewünschten Löschfunktionen aus.
 
@@ -45,7 +45,7 @@ Wenn die Schaltfläche **Löschen** deaktiviert ist (hellgrau), verfügen Sie ni
 Beispiele:
 
 * Sie können keine Person löschen, die auch Mitarbeiter einer SuperOffice-Firma ist.
-* Sie können Termine, Dokumente, Verkäufe, Projekte usw., die Ihnen nicht gehören, nur löschen, wenn Sie über die entsprechenden Benutzerrechte verfügen.
+* Sie können Folgeaufgabe, Dokumente, Verkäufe, Projekte usw., die Ihnen nicht gehören, nur löschen, wenn Sie über die entsprechenden Benutzerrechte verfügen.
 
 ## <a id="restore" />Gelöschte Firmen und Personen wiederherstellen
 

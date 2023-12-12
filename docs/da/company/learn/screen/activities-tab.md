@@ -19,17 +19,13 @@ Detaljekortet **Aktiviteter** i skærmbilledet Firma viser aktiviteter, der er t
 
 ## Hvad vil du foretage dig?
 
-* [Vis aktiviteter][1]
-* [Sletning af aktiviteter][2]
-* [Besvare e-mail fra detaljekortet Aktiviteter][3]
-* [Videresende e-mail fra detaljekortet Aktiviteter][4]
+* [Aktiviteter][1]
+* [Besvare eller videresende e-mail fra detaljekortet Aktiviteter][3]
 * [Brug af filtre i detaljekortene][5]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/view-activities.md
-[2]: ../../../learn/activity/delete-activities-contact.md
-[3]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[4]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[1]: ../../../learn/basics/activity.md
+[3]: ../../../learn/section-tabs/send-email.md
 [5]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->

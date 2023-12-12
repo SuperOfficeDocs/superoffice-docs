@@ -41,7 +41,7 @@ SuperOffice CRM systematisiert und vereinfacht Ihre alltäglichen Abläufe und A
 
 Mit dem Kalender behalten Sie stets den Überblick über Ihren Arbeitstag und Ihre Arbeitswoche. Sie können Aktivitäten mit Kollegen planen und gemeinsame Ressourcen, wie Konferenzzimmer, reservieren.
 
-SuperOffice CRM ist Ihr neuer persönlicher Assistent, der all Ihre täglichen Routineaufgaben kombiniert. Wichtige und aktuelle Informationen stehen jedem Mitarbeiter in der Firma zur Verfügung. Mit nur wenigen Mausklicks haben Sie Zugriff auf Berichte, Termine, Verkaufsberichte und Marketingkampagnen, können E-Mails senden und Informationen im Internet nachlesen. Die Informationsstruktur lässt sich einfach an die Bedürfnisse Ihrer Firma anpassen.
+SuperOffice CRM ist Ihr neuer persönlicher Assistent, der all Ihre täglichen Routineaufgaben kombiniert. Wichtige und aktuelle Informationen stehen jedem Mitarbeiter in der Firma zur Verfügung. Mit nur wenigen Mausklicks haben Sie Zugriff auf Berichte, Folgeaufgabe, Verkaufsberichte und Marketingkampagnen, können E-Mails senden und Informationen im Internet nachlesen. Die Informationsstruktur lässt sich einfach an die Bedürfnisse Ihrer Firma anpassen.
 
 Mit den mobilen Lösungen von SuperOffice können Sie ortsunabhängig auf die Informationen in SuperOffice CRM zugreifen, ob Sie nun auf einer Geschäftsreise sind oder zu Hause bzw. im Büro arbeiten.
 
@@ -112,10 +112,10 @@ SuperOffice CRM ist mit allen neuesten Betriebssystemen und Browsern kompatibel.
 
 [11]: ../basics/fav.md
 [12]: ../section-tabs/index.md
-[13]: ../activity/index.md
+[13]: ../basics/activity.md
 [14]: ../../search-options/learn/index.md
 [15]: ../../globalization-and-localization/learn/change-language.md
-[16]: ../../diary/learn/phone-call/preferences.md
+[16]: ../../contact/learn/dial.md
 [20]: ../../onsite/win-client/learn/index.md
 [21]: ../../../en/onsite/requirements/index.md
 

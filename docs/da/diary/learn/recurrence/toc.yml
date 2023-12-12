@@ -3,7 +3,5 @@ items:
     href: index.md
   - name: Sådan opretter du gentagen opfølgning
     href: create.md
-  - name: Sådan redigerer du gentagen opfølgning
-    href: edit.md
   - name: Sådan stopper du gentagen opfølgning
     href: stop.md

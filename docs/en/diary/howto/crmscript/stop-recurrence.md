@@ -32,4 +32,4 @@ if (r.GetIsRecurrence()) {
 ```
 
 <!-- Referenced links -->
-[1]: ../../recurring-appointments.md
+[1]: ../../learn/recurrence/index.md

@@ -3,7 +3,5 @@ items:
     href: index.md
   - name: Wiederholende Folgeaufgabe erstellen
     href: create.md
-  - name: Wiederholende Folgeaufgabe bearbeiten
-    href: edit.md
   - name: Wiederholende Folgeaufgabe stoppen
     href: stop.md

@@ -13,7 +13,7 @@ language: de
 
 # Zeitzonen
 
-SuperOffice CRM unterstützt Folgeaufgaben in unterschiedlichen Zeitzonen. Die Zeitzonenfunktion kann nützlich sein, wenn Ihre Organisation Niederlassungen in mehreren Ländern mit unterschiedlichen Zeitzonen unterhält und die Benutzer Besprechungen oder Telefonkonferenzen mit Personen in einem Land mit einer anderen Zeitzone anberaumen möchten. Wenn die Zeitzonenfunktion aktiviert ist, wird bei der Terminfestlegung die Zeitzone des ausgewählten Landes verwendet.
+SuperOffice CRM unterstützt Folgeaufgaben in unterschiedlichen Zeitzonen. Die Zeitzonenfunktion kann nützlich sein, wenn Ihre Organisation Niederlassungen in mehreren Ländern mit unterschiedlichen Zeitzonen unterhält und die Benutzer Besprechungen oder Telefonkonferenzen mit Personen in einem Land mit einer anderen Zeitzone anberaumen möchten. Wenn die Zeitzonenfunktion aktiviert ist, wird bei der Besprechungfestlegung die Zeitzone des ausgewählten Landes verwendet.
 
 Die Zeitzonenfunktion unterstützt die Umstellung auf Sommerzeit.
 

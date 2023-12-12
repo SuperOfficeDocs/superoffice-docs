@@ -15,7 +15,7 @@ Disse valgmuligheder vises i ruden **Invitationer** i dialogboksen **SuperOffice
 
 | Mulighed | Beskrivelse |
 |---|---|
-| Indgående invitationer | Når du svarer på en invitation i Outlook (accepteret eller foreløbig), kan du også oprette eller opdatere en aftale i SuperOffice. Vælg denne indstilling: **Tilføj/opdater aftale i SuperOffice, når du svarer på invitationer i Outlook** |
+| Indgående invitationer | Når du svarer på en invitation i Outlook (accepteret eller foreløbig), kan du også oprette eller opdatere en opfølging i SuperOffice. Vælg denne indstilling: **Tilføj/opdater aftale i SuperOffice, når du svarer på invitationer i Outlook** |
 
 <!-- Referenced links -->
 

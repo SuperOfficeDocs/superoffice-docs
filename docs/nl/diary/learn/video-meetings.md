@@ -1,9 +1,10 @@
 ---
 uid: help-nl-video-meetings
 title: Werken met videovergaderingen
-description: Start videovergaderingen rechtstreeks vanuit uw agenda met behulp van onze beschikbare integraties met leveranciers van videoconferenties. Lees hier hoe u een videovergadering in SuperOffice kunt maken en eraan kunt deelnemen.
+description: Lees hier hoe u een videovergadering in SuperOffice kunt maken en eraan kunt deelnemen.
 author: SuperOffice RnD
-so.date: 02.10.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: agenda, vervolgactiviteit, videovergadering
 so.topic: howto
 language: nl
@@ -35,34 +36,34 @@ U kunt eenvoudig een videovergadering instellen bij het maken van een vervolgact
 
 1. Maak een nieuwe afspraak en selecteer de naam van het bedrijf en de contactpersoon die u wilt ontmoeten.
 
-2. Als u de URL van de videovergadering wilt maken, klikt u op ![pictogram][img1] naast het type vergadering (bijvoorbeeld **Zakelijke vergadering**). Het pictogram wijzigt in ![pictogram][img2] en er wordt een koppeling naar de videovergadering toegevoegd. SuperOffice CRM maakt en voegt de URL van de videovergadering toe voor de videoprovider die u gebruikt.
+2. Als u de URL van de videovergadering wilt maken, klikt u op het pictogram van de videovergadering ![pictogram][img1]. Het pictogram wijzigt in ![pictogram][img2] en er wordt een koppeling naar de videovergadering toegevoegd. SuperOffice CRM maakt en voegt de URL van de videovergadering toe voor de videoprovider die u gebruikt.
 
     ![Klik op het pictogram van de videovergadering om de URL van de videovergadering te maken -screenshot][img5]
 
     > [!NOTE]
-    > De eerste keer dat u het videopictogram (![pictogram][img1]) selecteert, moet u zich aanmelden om uw gebruiker te verifiëren in de videovergaderingsservice die door uw beheerder is gedefinieerd.
+    > De eerste keer dat u het videopictogram ![pictogram][img1] selecteert, moet u zich aanmelden om uw gebruiker te verifiëren in de videovergaderingsservice die door uw beheerder is gedefinieerd.
     >
     > Als u het pictogram niet ziet, betekent dit dat de functie voor videovergaderingen nog niet is geconfigureerd. Neem contact op met uw SuperOffice-beheerder, die de functie en de verbinding met de videoprovider kan instellen.
 
 3. U kunt optioneel een alarm instellen dat wordt gemeld door een pop-up voordat de vergadering begint.
 
-4. Deelnemers uitnodigen: Ga naar het tabblad **Deelnemers** en klik op de knop **+ Toevoegen** om andere mensen uit te nodigen voor deze vergadering.
+4. [Deelnemers uitnodigen][2].
 
     Wanneer u iedereen hebt toegevoegd die u aan de vergadering wilt laten deelnemen, klikt u op **Opslaan**.
 
     Als u e-mailuitnodigingen hebt ingeschakeld voor de deelnemers aan de vervolgactiviteit, wordt er een e-mail met een koppeling voor deelname aan de videovergadering verzonden wanneer de afspraak wordt opgeslagen. In de agenda worden vervolgactiviteiten met videovergaderingen weergegeven met het pictogram ![pictogram][img3].
 
 > [!TIP]
-> Klik op ![pictogram][img4] om de koppeling naar de videovergadering te kopiëren. U kunt vervolgens de link in de beschrijving van de afspraak plakken of verzenden naar anderen via privéberichten. Gebruik de sjabloonvariabele {burl} om de link voor videovergaderingen toe te voegen aan de uitnodigingssjablonen.
+> Klik op ![pictogram][img4] om de koppeling naar de videovergadering te kopiëren. U kunt vervolgens de link in de agenda / beschrijving van de afspraak plakken of verzenden naar anderen via privéberichten. Gebruik de sjabloonvariabele {burl} om de link voor videovergaderingen toe te voegen aan de uitnodigingssjablonen.
 
 ## Deelnemen aan videovergaderingen
 
 U kunt op verschillende manieren deelnemen aan een videovergadering in SuperOffice:
 
-* klik op **Deelnemen aan vergadering** in het dialoogvenster **Vervolgactiviteit** (afspraak).
-* klik op **Deelnemen aan vergadering** in het zijpaneel.
-* klik op een browsermelding (alleen beschikbaar als de optie **Alarm** is geactiveerd).
-* klik met de rechtermuisknop op een videovergadering in de agenda en selecteer **Deelnemen aan vergadering**.
+* Klik op **Deelnemen aan vergadering** in het dialoogvenster **Vervolgactiviteit** (afspraak).
+* Klik op **Deelnemen aan vergadering** in het zijpaneel.
+* Klik op een browsermelding (alleen beschikbaar als de optie **Alarm** is geactiveerd).
+* Klik met de rechtermuisknop op een videovergadering in de agenda en selecteer **Deelnemen aan vergadering**.
 
 Bekijk deze video of volg de onderstaande stappen (videolengte - 1:11):
 
@@ -73,27 +74,24 @@ Bekijk deze video of volg de onderstaande stappen (videolengte - 1:11):
 
 #### In de meldingspop-up
 
-Als de host van de vergadering meldingen voor de vergadering heeft ingesteld, waarschuwt SuperOffice CRM u door een meldingspop-up weer te geven voordat uw vergadering op het punt staat te beginnen. U kunt op de knop Deelnemen aan vergadering in het pop-upvenster klikken om uw videovergadering automatisch te starten.
+Als de host van de vergadering meldingen voor de vergadering heeft ingesteld, waarschuwt SuperOffice CRM u door een meldingspop-up weer te geven voordat uw vergadering op het punt staat te beginnen. U kunt op de knop **Deelnemen aan vergadering** in het pop-upvenster klikken om uw videovergadering automatisch te starten.
 
-#### In de afspraak
+#### In de vergadering
 
-U kunt ook deelnemen aan de videovergadering door de afspraak in uw agenda te openen en op de knop Deelnemen aan vergadering onder de afspraak te klikken.
-
-Wanneer u op de link klikt, wordt uw videovergadering automatisch gestart.
+U kunt ook deelnemen aan de videovergadering door de vergadering in uw agenda te openen en op de knop **Deelnemen aan vergadering** te klikken. Wanneer u op de link klikt, wordt uw videovergadering automatisch gestart.
 
 > [!TIP]
 > Wanneer u geen URL voor een videovergadering gebruikt, maar een andere video-URL hebt, voegt u deze eenvoudig toe aan het veld Locatie en kunt u eenvoudig op **Locatie** klikken om onderweg verbinding te maken met de videovergadering.
 
 #### In de zijpaneelvoorbeeldweergave
 
-Klik op de afspraak in uw SuperOffice-agendaom de details ervan te bekijken in het voorbeeldscherm in het zijpaneel.
+Klik op de Vergadering in uw SuperOffice-agendaom de details ervan te bekijken in het zijpaneel. (U kunt de voorbeeldweergave openen door deze te selecteren in het vervolgkeuzemenu boven aan het zijpaneel.)
 
-U kunt de voorbeeldweergave openen door deze te selecteren in het vervolgkeuzemenu boven aan het zijpaneel.
-
-Om deel te nemen aan de videovergadering via het voorbeeldscherm, klikt u gewoon op de knop Deelnemen aan vergadering onder aan het zijpaneel. Nadat u erop hebt geklikt, wordt uw videovergadering automatisch gestart.
+Om deel te nemen aan de videovergadering via het voorbeeldscherm, klikt u gewoon op de knop **Deelnemen aan vergadering**. Nadat u erop hebt geklikt, wordt uw videovergadering automatisch gestart.
 
 <!-- Referenced links -->
 [1]: ../../../en/video-meeting/howto/connect-provider.md
+[2]: invitation/add-participant.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/videocall-off.png

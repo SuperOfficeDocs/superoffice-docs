@@ -16,14 +16,13 @@ Med den här funktionen kan du snabbt lägga till en uppgift i SuperOffice CRM b
 1. Gå till inkorgen.
 2. Markera meddelandet i inkorgen.
 3. Klicka på **Arkiv** ![ikon][img1].
-4. Klicka på **Skapa uppgift**. Dialogrutan **Uppgift** öppnas.
-
-    Se [dialogrutan för händelser][2].
+4. Klicka på **Skapa uppgift**. Dialogrutan **Händelse** öppnas.
+5. [Fyll i nödvändiga uppgifter i fälten][2].
 
 [!include[Add contact](includes/add-contact-opens.md)]
 
 <!-- Referenced links -->
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[2]: ../../../diary/learn/create-follow-up.md#fields
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/archive-icon.png

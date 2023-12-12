@@ -3,7 +3,8 @@ uid: help-de-follow-up-move
 title: Folgeaufgaben verschieben
 description: Folgeaufgaben verschieben
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: Kalender, Folgeaufgabe
 so.topic: howto
 language: de
@@ -32,6 +33,9 @@ Gelegentlich ist es notwendig, Folgeaufgaben zeitlich oder von der Aktivitätenl
 * Wählen Sie die Ansicht **Woche** oder **Monat** auf der Seitenleiste, wechseln Sie zur gewünschten Woche oder zum gewünschten Monat und ziehen Sie dann die Folgeaufgabe vom Kalender zum gewünschten Tag auf der Seitenleiste. Der Kalender wird automatisch mit der gewünschten Woche oder dem Monat aktualisiert.
 
 * Schieben Sie die Folgeaufgabe kurzfristig in die Aktivitätenliste, Gehen Sie zur gewünschten Woche bzw. zum gewünschten Monat, und ziehen Sie die Folgeaufgabe zum gewünschten Tag im Kalender.
+
+    > [!NOTE]
+    > Sie können ein Meeting mit Teilnehmern nicht in die Aktivitätenliste verschieben.
 
 ## Von den Aktivitätenlisten in den Kalender verschieben
 

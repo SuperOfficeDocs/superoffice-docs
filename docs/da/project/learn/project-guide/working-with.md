@@ -23,14 +23,14 @@ Hvis der er defineret en projektguide for en projekttype, du har angivet for et 
 
    ![Detaljekortet Projektguide med oversigt over status for Planlagt -screenshot][img1]
 
-1. I den dialogboks, der åbnes, opretter du opfølgningen/dokumentet på normal vis. Mange af felterne er færdigudfyldte, men du kan ændre oplysningerne eller tilføje flere oplysninger. Se [Dialogboksen Dokument][1] og [Dialogboksen for opfølgninger][2].
+1. I den dialogboks, der åbnes, [opretter du opfølgningen][2] eller [dokumentet][3] på normal vis. Mange af felterne er færdigudfyldte, men du kan ændre oplysningerne eller tilføje flere oplysninger.
 
     Du kan delegere opfølgningen til andre medarbejdere ved at angive dem som ejer af opfølgningen. Hvis dette er defineret i Indstillinger og vedligeholdelse, åbnes dialogboksen **Overfør opgaven til en projektdeltager**, hvor du kan vælge en medarbejder som ejer af opfølgningen.
 
 1. Når du er færdig med opfølgningen, markerer du **Udført** i den aktuelle dialogboks eller i afkrydsningsfeltet foran opfølgningsnavnet på detaljekortet **Projektguide**. Dokumenter er som standard markeret som udført.
 
     > [!TIP]
-    > Hvis du vil oprette flere opfølgninger af samme type, kan du højreklikke på opfølgningen og vælge **Opret en til**. [Dialogboksen for opfølgninger][2] åbnes.
+    > Hvis du vil oprette flere opfølgninger af samme type, kan du højreklikke på opfølgningen og vælge **Opret en til**.
     >
     > ![Opret en til -screenshot][img2]
 
@@ -79,11 +79,11 @@ Du registrerer et nyt projekt og vælger projekttypen **Konference**, som er til
 
 ### Statussen Planlagt
 
-1. Du har aftalt mødetidspunktet, og du vil oprette aftalen **Planlægningsmøde** i dagbogen samt invitere deltagere.
+1. Du har aftalt mødetidspunktet, og du vil oprette opfølgingen **Planlægningsmøde** i dagbogen samt invitere deltagere.
 
     1. I projektguiden klikker du på knappen **Opret** ved siden af opfølgningen **Planlægningsmøde**.
-        Dialogboksen **Aftale** åbnes med **Møde inde** angivet som aftaletype og navnet på projektet færdigudfyldt.
-    1. [Udfyld informationer, og inviter deltagere.][2]
+        Dialogboksen **Opfølging** åbnes med **Møde inde** angivet som type og navnet på projektet færdigudfyldt.
+    1. Udfyld informationer, og [inviter deltagere][2].
     1. Klik på **Gem**.
 
 1. På mødet bestemmer du konferenceprogrammet (agendaen), og du vil oprette en bemærkning, som indeholder denne oplysning.
@@ -119,7 +119,7 @@ Du registrerer et nyt projekt og vælger projekttypen **Konference**, som er til
     1. Klik på **Opret** ved siden af opfølgningen **Opret en liste over projektdeltagere**.
         Dialogboksen **Overfør opgaven til en projektdeltager** vises.
 
-    1. På listen over projektdeltagere vælger du den person, der skal have ansvaret for opgaven og klikker på **OK**. Dialogboksen **Aftale** vises.
+    1. På listen over projektdeltagere vælger du den person, der skal have ansvaret for opfølgingen og klikker på **OK**.
 
     1. Indtast de ønskede oplysninger, og klik til sidst på **Gem**. (På fanen **Detaljer** kan du se, at din kollega allerede er angivet som ejer af opgaven.)
 
@@ -135,7 +135,7 @@ Du registrerer et nyt projekt og vælger projekttypen **Konference**, som er til
 1. Til sidst skal selve konferencen afholdes. Du opretter **Konference**-mødet.
 
     1. Klik på **Opret** ved siden af opfølgningen **Konference**.
-        Dialogboksen **Aftale** åbnes med **Møde ude** angivet som aftaletype og navnet på projektet færdigudfyldt.
+        Dialogboksen **Opfølgingen** åbnes med **Møde ude** angivet som type og navnet på projektet færdigudfyldt.
     2. Udfyld oplysningen og inviter konferencedeltagerne, som du plejer.
     3. Klik på **Gem**.
 
@@ -149,8 +149,8 @@ Du registrerer et nyt projekt og vælger projekttypen **Konference**, som er til
 
 1. Du vil holde et møde internt for at opsummere konferencen.
 
-    1. Klik på **Opret** ved siden af aftalen **Evalueringsmøde**, og opret aftalen på normal vis.
-    2. Når aftalen er udført, markerer du afkrydsningsfeltet.
+    1. Klik på **Opret** ved siden af opfølgingen **Evalueringsmøde**, udfyld oplysningen, og klik på **Gem**.
+    2. Når mødet er udført, markerer du afkrydsningsfeltet.
 
 1. Derefter vil du oprette en evalueringsrapport, som opsummerer evalueringsmødet og konferencen.
 
@@ -165,8 +165,8 @@ Når alle ønskede opfølgninger og dokumenter for projektet er færdige, kan du
 * [Tilføj og rediger projektguider i Indstillinger og vedligeholdelse][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/invitation/add-participant.md
+[2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
 

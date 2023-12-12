@@ -15,13 +15,13 @@ In the **Video meetings** tab you can select the video meeting service you want 
 
 SuperOffice video meetings allow you to create and join video meetings directly from your CRM solution. To set up the video meeting functionality in SuperOffice CRM, you need to connect to one of five video meeting providers (Cisco Webex, Google Meet, Jitsi Meet, Microsoft Teams, Zoom).
 
-For the users to be able to use video meetings in the Appointment dialog, there are a few steps involved:
+For the users to be able to use video meetings in the Follow-up dialog, there are a few steps involved:
 
 * An administrator needs to connect to one of the chosen video meeting providers available.
 
 * The user needs to use either Mail Link or the SuperOffice Inbox to be able to send video meeting URLs to external users.
 
-* Users have to authenticate (log in) the first time the user clicks on the Video meeting icon in the Appointment pop-up dialog.
+* Users have to authenticate (log in) the first time the user clicks on the Video meeting icon in the Follow-up pop-up dialog.
 
 ## Pre-requisites for video meetings
 

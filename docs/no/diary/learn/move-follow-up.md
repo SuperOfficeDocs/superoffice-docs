@@ -3,7 +3,8 @@ uid: help-no-follow-up-move
 title: Flytte oppfølginger
 description: Flytte oppfølginger
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: dagbok, oppfølging
 so.topic: howto
 language: no
@@ -32,6 +33,9 @@ Du vil sikkert ha behov for å flytte oppfølginger fra ett tidspunkt til et ann
 * Velg oversikten **Uke** eller **Måned** i sidepanel, gå til ønsket uke eller måned, og dra deretter oppfølgingen fra dagboken til ønsket dag i sidepanelet. Dagboken blir automatisk oppdatert med ønsket uke eller måned.
 
 * Flytt oppfølgingen midlertidig til aktivitetslisten, gå til ønsket uke eller måned, og dra deretter oppfølgingen tilbake til ønsket dag i dagboken.
+
+    > [!NOTE]
+    > Du kan ikke flytte et møte med deltakere til aktivitetslisten.
 
 ## Gå fra aktivitetslisten til dagboken
 

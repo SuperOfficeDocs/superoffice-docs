@@ -47,7 +47,7 @@ Die Bereichsregisterkarte **Verkäufe** im Kalender ist für Sie eine Art "Verka
 * Alle Verkäufe mit geplanten Aktivitäten für eine bestimmte Anzahl an Tagen im Voraus.
 
     > [!NOTE]
-    > Ausgehend vom Datum der nächsten Aktivität ist die Option Anzahl an Tagen im Voraus anzeigen eine Einstellung. Um dies zu ändern, müssen Sie zum ![Symbol][img5] **Persönliche Einstellungen &gt; Einstellungen** gehen und **Funktionen** > **Tage im Voraus anzeigen** auswählen.
+    > Ausgehend vom Datum der nächsten Aktivität ist die Option Anzahl an Tagen im Voraus anzeigen eine Einstellung. Um dies zu ändern, müssen Sie zum ![Symbol][img5] **Persönliche Einstellungen** > **Einstellungen** gehen und **Funktionen** > **Tage im Voraus anzeigen** auswählen.
 
 * Alle Verkäufe mit überfälligen Aktivitäten (deren Enddatum vor dem heutigen Tag liegt). Diese Verkäufe werden in rot angezeigt.
 

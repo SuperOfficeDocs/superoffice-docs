@@ -35,7 +35,7 @@ Wenn Sie die Verkäufe auf **Aufgeschoben** setzen, werden folgende Felder angez
 
 ![Verzögerter Auftrag -screenshot][img5]
 
-Es öffnet sich das Dialogfeld **Termin**, wenn Sie auf **Speichern** klicken. Hier können Sie ein zukünftiges Gespräch oder einen Anruf einrichten, um den aufgeschobenen Verkauf zu verfolgen.
+Es öffnet sich das Dialogfeld **Folgeaufgabe**, wenn Sie auf **Speichern** klicken. Hier können Sie ein zukünftiges Gespräch oder einen Anruf einrichten, um den aufgeschobenen Verkauf zu verfolgen.
 
 ## Verkauft/Verloren
 

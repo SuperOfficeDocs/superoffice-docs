@@ -44,10 +44,10 @@ In a [dynamic selection][7], you can choose to show companies only, without spec
 
 ## Day
 
-Shows a day's agenda. Works in the same way as the [Day][3] tab in the [Diary][4] screen
+Shows a day's agenda. Works in the same way as the **Day** tab in the [Diary screen][4].
 
 > [!NOTE]
-> You can show only your own diary in the side panel. To view other people's diaries, go to the [Diary][4] screen.
+> You can show only your own diary in the side panel. To view other people's diaries, go to the Diary screen.
 
 ## Next day
 
@@ -86,7 +86,7 @@ Opens the [Notepad][9] in the side panel.
 
 ## Preview
 
-Shows a preview of a selected activity, project, contact, project member or selection member in the side panel. Depending on the selected item, the window may contain links to contacts and activities. Clicking one of these links opens the [contact card][2], [Document dialog][5], or [follow-ups dialog][6], where you can view and edit the contact or activity.
+Shows a preview of a selected activity, project, contact, project member or selection member in the side panel. Depending on the selected item, the window may contain links to contacts and activities. Clicking one of these links opens the [contact card][2], [Document dialog][5], or [Follow-up dialog][6], where you can view and edit the contact or activity.
 
 [What to do when I get "Document Closed" in the side panel of SuperOffice CRM when Document Viewer is used?][11] - FAQ
 
@@ -95,7 +95,7 @@ Shows a preview of a selected activity, project, contact, project member or sele
 Shows a summary of information about the current project in the Project screen.
 
 > [!TIP]
-> To view other projects, without having to switch projects in the Project screen, click the arrow ( ![icon][img3] ) next to the product name to open the [history list][1].
+> To view other projects, without having to switch projects in the Project screen, click the arrow ![icon][img3] next to the product name to open the [history list][1].
 
 ## Project members
 
@@ -109,7 +109,7 @@ Shows a list of project members in the current project in the Project screen.
 Shows a summary of information about the current sale in the Sale screen.
 
 > [!TIP]
-> To view other sales, without having to switch sales in the Sale screen, click the arrow ( ![icon][img3] ) next to the name of the sale to open the [history list][1].
+> To view other sales, without having to switch sales in the Sale screen, click the arrow ![icon][img3] next to the name of the sale to open the [history list][1].
 
 [How to use the side panel efficiently for sales][10]
 
@@ -118,7 +118,7 @@ Shows a summary of information about the current sale in the Sale screen.
 Shows a summary of information about the current selection in the Selection screen.
 
 > [!TIP]
-> To view other selections, without having to switch selections in the Selection screen, click the arrow ( ![icon][img3] ) next to the selection name to open the [history list][1].
+> To view other selections, without having to switch selections in the Selection screen, click the arrow ![icon][img3] next to the selection name to open the [history list][1].
 
 ## Selection members
 
@@ -134,7 +134,6 @@ In Settings and maintenance, you can also define your own views for the side pan
 <!-- Referenced links -->
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
-[3]: ../../../diary/learn/screen/day.md
 [4]: ../../../diary/learn/screen/index.md
 [5]: ../../../document/learn/screen/index.md
 [6]: ../../../diary/learn/screen/dialog-for-followups.md

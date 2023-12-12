@@ -17,19 +17,15 @@ Het sectietabblad **Activiteiten** op het scherm Bedrijf bevat alle activiteiten
 
 [!include[Contents of Activities tab](../../../learn/includes/activities-tab.md)]
 
-## Wat wilt u doen?
+## Gerelateerde inhoud
 
-* [Activiteiten weergeven][1]
-* [Activiteiten verwijderen][2]
-* [E-mail beantwoorden vanuit het sectietabblad Activiteiten][3]
-* [E-mail doorsturen vanuit het sectietabblad Activiteiten][4]
+* [Activiteiten][1]
+* [E-mail beantwoorden of doorsturen vanuit het sectietabblad Activiteiten][3]
 * [Filters gebruiken in de sectietabbladen][5]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/view-activities.md
-[2]: ../../../learn/activity/delete-activities-contact.md
-[3]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[4]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[1]: ../../../learn/basics/activity.md
+[3]: ../../../learn/section-tabs/send-email.md
 [5]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->

@@ -18,9 +18,8 @@ items:
   - name: Arbeide med inndelingsfaner
     href: ../section-tabs/toc.yml
     topicHref: ../section-tabs/index.md
-  - name: Arbeide med aktiviteter
-    href: ../activity/toc.yml
-    topicHref: ../activity/index.md
+  - name: Aktiviteter
+    href: activity.md
   - name: Språk og oversettelse
     href: ../../globalization-and-localization/learn/toc.yml
     topicHref: ../../globalization-and-localization/learn/change-language.md

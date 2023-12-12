@@ -3,8 +3,9 @@ uid: help-en-activity-completed
 title: Change Completed status of an activity
 description: Change Completed status of an activity
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: diary, follow-up
+so.date: 11.20.2023
+so.version: 10.2.11
+keywords: diary, follow-up, completed
 so.topic: howto
 language: en
 ---
@@ -17,27 +18,36 @@ When you consider that an activity is finished, you can mark it as completed.
 
 ## Steps
 
-1. Open the activity and uncheck the **Completed** icon at the top-right of the dialog.
+Do one of the following:
 
-    ![Change Completed status of an activity -screenshot][img3]
+* Right-click the activity and choose **Completed**.
 
-    For details, see [Open follow-ups][1] and [Open documents][2].
+* Mark the checkbox in the **Completed** column ![icon][img2] in the **Activities** section tab.
 
-1. Hold the mouse pointer over the box in the **Completed** column ![icon][img2] in the **Activities** section tab. Then click the checkbox ![icon][img1].
+* Open the follow-up and select **Completed**.
 
-1. Right-click the activity and choose **Completed**.
+<!-- markdownlint-disable MD051 -->
+### [Classic](#tab/complete-old)
 
-    ![Change Completed status of an activity -screenshot][img4]
+Click the checkmark icon at the top-right of the dialog.
+
+![Change Completed status of an activity -screenshot][img3]
+
+### [New (from version 10.2.11 pilot)](#tab/complete-new)
+
+Mark/clear the checkbox in the footer of the Follow-up dialog.
+
+![Change Completed status of a follow-up -screenshot][img4]
+
+***
+<!-- markdownlint-restore -->
 
 > [!NOTE]
 > To edit a completed activity, you must first uncheck the **Completed** status.
 
 <!-- Referenced links -->
-[1]: open-follow-up.md
-[2]: ../../document/learn/open.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.png
 [img2]: ../../../media/icons/sale-sold-details.png
 [img3]: ../../../media/loc/en/diary/completed-activity.png
-[img4]: ../../../media/loc/en/diary/completed-activity-2.png
+[img4]: ../../../media/loc/en/diary/completed.png

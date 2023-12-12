@@ -18,18 +18,18 @@ SuperOffice CRM har stöd för händelser i olika tidszoner. Om tidszoner har ak
 
 ## Hur fungerar tidszoner i SuperOffice CRM?
 
-Tidszonsfunktionen är väldigt praktisk om företaget har kontor i flera länder med olika tidszoner och du ska planera möten eller telefonkonferenser med medarbetare i länder med andra tidszoner än ditt eget land. Bokningen skapas då i tidszonen som motsvarar det valda landet.
+Tidszonsfunktionen är väldigt praktisk om företaget har kontor i flera länder med olika tidszoner och du ska planera möten eller telefonkonferenser med medarbetare i länder med andra tidszoner än ditt eget land. Händelsen skapas då i tidszonen som motsvarar det valda landet.
 
-Om ditt företag finns i Sverige och du ska boka möte med medarbetare i företagets dotterbolag i Finland och USA, skapar du bokningen med lokal, svensk tid och kontrollerar sedan motsvarande tid i Finland och USA. Då undviker du att skapa bokningar med möten mitt i natten i amerikansk tid. Medarbetarna som får förfrågan om bokningen ser bokningen i den tidszon de har angett i sin egen SuperOffice CRM-klient, även om du har skapat bokningen med svensk tid.
+Om ditt företag finns i Sverige och du ska boka möte med medarbetare i företagets dotterbolag i Finland och USA, skapar du möten med lokal, svensk tid och kontrollerar sedan motsvarande tid i Finland och USA. Då undviker du att skapa möten mitt i natten i amerikansk tid. Medarbetarna som får förfrågan ser möten i den tidszon de har angett i sin egen SuperOffice CRM-klient, även om du har skapat möten med svensk tid.
 
 Funktionen har stöd för sommartid.
 
 > [!NOTE]
-> Bokningar som har skapats innan tidszoner aktiverades visas fortfarande i standardtidszonen i din SuperOffice-databas.
+> Händelser som har skapats innan tidszoner aktiverades visas fortfarande i standardtidszonen i din SuperOffice-databas.
 
 ## Hur väljer du tidszoner?
 
-Tidszoner visas i form av en listruta i [kalenderen][1] och i [dialogrutan för händelser][3]. Tidszonen som är standard för din SuperOffice-databas visas överst med denna ikon: ![ikon][img1].
+Tidszoner visas i form av en listruta i [kalenderen][1] och för [händelser][3]. Tidszonen som är standard för din SuperOffice-databas visas överst med denna ikon: ![ikon][img1].
 
 Tidszonslistan sorteras efter land. Högst upp i tidszonslistan visas det valda landets namn och flagga.
 
@@ -52,11 +52,11 @@ Du kan söka på antal timmar och hitta rätt tidszon. Om du till exempel skrive
 
 * Om du håller muspekaren över tidszonslistan visas en inforuta med information om vilka större städer (i det aktuella landet) som ingår i den valda tidszonen.
 
-* Om du håller muspekaren över en kalenderbokning som har skapats i en annan tidszon än standardtidszonen i din SuperOffice-databas så visas en inforuta med information om bokningstiden i både din egen tidszon och bokningsägarens tidszon.
+* Om du håller muspekaren över en kalenderhändelse som har skapats i en annan tidszon än standardtidszonen i din SuperOffice-databas så visas en inforuta med information om bokningstiden i både din egen tidszon och händelsesägarens tidszon.
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
-[3]: ../../diary/learn/screen/dialog-for-followups.md
+[3]: ../../diary/learn/follow-ups.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/time-zone-local.png

@@ -3,12 +3,6 @@ items:
   href: index.yml
   expanded: true
   items:
-  - name: Overview
-    href: overview.md
-  - name: Invitations
-    href: invitations.md
-  - name: Recurring appointments
-    href: recurring-appointments.md
   - name: Video meeting
     href: ../video-meeting/toc.yml
     topicHref: ../video-meeting/index.md

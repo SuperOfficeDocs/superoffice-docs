@@ -92,4 +92,4 @@ newAppointment = appointmentAgent.SaveAppointmentEntity(newAppointment);
 > You can also [invite persons to the meeting][3]).
 
 <!-- Referenced links -->
-[3]: ../../invitations.md
+[3]: ../../learn/invitation/index.md

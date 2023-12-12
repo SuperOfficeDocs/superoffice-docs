@@ -66,7 +66,7 @@ Gehen Sie zum Bearbeiten dieser Einstellungen auf das ![Symbol][img1] **Einstell
 
 ## <a id="preferences-tab" />Registerkarte Einstellungen
 
-Auf der Registerkarte **Einstellungen** können Sie Einstellungen für verschiedene Komponenten von SuperOffice CRM festlegen, wie beispielsweise die Anzahl der Objekte, die in der Verlaufsliste angezeigt werden, den Standardtyp bei neuem Termin, Aufgaben und Anrufe sowie die Standardwährung in der Ansicht Verkauf.
+Auf der Registerkarte **Einstellungen** können Sie Einstellungen für verschiedene Komponenten von SuperOffice CRM festlegen, wie beispielsweise die Anzahl der Objekte, die in der Verlaufsliste angezeigt werden, den Standardtyp bei neuem Besprechungen sowie die Standardwährung in der Ansicht Verkauf.
 
 Oben in der Registerkarte **Einstellungen** können Sie die gewünschte Einstellungsgruppe auswählen. Der Rest der Registerkarte **Einstellungen** ist in drei Hauptabschnitte unterteilt: eine Liste aller Einstellungen, ein Beschreibungsfeld, in dem die Beschreibung der aktuell ausgewählten Einstellung erläutert wird, und ein Feld, in dem die für diese Einstellung festgelegte Einstellungen angezeigt werden.
 

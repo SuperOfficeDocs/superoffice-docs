@@ -17,7 +17,7 @@ Du kan koble en hvilken som helst aktivitet til et eksternt firma og til et pros
 
 Prosjekter hjelper deg med å holde arbeidet organisert og dokumentert på ett sted, slik at du og teamet ditt kan få bedre kontroll og forbedre samarbeidet.
 
-Du kan koble alle personer, firmaer, oppgaver, avtaler, prosjektmedlemmer og til og med salgsmuligheter til ett prosjekt i SuperOffice CRM. Du kan også opprette eller laste opp dokumenter og filer til prosjektet.
+Du kan koble alle personer, firmaer, oppfølginger, prosjektmedlemmer og til og med salgsmuligheter til ett prosjekt i SuperOffice CRM. Du kan også opprette eller laste opp dokumenter og filer til prosjektet.
 
 All informasjonen du lagrer i prosjektet er merket med en dato og en eier, noe som gjør det enklere å sortere og filtrere informasjon ved behov.
 

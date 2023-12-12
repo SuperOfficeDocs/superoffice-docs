@@ -15,7 +15,7 @@ language: de
 Connecting your emails, documents, and calendar to SuperOffice will help you work more efficiently and make it easier to collaborate with your colleagues. It lets you:
 
 * Share all communication you have with your customers and contacts, including emails and files, internally.
-* Have all your appointments in SuperOffice linked to the correct contact.
+* Have all your follow-ups in SuperOffice linked to the correct contact.
 * Handle incoming and outgoing invitations.
 * Get your iCal events to show up in your SuperOffice diary.
 

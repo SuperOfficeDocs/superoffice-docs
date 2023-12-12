@@ -17,7 +17,7 @@ Du kan knytte enhver aktivitet til et eksternt firma og til et projekt. Du kan o
 
 Projekter hjælper dig med at holde styr på dit arbejde og dokumentere på ét sted, så du og dit team kan opleve mere kontrol og forbedret samarbejde.
 
-Du kan tilknytte alle kontakter, firmaer, opgaver, aftaler, projektdeltagere og endda salgsmuligheder til ét projekt i SuperOffice CRM. Du kan også oprette eller overføre dokumenter og filer til projektet.
+Du kan tilknytte alle kontakter, firmaer, opfølginger, projektdeltagere og endda salgsmuligheder til ét projekt i SuperOffice CRM. Du kan også oprette eller overføre dokumenter og filer til projektet.
 
 Alle de informationer, du gemmer i projektet, mærkes med en dato og en ejer, hvilket gør det nemmere at sortere og filtrere informationer, når det er nødvendigt.
 

@@ -17,7 +17,7 @@ Auf der Registerkarte **Projektleitfaden** in der Ansicht Workflow in Einstellun
 
 ## Beispiel
 
-Der Projekttyp "Konferenz" kann aus drei Status bestehen: Geplant, In Bearbeitung und Wird beendet. Der Status "Geplant" kann zum Beispiel die Folgeaufgabe "Recherche" (Termin) und das Dokument "Konferenzprogramm" (Notiz) einbeziehen.
+Der Projekttyp "Konferenz" kann aus drei Status bestehen: Geplant, In Bearbeitung und Wird beendet. Der Status "Geplant" kann zum Beispiel die Folgeaufgabe "Recherche" und das Dokument "Konferenzprogramm" (Notiz) einbeziehen.
 
 ## Was möchten Sie jetzt tun?
 

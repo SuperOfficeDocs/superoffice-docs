@@ -31,12 +31,12 @@ Hvis du vil sende en invitasjon via e-post til eksterne brukere, må du:
 * konfigurere e-postoppsettet i SuperOffice-innboksen
 
     > [!TIP]
-    > Hvis du vil inkludere URL-adressen til videomøtet automatisk i avtaleteksten, oppdaterer du invitasjonsmalen med {burl}. Hvis feltet **Plassering** i avtalen er tomt, legges videomøte-URL-en til her.
+    > Hvis du vil inkludere URL-adressen til videomøtet automatisk i møteteksten, oppdaterer du invitasjonsmalen med {burl}. Hvis feltet **Plassering** i møtet er tomt, legges videomøte-URL-en til her.
 
 * Ha konfigurert SuperOffice Mail Link
 
     > [!NOTE]
-    > URL-adressen til videomøtet legges automatisk til i avtaleteksten ("Bli med i møte: …"). Hvis feltet **Plassering** i avtalen er tomt, legges videomøte-URL-en til her.
+    > URL-adressen til videomøtet legges automatisk til i møteteksten ("Bli med i møte: …"). Hvis feltet **Plassering** i møtet er tomt, legges videomøte-URL-en til her.
 
 ## Aktuelle emner
 

@@ -3,7 +3,7 @@ uid: help-sv-diary-screen
 title: Fönstret Kalender
 description: Fönstret Kalender
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 10.02.2023
 keywords: kalender, händelse
 so.topic: reference
 language: sv
@@ -22,10 +22,10 @@ Nere till vänster i kalenderdelen finns ett fält där du kan välja [tidszon][
 
 Kalendern består av fyra olika flikar som du enkelt kan växla mellan genom att klicka på dem högst upp i Kalender-fönstret.
 
-* [Fliken Dag][2]
-* [Fliken Vecka][3]
-* [Fliken Månad][4]
-* [Fliken Översikt][5]
+* [Fliken Dag](#day)
+* [Fliken Vecka](#week)
+* [Fliken Månad](#month)
+* [Fliken Översikt](#view)
 
 Klicka på ordet **Kalender** i navigatorn och välj en tidsperiod i listan som visas.
 
@@ -47,6 +47,55 @@ Händelserna visas som standard som blå fält på kalenderflikarna. Om du håll
 > [!NOTE]
 > Under Inställningar och underhåll kan du definiera att alla händelser av en viss typ ska visas med en annan bakgrundsfärg än den vanliga blå i fönstret Kalender.
 
+### <a id="day" />Fliken Dag
+
+På fliken **Dag** visas en dag i taget med timintervall längs den vänstra kanten.
+
+![Fönstret Kalender, fliken Dag -screenshot][img11]
+
+Om [tidszoner][14] är aktiverade kan du byta tidszon längst ner till vänster.
+
+### <a id="week" />Fliken Vecka
+
+På fliken **Vecka** visas en vecka i taget. Det finns en kolumn för varje veckodag och timintervaller längs den vänstra kanten.
+
+![Fönstret Kalender, fliken Vecka -screenshot][img12]
+
+Om du vill öppna fliken **Dag** för en viss dag klickar du på rubriken för denna dag.
+
+> [!NOTE]
+> Du kan definiera om veckan ska inledas på söndag eller måndag under ![icon][img7] **Personliga inställningar** > **Inställningar**.
+
+### <a id="month" />Fliken Månad
+
+På fliken **Månad** visas en månad i taget. Här visas inte tiden, utan händelser för enskilda dagar.
+
+> [!TIP]
+> Om du håller muspekaren över en händelse visas en hjälptext med information om händelsen.
+
+![Fönstret Kalender, fliken Månad -screenshot][img13]
+
+Om du vill öppna fliken **Dag** för en viss dag klickar du på sidhuvudet/datumet.
+
+### <a id="view" />Fliken Översikt
+
+På fliken **Översikt** i Kalender-fönstret visas din egen kalender med ditt användar-ID högst upp på sidan.
+
+![Fönstret Kalender, fliken Översikt -screenshot][img14]
+
+Fliken **Översikt** används främst för att öppna och titta på översikter över andra användare eller resurser för att ta reda på när de är tillgängliga innan du bjuder in dem till ett möte genom att [koppla dem till händelser][5] eller skapar händelser för dem.
+
+![Ikon][img8] **Uppgift**-knappen är tillgänglig på **Översikt**-fliken.
+
+**Alternativ:**
+
+* Välj **Redigera** om du vill redigera en befintlig översikt. Fördefinierade översikter kan inte redigeras.
+* Välj **Ny gruppöversikt** om du vill skapa en ny gruppöversikt.
+* Välj **Kopiera** om du vill skapa en kopia av den gruppöversikt du har öppnat.
+* Välj **Ta bort gruppöversikt** om du vill ta bort gruppöversikten du har öppnat.
+* Välj **Bjud in deltagare** om du vill koppla deltagare till en händelse.
+* Välj **Hjälp** för att öppna den här användarhandboken.
+
 ## Detaljkorten i fönstret Kalender
 
 Fönstret Kalender innehåller följande detaljkort:
@@ -58,10 +107,7 @@ Fönstret Kalender innehåller följande detaljkort:
 [!include[Add more section tabs](../../../learn/includes/more-tab.md)]
 
 <!-- Referenced links -->
-[2]: day.md
-[3]: week.md
-[4]: month.md
-[5]: view.md
+[5]: ../invitation/add-participant.md
 [6]: activities-tab.md
 [7]: sales-tab.md
 [8]: ../change-completed-status.md
@@ -70,11 +116,18 @@ Fönstret Kalender innehåller följande detaljkort:
 [11]: ../recurrence/create.md
 [12]: ../invitation/index.md
 [13]: ../index.md
+[14]: ../../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
+[img7]: ../../../../media/icons/personal-settings-small.png
+[img8]: ../../../../media/icons/btn-menu.png
 [img1]: ../../../../media/icons/recurring-booking-assignment.png
 [img2]: ../../../../../common/icons/diary-participants.png
 [img3]: ../../../../../common/icons/diary-complete.png
 [img4]: ../../../../../common/icons/diary-alarm.png
 [img5]: ../../../../../common/icons/diary-tentative.png
 [img6]: ../../../../../common/icons/diary-videocall.png
+[img11]: ../../../../media/loc/en/diary/day-plan.png
+[img12]: ../../../../media/loc/en/diary/week-plan.png
+[img13]: ../../../../media/loc/en/diary/month-plan.png
+[img14]: ../../../../media/loc/en/diary/view.png

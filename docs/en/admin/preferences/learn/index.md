@@ -66,7 +66,7 @@ To edit these preferences, go to the ![icon][img1] **Preferences** screen and se
 
 ## <a id="preferences-tab" />Preferences tab
 
-In the **Preferences** tab you can specify settings for different parts of SuperOffice CRM, such as the number of items to display in the history list, the default type for new appointment, task and phone call, and the default currency in the Sale screen.
+In the **Preferences** tab you can specify settings for different parts of SuperOffice CRM, such as the number of items to display in the history list, the default type for new meetings, and the default currency in the Sale screen.
 
 At the top of the **Preferences** tab, you can choose the required preference group. The rest of the **Preferences** tab is divided into three main sections: a list of all preferences, a description field explaining description the preference currently selected, and a field showing the settings specified for that preference.
 

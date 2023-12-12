@@ -11,7 +11,7 @@ language: sv
 
 # Skapa genvägar till poster i SuperOffice CRM
 
-Du kan skapa genvägar till en post i SuperOffice CRM för exempelvis en kontakt, en bokning, en försäljning eller en bild. Då kan andra interna användare klicka på genvägen och komma direkt till den aktuella posten.
+Du kan skapa genvägar till en post i SuperOffice CRM för exempelvis en kontakt, en händelse, en försäljning eller en bild. Då kan andra interna användare klicka på genvägen och komma direkt till den aktuella posten.
 
 Alternativet **Kopiera genväg** finns här:
 
@@ -21,14 +21,3 @@ Alternativet **Kopiera genväg** finns här:
 När du väljer alternativet **Kopiera genväg** kopieras en genväg (URL) till den aktuella posten till Urklipp. Du kan klistra in genvägen som en länk i till exempel ett e-postmeddelande och skicka det till en eller flera interna SuperOffice CRM-användare. Du kan också klistra in genvägen i dialogrutan **Kör** i Windows för att köra den.
 
 Denna funktion använder SOProtocol. SuperOffice Web Tools måste vara installerat för att funktionen ska fungera korrekt.
-
-## Relaterade ämnen
-
-* [Dialogrutan för händelser][1]
-* [Dialogrutan Dokument][2]
-
-<!-- Referenced links -->
-[1]: ../../../diary/learn/screen/dialog-for-followups.md
-[2]: ../../../document/learn/screen/index.md
-
-<!-- Referenced images -->

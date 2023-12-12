@@ -1,7 +1,7 @@
 ---
 uid: crmscript_doc_properties
 title: Document properties
-description: How to retrieve document info; create a document entity; link document to an appointment; change document properties; work with suggested documents
+description: How to retrieve document info; create a document entity; link document to a follow-up; change document properties; work with suggested documents
 author: Bergfrid Skaara Dias
 so.date: 11.02.2021
 keywords: howto
@@ -41,7 +41,7 @@ print(se.executeTextTable());
 
 ### NSDocument[] GetDocumentList(Integer[] p0)
 
-Fetches a collection of appointments corresponding to a list of IDs.
+Fetches a collection of documents corresponding to a list of IDs.
 
 ```crmscript!
 Integer[] docIDs;
@@ -59,7 +59,7 @@ for(Integer i = 0; i < docList.length(); i++) {
 
 ### NSDocument[] GetAppointmentDocuments(Integer appointmentId)
 
-Get all documents that are linked to an appointment.
+Get all documents that are linked to a follow-up.
 
 ```crmscript
 Integer appointmentId = 4;
@@ -126,7 +126,7 @@ doc = agent.SaveDocumentEntity(doc);
 
 Read more about [working with persons and organizations][4].
 
-## Link document to an appointment
+## Link document to a follow-up
 
 ```crmscript
 NSDocumentAgent agent;

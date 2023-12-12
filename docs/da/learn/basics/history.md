@@ -16,7 +16,7 @@ Flere steder i SuperOffice CRM gør historiklisten det nemt at få adgang til de
 Du kan bruge historiklisten på forskellige måder:
 
 * Du kan søge direkte fra Navigator ![ikon][img2] for at gå til det ønskede firma, den ønskede person, det ønskede salg, projekt eller udvalg.
-* Fra dialogbokse, der for eksempel indeholder felter for firmaer, personer, salg og projekter, er dialogboksene **Aftale** og **Dokument** knyttet til aftalen eller dokumentet.
+* Fra dialogbokse, der for eksempel indeholder felter for firmaer, personer, salg og projekter, er dialogboksene **Opfølging** og **Dokument** knyttet til opfølgingen eller dokumentet.
 
 ## Brug af historiklisten i Navigator
 

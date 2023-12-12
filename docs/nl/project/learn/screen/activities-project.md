@@ -13,7 +13,7 @@ language: nl
 
 ![Sectie projectgidsactiviteiten -screenshot][img1]
 
-Het sectietabblad **Activiteiten** bevat alle [activiteiten][1] die aan het actieve project zijn gekoppeld, met andere woorden: vervolgactiviteiten (afspraken, taken en gesprekken) en documenten (inclusief samenvoegdocumenten, rapporten en e-mailberichten).
+Het sectietabblad **Activiteiten** bevat alle [activiteiten][1] die aan het actieve project zijn gekoppeld, met andere woorden: vervolgactiviteiten (vergaderingen, taken en gesprekken) en documenten (inclusief samenvoegdocumenten, rapporten en e-mailberichten).
 
 U kunt desgewenst een activiteit openen en bewerken door erop te dubbelklikken.
 
@@ -25,7 +25,7 @@ de eerste kolom op het sectietabblad **Activiteiten** geeft de status **Voltooid
 
 ### Typepictogrammen
 
-de tweede kolom bevat pictogrammen die het type activiteit aangeven, bijvoorbeeld een klok voor een afspraak en een telefoon voor een telefoongesprek. Deze pictogrammen hebben dezelfde betekenis als de tekst in de kolom **Type**.
+De tweede kolom bevat pictogrammen die het type activiteit aangeven. Deze pictogrammen hebben dezelfde betekenis als de tekst in de kolom **Type**.
 
 [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
@@ -45,23 +45,16 @@ de tweede kolom bevat pictogrammen die het type activiteit aangeven, bijvoorbeel
 >
 > Voor vervolgactiviteiten, dit is de datum waarop de vervolgactiviteit plaatsvindt.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
-* [Activiteiten weergeven][3]
-* [Activiteiten verwijderen][4]
-* [E-mail beantwoorden vanuit het sectietabblad Activiteiten][5]
-* [E-mail doorsturen vanuit het sectietabblad Activiteiten][6]
-* [Activiteiten filteren][7]
+* [Activiteiten][1]
+* [E-mail beantwoorden of doorsturen vanuit het sectietabblad Activiteiten][5]
 * [De status Voltooid voor een activiteit wijzigen][2]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/index.md
+[1]: ../../../learn/basics/activity.md
 [2]: ../../../diary/learn/change-completed-status.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
-[5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
-[7]: ../../../learn/section-tabs/filter.md
+[5]: ../../../learn/section-tabs/send-email.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/project/project-activities.png

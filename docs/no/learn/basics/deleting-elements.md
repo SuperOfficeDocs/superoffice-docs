@@ -34,7 +34,7 @@ Når du har lagt til feil eller duplisert informasjon, kan det være lurt å sle
 * [Slette en person][3]
 * [Massesletting av personer og/eller firma med valg][6]
 
-Når du velger å slette noe i SuperOffice CRM, viser dialogboksen **Slett avtale**, **Slett salg**, **Slett utvalg** og så videre,avhengig av hva du har valgt å slette. Navnet på elementet vises i dialogboksen, slik at du kan sjekke at du har gjort riktig valg.
+Når du velger å slette noe i SuperOffice CRM, viser dialogboksen **Slett oppfølging**, **Slett salg**, **Slett utvalg** og så videre,avhengig av hva du har valgt å slette. Navnet på elementet vises i dialogboksen, slik at du kan sjekke at du har gjort riktig valg.
 
 Når du har mange personer eller firmaer du må slette, er den beste måten å masseslette dem på, å legge dem til i et nytt utvalg og bruke Slett oppgaver på Oppgave-menyen. På utvalget klikker du på Oppgave-knappen og velger en av de ønskede Slett-funksjonene.
 
@@ -45,7 +45,7 @@ Hvis **Slett**-knappen er deaktivert (lys grå), betyr det at du ikke har rettig
 Eksempler:
 
 * Du kan ikke slette en person som også er ansatt i et SuperOffice-firma.
-* Du kan ikke slette avtaler, dokumenter, salg, prosjekter og så videre som ikke tilhører deg, med mindre du har tilstrekkelige brukerrettigheter.
+* Du kan ikke slette oppfølginger, dokumenter, salg, prosjekter og så videre som ikke tilhører deg, med mindre du har tilstrekkelige brukerrettigheter.
 
 ## <a id="restore" />Gjenopprette slettede firma og personer
 

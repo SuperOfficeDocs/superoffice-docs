@@ -48,7 +48,7 @@ Bovenaan staan de volledige naam, het e-mailadres en het bedrijf dat eigenaar is
 Er zijn verschillende tabbladen in het gebruikersoverzicht:
 
 * **Details** - hoofdoverzicht van gebruikersinformatie zoals **Gebruikers-ID,**, **Rol**, **Gebruikersplan**, **Primaire groep** en **Servicecategorieën**.
-* **Licenties** - extra licentie-informatie zoals **Vertrouwelijke activiteiten** die de gebruiker de mogelijkheid geven om **zichtbaarvoor** in te stellen voor afspraken, documenten en selecties .
+* **Licenties** - extra licentie-informatie zoals **Vertrouwelijke activiteiten** die de gebruiker de mogelijkheid geven om **zichtbaarvoor** in te stellen voor vervolgactiviteiten, documenten en selecties .
 * **Meer** - het tabblad laat zien of er extra velden op een persoon zijn.
 
 ## <a id="other-users" />Andere gebruikers (lokaal)

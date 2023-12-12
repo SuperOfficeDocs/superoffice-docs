@@ -47,6 +47,6 @@ Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du opprette
 [9]: delete.md
 [1]: project-guide/working-with.md
 [2]: https://www.superoffice.com/blog/guest-blog-use-your-crm-to-manage-projects-for-all-industries/
-[3]: ../../learn/activity/index.md
+[3]: ../../learn/basics/activity.md
 
 <!-- Referenced images -->

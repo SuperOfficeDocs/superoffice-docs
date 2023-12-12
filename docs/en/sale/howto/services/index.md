@@ -10,7 +10,7 @@ so.topic: concept
 
 # Sale - web services
 
-* [Link sale to appointment][1]
+* [Link sale to follow-up][1]
 
 <!-- Referenced links -->
 [1]: link-sale-to-appointment.md

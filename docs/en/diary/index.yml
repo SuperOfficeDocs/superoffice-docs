@@ -55,15 +55,15 @@ conceptualContent:
       - text: Types of follow-ups
         itemType: explore
         typeDesc: concept
-        url: overview.md
+        url: learn/follow-ups.md
       - text: Recurring appointments
         itemType: explore
         typeDesc: concept
-        url: recurring-appointments.md
+        url: learn/recurrence/index.md
       - text: Invitations
         itemType: explore
         typeDesc: concept
-        url: invitations.md
+        url: learn/invitation/index.md
 
   # Card
     - title: User guide

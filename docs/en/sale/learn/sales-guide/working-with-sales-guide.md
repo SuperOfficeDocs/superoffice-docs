@@ -13,7 +13,7 @@ language: en
 
 The Sales guide will take you through the different stages of a predefined sales process, automatically provide suggestions and templates for documents that need to be created along the way, and highlight follow-up activities that need to be performed.
 
-If you haven't already done so, learn how to set up a Sales guide here. You can use the SuperOffice Sales guide or set up your own.
+If you have not already done so, learn how to set up a Sales guide here. You can use the SuperOffice Sales guide or set up your own.
 
 Watch this video to learn how easy it is to use the Sales guide (video length - 1:24):
 
@@ -30,12 +30,12 @@ Watch this video to learn how easy it is to use the Sales guide (video length - 
 
 1. Click the **Create** button in front of the follow-up/document name.
 
-2. In the dialog that appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog][1] and [The dialog for follow-ups][2].
+2. In the dialog that appears, you [create the follow-up][2] or [document][3] in the usual way. Many of the fields are prefilled, but you can change the information, or add more information.
 
 3. When you have completed the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Sales guide** section tab. By default, documents are marked as completed.
 
     > [!TIP]
-    > To create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] then opens.
+    > To create several follow-ups of the same type, right-click the activity and select **Create another**.
 
 4. After all follow-ups and documents for a stage are completed, go to the next stage on the main **Sale** card.
 
@@ -90,11 +90,11 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
 ### The First meeting stage
 
-1. You have agreed a meeting time and want to create the **Customer meeting** appointment in the Diary and invite participants.
+1. You have agreed a meeting time and want to create the **Customer meeting** folllow-up in the Diary and invite participants.
 
     1. In the sales guide, you click **Create** next to the **Customer meeting** follow-up.
-        The **Appointment** dialog opens, with **Meeting (External)** specified as the appointment type and the name of the sale and company prefilled.
-    2. [Complete the information and invite participants][1].
+        The **Follow-up** dialog opens, with **Meeting (External)** specified as the type and the name of the sale and company prefilled.
+    2. Complete the information and [invite participants][1].
     3. Click **Save**.
 
 2. For the sake of good order, you want to send an email confirming the time and location of the meeting.
@@ -152,7 +152,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
     3. In the **Sales guide** dialog you have three options:
 
-        * Click **Create** to create the **Contract meeting** appointment, which is the next follow-up in the sales guide. This takes you directly to the dialog for follow-ups.
+        * Click **Create** to create the **Contract meeting** follow-up, which is the next follow-up in the sales guide. This takes you directly to the dialog for follow-ups.
 
         * Click **Cancel** if you do not want to create the follow-up at the moment. The **Sales guide** dialog closes and you should remember to create the follow-up later on.
 
@@ -161,15 +161,15 @@ You record a new sale and select the **Sale to new customer** sale type, which i
     > [!NOTE]
     > The **Sales guide** dialog opens because **Automatically suggest this follow-up** is set for the **Contract meeting** follow-up in Settings and maintenance. You can choose to not have this dialog appear, so that the next follow-up is suggested automatically.
 
-3. You want to create the **Contract meeting** appointment from the **Sales guide** dialog.
+3. You want to create the **Contract meeting** follow-up from the **Sales guide** dialog.
 
     Click **Create** in the **Sales guide** dialog.
-    The **Appointment** dialog opens, where you can create the meeting in the usual way.
+    The **Follow-up** dialog opens, where you can create the meeting in the usual way.
 
 4. Then you want to create the contract to take to the meeting.
 
     1. Click **Create** next to the **Signed contract** document to create the contract.
-    2. After the contract meeting and the contract is signed, mark the **Contract meeting** appointment as completed.
+    2. After the contract meeting and the contract is signed, mark the **Contract meeting** follow-up as completed.
 
 You can now change the stage to **Sold**. After all the required follow-ups and documents for the sale are completed, you can set the sale status to completed.
 
@@ -181,8 +181,8 @@ You can now change the stage to **Sold**. After all the required follow-ups and 
 * [Set up a sales guide in Settings and maintenance][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/invitation/add-participant.md
+[2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
 

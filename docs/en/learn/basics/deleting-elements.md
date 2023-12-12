@@ -20,7 +20,7 @@ If you find duplicated information, merge them as soon as possible to make sure 
 > [!NOTE]
 > This functionality requires user rights, so contact your administrator to get sufficient functional rights.
 
-**Tasks:**
+**How-tos:**
 
 * [Merge contacts][4]
 * [Move contact][5]
@@ -34,7 +34,7 @@ When you have added wrong or duplicated information, it may be a good idea to de
 * [Delete a contact][3]
 * [Bulk delete contacts and/or companies with selection][6]
 
-When you choose to delete something in SuperOffice CRM, the dialog displays **Delete Appointment**, **Delete Sale**, **Delete Selection** and so on, depending on what you have chosen to delete. The name of the item is displayed in the dialog, so that you can check that you have made the right choice.
+When you choose to delete something in SuperOffice CRM, the dialog displays **Delete Follow-up**, **Delete Sale**, **Delete Selection** and so on, depending on what you have chosen to delete. The name of the item is displayed in the dialog, so that you can check that you have made the right choice.
 
 When you have many contacts or companies you have to delete, the best way to mass delete them, is to add them into a new selection, and use the Delete tasks on the Task menu. On the selection, click on the Task button and select one of the wanted Delete functions.
 
@@ -45,7 +45,7 @@ If the **Delete** button is disabled (light grey), it means that you have no rig
 Examples:
 
 * You cannot delete a contact who is also an employee in a SuperOffice company.
-* You cannot delete appointments, documents, sales, projects, and so on that do not belong to you, unless you have sufficient user rights.
+* You cannot delete follow-ups, documents, sales, projects, and so on that do not belong to you, unless you have sufficient user rights.
 
 ## <a id="restore" />Restore deleted companies and contacts
 

@@ -34,7 +34,7 @@ När du har lagt till fel eller duplicerad information kan det vara en bra idé 
 * [Ta bort en kontakt][3]
 * [Massradera kontakter och/eller företag med urval][6]
 
-När du ska ta bort en post i SuperOffice CRM öppnas dialogrutan **Ta bort bokning**, **Ta bort försäljning**, **Ta bort urval** och så vidare, beroende på vad du vill ta bort. I dialogrutan visas bland annat namnet på posten så att du kan kontrollera att du har valt rätt post.
+När du ska ta bort en post i SuperOffice CRM öppnas dialogrutan **Ta bort händelse**, **Ta bort försäljning**, **Ta bort urval** och så vidare, beroende på vad du vill ta bort. I dialogrutan visas bland annat namnet på posten så att du kan kontrollera att du har valt rätt post.
 
 När du har många kontakter eller företag som du måste ta bort är det bästa sättet att massradera dem att lägga till dem i ett nytt urval och använda Ta bort uppgifter på menyn Uppgift. Klicka på knappen Uppgift på markeringen och välj en av de önskade raderingsfunktionerna.
 
@@ -45,7 +45,7 @@ Om knappen **Ta bort** är inaktiverad betyder det att du inte har behörighet a
 Exempel:
 
 * Du kan inte ta bort en kontakt som också är anställd i ett SuperOffice-företag.
-* Du kan inte ta bort avtalade tider, dokument, försäljningar, projekt osv. som inte tillhör dig, såvida du inte har tillräckliga användarbehörigheter.
+* Du kan inte ta bort händelser, dokument, försäljningar, projekt osv. som inte tillhör dig, såvida du inte har tillräckliga användarbehörigheter.
 
 ## <a id="restore" />Återskapa borttagna företag och kontakter
 

@@ -18,18 +18,18 @@ SuperOffice CRM supports follow-ups in different time zones. Time zones are enab
 
 ## How do time zones work in SuperOffice CRM?
 
-Time zone functionality can be useful if your organization has offices in several countries with different time zones and you need to plan meetings or telephone conferences with people in a country with a different time zone from yours. The appointment is then created in the time zone for the selected country.
+Time zone functionality can be useful if your organization has offices in several countries with different time zones and you need to plan meetings or telephone conferences with people in a country with a different time zone from yours. The follow-up is then created in the time zone for the selected country.
 
-For example, if your head office is in Norway and you want to hold a meeting with people in your Finnish and US subsidiaries, you can set up a meeting using Norwegian time and then check what time that is in Finland and the USA. In this way, you can avoid setting up an appointment that would take place, for example, late at night in the USA. For the people you invite to the appointment, the appointment is displayed using the time zone they have specified in their own SuperOffice CRM, even though you will have set up the appointment using Norwegian time.
+For example, if your head office is in Norway and you want to hold a meeting with people in your Finnish and US subsidiaries, you can set up a meeting using Norwegian time and then check what time that is in Finland and the USA. In this way, you can avoid setting up a meeting that would take place, for example, late at night in the USA. For the people you invite to the meeting, the meeting is displayed using the time zone they have specified in their own SuperOffice CRM, even though you will have set up the meeting using Norwegian time.
 
 This function supports summer time.
 
 > [!NOTE]
-> Appointments you created before you enabled time zones are kept in the default time zone for your SuperOffice database.
+> Follow-ups you created before you enabled time zones are kept in the default time zone for your SuperOffice database.
 
 ## How do you select time zones?
 
-Time zones are displayed in a list box in the [Diary][1] and in the [dialog for follow-ups][3]. The default time zone for your SuperOffice database is displayed at the top, using this icon: ![icon][img1].
+Time zones are displayed in a list box in the [Diary][1] and on [follow-ups][3]. The default time zone for your SuperOffice database is displayed at the top, using this icon: ![icon][img1].
 
 The time zone list is sorted by country. At the top of the list is the name of the selected country and its flag.
 
@@ -52,11 +52,11 @@ Search for a number of hours to find the correct time zone. For example, if you 
 
 * If you hover the mouse pointer over the time zone list, a tooltip comes up, containing details of which cities (in the relevant country) are in the time zone you have selected.
 
-* If you in the Diary hover the mouse pointer over an appointment created in a different time zone from the default for your SuperOffice database, a tooltip is displayed containing information about the time of the appointment in your time zone and in the time zone of the person who created it.
+* If you in the Diary hover the mouse pointer over a follow-up created in a different time zone from the default for your SuperOffice database, a tooltip is displayed containing information about the time of the follow-up in your time zone and in the time zone of the person who created it.
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
-[3]: ../../diary/learn/screen/dialog-for-followups.md
+[3]: ../../diary/learn/follow-ups.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/time-zone-local.png

@@ -35,7 +35,7 @@ Hvis du setter salget til **Utsatt**, vises følgende felt:
 
 ![Utsatt salg -screenshot][img5]
 
-Dialogboksen **Avtale** vises når du klikker på **Lagre**. Her kan du sette opp fremtidige møter eller samtaler for å følge opp det utsatte salget.
+Dialogboksen **Oppfølging** vises når du klikker på **Lagre**. Her kan du sette opp fremtidige møter eller samtaler for å følge opp det utsatte salget.
 
 ## Solgt/Tapt
 
