@@ -3,7 +3,8 @@ uid: help-no-service-mailbox-create
 title: Opprette e-postkasser
 description: Opprette e-postkasser
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: e-post
 so.topic: howto
 language: no
@@ -25,9 +26,9 @@ Du kan opprette en postkasse som skal brukes til å importere e-post til SuperOf
 1. I **Adresse**-feltet skriver du inn navnet uten @domene.xx, og trykker **TAB** for å legge til CRM Online-innstillingene til e-postadressen.
 
     > [!NOTE]
-    > En "vennlig" e-postadresse kan legges til adressen ved å legge til ("vennlig navn") på slutten av e-postadressen. Eksempel: info@company.com (Kunde Ltd.).
+    > En "vennlig" e-postadresse kan legges til adressen ved å legge til ("vennlig navn") på slutten av e-postadressen. Eksempel: <info@company.com> (Kunde Ltd.).
 
-1. Velg kategori og prioritet:
+1. Velg kategori, prioritet, og sakstype:
 
     [!include[Select category and priority](includes/step-select-category-priority.md)]
 
@@ -55,7 +56,7 @@ Du kan opprette en postkasse som skal brukes til å importere e-post til SuperOf
 1. I **Adresse**-feltet skriver du inn e-postadressen du vil bruke for postboksen.
 
     > [!NOTE]
-    > Konfigurer videresending til denne e-postkasseadressen hvis du skal bruke firmaets e-postadresse (for eksempel info@company.com). Bruk **Videresendingsadresse** på skjermbildet **E-postkasser**.
+    > Konfigurer videresending til denne e-postkasseadressen hvis du skal bruke firmaets e-postadresse (for eksempel <info@company.com>). Bruk **Videresendingsadresse** på skjermbildet **E-postkasser**.
 
 1. I listeboksen **Protokoll** velger du hvilken protokoll som skal brukes til å kommunisere med e-postserveren. Noen av protokollene kan kreve ytterligere konfigurasjon.
 
@@ -67,7 +68,7 @@ Du kan opprette en postkasse som skal brukes til å importere e-post til SuperOf
 
 1. I feltet **Port** kan du eventuelt endre foreslått standardport for valgt protokoll.
 
-1. Velg kategori og prioritet:
+1. Velg kategori, prioritet, og sakstype:
 
     [!include[Select category and priority](includes/step-select-category-priority.md)]
 
@@ -79,7 +80,7 @@ Du kan opprette en postkasse som skal brukes til å importere e-post til SuperOf
 
     [!include[Common steps](includes/step-set-reply.md)]
 
-1. Gå til fanen **Alias**. Her kan du skrive inn et hvilket som helst e-postalias for en postkasse (for eksempel hvis sales@company.com og sale@company.com går til samme e-postkasse). Du legger til et alias ved å skrive inn en e-postadresse og deretter klikke ![icon][img1].
+1. Gå til fanen **Alias**. Her kan du skrive inn et hvilket som helst e-postalias for en postkasse (for eksempel hvis <sales@company.com> og <sale@company.com> går til samme e-postkasse). Du legger til et alias ved å skrive inn en e-postadresse og deretter klikke ![icon][img1].
 
 1. [!include[Import stuff](includes/step-import.md)]
 

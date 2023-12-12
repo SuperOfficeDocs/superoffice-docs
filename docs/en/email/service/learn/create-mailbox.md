@@ -26,13 +26,11 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 1. In the **Address** field, enter the name without @domain.xx, and press **TAB** to add the CRM Online settings to the email address.
 
     > [!NOTE]
-    > Friendly email address can be added to the address by adding ("friendly name") at the end of the email address.Example: info@company.com (Customer Ltd.).
+    > Friendly email address can be added to the address by adding ("friendly name") at the end of the email address.Example: <info@company.com> (Customer Ltd.).
 
-1. Select category and priority:
+1. Select category, priority, and request type:
 
     [!include[Select category and priority](includes/step-select-category-priority.md)]
-
-1. In the **Request type** list box, select the type the messages in this mailbox belong to. (Available in pilot only.)
 
 1. [!include[Set customer language](includes/step-set-language.md)]
 
@@ -58,7 +56,7 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 1. In the **Address** field, enter the email address you want to use for the mailbox.
 
     > [!NOTE]
-    > Set up forwarding to this mailbox address if you are going to use your company's email address (for example info@company.com). Use **Forwarding address** in the **Mailboxes** screen.
+    > Set up forwarding to this mailbox address if you are going to use your company's email address (for example <info@company.com>). Use **Forwarding address** in the **Mailboxes** screen.
 
 1. In the **Protocol** list box, select which protocol to use to communicate with the mail server. Some of the protocols may require further configuration.
 
@@ -70,11 +68,9 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 
 1. In the **Port** field, you can change the proposed default port for the selected protocol.
 
-1. Select category and priority:
+1. Select category, priority, and request type:
 
     [!include[Select category and priority](includes/step-select-category-priority.md)]
-
-1. In the **Request type** list box, select the type the messages in this mailbox belong to. (Available in pilot only.)
 
 1. In the **Interval** list box, select how often SuperOffice Service check for messages in this mailbox.
 
@@ -84,7 +80,7 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 
     [!include[Common steps](includes/step-set-reply.md)]
 
-1. Go to the **Alias** tab. Here you can enter any email alias for a mailbox (for example, if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an email address and then clicking ![icon][img1].
+1. Go to the **Alias** tab. Here you can enter any email alias for a mailbox (for example, if <sales@company.com> and <sale@company.com> go to the same mailbox). You add an alias by entering an email address and then clicking ![icon][img1].
 
 1. [!include[Import stuff](includes/step-import.md)]
 

@@ -3,7 +3,8 @@ uid: help-nl-email-filter
 title: E-mailfilters
 description: E-mailfilters
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: e-mail
 so.topic: concept
 so.audience: settings
@@ -46,6 +47,8 @@ Het tabblad **E-mailfilters** bevat een lijst met bestaande e-mailfilters. Deze 
 
 * **Categorie instellen**: Wanneer u deze optie inschakelt en een categorie selecteert, komen de e-mailberichten die met dit filter worden verwerkt in de opgegeven categorie terecht.
 
+* **Verzoektype**: Als u hier controleert en een type selecteert, wordt e-mail die door dit filter wordt verwerkt, toegewezen aan het gespecificeerde [verzoektype][3]. (Alleen beschikbaar in pilot.)
+
 * **Prioriteit instellen**: Wanneer u deze optie inschakelt en een prioriteit selecteert, worden de e-mailberichten die met dit filter worden verwerkt aan de opgegeven prioriteit toegewezen.
 
 * **Toegangsniveau instellen**: Wanneer u deze optie inschakelt en in de keuzelijst een toegangsniveau selecteert, worden de e-mailberichten die met dit filter worden verwerkt aan het opgegeven toegangsniveau toegewezen. Als u **Extern** selecteert, is het gegenereerde verzoek toegankelijk in het SuperOffice Customer Centre.
@@ -77,5 +80,6 @@ Het tabblad **E-mailfilters** bevat een lijst met bestaande e-mailfilters. Deze 
 <!-- Referenced links -->
 [1]: create-email-filter.md
 [2]: delete-email-filter.md
+[3]: ../../../../request/learn/type/index.md
 
 <!-- Referenced images -->

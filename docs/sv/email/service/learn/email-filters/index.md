@@ -3,7 +3,8 @@ uid: help-sv-email-filter
 title: E-postfilter
 description: E-postfilter
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: e-post
 so.topic: concept
 so.audience: settings
@@ -46,6 +47,8 @@ På fliken **E-postfilter** finns en lista med befintliga e-postfilter. I övers
 
 * **Ange kategori**: Om du markerar det här alternativet och väljer en kategori placeras e-postmeddelanden som behandlas av detta filter i den angivna kategorin.
 
+* **Ärendetyp**: Om du kryssar i här och väljer en typ kommer e-post som bearbetas av detta filter att tilldelas den angivna [ärendetypen][3]. (Endast tillgängligt i pilot.)
+
 * **Ange prioritet**: Om du markerar det här alternativet och väljer en prioritet från listrutan får e-postmeddelanden som behandlas av detta filter den angivna prioriteten.
 
 * **Ange åtkomstnivå**: Om du markerar det här alternativet och väljer en åtkomstnivå från listrutan får e-postmeddelanden som behandlas av detta filter den angivna åtkomstnivån. Om du väljer **Externt** är det genererade ärendet tillgängligt i SuperOffice Customer Centre.
@@ -77,5 +80,6 @@ På fliken **E-postfilter** finns en lista med befintliga e-postfilter. I övers
 <!-- Referenced links -->
 [1]: create-email-filter.md
 [2]: delete-email-filter.md
+[3]: ../../../../request/learn/type/index.md
 
 <!-- Referenced images -->
