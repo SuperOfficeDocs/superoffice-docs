@@ -20,6 +20,7 @@ language: en
 ## Pre-requisites
 
 * If the type you wish to delete is used as default, set another request type as default. (Until you do, the **Delete** button is deactivated.)
+
 * Update any [email filters][1] and [Service mailboxes][2] that use this request type first. You cannot delete a type that is in use.
 
   * **Settings and maintenance** > **Requests** > **E-mail** > **Set properties** tab
