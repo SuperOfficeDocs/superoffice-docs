@@ -3,7 +3,8 @@ uid: help-sv-activity-completed
 title: Ändra Slutfört-status för en aktivitet
 description: Ändra Slutfört-status för en aktivitet
 author: SuperOffice RnD
-so.date: 11.03.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: kalender, händelse, slutfört
 so.topic: howto
 language: sv

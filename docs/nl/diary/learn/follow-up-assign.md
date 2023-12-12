@@ -3,8 +3,8 @@ uid: help-nl-follow-up-assign
 title: Toegewezen vervolgactiviteit
 description: Een vervolgactiviteit aan iemand toewijzen
 author: Bergfrid Dias
-so.date: 11.03.2023
-so.version: 10.2.10
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: agenda, vervolgactiviteit, uitnodiging, toewijzen
 so.topic: howto
 language: nl

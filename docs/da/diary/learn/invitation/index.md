@@ -3,8 +3,8 @@ uid: help-da-invitation
 title: Oprettelse af opfølgninger med dine medarbejdere
 description: Oprettelse af opfølgninger med dine medarbejdere
 author: Bergfrid Dias
-so.date: 11.03.2023
-so.version: 10.2.10
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: dagbog, opfølgning, invitation, møde
 so.topic: howto
 language: da

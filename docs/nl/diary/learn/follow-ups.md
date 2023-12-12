@@ -3,7 +3,8 @@ uid: help-nl-vervolgactiviteits
 title: Vervolgactiviteit
 description: Vervolgactiviteit - Vergadering, taak, gesprekken
 author: Bergfrid Dias
-so.date: 11.03.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: agenda, vervolgactiviteit, afspraak, vergadering, telefoon, bellen, taak, gesprekken
 so.topic: concept
 language: nl

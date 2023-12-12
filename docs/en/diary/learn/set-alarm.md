@@ -3,7 +3,7 @@ uid: help-en-follow-up-alarms
 title: Set alarm for follow-up
 description: How to sett an alarm for a follow-up in SuperOffice.
 author: Bergfrid Dias
-so.date: 11.08.2023
+so.date: 12.12.2023
 so.version: 10.2.11
 keywords: diary, follow-up, meeting, alarm, notification, reminder, alert
 so.topic: howto

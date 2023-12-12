@@ -3,7 +3,7 @@ uid: help-no-invitation-add-participant
 title: Legge til deltakere i oppfølginger
 description: "Det er flere måter å invitere personer til en avtale på. Denne guiden viser hvordan du legger til deltakere i en avtale."
 author: Bergfrid Dias
-so.date: 12.06.2023
+so.date: 12.12.2023
 so.version: 10.2.11
 keywords: dagbok, oppfølging, invitasjon, deltaker
 so.topic: howto

@@ -3,8 +3,8 @@ uid: help-da-video-meetings
 title: Arbejde med videomøder
 description: Lær, hvordan du opretter og deltager i et videomøde i SuperOffice her.
 author: SuperOffice RnD
-so.date: 11.03.2023
-so.version: 10.2.10
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: dagbog, opfølgning, videomøde
 so.topic: howto
 language: da

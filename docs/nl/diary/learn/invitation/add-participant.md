@@ -3,7 +3,7 @@ uid: help-nl-invitation-add-participant
 title: Deelnemers toevoegen aan vervolgactiviteiten
 description: "Het uitnodigen van contactpersonen voor een afspraak kan op verschillende manieren worden gedaan. Deze handleiding laat zien hoe u deelnemers aan een afspraak kunt toevoegen."
 author: Bergfrid Dias
-so.date: 12.06.2023
+so.date: 12.12.2023
 so.version: 10.2.11
 keywords: agenda, vervolgactiviteit, uitnodiging, deelnemer
 so.topic: howto

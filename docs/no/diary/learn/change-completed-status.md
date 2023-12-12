@@ -3,7 +3,8 @@ uid: help-no-activity-completed
 title: Endre Utført-status for en aktivitet
 description: Endre Utført-status for en aktivitet
 author: SuperOffice RnD
-so.date: 11.03.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: dagbok, oppfølging, utført
 so.topic: howto
 language: no

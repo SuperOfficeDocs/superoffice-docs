@@ -3,7 +3,7 @@ uid: help-en-invitation-add-participant
 title: Add participants to follow-ups
 description: This how-to guide will show how you to add participants to a follow-up.
 author: Bergfrid Dias
-so.date: 12.06.2023
+so.date: 12.12.2023
 so.version: 10.2.11
 keywords: diary, follow-up, meeting, invitation, participant, attendee
 so.topic: howto

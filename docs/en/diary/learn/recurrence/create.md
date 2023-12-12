@@ -3,7 +3,7 @@ uid: help-en-recurrence-set
 title: Schedule repeating follow-up
 description: Instead of recording these meetings one at a time, you can schedule repeating follow-ups
 author: Bergfrid Dias
-so.date: 12.06.2023
+so.date: 12.12.2023
 so.version: 10.2.11
 keywords: diary, follow-up, repeat, recur, frequency, schedule, pattern
 so.topic: howto

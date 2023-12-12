@@ -3,8 +3,8 @@ uid: help-no-follow-up-assign
 title: Delegere
 description: Overføre en oppfølging til noen andre
 author: Bergfrid Dias
-so.date: 11.03.2023
-so.version: 10.2.10
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: dagbok, oppfølging, delegere, tilordne, invitasjon, medarbeider
 so.topic: howto
 language: no

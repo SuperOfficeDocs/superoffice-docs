@@ -3,7 +3,7 @@ uid: help-sv-invitation-add-participant
 title: Lägga till deltagare i händelser
 description: "Att bjuda in kontakter till en bokning görs på olika sätt. Den här guiden beskriver hur du lägger till deltagare i en bokning."
 author: Bergfrid Dias
-so.date: 12.06.2023
+so.date: 12.12.2023
 so.version: 10.2.11
 keywords: kalender, händelse, förfrågan, deltagare
 so.topic: howto

@@ -3,8 +3,8 @@ uid: help-nl-invitation
 title: Vervolgactiviteiten met andere medewerkers maken
 description: Vervolgactiviteiten met andere medewerkers maken
 author: Bergfrid Dias
-so.date: 11.03.2023
-so.version: 10.2.10
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: agenda, vervolgactiviteit, uitnodiging, weergegeven
 so.topic: howto
 language: nl

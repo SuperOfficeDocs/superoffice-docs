@@ -3,7 +3,8 @@ uid: help-de-activity-completed
 title: Status Abgeschlossen für eine Aktivität ändern
 description: Status Abgeschlossen für eine Aktivität ändern
 author: SuperOffice RnD
-so.date: 11.03.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: Kalender, Folgeaufgabe
 so.topic: howto
 language: de

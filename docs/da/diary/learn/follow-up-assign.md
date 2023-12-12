@@ -2,7 +2,7 @@
 uid: help-da-follow-up-assign
 title: Tildele opfølgning
 description: Overførsel af en opfølgning til andre
-so.date: 11.03.2023
+so.date: 12.12.2023
 so.version: 10.2.10
 keywords: dagbog, opfølgning, medarbejder, deleger, tildele
 so.topic: howto

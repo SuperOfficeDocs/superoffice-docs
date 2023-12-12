@@ -3,7 +3,8 @@ uid: help-sv-follow-ups
 title: Händelser
 description: Händelser - Möte, att göra, samtal
 author: Bergfrid Dias
-so.date: 11.03.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: kalender, uppgift, händelse, bokning, möte, telefon, ringa upp, att göra
 so.topic: concept
 language: sv

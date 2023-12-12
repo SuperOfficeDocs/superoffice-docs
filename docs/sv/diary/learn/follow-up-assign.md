@@ -3,8 +3,8 @@ uid: help-sv-follow-up-assign
 title: Delegera händelse
 description: Överföra en händelse till någon annan
 author: Bergfrid Dias
-so.date: 11.03.2023
-so.version: 10.2.10
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: kalender, händelse, tildela, möte, delegera
 so.topic: howto
 language: sv

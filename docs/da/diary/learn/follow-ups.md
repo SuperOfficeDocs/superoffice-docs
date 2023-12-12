@@ -3,7 +3,8 @@ uid: help-da-follow-ups
 title: Opfølgninger
 description: Opfølgninger - møde, skal udføres, samtale
 author: Bergfrid Dias
-so.date: 11.03.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: dagbog, opfølgning, aftale, møde, telefon, ring til, opgave
 so.topic: concept
 language: da

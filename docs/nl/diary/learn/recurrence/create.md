@@ -3,7 +3,7 @@ uid: help-nl-recurrence-set
 title: Plan herhalende vervolgactiviteit
 description: Plan herhalende vervolgactiviteit
 author: Bergfrid Dias
-so.date: 12.06.2023
+so.date: 12.12.2023
 so.version: 10.2.11
 keywords: agenda, vervolgactiviteit, herhalen, terugkeren, plan, regelmatig, frequentie
 so.topic: howto

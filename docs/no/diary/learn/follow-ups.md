@@ -3,7 +3,8 @@ uid: help-no-follow-ups
 title: Oppfølging
 description: Oppfølging - Møte, oppgave, telefonsamtale
 author: Bergfrid Dias
-so.date: 11.03.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: dagbok, oppfølging, avtale, møte, oppgave, telefon, samtale
 so.topic: concept
 language: no

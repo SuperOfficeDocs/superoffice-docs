@@ -3,7 +3,8 @@ uid: help-de-follow-ups
 title: Folgeaufgaben
 description: Folgeaufgaben - Besprechung, Aufgabe, Anruf
 author: Bergfrid Dias
-so.date: 11.03.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: Kalender, Folgeaufgabe, Termin, Besprechung, Telefon, Anruf, Aufgabe, Zu erledigen
 so.topic: concept
 language: de

@@ -3,8 +3,8 @@ uid: help-sv-invitation
 title: Skapa händelser med dina medarbetare
 description: Skapa händelser med dina medarbetare
 author: Bergfrid Dias
-so.date: 11.03.2023
-so.version: 10.2.10
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: kalender, händelse, inbjudan, möte
 so.topic: howto
 language: sv

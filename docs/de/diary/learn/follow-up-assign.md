@@ -3,7 +3,7 @@ uid: help-de-follow-up-assign
 title: Eine Folgeaufgabe zuweisen
 description: Eine Folgeaufgabe einer anderen Person zuweisen
 author: Bergfrid Dias
-so.date: 11.03.2023
+so.date: 12.12.2023
 so.version: 10.2.10
 keywords: Kalender, Folgeaufgabe, zuweisen, delegieren
 so.topic: howto

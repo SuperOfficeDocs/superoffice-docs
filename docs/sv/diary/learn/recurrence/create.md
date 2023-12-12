@@ -3,7 +3,7 @@ uid: help-sv-recurrence-set
 title: Schemalägg återkommande händelse
 description: Schemalägg återkommande händelse
 author: Bergfrid Dias
-so.date: 12.06.2023
+so.date: 12.12.2023
 so.version: 10.2.11
 keywords: kalender, händelse, upprepa, återkomma
 so.topic: howto
