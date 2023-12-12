@@ -98,7 +98,7 @@ items:
       topicHref: ../sale/learn/screen/sales-guide-admin.md
       items:
       - name: Salgsguide
-        href: ../sale/learn/screen/sales-guide-admin.md
+        topicHref: ../sale/learn/screen/sales-guide-admin.md
         items:
         - name: Oversikt
           href: ../sale/learn/screen/sales-guide-admin.md
@@ -109,7 +109,7 @@ items:
         - name: Deaktivere salgsguide
           href: ../sale/learn/sales-guide/deactivate.md
       - name: Prosjektguide
-        href: ../project/learn/screen/project-guide-admin.md
+        topicHref: ../project/learn/screen/project-guide-admin.md
         items:
         - name: Oversikt
           href: ../project/learn/screen/project-guide-admin.md
@@ -135,7 +135,7 @@ items:
       topicHref: ../admin/options/learn/index.md
 
     - name: Chat
-      href: ../chat/learn/admin/index.md
+      topicHref: ../chat/learn/admin/index.md
       items:
       - name: Oversikt
         href: ../chat/learn/admin/index.md
@@ -153,6 +153,15 @@ items:
       items:
       - name: Oversikt
         href: ../request/learn/admin/index.md
+      - name: Sakstyper
+        topicHref: ../request/learn/type/index.md
+        items:
+        - name: Oversikt
+          href: ../request/learn/type/index.md
+        - name: Opprett sakstype
+          href: ../request/learn/type/create.md
+        - name: Slett sakstype
+          href: ../request/learn/type/delete.md
       - name: Kategorier
         href: ../request/learn/category/index.md
         items:
@@ -163,7 +172,7 @@ items:
         - name: Slett sakskategori
           href: ../request/learn/category/delete.md
       - name: Prioriteter
-        href: ../request/learn/priority/index.md
+        topicHref: ../request/learn/priority/index.md
         items:
         - name: Oversikt
           href: ../request/learn/priority/index.md
@@ -174,7 +183,7 @@ items:
         - name: Opprette eskaleringsnivåer
           href: ../request/learn/priority/escalation-levels.md
       - name: Saksstatus
-        href: ../request/learn/status/index.md
+        topicHref: ../request/learn/status/index.md
         items:
         - name: Oversikt
           href: ../request/learn/status/index.md
