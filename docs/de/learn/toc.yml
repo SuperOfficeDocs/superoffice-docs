@@ -98,7 +98,7 @@ items:
       topicHref: ../sale/learn/screen/sales-guide-admin.md
       items:
       - name: Verkaufsleitfaden
-        href: ../sale/learn/screen/sales-guide-admin.md
+        topicHref: ../sale/learn/screen/sales-guide-admin.md
         items:
         - name: Überblick
           href: ../sale/learn/screen/sales-guide-admin.md
@@ -109,7 +109,7 @@ items:
         - name: Verkaufsleitfaden deaktivieren
           href: ../sale/learn/sales-guide/deactivate.md
       - name: Projektleitfaden
-        href: ../project/learn/screen/project-guide-admin.md
+        topicHref: ../project/learn/screen/project-guide-admin.md
         items:
         - name: Überblick
           href: ../project/learn/screen/project-guide-admin.md
@@ -135,7 +135,7 @@ items:
       topicHref: ../admin/options/learn/index.md
 
     - name: Chat
-      href: ../chat/learn/admin/index.md
+      topicHref: ../chat/learn/admin/index.md
       items:
       - name: Überblick
         href: ../chat/learn/admin/index.md
@@ -153,8 +153,17 @@ items:
       items:
       - name: Überblick
         href: ../request/learn/admin/index.md
+      - name: Anfragetypen
+        topicHref: ../request/learn/type/index.md
+        items:
+        - name: Überblick
+          href: ../request/learn/type/index.md
+        - name: Anfragetyp erstellen
+          href: ../request/learn/type/create.md
+        - name: Anfragetyp löschen
+          href: ../request/learn/type/delete.md
       - name: Kategorien
-        href: ../request/learn/category/index.md
+        topicHref: ../request/learn/category/index.md
         items:
         - name: Überblick
           href: ../request/learn/category/index.md
@@ -163,7 +172,7 @@ items:
         - name: Anfragekategorie löschen
           href: ../request/learn/category/delete.md
       - name: Prioritäten
-        href: ../request/learn/priority/index.md
+        topicHref: ../request/learn/priority/index.md
         items:
         - name: Überblick
           href: ../request/learn/priority/index.md
@@ -174,7 +183,7 @@ items:
         - name: Eskalationsstufen erstellen
           href: ../request/learn/priority/escalation-levels.md
       - name: Anfragestatus
-        href: ../request/learn/status/index.md
+        topicHref: ../request/learn/status/index.md
         items:
         - name: Überblick
           href: ../request/learn/status/index.md
