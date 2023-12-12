@@ -37,12 +37,6 @@ Wanneer u bronnen koppelt, wordt de status ingesteld op *geaccepteerd* omdat een
 
 Het is mogelijk om een bron dubbel te boeken. Als een bron op een bepaald tijdstip niet vrij is, wordt **Conflict** weergegeven in de kolom **Status**. Er wordt ook een uitroepteken weergegeven in het dialoogvenster **Afspraak**. In dit geval moet u de tijd van de vervolgactiviteit wijzigen. Het veld **Eerst beschikbaar** geeft de eerst beschikbare vergadertijd weer.
 
-## Externe contactpersonen
-
-De mensen die u kiest onder **Bedrijf** in het dialoogvenster **Uitnodiging** zijn meestal geen leden van uw organisatie. U kunt ze de uitnodiging sturen via e-mail met de optie **Uitnodiging via e-mail**. Uitnodigingsmails die naar externe contactpersonen worden verzonden, bevatten een iCal-bestand (.ics) met de uitnodigingsgegevens. Wanneer er op uw uitnodiging wordt gereageerd, wordt de status automatisch bijgewerkt in SuperOffice.
-
-De vervolgactiviteit wordt op het sectietabblad **Activiteiten** voor het betreffende bedrijf weergegeven.
-
 ## Antwoorden op uitnodigingen verwerken
 
 Wanneer u een uitnodiging verzendt, kan de ontvanger deze accepteren of weigeren.

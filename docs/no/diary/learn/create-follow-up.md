@@ -3,7 +3,8 @@ uid: help-no-follow-up-create
 title: "Legge til oppfølging"
 description: "Legge til eller kopiere møte, oppgave, samtale i SuperOffice"
 author: Bergfrid Dias
-so.date: 09.29.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: dagbok, oppfølging, avtale, oppgave, samtale, møte, telefon
 so.topic: howto
 language: no
@@ -122,7 +123,7 @@ Hvis du markerer **Hele dagen**, blir tiden for oppfølgingen satt til perioden 
 * **For å bruke standardvarighet:** Dobbeltklikk på et klokkeslett i dagboken eller høyreklikk på et klokkeslett i dagboken og velg **Ny**.
 
 > [!NOTE]
-> Hvis du oppretter møtet fra fanen **Oversikt**, kan du velge at dialogboksen **Deltakere** skal fylles ut automatisk med deltakerne i oversikten. Hvis du vil angi dette alternativet, kan du gå til ![ikon][img1] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og sette preferansen for **Deltakere fra gruppevisning** til **Ja**. Klikk på **Lagre**.
+> Hvis du oppretter møtet fra fanen **Oversikt**, kan du velge at deltakerlisten skal fylles ut automatisk med deltakerne i oversikten. Hvis du vil angi dette alternativet, kan du gå til ![ikon][img1] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og sette preferansen for **Deltakere fra gruppevisning** til **Ja**. Klikk på **Lagre**.
 
 ### <a id="associate" />Opprette møte for en medarbeider
 

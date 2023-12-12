@@ -43,6 +43,8 @@ Bekijk de video voor [Deelnemers toevoegen aan een afspraak][15].
 
 6. Klik op de knop **E-mailuitnodiging** om e-mailuitnodigingen te activeren voor alle deelnemers in de lijst (behalve uzelf). Het ![pictogram][img1] pictogram links van de naam van de deelnemer betekent dat er een e-mailuitnodiging voor de vervolgactiviteit naar deze deelnemer wordt verzonden. Klik op het ![pictogram][img1] pictogram naast de naam van een deelnemer om e-mailuitnodiging voor deze deelnemer uit te schakelen. Het ![pictogram][img1] pictogram verandert naar inactief ![pictogram][img3] en de deelnemer krijgt geen uitnodiging via e-mail.
 
+    Uitnodigingsmails die naar externe contactpersonen worden verzonden, bevatten een iCal-bestand (.ics) met de uitnodigingsgegevens. Wanneer er op uw uitnodiging wordt gereageerd, wordt de status automatisch bijgewerkt in SuperOffice. De vervolgactiviteit wordt op het sectietabblad **Activiteiten** voor het betreffende bedrijf weergegeven.
+
 7. Klik op **OK** om het dialoogvenster **Uitnodiging** te sluiten. De geselecteerde deelnemers en bronnen zijn nu zichtbaar op het tabblad **Deelnemers**. U kunt op de knop **E-mailuitnodiging** en op het ![pictogram][img1] pictogram klikken om e-mailuitnodigingen te activeren/deactiveren, net zoals bij de vorige stap.
     Als een van de personen die u hebt geselecteerd geen geldig e-mailadres heeft geregistreerd in SuperOffice CRM, verandert het ![pictogram][img1] pictogram naar inactief ![pictogram][img3] op het tabblad **Deelnemers**.
 

@@ -3,7 +3,8 @@ uid: help-da-follow-up-create
 title: "Tilføjelse af opfølgning"
 description: "Tilføje eller kopiere møde, opgave, samtale i SuperOffice"
 author: Bergfrid Dias
-so.date: 09.29.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: dagbog, opfølgning, ring til, telefon, møde
 so.topic: howto
 language: da
@@ -122,7 +123,7 @@ Hvis du markerer **Hele dagen**, indstilles tidspunktet for opfølgningen til pe
 * **For at bruge standardvarighed:** Dobbeltklik på et klokkeslæt i dagbogen eller højreklik på et klokkeslæt i dagbogen, og vælg **Ny**.
 
 > [!NOTE]
-> Hvis du opretter møtet fra fanen **Oversigt**, kan du vælge at få dialogboksen **Deltagere** automatisk udfyldt med medlemmerne i oversigten. Hvis du vil angive denne indstilling, kan du gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Funktioner** og angive præferencen **Deltagere fra gruppeoversigt** til **Ja**. Klik på **Gem**.
+> Hvis du opretter møtet fra fanen **Oversigt**, kan du vælge at få deltagere udfyldt med medlemmerne i oversigten. Hvis du vil angive denne indstilling, kan du gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Funktioner** og angive præferencen **Deltagere fra gruppeoversigt** til **Ja**. Klik på **Gem**.
 
 ### <a id="associate" />Opret møde for en medarbejder
 

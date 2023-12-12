@@ -44,6 +44,8 @@ Watch the video for [Add participants to a meeting][15].
 
 6. Click the **Email Invitation** button to activate email invitations for all participants in the list (except yourself). The ![icon][img1] icon to the left of the participant's name means that an email invitation to the follow-up will be sent to this participant. Click the ![icon][img1] icon next to a participant's name to disable email invitation for this participant. The ![icon][img1] icon changes to inactive ![icon][img3] and the participant will then not receive an invitation by email.
 
+    Invitation emails sent to external contacts will contain an iCal file (.ics) with the invitation data. When they respond to your invitation, the status will automatically be updated in SuperOffice. The follow-up is shown on the **Activities** section tab for the company.
+
 7. Click **OK** to close the **Invitation** dialog. The selected participants and resources will now be visible in the **Participants** tab. You can click the**Email Invitation** button and the ![icon][img1] icon to activate/deactivate email invitations, similar to the previous step.
     If any of the contacts you selected do not have a valid email address recorded in SuperOffice CRM, the ![icon][img1] icon changes to inactive ![icon][img3] in the **Participants** tab.
 

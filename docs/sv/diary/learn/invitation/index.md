@@ -37,12 +37,6 @@ När du kopplar resurser ändras statusen till *Accepterad* eftersom en resurs i
 
 Resurser kan dubbelbokas. Om en resurs inte är ledig på den aktuella tidpunkten står det **Konflikt** i kolumnen **Status**. Dessutom visas ett utropstecken i dialogrutan **Bokning**. Du måste ändra tidpunkt för händelsen. I fältet **Första lediga** visas den första lediga tidpunkten.
 
-## Befintliga kontakter
-
-De kontakter som du väljer under **Företag** i dialogrutan **Förfrågan** tillhör normalt inte din egen organisation. Du kan skicka förfrågan till dem via e-post med hjälp av alternativet **E-postförfrågan**. E-postförfrågningar som skickas till externa kontakter innehåller en iCal-fil (.ics) med information om förfrågan. När de svarar på din inbjudan kommer statusen automatiskt att uppdateras i SuperOffice.
-
-Händelsen visas på detaljkortet **Aktiviteter** under det aktuella företaget.
-
 ## Hantera svar på förfrågningar
 
 När du skickar en förfrågan kan mottagaren välja att acceptera eller avböja den.

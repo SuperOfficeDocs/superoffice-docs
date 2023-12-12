@@ -3,7 +3,7 @@ uid: help-en-follow-up-move
 title: Moving follow-ups
 description: Moving follow-ups
 author: SuperOffice RnD
-so.date: 11.20.2023
+so.date: 12.12.2023
 so.version: 10.2.11
 keywords: diary, follow-up
 so.topic: howto
@@ -33,6 +33,9 @@ At some time, you will undoubtedly need to move follow-ups from one time slot to
 * Select the **Week** or **Month** view in the side panel, go to the required week or month and then drag the follow-up from the Diary to the required day in the side panel. The diary automatically updates with the required week or month.
 
 * Move the follow-up temporarily to the activities list, go to the required week or month and then drag the follow-up back to the required day in the Diary.
+
+    > [!NOTE]
+    > You cannot move a meeting with attendees to the activities list.
 
 ## Move from the activities list to the Diary
 

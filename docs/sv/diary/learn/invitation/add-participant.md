@@ -43,6 +43,8 @@ Titta på filmen om att [Lägga till deltagare i en bokning][15].
 
 6. Klicka på knappen **E-postförfrågan** för att aktivera e-postförfrågningar för alla deltagare på listan (utom dig själv). Ikonen ![ikon][img1] till vänster om deltagarens namn betyder att en e-postförfrågan för händelsen kommer att skickas till deltagaren. Klicka på ![ikon][img1] ikonen bredvid en deltagares namn för att inaktivera e-postförfrågan för denna deltagare. Ikonen ![ikon][img1] ändras till inaktiv ![ikon][img3] och deltagaren får ingen förfrågan via e-post.
 
+    E-postförfrågningar som skickas till externa kontakter innehåller en iCal-fil (.ics) med information om förfrågan. När de svarar på din inbjudan kommer statusen automatiskt att uppdateras i SuperOffice. Händelsen visas på detaljkortet **Aktiviteter** under det aktuella företaget.
+
 7. Stäng dialogrutan **Förfrågan** genom att klicka på **OK**. Du ser nu de valda deltagarna och resurserna på fliken **Deltagare**. Du kan klicka på knappen **E-postförfrågan** och ![ikon][img1]-ikonen för att aktivera/inaktivera e-postförfrågningar på samma sätt som i föregående steg.
     Om någon eller några av kontakterna du har valt inte har en giltig e-postadress registrerad i SuperOffice CRM ändras ![ikon][img1]-ikonen till inaktiv ![ikon][img3] på fliken **Deltagare**.
 

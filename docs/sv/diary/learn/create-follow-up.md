@@ -3,7 +3,8 @@ uid: help-sv-follow-up-create
 title: "Lägga till händelser"
 description: "Lägga till eller kopiera möter, uppgifter och samtal i SuperOffice"
 author: Bergfrid Dias
-so.date: 09.29.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: kalender, händelse, ringa upp, telefon, möte
 so.topic: howto
 language: sv
@@ -121,7 +122,7 @@ händelsen överlappar med en befintlig händelse, visas ett utropstecken ![ikon
 * **För att använda standardvaraktighet:** Dubbelklicka på ett klockslag i kalendern eller högerklicka på ett klockslag i kalendern och välj **Nytt**.
 
 > [!NOTE]
-> Om du skapar mötet på fliken **Översikt** kan du välja att dialogrutan **Deltagare** ska fyllas i automatiskt med deltagarna i översikten. Om du vill välja det här alternativet går du till ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Funktioner** och sätter inställningen **Deltagare från gruppöversikt** till **Ja**. Klicka på **Spara**.
+> Om du skapar mötet på fliken **Översikt** kan du välja att deltagarlistan ska fyllas i automatiskt med deltagarna i översikten. Om du vill välja det här alternativet går du till ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Funktioner** och sätter inställningen **Deltagare från gruppöversikt** till **Ja**. Klicka på **Spara**.
 
 ## <a id="associate" />Skapa möte för en medarbetare
 

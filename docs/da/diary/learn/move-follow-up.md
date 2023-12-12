@@ -3,7 +3,8 @@ uid: help-da-follow-up-move
 title: Flytning af opfølgninger
 description: Flytning af opfølgninger
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: dagbog, opfølgning
 so.topic: howto
 language: da
@@ -32,6 +33,9 @@ På et tidspunkt bliver du utvivlsomt nødt til at flytte opfølgninger fra et t
 * Vælg oversigten **Uge** eller **Måned** i minikortet, gå til den ønskede uge eller måned, og træk derefter opfølgningen fra dagbogen til den ønskede dag i minikortet. Dagbogen opdateres automatisk med den ønskede uge eller måned.
 
 * Flyt opfølgningen midlertidigt til aktivitetslisten, gå til den ønskede uge eller måned, og træk derefter opfølgningen tilbage til den ønskede dag i dagbogen.
+
+    > [!NOTE]
+    > Du kan ikke flytte et møde med deltagere til aktivitetslisten.
 
 ## Flyt fra aktivitetslisten til dagbogen
 

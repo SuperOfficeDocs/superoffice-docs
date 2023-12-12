@@ -37,12 +37,6 @@ Når du sammenkæder ressourcer, angives status til *accepteret* fordi en ressou
 
 Det er muligt at dobbeltbooke en ressource. Hvis en ressource ikke er ledig på det aktuelle tidspunkt, står der **Konflikt** i kolonnen **Status**. Desuden vises et udråbstegn i dialogboksen **Aftale**. Du skal ændre tidspunktet for opfølgningen. I feltet **Første ledige** vises det første ledige mødetidspunkt.
 
-## Eksterne kontaktpersoner
-
-De personer, du vælger under **Firma** i dialogboksen **Invitation**, er normalt ikke medlemmer af din organisation. Du kan sende invitationen til dem via e-mail ved hjælp af indstillingen **E-mailinvitation**. E-mails med invitationer, der sendes til eksterne kontaktpersoner, indeholder et iCal-arkiv (.ics) med invitationsdataene. Når de svarer på din invitation, opdateres status automatisk i SuperOffice.
-
-Opfølgningen vises på detaljekortet **Aktiviteter** for det aktuelle firma.
-
 ## Håndter tilbagemeldinger på invitationer
 
 Når du sender en invitation, kan modtageren af invitationen enten acceptere eller afvise invitationen.

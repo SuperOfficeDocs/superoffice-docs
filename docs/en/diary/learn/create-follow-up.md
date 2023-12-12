@@ -123,7 +123,7 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 * **To use default duration:** double-click a time in the Diary or right-click a time in the Diary and select **New**.
 
 > [!NOTE]
-> If you create the meeting from the **View** tab, you can choose to have the **Participants** dialog automatically filled out with the members of the view. To set this option, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
+> If you create the meeting from the **View** tab, you can choose to have attendees automatically filled out with the members of the view. To set this option, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
 
 ### <a id="associate" />Create meeting for an associate
 

@@ -44,6 +44,8 @@ Sehen Sie sich das Video für [Teilnehmer zu einem Termin hinzufügen][15] an.
 
 6. Klicken Sie auf die Schaltfläche **E-Mail-Einladung**, um E-Mail-Einladungen für alle Teilnehmer in der Liste (außer Ihnen selbst) zu aktivieren. Das ![Symbol][img1] links vom Namen des Teilnehmers gibt an, dass eine E-Mail-Einladung für die Folgeaufgabe an diesen Teilnehmer gesendet wird. Klicken Sie auf das ![Symbol][img1] neben dem Namen eines Teilnehmers, um die E-Mail-Einladung für diesen Teilnehmer zu deaktivieren. Das ![Symbol][img1] wechselt zu inaktiv ![Symbol][img3] und der Teilnehmer wird nicht per E-Mail eingeladen.
 
+    Einladungs-E-Mails, die an externe Kontakte gesendet werden, enthalten eine iCal-Datei (.ics) mit den Einladungsdaten. Wenn sie auf eine Einladung reagieren, wird der Status in SuperOffice automatisch aktualisiert. Die Folgeaufgabe wird auf der Bereichsregisterkarte **Aktivitäten** der betreffenden Firma angezeigt.
+
 7. Klicken Sie auf **OK**, um das Dialogfeld **Einladung** zu schließen. Die ausgewählten Teilnehmer und Ressourcen werden nun in der Registerkarte **Teilnehmer** angezeigt. Sie können auf die Schaltfläche **E-Mail-Einladung** und das ![Symbol][img1] klicken, um E-Mail-Einladungen ähnlich wie im vorherigen Schritt zu aktivieren/deaktivieren.
     Wenn für eine der von Ihnen ausgewählten Personen in SuperOffice CRM keine gültige E-Mail-Adresse gespeichert ist, wechselt das ![Symbol][img1] auf der Registerkarte **Teilnehmer** zu inaktiv ![Symbol][img3].
 

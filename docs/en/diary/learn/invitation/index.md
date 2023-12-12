@@ -40,12 +40,6 @@ When you link resources, the status is set to *accepted* because a resource cann
 
 It is possible to double-book a resource. If a resource is busy at the time, **Conflict** is shown in the **Status** column. An exclamation mark is also displayed in the **Follow-up** dialog. You should change the time of the follow-up. The **First available** field displays the first available meeting time.
 
-## External contacts
-
-The people you choose under **Company** in the **Invitation** dialog are not usually members of your organization. You can send the invitation to them via email using the **Email invitation** option. Invitation emails sent to external contacts will contain an iCal file (.ics) with the invitation data. When they respond to your invitation, the status will automatically be updated in SuperOffice.
-
-The follow-up is shown on the **Activities** section tab for the company.
-
 ## Handle responses to invitations
 
 When you send an invitation, the recipient can either accept or decline it.

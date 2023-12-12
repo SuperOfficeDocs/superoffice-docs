@@ -37,12 +37,6 @@ Når du kobler sammen ressurser, settes statusen til *godtatt*, siden en ressurs
 
 Ressurser kan dobbeltbookes. Hvis en ressurs ikke er ledig på det aktuelle tidspunktet, står det **Konflikt** i kolonnen **Status**. I tillegg vises det et utropstegn i dialogboksen **Avtale**. Du bør endre tidspunktet for oppfølgingen. I feltet **Første ledige** vises første ledige møtetidspunkt.
 
-## Eksterne personer
-
-Personene du velger under **Firma** i dialogboksen **Invitasjon**, er vanligvis ikke med i din egen organisasjon. Du kan sende invitasjonen til dem på e-post ved å bruke alternativet **E-postinvitasjon**. E-postinvitasjoner som sendes til eksterne personer, inneholder en iCal-fil (.ics) sammen med invitasjonsdataene. Når de svarer på invitasjonen din, oppdateres statusen automatisk i SuperOffice.
-
-Oppfølgingen vises på detaljkortet **Aktiviteter** for det aktuelle firmaet.
-
 ## Håndtere svar på invitasjoner
 
 Når du sender en invitasjon, kan mottakeren av invitasjonen enten godta eller avslå den.

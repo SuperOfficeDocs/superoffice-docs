@@ -44,6 +44,8 @@ Se videoen for [Føj deltagere til en aftale][15].
 
 6. Klik på knappen **E-mailinvitation** for at aktivere e-mailinvitationer for alle deltagere på listen (undtagen dig selv). Ikonet ![ikon][img1] til venstre for deltagerens navn betyder, at der er sent en e-mailinvitation til opfølgningen vil blive sendt til denne deltager. Klik på ikonet ![ikon][img1] ud for en deltagers navn for at deaktivere e-mailinvitationen for denne deltager. Ikonet ![icon][img1] ændres til inaktivt ![ikon][img3], og deltageren modtager ikke en invitation via e-mail.
 
+    E-mails med invitationer, der sendes til eksterne kontaktpersoner, indeholder et iCal-arkiv (.ics) med invitationsdataene. Når de svarer på din invitation, opdateres status automatisk i SuperOffice. Opfølgningen vises på detaljekortet **Aktiviteter** for det aktuelle firma.
+
 7. Klik på **OK** for at lukke dialogboksen **Invitation**. Du kan nu se de valgte deltagere og ressourcer på fanen **Deltagere**. Du kan klikke på knappen **E-mail-invitation** og ikonet ![ikon][img1] for at aktivere / deaktivere e-mail-invitationer, svarende til det foregående trin.
     Hvis nogen af de personer, du har valgt, ikke har en gyldig e-mailadresse registreret i SuperOffice CRM, ændres ikonet ![ikon][img1] til inaktivt ![ikon][img3] på fanen **Deltagere**.
 

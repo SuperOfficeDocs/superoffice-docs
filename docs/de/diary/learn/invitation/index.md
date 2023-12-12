@@ -37,12 +37,6 @@ Wenn Sie Ressourcen verknüpfen, wird der Status auf *akzeptiert* festgelegt, da
 
 Es ist möglich, eine Ressource doppelt zu buchen. Ist eine Ressource zur fraglichen Zeit bereits belegt, wird in der Spalte **Status** die Anmerkung **Konflikt** angezeigt. Ein Ausrufezeichen wird auch im Dialogfeld **Termin** angezeigt. Die sollten die Uhrzeit der Folgeaufgabe ändern. Das Feld **Zuerst verfügbar** enthält den ersten verfügbaren Termin für die Besprechung.
 
-## Externe Kontakte
-
-Die Personen, die Sie im Dialogfeld **Einladung** unter **Firma** wählen, sind normalerweise keine Mitglieder Ihres Unternehmens. Sie können ihnen mittels der Option **E-Mail-Einladung** eine Einladung per E-Mail senden. Einladungs-E-Mails, die an externe Kontakte gesendet werden, enthalten eine iCal-Datei (.ics) mit den Einladungsdaten. Wenn sie auf eine Einladung reagieren, wird der Status in SuperOffice automatisch aktualisiert.
-
-Die Folgeaufgabe wird auf der Bereichsregisterkarte **Aktivitäten** der betreffenden Firma angezeigt.
-
 ## Antworten auf Einladungen behandeln
 
 Wenn Sie eine Einladung versenden, kann der Empfänger sie annehmen oder ablehnen.

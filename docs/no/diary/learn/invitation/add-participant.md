@@ -44,6 +44,8 @@ Se videoen [Legge til deltakere i en avtale][15].
 
 6. Klikk på knappen **E-postinvitasjon** for å aktivere e-postinvitasjoner for alle deltakerne i listen (unntatt deg selv). Ikonet ![ikon][img1] til venstre for deltakernavnet angir at den aktuelle deltakeren vil motta invitasjon til oppfølgingen via e-post. Klikk på ![ikon][img1] ikonet ved siden av navnet på en deltaker for å deaktivere e-postinvitasjon for denne deltakeren. Ikonet ![ikon][img1] endres til inaktivt ![ikon][img3], og deltakeren vil ikke motta invitasjon via e-post.
 
+    E-postinvitasjoner som sendes til eksterne personer, inneholder en iCal-fil (.ics) sammen med invitasjonsdataene. Når de svarer på invitasjonen din, oppdateres statusen automatisk i SuperOffice. Oppfølgingen vises på detaljkortet **Aktiviteter** for det aktuelle firmaet.
+
 7. Klikk på **OK** for å lukke dialogboksen **Invitasjon**. Du ser nå de valgte deltakerne og ressursene i fanen **Deltakere**. Du kan klikke på knappen **E-postinvitasjon** og ![ikon][img1] ikonet for å aktivere/deaktivere e-postinvitasjoner, på samme måte som i forrige trinn.
     Hvis noen av personene du valgte, ikke har en gyldig e-postadresse registrert i SuperOffice CRM, endres ![ikon][img1] ikonet til inaktivt ![ikon][img3] i fanen **Deltakere** .
 

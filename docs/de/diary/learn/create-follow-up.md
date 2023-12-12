@@ -3,7 +3,8 @@ uid: help-de-follow-up-create
 title: "Folgeaufgaben hinzufügen"
 description: "Folgeaufgaben hinzufügen oder kopieren"
 author: Bergfrid Dias
-so.date: 09.29.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: Kalender, Folgeaufgabe, Anruf, Telefon, Besprechung
 so.topic: howto
 language: de
@@ -122,7 +123,7 @@ Wenn Sie **Ganztägig** aktivieren, wird die Zeit der Folgeaufgabe auf den als [
 * **Um die Standarddauer zu verwenden:** Doppelklicken Sie auf einen Zeitraum im Kalender. Oder, klicken Sie mit der rechten Maustaste auf eine Uhrzeit im Kalender und wählen Sie **Neu**.
 
 > [!NOTE]
-> Wenn Sie die Besprechung von der Registerkarte **Ansicht** erstellen, können Sie wählen, ob das Dialogfeld **Teilnehmer** automatisch mit den Mitgliedern der Ansicht befüllt werden soll. Wenn Sie diese Option einstellen möchten, gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** und stellen Sie die Einstellung **Teilnehmer aus Gruppenansicht** auf **Ja**. Klicken Sie auf **Speichern**.
+> Wenn Sie die Besprechung von der Registerkarte **Ansicht** erstellen, können Sie wählen, ob Teilnehmern automatisch mit den Mitgliedern der Ansicht befüllt werden soll. Wenn Sie diese Option einstellen möchten, gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** und stellen Sie die Einstellung **Teilnehmer aus Gruppenansicht** auf **Ja**. Klicken Sie auf **Speichern**.
 
 ### <a id="associate" />Besprechung für einen Mitarbeiter erstellen
 

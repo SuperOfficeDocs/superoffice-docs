@@ -3,7 +3,8 @@ uid: help-nl-follow-up-create
 title: "Vervolgactiviteiten toevoegen"
 description: "Vervolgactiviteiten toevoegen of kopiëren"
 author: Bergfrid Dias
-so.date: 09.29.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: agenda, vervolgactiviteit, bellen, telefoon, vergadering, tak
 so.topic: howto
 language: nl
@@ -124,7 +125,7 @@ Sommige informatie wordt automatisch ingevoegd op basis van de context, bijvoorb
 * **Om de standaardduur te gebruiken:** Dubbelklik op een tijdsinterval in de agenda, of klik met de rechtermuisknop op een tijd in de agenda en selecteer **Nieuw**.
 
 > [!NOTE]
-> Als u de vergadering maakt op het tabblad **Weergave**, kunt u ervoor kiezen om het dialoogvenster **Deelnemers automatisch** te laten invullen met de leden in de weergave. Als u deze optie wilt instellen, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u de voorkeur **Deelnemers uit groepsweergave** in op **Ja**. Klik op **Opslaan**.
+> Als u de vergadering maakt op het tabblad **Weergave**, kunt u ervoor kiezen om deelnemers automatisch te laten invullen met de leden in de weergave. Als u deze optie wilt instellen, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u de voorkeur **Deelnemers uit groepsweergave** in op **Ja**. Klik op **Opslaan**.
 
 ### <a id="associate" />Vervolgactiviteit maken voor een medewerker
 
