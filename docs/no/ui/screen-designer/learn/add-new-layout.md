@@ -3,7 +3,8 @@ uid: help-no-screen-designer-add-layout
 title: Legg til ny skjermlayout
 description: Slik legger du til et nytt oppsett for en brukergruppe.
 author: Bergfrid Dias
-so.date: 03.29.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: Skjermdesigner, format, hovedkort, arkiv
 so.topic: howto
 so.audience: settings
@@ -39,7 +40,7 @@ Se denne videoen, og finn ut hvordan du legger til et nytt layout, eller følg t
 4. Hvis det er relevant, klikker du på teksten ved siden av **Tilordne oppsett til**.
 
     Oppsettene kan som standard tilordnes til brukergrupper.
-    Hvis du imidlertid legger til hovedkort-layouter for bildene Salg eller Prosjekt, kan du tilordne layoutene til salgstyper eller prosjekttyper.
+    Hvis du imidlertid legger til hovedkort-layouter for bildene Salg, Prosjekt, eller Sak kan du tilordne layoutene til salgstyper, prosjekttyper, eller sakstyper.
 
 5. Klikk på **Legg til** under **Layouter**.
 
@@ -55,7 +56,7 @@ Se denne videoen, og finn ut hvordan du legger til et nytt layout, eller følg t
 
 8. Klikk på **Tilordne**-feltet og velg brukergruppen(e) som skal bruke den nye layouten.
 
-    Listen viser bare brukergrupper som bruker standardlayouten. En brukergruppe kan bare tilordnes til én layout. Salgs- eller prosjekttyper vil være tilgjengelige her hvis du valgte disse alternativene i trinn 3.
+    Listen viser bare brukergrupper som bruker standardlayouten. En brukergruppe kan bare tilordnes til én layout. Salgs- prosjek- eller sakstyper vil være tilgjengelige her hvis du valgte disse alternativene i trinn 4.
 
 9. Angi en beskrivelse av layouten i feltet **Beskrivelse**.
 

@@ -3,7 +3,8 @@ uid: help-en-screen-designer-add-layout
 title: Add new screen layout
 description: How to add a new layout for a user group.
 author: Bergfrid Dias
-so.date: 03.29.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: screen designer, layout, main card, archive
 so.topic: howto
 so.audience: settings
@@ -38,7 +39,7 @@ Watch this video and find out how add a new layout or follow the step-by-step gu
 4. If relevant, click the text next to **Assign layouts to**.
 
     By default, the layouts can be assigned to user groups.
-    If, however, you are adding main card layouts for the Sale or Project screens, you can assign the layouts to sale types or project types.
+    If, however, you are adding main card layouts for the Sale, Project, or Request screens, you can assign the layouts to sale types, project types, or request types.
 
 5. Click **Add** under **Layouts**.
 
@@ -54,7 +55,7 @@ Watch this video and find out how add a new layout or follow the step-by-step gu
 
 8. Click the **Assign to** field and select the user group(s) that will use this new layout.
 
-    The list will display only user groups that are using the default layout. A user group can only be assigned to one layout. Sale types or project types will be available here, if you selected these options in step 3.
+    The list will display only user groups that are using the default layout. A user group can only be assigned to one layout. Sale types, project types, and request types will be available here, if you selected these options in step 3.
 
 9. Enter a description of the layout in the **Description** field.
 

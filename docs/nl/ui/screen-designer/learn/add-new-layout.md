@@ -3,7 +3,8 @@ uid: help-nl-screen-designer-add-layout
 title: Toevoegen van een nieuwe schermopmaak
 description: Een nieuwe lay-out toevoegen voor een gebruikersgroep.
 author: Bergfrid Dias
-so.date: 03.29.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: schermontwerper, opmaak, hoofdkaart, archief
 so.topic: howto
 so.audience: settings
@@ -38,7 +39,7 @@ Bekijk deze video en ontdek hoe u een nieuwe opmaak toevoegt of volg de stapsgew
 4. Klik, indien relevant, op de tekst naast **Opmaken toewijzen aan**.
 
     Standaard kunnen de opmaken worden toegewezen aan gebruikersgroepen.
-    Als u echter hoofdkaartopmaken toevoegt voor de schermen Verkoop of Project kunt u de opmaken toewijzen aan verkooptypen of projecttypen.
+    Als u echter hoofdkaartopmaken toevoegt voor de schermen Verkoop, Project, of Verzoek kunt u de opmaken toewijzen aan verkooptypen, projecttypen, of verzoektypen.
 
 5. Klik op **Toevoegen** onder **Opmaken**.
 
@@ -54,7 +55,7 @@ Bekijk deze video en ontdek hoe u een nieuwe opmaak toevoegt of volg de stapsgew
 
 8. Klik op het veld **Toewijzen aan** en selecteer de gebruikersgroep(en) die deze nieuwe opmaak zullen gebruiken.
 
-    De lijst toont alleen gebruikersgroepen die de standaardopmaak gebruiken. Een gebruikersgroep kan aan slechts één opmaak worden toegewezen. Verkooptypen of projecttypen zijn hier beschikbaar, als u deze opties in stap 3 hebt geselecteerd.
+    De lijst toont alleen gebruikersgroepen die de standaardopmaak gebruiken. Een gebruikersgroep kan aan slechts één opmaak worden toegewezen. Verkooptypen, projecttypen, of verzoektypen zijn hier beschikbaar, als u deze opties in stap 4 hebt geselecteerd.
 
 9. Voer een beschrijving van de opmaak in het veld **Beschrijving** in.
 
