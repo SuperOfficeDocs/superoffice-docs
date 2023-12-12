@@ -79,8 +79,8 @@ Hvis du markerer **Hele dagen**, indstilles tidspunktet for opfølgningen til pe
 * Valgfrit, vælg et firma eller en kontakt, som opfølgningen vedrører. Hvis du vil invitere dem og andre til mødet, skal du klikke på **Inviter**.
 
   * [Tilføj deltagere][5].
-  * Valgfrit, tilføj en placering.
-  * Valgfrit, tilføj (flere) rum, ressource og/eller steder.
+  * Valgfrit, tilføj møderom, lokaler, eller steder.
+  * Valgfrit, tilføj sted eller adresse.
 
     ![Udvidet opfølgingsdialog - skærmbillede][img8]
 

@@ -79,8 +79,8 @@ Wenn Sie **Ganztägig** aktivieren, wird die Zeit der Folgeaufgabe auf den als [
 * Optional können Sie ein Unternehmen oder einen Kontakt auswählen, auf den sich die Folgeaufgabe bezieht. Wenn Sie sie und andere zu Ihrem Meeting einladen möchten, klicken Sie auf **Einladen**.
 
   * [Teilnehmer hinzufügen][5].
-  * Optional, fügen Sie einen Standort hinzu.
-  * Optional, fügen Sie (weitere) Räume, Ressourcen und/oder Standorte hinzu.
+  * Optional, fügen Sie Räume, Standorte oder Ressourcen hinzu.
+  * Optional, fügen Sie eine Adresse hinzu.
 
     ![Erweiterter Folgeaufgabesdialog -screenshot][img8]
 

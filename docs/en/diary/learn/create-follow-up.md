@@ -3,7 +3,7 @@ uid: help-en-follow-up-create
 title: Add follow-up
 description: How to add or copy meeting, to-do, or call in SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 11.20.2023
+so.date: 12.12.2023
 so.version: 10.2.11
 keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone
 so.topic: howto
@@ -80,8 +80,8 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 * Optionally, select a company or contact the follow-up pertains to. If you want to invite them and others to your meeting, click **Invite**.
 
   * [Add attendees][5].
-  * Optionally, add a location.
-  * Optionally, add (more) rooms, resource, and/or locations.
+  * Optionally, add a location or address.
+  * Optionally, add meeting rooms, locations, or resources.
 
     ![Extended follow-up dialog -screenshot][img8]
 

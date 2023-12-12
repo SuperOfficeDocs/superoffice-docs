@@ -81,8 +81,8 @@ Sommige informatie wordt automatisch ingevoegd op basis van de context, bijvoorb
 * Optioneel, selecteer een bedrijf of contact waarop de opvolging betrekking heeft. Als u ze en anderen wilt uitnodigen voor uw vergadering, klik dan op **Uitnodigen**.
 
   * [Voeg deelnemers toe][5].
-  * Optioneel, voeg een locatie toe.
-  * Optioneel, voeg (meer) kamers, bronnen en/of locaties toe.
+  * Optioneel, voeg ruimters, locaties, of resources toe.
+  * Optioneel, voeg een adres toe.
 
     ![Uitgebreid follow-up dialoogvenster -screenshot][img8]
 

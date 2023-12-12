@@ -79,8 +79,8 @@ Hvis du markerer **Hele dagen**, blir tiden for oppfølgingen satt til perioden 
 * Valgfritt, velg et selskap eller en kontakt som oppfølgingen gjelder for. Hvis du vil invitere dem og andre til møtet, klikk på **Inviter**.
 
   * [Legg til deltakere][5].
-  * Valgfritt, legg til en plassering.
-  * Valgfritt, legg til (flere) rom, ressurs og/eller steder.
+  * Valgfritt, legg til møterom, lokasjoner, eller steder.
+  * Valgfritt, legg til sted eller adresse.
 
     ![Utvidet oppfølgingsdialog - skjermbilde][img8]
 

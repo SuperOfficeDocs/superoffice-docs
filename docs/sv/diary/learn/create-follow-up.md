@@ -78,8 +78,8 @@ händelsen överlappar med en befintlig händelse, visas ett utropstecken ![ikon
 * Valgfritt, välj ett företag eller en kontakt som händelsen gäller. Om du vill bjuda in dem och andra till mötet, klicka på **Bjud in**.
 
   * [Lägg till deltagare][5].
-  * Valgfritt, lägg till en plats.
-  * Valgfritt, lägg till (fler) rum, resurs och/eller platser.
+  * Valgfritt, legg til rum, lokasjoner, eller resurser.
+  * Valgfritt, legg til plats eller adresse.
 
     ![Utökad uppföljningsdialogruta -screenshot][img8]
 
