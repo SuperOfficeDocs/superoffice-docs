@@ -1,5 +1,5 @@
 ---
-uid: help-en-request-type-create
+uid: help-no-request-type-create
 title: Legg til sakstype
 description: Legg til sakstype
 author: Bergfrid Dias
@@ -9,7 +9,7 @@ keywords: sak, type
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-language: en
+language: no
 ---
 
 # Legg til sakstype (kun i pilot)

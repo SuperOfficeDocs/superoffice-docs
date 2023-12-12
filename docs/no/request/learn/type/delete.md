@@ -1,5 +1,5 @@
 ---
-uid: help-en-request-type-delete
+uid: help-no-request-type-delete
 title: Slett sakstype
 description: Slett sakstype
 author: Bergfrid Dias
@@ -9,7 +9,7 @@ keywords: sak, type
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-language: en
+language: no
 ---
 
 # Slett sakstype (kun pilot)

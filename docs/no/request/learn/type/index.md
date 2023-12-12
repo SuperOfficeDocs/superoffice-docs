@@ -1,5 +1,5 @@
 ---
-uid: help-en-request-type
+uid: help-no-request-type
 title: Sakstype
 description: Sakstype
 author: Bergfrid Dias
@@ -9,7 +9,7 @@ keywords: sak, type
 so.topic: concept
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-language: en
+language: no
 ---
 
 # Sakstype
@@ -47,7 +47,7 @@ Finansteamet bruker saker for å håndtere innkommende fakturakrav, noe som krev
 | Standard prioritet | Den [prioriteten][3] som er satt når en agent oppretter en ny sak. Går foran andre preferanser. Obligatorisk hvis **Tilgjengelige prioriteter** er satt. |
 | Svarmal | Den [svarmalen][5] som vil bli brukt når en agent svarer på en sak av denne typen. |
 
-## Related content
+## Aktuelt innhold
 
 * [Legg til sakstype][1]
 * [Slett sakstype][2]

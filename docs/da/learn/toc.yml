@@ -98,7 +98,7 @@ items:
       topicHref: ../sale/learn/screen/sales-guide-admin.md
       items:
       - name: Salgsguide
-        href: ../sale/learn/screen/sales-guide-admin.md
+        topicHref: ../sale/learn/screen/sales-guide-admin.md
         items:
         - name: Oversigt
           href: ../sale/learn/screen/sales-guide-admin.md
@@ -109,7 +109,7 @@ items:
         - name: Deaktiver salgsguide
           href: ../sale/learn/sales-guide/deactivate.md
       - name: Projektguide
-        href: ../project/learn/screen/project-guide-admin.md
+        topicHref: ../project/learn/screen/project-guide-admin.md
         items:
         - name: Oversigt
           href: ../project/learn/screen/project-guide-admin.md
@@ -135,7 +135,7 @@ items:
       topicHref: ../admin/options/learn/index.md
 
     - name: Chat
-      href: ../chat/learn/admin/index.md
+      topicHref: ../chat/learn/admin/index.md
       items:
       - name: Oversigt
         href: ../chat/learn/admin/index.md
@@ -153,8 +153,17 @@ items:
       items:
       - name: Oversigt
         href: ../request/learn/admin/index.md
+      - name: Sagstyper
+        topicHref: ../request/learn/type/index.md
+        items:
+        - name: Oversigt
+          href: ../request/learn/type/index.md
+        - name: Opret sagstype
+          href: ../request/learn/type/create.md
+        - name: Slet sagstype
+          href: ../request/learn/type/delete.md
       - name: Kategorier
-        href: ../request/learn/category/index.md
+        topicHref: ../request/learn/category/index.md
         items:
         - name: Oversigt
           href: ../request/learn/category/index.md
@@ -163,7 +172,7 @@ items:
         - name: Slet sagskategori
           href: ../request/learn/category/delete.md
       - name: Prioriteter
-        href: ../request/learn/priority/index.md
+        topicHref: ../request/learn/priority/index.md
         items:
         - name: Oversigt
           href: ../request/learn/priority/index.md
@@ -174,7 +183,7 @@ items:
         - name: Opret eskaleringsniveauer
           href: ../request/learn/priority/escalation-levels.md
       - name: Sagsstatus
-        href: ../request/learn/status/index.md
+        topicHref: ../request/learn/status/index.md
         items:
         - name: Oversigt
           href: ../request/learn/status/index.md
