@@ -3,11 +3,5 @@ items:
     href: index.md
   - name: Deelnemers toevoegen aan vervolgactiviteiten
     href: add-participant.md
-  - name: Uitnodiging bewerken of verwijderen
-    href: update.md
-  - name: Vervolgactiviteiten weergeven waarvoor u bent uitgenodigd
-    href: follow-ups-you-are-invited-to.md
-  - name: Uitnodigingen ontvangen
-    href: receive.md
-  - name: Antwoorden op uitnodigingen verwerken
-    href: response.md
+  - name: Uitnodigingen accepteren of afwijzen
+    href: accept-decline.md

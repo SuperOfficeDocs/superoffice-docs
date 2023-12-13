@@ -39,4 +39,4 @@ incomingCall = appointmentAgent.SaveAppointmentEntity(incomingCall);
 <!-- Referenced links -->
 [1]: <xref:CRMScript.NetServer.NSAppointmentAgent>
 [2]: <xref:CRMScript.NetServer.NSAppointmentEntity>
-[3]: ../../overview.md#phone-calls
+[3]: ../../learn/follow-ups.md#call

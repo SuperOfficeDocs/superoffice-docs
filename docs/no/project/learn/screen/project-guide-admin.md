@@ -18,7 +18,7 @@ I fanen Prosjektguide i **Arbeidsflyt**-bildet i Innstillinger og vedlikehold ka
 
 ## Eksempel
 
-Prosjekttypen "Konferanse" kan bestå av tre statuser: "Planlagt", "Under arbeid" og "Lukking". Statusen "Planlagt" kan for eksempel ha oppfølgingen "Planleggingsmøte" (en avtale) og dokumentet "Konferanseprogram" (et notat).
+Prosjekttypen "Konferanse" kan bestå av tre statuser: "Planlagt", "Under arbeid" og "Lukking". Statusen "Planlagt" kan for eksempel ha oppfølgingen "Planleggingsmøte" og dokumentet "Konferanseprogram" (et notat).
 
 ## Hva vil du gjøre nå?
 

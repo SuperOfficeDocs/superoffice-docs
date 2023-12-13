@@ -30,12 +30,12 @@ Se denne videoen for å lære hvor enkelt det er å bruke salgsguiden (videoleng
 
 1. Klikk på knappen **Opprett** foran navnet på oppfølgingen/dokumentet.
 
-2. I dialogboksen som åpnes, oppretter du oppfølgingen/dokumentet på vanlig måte. Mange av feltene er ferdig utfylt, men du kan endre informasjonen eller legge til mer informasjon. Se [dialogboksen Dokument][1] og [Dialogboksen for oppfølginger][2].
+2. I dialogboksen som åpnes, [oppretter du oppfølgingen][2] eller [dokumentet][3] på vanlig måte. Mange av feltene er ferdig utfylt, men du kan endre informasjonen eller legge til mer informasjon.
 
 3. Når du er ferdig med oppfølgingen, merker du av for **Utført** i den aktuelle dialogboksen, eller i avmerkingsboksen foran oppfølgingsnavnet på detaljkortet **Salgsguide**. Dokumenter er som standard merket som utført.
 
     > [!TIP]
-    > Hvis du vil opprette flere oppfølginger av samme type, kan du høyreklikke på aktiviteten og velge **Opprett en til**. Da vises [dialogboksen for oppfølginger][2].
+    > Hvis du vil opprette flere oppfølginger av samme type, kan du høyreklikke på aktiviteten og velge **Opprett en til**.
 
 4. Når alle oppfølginger og dokumenter for en fase er utført, går du til neste fase på hovedkortet **Salg**.
 
@@ -90,11 +90,11 @@ Du registrerer et nytt salg og velger salgstypen **Salg til ny kunde**, som er t
 
 ### Fasen Første møte
 
-1. Du har avtalt møtetidspunktet, og du vil opprette avtalen **Kundemøte** i dagboken og invitere deltakere.
+1. Du har avtalt møtetidspunktet, og du vil opprette oppfølgingen **Kundemøte** i dagboken og invitere deltakere.
 
     1. I prosjektguiden klikker du på **Opprett** ved siden av oppfølgingen **Kundemøte**.
-        Dialogboksen **Avtale** åpnes, med **Møte ute** angitt som avtaletype og navnet på salget og firmaet ferdig utfylt.
-    2. [Fyll ut informasjon, og inviter deltakere][1].
+        Dialogboksen **Oppfølging** åpnes, med **Møte ute** angitt som type og navnet på salget og firmaet ferdig utfylt.
+    2. Fyll ut informasjon, og [inviter deltakere][1].
     3. Klikk på **Lagre**.
 
 2. For ordens skyld ønsker du å sende en e-post der du bekrefter møtetidspunkt og møtested.
@@ -152,7 +152,7 @@ Du registrerer et nytt salg og velger salgstypen **Salg til ny kunde**, som er t
 
     3. I dialogboksen **Salgsguide** har du tre muligheter:
 
-        * Klikk på **Opprett** for å opprette avtalen **Kontraktsmøte**, som er neste oppfølging i salgsguiden. Du kommer direkte til dialogboksen for oppfølgingen.
+        * Klikk på **Opprett** for å opprette oppfølgingen **Kontraktsmøte**, som er neste oppfølging i salgsguiden. Du kommer direkte til dialogboksen for oppfølgingen.
 
         * Klikk på **Avbryt** hvis du ikke vil opprette oppfølgingen nå. Dialogboksen **Salgsguide** lukkes, og du må selv huske å opprette oppfølgingen senere.
 
@@ -161,15 +161,15 @@ Du registrerer et nytt salg og velger salgstypen **Salg til ny kunde**, som er t
     > [!NOTE]
     > Dialogboksen **Salgsguide** åpnes fordi det er definert **Foreslå denne oppfølgingen automatisk** for oppfølgingen **Kontraktsmøte** i Innstillinger og vedlikehold. Du kan velge at denne dialogboksen ikke skal vises, slik at neste oppfølging foreslås automatisk.
 
-3. Du vil opprette avtalen **Kontraktsmøte** fra dialogboksen **Salgsguide**.
+3. Du vil opprette oppfølgingen **Kontraktsmøte** fra dialogboksen **Salgsguide**.
 
     Klikk på **Opprett** i dialogboksen **Salgsguide**.
-    Dialogboksen **Avtale** åpnes, der du kan opprette møtet på vanlig måte.
+    Dialogboksen **Oppfølging** åpnes, der du kan opprette møtet på vanlig måte.
 
 4. Deretter ønsker du å opprette kontrakten du skal ha med på møtet.
 
     1. Klikk på **Opprett** ved siden av dokumentet **Signert kontrakt** for å opprette kontrakten.
-    2. Når kontraktsmøtet er gjennomført og kontrakten underskrevet, merker du avtalen **Kontraktsmøte** som utført.
+    2. Når kontraktsmøtet er gjennomført og kontrakten underskrevet, merker du oppfølgingen **Kontraktsmøte** som utført.
 
 Nå kan du endre fasen til **Solgt**. Når alle ønskede oppfølginger og dokumenter for salget er utført, kan du sette salget til utført.
 
@@ -181,8 +181,8 @@ Nå kan du endre fasen til **Solgt**. Når alle ønskede oppfølginger og dokume
 * [Sette opp en salgsguide i Innstillinger og vedlikehold][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/invitation/add-participant.md
+[2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
 

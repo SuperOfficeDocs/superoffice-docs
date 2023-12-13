@@ -35,7 +35,7 @@ U kunt een selectie maken met alle documenten die u in de afgelopen maand hebt g
 
 U kunt een selectie maken met alle vervolgactiviteiten voor een specifieke klant om inzicht te krijgen in de relatie die u hebt voordat u in een verkoopgesprek gaat met de betreffende klant.
 
-U kunt ook een selectie maken met alle vervolgactiviteiten van deze maand, om te zien welke afspraken u hebt en of u er meer moet plannen.
+U kunt ook een selectie maken met alle vervolgactiviteiten van deze maand, om te zien welke vervolgactiviteit u hebt en of u er meer moet plannen.
 
 ### Producten
 

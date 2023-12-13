@@ -71,7 +71,7 @@ language: da
 
 ### Dialogboks
 
-* **Dialogboksen for opfølgninger**: Der tilføjes en genvej til URL-adressen øverst på fanen **www** i dialogboksen **Aftale**, **Opgave** og **Samtale**. Det er også muligt at klikke på **Åbn i nyt vindue** for at åbne internetsiden i et nyt browservindue.
+* **Dialogboksen for opfølgninger**: Der tilføjes en genvej til URL-adressen øverst på fanen **www** i dialogboksen **Opfølgning**. Det er også muligt at klikke på **Åbn i nyt vindue** for at åbne internetsiden i et nyt browservindue.
 
 * **Dialogboksen Dokument/Tilbud/Produkt**: Der tilføjes en genvej til URL-adressen øverst under fanen **www** i disse dialogbokse.
 

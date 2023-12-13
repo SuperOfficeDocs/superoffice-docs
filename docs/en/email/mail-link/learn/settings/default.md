@@ -21,13 +21,13 @@ Options in the **Archive options** pane of the **SuperOffice CRM options** dialo
 | Created from email client | [Enables default archiving][5] of emails you compose in your mail client by clicking the **New email** button. When you send an email, it is archived in SuperOffice CRM by default. If you select **Archive is OFF** in the email window of the mail client, the email will not be archived to SuperOffice CRM. |
 | Replying to emails from SuperOffice CRM | Enable default archiving of emails you reply to in SuperOffice CRM. |
 | Forwarding emails from SuperOffice CRM | Enable default archiving of emails you forward in SuperOffice CRM. |
-| Sending appointments from SuperOffice CRM | By default, archive appointments sent as emails from SuperOffice CRM. |
+| Sending appointments from SuperOffice CRM | By default, archive follow-ups sent as emails from SuperOffice CRM. |
 | Sending documents from SuperOffice CRM | Archive documents sent as emails from SuperOffice CRM. |
 | Default template when archiving email | In these two dropdowns you may select the default incoming and outgoing email template. |
 
 ## Send as email
 
-* You can send an appointment as an email by clicking **Task** > **Send as email** in the **Appointment** dialog. A new email window containing the appointment will then open in your mail client.
+* You can send a follow-up as an email by clicking **Task** > **Send as email** in the **Follow-up** dialog. A new email window containing the follow-up will then open in your mail client.
 
 * You can send a document as an email by right-clicking it in the **Activities** section tab in SuperOffice CRM and selecting **Send as email** or by clicking **Task** > **Send as email** in the Document screen. A new email window containing the document will then open in your mail client.
 

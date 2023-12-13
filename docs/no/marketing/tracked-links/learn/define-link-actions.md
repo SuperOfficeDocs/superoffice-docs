@@ -26,8 +26,9 @@ I SuperOffice Marketing kan du legge til handlinger i koblingene. Disse handling
 | Respons | Legg til landingsside eller tilpasset tekst. |
 | Angi felt | Legg til en verdi i et ekstra felt for kundekontakter |
 | Interesser | Oppdater interesser. |
-| Utvalg/prosjekt] | Legg til/fjern kundekontakt fra et utvalg/prosjekt. |
-| Oppfølging] | Opprett en oppfølging (oppgave eller avtale) i SuperOffice CRM. |
+| Utvalg/prosjekt
+ | Legg til/fjern kundekontakt fra et utvalg/prosjekt. |
+| Oppfølging | Opprett en oppfølging (oppgave eller møte) i SuperOffice CRM. |
 | Sak | Opprett ny sak. |
 | Skript | Kjør et skript. |
 
@@ -70,31 +71,31 @@ Se også [Fjerne interesser i SuperOffice CRM][1].
 
 Her kan du angi at mottakere som klikker på koblingen, skal legges til eller fjernes fra utvalg i SuperOffice Service eller fra utvalg eller prosjekter i SuperOffice CRM. Skriv inn begynnelsen av et navn for å starte hurtigsøket.
 
-## Oppfølging (oppgave/avtale)
+## Oppfølging (oppgave/møte)
 
-I fanen **Oppfølging** kan du angi at et klikk på en kobling skal generere oppgaver eller avtaler i SuperOffice CRM.
+I fanen **Oppfølging** kan du angi at et klikk på en kobling skal generere oppgaver eller møter i SuperOffice CRM.
 
 1. Merk av for **Oppfølging** for å aktivere denne funksjonen.
 
 2. **Oppgave/Avtale**: Velg hvilken type oppfølging du vil opprette.
 
-3. **Beskrivelse**: Angi en beskrivelse av oppgaven/avtalen. Dette kan for eksempel være hvilken utsendelse det gjelder, hvilken kobling mottakeren har klikket på, og eventuelt hvordan oppfølgingen/avtalen skal følges opp.
+3. **Beskrivelse**: Angi en beskrivelse av oppfølging. Dette kan for eksempel være hvilken utsendelse det gjelder, hvilken kobling mottakeren har klikket på, og eventuelt hvordan oppgaven/møtet skal følges opp.
 
-4. **Prosjekt**: Her velger du et prosjekt som oppgaven/avtalen skal tilknyttes. Skriv inn begynnelsen av et navn for å starte hurtigsøket.
+4. **Prosjekt**: Her velger du et prosjekt som oppfølgingen skal tilknyttes. Skriv inn begynnelsen av et navn for å starte hurtigsøket.
 
-5. **Oppgave**: Velg påkrevd oppgave- eller avtaletype.
+5. **Oppgave**: Velg påkrevd type.
 
-6. **Opprettet av**: Velg hvilken bruker som skal være ansvarlig for oppgaven/avtalen, eller klikk på knappen **Velg aktiv bruker**![ikon][img1] for å velge deg selv.
+6. **Opprettet av**: Velg hvilken bruker som skal være ansvarlig for oppfølgingen, eller klikk på knappen **Velg aktiv bruker**![ikon][img1] for å velge deg selv.
 
-7. **Fordel til vår kontakt hvis tilgjengelig**: Merk av her hvis oppgaven/avtalen skal tildeles "vår kontakt" for mottakeren (den kundeansvarlige).
+7. **Fordel til vår kontakt hvis tilgjengelig**: Merk av her hvis oppfølgingen skal tildeles "vår kontakt" for mottakeren (den kundeansvarlige).
 
-8. **Standardmottaker**: Velg en standardmottaker som oppgaven/avtalen skal tildeles, eller klikk på knappen **Velg aktiv bruker**![ikon][img1] for å velge deg selv.
+8. **Standardmottaker**: Velg en standardmottaker som oppfølgingen skal tildeles, eller klikk på knappen **Velg aktiv bruker**![ikon][img1] for å velge deg selv.
 
-9. **Varighet**: Klikk på knappen **Velg tidsperiode**![ikon][img2] ved siden av dette feltet for å angi varigheten for oppgaven/avtalen.
+9. **Varighet**: Klikk på knappen **Velg tidsperiode**![ikon][img2] ved siden av dette feltet for å angi varigheten for oppfølgingen.
 
 ## Sak
 
-I fanen **Sak** kan du angi at en SuperOffice Service-sak skal opprettes for personer som klikker på en kobling.md)]
+I fanen **Sak** kan du angi at en SuperOffice Service-sak skal opprettes for personer som klikker på en kobling.
 
 1. **Opprett ny sak**: Merk av her for å registrere en ny sak når kunden klikker på koblingen.
 2. **Tittel**: Her skriver du inn ønsket tittel på den nye saken.

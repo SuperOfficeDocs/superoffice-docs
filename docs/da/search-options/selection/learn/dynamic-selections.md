@@ -35,7 +35,7 @@ Du kan oprette et udvalg, der indeholder alle de dokumenter, du har oprettet den
 
 Du kan oprette et udvalg, som indeholder alle opfølgninger på en bestemt kunde, således at du kan danne dig et indtryk af, hvilket forhold I har til kunden, før i afholder et salgsmøde med dem.
 
-Og du kan oprette et udvalg, som indeholder alle opfølgninger, du har denne måned, så du kan få et overblik over dine aftaler og vurdere, om det er nødvendigt at oprette flere.
+Og du kan oprette et udvalg, som indeholder alle opfølgninger, du har denne måned, så du kan få et overblik over dine møderer og vurdere, om det er nødvendigt at oprette flere.
 
 ### Produkter
 

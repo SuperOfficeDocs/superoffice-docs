@@ -11,7 +11,7 @@ so.client: pocket, mobile
 
 # Mobile applications
 
-With one of our mobile applications, you can access the SuperOffice database when you are out and about. No matter where you are, you can view and update all your CRM data, including appointments, documents, email and email attachments, future sales, delayed sales, sale statuses, projects, project members, selections, your diary, and your colleagues' diaries. And all in real-time!
+With one of our mobile applications, you can access the SuperOffice database when you are out and about. No matter where you are, you can view and update all your CRM data, including follow-ups, documents, email and email attachments, future sales, delayed sales, sale statuses, projects, project members, selections, your diary, and your colleagues' diaries. And all in real-time!
 
 SuperOffice Mobile (for SuperOffice 9 and newer) and Pocket CRM (for SuperOffice 8 and older) are free and included with all SuperOffice CRM Online user plans and SuperOffice Onsite Subscriptions and available to all users of iOS or Android smartphones and tablets. The applications are distributed via the respective operating system's app store channels.
 
@@ -30,7 +30,7 @@ SuperOffice Mobile (for SuperOffice 9 and newer) and Pocket CRM (for SuperOffice
 
 * Gives you access to your company's SuperOffice database, when you need it, wherever you are.
 
-* Keeps you up-to-date with your appointments: you can respond to invitations and receive replies from your contacts instantly.
+* Keeps you up-to-date with your meetings: you can respond to invitations and receive replies from your contacts instantly.
 
 * You can follow up with colleagues and in-progress sales, round the clock and from anywhere.
 

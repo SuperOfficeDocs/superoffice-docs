@@ -14,7 +14,7 @@ language: sv
 # Ta bort ärendestatus
 
 > [!NOTE]
-> eftersom varje intern status måste vara länkad till minst en ärendestatus går det inte att ta bort den enda ärendestatusen som är länkad till en intern status. Du kan inte ta bort statusar definierade som standardstatusar (de som har en bock i kolumnen **Standard** i fliken **Ärendestatus**).
+> Eftersom varje intern status måste vara länkad till minst en ärendestatus går det inte att ta bort den enda ärendestatusen som är länkad till en intern status. Du kan inte ta bort statusar definierade som standardstatusar (de som har en bock i kolumnen **Standard** i fliken **Ärendestatus**).
 
 ## Ta bort en status i Inställningar och underhåll
 

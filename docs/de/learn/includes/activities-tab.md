@@ -2,7 +2,7 @@
 Die Spalten auf der Bereichsregisterkarte **Aktivitäten** enthalten die folgenden Informationen:
 
 * ![Symbol][img1]: In der ersten Spalte der Bereichsregisterkarte **Aktivitäten** kann eine Aktivität als **Abgeschlossen** eingestuft werden. Die Markierung bedeutet, [Aktivität ist abgeschlossen][1], während ein leeres Kästchen darauf hinweist, dass die Aktivität nicht abgeschlossen ist.
-* Die zweite Spalte enthält Symbole, die die Kategorie der Aktivität näher bezeichnen, zum Beispiel ![Symbol][img2] für einen Anruf.
+* Die zweite Spalte enthält Symbole, die die Kategorie der Aktivität näher bezeichnen, zum Beispiel ![Symbol][img2] für einen zu erledigen.
 * Datumsinformation:
   * Dokumente: Zeigt das Datum, an dem das Dokument erfasst wurde.
   * Folgeaufgaben: Zeigt das Datum, an dem die Folgeaufgabe ausgeführt wird.
@@ -17,4 +17,4 @@ Die Spalten auf der Bereichsregisterkarte **Aktivitäten** enthalten die folgend
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png
-[img2]: ../../../../common/icons/phone.png
+[img2]: ../../../../common/icons/appointment-task.png

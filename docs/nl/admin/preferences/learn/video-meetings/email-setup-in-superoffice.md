@@ -31,12 +31,12 @@ Als u een uitnodiging per e-mail naar externe gebruikers wilt verzenden, moet u:
 * Uw e-mailinstellingen configureren in SuperOffice Postvak IN
 
     > [!TIP]
-    > Als u de URL van de videovergadering automatisch wilt opnemen in de afspraaktekst, werkt u uw uitnodigingssjabloon bij met {burl}. Als het veld **Locatie** in de afspraak leeg is, wordt hier de URL van de videovergadering toegevoegd.
+    > Als u de URL van de videovergadering automatisch wilt opnemen in de agenda, werkt u uw uitnodigingssjabloon bij met {burl}. Als het veld **Locatie** leeg is, wordt hier de URL van de videovergadering toegevoegd.
 
 * Configuratie instellen op SuperOffice Mail Link
 
     > [!NOTE]
-    > De URL van de videovergadering wordt automatisch toegevoegd aan de afspraaktekst ("Deelnemen aan vergadering: ..."). Als het veld **Locatie** in de afspraak leeg is, wordt hier de URL van de videovergadering toegevoegd.
+    > De URL van de videovergadering wordt automatisch toegevoegd aan de agenda ("Deelnemen aan vergadering: ..."). Als het veld **Locatie**  leeg is, wordt hier de URL van de videovergadering toegevoegd.
 
 ## Verwante onderwerpen
 

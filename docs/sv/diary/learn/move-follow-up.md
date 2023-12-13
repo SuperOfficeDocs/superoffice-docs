@@ -3,7 +3,8 @@ uid: help-sv-follow-up-move
 title: Flytta händelser
 description: Flytta händelser
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: kalender, händelse
 so.topic: howto
 language: sv
@@ -32,6 +33,9 @@ Ibland kommer du att behöva flytta händelser från en tidpunkt till en annan, 
 * Välj översikten **Vecka** eller **Månad** på sidopanelen, gå till önskad vecka eller månad och dra sedan händelsen från kalendern till önskad dag på sidopanelen. Kalendern uppdateras automatiskt med önskad vecka eller månad.
 
 * Flytta händelsen till aktivitetslistan tillfälligt, gå till önskad vecka eller månad och dra sedan tillbaka händelsen till önskad dag i kalendern.
+
+    > [!NOTE]
+    > Du kan inte flytta ett möte med deltagare till aktivitetslistan.
 
 ## Flytta från aktivitetslistan till kalendern
 

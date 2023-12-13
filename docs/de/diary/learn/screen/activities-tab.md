@@ -13,7 +13,7 @@ language: de
 
 ![Bereichsregisterkarte 'Aktivitäten' (Kalender) -screenshot][img4]
 
-In der Bereichsregisterkarte **Aktivitäten** erhalten Sie einen Gesamtüberblick über alle Aktivitäten. Gleichzeitig fungiert sie als Aufgabenliste. Sie enthält u. a. noch nicht abgeschlossene Termine und Aufgaben, und Sie können darin vorübergehend Folgeaufgaben speichern, denen Sie noch keine feste Uhrzeit bzw. noch kein festes Datum zugewiesen haben.
+In der Bereichsregisterkarte **Aktivitäten** erhalten Sie einen Gesamtüberblick über alle Aktivitäten. Gleichzeitig fungiert sie als Aufgabenliste. Sie enthält u. a. noch nicht abgeschlossene [Besprechungen und Aufgaben][2], und Sie können darin vorübergehend Folgeaufgaben speichern, denen Sie noch keine feste Uhrzeit bzw. noch kein festes Datum zugewiesen haben.
 
 Die Aktivitätenliste ändert sich nicht, wenn Sie im oberen Bereich in der Ansicht Kalender zwischen den verschiedenen Registerkarten wechseln.
 
@@ -21,16 +21,16 @@ Die Aktivitätenliste ändert sich nicht, wenn Sie im oberen Bereich in der Ansi
 
 Die Spalten der Aktivitäten enthalten folgende Informationen:
 
-* ![Symbol][img3]: Die erste Spalte der Aktivitätenliste legt den [Status einer Aktivität][1] als **Abgeschlossen** fest. Wenn das Kontrollkästchen mit einem Häkchen markiert ist (![Symbol][img2]), gilt die Aktivität als erledigt. Ist das Kästchen leer, gilt die Aktivität als nicht abgeschlossen.
+* ![Symbol][img3]: Die erste Spalte der Aktivitätenliste legt den [Status einer Aktivität][1] als **Abgeschlossen** fest. Wenn das Kontrollkästchen mit einem Häkchen markiert ist ![Symbol][img2], gilt die Aktivität als erledigt. Ist das Kästchen leer, gilt die Aktivität als nicht abgeschlossen.
 
     > [!TIP]
     > Um den Status **Erledigt** einer Aktivität zu ändern, klicken Sie einfach auf das Kontrollkästchen.
 
-* Die zweite Spalte enthält Symbole, die die Art der Aktivität näher bezeichnen. Ein Telefonsymbol beispielsweise steht für einen Anruf. Diese Symbole stehen stellvertretend für den Text in der Spalte **Typ**.
+* Die zweite Spalte enthält Symbole, die die Art der Aktivität näher bezeichnen. Diese Symbole stehen stellvertretend für den Text in der Spalte **Typ**.
 
     [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
-* Der Rest der Spalten in der Aktivitätenliste zeigt andere [Informationen über die Aktivität][2]. Wenn der Text in einem Feld nicht vollständig sichtbar ist, zeigen Sie mit der Maus auf den Text, um ihn in einer QuickInfo vollständig anzuzeigen.
+* Der Rest der Spalten in der Aktivitätenliste zeigt andere Informationen über die Aktivität. Wenn der Text in einem Feld nicht vollständig sichtbar ist, zeigen Sie mit der Maus auf den Text, um ihn in einer QuickInfo vollständig anzuzeigen.
 
 ## Aktivitäten in der Aktivitätenliste anzeigen
 
@@ -58,23 +58,23 @@ Nachdem eine Aktivität erledigt ist, wird sie am nächsten Tag von der Aktivit�
 
 ### Zukünftige Aufgaben anzeigen
 
-1. Gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen &gt; Einstellungen**.
+1. Gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen**.
 2. Wählen Sie **Funktionen**, und machen Sie die Option **Tage im Voraus anzeigen** ausfindig.
-
-    Hier können Sie festlegen, wie viele Tage erledigte Aktivitäten weiterhin sichtbar sein sollen.
-    Wenn Sie hier beispielsweise 7 eingeben, werden die Aufgaben für die nächste Woche angezeigt.
+3. Festlegen Sie, wie viele Tage erledigte Aktivitäten weiterhin sichtbar sein sollen. Wenn Sie hier beispielsweise 7 eingeben, werden die Aufgaben für die nächste Woche angezeigt.
 
 ### Aktivität von der Liste entfernen, wenn sie abgeschlossen ist
 
-1. Gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen &gt; Einstellungen**.
-2. Wählen Sie **Optische Effekte** aus, und bearbeiten Sie anschließend die [Einstellung][8] **Abgeschlossene Aktivitäten entfernen**.
+1. Gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen**.
+2. Wählen Sie **Optische Effekte** aus.
+3. Bearbeiten Sie anschließend die [Einstellung][8] **Abgeschlossene Aktivitäten entfernen**.
 
 ### Überfälligen Aktivitäten hervorheben
 
 Rot hervorgehobene Aktivitäten weisen darauf hin, dass das vorgesehene Datum für die Erledigung der Aktivität verstrichen ist. Gehen Sie wie folgt vor, um diese Einstellung zu ändern:
 
-1. Gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen &gt; Einstellungen**.
-2. Wählen Sie **Funktionen** und konfigurieren Sie die Option **Überfällige Aktivitäten markieren**.
+1. Gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen**.
+2. Wählen Sie **Funktionen**.
+3. Konfigurieren Sie die Option **Überfällige Aktivitäten markieren**.
 
 ## Was möchten Sie jetzt tun?
 
@@ -83,9 +83,9 @@ Rot hervorgehobene Aktivitäten weisen darauf hin, dass das vorgesehene Datum f�
 
 <!-- Referenced links -->
 [1]: ../change-completed-status.md
-[2]: dialog-for-followups.md
+[2]: ../follow-ups.md
 [5]: ../create-follow-up.md
-[7]: ../../../learn/activity/index.md
+[7]: ../../../learn/basics/activity.md
 [8]: ../../../learn/getting-started/preferences.md
 
 <!-- Referenced images -->

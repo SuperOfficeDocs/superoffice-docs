@@ -14,7 +14,7 @@ language: da
 Du kan modtage invitationer fra en person uden for din organisation og nemt acceptere og tilføje den til din dagbog. Dette kræver, at invitations-e-mailen indeholder et iCal-arkiv (.ics.) med invitationsdataene. I din indbakke vises e-mails med iCal-invitationer med disse ikoner: ![ikon][img1] og ![ikon][img2]
 
 > [!NOTE]
-> Hvis afsenderen/arrangøren er en registreret (en unik) person i SuperOffice CRM, tilføjes invitationer automatisk som foreløbige aftaler i din dagbog. Foreløbige aftaler kan også oprettes for andre medarbejdere, afhængigt af om indstillingen **Administrer indgående invitationer, deaktiver foreløbige** (under **E-mail**) er aktiv.
+> Hvis afsenderen/arrangøren er en registreret (en unik) person i SuperOffice CRM, tilføjes invitationer automatisk som foreløbige opfølginger i din dagbog. Foreløbige opfølginger kan også oprettes for andre medarbejdere, afhængigt af om indstillingen **Administrer indgående invitationer, deaktiver foreløbige** (under **E-mail**) er aktiv.
 
 ## Sådan accepterer du en invitation
 
@@ -34,7 +34,7 @@ Du kan modtage invitationer fra en person uden for din organisation og nemt acce
     * Accepter og giv afsenderen besked
     * Accepter, men giv ikke afsenderen besked
 
-Meddelelsen fjernes fra indbakken, og aftalen føjes til din dagbog.
+Meddelelsen fjernes fra indbakken, og opfølgingen føjes til din dagbog.
 
 <!-- Referenced links -->
 

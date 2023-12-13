@@ -34,7 +34,7 @@
 12. You can check the **Stalled** box to indicate that the sale has [stalled][2]. For example, if the customer decides to wait until next year before purchasing.
 
     > [!NOTE]
-    > The fields below change if you check **Stalled**. **Next activity** is changed to **Re-open date**, where you can enter a date for when the sale should be reopened, and **Source** is changed to **Reason (stalled)**, where you can enter why the sale cannot progress at the moment. If you mark the sale as stalled, the **Appointment** dialog is displayed when you click **Save**. Here you can set up a future meeting or phone call to follow up the stalled sale.
+    > The fields below change if you check **Stalled**. **Next activity** is changed to **Re-open date**, where you can enter a date for when the sale should be reopened, and **Source** is changed to **Reason (stalled)**, where you can enter why the sale cannot progress at the moment. If you mark the sale as stalled, the **Follow-up** dialog is displayed when you click **Save**. Here you can set up a future meeting or phone call to follow up the stalled sale.
 
 13. Enter an estimated sale date in the **Sale date** field. To change the estimated sale date, click the arrow next to the date and select a new one in the calendar that appears.
 

@@ -14,10 +14,10 @@ language: en
 ## Print day, week, month, or view
 
 1. Select the required tab in the Diary screen (**Day**, **Week**, **Month** or **View**).
-2. Right-click an appointment and select **Print**.
+2. Right-click a follow-up and select **Print**.
 3. In the window that displays the contents to be printed, click **Print**.
 
-## Print a follow-up (appointment, phone-call or task)
+## Print a follow-up
 
 1. Open the required follow-up on the **Activities** section tab in the Company, Contact, Diary, Sale, or Project screens.
 2. Click **Task** and select **Print**.

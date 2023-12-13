@@ -19,17 +19,13 @@ Die Bereichsregisterkarte **Aktivitäten** in der Ansicht Firma enthält alle zu
 
 ## Was möchten Sie tun?
 
-* [Aktivitäten anzeigen][1]
-* [Aktivitäten löschen][2]
-* [Antwort an E-Mail-Adresse von der Bereichsregisterkarte 'Aktivitäten'][3]
-* [E-Mail-Nachrichten von der Bereichsregisterkarte 'Aktivitäten' weiterleiten][4]
+* [Aktivitäten][1]
+* [E-Mail antworten oder weiterleiten von der Bereichsregisterkarte 'Aktivitäten'][3]
 * [Filter in Bereichsregisterkarten verwenden][5]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/view-activities.md
-[2]: ../../../learn/activity/delete-activities-contact.md
-[3]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[4]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[1]: ../../../learn/basics/activity.md
+[3]: ../../../learn/section-tabs/send-email.md
 [5]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->

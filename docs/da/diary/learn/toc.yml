@@ -1,27 +1,19 @@
 items:
 - name: Oversigt
   href: index.md
-- name: Naviger i skærmbilledet Dagbog
-  href: screen/navigate-in-diary.md
 - name: Dialogboks til opfølgning
   href: screen/dialog-for-followups.md
+- name: Aftale, samtale, opgave
+  href: follow-ups.md
 - name: Kalendervisninger
-  topicHref: screen/day.md
+  topicHref: screen/index.md
   items:
-  - name: Dag
-    href: screen/day.md
-  - name: Måned
-    href: screen/month.md
-  - name: Uge
-    href: screen/week.md
-  - name: Vis
-    href: screen/view.md
-  - name: Dialogboksen Gruppeoversigt
-    href: screen/view-dialog.md
-  - name: Se dine eller andre dagbøger
-    href: open.md
-  - name: Opret gruppeoversigt
-    href: create-view.md
+  - name: Dag, uge, måned
+    href: screen/index.md
+  - name: Gruppeoversigt
+    href: group-view.md
+  - name: Se andre dagbøger
+    href: other-diaries.md
 - name: Faner for afsnit
   topicHref: screen/activities-tab.md
   items:
@@ -30,43 +22,14 @@ items:
   - name: Salg
     href: screen/sales-tab.md
 - name: Arbejd med opfølgning
-  topicHref: appointment.md
+  topicHref: create-follow-up.md
   items:
-  - name: Aftale
-    topicHref: appointment.md
-    items:
-    - name: Oversigt
-      href: appointment.md
-    - name: Opret aftale
-      href: create-appointment.md
-  - name: Samtale
-    topicHref: phone-call/index.md
-    items:
-    - name: Oversigt
-      href: phone-call/index.md
-    - name: Registrer samtale
-      href: phone-call/add.md
-    - name: Ring til person
-      href: phone-call/dial.md
-    - name: Telefonegenskaber
-      href: phone-call/preferences.md
   - name: Videomøder
     href: video-meetings.md
-  - name: Opgaver
-    topicHref: task.md
-    items:
-    - name: Oversigt
-      href: task.md
-    - name: Opret opgave
-      href: create-task.md
   - name: "Tilføj opfølgning (aftale, opgave eller telefonopkald)"
     href: create-follow-up.md
-  - name: Rediger opfølgning
+  - name: Rediger eller slet opfølgning
     href: edit-follow-up.md
-  - name: Kopiér opfølgning
-    href: copy-follow-up.md
-  - name: Skift sluttid
-    href: change-end-time.md
   - name: Flyt opfølgning
     href: move-follow-up.md
   - name: Komplet opfølgning
@@ -77,10 +40,10 @@ items:
     href: follow-up-assign.md
   - name: Indstil alarm til opfølgning
     href: set-alarm.md
+  - name: Link dokumenter til opfølgning
+    href: linking-documents-to-follow-ups.md
   - name: Send en opfølgning som en e-mail
     href: send-as-email.md
-  - name: Slet opfølgning
-    href: delete-follow-up.md
   - name: Udskriv opfølgninger og dagbogsskærm
     href: print.md
 

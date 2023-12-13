@@ -30,12 +30,12 @@ Sehen Sie sich dieses Video an, um zu lernen, wie einfach es ist, den Verkaufsle
 
 1. Klicken Sie vor dem Namen der Folgeaufgabe/des Dokuments auf die Schaltfläche **Erstellen**.
 
-2. Erstellen Sie im daraufhin angezeigten Dialogfeld die Folgeaufgabe/das Dokument auf die übliche Art und Weise. Viele Felder sind bereits ausgefüllt. Sie können die Informationen jedoch ändern oder weitere Informationen hinzufügen. Siehe [Dialogfeld Dokument][1] und [Dialogfeld für Folgeaufgaben][2].
+2. Erstellen Sie im daraufhin angezeigten [Dialogfeld die Folgeaufgabe][2] oder [das Dokument][3] auf die übliche Art und Weise. Viele Felder sind bereits ausgefüllt. Sie können die Informationen jedoch ändern oder weitere Informationen hinzufügen.
 
 3. Wenn Sie die Folgeaufgabe abgeschlossen haben, markieren Sie im entsprechenden Dialogfeld die Option **Abgeschlossen**, oder aktivieren Sie das entsprechende Kontrollkästchen vor dem Namen der Folgeaufgabe auf der Bereichsregisterkarte **Verkaufsleitfaden**. Standardmäßig werden Dokumente als abgeschlossen gekennzeichnet.
 
     > [!TIP]
-    > Um mehrere Folgeaufgaben desselben Typs zu erstellen, müssen mit der rechten Maustaste auf die Aktivität klicken **Weitere erstellen** auswählen. Daraufhin wird das Dialogfeld [Folgeaufgaben][2] geöffnet.
+    > Um mehrere Folgeaufgaben desselben Typs zu erstellen, müssen mit der rechten Maustaste auf die Aktivität klicken **Weitere erstellen** auswählen.
 
 4. Nachdem alle Folgeaufgaben und Dokumente für eine Stufe abgeschlossen wurden, wechseln Sie zur nächsten Stufe auf der Hauptkarte **Verkauf**.
 
@@ -91,11 +91,11 @@ Sie erfassen einen neuen Verkauf und wählen den Verkaufstyp **Verkauf an neuen 
 
 ### Stufe Interessephase
 
-1. Sie haben einen Besprechungstermin festgelegt und möchten den Termin für die **Kundenbesprechung** im Kalender eintragen sowie Teilnehmer einladen.
+1. Sie haben einen Besprechungstermin festgelegt und möchten die Folgeaufgabe für die **Kundenbesprechung** im Kalender eintragen sowie Teilnehmer einladen.
 
     1. Klicken Sie im Verkaufsleitfaden auf **Erstellen** neben der Folgeaufgabe **Kundenbesprechung**.
-        Das Dialogfeld **Termin** wird geöffnet, in dem **Meeting (extern)** als Termintyp angegeben ist und der Name des Verkaufs sowie die Firma bereits eingegeben sind.
-    2. [Vervollständigen Sie die Information und laden Sie Teilnehmer ein][1].
+        Das Dialogfeld **Folgeaufgabe** wird geöffnet, in dem **Meeting (extern)** als Typ angegeben ist und der Name des Verkaufs sowie die Firma bereits eingegeben sind.
+    2. Vervollständigen Sie die Information und [laden Sie Teilnehmer ein][1].
     3. Klicken Sie auf **Speichern**.
 
 2. Versenden Sie zudem eine E-Mail-Nachricht, um zu bestätigen, wo und wann die Besprechung stattfindet.
@@ -153,7 +153,7 @@ Sie erfassen einen neuen Verkauf und wählen den Verkaufstyp **Verkauf an neuen 
 
     3. Das Dialogfeld **Verkaufsleitfaden** bietet drei Optionen:
 
-        * Klicken Sie auf **Erstellen**, um den Termin **Vertragsbesprechung** zu erstellen, der im Verkaufsleitfaden die nächste Folgeaufgabe darstellt. Dadurch wird das Dialogfeld für Folgeaufgaben geöffnet.
+        * Klicken Sie auf **Erstellen**, um die Folgeaufgabe **Vertragsbesprechung** zu erstellen, der im Verkaufsleitfaden die nächste Folgeaufgabe darstellt. Dadurch wird das Dialogfeld für Folgeaufgaben geöffnet.
 
         * Klicken Sie auf **Abbrechen**, wenn Sie die Folgeaufgabe noch nicht erstellen möchten. Das Dialogfeld **Verkaufsleitfaden** wird geschlossen, und Sie können die Folgeaufgabe später erstellen.
 
@@ -162,15 +162,15 @@ Sie erfassen einen neuen Verkauf und wählen den Verkaufstyp **Verkauf an neuen 
     > [!NOTE]
     > Das Dialogfeld **Verkaufsleitfaden** wird geöffnet, da die Option **Diese Folgeaufgabe automatisch vorschlagen** für die Folgeaufgabe **Vertragsgespräch** in Einstellungen und Verwaltung definiert ist. Sie können festlegen, dass dieses Dialogfeld nicht angezeigt wird, sodass die nächste Folgeaufgabe automatisch vorgeschlagen wird.
 
-3. Sie möchten den Termin **Vertragsbesprechung** im Dialogfeld **Verkaufsleitfaden** erstellen.
+3. Sie möchten die Folgeaufgabe **Vertragsbesprechung** im Dialogfeld **Verkaufsleitfaden** erstellen.
 
     Klicken Sie im Dialogfeld **Verkaufsleitfaden** auf die Schaltfläche **Erstellen**.
-    Das Dialogfeld **Termin** wird geöffnet, in dem Sie die Besprechung auf die übliche Art und Weise erstellen können.
+    Das Dialogfeld **Folgeaufgabe** wird geöffnet, in dem Sie die Besprechung auf die übliche Art und Weise erstellen können.
 
 4. Nun möchten Sie den Vertrag für die Besprechung erstellen.
 
     1. Klicken Sie zum Erstellen des Vertrages auf **Erstellen** neben dem Dokument **Unterschriebener Vertrag**.
-    2. Nach der Vertragsbesprechung und der Vertrag unterschrieben wurde, kennzeichnen Sie den Termin **Vertragsbesprechung** als abgeschlossen.
+    2. Nach der Vertragsbesprechung und der Vertrag unterschrieben wurde, kennzeichnen Sie ie Folgeaufgabe **Vertragsbesprechung** als abgeschlossen.
 
 Sie können die Stufe dann zu **Verkauft** ändern. Nachdem alle erforderlichen Folgeaufgaben und Dokumente für den Verkauf abgeschlossen wurden, können Sie den Verkaufsstatus auf abgeschlossen setzen.
 
@@ -182,8 +182,8 @@ Sie können die Stufe dann zu **Verkauft** ändern. Nachdem alle erforderlichen 
 * [Verkaufsleitfaden in Einstellungen und Verwaltung einrichten][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/invitation/add-participant.md
+[2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
 

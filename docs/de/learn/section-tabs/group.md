@@ -13,7 +13,7 @@ language: de
 
 Eine gute Möglichkeit, Informationen auf eine effiziente Weise zu suchen, zu überprüfen und auf dieselben zuzugreifen, bietet das Gruppieren der Informationen. Das Gruppieren von Informationen bedeutet, dass Sie Informationen als eine Reihe von Personen oder Dingen sortieren, die etwas gemeinsam haben.
 
-Sie können die Informationen in einem Archiv nach allen Feldern/Spalten im Archiv gruppieren. Gruppieren Sie zum Beispiel eine Liste von Aktivitäten nach Kategorie, damit Sie alle Ihre Termine oder Web-Formulare anzeigen können; gruppieren Sie eine Liste der Anfragen nach Kategorie und Status, damit Sie sich einen Überblick über die Anfragestatus pro Kategorie verschaffen können.
+Sie können die Informationen in einem Archiv nach allen Feldern/Spalten im Archiv gruppieren. Gruppieren Sie zum Beispiel eine Liste von Aktivitäten nach Kategorie, damit Sie alle Ihre Termine oder Web-Formulare anzeigen können; gruppieren Sie eine Liste der Folgeaufgaben nach Kategorie und Status, damit Sie sich einen Überblick über die Anfragestatus pro Kategorie verschaffen können.
 
 Das Gruppieren ist persönlich. Die Spalten zum Gruppieren Ihrer Informationen sind nur für Sie sichtbar. Sie können so viele Gruppen hinzufügen und entfernen, wie Sie möchten.
 

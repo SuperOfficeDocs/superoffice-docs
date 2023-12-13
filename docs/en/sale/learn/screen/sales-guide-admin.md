@@ -17,7 +17,7 @@ In the **Sales guide** tab in the **Workflow** screen in Settings and maintenanc
 
 ## Example
 
-The sale type "Sale to new customer" might consist of three stages: "First meeting", "Quotation" and "Contract signing". The "First meeting" stage might, for example, include the "Customer meeting" follow-up (an appointment) and the "Meeting invitation" document (an email).
+The sale type "Sale to new customer" might consist of three stages: "First meeting", "Quotation" and "Contract signing". The "First meeting" stage might, for example, include the "Customer meeting" follow-up and the "Meeting invitation" document (an email).
 
 ## What would you like to do now?
 

@@ -1,22 +1,22 @@
 ---
-title: How to link a sale to an appointment (services)
+title: How to link a sale to a follow-up (services)
 uid: sale-link-appointment-ws
-description: How to link a sale to an appointment using web services.
+description: How to link a sale to a follow-up using web services.
 author: Bergfrid Skaara Dias
 so.date: 11.05.2021
-keywords: sale, API, web services, AppointmentAgent, appointment
+keywords: sale, API, web services, AppointmentAgent, appointment, follow-up
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# How to link a sale to an appointment (services)
+# How to link a sale to a follow-up (services)
 
-This section shows how we can add a link using the NetServer Services layer. The link to a related sale appears in the **Links** tab of the **Appointment** dialog. ([See screenshot][1])
+This section shows how we can add a link using the NetServer Services layer. The link to a related sale appears in the **Links** tab of the **Follow-up** dialog. ([See screenshot][1])
 
 ## Code
 
-In this example, we use the `AppointmentAgent` to retrieve an `AppointmentEntity`. Then we relate the appointment to a sale using its `Links` property.
+In this example, we use the `AppointmentAgent` to retrieve an `AppointmentEntity`. Then we relate the follow-up to a sale using its `Links` property.
 
 ```csharp
 using SuperOffice;
@@ -58,7 +58,7 @@ There is no tool available through the services layer to just add a link to the 
 > [!NOTE]
 > By creating the new array `Links.Length + 1`, we avoid accidentally modifying any existing data items stored.
 
-By calling the agent's `SaveAppointmentEntity` method, we save the appointment *and* the established link.
+By calling the agent's `SaveAppointmentEntity` method, we save the follow-up *and* the established link.
 
 <!-- Referenced links -->
 [1]: ../entity/link-sale-to-appointment.md

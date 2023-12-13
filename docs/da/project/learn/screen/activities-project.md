@@ -13,7 +13,7 @@ language: da
 
 ![Sektionen Projektguideaktiviteter -screenshot][img1]
 
-Sektionen **Aktiviteter** viser alle [aktiviteter][1], der er knyttet til det aktive projekt: opfølgninger (aftaler, opgaver og telefonopkald) og dokumenter (herunder fletdokumenter, rapporter og mail).
+Sektionen **Aktiviteter** viser alle [aktiviteter][1], der er knyttet til det aktive projekt: opfølgninger (møder, opgaver og telefonopkald) og dokumenter (herunder fletdokumenter, rapporter og mail).
 
 Dobbeltklik på en aktivitet på detaljekortet for at få vist eller redigere den efter behov.
 
@@ -25,7 +25,7 @@ Den første kolonne på detaljekortet **Aktiviteter** angiver statussen **Udfør
 
 ### Type ikoner
 
-Den anden kolonnen indeholder ikoner, som angiver aktivitetstype, for eksempel et ur for en aftale og en telefon for samtale. Disse ikoner modsvarer teksten i kolonnen **Type**.
+Den anden kolonnen indeholder ikoner, som angiver aktivitetstype. Disse ikoner modsvarer teksten i kolonnen **Type**.
 
 [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
@@ -47,20 +47,15 @@ Den anden kolonnen indeholder ikoner, som angiver aktivitetstype, for eksempel e
 
 ## Hvad vil du foretage dig nu?
 
-* [Vis aktiviteter][3]
-* [Sletning af aktiviteter][4]
-* [Besvare e-mail fra detaljekortet Aktiviteter][5]
-* [Videresende e-mail fra detaljekortet Aktiviteter][6]
+* [Aktiviteter][1]
+* [Besvare eller videresende e-mail fra detaljekortet Aktiviteter][5]
 * [Filtrering af aktiviteter][7]
 * [Ændring af status Udført for en aktivitet][2]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/index.md
+[1]: ../../../learn/basics/activity.md
 [2]: ../../../diary/learn/change-completed-status.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
-[5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[5]: ../../../learn/section-tabs/send-email.md
 [7]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->

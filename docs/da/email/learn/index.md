@@ -13,7 +13,7 @@ language: da
 
 E-mail er den mest populære form for kommunikation mellem virksomheder. Med SuperOffice CRM kan du vælge at gemme og dele dine mails på forskellige måder, der får dig og dit team til at arbejde mere produktivt.
 
-Når du har [integreret din foretrukne e-mailklient med SuperOffice][13], kan du gemme e-maildialoger og bilag under enhver virksomhed, kontakt, salg eller projekt i dit CRM-system. Du kan også gemme mails direkte som aftaler eller aktiviteter – så du aldrig glemmer at følge op og følge op.
+Når du har [integreret din foretrukne e-mailklient med SuperOffice][13], kan du gemme e-maildialoger og bilag under enhver virksomhed, kontakt, salg eller projekt i dit CRM-system. Du kan også gemme mails direkte som opfølging eller aktiviteter – så du aldrig glemmer at følge op og følge op.
 
 ## E-mail-klienter
 
@@ -36,12 +36,12 @@ For at holde alle kunderelaterede oplysninger samlet ét sted, kan du nemt arkiv
 * [Arkiver e-mail med WebTools og Mail Link][8]
 * [Arkiver e-mail med Gmail-link][3]
 
-### Gem e-mail som aftale
+### Gem e-mail som opfølging
 
-Hvis du gemmer en e-mail direkte som en opgave, en aftale eller et telefonopkald i din SuperOffice-dagbog, sikrer du, at du aldrig glemmer at følge op på en kunde eller forespørgsel.
+Hvis du gemmer en e-mail direkte som en opfølging i din SuperOffice-dagbog, sikrer du, at du aldrig glemmer at følge op på en kunde eller forespørgsel.
 
-* [Arkiver e-mail som aftale med WebTools og Mail Link][7]
-* [Arkiver e-mail som aftale med WebTools og Mail Link][4]
+* [Arkiver e-mail som opfølging med WebTools og Mail Link][7]
+* [Arkiver e-mail som opfølging med WebTools og Mail Link][4]
 
 ## Vedhæftede filer
 

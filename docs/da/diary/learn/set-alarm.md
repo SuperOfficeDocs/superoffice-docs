@@ -11,32 +11,49 @@ language: da
 
 # Indstilling af alarmer for opfølgninger
 
-SuperOffice CRM kan give dig besked, før dit møde skal til at starte. Når det er tid til at starte dit møde, vises en meddelelse. Hvis det er et videomøde, kan du starte dit videomøde ved at klikke på pop op-meddelelsen.
+SuperOffice CRM kan minde dig inden starten af dit møde. Ved den indstillede ledetid vises en systemmeddelelse på din enhed.
 
-![Du kan indstille en alarm, så du får en meddelelse, før dit møde begynder -screenshot][img2]
+![SuperOffice-browsermeddelelse -screenshot][img4]
 
-## At blive underrettet om en opfølgning på forhånd
+For videomøder vises en meddelelse fra mødesystemudbyderen (som Microsoft Teams) ved mødets start. Klik på **Deltag** i mødet-knappen for at deltage, eller hvis du er værten, skal du klikke på **Start mødet**.
 
-1. Marker afkrydsningsfeltet **Alarm** under **fanen Detaljer** i dialogboksen **Aftale**, **opgave** eller **telefonopkald** .
-1. I feltet ved siden af afkrydsningsfeltet skal du tilføje det antal timer og minutter forud for dit møde, du ønsker at blive underrettet.
-
-    Standardværdien er 10 minutter, men du kan ændre den.
-
-> [!NOTE]
-> For at undgå, at lyden af alarmen forstyrrer dine kolleger, kan du indstille den til at slukke efter et bestemt tidsrum. Gå til ![ikonet][img1] **Personlige indstillinger &gt; Indstillinger &gt; Dagbog** og rediger **indstillingen Lydløs efter** .
+## Trin
 
 [!include[Recurrence](includes/note-repetition.md)]
 
-Når meddelelsestidspunktet nås, åbnes dialogboksen **Alarm** med oplysninger om virksomheden, dato, klokkeslæt, type, prioritet og placering.
+<!-- markdownlint-disable MD051 -->
+### [Klassisk](#tab/old)
 
-## Indstillinger i dialogboksen Alarm
+1. [Åbn eller opret en opfølgning][1].
+1. Vælg fanen **Detaljer**.
+1. Marker i **Alarm**-afkrydsningsfeltet.
+1. I feltet ved siden af afkrydsningsfeltet tilføj antallet af timer og minutter før dit møde, du ønsker at blive påmindet.
 
-* Klik på **OK** for at bekræfte, at du har set oplysningerne.
-* Klik på **Vis** for at åbne opfølgningsdialogen og få vist flere oplysninger.
-* Markér **Påmind mig om 5 minutter** og klik på **OK** for at gentage alarmen.
+    Standardværdien er 10 minutter, men du kan ændre den.
+
+1. Klik på **Gem**.
+
+![Du kan indstille en alarm for at blive underrettet, før dit møde begynder -screenshot][img2]
+
+### [Ny (fra version 10.2.11 pilot)](#tab/new)
+
+1. [Åbn eller opret en opfølgning][1].
+1. Klik på klokkeikonet i overskriften og vælg et tidspunkt.
+1. Klik på **Gem**.
+
+![Alarm nedtrekksliste i opfølgningsdialogens overskrift -screenshot][img3]
+
+***
+<!-- markdownlint-restore -->
+
+> [!NOTE]
+> Opfølgningspåmindelser (alarmer) er ikke det samme som [aktivitetsmeddelelser][2], der vedrører nye eller opdaterede mødeinvitationer vist i meddelelsespanelet inde i SuperOffice.
 
 <!-- Referenced links -->
+[1]: create-follow-up.md
+[2]: ../../learn/basics/notifications.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img2]: ../../../media/loc/en/diary/appointment-alarm-on-meeting.png
+[img3]: ../../../media/loc/en/diary/set-alarm-in-header.png
+[img4]: ../../../media/loc/en/diary/edge-meeting-alarm.png

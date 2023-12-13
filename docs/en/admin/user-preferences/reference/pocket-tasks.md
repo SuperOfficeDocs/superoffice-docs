@@ -21,6 +21,6 @@ Global preferences for Mobile CRM.
 
 | Preference | Description | Default | Control type | Access |
 |---|---|---|---|---|
-| AutoLogoutTime | Time in minutes the application can be kept idle in the background before an automatic loggout is performed. | 0 (no timeout) | Number | Wizard, Admin |
+| AutoLogoutTime | Time in minutes the application can be kept idle in the background before an automatic logout is performed. | 0 (no timeout) | Number | Wizard, Admin |
 | DisableAutoLogin | Prevent Mobile CRM client from logging in automatically on startup. | NO | Bool | Wizard, Admin|
 | EnableCRMScript | Activate / deactivate execution of CRMScript from Mobile CRM. | YES | Bool | Wizard, Admin |

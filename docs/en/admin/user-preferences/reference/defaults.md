@@ -20,15 +20,15 @@ Default values for dialogs and checkboxes throughout the system.
 | Preference | Description | Default | Control type | Access |
 |---|---|---|---|---|
 | DefaultAppntRememberVisibleFor | Uses the same visibility setting for new follow-ups as you used last time. |  NO | Bool|  Admin, Crm, Admin users, Wizard |
-| DefaultAppointmentAppointLength | Default duration for new appointment | | Number|  Admin, Crm, Admin users, Wizard |
-| DefaultAppointmentAppointTaskId | Default type for new appointment | | ListTableRef|  Admin, Crm, Admin users, Wizard |
-| DefaultAppointmentAppointText | Default text for new appointment | | Text|  Admin, Crm, Admin users, Wizard |
+| DefaultAppointmentAppointLength | Default duration for new meeting | | Number|  Admin, Crm, Admin users, Wizard |
+| DefaultAppointmentAppointTaskId | Default type for new meeting | | ListTableRef|  Admin, Crm, Admin users, Wizard |
+| DefaultAppointmentAppointText | Default text for new meeting | | Text|  Admin, Crm, Admin users, Wizard |
 | DefaultAppointmentPhoneLength | Default duration for new phone call | | Number|  Admin, Crm, Admin users, Wizard |
 | DefaultAppointmentPhoneTaskId | Default type for new phone call | | ListTableRef|  Admin, Crm, Admin users, Wizard |
 | DefaultAppointmentPhoneText | Default text for new phone call | | Text  | Admin, Crm, Admin users, Wizard |
-| DefaultAppointmentToDoLength | Default duration for new task | | Number |  Admin, Crm, Admin users, Wizard |
-| DefaultAppointmentToDoTaskId | Default type for new task | | ListTableRef |  Admin, Crm, Admin users, Wizard |
-| DefaultAppointmentToDoText | Default text for new task | | Text |  Admin, Crm, Admin users, Wizard |
+| DefaultAppointmentToDoLength | Default duration for new to-do | | Number |  Admin, Crm, Admin users, Wizard |
+| DefaultAppointmentToDoTaskId | Default type for new to-do | | ListTableRef |  Admin, Crm, Admin users, Wizard |
+| DefaultAppointmentToDoText | Default text for new to-do | | Text |  Admin, Crm, Admin users, Wizard |
 | DefaultAppointmentVisibleFor | Last visibility setting used in the follow-ups dialog | | Number|  Wizard |
 | DefaultBusiness | Default business for new company | | ListTableRef| Admin, Crm, Admin users, Wizard |
 | DefaultCategory | Default category for new company | | ListTableRef |  Admin, Crm, Admin users, Wizard |

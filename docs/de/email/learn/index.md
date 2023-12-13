@@ -13,7 +13,7 @@ language: de
 
 E-Mail ist die beliebteste Form der Kommunikation zwischen Branchen. Mit SuperOffice CRM können Sie Ihre E-Mails auf verschiedene Arten speichern und teilen, damit Sie und Ihr Team produktiver arbeiten können.
 
-Wenn Sie Ihren [bevorzugten E-Mail-Client in SuperOffice integriert][13] haben, können Sie E-Mail-Dialoge und -Anhänge unter allen Optionen Firma, Person, Verkauf oder Projekt in Ihrem CRM-System speichern. Sie können E-Mails auch direkt als Termine oder Aktivitäten speichern – so vergessen Sie nie nachzufassen und nachzuverfolgen.
+Wenn Sie Ihren [bevorzugten E-Mail-Client in SuperOffice integriert][13] haben, können Sie E-Mail-Dialoge und -Anhänge unter allen Optionen Firma, Person, Verkauf oder Projekt in Ihrem CRM-System speichern. Sie können E-Mails auch direkt als Folgeaufgabe oder Aktivitäten speichern – so vergessen Sie nie nachzufassen und nachzuverfolgen.
 
 ## E-Mail-Clients
 
@@ -36,12 +36,12 @@ Um alle kundenbezogenen Informationen an einem Ort zu haben, können Sie Ihre E-
 * [E-Mails mit WebTools und Mail Link archivieren][8]
 * [E-Mails mit Gmail Link archivieren][3]
 
-### E-Mail als Termin speichern
+### E-Mail als Folgeaufgabe speichern
 
-Wenn Sie eine E-Mail direkt als Aufgabe, Termin oder Anruf in Ihrem SuperOffice-Kalender speichern, stellen Sie sicher, dass Sie niemals eine Folgeaufgabe für einen Kunden oder eine Frage vergessen werden.
+Wenn Sie eine E-Mail direkt als Folgeaufgabe in Ihrem SuperOffice-Kalender speichern, stellen Sie sicher, dass Sie niemals eine Folgeaufgabe für einen Kunden oder eine Frage vergessen werden.
 
-* [E-Mails als Termin mit WebTools und Mail Link archivieren][7]
-* [E-Mails als Termin mit Gmail Link archivieren][4]
+* [E-Mails als Folgeaufgabe mit WebTools und Mail Link archivieren][7]
+* [E-Mails als Folgeaufgabe mit Gmail Link archivieren][4]
 
 ## Anhänge
 

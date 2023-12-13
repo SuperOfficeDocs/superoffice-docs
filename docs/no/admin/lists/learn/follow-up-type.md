@@ -11,7 +11,7 @@ language: no
 
 # Oppfølging - Type
 
-Oppfølginger i SuperOffice CRM er et samlebegrep for aktivitetene avtale, oppgave og samtale. Hver av disse deles igjen inn i ulike typer, og disse defineres i **Lister**-bildet i Innstillinger og vedlikehold. Typene vises som forekomster i listen **Oppfølging - Type**.
+Oppfølgingstyper defineres i **Lister**-bildet i Innstillinger og vedlikehold. Typene vises som forekomster i listen **Oppfølging - Type**.
 
 ## Hva vil du gjøre nå?
 

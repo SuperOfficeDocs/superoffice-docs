@@ -19,6 +19,8 @@ items:
     href: delete.md
   - name: Skicka e-post till en kontakt
     href: send-email.md
+  - name: Ringa till kontakter
+    href: dial.md
   - name: Lägga till relation
     href: add-relation.md
   - name: Ta bort relation

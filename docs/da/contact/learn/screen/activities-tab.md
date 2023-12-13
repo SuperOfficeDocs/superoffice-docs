@@ -11,7 +11,7 @@ language: da
 
 # Fanen Aktiviteter
 
-Fanen **Aktiviteter i sektionen på** skærmbilledet Person indeholder alle de aktiviteter, der er knyttet til den aktive kontakt (herunder aftaler, hvor personen er deltager).
+Fanen **Aktiviteter i sektionen på** skærmbilledet Person indeholder alle de aktiviteter, der er knyttet til den aktive kontakt (herunder opfølginger, hvor personen er deltager).
 
 Hvis personen er knyttet til en virksomhed, vil disse aktiviteter også være tilgængelige under **fanen Aktiviteter** på skærmbilledet Firma.
 

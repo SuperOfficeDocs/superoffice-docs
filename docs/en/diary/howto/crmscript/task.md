@@ -4,7 +4,7 @@ title: Working with todo lists
 description: How to create and complete to-dos with CRMScript
 author: Bergfrid Skaara Dias
 so.date: 03.18.2022
-keywords: CRMScript, calendar, diary, todo, task, follow-up
+keywords: CRMScript, calendar, diary, to-do, task, follow-up
 so.topic: howto
 ---
 
@@ -35,13 +35,13 @@ newTask = appointmentAgent.SaveAppointmentEntity(newTask);
 ```
 
 > [!NOTE]
-> While the task technically doesn't have a start time, that field will be set with a default value. For example, noon the current day. Don't assume that the start time is empty.
+> While the to-do technically doesn't have a start time, that field will be set with a default value. For example, noon the current day. Don't assume that the start time is empty.
 
 ## Complete a to-do
 
-To mark a task as completed is essentially just to set the **status** to 3.
+To mark a to-do as completed is essentially just to set the **status** to 3.
 
-This example completes the task with ID 88, with end-time = now and start-time = 5 minutes ago.
+This example completes the to-do with ID 88, with end-time = now and start-time = 5 minutes ago.
 
 ```crmscript
 DateTime start;
@@ -62,7 +62,7 @@ se.addCriteria("appointment.endDate", "OperatorLt", now.toString(), "OperatorAnd
 printLine(se.executeTextTable());
 ```
 
-This sample will list all tasks of type 6 that have not been started and a deadline in the past.
+This sample will list all follow-ups of type 6 that have not been started and a deadline in the past.
 
 ## Related topics
 
@@ -77,4 +77,4 @@ This sample will list all tasks of type 6 that have not been started and a deadl
 [2]: <xref:CRMScript.NetServer.NSAppointmentEntity>
 [3]: ../../../automation/crmscript/searchengine/index.md
 [4]: create-appointment.md
-[5]: ../../overview.md#todo-list
+[5]: ../../learn/follow-ups.md#todo

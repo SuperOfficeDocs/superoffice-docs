@@ -17,7 +17,7 @@ På fliken **Projektguide** på skärmen Arbetsflöde i Inställningar och under
 
 ## Exempel
 
-Projekttypen "Konferens" kan bestå av tre statusar: Planerad, Pågående och Avslutning. Statusen Planerad kan till exempel innehålla händelsen "Planeringsmöte" (en bokning) och dokumentet "Konferensprogram" (en anteckning).
+Projekttypen "Konferens" kan bestå av tre statusar: Planerad, Pågående och Avslutning. Statusen Planerad kan till exempel innehålla händelsen "Planeringsmöte" och dokumentet "Konferensprogram" (en anteckning).
 
 ## Vad vill du göra nu?
 

@@ -3,11 +3,5 @@ items:
     href: index.md
   - name: Legge til deltakere i oppfølging
     href: add-participant.md
-  - name: Redigere eller slette invitasjon
-    href: update.md
-  - name: Vise oppfølginger du er invitert til
-    href: follow-ups-you-are-invited-to.md
-  - name: Motta invitasjoner
-    href: receive.md
-  - name: Håndtere respons på invitasjoner
-    href: response.md
+  - name: Godta eller avslå invitasjon
+    href: accept-decline.md

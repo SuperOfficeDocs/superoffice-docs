@@ -16,7 +16,7 @@ Flere steder i SuperOffice CRM gjør historikklisten det enkelt å få tilgang t
 Historikklisten kan brukes på ulike måter:
 
 * Direkte fra Navigator-![ikonet][img2] for å gå til ønsket firma, person, salg, prosjekt eller utvalg.
-* Fra dialogbokser som inneholder felt for firma, personer, salg og prosjekt, for eksempel **Avtale** og **Dokument**, for å knytte dem til avtalen eller dokumentet.
+* Fra dialogbokser som inneholder felt for firma, personer, salg og prosjekt, for eksempel **Oppfølging** og **Dokument**, for å knytte dem til oppfølgingen eller dokumentet.
 
 ## Bruke historikklisten i Navigator
 

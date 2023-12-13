@@ -13,7 +13,7 @@ language: nl
 
 Een geweldige manier om informatie te ordenen om informatie efficiënt te vinden, te bekijken en te openen, is door de informatie te groeperen. Het groeperen van informatie betekent dat u informatie sorteert als een reeks mensen of dingen, die iets gemeen hebben.
 
-U kunt de informatie in een archief groeperen op basis van alle velden/kolommen in het archief. Groepeer bijvoorbeeld een lijst met activiteiten op categorie, zodat u al uw afspraken of webformulieren kunt bekijken; groepeer een lijst met verzoeken op categorie en status, zodat u een overzicht krijgt van verzoekstatussen per categorie.
+U kunt de informatie in een archief groeperen op basis van alle velden/kolommen in het archief. Groepeer bijvoorbeeld een lijst met activiteiten op categorie, zodat u al uw vervolgactiviteiten of webformulieren kunt bekijken; groepeer een lijst met verzoeken op categorie en status, zodat u een overzicht krijgt van verzoekstatussen per categorie.
 
 Groeperen is persoonlijk. De kolommen die u gebruikt om uw gegevens te groeperen, zijn alleen voor u zichtbaar en u kunt zoveel groepen toevoegen en verwijderen als u wilt.
 

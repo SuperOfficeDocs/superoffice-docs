@@ -3,7 +3,7 @@ uid: help-en-document-update
 title: Editing documents
 description: Editing documents
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.06.2023
 keywords: document
 so.topic: howto
 language: en
@@ -83,6 +83,31 @@ To change document properties, such the project the document is linked to, use t
 
 5. The document is checked in and the status is set to **Completed**.
 
+### <a id="allow" />Browser security question for opening files
+
+When you access and edit a document, file, or email in SuperOffice, your browser prompts you with a *security question* regarding the file download.
+
+* To open the file, you must select the **Open**/**Allow** button.
+* Select **Always allow** to skip the question next time.
+
+The dialog is slightly different in Chrome, Edge, Firefox, and Safari.
+
+**Chrome:** Select **Open URL:SuperOffice-Extensions**.
+
+![Chrome: Open URL:SuperOffice-Extensions button -screenshot][img5]
+
+**Edge:** Select **Open**.
+
+![Edge: Open button -screenshot][img2]
+
+**Firefox:** Select **Open Link**.
+
+![Firefox: Open Link button -screenshot][img3]
+
+**Safari:** Select **Always Allow** or **Allow**.
+
+![Safari: Always Allow or Allow button -screenshot][img4]
+
 ## Troubleshooting
 
 If you double-click a document and nothing happens, try to right-click it and select **Document**. This opens the **Document** dialog. Click **Open** and see if the document opens now.
@@ -94,3 +119,7 @@ If you double-click a document and nothing happens, try to right-click it and se
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/document/upload.png
+[img2]: ../../../media/loc/en/webtools/webtools-edge-security-question.png
+[img3]: ../../../media/loc/en/webtools/webtools-firefox-security-question.png
+[img4]: ../../../media/loc/en/webtools/webtools-safari-security-question.png
+[img5]: ../../../media/loc/en/webtools/webtools-chrome-security-question.png

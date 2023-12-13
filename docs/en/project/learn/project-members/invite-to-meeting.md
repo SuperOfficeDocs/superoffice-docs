@@ -9,13 +9,12 @@ so.topic: howto
 language: en
 ---
 
-# Invite project members to a meeting (appointment)
+# Invite project members to a meeting (follow-up)
 
 1. Open the project and go to the **Project Members** section tab.
 2. Select the project members you want to invite.
 3. Right-click and select **Request a meeting**.
-
-    The [**Appointment** dialog][1] opens.
+4. [Enter the required information in the fields.][1]
 
 <!-- Referenced links -->
-[1]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/create-follow-up.md#fields

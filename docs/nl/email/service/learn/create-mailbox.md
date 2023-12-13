@@ -3,7 +3,8 @@ uid: help-nl-service-mailbox-create
 title: Postbussen maken
 description: Postbussen maken
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: e-mail
 so.topic: howto
 language: nl
@@ -27,7 +28,7 @@ U kunt een postbus maken voor het importeren van e-mailberichten in SuperOffice 
     > [!NOTE]
     > Een gebruiksvriendelijk e-mailadres kan aan het adres worden toegevoegd door toevoeging van ("gebruiksvriendelijke naam") aan het einde van het e-mailadres. Voorbeeld: <info@company.com> (Klant B.V.).
 
-1. Selecteer categorie en prioriteit:
+1. Selecteer categorie, prioriteit, en verzoektype:
 
     [!include[Select category and priority](includes/step-select-category-priority.md)]
 
@@ -67,7 +68,7 @@ U kunt een postbus maken voor het importeren van e-mailberichten in SuperOffice 
 
 1. In het veld **Poort** kunt u de voorgestelde standaardpoort voor het geselecteerde protocol wijzigen.
 
-1. Selecteer categorie en prioriteit:
+1. Selecteer categorie, prioriteit, en verzoektype:
 
     [!include[Select category and priority](includes/step-select-category-priority.md)]
 

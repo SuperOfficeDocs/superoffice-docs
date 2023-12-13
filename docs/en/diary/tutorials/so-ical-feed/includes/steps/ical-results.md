@@ -1,13 +1,13 @@
 <!-- markdownlint-disable-file MD041 -->
-The iCal page does the same login check as the Result page, but it reads the user's appointments and outputs the iCal. The search limits the number of appointments to about 2 months worth of appointments, weighted towards future/planned appointments.
+The iCal page does the same login check as the Result page, but it reads the user's follow-ups and outputs the iCal. The search limits the number of follow-ups to about 2 months worth, weighted towards future/planned follow-up.
 
 [!code-csharp[CS](../ical-write-results.cs?range=1-5)]
 
-To output the appointments, we need to set a few things in the header:
+To output the follow-ups, we need to set a few things in the header:
 
 [!code-csharp[CS](../ical-write-results.cs?range=7-12)]
 
-The response itself has a header and then a list of appointment details.
+The response itself has a header and then a list of follow-up details.
 
 ### Content header
 

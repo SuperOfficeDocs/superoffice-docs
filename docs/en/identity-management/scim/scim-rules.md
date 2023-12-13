@@ -17,14 +17,13 @@ The [SuperOffice Identity Manager][1] gives administrators access to a wizard w
 
 * The Azure portal sets the mapping from Azure AD to the SCIM schema.
 
-* The SuperOffice Identity Manager sets the mapping from the SCIM schema to [SuperID user accounts][2]].
+* The SuperOffice Identity Manager sets the mapping from the SCIM schema to [SuperID user accounts][2].
 
 ![SCIM UI rule example -screenshot][img1]
 
-## Tasks
+## Related content
 
 * [Get started with SCIM][3]
-
 * [Add SCIM rules][4]
 
 <!-- Referenced links -->

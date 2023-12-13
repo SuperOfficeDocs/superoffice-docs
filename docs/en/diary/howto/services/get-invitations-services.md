@@ -42,6 +42,6 @@ StateZeroDatabase       [D:04/28/2007]    [D:04/28/2007]    [I:150]
 ```
 
 <!-- Referenced links -->
-[1]: ../../invitations.md
+[1]: ../../learn/invitation/index.md
 [2]: ../../../api/web-services/index.md
 [3]: ../../../api/archive-providers/reference/invitation.md

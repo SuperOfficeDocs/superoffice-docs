@@ -23,7 +23,7 @@ SELECT * FROM UserPreference WHERE prefsection='Cripple'
 | Preference | Description | Control type | Access |
 |---|---|---|---|
 | Application | Removes all external applications and user-defined buttons. | Bool | Wizard |
-| Appointment | Removes the **Follow-ups** dialog.<br>Follow-ups will still be visible in lists, but it will be impossible to add or edit appointments, tasks, and sales. | Bool | Wizard |
+| Appointment | Removes the **Follow-up** dialog.<br>Follow-ups will still be visible in lists, but it will be impossible to edit them or add new. | Bool | Wizard |
 | Contact | Removes the **Company** screen (and Navigator button).<br>Company names will still be visible in dialogs etc., but it will be impossible to edit companies. | Bool | Wizard
 | Diary | Removes the **Diary** screen.<br>All diary-related functionality will be removed. | Bool | Wizard |
 | Document | Removes the **Document** dialog.<br>Documents will still be visible in lists, but it will be impossible to create or edit documents. | Bool | Wizard |

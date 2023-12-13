@@ -20,7 +20,7 @@ language: da
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-2. Klik på pilen ![icon][img1] ud for feltet **Type**, og vælg den ønskede opfølgningstype på listen. Du kan vælge mellem **Aftale**, **Samtale** og **Opgave**.
+2. Klik på pilen ![icon][img1] ud for feltet **Type**, og vælg den ønskede opfølgningstype på listen.
 
 3. I feltet **Retning** angiver du, om opfølgningen skal være udgående eller indgående ved at klikke på pilen og vælge fra rullemenuen.
 

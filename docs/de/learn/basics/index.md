@@ -59,18 +59,18 @@ Die Anzeigen Firma und Person enthalten alle Informationen über Ihre Kunden und
 * [Massenabgleich der Firma und Personeninformation][5]
 * [Selektionen für weitere Aktionen erstellen][6]
 
-## Kalender und Termine
+## Kalender und Folgeaufgabe
 
-Der SuperOffice-Kalender ist das Herzstück Ihres CRM-Systems. Durch die regelmäßige Nutzung des Kalenders können Sie Termine und Aktivitäten, die mit einer Person oder Firma verknüpft sind, automatisch verbinden und teilen, damit Sie und Ihr Team mühelos im Plan bleiben und produktiv arbeiten können. Diese Anleitungen helfen Ihnen, die Arbeit mit dem Kalender zu erlernen.
+Der SuperOffice-Kalender ist das Herzstück Ihres CRM-Systems. Durch die regelmäßige Nutzung des Kalenders können Sie Folgeaufgaben und Aktivitäten, die mit einer Person oder Firma verknüpft sind, automatisch verbinden und teilen, damit Sie und Ihr Team mühelos im Plan bleiben und produktiv arbeiten können. Diese Anleitungen helfen Ihnen, die Arbeit mit dem Kalender zu erlernen.
 
-![Tragen Sie alle Ihre Termine und Aufgaben im Kalender ein, um sie im Überblick zu behalten -screenshot][img1]
+![Tragen Sie alle Ihre Folgeaufgaben im Kalender ein, um sie im Überblick zu behalten -screenshot][img1]
 
 Neben der regulären Kalenderfunktionalität bietet Ihnen SuperOffice Diary auch die Möglichkeit, Aktivitäten in Projekten und Verkäufen zu verbinden und zu organisieren. Dies hilft Ihnen und Ihrem Team, einen vollständigen Überblick über alle Aktivitäten und die Kommunikation bezüglich eines Projekts oder Verkaufs zu erhalten.
 
-### Aufgaben - Kalender und Termine
+### Aufgaben - Kalender und Folgeaufgabe
 
-* [Erstellen von Terminen][8]
-* [Person zu einem Termin einladen][10]
+* [Erstellen von Besprechungen][8]
+* [Person zu einer Besprechung einladen][10]
 * [Videokonferenz][11]
 
 ## Ihre Dokumente verwalten
@@ -88,7 +88,7 @@ Super Office Project hilft Ihnen, Ihre Arbeit an einem Ort zu organisieren und z
 
 Wenn Sie an einem Projekt arbeiten, müssen die Informationen leicht zugänglich sein und geteilt werden. Sie können SuperOffice Project verwenden, um alle Ihre Projektnachverfolgungen und Dokumente an einem Ort zu speichern.
 
-Sie können beliebige Personen, Firmen, Aufgaben, Termine, Projektmitglieder und sogar Verkaufsgelegenheiten in einem Projekt in SuperOffice CRM verbinden. Sie können auch Dokumente und Dateien erstellen oder in das Projekt hochladen.
+Sie können beliebige Personen, Firmen, Folgeaufgaben, Projektmitglieder und sogar Verkaufsgelegenheiten in einem Projekt in SuperOffice CRM verbinden. Sie können auch Dokumente und Dateien erstellen oder in das Projekt hochladen.
 
 Alle Informationen, die Sie in Ihrem Projekt speichern, sind mit einem Datum und einem Eigentümer versehen, damit Sie Informationen bei Bedarf leichter sortieren und filtern können.
 
@@ -110,10 +110,10 @@ Ihr Administrator kann für Sie [Projektleitfäden hinzufügen und anpassen][1].
 [6]: ../../search-options/selection/learn/howto/index.md
 [4]: deleting-elements.md
 [7]: ../../project/learn/create.md
-[8]: ../../diary/learn/create-appointment.md
+[8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/invitation/add-participant.md
 [11]: ../../../en/video-meeting/index.md
-[12]: ../activity/index.md
+[12]: activity.md
 [13]: ../../globalization-and-localization/learn/change-language.md
 [14]: fav.md
 [15]: deleting-elements.md

@@ -67,7 +67,7 @@ Dies sind die Benachrichtigungsoptionen:
 * Benachrichtigungen für abgesagte Besprechungen anzeigen
 * Benachrichtigungen für abgelehnte Einladungen anzeigen
 
-### Einstellungen für Terminanfragen
+### Einstellungen für Folgeaufgabeanfragen
 
 * Benachrichtigungen für Kundennachrichten anzeigen
 * Benachrichtigungen für Anfragen in Favoritenliste anzeigen

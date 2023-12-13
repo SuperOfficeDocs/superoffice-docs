@@ -11,7 +11,7 @@ language: da
 
 # Detaljekortet Aktiviteter
 
-Detaljekortet **Aktiviteter** viser alle aftaler, opgaver, samtaler, dokumenter og mails, der er knyttet til det aktive salg. Dobbeltklik på en aktivitet på detaljekortet for at få vist eller redigere den efter behov.
+Detaljekortet **Aktiviteter** viser alle opfølginger, dokumenter og mails, der er knyttet til det aktive salg. Dobbeltklik på en aktivitet på detaljekortet for at få vist eller redigere den efter behov.
 
 ## Kolonner på detaljekortet Aktiviteter
 
@@ -19,7 +19,7 @@ Følgende kolonner vises under detaljekortet **Aktiviteter**:
 
 * ![ikon][img2] : Statussen **Udført** for en aktivitet. Et flueben i afkrydsningsfeltet (![ikon][img1]) betyder, at [aktiviteten er udført][1], mens et tomt felt betyder, at den ikke er udført.
 
-* Den anden kolonne indeholder ikoner, der angiver aktivitetstypen; en kategori for hver af de forskellige typer. For eksempel indikerer et telefonikon en samtale. Disse ikoner modsvarer teksten i kolonnen **Type**.
+* Den anden kolonne indeholder ikoner, der angiver aktivitetstypen; en kategori for hver af de forskellige typer. For eksempel indikerer et kalenderikon et møde. Disse ikoner modsvarer teksten i kolonnen **Type**.
 
 * Dato for aktiviteten.
 * Typen af aktivitet.
@@ -34,21 +34,17 @@ Følgende kolonner vises under detaljekortet **Aktiviteter**:
 ## Hvad vil du foretage dig nu?
 
 * [Vælge, hvor mange og hvilke kolonner der skal vises][2]
-* [Vis aktiviteter][3]
+* [Aktiviteter][3]
 * [Skifte statussen Udført for salg][1]
-* [Sletning af aktiviteter][4]
-* [Besvare e-mail fra detaljekortet Aktiviteter][5]
-* [Videresende e-mail fra detaljekortet Aktiviteter][6]
+* [Besvare eller videresende e-mail fra detaljekortet Aktiviteter][5]
 * [Filtrering af aktiviteter og salg][7]
 
 <!-- Referenced links -->
 [1]: ../../../diary/learn/change-completed-status.md
 [2]: ../../../learn/section-tabs/configure-columns.md
 [7]: ../../../learn/section-tabs/filter.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
-[5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[3]: ../../../learn/basics/activity.md
+[5]: ../../../learn/section-tabs/send-email.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/check.png

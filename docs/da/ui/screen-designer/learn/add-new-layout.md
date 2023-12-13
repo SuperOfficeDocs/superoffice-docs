@@ -3,7 +3,8 @@ uid: help-da-screen-designer-add-layout
 title: Tilføj nyt skærmudseende
 description: Sådan tilføjes et nyt udseende for en brugergruppe.
 author: Bergfrid Dias
-so.date: 03.29.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: skærmdesigner, udseende, hovedkort, arkiv
 so.topic: howto
 so.audience: settings
@@ -38,7 +39,7 @@ Se denne video og find ud af, hvordan du tilføjer et nyt udseende, eller følg 
 4. Hvis det er relevant, skal du klikke på teksten ud for **Tildel layout til**.
 
     Som standard kan layoutene tildeles brugergrupper.
-    Hvis du derimod tilføjer hovedkortlayout for skærmbillederne Salg eller Projekt, kan du tildele layout til salgstyper eller projekttyper.
+    Hvis du derimod tilføjer hovedkortlayout for skærmbillederne Salg, Projekt, eller Sag kan du tildele layout til salgstyper, projekttyper, eller sagstyper.
 
 5. Klik på **Tilføj** under **Layouts**.
 
@@ -54,7 +55,7 @@ Se denne video og find ud af, hvordan du tilføjer et nyt udseende, eller følg 
 
 8. Klik på feltet **Tildel til**, og vælg den eller de brugergrupper, der skal bruge dette nye layout.
 
-    Listen viser kun brugergrupper, der bruger standardlayoutet. En brugergruppe kan kun tildeles ét layout. Salgstyper eller projekttyper vil være tilgængelige her, hvis du har valgt disse indstillinger i trin 3.
+    Listen viser kun brugergrupper, der bruger standardlayoutet. En brugergruppe kan kun tildeles ét layout. Salgstyper, projekttyper, eller sagstyper vil være tilgængelige her, hvis du har valgt disse indstillinger i trin 4.
 
 9. Angiv en beskrivelse af layoutet i feltet **Beskrivelse**.
 

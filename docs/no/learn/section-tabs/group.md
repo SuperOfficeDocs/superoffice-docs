@@ -13,7 +13,7 @@ language: no
 
 En flott måte å bestille informasjon på for å finne, gjennomgå og få tilgang til informasjon effektivt, er å gruppere informasjonen. Gruppering av informasjon betyr at du sorterer informasjon som et sett med personer eller ting, som har noe til felles.
 
-Du kan gruppere informasjonen i et arkiv etter alle feltene/kolonnene i arkivet. Du kan for eksempel gruppere en liste over aktiviteter i en kategori, slik at du kan vise alle avtaler eller webskjemaer. Grupper en liste over saker om kategori og status, slik at du kan få en oversikt over saksstatuser per kategori.
+Du kan gruppere informasjonen i et arkiv etter alle feltene/kolonnene i arkivet. Du kan for eksempel gruppere en liste over aktiviteter i en kategori, slik at du kan vise alle oppfølginger eller webskjemaer. Grupper en liste over saker om kategori og status, slik at du kan få en oversikt over saksstatuser per kategori.
 
 Gruppering er personlig. Kolonnene du bruker til å gruppere informasjonen din, er bare synlige for deg, og du kan legge til og fjerne så mange grupper du vil.
 

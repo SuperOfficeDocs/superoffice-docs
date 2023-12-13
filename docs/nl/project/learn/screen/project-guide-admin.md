@@ -17,7 +17,7 @@ In het tabblad **Projectgids** in het scherm Workflow in Instellingen en onderho
 
 ## Voorbeeld
 
-Het projecttype 'Vergadering' kan uit drie statussen bestaan: Gepland, Wordt uitgevoerd en Sluiten. De status Gepland kan bijvoorbeeld de vervolgactiviteit "Planningsvergadering" (een afspraak) en het document Vergaderprogramma (een opmerking) bevatten.
+Het projecttype 'Vergadering' kan uit drie statussen bestaan: Gepland, Wordt uitgevoerd en Sluiten. De status Gepland kan bijvoorbeeld de vervolgactiviteit "Planningsvergadering" en het document Vergaderprogramma (een opmerking) bevatten.
 
 ## Wat wilt u nu doen?
 

@@ -48,7 +48,7 @@ Fullt navn, e-postadresse og eierfirma vises øverst. Nederst i denne delen kan 
 Det er forskjellige faner i brukeroversikten:
 
 * **Detaljer** – hovedoversikt over brukerinformasjon som **Bruker-ID**, **Rolle**, **Brukerplan**, **Primærgruppe** og **SuperOffice Service-kategorier**.
-* **Lisen** – ekstra lisensinformasjon, for eksempel **Konfidensielle aktiviteter**, som gir brukeren muligheten til å velge **synlig for** for avtaler, dokumenter og utvalg.
+* **Lisen** – ekstra lisensinformasjon, for eksempel **Konfidensielle aktiviteter**, som gir brukeren muligheten til å velge **synlig for** for oppfølginger, dokumenter og utvalg.
 * **Mer** – fanen viser om det finnes ekstrafelt for personen.
 
 ## <a id="other-users" />Andre brukere (Onsite)

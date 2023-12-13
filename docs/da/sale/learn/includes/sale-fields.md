@@ -34,7 +34,7 @@
 12. Du kan vælge afkrydsningsfeltet **Udsat** for at indikere, at salget er blevet [udsat][2]. For eksempel hvis kunden beslutter at vente til næste år med at købe.
 
     > [!NOTE]
-    > Felterne nedenunder ændrer sig, hvis du vælger **Udsat**. **Næste aktivitet** ændres til **Genåbningsdato**, hvor du kan angive en dato for, hvornår salget genåbnes, og **Kilde** ændres til **Årsag (udsat)**, hvor du kan angive årsagen til udsættelsen. Hvis du markerer salget som udsat, vises dialogboksen **Aftale**, når du klikker på **Gem**. Du kan oprette fremtidige møder eller samtaler for at følge op det udsatte salg.
+    > Felterne nedenunder ændrer sig, hvis du vælger **Udsat**. **Næste aktivitet** ændres til **Genåbningsdato**, hvor du kan angive en dato for, hvornår salget genåbnes, og **Kilde** ændres til **Årsag (udsat)**, hvor du kan angive årsagen til udsættelsen. Hvis du markerer salget som udsat, vises dialogboksen **Opfølging**, når du klikker på **Gem**. Du kan oprette fremtidige møder eller samtaler for at følge op det udsatte salg.
 
 13. Angiv den sandsynlige salgsdato i feltet **Salgsdato**. For at ændre den foreslåede salgsdato skal du klikke på pilen ud for datoen og vælge en ny dato i den kalender, der vises.
 

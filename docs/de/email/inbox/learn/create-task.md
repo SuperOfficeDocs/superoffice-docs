@@ -16,14 +16,13 @@ Mit dieser Funktion können Sie anhand des Absenders und des Textinhalts in eine
 1. Gehen Sie zur Schaltfläche E-Mail.
 2. Wählen Sie die gewünschte E-Mail unter der Schaltfläche E-Mail aus.
 3. Klicken Sie auf ![Symbol][img1] **Archivieren**.
-4. Klicken Sie auf **Aufgabe erstellen**. Das Dialogfeld **Aufgabe** wird geöffnet.
-
-    Siehe das [Dialogfeld für Folgeaufgaben][2].
+4. Klicken Sie auf **Aufgabe erstellen**. Das Dialogfeld **Folgeaufgabe** wird geöffnet.
+5. [Geben Sie die erforderlichen Informationen in das Feld ein][2].
 
 [!include[Add contact](includes/add-contact-opens.md)]
 
 <!-- Referenced links -->
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[2]: ../../../diary/learn/create-follow-up.md#fields
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/archive-icon.png

@@ -11,7 +11,7 @@ language: de
 
 # Dialogfeld für Folgeaufgaben
 
-Das Dialogfeld für Folgeaufgaben wird immer angezeigt, unabhängig davon, mit welcher Art von Folgeaufgabe Sie arbeiten. Der tatsächliche Name des Dialogfelds variiert je nach Art der Folgeaufgabe – [Termin][1], [Aufgabe][2] oder [Anruf][3]. Die Felder sind in jedem Fall gleich. Es folgt eine Beschreibung der Felder im Dialogfeld und deren Verwendung.
+Das Dialogfeld für Folgeaufgaben wird immer angezeigt, unabhängig davon, mit welcher [Art von Folgeaufgabe][1] Sie arbeiten. Der tatsächliche Name des Dialogfelds variiert je nach Art der Folgeaufgabe – Termin, Aufgabe oder Anruf. Die Felder sind in jedem Fall gleich. Es folgt eine Beschreibung der Felder im Dialogfeld und deren Verwendung.
 
 Das Dialogfeld besteht aus einer Hauptkomponente mit allgemeinen Informationen über die Folgeaufgabe und fünf Registerkarten mit zusätzlichen Informationen:
 
@@ -155,17 +155,15 @@ Diese Registerkarte enthält Informationen zu URLs, Aktivitäten (Dokumente und 
 
 ## Registerkarte Mehr
 
-Auf dieser Registerkarte finden Sie alle [benutzerdefinierten Felder][14], die in Einstellungen und Verwaltung konfiguriert wurden.
+Auf dieser Registerkarte finden Sie alle [benutzerdefinierten Felder][14], die in Einstellungen und Verwaltung konfiguriert wurden. Wenn nicht konfiguriert, wird dieser Tab nicht angezeigt.
 
 <!-- Referenced links -->
-[1]: ../appointment.md
-[2]: ../task.md
-[3]: ../phone-call/index.md
+[1]: ../follow-ups.md
 [4]: ../recurrence/index.md
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md
-[7]: ../open.md
-[8]: ../../../learn/activity/linking-documents-to-follow-ups.md
+[7]: ../other-diaries.md
+[8]: ../linking-documents-to-follow-ups.md
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md

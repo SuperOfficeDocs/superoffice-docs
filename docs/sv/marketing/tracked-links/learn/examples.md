@@ -22,7 +22,7 @@ Spårbara länkar kan användas på många intressanta sätt:
 
 * **Prospektlista**: Om du ska lansera en ny produkt kan mottagarna anmäla sitt intresse för produkten genom att klicka på länken "Ja tack, jag vill få ett erbjudande". De personer som klickar på länken kan läggas till i ett statiskt urval i SuperOffice CRM som säljarna kan använda för att hantera den fortsatta kontakten med dessa kunder.
 
-* **Uppgifter och bokningar för säljare i SuperOffice CRM**: Ett alternativ till prospektlistan i exemplet ovan är att för varje länkklick skapa en uppgift eller bokning för säljare eller kundkontakter. Ett klick på länken "Kontakta mig" kan t.ex. skapa en bokning i SuperOffice CRM av typen "Telefon ut" för kontakten till den aktuella kunden. Dessutom kan bokningen kopplas till ett aktuellt projekt i SuperOffice CRM, t.ex. en marknadsföringskampanj.
+* **Händelse för säljare i SuperOffice CRM**: Ett alternativ till prospektlistan i exemplet ovan är att för varje länkklick skapa ett möte eller en att göra för säljare eller kundkontakter. Ett klick på länken "Kontakta mig" kan t.ex. skapa en händelse i SuperOffice CRM av typen "Telefon ut" för kontakten till den aktuella kunden. Dessutom kan händelsen kopplas till ett aktuellt projekt i SuperOffice CRM, t.ex. en marknadsföringskampanj.
 
 * **Avregistrering**: I innehållsredigeraren kan du [infoga en länk för avregistrering][1] från en specifik utskickstyp. Det innebär att kunden inte längre kommer att få denna utskickstyp från SuperOffice Marknadsföring, oavsett vilken mottagarlista som används för utskicket.
 

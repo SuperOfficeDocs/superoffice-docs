@@ -35,7 +35,7 @@ Om du ställer in försäljningen på **Uppskjuten**, visas följande fält:
 
 ![Uppskjuten försäljning -screenshot][img5]
 
-Dialogrutan **Bokning** öppnas när du klickar på **Spara**. Här kan du boka kommande möten eller samtal för att följa upp den uppskjutna försäljningen.
+Dialogrutan **Händelse** öppnas när du klickar på **Spara**. Här kan du boka kommande möten eller samtal för att följa upp den uppskjutna försäljningen.
 
 ## Sålt/Förlorat
 

@@ -71,7 +71,7 @@ language: nl
 
 ### Dialoogvenster
 
-* **Het dialoogvenster voor vervolgactiviteiten**: er wordt een snelkoppeling naar het URL-adres toegevoegd boven aan het tabblad **WWW** in de dialoogvensters **Afspraak**, **Taak** en **Telefoongesprek**. U kunt vervolgens ook op **Openen in apart venster** klikken om de webpagina in een apart browservenster weer te geven.
+* **Het dialoogvenster voor vervolgactiviteiten**: er wordt een snelkoppeling naar het URL-adres toegevoegd boven aan het tabblad **WWW** in de dialoogvenster **Vervolgactiviteit**. U kunt vervolgens ook op **Openen in apart venster** klikken om de webpagina in een apart browservenster weer te geven.
 
 * **De dialoogvensters Document/Offerte/Product**: er wordt een snelkoppeling naar het URL-adres toegevoegd boven aan het tabblad **WWW** in deze dialoogvensters.
 

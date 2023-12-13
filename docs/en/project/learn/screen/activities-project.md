@@ -13,7 +13,7 @@ language: en
 
 ![Project guide activities section -screenshot][img1]
 
-The **Activities** section tab shows all [activities][1] that are linked to the active project: follow-ups (appointments, tasks and phone calls) and documents (including merge documents, reports and email).
+The **Activities** section tab shows all [activities][1] that are linked to the active project: follow-ups (meetings, to-dos, calls) and documents (including merge documents, reports and email).
 
 Double-click an activity in the section tab to view or edit it, as required.
 
@@ -25,7 +25,7 @@ The first column in the **Activities** section tab indicates the **Completed** s
 
 ### Type icons
 
-The second column contains icons that indicate the type of activity, for example, a clock for an appointment and a telephone for a call. These icons reflect the text in the **Type** column.
+The second column contains icons that indicate the type of activity. These icons reflect the text in the **Type** column.
 
 [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
@@ -47,20 +47,15 @@ The second column contains icons that indicate the type of activity, for example
 
 ## What would you like to do now?
 
-* [View activities][3]
-* [Delete activities][4]
-* [Reply to email from the Activities section tab][5]
-* [Forward email from the Activities section tab][6]
+* [Learn more about activities][1]
+* [Reply to or forward email from the Activities section tab][5]
 * [Filter activities][7]
 * [Change Completed status of an activity][2]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/index.md
+[1]: ../../../learn/basics/activity.md
 [2]: ../../../diary/learn/change-completed-status.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
-[5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[5]: ../../../learn/section-tabs/send-email.md
 [7]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->

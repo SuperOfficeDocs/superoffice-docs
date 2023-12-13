@@ -66,7 +66,7 @@ Als u deze voorkeuren wilt bewerken, gaat u naar het ![pictogram][img1] scherm *
 
 ## <a id="preferences-tab" />Tabblad Voorkeuren
 
-In het tabblad **Voorkeuren** kunt u instellingen opgeven voor verschillende onderdelen van SuperOffice CRM. Voorbeelden zijn het aantal items dat wordt weergegeven in de historielijst, het standaardtype voor nieuwe afspraak, taak en telefoongesprek en de standaardvaluta in het scherm Verkoop.
+In het tabblad **Voorkeuren** kunt u instellingen opgeven voor verschillende onderdelen van SuperOffice CRM. Voorbeelden zijn het aantal items dat wordt weergegeven in de historielijst, het standaardtype voor nieuwe vergaderingen en de standaardvaluta in het scherm Verkoop.
 
 Boven aan het tabblad **Voorkeuren** kunt u de gewenste voorkeursgroep kiezen. De rest van het tabblad **Voorkeuren** is verdeeld in drie hoofdsecties: een lijst met alle voorkeuren, een beschrijvingsveld waarin de momenteel geselecteerde voorkeur wordt beschreven en een veld met de instellingen die voor die voorkeur zijn opgegeven.
 

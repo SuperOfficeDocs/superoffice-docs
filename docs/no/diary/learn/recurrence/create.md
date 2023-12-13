@@ -1,77 +1,98 @@
 ---
-uid: help-no-recurrence-create
-title: Opprette repeterende oppfølging
-description: Opprette repeterende oppfølging
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: dagbok, oppfølging, gjenta, gjenta
+uid: help-no-recurrence-set
+title: Planlegge repeterende oppfølging
+description: Planlegge repeterende oppfølging
+author: Bergfrid Dias
+so.date: 12.12.2023
+so.version: 10.2.11
+keywords: dagbok, oppfølging, gjenta
 so.topic: howto
 language: no
 ---
 
-# Opprette repeterende oppfølging
+# Planlegge repeterende oppfølging
 
-Det kan hende at du ønsker å opprette en rekke avtaler som forekommer med jevne mellomrom, for eksempel et ukentlig statusmøte. I stedet for å registrere disse møtene enkeltvis, kan du bruke funksjonen for repeterende oppfølginger.
+Å sette opp gjentakelse betyr å planlegge startdatoen for oppfølgingsmøter i en serie.
 
-> [!TIP]
-> Alle [hyppighetsvalgene er beskrevet i referansen][4].
+[!include[Caution](../includes/caution-do-not-change-recurring-date.md)]
 
-1. Åpne dialogboksen **Avtale**, **Oppgave** eller **Samtale**, og [angi deretter den nødvendige informasjonen][5].
+## Trinn
 
-2. Velg fanen **Detaljer**.
+<!-- markdownlint-disable MD051 -->
+### [Classic](#tab/fields-old)
 
-3. Klikk på ordet **Aldri** til høyre for feltet **Gjentas**.
+1. [Åpne eller opprett en oppfølging][2].
 
-4. Øverst til høyre i dialogboksen **Repeterende oppfølginger** vises startdato og -klokkeslett for oppfølgingen samt sluttiden.
+2. Velg fanen **Detaljer** og klikk på ordet **Aldri** ved siden av feltet **Gjentas**.
 
-    > [!NOTE]
-    > Her kan du bare endre startdatoen for oppfølgingen. For å endre klokkeslettet må du først lukke dialogboksen **Repeterende oppfølginger** og deretter endre klokkeslettet i dialogboksen **Avtale**, **Oppgave** eller **Samtale**.
+    Hvis du oppdaterer en gjentakende oppfølging, klikk på den tidligere angitte mønsteret, for eksempel, **Månedlig (23.09.2023 - 23.09.2024)**.
 
-5. Under **Hyppighet** angir du om oppfølgingen skal gjentas daglig, ukentlig, månedlig, årlig eller med egendefinert mellomrom. Deretter velger du ytterligere detaljer for hyppighet i feltet midt i dialogboksen. Alternativene i dette feltet endrer seg avhengig av hva du velger under **Hyppighet**:
-    * Velger du **Daglig**, kan du angi at oppfølgingen skal gjentas hver arbeidsdag, hver ukedag eller med et egendefinert intervall, for eksempel annenhver dag.
+3. Angi **hyppighet:** skal oppfølgingen gjentas daglig, ukentlig, månedlig, årlig eller med egendefinert mellomrom?
 
-    * Velger du **Ukentlig**, kan du angi at oppfølgingen skal gjentas med et egendefinert ukentlig intervall, for eksempel hver tredje uke, og hvilke ukedager oppfølgingen skal skje på.
+4. Deretter velger du ytterligere [detaljer for hyppighet][4]. Alternativene i dette feltet endrer seg avhengig av hva du velger under trinn 3.
 
-    * Velger du **Månedlig**, kan du angi hvilken dag i måneden oppfølgingen skal gjentas på, for eksempel den femte dagen i måneden, og et egendefinert månedlig intervall, for eksempel hver fjerde måned. Du kan også angi at oppfølgingen skal gjentas f.eks. hver fjerde onsdag i måneden.
+    Hvis ingen av mønstrene passer for deg, kan du manuelt legge inn de datoene du trenger.
+    Velg **Egendefinert**. Velg deretter en dato i kalenderen og klikk på pilen ![ikon][img2] for å legge den til i listen over valgte datoer. Gjenta for å legge til flere datoer. For å fjerne en dato, velg datoen i listen og klikk på **Slett**.
 
-    * Velger du **Årlig**, kan du angi dag og måned som oppfølgingen skal gjentas hvert år, for eksempel den 23\. september hvert år.
+5. I feltet **Repeterende oppfølginger** velger du om oppfølgingen skal stoppe etter et bestemt antall ganger eller etter en bestemt dato.
 
-    * Velger du **Egendefinert**, kan du legge til ønskede datoer manuelt. Merk dagen i kalenderen, og klikk på pilknappen (![ikon][img2]) for å legge den til på listen over valgte datoer. Hvis du vil slette en dato, merker du datoen i listen, og deretter klikker du på **Slett**.
+6. Hvis du vil, kan du endre én eller flere datoer manuelt i listen over merkede datoer, for eksempel hvis det er en konflikt.
 
-6. I feltet **Repeterende oppfølginger** velger du om oppfølgingen skal stoppe etter et bestemt antall ganger eller etter en bestemt dato.
+    * **For å flytte en dato,** merk datoen du vil flytte, og klikk på **Senere** hvis du vil flytte oppfølgingen én dag frem i tid, eller på **Tidligere** hvis du vil flytte oppfølgingen én dag tilbake i tid.
 
-7. Hvis du vil, kan du endre én eller flere datoer manuelt i listen over merkede datoer, for eksempel hvis det er en konflikt.
+    * **For å legge til en dato,** klikk på **Legg til**-knappen under listen. Velg ønsket dato, og klikk på pilknappen ![ikon][img2] til høyre for kalenderen for å legge til datoen på listen. Bruk pilknappene på hver side av månedsnavnet i kalenderen for å vise andre måneder.
 
-    **Alternativer:**
+    * **For å slette en dato,** merk datoen du vil slette, og klikk på **Slett**-knappen under listen. Datoen blir da fjernet fra listen over datoer.
 
-    * Flytte en dato: Merk datoen du vil flytte, og klikk på **Senere** (![ikon][img3]) hvis du vil flytte oppfølgingen én dag frem i tid, eller på **Tidligere** (![ikon][img4]) hvis du vil flytte oppfølgingen én dag tilbake i tid.
+7. Når du har angitt datoer for oppfølgingen, klikker du på **OK** for å lagre datoene og lukke dialogboksen, eller på **Avbryt** hvis du vil lukke dialogboksen uten å lagre datoene.
 
-    * Legge til en dato: Klikk på **Legg til**-knappen under listen. Da vises den samme kalenderen som når du velger **Egendefinert**. Velg ønsket dato, og klikk på pilknappen (![ikon][img2]) til høyre for kalenderen for å legge til datoen på listen. Bruk pilknappene (![ikon][img5] ![ikon][img6]) på hver side av månedsnavnet i kalenderen for å vise andre måneder.
+    I dialogboksen viser teksten ved siden av feltet **Gjentas** hva slags gjentakelse du har angitt for oppfølgingen, for eksempel **Månedlig (23.09.2016 - 23.09.2017)**.
 
-    * Slette en dato: Merk datoen du vil slette, og klikk på **Slett**-knappen under listen. Datoen blir da fjernet fra listen over datoer.
+8. Klikk på **Lagre** i dialogboksen **Avtale** for å lagre de endringene som er gjort.
 
-8. Når du har angitt datoer for oppfølgingen, klikker du på **OK** for å lagre datoene og lukke dialogboksen, eller på **Avbryt** hvis du vil lukke dialogboksen uten å lagre datoene.
+![Skjermbilde av gjentakende oppfølgingsdialog -screenshot][img6]
 
-9. Klikk på **Lagre** i dialogboksen **Avtale** for å lagre de endringene som er gjort.
+### [Ny (fra versjon 10.2.11 pilot)](#tab/fields-new)
 
-I dialogboksen **Avtale**, **Oppgave** eller **Samtale** viser teksten ved siden av feltet **Gjentas** hva slags gjentakelse du har angitt for oppfølgingen, for eksempel **Månedlig (23.09.2016 - 23.09.2017)**.
+1. [Åpne eller opprett en oppfølging][2].
+
+1. Klikk gjentakelsesikonet ![ikon][img1] og velg en av de foreslåtte frekvensene. Hvis ingen av mønstrene passer for deg, velg **Egendefinert**.
+
+    ![Oppfølgingsdialog, foreslått gjentakelse -screenshot][img8]
+
+    Hvis du ikke ser ikonet, klikk **Vis mer**.
+
+1. Oppdater startdatoen om nødvendig.
+
+1. Velg en frekvens, for eksempel, gjenta hver 2. uke. Ytterligere alternativer vises hvis du velger *Uke(r)*, *Måned(er)*, eller *År*.
+
+    ![Oppfølgingsdialog, gjentakelse -screenshot][img7]
+
+1. Velg om oppfølgingen skal stoppe etter et bestemt antall ganger eller etter en bestemt dato.
+
+1. Valgfritt, finjuster listen over valgte datoer, for eksempel, hvis det er en konflikt. Klikk på en dato, bruk deretter knappene under listen for å enten fjerne eller flytte den datoen.
+
+1. Klikk **OK** for å lagre datoene og returnere til oppfølgingsdetaljene.
+
+1. Klikk **Lagre** i **Oppfølgings**-dialogen for å lagre alle endringer.
+
+***
+<!-- markdownlint-restore -->
 
 ## Hva vil du lære mer om?
 
 * [Redigere repeterende oppfølginger][1]
-* [Motta invitasjoner][2]
 * [Stoppe repeterende oppfølginger][3]
 
 <!-- Referenced links -->
-[1]: edit.md
-[2]: ../invitation/receive.md
+[1]: ../edit-follow-up.md#repeat
+[2]: ../create-follow-up.md
 [3]: stop.md
-[4]: index.md
-[5]: ../screen/dialog-for-followups.md
+[4]: index.md#frequency
 
 <!-- Referenced images -->
+[img1]: ../../../../../common/icons/refresh-icon.png
 [img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/icons/arrow-down.png
-[img4]: ../../../../media/icons/arrow-up.png
-[img5]: ../../../../media/icons/arrow-left.png
-[img6]: ../../../../media/icons/arrow-right.png
+[img6]: ../../../../media/loc/en/diary/recurrence-dialog.png
+[img7]: ../../../../media/loc/en/diary/recurrence-selected-dates.png
+[img8]: ../../../../media/loc/en/diary/suggested-pattern.png

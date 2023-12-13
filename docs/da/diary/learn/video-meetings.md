@@ -1,9 +1,10 @@
 ---
 uid: help-da-video-meetings
 title: Arbejde med videomøder
-description: "Start videomøder direkte fra din dagbog ved hjælp af vores tilgængelige integrationer med leverandører af videokonferencer. Lær, hvordan du opretter og deltager i et videomøde i SuperOffice her."
+description: Lær, hvordan du opretter og deltager i et videomøde i SuperOffice her.
 author: SuperOffice RnD
-so.date: 02.10.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: dagbog, opfølgning, videomøde
 so.topic: howto
 language: da
@@ -35,25 +36,25 @@ Du kan nemt oprette et videomøde, når du opretter en opfølgning. Se denne vid
 
 1. Opret en ny aftale, og vælg navnet på det firma og den person, du planlægger at møde.
 
-2. For at oprette videomødets URL-adresse skal du klikke på ![ikonet][img1] ud for mødetypen (f.eks. **Forretningsmøde**). Ikonet ændres til ![ikon][img2], og der tilføjes et link til videomøde. SuperOffice CRM opretter og tilføjer URL-adressen til videomødet for den videoudbyder, du bruger.
+2. For at oprette videomødets URL-adresse skal du klikke på ![ikonet][img1]. Ikonet ændres til ![ikon][img2], og der tilføjes et link til videomøde. SuperOffice CRM opretter og tilføjer URL-adressen til videomødet for den videoudbyder, du bruger.
 
     ![Klik på videomødeikonet for at oprette URL-adressen til videomødet -screenshot][img5]
 
     > [!NOTE]
-    > Første gang du vælger videoikonet (![ikon][img1]), skal du logge ind for at godkende din bruger i den videomødetjeneste, der er defineret af din administrator.
+    > Første gang du vælger videoikonet ![ikon][img1], skal du logge ind for at godkende din bruger i den videomødetjeneste, der er defineret af din administrator.
     >
     > Hvis du ikke kan se ikonet, betyder det, at videomødefunktionen endnu ikke er konfigureret. Kontakt din SuperOffice-administrator, som vil være i stand til at konfigurere forbindelsen mellem funktionen og videoudbyderen.
 
 3. Du kan også konfigurere en alarm, der skal vises via et pop op-vindue, før mødet starter.
 
-4. Inviter deltagere: Gå til fanen **Deltagere** og klik på knappen **+ Tilføj** for at invitere andre til dette møde.
+4. [Inviter deltagere][2].
 
     Når du har tilføjet alle, som du ønsker skal deltage i mødet, skal du klikke på **Gem**.
 
     Hvis du har slået e-mailinvitationer til for deltagerne i opfølgningen, sendes der en e-mail med et link til at deltage i videomødet, når aftalen gemmes. I dagbogen vises opfølgninger med videomøder med ikonet ![ikon][img3].
 
 > [!TIP]
-> Klik på ![ikon][img4] for at kopiere linket til videomødet. Du kan derefter indsætte linket i beskrivelsen af aftalen eller sende det til andre via direkte beskeder. Brug skabelonvariablen {burl} til at føje videomødelinket til invitationsskabeloner.
+> Klik på ![ikon][img4] for at kopiere linket til videomødet. Du kan derefter indsætte linket i dagsorden / beskrivelsen af aftalen eller sende det til andre via direkte beskeder. Brug skabelonvariablen {burl} til at føje videomødelinket til invitationsskabeloner.
 
 ## Deltage i videomøder
 
@@ -73,27 +74,24 @@ Se denne video, eller følg nedenstående trin (videolængde - 1:11):
 
 #### På pop op-meddelelsen
 
-Hvis værten for mødet har oprettet meddelelser for mødet, advarer SuperOffice CRM dig ved at vise en pop op-meddelelse, før dit møde skal til at begynde. Du kan klikke på knappen Deltag i møde i pop op-meddelelsen for automatisk at starte dit videomøde.
+Hvis værten for mødet har oprettet meddelelser for mødet, advarer SuperOffice CRM dig ved at vise en pop op-meddelelse, før dit møde skal til at begynde. Du kan klikke på knappen **Deltag i møde** i pop op-meddelelsen for automatisk at starte dit videomøde.
 
 #### I aftalen
 
-Du kan også deltage i videomødet ved at åbne aftalen i din dagbog og klikke på knappen Deltag i møde nederst i aftalen.
-
-Når du klikker på linket, starter dit videomøde automatisk.
+Du kan også deltage i videomødet ved at åbne aftalen i din dagbog og klikke på knappen **Deltag i møde** nederst i aftalen. Når du klikker på linket, starter dit videomøde automatisk.
 
 > [!TIP]
 > Når du ikke bruger URL-adresse til videomøde, men har en anden video-URL, skal du blot føje den til feltet Placering, og det er nemt for alle, der bruger Mobile CRM, at klikke på Placering **for at oprette forbindelse til videomødet på farten**.
 
 #### I sidepanelets forhåndsvisning
 
-Klik på aftalen i din SuperOffice-dagbog for at se dens detaljer på forhåndsvisningsskærmen i sidepanelet.
+Klik på aftalen i din SuperOffice-dagbog for at se dens detaljer i sidepanelet. (Aktiver forhåndsvisning ved at vælge det i rullemenuen øverst i sidepanelet).
 
-(Aktiver forhåndsvisning ved at vælge det i rullemenuen øverst i sidepanelet).
-
-Du deltager i videomødet via forhåndsvisningsskærmen ved at klikke på knappen Deltag i møde nederst i sidepanelet. Når du klikker på linket, starter dit videomøde automatisk.
+Du deltager i videomødet via forhåndsvisningsskærmen ved at klikke på knappen **Deltag i møde**. Når du klikker på linket, starter dit videomøde automatisk.
 
 <!-- Referenced links -->
 [1]: ../../../en/video-meeting/howto/connect-provider.md
+[2]: invitation/add-participant.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/videocall-off.png

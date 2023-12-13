@@ -3,7 +3,8 @@ uid: help-nl-follow-up-move
 title: Vervolgactiviteiten verplaatsen
 description: Vervolgactiviteiten verplaatsen
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: agenda, vervolgactiviteit
 so.topic: howto
 language: nl
@@ -32,6 +33,9 @@ Op een bepaald moment zult u vervolgactiviteiten moeten verplaatsen naar een and
 * Selecteer de weergave **Week** of **Maand** in het zijpaneel, ga vervolgens naar de gewenste week of maand en sleep vervolgens de vervolgactiviteit van de agenda naar de gewenste dag in het zijpaneel. De agenda wordt dan automatisch bijgewerkt met de gewenste week of maand.
 
 * Verplaats de vervolgactiviteit tijdelijk naar de activiteitenlijst, ga naar de gewenste week of maand en sleep de vervolgactiviteit vervolgens terug naar de gewenste dag in de agenda.
+
+    > [!NOTE]
+    > U kunt een vergadering met deelnemers niet verplaatsen naar de activiteitenlijst.
 
 ## Verplaatsen van de activiteitenlijst naar de agenda
 

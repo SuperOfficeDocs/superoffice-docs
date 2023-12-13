@@ -1,7 +1,7 @@
 ---
 uid: help-de-gmail-link-archive-as-activity
 title: E-Mail als Aktivität archivieren
-description: "Wenn Sie eine E-Mail direkt als Aufgabe, Termin oder Anruf in Ihrem SuperOffice-Kalender speichern, stellen Sie sicher, dass Sie niemals eine Folgeaufgabe für einen Kunden oder eine Frage vergessen werden." 
+description: "Wenn Sie eine E-Mail direkt als Folgeaufgabe in Ihrem SuperOffice-Kalender speichern, stellen Sie sicher, dass Sie niemals eine Folgeaufgabe für einen Kunden oder eine Frage vergessen werden." 
 author: SuperOffice RnD
 so.date: 02.10.2023
 keywords: Gmail Link

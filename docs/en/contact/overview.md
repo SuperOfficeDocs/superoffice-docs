@@ -20,7 +20,7 @@ SuperOffice has five important things:
 * **Associates** are SuperOffice users - employees of the company.
 * **Projects** are a type of activity that usually involves several stakeholders and various types of other activities.
 * **Activities** are things employees do with companies, contacts, projects, the diary, and sales.
-  * appointments of various task types
+  * follow-ups
   * documents
   * mailings and form submissions
   * chat sessions
@@ -32,7 +32,7 @@ You can [read more about the main tables][1] in the developer documentation.
 
 * Activities happen at a particular point in time.
 * Sales are expected to be closed on a date in the future.
-* Appointments are scheduled for a particular date and time.
+* Meetings are scheduled for a particular date and time.
 * Documents are written on a specific day.
 * Activities start on one day and finish on another.
 * Time is important for activities.

@@ -20,7 +20,7 @@ language: nl
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-2. Klik op de ![pictogram][img1] pijl achter het veld **Type** en selecteer het gewenste type vervolgactiviteit in de keuzelijst. U kunt kiezen tussen **Afspraak**, **Gesprek** en **Taak**.
+2. Klik op de ![pictogram][img1] pijl achter het veld **Type** en selecteer het gewenste type vervolgactiviteit in de keuzelijst.
 
 3. Geef in het veld **Richting** op of de sjabloon uitgaand of binnenkomend is door te klikken op de pijl en een keuze te maken in de keuzelijst.
 

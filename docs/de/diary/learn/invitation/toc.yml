@@ -3,11 +3,5 @@ items:
     href: index.md
   - name: Teilnehmer zu Folgeaufgabe hinzufügen
     href: add-participant.md
-  - name: Einladung bearbeiten oder löschen
-    href: update.md
-  - name: "Folgeaufgaben anzeigen, zu denen Sie eingeladen sind"
-    href: follow-ups-you-are-invited-to.md
-  - name: Einladungen empfangen
-    href: receive.md
-  - name: Antwort auf Einladungen behandeln
-    href: response.md
+  - name: Einladungen annehmen oder ablehnen
+    href: accept-decline.md

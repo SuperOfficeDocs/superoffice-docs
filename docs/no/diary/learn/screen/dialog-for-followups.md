@@ -11,7 +11,7 @@ language: no
 
 # Dialogboksen for oppfølginger
 
-Uansett hva slags oppfølging du skal jobbe med, vil du få se dialogboksen for oppfølginger. Det faktiske navnet på denne dialogboksen varierer avhengig av typen oppfølging – [Avtale][1], [Oppgave][2], eller [Samtale][3] – men feltene er like i hvert tilfelle. Nedenfor finner du en beskrivelse av feltene i dialogboksen og hvordan du bruker dem.
+Uansett hva [slags oppfølging][1] du skal jobbe med, vil du få se dialogboksen for oppfølginger. Det faktiske navnet på denne dialogboksen varierer avhengig av typen oppfølging – Avtale, Oppgave, eller Samtale – men feltene er like i hvert tilfelle. Nedenfor finner du en beskrivelse av feltene i dialogboksen og hvordan du bruker dem.
 
 Dialogboksen består av en hovedseksjon med generell informasjon om oppfølgingen, og fem faner med tilleggsinformasjon:
 
@@ -155,17 +155,15 @@ Denne fanen inneholder informasjon om nettadresser, aktiviteter (dokumenter og o
 
 ## Fanen Mer
 
-Denne fanen viser eventuelle [egendefinerte felt][14] som er konfigurert i Innstillinger og vedlikehold.
+Denne fanen viser eventuelle [egendefinerte felt][14] som er konfigurert i Innstillinger og vedlikehold. Hvis ikke konfigurert, vises ikke denne fanen.
 
 <!-- Referenced links -->
-[1]: ../appointment.md
-[2]: ../task.md
-[3]: ../phone-call/index.md
+[1]: ../follow-ups.md
 [4]: ../recurrence/index.md
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md
-[7]: ../open.md
-[8]: ../../../learn/activity/linking-documents-to-follow-ups.md
+[7]: ../other-diaries.md
+[8]: ../linking-documents-to-follow-ups.md
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md

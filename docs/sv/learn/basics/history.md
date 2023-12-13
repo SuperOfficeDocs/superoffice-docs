@@ -16,7 +16,7 @@ På flera platser i SuperOffice CRM gör historiklistan det enkelt att komma åt
 Du kan använda historiklistan på olika sätt:
 
 * Direkt från navigatorn ![ikon][img2] för att gå till önskat företag, kontakt, försäljning, projekt eller urval.
-* Från dialogrutor som innehåller fälten för företag, kontakter, försäljning och projekt, till exempel dialogrutorna **bokning** och **dokument**, för att länka bokningen eller dokumentet.
+* Från dialogrutor som innehåller fälten för företag, kontakter, försäljning och projekt, till exempel dialogrutorna **Händelse** och **Dokument**, för att länka händelsen eller dokumentet.
 
 ## Använda historiklistan i navigatorn
 

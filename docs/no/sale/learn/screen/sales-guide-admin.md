@@ -18,7 +18,7 @@ I fanen **Salgsguide** i **Arbeidsflyt**-bildet i Innstillinger og vedlikehold k
 
 ## Eksempel
 
-Salgstypen "Salg til ny kunde" kan bestå av tre faser: "Første møte", "Tilbud" og "Kontraktssignering". Fasen "Første møte" kan for eksempel ha oppfølgingen "Kundemøte" (en avtale) og dokumentet "Møteinnkallelse" (en e-post).
+Salgstypen "Salg til ny kunde" kan bestå av tre faser: "Første møte", "Tilbud" og "Kontraktssignering". Fasen "Første møte" kan for eksempel ha oppfølgingen "Kundemøte" og dokumentet "Møteinnkallelse" (en e-post).
 
 ## Hva vil du gjøre nå?
 

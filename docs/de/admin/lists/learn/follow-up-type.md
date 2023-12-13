@@ -11,7 +11,7 @@ language: de
 
 # Folgeaufgabe - Typ
 
-Der Begriff "Folgeaufgabe" bezeichnet in SuperOffice CRM Aktivitäten wie Termine, Aufgaben und Anrufe. Jede dieser Aktivitäten ist wiederum in verschiedene Typen eingeteilt, die in der Ansicht **Listen** in Einstellungen und Verwaltung definiert werden. Die Typen werden als Objekte in der Liste **Folgeaufgabe - Typ** angezeigt.
+Typen Folgeaufgabe werden in der Ansicht **Listen** in Einstellungen und Verwaltung definiert. Die Typen werden als Objekte in der Liste **Folgeaufgabe - Typ** angezeigt.
 
 ## Was möchten Sie jetzt tun?
 

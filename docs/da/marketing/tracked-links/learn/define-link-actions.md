@@ -27,7 +27,7 @@ I SuperOffice Marketing kan du forbinde dine links med handlinger. Disse handlin
 | Indstille felt | Tilføje en værdi til et ekstra felt for kundekontakter |
 | Interesser | Opdatere interesser |
 | Udtræk/projekt | Tilføje/fjerne person fra et udtræk/projekt |
-| Opfølgning | Oprette en opfølgning (opgave eller aftale) i SuperOffice CRM |
+| Opfølgning | Oprette en opfølgning (opgave eller møde) i SuperOffice CRM |
 | Sag | Oprette en ny sag |
 | Script | Køre et script |
 
@@ -70,27 +70,27 @@ Se også [Nulstil interesser i SuperOffice CRM][1].
 
 Her kan du angive, at modtagere, der klikker på linket, vil blive tilføjet til eller fjernet fra udtræk i SuperOffice Service eller udtræk/ projekter i SuperOffice CRM. Indtast de første bogstaver i navnet i feltet for at starte hurtigsøgningen.
 
-## Opfølgning (opgave/aftale)
+## Opfølgning (opgave/møde)
 
-I fanen **Opfølgning** kan du angive, at klik på links skal generere opgaver eller aftaler i SuperOffice CRM.
+I fanen **Opfølgning** kan du angive, at klik på links skal generere opgaver eller møder i SuperOffice CRM.
 
 1. Markér **Opfølgning** for at aktivere denne funktion.
 
 2. **Opgave/aftale**: Vælg, hvilken type opfølgning der skal foretages.
 
-3. **Beskrivelse**: Angiv en beskrivelse af opgaven/aftalen. For eksempel hvilken udsendelse det drejer sig om, hvilket link modtageren har klikket på, og eventuelt hvordan der skal følges op på opgaven/aftalen.
+3. **Beskrivelse**: Angiv en beskrivelse af opfølgningen. For eksempel hvilken udsendelse det drejer sig om, hvilket link modtageren har klikket på, og eventuelt hvordan der skal følges op på opgaven/mødet.
 
-4. **Projekt**: Her vælger du det projekt, som opgaven/aftalen skal knyttes til. Indtast de første bogstaver i navnet i feltet for at starte hurtigsøgningen.
+4. **Projekt**: Her vælger du det projekt, som opfølgningen skal knyttes til. Indtast de første bogstaver i navnet i feltet for at starte hurtigsøgningen.
 
-5. **Opgave**: Vælg den ønskede opgave- eller aftaletype.
+5. **Opgave**: Vælg den ønskede type opfølgning.
 
-6. **Oprettet af**: Vælg, hvilken bruger der skal være ansvarlig for opgaven/aftalen, eller klik på knappen **Angiv aktiv bruger**(![ikon][img1]) for at angive dig selv.
+6. **Oprettet af**: Vælg, hvilken bruger der skal være ansvarlig for opfølgningen, eller klik på knappen **Angiv aktiv bruger**(![ikon][img1]) for at angive dig selv.
 
-7. **Tildel til vores kontakt, hvis muligt**: Markér her, om opgaven/aftalen skal tildeles "vores kontakt" for modtageren (det vil sige den kundeansvarlige for denne kunde).
+7. **Tildel til vores kontakt, hvis muligt**: Markér her, om opfølgningen skal tildeles "vores kontakt" for modtageren (det vil sige den kundeansvarlige for denne kunde).
 
-8. **Standardmodtager**: Vælg en standardmodtager, der skal tildeles opgaven/aftalen, eller klik på knappen **Angiv aktiv bruger** ![(ikonet)][img1] for at angive dig selv.
+8. **Standardmodtager**: Vælg en standardmodtager, der skal tildeles opfølgningen, eller klik på knappen **Angiv aktiv bruger** ![(ikonet)][img1] for at angive dig selv.
 
-9. **Varighed**: Klik på knappen **Vælg tidsramme** ![ikonet)][img2] ved siden af dette felt for at angive varigheden af opgaven/aftalen.
+9. **Varighed**: Klik på knappen **Vælg tidsramme** ![ikonet)][img2] ved siden af dette felt for at angive varigheden af opfølgningen.
 
 ## Sag
 

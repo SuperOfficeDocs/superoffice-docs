@@ -59,18 +59,18 @@ Skærmbillederne Firma og Person indeholder alle oplysninger relateret til dine 
 * [Masseopdater firma- og personoplysninger][5]
 * [Opret valg til yderligere handling][6]
 
-## Dagbog og aftaler
+## Dagbog og opfølginger
 
-SuperOffice Dagbog er hjertet i dit CRM-system. Regelmæssig brug af dagbogen hjælper dig med automatisk at forbinde og dele aftaler og aktiviteter, der er knyttet til en kontakt eller en virksomhed, så du og dit team ubesværet kan holde dig på sporet og arbejde produktivt. Disse vejledninger hjælper dig med at lære at arbejde med dagbogen.
+SuperOffice Dagbog er hjertet i dit CRM-system. Regelmæssig brug af dagbogen hjælper dig med automatisk at forbinde og dele opfølginger og aktiviteter, der er knyttet til en kontakt eller en virksomhed, så du og dit team ubesværet kan holde dig på sporet og arbejde produktivt. Disse vejledninger hjælper dig med at lære at arbejde med dagbogen.
 
-![Hold styr på alle dine aftaler og opgaver ved at registrere dem i din dagbog -screenshot][img1]
+![Hold styr på alle dine møder og skal udføres ved at registrere dem i din dagbog -screenshot][img1]
 
 Ud over den almindelige kalenderfunktionalitet giver SuperOffice Dagbog dig også mulighed for at forbinde og organisere aktiviteter i projekter og salg. Dette hjælper dig og dit team med at få et komplet overblik over alle aktiviteter og kommunikation i forbindelse med ethvert projekt eller salg.
 
-### Opgaver - dagbog og aftaler
+### Opgaver - dagbog og opfølginger
 
-* [Oprettelse af aftaler][8]
-* [Invitere en kontakt til en aftale][10]
+* [Oprettelse af møder][8]
+* [Invitere en kontakt til et møde][10]
 * [Videomøde][11]
 
 ## Vedligeholde dine dokumenter
@@ -88,7 +88,7 @@ SuperOffice Projekt hjælper dig med at holde styr på dit arbejde og dokumenter
 
 Når du arbejder på et projekt, skal oplysningerne være let tilgængelige og deles. Du kan bruge SuperOffice Projekt til at gemme alle dine projektopfølgninger og dokumenter på ét sted.
 
-Du kan tilknytte alle kontakter, firmaer, opgaver, aftaler, projektmedlemmer og endda salgsmuligheder til ét projekt i SuperOffice CRM. Du kan også oprette eller overføre dokumenter og filer til projektet.
+Du kan tilknytte alle kontakter, firmaer, opfølginger, projektmedlemmer og endda salgsmuligheder til ét projekt i SuperOffice CRM. Du kan også oprette eller overføre dokumenter og filer til projektet.
 
 Alle de informationer, du gemmer i projektet, mærkes med en dato og en ejer, hvilket gør det nemmere at sortere og filtrere informationer, når det er nødvendigt.
 
@@ -110,10 +110,10 @@ Din administrator kan [tilføje og tilpasse projektguider][1] for dig.
 [6]: ../../search-options/selection/learn/howto/index.md
 [4]: deleting-elements.md
 [7]: ../../project/learn/create.md
-[8]: ../../diary/learn/create-appointment.md
+[8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/invitation/add-participant.md
 [11]: ../../../en/video-meeting/index.md
-[12]: ../activity/index.md
+[12]: activity.md
 [13]: ../../globalization-and-localization/learn/change-language.md
 [14]: fav.md
 [15]: deleting-elements.md

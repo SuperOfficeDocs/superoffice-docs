@@ -11,7 +11,7 @@ language: de
 
 # Registerkarte Aktivitäten
 
-Die Bereichsregisterkarte **Aktivitäten** in der Anzeige Person enthält alle Aktivitäten, die mit der aktiven Person verknüpft sind (einschließlich Termine, bei denen die Person ein Teilnehmer ist).
+Die Bereichsregisterkarte **Aktivitäten** in der Anzeige Person enthält alle Aktivitäten, die mit der aktiven Person verknüpft sind (einschließlich Folgeaufgaben, bei denen die Person ein Teilnehmer ist).
 
 ist die Person ist einer Firma zugeordnet, sind diese Aktivitäten auch auf der Bereichsregisterkarte **Aktivitäten** in der Ansicht Firma verfügbar.
 

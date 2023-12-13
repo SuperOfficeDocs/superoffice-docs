@@ -20,7 +20,7 @@ Email synchronization and mail sending and receiving. These preferences control 
 | Preference | Description | Default | Control type | Access |
 |---|---|---|---|---|
 | AddressSeparator | Use this character to delimit email addresses. | ';' | Text | Admin, Crm, Admin users, Wizard |
-| ArchiveAppointments | Always proposes archiving appointments you send from SuperOffice by email.<br>By default, you will be asked if you want to archive all appointments sent by email. | | Bool | Admin, Admin users, Wizard |
+| ArchiveAppointments | Always proposes archiving follow-ups you send from SuperOffice by email.<br>By default, you will be asked if you want to archive all follow-ups sent by email. | | Bool | Admin, Admin users, Wizard |
 | ArchiveDocuments | Always proposes archiving documents you send from SuperOffice by email. By default, you will be asked if you want to archive all documents sent by email. | | Bool | Admin, Admin users, Wizard |
 | ArchiveForwards | Always proposes archiving email forwarded from SuperOffice.<br>By default, you will be asked if you want to archive all emails you forward. | | Bool | Admin, Admin users, Wizard |
 | ArchiveReplies | Always proposes archiving replies to emails that are archived in SuperOffice. By default, you will be asked if you want to archive all emails you reply to. | | Bool | Admin, Admin users, Wizard |
@@ -50,8 +50,8 @@ Email synchronization and mail sending and receiving. These preferences control 
 | NameDrafts | Specifies the name of the IMAP folder that is used to store email drafts. | Drafts | Text | Admin, Admin users, Wizard |
 | NameInbox | Specifies the name of the IMAP folder used as your email inbox. | Inbox | Text | Admin, Admin users, Wizard |
 | NameSent | Specifies the name of the IMAP folder that is used to store sent email. | Sent Items | Text | Admin, Admin users, Wizard |
-| NotifyAssociateByMail | Notifies an associate by email when invited to an appointment | | Bool | Admin, Crm, Admin users, Wizard |
-| NotifyExtPersonByMail | Notifies a contact by email when invited to an appointment | | Bool | Admin, Admin users, Wizard |
+| NotifyAssociateByMail | Notifies an associate by email when invited to a follow-up | | Bool | Admin, Crm, Admin users, Wizard |
+| NotifyExtPersonByMail | Notifies a contact by email when invited to a follow-up | | Bool | Admin, Admin users, Wizard |
 | NotifyOnlineUsers | Users who are logged on will be notified about changes to invitations | | Bool | Wizard |
 | RemoveAfterArchive | Deletes the email from your inbox after you have archived it in SuperOffice | NO | Bool | Admin, Admin users, Wizard |
 | SaveLogonInfo | Saves an encrypted version of your user name and password for the email server in the database. This saves you from having to enter your user name and password each time you want to access your inbox. | NO | Bool | Admin, Admin users, Wizard |

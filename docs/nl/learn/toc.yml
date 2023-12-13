@@ -98,7 +98,7 @@ items:
       topicHref: ../sale/learn/screen/sales-guide-admin.md
       items:
       - name: Verkoopgids
-        href: ../sale/learn/screen/sales-guide-admin.md
+        topicHref: ../sale/learn/screen/sales-guide-admin.md
         items:
         - name: Overzicht
           href: ../sale/learn/screen/sales-guide-admin.md
@@ -109,7 +109,7 @@ items:
         - name: Een verkoopgids deactiveren
           href: ../sale/learn/sales-guide/deactivate.md
       - name: Projectgids
-        href: ../project/learn/screen/project-guide-admin.md
+        topicHref: ../project/learn/screen/project-guide-admin.md
         items:
         - name: Overzicht
           href: ../project/learn/screen/project-guide-admin.md
@@ -135,7 +135,7 @@ items:
       topicHref: ../admin/options/learn/index.md
 
     - name: Chatten
-      href: ../chat/learn/admin/index.md
+      topicHref: ../chat/learn/admin/index.md
       items:
       - name: Overzicht
         href: ../chat/learn/admin/index.md
@@ -153,6 +153,15 @@ items:
       items:
       - name: Overzicht
         href: ../request/learn/admin/index.md
+      - name: Verzoektypen
+        topicHref: ../request/learn/type/index.md
+        items:
+        - name: Overzicht
+          href: ../request/learn/type/index.md
+        - name: Verzoektype aanmaken
+          href: ../request/learn/type/create.md
+        - name: Verzoektype verwijderen
+          href: ../request/learn/type/delete.md
       - name: Categorieën
         href: ../request/learn/category/index.md
         items:

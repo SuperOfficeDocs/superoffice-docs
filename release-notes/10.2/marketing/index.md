@@ -11,8 +11,8 @@ so.topic: reference
 
 # New and improved Marketing
 
-* [Email domain validation (10.2.2)][1]
 * [Mailing Magic AI on heading, button and image (10.2.3)][2]
+* [Email domain validation (10.2.2)][1]
 
 <!-- Referenced links-->
 [1]: 10.2.2-update.md

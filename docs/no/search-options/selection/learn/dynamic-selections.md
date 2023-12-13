@@ -35,7 +35,7 @@ Du kan opprette et utvalg som inneholder alle dokumenter du har opprettet den si
 
 Du kan opprette et utvalg som inneholder alle oppfølginger for en bestemt kunde, for å få et inntrykk av hva slags forhold du har til dem før du har salgsmøte med dem.
 
-Og du kan opprette et utvalg som inneholder alle oppfølginger du har denne måneden, for å se hvilke avtaler du har og om du bør sette opp flere.
+Og du kan opprette et utvalg som inneholder alle oppfølginger du har denne måneden, for å se hvilke møter du har og om du bør sette opp flere.
 
 ### Produkter
 

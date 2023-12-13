@@ -1,77 +1,97 @@
 ---
-uid: help-sv-recurrence-create
-title: Skapa återkommande händelse
-description: Skapa återkommande händelse
-author: SuperOffice RnD
-so.date: 06.29.2022
+uid: help-sv-recurrence-set
+title: Schemalägg återkommande händelse
+description: Schemalägg återkommande händelse
+author: Bergfrid Dias
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: kalender, händelse, upprepa, återkomma
 so.topic: howto
 language: sv
 ---
 
-# Skapa återkommande händelse
+# Schemalägg återkommande händelse
 
-Det kan hända att du vill skapa en serie bokningar som återkommer med jämna mellanrum, till exempel ett veckomöte för statusuppdatering. Istället för att lägga in dessa möten ett i taget kan du använda funktionen för återkommande händelser.
+Att ställa in återkommande möten innebär att schemalägga startdatumet för uppföljningsmöten i en serie.
 
-> [!TIP]
-> Alla [förekomstalternativ beskrivs i referensen][4].
+[!include[Caution](../includes/caution-do-not-change-recurring-date.md)]
 
-1. Öppna dialogrutan **Bokning**, **Uppgift** eller **Samtal** och [ange de nödvändiga uppgifter][5].
+## Steg
 
-2. Välj fliken **Detaljer**.
+<!-- markdownlint-disable MD051 -->
+### [Classic](#tab/fields-old)
 
-3. Klicka på ordet **Aldrig** till höger om **fältet Upprepning**.
+1. [Öppna eller skapa en händelse][2].
 
-4. Längst upp till höger i dialogrutan **Återkommande händelser** visas startdatum och starttid för händelsen samt sluttiden.
+2. Välj fliken **Detaljer** och klicka på ordet **Aldrig** brevid fältet **Upprepning**.
 
-    > [!NOTE]
-    > Du kan bara ändra startdatum för händelsen här. Om du vill ändra tiden stänger du först dialogrutan **Återkommande händelser** och ändrar sedan tiden i dialogrutan **Bokning**, **Uppgift** eller **Samtal**.
+    Om du uppdaterar en återkommande uppföljning, klicka på det tidigare inställda mönstret, till exempel, **Månadsvis (23.09.2023 - 23.09.2024)**.
 
-5. Under **Förekomst** anger du om händelsen ska upprepas varje dag, vecka, månad eller år eller med ett användardefinierat intervall. Välj sedan ytterligare information för förekomst i fältet i mitten av dialogrutan. Vilka alternativ som är tillgängliga här beror på vad du väljer under **Förekomst**:
-    * Om du väljer **Daglig** kan du ange att händelsen ska upprepas varje arbetsdag, varje dag i veckan eller med ett användardefinierat intervall, till exempel varannan dag
+3. Under **Förekomst** anger du om händelsen ska upprepas varje dag, vecka, månad eller år eller med ett användardefinierat intervall.
 
-    * Om du väljer **Veckovis** kan du ange att händelsen ska upprepas med ett användardefinierat veckointervall, till exempel var tredje vecka, och på vilken veckodag den ska äga rum.
+4. Välj sedan ytterligare [information för förekomst][4]. Vilka alternativ som är tillgängliga här beror på vad du väljer under steg 3.
 
-    * Om du väljer **Månatlig** kan du ange vilken dag i månaden händelsen ska upprepas, till exempel den 5:e i månaden, och ett användardefinierat månadsintervall, till exempel var 4:e månad. Du kan också ange att händelsen ska upprepas, till exempel den fjärde onsdagen i månaden.
+    Om inget av mönstren passar dig, kan du manuellt ange de datum du behöver. Välj **Egendefinierad**. Välj sedan ett datum i kalendern och klicka på pilen ![ikon][img2] för att lägga till det i listan över valda datum. Upprepa för att lägga till fler datum. För att ta bort ett datum, välj datumet i listan och klicka på **Ta bort**.
 
-    * Om du väljer **Årlig** kan du ange vilken dag och månad händelsen ska upprepas varje år, till exempel den 23 september varje år.
+5. I fältet **Återkommande händelser upphör** väljer du om händelsen ska upphöra efter ett visst antal gånger eller efter ett visst datum.
 
-    * Om du väljer **Egendefinierad** kan du ange önskade datum manuellt. Markera dagen i kalendern och klicka på pilen (![ikon][img2]) för att lägga till den i listan över valda datum. Om du vill ta bort ett datum markerar du datumet i listan och klickar på **Ta bort**.
+6. Du kan också ändra ett eller flera datum manuellt i listan över valda datum, till exempel om det finns en konflikt.
 
-6. I fältet **Återkommande händelser upphör** väljer du om händelsen ska upphöra efter ett visst antal gånger eller efter ett visst datum.
+    * **För att flytta ett datum,** välj det datum du vill flytta och klicka på **Senare**  om du vill skjuta upp händelsen en dag eller på **Tidigare** om du vill flytta händelsen en dag framåt.
 
-7. Du kan också ändra ett eller flera datum manuellt i listan över valda datum, till exempel om det finns en konflikt.
+    * **För att lägga till ett datum,** klicka på knappen **Lägg till** under listan. Välj önskat datum och klicka på pilknappen ![ikon][img2] till höger om kalendern för att lägga till datumet i listan. Använd pilknapparna på vardera sida om månadsnamnet i kalendern för att visa andra månader.
 
-    **Alternativ:**
+    * **För att ta bort ett datum,** markera det datum du vill ta bort och klicka på knappen **Ta bort** under listan. Datumet tas bort från datumlistan.
 
-    * Flytta ett datum: Välj det datum du vill flytta och klicka på **Senare** (![ikon][img3]) om du vill skjuta upp händelsen en dag eller på **Tidigare** (![ikon][img4]) om du vill flytta händelsen en dag framåt.
+7. När du har lagt in datum för händelsen klickar du på **OK** om du vill spara datumen och stänga dialogrutan, eller på **Avbryt** om du vill stänga dialogrutan utan att spara datumen.
 
-    * Lägg till ett datum: Klicka på knappen **Lägg till** under listan. Då visas samma kalender som när du väljer **Egendefinierad**. Välj önskat datum och klicka på pilknappen (![ikonen][img2]) till höger om kalendern för att lägga till datumet i listan. Använd pilknapparna (![ikon][img5] ![ikon][img6]) på vardera sida om månadsnamnet i kalendern för att visa andra månader.
+    I dialogrutan **Bokning**, **Uppgift** eller **Samtal** visar texten bredvid fältet **Upprepning** vilken typ av upprepning du har valt för händelsen, till exempel **Månatlig (2016-09-23–2017-09-23)**.
 
-    * Ta bort ett datum: Markera det datum du vill ta bort och klicka på knappen **Ta bort** under listan. Datumet tas bort från datumlistan.
+8. Klicka på **Spara** i dialogrutan **Bokning** för att spara dina ändringar.
 
-8. När du har lagt in datum för händelsen klickar du på **OK** om du vill spara datumen och stänga dialogrutan, eller på **Avbryt** om du vill stänga dialogrutan utan att spara datumen.
+![Skärmbild av dialogruta för återkommande uppföljningar -screenshot][img6]
 
-9. Klicka på **Spara** i dialogrutan **Bokning** för att spara dina ändringar.
+### [Ny (från version 10.2.11 pilot)](#tab/fields-new)
 
-I dialogrutan **Bokning**, **Uppgift** eller **Samtal** visar texten bredvid fältet **Upprepning** vilken typ av upprepning du har valt för händelsen, till exempel **Månatlig (2016-09-23–2017-09-23)**.
+1. [Öppna eller skapa en uppföljning][2].
+
+1. Klicka på upprepningssymbolen ![ikon][img1] och välj en av de föreslagna frekvenserna. Om inget av mönstren passar dig, välj **Anpassad**.
+
+    ![Uppföljningsdialog, föreslagen återkomst -screenshot][img8]
+
+    Om du inte ser ikonen, klicka på **Visa mer**.
+
+1. Uppdatera startdatumet om det behövs.
+
+1. Välj en frekvens, till exempel, upprepa var 2:a vecka. Ytterligare alternativ visas om du väljer *Vecka(r)*, *Månad(er)*, eller *År*.
+
+    ![Uppföljningsdialog, återkomst -screenshot][img7]
+
+1. Välj om uppföljningen ska sluta efter ett specifikt antal gånger eller efter ett specifikt datum.
+
+1. Valfritt, finjustera listan över valda datum, till exempel, om det finns en konflikt. Klicka på ett datum, använd sedan knapparna under listan för att antingen ta bort eller flytta det datumet.
+
+1. Klicka på **OK** för att spara datumen och återgå till uppföljningsdetaljerna.
+
+1. Klicka på **Spara** i **Uppföljnings**-dialogen för att spara alla ändringar.
+
+***
+<!-- markdownlint-restore -->
 
 ## Vad vill du veta mer om?
 
 * [Redigera återkommande händelser][1]
-* [Få en förfrågan][2]
 * [Stoppa återkommande händelser][3]
 
 <!-- Referenced links -->
-[1]: edit.md
-[2]: ../invitation/receive.md
+[1]: ../edit-follow-up.md#repeat
+[2]: ../create-follow-up.md
 [3]: stop.md
-[4]: index.md
-[5]: ../screen/dialog-for-followups.md
+[4]: index.md#frequency
 
 <!-- Referenced images -->
+[img1]: ../../../../../common/icons/refresh-icon.png
 [img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/icons/arrow-down.png
-[img4]: ../../../../media/icons/arrow-up.png
-[img5]: ../../../../media/icons/arrow-left.png
-[img6]: ../../../../media/icons/arrow-right.png
+[img6]: ../../../../media/loc/en/diary/recurrence-dialog.png
+[img7]: ../../../../media/loc/en/diary/recurrence-selected-dates.png
+[img8]: ../../../../media/loc/en/diary/suggested-pattern.png

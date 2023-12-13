@@ -44,10 +44,10 @@ I et [dynamisk utvalg][7], kan du velge å vise bare firmaer uten å angi en per
 
 ## Dag
 
-Viser en dags agenda. Fungerer på samme måte som fanen [Dag][3] i [Dagbok][4]-skjermen
+Viser en dags agenda. Fungerer på samme måte som fanen **Dag** i [Dagbok-skjermen][4].
 
 > [!NOTE]
-> Du kan bare vise din egen dagbok i sidepanelet. For å se andres dagbøker, gå til [dagbok][4]-skjermen.
+> Du kan bare vise din egen dagbok i sidepanelet. For å se andres dagbøker, gå til dagbok-skjermen.
 
 ## Neste dag
 
@@ -95,7 +95,7 @@ Viser en forhåndsvisning av utvalgt aktivitet, prosjekt, person, prosjektdeltak
 Viser et sammendrag av informasjon om gjeldende prosjekt i skjermbildet Prosjekt.
 
 > [!TIP]
-> Hvis du vil vise andre prosjekter uten å måtte bytte prosjekt i skjermbildet Prosjekt, klikker du pilen ( ![icon][img3] ) ved siden av produktnavnet for å åpne [historikklisten][1].
+> Hvis du vil vise andre prosjekter uten å måtte bytte prosjekt i skjermbildet Prosjekt, klikker du pilen ![icon][img3] ved siden av produktnavnet for å åpne [historikklisten][1].
 
 ## Prosjektdeltakere
 
@@ -109,7 +109,7 @@ Viser en liste over prosjektmedlemmer i gjeldende prosjekt i skjermbildet Prosje
 Viser et sammendrag av informasjon om gjeldende salg i skjermbildet Salg.
 
 > [!TIP]
-> Hvis du vil vise andre salg uten å måtte bytte salg i skjermbildet Salg, klikker du på pilen ( ![icon][img3] ) ved siden av navnet på salget for å åpne [historikklisten][1].
+> Hvis du vil vise andre salg uten å måtte bytte salg i skjermbildet Salg, klikker du på pilen ![icon][img3] ved siden av navnet på salget for å åpne [historikklisten][1].
 
 [Slik bruker du sidepanelet effektivt for salg][10]
 
@@ -118,7 +118,7 @@ Viser et sammendrag av informasjon om gjeldende salg i skjermbildet Salg.
 Viser et sammendrag av informasjon om gjeldende utvalg i skjermbildet Valg.
 
 > [!TIP]
-> Hvis du vil vise andre valg uten å måtte bytte valg i skjermbildet Utvalg, klikker du på pilen ( ![icon][img3] ) ved siden av utvalgsnavnet for å åpne historikklisten [][1].
+> Hvis du vil vise andre valg uten å måtte bytte valg i skjermbildet Utvalg, klikker du på pilen ![icon][img3] ved siden av utvalgsnavnet for å åpne [historikklisten][1].
 
 ## Utvalgsmedlemmer
 
@@ -134,7 +134,6 @@ I Innstillinger og vedlikehold kan du også definere dine egne visninger for sid
 <!-- Referenced links -->
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
-[3]: ../../../diary/learn/screen/day.md
 [4]: ../../../diary/learn/screen/index.md
 [5]: ../../../document/learn/screen/index.md
 [6]: ../../../diary/learn/screen/dialog-for-followups.md

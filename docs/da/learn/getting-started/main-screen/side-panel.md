@@ -44,10 +44,10 @@ I et [dynamisk udvalg][7] kan du vælge, at der kun skal vises firmaer, uden at 
 
 ## Dag
 
-Viser en dags dagsorden. Fungerer på samme måde som fanen [Dag][3] i skærmbilledet [Dagbog][4]
+Viser en dags dagsorden. Fungerer på samme måde som fanen **Dag** i [skærmbilledet Dagbog][4].
 
 > [!NOTE]
-> Du kan kun få vist din egen dagbog i sidepanelet. Hvis du vil se andre personers dagbøger, skal du gå til skærmen [Dagbog][4] .
+> Du kan kun få vist din egen dagbog i sidepanelet. Hvis du vil se andre personers dagbøger, skal du gå til skærmen Dagbog.
 
 ## Næste dag
 
@@ -86,7 +86,7 @@ Viser alle dine [foretrukne][8].
 
 ## Forhåndsvisning
 
-Viser en forhåndsvisning af typen aktivitet, projekt, person, projektdeltager eller udvalgsmedlem på sidepanelet. Afhængig af, hvilket element der er valgt, kan vinduet indeholde forbindelser til personer og aktiviteter. Hvis du klikker på et sådant link, åbnes [personkortet][2], [dialogboksen Dokument][5] eller [dialogboksen for opfølgninger][6], hvor du kan åbne og redigere personen eller aktiviteten.
+Viser en forhåndsvisning af typen aktivitet, projekt, person, projektdeltager eller udvalgsmedlem på sidepanelet. Afhængig af, hvilket element der er valgt, kan vinduet indeholde forbindelser til personer og aktiviteter. Hvis du klikker på et sådant link, åbnes [personkortet][2], [dialogboksen Dokument][5] eller [dialogboksen Opfølgning][6], hvor du kan åbne og redigere personen eller aktiviteten.
 
 [Hvad skal jeg gøre, når jeg får "Dokument Lukket" på sidepanelet i SuperOffice CRM, når dokumentfremviseren bruges?][11] - FAQ
 
@@ -95,7 +95,7 @@ Viser en forhåndsvisning af typen aktivitet, projekt, person, projektdeltager e
 Viser en oversigt over oplysninger om det aktuelle projekt i skærmbilledet Projekt.
 
 > [!TIP]
-> Hvis du vil have vist andre firmaer uden at skulle skifte projekter på skærmbilledet Projekt, skal du klikke på pilen (![ikon][img3]) ved siden af produktnavnet for at åbne [historiklisten][1].
+> Hvis du vil have vist andre firmaer uden at skulle skifte projekter på skærmbilledet Projekt, skal du klikke på pilen ![ikon][img3] ved siden af produktnavnet for at åbne [historiklisten][1].
 
 ## Projektdeltager
 
@@ -109,7 +109,7 @@ Viser en oversigt over projektdeltagere i det aktuelle projekt i skærmbilledet 
 Viser en opsummering af oplysningerne om det aktuelle salg i skærmbilledet Salg.
 
 > [!TIP]
-> Hvis du vil have vist andre salg uden at skulle skifte salg på skærmbilledet Salg, skal du klikke på pilen (![ikon][img3]) ved siden af navnet på salget for at åbne [historiklisten][1].
+> Hvis du vil have vist andre salg uden at skulle skifte salg på skærmbilledet Salg, skal du klikke på pilen ![ikon][img3] ved siden af navnet på salget for at åbne [historiklisten][1].
 
 [Sådan bruges sidepanelet effektivt til salg][10]
 
@@ -118,7 +118,7 @@ Viser en opsummering af oplysningerne om det aktuelle salg i skærmbilledet Salg
 Viser en opsummering af oplysninger om det aktuelle udvalg i skærmbilledet Udvalg.
 
 > [!TIP]
-> Hvis du vil have vist andre udvalg uden at skulle skifte udvalg i skærmbilledet Udvalg, skal du klikke på pilen (![ikon][img3]) ved siden af udvalgsnavnet for at åbne [historiklisten][1].
+> Hvis du vil have vist andre udvalg uden at skulle skifte udvalg i skærmbilledet Udvalg, skal du klikke på pilen ![ikon][img3] ved siden af udvalgsnavnet for at åbne [historiklisten][1].
 
 ## Udvalgsmedlemmer
 
@@ -134,7 +134,6 @@ I Indstillinger og vedligeholdelse kan du også definere egne oversigter for sid
 <!-- Referenced links -->
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
-[3]: ../../../diary/learn/screen/day.md
 [4]: ../../../diary/learn/screen/index.md
 [5]: ../../../document/learn/screen/index.md
 [6]: ../../../diary/learn/screen/dialog-for-followups.md

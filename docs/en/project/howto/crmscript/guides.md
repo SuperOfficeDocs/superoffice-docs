@@ -53,7 +53,7 @@ print(se.executeTextTable());
 
 All you need is 3 IDs, and then calling `CreateDefaultAppointmentEntityFromProjectSuggestion()` will do the magic for you!
 
-* ID of the suggested appointment
+* ID of the suggested follow-up (appointment)
 * ID of the project
 * ID of the owner (associate)
 
@@ -111,10 +111,10 @@ myBlueprint = appointmentAgent.SaveSuggestedAppointmentEntity(myBlueprint);
 | name | name of blueprint shown in guide |
 | rank | sort order |
 | projectTypeStatusLinkId | anchor for project guide items |
-| task_id | type of the suggested appointment |
-| daysFuture | when the appointment should be scheduled |
+| task_id | type of the suggested follow-up |
+| daysFuture | when the follow-up should be scheduled |
 | duration | in minutes |
-| text | The suggested text of the new appointment |
+| text | The suggested text of the new follow-up |
 
 For a complete list of fields, see the [database reference][5].
 

@@ -3,10 +3,10 @@ uid: screen-assign-layout
 title:  Assign a layout
 description: How to assign a layout to a group, sale type, or project type using the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 05.05.2023
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: ui, screen, customization
 so.topic: howto
-so.version: 10
 so.envir:
 so.client:
 ---
@@ -28,6 +28,7 @@ If you delete a layout, user groups assigned to it, will go back to the default 
     * Company, contact, and request: Select one or more user groups.
     * Sale: First select assignment method (user group or sale type), then select the specific groups or types.
     * Project: First select assignment method (user group or project type), then select the specific groups or types.
+    * Request: First select assignment method (user group or request type), then select the specific groups or types.
 
     > [!NOTE]
     > A user group can only be assigned to one layout per screen.

@@ -35,7 +35,7 @@ You can create a selection containing all documents you have created in the last
 
 You can create a selection containing all follow-ups for a specific customer, to get an idea of the sort of relationship you have with them before having a sales meeting with them.
 
-And you can create a selection containing all follow-ups you have this month, to see what appointments you have and if you should set up more.
+And you can create a selection containing all follow-ups you have this month, to see what follow-up you have and if you should set up more.
 
 ### Products
 

@@ -27,7 +27,7 @@ In SuperOffice Marketing können Sie Aktionen zu Ihren Links hinzufügen. Diese 
 | Feld festlegen | Einem Zusatzfeld einen Wert für die Personen des Kunden hinzufügen |
 | Interessen | Interessen aktualisieren. |
 | Selektion/Projekt | Ansprechpartner zu Selektion/Projekt hinzufügen bzw. daraus entfernen. |
-| Folgeaufgabe | Erstellt eine Folgeaufgabe (Aufgabe oder Termin) in SuperOffice CRM. |
+| Folgeaufgabe | Erstellt eine Folgeaufgabe (Aufgabe oder Besprechung) in SuperOffice CRM. |
 | Anfrage | Eine neue Anfrage erstellen. |
 | Skript | Ein Skript ausführen. |
 
@@ -70,27 +70,27 @@ Siehe auch [Interessen in SuperOffice CRM löschen][1].
 
 Hier können Sie festlegen, dass Empfänger, die auf den Link klicken, zu Selektionen in SuperOffice Service oder zu Selektionen bzw. Projekten in SuperOffice CRM hinzugefügt bzw. daraus entfernt werden sollen. Geben Sie den Anfang eines Namens ein, um die Schnellsuche zu starten.
 
-## Folgeaufgabe (Aufgabe/Termin)
+## Folgeaufgabe (Aufgabe/Besprechung)
 
-Auf der Registerkarte **Folgeaufgabe** können Sie festlegen, dass beim Klicken auf den Link Aufgaben bzw. Termine in SuperOffice CRM erstellt werden sollen.
+Auf der Registerkarte **Folgeaufgabe** können Sie festlegen, dass beim Klicken auf den Link Aufgaben bzw. Besprechungen in SuperOffice CRM erstellt werden sollen.
 
 1. Mit dem Kontrollkästchen für **Folgeaufgabe** aktivieren Sie diese Funktion.
 
 2. **Aufgabe/Termin**: Wählen Sie aus, welcher Folgeaufgabentyp erstellt werden soll.
 
-3. **Beschreibung**: Geben Sie eine Beschreibung der Aufgabe bzw. des Termins ein. Zum Beispiel, welche Kampagne dazu gehört, auf welchen Link der Empfänger geklickt hat und möglicherweise wie im Anschluss an die Aufgabe bzw. den Termin vorgegangen werden soll.
+3. **Beschreibung**: Geben Sie eine Beschreibung der Folgeaufgabe bzw. des Termins ein. Zum Beispiel, welche Kampagne dazu gehört, auf welchen Link der Empfänger geklickt hat und möglicherweise wie im Anschluss an die Aufgabe bzw. die Besprechung vorgegangen werden soll.
 
-4. **Projekt**: Hier wählen Sie ein Projekt aus, mit dem die Aufgabe bzw. der Termin verknüpft werden soll. Geben Sie den Anfang eines Namens ein, um die Schnellsuche zu starten.
+4. **Projekt**: Hier wählen Sie ein Projekt aus, mit dem die Folgeaufgabe bzw. der Termin verknüpft werden soll. Geben Sie den Anfang eines Namens ein, um die Schnellsuche zu starten.
 
-5. **Aufgabe**: Wählen Sie den erforderlichen Aufgaben- bzw. Termintyp aus.
+5. **Aufgabe**: Wählen Sie den erforderlichen Folgeaufgaben- bzw. Termintyp aus.
 
-6. **Erstellt von**: Wählen Sie die für die Aufgabe bzw. den Termin verantwortliche Person oder klicken Sie auf die Schaltfläche **Aktiven Benutzer auswählen** ![Symbol][img1], um sich selbst auszuwählen.
+6. **Erstellt von**: Wählen Sie die für die Folgeaufgabe bzw. den Termin verantwortliche Person oder klicken Sie auf die Schaltfläche **Aktiven Benutzer auswählen** ![Symbol][img1], um sich selbst auszuwählen.
 
-7. **Verantwortlichen Benutzer zuordnen, falls vorhanden**: Klicken Sie hier, wenn die Aufgabe bzw. der Termin dem verantwortlichen Benutzer des Empfängers zugewiesen werden soll (der Person, die sich um diesen Kunden kümmert).
+7. **Verantwortlichen Benutzer zuordnen, falls vorhanden**: Klicken Sie hier, wenn die Folgeaufgabe bzw. der Termin dem verantwortlichen Benutzer des Empfängers zugewiesen werden soll (der Person, die sich um diesen Kunden kümmert).
 
-8. **Standardempfänger**: Wählen Sie einen Standardempfänger aus, dem Sie die Aufgabe bzw. den Termin zuweisen möchten, oder klicken Sie auf die Schaltfläche **Aktiven Benutzer auswählen** ![Symbol][img1], um sich selbst auszuwählen.
+8. **Standardempfänger**: Wählen Sie einen Standardempfänger aus, dem Sie die Folgeaufgabe bzw. den Termin zuweisen möchten, oder klicken Sie auf die Schaltfläche **Aktiven Benutzer auswählen** ![Symbol][img1], um sich selbst auszuwählen.
 
-9. **Dauer**: Klicken Sie auf die Schaltfläche **Zeitraum auswählen** ![Symbol][img2] neben diesem Feld, um die Dauer der Aufgabe bzw. des Termins festzulegen.
+9. **Dauer**: Klicken Sie auf die Schaltfläche **Zeitraum auswählen** ![Symbol][img2] neben diesem Feld, um die Dauer der Folgeaufgabe bzw. des Termins festzulegen.
 
 ## Anfrage
 

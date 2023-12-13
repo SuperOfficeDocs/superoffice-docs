@@ -24,7 +24,7 @@ De items boven aan het scherm variëren enigszins tussen SuperOffice CRM, Servic
 
 | Knop | Naam | Beschrijving |
 |---|---|---|
-| ![pictogram][img3] | Nieuw | Klik op deze knop om snel nieuwe bedrijven, personen, verkopen, projecten, selecties, mailings en activiteiten (afspraken, telefoongesprekken, taken, documenten en e-mails) verzoeken, items voor Veelgestelde vragen en mailings te maken. |
+| ![pictogram][img3] | Nieuw | Klik op deze knop om snel nieuwe bedrijven, personen, verkopen, projecten, selecties, vervolgactiviteiten, documenten, verzoeken en meer te maken. |
 | ![pictogram][img8] | Zoeken | Klik op deze knop wanneer u wilt [zoeken naar][5] bedrijven, personen, projecten, selecties, vervolgactiviteiten, verkopen en documenten in SuperOffice CRM. NA naar Service |
 | ![pictogram][img4] | Geen uitnodigingen / meldingen | Hiermee opent u een lijst met nieuwe meldingen in SuperOffice CRM, zoals [uitnodigingen][4] en goedgekeurde verkopen/offertes. Klik op een item in de lijst om de betreffende record te openen. |
 | ![pictogram][img5] | Ongelezen uitnodigingen | |
@@ -67,7 +67,7 @@ De items boven aan het scherm variëren enigszins tussen SuperOffice CRM, Servic
 | Instellingen dupliceren | Wordt gebruikt om [dupliceringsinstellingen][8] voor bedrijven, projecten en selecties te bewerken. |
 | Filter | Wordt gebruikt om de [filterinstellingen][2] te bewerken. |
 | Kladblok weergeven | Hiermee opent u [het Kladblok][9] en maakt u een nieuwe notitie. |
-| Dialoogvenster voor bevestiging weergeven tijdens verzenden van uitnodigingen | Wordt gebruikt om het dialoogvenster voor bevestiging te activeren/deactiveren bij het verzenden van e-mails naar deelnemers aan de vergadering vanuit het dialoogvenster **Afspraak**. |
+| Dialoogvenster voor bevestiging weergeven tijdens verzenden van uitnodigingen | Wordt gebruikt om het dialoogvenster voor bevestiging te activeren/deactiveren bij het verzenden van e-mails naar deelnemers aan de vergadering vanuit het dialoogvenster **Vervolgactiviteit**. |
 | Targets | Wordt gebruikt om [verkooptargets][17] toe te voegen. |
 | Systeemhandtekening bewerken | Wordt gebruikt om de standaard e-mailhandtekening te bewerken. |
 | Instellingen en onderhoud | Hiermee opent u Instellingen en onderhoud. Deze optie is alleen beschikbaar als u beheerdersrechten hebt. |
@@ -87,7 +87,7 @@ De items boven aan het scherm variëren enigszins tussen SuperOffice CRM, Servic
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md
-[4]: ../../../diary/learn/invitation/receive.md
+[4]: ../../../diary/learn/invitation/accept-decline.md
 [5]: ../../../search-options/learn/find-screen.md
 [15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md

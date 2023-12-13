@@ -23,7 +23,7 @@ At the upper left in SuperOffice CRM is the SuperOffice logo. Click the logo to 
 
 | Button | Name | Description |
 |:-:|---|---|
-| ![icon][img3] | New | Click this button to quickly create new companies, contacts, sales, projects, selections, activities (appointments, phone calls, tasks, documents and emails), requests, FAQ entries, and mailings. |
+| ![icon][img3] | New | Click this button to quickly create new companies, contacts, sales, projects, selections, follow-ups, documents, requests, and more. |
 | ![icon][img8] | Find | Click this button to [search for][5] companies, contacts, projects, selections, follow-ups, sales and documents in SuperOffice CRM. NA to Service |
 | ![icon][img4] | No invitations / Notifications | Opens a list of new notifications in SuperOffice CRM, such as [invitations][4], assigned requests, and approved sales/quotes. Click an item in the list to open the relevant record. |
 | ![icon][img5] | Unread invitations | |
@@ -68,7 +68,7 @@ At the upper left in SuperOffice CRM is the SuperOffice logo. Click the logo to 
 | Filter | Used to edit the [filter settings][2]. |
 | Knowledge base | Used to access external documents (files), email addresses, FAQ and replay templates in Service. |
 | Show Notepad | Opens [the Notepad][9] and creates a new note. |
-| Show confirmation dialog when sending invitations | Used to activate/deactivate the confirmation dialog when sending emails to meeting participants from the **Appointment** dialog. |
+| Show confirmation dialog when sending invitations | Used to activate/deactivate the confirmation dialog when sending emails to meeting participants from the **Follow-up** dialog. |
 | Targets | Used to add [sales targets][17]. |
 | Edit system signature | Used to edit the default email signature. |
 | Settings and maintenance | Opens Settings and maintenance. This option is only available if you have administrator's rights. |
@@ -99,7 +99,7 @@ What's new | Opens the splash screen with the latest details. |
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md
-[4]: ../../../diary/learn/invitation/receive.md
+[4]: ../../../diary/learn/invitation/accept-decline.md
 [5]: ../../../search-options/learn/find-screen.md
 [10]: ../../../search-options/learn/freetext-search.md
 [15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md

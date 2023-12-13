@@ -3,12 +3,12 @@ uid: help-no-email-filter
 title: E-postfiltre
 description: E-postfiltre
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: e-post
 so.topic: concept
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: no
 ---
 
@@ -47,6 +47,8 @@ Fanen **E-postfiltre** inneholder en liste over eksisterende e-postfiltre. Denne
 
 * **Angi kategori**: Hvis du merker av her og velger en kategori, vil e-post som behandles av dette filteret havne i den angitte kategorien.
 
+* **Saksstype**: Hvis du sjekker her og velger en type, vil e-post som behandles av dette filteret bli tildelt den angitte [sakstypen][3]. (Tilgjengelig bare i pilot.)
+
 * **Angi prioritet**: Hvis du merker av her og velger en prioritet, vil e-post behandlet av dette filteret bli tildelt den angitte prioriteten.
 
 * **Angi tilgangsnivå**: Hvis du merker av her og velger et tilgangsnivå fra listen, vil e-post som behandles av dette filteret, bli tildelt det angitte tilgangsnivået. Hvis du velger **Ekstern,**, vil den genererte saken være tilgjengelig i SuperOffice kundesenter.
@@ -78,5 +80,6 @@ Fanen **E-postfiltre** inneholder en liste over eksisterende e-postfiltre. Denne
 <!-- Referenced links -->
 [1]: create-email-filter.md
 [2]: delete-email-filter.md
+[3]: ../../../../request/learn/type/index.md
 
 <!-- Referenced images -->

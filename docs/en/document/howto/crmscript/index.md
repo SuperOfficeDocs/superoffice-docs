@@ -26,9 +26,9 @@ The document **files** we are dealing with here are stored in a central reposito
 Documents are part of a broader group of entities labeled **activities**:
 
 * follow-ups
-  * appointment
-  * task
-  * call
+  * meeting
+  * to-do
+  * follow-up
 * documents
   * document (this section)
   * email

@@ -11,7 +11,7 @@ language: nl
 
 # Het dialoogvenster voor vervolgactiviteiten
 
-Onafhankelijk van het soort vervolgactiviteit waar u mee bezig bent, ziet u het dialoogvenster Vervolgactiviteiten. De naam van dit dialoogvenster is afhankelijk van het type vervolgactiviteit – [Afspraak][1], [Taak][2] of [Gesprek][3] – maar de velden zijn altijd hetzelfde. Hierna volgt een beschrijving van de velden in het dialoogvenster en hoe u ze kunt gebruiken.
+Onafhankelijk van het [soort vervolgactiviteit][1] waar u mee bezig bent, ziet u het dialoogvenster Vervolgactiviteiten. De naam van dit dialoogvenster is afhankelijk van het type vervolgactiviteit – Afspraak, Taak of Gesprek – maar de velden zijn altijd hetzelfde. Hierna volgt een beschrijving van de velden in het dialoogvenster en hoe u ze kunt gebruiken.
 
 Het dialoogvenster bestaat uit een hoofdonderdeel met algemene informatie over de vervolgactiviteit, en vijf tabbladen met aanvullende informatie:
 
@@ -155,17 +155,15 @@ Dit tabblad bevat informatie over URL's, activiteiten (documenten en vervolgacti
 
 ## Het tabblad Meer
 
-Op dit tabblad worden alle [aangepaste velden][14] weergegeven die zijn geconfigureerd in Instellingen en onderhoud.
+Op dit tabblad worden alle [aangepaste velden][14] weergegeven die zijn geconfigureerd in Instellingen en onderhoud. Indien niet geconfigureerd, wordt deze tab niet weergegeven.
 
 <!-- Referenced links -->
-[1]: ../appointment.md
-[2]: ../task.md
-[3]: ../phone-call/index.md
+[1]: ../follow-ups.md
 [4]: ../recurrence/index.md
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md
-[7]: ../open.md
-[8]: ../../../learn/activity/linking-documents-to-follow-ups.md
+[7]: ../other-diaries.md
+[8]: ../linking-documents-to-follow-ups.md
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md

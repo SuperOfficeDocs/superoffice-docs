@@ -47,7 +47,7 @@ Detaljkortet **Försäljning** i kalendern fungerar som en slags "försäljnings
 * Alla försäljningar med planerade aktiviteter för ett visst antal dagar framåt.
 
     > [!NOTE]
-    > Antalet dagar framåt, baserat på datumet för nästa aktivitet, är en inställning. Om du vill ändra det går du till ![ikon][img5] **Personliga inställningar &gt; Inställningar** och väljer **Funktioner** > **Visa dagar framåt**.
+    > Antalet dagar framåt, baserat på datumet för nästa aktivitet, är en inställning. Om du vill ändra det går du till ![ikon][img5] **Personliga inställningar** > **Inställningar** och väljer **Funktioner** > **Visa dagar framåt**.
 
 * Alla försäljningar med försenade aktiviteter (slutdatumet är tidigare än dagens datum). Dessa försäljningar visas i rött.
 

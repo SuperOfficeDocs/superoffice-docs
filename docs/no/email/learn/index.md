@@ -13,7 +13,7 @@ language: no
 
 E-post er den mest populære formen for kommunikasjon mellom bedrifter. Med SuperOffice CRM kan du velge å lagre og dele e-postene dine på ulike måter som får deg og teamet ditt til å jobbe mer produktivt.
 
-Når du har [integrert din foretrukne e-postklient med SuperOffice][13], kan du lagre e-postdialoger og vedlegg under ethvert firma, person, salg eller prosjekt i CRM-systemet. Du kan også lagre e-post direkte som avtaler eller aktiviteter – slik at du aldri glemmer å følge opp.
+Når du har [integrert din foretrukne e-postklient med SuperOffice][13], kan du lagre e-postdialoger og vedlegg under ethvert firma, person, salg eller prosjekt i CRM-systemet. Du kan også lagre e-post direkte som oppfølginger eller aktiviteter – slik at du aldri glemmer å følge opp.
 
 ## E-postklienter
 
@@ -36,12 +36,12 @@ Hvis du vil ha all kunderelatert informasjon på ett sted, kan du enkelt arkiver
 * [Arkiver e-post med WebTools og Mail Link][8]
 * [Arkiver e-post med Gmail Link][3]
 
-### Lagre e-post som avtale
+### Lagre e-post som oppfølging
 
-Hvis du lagrer en e-post direkte som en oppgave, en avtale eller en telefonsamtale i SuperOffice-dagboken din, glemmer du aldri å følge opp en kunde eller forespørsel.
+Hvis du lagrer en e-post direkte som en oppfølging i SuperOffice-dagboken din, glemmer du aldri å følge opp en kunde eller forespørsel.
 
-* [Arkiver e-post som avtale med WebTools og Mail Link][7]
-* [Arkiver e-post som avtale med Gmail Link][4]
+* [Arkiver e-post som oppfølging med WebTools og Mail Link][7]
+* [Arkiver e-post som oppfølging med Gmail Link][4]
 
 ## Vedlegg
 

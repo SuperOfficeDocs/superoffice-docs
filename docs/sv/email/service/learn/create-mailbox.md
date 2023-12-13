@@ -3,7 +3,8 @@ uid: help-sv-service-mailbox-create
 title: Skapa brevlåda
 description: Skapa brevlåda
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: e-post
 so.topic: howto
 language: sv
@@ -27,7 +28,7 @@ Du kan skapa en brevlåda som ska användas för att importera e-post till Super
     > [!NOTE]
     > En vänlig e-postadress kan läggas till på adressen genom att ("vänligt namn") läggs till i slutet av e-postadressen. Exempel: <info@company.com> (Kund AB).
 
-1. Välj kategori och prioritet:
+1. Välj kategori, prioritet, och ärendetyp:
 
     [!include[Select category and priority](includes/step-select-category-priority.md)]
 
@@ -67,7 +68,7 @@ Du kan skapa en brevlåda som ska användas för att importera e-post till Super
 
 1. I fältet **Port** kan du ändra den föreslagna standardporten för det valda protokollet.
 
-1. Välj kategori och prioritet:
+1. Välj kategori, prioritet, och ärendetyp:
 
     [!include[Select category and priority](includes/step-select-category-priority.md)]
 

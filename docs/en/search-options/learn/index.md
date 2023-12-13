@@ -61,7 +61,7 @@ You can use FastSearcher in various ways:
 
 * To [search directly from the Navigator][3] to access the a company, contact, sale, project, request, or selection.
 
-* To search [from within a dialog][8] for a company, contact, sale, project, request, and selection to link it to a relevant field in that dialog. For example, to link to a sale in the **Document** dialog or to a company in the **Appointment** dialog.
+* To search [from within a dialog][8] for a company, contact, sale, project, request, and selection to link it to a relevant field in that dialog. For example, to link to a sale in the **Document** dialog or to a company in the **Follow-up** dialog.
 
 * To search directly in the [time zone selector][2] to find the time zone for the required city or country.
 

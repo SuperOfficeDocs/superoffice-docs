@@ -59,18 +59,18 @@ The Company and Contact screens hold all information related to your customers a
 * [Bulk update company and contact information][5]
 * [Create selections for further action][6]
 
-## Diary and appointments
+## Diary and follow-ups
 
-The SuperOffice Diary is the heart of your CRM system. Regular use of the diary helps you to automatically connect and share appointments and activities linked to a contact or a company, allowing you and your team to effortlessly stay on track and work productively. These how-to guides will help you learn how to work with the diary.
+The SuperOffice Diary is the heart of your CRM system. Regular use of the diary helps you to automatically connect and share meetings and activities linked to a contact or a company, allowing you and your team to effortlessly stay on track and work productively. These how-to guides will help you learn how to work with the diary.
 
-![Keep track of all your appointments and tasks by registering them in your diary -screenshot][img1]
+![Keep track of all your meetings and to-dos by registering them in your diary -screenshot][img1]
 
 Apart from the regular calendar functionality, SuperOffice Diary also gives you the possibility to connect and organize activities into projects and sales. This helps you and your team to enjoy a complete overview of all activities and communication connected to any project or sale.
 
-### Work with diary and appointments
+### Work with diary and follow-ups
 
-* [Create appointments][8]
-* [Invite a contact to an appointment][10]
+* [Create meetings][8]
+* [Invite a contact to a meeting][10]
 * [Video meeting][11]
 
 ## Manage your documents
@@ -88,7 +88,7 @@ SuperOffice Project helps you keep your work organized and documented in one pla
 
 When you work on a project, you need the information to be easily accessible and shared. You can use SuperOffice Project to save all your project follow-ups and documents in one place.
 
-You can connect any contacts, companies, tasks, appointments, project members, and even sales opportunities into one project in SuperOffice CRM. You can also create or upload documents and files to the project.
+You can connect any contacts, companies, follow-ups, project members, and even sales opportunities into one project in SuperOffice CRM. You can also create or upload documents and files to the project.
 
 All the information you save inside your project is tagged with a date and an owner, making it easier to sort and filter information when need.
 
@@ -110,10 +110,10 @@ Your administrator can [add and customize project guides][1] for you.
 [6]: ../../search-options/selection/learn/howto/index.md
 [4]: deleting-elements.md
 [7]: ../../project/learn/create.md
-[8]: ../../diary/learn/create-appointment.md
+[8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/invitation/add-participant.md
 [11]: ../../../en/video-meeting/index.md
-[12]: ../activity/index.md
+[12]: activity.md
 [13]: ../../globalization-and-localization/learn/change-language.md
 [14]: fav.md
 [15]: deleting-elements.md

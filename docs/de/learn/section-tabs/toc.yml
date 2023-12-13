@@ -9,3 +9,5 @@ items:
     href: group.md
   - name: Exportieren
     href: export-archives.md
+  - name: "E-Mail antworten oder weiterleiten"
+    href: send-email.md

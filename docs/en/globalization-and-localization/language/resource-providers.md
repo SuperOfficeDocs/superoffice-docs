@@ -49,7 +49,7 @@ This line will load the satellite assembly from the *SuperOffice.Web.Globalizati
 The other resource providers that are listed in the above code section are
 
 * FieldLabelProvider - The field label provider supports customization using the SOADMIN client.  Replacement text labels are stored in the database in the LocaleText table. This provider handles the label customization rules.
-* CurrentValueProvider – This provider will provide us with current values of a given user. Current values mean the current contact of a given user, the month of a given user in the calendar, the current appointment of a given user and so on. For example the current company name is used in the menu as: -
+* CurrentValueProvider – This provider will provide us with current values of a given user. Current values mean the current contact of a given user, the month of a given user in the calendar, the current follow-up of a given user and so on. For example the current company name is used in the menu as: -
 
   &lt;caption&gt;\[SR\_MENU\_SELECTION\_GOTO\_CONTACT\] \[current:contact\_name\]&lt;/caption&gt;
 

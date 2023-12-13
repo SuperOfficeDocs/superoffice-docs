@@ -18,18 +18,18 @@ SuperOffice CRM ondersteunt vervolgactiviteiten in verschillende tijdzones. Tijd
 
 ## Hoe werken tijdzones in SuperOffice CRM?
 
-De tijdzonefunctionaliteit kan handig zijn wanneer uw organisatie vestigingen heeft in verschillende landen met verschillende tijdzones en u vergaderingen of telefoonconferenties moeten plannen met mensen in een land met een andere tijdzone dan uw eigen tijdzone. De afspraak wordt vervolgens gemaakt in de tijdzone voor het geselecteerde land.
+De tijdzonefunctionaliteit kan handig zijn wanneer uw organisatie vestigingen heeft in verschillende landen met verschillende tijdzones en u vergaderingen of telefoonconferenties moeten plannen met mensen in een land met een andere tijdzone dan uw eigen tijdzone. De vervolgactiviteit wordt vervolgens gemaakt in de tijdzone voor het geselecteerde land.
 
-Als uw hoofdkantoor zich bijvoorbeeld in Nederland bevindt en u wilt een vergadering beleggen met uw filialen in Finland en de VS, kunt u een vergadering plannen op de tijd in Nederland en vervolgens controleren hoe laat het in Finland en de VS is. Op deze manier kunt u voorkomen dat een afspraak wordt gemaakt die bijvoorbeeld vroeg in de ochtend in de VS plaatsvindt. Voor de personen die u voor de afspraak uitnodigt, wordt de tijd weergegeven in de tijdzone die zij in hun eigen SuperOffice CRM hebben opgegeven, zelfs als u de afspraak met behulp van de Nederlandse tijd hebt ingesteld.
+Als uw hoofdkantoor zich bijvoorbeeld in Nederland bevindt en u wilt een vergadering beleggen met uw filialen in Finland en de VS, kunt u een vergadering plannen op de tijd in Nederland en vervolgens controleren hoe laat het in Finland en de VS is. Op deze manier kunt u voorkomen dat een vergadering wordt gemaakt die bijvoorbeeld vroeg in de ochtend in de VS plaatsvindt. Voor de personen die u voor de vergadering uitnodigt, wordt de tijd weergegeven in de tijdzone die zij in hun eigen SuperOffice CRM hebben opgegeven, zelfs als u de vergadering met behulp van de Nederlandse tijd hebt ingesteld.
 
 Deze functie ondersteunt zomertijd.
 
 > [!NOTE]
-> afspraken die u hebt gemaakt voordat u de tijdzones had ingeschakeld, worden in de standaardtijdzone van uw SuperOffice-database bewaard.
+> Vervolgactiviteiten die u hebt gemaakt voordat u de tijdzones had ingeschakeld, worden in de standaardtijdzone van uw SuperOffice-database bewaard.
 
 ## Hoe selecteert u tijdzones?
 
-Tijdzones worden weergegeven in een keuzelijst in [Agenda][1] en in het [dialoogvenster voor vervolgactiviteiten][3]. De standaard tijdzone voor uw SuperOffice-database wordt bovenaan weergegeven met behulp van dit pictogram: ![pictogram][img1].
+Tijdzones worden weergegeven in een keuzelijst in [Agenda][1] en voor [vervolgactiviteiten][3]. De standaard tijdzone voor uw SuperOffice-database wordt bovenaan weergegeven met behulp van dit pictogram: ![pictogram][img1].
 
 De tijdzonelijst wordt gesorteerd op land. Boven aan de lijst bevindt zich de naam en de vlag van het geselecteerde land.
 
@@ -52,11 +52,11 @@ Gebruik het veld bovenaan met het geselecteerde land en de vlag als zoekveld. U 
 
 * Als u de muisaanwijzer op de tijdzonelijst plaatst, wordt knopinfo weergegeven met informatie over steden (in het gegeven land) die zich bevinden in de tijdzone die u hebt geselecteerd.
 
-* Als u in de Agenda de muisaanwijzer op een afspraak plaatst die in een andere tijdzone is gemaakt dan de standaardtijdzone van uw SuperOffice-database, wordt knopinfo weergegeven met informatie over de tijd van de afspraak in uw tijdzone en in de tijdzone van de persoon die deze heeft gemaakt.
+* Als u in de Agenda de muisaanwijzer op een vervolgactiviteit plaatst die in een andere tijdzone is gemaakt dan de standaardtijdzone van uw SuperOffice-database, wordt knopinfo weergegeven met informatie over de tijd van de vervolgactiviteit in uw tijdzone en in de tijdzone van de persoon die deze heeft gemaakt.
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
-[3]: ../../diary/learn/screen/dialog-for-followups.md
+[3]: ../../diary/learn/follow-ups.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/time-zone-local.png

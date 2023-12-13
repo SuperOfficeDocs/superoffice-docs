@@ -24,7 +24,7 @@ Die Elemente am oberen Rand der Anzeige variieren leicht zwischen SuperOffice CR
 
 | Schaltflächen | Name | Beschreibung |
 |---|---|---|
-| ![Symbol][img3] | Neu | Klicken Sie auf diese Schaltfläche, um schnell neue Firmen, Personen, Verkäufe, Projekte, Selektionen, Aktivitäten (Termine, Anrufe, Aufgaben, Dokumente und E-Mails), Anfragen, FAQ-Einträge und Kampagnen zu erstellen. |
+| ![Symbol][img3] | Neu | Klicken Sie auf diese Schaltfläche, um schnell neue Firmen, Personen, Verkäufe, Projekte, Selektionen, Folgeaufgabe, Dokumente, Anfragen, und mehr zu erstellen. |
 | ![Symbol][img8] | Suchen | Klicken Sie auf diese Schaltfläche, damit Sie die Option [Suchen nach][5] für Firmen, Personen, Projekten, Selektionen, Folgeaufgaben, Verkäufen und Dokumenten in SuperOffice CRM ausführen können. NA an Service |
 | ![Symbol][img4] | Keine Einladungen / Benachrichtigungen | Es öffnet sich eine List neuer Benachrichtigungen wie [Einladungen][4] und genehmigte Verkäufe/Angebote in SuperOffice CRM. Klicken Sie auf ein Element in der Liste, um die entsprechenden Datensätze zu öffnen. |
 | ![Symbol][img5] | Ungelesene Einladungen | |
@@ -67,7 +67,7 @@ Die Elemente am oberen Rand der Anzeige variieren leicht zwischen SuperOffice CR
 | Duplikateinstellungen | Wird verwendet, um die [Duplikateinstellungen][8] für Firmen, Projekte und Selektionen zu bearbeiten. |
 | Filter | Wird verwendet, damit Sie die [Filtereinstellungen bearbeiten][2] können. |
 | Notizblock anzeigen | Öffnet den [Notizblock][9] und erstellt eine neue Notiz. |
-| Bestätigungsdialogfeld beim Senden von Einladungen anzeigen | Wird verwendet, um das Bestätigungsdialogfeld beim Senden von E-Mails an Teilnehmer vom Dialogfeld **Termin** zu aktivieren/deaktivieren. |
+| Bestätigungsdialogfeld beim Senden von Einladungen anzeigen | Wird verwendet, um das Bestätigungsdialogfeld beim Senden von E-Mails an Teilnehmer vom Dialogfeld **Folgeaufgabe** zu aktivieren/deaktivieren. |
 | Ziele | Wird verwendet, um [Vertriebsziele][17] hinzuzufügen. |
 | Systemsignatur bearbeiten | Wird verwendet, um die Standard-E-Mail-Signatur zu bearbeiten. |
 | Einstellungen und Verwaltung | Öffnet Einstellungen und Verwaltung. Diese Option steht nur zur Verfügung, wenn Sie Administratorrechte haben. |
@@ -87,7 +87,7 @@ Die Elemente am oberen Rand der Anzeige variieren leicht zwischen SuperOffice CR
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md
-[4]: ../../../diary/learn/invitation/receive.md
+[4]: ../../../diary/learn/invitation/accept-decline.md
 [5]: ../../../search-options/learn/find-screen.md
 [15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md

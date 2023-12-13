@@ -11,7 +11,7 @@ language: sv
 
 # Dialogrutan för händelser
 
-Oavsett vilken typ av händelse du arbetar med ser du dialogrutan för händelser. Namnet på den här dialogrutan varierar beroende på typen av händelse ([Bokning][1], [Uppgift][2] eller [Samtal][3]), men fälten är alltid desamma. Fälten i dialogrutan och hur du använder dem beskrivs nedan.
+Oavsett vilken [typ av händelse][1] du arbetar med ser du dialogrutan för händelser. Namnet på den här dialogrutan varierar beroende på typen av händelse (Bokning, Uppgift eller Samtal), men fälten är alltid desamma. Fälten i dialogrutan och hur du använder dem beskrivs nedan.
 
 Dialogrutan består av en huvuddel med allmän information om händelsen och fem flikar med ytterligare information:
 
@@ -155,17 +155,15 @@ Den här fliken innehåller information om URL:er, aktiviteter (dokument och hä
 
 ## Fliken Mer
 
-På den här fliken visas alla [egendefinierade fält][14] som har konfigurerats under Inställningar och underhåll.
+På den här fliken visas alla [egendefinierade fält][14] som har konfigurerats under Inställningar och underhåll. Om inte konfigurerat visas inte den här fliken.
 
 <!-- Referenced links -->
-[1]: ../appointment.md
-[2]: ../task.md
-[3]: ../phone-call/index.md
+[1]: ../follow-ups.md
 [4]: ../recurrence/index.md
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md
-[7]: ../open.md
-[8]: ../../../learn/activity/linking-documents-to-follow-ups.md
+[7]: ../other-diaries.md
+[8]: ../linking-documents-to-follow-ups.md
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md

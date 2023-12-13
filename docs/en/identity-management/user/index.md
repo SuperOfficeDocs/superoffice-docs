@@ -42,7 +42,7 @@ If the tenant uses an identity provider, you will see the label **AD user** ins
 
 ## Groups
 
-Group membership determines **which data a user has access to**, but not what the user may do with that data. Data here means for example contacts, diary appointments, projects, and sales.
+Group membership determines **which data a user has access to**, but not what the user may do with that data. Data here means for example contacts, diary follow-ups, projects, and sales.
 
 Each user will have a primary group, but they may also be members of other groups.
 

@@ -17,7 +17,7 @@ You can link any activity to an external company and to a project. You can also 
 
 Projects help you keep your work organized and documented in one place, so that you and your team can enjoy better control and improve collaboration.
 
-You can connect any contacts, companies, tasks, appointments, project members, and even sales opportunities into one project in SuperOffice CRM. You can also create or upload documents and files to the project.
+You can connect any contacts, companies, follow-ups, project members, and even sales opportunities into one project in SuperOffice CRM. You can also create or upload documents and files to the project.
 
 All the information you save inside your project is tagged with a date and an owner, making it easier to sort and filter information when need.
 

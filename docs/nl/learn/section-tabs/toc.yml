@@ -9,3 +9,5 @@ items:
     href: group.md
   - name: Exporteren
     href: export-archives.md
+  - name: E-mail beantwoorden of doorsturen vanuit het sectietabblad Activiteiten
+    href: send-email.md

@@ -224,7 +224,7 @@ conceptualContent:
       - text: New appointment
         itemType: list
         typeDesc: how-to-guide
-        url: ../diary/learn/create-appointment.md
+        url: ../diary/learn/create-follow-up.md
       - text: Video meetings
         itemType: list
         typeDesc: how-to-guide

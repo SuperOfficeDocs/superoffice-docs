@@ -17,7 +17,7 @@ Sie können jede Aktivität mit einer externen Firma und mit einem Projekt verkn
 
 Projekte helfen Ihnen, Ihre Arbeit an einem Ort zu organisieren und zu dokumentieren, damit Sie und Ihr Team eine bessere Kontrolle haben und die Zusammenarbeit verbessern können.
 
-Sie können beliebige Personen, Firmen, Aufgaben, Termine, Projektmitglieder und sogar Verkaufsgelegenheiten in einem Projekt in SuperOffice CRM verbinden. Sie können auch Dokumente und Dateien erstellen oder in das Projekt hochladen.
+Sie können beliebige Personen, Firmen, Folgeaufgaben, Projektmitglieder und sogar Verkaufsgelegenheiten in einem Projekt in SuperOffice CRM verbinden. Sie können auch Dokumente und Dateien erstellen oder in das Projekt hochladen.
 
 Alle Informationen, die Sie in Ihrem Projekt speichern, sind mit einem Datum und einem Eigentümer versehen, damit Sie Informationen bei Bedarf leichter sortieren und filtern können.
 

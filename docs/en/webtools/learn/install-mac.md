@@ -23,13 +23,13 @@ This procedure connects Microsoft 365 and SuperOffice CRM so that you can open a
 [!include[Requirements](includes/pre-req.md)]
 
 > [!NOTE]
-> SuperOffice provides integration for Microsoft 365 document applications only, and not for Apple applications Pages, Numbers and Keynote. You need the Office package to have documents integrated.
+> SuperOffice provides integration for Microsoft 365 document applications only, and not for Apple applications Pages, Numbers, and Keynote. You need the Office package to have documents integrated.
 
 ## Steps
 
 1. Go to the Main menu in SuperOffice and select **Download** > **SuperOffice WebTools**.
 
-1. Open the file in **DiskImage** and drag-and-drop the app-file into the *Application* folder on your Mac.
+1. Open the file in **DiskImage** and drag the app-file into the *Application* folder on your Mac.
 
     ![Drag and drop the SuperOffice icon to the Applications folder -screenshot][img2]
 
@@ -48,7 +48,7 @@ Set the preferences to fit your needs:
 * Open and edit document directly from SuperOffice
   * Ask to check-in when done editing
   * Only upload on document close
-* Show alarms for appointments in SuperOffice
+* Show alarms for follow-up in SuperOffice
 * Copy activities to iCal
   * Copy activities every [x minutes]
   * Copy participants to Address Book

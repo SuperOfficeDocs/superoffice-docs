@@ -14,7 +14,7 @@ language: nl
 U kunt uitnodigingen ontvangen van een persoon buiten uw organisatie en deze eenvoudig accepteren en toevoegen aan uw agenda. Hiervoor moet de uitnodigingsmail een iCal-bestand (.ics.) met de uitnodigingsgegevens bevatten. In uw Postvak IN, worden e-mails met iCal-uitnodigingen weergegeven met deze pictogrammen: ![pictogram][img1] en ![pictogram][img2]
 
 > [!NOTE]
-> Als de afzender/organisator een geregistreerde (unieke) persoon in SuperOffice CRM is, worden uitnodigingen automatisch toegevoegd als voorlopige afspraken in uw agenda. Voorlopige afspraken kunnen ook worden gemaakt voor andere medewerkers, afhankelijk van of de voorkeur **Binnenkomende uitnodigingen beheren, voorlopige afspraak uitschakelen** (onder **E-mail**) actief is.
+> Als de afzender/organisator een geregistreerde (unieke) persoon in SuperOffice CRM is, worden uitnodigingen automatisch toegevoegd als voorlopige vergaderingen in uw agenda. Voorlopige vergaderingen kunnen ook worden gemaakt voor andere medewerkers, afhankelijk van of de voorkeur **Binnenkomende uitnodigingen beheren, voorlopige afspraak uitschakelen** (onder **E-mail**) actief is.
 
 ## Een uitnodiging accepteren
 
@@ -34,7 +34,7 @@ U kunt uitnodigingen ontvangen van een persoon buiten uw organisatie en deze een
     * Accepteren en bij afzender melden
     * Accepteren, maar niet bij afzender melden
 
-Het bericht wordt uit Postvak IN verwijderd en de afspraak wordt aan uw agenda toegevoegd.
+Het bericht wordt uit Postvak IN verwijderd en de vergadering wordt aan uw agenda toegevoegd.
 
 <!-- Referenced links -->
 

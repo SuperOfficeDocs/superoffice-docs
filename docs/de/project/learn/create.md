@@ -47,6 +47,6 @@ Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte, um zu l
 [9]: delete.md
 [1]: project-guide/working-with.md
 [2]: https://www.superoffice.com/blog/guest-blog-use-your-crm-to-manage-projects-for-all-industries/
-[3]: ../../learn/activity/index.md
+[3]: ../../learn/basics/activity.md
 
 <!-- Referenced images -->

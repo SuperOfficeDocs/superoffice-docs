@@ -16,7 +16,7 @@ In several places in SuperOffice CRM, the history list makes it easy to access t
 You can use the history list in different ways:
 
 * Directly from the Navigator ![icon][img2] to go to the required company, contact, sale, project or selection.
-* From dialogs containing the fields for companies, contacts, sales and projects, for example, the **Appointment** and **Document** dialogs, to link to the appointment or document.
+* From dialogs containing the fields for companies, contacts, sales and projects, for example, the **Follow-up** and **Document** dialogs, to link to the follow-up or document.
 
 ## Using the history list in the Navigator
 

@@ -14,7 +14,7 @@ language: de
 Sie können Einladungen von einer Person außerhalb Ihrer Organisation erhalten, einfach annehmen und Ihrem Kalender hinzufügen. Dies setzt voraus, dass die Einladungs-E-Mail eine iCal-Datei (.ics.) mit den Einladungsdaten enthält. In Ihrem Posteingang werden E-Mails mit iCal-Einladungen mit folgenden Symbolen angezeigt: ![Symbol][img1] und ![Symbol][img2]
 
 > [!NOTE]
-> Wenn der Absender/Organisator eine registrierte (eindeutige) Person in SuperOffice CRM ist, werden Einladungen automatisch als vorläufige Termine in Ihrem Tagebuch hinzugefügt. Vorläufige Termine können auch für andere Mitarbeiter erstellt werden, je nachdem, ob die Einstellung **Eingehende Einladungen verwalten, Vorschläge deaktivieren** (unter **E-Mail**) aktiv ist oder nicht.
+> Wenn der Absender/Organisator eine registrierte (eindeutige) Person in SuperOffice CRM ist, werden Einladungen automatisch als vorläufige Besprechungen in Ihrem Tagebuch hinzugefügt. Vorläufige Besprechungen können auch für andere Mitarbeiter erstellt werden, je nachdem, ob die Einstellung **Eingehende Einladungen verwalten, Vorschläge deaktivieren** (unter **E-Mail**) aktiv ist oder nicht.
 
 ## Annehmen einer Einladung
 
@@ -34,7 +34,7 @@ Sie können Einladungen von einer Person außerhalb Ihrer Organisation erhalten,
     * Akzeptieren und Absender benachrichtigen
     * Akzeptieren, aber Absender nicht benachrichtigen
 
-Die Nachricht wird aus dem Posteingang entfernt und der Termin wird zu Ihrem Kalender hinzugefügt.
+Die Nachricht wird aus dem Posteingang entfernt und die Besprechung wird zu Ihrem Kalender hinzugefügt.
 
 <!-- Referenced links -->
 

@@ -19,17 +19,13 @@ The **Activities** section tab in the Company screen contains all the activities
 
 ## What would you like to do?
 
-* [View activities][1]
-* [Delete activities][2]
-* [Reply to email from the Activities section tab][3]
-* [Forward email from the Activities section tab][4]
+* [Learn more about activities][1]
+* [Reply to or forward email from the Activities section tab][3]
 * [Use filters in the section tabs][5]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/view-activities.md
-[2]: ../../../learn/activity/delete-activities-contact.md
-[3]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[4]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[1]: ../../../learn/basics/activity.md
+[3]: ../../../learn/section-tabs/send-email.md
 [5]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->

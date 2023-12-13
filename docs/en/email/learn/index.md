@@ -13,7 +13,7 @@ language: en
 
 Email is the most popular form of communication between businesses. With SuperOffice CRM you can choose to save and share your emails in various ways that will make you and your team work more productively.
 
-When you have [integrated your preferred email client with SuperOffice][13], you can save email dialogues and attachments under any company, contact, sale or project in your CRM system. You can also save emails directly as appointments or activities – so you never forget to follow up and follow through.
+When you have [integrated your preferred email client with SuperOffice][13], you can save email dialogues and attachments under any company, contact, sale or project in your CRM system. You can also save emails directly as follow-ups or activities – so you never forget to follow up and follow through.
 
 ## Email clients
 
@@ -36,12 +36,12 @@ To keep all customer-related information in one place, you can easily archive yo
 * [Archive email with WebTools and Mail Link][8]
 * [Archive email with Gmail Link][3]
 
-### Save email as appointment
+### Save email as follow-up
 
-Saving an email directly as a task, an appointment or a phone-call in your SuperOffice diary will ensure that you never forget to follow up on a customer or query.
+Saving an email directly as a follow-up in your SuperOffice diary will ensure that you never forget to follow up on a customer or query.
 
-* [Archive email as appointment with WebTools and Mail Link][7]
-* [Archive email as appointment with Gmail Link][4]
+* [Archive email as follow-up with WebTools and Mail Link][7]
+* [Archive email as follow-up with Gmail Link][4]
 
 ## Attachments
 

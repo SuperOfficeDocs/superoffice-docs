@@ -3,7 +3,8 @@ uid: help-en-diary-screen-sales
 title: The Sales section tab (Diary)
 description: The Sales section tab (Diary)
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 11.20.2023
+so.version: 10.2.11
 keywords: diary, follow-up
 so.topic: reference
 language: en
@@ -47,7 +48,7 @@ The **Sales** section tab in the diary functions as a kind of "sales secretary" 
 * All sales with planned activities for a specific number of days ahead.
 
     > [!NOTE]
-    > The number of days ahead, based on the next activity date, is a preference. To change it, go to ![icon][img5] **Personal settings > Preferences** and select **Functions** > **Show days ahead**.
+    > The number of days ahead, based on the next activity date, is a preference. To change it, go to ![icon][img5] **Personal settings** > **Preferences** and select **Functions** > **Show days ahead**.
 
 * All sales with overdue activities (end date is earlier than today). These sales are shown in red.
 

@@ -11,7 +11,7 @@ language: no
 
 # Aktiviteter-fanen
 
-Detaljkortet **Aktiviteter** i Person-bildet inneholder alle aktivitetene som er knyttet til den aktive personen (inkludert avtaler der personen er deltaker).
+Detaljkortet **Aktiviteter** i Person-bildet inneholder alle aktivitetene som er knyttet til den aktive personen (inkludert oppfølginger der personen er deltaker).
 
 Hvis personen er tilknyttet et firma, kan disse aktivitetene også være tilgjengelige i detaljkortet **Aktiviteter** i Firma-bildet.
 

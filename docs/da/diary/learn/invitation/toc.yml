@@ -3,11 +3,5 @@ items:
     href: index.md
   - name: Føj deltagere til opfølgning
     href: add-participant.md
-  - name: Rediger eller slet invitation
-    href: update.md
-  - name: "Vis opfølgninger, som du er inviteret til"
-    href: follow-ups-you-are-invited-to.md
-  - name: Modtag invitationer
-    href: receive.md
-  - name: Håndter svar på invitationer
-    href: response.md
+  - name: Accepter eller afvis invitation
+    href: accept-decline.md

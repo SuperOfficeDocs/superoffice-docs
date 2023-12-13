@@ -3,11 +3,5 @@ items:
     href: index.md
   - name: Lägga till deltagare i händelse
     href: add-participant.md
-  - name: Redigera eller ta bort förfrågan
-    href: update.md
-  - name: Visa händelser du har inbjudits till
-    href: follow-ups-you-are-invited-to.md
-  - name: Få en förfrågan
-    href: receive.md
-  - name: Hantera svar på förfrågningar
-    href: response.md
+  - name: Acceptera eller tacka nej
+    href: accept-decline.md

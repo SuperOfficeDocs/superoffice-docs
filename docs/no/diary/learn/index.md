@@ -2,8 +2,8 @@
 uid: help-no-diary
 title: Dagbok
 description: SuperOffice-dagboken er hjertet i CRM-systemet ditt. Disse guidene gjør det enklere å lære å jobbe med dagboken.
-author: SuperOffice RnD
-so.date: 02.10.2023
+author: Bergfrid Dias
+so.date: 10.11.2023
 keywords: dagbok
 so.topic: concept
 language: no
@@ -13,71 +13,63 @@ language: no
 
 Dagboken i SuperOffice CRM brukes omtrent som en kalender og har egne sider for hver dag, uke og måned.
 
-![Registrer alle avtalene og oppgavene dine i dagboken, slik at du kan holde oversikt over dem -screenshot][img1]
+* **Kalender:** viser oppføringer som er tildelt en bestemt tid eller dato.
+* **Oppgaveliste:** viser ting du ikke har fullført ennå, hovedsakelig samtaler og gjøremål uten bestemt tid eller dato.
 
-Dagboken er et nyttig hjelpemiddel for å planlegge og utføre ulike typer oppgaver. Fra dagboken kan du både vise, redigere og slette [aktiviteter][16].
+![Registrer alle avtalene og oppgavene dine i dagboken, slik at du kan holde oversikt over dem -screenshot][img3]
 
-I tillegg får du [oversikt over salgene][13] du skal jobbe med, ved hjelp av detaljkortet **Salg** nederst i Dagbok-bildet.
+Dagboken er et nyttig hjelpemiddel for å planlegge og utføre ulike typer oppgaver. Fra dagboken kan du både vise, redigere og slette [aktiviteter][16]. I tillegg får du [oversikt over salgene][13] du skal jobbe med, ved hjelp av detaljkortet **Salg** nederst i Dagbok-bildet.
 
-Regelmessig bruk av dagboken hjelper deg med å automatisk koble til og dele avtaler og aktiviteter knyttet til en person eller et firma, slik at du og teamet ditt enkelt kan holde fokus og jobbe produktivt.
+Regelmessig bruk av dagboken, der aktiviteter knyttes til en kontakt eller et selskap, sikrer at du og ditt team kan holde orden enkelt, fremme smidig samarbeid og økt produktivitet.
 
-## Jobbe med oppfølginger
+## <a id="open" />Vise dagbok
 
-Oppfølginger er et samlebegrep for aktivitetene [avtale][1], [oppgave][2] og [samtale][3]. Disse fungerer stort sett på samme måte.
+For å åpne dagboken, klikk på ordet **Dagbok** i navigatoren, og velg en tidsperiode fra listen som vises, eller klikk **I dag** eller **Denne uken** for å gå til gjeldende dag eller uke. Ditt eget navn vises øverst til høyre i Dagbok-bildet. Hvis to eller flere oppfølginger overlapper, kan du se deler av hver oppfølging.
 
-> [!NOTE]
-> Det er viktig å se forskjellen mellom aktiviteter og oppfølginger (avtaler, oppgaver og samtaler).
-Når du oppretter oppfølginger via Dagbok-bildet, defineres disse som standard som avtaler. Du kan imidlertid endre oppfølgingstypen til oppgave eller samtale i feltet for type i [dialogboksen **Avtale**][22].
+Du kan få tilgang til en annen brukers dagbok eller en tilgjengelig ressurs for å sjekke deres tilgjengelighet eller opprette oppfølginger direkte. For å se flere dagbøker samtidig, opprett en [gruppevisning][2].
 
-Oppfølginger er nært knyttet til Dagbok-bildet, og visse funksjoner gjelder spesielt for dagboken.
+## <a id="nav" />Navigere i Dagbok-bildet
 
-> [!TIP]
-> I Innstillinger og vedlikehold kan du definere at alle oppfølginger av en bestemt type skal vises i Dagbok-bildet med samme bakgrunnsfarge.
+Dagboken består av [fire faner][24]: **Dag**, **Uke**, **Måned** og **Oversikt**-fanen. Det er enkelt å bytte mellom disse visningene: bare klikk på fanene øverst på dagbokskjermen. Den aktuelle dagen, uken eller måneden vises øverst på siden, avhengig av hvilken fane du velger.
+
+* På fanen **Dag**, **Uke** og **Måned**, klikk på **I dag** eller **Denne uken** for å gå til gjeldende dag eller uke.
+
+* Klikk på en måned, et ukenummer eller en dag i kalenderen for å gå direkte til en av fanene ovenfor.
+
+* Klikk på forrige/neste-knappene ![icon][img2] ![icon][img1] nederst til høyre i dagboken.
+
+* (Hvis åpen) klikk på en dag eller uke i dag-, uke- eller månedsoversikten i sidepanelet.
 
 ## Hva vil du gjøre nå?
 
-* [Navigere i Dagbok-bildet][14]
 * [Velge tidssone][15]
-* [Åpne oppfølginger][4]
 * [Redigere oppfølging][6]
-* [Angi alarmer for oppfølging][7]
-* [Sende oppfølginger][8]
-* [Opprette avtale ved hjelp av dagboken][18]
-* [Opprette overlappende oppfølginger][9]
+* [Opprette oppfølginger][18]
 * [Opprette repeterende oppfølging][10]
 * [Invitere andre medarbeidere til en oppfølging][11]
-* [Koble aktiviteter][12]
 * [Flytte oppfølginger][19]
 * [Endre sluttidspunktet for oppfølging][20]
 * [Kopiere oppfølging til Dagbok][21]
-* [Skriv ut][5]
 * [Slette oppfølging][17]
 * [Videomøter][23]
 
 <!-- Referenced links -->
-[1]: appointment.md
-[2]: task.md
-[3]: phone-call/index.md
-[4]: open-follow-up.md
-[5]: print.md
+[2]: group-view.md
 [6]: edit-follow-up.md
-[7]: set-alarm.md
-[8]: send-as-email.md
-[9]: create-follow-up.md#overlap
 [10]: recurrence/create.md
 [11]: invitation/index.md
-[12]: ../../learn/activity/linking-documents-to-follow-ups.md
 [13]: screen/sales-tab.md
-[14]: screen/navigate-in-diary.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
-[16]: ../../learn/activity/index.md
-[17]: delete-follow-up.md
-[18]: create-appointment.md
+[16]: ../../learn/basics/activity.md
+[17]: edit-follow-up.md#delete
+[18]: create-follow-up.md
 [19]: move-follow-up.md
-[20]: change-end-time.md
-[21]: copy-follow-up.md
-[22]: screen/dialog-for-followups.md
+[20]: edit-follow-up.md#change-end
+[21]: create-follow-up.md#copy
+[24]: screen/index.md
 [23]: video-meetings.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/diary/diary.png
+[img1]: ../../../media/icons/arrow-right.png
+[img2]: ../../../media/icons/arrow-left.png
+[img3]: ../../../media/loc/en/diary/diary.png

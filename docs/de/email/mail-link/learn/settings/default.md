@@ -21,13 +21,13 @@ Optionen im Bereich **Archivoptionen** des Dialogfeldes **SuperOffice CRM-Option
 | Von E-Mail-Client erstellt | [Aktiviert die Standardarchivierung][5] von E-Mails, die Sie in Ihrem E-Mail-Client verfassen, indem Sie auf die Schaltfläche **Neue E-Mail** klicken. Wenn Sie eine E-Mail versenden, wird diese standardmäßig in SuperOffice CRM archiviert. Wenn Sie **Archiv ist AUS** im E-Mail-Fenster des E-Mail-Clients auswählen, wird die E-Mail nicht in SuperOffice CRM archiviert. |
 | E-Mails von SuperOffice CRM beantworten | Aktivieren Sie die Standardarchivierung von E-Mails, auf die Sie in SuperOffice CRM antworten. |
 | E-Mails von SuperOffice CRM weiterleiten | Aktivieren Sie die Standardarchivierung von E-Mails, die Sie in SuperOffice CRM weiterleiten. |
-| Termine von SuperOffice CRM senden | Archivieren Sie standardmäßig Termine, die als E-Mails von SuperOffice CRM gesendet werden. |
+| Termine von SuperOffice CRM senden | Archivieren Sie standardmäßig Besprechungen, die als E-Mails von SuperOffice CRM gesendet werden. |
 | Dokumente von SuperOffice CRM senden | Archivieren Sie standardmäßig Dokumente, die als E-Mails von SuperOffice CRM gesendet werden. |
 | Standardvorlage bei der Archivierung von E-Mails | In diesen beiden Dropdown-Menüs können Sie die Standardvorlage für ein- und ausgehende E-Mails auswählen. |
 
 ## Senden als E-Mail
 
-* Sie können einen Termin als E-Mail senden, indem Sie **Aufgabe** > **Senden als E-Mail** im Dialogfeld **Termin** anklicken. Es öffnet sich dann ein neues E-Mail-Fenster mit dem Termin in Ihrem E-Mail-Client.
+* Sie können einen Besprechung als E-Mail senden, indem Sie **Aufgabe** > **Senden als E-Mail** im Dialogfeld **Folgeaufgabe** anklicken. Es öffnet sich dann ein neues E-Mail-Fenster mit dem Besprechung in Ihrem E-Mail-Client.
 
 * Sie können ein Dokument als E-Mail senden, indem Sie mit der rechten Maustaste die Registerkarte **Aktivitäten** in SuperOffice CRM anklicken und **Senden als E-Mail** auswählen oder in der Anzeige Dokument **Aufgabe** > **Senden als E-Mail** anklicken. Es öffnet sich dann ein neues E-Mail-Fenster mit dem Dokument in Ihrem E-Mail-Client.
 

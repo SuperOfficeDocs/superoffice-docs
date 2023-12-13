@@ -21,13 +21,13 @@ Opties in het deelvenster **Archiefopties** van het dialoogvenster **SuperOffice
 | Gemaakt vanuit e-mailclient | [Hiermee schakelt u standaardarchivering in][5] van e-mails die u opstelt in uw e-mailclient door op de knop **Nieuwe e-mail** te klikken. Wanneer u een e-mail verzendt, wordt deze standaard gearchiveerd in SuperOffice CRM. Als u **Archiveren is UIT** selecteert in het e-mailvenster van de e-mailclient, wordt de e-mail niet gearchiveerd naar SuperOffice CRM. |
 | E-mails beantwoorden vanuit SuperOffice CRM | Schakel standaardarchivering in van e-mails die u beantwoordt in SuperOffice CRM. |
 | E-mails doorsturen vanuit SuperOffice CRM | Schakel standaardarchivering in van e-mails die u doorstuurt in SuperOffice CRM. |
-| Afspraken verzenden vanuit SuperOffice CRM | Standaard worden afspraken gearchiveerd die als e-mails zijn verzonden vanuit SuperOffice CRM. |
+| Afspraken verzenden vanuit SuperOffice CRM | Standaard worden vervolgactiviteiten gearchiveerd die als e-mails zijn verzonden vanuit SuperOffice CRM. |
 | Documenten uit SuperOffice CRM verzenden | Documenten archiveren die als e-mails zijn verzonden vanuit SuperOffice CRM. |
 | Standaardsjabloon bij het archiveren van e-mail | In deze twee vervolgkeuzelijsten kunt u de standaardsjabloon voor binnenkomende en uitgaande e-mail selecteren. |
 
 ## Verzenden als e-mail
 
-* U kunt een afspraak als e-mail verzenden door te klikken op **Taak** > **Verzenden als e-mail** in het dialoogvenster **Afspraak**. Er wordt dan een nieuw e-mailvenster met de afspraak geopend in uw e-mailclient.
+* U kunt een vervolgactiviteit als e-mail verzenden door te klikken op **Taak** > **Verzenden als e-mail** in het dialoogvenster **Vervolgactiviteit**. Er wordt dan een nieuw e-mailvenster met de vervolgactiviteit geopend in uw e-mailclient.
 
 * U kunt een document als e-mail verzenden door er met de rechtermuisknop op te klikken op het sectietabblad **Activiteiten** in SuperOffice CRM en **Verzenden als e-mail** te selecteren of door te klikken op **Taak** > **Verzenden als e-mail** in het documentscherm. Er wordt dan een nieuw e-mailvenster met het document geopend in uw e-mailclient.
 

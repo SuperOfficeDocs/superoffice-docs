@@ -76,7 +76,7 @@ CRMScript, on the other hand, requires technical skills and is ideal for those w
 
 SuperOffice CRM comes with a set of pre-defined tables where you can store data. There is an underlying logic about how these tables or data entries relate to each other.
 
-Some of the default tables are flexible: you can define what type of data and properties these tables should have. These **user-defined fields** allow you to add dates, numbers, text- or check-boxes and you can place them on the company, project, or appointment cards.
+Some of the default tables are flexible: you can define what type of data and properties these tables should have. These **user-defined fields** allow you to add dates, numbers, text- or check-boxes and you can place them on the company, project, or follow-up screens.
 
 If you need more tables, you can add extra tables to the database when you subscribe to [Development Tools][3].
 

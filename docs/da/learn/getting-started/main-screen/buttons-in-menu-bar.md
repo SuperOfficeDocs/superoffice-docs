@@ -24,7 +24,7 @@ Elementerne øverst på skærmen varierer lidt mellem SuperOffice CRM, Service o
 
 | Knap | Navn | Beskrivelse |
 |---|---|---|
-| ![ikon][img3] | Ny | Klik på denne knap for hurtigt at oprette nye firmaer, personer, salg, projekter, udvalg, aktiviteter (aftaler, samtaler, opgaver, dokumenter og e-mail), sager, FAQ-poster og forsendelser. |
+| ![ikon][img3] | Ny | Klik på denne knap for hurtigt at oprette nye firmaer, personer, salg, projekter, udvalg, opfølginger, dokumenter, sager, og mere. |
 | ![ikon][img8] | Søgning | Klik på denne knap for at [søge efter][5] firmaer, personer, projekter, udvalg, opfølgninger, salg eller dokumenter i SuperOffice CRM. NA til service |
 | ![ikon][img4] | Ingen invitationer / notifikationer | Åbner en liste over nye notifikationer i SuperOffice CRM, for eksempel [invitationer][4] og godkendte salg/tilbud. Klik på et element på listen for at åbne den relevante post. |
 | ![ikon][img5] | Ulæste invitationer | |
@@ -67,7 +67,7 @@ Elementerne øverst på skærmen varierer lidt mellem SuperOffice CRM, Service o
 | Duplikatindstillinger | Bruges til at redigere [duplikatindstillinger][8] for firmaer, projekter og udvalg. |
 | Filter | Bruges til at redigere [filterindstillingerne][2]. |
 | Vis notesblok | Åbner [notesblokken][9] og opretter en ny note. |
-| Vis bekræftelsesdialogboks, når du sender invitationer | Bruges til at aktivere / deaktivere bekræftelsesdialogboksen, når du sender e-mailmeddelelser til deltagerne i mødet fra dialogboksen **Aftale**. |
+| Vis bekræftelsesdialogboks, når du sender invitationer | Bruges til at aktivere / deaktivere bekræftelsesdialogboksen, når du sender e-mailmeddelelser til deltagerne i mødet fra dialogboksen **Opfølging**. |
 | Mål | Bruge til at tilføje [salgsmål][17]. |
 | Rediger systemsignatur | Bruges til at redigere standard e-mailsignaturen. |
 | Indstillinger og vedligeholdelse | Åbner Indstillinger og vedligeholdelse. Denne indstilling er kun tilgængelig, hvis du har administratorrettigheder. |
@@ -87,7 +87,7 @@ Elementerne øverst på skærmen varierer lidt mellem SuperOffice CRM, Service o
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md
-[4]: ../../../diary/learn/invitation/receive.md
+[4]: ../../../diary/learn/invitation/accept-decline.md
 [5]: ../../../search-options/learn/find-screen.md
 [15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md

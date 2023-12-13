@@ -3,7 +3,8 @@ uid: help-de-activity-completed
 title: Status Abgeschlossen für eine Aktivität ändern
 description: Status Abgeschlossen für eine Aktivität ändern
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.12.2023
+so.version: 10.2.11
 keywords: Kalender, Folgeaufgabe
 so.topic: howto
 language: de
@@ -17,27 +18,36 @@ Wenn eine Aktivität abgeschlossen ist, können Sie diese als erledigt markieren
 
 ## Schritte
 
-1. Öffnen Sie die Aktivität und deaktivieren Sie oben rechts im Dialogfeld das Symbol **Erledigt**.
+Führen Sie eine der folgenden Aktionen aus:
 
-    ![Status Abgeschlossen für eine Aktivität ändern -screenshot][img3]
+* Klicken Sie mit der rechten Maustaste auf die Aktivität, und wählen Sie **Erledigt**.
 
-    Für weitere Details siehe [Folgeaufgaben öffnen][1] und [Dokumente öffnen][2].
+* Klicken Sie auf das Kontrollkästchen in der Spalte ![Symbol][img2] auf der Bereichsregisterkarte **Aktivitäten**, die **Abgeschlossen** wurde.
 
-1. Platzieren Sie den Mauszeiger auf dem Feld in der Spalte ![Symbol][img2] auf der Bereichsregisterkarte **Aktivitäten**, die **Abgeschlossen** wurde. Klicken Sie auf das Kontrollkästchen ![Symbol][img1].
+* Öffnen Sie die Aktivität und wählen Sie **Erledigt**.
 
-1. Klicken Sie mit der rechten Maustaste auf die Aktivität, und wählen Sie **Erledigt**.
+<!-- markdownlint-disable MD051 -->
+### [Klassisch](#tab/complete-old)
 
-    ![Status Abgeschlossen für eine Aktivität ändern -screenshot][img4]
+Klicken Sie auf das Häkchen-Symbol oben rechts im Dialogfeld.
+
+![Ändern Sie den abgeschlossenen Status einer Aktivität -Screenshot][img3]
+
+### [Neu (ab Version 10.2.11 Pilot)](#tab/complete-new)
+
+Aktivieren/Deaktivieren Sie das Kontrollkästchen im Fußbereich des Dialogs.
+
+![Ändern Sie den abgeschlossenen Status einer Volgeaufgabe -Screenshot][img4]
+
+***
+<!-- markdownlint-restore -->
 
 > [!NOTE]
 > Um eine abgeschlossene Aktivität zu bearbeiten, müssen Sie zunächst den Status **Abgeschlossen** deaktivieren.
 
 <!-- Referenced links -->
-[1]: open-follow-up.md
-[2]: ../../document/learn/open.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.png
 [img2]: ../../../media/icons/sale-sold-details.png
 [img3]: ../../../media/loc/en/diary/completed-activity.png
-[img4]: ../../../media/loc/en/diary/completed-activity-2.png
+[img4]: ../../../media/loc/en/diary/completed.png

@@ -44,7 +44,7 @@ In einer [dynamischen Selektion][7] können Sie festlegen, dass Firmen ohne Anga
 
 ## Tag
 
-Zeigt einen Kalendertag an. Funktioniert wie die Registerkarte [Tag][3] in der Ansicht [Kalender][4]
+Zeigt einen Kalendertag an. Funktioniert wie die Registerkarte **Tag** in [der Ansicht Kalender][4].
 
 > [!NOTE]
 > Auf der Seitenleiste können Sie nur Ihren eigenen Kalender anzeigen. Gehen Sie zur Anzeige [Kalender][4], um die Tagebücher anderer Personen anzuzeigen.
@@ -134,7 +134,6 @@ Sie können in Einstellungen und Verwaltung auch Ihre eigenen Anzeigen für die 
 <!-- Referenced links -->
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
-[3]: ../../../diary/learn/screen/day.md
 [4]: ../../../diary/learn/screen/index.md
 [5]: ../../../document/learn/screen/index.md
 [6]: ../../../diary/learn/screen/dialog-for-followups.md

@@ -3,7 +3,7 @@ title: Requirements
 uid: webtools_system_requirements
 description: System requirements for WebTools
 author: {github-id}
-keywords:
+keywords: WebTools
 so.topic: reference
 so.envir: onsite
 # so.client:
@@ -31,7 +31,7 @@ It is necessary to make sure Web Extensions is set to automatically start when a
 To store Web Extensions configuration, we use folder *%localappdata%\SuperOffice\SuperOffice Web Extensions*.
 
 > [!NOTE]
-> The installation of the WebTools does not require administrative privileges, but the prerequisites do. For more information, see the [Web Tools installation documentation][2].
+> The installation of the WebTools does not require administrative privileges, but the prerequisites do. For more information, see the [WebTools installation documentation][2].
 
 ## Version compatibility
 

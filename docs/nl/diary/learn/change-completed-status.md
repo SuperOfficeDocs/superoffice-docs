@@ -4,7 +4,7 @@ title: De status Voltooid voor een activiteit wijzigen
 description: De status Voltooid voor een activiteit wijzigen
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: agenda, vervolgactiviteit
+keywords: agenda, vervolgactiviteit, voltooid
 so.topic: howto
 language: nl
 ---
@@ -17,27 +17,36 @@ Wanneer u vindt dat een activiteit is beëindigd, kunt u deze markeren als volto
 
 ## Stappen
 
-1. Open de activiteit en schakel het selectievakje **Voltooid** rechtsboven in het dialoogvenster uit.
+Voer een van de volgende handelingen uit:
 
-    ![De status Voltooid voor een activiteit wijzigen -screenshot][img3]
+* Klik met de rechtermuisknop op de activiteit en kies **Voltooid**.
 
-    Zie [Vervolgactiviteiten openen][1] en [Documenten openen][2] voor meer informatie.
+* Klik dan in het selectievakje in de kolom **Voltooid** ![pictogram][img2] op het sectietabblad **Activiteiten**.
 
-1. Houd de muisaanwijzer op het vak in de kolom **Voltooid** ![pictogram][img2] op het sectietabblad **Activiteiten**. Klik dan in het selectievakje ![pictogram][img1].
+* Open de activiteit en kies **Voltooid**.
 
-1. Klik met de rechtermuisknop op de activiteit en kies **Voltooid**.
+<!-- markdownlint-disable MD051 -->
+### [Klassiek](#tab/complete-old)
 
-    ![De status Voltooid voor een activiteit wijzigen -screenshot][img4]
+Klik op het vinkje-pictogram rechtsboven in het dialoogvenster.
+
+![Wijzig voltooide status van een activiteit -screenshot][img3]
+
+### [Nieuw (vanaf versie 10.2.11 pilot)](#tab/complete-new)
+
+Vink/haal het selectievakje aan in de voettekst van het dialoogvenster.
+
+![Wijzig voltooide status van een vervolgactiviteit -screenshot][img4]
+
+***
+<!-- markdownlint-restore -->
 
 > [!NOTE]
 > Als u een voltooide activiteit wilt bewerken, moet u eerst de status **Voltooid** uitschakelen.
 
 <!-- Referenced links -->
-[1]: open-follow-up.md
-[2]: ../../document/learn/open.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.png
 [img2]: ../../../media/icons/sale-sold-details.png
 [img3]: ../../../media/loc/en/diary/completed-activity.png
-[img4]: ../../../media/loc/en/diary/completed-activity-2.png
+[img4]: ../../../media/loc/en/diary/completed.png

@@ -3,7 +3,5 @@ items:
     href: index.md
   - name: Creating recurring follow-up
     href: create.md
-  - name: Editing recurring follow-up
-    href: edit.md
   - name: Stopping recurring follow-up
     href: stop.md

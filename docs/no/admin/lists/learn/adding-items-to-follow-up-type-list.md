@@ -20,7 +20,7 @@ language: no
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-2. Klikk på ![ikon][img1] pilen ved siden av feltet **Type**, og velg ønsket oppfølgingstype fra listeboksen. Du kan velge mellom **Avtale**, **Samtale** og **Oppgave**.
+2. Klikk på ![ikon][img1] pilen ved siden av feltet **Type**, og velg ønsket oppfølgingstype fra listeboksen.
 
 3. I feltet **Retning** angir du om oppfølgingen er utgående eller innkommende ved å klikke på pilen og velge fra listeboksen.
 

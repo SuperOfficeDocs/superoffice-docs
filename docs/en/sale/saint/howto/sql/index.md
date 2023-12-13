@@ -12,7 +12,7 @@ so.topic: concept
 
 [!include[ALT](../../includes/note-req-saint.md)]
 
-When SAINT is enabled, whenever a contact or project is created, a set of rows are added to the `countervalue` table. There is always a row in the `countervalue` table corresponding to appointment, document, or sale. The respective counter rows in the `countervalue` table will be updated whenever an appointment, document, or sale is created.
+When SAINT is enabled, whenever a contact or project is created, a set of rows are added to the `countervalue` table. There is always a row in the `countervalue` table corresponding to follow-up, document, or sale. The respective counter rows in the `countervalue` table will be updated whenever a follow-up, document, or sale is created.
 
 ## SAINT counters
 

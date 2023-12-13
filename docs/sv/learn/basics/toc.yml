@@ -18,9 +18,8 @@ items:
   - name: Arbeta med detaljkort
     href: ../section-tabs/toc.yml
     topicHref: ../section-tabs/index.md
-  - name: Arbeta med aktiviteter
-    href: ../activity/toc.yml
-    topicHref: ../activity/index.md
+  - name: Aktiviteter
+    href: activity.md
   - name: Språk och översättning
     href: ../../globalization-and-localization/learn/toc.yml
     topicHref: ../../globalization-and-localization/learn/change-language.md

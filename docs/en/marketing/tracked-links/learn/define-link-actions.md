@@ -26,8 +26,8 @@ In SuperOffice Marketing you can add actions to your links. These actions are tr
 | Response | Add landing page or custom text. |
 | Set field | Add a value to an extra field for customer contacts |
 | Interests | Update interests. |
-| Selection/Project] | Add/remove customer contact from a selection/project. |
-| Follow-up] | Create a follow-up (task or appointment) in SuperOffice CRM. |
+| Selection/Project | Add/remove customer contact from a selection/project. |
+| Follow-up | Create a follow-up (to-do or meeting) in SuperOffice CRM. |
 | Request | Create a new request. |
 | Script | Execute a script. |
 
@@ -70,31 +70,31 @@ See also [Clear interests in SuperOffice CRM][1].
 
 Here you can specify that recipients who click the link will be added to or removed from selections in SuperOffice Service or selections or projects in SuperOffice CRM. Type the beginning of a name to start the quick search.
 
-## Follow-up (task/appointment)
+## Follow-up (meeting/to-do)
 
-In the **Follow-up** tab, you can specify that a link click should generate tasks or appointments in SuperOffice CRM.
+In the **Follow-up** tab, you can specify that a link click should generate meetings or to-dos in SuperOffice CRM.
 
 1. Check **Follow-up** to activate this function.
 
 2. **Task/Appointment**: Choose which type of follow-up to create.
 
-3. **Description**: Enter a description of the task/appointment. For example, which mailing it relates to, which link the recipient clicked, and possibly how the task/appointment should be followed up.
+3. **Description**: Enter a description of the follow-up. For example, which mailing it relates to, which link the recipient clicked, and possibly how the to-do or meeting should be followed up.
 
-4. **Project**: Here you select a project which the task/appointment should be linked to. Type the beginning of a name to start the quick search.
+4. **Project**: Here you select a project which the follow-up should be linked to. Type the beginning of a name to start the quick search.
 
-5. **Task**: Select the required task or appointment type.
+5. **Task**: Select the required task or follow-up type.
 
-6. **Created by**: Select which user should be responsible for the task/appointment, or click the **Select active user** button ![icon][img1] to choose yourself.
+6. **Created by**: Select which user should be responsible for the follow-up, or click the **Select active user** button ![icon][img1] to choose yourself.
 
-7. **Assign to Our contact if available**: Check here if the task/appointment should be assigned to "our contact" for the recipient (the person who looks after this customer).
+7. **Assign to Our contact if available**: Check here if the follow-up should be assigned to "our contact" for the recipient (the person who looks after this customer).
 
-8. **Default recipient**: Select a default recipient whom the task/appointment should be assigned to, or click the **Select active user** button ![icon][img1] to choose yourself.
+8. **Default recipient**: Select a default recipient whom the follow-up should be assigned to, or click the **Select active user** button ![icon][img1] to choose yourself.
 
-9. **Duration**: Click the **Select time span** button ![icon][img2] next to this field to set the duration of the task/appointment.
+9. **Duration**: Click the **Select time span** button ![icon][img2] next to this field to set the duration of the follow-up.
 
 ## Request
 
-In the **Request** tab, you can specify that a SuperOffice Service request should be created for contacts who click a link.md)]
+In the **Request** tab, you can specify that a SuperOffice Service request should be created for contacts who click a link.md.
 
 1. **Create new request**: Check here to register a new request when the customer clicks the link.
 2. **Title**: Enter the title you want to give the new request.

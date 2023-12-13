@@ -34,7 +34,7 @@
 12. I kryssrutan **Uppskjuten** kan du markera om försäljningen är [uppskjuten][2]. Till exempel om kunden bestämmer sig för att vänta till nästa år innan de köper.
 
     > [!NOTE]
-    > Fälten nedan ändrar sig om du markerar **Uppskjuten**. **Nästa aktivitet** ändras till **Återöppningsdatum**, där du kan ange ett datum för när försäljningen ska öppnas igen, och **Källa** ändras till **Orsak (uppskjuten)**, där du kan ange orsaken till att försäljningen har skjutits upp. Om du markerar försäljningen som uppskjuten, visas dialogrutan **Bokning** när du klickar på **Spara**. Här kan du boka kommande möten eller samtal för att följa upp den uppskjutna försäljningen.
+    > Fälten nedan ändrar sig om du markerar **Uppskjuten**. **Nästa aktivitet** ändras till **Återöppningsdatum**, där du kan ange ett datum för när försäljningen ska öppnas igen, och **Källa** ändras till **Orsak (uppskjuten)**, där du kan ange orsaken till att försäljningen har skjutits upp. Om du markerar försäljningen som uppskjuten, visas dialogrutan **Händelse** när du klickar på **Spara**. Här kan du boka kommande möten eller samtal för att följa upp den uppskjutna försäljningen.
 
 13. Ange fastställt försäljningsdatum i fältet **Försäljningsdatum**. För att ändra det föreslagna försäljningsdatumet klickar du på pilen vid datumet och väljer ett nytt datum i kalendern som visas.
 

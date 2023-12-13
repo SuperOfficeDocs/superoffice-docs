@@ -35,7 +35,7 @@ Sie können in den verschiedenen Komponenten von SuperOffice CRM Einstellungen f
 | Schaltflächen | Option | Beschreibung |
 |---|---|---|
 | ![Symbol][img1] | Standardwerte | Die Standardwerte in SuperOffice CRM. Zum Beispiel die Standardbranche bei neuen Firmen, die Standarddauer bei Folgeaufgaben, die Standardvorlage für ausgehende Dokumente. |
-| ![Symbol][img2] | Kalender | Die Standardwerte für den Kalender und für Termine, wie etwa die Standardstartzeit des Arbeitstags und die Dauer von Alarmen. |
+| ![Symbol][img2] | Kalender | Die Standardwerte für den Kalender und für Folgeaufgabe, wie etwa die Standardstartzeit des Arbeitstags und die Dauer von Alarmen. |
 | ![Symbol][img3] | Funktionen | Die allgemeinen Einstellungen und Funktionen, einschließlich der, ob der Tipp des Tages beim Starten von SuperOffice CRM angezeigt werden soll (Tipps beim Start anzeigen). |
 | ![Symbol][img14] | In-App-Kommunikation | Die Einstellungen für Kommunikation in SuperOffice CRM. |
 | ![Symbol][img4] | E-Mail | Die Einstellungen für E-Mail und Fax, zum Beispiel, den E-Mail-Client, den Sie installiert haben. |

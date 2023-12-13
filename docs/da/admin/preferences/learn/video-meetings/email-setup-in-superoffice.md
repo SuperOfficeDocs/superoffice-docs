@@ -31,12 +31,12 @@ For at sende en invitation via e-mail til eksterne brugere skal du:
 * Konfigurere din e-mailopsætning i SuperOffice-indbakken
 
     > [!TIP]
-    > Hvis du automatisk vil medtage URL'en til videomødet i aftaleteksten, skal du opdatere invitationsskabelonen med {burl}. Hvis feltet **Sted** i aftalen er tomt, tilføjes videomøde-URL'en her.
+    > Hvis du automatisk vil medtage URL'en til videomødet i mødeteksten, skal du opdatere invitationsskabelonen med {burl}. Hvis feltet **Sted** er tomt, tilføjes videomøde-URL'en her.
 
 * Have konfigureret til SuperOffice Mail Link
 
     > [!NOTE]
-    > Videomøde-URL'en føjes automatisk til aftaleteksten ("Deltag i møde: ..."). Hvis feltet **Sted** i aftalen er tomt, tilføjes videomøde-URL'en her.
+    > Videomøde-URL'en føjes automatisk til mødeteksten ("Deltag i møde: ..."). Hvis feltet **Sted** er tomt, tilføjes videomøde-URL'en her.
 
 ## Relaterede emner
 

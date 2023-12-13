@@ -11,32 +11,49 @@ language: de
 
 # Alarm für Folgeaufgaben setzen
 
-SuperOffice CRM kann Sie benachrichtigen, bevor Ihre Besprechung beginnt. Wenn es an der Zeit ist, mit Ihrer Besprechung zu beginnen, wird ein Benachrichtigungs-Popup angezeigt. Wenn es sich um eine Videokonferenz handelt, können Sie Ihre Videokonferenz starten, indem Sie auf das Benachrichtigungs-Popup klicken.
+SuperOffice CRM kann Sie vor Beginn Ihres Meetings erinnern. Zum festgelegten Vorlaufzeitpunkt erscheint eine Systembenachrichtigung auf Ihrem Gerät.
 
-![Sie können einen Wecker einstellen, damit Sie eine Benachrichtigung erhalten, bevor Ihre Besprechung beginnt -screenshot][img2]
+![SuperOffice Browserbenachrichtigung -screenshot][img4]
 
-## Um im Voraus über eine Folgeaufgabe informiert zu werden
+Für Videomeetings erscheint eine Benachrichtigung des Meeting-Systemanbieters (wie Microsoft Teams) zu Beginn des Meetings. Klicken Sie auf die **Meeting beitreten**-Schaltfläche, um teilzunehmen, oder klicken Sie, wenn Sie der Gastgeber sind, auf **Meeting starten**.
 
-1. Aktivieren Sie das Kontrollkästchen **Alarm** in der Registerkarte **Details** im Dialogfeld **Termin**, **Aufgabe** oder **Anruf**.
-1. Fügen Sie in das Feld neben dem Kontrollkästchen die Anzahl der Stunden und Minuten vor Ihrer Besprechung ein, über die Sie benachrichtigt werden möchten.
-
-    Die Standardeinstellung ist 10 Minuten. Sie können diesen Wert jedoch auch ändern.
-
-> [!NOTE]
-> Damit das Alarmsignal Ihre Kollegen während Ihrer Abwesenheit nicht stört, können Sie festlegen, dass es nach einer bestimmten Zeit gestoppt wird. Gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen &gt; Einstellungen &gt; Kalender** und bearbeiten Sie die Option **Ausschalten nach**.
+## Schritte
 
 [!include[Recurrence](includes/note-repetition.md)]
 
-Wenn der Zeitpunkt für die Benachrichtigung erreicht ist, wird das Dialogfeld **Alarm** mit Informationen zu Firma, Datum, Uhrzeit, Typ, Priorität und Ort geöffnet.
+<!-- markdownlint-disable MD051 -->
+### [Classic](#tab/old)
 
-## Optionen im Dialogfeld Alarm
+1. [Öffnen oder erstellen Sie eine Nachverfolgung][1].
+1. Wählen Sie den Tab **Details** aus.
+1. Aktivieren Sie das **Alarm**-Kontrollkästchen.
+1. Im Feld neben dem Kontrollkästchen geben Sie die Anzahl der Stunden und Minuten ein, bevor Ihr Meeting beginnt, zu dem Sie erinnert werden möchten.
 
-* Klicken Sie auf **OK**, um zu bestätigen, dass Sie die Informationen gelesen haben.
-* Klicken Sie auf **Anzeigen**, um das Dialogfeld für Folgeaufgaben zu öffnen und weitere Informationen zu erhalten.
-* Aktivieren Sie **Erinnerung in 5 Minuten**, und klicken Sie auf **OK**, um den Alarm zu wiederholen.
+    Die Standardeinstellung ist 10 Minuten. Sie können diesen Wert jedoch auch ändern.
+
+1. Klicken Sie auf **Speichern**.
+
+![Sie können einen Alarm einstellen, um vor Beginn Ihres Meetings benachrichtigt zu werden -Screenshot][img2]
+
+### [New (from version 10.2.11 pilot)](#tab/new)
+
+1. [Öffnen oder erstellen Sie eine Nachverfolgung][1].
+1. Klicken Sie auf das Glockensymbol im Header und wählen Sie eine Uhrzeit aus.
+1. Klicken Sie auf **Speichern**.
+
+![Alarm Dropdown-Liste im Kopfzeilen-Dialogfeld für Follow-up -screenshot][img3]
+
+***
+<!-- markdownlint-restore -->
+
+> [!NOTE]
+> Volgeaufgabe-Erinnerungen (Alarme) sind nicht dasselbe wie [Aktivitätsbenachrichtigungen][2], die sich auf neue oder aktualisierte Einladungen beziehen, die im Benachrichtigungsfeld innerhalb von SuperOffice angezeigt werden.
 
 <!-- Referenced links -->
+[1]: create-follow-up.md
+[2]: ../../learn/basics/notifications.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img2]: ../../../media/loc/en/diary/appointment-alarm-on-meeting.png
+[img3]: ../../../media/loc/en/diary/set-alarm-in-header.png
+[img4]: ../../../media/loc/en/diary/edge-meeting-alarm.png

@@ -15,13 +15,13 @@ Op het tabblad **Videovergaderingen** kunt u de videovergaderingsservice selecte
 
 Met SuperOffice-videovergaderingen kunt u rechtstreeks vanuit uw CRM-oplossing videovergaderingen maken en eraan deelnemen. Als u de functionaliteit voor videovergaderingen in SuperOffice CRM wilt instellen, moet u verbinding maken met een van de vijf aanbieders van videovergaderingen (Cisco Webex, Google Meet, Jitsi Meet, Microsoft Teams, Zoom).
 
-Om ervoor te zorgen dat de gebruikers videovergaderingen in het dialoogvenster Afspraak kunnen gebruiken, zijn er een paar stappen betrokken:
+Om ervoor te zorgen dat de gebruikers videovergaderingen in het dialoogvenster Vervolgactiviteit kunnen gebruiken, zijn er een paar stappen betrokken:
 
 * Een beheerder moet verbinding maken met een van de gekozen aanbieders van videovergaderingen die beschikbaar zijn.
 
 * De gebruiker moet Mail Link of het Postvak IN van SuperOffice gebruiken om URL's voor videovergaderingen naar externe gebruikers te kunnen verzenden.
 
-* Gebruikers moeten zich verifiëren (inloggen) de eerste keer dat de gebruiker op het pictogram Videovergadering klikt in het pop-upvenster Afspraak.
+* Gebruikers moeten zich verifiëren (inloggen) de eerste keer dat de gebruiker op het pictogram Videovergadering klikt in het pop-upvenster Vervolgactiviteit.
 
 ## Vereisten voor videovergaderingen
 

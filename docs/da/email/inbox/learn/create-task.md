@@ -15,15 +15,14 @@ Med denne funktion kan du hurtigt tilføje en opgave i SuperOffice CRM baseret p
 
 1. Gå til indbakken.
 2. Vælg den ønskede meddelelse i indbakken.
-3. Klik på ikonet **Arkivér** ![.][img1]
-4. Klik på **Opret opgave**. Dialogboksen **Opgave** vises.
-
-    Se [dialogboksen til opfølgninger][2].
+3. Klik på ikonet **Arkivér** ![ikon][img1].
+4. Klik på **Opret opgave**. Dialogboksen **Opfølging** vises.
+5. [Indtast de ønskede oplysninger i felterne][2].
 
 [!include[Add contact](includes/add-contact-opens.md)]
 
 <!-- Referenced links -->
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[2]: ../../../diary/learn/create-follow-up.md#fields
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/archive-icon.png

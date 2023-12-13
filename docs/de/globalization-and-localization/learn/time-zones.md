@@ -18,18 +18,18 @@ SuperOffice CRM unterstützt Folgeaufgaben in unterschiedlichen Zeitzonen. Die Z
 
 ## Wie werden Zeitzonen in SuperOffice CRM verwendet?
 
-Die Zeitzonenfunktion kann nützlich sein, wenn Ihre Organisation Niederlassungen in mehreren Ländern mit unterschiedlichen Zeitzonen unterhält und Sie Besprechungen oder Telefonkonferenzen mit Personen in einem Land mit einer anderen Zeitzone anberaumen möchten. Wenn die Zeitzonenfunktion aktiviert ist, wird bei der Terminfestlegung die Zeitzone des ausgewählten Landes verwendet.
+Die Zeitzonenfunktion kann nützlich sein, wenn Ihre Organisation Niederlassungen in mehreren Ländern mit unterschiedlichen Zeitzonen unterhält und Sie Besprechungen oder Telefonkonferenzen mit Personen in einem Land mit einer anderen Zeitzone anberaumen möchten. Wenn die Zeitzonenfunktion aktiviert ist, wird bei der Folgeaufgabefestlegung die Zeitzone des ausgewählten Landes verwendet.
 
-Wenn sich Ihr Firmensitz beispielsweise in Deutschland befindet und Sie eine Besprechung mit Mitarbeitern der Niederlassungen in Finnland und den USA durchführen möchten, können Sie einen Besprechungstermin für die in Deutschland geltende Zeit festlegen und anschließend die betreffende Uhrzeit in Finnland und den USA anzeigen lassen. Auf diese Weise wird vermieden, dass Sie versehentlich einen Termin festlegen, der in einem anderen Land z. B. auf den späten Abend fällt. Den eingeladenen Personen wird der Termin unter Verwendung der Zeitzone angezeigt, die diese in ihrem eigenen SuperOffice CRM definiert haben, obwohl Sie bei der Terminfestlegung die in Deutschland gültige Zeit verwendet haben.
+Wenn sich Ihr Firmensitz beispielsweise in Deutschland befindet und Sie eine Besprechung mit Mitarbeitern der Niederlassungen in Finnland und den USA durchführen möchten, können Sie einen Besprechungstermin für die in Deutschland geltende Zeit festlegen und anschließend die betreffende Uhrzeit in Finnland und den USA anzeigen lassen. Auf diese Weise wird vermieden, dass Sie versehentlich eine Besprechung festlegen, der in einem anderen Land z. B. auf den späten Abend fällt. Den eingeladenen Personen wird die Besprechung unter Verwendung der Zeitzone angezeigt, die diese in ihrem eigenen SuperOffice CRM definiert haben, obwohl Sie bei der Terminfestlegung die in Deutschland gültige Zeit verwendet haben.
 
 Die Zeitzonenfunktion berücksichtigt auch die Umstellung von Winter- und Sommerzeit.
 
 > [!NOTE]
-> Für Termine, die vor der Aktivierung der Zeitzonenfunktion festgelegt wurden, wird die Standardzeitzone der SuperOffice-Datenbank verwendet.
+> Für Folgeaufgabe, die vor der Aktivierung der Zeitzonenfunktion festgelegt wurden, wird die Standardzeitzone der SuperOffice-Datenbank verwendet.
 
 ## Wie werden Zeitzonen ausgewählt?
 
-Zeitzonen werden im [Kalender][1] in einem Listenfeld und im [Dialogfeld für Folgeaufgaben][3] angezeigt. Dabei steht die Standardzeitzone der SuperOffice-Datenbank an erster Stelle und wird durch folgendes Symbol dargestellt: ![Symbol][img1].
+Zeitzonen werden im [Kalender][1] in einem Listenfeld und für [Folgeaufgaben][3] angezeigt. Dabei steht die Standardzeitzone der SuperOffice-Datenbank an erster Stelle und wird durch folgendes Symbol dargestellt: ![Symbol][img1].
 
 Die Zeitzonenliste ist nach Ländern sortiert. Ganz oben in der Liste stehen der Name des ausgewählten Landes und die zugehörige Flagge.
 
@@ -52,11 +52,11 @@ Durch Suchen nach einer bestimmten Zeitabweichung zur Ermittlung der Zeitzone: W
 
 * Wenn Sie mit dem Mauszeiger auf die Zeitzonenliste zeigen, wird eine QuickInfo dazu angezeigt, welche Städte (in dem betreffenden Land) innerhalb der ausgewählten Zeitzone liegen.
 
-* Wenn Sie mit dem Mauszeiger auf einen Termin zeigen, der für eine andere als die Standardzeitzone der SuperOffice-Datenbank erstellt wurde, erscheint eine QuickInfo. Sie enthält Informationen zu der Zeit des Termins in Ihrer eigenen Zeitzone und in der Zeitzone der Person, die den Termin erstellt hat.
+* Wenn Sie mit dem Mauszeiger auf eine Folgeaufgabe zeigen, der für eine andere als die Standardzeitzone der SuperOffice-Datenbank erstellt wurde, erscheint eine QuickInfo. Sie enthält Informationen zu der Zeit der Besprechung in Ihrer eigenen Zeitzone und in der Zeitzone der Person, die die Folgeaufgabe erstellt hat.
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
-[3]: ../../diary/learn/screen/dialog-for-followups.md
+[3]: ../../diary/learn/follow-ups.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/time-zone-local.png

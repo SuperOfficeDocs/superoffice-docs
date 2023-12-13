@@ -11,7 +11,7 @@ language: nl
 
 # Tabblad Activiteiten
 
-Het sectietabblad **Activiteiten** in het scherm Persoon bevat alle activiteiten die zijn gekoppeld aan de actieve persoon (inclusief de afspraken waaraan de persoon een deelnemer is).
+Het sectietabblad **Activiteiten** in het scherm Persoon bevat alle activiteiten die zijn gekoppeld aan de actieve persoon (inclusief de vervolgactiviteiten waaraan de persoon een deelnemer is).
 
 Als de persoon is gekoppeld aan een bedrijf, kunt u deze activiteiten ook bekijken op het sectietabblad **Activiteiten** in het scherm Bedrijf.
 

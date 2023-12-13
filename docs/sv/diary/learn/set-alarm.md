@@ -11,32 +11,49 @@ language: sv
 
 # Ställa in alarm för händelser
 
-SuperOffice CRM kan meddela dig att ditt möte snart börjar. När det är dags att starta mötet visas ett popup-meddelande. Om det är ett videomöte kan du starta det genom att klicka på popup-meddelandet.
+SuperOffice CRM kan påminna dig innan ditt möte börjar. Vid den angivna ledtiden visas en systemnotis på din enhet.
 
-![Du kan ställa in ett alarm så att du får en påminnelse innan mötet börjar -screenshot][img2]
+![SuperOffice webbläsarnotis -screenshot][img4]
 
-## Få meddelande om en händelse i förväg
+För videomöten kommer en notis från mötessystemleverantören (som Microsoft Teams) att visas vid mötets början. Klicka på **Gå med i mötet**-knappen för att delta eller, om du är värd, klicka på **Starta mötet**.
 
-1. Markera kryssrutan **Alarm** på fliken **Detaljer** i dialogrutan **Bokning**, **Uppgift** eller **Samtal**.
-1. I fältet bredvid kryssrutan anger du hur många timmar och minuter före mötet som du vill bli påmind.
-
-    Standardvärdet är 10 minuter, men du kan ändra det.
-
-> [!NOTE]
-> För att undvika att alarmet stör dina kollegor kan du ställa in det så att det stängs av efter en viss tid. Gå till ![ikon][img1] **Personliga inställningar &gt; Inställningar &gt; Kalender** och redigera alternativet **Tyst efter**.
+## Steg
 
 [!include[Recurrence](includes/note-repetition.md)]
 
-När påminnelsetiden infaller öppnas dialogrutan **Alarm** med information om företag, datum, tid, typ, prioritet och plats.
+<!-- markdownlint-disable MD051 -->
+### [Klassisk](#tab/old)
 
-## Alternativ i dialogrutan Alarm
+1. [Öppna eller skapa en uppföljning][1].
+1. Välj fliken **Detaljer**.
+1. Markera **Alarm**-kryssrutan.
+1. I fältet bredvid kryssrutan lägg till antalet timmar och minuter före ditt möte du vill bli påmind om.
 
-* Klicka på **OK** för att bekräfta att du har sett informationen.
-* Klicka på **Visa** för att öppna dialogrutan för händelser och visa mer information.
-* Markera **Påminn mig om 5 minuter** och klicka på **OK** om du vill att alarmet ska upprepas.
+    Standardvärdet är 10 minuter, men du kan ändra det.
+
+1. Klicka på **Spara**.
+
+![Du kan ställa in en påminnelse för att bli meddelad innan ditt möte börjar -screenshot][img2]
+
+### [Ny (från version 10.2.11 pilot)](#tab/new)
+
+1. [Öppna eller skapa en uppföljning][1].
+1. Klicka på klockikonet i sidhuvudet och välj en tid.
+1. Klicka på **Spara**.
+
+![Alarm nedrullningslista i uppföljningsdialogens sidhuvud -screenshot][img3]
+
+***
+<!-- markdownlint-restore -->
+
+> [!NOTE]
+> Händelsespåminnelser (larm) är inte samma som [aktivitetsnotiser][2], vilka gäller nya eller uppdaterade mötesinbjudningar som visas i meddelandepanelen inuti SuperOffice.
 
 <!-- Referenced links -->
+[1]: create-follow-up.md
+[2]: ../../learn/basics/notifications.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img2]: ../../../media/loc/en/diary/appointment-alarm-on-meeting.png
+[img3]: ../../../media/loc/en/diary/set-alarm-in-header.png
+[img4]: ../../../media/loc/en/diary/edge-meeting-alarm.png

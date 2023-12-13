@@ -1,27 +1,19 @@
 items:
 - name: Översikt
   href: index.md
-- name: Navigera i fönstret Kalender
-  href: screen/navigate-in-diary.md
 - name: Dialogrutan för händelser
   href: screen/dialog-for-followups.md
+- name: Bokning, samtal, uppgift
+  href: follow-ups.md
 - name: Kalendervyer
-  topicHref: screen/day.md
+  topicHref: screen/index.md
   items:
-  - name: Dag
-    href: screen/day.md
-  - name: Månad
-    href: screen/month.md
-  - name: Vecka
-    href: screen/week.md
-  - name: Visa
-    href: screen/view.md
-  - name: Dialogrutan gruppöversikt
-    href: screen/view-dialog.md
-  - name: Visa dina eller andras kalendrar
-    href: open.md
-  - name: Skapa gruppöversikt
-    href: create-view.md
+  - name: Dag, vecka, månad
+    href: screen/index.md
+  - name: Gruppöversikt
+    href: group-view.md
+  - name: Visa andras kalendrar
+    href: other-diaries.md
 - name: Detaljkort
   topicHref: screen/activities-tab.md
   items:
@@ -30,43 +22,14 @@ items:
   - name: Försäljning
     href: screen/sales-tab.md
 - name: Arbeta med händelser
-  topicHref: appointment.md
+  topicHref: create-follow-up.md
   items:
-  - name: Bokning
-    topicHref: appointment.md
-    items:
-    - name: Översikt
-      href: appointment.md
-    - name: Skapa bokning
-      href: create-appointment.md
-  - name: Samtal
-    topicHref: phone-call/index.md
-    items:
-    - name: Översikt
-      href: phone-call/index.md
-    - name: Registrera samtal
-      href: phone-call/add.md
-    - name: Ringa till kontakter
-      href: phone-call/dial.md
-    - name: Telefoninställningar
-      href: phone-call/preferences.md
   - name: Videomöten
     href: video-meetings.md
-  - name: Uppgifter
-    topicHref: task.md
-    items:
-    - name: Översikt
-      href: task.md
-    - name: Skapa uppgift
-      href: create-task.md
   - name: "Lägga till en händelse (möte, uppgift eller telefonsamtal)"
     href: create-follow-up.md
-  - name: Redigera händelse
+  - name: Redigera eller ta bort händelse
     href: edit-follow-up.md
-  - name: Kopiera händelse
-    href: copy-follow-up.md
-  - name: Ändra sluttid
-    href: change-end-time.md
   - name: Flytta händelse
     href: move-follow-up.md
   - name: Slutföra händelse
@@ -77,10 +40,10 @@ items:
     href: follow-up-assign.md
   - name: Ställa in larm för händelser
     href: set-alarm.md
+  - name: Länka dokument till händelser
+    href: linking-documents-to-follow-ups.md
   - name: Skicka en händelse som ett e-postmeddelande
     href: send-as-email.md
-  - name: Ta bort händelse
-    href: delete-follow-up.md
   - name: Fönstret Skriva ut händelser och kalender
     href: print.md
 
