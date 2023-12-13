@@ -16,7 +16,7 @@ language: sv
 SuperOffice Quote hjälper dig att skapa, validera och hantera offerter och order under hela orderns livscykel. Det hjälper dig att få ut nya eller uppdaterade offerter till dina kunder snabbare och påskynda övergången från lead till en avslutad affär.
 
 > [!NOTE]
-> Denna funktion kräver en användarplan för Sales Premium och licens för Integration Services.
+> Denna funktion kräver en användarplan för Sales Premium och licens för Developer Tools.
 
 Hjälp dina kollegor att skicka sina offerter snabbare och undvik onödiga fel genom att använda ett automatiserat offertsystem. Spara tid genom att konvertera ditt förslag till en orderbekräftelse med bara en knapptryckning.
 
