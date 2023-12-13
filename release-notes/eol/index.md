@@ -3,7 +3,7 @@ title: End-of-life notifications
 uid: eol
 description: This section provides crucial notifications and information about products reaching their end-of-life stage. Stay informed about the status of services, features, and products as they transition or are phased out.
 author: Bergfrid Dias
-so.date: 11.13.2023
+so.date: 12.13.2023
 so.lang: en
 keywords: end-of-life, EOL, phased out, discontinued, deprecated, legacy
 so.topic: reference
@@ -38,7 +38,8 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 
 | Product/Feature | EOL status | Timeline or date for discontinuation | Relevant details |
 |---|---|---|---|
-| Pagebuilder extensibility | Deprecated | Not supported on SuperOffice 10.x and newer | [WebCustomizations breaking changes][5] |
+| Pagebuilder extensibility | Deprecated | Not supported on SuperOffice 10.x and newer. | [WebCustomizations breaking changes][5] |
+| SOAP interface of SuperOffice Service | Deprecated | Not supported in SuperOffice Online version 10.x and newer. | Switch to [SuperOffice.WebApi][23] (REST). |
 
 ## Resources and support
 
