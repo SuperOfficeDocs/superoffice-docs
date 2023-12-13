@@ -3,7 +3,7 @@ uid: help-nl-quote-admin
 title: Offerte synchroniseren
 description: "SuperOffice Quote helpt u bij het maken, valideren en beheren van offertes en orders gedurende de gehele levenscyclus van de order."
 author: SuperOffice RnD
-so.date: 02.23.2023
+so.date: 12.13.2023
 keywords: offerte, synchroniseren, verkoop
 so.topic: concept
 so.audience: settings
@@ -16,7 +16,7 @@ language: nl
 SuperOffice Quote helpt u bij het maken, valideren en beheren van offertes en orders gedurende de gehele levenscyclus van de order. Het helpt u om nieuwe of bijgewerkte offertes sneller bij uw klanten te krijgen en de overgang van een lead naar een gesloten deal te versnellen.
 
 > [!NOTE]
-> Offertebeheer is een functie die u onderdeel is van de Sales premium-licentie.
+> Deze functie vereist een Sales Premium-gebruikersplan en de licentie voor Integration Services.
 
 Help uw collega's hun voorstellen sneller te verzenden en onnodige fouten te voorkomen door gebruik te maken van een geautomatiseerd offertesysteem. Bespaar tijd door uw offerte met één klik op de knop om te zetten in een orderbevestiging.
 

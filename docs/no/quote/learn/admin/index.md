@@ -3,7 +3,7 @@ uid: help-no-quote-admin
 title: Tilbud/Sync
 description: "SuperOffice Quote hjelper deg med å opprette, validere og administrere tilbud og ordrer gjennom hele livssyklusen til en ordre."
 author: SuperOffice RnD
-so.date: 02.23.2023
+so.date: 12.13.2023
 keywords: tilbud, Sync, salg
 so.topic: concept
 so.audience: settings
@@ -16,7 +16,7 @@ language: no
 SuperOffice Quote hjelper deg med å opprette, validere og administrere tilbud og ordrer gjennom hele livssyklusen til en ordre. Det hjelper deg med å få nye eller oppdaterte tilbud til kundene dine raskere og fremskynder overgangen fra en potensiell kunde til et vunnet salg.
 
 > [!NOTE]
-> Quote Management er en funksjon du får med Sales premium-lisensen.
+> Denne funksjonen krever en brukerplan for Sales Premium og lisens for Integration Services.
 
 Hjelp kollegene dine med å sende tilbudene sine raskere og unngå unødvendige feil ved å bruke et automatisert tilbudssystem. Spar tid ved å konvertere tilbudet til en ordrebekreftelse med bare ett klikk på en knapp.
 
