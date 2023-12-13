@@ -3,7 +3,7 @@ uid: help-nl-find-screen
 title: Scherm zoeken
 description: Scherm zoeken
 author: SuperOffice RnD
-so.date: 05.25.2023
+so.date: 12.13.2023
 keywords: zoeken, zoeken
 so.topic: howto
 language: nl
@@ -16,7 +16,7 @@ Gebruik het scherm **Zoeken** voor het zoeken in SuperOffice CRM naar records en
 Er zijn feitelijk geen beperkingen op waar u naar kunt zoeken in SuperOffice CRM. Aan het einde van deze sectie hebben we voorbeelden opgenomen om u tips te geven over het zoeken.
 
 > [!NOTE]
-> Als u een licentie hebt voor SuperOffice Integration Server, kunt u naar producten zoeken in bestaande offerten. Als u een licentie hebt voor SuperOffice Service, kunt u naar verzoeken zoeken.
+> Als u een licentie hebt voor Developer Tools, kunt u naar producten zoeken in bestaande offerten. Als u een licentie hebt voor SuperOffice Service, kunt u naar verzoeken zoeken.
 
 ## Stappen
 

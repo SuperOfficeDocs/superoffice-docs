@@ -3,7 +3,7 @@ uid: help-da-erp-tab
 title: Fanen ERP
 description: Fanen ERP
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 12.13.2023
 keywords: ERP
 so.topic: reference
 language: da
@@ -11,7 +11,7 @@ language: da
 
 # Fanen ERP
 
-Hvis din organisation har licens til SuperOffice Integration Server, vises fanen **ERP** i skærmbillederne Person og Projekt.
+Hvis din organisation har licens til [Developer Tools][1], vises fanen **ERP** i skærmbillederne Person og Projekt.
 
 ## Skærmbilledet Person
 
@@ -24,5 +24,6 @@ Her kan du oprette forbindelse mellem SuperOffice-projekter og projekter i ERP-s
 Hvis der allerede er oprettet en forbindelse, kan du klikke på **Synkroniser nu** for at synkronisere dataene mellem SuperOffice CRM og ERP-systemet.
 
 <!-- Referenced links -->
+[1]: ../../../../../en/admin/license/expander-services/tool-box.md
 
 <!-- Referenced images -->

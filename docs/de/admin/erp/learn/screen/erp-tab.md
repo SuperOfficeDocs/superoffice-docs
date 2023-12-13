@@ -3,7 +3,7 @@ uid: help-de-erp-tab
 title: Registerkarte ERP
 description: Registerkarte ERP
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 12.13.2023
 keywords: ERP
 so.topic: reference
 language: de
@@ -11,7 +11,7 @@ language: de
 
 # Die Registerkarte ERP
 
-Wenn Ihre Firma über eine Lizenz für SuperOffice Integration Server verfügt, wird die Registerkarte ERP in der Ansicht Person und Projekt angezeigt.
+Wenn Ihre Firma über eine Lizenz für [Developer Tools][1] verfügt, wird die Registerkarte ERP in der Ansicht Person und Projekt angezeigt.
 
 ## Personenansicht
 
@@ -24,5 +24,6 @@ Hier können Sie eine Verbindung zwischen Projekten in SuperOffice und Projekten
 Wenn bereits eine Verbindung besteht, können Sie auf **Jetzt Sync.** klicken, um die Daten zwischen SuperOffice CRM und dem ERP-System zu synchronisieren.
 
 <!-- Referenced links -->
+[1]: ../../../../../en/admin/license/expander-services/tool-box.md
 
 <!-- Referenced images -->

@@ -3,7 +3,7 @@ uid: help-de-find-screen
 title: Ansicht Suchen
 description: Ansicht Suchen
 author: SuperOffice RnD
-so.date: 05.25.2023
+so.date: 12.13.2023
 keywords: Suchen, Suchen
 so.topic: howto
 language: de
@@ -16,7 +16,7 @@ Verwenden Sie die Ansicht **Suchen**, um in SuperOffice CRM nach Datensätzen un
 Es gibt keine Einschränkungen dafür, was Sie in SuperOffice CRM suchen. Am Ende dieses Bereichs haben wir Beispiele eingefügt, um Ihnen Tipps für die Suche zu geben.
 
 > [!NOTE]
-> Wenn Sie über eine Lizenz für den SuperOffice Integration Server verfügen, können Sie in vorhandenen Angeboten nach Produkten suchen. Wenn Sie über eine Lizenz für SuperOffice Service verfügen, können Sie nach Anfragen suchen.
+> Wenn Sie über eine Lizenz für den Developer Tools verfügen, können Sie in vorhandenen Angeboten nach Produkten suchen. Wenn Sie über eine Lizenz für SuperOffice Service verfügen, können Sie nach Anfragen suchen.
 
 ## Schritte
 

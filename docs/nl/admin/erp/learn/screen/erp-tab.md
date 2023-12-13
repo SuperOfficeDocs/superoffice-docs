@@ -3,7 +3,7 @@ uid: help-nl-erp-tab
 title: Tabblad ERP
 description: Tabblad ERP
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 12.13.2023
 keywords: ERP
 so.topic: reference
 language: nl
@@ -11,7 +11,7 @@ language: nl
 
 # Het tabblad ERP
 
-Wanneer uw organisatie een licentie heeft voor SuperOffice Integration Server, wordt het tabblad **ERP** op de schermen Persoon en Project weergegeven.
+Wanneer uw organisatie een licentie heeft voor [Developer Tools][1], wordt het tabblad **ERP** op de schermen Persoon en Project weergegeven.
 
 ## Scherm Persoon
 
@@ -24,5 +24,6 @@ Hier kunt een verbinding maken tussen projecten in SuperOffice en projecten in h
 Als er al een verbinding is gemaakt, kunt u klikken op **Nu synchroniseren** om de gegevens tussen SuperOffice CRM en het ERP-systeem te synchroniseren.
 
 <!-- Referenced links -->
+[1]: ../../../../../en/admin/license/expander-services/tool-box.md
 
 <!-- Referenced images -->
