@@ -290,6 +290,7 @@ services.AddLogging(a =>
 * [Version 10.2.8][136]
 * [Version 10.2.9][209]
 * [Version 10.2.10][224]
+* [Version 10.2.11][225]
 
 <!-- Referenced links-->
 [1]: 10.2.1-update.md
@@ -536,3 +537,4 @@ services.AddLogging(a =>
 [223]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowStepOptionFromType.md
 
 [224]: 10.2.10-update.md
+[225]: 10.2.11-update.md
