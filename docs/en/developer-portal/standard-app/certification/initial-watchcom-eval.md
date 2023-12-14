@@ -2,8 +2,8 @@
 title: Watchcom initial security evaluation
 uid: watchcom-app-evaluation
 description: About Watchcom initial security evaluation
-author: Margrethe Romnes
-so.date: 11.01.2023
+author: Margrethe Romnes, Watchcom
+so.date: 12.14.2023
 keywords: Watchcom, security, certification
 so.topic: concept
 so.envir: cloud
@@ -12,14 +12,14 @@ so.client: online
 
 # About Watchcom initial security evaluation
 
-Our security policy requires that applications pass a security evaluation before being accepted into the software sphere of SuperOffice. This security evaluation is performed by [Watchcom Security Group][1], a specialist on internet security.
+SuperOffice's security policy requires that applications (and partners) pass a security evaluation before being accepted into the software sphere of SuperOffice. This security evaluation is performed by [Watchcom Security Group][1], a specialist on internet security.
 
 Watchcom works for SuperOffice AS to evaluate the security of your company as a **prerequisite to getting your standard application accepted**.
 
 The security evaluation is designed to make sure that you as a partner have given thought to the cybersecurity of your company and the information security of your application.
 
 > [!NOTE]
-> We are aware that some partners may already have done a security audit by another vendor. However, for our App Store, we require that your application goes through our particular audit because Watchcom knows SuperOffice and our environment.
+> We are aware that some partners may already have done a security audit by another vendor. However, for the SuperOffice App Store, we require that your application goes through our particular audit because Watchcom knows SuperOffice and our environment.
 
 ## What exactly is this mandatory evaluation?
 
@@ -33,44 +33,49 @@ The self-assessment and the audit report are **confidential** between the partne
 
 ## How is the testing done?
 
-### Scan ports of exposed infrastructure
+### Self-assessment review
 
-Depending on the internet presence of your company, we will scan the whole of your external infrastructure to make sure that computers in the network don’t expose services that can be easily exploited.
+SuperOffice will present you with a questionnaire that must be filled out. This questionnaire allows you to do a self-assessment of the company's view on cyber security and will reflect how the company thinks about cyber security, and how routines, processes, and policies are enforced.
 
-The focus will be on computers hosting the partner application.
+The questions cover the whole specter of the organization’s information security, and it may therefore be necessary to get information from multiple resources within the organization to answer precisely.
 
-### Scan exposed infrastructure for vulnerabilities
-
-Exposed services found in the previous phase will be scanned for known vulnerabilities. Watchcom employs a range of vulnerability scanners to keep up with industry standards.
-
-### Scan web applications and web APIs for vulnerability
-
-Any web applications or web APIs that will communicate with SuperOffice’s servers will be scanned.
+Watchcom will review the self-assessment and inform SuperOffice of potential red flags.
 
 ### Manual audit
 
-Watchcom’s expert penetration testers will make a limited manual audit of the application.
+Watchcom’s expert penetration testers will make a limited manual audit of the application. The overall goal is to identify potential weaknesses and vulnerabilities in how the third-party application is integrated toward SuperOffice, and how the integration could affect SuperOffice and the data belonging to SuperOffice.
 
-### Audit information security
+Depending on the integration toward SuperOffice, the testing will include (but is not limited to)testing of weaknesses and vulnerabilities related to network communication, API endpoints, and web applications.
 
-Design, architecture, infrastructure, and data storage will be audited to make sure that customer data, and data belonging to SuperOffice, is properly protected.
+The testing performed by Watchcom involves both manual and automated testing. **This may impact the service that is in scope, and could cause unwanted down-time.**
+
+### Audit report
+
+When the test is completed, you will receive a full security report from Watchcom.
+
+The report will include an executive summary, and detailed information about each finding. All findings will be mapped to OWASP Top 10 with a dedicated risk-score. Each finding will also have relevant information for how to replicate and mitigate the finding.
+
+Any finding classified as **medium risk, or above**, will result in the application not being approved. To get approved, a re-test of the application will be necessary.
+
+The report can also serve as proof of a conducted security evaluation for other third parties.
 
 ## Does it cost anything?
 
-You will be invoiced and pay Wathcom directly for the services delivered in connection with the security audit.
+You will be invoiced and pay Watchcom directly for the services delivered in connection with the security audit.
 
 Security audits come in 3 different packages: small, medium (for most apps), and large.
 
 <!-- markdownlint-disable MD033 -->
 <table class="table-striped" style="width: 100%;" border="1">
   <caption>Watchcom price models</caption>
-  <colgroup> <col style="width: 25%;" span="1" /> <col style="width: 25%;" span="1" /> <col style="width: 25%;" span="1" /><col style="width: 25%;" span="1" /></colgroup>
+  <colgroup> <col style="width: 20%;" span="1" /> <col style="width: 20%;" span="1" /> <col style="width: 20%;" span="1" /><col style="width: 20%;" span="1" /><col style="width: 20%;" span="1" /></colgroup>
   <thead>
     <tr>
     <th>&nbsp;</th>
     <th scope="col">Small</th>
     <th scope="col">Medium</th>
     <th scope="col">Large</th>
+    <th scope="col">Extended</th>
     </tr>
   </thead>
   <tbody>
@@ -90,8 +95,14 @@ Security audits come in 3 different packages: small, medium (for most apps), and
     <td>
     <ul>
     <li>The app has both read and write access to a customer's database</li>
-    <li>Users see their own login screen and not just SuperOffice federated authentication</li>
+    <li>Users sign in with the application's login screen and not just SuperOffice federated authentication</li>
     <li>The app has database mirroring</li>
+    </ul>
+    </td>
+    <td>
+    <ul>
+    <li>A standalone web application where users see their own login screen and not just SuperOffice federated authentication</li>
+    <li>A standalone web application where SuperOffice is integrated into the application</li>
     </ul>
     </td>
     </tr>
@@ -100,12 +111,14 @@ Security audits come in 3 different packages: small, medium (for most apps), and
     <td>7 work hours</td>
     <td>11 work hours</td>
     <td>18 work hours</td>
+    <td>Per agreement</td>
     </tr>
     <tr>
     <th scope="row">Price</th>
-    <td>12.500 NOK + VAT <br>(approx &euro; 1000)</td>
-    <td>17.500 NOK + VAT <br>(approx &euro; 1500)</td>
+    <td>12.500 NOK + VAT <br>(approx &euro; 1060)</td>
+    <td>17.500 NOK + VAT <br>(approx &euro; 1480)</td>
     <td>29.500 NOK + VAT <br>(approx &euro; 2500)</td>
+    <td>Per agreement </td>
     </tr>
   </tbody>
 </table>
@@ -139,7 +152,10 @@ We may send you multiple sets of keys at the same time. You will **not** be abl
 
 6. Our Watchcom contact will get in touch with your certification contact to schedule a date and time for testing.
 
-7. After the test, you get the full report from Watchcom while we only receive a pass/fail notification. **It is your responsibility to fix any red flags!**
+7. After the test, you get the full report from Watchcom while SuperOffice only receive a pass/fail notification.
+
+    > [!NOTE]
+    > **It is your responsibility to fix any red flags!** Contact SuperOffice to schedule a re-test. We will verify that the integration and environment is ready for Watchcom to perform the re-test.
 
 8. When approved, we activate the application's keys to the production environment.
 
