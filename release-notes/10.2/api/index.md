@@ -100,14 +100,19 @@ so.topic: reference
 |IAIAgent          | SummarizeTicket                        |10.2.9   | [REST Link][195]| [SOAP Link][207] |
 |IAppointmentAgent | CleanUpBookingDeletedWithUpdateMode    |10.2.3   | [REST Link][44] | [SOAP Link][45] |
 |IAppointmentAgent | CreateAppointmentEntityFromExisting    |10.2.8   | [REST Link][137]| [SOAP Link][138]|
+|IAppointmentAgent | GetAppointmentEmailInvitation          |10.2.11  | [REST Link][228]| [SOAP Link][227]|
+|IAppointmentAgent | GetAssociatesDiaryInfo                 |10.2.11  | [REST Link][230]| [SOAP Link][229]|
 |IAppointmentAgent | GetNextAvailableTime                   |10.2.10  | [REST Link][213]| [SOAP Link][212]|
+|IAppointmentAgent | SaveWithCustomInvitation               |10.2.11  | [REST Link][232]| [SOAP Link][231]|
 |IAppointmentAgent | SetSeenMany                            |10.2.2   | [REST Link][60] | [SOAP Link][61] |
 |IArchiveAgent     | GetRelatedData                         |10.2.1   | [REST Link][8]  | [SOAP Link][26] |
 |IArchiveAgent     | GetRelatedData2                        |10.2.1   | [REST Link][9]  | [SOAP Link][27] |
 |IAssociateAgent   | GetEncryptionKey                       |10.2.6   | [REST Link][123]| [SOAP Link][124]|
+|IConfigurationAgent | GetAllFeatureToggles                 |10.2.11  | [REST Link][234]| [SOAP Link][233]|
 |IContactAgent     | GetDomainDuplicates                    |10.2.10  | [REST Link][214]| [SOAP Link][215]|
 |ICRMScriptAgent   | ExecuteScriptByString                  |10.2.8   | [REST Link][139]| [SOAP Link][143]|
 |ICRMScriptAgent   | ValidateScriptByString                 |10.2.8   | [REST Link][144]| [SOAP Link][145]|
+|IDiagnosticsAgent | GetEntityCountsForAllUsers             |10.2.11  | [REST Link][236]| [SOAP Link][235]|
 |IDiagnosticsAgent | GetEntityCountsForCurrentUser          |10.2.4   | [REST Link][76] | [SOAP Link][98] |
 |IDocumentAgent    | CopyDocumentToCsAttachment             |10.2.8   | [REST Link][146]| [SOAP Link][147]|
 |IEMailAgent       | HasSPFRecord                           |10.2.1   | [REST Link][10] | [SOAP Link][28] |
@@ -543,3 +548,14 @@ services.AddLogging(a =>
 [225]: 10.2.11-update.md
 
 [226]: ../../../docs/en/api/mdo-providers/reference/invitationtemplatelanguage.md
+
+[227]: ../../../docs/en/api/reference/soap/Services88/Appointment/getappointmentemailinvitation.md
+[228]: ../../../docs/en/api/reference/restful/agent/Appointment_Agent/v1AppointmentAgent_GetAppointmentEmailInvitation.md
+[229]: ../../../docs/en/api/reference/soap/Services88/Appointment/getassociatesdiaryinfo.md
+[230]: ../../../docs/en/api/reference/restful/agent/Appointment_Agent/v1AppointmentAgent_GetAssociatesDiaryInfo.md
+[231]: ../../../docs/en/api/reference/soap/Services88/Appointment/savewithcustominvitation.md
+[232]: ../../../docs/en/api/reference/restful/agent/Appointment_Agent/v1AppointmentAgent_SaveWithCustomInvitation.md
+[233]: ../../../docs/en/api/reference/soap/Services88/Configuration/GetAllFeatureToggles.md
+[234]: ../../../docs/en/api/reference/restful/agent/Configuration_Agent/v1ConfigurationAgent_GetAllFeatureToggles.md
+[235]: ../../../docs/en/api/reference/soap/Services88/Diagnostics/GetEntityCountsForAllUsers.md
+[236]: ../../../docs/en/api/reference/restful/agent/Diagnostics_Agent/v1DiagnosticsAgent_GetEntityCountsForAllUsers.md
