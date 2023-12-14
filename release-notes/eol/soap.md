@@ -1,9 +1,9 @@
 ---
 title: End of life - Future of SuperOffice.NetServer.Services package and SOAP web services
-uid: eol-pagebuilder
+uid: eol-soap
 description: An important update regarding our SOAP support (SuperOffice.NetServer.Services package and SOAP web services)
 author: Tony Yates
-so.date: 09.01.2023
+so.date: 12.13.2023
 keywords: SuperOffice.NetServer.Services, SOAP, EOL
 so.topic: reference
 so.version:
@@ -24,6 +24,10 @@ Our SOAP offering comprises two key components: the [SOAP proxy client][3] and t
 Our [SuperOffice.NetServer.Services package][6], which includes the SOAP proxy client for communication with SuperOffice WCF-based SOAP web services, has played a vital role in our journey thus far.
 
 However, we have observed a significant decline in its usage since the introduction of the [RESTful-based proxy client][5], SuperOffice.WebApi. These two clients offer nearly identical functionality, with SuperOffice.WebApi adopting a RESTful protocol approach. While there are some nuanced differences, detailed information is available in our [SuperOffice Docs][2].
+
+## SOAP interface of SuperOffice Service
+
+The **Service** SOAP API with the [Customer][7], [Ticket][9], and [Admin][8] ports is not supported in SuperOffice Online 10.x and newer. In onsite installations, at least for version 10, Service SOAP services are controlled by a license. We encourage you to switch to [SuperOffice.WebApi][5] (REST).
 
 ## Migration status
 
@@ -50,3 +54,6 @@ You can read and comment on the [original post][1] in the SuperOffice technical 
 [4]: ../../docs/en/api/web-services/endpoints/soap/index.md
 [5]: ../../docs/en/api/web-services/endpoints/rest-webapi/index.md
 [6]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
+[7]: ../../docs/en/service/soap/ports/customer/index.md
+[8]: ../../docs/en/service/soap/ports/admin/index.md
+[9]: ../../docs/en/service/soap/ports/ticket/index.md
