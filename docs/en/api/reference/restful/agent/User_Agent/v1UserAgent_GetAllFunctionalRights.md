@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Morar Group",
-    "ToolTip": "Dolores nobis et qui.",
+    "Id": 894,
+    "Name": "Corkery, Blick and Farrell",
+    "ToolTip": "Expedita quia vitae iste.",
     "Deleted": false,
-    "Rank": 79,
-    "Type": "amet",
-    "ColorBlock": 534,
-    "IconHint": "dignissimos",
-    "Selected": true,
-    "LastChanged": "2019-02-22T13:38:14.3584195+01:00",
+    "Rank": 48,
+    "Type": "ea",
+    "ColorBlock": 6,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2004-09-17T13:57:13.5364634+02:00",
     "ChildItems": [
       {
-        "Id": 275,
-        "Name": "Heaney, Yost and Ziemann",
-        "ToolTip": "Nostrum distinctio neque architecto earum numquam beatae.",
+        "Id": 412,
+        "Name": "Boehm-Watsica",
+        "ToolTip": "Ut qui qui voluptas eos.",
         "Deleted": false,
-        "Rank": 630,
-        "Type": "optio",
-        "ColorBlock": 448,
-        "IconHint": "et",
+        "Rank": 365,
+        "Type": "amet",
+        "ColorBlock": 161,
+        "IconHint": "tenetur",
         "Selected": true,
-        "LastChanged": "2002-04-23T13:38:14.3584195+02:00",
+        "LastChanged": "2022-08-01T13:57:13.5364634+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "sed",
+        "ExtraInfo": "eos",
+        "StyleHint": "dicta",
         "Hidden": true,
-        "FullName": "Prof. Nichole Madie Lemke",
+        "FullName": "Prof. Dawn Skiles DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 862
+            "FieldType": "System.String",
+            "FieldLength": 554
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "quis",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Prof. Kaleb Ayla Ankunding I",
+    "FullName": "Reba Graham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldLength": 828
       }
     }
   }

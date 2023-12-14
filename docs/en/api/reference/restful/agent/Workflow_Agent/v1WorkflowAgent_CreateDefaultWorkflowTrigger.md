@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 143,
-  "WorkflowId": 868,
+  "WorkflowTriggerId": 26,
+  "WorkflowId": 984,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Davis LLC",
-      "Description": "Open-source 24 hour orchestration",
-      "Rank": 885,
+      "Name": "Klein, Senger and Murray",
+      "Description": "Re-engineered bandwidth-monitored middleware",
+      "Rank": 357,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Davis LLC",
-      "Description": "Open-source 24 hour orchestration",
-      "Rank": 885,
+      "Name": "Klein, Senger and Murray",
+      "Description": "Re-engineered bandwidth-monitored middleware",
+      "Rank": 357,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldType": "System.String",
+      "FieldLength": 654
     }
   }
 }

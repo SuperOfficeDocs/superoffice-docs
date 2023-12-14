@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "dolor",
-  "SignOffText": "aut",
-  "SignOnConfirmationText": "sunt",
-  "SignOnText": "quia",
-  "EventDate": "1997-04-23T13:38:13.8741019+02:00",
+  "SignOffConfirmationText": "iste",
+  "SignOffText": "magnam",
+  "SignOnConfirmationText": "officia",
+  "SignOnText": "consectetur",
+  "EventDate": "2011-06-05T13:57:12.8750117+02:00",
   "Enabled": false,
-  "CreatedDate": "2000-04-12T13:38:13.8741019+02:00",
-  "SignOff": true,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 446,
-  "SignOffTriggersAssign": false,
+  "CreatedDate": "2020-04-15T13:57:12.8750117+02:00",
+  "SignOff": false,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 176,
+  "SignOffTriggersAssign": true,
   "SignOn": false,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 8,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2015-05-21T13:38:13.8741019+02:00",
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 859,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "2012-02-03T13:57:12.8750117+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 186,
-  "Id": 383,
-  "PublishFrom": "2009-02-20T13:38:13.8741019+01:00",
+  "ProjectId": 178,
+  "Id": 995,
+  "PublishFrom": "2005-10-25T13:57:12.8906374+02:00",
   "PublishType": "External",
-  "PublishTo": "2018-06-13T13:38:13.8741019+02:00",
+  "PublishTo": "2003-02-02T13:57:12.8906374+01:00",
   "VisibleForCategories": [
     {
-      "Id": 225,
-      "Name": "O'Reilly-Feeney",
-      "ToolTip": "Et vitae dignissimos voluptatum iure quos sunt et.",
-      "Deleted": false,
-      "Rank": 278,
-      "Type": "voluptates",
+      "Id": 202,
+      "Name": "Wilderman, Batz and O'Conner",
+      "ToolTip": "Ipsa atque quasi voluptatem voluptatem ullam aut.",
+      "Deleted": true,
+      "Rank": 850,
+      "Type": "veniam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatum",
-      "ColorBlock": 107,
-      "ExtraInfo": "in",
-      "StyleHint": "quaerat",
-      "FullName": "Jessie Lebsack",
+      "IconHint": "voluptatem",
+      "ColorBlock": 827,
+      "ExtraInfo": "quo",
+      "StyleHint": "nesciunt",
+      "FullName": "Reymundo Beier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldLength": 339
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 885,
-      "Name": "Heathcote-Schimmel",
-      "ToolTip": "Est autem.",
-      "Deleted": true,
-      "Rank": 736,
-      "Type": "corporis",
+      "Id": 512,
+      "Name": "Terry-Skiles",
+      "ToolTip": "Et dolorem consequatur distinctio dolor accusantium eum magni.",
+      "Deleted": false,
+      "Rank": 258,
+      "Type": "hic",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 227,
-      "ExtraInfo": "quidem",
-      "StyleHint": "sequi",
-      "FullName": "Frida Schuppe",
+      "IconHint": "assumenda",
+      "ColorBlock": 770,
+      "ExtraInfo": "ipsam",
+      "StyleHint": "autem",
+      "FullName": "Prof. Stone Hegmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 102
+          "FieldType": "System.String",
+          "FieldLength": 24
         }
       }
     }
   ],
   "IsPublished": false,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 359,
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 498,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldLength": 237
     }
   }
 }

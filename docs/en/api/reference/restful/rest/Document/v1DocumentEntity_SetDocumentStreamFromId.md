@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 508,
+  "DocumentId": 491,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quia",
-  "Header": "magni",
-  "Name": "Parisian-Baumbach",
-  "OurRef": "repudiandae",
-  "YourRef": "vitae",
-  "CreatedDate": "2012-12-16T13:38:17.4212037+01:00",
-  "UpdatedDate": "2010-09-30T13:38:17.4212037+02:00",
-  "Description": "Upgradable methodical firmware",
+  "Attention": "eos",
+  "Header": "deserunt",
+  "Name": "Ward-Gottlieb",
+  "OurRef": "magnam",
+  "YourRef": "voluptate",
+  "CreatedDate": "2000-11-22T13:57:18.7641007+01:00",
+  "UpdatedDate": "2016-06-13T13:57:18.7641007+02:00",
+  "Description": "Mandatory tertiary emulation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-08-21T13:38:17.4212037+02:00",
-  "ExternalRef": "id",
+  "Date": "2003-06-30T13:57:18.7641007+02:00",
+  "ExternalRef": "voluptatem",
   "Completed": "Completed",
-  "ActiveLinks": 601,
+  "ActiveLinks": 572,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Raynor-Romaguera",
-      "Id": 887,
-      "Description": "Enterprise-wide 4th generation structure",
-      "ExtraInfo": "veniam",
-      "LinkId": 287,
+      "EntityName": "Swaniawski Group",
+      "Id": 746,
+      "Description": "Assimilated uniform capacity",
+      "ExtraInfo": "quia",
+      "LinkId": 379,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 98
+          "FieldLength": 817
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 777,
-  "Snum": 78,
+  "SuggestedDocumentId": 456,
+  "Snum": 225,
   "UserDefinedFields": {
-    "SuperOffice:1": "844061269",
-    "SuperOffice:2": "Gregg Torp Jr."
+    "SuperOffice:1": "Miss Renee Margret Gutmann",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "enim",
+    "ExtraFields1": "ut",
     "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "nobis"
+    "CustomFields1": "sunt",
+    "CustomFields2": "ratione"
   },
-  "PublishEventDate": "2007-11-27T13:38:17.4212037+01:00",
-  "PublishTo": "2005-12-15T13:38:17.4212037+01:00",
-  "PublishFrom": "2010-05-26T13:38:17.4212037+02:00",
+  "PublishEventDate": "2017-02-20T13:57:18.7641007+01:00",
+  "PublishTo": "2005-05-25T13:57:18.7641007+02:00",
+  "PublishFrom": "2004-11-30T13:57:18.7641007+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 251,
+      "VisibleId": 582,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 238
+          "FieldLength": 409
         }
       }
     },
     {
-      "VisibleId": 251,
+      "VisibleId": 582,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 238
+          "FieldLength": 409
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldType": "System.Int32",
+      "FieldLength": 108
     }
   }
 }

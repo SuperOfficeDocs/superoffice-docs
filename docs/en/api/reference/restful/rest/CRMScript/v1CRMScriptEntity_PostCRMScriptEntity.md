@@ -99,21 +99,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 136,
-  "UniqueIdentifier": "et",
-  "Name": "Herzog, Johnston and Hills",
-  "Description": "Ameliorated modular moderator",
-  "IncludeId": "voluptatem",
-  "HierarchyId": 232,
-  "Source": "dolorem",
-  "Registered": "1997-04-20T13:38:17.280593+02:00",
-  "RegisteredAssociateId": 53,
-  "Updated": "2005-10-13T13:38:17.280593+02:00",
-  "UpdatedAssociateId": 171
+  "EjscriptId": 651,
+  "UniqueIdentifier": "iusto",
+  "Name": "Tromp-Turcotte",
+  "Description": "Re-engineered assymetric portal",
+  "IncludeId": "explicabo",
+  "HierarchyId": 181,
+  "Source": "ea",
+  "Registered": "2006-08-02T13:57:18.6846845+02:00",
+  "RegisteredAssociateId": 595,
+  "Updated": "2022-10-10T13:57:18.6846845+02:00",
+  "UpdatedAssociateId": 549
 }
 ```
 
@@ -124,28 +124,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 305,
-  "UniqueIdentifier": "id",
-  "Name": "Mraz-Pollich",
-  "Description": "User-friendly real-time synergy",
-  "IncludeId": "ea",
-  "HierarchyId": 703,
-  "Source": "natus",
-  "Registered": "2020-09-04T13:38:17.280593+02:00",
-  "RegisteredAssociateId": 432,
-  "Updated": "2017-07-24T13:38:17.280593+02:00",
-  "UpdatedAssociateId": 624,
+  "EjscriptId": 938,
+  "UniqueIdentifier": "voluptatibus",
+  "Name": "Lubowitz, Renner and Heidenreich",
+  "Description": "Decentralized content-based support",
+  "IncludeId": "est",
+  "HierarchyId": 584,
+  "Source": "ea",
+  "Registered": "2021-06-23T13:57:18.6846845+02:00",
+  "RegisteredAssociateId": 25,
+  "Updated": "2009-05-24T13:57:18.6846845+02:00",
+  "UpdatedAssociateId": 960,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldLength": 594
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

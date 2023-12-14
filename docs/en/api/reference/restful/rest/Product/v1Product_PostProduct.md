@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 475,
-  "ERPProductKey": "id",
-  "ERPPriceListKey": "et",
-  "Name": "Bernier Inc and Sons",
-  "Description": "Diverse discrete conglomeration",
-  "Code": "mollitia",
-  "PriceUnit": "aut",
-  "QuantityUnit": "repellendus",
-  "IsSubscription": false,
-  "SubscriptionUnit": "delectus",
-  "DefaultSubscriptionQuantity": 11210.318,
-  "ItemNumber": "910564",
+  "ProductId": 503,
+  "ERPProductKey": "dolorem",
+  "ERPPriceListKey": "sint",
+  "Name": "Mayer, Medhurst and Lesch",
+  "Description": "Adaptive fresh-thinking paradigm",
+  "Code": "ut",
+  "PriceUnit": "quam",
+  "QuantityUnit": "libero",
+  "IsSubscription": true,
+  "SubscriptionUnit": "voluptas",
+  "DefaultSubscriptionQuantity": 14168.814,
+  "ItemNumber": "405439",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "necessitatibus",
-  "ProductTypeKey": "voluptatum",
-  "VAT": 1338.2179999999998,
-  "VATInfo": "quia",
-  "UnitCost": 1037.354,
-  "UnitMinimumPrice": 21539.982,
-  "UnitListPrice": 13143.996,
+  "ProductFamilyKey": "neque",
+  "ProductTypeKey": "beatae",
+  "VAT": 7775.454,
+  "VATInfo": "praesentium",
+  "UnitCost": 7239.54,
+  "UnitMinimumPrice": 16447.232,
+  "UnitListPrice": 31267.917999999998,
   "InAssortment": false,
-  "Supplier": "nostrum",
-  "SupplierCode": "quia",
-  "Rights": "voluptatem",
-  "Rule": "eos",
+  "Supplier": "incidunt",
+  "SupplierCode": "quod",
+  "Rights": "quis",
+  "Rule": "nemo",
   "ExtraInfo": [
     {
-      "Name": "Gerlach, Block and Orn",
-      "Value": "commodi",
+      "Name": "Herzog LLC",
+      "Value": "reprehenderit",
       "Type": "Image"
     },
     {
-      "Name": "Gerlach, Block and Orn",
-      "Value": "commodi",
+      "Name": "Herzog LLC",
+      "Value": "reprehenderit",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "libero",
-  "ExtraField1": "quo",
-  "ExtraField2": "iste",
-  "ExtraField3": "aliquid",
-  "ExtraField4": "consequatur",
-  "ExtraField5": "sit",
-  "InStock": 22097.834
+  "RawExtraInfo": "repudiandae",
+  "ExtraField1": "ut",
+  "ExtraField2": "molestiae",
+  "ExtraField3": "maiores",
+  "ExtraField4": "deleniti",
+  "ExtraField5": "ipsam",
+  "InStock": 10125.954
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 464,
-  "ERPProductKey": "voluptates",
-  "ERPPriceListKey": "occaecati",
-  "Name": "Hudson, Walker and Wolff",
-  "Description": "Synergistic 4th generation conglomeration",
-  "Code": "possimus",
-  "PriceUnit": "corporis",
-  "QuantityUnit": "officiis",
+  "ProductId": 976,
+  "ERPProductKey": "error",
+  "ERPPriceListKey": "laudantium",
+  "Name": "Friesen, Lockman and DuBuque",
+  "Description": "Compatible scalable paradigm",
+  "Code": "magnam",
+  "PriceUnit": "molestiae",
+  "QuantityUnit": "odio",
   "IsSubscription": false,
-  "SubscriptionUnit": "quos",
-  "DefaultSubscriptionQuantity": 3108.928,
-  "ItemNumber": "1626559",
+  "SubscriptionUnit": "sint",
+  "DefaultSubscriptionQuantity": 4870.236,
+  "ItemNumber": "968322",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sint",
-  "ProductTypeKey": "quo",
-  "VAT": 14529.224,
-  "VATInfo": "sed",
-  "UnitCost": 8132.73,
-  "UnitMinimumPrice": 11363.884,
-  "UnitListPrice": 5813.57,
-  "InAssortment": true,
-  "Supplier": "ex",
-  "SupplierCode": "adipisci",
-  "Rights": "laborum",
-  "Rule": "tenetur",
+  "ProductFamilyKey": "asperiores",
+  "ProductTypeKey": "et",
+  "VAT": 15485.094,
+  "VATInfo": "velit",
+  "UnitCost": 20029.394,
+  "UnitMinimumPrice": 31261.649999999998,
+  "UnitListPrice": 5741.4879999999994,
+  "InAssortment": false,
+  "Supplier": "consequatur",
+  "SupplierCode": "nostrum",
+  "Rights": "rerum",
+  "Rule": "maiores",
   "ExtraInfo": [
     {
-      "Name": "Runolfsson-Legros",
-      "Value": "ut",
+      "Name": "Dickens-Braun",
+      "Value": "neque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 394
+          "FieldLength": 763
         }
       }
     },
     {
-      "Name": "Runolfsson-Legros",
-      "Value": "ut",
+      "Name": "Dickens-Braun",
+      "Value": "neque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 394
+          "FieldLength": 763
         }
       }
     }
   ],
-  "RawExtraInfo": "sit",
-  "ExtraField1": "placeat",
-  "ExtraField2": "corrupti",
-  "ExtraField3": "eveniet",
-  "ExtraField4": "occaecati",
-  "ExtraField5": "laborum",
-  "InStock": 9452.144,
+  "RawExtraInfo": "molestiae",
+  "ExtraField1": "quia",
+  "ExtraField2": "rerum",
+  "ExtraField3": "molestias",
+  "ExtraField4": "quia",
+  "ExtraField5": "praesentium",
+  "InStock": 5707.014,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 970
     }
   }
 }

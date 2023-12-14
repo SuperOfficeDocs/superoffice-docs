@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=65
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=500
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,65 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 212,
-  "StartDate": "2022-12-18T13:38:12.9209358+01:00",
-  "EndDate": "2004-08-02T13:38:12.9209358+02:00",
+  "AppointmentId": 573,
+  "StartDate": "1997-02-25T13:57:11.3094384+01:00",
+  "EndDate": "2012-12-04T13:57:11.3094384+01:00",
   "Type": "BookingForChecklist",
-  "Task": "et",
-  "AssociateFullName": "Mrs. Felix Estefania Lindgren",
-  "ContactName": "Mitchell, McDermott and Schuster",
-  "Description": "Proactive incremental projection",
-  "PersonFullName": "Marshall Funk",
-  "PersonId": 291,
-  "ContactId": 201,
-  "ProjectId": 586,
-  "ProjectName": "Leffler LLC",
+  "Task": "incidunt",
+  "AssociateFullName": "Marina Brakus",
+  "ContactName": "Bartell Inc and Sons",
+  "Description": "Future-proofed asynchronous archive",
+  "PersonFullName": "Merle Stamm",
+  "PersonId": 157,
+  "ContactId": 504,
+  "ProjectId": 380,
+  "ProjectName": "Denesik-Sanford",
   "IsPublished": false,
-  "AssociateId": 616,
-  "ColorIndex": 299,
+  "AssociateId": 427,
+  "ColorIndex": 370,
   "IsFree": false,
-  "HasAlarm": true,
+  "HasAlarm": false,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 776,
-  "PriorityName": "Lemke-Jenkins",
+  "PriorityId": 610,
+  "PriorityName": "Larkin, Glover and Franecki",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": true,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "1997-09-28T13:38:12.9209358+02:00",
+  "ActiveDate": "2006-06-03T13:57:11.3094384+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2018-08-27T13:38:12.9209358+02:00",
-  "RecurringEndDate": "2006-07-16T13:38:12.9209358+02:00",
-  "MotherId": 877,
-  "AssignedBy": 130,
-  "AssignedByFullName": "Jaquelin Dora Berge DVM",
+  "RecurringStartDate": "2019-09-28T13:57:11.3094384+02:00",
+  "RecurringEndDate": "2016-01-20T13:57:11.3094384+01:00",
+  "MotherId": 165,
+  "AssignedBy": 544,
+  "AssignedByFullName": "Prof. Mikel Naomi Gottlieb",
   "RejectReason": "",
-  "Location": "iste",
-  "AlarmLeadTime": "molestiae",
-  "SaleId": 108,
-  "SaleName": "Schoen Inc and Sons",
-  "AssociateName": "Carter-Shanahan",
-  "CreatedDate": "2023-07-18T13:38:12.9209358+02:00",
-  "CreatedBy": "soluta",
-  "CreatedByFullName": "Noel Hermiston",
-  "CreatedByAssociateId": 575,
+  "Location": "quod",
+  "AlarmLeadTime": "et",
+  "SaleId": 965,
+  "SaleName": "Grimes, Gottlieb and Homenick",
+  "AssociateName": "Borer-Steuber",
+  "CreatedDate": "2022-01-04T13:57:11.3094384+01:00",
+  "CreatedBy": "voluptatem",
+  "CreatedByFullName": "Cesar Hermann",
+  "CreatedByAssociateId": 875,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 574,
-  "Title": "qui",
-  "Agenda": "facere",
-  "InternalNotes": "cupiditate",
+  "PreferredTZLocation": 168,
+  "Title": "inventore",
+  "Agenda": "accusantium",
+  "InternalNotes": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 155
+      "FieldType": "System.Int32",
+      "FieldLength": 685
     }
   }
 }

@@ -592,8 +592,12 @@ Shadow contact provider for the static sale provider.
 |appointment/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointment/associate/userName|string|User name: User name| x |
 |appointment/associate/personEmail|string|E-mail| x |
-|appointment/appointment/textId|int|Text ID| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/appointment/title|positiveString|Title| x |
+|appointment/appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/appointment/agenda|positiveString|Agenda| x |
+|appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/appointment/isConverted| *None* |!!Is Converted|  |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -637,14 +641,14 @@ Shadow contact provider for the static sale provider.
 |document/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |document/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |document/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|document/associate/personId|int|Contact ID: Database ID of the contact row|  |
-|document/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|document/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|document/associate/associateDbId|associate|ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/personId|int|Contact ID: Database ID of the contact row|  |
+|document/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|document/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|document/associate/associateDbId|associate|ID| x |
 |document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -741,14 +745,14 @@ Shadow contact provider for the static sale provider.
 |project/projectAssociate/personEmail|string|E-mail| x |
 |project/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |project/projectUdef/SuperOffice:2|string|projectlongtext| x |
-|project/projectUdef/SuperOffice:3|int|projectnumber| x |
-|project/projectUdef/SuperOffice:4|date|projectdate| x |
-|project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
-|project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectUdef/SuperOffice:3|int|projectnumber| x |
+|project/projectUdef/SuperOffice:4|date|projectdate| x |
+|project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
+|project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
 |project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 |project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
@@ -845,14 +849,14 @@ Shadow contact provider for the static sale provider.
 |saleStakeholder/person/personInfo/textId|int|Stakeholder - Text ID| x |
 |saleStakeholder/person/personInfo/infoText|positiveString|Stakeholder - Information: Displays the text entered in the description field| x |
 |saleStakeholder/person/email/emailProtocol|string|Stakeholder - Protocol: E-mail protocol, such as SMTP| x |
-|saleStakeholder/person/email/emailAddress|string|Stakeholder - E-mail| x |
-|saleStakeholder/person/email/emailDescription|string|Stakeholder - Description| x |
-|saleStakeholder/person/email/emailId|int|Stakeholder - ID| x |
-|saleStakeholder/person/email/emailLastSent|datetime|Stakeholder - Last sent: The date and time an e-mail was last sent to this address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/email/emailAddress|string|Stakeholder - E-mail| x |
+|saleStakeholder/person/email/emailDescription|string|Stakeholder - Description| x |
+|saleStakeholder/person/email/emailId|int|Stakeholder - ID| x |
+|saleStakeholder/person/email/emailLastSent|datetime|Stakeholder - Last sent: The date and time an e-mail was last sent to this address| x |
 |saleStakeholder/person/email/emailBounceCount|int|Stakeholder - Bounce count: Bounce count for this e-mail address| x |
 |saleStakeholder/person/email/emailLastBounce|datetime|Stakeholder - Last bounce: Date and time for last bounce to this e-mail address| x |
 |saleStakeholder/person/email/emailHasBounced|bool|Stakeholder - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
@@ -949,14 +953,14 @@ Shadow contact provider for the static sale provider.
 |saleStakeholder/person/personAssociate/personEmail|string|Stakeholder - E-mail| x |
 |saleStakeholder/person/correspondingAssociate/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
 |saleStakeholder/person/correspondingAssociate/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
-|saleStakeholder/person/correspondingAssociate/middleName|string|Stakeholder - Middle Name: Displays the contact's middle name.| x |
-|saleStakeholder/person/correspondingAssociate/fullName|string|Stakeholder - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|saleStakeholder/person/correspondingAssociate/contactId|int|Stakeholder - Company ID: Database ID of the company the user belongs to|  |
-|saleStakeholder/person/correspondingAssociate/personId|int|Stakeholder - Contact ID: Database ID of the contact row|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/correspondingAssociate/middleName|string|Stakeholder - Middle Name: Displays the contact's middle name.| x |
+|saleStakeholder/person/correspondingAssociate/fullName|string|Stakeholder - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|saleStakeholder/person/correspondingAssociate/contactId|int|Stakeholder - Company ID: Database ID of the company the user belongs to|  |
+|saleStakeholder/person/correspondingAssociate/personId|int|Stakeholder - Contact ID: Database ID of the contact row|  |
 |saleStakeholder/person/correspondingAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |saleStakeholder/person/correspondingAssociate/title|string|Stakeholder - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |saleStakeholder/person/correspondingAssociate/associateDbId|associate|Stakeholder - ID| x |
@@ -1053,14 +1057,14 @@ Shadow contact provider for the static sale provider.
 |saleStakeholder/contact/streetAddress/city|string|Stakeholder - Street address - City: This criterion corresponds to the City field on the Company card.| x |
 |saleStakeholder/contact/streetAddress/zip|string|Stakeholder - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |saleStakeholder/contact/streetAddress/state|string|Stakeholder - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|saleStakeholder/contact/streetAddress/wgs84latitude|decimal|Stakeholder - Street address - Latitude: Latitude| x |
-|saleStakeholder/contact/streetAddress/wgs84longitude|decimal|Stakeholder - Street address - Longitude: Longitude| x |
-|saleStakeholder/contact/streetAddress/formattedAddress| *None* |Stakeholder - Street address - {formattedAddress}: {formattedAddress}|  |
-|saleStakeholder/contact/streetAddress/formattedMultiLineAddress| *None* |Stakeholder - Street address - {formattedAddress}: {formattedAddress}|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/streetAddress/wgs84latitude|decimal|Stakeholder - Street address - Latitude: Latitude| x |
+|saleStakeholder/contact/streetAddress/wgs84longitude|decimal|Stakeholder - Street address - Longitude: Longitude| x |
+|saleStakeholder/contact/streetAddress/formattedAddress| *None* |Stakeholder - Street address - {formattedAddress}: {formattedAddress}|  |
+|saleStakeholder/contact/streetAddress/formattedMultiLineAddress| *None* |Stakeholder - Street address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/contact/restrictionAddress/addressId|int|Stakeholder - Search address - Address ID: Database ID for the address record| x |
 |saleStakeholder/contact/restrictionAddress/line1|string|Stakeholder - Search address - Address 1: First line of the address| x |
 |saleStakeholder/contact/restrictionAddress/line2|string|Stakeholder - Search address - Address 2: Second line of the address| x |
@@ -1157,14 +1161,14 @@ Shadow contact provider for the static sale provider.
 |saleStakeholder/contact/LastCompletedTicket|date|Stakeholder - Date of last completed request|  |
 |saleStakeholder/contact/LastDoByTicket|date|Stakeholder - Date of last non-completed request|  |
 |saleStakeholder/contact/SaintStatus1|saintStatus|Stakeholder - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
-|saleStakeholder/contact/SaintStatus2|saintStatus|Stakeholder - C-company: Kundens navn starter med bokstaven C|  |
-|saleStakeholder/contact/saintSaleStatus|listAny|Stakeholder - With status|  |
-|saleStakeholder/contact/saintAmountClass|listAny|Stakeholder - Amount class|  |
-|saleStakeholder/contact/saintActivityType|listAny|Stakeholder - SAINT type|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/SaintStatus2|saintStatus|Stakeholder - C-company: Kundens navn starter med bokstaven C|  |
+|saleStakeholder/contact/saintSaleStatus|listAny|Stakeholder - With status|  |
+|saleStakeholder/contact/saintAmountClass|listAny|Stakeholder - Amount class|  |
+|saleStakeholder/contact/saintActivityType|listAny|Stakeholder - SAINT type|  |
 |saleStakeholder/contact/saintDirection|listAny|Stakeholder - Direction|  |
 |saleStakeholder/contact/saintIntention|listAny|Stakeholder - Intention|  |
 |saleStakeholder/contact/saintTicketStatus|listAny|Stakeholder - Status|  |
@@ -1261,21 +1265,21 @@ Shadow contact provider for the static sale provider.
 |quote/version/alternative/quoteline/subTotal|decimal|Sum: Sum of Quantity * Unit list price| x |
 |quote/version/alternative/quoteline/vatAmount|decimal|VAT (amount: The calculated VAT amount| x |
 |quote/version/alternative/quoteline/totalPriceIncVAT|decimal|Total incl. VAT: Total including VAT| x |
-|quote/version/alternative/quoteline/totalPriceWithAlternativeDiscount|decimal|Total incl. alt. disc: Total, including any discount percentage set on the alternative| x |
-|selectionId|int|Selection ID: The database ID of the selection|  |
-|selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
-|rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|quote/version/alternative/quoteline/totalPriceWithAlternativeDiscount|decimal|Total incl. alt. disc: Total, including any discount percentage set on the alternative| x |
+|selectionId|int|Selection ID: The database ID of the selection|  |
+|selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
+|rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
 |targetTableNumber|int|TargetTableNumber: TargetTableNumber| x |
 |targetRecordId|int|TargetRecordId: TargetRecordId| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowStaticSelectionV2?$select=saleNumber,person/personAddress/zip,person/personUdef/SuperOffice:9,contact/email/emailLastSent,contact/streetAddress/zip
+GET /api/v1/archive/SaleShadowStaticSelectionV2?$select=contact/postAddress/county,contact/contactExtra/x_contact_dropdown,appointment/rawStatus,document/personId,document/snum
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

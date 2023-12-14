@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 743
+  "PersonId": 739
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "sapiente",
-    "StrippedValue": "illum",
-    "Description": "Innovative uniform database",
+    "Value": "quia",
+    "StrippedValue": "qui",
+    "Description": "User-centric attitude-oriented toolset",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 513
+        "FieldLength": 320
       }
     }
   },
   {
-    "Value": "sapiente",
-    "StrippedValue": "illum",
-    "Description": "Innovative uniform database",
+    "Value": "quia",
+    "StrippedValue": "qui",
+    "Description": "User-centric attitude-oriented toolset",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 513
+        "FieldLength": 320
       }
     }
   }

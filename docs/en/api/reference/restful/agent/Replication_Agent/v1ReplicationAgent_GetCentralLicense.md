@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,30 +81,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuhic-Walker",
-    "Description": "Configurable analyzing matrices",
+    "Name": "Harber, Zemlak and Harber",
+    "Description": "Switchable client-server adapter",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 861,
-        "Tooltip": "commodi",
-        "CanAssign": true,
-        "Free": 981,
-        "InUse": 733,
+        "Total": 985,
+        "Tooltip": "est",
+        "CanAssign": false,
+        "Free": 814,
+        "InUse": 240,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 652,
-        "Name": "Stoltenberg, Schneider and Rogahn",
-        "Description": "Streamlined actuating model",
-        "PrerequisiteModuleName": "Farrell-Monahan",
-        "SortOrder": 466,
-        "ExtraFlags": 601,
+        "ModuleLicenseId": 758,
+        "Name": "Quitzon, Fahey and Labadie",
+        "Description": "Implemented assymetric internet solution",
+        "PrerequisiteModuleName": "Sporer, Bergnaum and Maggio",
+        "SortOrder": 80,
+        "ExtraFlags": 476,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 860
+            "FieldLength": 472
           }
         }
       }
@@ -112,25 +112,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 762,
-        "Tooltip": "alias",
+        "Total": 741,
+        "Tooltip": "voluptas",
         "CanAssign": false,
-        "Free": 367,
-        "InUse": 129,
-        "IsHidden": true,
+        "Free": 676,
+        "InUse": 915,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 247,
-        "Name": "Boyer-Fritsch",
-        "Description": "Focused attitude-oriented moratorium",
-        "PrerequisiteModuleName": "Bahringer, Romaguera and Willms",
-        "SortOrder": 959,
-        "ExtraFlags": 570,
+        "ModuleLicenseId": 725,
+        "Name": "Mohr, Marks and Waters",
+        "Description": "Right-sized exuding firmware",
+        "PrerequisiteModuleName": "Bayer, O'Hara and Walker",
+        "SortOrder": 517,
+        "ExtraFlags": 438,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 717
+            "FieldLength": 972
           }
         }
       }
@@ -140,35 +140,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 820
+        "FieldLength": 461
       }
     }
   },
   {
-    "Name": "Kuhic-Walker",
-    "Description": "Configurable analyzing matrices",
+    "Name": "Harber, Zemlak and Harber",
+    "Description": "Switchable client-server adapter",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 861,
-        "Tooltip": "commodi",
-        "CanAssign": true,
-        "Free": 981,
-        "InUse": 733,
+        "Total": 985,
+        "Tooltip": "est",
+        "CanAssign": false,
+        "Free": 814,
+        "InUse": 240,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 652,
-        "Name": "Stoltenberg, Schneider and Rogahn",
-        "Description": "Streamlined actuating model",
-        "PrerequisiteModuleName": "Farrell-Monahan",
-        "SortOrder": 466,
-        "ExtraFlags": 601,
+        "ModuleLicenseId": 758,
+        "Name": "Quitzon, Fahey and Labadie",
+        "Description": "Implemented assymetric internet solution",
+        "PrerequisiteModuleName": "Sporer, Bergnaum and Maggio",
+        "SortOrder": 80,
+        "ExtraFlags": 476,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 860
+            "FieldLength": 472
           }
         }
       }
@@ -176,25 +176,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 762,
-        "Tooltip": "alias",
+        "Total": 741,
+        "Tooltip": "voluptas",
         "CanAssign": false,
-        "Free": 367,
-        "InUse": 129,
-        "IsHidden": true,
+        "Free": 676,
+        "InUse": 915,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 247,
-        "Name": "Boyer-Fritsch",
-        "Description": "Focused attitude-oriented moratorium",
-        "PrerequisiteModuleName": "Bahringer, Romaguera and Willms",
-        "SortOrder": 959,
-        "ExtraFlags": 570,
+        "ModuleLicenseId": 725,
+        "Name": "Mohr, Marks and Waters",
+        "Description": "Right-sized exuding firmware",
+        "PrerequisiteModuleName": "Bayer, O'Hara and Walker",
+        "SortOrder": 517,
+        "ExtraFlags": 438,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 717
+            "FieldLength": 972
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 820
+        "FieldLength": 461
       }
     }
   }

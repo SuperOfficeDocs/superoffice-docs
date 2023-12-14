@@ -114,24 +114,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 180,
-  "SourcePersonId": 569,
-  "DestinationContactId": 377,
-  "DestinationPersonId": 456,
-  "RelationId": 419,
-  "Comment": "eius",
-  "RelationDefinitionId": 494,
-  "Reversed": 876,
-  "UpdatedDate": "1998-09-10T13:38:17.280593+02:00",
-  "CreatedDate": "2013-12-26T13:38:17.280593+01:00",
+  "SourceContactId": 116,
+  "SourcePersonId": 284,
+  "DestinationContactId": 214,
+  "DestinationPersonId": 628,
+  "RelationId": 698,
+  "Comment": "assumenda",
+  "RelationDefinitionId": 529,
+  "Reversed": 174,
+  "UpdatedDate": "2008-03-31T13:57:18.669059+02:00",
+  "CreatedDate": "2020-03-15T13:57:18.669059+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Block, Kerluke and Howe",
-  "SourcePersonName": "Romaguera, Weissnat and Rohan",
-  "DestinationContactName": "Smith LLC",
-  "DestinationPersonName": "Goodwin LLC",
-  "ActiveText": "laudantium",
-  "PassiveText": "architecto"
+  "SourceContactName": "Parker Inc and Sons",
+  "SourcePersonName": "Rosenbaum-Bernhard",
+  "DestinationContactName": "Powlowski-Schimmel",
+  "DestinationPersonName": "Crooks LLC",
+  "ActiveText": "magni",
+  "PassiveText": "adipisci"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 461,
-  "SourcePersonId": 795,
-  "DestinationContactId": 410,
-  "DestinationPersonId": 443,
-  "RelationId": 965,
-  "Comment": "et",
-  "RelationDefinitionId": 984,
-  "Reversed": 611,
-  "UpdatedDate": "2019-12-19T13:38:17.280593+01:00",
-  "CreatedDate": "2008-11-10T13:38:17.280593+01:00",
+  "SourceContactId": 19,
+  "SourcePersonId": 337,
+  "DestinationContactId": 153,
+  "DestinationPersonId": 84,
+  "RelationId": 819,
+  "Comment": "enim",
+  "RelationDefinitionId": 560,
+  "Reversed": 355,
+  "UpdatedDate": "2012-11-22T13:57:18.6846845+01:00",
+  "CreatedDate": "2017-10-10T13:57:18.6846845+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Veum-Bashirian",
-  "SourcePersonName": "Rodriguez Group",
-  "DestinationContactName": "Jacobson Group",
-  "DestinationPersonName": "Robel-Flatley",
-  "ActiveText": "et",
-  "PassiveText": "sed",
+  "SourceContactName": "Leffler, Bashirian and Little",
+  "SourcePersonName": "Christiansen LLC",
+  "DestinationContactName": "Stehr Inc and Sons",
+  "DestinationPersonName": "Stanton Inc and Sons",
+  "ActiveText": "totam",
+  "PassiveText": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 189
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 54,
-    "Name": "Hartmann, Kovacek and Schuppe",
-    "ToolTip": "Tempora doloremque et est expedita nihil.",
-    "Deleted": false,
-    "Rank": 822,
-    "Type": "enim",
-    "ColorBlock": 155,
-    "IconHint": "laborum",
+    "Id": 832,
+    "Name": "Davis, Franecki and VonRueden",
+    "ToolTip": "Corporis illum.",
+    "Deleted": true,
+    "Rank": 765,
+    "Type": "labore",
+    "ColorBlock": 501,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2015-08-29T13:38:18.1244081+02:00",
+    "LastChanged": "2016-07-06T13:57:19.8596433+02:00",
     "ChildItems": [
       {
-        "Id": 877,
-        "Name": "Kautzer-Wolff",
-        "ToolTip": "Velit voluptatum sit maiores cum.",
+        "Id": 398,
+        "Name": "Eichmann Group",
+        "ToolTip": "Qui maxime.",
         "Deleted": true,
-        "Rank": 782,
-        "Type": "non",
-        "ColorBlock": 486,
-        "IconHint": "neque",
-        "Selected": true,
-        "LastChanged": "2023-04-17T13:38:18.1244081+02:00",
+        "Rank": 878,
+        "Type": "numquam",
+        "ColorBlock": 783,
+        "IconHint": "expedita",
+        "Selected": false,
+        "LastChanged": "2001-07-14T13:57:19.8596433+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "tempora",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Georgiana Barrows",
+        "FullName": "Marcelo Langosh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 312
+            "FieldLength": 529
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "ab",
-    "Hidden": true,
-    "FullName": "Porter Dietrich DVM",
+    "ExtraInfo": "corporis",
+    "StyleHint": "itaque",
+    "Hidden": false,
+    "FullName": "Kareem Huel Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 906
+        "FieldLength": 104
       }
     }
   }

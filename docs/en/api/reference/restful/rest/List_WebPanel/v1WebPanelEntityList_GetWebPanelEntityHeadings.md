@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 172,
-    "Name": "Ruecker LLC",
-    "Tooltip": "quibusdam",
+    "HeadingId": 91,
+    "Name": "Reilly-McClure",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 224,
-    "UdListDefinitionId": 608,
+    "Rank": 873,
+    "UdListDefinitionId": 555,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldLength": 982
       }
     }
   }

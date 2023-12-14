@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,33 +103,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 910,
-  "PlainMessage": "veritatis",
-  "HtmlMessage": "nihil",
-  "SmsMessage": "itaque",
-  "Description": "Secured well-modulated flexibility",
-  "Subject": "explicabo",
-  "FolderId": 917,
-  "HeaderField": "tenetur",
-  "Design": "ab",
+  "ShipmentMessageId": 765,
+  "PlainMessage": "et",
+  "HtmlMessage": "error",
+  "SmsMessage": "ut",
+  "Description": "Configurable hybrid alliance",
+  "Subject": "qui",
+  "FolderId": 442,
+  "HeaderField": "sequi",
+  "Design": "numquam",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Enterprise-wide background challenge",
-  "AccessKey": "recusandae",
-  "DocumentMessage": 680,
-  "Registered": "2001-04-17T13:38:17.6711737+02:00",
-  "RegisteredAssociateId": 821,
-  "Updated": "2023-09-05T13:38:17.6711737+02:00",
-  "UpdatedAssociateId": 137,
-  "UpdatedCount": 745,
+  "LongDescription": "Business-focused value-added analyzer",
+  "AccessKey": "aperiam",
+  "DocumentMessage": 886,
+  "Registered": "2019-08-05T13:57:19.2815227+02:00",
+  "RegisteredAssociateId": 991,
+  "Updated": "2001-03-20T13:57:19.2815227+01:00",
+  "UpdatedAssociateId": 265,
+  "UpdatedCount": 44,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 275
+      "FieldType": "System.Int32",
+      "FieldLength": 642
     }
   },
   "_Links": {

@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 184,
-  "Name": "Wiza, Pfeffer and Graham",
+  "ScreenChooserId": 400,
+  "Name": "Harber Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "in",
-  "Source": "quia",
-  "Registered": "2006-10-07T13:38:17.7650302+02:00",
-  "RegisteredAssociateId": 580,
-  "Updated": "2018-08-19T13:38:17.7650302+02:00",
-  "UpdatedAssociateId": 46
+  "Enabled": false,
+  "UniqueIdentifier": "quod",
+  "Source": "ipsa",
+  "Registered": "2007-07-06T13:57:19.4221461+02:00",
+  "RegisteredAssociateId": 658,
+  "Updated": "2002-12-12T13:57:19.4221461+01:00",
+  "UpdatedAssociateId": 722
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 517,
-  "Name": "Harber-Bayer",
+  "ScreenChooserId": 298,
+  "Name": "Bayer LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "aperiam",
-  "Source": "ea",
-  "Registered": "2002-02-08T13:38:17.7650302+01:00",
-  "RegisteredAssociateId": 464,
-  "Updated": "2007-08-26T13:38:17.7650302+02:00",
-  "UpdatedAssociateId": 104,
+  "UniqueIdentifier": "ex",
+  "Source": "ut",
+  "Registered": "2013-01-01T13:57:19.4221461+01:00",
+  "RegisteredAssociateId": 617,
+  "Updated": "2015-09-12T13:57:19.4221461+02:00",
+  "UpdatedAssociateId": 846,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 743
+      "FieldType": "System.Int32",
+      "FieldLength": 802
     }
   },
   "_Links": {

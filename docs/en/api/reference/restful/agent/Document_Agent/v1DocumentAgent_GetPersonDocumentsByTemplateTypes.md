@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 748,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2015-07-10T13:38:13.4208858+02:00",
-  "EndTime": "2009-04-15T13:38:13.4208858+02:00",
-  "Count": 773,
+  "PersonId": 919,
+  "IncludeProjectDocuments": false,
+  "StartTime": "1998-02-24T13:57:12.090499+01:00",
+  "EndTime": "2009-12-28T13:57:12.090499+01:00",
+  "Count": 474,
   "DocumentTemplateIds": [
-    22,
-    844
+    704,
+    756
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 42,
-    "Attention": "blanditiis",
-    "Header": "libero",
-    "Name": "Casper, Farrell and Schmidt",
-    "OurRef": "laboriosam",
-    "YourRef": "aliquid",
-    "Description": "Visionary system-worthy archive",
-    "DocumentTemplate": "ut",
-    "IsPublished": true,
-    "PersonId": 899,
-    "PersonFullName": "Delphia Botsford",
-    "AssociateFullName": "Destany Casper DVM",
-    "ContactId": 894,
-    "ContactName": "Cummings LLC",
-    "ProjectId": 981,
-    "ProjectName": "Miller Group",
-    "AssociateId": 960,
-    "Snum": 572,
-    "SaleId": 402,
-    "SaleName": "Simonis, O'Conner and Goyette",
+    "DocumentId": 692,
+    "Attention": "nostrum",
+    "Header": "saepe",
+    "Name": "Parisian Inc and Sons",
+    "OurRef": "facilis",
+    "YourRef": "molestiae",
+    "Description": "Expanded contextually-based info-mediaries",
+    "DocumentTemplate": "maiores",
+    "IsPublished": false,
+    "PersonId": 164,
+    "PersonFullName": "Dr. Erica Everett Langworth",
+    "AssociateFullName": "Ellsworth Josephine Schowalter DDS",
+    "ContactId": 290,
+    "ContactName": "Schimmel Group",
+    "ProjectId": 89,
+    "ProjectName": "Bogisich Inc and Sons",
+    "AssociateId": 252,
+    "Snum": 65,
+    "SaleId": 481,
+    "SaleName": "Corkery Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldType": "System.String",
+        "FieldLength": 828
       }
     }
   }

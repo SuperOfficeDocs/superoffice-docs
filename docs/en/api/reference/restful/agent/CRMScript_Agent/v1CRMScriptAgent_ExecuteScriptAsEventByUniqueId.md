@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "blanditiis",
+  "CRMScriptUniqueId": "et",
   "EventData": null
 }
 ```
@@ -108,37 +108,37 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "aut",
-    "InputValues2": "dicta"
+    "InputValues1": "esse",
+    "InputValues2": "eos"
   },
   "BlockExecution": false,
-  "NavigateTo": "reprehenderit",
-  "Message": "cumque",
-  "ShowDialog": "omnis",
+  "NavigateTo": "est",
+  "Message": "veritatis",
+  "ShowDialog": "officiis",
   "OutputValues": {
-    "OutputValues1": "sed",
-    "OutputValues2": "et"
+    "OutputValues1": "et",
+    "OutputValues2": "sint"
   },
   "StateValues": {
-    "StateValues1": "dolor",
-    "StateValues2": "et"
+    "StateValues1": "nulla",
+    "StateValues2": "omnis"
   },
-  "Exception": "aut",
+  "Exception": "velit",
   "ParserValues": {
-    "ParserValues1": "vel",
-    "ParserValues2": "incidunt"
+    "ParserValues1": "dolore",
+    "ParserValues2": "voluptas"
   },
   "CgiVariables": {
-    "CgiVariables1": "inventore",
-    "CgiVariables2": "praesentium"
+    "CgiVariables1": "doloremque",
+    "CgiVariables2": "natus"
   },
-  "CgiContent": "odio",
+  "CgiContent": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldType": "System.Int32",
+      "FieldLength": 338
     }
   }
 }

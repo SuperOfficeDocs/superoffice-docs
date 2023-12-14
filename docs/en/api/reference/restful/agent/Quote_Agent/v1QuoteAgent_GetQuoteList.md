@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "aut"
+  "QuoteListType": "omnis"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "dolor",
-    "DisplayValue": "autem",
-    "DisplayDescription": "Future-proofed bifurcated frame",
+    "ERPQuoteListItemKey": "accusantium",
+    "DisplayValue": "libero",
+    "DisplayDescription": "Focused uniform paradigm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 869
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "dolor",
-    "DisplayValue": "autem",
-    "DisplayDescription": "Future-proofed bifurcated frame",
+    "ERPQuoteListItemKey": "accusantium",
+    "DisplayValue": "libero",
+    "DisplayDescription": "Focused uniform paradigm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 869
       }
     }
   }

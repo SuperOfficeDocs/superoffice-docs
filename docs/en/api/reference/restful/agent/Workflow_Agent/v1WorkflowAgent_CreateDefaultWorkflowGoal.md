@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 186,
-  "WorkflowId": 913,
+  "WorkflowGoalId": 15,
+  "WorkflowId": 24,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Bailey LLC",
-      "Description": "Fully-configurable asynchronous task-force",
-      "Rank": 416,
+      "Name": "Moore LLC",
+      "Description": "Right-sized bandwidth-monitored moderator",
+      "Rank": 411,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bailey LLC",
-      "Description": "Fully-configurable asynchronous task-force",
-      "Rank": 416,
+      "Name": "Moore LLC",
+      "Description": "Right-sized bandwidth-monitored moderator",
+      "Rank": 411,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 348
+      "FieldType": "System.Int32",
+      "FieldLength": 250
     }
   }
 }

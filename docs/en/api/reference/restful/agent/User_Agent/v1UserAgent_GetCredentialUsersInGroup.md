@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "atque",
-  "GroupName": "Fisher, Zieme and Renner"
+  "Type": "consequatur",
+  "GroupName": "Herman Group"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "fugit",
-    "consequatur"
+    "magni",
+    "tenetur"
   ],
   "Users": [
     {
-      "Value": "officia",
-      "DisplayValue": "optio",
+      "Value": "omnis",
+      "DisplayValue": "consequatur",
       "Columns": [
-        "possimus",
-        "ullam"
+        "maxime",
+        "officia"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 610
         }
       }
     },
     {
-      "Value": "officia",
-      "DisplayValue": "optio",
+      "Value": "omnis",
+      "DisplayValue": "consequatur",
       "Columns": [
-        "possimus",
-        "ullam"
+        "maxime",
+        "officia"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 610
         }
       }
     }
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 668
+      "FieldType": "System.Int32",
+      "FieldLength": 932
     }
   }
 }

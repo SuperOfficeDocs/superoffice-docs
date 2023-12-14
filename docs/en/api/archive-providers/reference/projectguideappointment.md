@@ -716,13 +716,17 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointmentInstance/associate/userName|string|User name: User name| x |
 |appointmentInstance/associate/personEmail|string|E-mail| x |
-|appointmentInstance/appointment/textId|int|Text ID| x |
 |appointmentInstance/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointmentInstance/appointment/title|positiveString|Title| x |
+|appointmentInstance/appointment/titleHtml| *None* |!!Title Html| x |
+|appointmentInstance/appointment/agenda|positiveString|Agenda| x |
+|appointmentInstance/appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointmentInstance/appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/contact/contactFax/formattedNumber,appointmentInstance/contact/NumberOfNotCompletedTicketsInPeriod,appointmentInstance/person/personUdef/SuperOffice:2
+GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/completedDate,appointmentInstance/recordTypeText,appointmentInstance/contact/streetAddress/line3,appointmentInstance/contact/LastCompletedTicket,appointmentInstance/contact/saintDirection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

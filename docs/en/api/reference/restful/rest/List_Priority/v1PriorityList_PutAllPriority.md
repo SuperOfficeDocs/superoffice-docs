@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 775,
-    "Name": "Stracke, Thiel and Abernathy",
-    "Tooltip": "id",
-    "Deleted": true,
-    "UdListDefinitionId": 329,
-    "Rank": 895
+    "Id": 942,
+    "Name": "Parisian, Kunde and Prosacco",
+    "Tooltip": "nemo",
+    "Deleted": false,
+    "UdListDefinitionId": 486,
+    "Rank": 776
   },
   {
-    "Id": 775,
-    "Name": "Stracke, Thiel and Abernathy",
-    "Tooltip": "id",
-    "Deleted": true,
-    "UdListDefinitionId": 329,
-    "Rank": 895
+    "Id": 942,
+    "Name": "Parisian, Kunde and Prosacco",
+    "Tooltip": "nemo",
+    "Deleted": false,
+    "UdListDefinitionId": 486,
+    "Rank": 776
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 942,
-    "Name": "Buckridge-Stanton",
-    "Tooltip": "ipsa",
-    "Deleted": false,
-    "UdListDefinitionId": 932,
-    "Rank": 695,
+    "Id": 990,
+    "Name": "Klocko, Ankunding and Shields",
+    "Tooltip": "magni",
+    "Deleted": true,
+    "UdListDefinitionId": 139,
+    "Rank": 412,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldLength": 899
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "Name": "Hagenes, Abbott and Jakubowski",
-  "Tooltip": "repudiandae",
+  "Id": 689,
+  "Name": "Kuvalis, McDermott and Lemke",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "UdListDefinitionId": 254,
-  "Rank": 243,
+  "UdListDefinitionId": 96,
+  "Rank": 673,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldLength": 177
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Name": "O'Reilly-Rempel",
-    "ToolTip": "Nulla itaque eos sunt sint.",
-    "Deleted": false,
-    "Rank": 752,
-    "Type": "et",
-    "ColorBlock": 914,
-    "IconHint": "laboriosam",
+    "Id": 829,
+    "Name": "Weissnat, Kutch and Cormier",
+    "ToolTip": "Facere aut pariatur et aliquam sint.",
+    "Deleted": true,
+    "Rank": 488,
+    "Type": "aut",
+    "ColorBlock": 496,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2006-11-26T13:38:18.1244081+01:00",
+    "LastChanged": "1999-01-02T13:57:19.8440154+01:00",
     "ChildItems": [
       {
-        "Id": 916,
-        "Name": "Willms-Larson",
-        "ToolTip": "Ut fugiat.",
+        "Id": 924,
+        "Name": "Littel-Mitchell",
+        "ToolTip": "Et unde illo necessitatibus voluptate.",
         "Deleted": false,
-        "Rank": 184,
-        "Type": "ipsam",
-        "ColorBlock": 198,
-        "IconHint": "laudantium",
+        "Rank": 509,
+        "Type": "nam",
+        "ColorBlock": 504,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2016-09-12T13:38:18.1244081+02:00",
+        "LastChanged": "2000-09-19T13:57:19.8596433+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "error",
-        "Hidden": false,
-        "FullName": "Jasper Rippin",
+        "ExtraInfo": "quae",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Dr. Demarco Celia Hickle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 193
+            "FieldType": "System.Int32",
+            "FieldLength": 161
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Abagail Runolfsdottir",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Darlene Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldLength": 369
       }
     }
   }

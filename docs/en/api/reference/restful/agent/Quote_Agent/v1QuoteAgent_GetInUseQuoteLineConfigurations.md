@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 575,
-    "FieldName": "Brekke, Cronin and Franecki",
-    "Label": "sit",
-    "Tooltip": "sint",
-    "Editable": true,
+    "QuoteLineConfigurationId": 726,
+    "FieldName": "Dietrich-Lakin",
+    "Label": "unde",
+    "Tooltip": "quisquam",
+    "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 300,
-    "RestrictEdit": true,
+    "Rank": 611,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldType": "System.String",
+        "FieldLength": 452
       }
     }
   }

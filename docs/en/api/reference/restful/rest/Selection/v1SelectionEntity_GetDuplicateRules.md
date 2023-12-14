@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Volkman, Cole and Cummings",
-    "DisplayName": "Brown, Skiles and Gutkowski",
-    "DisplayTooltip": "officia",
-    "IsActive": false,
+    "Name": "Howe, Heathcote and Kertzmann",
+    "DisplayName": "Gutmann Group",
+    "DisplayTooltip": "a",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldLength": 7
       }
     }
   },
   {
-    "Name": "Volkman, Cole and Cummings",
-    "DisplayName": "Brown, Skiles and Gutkowski",
-    "DisplayTooltip": "officia",
-    "IsActive": false,
+    "Name": "Howe, Heathcote and Kertzmann",
+    "DisplayName": "Gutmann Group",
+    "DisplayTooltip": "a",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldLength": 7
       }
     }
   }

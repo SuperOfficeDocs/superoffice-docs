@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 51,
-    "Name": "Herman-Jacobs",
-    "ToolTip": "Iusto necessitatibus ut enim voluptatum.",
+    "Id": 289,
+    "Name": "Boyle, Koch and Swaniawski",
+    "ToolTip": "Explicabo minima excepturi molestias voluptates ratione impedit praesentium.",
     "Deleted": false,
-    "Rank": 715,
-    "Type": "soluta",
-    "ColorBlock": 948,
-    "IconHint": "veritatis",
+    "Rank": 148,
+    "Type": "illum",
+    "ColorBlock": 511,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "2008-11-29T13:38:18.0775324+01:00",
+    "LastChanged": "2000-07-02T13:57:19.7815186+02:00",
     "ChildItems": [
       {
-        "Id": 773,
-        "Name": "Reinger, Klein and Hauck",
-        "ToolTip": "Consequatur modi doloribus ipsam.",
-        "Deleted": false,
-        "Rank": 117,
-        "Type": "placeat",
-        "ColorBlock": 326,
-        "IconHint": "dolorem",
+        "Id": 206,
+        "Name": "Grimes, Mante and Gulgowski",
+        "ToolTip": "Expedita laboriosam quis.",
+        "Deleted": true,
+        "Rank": 834,
+        "Type": "praesentium",
+        "ColorBlock": 592,
+        "IconHint": "eius",
         "Selected": false,
-        "LastChanged": "1999-05-07T13:38:18.0775324+02:00",
+        "LastChanged": "2007-08-14T13:57:19.7815186+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "doloremque",
-        "Hidden": true,
-        "FullName": "Lucy Dooley",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "accusamus",
+        "Hidden": false,
+        "FullName": "Raymond Schimmel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 555
+            "FieldLength": 246
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Mr. Jerel Duncan Witting PhD",
+    "ExtraInfo": "non",
+    "StyleHint": "quis",
+    "Hidden": true,
+    "FullName": "Dallas Gloria Maggio Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldLength": 763
       }
     }
   }

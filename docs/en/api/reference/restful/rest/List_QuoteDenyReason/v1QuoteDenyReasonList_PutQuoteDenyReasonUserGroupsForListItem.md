@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 346,
-    "Name": "Jones-Larkin",
-    "ToolTip": "Voluptas nesciunt voluptas similique rerum laudantium debitis optio.",
-    "Deleted": false,
-    "Rank": 716,
-    "Type": "soluta",
-    "ColorBlock": 111,
-    "IconHint": "quos",
-    "Selected": false,
-    "LastChanged": "1998-05-14T13:38:18.186902+02:00",
+    "Id": 23,
+    "Name": "Ziemann, Koelpin and Bahringer",
+    "ToolTip": "Est explicabo fugit.",
+    "Deleted": true,
+    "Rank": 440,
+    "Type": "qui",
+    "ColorBlock": 480,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2007-06-21T13:57:19.9690149+02:00",
     "ChildItems": [
       {
-        "Id": 745,
-        "Name": "Cruickshank LLC",
-        "ToolTip": "Inventore commodi aliquid.",
+        "Id": 471,
+        "Name": "Spinka Group",
+        "ToolTip": "Doloribus esse neque.",
         "Deleted": false,
-        "Rank": 930,
-        "Type": "consectetur",
-        "ColorBlock": 617,
-        "IconHint": "aut",
+        "Rank": 955,
+        "Type": "non",
+        "ColorBlock": 927,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2016-06-28T13:38:18.186902+02:00",
+        "LastChanged": "2021-06-25T13:57:19.9690149+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "asperiores",
         "Hidden": false,
-        "FullName": "Javonte Hudson"
+        "FullName": "Miss Kyra Kuvalis"
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "dolores",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Steve Loren Price DVM"
+    "FullName": "Nigel Walsh"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 598,
-    "Name": "Cronin-Ruecker",
-    "ToolTip": "Vel inventore.",
+    "Id": 436,
+    "Name": "Williamson LLC",
+    "ToolTip": "Voluptatem perspiciatis.",
     "Deleted": false,
-    "Rank": 829,
-    "Type": "dolores",
-    "ColorBlock": 126,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "2013-09-11T13:38:18.186902+02:00",
+    "Rank": 159,
+    "Type": "porro",
+    "ColorBlock": 12,
+    "IconHint": "ad",
+    "Selected": false,
+    "LastChanged": "2013-08-22T13:57:20.0002637+02:00",
     "ChildItems": [
       {
-        "Id": 397,
-        "Name": "Howe, Carter and Lakin",
-        "ToolTip": "Rerum neque.",
+        "Id": 588,
+        "Name": "Toy, Parisian and Miller",
+        "ToolTip": "Est ipsam aut vitae porro sapiente doloremque.",
         "Deleted": false,
-        "Rank": 706,
-        "Type": "ratione",
-        "ColorBlock": 43,
-        "IconHint": "porro",
-        "Selected": false,
-        "LastChanged": "2000-01-31T13:38:18.186902+01:00",
+        "Rank": 213,
+        "Type": "reiciendis",
+        "ColorBlock": 893,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2002-07-20T13:57:20.0002637+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "ad",
-        "Hidden": false,
-        "FullName": "Ceasar Koelpin V",
+        "ExtraInfo": "quam",
+        "StyleHint": "deleniti",
+        "Hidden": true,
+        "FullName": "Agustin Buckridge IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 394
+            "FieldLength": 132
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "unde",
     "Hidden": true,
-    "FullName": "Brian Neva Quitzon DDS",
+    "FullName": "Randi Hodkiewicz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldLength": 483
       }
     }
   }

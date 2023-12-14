@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "a",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "a",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Streamlined coherent contingency",
-  "Postit": "molestias",
+  "Description": "Team-oriented bandwidth-monitored portal",
+  "Postit": "laborum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 175,
-  "IncludePerson": 715,
-  "MemberCount": 270,
-  "Name": "Schuppe-Lubowitz",
-  "PostitTextId": 794,
-  "CreatedDate": "2007-11-10T13:38:17.6555554+01:00",
-  "SelectionId": 398,
-  "SoundEx": "pariatur",
-  "Source": 95,
-  "TextId": 147,
-  "UpdatedDate": "2023-10-09T13:38:17.6555554+02:00",
-  "UpdatedCount": 687,
-  "Visibility": 46,
+  "GroupIdx": 609,
+  "IncludePerson": 320,
+  "MemberCount": 48,
+  "Name": "Reichert-Hettinger",
+  "PostitTextId": 5,
+  "CreatedDate": "2010-02-18T13:57:19.2658995+01:00",
+  "SelectionId": 968,
+  "SoundEx": "quisquam",
+  "Source": 312,
+  "TextId": 416,
+  "UpdatedDate": "2019-10-12T13:57:19.2658995+02:00",
+  "UpdatedCount": 783,
+  "Visibility": 491,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 520,
-  "TargetTableName": "Jacobs, Nikolaus and Koelpin",
+  "CompanyUnique": false,
+  "TargetTableNumber": 117,
+  "TargetTableName": "Kohler-Prohaska",
   "Completed": false,
-  "LeftSelectionId": 512,
-  "RightSelectionId": 745,
+  "LeftSelectionId": 167,
+  "RightSelectionId": 347,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Abshire, Ferry and Kihn",
-  "ShadowProviderName": "Monahan, Fahey and Corwin",
-  "ChartKey": "et",
-  "LastLoaded": "2005-09-14T13:38:17.6555554+02:00",
-  "LastLoadedBy": 455,
+  "MainProviderName": "Heaney-Parisian",
+  "ShadowProviderName": "Stamm, Smitham and Schultz",
+  "ChartKey": "optio",
+  "LastLoaded": "2011-10-30T13:57:19.2658995+01:00",
+  "LastLoadedBy": 121,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-05-09T13:38:17.6555554+02:00",
-  "LastMembershipChangeBy": 635,
+  "LastMembershipChange": "2011-06-17T13:57:19.2658995+02:00",
+  "LastMembershipChangeBy": 643,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sit",
-  "MemberTabHeading": "dolores",
-  "MailingsProviderName": "Morar, Dibbert and Reynolds",
-  "DashboardTileDefinitionId": 691,
+  "MainHeading": "animi",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Streich-Prosacco",
+  "DashboardTileDefinitionId": 676,
   "VisibleFor": [
     {
-      "VisibleId": 659,
+      "VisibleId": 845,
       "Visibility": "All",
-      "DisplayValue": "quos",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 977
         }
       }
     },
     {
-      "VisibleId": 659,
+      "VisibleId": 845,
       "Visibility": "All",
-      "DisplayValue": "quos",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 977
         }
       }
     }
@@ -244,13 +244,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 302
+      "FieldType": "System.Int32",
+      "FieldLength": 840
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

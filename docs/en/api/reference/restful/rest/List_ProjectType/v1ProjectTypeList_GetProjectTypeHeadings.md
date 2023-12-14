@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 853,
-    "Name": "Prohaska, Purdy and Hagenes",
+    "HeadingId": 130,
+    "Name": "Murphy-Jaskolski",
     "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 406,
-    "UdListDefinitionId": 270,
+    "Rank": 478,
+    "UdListDefinitionId": 985,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 314
+        "FieldType": "System.String",
+        "FieldLength": 141
       }
     }
   }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Wunsch, Jenkins and Luettgen",
-    "Tooltip": "id",
+    "Id": 638,
+    "Name": "Fritsch, Terry and Vandervort",
+    "Tooltip": "rerum",
     "Deleted": true,
-    "UdListDefinitionId": 238,
-    "Rank": 662
+    "UdListDefinitionId": 562,
+    "Rank": 961
   },
   {
-    "Id": 911,
-    "Name": "Wunsch, Jenkins and Luettgen",
-    "Tooltip": "id",
+    "Id": 638,
+    "Name": "Fritsch, Terry and Vandervort",
+    "Tooltip": "rerum",
     "Deleted": true,
-    "UdListDefinitionId": 238,
-    "Rank": 662
+    "UdListDefinitionId": 562,
+    "Rank": 961
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 441,
-    "Name": "Huel Group",
-    "Tooltip": "odit",
+    "Id": 597,
+    "Name": "Gleason, Crona and Schinner",
+    "Tooltip": "maiores",
     "Deleted": true,
-    "UdListDefinitionId": 599,
-    "Rank": 247,
+    "UdListDefinitionId": 549,
+    "Rank": 197,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldType": "System.String",
+        "FieldLength": 642
       }
     }
   }

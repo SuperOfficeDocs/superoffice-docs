@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 250,
-    "ColumnId": 272,
-    "FieldDefault": "quis",
-    "FieldHeight": 223,
-    "FieldLabel": "sint",
-    "FieldLeft": 726,
-    "FieldTop": 619,
+    "UDefFieldId": 230,
+    "ColumnId": 331,
+    "FieldDefault": "enim",
+    "FieldHeight": 197,
+    "FieldLabel": "qui",
+    "FieldLeft": 250,
+    "FieldTop": 228,
     "FieldType": "Checkbox",
-    "FieldWidth": 887,
-    "FormatMask": "sint",
+    "FieldWidth": 624,
+    "FormatMask": "et",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 680,
-    "LabelLeft": 690,
-    "LabelTop": 909,
-    "LabelWidth": 673,
-    "LastVersionId": 580,
-    "ListTableId": 487,
-    "IsMandatory": true,
+    "LabelHeight": 729,
+    "LabelLeft": 771,
+    "LabelTop": 699,
+    "LabelWidth": 255,
+    "LastVersionId": 983,
+    "ListTableId": 994,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 205,
-    "ProgId": "qui",
+    "Page1LineNo": 77,
+    "ProgId": "dolorum",
     "IsReadOnly": false,
-    "ShortLabel": "quis",
-    "TabOrder": 564,
-    "TextLength": 587,
+    "ShortLabel": "eum",
+    "TabOrder": 215,
+    "TextLength": 641,
     "Tooltip": "ea",
-    "UdefIdentity": 600,
-    "UDListDefinitionId": 885,
+    "UdefIdentity": 697,
+    "UDListDefinitionId": 320,
     "Justification": "Center",
-    "Version": 192,
-    "TemplateVariableName": "Koelpin LLC",
-    "HasBeenPublished": true,
-    "MdoListName": "Kiehn-Wilkinson",
+    "Version": 954,
+    "TemplateVariableName": "Kunze LLC",
+    "HasBeenPublished": false,
+    "MdoListName": "Schroeder Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 11
+        "FieldLength": 519
       }
     }
   }

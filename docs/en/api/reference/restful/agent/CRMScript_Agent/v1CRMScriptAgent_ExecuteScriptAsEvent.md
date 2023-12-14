@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 543,
+  "CRMScriptId": 190,
   "EventData": null
 }
 ```
@@ -108,37 +108,37 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "odit",
-    "InputValues2": "nobis"
+    "InputValues1": "at",
+    "InputValues2": "sed"
   },
   "BlockExecution": false,
-  "NavigateTo": "doloribus",
-  "Message": "mollitia",
-  "ShowDialog": "recusandae",
+  "NavigateTo": "consequatur",
+  "Message": "consectetur",
+  "ShowDialog": "similique",
   "OutputValues": {
-    "OutputValues1": "unde",
-    "OutputValues2": "accusantium"
+    "OutputValues1": "possimus",
+    "OutputValues2": "enim"
   },
   "StateValues": {
-    "StateValues1": "omnis",
-    "StateValues2": "facere"
+    "StateValues1": "qui",
+    "StateValues2": "id"
   },
-  "Exception": "id",
+  "Exception": "recusandae",
   "ParserValues": {
-    "ParserValues1": "porro",
-    "ParserValues2": "voluptatum"
+    "ParserValues1": "corporis",
+    "ParserValues2": "id"
   },
   "CgiVariables": {
-    "CgiVariables1": "quasi",
-    "CgiVariables2": "maiores"
+    "CgiVariables1": "cupiditate",
+    "CgiVariables2": "molestiae"
   },
-  "CgiContent": "saepe",
+  "CgiContent": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldType": "System.Int32",
+      "FieldLength": 582
     }
   }
 }

@@ -94,37 +94,37 @@ OK
 POST /api/v1/CRMScript/{cRMScriptId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "exercitationem",
-    "InputValues2": "enim"
+    "InputValues1": "id",
+    "InputValues2": "qui"
   },
   "BlockExecution": false,
-  "NavigateTo": "et",
-  "Message": "sint",
-  "ShowDialog": "nisi",
+  "NavigateTo": "officiis",
+  "Message": "labore",
+  "ShowDialog": "doloremque",
   "OutputValues": {
-    "OutputValues1": "assumenda",
-    "OutputValues2": "totam"
+    "OutputValues1": "repudiandae",
+    "OutputValues2": "ut"
   },
   "StateValues": {
-    "StateValues1": "laudantium",
-    "StateValues2": "eum"
+    "StateValues1": "consectetur",
+    "StateValues2": "beatae"
   },
-  "Exception": "architecto",
+  "Exception": "maxime",
   "ParserValues": {
-    "ParserValues1": "nihil",
-    "ParserValues2": "ullam"
+    "ParserValues1": "qui",
+    "ParserValues2": "expedita"
   },
   "CgiVariables": {
-    "CgiVariables1": "assumenda",
-    "CgiVariables2": "necessitatibus"
+    "CgiVariables1": "qui",
+    "CgiVariables2": "optio"
   },
-  "CgiContent": "velit"
+  "CgiContent": "aut"
 }
 ```
 
@@ -137,37 +137,37 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "non",
-    "InputValues2": "consectetur"
+    "InputValues1": "quia",
+    "InputValues2": "voluptatibus"
   },
   "BlockExecution": false,
-  "NavigateTo": "in",
-  "Message": "sunt",
-  "ShowDialog": "eveniet",
+  "NavigateTo": "ipsum",
+  "Message": "itaque",
+  "ShowDialog": "asperiores",
   "OutputValues": {
-    "OutputValues1": "quod",
-    "OutputValues2": "sunt"
+    "OutputValues1": "ratione",
+    "OutputValues2": "sit"
   },
   "StateValues": {
-    "StateValues1": "eum",
-    "StateValues2": "quaerat"
+    "StateValues1": "voluptatibus",
+    "StateValues2": "necessitatibus"
   },
-  "Exception": "quo",
+  "Exception": "deleniti",
   "ParserValues": {
-    "ParserValues1": "consequatur",
-    "ParserValues2": "iusto"
+    "ParserValues1": "sint",
+    "ParserValues2": "incidunt"
   },
   "CgiVariables": {
-    "CgiVariables1": "aperiam",
-    "CgiVariables2": "aut"
+    "CgiVariables1": "harum",
+    "CgiVariables2": "non"
   },
-  "CgiContent": "sit",
+  "CgiContent": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 24
+      "FieldType": "System.Int32",
+      "FieldLength": 778
     }
   }
 }

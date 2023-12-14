@@ -81,14 +81,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 787,
+  "ReportId": 203,
   "ReportCategory": "All",
-  "Description": "Object-based 3rd generation success",
+  "Description": "Exclusive client-server data-warehouse",
   "ReportLayout": "CalendarMonth",
-  "Name": "Koss-Bayer",
-  "AssociateId": 914,
-  "TemplateId": 817,
-  "Published": true
+  "Name": "Rolfson, Schoen and O'Connell",
+  "AssociateId": 301,
+  "TemplateId": 182,
+  "Published": false
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 780,
+  "ReportId": 888,
   "ReportCategory": "All",
-  "Description": "Visionary leading edge encryption",
+  "Description": "Reduced 24 hour circuit",
   "ReportLayout": "CalendarMonth",
-  "Name": "Rowe-Boehm",
-  "AssociateId": 63,
-  "TemplateId": 678,
-  "Published": false,
+  "Name": "Farrell Group",
+  "AssociateId": 519,
+  "TemplateId": 110,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 282
+      "FieldType": "System.Int32",
+      "FieldLength": 289
     }
   }
 }

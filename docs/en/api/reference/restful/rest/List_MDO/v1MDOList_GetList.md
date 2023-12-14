@@ -33,7 +33,7 @@ Get the list items in a named list.
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
 GET /api/v1/MDOList/{listname}?additional=omnis
-GET /api/v1/MDOList/{listname}?query=cumque
+GET /api/v1/MDOList/{listname}?query=quod
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 194,
-    "Name": "Brown-Mayert",
-    "ToolTip": "At voluptatem enim quaerat quia excepturi.",
+    "Id": 246,
+    "Name": "Rempel, Goodwin and Berge",
+    "ToolTip": "Voluptatibus debitis quia est est earum.",
     "Deleted": false,
-    "Rank": 938,
-    "Type": "magnam",
+    "Rank": 834,
+    "Type": "architecto",
     "ChildItems": [
       {
-        "Id": 964,
-        "Name": "Weissnat, Bahringer and Walsh",
-        "ToolTip": "Esse voluptas alias amet velit id tenetur.",
-        "Deleted": false,
-        "Rank": 651,
-        "Type": "optio",
+        "Id": 770,
+        "Name": "Goyette LLC",
+        "ToolTip": "Facere eum.",
+        "Deleted": true,
+        "Rank": 723,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 256,
-        "ExtraInfo": "qui",
-        "StyleHint": "fuga",
-        "FullName": "Mrs. Frieda Wiza",
+        "IconHint": "perferendis",
+        "ColorBlock": 950,
+        "ExtraInfo": "esse",
+        "StyleHint": "sit",
+        "FullName": "Genesis Roel Bins IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 363
+            "FieldLength": 433
           }
         }
       }
     ],
-    "IconHint": "laudantium",
-    "ColorBlock": 617,
-    "ExtraInfo": "illum",
-    "StyleHint": "ea",
-    "FullName": "Pamela Christiansen III",
+    "IconHint": "sunt",
+    "ColorBlock": 768,
+    "ExtraInfo": "dolores",
+    "StyleHint": "consequatur",
+    "FullName": "Miss Adella Rath Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 121
+        "FieldType": "System.Int32",
+        "FieldLength": 655
       }
     }
   }

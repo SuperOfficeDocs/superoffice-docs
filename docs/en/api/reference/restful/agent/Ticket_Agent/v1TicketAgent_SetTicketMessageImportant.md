@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 297,
-  "Important": true
+  "TicketMessageId": 665,
+  "Important": false
 }
 ```
 

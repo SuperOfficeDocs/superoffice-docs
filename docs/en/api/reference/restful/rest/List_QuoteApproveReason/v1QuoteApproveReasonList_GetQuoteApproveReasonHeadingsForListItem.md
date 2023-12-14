@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 541,
-    "Name": "Marks Group",
-    "ToolTip": "Quasi id aliquam assumenda.",
+    "Id": 230,
+    "Name": "Hagenes, Bartell and Feeney",
+    "ToolTip": "Quis ipsa.",
     "Deleted": false,
-    "Rank": 441,
-    "Type": "minus",
-    "ColorBlock": 504,
-    "IconHint": "qui",
+    "Rank": 71,
+    "Type": "quisquam",
+    "ColorBlock": 887,
+    "IconHint": "reiciendis",
     "Selected": true,
-    "LastChanged": "2014-12-07T13:38:18.1712741+01:00",
+    "LastChanged": "2008-02-05T13:57:19.9377991+01:00",
     "ChildItems": [
       {
-        "Id": 32,
-        "Name": "Baumbach, Koch and Gibson",
-        "ToolTip": "Suscipit voluptas.",
+        "Id": 914,
+        "Name": "Flatley-Hagenes",
+        "ToolTip": "Nisi dolor possimus accusamus mollitia sunt.",
         "Deleted": false,
-        "Rank": 528,
-        "Type": "id",
-        "ColorBlock": 757,
-        "IconHint": "quos",
+        "Rank": 379,
+        "Type": "soluta",
+        "ColorBlock": 984,
+        "IconHint": "temporibus",
         "Selected": false,
-        "LastChanged": "2016-06-14T13:38:18.1712741+02:00",
+        "LastChanged": "2011-07-12T13:57:19.9377991+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "repellendus",
-        "Hidden": true,
-        "FullName": "Manuela Oberbrunner",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "corporis",
+        "Hidden": false,
+        "FullName": "Ms. Christa Reichel IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 511
+            "FieldType": "System.Int32",
+            "FieldLength": 704
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "minima",
+    "ExtraInfo": "unde",
+    "StyleHint": "fugiat",
     "Hidden": false,
-    "FullName": "Mrs. Emely Loyal Reynolds",
+    "FullName": "Declan Schuppe V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 980
+        "FieldType": "System.Int32",
+        "FieldLength": 666
       }
     }
   }

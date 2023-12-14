@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 219,
-  "Name": "Waelchi-Collier",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "UdListDefinitionId": 71,
-  "Rank": 495,
+  "Id": 760,
+  "Name": "Kerluke LLC",
+  "Tooltip": "placeat",
+  "Deleted": true,
+  "UdListDefinitionId": 425,
+  "Rank": 586,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldType": "System.String",
+      "FieldLength": 487
     }
   }
 }

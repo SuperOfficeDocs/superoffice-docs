@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Name": "Murazik, Jast and Stroman",
-    "ToolTip": "Aut quas nulla voluptatem perferendis quaerat.",
-    "Deleted": false,
-    "Rank": 822,
-    "Type": "quia",
-    "ColorBlock": 751,
-    "IconHint": "non",
+    "Id": 546,
+    "Name": "Simonis LLC",
+    "ToolTip": "Debitis sed quidem voluptates sunt aut.",
+    "Deleted": true,
+    "Rank": 781,
+    "Type": "at",
+    "ColorBlock": 297,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2023-06-29T13:38:17.9056813+02:00",
+    "LastChanged": "2013-02-20T13:57:19.6252691+01:00",
     "ChildItems": [
       {
-        "Id": 647,
-        "Name": "Raynor-Reichert",
-        "ToolTip": "Quidem sit enim ipsam officiis ea eligendi qui.",
+        "Id": 58,
+        "Name": "Dibbert LLC",
+        "ToolTip": "Voluptas est itaque facere nobis quam vero neque.",
         "Deleted": false,
-        "Rank": 783,
-        "Type": "ratione",
-        "ColorBlock": 195,
-        "IconHint": "eligendi",
-        "Selected": false,
-        "LastChanged": "2004-09-07T13:38:17.9056813+02:00",
+        "Rank": 265,
+        "Type": "aut",
+        "ColorBlock": 789,
+        "IconHint": "eveniet",
+        "Selected": true,
+        "LastChanged": "2017-12-11T13:57:19.6252691+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "molestiae",
-        "Hidden": false,
-        "FullName": "Vincenza Boyle"
+        "ExtraInfo": "eos",
+        "StyleHint": "delectus",
+        "Hidden": true,
+        "FullName": "Jonathan Mertie Will I"
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "ratione",
-    "Hidden": true,
-    "FullName": "Ms. Jannie Felipe Sanford V"
+    "ExtraInfo": "provident",
+    "StyleHint": "ducimus",
+    "Hidden": false,
+    "FullName": "Ms. Wayne Ruecker Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 497,
-    "Name": "Kuphal Inc and Sons",
-    "ToolTip": "Veritatis in magni quos rerum perspiciatis accusantium iure.",
+    "Id": 203,
+    "Name": "Barrows LLC",
+    "ToolTip": "Sit commodi itaque aliquid eum qui quia.",
     "Deleted": false,
-    "Rank": 353,
-    "Type": "quisquam",
-    "ColorBlock": 770,
-    "IconHint": "odio",
+    "Rank": 752,
+    "Type": "ex",
+    "ColorBlock": 934,
+    "IconHint": "voluptatibus",
     "Selected": true,
-    "LastChanged": "2008-09-19T13:38:17.9056813+02:00",
+    "LastChanged": "2019-06-03T13:57:19.6252691+02:00",
     "ChildItems": [
       {
-        "Id": 172,
-        "Name": "Bins-Walker",
-        "ToolTip": "Ea non expedita esse.",
-        "Deleted": true,
-        "Rank": 531,
-        "Type": "aliquid",
-        "ColorBlock": 101,
-        "IconHint": "laudantium",
-        "Selected": true,
-        "LastChanged": "2014-09-10T13:38:17.9056813+02:00",
+        "Id": 66,
+        "Name": "Blanda Inc and Sons",
+        "ToolTip": "Voluptas et.",
+        "Deleted": false,
+        "Rank": 443,
+        "Type": "accusamus",
+        "ColorBlock": 763,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2003-08-14T13:57:19.6252691+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "numquam",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Prof. Katelynn Monty Dach DDS",
+        "FullName": "Geovanni Swaniawski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 727
+            "FieldType": "System.String",
+            "FieldLength": 454
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Roosevelt Lueilwitz",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "a",
+    "Hidden": true,
+    "FullName": "Heidi Kuvalis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 77
+        "FieldType": "System.String",
+        "FieldLength": 858
       }
     }
   }

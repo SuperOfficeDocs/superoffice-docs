@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 917,
-  "Name": "Stanton-Hyatt",
+  "TicketPriorityId": 16,
+  "Name": "Swift Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 558,
+  "SortOrder": 42,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 696,
-  "MonStart": "2001-07-20T13:38:18.2650127+02:00",
-  "MonStop": "2002-01-27T13:38:18.2650127+01:00",
-  "TueStart": "2022-04-27T13:38:18.2650127+02:00",
-  "TueStop": "2023-10-07T13:38:18.2650127+02:00",
-  "WedStart": "1999-10-02T13:38:18.2650127+02:00",
-  "WedStop": "2007-07-26T13:38:18.2650127+02:00",
-  "ThuStart": "2010-05-04T13:38:18.2650127+02:00",
-  "ThuStop": "2014-06-03T13:38:18.2650127+02:00",
-  "FriStart": "2017-11-04T13:38:18.2650127+01:00",
-  "FriStop": "2013-05-16T13:38:18.2650127+02:00",
-  "SatStart": "2016-04-10T13:38:18.2650127+02:00",
-  "SatStop": "2012-09-26T13:38:18.2650127+02:00",
-  "SunStart": "2015-04-06T13:38:18.2650127+02:00",
-  "SunStop": "2011-01-13T13:38:18.2650127+01:00",
+  "Deadline": 108,
+  "MonStart": "2023-08-25T13:57:20.1734375+02:00",
+  "MonStop": "2009-04-22T13:57:20.1734375+02:00",
+  "TueStart": "2009-12-16T13:57:20.1734375+01:00",
+  "TueStop": "1998-02-16T13:57:20.1734375+01:00",
+  "WedStart": "2008-05-26T13:57:20.1734375+02:00",
+  "WedStop": "2018-09-20T13:57:20.1734375+02:00",
+  "ThuStart": "2019-10-17T13:57:20.1734375+02:00",
+  "ThuStop": "2014-12-31T13:57:20.1734375+01:00",
+  "FriStart": "2007-02-24T13:57:20.1734375+01:00",
+  "FriStop": "2020-08-10T13:57:20.1734375+02:00",
+  "SatStart": "2012-06-23T13:57:20.1734375+02:00",
+  "SatStop": "2023-03-10T13:57:20.1734375+01:00",
+  "SunStart": "2015-03-02T13:57:20.1734375+01:00",
+  "SunStop": "2023-06-08T13:57:20.1734375+02:00",
   "NonDates": [
-    "laboriosam",
-    "voluptas"
+    "quidem",
+    "et"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 55,
-      "AlertLevel": 809,
-      "AlertTimeout": 840,
-      "Action": 452,
-      "DelegateTo": 675,
-      "ScriptId": 325,
-      "EmailTo": "yadira@friesen.us",
-      "SmsTo": "molestiae",
-      "ReplyTemplateIdCustomer": 467,
-      "ReplyTemplateIdUser": 209,
-      "ReplyTemplateIdCatmast": 60,
-      "ReplyTemplateIdEmail": 105,
-      "RtiCustomerSms": 653,
-      "ReplyTemplateIdUserSms": 498,
-      "ReplyTemplateIdCatmastSms": 542,
-      "ReplyTemplateIdSms": 572,
+      "TicketAlertId": 479,
+      "AlertLevel": 301,
+      "AlertTimeout": 250,
+      "Action": 521,
+      "DelegateTo": 65,
+      "ScriptId": 983,
+      "EmailTo": "kim@bauchkuhic.ca",
+      "SmsTo": "debitis",
+      "ReplyTemplateIdCustomer": 162,
+      "ReplyTemplateIdUser": 381,
+      "ReplyTemplateIdCatmast": 49,
+      "ReplyTemplateIdEmail": 373,
+      "RtiCustomerSms": 669,
+      "ReplyTemplateIdUserSms": 265,
+      "ReplyTemplateIdCatmastSms": 864,
+      "ReplyTemplateIdSms": 814,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 509
+          "FieldType": "System.String",
+          "FieldLength": 35
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 492
     }
   }
 }

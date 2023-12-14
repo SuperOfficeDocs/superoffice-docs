@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "sunt"
+  "Context": "quo"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
+    "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "et",
-    "ValueType": "numquam",
+    "IsActive": false,
+    "Key": "qui",
+    "ValueType": "ut",
     "Mandatory": false,
-    "EncodedDisplayName": "Franecki, Lindgren and Barton",
-    "EncodedDisplayDescription": "Sharable optimal pricing structure",
-    "IconHint": "qui",
+    "EncodedDisplayName": "Jones-Heathcote",
+    "EncodedDisplayDescription": "Synergistic optimizing architecture",
+    "IconHint": "unde",
     "ControlInfos": [
       {
-        "Type": "quo",
-        "Label": "dolores",
-        "Dimension": 987,
-        "ListProviderName": "Kris-Gerlach",
-        "ListProviderExtraInfo": "labore",
-        "ListProviderPrimaryKeyName": "Gerhold, Morissette and Kling",
-        "ListLeadText": "dolorem",
+        "Type": "atque",
+        "Label": "voluptatem",
+        "Dimension": 127,
+        "ListProviderName": "Lubowitz, Hills and Corkery",
+        "ListProviderExtraInfo": "ut",
+        "ListProviderPrimaryKeyName": "Carter, Adams and Klocko",
+        "ListLeadText": "ab",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 756
+            "FieldType": "System.String",
+            "FieldLength": 586
           }
         }
       }
     ],
-    "EncodedDataCaption": "deserunt",
-    "EncodedDataCaptionDescription": "De-engineered demand-driven archive",
-    "CurrentOperationType": "hic",
+    "EncodedDataCaption": "cum",
+    "EncodedDataCaptionDescription": "Persistent intermediate knowledge base",
+    "CurrentOperationType": "nobis",
     "Values": [
-      "est",
-      "voluptatibus"
+      "dicta",
+      "eligendi"
     ],
     "DisplayValues": [
-      "vel",
-      "labore"
+      "pariatur",
+      "quas"
     ],
     "OperationInfos": [
       {
-        "Key": "quia",
-        "EncodedDisplayName": "Krajcik-Romaguera",
+        "Key": "ex",
+        "EncodedDisplayName": "Okuneva, Schumm and Jones",
         "EncodedLeadTexts": [
-          "accusamus",
-          "a"
+          "maiores",
+          "nemo"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 777
+            "FieldType": "System.String",
+            "FieldLength": 135
           }
         }
       },
       {
-        "Key": "quia",
-        "EncodedDisplayName": "Krajcik-Romaguera",
+        "Key": "ex",
+        "EncodedDisplayName": "Okuneva, Schumm and Jones",
         "EncodedLeadTexts": [
-          "accusamus",
-          "a"
+          "maiores",
+          "nemo"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 777
+            "FieldType": "System.String",
+            "FieldLength": 135
           }
         }
       }

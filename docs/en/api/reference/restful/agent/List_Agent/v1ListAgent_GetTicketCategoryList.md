@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 432,
-    "ParentId": 981,
-    "Name": "Ortiz LLC",
-    "Fullname": "voluptate",
-    "CategoryMaster": 776,
+    "TicketCategoryId": 467,
+    "ParentId": 857,
+    "Name": "Powlowski, Paucek and Cartwright",
+    "Fullname": "quaerat",
+    "CategoryMaster": 914,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Leffler-Emmerich",
+    "ExternalName": "Kunze, Heidenreich and Keeling",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 548,
-    "ReplyTemplate": 955,
-    "NotificationEmail": "verlie@herzog.name",
+    "AssignmentLag": 675,
+    "ReplyTemplate": 126,
+    "NotificationEmail": "celestino.macejkovic@dickinson.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 224,
+    "EffectiveReplyTemplateId": 178,
     "ExtraFields": {
-      "ExtraFields1": "possimus",
-      "ExtraFields2": "aut"
+      "ExtraFields1": "labore",
+      "ExtraFields2": "doloremque"
     },
     "CustomFields": {
-      "CustomFields1": "qui",
-      "CustomFields2": "eaque"
+      "CustomFields1": "praesentium",
+      "CustomFields2": "itaque"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 910
+        "FieldType": "System.Int32",
+        "FieldLength": 799
       }
     }
   }

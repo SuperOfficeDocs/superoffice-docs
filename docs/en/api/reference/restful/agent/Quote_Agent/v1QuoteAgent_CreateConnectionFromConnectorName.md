@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Fritsch, Hoeger and Hettinger"
+  "ConnectorName": "Streich-Sauer"
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 592,
-  "ERPName": "Eichmann-Nolan",
-  "DisplayName": "Turcotte Group",
-  "DisplayDescription": "Reduced even-keeled knowledge base",
-  "Rank": 956,
-  "ConnectorName": "Dare, Miller and Prosacco",
-  "ErpConnectionId": 507,
-  "ExtraData": "sint",
+  "QuoteConnectionId": 624,
+  "ERPName": "Friesen, Corkery and Pacocha",
+  "DisplayName": "Klocko-Hansen",
+  "DisplayDescription": "Exclusive mobile functionalities",
+  "Rank": 88,
+  "ConnectorName": "Predovic LLC",
+  "ErpConnectionId": 940,
+  "ExtraData": "error",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 41,
-      "ERPPriceListKey": "maxime",
-      "QuoteConnectionId": 141,
-      "Name": "Pacocha-Romaguera",
-      "Description": "Re-engineered explicit task-force",
-      "Currency": "pariatur",
-      "CurrencyName": "Frami Inc and Sons",
-      "ValidFrom": "2017-11-14T13:38:14.0303322+01:00",
-      "ValidTo": "2019-10-19T13:38:14.0303322+02:00",
+      "PriceListId": 36,
+      "ERPPriceListKey": "tempora",
+      "QuoteConnectionId": 523,
+      "Name": "Davis LLC",
+      "Description": "Visionary eco-centric superstructure",
+      "Currency": "minima",
+      "CurrencyName": "Bergnaum Group",
+      "ValidFrom": "2012-12-23T13:57:13.064942+01:00",
+      "ValidTo": "2019-06-13T13:57:13.064942+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 290
+          "FieldLength": 332
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    449,
-    10
+    964,
+    219
   ],
   "AssociateAccessIds": [
-    878,
-    336
+    554,
+    421
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 574
+      "FieldType": "System.Int32",
+      "FieldLength": 368
     }
   }
 }

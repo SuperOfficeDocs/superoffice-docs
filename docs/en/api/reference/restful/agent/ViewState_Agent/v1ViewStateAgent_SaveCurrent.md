@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 396,
-  "Id": 603,
-  "HistoryName": "Hegmann, Schumm and Kautzer",
-  "HistoryId": 365,
-  "AssociateId": 334,
-  "Name": "Sporer, Hyatt and Walker",
-  "ItemInfo": "numquam",
+  "Rank": 649,
+  "Id": 823,
+  "HistoryName": "Luettgen-Frami",
+  "HistoryId": 745,
+  "AssociateId": 19,
+  "Name": "Fay, Williamson and Predovic",
+  "ItemInfo": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 617
     }
   }
 }

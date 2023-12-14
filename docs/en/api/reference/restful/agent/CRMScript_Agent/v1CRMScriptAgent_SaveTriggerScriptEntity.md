@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 968,
-  "Name": "Wehner, Bode and Bednar",
+  "ScreenChooserId": 149,
+  "Name": "Ward, Wunsch and Friesen",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "harum",
-  "Source": "odit",
-  "Registered": "2023-01-18T13:38:13.374011+01:00",
-  "RegisteredAssociateId": 854,
-  "Updated": "2007-12-31T13:38:13.374011+01:00",
-  "UpdatedAssociateId": 412
+  "Enabled": true,
+  "UniqueIdentifier": "saepe",
+  "Source": "laudantium",
+  "Registered": "2016-09-16T13:57:11.9967528+02:00",
+  "RegisteredAssociateId": 833,
+  "Updated": "1999-05-14T13:57:11.9967528+02:00",
+  "UpdatedAssociateId": 263
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 687,
-  "Name": "Koepp, Nitzsche and Toy",
+  "ScreenChooserId": 535,
+  "Name": "Reinger Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "adipisci",
-  "Source": "odio",
-  "Registered": "2014-03-09T13:38:13.374011+01:00",
-  "RegisteredAssociateId": 497,
-  "Updated": "2008-04-17T13:38:13.374011+02:00",
-  "UpdatedAssociateId": 723,
+  "UniqueIdentifier": "recusandae",
+  "Source": "voluptate",
+  "Registered": "1998-05-27T13:57:11.9967528+02:00",
+  "RegisteredAssociateId": 829,
+  "Updated": "2010-08-16T13:57:11.9967528+02:00",
+  "UpdatedAssociateId": 459,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 472
     }
   }
 }

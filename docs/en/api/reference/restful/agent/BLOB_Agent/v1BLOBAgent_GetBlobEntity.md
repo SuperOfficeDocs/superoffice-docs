@@ -26,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=37
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=466
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 101,
-  "BlobSize": 508,
-  "Description": "Assimilated neutral Graphical User Interface",
-  "ExtraInfo": "quia",
+  "BlobId": 450,
+  "BlobSize": 901,
+  "Description": "Programmable intangible matrix",
+  "ExtraInfo": "vitae",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "expedita",
-  "OriginalSize": 338,
-  "CreatedDate": "2015-04-05T13:38:13.0927968+02:00",
-  "UpdatedDate": "1999-02-11T13:38:13.0927968+01:00",
+  "MimeType": "enim",
+  "OriginalSize": 980,
+  "CreatedDate": "2014-11-12T13:57:11.5594343+01:00",
+  "UpdatedDate": "2003-03-24T13:57:11.5594343+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolorum",
+  "ConceptualType": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldLength": 829
     }
   }
 }

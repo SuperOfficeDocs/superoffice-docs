@@ -70,6 +70,9 @@ OK
 | CreatedDate | date-time | Registered date  in UTC. |
 | AppointmentId | int32 | Primary key |
 | Description | string | Description of the appointment. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
@@ -111,9 +114,6 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
-| Title | string | The title of the appointment. |
-| Agenda | string | The agenda of the appointment. |
-| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -131,7 +131,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-08-12T13:38:12.9365582+02:00",
-  "AppointmentId": 431,
-  "Description": "Compatible holistic infrastructure",
-  "StartDate": "2012-04-12T13:38:12.9365582+02:00",
-  "EndDate": "2011-05-20T13:38:12.9365582+02:00",
+  "CreatedDate": "2011-10-07T13:57:11.3250621+02:00",
+  "AppointmentId": 283,
+  "Description": "Persistent even-keeled parallelism",
+  "Title": "itaque",
+  "Agenda": "occaecati",
+  "InternalNotes": "tempore",
+  "StartDate": "2015-09-22T13:57:11.3250621+02:00",
+  "EndDate": "2023-07-06T13:57:11.3250621+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 867,
+  "MotherId": 834,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-05-01T13:38:12.9365582+02:00",
+  "UpdatedDate": "2006-09-19T13:57:11.3250621+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 698,
+  "ActiveLinks": 887,
   "Links": [
     {
-      "EntityName": "Armstrong, O'Hara and Zulauf",
-      "Id": 252,
-      "Description": "User-friendly responsive parallelism",
-      "ExtraInfo": "consequatur",
-      "LinkId": 899,
+      "EntityName": "Schmidt-Kuhic",
+      "Id": 276,
+      "Description": "Re-contextualized directional model",
+      "ExtraInfo": "blanditiis",
+      "LinkId": 940,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 688
+          "FieldType": "System.Int32",
+          "FieldLength": 87
         }
       }
     }
   ],
-  "AlarmLeadTime": "aut",
-  "HasAlarm": false,
-  "ColorIndex": 688,
-  "IsFree": true,
+  "AlarmLeadTime": "nam",
+  "HasAlarm": true,
+  "ColorIndex": 590,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "accusantium",
-  "LeadTime": "cumque",
-  "Location": "hic",
-  "RejectCounter": 983,
+  "LagTime": "aliquam",
+  "LeadTime": "et",
+  "Location": "cupiditate",
+  "RejectCounter": 461,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 735,
-      "PersonId": 189,
-      "ContactId": 571,
-      "EmailId": 727,
+      "AssociateId": 624,
+      "PersonId": 611,
+      "ContactId": 74,
+      "EmailId": 728,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "deontae.crona@kassulke.name",
-      "Description": "Persevering homogeneous orchestration"
+      "EmailAddress": "clarissa_bernier@cruickshank.name",
+      "Description": "Centralized local projection"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2019-07-31T13:38:12.9365582+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2015-03-20T13:57:11.3250621+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 869,
+  "PreferredTZLocation": 657,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 207,
+  "SuggestedAppointmentId": 826,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "est",
-  "Title": "eum",
-  "Agenda": "enim",
-  "InternalNotes": "eum",
+  "CentralserviceVideomeetId": "ea",
   "UserDefinedFields": {
-    "SuperOffice:1": "Kade Thompson",
-    "SuperOffice:2": "Kenyon Mohr"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "2105867778"
   },
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "error"
+    "ExtraFields1": "a",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "tempore",
-    "CustomFields2": "omnis"
+    "CustomFields1": "eos",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2020-12-25T13:38:12.9365582+01:00",
-  "PublishTo": "2018-04-29T13:38:12.9365582+02:00",
-  "PublishFrom": "2008-06-03T13:38:12.9365582+02:00",
+  "PublishEventDate": "2022-11-24T13:57:11.3250621+01:00",
+  "PublishTo": "2008-10-29T13:57:11.3250621+01:00",
+  "PublishFrom": "2003-12-22T13:57:11.3250621+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 767,
+      "VisibleId": 865,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 356
+          "FieldType": "System.Int32",
+          "FieldLength": 894
         }
       }
     },
     {
-      "VisibleId": 767,
+      "VisibleId": 865,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 356
+          "FieldType": "System.Int32",
+          "FieldLength": 894
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 125
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   }
 }

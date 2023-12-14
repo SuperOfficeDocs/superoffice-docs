@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 973,
-    "Name": "Aufderhar Inc and Sons",
-    "Tooltip": "sed",
+    "Id": 912,
+    "Name": "Gerhold, Connelly and Conroy",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 797,
+    "Rank": 573,
     "IsCustomList": false,
-    "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "deleniti",
-    "InUseByUserDefinedFields": false,
+    "IsMDOList": true,
+    "UseGroupsAndHeadings": true,
+    "ListType": "reiciendis",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 73
+        "FieldLength": 118
       }
     }
   }

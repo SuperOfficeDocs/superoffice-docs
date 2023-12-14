@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schroeder LLC",
-  "UsergroupId": 996,
+  "UdListDefinitionName": "Paucek Group",
+  "UsergroupId": 275,
   "ListItemsID": [
-    231,
-    935
+    190,
+    569
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

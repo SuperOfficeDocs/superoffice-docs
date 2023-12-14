@@ -92,14 +92,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hickle, Doyle and Gorczany",
-  "ForceFlatList": true,
-  "AdditionalInfo": "sint",
+  "Name": "Abernathy-Nienow",
+  "ForceFlatList": false,
+  "AdditionalInfo": "nam",
   "HistoryItems": [
-    698,
-    537
+    676,
+    330
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Name": "Krajcik Inc and Sons",
-    "ToolTip": "Facere et maiores.",
+    "Id": 282,
+    "Name": "Prosacco-Schmidt",
+    "ToolTip": "Quis totam dolorem quisquam voluptas.",
     "Deleted": true,
-    "Rank": 643,
-    "Type": "error",
+    "Rank": 613,
+    "Type": "eveniet",
     "ChildItems": [
       {
-        "Id": 677,
-        "Name": "Streich, Skiles and Stanton",
-        "ToolTip": "Temporibus molestias et pariatur.",
+        "Id": 83,
+        "Name": "Bashirian, Weimann and Franecki",
+        "ToolTip": "Rerum at commodi vel quisquam.",
         "Deleted": true,
-        "Rank": 913,
-        "Type": "molestiae",
+        "Rank": 132,
+        "Type": "tempore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "optio",
-        "ColorBlock": 980,
-        "ExtraInfo": "rem",
-        "StyleHint": "enim",
-        "FullName": "Ciara Treutel",
+        "IconHint": "quasi",
+        "ColorBlock": 931,
+        "ExtraInfo": "aut",
+        "StyleHint": "quod",
+        "FullName": "Ms. Crawford Cruickshank MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 842
+            "FieldLength": 598
           }
         }
       }
     ],
-    "IconHint": "iusto",
-    "ColorBlock": 248,
-    "ExtraInfo": "dolor",
-    "StyleHint": "beatae",
-    "FullName": "Ms. Elliott Adams I",
+    "IconHint": "commodi",
+    "ColorBlock": 821,
+    "ExtraInfo": "adipisci",
+    "StyleHint": "odio",
+    "FullName": "Sherman Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 327
+        "FieldType": "System.String",
+        "FieldLength": 650
       }
     }
   }

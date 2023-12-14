@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 380,
-  "PersonId": 952,
-  "AppointmentId": 940,
-  "DocumentId": 606,
-  "SaleId": 508,
-  "SelectionId": 610,
-  "ProjectId": 574,
+  "ContactId": 49,
+  "PersonId": 247,
+  "AppointmentId": 540,
+  "DocumentId": 81,
+  "SaleId": 943,
+  "SelectionId": 355,
+  "ProjectId": 671,
   "CustomTags": [
-    "perspiciatis",
-    "similique"
+    "animi",
+    "vel"
   ],
   "CustomValues": [
-    "velit",
-    "esse"
+    "eligendi",
+    "voluptatem"
   ],
-  "UiCulture": "ex"
+  "UiCulture": "repudiandae"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 871,
+  "DocumentId": 757,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "non",
-  "Header": "vero",
-  "Name": "Streich, Bahringer and Weimann",
-  "OurRef": "rem",
-  "YourRef": "sequi",
-  "CreatedDate": "2003-10-10T13:38:13.4677523+02:00",
-  "UpdatedDate": "2009-12-18T13:38:13.4677523+01:00",
-  "Description": "Integrated systemic help-desk",
+  "Attention": "quia",
+  "Header": "aliquam",
+  "Name": "Hartmann Group",
+  "OurRef": "quia",
+  "YourRef": "amet",
+  "CreatedDate": "2020-06-22T13:57:12.1686185+02:00",
+  "UpdatedDate": "2004-05-18T13:57:12.1686185+02:00",
+  "Description": "Total modular website",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2014-07-20T13:38:13.4833723+02:00",
-  "ExternalRef": "tempore",
+  "Date": "2019-02-23T13:57:12.1686185+01:00",
+  "ExternalRef": "tempora",
   "Completed": "Completed",
-  "ActiveLinks": 511,
+  "ActiveLinks": 285,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bauch Inc and Sons",
-      "Id": 934,
-      "Description": "Exclusive disintermediate groupware",
-      "ExtraInfo": "sint",
-      "LinkId": 828,
+      "EntityName": "Wunsch Group",
+      "Id": 87,
+      "Description": "Cross-platform 5th generation process improvement",
+      "ExtraInfo": "aperiam",
+      "LinkId": 478,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 10
+          "FieldLength": 22
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 209,
-  "Snum": 664,
+  "SuggestedDocumentId": 822,
+  "Snum": 413,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Edmund Shanna Schowalter IV",
-    "SuperOffice:2": "751756878"
+    "SuperOffice:1": "2096986496",
+    "SuperOffice:2": "Brian Pacocha"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "molestias"
+    "ExtraFields1": "et",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "impedit",
-    "CustomFields2": "blanditiis"
+    "CustomFields1": "iusto",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "1999-09-05T13:38:13.4833723+02:00",
-  "PublishTo": "1997-04-28T13:38:13.4833723+02:00",
-  "PublishFrom": "2005-09-02T13:38:13.4833723+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2022-05-26T13:57:12.1686185+02:00",
+  "PublishTo": "2012-12-08T13:57:12.1686185+01:00",
+  "PublishFrom": "2013-07-06T13:57:12.1686185+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 960,
+      "VisibleId": 984,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldLength": 172
         }
       }
     },
     {
-      "VisibleId": 960,
+      "VisibleId": 984,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldLength": 172
         }
       }
     }
@@ -238,7 +238,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldLength": 153
     }
   }
 }

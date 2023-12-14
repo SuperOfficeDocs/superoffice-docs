@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 48,
-  "Name": "Thompson Inc and Sons",
-  "Tooltip": "non",
+  "Id": 449,
+  "Name": "Zemlak LLC",
+  "Tooltip": "ea",
   "Deleted": true,
-  "UdListDefinitionId": 927,
-  "Rank": 197
+  "UdListDefinitionId": 431,
+  "Rank": 649
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 755,
-  "Name": "Osinski-Schuster",
-  "Tooltip": "perspiciatis",
+  "Id": 770,
+  "Name": "Kemmer-Mosciski",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "UdListDefinitionId": 615,
-  "Rank": 453,
+  "UdListDefinitionId": 918,
+  "Rank": 690,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldLength": 993
     }
   }
 }

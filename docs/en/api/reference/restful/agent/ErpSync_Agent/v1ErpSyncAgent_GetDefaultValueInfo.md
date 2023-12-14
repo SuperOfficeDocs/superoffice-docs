@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 951
+  "ErpFieldId": 115
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 383,
-  "DefaultValue": "nesciunt",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "incidunt",
-  "PromptUser": false,
+  "ErpFieldId": 106,
+  "DefaultValue": "aut",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "quas",
+  "PromptUser": true,
   "Mandatory": false,
-  "ErpFieldKey": "ea",
+  "ErpFieldKey": "voluptate",
   "FieldType": "Checkbox",
-  "ListName": "Rempel Group",
+  "ListName": "Strosin, Windler and Grant",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 940
+      "FieldType": "System.Int32",
+      "FieldLength": 190
     }
   }
 }

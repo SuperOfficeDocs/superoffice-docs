@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 857,
-    "Name": "Cassin, Nader and Schmitt",
-    "ToolTip": "Tempore nobis repudiandae exercitationem excepturi.",
-    "Deleted": true,
-    "Rank": 941,
-    "Type": "amet",
-    "ColorBlock": 656,
-    "IconHint": "eum",
+    "Id": 443,
+    "Name": "DuBuque LLC",
+    "ToolTip": "Non commodi ut.",
+    "Deleted": false,
+    "Rank": 331,
+    "Type": "unde",
+    "ColorBlock": 603,
+    "IconHint": "at",
     "Selected": false,
-    "LastChanged": "2004-10-22T13:38:17.9213006+02:00",
+    "LastChanged": "2004-10-24T13:57:19.6565553+02:00",
     "ChildItems": [
       {
-        "Id": 703,
-        "Name": "Schaden-Feeney",
-        "ToolTip": "Maiores esse et est architecto nam non voluptatem.",
+        "Id": 277,
+        "Name": "Cruickshank Group",
+        "ToolTip": "Maiores error vero inventore et cumque quia ut.",
         "Deleted": false,
-        "Rank": 102,
-        "Type": "qui",
-        "ColorBlock": 502,
-        "IconHint": "labore",
+        "Rank": 649,
+        "Type": "veritatis",
+        "ColorBlock": 526,
+        "IconHint": "modi",
         "Selected": true,
-        "LastChanged": "2008-10-15T13:38:17.9213006+02:00",
+        "LastChanged": "2021-12-02T13:57:19.6565553+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "quia",
+        "ExtraInfo": "non",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Prof. Lizeth Carissa Hermann II"
+        "FullName": "Macie Logan Collier Jr."
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "aut",
+    "StyleHint": "eum",
     "Hidden": true,
-    "FullName": "Prof. Rosemary Angus Walker DDS"
+    "FullName": "Prof. John Trinity Kihn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 541,
-    "Name": "Gerlach LLC",
-    "ToolTip": "Autem qui placeat cupiditate.",
+    "Id": 317,
+    "Name": "Deckow, Herman and Zulauf",
+    "ToolTip": "Voluptates error velit officiis.",
     "Deleted": false,
-    "Rank": 659,
-    "Type": "tempora",
-    "ColorBlock": 50,
-    "IconHint": "eos",
+    "Rank": 709,
+    "Type": "laborum",
+    "ColorBlock": 926,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2004-06-26T13:38:17.9213006+02:00",
+    "LastChanged": "2013-07-04T13:57:19.6565553+02:00",
     "ChildItems": [
       {
-        "Id": 344,
-        "Name": "Cartwright LLC",
-        "ToolTip": "Labore esse itaque dolor quis eligendi.",
-        "Deleted": true,
-        "Rank": 40,
-        "Type": "et",
-        "ColorBlock": 364,
-        "IconHint": "iste",
+        "Id": 851,
+        "Name": "Mertz, Kunze and Mayert",
+        "ToolTip": "Consequatur et.",
+        "Deleted": false,
+        "Rank": 417,
+        "Type": "reprehenderit",
+        "ColorBlock": 118,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2001-03-16T13:38:17.9213006+01:00",
+        "LastChanged": "2001-06-13T13:57:19.6565553+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "itaque",
-        "Hidden": true,
-        "FullName": "Mrs. Keagan Roderick Larkin I",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "aspernatur",
+        "Hidden": false,
+        "FullName": "Ms. Johnson Stoltenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 944
+            "FieldType": "System.String",
+            "FieldLength": 530
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "distinctio",
-    "Hidden": true,
-    "FullName": "Emmanuel Feil",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "cumque",
+    "Hidden": false,
+    "FullName": "Jasen Prosacco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 262
+        "FieldLength": 302
       }
     }
   }

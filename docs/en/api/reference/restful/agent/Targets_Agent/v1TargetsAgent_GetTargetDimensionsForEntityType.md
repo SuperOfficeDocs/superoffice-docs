@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 356,
+    "TargetDimensionId": 328,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "voluptates",
-    "DimensionListName": "Zieme, Nitzsche and O'Keefe",
-    "DimensionListId": 551,
-    "DimensionListLabel": "deserunt",
+    "DimensionListField": "odit",
+    "DimensionListName": "Koelpin-Hessel",
+    "DimensionListId": 25,
+    "DimensionListLabel": "nam",
     "SelectedDimensions": [
-      660,
-      88
+      781,
+      902
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 56
+        "FieldType": "System.Int32",
+        "FieldLength": 625
       }
     }
   }

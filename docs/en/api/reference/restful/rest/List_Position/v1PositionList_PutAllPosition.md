@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 635,
-    "Name": "Kessler Group",
-    "Tooltip": "quasi",
-    "Deleted": true,
-    "UdListDefinitionId": 49,
-    "Rank": 264
+    "Id": 237,
+    "Name": "Mayert, Lockman and Beatty",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 746,
+    "Rank": 728
   },
   {
-    "Id": 635,
-    "Name": "Kessler Group",
-    "Tooltip": "quasi",
-    "Deleted": true,
-    "UdListDefinitionId": 49,
-    "Rank": 264
+    "Id": 237,
+    "Name": "Mayert, Lockman and Beatty",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 746,
+    "Rank": 728
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 978,
-    "Name": "Heller LLC",
-    "Tooltip": "nisi",
+    "Id": 903,
+    "Name": "Ward, Smitham and Krajcik",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 985,
-    "Rank": 664,
+    "UdListDefinitionId": 388,
+    "Rank": 206,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 808
       }
     }
   }

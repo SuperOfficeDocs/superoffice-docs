@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 465
+  "ContactId": 450
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hodkiewicz-Willms",
-    "SaleDate": "2002-07-22T13:38:14.1084486+02:00",
-    "SaleId": 587,
-    "Probability": 896,
-    "Title": "eaque",
-    "Amount": 11708.624,
-    "Currency": "ipsa",
-    "ProjectName": "Ward LLC",
-    "AssociateFullName": "Jeremie America Rippin III",
-    "Description": "Multi-channelled human-resource matrices",
+    "ContactName": "Beatty-Hessel",
+    "SaleDate": "2023-06-27T13:57:13.1757129+02:00",
+    "SaleId": 771,
+    "Probability": 779,
+    "Title": "rerum",
+    "Amount": 22000.68,
+    "Currency": "et",
+    "ProjectName": "Ondricka, Boehm and Conroy",
+    "AssociateFullName": "Darion Lockman",
+    "Description": "Decentralized mission-critical emulation",
     "Status": "Lost",
-    "WeightedAmount": 13802.136,
-    "ProjectId": 591,
-    "EarningPercent": 16534.984,
-    "Earning": 18500.002,
-    "ContactId": 912,
-    "AssociateId": 766,
-    "PersonId": 833,
-    "SaleTypeId": 756,
-    "SaleTypeName": "Lind LLC",
-    "PersonFullName": "Kaleigh Rempel",
+    "WeightedAmount": 247.58599999999998,
+    "ProjectId": 821,
+    "EarningPercent": 22304.678,
+    "Earning": 23536.34,
+    "ContactId": 347,
+    "AssociateId": 109,
+    "PersonId": 792,
+    "SaleTypeId": 887,
+    "SaleTypeName": "Stamm LLC",
+    "PersonFullName": "Carlo Hauck",
     "Completed": "Completed",
-    "ActiveErpLinks": 362,
-    "NextDueDate": "2008-11-25T13:38:14.1084486+01:00",
-    "Number": "627729",
+    "ActiveErpLinks": 552,
+    "NextDueDate": "2007-07-11T13:57:13.1757129+02:00",
+    "Number": "1858227",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldType": "System.String",
+        "FieldLength": 86
       }
     }
   }

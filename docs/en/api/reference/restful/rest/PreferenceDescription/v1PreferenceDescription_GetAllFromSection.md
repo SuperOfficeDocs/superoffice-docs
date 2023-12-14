@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 235,
-    "Section": "qui",
-    "Key": "architecto",
-    "Name": "Huels-Okuneva",
+    "PrefDescId": 527,
+    "Section": "sed",
+    "Key": "quasi",
+    "Name": "Hickle LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Organic client-server architecture",
-    "IsBuiltin": false,
-    "TableName": "Maggio, Klocko and Purdy",
-    "UserDefinedListId": 299,
-    "Rank": 399,
-    "SubGroup": "consequatur",
-    "MinLevel": 693,
-    "MaxValue": 378,
-    "MinValue": 432,
-    "RequiredLicense": "et",
+    "Description": "Grass-roots well-modulated utilisation",
+    "IsBuiltin": true,
+    "TableName": "Keeling, Dach and Schultz",
+    "UserDefinedListId": 948,
+    "Rank": 426,
+    "SubGroup": "beatae",
+    "MinLevel": 72,
+    "MaxValue": 865,
+    "MinValue": 211,
+    "RequiredLicense": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 471
+        "FieldType": "System.Int32",
+        "FieldLength": 867
       }
     }
   }

@@ -70,11 +70,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 705,
-  "ReplyTemplateId": 310,
+  "TicketMessageEntityId": 452,
+  "ReplyTemplateId": 518,
   "Sms": [
-    "aut",
-    "voluptate"
+    "deleniti",
+    "veritatis"
   ]
 }
 ```

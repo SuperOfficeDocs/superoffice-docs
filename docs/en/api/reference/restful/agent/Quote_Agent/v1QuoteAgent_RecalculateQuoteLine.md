@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "molestiae",
-    "architecto"
+    "praesentium",
+    "eius"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 601,
-  "ERPQuoteLineKey": "voluptatem",
-  "QuoteAlternativeId": 666,
-  "ERPProductKey": "vitae",
+  "QuoteLineId": 43,
+  "ERPQuoteLineKey": "vitae",
+  "QuoteAlternativeId": 113,
+  "ERPProductKey": "quis",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 24012.708,
-  "DeliveredQuantity": 19333.646,
-  "Rank": 35,
-  "Name": "Hudson LLC",
-  "Description": "User-centric real-time data-warehouse",
-  "Code": "qui",
-  "QuantityUnit": "libero",
-  "PriceUnit": "quas",
-  "ItemNumber": "1266518",
+  "Quantity": 8725.056,
+  "DeliveredQuantity": 26557.516,
+  "Rank": 176,
+  "Name": "Quigley-Gorczany",
+  "Description": "Polarised neutral local area network",
+  "Code": "aut",
+  "QuantityUnit": "sint",
+  "PriceUnit": "vel",
+  "ItemNumber": "1430928",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "itaque",
-  "ProductTypeKey": "sequi",
-  "Supplier": "aut",
-  "SupplierCode": "modi",
-  "Thumbnail": "inventore",
-  "VATInfo": "autem",
-  "VAT": 28867.273999999998,
-  "UnitCost": 21834.577999999998,
-  "UnitMinimumPrice": 564.12,
-  "UnitListPrice": 12977.894,
+  "ProductFamilyKey": "enim",
+  "ProductTypeKey": "odit",
+  "Supplier": "eligendi",
+  "SupplierCode": "aut",
+  "Thumbnail": "voluptatibus",
+  "VATInfo": "voluptas",
+  "VAT": 18985.772,
+  "UnitCost": 4760.546,
+  "UnitMinimumPrice": 24313.572,
+  "UnitListPrice": 26604.525999999998,
   "ExtraInfo": [
     {
-      "Name": "Kutch Group",
-      "Value": "similique",
+      "Name": "Russel, Reilly and Douglas",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 395
+          "FieldLength": 27
         }
       }
     },
     {
-      "Name": "Kutch Group",
-      "Value": "similique",
+      "Name": "Russel, Reilly and Douglas",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 395
+          "FieldLength": 27
         }
       }
     }
   ],
-  "RawExtraInfo": "quae",
+  "RawExtraInfo": "consequatur",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptatem",
-  "SubscriptionQuantity": 4675.928,
-  "SubscriptionStart": "2005-08-31T13:38:13.9990881+02:00",
-  "ERPDiscountPercent": 4208.9619999999995,
-  "ERPDiscountAmount": 26043.54,
-  "DiscountPercent": 15911.318,
-  "DiscountAmount": 24288.5,
+  "SubscriptionUnit": "id",
+  "SubscriptionQuantity": 15939.524,
+  "SubscriptionStart": "1998-05-21T13:57:13.0167902+02:00",
+  "ERPDiscountPercent": 21796.969999999998,
+  "ERPDiscountAmount": 6180.248,
+  "DiscountPercent": 26027.87,
+  "DiscountAmount": 7364.9,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 30569.036,
-  "EarningAmount": 20474.422,
-  "SubTotal": 8164.07,
-  "TotalPrice": 20142.218,
-  "Rights": "nemo",
-  "Rule": "velit",
-  "ExtraField1": "in",
-  "ExtraField2": "est",
-  "ExtraField3": "sunt",
-  "ExtraField4": "provident",
-  "ExtraField5": "laudantium",
+  "EarningPercent": 10395.478,
+  "EarningAmount": 4926.648,
+  "SubTotal": 5368.5419999999995,
+  "TotalPrice": 30180.42,
+  "Rights": "nihil",
+  "Rule": "voluptatibus",
+  "ExtraField1": "et",
+  "ExtraField2": "quia",
+  "ExtraField3": "debitis",
+  "ExtraField4": "omnis",
+  "ExtraField5": "modi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldLength": 879
     }
   }
 }

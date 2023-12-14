@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "accusamus",
+  "SaleText": "quia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2004-07-16T13:38:17.6399305+02:00",
-  "Amount": 7825.598,
-  "SaleId": 914,
-  "Earning": 1172.116,
-  "EarningPercent": 11442.234,
-  "Heading": "optio",
-  "Number": "1437034",
-  "Probability": 820,
-  "CreatedDate": "2019-01-26T13:38:17.6399305+01:00",
-  "UpdatedDate": "2006-02-07T13:38:17.6399305+01:00",
+  "Saledate": "2010-12-21T13:57:19.2346514+01:00",
+  "Amount": 15864.307999999999,
+  "SaleId": 259,
+  "Earning": 12905.812,
+  "EarningPercent": 419.95599999999996,
+  "Heading": "aperiam",
+  "Number": "1473598",
+  "Probability": 943,
+  "CreatedDate": "2020-04-10T13:57:19.2346514+02:00",
+  "UpdatedDate": "2014-06-19T13:57:19.2346514+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 235,
+  "ActiveLinks": 517,
   "Links": [
     {
-      "EntityName": "Wisoky, Von and Wiza",
-      "Id": 677,
-      "Description": "Optional uniform toolset",
-      "ExtraInfo": "et",
-      "LinkId": 660
+      "EntityName": "Cronin-Jast",
+      "Id": 682,
+      "Description": "Programmable full-range function",
+      "ExtraInfo": "ipsa",
+      "LinkId": 905
     },
     {
-      "EntityName": "Wisoky, Von and Wiza",
-      "Id": 677,
-      "Description": "Optional uniform toolset",
-      "ExtraInfo": "et",
-      "LinkId": 660
+      "EntityName": "Cronin-Jast",
+      "Id": 682,
+      "Description": "Programmable full-range function",
+      "ExtraInfo": "ipsa",
+      "LinkId": 905
     }
   ],
-  "NextDueDate": "2013-06-30T13:38:17.6399305+02:00",
-  "Postit": "perferendis",
+  "NextDueDate": "2007-09-13T13:57:19.2346514+02:00",
+  "Postit": "esse",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1996-08-21T13:38:17.6399305+02:00",
+  "ReopenDate": "2014-01-13T13:57:19.2346514+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kirlin LLC",
-      "Comment": "et",
-      "StakeholderRoleId": 784,
-      "CountryId": 836,
-      "PersonId": 875,
-      "EmailDescription": "christopher@raustehr.info",
-      "EmailId": 382,
-      "EmailAddress": "keon@raynorhowell.biz",
-      "PhoneId": 306,
-      "ContactName": "Tremblay, Schumm and Cassin",
-      "ContactId": 449,
-      "SaleId": 372,
-      "Mrmrs": "molestiae",
-      "Firstname": "Trudie",
-      "MiddleName": "Purdy, Douglas and Mertz",
-      "Lastname": "Trantow",
-      "SaleStakeholderId": 867,
-      "Rank": 839,
-      "Phone": "699-176-0617"
+      "StakeholderRoleName": "Balistreri-Roob",
+      "Comment": "tenetur",
+      "StakeholderRoleId": 497,
+      "CountryId": 103,
+      "PersonId": 321,
+      "EmailDescription": "sasha_pouros@heidenreich.co.uk",
+      "EmailId": 389,
+      "EmailAddress": "jeanie_bahringer@kulas.ca",
+      "PhoneId": 993,
+      "ContactName": "McCullough, Wiza and Rau",
+      "ContactId": 400,
+      "SaleId": 381,
+      "Mrmrs": "iure",
+      "Firstname": "Alexandrea",
+      "MiddleName": "Douglas Group",
+      "Lastname": "Harvey",
+      "SaleStakeholderId": 102,
+      "Rank": 517,
+      "Phone": "200.790.5570 x11465"
     }
   ],
-  "ActiveErpLinks": 412,
+  "ActiveErpLinks": 79,
   "UserDefinedFields": {
-    "SuperOffice:1": "370951413",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Mrs. Grady Lemke",
+    "SuperOffice:2": "573193435"
   },
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "dicta"
+    "CustomFields1": "esse",
+    "CustomFields2": "vel"
   },
-  "PublishEventDate": "2016-03-17T13:38:17.6399305+01:00",
-  "PublishTo": "2016-02-22T13:38:17.6399305+01:00",
-  "PublishFrom": "2000-07-03T13:38:17.6399305+02:00",
+  "PublishEventDate": "2004-11-05T13:57:19.2346514+01:00",
+  "PublishTo": "2014-08-21T13:57:19.2346514+02:00",
+  "PublishFrom": "2022-04-04T13:57:19.2346514+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 634,
+      "VisibleId": 442,
       "Visibility": "All",
-      "DisplayValue": "occaecati"
+      "DisplayValue": "ducimus"
     },
     {
-      "VisibleId": 634,
+      "VisibleId": 442,
       "Visibility": "All",
-      "DisplayValue": "occaecati"
+      "DisplayValue": "ducimus"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "illum",
-  "2": "sed"
+  "1": "cupiditate",
+  "2": "facilis"
 }
 ```

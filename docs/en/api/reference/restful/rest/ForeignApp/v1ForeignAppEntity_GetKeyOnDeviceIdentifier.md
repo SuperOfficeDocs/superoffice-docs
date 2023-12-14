@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 28 Jan 2017 13:38:17 G1T
+Last-Modified: Mon, 24 Sep 2001 13:57:18 G9T
 
 {
-  "Key": "expedita",
-  "Value": "qui",
-  "RecordId": 515,
-  "CreatedDate": "1998-03-25T13:38:17.4524494+01:00",
-  "UpdatedDate": "2017-01-28T13:38:17.4524494+01:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "similique",
-  "TableName": "Goodwin Inc and Sons",
+  "Key": "neque",
+  "Value": "laudantium",
+  "RecordId": 656,
+  "CreatedDate": "2001-01-05T13:57:18.8265985+01:00",
+  "UpdatedDate": "2001-09-24T13:57:18.8265985+02:00",
+  "UpdatedBy": "fugiat",
+  "CreatedBy": "dolor",
+  "TableName": "Simonis Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 313
+      "FieldLength": 802
     }
   }
 }

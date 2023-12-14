@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 567,
-  "Field": "porro",
-  "RecordId": 29,
+  "RefCountsId": 342,
+  "Field": "expedita",
+  "RecordId": 504,
   "SuggestedRecords": [
     {
-      "Id": 321,
-      "Name": "Doyle Inc and Sons",
-      "ToolTip": "Ducimus et quidem autem eligendi velit quia laboriosam.",
+      "Id": 16,
+      "Name": "Jones, Towne and Koch",
+      "ToolTip": "Vel ut.",
       "Deleted": false,
-      "Rank": 790,
-      "Type": "ut",
+      "Rank": 727,
+      "Type": "possimus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eum",
-      "ColorBlock": 827,
-      "ExtraInfo": "enim",
-      "StyleHint": "vitae",
-      "FullName": "Emilie Jacobi",
+      "IconHint": "adipisci",
+      "ColorBlock": 432,
+      "ExtraInfo": "vel",
+      "StyleHint": "tempora",
+      "FullName": "Carrie Josie Maggio PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 681
+          "FieldLength": 166
         }
       }
     }
   ],
-  "CurrentValue": 558,
-  "TravelPrefix": 135,
-  "SatPrefix": 616,
+  "CurrentValue": 561,
+  "TravelPrefix": 459,
+  "SatPrefix": 611,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldLength": 604
     }
   }
 }

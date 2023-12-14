@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=aut
+GET /api/v1/List/ConsentSource/MDOItems?query=dignissimos
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 497,
-    "Name": "Graham Group",
-    "ToolTip": "Deleniti voluptatem molestias error accusantium nesciunt.",
+    "Id": 46,
+    "Name": "Waelchi, Hamill and Barrows",
+    "ToolTip": "Quae est.",
     "Deleted": true,
-    "Rank": 435,
-    "Type": "molestiae",
+    "Rank": 416,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 826,
-        "Name": "Koepp Group",
-        "ToolTip": "Facere eius quidem ea totam vel ex sint.",
+        "Id": 79,
+        "Name": "Torp-Kulas",
+        "ToolTip": "Est placeat.",
         "Deleted": false,
-        "Rank": 365,
-        "Type": "molestiae",
+        "Rank": 489,
+        "Type": "delectus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "perferendis",
-        "ColorBlock": 736,
-        "ExtraInfo": "vitae",
-        "StyleHint": "qui",
-        "FullName": "Dr. Austen Rau",
+        "IconHint": "repellendus",
+        "ColorBlock": 774,
+        "ExtraInfo": "eligendi",
+        "StyleHint": "nihil",
+        "FullName": "Mrs. Deja Jerrell Klein",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 249
+            "FieldLength": 666
           }
         }
       }
     ],
-    "IconHint": "deleniti",
-    "ColorBlock": 779,
+    "IconHint": "iusto",
+    "ColorBlock": 669,
     "ExtraInfo": "a",
-    "StyleHint": "consequatur",
-    "FullName": "Duane Cielo Kuhn I",
+    "StyleHint": "voluptatum",
+    "FullName": "Dorris Bogan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldLength": 715
       }
     }
   }

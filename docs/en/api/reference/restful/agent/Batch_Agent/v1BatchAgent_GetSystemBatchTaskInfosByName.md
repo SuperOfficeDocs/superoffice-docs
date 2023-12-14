@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Hodkiewicz, Russel and Thiel"
+  "TaskName": "Torp Group"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 657,
-    "Name": "Hayes, Skiles and Gibson",
-    "AssociateId": 767,
-    "DetailsTable": 933,
-    "DetailsRecord": 278,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 268,
+    "Name": "Denesik-Nolan",
+    "AssociateId": 436,
+    "DetailsTable": 438,
+    "DetailsRecord": 80,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "cum",
-      "ParameterObject2": "voluptas"
+      "ParameterObject1": "tempora",
+      "ParameterObject2": "dolorem"
     },
-    "LastStarted": "2007-06-18T13:38:13.0927968+02:00",
-    "Created": "2006-02-07T13:38:13.0927968+01:00",
-    "StartCount": 328,
-    "DatabaseSerialNumber": "551072",
-    "Context": "est",
-    "Result": "consequatur",
+    "LastStarted": "2015-01-31T13:57:11.5594343+01:00",
+    "Created": "2012-09-21T13:57:11.5594343+02:00",
+    "StartCount": 454,
+    "DatabaseSerialNumber": "1299667",
+    "Context": "nihil",
+    "Result": "ipsam",
     "State": "All",
-    "Description": "Pre-emptive 5th generation concept",
-    "Response": "voluptas",
-    "Request": "nihil",
-    "ProgressDescription": "User-centric motivating methodology",
-    "ProgressPercent": 816,
-    "FileName": "Toy-Block",
+    "Description": "Stand-alone maximized synergy",
+    "Response": "sed",
+    "Request": "sit",
+    "ProgressDescription": "Switchable cohesive emulation",
+    "ProgressPercent": 474,
+    "FileName": "VonRueden-Hills",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldLength": 254
       }
     }
   }

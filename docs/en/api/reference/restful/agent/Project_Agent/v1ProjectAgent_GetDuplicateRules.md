@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hilpert, Hilll and Lesch",
-    "DisplayName": "Barton Inc and Sons",
-    "DisplayTooltip": "repellendus",
-    "IsActive": true,
+    "Name": "Olson, Daniel and Casper",
+    "DisplayName": "Rempel, Gutmann and Morissette",
+    "DisplayTooltip": "a",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 901
+        "FieldLength": 472
       }
     }
   },
   {
-    "Name": "Hilpert, Hilll and Lesch",
-    "DisplayName": "Barton Inc and Sons",
-    "DisplayTooltip": "repellendus",
-    "IsActive": true,
+    "Name": "Olson, Daniel and Casper",
+    "DisplayName": "Rempel, Gutmann and Morissette",
+    "DisplayTooltip": "a",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 901
+        "FieldLength": 472
       }
     }
   }

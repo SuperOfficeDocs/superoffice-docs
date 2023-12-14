@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Dicki-Luettgen"
+  "ApplicationName": "Sanford Inc and Sons"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 365,
-    "Name": "Bechtelar-Nitzsche",
-    "CreatedDate": "2004-07-15T13:38:13.623981+02:00",
-    "UpdatedDate": "2019-05-24T13:38:13.623981+02:00",
-    "AssociateFullName": "Prof. Herminia Terry IV",
-    "CreatedBy": "fugiat",
-    "UpdatedBy": "perferendis",
-    "DeviceIdentifier": "magnam",
-    "ForeignAppId": 667,
+    "ForeignDeviceId": 602,
+    "Name": "Lubowitz Group",
+    "CreatedDate": "1998-09-10T13:57:12.4181107+02:00",
+    "UpdatedDate": "2013-04-24T13:57:12.4181107+02:00",
+    "AssociateFullName": "Ms. Brandt Braun",
+    "CreatedBy": "et",
+    "UpdatedBy": "laudantium",
+    "DeviceIdentifier": "et",
+    "ForeignAppId": 289,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 615
+        "FieldLength": 179
       }
     }
   }

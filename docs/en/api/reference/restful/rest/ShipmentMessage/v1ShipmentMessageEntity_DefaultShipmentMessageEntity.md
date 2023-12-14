@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 591,
-  "PlainMessage": "laboriosam",
-  "HtmlMessage": "consequatur",
-  "SmsMessage": "sunt",
-  "Description": "Compatible interactive hardware",
-  "Subject": "fugiat",
-  "FolderId": 619,
-  "HeaderField": "commodi",
-  "Design": "molestiae",
+  "ShipmentMessageId": 988,
+  "PlainMessage": "earum",
+  "HtmlMessage": "expedita",
+  "SmsMessage": "quia",
+  "Description": "Compatible optimal knowledge user",
+  "Subject": "necessitatibus",
+  "FolderId": 170,
+  "HeaderField": "voluptatem",
+  "Design": "est",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Multi-tiered leading edge ability",
-  "AccessKey": "quod",
-  "DocumentMessage": 142,
-  "Registered": "2009-04-06T13:38:17.6711737+02:00",
-  "RegisteredAssociateId": 705,
-  "Updated": "2001-11-20T13:38:17.6711737+01:00",
-  "UpdatedAssociateId": 184,
-  "UpdatedCount": 408,
+  "LongDescription": "Configurable user-facing complexity",
+  "AccessKey": "veritatis",
+  "DocumentMessage": 974,
+  "Registered": "2023-06-24T13:57:19.2815227+02:00",
+  "RegisteredAssociateId": 987,
+  "Updated": "2012-09-22T13:57:19.2815227+02:00",
+  "UpdatedAssociateId": 647,
+  "UpdatedCount": 667,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 88
+      "FieldType": "System.Int32",
+      "FieldLength": 15
     }
   }
 }

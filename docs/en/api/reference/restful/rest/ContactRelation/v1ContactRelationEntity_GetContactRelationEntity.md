@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,33 +99,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 28 Dec 2022 13:38:17 G12T
+Last-Modified: Sun, 21 Sep 1997 13:57:18 G9T
 
 {
-  "SourceContactId": 1002,
-  "SourcePersonId": 249,
-  "DestinationContactId": 216,
-  "DestinationPersonId": 642,
-  "RelationId": 125,
-  "Comment": "odit",
-  "RelationDefinitionId": 30,
-  "Reversed": 449,
-  "UpdatedDate": "2022-12-28T13:38:17.280593+01:00",
-  "CreatedDate": "2008-10-31T13:38:17.280593+01:00",
+  "SourceContactId": 432,
+  "SourcePersonId": 662,
+  "DestinationContactId": 565,
+  "DestinationPersonId": 83,
+  "RelationId": 223,
+  "Comment": "nihil",
+  "RelationDefinitionId": 728,
+  "Reversed": 910,
+  "UpdatedDate": "1997-09-21T13:57:18.6846845+02:00",
+  "CreatedDate": "2009-10-17T13:57:18.6846845+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Mueller LLC",
-  "SourcePersonName": "Pfannerstill, Nienow and Hettinger",
-  "DestinationContactName": "Kutch-Hamill",
-  "DestinationPersonName": "Rolfson Group",
-  "ActiveText": "eum",
-  "PassiveText": "et",
+  "SourceContactName": "Cassin, Kuhic and Wilderman",
+  "SourcePersonName": "Durgan Inc and Sons",
+  "DestinationContactName": "Ullrich, Blanda and Schumm",
+  "DestinationPersonName": "Schulist Inc and Sons",
+  "ActiveText": "assumenda",
+  "PassiveText": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldLength": 240
     }
   },
   "_Links": {

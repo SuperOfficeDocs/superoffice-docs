@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "minima",
-  "ProviderName": "Koch Inc and Sons",
-  "StorageKey": "velit",
-  "Context": "aperiam"
+  "StorageType": "aspernatur",
+  "ProviderName": "Kohler Group",
+  "StorageKey": "consequatur",
+  "Context": "in"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rempel LLC",
-    "Description": "Triple-buffered non-volatile installation",
-    "Rank": 802,
+    "Name": "Marvin LLC",
+    "Description": "Cross-group zero defect forecast",
+    "Rank": 207,
     "Restrictions": [
       {
-        "Name": "Friesen-Breitenberg",
-        "Operator": "eum",
+        "Name": "Barton, Hand and Blick",
+        "Operator": "unde",
         "Values": [
-          "sed",
-          "nostrum"
+          "beatae",
+          "rerum"
         ],
         "DisplayValues": [
-          "et",
-          "cupiditate"
+          "aliquam",
+          "iure"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -117,27 +117,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 211,
+        "InterParenthesis": 516,
         "InterOperator": "And",
-        "UniqueHash": 714
+        "UniqueHash": 495
       }
     ]
   },
   {
-    "Name": "Rempel LLC",
-    "Description": "Triple-buffered non-volatile installation",
-    "Rank": 802,
+    "Name": "Marvin LLC",
+    "Description": "Cross-group zero defect forecast",
+    "Rank": 207,
     "Restrictions": [
       {
-        "Name": "Friesen-Breitenberg",
-        "Operator": "eum",
+        "Name": "Barton, Hand and Blick",
+        "Operator": "unde",
         "Values": [
-          "sed",
-          "nostrum"
+          "beatae",
+          "rerum"
         ],
         "DisplayValues": [
-          "et",
-          "cupiditate"
+          "aliquam",
+          "iure"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -145,9 +145,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 211,
+        "InterParenthesis": 516,
         "InterOperator": "And",
-        "UniqueHash": 714
+        "UniqueHash": 495
       }
     ]
   }

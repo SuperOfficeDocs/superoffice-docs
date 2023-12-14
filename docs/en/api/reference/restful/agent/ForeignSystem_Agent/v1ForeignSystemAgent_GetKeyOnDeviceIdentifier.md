@@ -91,12 +91,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bruen-Hackett",
-  "DeviceName": "Gottlieb, Daniel and Rath",
-  "DeviceIdentifier": "facilis",
-  "KeyName": "Cummings-McLaughlin",
-  "TableName": "Gutkowski, Mante and Schmitt",
-  "RecordId": 151
+  "ApplicationName": "Lueilwitz Inc and Sons",
+  "DeviceName": "Boyer, Douglas and Block",
+  "DeviceIdentifier": "dolorem",
+  "KeyName": "White-Fadel",
+  "TableName": "Hane Group",
+  "RecordId": 263
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "dolores",
-  "RecordId": 441,
-  "CreatedDate": "2008-03-19T13:38:13.6396102+01:00",
-  "UpdatedDate": "2002-10-14T13:38:13.6396102+02:00",
-  "UpdatedBy": "adipisci",
-  "CreatedBy": "autem",
-  "TableName": "Fahey Group",
+  "Key": "fuga",
+  "Value": "labore",
+  "RecordId": 731,
+  "CreatedDate": "2021-09-22T13:57:12.4181107+02:00",
+  "UpdatedDate": "2005-01-17T13:57:12.4181107+01:00",
+  "UpdatedBy": "dolore",
+  "CreatedBy": "dignissimos",
+  "TableName": "Haag LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldLength": 572
     }
   }
 }

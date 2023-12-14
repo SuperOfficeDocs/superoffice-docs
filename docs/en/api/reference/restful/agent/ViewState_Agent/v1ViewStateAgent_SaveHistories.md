@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Leffler LLC",
+  "HistoryName": "Carroll, Wilderman and Schmitt",
   "History": [
     {
-      "Rank": 322,
-      "Id": 538,
-      "HistoryName": "Mueller, Morar and Braun",
-      "HistoryId": 5,
-      "AssociateId": 404,
-      "Name": "Pollich, Blick and Turner",
-      "ItemInfo": "quaerat"
+      "Rank": 864,
+      "Id": 503,
+      "HistoryName": "Hermann, Wunsch and Cassin",
+      "HistoryId": 10,
+      "AssociateId": 570,
+      "Name": "Haag-Walsh",
+      "ItemInfo": "commodi"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 713,
-    "Id": 310,
-    "HistoryName": "Bashirian Group",
-    "HistoryId": 392,
-    "AssociateId": 326,
-    "Name": "Brekke Inc and Sons",
-    "ItemInfo": "pariatur",
+    "Rank": 606,
+    "Id": 509,
+    "HistoryName": "Johnston-Kuhn",
+    "HistoryId": 566,
+    "AssociateId": 384,
+    "Name": "Bogan Inc and Sons",
+    "ItemInfo": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldType": "System.String",
+        "FieldLength": 922
       }
     }
   }

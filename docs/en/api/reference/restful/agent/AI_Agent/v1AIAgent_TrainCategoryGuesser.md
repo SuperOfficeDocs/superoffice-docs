@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 341,
-  "MaxItems": 898,
-  "MaxTextLength": 98
+  "SelectionId": 8,
+  "MaxItems": 124,
+  "MaxTextLength": 14
 }
 ```
 

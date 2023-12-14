@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 814,
-  "Currency": "odit"
+  "QuoteConnectionId": 686,
+  "Currency": "porro"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 947,
-    "ERPPriceListKey": "vel",
-    "QuoteConnectionId": 168,
-    "Name": "Considine Inc and Sons",
-    "Description": "Ameliorated hybrid website",
-    "Currency": "dolorem",
-    "CurrencyName": "Morissette Inc and Sons",
-    "ValidFrom": "1999-06-10T13:38:14.0303322+02:00",
-    "ValidTo": "2018-12-06T13:38:14.0303322+01:00",
-    "IsActive": false,
+    "PriceListId": 21,
+    "ERPPriceListKey": "vitae",
+    "QuoteConnectionId": 383,
+    "Name": "Anderson-Wehner",
+    "Description": "Inverse actuating secured line",
+    "Currency": "hic",
+    "CurrencyName": "Parker LLC",
+    "ValidFrom": "2022-12-30T13:57:13.064942+01:00",
+    "ValidTo": "2006-01-22T13:57:13.064942+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldType": "System.String",
+        "FieldLength": 437
       }
     }
   }

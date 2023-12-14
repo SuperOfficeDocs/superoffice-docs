@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 462,
-  "Name": "Williamson Inc and Sons",
-  "Tooltip": "dolor",
+  "Id": 188,
+  "Name": "Reilly, Moore and Olson",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 548,
+  "Rank": 996,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "possimus",
+  "ListType": "quos",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 355,
-  "Name": "Lowe Inc and Sons",
-  "Tooltip": "consequuntur",
+  "Id": 122,
+  "Name": "Abernathy, Skiles and Kassulke",
+  "Tooltip": "fugiat",
   "Deleted": true,
-  "Rank": 483,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 335,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "saepe",
-  "InUseByUserDefinedFields": false,
+  "ListType": "nisi",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldType": "System.String",
+      "FieldLength": 690
     }
   }
 }

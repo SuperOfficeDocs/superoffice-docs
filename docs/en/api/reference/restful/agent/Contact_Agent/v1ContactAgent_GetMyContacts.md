@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 794,
-    "Name": "Yost Group",
-    "OrgNr": "1997879",
+    "ContactId": 639,
+    "Name": "McClure-Herzog",
+    "OrgNr": "973926",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "magni",
-    "DirectPhone": "352.847.2385",
-    "AssociateId": 964,
-    "CountryId": 386,
-    "EmailAddress": "xander.reynolds@medhurst.com",
+    "City": "nisi",
+    "DirectPhone": "174.851.3355 x1958",
+    "AssociateId": 86,
+    "CountryId": 388,
+    "EmailAddress": "osbaldo.gutmann@kling.biz",
     "Kananame": "consequatur",
-    "EmailAddressName": "ervin_osinski@dickinson.co.uk",
+    "EmailAddressName": "marge@kohler.info",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Simeon Virgie Considine Jr.",
+    "AssociateFullName": "Ismael Howell",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "accusamus",
-    "FullName": "Cleve Dach",
+    "FormattedAddress": "consequuntur",
+    "FullName": "Kayleigh Lorenzo Lockman Jr.",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 348,
-    "Number1": "1069842",
-    "Number2": "413325",
+    "ActiveErpLinks": 324,
+    "Number1": "1208445",
+    "Number2": "1116341",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 367
+        "FieldType": "System.Int32",
+        "FieldLength": 59
       }
     }
   }

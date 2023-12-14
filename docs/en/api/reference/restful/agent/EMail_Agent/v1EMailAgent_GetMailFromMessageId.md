@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "recusandae"
+  "MessageId": "commodi"
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 78,
-      "ContactName": "Tromp Inc and Sons",
-      "PersonId": 432,
-      "PersonName": "Bahringer Inc and Sons",
-      "AssociateId": 451,
-      "Address": "voluptatem",
-      "EmailId": 571,
+      "ContactId": 678,
+      "ContactName": "Metz-Leuschke",
+      "PersonId": 477,
+      "PersonName": "Schinner-Miller",
+      "AssociateId": 440,
+      "Address": "at",
+      "EmailId": 774,
       "DuplicatePersonIds": [
-        349,
-        886
+        648,
+        82
       ],
-      "Name": "Romaguera, Shields and Streich",
+      "Name": "Shanahan, Gulgowski and Auer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 341
+          "FieldType": "System.Int32",
+          "FieldLength": 637
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 66,
-      "ContactName": "Daniel-Runte",
-      "PersonId": 836,
-      "PersonName": "Willms-Gislason",
-      "AssociateId": 206,
-      "Address": "quidem",
-      "EmailId": 513,
+      "ContactId": 792,
+      "ContactName": "Walker-Morissette",
+      "PersonId": 649,
+      "PersonName": "Hilll-Pagac",
+      "AssociateId": 368,
+      "Address": "eligendi",
+      "EmailId": 723,
       "DuplicatePersonIds": [
-        111,
-        790
+        395,
+        675
       ],
-      "Name": "Jewess-Bogisich",
+      "Name": "Ankunding Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 508
+          "FieldLength": 978
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 263,
-      "ContactName": "Boehm, Mertz and Bins",
-      "PersonId": 641,
-      "PersonName": "Simonis-Bernier",
-      "AssociateId": 856,
-      "Address": "sapiente",
-      "EmailId": 915,
+      "ContactId": 830,
+      "ContactName": "Pouros, Beer and Hilpert",
+      "PersonId": 485,
+      "PersonName": "Osinski-Lakin",
+      "AssociateId": 918,
+      "Address": "corrupti",
+      "EmailId": 573,
       "DuplicatePersonIds": [
-        983,
-        2
+        385,
+        225
       ],
-      "Name": "Langworth, Heathcote and Mills",
+      "Name": "Dibbert-Langosh",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldType": "System.String",
+          "FieldLength": 774
         }
       }
     }
   ],
-  "Subject": "illum",
-  "HTMLBody": "nisi",
+  "Subject": "atque",
+  "HTMLBody": "facilis",
   "From": null,
-  "Sent": "2022-10-20T13:38:13.5302438+02:00",
-  "Size": 555,
+  "Sent": "2018-11-02T13:57:12.246749+01:00",
+  "Size": 738,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sint",
-  "PlainBody": "nisi",
-  "IsSent": true,
+  "MessageID": "delectus",
+  "PlainBody": "voluptas",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 47,
+  "ServerId": 730,
   "Attachments": [
     {
-      "Description": "Optional full-range portal",
-      "Filename": "consequatur",
-      "Size": 889,
-      "Type": "dolor",
-      "Encoding": "officiis",
-      "Id": "doloribus",
-      "Disposition": "molestiae",
+      "Description": "Programmable web-enabled encoding",
+      "Filename": "debitis",
+      "Size": 649,
+      "Type": "sed",
+      "Encoding": "dolorem",
+      "Id": "voluptas",
+      "Disposition": "id",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,50 +215,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 605
+          "FieldLength": 213
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hegmann Group",
+      "Name": "Bruen, Marks and Bernier",
       "Values": [
-        "beatae",
-        "earum"
+        "consequatur",
+        "ea"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 176
+          "FieldLength": 100
         }
       }
     },
     {
-      "Name": "Hegmann Group",
+      "Name": "Bruen, Marks and Bernier",
       "Values": [
-        "beatae",
-        "earum"
+        "consequatur",
+        "ea"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 176
+          "FieldLength": 100
         }
       }
     }
   ],
-  "FolderName": "Abbott Inc and Sons",
-  "EmailItemId": 560,
-  "AccountId": 965,
-  "ReceivedAt": "2011-07-02T13:38:13.5302438+02:00",
+  "FolderName": "Stark-Mertz",
+  "EmailItemId": 486,
+  "AccountId": 393,
+  "ReceivedAt": "2014-06-14T13:57:12.246749+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-05-08T13:38:13.5302438+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2022-12-22T13:57:12.246749+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 796
     }
   }
 }

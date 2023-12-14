@@ -88,9 +88,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gleason-Hills",
-  "DeviceName": "Weissnat Group",
-  "DeviceIdentifier": "est",
+  "ApplicationName": "Rowe, Wyman and Upton",
+  "DeviceName": "Huel, Schoen and Luettgen",
+  "DeviceIdentifier": "provident",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 338,
-  "Name": "Sipes Group",
-  "CreatedDate": "2013-02-05T13:38:13.623981+01:00",
-  "UpdatedDate": "2015-09-13T13:38:13.623981+02:00",
-  "AssociateFullName": "Carolyn Orn",
-  "CreatedBy": "rem",
-  "UpdatedBy": "veritatis",
-  "DeviceIdentifier": "atque",
-  "ForeignAppId": 755,
+  "ForeignDeviceId": 519,
+  "Name": "Pagac, Parisian and Wiza",
+  "CreatedDate": "1997-05-03T13:57:12.4181107+02:00",
+  "UpdatedDate": "2001-07-07T13:57:12.4181107+02:00",
+  "AssociateFullName": "Isom Johnston",
+  "CreatedBy": "qui",
+  "UpdatedBy": "nulla",
+  "DeviceIdentifier": "a",
+  "ForeignAppId": 395,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 616
+      "FieldLength": 370
     }
   }
 }

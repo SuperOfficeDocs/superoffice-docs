@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Hyatt Inc and Sons",
-    "ToolTip": "Eveniet aperiam officiis nihil.",
+    "Id": 435,
+    "Name": "Champlin LLC",
+    "ToolTip": "Exercitationem quis omnis.",
     "Deleted": false,
-    "Rank": 175,
-    "Type": "omnis",
-    "ColorBlock": 654,
-    "IconHint": "voluptatibus",
+    "Rank": 293,
+    "Type": "nisi",
+    "ColorBlock": 699,
+    "IconHint": "pariatur",
     "Selected": true,
-    "LastChanged": "2000-12-04T13:38:18.0306692+01:00",
+    "LastChanged": "2020-08-22T13:57:19.7033929+02:00",
     "ChildItems": [
       {
-        "Id": 717,
-        "Name": "Block-Collins",
-        "ToolTip": "Non quia quas sed ducimus saepe.",
+        "Id": 630,
+        "Name": "Ritchie Inc and Sons",
+        "ToolTip": "Nihil atque cumque quis expedita.",
         "Deleted": false,
-        "Rank": 869,
-        "Type": "voluptas",
-        "ColorBlock": 306,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2019-09-10T13:38:18.0306692+02:00",
+        "Rank": 208,
+        "Type": "dolores",
+        "ColorBlock": 528,
+        "IconHint": "nisi",
+        "Selected": false,
+        "LastChanged": "2022-10-25T13:57:19.7033929+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "mollitia",
-        "Hidden": true,
-        "FullName": "Cecile Hayes Sr."
+        "ExtraInfo": "itaque",
+        "StyleHint": "harum",
+        "Hidden": false,
+        "FullName": "Jeremie Renner"
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "sint",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Raegan Dicki"
+    "FullName": "Miss Lloyd Alejandrin Paucek II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Bauch-Boyer",
-    "ToolTip": "Deleniti occaecati quia impedit.",
-    "Deleted": true,
-    "Rank": 370,
-    "Type": "eius",
-    "ColorBlock": 693,
-    "IconHint": "similique",
-    "Selected": true,
-    "LastChanged": "2003-05-22T13:38:18.0306692+02:00",
+    "Id": 600,
+    "Name": "Welch Group",
+    "ToolTip": "Beatae voluptatem.",
+    "Deleted": false,
+    "Rank": 217,
+    "Type": "qui",
+    "ColorBlock": 405,
+    "IconHint": "quae",
+    "Selected": false,
+    "LastChanged": "2011-04-10T13:57:19.7033929+02:00",
     "ChildItems": [
       {
-        "Id": 66,
-        "Name": "Becker, Jaskolski and Lockman",
-        "ToolTip": "Eligendi reiciendis est consequatur.",
-        "Deleted": true,
-        "Rank": 892,
-        "Type": "est",
-        "ColorBlock": 892,
-        "IconHint": "reprehenderit",
-        "Selected": false,
-        "LastChanged": "2007-07-10T13:38:18.0306692+02:00",
+        "Id": 353,
+        "Name": "Walker-Cremin",
+        "ToolTip": "Quia reprehenderit rerum fugiat.",
+        "Deleted": false,
+        "Rank": 264,
+        "Type": "ipsa",
+        "ColorBlock": 175,
+        "IconHint": "provident",
+        "Selected": true,
+        "LastChanged": "2009-04-13T13:57:19.7033929+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "sequi",
-        "Hidden": true,
-        "FullName": "Joana Runte",
+        "ExtraInfo": "quis",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Crystal Vandervort",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 68
+            "FieldType": "System.String",
+            "FieldLength": 896
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "quidem",
-    "Hidden": false,
-    "FullName": "Terrance Leann Abbott III",
+    "ExtraInfo": "tempora",
+    "StyleHint": "fuga",
+    "Hidden": true,
+    "FullName": "Mrs. Genoveva Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldType": "System.String",
+        "FieldLength": 695
       }
     }
   }

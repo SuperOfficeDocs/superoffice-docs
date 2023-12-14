@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 917,
-  "AttachmentId": "delectus"
+  "MessageServerId": 626,
+  "AttachmentId": "velit"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Configurable impactful attitude",
-  "Filename": "sunt",
-  "Size": 146,
-  "Type": "occaecati",
-  "Encoding": "vero",
-  "Id": "nostrum",
-  "Disposition": "accusantium",
-  "IsSafeFileExtension": true,
+  "Description": "Intuitive analyzing capability",
+  "Filename": "non",
+  "Size": 305,
+  "Type": "expedita",
+  "Encoding": "iusto",
+  "Id": "qui",
+  "Disposition": "quae",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldType": "System.Int32",
+      "FieldLength": 551
     }
   }
 }

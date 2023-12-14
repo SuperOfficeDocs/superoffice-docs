@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "perferendis",
+      "RawValue": "in",
       "Specification": null,
-      "DisplayValue": "laudantium",
-      "DisplayTooltip": "praesentium",
+      "DisplayValue": "aut",
+      "DisplayTooltip": "qui",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 446,
-      "PrefDescId": 363,
-      "TableName": "Boyle LLC",
-      "UserPreferenceId": 46
+      "TargetId": 869,
+      "PrefDescId": 739,
+      "TableName": "Muller, Crooks and Hammes",
+      "UserPreferenceId": 281
     }
   ]
 }

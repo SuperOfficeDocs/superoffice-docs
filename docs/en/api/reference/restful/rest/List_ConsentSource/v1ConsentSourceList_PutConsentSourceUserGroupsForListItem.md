@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 332,
-    "Name": "Hayes Group",
-    "ToolTip": "Quia nemo nisi qui.",
-    "Deleted": true,
-    "Rank": 965,
-    "Type": "animi",
-    "ColorBlock": 482,
-    "IconHint": "dicta",
+    "Id": 577,
+    "Name": "Prosacco Group",
+    "ToolTip": "Omnis non.",
+    "Deleted": false,
+    "Rank": 733,
+    "Type": "labore",
+    "ColorBlock": 593,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2010-03-24T13:38:18.0150452+01:00",
+    "LastChanged": "2001-03-08T13:57:19.6877703+01:00",
     "ChildItems": [
       {
-        "Id": 327,
-        "Name": "Cronin Inc and Sons",
-        "ToolTip": "Quidem a enim similique reprehenderit.",
+        "Id": 611,
+        "Name": "Dare-Luettgen",
+        "ToolTip": "Molestias expedita.",
         "Deleted": false,
-        "Rank": 487,
-        "Type": "et",
-        "ColorBlock": 636,
-        "IconHint": "odit",
+        "Rank": 577,
+        "Type": "aut",
+        "ColorBlock": 17,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2019-12-07T13:38:18.0150452+01:00",
+        "LastChanged": "2020-08-09T13:57:19.6877703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Name Brook Casper Sr."
+        "ExtraInfo": "est",
+        "StyleHint": "ratione",
+        "Hidden": true,
+        "FullName": "Prof. Houston Bechtelar Sr."
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "quis",
+    "ExtraInfo": "est",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Prof. Guillermo Elta Hoeger"
+    "FullName": "Dr. Dominique Alysha Ziemann V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 500,
-    "Name": "West-Casper",
-    "ToolTip": "Aut id molestias.",
-    "Deleted": false,
-    "Rank": 807,
-    "Type": "omnis",
-    "ColorBlock": 311,
-    "IconHint": "ipsum",
-    "Selected": true,
-    "LastChanged": "2013-09-29T13:38:18.0150452+02:00",
+    "Id": 176,
+    "Name": "Lowe-Medhurst",
+    "ToolTip": "Magni excepturi quasi.",
+    "Deleted": true,
+    "Rank": 524,
+    "Type": "tempora",
+    "ColorBlock": 76,
+    "IconHint": "quo",
+    "Selected": false,
+    "LastChanged": "2020-08-12T13:57:19.6877703+02:00",
     "ChildItems": [
       {
-        "Id": 2,
-        "Name": "Kshlerin-Cruickshank",
-        "ToolTip": "Cumque dolore ipsam.",
+        "Id": 637,
+        "Name": "Welch Inc and Sons",
+        "ToolTip": "Molestiae qui.",
         "Deleted": true,
-        "Rank": 184,
-        "Type": "aut",
-        "ColorBlock": 903,
-        "IconHint": "a",
-        "Selected": true,
-        "LastChanged": "2004-08-13T13:38:18.0150452+02:00",
+        "Rank": 30,
+        "Type": "ut",
+        "ColorBlock": 100,
+        "IconHint": "sint",
+        "Selected": false,
+        "LastChanged": "2014-03-03T13:57:19.6877703+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "itaque",
+        "ExtraInfo": "fuga",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Mrs. Guadalupe Gabriel Hessel MD",
+        "FullName": "Kaden D'Amore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 711
+            "FieldLength": 102
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "illum",
+    "ExtraInfo": "porro",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Cristal Swift",
+    "FullName": "Mr. Isaiah Chance Little II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 652
+        "FieldType": "System.Int32",
+        "FieldLength": 73
       }
     }
   }

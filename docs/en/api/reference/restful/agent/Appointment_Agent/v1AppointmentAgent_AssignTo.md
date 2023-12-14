@@ -72,6 +72,9 @@ OK
 | CreatedDate | date-time | Registered date  in UTC. |
 | AppointmentId | int32 | Primary key |
 | Description | string | Description of the appointment. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
@@ -113,9 +116,6 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
-| Title | string | The title of the appointment. |
-| Agenda | string | The agenda of the appointment. |
-| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -133,11 +133,11 @@ OK
 POST /api/v1/Agents/Appointment/AssignTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 267,
+  "AppointmentId": 874,
   "Participant": null,
   "UpdateMode": "OnlyThis"
 }
@@ -154,120 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-11-02T13:38:12.9678107+01:00",
-  "AppointmentId": 339,
-  "Description": "Vision-oriented static structure",
-  "StartDate": "2015-09-26T13:38:12.9678107+02:00",
-  "EndDate": "2002-08-21T13:38:12.9678107+02:00",
+  "CreatedDate": "1998-01-04T13:57:11.3719357+01:00",
+  "AppointmentId": 3,
+  "Description": "Public-key intangible matrices",
+  "Title": "sit",
+  "Agenda": "nemo",
+  "InternalNotes": "explicabo",
+  "StartDate": "2019-04-28T13:57:11.3719357+02:00",
+  "EndDate": "2012-04-09T13:57:11.3719357+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 297,
+  "MotherId": 166,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-06-25T13:38:12.9678107+02:00",
+  "UpdatedDate": "2013-09-22T13:57:11.3719357+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 135,
+  "ActiveLinks": 757,
   "Links": [
     {
-      "EntityName": "Bednar, Rutherford and Farrell",
-      "Id": 530,
-      "Description": "Re-engineered radical internet solution",
-      "ExtraInfo": "sit",
-      "LinkId": 524,
+      "EntityName": "Torphy Group",
+      "Id": 655,
+      "Description": "Sharable discrete alliance",
+      "ExtraInfo": "autem",
+      "LinkId": 780,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldLength": 730
         }
       }
     }
   ],
-  "AlarmLeadTime": "tempora",
+  "AlarmLeadTime": "velit",
   "HasAlarm": true,
-  "ColorIndex": 669,
-  "IsFree": true,
+  "ColorIndex": 847,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "voluptatem",
-  "LeadTime": "animi",
-  "Location": "deserunt",
-  "RejectCounter": 354,
+  "LagTime": "modi",
+  "LeadTime": "aliquam",
+  "Location": "ipsa",
+  "RejectCounter": 748,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 146,
-      "PersonId": 48,
-      "ContactId": 808,
-      "EmailId": 579,
+      "AssociateId": 539,
+      "PersonId": 408,
+      "ContactId": 72,
+      "EmailId": 532,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "coy.kunde@kundejewess.biz",
-      "Description": "Profit-focused non-volatile software"
+      "EmailAddress": "alphonso.fritsch@dooley.biz",
+      "Description": "Expanded 24 hour conglomeration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-03-13T13:38:12.9678107+01:00",
+  "ActiveDate": "2021-05-07T13:57:11.3719357+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 529,
+  "PreferredTZLocation": 584,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 626,
+  "SuggestedAppointmentId": 664,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "doloribus",
-  "Title": "ex",
-  "Agenda": "doloremque",
-  "InternalNotes": "error",
+  "CentralserviceVideomeetId": "tempore",
   "UserDefinedFields": {
-    "SuperOffice:1": "Zella Hammes",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Keanu Chelsey Moore IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "porro"
+    "ExtraFields1": "harum",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "deserunt",
-    "CustomFields2": "sit"
+    "CustomFields1": "velit",
+    "CustomFields2": "repudiandae"
   },
-  "PublishEventDate": "2021-12-12T13:38:12.9678107+01:00",
-  "PublishTo": "2018-03-10T13:38:12.9678107+01:00",
-  "PublishFrom": "2022-04-18T13:38:12.9678107+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1997-02-10T13:57:11.3719357+01:00",
+  "PublishTo": "2015-08-25T13:57:11.3719357+02:00",
+  "PublishFrom": "1997-09-20T13:57:11.3719357+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 241,
+      "VisibleId": 26,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 791
+          "FieldType": "System.Int32",
+          "FieldLength": 230
         }
       }
     },
     {
-      "VisibleId": 241,
+      "VisibleId": 26,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 791
+          "FieldType": "System.Int32",
+          "FieldLength": 230
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 691
     }
   }
 }

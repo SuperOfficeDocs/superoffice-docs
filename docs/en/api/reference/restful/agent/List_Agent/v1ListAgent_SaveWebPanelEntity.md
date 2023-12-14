@@ -103,30 +103,30 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 516,
-  "Name": "Jewess-Hirthe",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 434,
+  "WebPanelId": 689,
+  "Name": "Hessel LLC",
+  "Tooltip": "error",
+  "Deleted": false,
+  "Rank": 3,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Langworth-Emard",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Stracke Group",
   "Url": "http://www.example.com/",
-  "ProgId": "aliquid",
-  "Icon": 975,
+  "ProgId": "sunt",
+  "Icon": 19,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 35,
-  "Name": "Larkin LLC",
-  "Tooltip": "quia",
+  "WebPanelId": 442,
+  "Name": "Stokes, Rodriguez and Cole",
+  "Tooltip": "assumenda",
   "Deleted": true,
-  "Rank": 38,
+  "Rank": 703,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Herzog LLC",
+  "WindowName": "Roob, Cartwright and Jacobs",
   "Url": "http://www.example.com/",
-  "ProgId": "a",
-  "Icon": 278,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "esse",
+  "Icon": 58,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 196
     }
   }
 }

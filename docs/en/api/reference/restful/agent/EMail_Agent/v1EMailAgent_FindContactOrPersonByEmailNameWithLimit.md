@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Thiel-Rice",
-  "EmailAddress": "vella_boyer@turner.ca",
-  "NumberOfContacts": 478,
-  "NumberOfPersons": 393
+  "Name": "Marks, Jewess and Oberbrunner",
+  "EmailAddress": "roscoe@king.ca",
+  "NumberOfContacts": 611,
+  "NumberOfPersons": 917
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 499,
-    "FullName": "Lilyan Schowalter",
-    "EmailAddress": "idell_mccullough@braunwaters.name",
-    "ContactId": 255,
-    "ContactName": "Osinski-Bashirian",
+    "PersonId": 682,
+    "FullName": "Lesly Wuckert",
+    "EmailAddress": "vernie.schneider@rowe.biz",
+    "ContactId": 882,
+    "ContactName": "Hermann LLC",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Crona-Braun",
+    "SortName": "Kshlerin, Durgan and Marks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 608
+        "FieldLength": 667
       }
     }
   }

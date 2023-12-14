@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Feest LLC",
-    "ToolTip": "Inventore praesentium beatae.",
+    "Id": 454,
+    "Name": "Deckow-Hegmann",
+    "ToolTip": "Incidunt eaque distinctio nisi ad officiis ut.",
     "Deleted": false,
-    "Rank": 631,
-    "Type": "animi",
-    "ColorBlock": 888,
-    "IconHint": "sit",
+    "Rank": 154,
+    "Type": "vel",
+    "ColorBlock": 777,
+    "IconHint": "natus",
     "Selected": false,
-    "LastChanged": "2020-11-10T13:38:18.0775324+01:00",
+    "LastChanged": "2016-12-13T13:57:19.7971417+01:00",
     "ChildItems": [
       {
-        "Id": 789,
-        "Name": "Schroeder, McDermott and Connelly",
-        "ToolTip": "Nisi minus error totam quos dicta adipisci.",
+        "Id": 997,
+        "Name": "Walsh-Graham",
+        "ToolTip": "Sapiente incidunt animi.",
         "Deleted": true,
-        "Rank": 831,
-        "Type": "ullam",
-        "ColorBlock": 243,
-        "IconHint": "mollitia",
+        "Rank": 544,
+        "Type": "omnis",
+        "ColorBlock": 292,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2007-05-11T13:38:18.0931573+02:00",
+        "LastChanged": "2012-09-09T13:57:19.7971417+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "ex",
+        "ExtraInfo": "sequi",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Jessie Koss",
+        "FullName": "Eldora Feest",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 356
+            "FieldLength": 813
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "a",
-    "Hidden": true,
-    "FullName": "Freda Stanton",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Prof. Emelie Abdiel Hyatt DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 861
+        "FieldLength": 480
       }
     }
   }

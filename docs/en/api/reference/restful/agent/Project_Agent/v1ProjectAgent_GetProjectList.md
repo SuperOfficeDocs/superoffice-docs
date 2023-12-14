@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 876,
-    "Name": "Hammes Group",
-    "Description": "Mandatory zero administration hub",
+    "ProjectId": 220,
+    "Name": "Dare LLC",
+    "Description": "Multi-layered didactic process improvement",
     "URL": "http://www.example.com/",
-    "Type": "reiciendis",
-    "AssociateId": 272,
-    "AssociateFullName": "Samir Cronin",
-    "TypeId": 126,
-    "Updated": "1999-12-18T13:38:13.9834617+01:00",
-    "StatusId": 919,
-    "Status": "illum",
-    "TextId": 511,
-    "PublishTo": "2013-01-08T13:38:13.9834617+01:00",
-    "PublishFrom": "2014-06-24T13:38:13.9834617+02:00",
-    "IsPublished": false,
+    "Type": "consequatur",
+    "AssociateId": 594,
+    "AssociateFullName": "Benton Prosacco",
+    "TypeId": 398,
+    "Updated": "2000-04-13T13:57:13.0011314+02:00",
+    "StatusId": 393,
+    "Status": "harum",
+    "TextId": 487,
+    "PublishTo": "2014-07-09T13:57:13.0011314+02:00",
+    "PublishFrom": "2000-08-21T13:57:13.0011314+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1225869",
-    "ActiveErpLinks": 976,
+    "ProjectNumber": "1564640",
+    "ActiveErpLinks": 262,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 466
+        "FieldLength": 399
       }
     }
   }

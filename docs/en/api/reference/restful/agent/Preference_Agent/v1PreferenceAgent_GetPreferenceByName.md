@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "sit",
-  "PrefKey": "delectus",
+  "PrefSection": "veniam",
+  "PrefKey": "non",
   "PrefLevel": "Database"
 }
 ```
@@ -105,20 +105,20 @@ Content-Type: application/json; charset=utf-8
   "Level": "Database",
   "RawValue": "et",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "consectetur",
+  "DisplayValue": "ut",
+  "DisplayTooltip": "quidem",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 465,
-  "PrefDescId": 859,
-  "TableName": "Koelpin-Jenkins",
-  "UserPreferenceId": 85,
+  "TargetId": 47,
+  "PrefDescId": 521,
+  "TableName": "Wyman Inc and Sons",
+  "UserPreferenceId": 280,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 285
     }
   }
 }

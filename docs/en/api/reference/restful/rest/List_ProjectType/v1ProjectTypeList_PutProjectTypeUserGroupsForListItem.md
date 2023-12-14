@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 401,
-    "Name": "Mante, Lubowitz and Crist",
-    "ToolTip": "Nesciunt sequi molestiae.",
+    "Id": 305,
+    "Name": "Conroy, Boyer and Gerlach",
+    "ToolTip": "Autem omnis beatae minima similique voluptatibus.",
     "Deleted": true,
-    "Rank": 12,
-    "Type": "vel",
-    "ColorBlock": 973,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2019-10-22T13:38:18.1556538+02:00",
+    "Rank": 66,
+    "Type": "unde",
+    "ColorBlock": 112,
+    "IconHint": "modi",
+    "Selected": true,
+    "LastChanged": "2007-09-14T13:57:19.9221765+02:00",
     "ChildItems": [
       {
-        "Id": 289,
-        "Name": "Weissnat, Mante and Towne",
-        "ToolTip": "Voluptas perspiciatis sunt incidunt.",
+        "Id": 240,
+        "Name": "Franecki Inc and Sons",
+        "ToolTip": "Nostrum voluptatum soluta dolorem eos cum a.",
         "Deleted": false,
-        "Rank": 131,
-        "Type": "possimus",
-        "ColorBlock": 60,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2007-10-15T13:38:18.1556538+02:00",
+        "Rank": 731,
+        "Type": "eum",
+        "ColorBlock": 918,
+        "IconHint": "nisi",
+        "Selected": true,
+        "LastChanged": "2005-07-28T13:57:19.9221765+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "atque",
+        "ExtraInfo": "sed",
+        "StyleHint": "impedit",
         "Hidden": true,
-        "FullName": "Beau Sierra Smith PhD"
+        "FullName": "Prof. Theresia Winston Veum PhD"
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Garry Kurt Jerde DVM"
+    "ExtraInfo": "inventore",
+    "StyleHint": "reiciendis",
+    "Hidden": true,
+    "FullName": "Effie Homenick"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Name": "Wolf-Keeling",
-    "ToolTip": "Repudiandae fugit labore est modi at nesciunt dolorum.",
+    "Id": 676,
+    "Name": "Quigley, Corkery and Jast",
+    "ToolTip": "Aut et ut odit voluptatem.",
     "Deleted": false,
-    "Rank": 794,
-    "Type": "eum",
-    "ColorBlock": 958,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2006-03-17T13:38:18.1712741+01:00",
+    "Rank": 331,
+    "Type": "qui",
+    "ColorBlock": 714,
+    "IconHint": "vero",
+    "Selected": true,
+    "LastChanged": "2018-10-07T13:57:19.9221765+02:00",
     "ChildItems": [
       {
-        "Id": 974,
-        "Name": "Friesen, Rath and Towne",
-        "ToolTip": "Suscipit ipsam eveniet vero.",
-        "Deleted": false,
-        "Rank": 811,
-        "Type": "voluptates",
-        "ColorBlock": 653,
-        "IconHint": "explicabo",
+        "Id": 7,
+        "Name": "Goyette, Lang and Reichel",
+        "ToolTip": "Reiciendis rem aut.",
+        "Deleted": true,
+        "Rank": 872,
+        "Type": "rem",
+        "ColorBlock": 12,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2013-07-20T13:38:18.1712741+02:00",
+        "LastChanged": "2008-03-04T13:57:19.9221765+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "magnam",
-        "Hidden": true,
-        "FullName": "Ms. Mathilde Huel Sr.",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "expedita",
+        "Hidden": false,
+        "FullName": "Miss Kassandra Otto Hagenes Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 903
+            "FieldLength": 497
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "aliquid",
     "Hidden": false,
-    "FullName": "Gerard Sporer",
+    "FullName": "Miss Lessie Barry Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 469
+        "FieldLength": 819
       }
     }
   }

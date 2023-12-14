@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Eichmann-Reilly",
-  "AdditionalInfo": "perferendis",
-  "SearchValue": "et"
+  "Name": "Gislason-Kerluke",
+  "AdditionalInfo": "voluptatem",
+  "SearchValue": "dolorem"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "Stoltenberg-Runolfsson",
-    "ToolTip": "Et impedit.",
+    "Id": 203,
+    "Name": "Padberg Group",
+    "ToolTip": "Quidem vero accusantium non hic molestiae repellat.",
     "Deleted": false,
-    "Rank": 603,
-    "Type": "nostrum",
-    "ColorBlock": 361,
-    "IconHint": "nostrum",
+    "Rank": 892,
+    "Type": "nulla",
+    "ColorBlock": 494,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2017-01-27T13:38:13.7333439+01:00",
+    "LastChanged": "2012-01-29T13:57:12.6068289+01:00",
     "ChildItems": [
       {
-        "Id": 858,
-        "Name": "Jerde Group",
-        "ToolTip": "Dolore eum ab.",
+        "Id": 92,
+        "Name": "Jewess Group",
+        "ToolTip": "Harum suscipit eum aliquid et deleniti.",
         "Deleted": true,
-        "Rank": 154,
-        "Type": "dolore",
-        "ColorBlock": 409,
-        "IconHint": "quis",
+        "Rank": 622,
+        "Type": "placeat",
+        "ColorBlock": 631,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2016-08-04T13:38:13.7333439+02:00",
+        "LastChanged": "1998-03-25T13:57:12.6068289+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "cum",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Lincoln Kris",
+        "FullName": "Miss Lucienne Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 474
+            "FieldLength": 639
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "modi",
-    "Hidden": false,
-    "FullName": "Rosie Halvorson MD",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "facere",
+    "Hidden": true,
+    "FullName": "Miss Fiona Ledner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 941
+        "FieldLength": 34
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 325,
-  "Name": "Ruecker-Medhurst",
-  "Tooltip": "dolorem",
+  "HeadingId": 480,
+  "Name": "Swift Inc and Sons",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 66,
-  "UdListDefinitionId": 877
+  "Rank": 293,
+  "UdListDefinitionId": 950
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 872,
-  "Name": "Schneider-Padberg",
-  "Tooltip": "et",
+  "HeadingId": 705,
+  "Name": "Hudson, Wolf and Bode",
+  "Tooltip": "ipsum",
   "Deleted": true,
-  "Rank": 103,
-  "UdListDefinitionId": 517,
+  "Rank": 883,
+  "UdListDefinitionId": 163,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldType": "System.String",
+      "FieldLength": 864
     }
   }
 }

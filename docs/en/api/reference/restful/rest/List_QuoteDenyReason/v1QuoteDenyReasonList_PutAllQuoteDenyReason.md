@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Rutherford-Zulauf",
-    "Tooltip": "dolore",
-    "Deleted": false,
-    "UdListDefinitionId": 894,
-    "Rank": 86
+    "Id": 139,
+    "Name": "Zulauf-Hermann",
+    "Tooltip": "iusto",
+    "Deleted": true,
+    "UdListDefinitionId": 481,
+    "Rank": 108
   },
   {
-    "Id": 167,
-    "Name": "Rutherford-Zulauf",
-    "Tooltip": "dolore",
-    "Deleted": false,
-    "UdListDefinitionId": 894,
-    "Rank": 86
+    "Id": 139,
+    "Name": "Zulauf-Hermann",
+    "Tooltip": "iusto",
+    "Deleted": true,
+    "UdListDefinitionId": 481,
+    "Rank": 108
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 650,
-    "Name": "Hansen-Bosco",
-    "Tooltip": "est",
+    "Id": 475,
+    "Name": "Hamill-Spinka",
+    "Tooltip": "blanditiis",
     "Deleted": false,
-    "UdListDefinitionId": 887,
-    "Rank": 440,
+    "UdListDefinitionId": 709,
+    "Rank": 867,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 677
+        "FieldType": "System.Int32",
+        "FieldLength": 742
       }
     }
   }

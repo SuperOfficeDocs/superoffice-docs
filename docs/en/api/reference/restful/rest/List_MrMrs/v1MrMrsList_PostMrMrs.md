@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 293,
-  "Name": "Hessel, Miller and Brown",
-  "Tooltip": "eaque",
-  "Deleted": true,
-  "UdListDefinitionId": 923,
-  "Rank": 616
+  "Id": 689,
+  "Name": "Langosh LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 854,
+  "Rank": 4
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 310,
-  "Name": "Tromp Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 736,
-  "Rank": 786,
+  "Id": 962,
+  "Name": "Hessel-Marks",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "UdListDefinitionId": 19,
+  "Rank": 728,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 273
     }
   }
 }

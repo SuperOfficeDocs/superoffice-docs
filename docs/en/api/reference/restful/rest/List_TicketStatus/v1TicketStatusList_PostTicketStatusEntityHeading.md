@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 299,
-  "Name": "Gerhold LLC",
-  "Tooltip": "dignissimos",
+  "HeadingId": 572,
+  "Name": "O'Connell, Jast and Bruen",
+  "Tooltip": "minima",
   "Deleted": false,
-  "Rank": 274,
-  "UdListDefinitionId": 923
+  "Rank": 767,
+  "UdListDefinitionId": 259
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 575,
-  "Name": "Homenick, Brekke and Bernhard",
-  "Tooltip": "consequatur",
+  "HeadingId": 414,
+  "Name": "Schaefer Group",
+  "Tooltip": "asperiores",
   "Deleted": false,
-  "Rank": 765,
-  "UdListDefinitionId": 74,
+  "Rank": 553,
+  "UdListDefinitionId": 532,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldType": "System.String",
+      "FieldLength": 727
     }
   }
 }

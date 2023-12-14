@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 946,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "exercitationem",
-  "Name": "Lebsack-Stiedemann",
-  "Description": "Profit-focused intermediate system engine",
-  "Code": "voluptatem",
-  "PriceUnit": "id",
-  "QuantityUnit": "est",
-  "IsSubscription": false,
-  "SubscriptionUnit": "nemo",
-  "DefaultSubscriptionQuantity": 30894.971999999998,
-  "ItemNumber": "195528",
+  "ProductId": 394,
+  "ERPProductKey": "totam",
+  "ERPPriceListKey": "omnis",
+  "Name": "Schimmel Inc and Sons",
+  "Description": "Profound intangible data-warehouse",
+  "Code": "deleniti",
+  "PriceUnit": "quisquam",
+  "QuantityUnit": "exercitationem",
+  "IsSubscription": true,
+  "SubscriptionUnit": "delectus",
+  "DefaultSubscriptionQuantity": 11144.503999999999,
+  "ItemNumber": "554202",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "repellat",
-  "ProductTypeKey": "vitae",
-  "VAT": 31167.629999999997,
-  "VATInfo": "et",
-  "UnitCost": 21138.829999999998,
-  "UnitMinimumPrice": 28447.318,
-  "UnitListPrice": 23495.597999999998,
-  "InAssortment": false,
-  "Supplier": "consequatur",
-  "SupplierCode": "id",
-  "Rights": "asperiores",
-  "Rule": "consequatur",
+  "ProductFamilyKey": "esse",
+  "ProductTypeKey": "sunt",
+  "VAT": 20863.038,
+  "VATInfo": "dignissimos",
+  "UnitCost": 24905.897999999997,
+  "UnitMinimumPrice": 14206.421999999999,
+  "UnitListPrice": 1836.524,
+  "InAssortment": true,
+  "Supplier": "reprehenderit",
+  "SupplierCode": "enim",
+  "Rights": "et",
+  "Rule": "illo",
   "ExtraInfo": [
     {
-      "Name": "Champlin-Smitham",
-      "Value": "molestias",
+      "Name": "Mayer, Wilkinson and Wyman",
+      "Value": "voluptatem",
       "Type": "Image"
     },
     {
-      "Name": "Champlin-Smitham",
-      "Value": "molestias",
+      "Name": "Mayer, Wilkinson and Wyman",
+      "Value": "voluptatem",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "repellendus",
-  "ExtraField1": "explicabo",
-  "ExtraField2": "quia",
-  "ExtraField3": "delectus",
-  "ExtraField4": "beatae",
-  "ExtraField5": "quia",
-  "InStock": 9245.3
+  "RawExtraInfo": "voluptatibus",
+  "ExtraField1": "repellendus",
+  "ExtraField2": "et",
+  "ExtraField3": "nihil",
+  "ExtraField4": "accusantium",
+  "ExtraField5": "in",
+  "InStock": 4547.434
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 82,
-  "ERPProductKey": "sunt",
-  "ERPPriceListKey": "nihil",
-  "Name": "Crist LLC",
-  "Description": "Fundamental multi-state parallelism",
-  "Code": "hic",
-  "PriceUnit": "consequuntur",
-  "QuantityUnit": "eum",
+  "ProductId": 487,
+  "ERPProductKey": "cumque",
+  "ERPPriceListKey": "tenetur",
+  "Name": "Ondricka-Hackett",
+  "Description": "Upgradable empowering success",
+  "Code": "dolor",
+  "PriceUnit": "blanditiis",
+  "QuantityUnit": "dicta",
   "IsSubscription": false,
   "SubscriptionUnit": "qui",
-  "DefaultSubscriptionQuantity": 8950.704,
-  "ItemNumber": "922964",
+  "DefaultSubscriptionQuantity": 14488.482,
+  "ItemNumber": "1346419",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "vitae",
-  "ProductTypeKey": "et",
-  "VAT": 13501.271999999999,
-  "VATInfo": "officia",
-  "UnitCost": 7781.722,
-  "UnitMinimumPrice": 7085.974,
-  "UnitListPrice": 3497.544,
-  "InAssortment": false,
-  "Supplier": "omnis",
-  "SupplierCode": "laborum",
-  "Rights": "aut",
-  "Rule": "consequuntur",
+  "ProductFamilyKey": "incidunt",
+  "ProductTypeKey": "architecto",
+  "VAT": 29581.825999999997,
+  "VATInfo": "reprehenderit",
+  "UnitCost": 14457.142,
+  "UnitMinimumPrice": 27949.012,
+  "UnitListPrice": 476.368,
+  "InAssortment": true,
+  "Supplier": "quidem",
+  "SupplierCode": "aut",
+  "Rights": "inventore",
+  "Rule": "est",
   "ExtraInfo": [
     {
-      "Name": "Graham Group",
-      "Value": "doloribus",
+      "Name": "Konopelski, Smith and Weimann",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 94
+          "FieldType": "System.Int32",
+          "FieldLength": 778
         }
       }
     },
     {
-      "Name": "Graham Group",
-      "Value": "doloribus",
+      "Name": "Konopelski, Smith and Weimann",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 94
+          "FieldType": "System.Int32",
+          "FieldLength": 778
         }
       }
     }
   ],
-  "RawExtraInfo": "quia",
-  "ExtraField1": "laudantium",
-  "ExtraField2": "eius",
-  "ExtraField3": "eos",
-  "ExtraField4": "aut",
-  "ExtraField5": "nihil",
-  "InStock": 16168.305999999999,
+  "RawExtraInfo": "ea",
+  "ExtraField1": "in",
+  "ExtraField2": "eum",
+  "ExtraField3": "sed",
+  "ExtraField4": "voluptatem",
+  "ExtraField5": "quia",
+  "InStock": 288.328,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldLength": 224
     }
   }
 }

@@ -27,7 +27,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=True
+GET /api/v1/List/SaleType/Items?includeDeleted=False
 ```
 
 
@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 60,
-    "Name": "Bashirian-Russel",
-    "Tooltip": "ullam",
-    "Rank": 776,
+    "SaleTypeId": 360,
+    "Name": "Zieme Inc and Sons",
+    "Tooltip": "et",
+    "Rank": 544,
     "DurationUnit": "Century",
-    "SaleDuration": 235,
-    "SaleTypeCatId": 288,
+    "SaleDuration": 970,
+    "SaleTypeCatId": 302,
     "Deleted": false,
     "HasGuide": true,
     "HasStakeholders": true,
-    "IsAutoAdvance": false,
+    "IsAutoAdvance": true,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 353,
-    "QuoteLinesTemplate": 335,
-    "ConfirmationLinesTemplate": 179,
-    "MaxDiscountPercentSet": false,
+    "DefaultQuoteValidity": 237,
+    "QuoteLinesTemplate": 247,
+    "ConfirmationLinesTemplate": 523,
+    "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 222,
-    "MinEarningPercent": 920,
-    "GroupQuoteLinesBy": 709,
-    "SortGroupLinesBy": 55,
+    "MaxDiscountPercent": 606,
+    "MinEarningPercent": 836,
+    "GroupQuoteLinesBy": 695,
+    "SortGroupLinesBy": 630,
     "Stages": [
       {
-        "Id": 19,
-        "Name": "Gorczany, Reinger and Jenkins",
-        "ToolTip": "Eligendi reprehenderit deleniti quis.",
-        "Deleted": true,
-        "Rank": 873,
-        "Type": "nobis",
-        "ColorBlock": 691,
-        "IconHint": "error",
+        "Id": 301,
+        "Name": "Auer-Schaden",
+        "ToolTip": "Deleniti soluta rerum aliquam vel.",
+        "Deleted": false,
+        "Rank": 817,
+        "Type": "asperiores",
+        "ColorBlock": 336,
+        "IconHint": "quae",
         "Selected": true,
-        "LastChanged": "1999-06-19T13:38:18.2181419+02:00",
+        "LastChanged": "2022-05-22T13:57:20.1109105+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "officiis",
+        "StyleHint": "harum",
         "Hidden": true,
-        "FullName": "Ms. Wiley Calista VonRueden Jr.",
+        "FullName": "Ms. Yasmine Dolly Padberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 334
+            "FieldLength": 979
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 484
       }
     }
   }

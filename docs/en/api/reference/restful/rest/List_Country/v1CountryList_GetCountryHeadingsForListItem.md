@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "Wiza-Kuphal",
-    "ToolTip": "Non odit ipsam libero impedit.",
+    "Id": 325,
+    "Name": "Mueller Group",
+    "ToolTip": "Corrupti commodi velit et et dignissimos maiores delectus.",
     "Deleted": false,
-    "Rank": 604,
-    "Type": "necessitatibus",
-    "ColorBlock": 743,
-    "IconHint": "laudantium",
-    "Selected": false,
-    "LastChanged": "2000-05-28T13:38:18.0150452+02:00",
+    "Rank": 770,
+    "Type": "amet",
+    "ColorBlock": 815,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2008-03-10T13:57:19.7033929+01:00",
     "ChildItems": [
       {
-        "Id": 181,
-        "Name": "Kiehn LLC",
-        "ToolTip": "Maxime aut.",
+        "Id": 333,
+        "Name": "Wyman-Schmidt",
+        "ToolTip": "Nostrum magnam nihil minima unde vel sunt dolorem.",
         "Deleted": false,
-        "Rank": 158,
-        "Type": "aut",
-        "ColorBlock": 736,
-        "IconHint": "laborum",
+        "Rank": 148,
+        "Type": "cum",
+        "ColorBlock": 878,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2018-06-15T13:38:18.0150452+02:00",
+        "LastChanged": "2023-09-23T13:57:19.7033929+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "minima",
-        "Hidden": false,
-        "FullName": "Mrs. Stephany Genesis Grant",
+        "ExtraInfo": "et",
+        "StyleHint": "ullam",
+        "Hidden": true,
+        "FullName": "Asha Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 26
+            "FieldType": "System.Int32",
+            "FieldLength": 732
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "commodi",
+    "ExtraInfo": "optio",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Maymie Kris Conroy Sr.",
+    "FullName": "Damien Orn MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 419
       }
     }
   }

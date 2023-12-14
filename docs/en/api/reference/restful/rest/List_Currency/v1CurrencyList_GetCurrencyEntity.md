@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 319,
-  "Name": "Goyette, Heidenreich and Reichert",
-  "Tooltip": "beatae",
-  "Rank": 783,
-  "Rate": 19625.108,
-  "Units": 13817.805999999999,
+  "CurrencyId": 311,
+  "Name": "Runolfsson-Bode",
+  "Tooltip": "magnam",
+  "Rank": 861,
+  "Rate": 4312.384,
+  "Units": 10950.196,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 286
+      "FieldType": "System.Int32",
+      "FieldLength": 179
     }
   }
 }

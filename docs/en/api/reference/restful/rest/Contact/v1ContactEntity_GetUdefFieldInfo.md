@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 908,
-  "ColumnId": 893,
-  "FieldDefault": "nemo",
-  "FieldHeight": 381,
-  "FieldLabel": "qui",
-  "FieldLeft": 344,
-  "FieldTop": 568,
+  "UDefFieldId": 804,
+  "ColumnId": 269,
+  "FieldDefault": "quam",
+  "FieldHeight": 944,
+  "FieldLabel": "exercitationem",
+  "FieldLeft": 400,
+  "FieldTop": 975,
   "FieldType": "Checkbox",
-  "FieldWidth": 155,
-  "FormatMask": "qui",
-  "HideLabel": false,
+  "FieldWidth": 29,
+  "FormatMask": "dolores",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 318,
-  "LabelLeft": 97,
-  "LabelTop": 365,
-  "LabelWidth": 895,
-  "LastVersionId": 163,
-  "ListTableId": 100,
-  "IsMandatory": true,
+  "LabelHeight": 285,
+  "LabelLeft": 654,
+  "LabelTop": 133,
+  "LabelWidth": 764,
+  "LastVersionId": 843,
+  "ListTableId": 539,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 547,
-  "ProgId": "quaerat",
+  "Page1LineNo": 557,
+  "ProgId": "voluptas",
   "IsReadOnly": false,
-  "ShortLabel": "perferendis",
-  "TabOrder": 722,
-  "TextLength": 737,
-  "Tooltip": "quis",
-  "UdefIdentity": 721,
-  "UDListDefinitionId": 91,
+  "ShortLabel": "qui",
+  "TabOrder": 97,
+  "TextLength": 675,
+  "Tooltip": "vel",
+  "UdefIdentity": 12,
+  "UDListDefinitionId": 985,
   "Justification": "Center",
-  "Version": 62,
-  "TemplateVariableName": "Glover-Runte",
-  "HasBeenPublished": false,
-  "MdoListName": "Spinka Inc and Sons",
+  "Version": 964,
+  "TemplateVariableName": "O'Kon, Goyette and Sauer",
+  "HasBeenPublished": true,
+  "MdoListName": "Kertzmann, Gleichner and Mertz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 377
+      "FieldLength": 205
     }
   }
 }

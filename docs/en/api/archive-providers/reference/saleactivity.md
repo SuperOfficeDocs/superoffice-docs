@@ -721,13 +721,17 @@ Activity archive provider for the Sale card
 |appointmentUdef/SuperOffice:6|bool|followupcheckbox| x |
 |appointmentUdef/SuperOffice:7|listAny|followupdropdownlistbox| x |
 |appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
-|appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleActivity?$select=person/personId,person/correspondingAssociate/fullName,contact/contactAssociate/ejDisplayName,contact/saintActivityType,project/LastCompletedActivity
+GET /api/v1/archive/SaleActivity?$select=visibleFor,person/firstName,person/personAddress/line2,person/personAssociate/simultaneousEjUser,person/correspondingAssociate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

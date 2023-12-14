@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 572,
-    "Name": "Swift, Torp and Bode",
-    "Tooltip": "vel",
+    "HeadingId": 229,
+    "Name": "Purdy LLC",
+    "Tooltip": "qui",
     "Deleted": true,
-    "Rank": 147,
-    "UdListDefinitionId": 130,
+    "Rank": 464,
+    "UdListDefinitionId": 71,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 617
+        "FieldType": "System.String",
+        "FieldLength": 64
       }
     }
   }

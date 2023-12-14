@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 698,
-  "Name": "Rau, Feeney and Pollich",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 694,
-  "IsCustomList": false,
+  "Id": 803,
+  "Name": "Nolan-Olson",
+  "Tooltip": "perferendis",
+  "Deleted": false,
+  "Rank": 420,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 822
+      "FieldLength": 545
     }
   },
   "_Links": {

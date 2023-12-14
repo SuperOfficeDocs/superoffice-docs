@@ -733,7 +733,7 @@ Shadow contact provider for the dynamic ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=person/searchPhone/description,person/email/emailAddress,person/legalBaseStore,contact/registeredBy,contact/restrictionAddress/county
+GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=person/personUrl/URLDescription,person/personExtra/x_person_time,person/personAssociate/isActiveText,contact/email/emailAddress,contact/streetAddress/addressId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

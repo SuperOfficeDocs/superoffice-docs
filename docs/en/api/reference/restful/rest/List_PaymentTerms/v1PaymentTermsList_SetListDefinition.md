@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 310,
-  "Name": "Legros-Goyette",
+  "Id": 202,
+  "Name": "Toy, Bednar and Goldner",
   "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 514,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "repellat",
+  "Rank": 533,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "porro",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 313,
-  "Name": "Schowalter LLC",
-  "Tooltip": "enim",
+  "Id": 428,
+  "Name": "Jones, Miller and Monahan",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 684,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 150,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "molestiae",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 415
     }
   }
 }

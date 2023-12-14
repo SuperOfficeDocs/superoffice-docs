@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 334
+  "QuoteLineConfigurationId": 286
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 307,
-  "FieldName": "Ortiz LLC",
-  "Label": "aut",
-  "Tooltip": "perspiciatis",
+  "QuoteLineConfigurationId": 744,
+  "FieldName": "Tremblay Group",
+  "Label": "sequi",
+  "Tooltip": "consequuntur",
   "Editable": false,
-  "InUse": true,
-  "Mandatory": false,
-  "Rank": 509,
+  "InUse": false,
+  "Mandatory": true,
+  "Rank": 961,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 791
+      "FieldType": "System.Int32",
+      "FieldLength": 533
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 564,
-    "Name": "Torp Group",
-    "Tooltip": "hic",
+    "HeadingId": 826,
+    "Name": "Pagac-Runolfsson",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "Rank": 566,
-    "UdListDefinitionId": 835,
+    "Rank": 928,
+    "UdListDefinitionId": 397,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 377
+        "FieldType": "System.Int32",
+        "FieldLength": 692
       }
     }
   }

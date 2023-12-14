@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 615,
-  "Name": "Schuster-Adams",
-  "Tooltip": "totam",
-  "Deleted": true,
-  "Rank": 718,
-  "IsCustomList": true,
+  "Id": 603,
+  "Name": "McClure-Smitham",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 809,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 306,
-  "Name": "Buckridge Group",
-  "Tooltip": "neque",
+  "Id": 340,
+  "Name": "Walsh-Bode",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "Rank": 994,
-  "IsCustomList": false,
+  "Rank": 147,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "optio",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eaque",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldLength": 539
     }
   }
 }

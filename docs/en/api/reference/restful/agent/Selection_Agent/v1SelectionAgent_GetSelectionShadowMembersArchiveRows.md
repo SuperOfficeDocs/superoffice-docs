@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 591,
-  "Select": "sint"
+  "SelectionId": 456,
+  "Select": "consequatur"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schumm Group",
-    "PrimaryKey": 594,
+    "EntityName": "Emard-Dibbert",
+    "PrimaryKey": 197,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "qui",
-        "TooltipHint": "natus",
-        "LinkHint": "et"
+        "DisplayValue": "debitis",
+        "TooltipHint": "officiis",
+        "LinkHint": "aliquid"
       }
     },
-    "LinkHint": "eveniet",
-    "StyleHint": "qui",
+    "LinkHint": "sequi",
+    "StyleHint": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 966
+        "FieldLength": 830
       }
     }
   }

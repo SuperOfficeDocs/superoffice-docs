@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 394,
-    "Name": "Bayer, Stiedemann and Huel",
-    "ToolTip": "Consequatur dignissimos autem qui odit.",
+    "Id": 816,
+    "Name": "Weber-Hilll",
+    "ToolTip": "Quis quod aut eum adipisci rerum ut totam.",
     "Deleted": false,
-    "Rank": 297,
-    "Type": "totam",
-    "ColorBlock": 795,
-    "IconHint": "sunt",
+    "Rank": 329,
+    "Type": "et",
+    "ColorBlock": 845,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2007-09-27T13:38:18.1244081+02:00",
+    "LastChanged": "2013-11-28T13:57:19.8596433+01:00",
     "ChildItems": [
       {
-        "Id": 57,
-        "Name": "Christiansen-Braun",
-        "ToolTip": "Aut magni autem harum porro facilis ut.",
-        "Deleted": true,
-        "Rank": 95,
-        "Type": "labore",
-        "ColorBlock": 209,
-        "IconHint": "debitis",
+        "Id": 64,
+        "Name": "Witting, Monahan and Rowe",
+        "ToolTip": "Quo reprehenderit.",
+        "Deleted": false,
+        "Rank": 396,
+        "Type": "aspernatur",
+        "ColorBlock": 14,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2007-10-27T13:38:18.1244081+02:00",
+        "LastChanged": "2001-08-12T13:57:19.8596433+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "incidunt",
-        "Hidden": false,
-        "FullName": "Brenna Hessel"
+        "ExtraInfo": "eum",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Ms. Gennaro Stamm"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "vel",
-    "Hidden": true,
-    "FullName": "Mrs. Eulalia Stroman Jr."
+    "ExtraInfo": "officiis",
+    "StyleHint": "maiores",
+    "Hidden": false,
+    "FullName": "Ms. Jovani Serena Hagenes"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 769,
-    "Name": "Terry, Stracke and Murray",
-    "ToolTip": "Voluptatem quia dignissimos amet fuga qui.",
-    "Deleted": true,
-    "Rank": 83,
-    "Type": "cumque",
-    "ColorBlock": 160,
-    "IconHint": "officia",
-    "Selected": false,
-    "LastChanged": "2016-12-06T13:38:18.1244081+01:00",
+    "Id": 444,
+    "Name": "Grant, Spencer and Bergstrom",
+    "ToolTip": "Unde qui velit sed quaerat.",
+    "Deleted": false,
+    "Rank": 891,
+    "Type": "asperiores",
+    "ColorBlock": 864,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2007-11-19T13:57:19.8596433+01:00",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Yost-White",
-        "ToolTip": "Est sint.",
-        "Deleted": true,
-        "Rank": 894,
-        "Type": "dicta",
-        "ColorBlock": 443,
-        "IconHint": "fuga",
+        "Id": 371,
+        "Name": "Morissette, Lueilwitz and Schaefer",
+        "ToolTip": "Aut ea nam.",
+        "Deleted": false,
+        "Rank": 495,
+        "Type": "deserunt",
+        "ColorBlock": 17,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2018-01-01T13:38:18.1244081+01:00",
+        "LastChanged": "2013-04-03T13:57:19.8596433+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "facilis",
+        "ExtraInfo": "maiores",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Dr. Caleb Eulalia Doyle",
+        "FullName": "Ervin Lemke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 240
+            "FieldType": "System.String",
+            "FieldLength": 630
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "cum",
-    "Hidden": false,
-    "FullName": "Miss Alvis Langosh",
+    "ExtraInfo": "quia",
+    "StyleHint": "esse",
+    "Hidden": true,
+    "FullName": "Annie Spinka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 978
+        "FieldType": "System.String",
+        "FieldLength": 238
       }
     }
   }

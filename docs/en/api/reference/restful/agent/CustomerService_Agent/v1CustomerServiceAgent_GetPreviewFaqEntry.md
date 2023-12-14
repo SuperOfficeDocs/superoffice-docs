@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 448
+  "KbEntryId": 797
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "nesciunt",
-  "RegisteredByFullName": "Alexander Reinger",
-  "Updated": "2006-11-12T13:38:13.3896326+01:00",
-  "Question": "dolorem",
-  "Answer": "odio",
+  "Title": "nihil",
+  "RegisteredByFullName": "Prof. Malinda Dach",
+  "Updated": "2011-04-04T13:57:12.0280012+02:00",
+  "Question": "quos",
+  "Answer": "consequuntur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 865
+      "FieldLength": 394
     }
   }
 }

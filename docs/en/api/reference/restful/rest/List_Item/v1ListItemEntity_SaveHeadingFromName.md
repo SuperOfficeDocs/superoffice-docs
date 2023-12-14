@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 365,
-  "Name": "Brakus Group",
-  "Tooltip": "eum",
+  "HeadingId": 147,
+  "Name": "McGlynn-Kshlerin",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 399,
-  "UdListDefinitionId": 460
+  "Rank": 484,
+  "UdListDefinitionId": 19
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 821,
-  "Name": "Sporer-Stanton",
-  "Tooltip": "saepe",
-  "Deleted": true,
-  "Rank": 901,
-  "UdListDefinitionId": 332,
+  "HeadingId": 46,
+  "Name": "Kovacek Inc and Sons",
+  "Tooltip": "unde",
+  "Deleted": false,
+  "Rank": 962,
+  "UdListDefinitionId": 42,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 227
     }
   }
 }

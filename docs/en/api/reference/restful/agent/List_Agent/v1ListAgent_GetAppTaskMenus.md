@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 228,
-    "Name": "Connelly, Haag and Beier",
-    "Tooltip": "ipsa",
-    "TableName": "Sawayn, Douglas and Upton",
-    "Area": "minima",
+    "TaskMenuId": 339,
+    "Name": "Barrows, Trantow and Harris",
+    "Tooltip": "veritatis",
+    "TableName": "Kunde, Hansen and Flatley",
+    "Area": "et",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 330,
+    "CrmScriptId": 462,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 654,
+    "Rank": 850,
     "Encoding": "ANSI",
-    "ProgId": "voluptatem",
+    "ProgId": "sed",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldLength": 78
       }
     }
   }

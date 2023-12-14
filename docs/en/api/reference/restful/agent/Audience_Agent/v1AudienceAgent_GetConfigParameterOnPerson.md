@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Fisher-Boehm",
-  "PersonId": 439
+  "ParameterName": "Upton, Gorczany and Hettinger",
+  "PersonId": 455
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 459,
-  "Name": "O'Hara Group",
-  "Value": "illo",
-  "CreatedDate": "2010-04-20T13:38:13.0771703+02:00",
-  "UpdatedDate": "2015-03-09T13:38:13.0771703+01:00",
-  "CreatedBy": "vel",
-  "UpdatedBy": "ullam",
+  "AudienceLayoutId": 546,
+  "Name": "Koch-Kemmer",
+  "Value": "nemo",
+  "CreatedDate": "2004-11-23T13:57:11.5438073+01:00",
+  "UpdatedDate": "2017-01-24T13:57:11.5438073+01:00",
+  "CreatedBy": "quis",
+  "UpdatedBy": "fugit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 128
     }
   }
 }

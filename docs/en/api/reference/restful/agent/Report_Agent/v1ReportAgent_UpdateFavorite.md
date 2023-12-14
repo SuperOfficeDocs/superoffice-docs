@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 76,
+  "ReportId": 869,
   "ReportCategory": "All",
-  "Description": "Operative intermediate capability",
+  "Description": "Implemented assymetric model",
   "ReportLayout": "CalendarMonth",
-  "Name": "Auer-Smitham",
-  "AssociateId": 808,
-  "TemplateId": 632,
+  "Name": "Kuphal Inc and Sons",
+  "AssociateId": 828,
+  "TemplateId": 966,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 126
+      "FieldLength": 351
     }
   }
 }

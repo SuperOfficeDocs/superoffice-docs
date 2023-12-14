@@ -72,16 +72,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "tempora",
+      "RawValue": "occaecati",
       "Specification": null,
-      "DisplayValue": "modi",
-      "DisplayTooltip": "iure",
+      "DisplayValue": "quae",
+      "DisplayTooltip": "quibusdam",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 254,
-      "PrefDescId": 150,
-      "TableName": "Collier, Rohan and Bosco",
-      "UserPreferenceId": 738
+      "TargetId": 423,
+      "PrefDescId": 366,
+      "TableName": "Feeney LLC",
+      "UserPreferenceId": 303
     }
   ],
   "RemoveLowerLevels": false

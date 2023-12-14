@@ -78,25 +78,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 394,
-      "PrefDescId": 769,
-      "PrefValue": "iusto",
-      "PrefShowValue": "itaque",
-      "Description": "Customer-focused methodical matrix",
+      "PrefDescLineId": 583,
+      "PrefDescId": 156,
+      "PrefValue": "in",
+      "PrefShowValue": "debitis",
+      "Description": "Streamlined value-added intranet",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 394,
-      "PrefDescId": 769,
-      "PrefValue": "iusto",
-      "PrefShowValue": "itaque",
-      "Description": "Customer-focused methodical matrix",
+      "PrefDescLineId": 583,
+      "PrefDescId": 156,
+      "PrefValue": "in",
+      "PrefShowValue": "debitis",
+      "Description": "Streamlined value-added intranet",
       "IsBuiltin": false
     }
   ]
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 941,
-    "PrefDescId": 962,
-    "PrefValue": "velit",
-    "PrefShowValue": "molestiae",
-    "Description": "Business-focused disintermediate array",
-    "IsBuiltin": true,
+    "PrefDescLineId": 565,
+    "PrefDescId": 972,
+    "PrefValue": "est",
+    "PrefShowValue": "quidem",
+    "Description": "Distributed radical instruction set",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldType": "System.String",
+        "FieldLength": 972
       }
     }
   }

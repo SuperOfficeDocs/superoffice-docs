@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 685,
-    "ColumnId": 359,
-    "FieldDefault": "cumque",
-    "FieldHeight": 96,
-    "FieldLabel": "odit",
-    "FieldLeft": 860,
-    "FieldTop": 566,
+    "UDefFieldId": 226,
+    "ColumnId": 338,
+    "FieldDefault": "aut",
+    "FieldHeight": 993,
+    "FieldLabel": "vitae",
+    "FieldLeft": 492,
+    "FieldTop": 492,
     "FieldType": "Checkbox",
-    "FieldWidth": 779,
-    "FormatMask": "omnis",
+    "FieldWidth": 123,
+    "FormatMask": "consequatur",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 357,
-    "LabelLeft": 390,
-    "LabelTop": 682,
-    "LabelWidth": 675,
-    "LastVersionId": 173,
-    "ListTableId": 906,
+    "IsIndexed": true,
+    "LabelHeight": 50,
+    "LabelLeft": 501,
+    "LabelTop": 685,
+    "LabelWidth": 863,
+    "LastVersionId": 660,
+    "ListTableId": 473,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 554,
-    "ProgId": "id",
+    "Page1LineNo": 937,
+    "ProgId": "temporibus",
     "IsReadOnly": false,
-    "ShortLabel": "id",
-    "TabOrder": 527,
-    "TextLength": 645,
-    "Tooltip": "vel",
-    "UdefIdentity": 944,
-    "UDListDefinitionId": 360,
+    "ShortLabel": "illo",
+    "TabOrder": 853,
+    "TextLength": 868,
+    "Tooltip": "qui",
+    "UdefIdentity": 337,
+    "UDListDefinitionId": 205,
     "Justification": "Center",
-    "Version": 499,
-    "TemplateVariableName": "Hudson, Boehm and Hilpert",
-    "HasBeenPublished": true,
-    "MdoListName": "Kihn-Hane",
+    "Version": 69,
+    "TemplateVariableName": "Orn, Dibbert and Prohaska",
+    "HasBeenPublished": false,
+    "MdoListName": "Friesen-Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 220
+        "FieldType": "System.Int32",
+        "FieldLength": 213
       }
     }
   }

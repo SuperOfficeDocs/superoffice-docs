@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "O'Connell-Berge",
-  "DeviceName": "Gerhold-Treutel",
-  "DeviceIdentifier": "magnam"
+  "ApplicationName": "Doyle Group",
+  "DeviceName": "Satterfield Inc and Sons",
+  "DeviceIdentifier": "repellat"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quo",
-  "Value": "fugiat",
-  "RecordId": 324,
-  "CreatedDate": "2021-09-25T13:38:13.6396102+02:00",
-  "UpdatedDate": "1997-05-29T13:38:13.6396102+02:00",
-  "UpdatedBy": "corporis",
-  "CreatedBy": "deserunt",
-  "TableName": "Larson-Kunze",
+  "Key": "ullam",
+  "Value": "pariatur",
+  "RecordId": 418,
+  "CreatedDate": "1997-07-28T13:57:12.4181107+02:00",
+  "UpdatedDate": "2008-10-11T13:57:12.4181107+02:00",
+  "UpdatedBy": "id",
+  "CreatedBy": "quia",
+  "TableName": "Considine, Gleichner and Ortiz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldType": "System.String",
+      "FieldLength": 332
     }
   }
 }

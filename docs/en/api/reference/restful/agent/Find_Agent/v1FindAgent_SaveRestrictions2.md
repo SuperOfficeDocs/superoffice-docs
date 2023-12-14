@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quam",
-  "ProviderName": "Greenfelder, Shanahan and VonRueden",
-  "StorageKey": "rerum",
-  "Restrictions": "voluptas"
+  "StorageType": "deserunt",
+  "ProviderName": "Thompson-Walker",
+  "StorageKey": "qui",
+  "Restrictions": "et"
 }
 ```
 

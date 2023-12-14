@@ -71,6 +71,9 @@ OK
 | CreatedDate | date-time | Registered date  in UTC. |
 | AppointmentId | int32 | Primary key |
 | Description | string | Description of the appointment. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
@@ -112,9 +115,6 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
-| Title | string | The title of the appointment. |
-| Agenda | string | The agenda of the appointment. |
-| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 517,
+  "AppointmentId": 229,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-11-05T13:38:12.983428+01:00",
-  "AppointmentId": 264,
-  "Description": "Fully-configurable human-resource concept",
-  "StartDate": "2019-06-13T13:38:12.983428+02:00",
-  "EndDate": "2016-07-20T13:38:12.983428+02:00",
+  "CreatedDate": "2002-11-19T13:57:11.3875599+01:00",
+  "AppointmentId": 733,
+  "Description": "Multi-tiered hybrid pricing structure",
+  "Title": "sit",
+  "Agenda": "et",
+  "InternalNotes": "ratione",
+  "StartDate": "2001-09-09T13:57:11.3875599+02:00",
+  "EndDate": "2000-02-21T13:57:11.3875599+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 423,
+  "MotherId": 372,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2016-05-06T13:38:12.983428+02:00",
+  "UpdatedDate": "2014-10-05T13:57:11.4031843+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 821,
+  "ActiveLinks": 935,
   "Links": [
     {
-      "EntityName": "Rempel Group",
-      "Id": 808,
-      "Description": "De-engineered local workforce",
-      "ExtraInfo": "sunt",
-      "LinkId": 591,
+      "EntityName": "Thompson, Orn and Smitham",
+      "Id": 394,
+      "Description": "Optimized bifurcated infrastructure",
+      "ExtraInfo": "aut",
+      "LinkId": 712,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldLength": 822
         }
       }
     }
   ],
-  "AlarmLeadTime": "impedit",
+  "AlarmLeadTime": "suscipit",
   "HasAlarm": false,
-  "ColorIndex": 145,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "voluptas",
-  "LeadTime": "ullam",
-  "Location": "incidunt",
-  "RejectCounter": 977,
+  "ColorIndex": 787,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "omnis",
+  "LeadTime": "amet",
+  "Location": "explicabo",
+  "RejectCounter": 239,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 877,
-      "PersonId": 575,
-      "ContactId": 884,
-      "EmailId": 75,
+      "AssociateId": 848,
+      "PersonId": 815,
+      "ContactId": 780,
+      "EmailId": 336,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "flavie_gleichner@legrosweissnat.ca",
-      "Description": "Progressive clear-thinking system engine"
+      "EmailAddress": "reinhold@buckridgewalsh.us",
+      "Description": "Up-sized upward-trending throughput"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-07-31T13:38:12.983428+02:00",
+  "ActiveDate": "2010-08-17T13:57:11.4031843+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 757,
+  "PreferredTZLocation": 167,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 496,
+  "SuggestedAppointmentId": 337,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "error",
-  "Title": "et",
-  "Agenda": "tempora",
-  "InternalNotes": "voluptatem",
+  "CentralserviceVideomeetId": "laudantium",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Gus Rutherford"
+    "SuperOffice:1": "Amira Wilkinson I",
+    "SuperOffice:2": "Miss Alysha Lamont Spinka V"
   },
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "iusto"
+    "ExtraFields1": "reiciendis",
+    "ExtraFields2": "doloremque"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "sed"
+    "CustomFields1": "quaerat",
+    "CustomFields2": "dolorem"
   },
-  "PublishEventDate": "2011-10-06T13:38:12.983428+02:00",
-  "PublishTo": "2001-03-10T13:38:12.983428+01:00",
-  "PublishFrom": "2001-10-17T13:38:12.983428+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-08-16T13:57:11.4031843+02:00",
+  "PublishTo": "2003-04-15T13:57:11.4031843+02:00",
+  "PublishFrom": "2000-12-21T13:57:11.4031843+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 77,
+      "VisibleId": 561,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldLength": 31
         }
       }
     },
     {
-      "VisibleId": 77,
+      "VisibleId": 561,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldLength": 31
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldLength": 419
     }
   }
 }

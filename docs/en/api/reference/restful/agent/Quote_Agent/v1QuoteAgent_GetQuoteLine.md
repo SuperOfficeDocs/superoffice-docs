@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 189
+  "QuoteLineId": 720
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 941,
-  "ERPQuoteLineKey": "cumque",
-  "QuoteAlternativeId": 538,
-  "ERPProductKey": "eligendi",
+  "QuoteLineId": 495,
+  "ERPQuoteLineKey": "aspernatur",
+  "QuoteAlternativeId": 531,
+  "ERPProductKey": "assumenda",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 17365.494,
-  "DeliveredQuantity": 24915.3,
-  "Rank": 539,
-  "Name": "Olson, Botsford and Mills",
-  "Description": "Diverse human-resource conglomeration",
-  "Code": "aspernatur",
-  "QuantityUnit": "minima",
-  "PriceUnit": "voluptatem",
-  "ItemNumber": "532940",
+  "Quantity": 27692.023999999998,
+  "DeliveredQuantity": 19405.728,
+  "Rank": 254,
+  "Name": "Kemmer, Kling and Runte",
+  "Description": "Customer-focused maximized benchmark",
+  "Code": "minus",
+  "QuantityUnit": "ut",
+  "PriceUnit": "aperiam",
+  "ItemNumber": "913213",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "consectetur",
-  "Supplier": "voluptatem",
-  "SupplierCode": "optio",
-  "Thumbnail": "excepturi",
-  "VATInfo": "magnam",
-  "VAT": 9505.422,
-  "UnitCost": 12072.168,
-  "UnitMinimumPrice": 30412.336,
-  "UnitListPrice": 26780.03,
+  "ProductFamilyKey": "earum",
+  "ProductTypeKey": "et",
+  "Supplier": "sunt",
+  "SupplierCode": "rerum",
+  "Thumbnail": "occaecati",
+  "VATInfo": "ut",
+  "VAT": 19643.912,
+  "UnitCost": 20248.773999999998,
+  "UnitMinimumPrice": 29462.734,
+  "UnitListPrice": 996.612,
   "ExtraInfo": [
     {
-      "Name": "Gislason-Franecki",
-      "Value": "sint",
+      "Name": "Lemke Group",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 285
+          "FieldLength": 253
         }
       }
     },
     {
-      "Name": "Gislason-Franecki",
-      "Value": "sint",
+      "Name": "Lemke Group",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 285
+          "FieldLength": 253
         }
       }
     }
   ],
-  "RawExtraInfo": "sed",
-  "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "SubscriptionQuantity": 915.12799999999993,
-  "SubscriptionStart": "2018-07-25T13:38:14.045953+02:00",
-  "ERPDiscountPercent": 8320.77,
-  "ERPDiscountAmount": 7342.9619999999995,
-  "DiscountPercent": 12404.372,
-  "DiscountAmount": 12307.217999999999,
+  "RawExtraInfo": "asperiores",
+  "IsSubscription": true,
+  "SubscriptionUnit": "distinctio",
+  "SubscriptionQuantity": 827.376,
+  "SubscriptionStart": "2011-06-12T13:57:13.0805627+02:00",
+  "ERPDiscountPercent": 927.664,
+  "ERPDiscountAmount": 17691.43,
+  "DiscountPercent": 12103.508,
+  "DiscountAmount": 22273.338,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 16817.043999999998,
-  "EarningAmount": 5327.8,
-  "SubTotal": 26842.71,
-  "TotalPrice": 980.942,
-  "Rights": "reiciendis",
-  "Rule": "qui",
-  "ExtraField1": "corporis",
-  "ExtraField2": "magni",
-  "ExtraField3": "mollitia",
-  "ExtraField4": "soluta",
-  "ExtraField5": "ut",
+  "EarningPercent": 6224.124,
+  "EarningAmount": 13507.539999999999,
+  "SubTotal": 17268.34,
+  "TotalPrice": 10724.547999999999,
+  "Rights": "maiores",
+  "Rule": "deserunt",
+  "ExtraField1": "ea",
+  "ExtraField2": "iste",
+  "ExtraField3": "quod",
+  "ExtraField4": "praesentium",
+  "ExtraField5": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldType": "System.String",
+      "FieldLength": 875
     }
   }
 }

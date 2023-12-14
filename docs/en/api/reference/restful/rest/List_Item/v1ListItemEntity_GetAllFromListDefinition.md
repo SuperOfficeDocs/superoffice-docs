@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 179,
-    "Name": "Goyette-Schroeder",
-    "Tooltip": "ducimus",
-    "Deleted": true,
-    "UdListDefinitionId": 426,
-    "Rank": 78,
+    "Id": 501,
+    "Name": "Klein Group",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 969,
+    "Rank": 506,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 918
+        "FieldType": "System.Int32",
+        "FieldLength": 703
       }
     }
   }

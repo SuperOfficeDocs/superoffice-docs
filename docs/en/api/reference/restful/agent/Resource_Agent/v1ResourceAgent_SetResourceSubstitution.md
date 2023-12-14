@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Larkin-Jakubowski",
-  "ResourceValues": "rem",
-  "Culture": "iure",
-  "IsActive": true
+  "ResourceName": "Schultz, Becker and Veum",
+  "ResourceValues": "et",
+  "Culture": "distinctio",
+  "IsActive": false
 }
 ```
 

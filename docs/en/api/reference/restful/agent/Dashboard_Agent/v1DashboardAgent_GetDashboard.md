@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=11
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=685
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 62,
-  "AssociateId": 725,
-  "Caption": "molestias",
+  "DashboardId": 92,
+  "AssociateId": 64,
+  "Caption": "beatae",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 209,
-      "Caption": "possimus",
-      "Description": "Grass-roots 24/7 implementation",
-      "ChartName": "Glover, O'Kon and Schimmel",
-      "ChartId": "autem",
+      "DashboardTileId": 424,
+      "Caption": "ipsum",
+      "Description": "Profound user-facing leverage",
+      "ChartName": "Kassulke, Funk and Schmeler",
+      "ChartId": "quod",
       "IsDefault": false,
-      "AssociateId": 384,
-      "GroupId": 494,
-      "SelectionId": 813,
-      "Config": "rem",
+      "AssociateId": 611,
+      "GroupId": 463,
+      "SelectionId": 651,
+      "Config": "saepe",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldLength": 593
         }
       }
     }
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldLength": 975
     }
   }
 }

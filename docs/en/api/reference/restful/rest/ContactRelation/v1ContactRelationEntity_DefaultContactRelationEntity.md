@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 08 Aug 2019 13:38:17 G8T
+Last-Modified: Mon, 16 Jun 2014 13:57:18 G6T
 
 {
-  "SourceContactId": 730,
-  "SourcePersonId": 662,
-  "DestinationContactId": 344,
-  "DestinationPersonId": 165,
-  "RelationId": 110,
-  "Comment": "in",
-  "RelationDefinitionId": 63,
-  "Reversed": 483,
-  "UpdatedDate": "2019-08-08T13:38:17.280593+02:00",
-  "CreatedDate": "2004-08-02T13:38:17.280593+02:00",
+  "SourceContactId": 295,
+  "SourcePersonId": 218,
+  "DestinationContactId": 451,
+  "DestinationPersonId": 946,
+  "RelationId": 605,
+  "Comment": "asperiores",
+  "RelationDefinitionId": 270,
+  "Reversed": 235,
+  "UpdatedDate": "2014-06-16T13:57:18.669059+02:00",
+  "CreatedDate": "1998-03-02T13:57:18.669059+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Corwin Group",
-  "SourcePersonName": "Bradtke-Stroman",
-  "DestinationContactName": "Kassulke-Graham",
-  "DestinationPersonName": "Howell, Romaguera and O'Keefe",
-  "ActiveText": "sit",
-  "PassiveText": "asperiores",
+  "SourceContactName": "Ledner LLC",
+  "SourcePersonName": "Jerde, Turcotte and Mitchell",
+  "DestinationContactName": "Quitzon-Gerhold",
+  "DestinationPersonName": "Kuhn Inc and Sons",
+  "ActiveText": "qui",
+  "PassiveText": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 755
+      "FieldType": "System.Int32",
+      "FieldLength": 570
     }
   }
 }

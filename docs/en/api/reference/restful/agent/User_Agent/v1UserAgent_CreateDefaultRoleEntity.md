@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 28,
-  "Name": "Nolan-Prosacco",
-  "Tooltip": "voluptatem",
+  "RoleId": 545,
+  "Name": "Buckridge-Hegmann",
+  "Tooltip": "sit",
   "RoleType": "Anonymous",
-  "Deleted": 411,
-  "Rank": 234,
-  "Created": "2023-03-28T13:38:14.327173+02:00",
-  "UseCategories": 836,
+  "Deleted": 256,
+  "Rank": 610,
+  "Created": "2023-05-31T13:57:13.5052139+02:00",
+  "UseCategories": 863,
   "CreatedBy": null,
-  "Updated": "2007-07-21T13:38:14.327173+02:00",
+  "Updated": "2017-04-16T13:57:13.5052139+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldType": "System.String",
+      "FieldLength": 815
     }
   }
 }

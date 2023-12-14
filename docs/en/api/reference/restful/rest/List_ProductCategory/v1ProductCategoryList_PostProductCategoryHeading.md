@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 869,
-  "Name": "Price Inc and Sons",
-  "Tooltip": "sed",
+  "HeadingId": 248,
+  "Name": "Kling-Macejkovic",
+  "Tooltip": "nam",
   "Deleted": true,
-  "Rank": 636,
-  "UdListDefinitionId": 126
+  "Rank": 112,
+  "UdListDefinitionId": 991
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 97,
-  "Name": "Dickinson, Trantow and Williamson",
-  "Tooltip": "ex",
-  "Deleted": true,
-  "Rank": 360,
-  "UdListDefinitionId": 523,
+  "HeadingId": 66,
+  "Name": "Harvey, Kertzmann and Cronin",
+  "Tooltip": "dignissimos",
+  "Deleted": false,
+  "Rank": 426,
+  "UdListDefinitionId": 606,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldLength": 310
     }
   }
 }

@@ -1317,6 +1317,7 @@ title: Services88.CRMScriptAgent WSDL
               <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
               <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Frames" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ForceSaveTrace" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

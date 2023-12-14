@@ -778,13 +778,17 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personAppointment/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |personAppointment/associate/userName|string|User name: User name| x |
 |personAppointment/associate/personEmail|string|E-mail| x |
-|personAppointment/appointment/textId|int|Text ID| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|personAppointment/appointment/title|positiveString|Title| x |
+|personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
+|personAppointment/appointment/agenda|positiveString|Agenda| x |
+|personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
+|personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=email/emailAddress,personExtra/x_person_hidden_integer,contactUdef/SuperOffice:3,request/createdBy/isActive,personAppointment/associate/contactName
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personDirectPhone/description,personPrivate/formattedNumber,personEmail/emailBounceCount,registeredDate,personAddress/city
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

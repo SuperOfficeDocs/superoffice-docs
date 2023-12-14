@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 882,
-  "ColumnId": 996,
-  "FieldDefault": "perferendis",
-  "FieldHeight": 27,
-  "FieldLabel": "enim",
-  "FieldLeft": 524,
-  "FieldTop": 337,
+  "UDefFieldId": 158,
+  "ColumnId": 434,
+  "FieldDefault": "enim",
+  "FieldHeight": 395,
+  "FieldLabel": "et",
+  "FieldLeft": 511,
+  "FieldTop": 777,
   "FieldType": "Checkbox",
-  "FieldWidth": 936,
-  "FormatMask": "voluptatem",
+  "FieldWidth": 845,
+  "FormatMask": "quidem",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 37,
-  "LabelLeft": 3,
-  "LabelTop": 536,
-  "LabelWidth": 154,
-  "LastVersionId": 532,
-  "ListTableId": 761,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 684,
+  "LabelLeft": 393,
+  "LabelTop": 118,
+  "LabelWidth": 332,
+  "LastVersionId": 417,
+  "ListTableId": 352,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 924,
-  "ProgId": "ea",
-  "IsReadOnly": false,
-  "ShortLabel": "non",
-  "TabOrder": 408,
-  "TextLength": 743,
-  "Tooltip": "rerum",
-  "UdefIdentity": 53,
-  "UDListDefinitionId": 767,
+  "Page1LineNo": 619,
+  "ProgId": "et",
+  "IsReadOnly": true,
+  "ShortLabel": "cupiditate",
+  "TabOrder": 764,
+  "TextLength": 892,
+  "Tooltip": "accusamus",
+  "UdefIdentity": 311,
+  "UDListDefinitionId": 488,
   "Justification": "Center",
-  "Version": 257,
-  "TemplateVariableName": "Fay-Gaylord",
-  "HasBeenPublished": false,
-  "MdoListName": "Walsh, Legros and Lemke",
+  "Version": 311,
+  "TemplateVariableName": "Dibbert LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Schmeler Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldLength": 658
     }
   }
 }

@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Abbott Inc and Sons",
-  "RecordId": 236,
-  "AssociateId": 356,
-  "ExtraInfo": "laborum"
+  "TableName": "Hansen LLC",
+  "RecordId": 651,
+  "AssociateId": 556,
+  "ExtraInfo": "perspiciatis"
 }
 ```
 

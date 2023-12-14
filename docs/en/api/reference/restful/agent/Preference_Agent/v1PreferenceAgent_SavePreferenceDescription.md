@@ -101,24 +101,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 374,
-  "Section": "numquam",
-  "Key": "quae",
-  "Name": "Walter Group",
+  "PrefDescId": 833,
+  "Section": "ut",
+  "Key": "reiciendis",
+  "Name": "Streich, Rau and Ziemann",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persevering zero administration Graphical User Interface",
-  "IsBuiltin": true,
-  "TableName": "Block, Dare and Berge",
-  "UserDefinedListId": 319,
-  "Rank": 23,
-  "SubGroup": "odio",
-  "MinLevel": 287,
-  "MaxValue": 215,
-  "MinValue": 882,
-  "RequiredLicense": "voluptate"
+  "Description": "Team-oriented next generation complexity",
+  "IsBuiltin": false,
+  "TableName": "Boyer-Rogahn",
+  "UserDefinedListId": 334,
+  "Rank": 475,
+  "SubGroup": "dignissimos",
+  "MinLevel": 162,
+  "MaxValue": 598,
+  "MinValue": 7,
+  "RequiredLicense": "dolorem"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 271,
-  "Section": "quam",
-  "Key": "accusantium",
-  "Name": "Hudson, Hammes and Brown",
+  "PrefDescId": 42,
+  "Section": "sint",
+  "Key": "vel",
+  "Name": "Vandervort, Larkin and Schamberger",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Virtual incremental implementation",
+  "Description": "Business-focused neutral methodology",
   "IsBuiltin": true,
-  "TableName": "Rolfson, Fahey and Ankunding",
-  "UserDefinedListId": 948,
-  "Rank": 324,
-  "SubGroup": "id",
-  "MinLevel": 95,
-  "MaxValue": 323,
-  "MinValue": 661,
-  "RequiredLicense": "veniam",
+  "TableName": "Conroy-Schultz",
+  "UserDefinedListId": 309,
+  "Rank": 586,
+  "SubGroup": "ea",
+  "MinLevel": 484,
+  "MaxValue": 848,
+  "MinValue": 102,
+  "RequiredLicense": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldType": "System.String",
+      "FieldLength": 533
     }
   }
 }

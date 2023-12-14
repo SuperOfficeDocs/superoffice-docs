@@ -86,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kunze LLC",
+  "TableName": "Bergstrom, Larkin and O'Hara",
   "Columns": [
-    "quaerat",
-    "repudiandae"
+    "accusantium",
+    "et"
   ],
   "Data": [
     [
@@ -109,41 +109,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "sequi",
-  "Inserts": 69,
-  "Updates": 457,
-  "Deletes": 670,
+  "Success": true,
+  "Message": "et",
+  "Inserts": 265,
+  "Updates": 749,
+  "Deletes": 257,
   "RowStatus": [
     {
-      "PrimaryKey": 714,
+      "PrimaryKey": 999,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "maxime"
+        "voluptas",
+        "fuga"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 80
+          "FieldType": "System.String",
+          "FieldLength": 160
         }
       }
     },
     {
-      "PrimaryKey": 714,
+      "PrimaryKey": 999,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "maxime"
+        "voluptas",
+        "fuga"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 80
+          "FieldType": "System.String",
+          "FieldLength": 160
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldType": "System.String",
+      "FieldLength": 612
     }
   }
 }

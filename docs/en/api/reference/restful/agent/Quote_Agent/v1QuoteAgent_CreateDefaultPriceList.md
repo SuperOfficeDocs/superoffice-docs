@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 177,
-  "ERPPriceListKey": "ab",
-  "QuoteConnectionId": 8,
-  "Name": "Quitzon-Bode",
-  "Description": "Progressive encompassing capacity",
-  "Currency": "est",
-  "CurrencyName": "Walter-Barton",
-  "ValidFrom": "2020-10-30T13:38:14.0147081+01:00",
-  "ValidTo": "2014-09-22T13:38:14.0147081+02:00",
-  "IsActive": false,
+  "PriceListId": 895,
+  "ERPPriceListKey": "aliquid",
+  "QuoteConnectionId": 466,
+  "Name": "Smitham, Crist and Nitzsche",
+  "Description": "Right-sized bi-directional ability",
+  "Currency": "libero",
+  "CurrencyName": "Rowe Inc and Sons",
+  "ValidFrom": "1998-06-29T13:57:13.0324135+02:00",
+  "ValidTo": "2022-03-05T13:57:13.0324135+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldLength": 115
     }
   }
 }

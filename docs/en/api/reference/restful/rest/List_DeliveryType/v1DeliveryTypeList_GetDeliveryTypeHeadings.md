@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 20,
-    "Name": "Bosco-Bailey",
-    "Tooltip": "voluptatibus",
-    "Deleted": false,
-    "Rank": 624,
-    "UdListDefinitionId": 875,
+    "HeadingId": 221,
+    "Name": "Spinka, Carroll and Johns",
+    "Tooltip": "consectetur",
+    "Deleted": true,
+    "Rank": 466,
+    "UdListDefinitionId": 504,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 858
+        "FieldType": "System.Int32",
+        "FieldLength": 696
       }
     }
   }

@@ -699,13 +699,17 @@ This is an optional entity and is fetched only if the user checks the correspond
 |associate/otherGroups|userGroup|Other groups: Other groups|  |
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
-|appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/RejectedInvitation?$select=updatedByFullName,contact/contactUdef/SuperOffice:10,person/isStakeholder,person/personExtra/x_person_integer,project/projectAssociate/assocName
+GET /api/v1/archive/RejectedInvitation?$select=associateId,joinVideomeetUrl,contact/name,contact/contactAssociate/assocName,contact/contactAssociate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

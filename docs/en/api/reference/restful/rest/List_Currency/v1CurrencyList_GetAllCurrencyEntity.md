@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 561,
-    "Name": "Daniel-Rowe",
-    "Tooltip": "tempora",
-    "Rank": 209,
-    "Rate": 22050.824,
-    "Units": 886.922,
+    "CurrencyId": 15,
+    "Name": "Gaylord Inc and Sons",
+    "Tooltip": "magnam",
+    "Rank": 405,
+    "Rate": 30255.636,
+    "Units": 9267.238,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldType": "System.String",
+        "FieldLength": 35
       }
     }
   }

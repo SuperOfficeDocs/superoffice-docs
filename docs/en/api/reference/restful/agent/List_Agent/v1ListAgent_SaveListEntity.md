@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 679,
-  "Name": "Fay LLC",
-  "Tooltip": "totam",
+  "Id": 321,
+  "Name": "Cummings LLC",
+  "Tooltip": "iusto",
   "Deleted": true,
-  "Rank": 495,
+  "Rank": 94,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quidem",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "doloremque",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 41,
-  "Name": "Armstrong, Berge and Hahn",
-  "Tooltip": "rem",
+  "Id": 372,
+  "Name": "Rowe Group",
+  "Tooltip": "voluptatibus",
   "Deleted": true,
-  "Rank": 934,
-  "IsCustomList": true,
+  "Rank": 66,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "officiis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldLength": 516
     }
   }
 }

@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 646,
-  "Count": 910
+  "AmountLimit": 945,
+  "Count": 164
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Emard, Becker and Mitchell",
-    "SaleDate": "2009-02-26T13:38:14.0928295+01:00",
-    "SaleId": 106,
-    "Probability": 4,
-    "Title": "dolor",
-    "Amount": 3099.526,
-    "Currency": "delectus",
-    "ProjectName": "Hintz Inc and Sons",
-    "AssociateFullName": "Lou Gerhold",
-    "Description": "User-centric needs-based encoding",
+    "ContactName": "Labadie-Johnson",
+    "SaleDate": "1997-06-26T13:57:13.1757129+02:00",
+    "SaleId": 929,
+    "Probability": 442,
+    "Title": "aliquam",
+    "Amount": 28776.388,
+    "Currency": "quisquam",
+    "ProjectName": "Cole, Hane and Jacobs",
+    "AssociateFullName": "Miss Onie Rita Schuppe",
+    "Description": "Fully-configurable mission-critical encoding",
     "Status": "Lost",
-    "WeightedAmount": 13081.315999999999,
-    "ProjectId": 710,
-    "EarningPercent": 10307.726,
-    "Earning": 24097.326,
-    "ContactId": 649,
-    "AssociateId": 707,
-    "PersonId": 78,
-    "SaleTypeId": 383,
-    "SaleTypeName": "Durgan, Jerde and Rohan",
-    "PersonFullName": "Ardella Autumn Funk IV",
+    "WeightedAmount": 5471.964,
+    "ProjectId": 79,
+    "EarningPercent": 2068.44,
+    "Earning": 20248.773999999998,
+    "ContactId": 382,
+    "AssociateId": 276,
+    "PersonId": 353,
+    "SaleTypeId": 565,
+    "SaleTypeName": "Upton Group",
+    "PersonFullName": "Reagan Pfannerstill DDS",
     "Completed": "Completed",
-    "ActiveErpLinks": 140,
-    "NextDueDate": "2002-12-08T13:38:14.0928295+01:00",
-    "Number": "1031002",
+    "ActiveErpLinks": 660,
+    "NextDueDate": "2021-12-08T13:57:13.1757129+01:00",
+    "Number": "1238843",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldType": "System.Int32",
+        "FieldLength": 667
       }
     }
   }

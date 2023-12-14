@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=dolores
+GET /api/v1/List/ProductFamily/MDOItems?query=inventore
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 671,
-    "Name": "Lesch, Collier and Swift",
-    "ToolTip": "Quas qui qui aut ut id fuga.",
+    "Id": 918,
+    "Name": "Lueilwitz LLC",
+    "ToolTip": "Doloribus ad illum occaecati.",
     "Deleted": false,
-    "Rank": 941,
-    "Type": "quia",
+    "Rank": 272,
+    "Type": "eius",
     "ChildItems": [
       {
-        "Id": 415,
-        "Name": "Haag, O'Reilly and Klocko",
-        "ToolTip": "Omnis aut voluptatem.",
+        "Id": 879,
+        "Name": "Quigley-Bode",
+        "ToolTip": "Perspiciatis voluptatum.",
         "Deleted": true,
-        "Rank": 725,
-        "Type": "distinctio",
+        "Rank": 691,
+        "Type": "esse",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vitae",
-        "ColorBlock": 428,
-        "ExtraInfo": "sed",
-        "StyleHint": "aut",
-        "FullName": "Miss Rubie Veum I",
+        "IconHint": "veniam",
+        "ColorBlock": 587,
+        "ExtraInfo": "ut",
+        "StyleHint": "odit",
+        "FullName": "Jaiden Jerde DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 635
+            "FieldLength": 659
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 667,
-    "ExtraInfo": "omnis",
-    "StyleHint": "quibusdam",
-    "FullName": "Easton Josiane Lynch V",
+    "IconHint": "non",
+    "ColorBlock": 341,
+    "ExtraInfo": "sit",
+    "StyleHint": "aliquid",
+    "FullName": "Willard Ortiz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 800
       }
     }
   }

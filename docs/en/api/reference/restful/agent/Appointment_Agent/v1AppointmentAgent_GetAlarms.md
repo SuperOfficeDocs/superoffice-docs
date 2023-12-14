@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": false,
-  "IncludeAllAppointments": true,
-  "DefaultAlarmLeadTimeInMinutes": 49
+  "IncludeAllAppointments": false,
+  "DefaultAlarmLeadTimeInMinutes": 845
 }
 ```
 
@@ -96,47 +96,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 627,
-      "StartTime": "1998-08-15T13:38:12.8740699+02:00",
-      "EndDate": "2023-06-23T13:38:12.8740699+02:00",
-      "AlarmTime": "2015-01-24T13:38:12.8740699+01:00",
-      "PersonId": 291,
-      "PersonFullName": "Miss Brenna Emanuel DuBuque",
-      "ContactName": "O'Connell, Torphy and Shanahan",
-      "ProjectId": 429,
-      "ProjectName": "Rau-Fahey",
-      "AppointmentText": "delectus",
-      "SaleId": 341,
-      "SaleName": "Dickens-Mueller",
-      "Location": "recusandae",
+      "AppointmentId": 729,
+      "StartTime": "2002-12-28T13:57:11.2157245+01:00",
+      "EndDate": "2019-04-05T13:57:11.2157245+02:00",
+      "AlarmTime": "2001-09-16T13:57:11.2157245+02:00",
+      "PersonId": 87,
+      "PersonFullName": "Maye Jast",
+      "ContactName": "Cummings-Feeney",
+      "ProjectId": 659,
+      "ProjectName": "Kassulke Inc and Sons",
+      "AppointmentText": "laboriosam",
+      "SaleId": 368,
+      "SaleName": "Stroman Group",
+      "Location": "asperiores",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 471,
+      "ContactId": 783,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Strosin Inc and Sons",
-      "TaskName": "Quitzon, Daugherty and Lesch",
+      "FormalName": "Green, Hamill and Lind",
+      "TaskName": "O'Connell Group",
       "ContactDepartment": "",
-      "ContactFullName": "Lizzie Baumbach",
+      "ContactFullName": "Marge Flatley",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 440
+          "FieldType": "System.String",
+          "FieldLength": 546
         }
       }
     }
   ],
-  "PollingInterval": 487,
-  "SilentAfter": 499,
+  "PollingInterval": 229,
+  "SilentAfter": 229,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 730
     }
   }
 }

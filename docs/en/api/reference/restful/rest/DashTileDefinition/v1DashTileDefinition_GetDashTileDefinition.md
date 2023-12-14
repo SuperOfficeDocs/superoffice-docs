@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 455,
-  "Name": "Von-Pacocha",
-  "Description": "Visionary zero defect website",
-  "DefaultHeight": 687,
-  "DefaultWidth": 203,
+  "DashboardTileDefinitionId": 976,
+  "Name": "Marvin LLC",
+  "Description": "Horizontal value-added customer loyalty",
+  "DefaultHeight": 1002,
+  "DefaultWidth": 152,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Emmerich LLC",
-  "SelectionId": 622,
+  "EntityName": "Rolfson-Greenfelder",
+  "SelectionId": 30,
   "CurrencyMode": "Base",
-  "CurrencyCode": "error",
+  "CurrencyCode": "magnam",
   "Measure": "Average",
-  "MeasureField": "et",
-  "SortBy": "est",
-  "LayoutConfig": "omnis",
-  "SecondarySelectionId": 798,
-  "MeasureByField": "quia",
+  "MeasureField": "maxime",
+  "SortBy": "sed",
+  "LayoutConfig": "voluptates",
+  "SecondarySelectionId": 848,
+  "MeasureByField": "magni",
   "Usage": "Dashboard",
-  "ProviderName": "Jones Inc and Sons",
+  "ProviderName": "Douglas-Graham",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 804
+      "FieldLength": 292
     }
   },
   "_Links": {

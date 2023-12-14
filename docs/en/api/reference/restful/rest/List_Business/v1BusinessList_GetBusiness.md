@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 649,
-  "Name": "Romaguera-Gleason",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "UdListDefinitionId": 402,
-  "Rank": 660,
+  "Id": 201,
+  "Name": "Schumm, Hand and McCullough",
+  "Tooltip": "repellendus",
+  "Deleted": true,
+  "UdListDefinitionId": 868,
+  "Rank": 526,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldType": "System.String",
+      "FieldLength": 10
     }
   }
 }

@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=961
+GET /api/v1/Contact/{contactId}/Summary?limit=259
 ```
 
 
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 264,
-      "TicketStatus": 670,
-      "Title": "totam",
-      "Registered": "2022-04-07T13:38:17.2649715+02:00",
-      "IconHint": "accusamus"
+      "TicketId": 208,
+      "TicketStatus": 962,
+      "Title": "quae",
+      "Registered": "2000-09-11T13:57:18.6534365+02:00",
+      "IconHint": "eligendi"
     },
     {
-      "TicketId": 264,
-      "TicketStatus": 670,
-      "Title": "totam",
-      "Registered": "2022-04-07T13:38:17.2649715+02:00",
-      "IconHint": "accusamus"
+      "TicketId": 208,
+      "TicketStatus": 962,
+      "Title": "quae",
+      "Registered": "2000-09-11T13:57:18.6534365+02:00",
+      "IconHint": "eligendi"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 462,
-      "DocumentId": 173,
-      "Date": "2016-04-12T13:38:17.2649715+02:00",
-      "Description": "Visionary leading edge parallelism",
+      "AppointmentId": 834,
+      "DocumentId": 733,
+      "Date": "2011-11-25T13:57:18.6534365+01:00",
+      "Description": "Balanced background installation",
       "Completed": "Completed",
-      "Registered": "2023-09-05T13:38:17.2649715+02:00"
+      "Registered": "2017-08-14T13:57:18.6534365+02:00"
     },
     {
-      "AppointmentId": 462,
-      "DocumentId": 173,
-      "Date": "2016-04-12T13:38:17.2649715+02:00",
-      "Description": "Visionary leading edge parallelism",
+      "AppointmentId": 834,
+      "DocumentId": 733,
+      "Date": "2011-11-25T13:57:18.6534365+01:00",
+      "Description": "Balanced background installation",
       "Completed": "Completed",
-      "Registered": "2023-09-05T13:38:17.2649715+02:00"
+      "Registered": "2017-08-14T13:57:18.6534365+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 985,
-      "DocumentId": 873,
-      "Date": "2022-03-19T13:38:17.2649715+01:00",
-      "Description": "Re-contextualized holistic encoding",
+      "AppointmentId": 261,
+      "DocumentId": 917,
+      "Date": "2021-06-14T13:57:18.6534365+02:00",
+      "Description": "Virtual 4th generation ability",
       "Completed": "Completed",
-      "Registered": "2006-05-29T13:38:17.2649715+02:00"
+      "Registered": "2015-04-21T13:57:18.6534365+02:00"
     },
     {
-      "AppointmentId": 985,
-      "DocumentId": 873,
-      "Date": "2022-03-19T13:38:17.2649715+01:00",
-      "Description": "Re-contextualized holistic encoding",
+      "AppointmentId": 261,
+      "DocumentId": 917,
+      "Date": "2021-06-14T13:57:18.6534365+02:00",
+      "Description": "Virtual 4th generation ability",
       "Completed": "Completed",
-      "Registered": "2006-05-29T13:38:17.2649715+02:00"
+      "Registered": "2015-04-21T13:57:18.6534365+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 6,
-      "SaleDate": "2000-07-04T13:38:17.2649715+02:00",
-      "Probability": 963,
-      "Heading": "quaerat",
-      "Amount": 29152.468,
-      "Currency": "placeat",
-      "AmountInBaseCurrency": 8775.1999999999989,
+      "SaleId": 239,
+      "SaleDate": "2011-09-14T13:57:18.6534365+02:00",
+      "Probability": 978,
+      "Heading": "cumque",
+      "Amount": 26949.266,
+      "Currency": "a",
+      "AmountInBaseCurrency": 16393.953999999998,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2020-04-25T13:38:17.2649715+02:00"
+      "Registered": "2008-11-10T13:57:18.6534365+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 607,
-      "Name": "Schmeler-Johnston",
-      "CompanyName": "Jaskolski LLC",
-      "FirstMessage": "nobis",
-      "LastMessage": "aut",
-      "WhenRequested": "2010-09-18T13:38:17.2649715+02:00",
-      "WhenEnded": "2000-02-12T13:38:17.2649715+01:00"
+      "ChatSessionId": 727,
+      "Name": "Schneider-Friesen",
+      "CompanyName": "Lakin-Schiller",
+      "FirstMessage": "deserunt",
+      "LastMessage": "quam",
+      "WhenRequested": "2007-04-07T13:57:18.6534365+02:00",
+      "WhenEnded": "2010-03-28T13:57:18.6534365+02:00"
     }
   ]
 }

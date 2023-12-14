@@ -29,7 +29,7 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=False
+GET /api/v1/Hierarchy/{domain}?children=True
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 20,
+    "HierarchyId": 932,
     "Domain": "Dashboards",
-    "Name": "Barton, Kunde and Jacobs",
-    "Fullname": "minima",
-    "ParentId": 213,
+    "Name": "Ward-Koepp",
+    "Fullname": "accusamus",
+    "ParentId": 61,
     "Children": [
       {
-        "HierarchyId": 387,
+        "HierarchyId": 384,
         "Domain": "Dashboards",
-        "Name": "Daniel Inc and Sons",
-        "Fullname": "nulla",
-        "ParentId": 723,
+        "Name": "Grant Inc and Sons",
+        "Fullname": "voluptatem",
+        "ParentId": 31,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2003-03-15T13:38:17.4524494+01:00",
-        "RegisteredAssociateId": 314,
-        "Updated": "2015-02-04T13:38:17.4524494+01:00",
-        "UpdatedAssociateId": 975,
+        "Registered": "1997-08-16T13:57:18.8265985+02:00",
+        "RegisteredAssociateId": 251,
+        "Updated": "2006-03-19T13:57:18.8265985+01:00",
+        "UpdatedAssociateId": 107,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldType": "System.String",
+            "FieldLength": 924
           }
         }
       }
     ],
-    "Registered": "2008-08-16T13:38:17.4524494+02:00",
-    "RegisteredAssociateId": 456,
-    "Updated": "2021-08-06T13:38:17.4524494+02:00",
-    "UpdatedAssociateId": 912,
+    "Registered": "2005-07-04T13:57:18.8265985+02:00",
+    "RegisteredAssociateId": 653,
+    "Updated": "1999-03-03T13:57:18.8265985+01:00",
+    "UpdatedAssociateId": 710,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 126
+        "FieldType": "System.String",
+        "FieldLength": 414
       }
     }
   }

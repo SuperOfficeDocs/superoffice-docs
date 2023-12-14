@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 601,
+  "HierarchyId": 667,
   "Domain": "Dashboards",
-  "Name": "Kuhlman LLC",
-  "Fullname": "laborum",
-  "ParentId": 272,
+  "Name": "Kuhic, Cronin and O'Keefe",
+  "Fullname": "harum",
+  "ParentId": 324,
   "Children": [
     {
-      "HierarchyId": 313,
+      "HierarchyId": 946,
       "Domain": "Dashboards",
-      "Name": "Dietrich, Ledner and Kulas",
-      "Fullname": "aliquam",
-      "ParentId": 610,
+      "Name": "Considine LLC",
+      "Fullname": "voluptate",
+      "ParentId": 731,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-07-26T13:38:17.4524494+02:00",
-      "RegisteredAssociateId": 526,
-      "Updated": "2020-08-12T13:38:17.4524494+02:00",
-      "UpdatedAssociateId": 65,
+      "Registered": "2011-05-27T13:57:18.8265985+02:00",
+      "RegisteredAssociateId": 824,
+      "Updated": "2011-02-13T13:57:18.8265985+01:00",
+      "UpdatedAssociateId": 193,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 978
+          "FieldType": "System.Int32",
+          "FieldLength": 116
         }
       }
     }
   ],
-  "Registered": "2017-03-05T13:38:17.4524494+01:00",
-  "RegisteredAssociateId": 567,
-  "Updated": "2020-10-04T13:38:17.4524494+02:00",
-  "UpdatedAssociateId": 510,
+  "Registered": "2003-07-09T13:57:18.8265985+02:00",
+  "RegisteredAssociateId": 377,
+  "Updated": "2017-09-09T13:57:18.8265985+02:00",
+  "UpdatedAssociateId": 287,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 784
     }
   }
 }

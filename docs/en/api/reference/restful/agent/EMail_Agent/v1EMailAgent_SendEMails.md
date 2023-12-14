@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "earum",
-      "HTMLBody": "quaerat",
+      "Subject": "maiores",
+      "HTMLBody": "qui",
       "From": null,
-      "Sent": "2005-03-06T13:38:13.5614895+01:00",
-      "Size": 751,
+      "Sent": "2006-04-28T13:57:12.2936203+02:00",
+      "Size": 412,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "temporibus",
-      "PlainBody": "nam",
-      "IsSent": false,
+      "MessageID": "et",
+      "PlainBody": "ipsa",
+      "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 3,
+      "ServerId": 105,
       "Attachments": [
         {},
         {}
@@ -141,12 +141,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Reilly Inc and Sons",
-      "EmailItemId": 766,
-      "AccountId": 79,
-      "ReceivedAt": "2008-02-21T13:38:13.5614895+01:00",
+      "FolderName": "Emmerich-Corkery",
+      "EmailItemId": 503,
+      "AccountId": 721,
+      "ReceivedAt": "2022-04-17T13:57:12.2936203+02:00",
       "InReplyTo": null,
-      "RepliedAt": "1999-08-02T13:38:13.5614895+02:00",
+      "RepliedAt": "2021-01-16T13:57:12.2936203+01:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -166,156 +166,156 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 282,
-        "ContactName": "Wisozk, Wisoky and Turner",
-        "PersonId": 35,
-        "PersonName": "O'Conner Group",
-        "AssociateId": 432,
-        "Address": "odio",
-        "EmailId": 474,
+        "ContactId": 71,
+        "ContactName": "Abshire-Conn",
+        "PersonId": 509,
+        "PersonName": "Klocko, Schoen and Schmitt",
+        "AssociateId": 957,
+        "Address": "accusantium",
+        "EmailId": 897,
         "DuplicatePersonIds": [
-          152,
-          721
+          608,
+          549
         ],
-        "Name": "Kling Group",
+        "Name": "Herman, Breitenberg and Connelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 291
+            "FieldType": "System.String",
+            "FieldLength": 369
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 248,
-        "ContactName": "Zulauf-Fahey",
-        "PersonId": 648,
-        "PersonName": "Marquardt Inc and Sons",
-        "AssociateId": 325,
-        "Address": "aliquid",
-        "EmailId": 778,
+        "ContactId": 984,
+        "ContactName": "Stiedemann, Streich and Bayer",
+        "PersonId": 961,
+        "PersonName": "Howell-Gottlieb",
+        "AssociateId": 268,
+        "Address": "quia",
+        "EmailId": 904,
         "DuplicatePersonIds": [
-          109,
-          914
+          825,
+          344
         ],
-        "Name": "Upton-Purdy",
+        "Name": "Braun Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 806
+            "FieldLength": 338
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 710,
-        "ContactName": "VonRueden, Pouros and Ward",
-        "PersonId": 392,
-        "PersonName": "Hickle Group",
-        "AssociateId": 171,
-        "Address": "eum",
-        "EmailId": 579,
+        "ContactId": 432,
+        "ContactName": "Mann, Conn and Stamm",
+        "PersonId": 775,
+        "PersonName": "Ullrich, Morar and Mayert",
+        "AssociateId": 56,
+        "Address": "illo",
+        "EmailId": 18,
         "DuplicatePersonIds": [
-          686,
-          410
+          19,
+          880
         ],
-        "Name": "Okuneva, Lang and Towne",
+        "Name": "Vandervort-Rohan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 915
+            "FieldType": "System.String",
+            "FieldLength": 777
           }
         }
       }
     ],
-    "Subject": "reprehenderit",
-    "HTMLBody": "culpa",
+    "Subject": "deserunt",
+    "HTMLBody": "doloribus",
     "From": null,
-    "Sent": "2022-10-09T13:38:13.5614895+02:00",
-    "Size": 523,
+    "Sent": "1999-02-18T13:57:12.309652+01:00",
+    "Size": 333,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "doloremque",
-    "PlainBody": "dolore",
+    "MessageID": "similique",
+    "PlainBody": "mollitia",
     "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 682,
+    "ServerId": 39,
     "Attachments": [
       {
-        "Description": "Adaptive multi-tasking alliance",
-        "Filename": "beatae",
-        "Size": 624,
-        "Type": "enim",
-        "Encoding": "praesentium",
-        "Id": "sit",
-        "Disposition": "aspernatur",
-        "IsSafeFileExtension": false,
+        "Description": "Re-contextualized static knowledge base",
+        "Filename": "rerum",
+        "Size": 170,
+        "Type": "blanditiis",
+        "Encoding": "corrupti",
+        "Id": "doloremque",
+        "Disposition": "odit",
+        "IsSafeFileExtension": true,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 249
+            "FieldType": "System.String",
+            "FieldLength": 530
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Hilll, Tillman and Satterfield",
+        "Name": "Brown-Conroy",
         "Values": [
-          "laudantium",
+          "laboriosam",
           "sunt"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 993
+            "FieldType": "System.Int32",
+            "FieldLength": 314
           }
         }
       },
       {
-        "Name": "Hilll, Tillman and Satterfield",
+        "Name": "Brown-Conroy",
         "Values": [
-          "laudantium",
+          "laboriosam",
           "sunt"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 993
+            "FieldType": "System.Int32",
+            "FieldLength": 314
           }
         }
       }
     ],
-    "FolderName": "Fisher, Collier and Harvey",
-    "EmailItemId": 413,
-    "AccountId": 578,
-    "ReceivedAt": "2017-11-23T13:38:13.5614895+01:00",
+    "FolderName": "Parisian, Ferry and Tremblay",
+    "EmailItemId": 689,
+    "AccountId": 34,
+    "ReceivedAt": "2015-05-22T13:57:12.309652+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2002-05-22T13:38:13.5614895+02:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2000-10-15T13:57:12.309652+02:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 422
+        "FieldType": "System.Int32",
+        "FieldLength": 467
       }
     }
   }

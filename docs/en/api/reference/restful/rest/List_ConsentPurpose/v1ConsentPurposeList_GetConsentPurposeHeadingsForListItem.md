@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 576,
-    "Name": "Berge, Dickens and Beer",
-    "ToolTip": "Rerum sed omnis quia omnis consequatur magnam.",
+    "Id": 406,
+    "Name": "Casper, Stanton and Boyle",
+    "ToolTip": "Vitae at excepturi cumque sit provident similique.",
     "Deleted": false,
-    "Rank": 631,
-    "Type": "quia",
-    "ColorBlock": 530,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2020-05-31T13:38:17.9994152+02:00",
+    "Rank": 677,
+    "Type": "veritatis",
+    "ColorBlock": 843,
+    "IconHint": "ullam",
+    "Selected": true,
+    "LastChanged": "2009-12-29T13:57:19.6721792+01:00",
     "ChildItems": [
       {
-        "Id": 337,
-        "Name": "Bernier-Nitzsche",
-        "ToolTip": "Aut ut.",
+        "Id": 725,
+        "Name": "Nienow Group",
+        "ToolTip": "Natus alias aut aut aut aut exercitationem.",
         "Deleted": false,
-        "Rank": 666,
-        "Type": "dicta",
-        "ColorBlock": 927,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "1998-08-31T13:38:17.9994152+02:00",
+        "Rank": 1001,
+        "Type": "possimus",
+        "ColorBlock": 25,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "1997-08-29T13:57:19.6721792+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "est",
+        "ExtraInfo": "cumque",
+        "StyleHint": "cupiditate",
         "Hidden": false,
-        "FullName": "Maximo Hettinger",
+        "FullName": "Maryam Boehm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 481
+            "FieldType": "System.String",
+            "FieldLength": 378
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "rem",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "optio",
     "Hidden": false,
-    "FullName": "Abdiel Russel",
+    "FullName": "Cecelia Hane",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 460
+        "FieldType": "System.Int32",
+        "FieldLength": 531
       }
     }
   }

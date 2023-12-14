@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/TriggerScript?$select=name,department,category/id
 GET /api/v1/TriggerScript?$filter=name begins 'S'
 GET /api/v1/TriggerScript?$orderBy=name asc
-GET /api/v1/TriggerScript?$entities=iste
-GET /api/v1/TriggerScript?$top=829
-GET /api/v1/TriggerScript?$skip=241
+GET /api/v1/TriggerScript?$entities=alias
+GET /api/v1/TriggerScript?$top=785
+GET /api/v1/TriggerScript?$skip=936
 GET /api/v1/TriggerScript?$mode=Full
 GET /api/v1/TriggerScript?$options=GrandTotal=true
-GET /api/v1/TriggerScript?$context=porro
+GET /api/v1/TriggerScript?$context=sunt
 GET /api/v1/TriggerScript?$format=JSON
-GET /api/v1/TriggerScript?$jsonSafe=True
+GET /api/v1/TriggerScript?$jsonSafe=False
 GET /api/v1/TriggerScript?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sed",
+  "odata.nextLink": "tenetur",
   "value": [
     {
-      "PrimaryKey": 8316,
+      "PrimaryKey": 4079,
       "EntityName": "person",
-      "personId": 8316,
-      "fullName": "Yvonne Mozelle Wuckert Jr."
+      "personId": 4079,
+      "fullName": "Cruz Andres Witting III"
     },
     {
-      "PrimaryKey": 6679,
+      "PrimaryKey": 3576,
       "EntityName": "person",
-      "personId": 6679,
-      "fullName": "Miss Richmond Wiza II"
+      "personId": 3576,
+      "fullName": "Prof. Murl Willms"
     }
   ]
 }

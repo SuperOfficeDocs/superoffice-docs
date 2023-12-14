@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "maiores",
+  "TriggerScriptUniqueId": "consequatur",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 748,
-  "Name": "Ankunding, Koss and Kutch",
+  "ScreenChooserId": 411,
+  "Name": "Luettgen, Becker and Kerluke",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ea",
-  "Source": "aspernatur",
-  "Registered": "2012-06-17T13:38:13.3896326+02:00",
-  "RegisteredAssociateId": 137,
-  "Updated": "2022-07-19T13:38:13.3896326+02:00",
-  "UpdatedAssociateId": 356,
+  "UniqueIdentifier": "dolor",
+  "Source": "deleniti",
+  "Registered": "2018-02-19T13:57:12.0123726+01:00",
+  "RegisteredAssociateId": 605,
+  "Updated": "1998-04-29T13:57:12.0123726+02:00",
+  "UpdatedAssociateId": 777,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldType": "System.String",
+      "FieldLength": 955
     }
   }
 }

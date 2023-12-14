@@ -707,8 +707,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |associate/otherGroups|userGroup|Other groups: Other groups|  |
 |associate/userName|string|User name: User name|  |
 |associate/personEmail|string|E-mail|  |
-|appointment/textId|int|Text ID|  |
 |appointment/description|positiveString|Text: Displays the text entered in the description field|  |
+|appointment/title|positiveString|Title|  |
+|appointment/titleHtml| *None* |!!Title Html|  |
+|appointment/agenda|positiveString|Agenda|  |
+|appointment/agendaHtml| *None* |!!Agenda Html|  |
+|appointment/isConverted| *None* |!!Is Converted|  |
 |destinationAppointmentRestrictionId|int|Destination follow-up ID: IDs of follow-ups which are linked to|  |
 |currencyId|int|Currency ID: The currency list item ID|  |
 |currency|listAny|Currency: The currency of the sale|  |
@@ -746,14 +750,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleUdef/SuperOffice:1|string|saleshorttext|  |
 |saleUdef/SuperOffice:2|string|salelongtext|  |
 |saleUdef/SuperOffice:3|int|salenumber|  |
-|saleUdef/SuperOffice:4|date|saledate|  |
-|saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate|  |
-|saleUdef/SuperOffice:6|bool|salecheckbox|  |
-|saleUdef/SuperOffice:7|listAny|saledropdownlistbox|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleUdef/SuperOffice:4|date|saledate|  |
+|saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate|  |
+|saleUdef/SuperOffice:6|bool|salecheckbox|  |
+|saleUdef/SuperOffice:7|listAny|saledropdownlistbox|  |
 |saleUdef/SuperOffice:8|decimal|saledecimal|  |
 |saleStakeholder/saleStakeholderId|int|Stakeholder - Stakeholder ID: Database ID of the stakeholder row|  |
 |saleStakeholder/saleId|int|Stakeholder - Sale ID: The database ID of the sale record|  |
@@ -850,14 +854,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/person/restrictionAddress/line3|string|Stakeholder - Search address - Address 3: Third line of the address|  |
 |saleStakeholder/person/restrictionAddress/county|string|Stakeholder - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
 |saleStakeholder/person/restrictionAddress/city|string|Stakeholder - Search address - City: This criterion corresponds to the City field on the Company card.|  |
-|saleStakeholder/person/restrictionAddress/zip|string|Stakeholder - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|saleStakeholder/person/restrictionAddress/state|string|Stakeholder - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|saleStakeholder/person/restrictionAddress/wgs84latitude|decimal|Stakeholder - Search address - Latitude: Latitude|  |
-|saleStakeholder/person/restrictionAddress/wgs84longitude|decimal|Stakeholder - Search address - Longitude: Longitude|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/restrictionAddress/zip|string|Stakeholder - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
+|saleStakeholder/person/restrictionAddress/state|string|Stakeholder - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
+|saleStakeholder/person/restrictionAddress/wgs84latitude|decimal|Stakeholder - Search address - Latitude: Latitude|  |
+|saleStakeholder/person/restrictionAddress/wgs84longitude|decimal|Stakeholder - Search address - Longitude: Longitude|  |
 |saleStakeholder/person/restrictionAddress/formattedAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/person/restrictionAddress/formattedMultiLineAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/person/personInterestIds|listInterest|Stakeholder - Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
@@ -954,14 +958,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/person/correspondingAssociate/portraitThumbnail| *None* |Stakeholder - Person image: Person image|  |
 |saleStakeholder/person/correspondingAssociate/otherGroups|userGroup|Stakeholder - Other groups: Other groups|  |
 |saleStakeholder/person/correspondingAssociate/userName|string|Stakeholder - User name: User name|  |
-|saleStakeholder/person/correspondingAssociate/personEmail|string|Stakeholder - E-mail|  |
-|saleStakeholder/person/isMailingRecipient|bool|Stakeholder - Is mailing recipient: isMailingRecipient|  |
-|saleStakeholder/person/hasStoreConsent|bool|Stakeholder - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|saleStakeholder/person/withdrawnStoreConsent|bool|Stakeholder - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/correspondingAssociate/personEmail|string|Stakeholder - E-mail|  |
+|saleStakeholder/person/isMailingRecipient|bool|Stakeholder - Is mailing recipient: isMailingRecipient|  |
+|saleStakeholder/person/hasStoreConsent|bool|Stakeholder - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|saleStakeholder/person/withdrawnStoreConsent|bool|Stakeholder - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |saleStakeholder/person/hasEmarketingConsent|bool|Stakeholder - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |saleStakeholder/person/withdrawnEmarketingConsent|bool|Stakeholder - Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |saleStakeholder/person/subscription|listAny|Stakeholder - Subscription: Subscription for marketing|  |
@@ -1058,14 +1062,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/contact/contactAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |saleStakeholder/contact/contactAssociate/title|string|Stakeholder - Title: Displays whether the contact is addressed as Mr or Ms|  |
 |saleStakeholder/contact/contactAssociate/associateDbId|associate|Stakeholder - ID|  |
-|saleStakeholder/contact/contactAssociate/contactName|string|Stakeholder - Owning company: Name of the company the user belongs to|  |
-|saleStakeholder/contact/contactAssociate/contactDepartment|string|Stakeholder - Owning department: Name of the department at the company the user belongs to|  |
-|saleStakeholder/contact/contactAssociate/usergroup|userGroup|Stakeholder - Primary group: The user's primary user group|  |
-|saleStakeholder/contact/contactAssociate/contactFullName|string|Stakeholder - Owner: Name and department of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/contactAssociate/contactName|string|Stakeholder - Owning company: Name of the company the user belongs to|  |
+|saleStakeholder/contact/contactAssociate/contactDepartment|string|Stakeholder - Owning department: Name of the department at the company the user belongs to|  |
+|saleStakeholder/contact/contactAssociate/usergroup|userGroup|Stakeholder - Primary group: The user's primary user group|  |
+|saleStakeholder/contact/contactAssociate/contactFullName|string|Stakeholder - Owner: Name and department of the company the user belongs to|  |
 |saleStakeholder/contact/contactAssociate/contactCategory|listAny|Stakeholder - Category: Category|  |
 |saleStakeholder/contact/contactAssociate/role|listAny|Stakeholder - Role: Role|  |
 |saleStakeholder/contact/contactAssociate/assocName|associate|Stakeholder - User ID: User ID|  |
@@ -1162,14 +1166,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |quote/version/deliveryType|listExternal|Delivery type: Delivery type|  |
 |quote/version/approvedBy|associate|Approved by: Associate who approved a quote that broke one or more of the workflow rules that trigger an approval process|  |
 |quote/version/approvalRegisteredBy|associate|Approval reg by: Associate who entered the approval of a quote that broke one or more of the workflow rules that trigger an approval process.  Not necessarily the person who approved the quote.|  |
-|quote/version/approvedText|string|Approval comment: Comment added to the approval of a quote that broke one or more of the workflow rules that trigger an approval process|  |
-|quote/version/approvedDate|date|Approved date: Date of approval of a quote that broke one or more of the workflow rules that trigger an approval process|  |
-|quote/version/extraField1|string|Extra field 1: One of the extra fields on the product; meaning is installation dependent|  |
-|quote/version/extraField2|string|Extra field 2: One of the extra fields on the product; meaning is installation dependent|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|quote/version/approvedText|string|Approval comment: Comment added to the approval of a quote that broke one or more of the workflow rules that trigger an approval process|  |
+|quote/version/approvedDate|date|Approved date: Date of approval of a quote that broke one or more of the workflow rules that trigger an approval process|  |
+|quote/version/extraField1|string|Extra field 1: One of the extra fields on the product; meaning is installation dependent|  |
+|quote/version/extraField2|string|Extra field 2: One of the extra fields on the product; meaning is installation dependent|  |
 |quote/version/extraField3|string|Extra field 3: One of the extra fields on the product; meaning is installation dependent|  |
 |quote/version/extraField4|string|Extra field 4: One of the extra fields on the product; meaning is installation dependent|  |
 |quote/version/extraField5|string|Extra field 5: One of the extra fields on the product; meaning is installation dependent|  |
@@ -1266,14 +1270,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms|  |
-|projectAssociate/associateDbId|associate|ID|  |
-|projectAssociate/contactName|string|Owning company: Name of the company the user belongs to|  |
-|projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to|  |
-|projectAssociate/usergroup|userGroup|Primary group: The user's primary user group|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectAssociate/associateDbId|associate|ID|  |
+|projectAssociate/contactName|string|Owning company: Name of the company the user belongs to|  |
+|projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to|  |
+|projectAssociate/usergroup|userGroup|Primary group: The user's primary user group|  |
 |projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to|  |
 |projectAssociate/contactCategory|listAny|Category: Category|  |
 |projectAssociate/role|listAny|Role : Role|  |
@@ -1370,14 +1374,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personCountryId|int|Country ID: Country ID|  |
 |personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox|  |
 |rank|int|Rank: Displays a contact's current rank|  |
-|birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
-|associateType| *None* |User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
-|useAsMailingAddress|bool|Use as postal address: Use as postal address|  |
-|personSource|listAny|Source: Source (Contact)|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
+|associateType| *None* |User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
+|useAsMailingAddress|bool|Use as postal address: Use as postal address|  |
+|personSource|listAny|Source: Source (Contact)|  |
 |retired|bool|Former employee: Indicates whether the contact has retired/left the company|  |
 |birthYear|int|Birth year: Displays contact's birth year|  |
 |birthMonth|int|Birth month: Displays contact's birth month|  |
@@ -1437,7 +1441,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Links?$select=updatedBy,person/middleName,person/personAddress/formattedAddress,person/restrictionAddress/wgs84longitude,project/NumberOfNotCompletedSales
+GET /api/v1/archive/Links?$select=sourceSelectionRestrictionId,contact/postAddress/wgs84latitude,contact/contactUdef/SuperOffice:9,person/personAssociate/credentialDisplayValue,person/correspondingAssociate/credentialType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

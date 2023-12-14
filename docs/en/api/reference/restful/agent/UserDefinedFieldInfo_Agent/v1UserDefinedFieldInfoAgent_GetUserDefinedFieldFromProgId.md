@@ -113,7 +113,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "dolor",
+  "ProgId": "velit",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 71,
-  "ColumnId": 41,
-  "FieldDefault": "quibusdam",
-  "FieldHeight": 408,
-  "FieldLabel": "totam",
-  "FieldLeft": 573,
-  "FieldTop": 650,
+  "UDefFieldId": 448,
+  "ColumnId": 11,
+  "FieldDefault": "cupiditate",
+  "FieldHeight": 319,
+  "FieldLabel": "omnis",
+  "FieldLeft": 52,
+  "FieldTop": 118,
   "FieldType": "Checkbox",
-  "FieldWidth": 765,
-  "FormatMask": "alias",
+  "FieldWidth": 393,
+  "FormatMask": "omnis",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 784,
-  "LabelLeft": 248,
-  "LabelTop": 294,
-  "LabelWidth": 958,
-  "LastVersionId": 578,
-  "ListTableId": 498,
+  "IsIndexed": true,
+  "LabelHeight": 42,
+  "LabelLeft": 801,
+  "LabelTop": 999,
+  "LabelWidth": 724,
+  "LastVersionId": 584,
+  "ListTableId": 893,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 8,
-  "ProgId": "porro",
+  "Page1LineNo": 825,
+  "ProgId": "doloribus",
   "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 827,
-  "TextLength": 780,
-  "Tooltip": "id",
-  "UdefIdentity": 57,
-  "UDListDefinitionId": 153,
+  "ShortLabel": "distinctio",
+  "TabOrder": 588,
+  "TextLength": 726,
+  "Tooltip": "quis",
+  "UdefIdentity": 488,
+  "UDListDefinitionId": 948,
   "Justification": "Center",
-  "Version": 706,
-  "TemplateVariableName": "Shields, McClure and Bednar",
+  "Version": 302,
+  "TemplateVariableName": "Buckridge, Rutherford and Hauck",
   "HasBeenPublished": false,
-  "MdoListName": "Shanahan-Veum",
+  "MdoListName": "Parisian Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 673
+      "FieldType": "System.Int32",
+      "FieldLength": 672
     }
   }
 }

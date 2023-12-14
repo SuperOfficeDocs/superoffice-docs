@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 330
+  "TicketMessageEntityId": 597
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 906,
-    "Name": "Osinski-Shields",
-    "ContentType": "ad",
-    "AttSize": 917,
+    "AttachmentId": 260,
+    "Name": "Ziemann, Howell and O'Conner",
+    "ContentType": "omnis",
+    "AttSize": 575,
     "InlineImage": false,
-    "ContentId": "nihil",
-    "AuthKey": "odio",
+    "ContentId": "natus",
+    "AuthKey": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 268
+        "FieldType": "System.String",
+        "FieldLength": 300
       }
     }
   }

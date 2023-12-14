@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quae",
-  "Value": "id",
-  "RecordId": 490,
-  "CreatedDate": "2023-10-07T13:38:17.4524494+02:00",
-  "UpdatedDate": "2009-01-27T13:38:17.4524494+01:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "quia",
-  "TableName": "Maggio, Kris and Rice"
+  "Key": "minima",
+  "Value": "vel",
+  "RecordId": 278,
+  "CreatedDate": "2015-05-20T13:57:18.8265985+02:00",
+  "UpdatedDate": "2008-07-27T13:57:18.8265985+02:00",
+  "UpdatedBy": "nisi",
+  "CreatedBy": "amet",
+  "TableName": "Tromp Inc and Sons"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "consequatur",
-  "Value": "debitis",
-  "RecordId": 11,
-  "CreatedDate": "2013-06-26T13:38:17.4524494+02:00",
-  "UpdatedDate": "2015-12-05T13:38:17.4524494+01:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "culpa",
-  "TableName": "Nienow, Ratke and Grant",
+  "Key": "et",
+  "Value": "ut",
+  "RecordId": 195,
+  "CreatedDate": "2007-11-08T13:57:18.8265985+01:00",
+  "UpdatedDate": "2008-03-07T13:57:18.8265985+01:00",
+  "UpdatedBy": "non",
+  "CreatedBy": "omnis",
+  "TableName": "Crona LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 568
+      "FieldLength": 784
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 467,
-    "Name": "Reinger, Prosacco and Sanford",
-    "ToolTip": "Qui aut unde autem omnis incidunt mollitia voluptas.",
-    "Deleted": false,
-    "Rank": 256,
-    "Type": "nulla",
-    "ColorBlock": 235,
-    "IconHint": "ipsa",
+    "Id": 530,
+    "Name": "Ullrich LLC",
+    "ToolTip": "Ad adipisci assumenda beatae recusandae.",
+    "Deleted": true,
+    "Rank": 869,
+    "Type": "reiciendis",
+    "ColorBlock": 248,
+    "IconHint": "repellendus",
     "Selected": false,
-    "LastChanged": "1999-03-02T13:38:18.1244081+01:00",
+    "LastChanged": "2018-04-26T13:57:19.8596433+02:00",
     "ChildItems": [
       {
-        "Id": 650,
-        "Name": "Hoppe-Veum",
-        "ToolTip": "Perferendis doloremque.",
-        "Deleted": true,
-        "Rank": 186,
-        "Type": "in",
-        "ColorBlock": 396,
-        "IconHint": "aliquam",
-        "Selected": true,
-        "LastChanged": "1999-11-10T13:38:18.1244081+01:00",
+        "Id": 107,
+        "Name": "Beer Group",
+        "ToolTip": "Sequi sit est temporibus ullam.",
+        "Deleted": false,
+        "Rank": 836,
+        "Type": "mollitia",
+        "ColorBlock": 260,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2021-07-11T13:57:19.8596433+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "ratione",
-        "Hidden": false,
-        "FullName": "Milo Marks"
+        "ExtraInfo": "rem",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Jordyn Gibson"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "officia",
-    "Hidden": false,
-    "FullName": "Leta Conner Hand Sr."
+    "ExtraInfo": "nam",
+    "StyleHint": "ratione",
+    "Hidden": true,
+    "FullName": "Justus Hammes"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 611,
-    "Name": "Sanford LLC",
-    "ToolTip": "Est atque quia in excepturi voluptas.",
-    "Deleted": true,
-    "Rank": 285,
-    "Type": "voluptates",
-    "ColorBlock": 961,
-    "IconHint": "non",
+    "Id": 687,
+    "Name": "Von Group",
+    "ToolTip": "Dolores laborum exercitationem.",
+    "Deleted": false,
+    "Rank": 593,
+    "Type": "eos",
+    "ColorBlock": 405,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2014-07-05T13:38:18.1244081+02:00",
+    "LastChanged": "2017-08-25T13:57:19.8596433+02:00",
     "ChildItems": [
       {
-        "Id": 313,
-        "Name": "O'Connell Group",
-        "ToolTip": "Veritatis rem suscipit repudiandae sint porro.",
-        "Deleted": true,
-        "Rank": 625,
-        "Type": "nemo",
-        "ColorBlock": 175,
-        "IconHint": "consequuntur",
-        "Selected": true,
-        "LastChanged": "2023-04-14T13:38:18.1244081+02:00",
+        "Id": 427,
+        "Name": "Boyle, Kirlin and Rath",
+        "ToolTip": "Suscipit dolores rem et voluptatem.",
+        "Deleted": false,
+        "Rank": 519,
+        "Type": "totam",
+        "ColorBlock": 301,
+        "IconHint": "odit",
+        "Selected": false,
+        "LastChanged": "2023-11-16T13:57:19.8596433+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "minima",
-        "Hidden": false,
-        "FullName": "King Thomas Jenkins IV",
+        "ExtraInfo": "non",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Immanuel Jakubowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 3
+            "FieldType": "System.Int32",
+            "FieldLength": 234
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "quas",
+    "ExtraInfo": "eum",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Dr. Oda Syble Stokes I",
+    "FullName": "Lacey Gerlach PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 932
       }
     }
   }

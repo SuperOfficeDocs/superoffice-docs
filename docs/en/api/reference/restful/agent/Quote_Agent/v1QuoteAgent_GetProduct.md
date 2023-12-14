@@ -111,8 +111,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 89,
-  "ERPProductKey": "ut"
+  "QuoteConnectionId": 220,
+  "ERPProductKey": "quia"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 10,
-  "ERPProductKey": "consequuntur",
-  "ERPPriceListKey": "optio",
-  "Name": "Schmeler Group",
-  "Description": "Persistent optimizing pricing structure",
-  "Code": "natus",
-  "PriceUnit": "fugit",
-  "QuantityUnit": "voluptates",
+  "ProductId": 463,
+  "ERPProductKey": "enim",
+  "ERPPriceListKey": "harum",
+  "Name": "Hackett-Davis",
+  "Description": "Cross-group non-volatile Graphical User Interface",
+  "Code": "est",
+  "PriceUnit": "aut",
+  "QuantityUnit": "tenetur",
   "IsSubscription": true,
-  "SubscriptionUnit": "ut",
-  "DefaultSubscriptionQuantity": 14103.0,
-  "ItemNumber": "522552",
+  "SubscriptionUnit": "deserunt",
+  "DefaultSubscriptionQuantity": 10489.498,
+  "ItemNumber": "1395487",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "beatae",
-  "ProductTypeKey": "necessitatibus",
-  "VAT": 24329.242,
-  "VATInfo": "nam",
-  "UnitCost": 31308.66,
-  "UnitMinimumPrice": 9251.568,
-  "UnitListPrice": 25225.566,
-  "InAssortment": false,
-  "Supplier": "facilis",
-  "SupplierCode": "debitis",
-  "Rights": "non",
-  "Rule": "reprehenderit",
+  "ProductFamilyKey": "quia",
+  "ProductTypeKey": "est",
+  "VAT": 14576.234,
+  "VATInfo": "ipsam",
+  "UnitCost": 4816.958,
+  "UnitMinimumPrice": 24473.406,
+  "UnitListPrice": 8609.098,
+  "InAssortment": true,
+  "Supplier": "eveniet",
+  "SupplierCode": "qui",
+  "Rights": "adipisci",
+  "Rule": "sapiente",
   "ExtraInfo": [
     {
-      "Name": "Crist-Bogisich",
-      "Value": "veniam",
+      "Name": "Wiegand Inc and Sons",
+      "Value": "totam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 670
+          "FieldLength": 501
         }
       }
     },
     {
-      "Name": "Crist-Bogisich",
-      "Value": "veniam",
+      "Name": "Wiegand Inc and Sons",
+      "Value": "totam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 670
+          "FieldLength": 501
         }
       }
     }
   ],
-  "RawExtraInfo": "at",
-  "ExtraField1": "dolorem",
-  "ExtraField2": "molestias",
-  "ExtraField3": "a",
-  "ExtraField4": "error",
-  "ExtraField5": "dolore",
-  "InStock": 14040.32,
+  "RawExtraInfo": "qui",
+  "ExtraField1": "doloremque",
+  "ExtraField2": "nobis",
+  "ExtraField3": "voluptatibus",
+  "ExtraField4": "velit",
+  "ExtraField5": "reprehenderit",
+  "InStock": 22922.076,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldType": "System.String",
+      "FieldLength": 462
     }
   }
 }

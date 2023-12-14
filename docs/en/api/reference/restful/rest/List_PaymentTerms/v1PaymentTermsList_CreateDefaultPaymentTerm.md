@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 883,
-  "Name": "Murray, Maggio and Dooley",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 736,
-  "Rank": 715,
+  "Id": 693,
+  "Name": "Cartwright Inc and Sons",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 550,
+  "Rank": 301,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 358
     }
   }
 }

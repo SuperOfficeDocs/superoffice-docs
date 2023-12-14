@@ -26,8 +26,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=consequatur
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
+GET /api/v1/List/DocumentTemplate/MDOItems?query=placeat
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Waelchi-Konopelski",
-    "ToolTip": "Reprehenderit aut nesciunt et iure et optio id.",
+    "Id": 358,
+    "Name": "Nolan, Bahringer and Brekke",
+    "ToolTip": "Non expedita aut quia quia esse.",
     "Deleted": true,
-    "Rank": 955,
-    "Type": "fugit",
+    "Rank": 657,
+    "Type": "doloribus",
     "ChildItems": [
       {
-        "Id": 738,
-        "Name": "Zboncak-Yundt",
-        "ToolTip": "Facilis laboriosam voluptatibus ducimus et soluta quia.",
+        "Id": 167,
+        "Name": "Cormier, Tremblay and Kemmer",
+        "ToolTip": "Laboriosam in dolorum cum modi libero.",
         "Deleted": false,
-        "Rank": 222,
-        "Type": "est",
+        "Rank": 843,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 863,
-        "ExtraInfo": "quo",
-        "StyleHint": "ipsam",
-        "FullName": "Mrs. Isabel Ernestina Jenkins",
+        "IconHint": "sunt",
+        "ColorBlock": 626,
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "quam",
+        "FullName": "Adah Lakin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 469
+            "FieldLength": 62
           }
         }
       }
     ],
-    "IconHint": "labore",
-    "ColorBlock": 679,
-    "ExtraInfo": "impedit",
-    "StyleHint": "hic",
-    "FullName": "Joey Reynolds",
+    "IconHint": "eaque",
+    "ColorBlock": 570,
+    "ExtraInfo": "vitae",
+    "StyleHint": "libero",
+    "FullName": "Mr. Yasmeen Rozella Ondricka PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 465
+        "FieldLength": 42
       }
     }
   }

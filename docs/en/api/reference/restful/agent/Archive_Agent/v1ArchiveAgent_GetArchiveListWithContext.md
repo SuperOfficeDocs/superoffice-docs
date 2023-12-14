@@ -105,52 +105,52 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Leffler-Schoen",
-  "ProviderName": "Runte, Schmeler and Bailey",
+  "GuiName": "Mertz, Ankunding and Brekke",
+  "ProviderName": "Balistreri LLC",
   "SortOrder": [
     {
-      "Name": "Hudson, Wolff and Rau",
+      "Name": "Lesch, Rippin and Corwin",
       "Direction": "ASC"
     },
     {
-      "Name": "Hudson, Wolff and Rau",
+      "Name": "Lesch, Rippin and Corwin",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Klein-Pacocha",
-      "Operator": "quas",
+      "Name": "Nikolaus, Beier and Batz",
+      "Operator": "sed",
       "Values": [
-        "asperiores",
-        "aut"
+        "quisquam",
+        "sed"
       ],
       "DisplayValues": [
-        "explicabo",
-        "iste"
+        "libero",
+        "sit"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 257,
+      "InterParenthesis": 484,
       "InterOperator": "And",
-      "UniqueHash": 407
+      "UniqueHash": 156
     }
   ],
   "Entities": [
-    "non",
-    "voluptatem"
+    "ducimus",
+    "perspiciatis"
   ],
-  "Page": 381,
-  "PageSize": 82,
-  "Context": "ut"
+  "Page": 159,
+  "PageSize": 516,
+  "Context": "voluptates"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ruecker-Wintheiser",
-    "PrimaryKey": 478,
+    "EntityName": "O'Keefe, Lynch and Schulist",
+    "PrimaryKey": 930,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "reprehenderit",
-        "TooltipHint": "est",
-        "LinkHint": "impedit"
+        "DisplayValue": "totam",
+        "TooltipHint": "porro",
+        "LinkHint": "rem"
       }
     },
-    "LinkHint": "nemo",
-    "StyleHint": "sed",
+    "LinkHint": "aut",
+    "StyleHint": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 261
+        "FieldType": "System.Int32",
+        "FieldLength": 74
       }
     }
   }

@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 923,
-  "Name": "Steuber LLC",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 179,
-  "UdListDefinitionId": 465
+  "HeadingId": 752,
+  "Name": "Wilkinson, Wintheiser and Gusikowski",
+  "Tooltip": "doloribus",
+  "Deleted": false,
+  "Rank": 884,
+  "UdListDefinitionId": 711
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 725,
-  "Name": "Koelpin Inc and Sons",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "Rank": 325,
-  "UdListDefinitionId": 147,
+  "HeadingId": 538,
+  "Name": "Gusikowski Group",
+  "Tooltip": "laboriosam",
+  "Deleted": true,
+  "Rank": 233,
+  "UdListDefinitionId": 970,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldType": "System.String",
+      "FieldLength": 147
     }
   }
 }

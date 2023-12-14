@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 983
+  "ChatSessionId": 336
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 472,
-  "TopicId": 878,
+  "ChatSessionId": 204,
+  "TopicId": 349,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quibusdam",
-  "CustomerHost": "quos",
-  "CustomerName": "Hickle-Conroy",
-  "CustomerEmail": "albina@medhurstlangworth.ca",
-  "CustomerPhone": "390-027-3050",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Walter, Kohler and Tillman",
+  "CustomerAlias": "vel",
+  "CustomerHost": "et",
+  "CustomerName": "Daugherty-Hermann",
+  "CustomerEmail": "savion_nienow@walker.com",
+  "CustomerPhone": "1-836-329-1710",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Bailey Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "velit",
-  "WhenRequested": "2017-01-15T13:38:13.2490288+01:00",
-  "WhenStarted": "2012-04-09T13:38:13.2490288+02:00",
-  "WhenEnded": "2010-06-12T13:38:13.2490288+02:00",
-  "WhenIdle": "2001-04-11T13:38:13.2490288+02:00",
-  "WhenFetched": "2003-08-12T13:38:13.2490288+02:00",
-  "SessionKey": "repudiandae",
-  "InitialQueuePos": 652,
-  "AlertLevel": 276,
-  "Rank": 84,
+  "FirstMessage": "error",
+  "LastMessage": "optio",
+  "WhenRequested": "2021-07-18T13:57:11.7923994+02:00",
+  "WhenStarted": "2018-02-07T13:57:11.7923994+01:00",
+  "WhenEnded": "2019-11-01T13:57:11.7923994+01:00",
+  "WhenIdle": "2002-01-24T13:57:11.7923994+01:00",
+  "WhenFetched": "1999-11-27T13:57:11.7923994+01:00",
+  "SessionKey": "necessitatibus",
+  "InitialQueuePos": 445,
+  "AlertLevel": 376,
+  "Rank": 407,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 62,
+  "Rating": 931,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 142
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   }
 }

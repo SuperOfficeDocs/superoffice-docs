@@ -87,7 +87,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,24 +97,24 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 863,
-  "Name": "Rosenbaum-Doyle",
-  "Tooltip": "velit",
+  "RoleId": 160,
+  "Name": "Franecki, Hermiston and Spinka",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 773,
-  "Rank": 663,
-  "Created": "2003-05-20T13:38:17.5774332+02:00",
-  "UseCategories": 26,
+  "Deleted": 53,
+  "Rank": 928,
+  "Created": "2006-12-20T13:57:19.1403101+01:00",
+  "UseCategories": 400,
   "CreatedBy": null,
-  "Updated": "2008-11-13T13:38:17.5774332+01:00",
+  "Updated": "2003-07-28T13:57:19.1403101+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldType": "System.String",
+      "FieldLength": 485
     }
   },
   "_Links": {

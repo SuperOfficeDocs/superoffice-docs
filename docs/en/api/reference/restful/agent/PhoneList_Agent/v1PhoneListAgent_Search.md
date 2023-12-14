@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "tempore"
+  "SearchString": "molestias"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "395.278.6815 x68654",
-    "PersonCellPhone": "382-484-9918 x90363",
-    "PersonPrivatePhone": "(242)354-8051",
-    "PersonFaxNumber": "1432637",
-    "PersonPagerNumber": "1105537",
-    "PersonEmail": "noel@ward.info",
-    "Id": 977,
-    "Name": "Kunze Group",
-    "Tooltip": "provident",
-    "UniqueId": "voluptatem",
+    "PersonDirectPhone": "(255)601-0589 x23527",
+    "PersonCellPhone": "1-788-747-4452 x647",
+    "PersonPrivatePhone": "164.317.3829 x32317",
+    "PersonFaxNumber": "534525",
+    "PersonPagerNumber": "1131884",
+    "PersonEmail": "ana@torphy.us",
+    "Id": 330,
+    "Name": "Nicolas, Mraz and Mills",
+    "Tooltip": "vitae",
+    "UniqueId": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 830
+        "FieldType": "System.String",
+        "FieldLength": 590
       }
     }
   }

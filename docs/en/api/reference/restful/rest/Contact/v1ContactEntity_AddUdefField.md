@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 151,
-  "ColumnId": 186,
-  "FieldDefault": "quia",
-  "FieldHeight": 159,
-  "FieldLabel": "voluptas",
-  "FieldLeft": 572,
-  "FieldTop": 803,
+  "UDefFieldId": 745,
+  "ColumnId": 636,
+  "FieldDefault": "est",
+  "FieldHeight": 777,
+  "FieldLabel": "et",
+  "FieldLeft": 760,
+  "FieldTop": 897,
   "FieldType": "Checkbox",
   "FieldWidth": 219,
-  "FormatMask": "omnis",
+  "FormatMask": "maiores",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 228,
-  "LabelLeft": 840,
-  "LabelTop": 134,
-  "LabelWidth": 766,
-  "LastVersionId": 411,
-  "ListTableId": 255,
+  "IsIndexed": true,
+  "LabelHeight": 386,
+  "LabelLeft": 493,
+  "LabelTop": 245,
+  "LabelWidth": 419,
+  "LastVersionId": 200,
+  "ListTableId": 896,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 719,
-  "ProgId": "aut",
-  "IsReadOnly": true,
-  "ShortLabel": "neque",
-  "TabOrder": 18,
-  "TextLength": 662,
-  "Tooltip": "dolor",
-  "UdefIdentity": 811,
-  "UDListDefinitionId": 295,
+  "Page1LineNo": 820,
+  "ProgId": "doloremque",
+  "IsReadOnly": false,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 394,
+  "TextLength": 163,
+  "Tooltip": "quam",
+  "UdefIdentity": 129,
+  "UDListDefinitionId": 641,
   "Justification": "Center",
-  "Version": 308,
-  "TemplateVariableName": "Runolfsdottir Inc and Sons",
+  "Version": 331,
+  "TemplateVariableName": "Price Group",
   "HasBeenPublished": true,
-  "MdoListName": "Lueilwitz, Rosenbaum and Murazik",
+  "MdoListName": "Haag, Turner and Ondricka",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 437
+      "FieldType": "System.Int32",
+      "FieldLength": 485
     }
   }
 }

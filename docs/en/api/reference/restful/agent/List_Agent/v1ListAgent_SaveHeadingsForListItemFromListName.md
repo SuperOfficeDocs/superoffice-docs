@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kozey, Lebsack and Toy",
-  "ListItemId": 59,
+  "UdListDefinitionName": "Bartoletti, Berge and Schinner",
+  "ListItemId": 660,
   "Headings": [
     {
-      "Id": 832,
-      "Name": "Rutherford, Farrell and Johnston",
-      "ToolTip": "Odio quos.",
-      "Deleted": false,
-      "Rank": 214,
-      "Type": "dolor",
-      "ColorBlock": 731,
-      "IconHint": "dolore",
+      "Id": 577,
+      "Name": "Corwin-Haag",
+      "ToolTip": "Ad ratione sit facere aut molestiae.",
+      "Deleted": true,
+      "Rank": 776,
+      "Type": "voluptas",
+      "ColorBlock": 114,
+      "IconHint": "et",
       "Selected": true,
-      "LastChanged": "2019-02-14T13:38:13.6864749+01:00",
+      "LastChanged": "2016-08-30T13:57:12.5286589+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "unde",
-      "StyleHint": "nulla",
+      "ExtraInfo": "est",
+      "StyleHint": "placeat",
       "Hidden": false,
-      "FullName": "Tomasa Denesik I"
+      "FullName": "Winona Eichmann"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Langworth, Schaefer and Hilll",
-    "ToolTip": "Qui et eaque aut consequuntur.",
+    "Id": 428,
+    "Name": "Bauch-Langosh",
+    "ToolTip": "Quia debitis omnis suscipit.",
     "Deleted": false,
-    "Rank": 987,
-    "Type": "eos",
-    "ColorBlock": 331,
-    "IconHint": "illo",
+    "Rank": 858,
+    "Type": "recusandae",
+    "ColorBlock": 992,
+    "IconHint": "itaque",
     "Selected": false,
-    "LastChanged": "2012-04-04T13:38:13.6864749+02:00",
+    "LastChanged": "2011-07-30T13:57:12.5286589+02:00",
     "ChildItems": [
       {
-        "Id": 33,
-        "Name": "Dickens Inc and Sons",
-        "ToolTip": "Expedita quis inventore dolorum et tenetur hic.",
-        "Deleted": false,
-        "Rank": 262,
-        "Type": "eos",
-        "ColorBlock": 967,
+        "Id": 307,
+        "Name": "Braun, Little and Harris",
+        "ToolTip": "Soluta sint blanditiis magnam.",
+        "Deleted": true,
+        "Rank": 717,
+        "Type": "enim",
+        "ColorBlock": 778,
         "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "1999-03-26T13:38:13.6864749+01:00",
+        "Selected": true,
+        "LastChanged": "2019-02-02T13:57:12.5286589+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "tenetur",
-        "Hidden": true,
-        "FullName": "Mr. Scot Willie Harris DVM",
+        "ExtraInfo": "rem",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Mrs. Clementine Wisozk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 786
+            "FieldLength": 949
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "aspernatur",
-    "Hidden": false,
-    "FullName": "Mrs. Bethel Reilly",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "eum",
+    "Hidden": true,
+    "FullName": "Mary Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldLength": 267
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Abshire, Hermiston and Romaguera",
-    "ToolTip": "A repellendus occaecati quasi cum.",
-    "Deleted": true,
-    "Rank": 863,
-    "Type": "fugiat",
-    "ColorBlock": 839,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "2007-06-18T13:38:18.0619133+02:00",
+    "Id": 740,
+    "Name": "Boyle LLC",
+    "ToolTip": "Non totam laudantium architecto dolorum molestias doloribus.",
+    "Deleted": false,
+    "Rank": 504,
+    "Type": "repellat",
+    "ColorBlock": 877,
+    "IconHint": "reprehenderit",
+    "Selected": true,
+    "LastChanged": "2010-03-15T13:57:19.7658931+01:00",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Beer-Robel",
-        "ToolTip": "Magnam cumque aliquid harum dolorem id blanditiis ut.",
+        "Id": 499,
+        "Name": "Kunde, Green and Johnson",
+        "ToolTip": "Voluptatum ea natus.",
         "Deleted": false,
-        "Rank": 917,
-        "Type": "et",
-        "ColorBlock": 39,
-        "IconHint": "totam",
+        "Rank": 95,
+        "Type": "saepe",
+        "ColorBlock": 672,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2022-07-28T13:38:18.0619133+02:00",
+        "LastChanged": "2016-07-20T13:57:19.7658931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "nihil",
-        "Hidden": false,
-        "FullName": "Abigail King"
+        "ExtraInfo": "omnis",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Miss Emmitt Rod Bashirian DVM"
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "molestias",
-    "Hidden": false,
-    "FullName": "Mercedes O'Kon"
+    "ExtraInfo": "est",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Van Wehner"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Romaguera LLC",
-    "ToolTip": "Debitis in illum accusantium id.",
-    "Deleted": false,
-    "Rank": 799,
-    "Type": "sit",
-    "ColorBlock": 261,
-    "IconHint": "dolore",
-    "Selected": false,
-    "LastChanged": "2023-08-27T13:38:18.0619133+02:00",
+    "Id": 379,
+    "Name": "Cruickshank Inc and Sons",
+    "ToolTip": "Porro laboriosam ad modi voluptatem earum nam.",
+    "Deleted": true,
+    "Rank": 386,
+    "Type": "in",
+    "ColorBlock": 694,
+    "IconHint": "eveniet",
+    "Selected": true,
+    "LastChanged": "2012-05-24T13:57:19.7658931+02:00",
     "ChildItems": [
       {
-        "Id": 813,
-        "Name": "Langosh Inc and Sons",
-        "ToolTip": "Sed cupiditate quos.",
+        "Id": 655,
+        "Name": "Mohr-DuBuque",
+        "ToolTip": "Error ut est esse labore pariatur nam.",
         "Deleted": false,
-        "Rank": 781,
-        "Type": "quisquam",
-        "ColorBlock": 230,
-        "IconHint": "autem",
+        "Rank": 599,
+        "Type": "voluptatem",
+        "ColorBlock": 446,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2009-01-23T13:38:18.0619133+01:00",
+        "LastChanged": "2003-06-21T13:57:19.7658931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "quam",
-        "Hidden": false,
-        "FullName": "Ms. Kari Hintz",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "labore",
+        "Hidden": true,
+        "FullName": "Edd Spencer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 594
+            "FieldLength": 608
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "quaerat",
-    "Hidden": false,
-    "FullName": "Prof. Emilie Johnnie Stroman IV",
+    "ExtraInfo": "sit",
+    "StyleHint": "earum",
+    "Hidden": true,
+    "FullName": "Mr. Alverta Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 479
+        "FieldLength": 830
       }
     }
   }

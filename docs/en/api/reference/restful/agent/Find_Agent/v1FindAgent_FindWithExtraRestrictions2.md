@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "occaecati",
-  "ProviderName": "Mann-Boyer",
-  "StorageKey": "quibusdam",
-  "ExtraRestrictions": "voluptatibus",
-  "OrderBy": "enim",
-  "DesiredColumns": "sit",
-  "PageSize": 51,
-  "PageNumber": 603
+  "StorageType": "delectus",
+  "ProviderName": "O'Connell Inc and Sons",
+  "StorageKey": "consequuntur",
+  "ExtraRestrictions": "iure",
+  "OrderBy": "ut",
+  "DesiredColumns": "necessitatibus",
+  "PageSize": 44,
+  "PageNumber": 165
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Keebler-Towne",
-      "DisplayTooltip": "quos",
-      "DisplayType": "inventore",
-      "CanOrderBy": true,
-      "Name": "Graham LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "quod",
-      "RestrictionListName": "Hane-Lueilwitz",
-      "IsVisible": true,
-      "ExtraInfo": "consectetur",
-      "Width": "perferendis",
-      "IconHint": "ut",
-      "HeadingIconHint": "vel"
+      "DisplayName": "Marquardt Group",
+      "DisplayTooltip": "error",
+      "DisplayType": "mollitia",
+      "CanOrderBy": false,
+      "Name": "Russel-Zulauf",
+      "CanRestrictBy": true,
+      "RestrictionType": "autem",
+      "RestrictionListName": "Mraz Group",
+      "IsVisible": false,
+      "ExtraInfo": "nulla",
+      "Width": "hic",
+      "IconHint": "laudantium",
+      "HeadingIconHint": "iusto"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kunze, Ernser and Wisozk",
-      "PrimaryKey": 120,
+      "EntityName": "Halvorson-McLaughlin",
+      "PrimaryKey": 127,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "veniam",
-          "TooltipHint": "cupiditate",
-          "LinkHint": "distinctio"
+          "DisplayValue": "quibusdam",
+          "TooltipHint": "vitae",
+          "LinkHint": "ipsum"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "nesciunt",
+      "LinkHint": "quis",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldLength": 168
         }
       }
     }
   ],
-  "RowCount": 808,
+  "RowCount": 758,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldLength": 644
     }
   }
 }

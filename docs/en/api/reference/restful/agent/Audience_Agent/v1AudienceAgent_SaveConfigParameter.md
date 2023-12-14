@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Zboncak, McCullough and Gutmann",
+  "LayoutName": "Kling Inc and Sons",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 479,
-  "Name": "Weissnat, Stanton and Huel",
-  "Value": "et",
-  "CreatedDate": "2002-12-13T13:38:13.0771703+01:00",
-  "UpdatedDate": "2009-01-19T13:38:13.0771703+01:00",
-  "CreatedBy": "odit",
-  "UpdatedBy": "recusandae",
+  "AudienceLayoutId": 95,
+  "Name": "Langworth LLC",
+  "Value": "iste",
+  "CreatedDate": "2015-10-26T13:57:11.5438073+01:00",
+  "UpdatedDate": "2010-08-20T13:57:11.5438073+02:00",
+  "CreatedBy": "quidem",
+  "UpdatedBy": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldLength": 47
     }
   }
 }

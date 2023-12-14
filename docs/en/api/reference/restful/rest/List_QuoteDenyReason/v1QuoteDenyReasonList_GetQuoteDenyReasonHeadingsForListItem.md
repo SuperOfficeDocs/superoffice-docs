@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Sipes Inc and Sons",
-    "ToolTip": "Molestiae ut voluptatibus.",
-    "Deleted": false,
-    "Rank": 463,
-    "Type": "omnis",
-    "ColorBlock": 592,
-    "IconHint": "corrupti",
+    "Id": 186,
+    "Name": "Ratke, Bailey and Zemlak",
+    "ToolTip": "Vero inventore aut veniam reprehenderit ut.",
+    "Deleted": true,
+    "Rank": 641,
+    "Type": "molestiae",
+    "ColorBlock": 906,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "1999-06-28T13:38:18.186902+02:00",
+    "LastChanged": "2018-06-10T13:57:20.031514+02:00",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "Rohan, Ankunding and Marvin",
-        "ToolTip": "Alias odio quibusdam ducimus animi ea.",
-        "Deleted": false,
-        "Rank": 943,
-        "Type": "delectus",
-        "ColorBlock": 270,
-        "IconHint": "dicta",
-        "Selected": false,
-        "LastChanged": "1998-03-19T13:38:18.186902+01:00",
+        "Id": 254,
+        "Name": "Ortiz-Price",
+        "ToolTip": "Occaecati rem ipsa quo aut a facilis.",
+        "Deleted": true,
+        "Rank": 319,
+        "Type": "eligendi",
+        "ColorBlock": 626,
+        "IconHint": "distinctio",
+        "Selected": true,
+        "LastChanged": "2000-01-06T13:57:20.031514+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Darien Kuhic",
+        "ExtraInfo": "enim",
+        "StyleHint": "reiciendis",
+        "Hidden": true,
+        "FullName": "Carolanne Stamm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 315
+            "FieldType": "System.Int32",
+            "FieldLength": 309
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "quis",
-    "Hidden": false,
-    "FullName": "Hunter Vandervort DDS",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "repellat",
+    "Hidden": true,
+    "FullName": "Ara Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 712
+        "FieldLength": 406
       }
     }
   }

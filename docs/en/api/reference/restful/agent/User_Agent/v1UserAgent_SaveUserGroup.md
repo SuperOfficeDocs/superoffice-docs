@@ -97,17 +97,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "eveniet",
-  "Tooltip": "quia",
-  "Id": 244,
-  "Rank": 444,
-  "Deleted": true,
+  "Value": "sed",
+  "Tooltip": "at",
+  "Id": 761,
+  "Rank": 793,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldLength": 706
     }
   }
 }

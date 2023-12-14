@@ -87,22 +87,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "laudantium",
-  "ProviderName": "Keeling, Schneider and Bergstrom",
-  "StorageKey": "est",
+  "StorageType": "alias",
+  "ProviderName": "Hauck, Feil and Champlin",
+  "StorageKey": "illo",
   "DesiredColumns": [
-    "minus",
-    "vero"
+    "veritatis",
+    "hic"
   ],
-  "PageSize": 13,
-  "PageNumber": 608,
+  "PageSize": 64,
+  "PageNumber": 7,
   "OrderBy": [
     {
-      "Name": "Leuschke Group",
+      "Name": "Schmidt, Schneider and Prosacco",
       "Direction": "ASC"
     },
     {
-      "Name": "Leuschke Group",
+      "Name": "Schmidt, Schneider and Prosacco",
       "Direction": "ASC"
     }
   ]
@@ -118,51 +118,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Wintheiser Group",
-      "DisplayTooltip": "cumque",
-      "DisplayType": "praesentium",
-      "CanOrderBy": false,
-      "Name": "Hayes, Jacobs and Bergnaum",
+      "DisplayName": "Bahringer, Kreiger and Stracke",
+      "DisplayTooltip": "voluptas",
+      "DisplayType": "voluptatum",
+      "CanOrderBy": true,
+      "Name": "Schumm-Zulauf",
       "CanRestrictBy": false,
-      "RestrictionType": "quae",
-      "RestrictionListName": "King LLC",
+      "RestrictionType": "ut",
+      "RestrictionListName": "Mayer, Champlin and Upton",
       "IsVisible": false,
-      "ExtraInfo": "pariatur",
-      "Width": "autem",
-      "IconHint": "non",
-      "HeadingIconHint": "voluptatem"
+      "ExtraInfo": "numquam",
+      "Width": "incidunt",
+      "IconHint": "et",
+      "HeadingIconHint": "beatae"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Franecki Inc and Sons",
-      "PrimaryKey": 239,
+      "EntityName": "Gorczany LLC",
+      "PrimaryKey": 375,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sint",
-          "TooltipHint": "soluta",
-          "LinkHint": "eos"
+          "DisplayValue": "repellat",
+          "TooltipHint": "dolorem",
+          "LinkHint": "doloremque"
         }
       },
-      "LinkHint": "voluptas",
-      "StyleHint": "et",
+      "LinkHint": "enim",
+      "StyleHint": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldLength": 942
         }
       }
     }
   ],
-  "RowCount": 283,
+  "RowCount": 167,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldType": "System.String",
+      "FieldLength": 756
     }
   }
 }

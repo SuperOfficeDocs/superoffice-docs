@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 460
+  "Id": 877
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 643,
-    "Name": "West-Zulauf",
-    "Tooltip": "voluptas",
+    "HeadingId": 106,
+    "Name": "Schowalter Inc and Sons",
+    "Tooltip": "exercitationem",
     "Deleted": false,
-    "Rank": 940,
-    "UdListDefinitionId": 32,
+    "Rank": 574,
+    "UdListDefinitionId": 893,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldLength": 687
       }
     }
   }

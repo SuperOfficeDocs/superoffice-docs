@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Heller LLC",
-    "ToolTip": "Minima impedit laborum.",
+    "Id": 918,
+    "Name": "Macejkovic, Boehm and King",
+    "ToolTip": "Facilis alias est laboriosam.",
     "Deleted": false,
-    "Rank": 965,
-    "Type": "id",
-    "ColorBlock": 934,
-    "IconHint": "deserunt",
-    "Selected": false,
-    "LastChanged": "2007-05-09T13:38:17.9056813+02:00",
+    "Rank": 681,
+    "Type": "possimus",
+    "ColorBlock": 174,
+    "IconHint": "eligendi",
+    "Selected": true,
+    "LastChanged": "2021-04-25T13:57:19.6409229+02:00",
     "ChildItems": [
       {
-        "Id": 256,
-        "Name": "Emmerich Group",
-        "ToolTip": "Occaecati aspernatur dolorem omnis.",
+        "Id": 687,
+        "Name": "Swift, Ruecker and King",
+        "ToolTip": "Eius neque aut est cum deserunt aspernatur quia.",
         "Deleted": false,
-        "Rank": 3,
-        "Type": "sapiente",
-        "ColorBlock": 480,
-        "IconHint": "eos",
+        "Rank": 124,
+        "Type": "cumque",
+        "ColorBlock": 843,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2015-04-04T13:38:17.9056813+02:00",
+        "LastChanged": "2018-08-10T13:57:19.6409229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Prof. Bernard Kshlerin"
+        "ExtraInfo": "quam",
+        "StyleHint": "dolorum",
+        "Hidden": false,
+        "FullName": "Miss Constantin Felicita Reinger"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "magnam",
+    "ExtraInfo": "atque",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Mr. Rowland Clemens Runolfsdottir V"
+    "FullName": "Macy Gonzalo Hodkiewicz V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Name": "Harris Group",
-    "ToolTip": "Dolor tenetur qui quod.",
+    "Id": 740,
+    "Name": "Ryan, Simonis and Ernser",
+    "ToolTip": "Eum numquam facilis dolore sed ratione.",
     "Deleted": false,
-    "Rank": 903,
-    "Type": "illo",
-    "ColorBlock": 984,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "1998-04-11T13:38:17.9056813+02:00",
+    "Rank": 370,
+    "Type": "aperiam",
+    "ColorBlock": 566,
+    "IconHint": "temporibus",
+    "Selected": true,
+    "LastChanged": "2015-09-06T13:57:19.6409229+02:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Williamson-Herman",
-        "ToolTip": "Quia nemo libero.",
-        "Deleted": false,
-        "Rank": 20,
-        "Type": "dolorem",
-        "ColorBlock": 852,
-        "IconHint": "velit",
+        "Id": 50,
+        "Name": "Barton-DuBuque",
+        "ToolTip": "Non et.",
+        "Deleted": true,
+        "Rank": 16,
+        "Type": "corrupti",
+        "ColorBlock": 870,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2019-01-10T13:38:17.9056813+01:00",
+        "LastChanged": "2003-05-19T13:57:19.6409229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "id",
-        "Hidden": false,
-        "FullName": "Coy Marlen Bruen Sr.",
+        "ExtraInfo": "est",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Andrew Shania Hettinger Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 42
+            "FieldLength": 277
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "fugit",
     "Hidden": false,
-    "FullName": "Julie Bartoletti",
+    "FullName": "Malika Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 175
+        "FieldType": "System.Int32",
+        "FieldLength": 575
       }
     }
   }

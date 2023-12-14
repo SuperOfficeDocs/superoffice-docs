@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 435
+  "ChatSessionId": 465
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 301,
-  "TopicId": 432,
+  "ChatSessionId": 734,
+  "TopicId": 225,
   "User": null,
   "Person": null,
-  "CustomerAlias": "exercitationem",
-  "CustomerHost": "vitae",
-  "CustomerName": "Bauch-Hessel",
-  "CustomerEmail": "caden.connelly@gutkowski.uk",
-  "CustomerPhone": "015-779-1193",
+  "CustomerAlias": "eos",
+  "CustomerHost": "ratione",
+  "CustomerName": "Oberbrunner Group",
+  "CustomerEmail": "conner.stoltenberg@mcculloughhand.co.uk",
+  "CustomerPhone": "956-425-4486 x8888",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Champlin Inc and Sons",
+  "CustomerCompanyName": "Nikolaus, Daniel and Simonis",
   "Status": "Closed",
-  "FirstMessage": "repellendus",
-  "LastMessage": "quia",
-  "WhenRequested": "2005-08-17T13:38:13.1552857+02:00",
-  "WhenStarted": "2022-07-03T13:38:13.1552857+02:00",
-  "WhenEnded": "2004-06-09T13:38:13.1552857+02:00",
-  "WhenIdle": "2005-06-07T13:38:13.1552857+02:00",
-  "WhenFetched": "2015-04-06T13:38:13.1552857+02:00",
-  "SessionKey": "sit",
-  "InitialQueuePos": 338,
-  "AlertLevel": 928,
-  "Rank": 972,
+  "FirstMessage": "perspiciatis",
+  "LastMessage": "magni",
+  "WhenRequested": "2006-12-10T13:57:11.745523+01:00",
+  "WhenStarted": "2017-10-14T13:57:11.745523+02:00",
+  "WhenEnded": "2020-12-08T13:57:11.745523+01:00",
+  "WhenIdle": "2022-05-10T13:57:11.745523+02:00",
+  "WhenFetched": "2011-07-26T13:57:11.745523+02:00",
+  "SessionKey": "voluptates",
+  "InitialQueuePos": 7,
+  "AlertLevel": 278,
+  "Rank": 286,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 31,
+  "Rating": 339,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldType": "System.String",
+      "FieldLength": 349
     }
   }
 }

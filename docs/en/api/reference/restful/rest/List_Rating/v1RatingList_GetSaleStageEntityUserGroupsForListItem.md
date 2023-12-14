@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 41,
-    "Name": "Russel-Casper",
-    "ToolTip": "Sit reprehenderit magni quasi voluptatem.",
-    "Deleted": true,
-    "Rank": 88,
-    "Type": "blanditiis",
-    "ColorBlock": 729,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2000-03-11T13:38:18.186902+01:00",
+    "Id": 461,
+    "Name": "Streich-Schaefer",
+    "ToolTip": "Possimus qui numquam qui magni assumenda.",
+    "Deleted": false,
+    "Rank": 333,
+    "Type": "officia",
+    "ColorBlock": 894,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2018-12-18T13:57:20.0627631+01:00",
     "ChildItems": [
       {
-        "Id": 648,
-        "Name": "Mitchell Group",
-        "ToolTip": "Nostrum laboriosam est.",
+        "Id": 225,
+        "Name": "Sawayn-West",
+        "ToolTip": "Repellendus ducimus aut autem et.",
         "Deleted": true,
-        "Rank": 261,
-        "Type": "magnam",
-        "ColorBlock": 492,
-        "IconHint": "distinctio",
+        "Rank": 188,
+        "Type": "molestias",
+        "ColorBlock": 487,
+        "IconHint": "eaque",
         "Selected": false,
-        "LastChanged": "1997-02-13T13:38:18.186902+01:00",
+        "LastChanged": "2022-06-17T13:57:20.0627631+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "sunt",
+        "StyleHint": "corporis",
         "Hidden": false,
-        "FullName": "Christophe Greenfelder IV",
+        "FullName": "Harold Runte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldLength": 87
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Nona Hills",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "veritatis",
+    "Hidden": true,
+    "FullName": "Prof. Frederic Gutkowski I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldLength": 446
       }
     }
   }

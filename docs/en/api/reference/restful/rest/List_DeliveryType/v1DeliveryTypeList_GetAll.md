@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 106,
-    "Name": "Carter-Gibson",
-    "Tooltip": "et",
+    "Id": 680,
+    "Name": "Ward-Barrows",
+    "Tooltip": "beatae",
     "Deleted": false,
-    "UdListDefinitionId": 303,
-    "Rank": 642,
+    "UdListDefinitionId": 349,
+    "Rank": 235,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 836
+        "FieldLength": 407
       }
     }
   }

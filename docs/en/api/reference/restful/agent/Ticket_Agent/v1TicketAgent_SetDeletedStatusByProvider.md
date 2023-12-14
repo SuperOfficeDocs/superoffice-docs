@@ -71,32 +71,32 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Weber-Conroy",
+  "ProviderName": "Gutmann-Reinger",
   "Restrictions": [
     {
-      "Name": "Abernathy-Franecki",
-      "Operator": "officia",
+      "Name": "Lowe Group",
+      "Operator": "occaecati",
       "Values": [
-        "sed",
-        "aut"
+        "veritatis",
+        "quidem"
       ],
       "DisplayValues": [
-        "aut",
-        "quis"
+        "vitae",
+        "non"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 613,
+      "InterParenthesis": 961,
       "InterOperator": "And",
-      "UniqueHash": 240
+      "UniqueHash": 643
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  794,
-  727
+  411,
+  952
 ]
 ```

@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 13,
-  "Name": "Hickle LLC",
-  "Tooltip": "molestiae",
-  "Rank": 751,
+  "SuggestedAppointmentId": 2,
+  "Name": "Schumm, Crist and Oberbrunner",
+  "Tooltip": "est",
+  "Rank": 674,
   "Deleted": false,
-  "DaysFuture": 25,
-  "Duration": "ut",
-  "AutoSuggest": false,
-  "IsMilestone": false,
+  "DaysFuture": 382,
+  "Duration": "consequatur",
+  "AutoSuggest": true,
+  "IsMilestone": true,
   "AssignToMember": true,
-  "Text": "id",
+  "Text": "earum",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 666,
-  "Name": "Gleason, Prosacco and Trantow",
-  "Tooltip": "exercitationem",
-  "Rank": 25,
-  "Deleted": true,
-  "DaysFuture": 134,
-  "Duration": "et",
-  "AutoSuggest": true,
-  "IsMilestone": true,
+  "SuggestedAppointmentId": 774,
+  "Name": "Emmerich, Goodwin and Kshlerin",
+  "Tooltip": "nobis",
+  "Rank": 298,
+  "Deleted": false,
+  "DaysFuture": 680,
+  "Duration": "id",
+  "AutoSuggest": false,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "et",
+  "Text": "tenetur",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldLength": 684
     }
   }
 }

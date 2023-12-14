@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 81,
-    "Name": "Schmitt LLC",
-    "Tooltip": "ea",
-    "Rank": 188,
-    "Key": "delectus",
-    "MailTemplateId": 777,
-    "Deleted": false,
+    "ConsentSourceId": 826,
+    "Name": "Dare Group",
+    "Tooltip": "dicta",
+    "Rank": 419,
+    "Key": "a",
+    "MailTemplateId": 186,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 822
+        "FieldType": "System.Int32",
+        "FieldLength": 792
       }
     }
   }

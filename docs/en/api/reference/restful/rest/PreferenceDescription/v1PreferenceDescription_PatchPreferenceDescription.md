@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "harum",
+    "path": "alias",
     "value": {}
   },
   {
     "op": "add",
-    "path": "harum",
+    "path": "alias",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 114,
-  "Section": "sed",
-  "Key": "commodi",
-  "Name": "Medhurst Inc and Sons",
+  "PrefDescId": 549,
+  "Section": "sit",
+  "Key": "est",
+  "Name": "Kunze-Auer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Adaptive needs-based synergy",
+  "Description": "Secured didactic service-desk",
   "IsBuiltin": false,
-  "TableName": "Emard, Bogisich and Deckow",
-  "UserDefinedListId": 907,
-  "Rank": 629,
-  "SubGroup": "aliquam",
-  "MinLevel": 251,
-  "MaxValue": 898,
-  "MinValue": 660,
-  "RequiredLicense": "consequuntur",
+  "TableName": "West Group",
+  "UserDefinedListId": 870,
+  "Rank": 15,
+  "SubGroup": "et",
+  "MinLevel": 700,
+  "MaxValue": 23,
+  "MinValue": 12,
+  "RequiredLicense": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 780
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

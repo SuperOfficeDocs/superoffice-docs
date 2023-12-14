@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 446,
-    "Name": "Boyer Inc and Sons",
-    "ToolTip": "Quibusdam corrupti dolor.",
-    "Deleted": false,
-    "Rank": 872,
-    "Type": "veniam",
-    "ColorBlock": 944,
-    "IconHint": "ipsa",
-    "Selected": true,
-    "LastChanged": "1997-01-29T13:38:18.186902+01:00",
+    "Id": 974,
+    "Name": "Von, Boehm and Graham",
+    "ToolTip": "Non tempore quidem adipisci tenetur.",
+    "Deleted": true,
+    "Rank": 610,
+    "Type": "est",
+    "ColorBlock": 928,
+    "IconHint": "sint",
+    "Selected": false,
+    "LastChanged": "2010-11-27T13:57:20.0627631+01:00",
     "ChildItems": [
       {
-        "Id": 424,
-        "Name": "Schneider Inc and Sons",
-        "ToolTip": "Asperiores iste sint alias autem quo dolorem est.",
+        "Id": 41,
+        "Name": "Gleichner LLC",
+        "ToolTip": "Repellat doloribus nobis a molestiae.",
         "Deleted": false,
-        "Rank": 113,
-        "Type": "et",
-        "ColorBlock": 691,
-        "IconHint": "quas",
+        "Rank": 327,
+        "Type": "voluptate",
+        "ColorBlock": 692,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2000-08-06T13:38:18.186902+02:00",
+        "LastChanged": "2001-07-31T13:57:20.0627631+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "recusandae",
-        "Hidden": true,
-        "FullName": "Parker Collins",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "labore",
+        "Hidden": false,
+        "FullName": "Willow Satterfield",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 845
+            "FieldLength": 100
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Mrs. Rahsaan Carlotta Runolfsson I",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "perspiciatis",
+    "Hidden": false,
+    "FullName": "Miss Jon Kariane Conn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 573
+        "FieldType": "System.Int32",
+        "FieldLength": 678
       }
     }
   }

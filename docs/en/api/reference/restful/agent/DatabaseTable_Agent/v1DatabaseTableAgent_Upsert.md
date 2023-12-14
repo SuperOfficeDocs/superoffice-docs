@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Carter-Hermiston",
+  "TableName": "Wisoky-Wisoky",
   "Columns": [
-    "quisquam",
-    "veniam"
+    "veniam",
+    "voluptate"
   ],
   "Keys": [
-    "neque",
-    "quia"
+    "dolor",
+    "voluptatem"
   ],
   "Data": [
     [
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": true
+  "ReturnRowStatus": false
 }
 ```
 
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "dignissimos",
-  "Inserts": 451,
-  "Updates": 556,
-  "Deletes": 732,
+  "Message": "consequatur",
+  "Inserts": 815,
+  "Updates": 174,
+  "Deletes": 336,
   "RowStatus": [
     {
-      "PrimaryKey": 972,
+      "PrimaryKey": 198,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "vel",
-        "illo"
+        "fugit",
+        "expedita"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 104
+          "FieldType": "System.Int32",
+          "FieldLength": 328
         }
       }
     },
     {
-      "PrimaryKey": 972,
+      "PrimaryKey": 198,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "vel",
-        "illo"
+        "fugit",
+        "expedita"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 104
+          "FieldType": "System.Int32",
+          "FieldLength": 328
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 148
+      "FieldType": "System.Int32",
+      "FieldLength": 23
     }
   }
 }

@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "dicta",
-    "ipsa"
+    "et",
+    "animi"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "nihil",
+    "Label": "dolor",
     "Values": [
       {
-        "Label": "minima",
-        "Value": 21232.85,
-        "Description": "Managed solution-oriented projection",
+        "Label": "et",
+        "Value": 13692.446,
+        "Description": "Multi-tiered global artificial intelligence",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 117
+            "FieldLength": 927
           }
         }
       },
       {
-        "Label": "minima",
-        "Value": 21232.85,
-        "Description": "Managed solution-oriented projection",
+        "Label": "et",
+        "Value": 13692.446,
+        "Description": "Multi-tiered global artificial intelligence",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 117
+            "FieldLength": 927
           }
         }
       }
     ],
-    "Description": "Down-sized intangible project",
+    "Description": "Team-oriented foreground pricing structure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldType": "System.String",
+        "FieldLength": 9
       }
     }
   },
   {
-    "Label": "nihil",
+    "Label": "dolor",
     "Values": [
       {
-        "Label": "minima",
-        "Value": 21232.85,
-        "Description": "Managed solution-oriented projection",
+        "Label": "et",
+        "Value": 13692.446,
+        "Description": "Multi-tiered global artificial intelligence",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 117
+            "FieldLength": 927
           }
         }
       },
       {
-        "Label": "minima",
-        "Value": 21232.85,
-        "Description": "Managed solution-oriented projection",
+        "Label": "et",
+        "Value": 13692.446,
+        "Description": "Multi-tiered global artificial intelligence",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 117
+            "FieldLength": 927
           }
         }
       }
     ],
-    "Description": "Down-sized intangible project",
+    "Description": "Team-oriented foreground pricing structure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldType": "System.String",
+        "FieldLength": 9
       }
     }
   }

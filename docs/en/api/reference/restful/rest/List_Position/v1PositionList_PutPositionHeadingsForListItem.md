@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 831,
-    "Name": "Schuppe-Herzog",
-    "ToolTip": "Reprehenderit nisi consequatur in ea modi aut et.",
-    "Deleted": false,
-    "Rank": 129,
-    "Type": "molestias",
-    "ColorBlock": 669,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2008-01-04T13:38:18.1087815+01:00",
+    "Id": 198,
+    "Name": "Beer Inc and Sons",
+    "ToolTip": "In et sunt quo laborum aut distinctio.",
+    "Deleted": true,
+    "Rank": 581,
+    "Type": "repellendus",
+    "ColorBlock": 510,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2013-08-13T13:57:19.8440154+02:00",
     "ChildItems": [
       {
-        "Id": 634,
-        "Name": "Rolfson, Mueller and Ritchie",
-        "ToolTip": "Nihil distinctio et laboriosam iste sit ut.",
-        "Deleted": true,
-        "Rank": 270,
-        "Type": "nam",
-        "ColorBlock": 597,
-        "IconHint": "et",
+        "Id": 991,
+        "Name": "Wehner Inc and Sons",
+        "ToolTip": "Quaerat exercitationem necessitatibus et dolore voluptatem voluptate cumque.",
+        "Deleted": false,
+        "Rank": 390,
+        "Type": "eum",
+        "ColorBlock": 192,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2016-08-25T13:38:18.1087815+02:00",
+        "LastChanged": "1999-06-26T13:57:19.8440154+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "culpa",
-        "Hidden": true,
-        "FullName": "Roma Prosacco"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Leonardo Homenick"
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "quod",
+    "ExtraInfo": "vel",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Dina Lebsack"
+    "FullName": "Aida McClure"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "McGlynn Group",
-    "ToolTip": "Laudantium officia quaerat omnis in repellat.",
-    "Deleted": false,
-    "Rank": 923,
-    "Type": "quod",
-    "ColorBlock": 662,
-    "IconHint": "minus",
+    "Id": 210,
+    "Name": "Rosenbaum Group",
+    "ToolTip": "Velit mollitia.",
+    "Deleted": true,
+    "Rank": 640,
+    "Type": "molestias",
+    "ColorBlock": 15,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "1998-03-02T13:38:18.1087815+01:00",
+    "LastChanged": "2009-04-23T13:57:19.8440154+02:00",
     "ChildItems": [
       {
-        "Id": 600,
-        "Name": "Nolan, Hahn and Torp",
-        "ToolTip": "Ducimus voluptatibus.",
-        "Deleted": false,
-        "Rank": 951,
-        "Type": "ipsa",
-        "ColorBlock": 308,
-        "IconHint": "ratione",
+        "Id": 584,
+        "Name": "Bradtke-Botsford",
+        "ToolTip": "Et rerum beatae.",
+        "Deleted": true,
+        "Rank": 879,
+        "Type": "iure",
+        "ColorBlock": 909,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2020-09-30T13:38:18.1087815+02:00",
+        "LastChanged": "2005-10-26T13:57:19.8440154+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "optio",
-        "Hidden": true,
-        "FullName": "Brant Jerde",
+        "ExtraInfo": "non",
+        "StyleHint": "suscipit",
+        "Hidden": false,
+        "FullName": "Mr. Ashton Adrian Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 738
+            "FieldType": "System.Int32",
+            "FieldLength": 631
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "aperiam",
-    "Hidden": true,
-    "FullName": "Jaylin Willms",
+    "ExtraInfo": "rerum",
+    "StyleHint": "in",
+    "Hidden": false,
+    "FullName": "Mrs. Adrain Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 797
+        "FieldLength": 172
       }
     }
   }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 706,
-  "Currency": "distinctio"
+  "QuoteConnectionId": 80,
+  "Currency": "ab"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 199,
-    "ERPPriceListKey": "labore",
-    "QuoteConnectionId": 560,
-    "Name": "Gutmann Group",
-    "Description": "Persistent methodical core",
-    "Currency": "consequuntur",
-    "CurrencyName": "Erdman, Padberg and Powlowski",
-    "ValidFrom": "2005-11-01T13:38:14.0303322+01:00",
-    "ValidTo": "2007-04-07T13:38:14.0303322+02:00",
-    "IsActive": false,
+    "PriceListId": 716,
+    "ERPPriceListKey": "sint",
+    "QuoteConnectionId": 57,
+    "Name": "Weimann LLC",
+    "Description": "Proactive tertiary strategy",
+    "Currency": "sint",
+    "CurrencyName": "Metz, Gutkowski and Kulas",
+    "ValidFrom": "2014-08-12T13:57:13.064942+02:00",
+    "ValidTo": "1999-12-05T13:57:13.064942+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 52
       }
     }
   }

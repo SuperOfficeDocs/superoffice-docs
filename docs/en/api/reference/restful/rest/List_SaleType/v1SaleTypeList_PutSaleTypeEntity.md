@@ -116,47 +116,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 213,
-  "Name": "Mueller-Donnelly",
-  "Tooltip": "aut",
-  "Rank": 482,
+  "SaleTypeId": 797,
+  "Name": "Hegmann-Dare",
+  "Tooltip": "inventore",
+  "Rank": 143,
   "DurationUnit": "Century",
-  "SaleDuration": 588,
-  "SaleTypeCatId": 561,
-  "Deleted": false,
+  "SaleDuration": 471,
+  "SaleTypeCatId": 991,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 315,
-  "QuoteLinesTemplate": 803,
-  "ConfirmationLinesTemplate": 615,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 373,
-  "MinEarningPercent": 190,
-  "GroupQuoteLinesBy": 754,
-  "SortGroupLinesBy": 896,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 303,
+  "QuoteLinesTemplate": 953,
+  "ConfirmationLinesTemplate": 416,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 388,
+  "MinEarningPercent": 620,
+  "GroupQuoteLinesBy": 512,
+  "SortGroupLinesBy": 591,
   "Stages": [
     {
-      "Id": 316,
-      "Name": "Adams LLC",
-      "ToolTip": "Magni perspiciatis officia et nisi non.",
-      "Deleted": true,
-      "Rank": 466,
-      "Type": "soluta",
-      "ColorBlock": 508,
-      "IconHint": "sed",
+      "Id": 109,
+      "Name": "Gutmann, Eichmann and Leannon",
+      "ToolTip": "Voluptates dolorem est accusamus aut facilis voluptates.",
+      "Deleted": false,
+      "Rank": 736,
+      "Type": "corrupti",
+      "ColorBlock": 796,
+      "IconHint": "dolores",
       "Selected": false,
-      "LastChanged": "2001-06-03T13:38:18.2181419+02:00",
+      "LastChanged": "2021-05-23T13:57:20.1109105+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "numquam",
+      "ExtraInfo": "impedit",
+      "StyleHint": "voluptatibus",
       "Hidden": false,
-      "FullName": "Effie Steuber"
+      "FullName": "Mrs. Suzanne Braun"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 491,
-  "Name": "Ziemann-Jacobi",
-  "Tooltip": "et",
-  "Rank": 673,
+  "SaleTypeId": 74,
+  "Name": "Dooley-Hegmann",
+  "Tooltip": "occaecati",
+  "Rank": 607,
   "DurationUnit": "Century",
-  "SaleDuration": 870,
-  "SaleTypeCatId": 861,
-  "Deleted": false,
+  "SaleDuration": 46,
+  "SaleTypeCatId": 744,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 320,
-  "QuoteLinesTemplate": 350,
-  "ConfirmationLinesTemplate": 669,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 626,
-  "MinEarningPercent": 741,
-  "GroupQuoteLinesBy": 72,
-  "SortGroupLinesBy": 948,
+  "DefaultQuoteValidity": 178,
+  "QuoteLinesTemplate": 53,
+  "ConfirmationLinesTemplate": 991,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 655,
+  "MinEarningPercent": 532,
+  "GroupQuoteLinesBy": 805,
+  "SortGroupLinesBy": 654,
   "Stages": [
     {
-      "Id": 216,
-      "Name": "Mayer-Hagenes",
-      "ToolTip": "Nostrum mollitia.",
+      "Id": 626,
+      "Name": "Gutmann, Collier and Feil",
+      "ToolTip": "Sint iste est qui reprehenderit.",
       "Deleted": false,
-      "Rank": 783,
-      "Type": "molestiae",
-      "ColorBlock": 716,
-      "IconHint": "dolores",
-      "Selected": true,
-      "LastChanged": "2005-07-11T13:38:18.2181419+02:00",
+      "Rank": 609,
+      "Type": "facilis",
+      "ColorBlock": 402,
+      "IconHint": "architecto",
+      "Selected": false,
+      "LastChanged": "2018-07-15T13:57:20.1109105+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "modi",
-      "StyleHint": "perferendis",
+      "ExtraInfo": "a",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Mr. Tommie Sauer Sr.",
+      "FullName": "Dr. Mya Mohr DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 824
+          "FieldType": "System.Int32",
+          "FieldLength": 128
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldLength": 136
     }
   }
 }

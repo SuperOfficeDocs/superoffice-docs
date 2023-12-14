@@ -86,12 +86,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 990,
-  "Name": "Lesch, Jast and Hyatt",
+  "TicketStatusId": 348,
+  "Name": "Reinger-Green",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": false,
+  "NoEmailReopen": true,
+  "IsDefault": true,
   "UsedInQueue": false
 }
 ```
@@ -103,8 +103,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 651,
-  "Name": "Stehr-Mohr",
+  "TicketStatusId": 847,
+  "Name": "Boyle-Ruecker",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 551
     }
   }
 }

@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 694,
-  "Name": "Rice LLC",
-  "Tooltip": "qui",
+  "HeadingId": 665,
+  "Name": "Sauer, Stokes and Jacobs",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 822,
-  "UdListDefinitionId": 371,
+  "Rank": 119,
+  "UdListDefinitionId": 379,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

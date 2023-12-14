@@ -65,7 +65,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 93,
-    "Name": "Wuckert Inc and Sons",
-    "ContentType": "ea",
-    "AttSize": 70,
+    "AttachmentId": 160,
+    "Name": "Krajcik-Jerde",
+    "ContentType": "labore",
+    "AttSize": 824,
     "InlineImage": false,
-    "ContentId": "itaque",
-    "AuthKey": "ullam",
+    "ContentId": "omnis",
+    "AuthKey": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldLength": 244
       }
     }
   }

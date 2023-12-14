@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 654,
-  "Name": "Green Group",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "Rank": 68,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 191,
+  "Name": "Green, Aufderhar and Ullrich",
+  "Tooltip": "ex",
+  "Deleted": true,
+  "Rank": 671,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "maiores",
+  "ListType": "omnis",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 412,
-  "Name": "Macejkovic-Pacocha",
-  "Tooltip": "ullam",
+  "Id": 519,
+  "Name": "Hoeger Group",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 425,
+  "Rank": 747,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "laborum",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldLength": 845
     }
   }
 }

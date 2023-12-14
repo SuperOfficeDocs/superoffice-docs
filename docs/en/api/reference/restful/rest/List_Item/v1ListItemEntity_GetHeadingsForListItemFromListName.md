@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 363,
-    "Name": "Reynolds-Fay",
-    "ToolTip": "Quo inventore accusamus aut cupiditate magnam et.",
-    "Deleted": true,
-    "Rank": 191,
-    "Type": "quod",
-    "ColorBlock": 990,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2011-12-02T13:38:17.8900531+01:00",
+    "Id": 519,
+    "Name": "Green, Corwin and Hamill",
+    "ToolTip": "Sed laudantium et.",
+    "Deleted": false,
+    "Rank": 377,
+    "Type": "aut",
+    "ColorBlock": 50,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2001-06-09T13:57:19.6096461+02:00",
     "ChildItems": [
       {
-        "Id": 18,
-        "Name": "Bosco-Sauer",
-        "ToolTip": "Facere assumenda.",
-        "Deleted": false,
-        "Rank": 899,
-        "Type": "veritatis",
-        "ColorBlock": 970,
-        "IconHint": "aut",
+        "Id": 295,
+        "Name": "Ferry Inc and Sons",
+        "ToolTip": "Numquam quia repellendus ad vel totam.",
+        "Deleted": true,
+        "Rank": 185,
+        "Type": "quibusdam",
+        "ColorBlock": 189,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2016-02-22T13:38:17.8900531+01:00",
+        "LastChanged": "2003-01-25T13:57:19.6096461+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "maiores",
+        "ExtraInfo": "nihil",
+        "StyleHint": "quod",
         "Hidden": false,
-        "FullName": "Miss Oren Laverne Wisoky",
+        "FullName": "Ms. Maximilian Tamara Kunze IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 903
+            "FieldLength": 521
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "illum",
-    "Hidden": true,
-    "FullName": "Leonor Kovacek",
+    "ExtraInfo": "nulla",
+    "StyleHint": "rem",
+    "Hidden": false,
+    "FullName": "Dr. Rebeka Viviane Boehm V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldLength": 172
       }
     }
   }

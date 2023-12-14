@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "deserunt"
+  "Domain": "sapiente"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "McKenzie-Kihn",
-    "SoPrimaryKey": 946,
-    "EntryName": "Haley Group",
-    "EntryIdentifier": "veritatis",
-    "RuleDisplayName": "Ziemann-Rutherford",
+    "RuleName": "Keeling LLC",
+    "SoPrimaryKey": 700,
+    "EntryName": "Kshlerin, Goldner and Deckow",
+    "EntryIdentifier": "repellat",
+    "RuleDisplayName": "Von-Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 180
+        "FieldType": "System.Int32",
+        "FieldLength": 596
       }
     }
   }

@@ -93,13 +93,13 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    688,
-    162
+    522,
+    231
   ]
 }
 ```
@@ -112,33 +112,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 713,
-    "ContactId": 653,
-    "ProjectId": 463,
-    "ContactName": "Abshire-Hermann",
+    "ProjectmemberId": 216,
+    "ContactId": 857,
+    "ProjectId": 847,
+    "ContactName": "Purdy Group",
     "ContactDepartment": "",
-    "ProjectName": "Rohan, Halvorson and Leuschke",
-    "EmailId": 201,
-    "EmailAddress": "casimir@dare.com",
-    "CountryId": 924,
-    "Firstname": "Mckenna",
-    "MiddleName": "Bernhard Inc and Sons",
-    "Lastname": "Morissette",
-    "PersonId": 113,
-    "Mrmrs": "non",
-    "ProjectMemberTypeName": "Wiza, Graham and Goldner",
-    "Phone": "1-367-092-7624",
-    "PhoneId": 881,
-    "ProjectMemberTypeId": 592,
-    "EmailAddressName": "ted.oconnell@kilback.biz",
-    "Comment": "provident",
-    "FullName": "Florencio Stark",
+    "ProjectName": "Mitchell-Gutmann",
+    "EmailId": 862,
+    "EmailAddress": "janiya@lueilwitz.biz",
+    "CountryId": 66,
+    "Firstname": "Clovis",
+    "MiddleName": "Goodwin-Huel",
+    "Lastname": "Grimes",
+    "PersonId": 445,
+    "Mrmrs": "sed",
+    "ProjectMemberTypeName": "Runolfsson, Hudson and Stokes",
+    "Phone": "1-591-828-4832 x68993",
+    "PhoneId": 402,
+    "ProjectMemberTypeId": 497,
+    "EmailAddressName": "andy_wisoky@kshlerinbogan.biz",
+    "Comment": "sit",
+    "FullName": "Mike Hauck",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 845
+        "FieldLength": 775
       }
     }
   }

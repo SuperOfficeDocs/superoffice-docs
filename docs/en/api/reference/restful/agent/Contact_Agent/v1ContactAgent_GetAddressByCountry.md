@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 171,
-  "CountryId": 868
+  "ContactId": 349,
+  "CountryId": 485
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 1109.436,
-  "Wgs84Longitude": 22442.574,
+  "Wgs84Latitude": 2084.11,
+  "Wgs84Longitude": 22611.809999999998,
   "LocalizedAddress": [
     [
       {
-        "Name": "Keebler Group",
-        "Value": "autem",
-        "Tooltip": "quidem",
-        "Label": "eos",
-        "ValueLength": 533,
-        "AddressType": "vel",
+        "Name": "Stanton-DuBuque",
+        "Value": "sint",
+        "Tooltip": "vel",
+        "Label": "deleniti",
+        "ValueLength": 58,
+        "AddressType": "rerum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 265
+            "FieldLength": 219
           }
         }
       }
     ],
     [
       {
-        "Name": "Rippin, Kassulke and Rutherford",
-        "Value": "atque",
-        "Tooltip": "amet",
-        "Label": "corporis",
-        "ValueLength": 582,
-        "AddressType": "enim",
+        "Name": "Cassin-Smith",
+        "Value": "est",
+        "Tooltip": "labore",
+        "Label": "repellendus",
+        "ValueLength": 105,
+        "AddressType": "saepe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 714
+            "FieldType": "System.Int32",
+            "FieldLength": 538
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "quo",
+  "Formatted": "suscipit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldLength": 202
     }
   }
 }

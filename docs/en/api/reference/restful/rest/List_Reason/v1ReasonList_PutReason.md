@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 660,
-  "Name": "Nader Inc and Sons",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "UdListDefinitionId": 893,
-  "Rank": 412
+  "Id": 52,
+  "Name": "Hahn-Effertz",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 858,
+  "Rank": 139
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 979,
-  "Name": "Barrows-Grant",
-  "Tooltip": "rerum",
+  "Id": 1002,
+  "Name": "Ward Group",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "UdListDefinitionId": 279,
-  "Rank": 304,
+  "UdListDefinitionId": 391,
+  "Rank": 173,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldType": "System.String",
+      "FieldLength": 681
     }
   }
 }

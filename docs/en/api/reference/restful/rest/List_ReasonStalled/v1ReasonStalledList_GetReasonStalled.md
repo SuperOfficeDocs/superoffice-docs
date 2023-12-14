@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 35,
-  "Name": "Jakubowski Inc and Sons",
-  "Tooltip": "itaque",
-  "Deleted": true,
-  "UdListDefinitionId": 44,
-  "Rank": 294,
+  "Id": 966,
+  "Name": "Hyatt-Fay",
+  "Tooltip": "eius",
+  "Deleted": false,
+  "UdListDefinitionId": 860,
+  "Rank": 307,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 435
+      "FieldType": "System.Int32",
+      "FieldLength": 610
     }
   }
 }

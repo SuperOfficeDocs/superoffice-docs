@@ -706,13 +706,17 @@ Private appointments that are not fully readable will not be shown (they are ski
 |associate/otherGroups|userGroup|Other groups: Other groups|  |
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
-|appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextAppointment?$select=contact/stop,contact/deletedDate,contact/contactAssociate/ejDisplayName,person/personInfo/textId,person/restrictionAddress/county
+GET /api/v1/archive/FreetextAppointment?$select=searchwords,visibleFor,contact/stop,contact/contactExtra/x_contact_default_integer,person/correspondingAssociate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

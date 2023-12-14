@@ -101,17 +101,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": false,
+  "Notify": true,
   "AttachmentIds": [
-    269,
-    483
+    301,
+    642
   ],
-  "UpdateRepliedAt": true
+  "UpdateRepliedAt": false
 }
 ```
 
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 115,
+  "EjMessageId": 405,
   "Ticket": null,
-  "CreatedAt": "2016-01-05T13:38:14.3115522+01:00",
+  "CreatedAt": "2012-09-16T13:57:13.4739653+02:00",
   "CreatedBy": null,
-  "Author": "doloremque",
+  "Author": "sit",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "adipisci",
-  "TimeSpent": 392,
-  "Body": "modi",
-  "HtmlBody": "ea",
-  "EmailHeader": "brett_damore@osinski.co.uk",
-  "DebugInfo": "qui",
-  "MailSorter": "culpa",
+  "MessageId": "alias",
+  "TimeSpent": 529,
+  "Body": "accusantium",
+  "HtmlBody": "in",
+  "EmailHeader": "burnice@barrows.name",
+  "DebugInfo": "in",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "id",
+  "SearchTitle": "cumque",
   "MessageHeaders": [
     {
-      "Id": 722,
-      "Name": "Glover-Moore",
-      "Value": "aliquam",
+      "Id": 94,
+      "Name": "Jaskolski, Gleason and Howell",
+      "Value": "architecto",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,49 +151,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldLength": 958
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "voluptatem",
-  "Sentiment": 577,
-  "SentimentConfidence": 82,
+  "Important": false,
+  "Language": "qui",
+  "Sentiment": 406,
+  "SentimentConfidence": 738,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 655,
-      "Name": "Wunsch, Herman and Glover",
-      "ContentType": "at",
-      "AttSize": 350,
-      "InlineImage": true,
-      "ContentId": "eos",
-      "AuthKey": "laudantium",
+      "AttachmentId": 116,
+      "Name": "Shanahan-Stiedemann",
+      "ContentType": "nam",
+      "AttSize": 368,
+      "InlineImage": false,
+      "ContentId": "quam",
+      "AuthKey": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 878
+          "FieldType": "System.String",
+          "FieldLength": 901
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "dolorum"
+    "ExtraFields1": "perspiciatis",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "fugiat"
+    "CustomFields1": "quaerat",
+    "CustomFields2": "itaque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 504
     }
   }
 }

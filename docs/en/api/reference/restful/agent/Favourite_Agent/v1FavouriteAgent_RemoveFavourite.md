@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schimmel, Jerde and Walker",
-  "RecordId": 820,
-  "AssociateId": 642
+  "TableName": "Romaguera-Mann",
+  "RecordId": 23,
+  "AssociateId": 104
 }
 ```
 

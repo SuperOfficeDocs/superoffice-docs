@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 893,
-    "Name": "Reilly, Conn and Schmitt",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 991,
-    "UdListDefinitionId": 419
+    "HeadingId": 911,
+    "Name": "Bauch-Howell",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 863,
+    "UdListDefinitionId": 573
   },
   {
-    "HeadingId": 893,
-    "Name": "Reilly, Conn and Schmitt",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 991,
-    "UdListDefinitionId": 419
+    "HeadingId": 911,
+    "Name": "Bauch-Howell",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 863,
+    "UdListDefinitionId": 573
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 347,
-    "Name": "Towne, Hane and Beahan",
-    "Tooltip": "similique",
+    "HeadingId": 67,
+    "Name": "Gutkowski Inc and Sons",
+    "Tooltip": "iste",
     "Deleted": false,
-    "Rank": 33,
-    "UdListDefinitionId": 987,
+    "Rank": 893,
+    "UdListDefinitionId": 840,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldType": "System.String",
+        "FieldLength": 856
       }
     }
   }

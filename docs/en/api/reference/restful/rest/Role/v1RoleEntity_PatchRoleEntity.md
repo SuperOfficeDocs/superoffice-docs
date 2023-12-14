@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "error",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "error",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 160,
-  "Name": "Feeney, Walker and Rolfson",
-  "Tooltip": "culpa",
+  "RoleId": 599,
+  "Name": "Kovacek-Zboncak",
+  "Tooltip": "debitis",
   "RoleType": "Anonymous",
-  "Deleted": 504,
-  "Rank": 993,
-  "Created": "2007-08-24T13:38:17.5774332+02:00",
-  "UseCategories": 511,
+  "Deleted": 193,
+  "Rank": 956,
+  "Created": "1996-10-25T13:57:19.1403101+02:00",
+  "UseCategories": 12,
   "CreatedBy": null,
-  "Updated": "2022-07-01T13:38:17.5774332+02:00",
+  "Updated": "1999-04-17T13:57:19.1403101+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,12 +163,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 287
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

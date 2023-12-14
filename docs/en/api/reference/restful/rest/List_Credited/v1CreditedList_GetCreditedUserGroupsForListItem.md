@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Volkman LLC",
-    "ToolTip": "Nemo deserunt eius deleniti magni tenetur accusantium.",
-    "Deleted": true,
-    "Rank": 322,
-    "Type": "aut",
-    "ColorBlock": 643,
-    "IconHint": "adipisci",
-    "Selected": true,
-    "LastChanged": "1999-01-07T13:38:18.0306692+01:00",
+    "Id": 281,
+    "Name": "Mann Group",
+    "ToolTip": "Quaerat incidunt modi vero quo deleniti numquam.",
+    "Deleted": false,
+    "Rank": 347,
+    "Type": "quo",
+    "ColorBlock": 635,
+    "IconHint": "dolorum",
+    "Selected": false,
+    "LastChanged": "2022-06-06T13:57:19.7033929+02:00",
     "ChildItems": [
       {
-        "Id": 87,
-        "Name": "Krajcik Inc and Sons",
-        "ToolTip": "Odio similique non.",
+        "Id": 301,
+        "Name": "Erdman, Macejkovic and Mueller",
+        "ToolTip": "Ducimus quos corrupti est consequuntur quis voluptatibus rerum.",
         "Deleted": false,
-        "Rank": 527,
-        "Type": "qui",
-        "ColorBlock": 642,
-        "IconHint": "minima",
-        "Selected": true,
-        "LastChanged": "2019-11-03T13:38:18.0306692+01:00",
+        "Rank": 322,
+        "Type": "ut",
+        "ColorBlock": 396,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2014-05-30T13:57:19.7033929+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "fugit",
-        "Hidden": false,
-        "FullName": "Mrs. Muhammad Freda Grimes",
+        "ExtraInfo": "sed",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Yessenia Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 487
+            "FieldType": "System.Int32",
+            "FieldLength": 178
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "tenetur",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "nesciunt",
     "Hidden": false,
-    "FullName": "Frida Smitham",
+    "FullName": "Prof. America Annette Lynch I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldLength": 35
       }
     }
   }

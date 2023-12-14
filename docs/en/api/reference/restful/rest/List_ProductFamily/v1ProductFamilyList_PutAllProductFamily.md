@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Becker-Hammes",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 280,
-    "Rank": 327
+    "Id": 738,
+    "Name": "Keebler LLC",
+    "Tooltip": "quaerat",
+    "Deleted": true,
+    "UdListDefinitionId": 889,
+    "Rank": 58
   },
   {
-    "Id": 825,
-    "Name": "Becker-Hammes",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 280,
-    "Rank": 327
+    "Id": 738,
+    "Name": "Keebler LLC",
+    "Tooltip": "quaerat",
+    "Deleted": true,
+    "UdListDefinitionId": 889,
+    "Rank": 58
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 997,
-    "Name": "Gleichner LLC",
-    "Tooltip": "rem",
-    "Deleted": true,
-    "UdListDefinitionId": 632,
-    "Rank": 140,
+    "Id": 539,
+    "Name": "Thompson Group",
+    "Tooltip": "esse",
+    "Deleted": false,
+    "UdListDefinitionId": 981,
+    "Rank": 149,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 706
+        "FieldLength": 620
       }
     }
   }

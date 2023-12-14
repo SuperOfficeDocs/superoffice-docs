@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 541,
-  "Name": "Flatley, Hirthe and Purdy",
-  "Tooltip": "blanditiis",
-  "Deleted": false,
-  "UdListDefinitionId": 898,
-  "Rank": 998
+  "Id": 234,
+  "Name": "Okuneva, Gerlach and Weimann",
+  "Tooltip": "error",
+  "Deleted": true,
+  "UdListDefinitionId": 371,
+  "Rank": 63
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 530,
-  "Name": "Sawayn-Christiansen",
-  "Tooltip": "velit",
+  "Id": 703,
+  "Name": "Crooks-Osinski",
+  "Tooltip": "ea",
   "Deleted": false,
-  "UdListDefinitionId": 604,
-  "Rank": 893,
+  "UdListDefinitionId": 952,
+  "Rank": 869,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 540
     }
   }
 }

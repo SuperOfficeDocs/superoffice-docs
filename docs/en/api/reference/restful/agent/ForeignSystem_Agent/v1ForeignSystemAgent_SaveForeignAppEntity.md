@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 783,
-  "Name": "Swift LLC",
-  "CreatedDate": "1999-10-26T13:38:13.623981+02:00",
-  "UpdatedDate": "1998-08-14T13:38:13.623981+02:00",
+  "ForeignAppId": 957,
+  "Name": "O'Conner, Adams and Stamm",
+  "CreatedDate": "2000-01-24T13:57:12.4024817+01:00",
+  "UpdatedDate": "2008-10-31T13:57:12.4024817+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 577,
-      "Name": "Koch Group",
-      "CreatedDate": "2017-07-04T13:38:13.623981+02:00",
-      "UpdatedDate": "1997-09-02T13:38:13.623981+02:00",
-      "AssociateFullName": "Verlie Heller",
-      "CreatedBy": "harum",
-      "UpdatedBy": "asperiores",
-      "DeviceIdentifier": "illo",
-      "ForeignAppId": 411
+      "ForeignDeviceId": 352,
+      "Name": "White Inc and Sons",
+      "CreatedDate": "2013-05-01T13:57:12.4024817+02:00",
+      "UpdatedDate": "1998-05-24T13:57:12.4024817+02:00",
+      "AssociateFullName": "Stephen Block PhD",
+      "CreatedBy": "non",
+      "UpdatedBy": "voluptatem",
+      "DeviceIdentifier": "quia",
+      "ForeignAppId": 445
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 733,
-  "Name": "Hartmann-Schulist",
-  "CreatedDate": "2014-08-03T13:38:13.623981+02:00",
-  "UpdatedDate": "2000-01-27T13:38:13.623981+01:00",
+  "ForeignAppId": 283,
+  "Name": "Powlowski-Bins",
+  "CreatedDate": "2021-07-07T13:57:12.4024817+02:00",
+  "UpdatedDate": "2019-11-11T13:57:12.4024817+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 867,
-      "Name": "Crist-Schumm",
-      "CreatedDate": "2002-01-14T13:38:13.623981+01:00",
-      "UpdatedDate": "2021-03-28T13:38:13.623981+02:00",
-      "AssociateFullName": "Deshaun Wilkinson",
-      "CreatedBy": "consequatur",
-      "UpdatedBy": "necessitatibus",
-      "DeviceIdentifier": "possimus",
-      "ForeignAppId": 767,
+      "ForeignDeviceId": 111,
+      "Name": "Ratke-Hilpert",
+      "CreatedDate": "2016-10-23T13:57:12.4024817+02:00",
+      "UpdatedDate": "2003-06-13T13:57:12.4024817+02:00",
+      "AssociateFullName": "Mekhi Connor Dicki V",
+      "CreatedBy": "minima",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "officia",
+      "ForeignAppId": 616,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldLength": 642
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 459
+      "FieldType": "System.Int32",
+      "FieldLength": 848
     }
   }
 }

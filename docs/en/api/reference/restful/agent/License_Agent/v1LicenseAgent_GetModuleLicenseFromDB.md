@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Dickinson LLC",
-  "ModuleName": "Marks-Crist"
+  "OwnerName": "Strosin, Beatty and Kovacek",
+  "ModuleName": "Daugherty, Jast and O'Connell"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Rosenbaum, Parker and Purdy",
-  "ModuleName": "Spencer Inc and Sons",
-  "ModuleDescription": "Virtual content-based collaboration",
-  "ModuleTooltip": "minima",
-  "ModuleVersion": "sequi",
+  "OwnerName": "Yost Inc and Sons",
+  "ModuleName": "Crist, Heidenreich and Paucek",
+  "ModuleDescription": "Visionary tangible productivity",
+  "ModuleTooltip": "facilis",
+  "ModuleVersion": "eaque",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 698,
-  "ExtraFlags": 639,
-  "ExtraInfo": "expedita",
-  "SortOrder": 191,
+  "NumberOfLicenses": 574,
+  "ExtraFlags": 981,
+  "ExtraInfo": "facilis",
+  "SortOrder": 875,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Deckow, Morissette and Davis",
-  "Signature": "et"
+  "PrerequisiteModuleName": "Klocko LLC",
+  "Signature": "ipsa"
 }
 ```

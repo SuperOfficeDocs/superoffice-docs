@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 338,
-  "AttachmentId": "doloremque"
+  "DocId": 563,
+  "AttachmentId": "ea"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Devolved empowering archive",
-  "Filename": "ipsa",
-  "Size": 289,
-  "Type": "aliquam",
-  "Encoding": "temporibus",
-  "Id": "molestiae",
-  "Disposition": "expedita",
-  "IsSafeFileExtension": true,
+  "Description": "Synergistic neutral capability",
+  "Filename": "atque",
+  "Size": 396,
+  "Type": "aut",
+  "Encoding": "error",
+  "Id": "omnis",
+  "Disposition": "reiciendis",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldLength": 452
     }
   }
 }

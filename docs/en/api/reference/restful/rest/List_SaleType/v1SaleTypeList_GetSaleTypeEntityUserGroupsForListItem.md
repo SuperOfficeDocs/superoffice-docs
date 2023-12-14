@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 889,
-    "Name": "Leffler Inc and Sons",
-    "ToolTip": "Molestiae hic reiciendis.",
-    "Deleted": true,
-    "Rank": 141,
-    "Type": "ut",
-    "ColorBlock": 191,
-    "IconHint": "sapiente",
-    "Selected": false,
-    "LastChanged": "2007-04-15T13:38:18.2181419+02:00",
+    "Id": 985,
+    "Name": "Hermann Group",
+    "ToolTip": "Laboriosam quo.",
+    "Deleted": false,
+    "Rank": 975,
+    "Type": "laudantium",
+    "ColorBlock": 923,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "1999-04-25T13:57:20.1109105+02:00",
     "ChildItems": [
       {
-        "Id": 801,
-        "Name": "Larkin-Corkery",
-        "ToolTip": "Nulla fugit enim assumenda dolor sequi.",
+        "Id": 991,
+        "Name": "Torphy Inc and Sons",
+        "ToolTip": "Corporis rerum voluptatum eum nobis.",
         "Deleted": false,
-        "Rank": 377,
-        "Type": "et",
-        "ColorBlock": 939,
-        "IconHint": "ut",
+        "Rank": 566,
+        "Type": "dolorem",
+        "ColorBlock": 755,
+        "IconHint": "illo",
         "Selected": true,
-        "LastChanged": "2020-11-29T13:38:18.2181419+01:00",
+        "LastChanged": "1996-07-31T13:57:20.1109105+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Shanelle Fausto Ebert V",
+        "ExtraInfo": "omnis",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Dr. Kianna Gabe Crooks DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 522
+            "FieldType": "System.String",
+            "FieldLength": 750
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "tenetur",
-    "Hidden": true,
-    "FullName": "Jedediah Welch",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Cathryn Kuhic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldType": "System.String",
+        "FieldLength": 759
       }
     }
   }

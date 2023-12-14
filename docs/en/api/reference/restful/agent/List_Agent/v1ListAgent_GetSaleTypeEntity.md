@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=939
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=895
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 664,
-  "Name": "Lynch Group",
-  "Tooltip": "et",
-  "Rank": 319,
+  "SaleTypeId": 457,
+  "Name": "Kessler, Lesch and Wunsch",
+  "Tooltip": "culpa",
+  "Rank": 443,
   "DurationUnit": "Century",
-  "SaleDuration": 948,
-  "SaleTypeCatId": 471,
+  "SaleDuration": 258,
+  "SaleTypeCatId": 682,
   "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 633,
-  "QuoteLinesTemplate": 687,
-  "ConfirmationLinesTemplate": 297,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 165,
+  "QuoteLinesTemplate": 516,
+  "ConfirmationLinesTemplate": 234,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 351,
-  "MinEarningPercent": 386,
-  "GroupQuoteLinesBy": 332,
-  "SortGroupLinesBy": 192,
+  "MaxDiscountPercent": 852,
+  "MinEarningPercent": 107,
+  "GroupQuoteLinesBy": 983,
+  "SortGroupLinesBy": 441,
   "Stages": [
     {
-      "Id": 52,
-      "Name": "Rempel-Bartell",
-      "ToolTip": "Ullam laudantium repellendus.",
+      "Id": 105,
+      "Name": "Baumbach, Wintheiser and West",
+      "ToolTip": "Qui eum ut et.",
       "Deleted": false,
-      "Rank": 78,
-      "Type": "minus",
-      "ColorBlock": 426,
-      "IconHint": "hic",
+      "Rank": 814,
+      "Type": "odio",
+      "ColorBlock": 791,
+      "IconHint": "temporibus",
       "Selected": false,
-      "LastChanged": "2019-08-30T13:38:13.6708541+02:00",
+      "LastChanged": "2002-08-02T13:57:12.4962375+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "sed",
+      "ExtraInfo": "eos",
+      "StyleHint": "eius",
       "Hidden": false,
-      "FullName": "Xavier Littel",
+      "FullName": "Benton Konopelski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 175
+          "FieldLength": 544
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldLength": 137
     }
   }
 }

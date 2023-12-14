@@ -26,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=989
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=814
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 823,
-  "ERPPriceListKey": "impedit",
-  "QuoteConnectionId": 271,
-  "Name": "Ondricka, Adams and Reichert",
-  "Description": "Reduced transitional instruction set",
-  "Currency": "maxime",
-  "CurrencyName": "Kiehn Group",
-  "ValidFrom": "2010-06-12T13:38:14.0147081+02:00",
-  "ValidTo": "2012-01-03T13:38:14.0147081+01:00",
+  "PriceListId": 651,
+  "ERPPriceListKey": "voluptatem",
+  "QuoteConnectionId": 199,
+  "Name": "Boehm Group",
+  "Description": "Assimilated secondary neural-net",
+  "Currency": "minus",
+  "CurrencyName": "Wolf, Rohan and Goodwin",
+  "ValidFrom": "2015-05-18T13:57:13.0492694+02:00",
+  "ValidTo": "2022-12-07T13:57:13.0492694+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldLength": 521
     }
   }
 }

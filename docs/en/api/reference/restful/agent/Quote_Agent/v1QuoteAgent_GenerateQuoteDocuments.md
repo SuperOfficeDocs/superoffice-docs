@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 352,
+  "QuoteVersionId": 849,
   "EmailBodyTemplateId": 603,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 616,
-  "IncludeAttachments": false,
-  "RawMailSubject": "consequatur"
+  "QuotedProductsTemplateId": 787,
+  "IncludeAttachments": true,
+  "RawMailSubject": "ipsam"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 964,
-  "QuotedProductsId": 914,
+  "QuoteDocumentId": 183,
+  "QuotedProductsId": 329,
   "QuoteAttachmentIds": [
-    312,
-    131
+    424,
+    855
   ],
-  "MailBody": "laboriosam",
-  "MailSubject": "doloremque",
-  "ToEmail": "kris_kunde@lehner.co.uk",
-  "ToFullName": "Tony Gusikowski",
-  "ErrorMessage": "voluptatum",
+  "MailBody": "deleniti",
+  "MailSubject": "dolorem",
+  "ToEmail": "zoey.runolfsdottir@weber.uk",
+  "ToFullName": "Heaven Olson",
+  "ErrorMessage": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldLength": 332
     }
   }
 }

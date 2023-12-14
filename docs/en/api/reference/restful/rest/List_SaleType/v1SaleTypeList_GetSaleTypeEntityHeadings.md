@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 364,
-    "Name": "Doyle Inc and Sons",
-    "Tooltip": "voluptatem",
+    "HeadingId": 448,
+    "Name": "Sawayn, Nienow and Quigley",
+    "Tooltip": "rerum",
     "Deleted": true,
-    "Rank": 694,
-    "UdListDefinitionId": 79,
+    "Rank": 198,
+    "UdListDefinitionId": 14,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 666
+        "FieldLength": 262
       }
     }
   }

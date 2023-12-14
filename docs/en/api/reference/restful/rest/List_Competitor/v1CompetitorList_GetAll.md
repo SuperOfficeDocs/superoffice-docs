@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Bartell, Stroman and Stamm",
-    "Tooltip": "recusandae",
-    "Deleted": false,
-    "UdListDefinitionId": 27,
-    "Rank": 668,
+    "Id": 180,
+    "Name": "Marquardt-Howell",
+    "Tooltip": "ex",
+    "Deleted": true,
+    "UdListDefinitionId": 411,
+    "Rank": 888,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 463
+        "FieldLength": 182
       }
     }
   }

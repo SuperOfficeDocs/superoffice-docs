@@ -103,7 +103,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 752,
+  "TicketMessageEntityId": 277,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 424,
+  "EjMessageId": 377,
   "Ticket": null,
-  "CreatedAt": "2007-12-30T13:38:14.3115522+01:00",
+  "CreatedAt": "2008-12-29T13:57:13.48959+01:00",
   "CreatedBy": null,
-  "Author": "sed",
+  "Author": "delectus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "molestiae",
-  "TimeSpent": 215,
-  "Body": "dolorem",
-  "HtmlBody": "perspiciatis",
-  "EmailHeader": "pattie.kuvalis@erdmannader.com",
-  "DebugInfo": "ipsa",
-  "MailSorter": "recusandae",
+  "MessageId": "aut",
+  "TimeSpent": 540,
+  "Body": "culpa",
+  "HtmlBody": "et",
+  "EmailHeader": "adonis_ankunding@schaefer.name",
+  "DebugInfo": "delectus",
+  "MailSorter": "debitis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "animi",
+  "SearchTitle": "nemo",
   "MessageHeaders": [
     {
-      "Id": 623,
-      "Name": "Moore-Yost",
-      "Value": "et",
+      "Id": 98,
+      "Name": "Dickens, Dare and Dietrich",
+      "Value": "nobis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,49 +144,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 523
+          "FieldLength": 455
         }
       }
     }
   ],
   "Important": false,
-  "Language": "distinctio",
-  "Sentiment": 625,
-  "SentimentConfidence": 817,
+  "Language": "aliquid",
+  "Sentiment": 487,
+  "SentimentConfidence": 832,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 331,
-      "Name": "Carroll-Spencer",
-      "ContentType": "recusandae",
-      "AttSize": 498,
-      "InlineImage": true,
-      "ContentId": "corporis",
-      "AuthKey": "eveniet",
+      "AttachmentId": 722,
+      "Name": "Morissette, Davis and Windler",
+      "ContentType": "sapiente",
+      "AttSize": 63,
+      "InlineImage": false,
+      "ContentId": "assumenda",
+      "AuthKey": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldType": "System.String",
+          "FieldLength": 237
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "eaque"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "qui",
+    "CustomFields2": "possimus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 794
     }
   }
 }

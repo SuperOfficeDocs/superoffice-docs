@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "deserunt",
-    "sunt"
+    "natus",
+    "commodi"
   ],
-  "CurrentClientTime": "2010-04-13T13:38:13.8584753+02:00"
+  "CurrentClientTime": "2005-11-02T13:57:12.7812532+01:00"
 }
 ```
 
@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "cumque",
-    "soluta"
+    "magni",
+    "earum"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 213,
-  "NotificationsCount": 719,
+  "OverdueSalesCount": 320,
+  "NotificationsCount": 815,
   "SystemWebPanels": [
     {
-      "WebPanelId": 281,
-      "Name": "Effertz Inc and Sons",
-      "Tooltip": "incidunt",
-      "Deleted": true,
-      "Rank": 726,
+      "WebPanelId": 5,
+      "Name": "Greenfelder LLC",
+      "Tooltip": "qui",
+      "Deleted": false,
+      "Rank": 313,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
-      "OnSatellite": true,
+      "OnSatellite": false,
       "OnTravel": false,
-      "OnSalesMarketingWeb": false,
+      "OnSalesMarketingWeb": true,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
-      "ShowInToolBar": true,
+      "ShowInToolBar": false,
       "ShowInAddressBar": true,
-      "ShowInStatusBar": false,
-      "WindowName": "Rutherford, Yost and Gleichner",
+      "ShowInStatusBar": true,
+      "WindowName": "Hyatt Inc and Sons",
       "Url": "http://www.example.com/",
-      "ProgId": "omnis",
-      "Icon": 748,
+      "ProgId": "delectus",
+      "Icon": 465,
       "AlwaysReloadOnShow": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 697
+          "FieldLength": 803
         }
       }
     }
@@ -145,34 +145,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "esse",
+      "RawValue": "maxime",
       "Specification": null,
-      "DisplayValue": "harum",
-      "DisplayTooltip": "sed",
+      "DisplayValue": "vel",
+      "DisplayTooltip": "eaque",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 586,
-      "PrefDescId": 372,
-      "TableName": "Mohr-Roob",
-      "UserPreferenceId": 580,
+      "TargetId": 312,
+      "PrefDescId": 405,
+      "TableName": "Jaskolski-Bergstrom",
+      "UserPreferenceId": 179,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldType": "System.String",
+          "FieldLength": 505
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": true,
-  "CustomData": "cum",
+  "IsPushNotificationEnabled": false,
+  "CustomData": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 3
+      "FieldType": "System.Int32",
+      "FieldLength": 946
     }
   }
 }

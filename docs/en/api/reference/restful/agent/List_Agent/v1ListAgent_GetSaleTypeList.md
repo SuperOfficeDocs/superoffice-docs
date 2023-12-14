@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 340,
-    "Value": "dolor",
-    "Tooltip": "ipsa",
+    "Id": 126,
+    "Value": "quaerat",
+    "Tooltip": "facilis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 38
+        "FieldLength": 247
       }
     }
   },
   {
-    "Id": 340,
-    "Value": "dolor",
-    "Tooltip": "ipsa",
+    "Id": 126,
+    "Value": "quaerat",
+    "Tooltip": "facilis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 38
+        "FieldLength": 247
       }
     }
   }

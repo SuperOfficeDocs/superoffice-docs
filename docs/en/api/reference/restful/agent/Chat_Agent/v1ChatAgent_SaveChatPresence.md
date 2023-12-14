@@ -70,23 +70,23 @@ Content-Type: application/json; charset=utf-8
 {
   "ChatPresence": [
     {
-      "UserId": 883,
-      "DisplayName": "Kuhn, Kiehn and Satterfield",
-      "OngoingChats": 640,
+      "UserId": 679,
+      "DisplayName": "Cremin Group",
+      "OngoingChats": 585,
       "Present": false,
       "ChatTopics": [
-        128,
-        574
+        693,
+        337
       ]
     },
     {
-      "UserId": 883,
-      "DisplayName": "Kuhn, Kiehn and Satterfield",
-      "OngoingChats": 640,
+      "UserId": 679,
+      "DisplayName": "Cremin Group",
+      "OngoingChats": 585,
       "Present": false,
       "ChatTopics": [
-        128,
-        574
+        693,
+        337
       ]
     }
   ]

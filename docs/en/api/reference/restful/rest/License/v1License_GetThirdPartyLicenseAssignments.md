@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 778,
+    "Total": 94,
     "Tooltip": "praesentium",
     "CanAssign": false,
-    "Free": 636,
-    "InUse": 410,
+    "Free": 229,
+    "InUse": 829,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 169,
-    "Name": "Dibbert-Wilderman",
-    "Description": "Diverse 3rd generation capability",
-    "PrerequisiteModuleName": "Osinski, Gleichner and Heathcote",
-    "SortOrder": 297,
-    "ExtraFlags": 692,
+    "Assigned": true,
+    "ModuleLicenseId": 378,
+    "Name": "D'Amore LLC",
+    "Description": "Innovative context-sensitive time-frame",
+    "PrerequisiteModuleName": "Schmidt, Davis and Schroeder",
+    "SortOrder": 940,
+    "ExtraFlags": 791,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 93
+        "FieldLength": 445
       }
     }
   }

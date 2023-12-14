@@ -91,16 +91,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "consectetur",
-  "Name": "Green Group",
-  "Description": "Integrated 3rd generation circuit",
-  "IncludeId": "eum",
-  "Source": "quam",
-  "Registered": "2021-07-13T13:38:17.8275624+02:00",
-  "RegisteredBy": "sunt",
-  "Updated": "2023-09-28T13:38:17.8275624+02:00",
-  "UpdatedBy": "ut",
-  "Path": "temporibus"
+  "UniqueIdentifier": "sint",
+  "Name": "Wisoky, Greenfelder and Hudson",
+  "Description": "Fully-configurable homogeneous workforce",
+  "IncludeId": "tempora",
+  "Source": "unde",
+  "Registered": "1997-07-14T13:57:19.5158958+02:00",
+  "RegisteredBy": "quia",
+  "Updated": "2015-03-16T13:57:19.5158958+01:00",
+  "UpdatedBy": "ab",
+  "Path": "ea"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "aperiam",
-  "Name": "Stokes, Kohler and Turcotte",
-  "Description": "Persevering encompassing structure",
-  "IncludeId": "consequatur",
-  "Source": "nihil",
-  "Registered": "2004-07-26T13:38:17.8275624+02:00",
-  "RegisteredBy": "ut",
-  "Updated": "2004-11-05T13:38:17.8275624+01:00",
-  "UpdatedBy": "suscipit",
-  "Path": "voluptatem",
+  "UniqueIdentifier": "dolorem",
+  "Name": "Sipes-DuBuque",
+  "Description": "Virtual disintermediate product",
+  "IncludeId": "reprehenderit",
+  "Source": "odio",
+  "Registered": "2023-10-09T13:57:19.5158958+02:00",
+  "RegisteredBy": "laudantium",
+  "Updated": "2018-08-26T13:57:19.5158958+02:00",
+  "UpdatedBy": "deleniti",
+  "Path": "excepturi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 719
+      "FieldType": "System.Int32",
+      "FieldLength": 582
     }
   }
 }

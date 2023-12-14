@@ -118,24 +118,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 600,
-  "SourcePersonId": 933,
-  "DestinationContactId": 157,
-  "DestinationPersonId": 380,
-  "RelationId": 627,
-  "Comment": "nisi",
-  "RelationDefinitionId": 405,
-  "Reversed": 577,
-  "UpdatedDate": "1999-11-06T13:38:17.280593+01:00",
-  "CreatedDate": "2019-06-15T13:38:17.280593+02:00",
+  "SourceContactId": 550,
+  "SourcePersonId": 997,
+  "DestinationContactId": 803,
+  "DestinationPersonId": 986,
+  "RelationId": 488,
+  "Comment": "molestiae",
+  "RelationDefinitionId": 733,
+  "Reversed": 152,
+  "UpdatedDate": "1999-10-06T13:57:18.6846845+02:00",
+  "CreatedDate": "2004-11-27T13:57:18.6846845+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Walter, Reynolds and Conn",
-  "SourcePersonName": "Okuneva Inc and Sons",
-  "DestinationContactName": "Collins, McDermott and Hackett",
-  "DestinationPersonName": "Farrell, Kuphal and Anderson",
-  "ActiveText": "dignissimos",
-  "PassiveText": "nemo"
+  "SourceContactName": "Jakubowski, Price and O'Keefe",
+  "SourcePersonName": "Johnston Group",
+  "DestinationContactName": "Williamson LLC",
+  "DestinationPersonName": "Dickens-Beahan",
+  "ActiveText": "iusto",
+  "PassiveText": "et"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 650,
-  "SourcePersonId": 653,
-  "DestinationContactId": 429,
-  "DestinationPersonId": 52,
-  "RelationId": 498,
-  "Comment": "ut",
-  "RelationDefinitionId": 858,
-  "Reversed": 41,
-  "UpdatedDate": "2012-05-14T13:38:17.280593+02:00",
-  "CreatedDate": "2001-09-04T13:38:17.280593+02:00",
+  "SourceContactId": 268,
+  "SourcePersonId": 869,
+  "DestinationContactId": 696,
+  "DestinationPersonId": 972,
+  "RelationId": 265,
+  "Comment": "cum",
+  "RelationDefinitionId": 924,
+  "Reversed": 769,
+  "UpdatedDate": "2006-08-01T13:57:18.6846845+02:00",
+  "CreatedDate": "2021-01-14T13:57:18.6846845+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kub, Lueilwitz and Tremblay",
-  "SourcePersonName": "Dietrich Inc and Sons",
-  "DestinationContactName": "Dooley-Fay",
-  "DestinationPersonName": "Purdy, Mann and Wintheiser",
-  "ActiveText": "quod",
-  "PassiveText": "aut",
+  "SourceContactName": "Hilpert, Bernhard and Gerhold",
+  "SourcePersonName": "Ernser Inc and Sons",
+  "DestinationContactName": "Littel, DuBuque and Zulauf",
+  "DestinationPersonName": "Lubowitz Group",
+  "ActiveText": "veniam",
+  "PassiveText": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 952
+      "FieldType": "System.Int32",
+      "FieldLength": 802
     }
   },
   "_Links": {

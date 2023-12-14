@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lebsack Inc and Sons",
-  "Restrictions": "dolor"
+  "ProviderName": "Konopelski, Runolfsson and Morissette",
+  "Restrictions": "aut"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Schinner-Dickens",
-    "DisplayTooltip": "et",
-    "DisplayType": "rerum",
-    "CanOrderBy": false,
-    "Name": "Pagac Group",
+    "DisplayName": "Jaskolski Inc and Sons",
+    "DisplayTooltip": "quo",
+    "DisplayType": "consequatur",
+    "CanOrderBy": true,
+    "Name": "Johnson, Dietrich and Hessel",
     "CanRestrictBy": false,
-    "RestrictionType": "non",
-    "RestrictionListName": "Batz-Bailey",
-    "IsVisible": true,
-    "ExtraInfo": "atque",
-    "Width": "quia",
-    "IconHint": "eum",
-    "HeadingIconHint": "minima"
+    "RestrictionType": "qui",
+    "RestrictionListName": "Krajcik, Lowe and Weimann",
+    "IsVisible": false,
+    "ExtraInfo": "eligendi",
+    "Width": "et",
+    "IconHint": "consequatur",
+    "HeadingIconHint": "neque"
   }
 ]
 ```

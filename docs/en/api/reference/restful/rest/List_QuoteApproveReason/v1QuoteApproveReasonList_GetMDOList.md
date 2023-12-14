@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=facere
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=mollitia
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 621,
-    "Name": "Boyle, Bogisich and Strosin",
-    "ToolTip": "Rerum minus voluptatem quam veniam repudiandae accusamus.",
+    "Id": 624,
+    "Name": "Lehner LLC",
+    "ToolTip": "Et saepe enim suscipit ducimus quisquam et voluptatem.",
     "Deleted": false,
-    "Rank": 71,
-    "Type": "et",
+    "Rank": 658,
+    "Type": "placeat",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "Ferry-Dach",
-        "ToolTip": "Sint numquam et commodi at.",
-        "Deleted": false,
-        "Rank": 455,
-        "Type": "ut",
+        "Id": 672,
+        "Name": "Smitham Group",
+        "ToolTip": "Enim laboriosam illo fuga cumque est velit dolores.",
+        "Deleted": true,
+        "Rank": 290,
+        "Type": "consectetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "atque",
-        "ColorBlock": 719,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "eaque",
-        "FullName": "Creola Conroy",
+        "IconHint": "et",
+        "ColorBlock": 691,
+        "ExtraInfo": "dicta",
+        "StyleHint": "vitae",
+        "FullName": "Mr. Hildegard Mante",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 22
+            "FieldLength": 128
           }
         }
       }
     ],
-    "IconHint": "at",
-    "ColorBlock": 13,
-    "ExtraInfo": "velit",
-    "StyleHint": "culpa",
-    "FullName": "Ms. Trenton Hintz I",
+    "IconHint": "reiciendis",
+    "ColorBlock": 988,
+    "ExtraInfo": "corporis",
+    "StyleHint": "eum",
+    "FullName": "Mr. Omari Furman Medhurst",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 582
+        "FieldType": "System.Int32",
+        "FieldLength": 359
       }
     }
   }

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 796,
-  "Select": "animi"
+  "SelectionId": 475,
+  "Select": "molestias"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "McClure, Grant and Johnson",
-    "PrimaryKey": 132,
+    "EntityName": "Gulgowski, Kertzmann and Hodkiewicz",
+    "PrimaryKey": 966,
     "ColumnData": {
       "fieldName": {
         "DisplayValue": "et",
-        "TooltipHint": "et",
-        "LinkHint": "fugit"
+        "TooltipHint": "sed",
+        "LinkHint": "tenetur"
       }
     },
-    "LinkHint": "vero",
-    "StyleHint": "nemo",
+    "LinkHint": "quo",
+    "StyleHint": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 114
+        "FieldLength": 892
       }
     }
   }

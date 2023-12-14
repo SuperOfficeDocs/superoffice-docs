@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 383,
-    "Name": "Gutkowski Inc and Sons",
-    "ToolTip": "Incidunt eos quia.",
+    "Id": 468,
+    "Name": "McGlynn, Farrell and Pfeffer",
+    "ToolTip": "Officiis vero aspernatur.",
     "Deleted": true,
-    "Rank": 802,
-    "Type": "molestias",
-    "ColorBlock": 39,
-    "IconHint": "delectus",
+    "Rank": 549,
+    "Type": "a",
+    "ColorBlock": 796,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "2004-01-23T13:38:18.0462875+01:00",
+    "LastChanged": "1999-08-03T13:57:19.7502685+02:00",
     "ChildItems": [
       {
-        "Id": 993,
-        "Name": "Hane, Rolfson and Quigley",
-        "ToolTip": "Nobis reprehenderit reiciendis.",
+        "Id": 178,
+        "Name": "Jacobi Group",
+        "ToolTip": "Iure quo consectetur rerum dolor dolorem porro.",
         "Deleted": false,
-        "Rank": 499,
-        "Type": "suscipit",
-        "ColorBlock": 813,
-        "IconHint": "mollitia",
+        "Rank": 22,
+        "Type": "repellat",
+        "ColorBlock": 504,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2000-02-19T13:38:18.0462875+01:00",
+        "LastChanged": "2017-01-10T13:57:19.7502685+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "magni",
         "Hidden": false,
-        "FullName": "Ezekiel Maggio DDS"
+        "FullName": "Evans Grant"
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "ab",
-    "Hidden": false,
-    "FullName": "Velma Mosciski"
+    "ExtraInfo": "tempore",
+    "StyleHint": "dolore",
+    "Hidden": true,
+    "FullName": "Justus Johnson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 92,
-    "Name": "Muller, Bashirian and Rodriguez",
-    "ToolTip": "Vel commodi praesentium quidem non dolorem.",
+    "Id": 620,
+    "Name": "Torp-Quigley",
+    "ToolTip": "Saepe quo ad.",
     "Deleted": true,
-    "Rank": 602,
-    "Type": "consequuntur",
-    "ColorBlock": 160,
-    "IconHint": "accusamus",
+    "Rank": 954,
+    "Type": "eos",
+    "ColorBlock": 262,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2016-06-27T13:38:18.0619133+02:00",
+    "LastChanged": "2020-09-10T13:57:19.7502685+02:00",
     "ChildItems": [
       {
-        "Id": 871,
-        "Name": "Sawayn Inc and Sons",
-        "ToolTip": "Fugiat voluptates nihil.",
-        "Deleted": false,
-        "Rank": 915,
-        "Type": "ea",
-        "ColorBlock": 812,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2001-10-20T13:38:18.0619133+02:00",
+        "Id": 473,
+        "Name": "Boehm Inc and Sons",
+        "ToolTip": "Exercitationem asperiores occaecati porro minima.",
+        "Deleted": true,
+        "Rank": 700,
+        "Type": "pariatur",
+        "ColorBlock": 337,
+        "IconHint": "quidem",
+        "Selected": true,
+        "LastChanged": "2009-12-29T13:57:19.7502685+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mr. Frank Gertrude Mertz",
+        "ExtraInfo": "sint",
+        "StyleHint": "nobis",
+        "Hidden": true,
+        "FullName": "Dr. Jeffery Rebecca Cronin DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 846
+            "FieldType": "System.Int32",
+            "FieldLength": 232
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Ms. Reggie Aditya O'Reilly Jr.",
+    "ExtraInfo": "dolor",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Karelle Corwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 178
+        "FieldType": "System.Int32",
+        "FieldLength": 816
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 838,
-  "UniqueId": "qui",
-  "Name": "Pfannerstill, Kuvalis and Krajcik",
-  "Description": "Organic tangible model",
-  "AssociateId": 697,
-  "Columns": 389,
+  "DashboardId": 834,
+  "UniqueId": "alias",
+  "Name": "Wilkinson, Olson and Moen",
+  "Description": "Face to face cohesive challenge",
+  "AssociateId": 519,
+  "Columns": 725,
   "Theme": null,
-  "VisibleForAll": 781,
+  "VisibleForAll": 418,
   "VisibleForAssociates": [
-    755,
-    94
+    361,
+    316
   ],
   "VisibleForGroups": [
-    932,
-    833
+    40,
+    636
   ],
-  "PinForAll": 302,
+  "PinForAll": 486,
   "PinForAssociates": [
-    711,
-    874
+    719,
+    173
   ],
   "PinForGroups": [
-    407,
-    201
+    272,
+    778
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 58
     }
   }
 }

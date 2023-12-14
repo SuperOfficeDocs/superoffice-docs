@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 729,
+  "ErpConnectionId": 897,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 429,
+  "ErpConnectionId": 45,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 885,
-      "CrmFieldKey": "pariatur",
-      "CrmDisplayName": "Purdy, Bechtelar and Lynch",
-      "CrmDisplayTooltip": "alias",
-      "ErpFieldKey": "molestiae",
+      "ErpFieldId": 417,
+      "CrmFieldKey": "eveniet",
+      "CrmDisplayName": "Romaguera LLC",
+      "CrmDisplayTooltip": "corporis",
+      "ErpFieldKey": "aut",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Hessel-Hand",
-      "ErpDisplayTooltip": "omnis",
+      "ErpDisplayName": "Kunde-Cassin",
+      "ErpDisplayTooltip": "maxime",
       "SyncToCrm": true,
       "SyncToErp": true,
-      "ShowInGui": true,
-      "ShowInSearch": false,
-      "AlreadyMapped": false,
-      "MissingInERP": false,
-      "MissingInCRM": false,
+      "ShowInGui": false,
+      "ShowInSearch": true,
+      "AlreadyMapped": true,
+      "MissingInERP": true,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "voluptatem",
+      "ListReference": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldType": "System.String",
+          "FieldLength": 940
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 183
+      "FieldLength": 516
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=251
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=188
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,28 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 83,
-  "Name": "Kshlerin LLC",
-  "Description": "Re-contextualized hybrid definition",
-  "DeltaJson": "vitae",
+  "ConfigurableScreenDeltaId": 744,
+  "Name": "Turcotte, Mayer and Schulist",
+  "Description": "Assimilated tangible Graphic Interface",
+  "DeltaJson": "eos",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "nisi",
-  "UpdatedDate": "2007-12-11T13:38:13.2646505+01:00",
-  "CreatedDate": "1999-01-06T13:38:13.2646505+01:00",
+  "RecipeId": "labore",
+  "UpdatedDate": "2011-02-07T13:57:11.8236525+01:00",
+  "CreatedDate": "2014-01-06T13:57:11.8236525+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    606,
-    255
+    62,
+    846
   ],
-  "AppliesToKey": "cum",
+  "AppliesToKey": "accusamus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 213
     }
   }
 }

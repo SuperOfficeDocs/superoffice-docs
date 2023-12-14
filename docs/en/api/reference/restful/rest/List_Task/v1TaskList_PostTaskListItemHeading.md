@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 946,
-  "Name": "Walker, Yundt and Crooks",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "Rank": 814,
-  "UdListDefinitionId": 955
+  "HeadingId": 744,
+  "Name": "Osinski-Barton",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 437,
+  "UdListDefinitionId": 667
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 564,
-  "Name": "Hintz, Durgan and Graham",
-  "Tooltip": "voluptatum",
+  "HeadingId": 730,
+  "Name": "Mueller Inc and Sons",
+  "Tooltip": "laborum",
   "Deleted": true,
-  "Rank": 111,
-  "UdListDefinitionId": 200,
+  "Rank": 947,
+  "UdListDefinitionId": 397,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldType": "System.Int32",
+      "FieldLength": 81
     }
   }
 }

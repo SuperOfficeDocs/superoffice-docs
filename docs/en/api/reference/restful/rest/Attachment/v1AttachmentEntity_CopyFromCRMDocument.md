@@ -75,19 +75,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 408,
-  "Name": "Champlin-Ryan",
-  "ContentType": "ut",
-  "AttSize": 212,
-  "InlineImage": false,
-  "ContentId": "mollitia",
-  "AuthKey": "aut",
+  "AttachmentId": 456,
+  "Name": "Dibbert Inc and Sons",
+  "ContentType": "quas",
+  "AttSize": 566,
+  "InlineImage": true,
+  "ContentId": "provident",
+  "AuthKey": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldLength": 749
     }
   }
 }

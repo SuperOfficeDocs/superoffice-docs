@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 858,
-  "Name": "Torphy, Marvin and Roob",
+  "ScreenChooserId": 367,
+  "Name": "Prosacco, Bergstrom and Leffler",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "placeat",
-  "Source": "consequatur",
-  "Registered": "1999-10-28T13:38:17.7650302+02:00",
-  "RegisteredAssociateId": 637,
-  "Updated": "2013-03-23T13:38:17.7650302+01:00",
-  "UpdatedAssociateId": 78
+  "Enabled": true,
+  "UniqueIdentifier": "molestiae",
+  "Source": "labore",
+  "Registered": "2020-02-21T13:57:19.4221461+01:00",
+  "RegisteredAssociateId": 428,
+  "Updated": "2010-01-08T13:57:19.4221461+01:00",
+  "UpdatedAssociateId": 292
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 519,
-  "Name": "Koch, Considine and Abshire",
+  "ScreenChooserId": 538,
+  "Name": "Windler, Schneider and Funk",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "molestiae",
-  "Source": "optio",
-  "Registered": "2016-11-26T13:38:17.7650302+01:00",
-  "RegisteredAssociateId": 205,
-  "Updated": "2016-08-23T13:38:17.7650302+02:00",
-  "UpdatedAssociateId": 915,
+  "UniqueIdentifier": "facere",
+  "Source": "quisquam",
+  "Registered": "2013-11-01T13:57:19.4221461+01:00",
+  "RegisteredAssociateId": 867,
+  "Updated": "2015-03-20T13:57:19.4221461+01:00",
+  "UpdatedAssociateId": 657,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 254
+      "FieldType": "System.Int32",
+      "FieldLength": 245
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 652,
-  "Name": "Zulauf, Bernhard and Mohr",
-  "Tooltip": "dignissimos",
-  "Deleted": false,
-  "Rank": 423,
-  "IsCustomList": true,
+  "Id": 75,
+  "Name": "Langosh, Legros and Boehm",
+  "Tooltip": "earum",
+  "Deleted": true,
+  "Rank": 679,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "UseGroupsAndHeadings": false,
+  "ListType": "sed",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 76,
-  "Name": "Towne, Conn and Ledner",
-  "Tooltip": "vitae",
-  "Deleted": false,
-  "Rank": 645,
-  "IsCustomList": false,
+  "Id": 912,
+  "Name": "Funk Inc and Sons",
+  "Tooltip": "modi",
+  "Deleted": true,
+  "Rank": 587,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consectetur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "recusandae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldType": "System.String",
+      "FieldLength": 675
     }
   }
 }

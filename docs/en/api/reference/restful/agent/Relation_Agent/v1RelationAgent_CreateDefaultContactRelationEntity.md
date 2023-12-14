@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 859,
-  "SourcePersonId": 885,
-  "DestinationContactId": 607,
-  "DestinationPersonId": 351,
-  "RelationId": 982,
-  "Comment": "a",
-  "RelationDefinitionId": 872,
-  "Reversed": 385,
-  "UpdatedDate": "2017-10-01T13:38:14.045953+02:00",
-  "CreatedDate": "2010-12-16T13:38:14.045953+01:00",
+  "SourceContactId": 269,
+  "SourcePersonId": 680,
+  "DestinationContactId": 524,
+  "DestinationPersonId": 312,
+  "RelationId": 859,
+  "Comment": "minus",
+  "RelationDefinitionId": 466,
+  "Reversed": 646,
+  "UpdatedDate": "2004-09-10T13:57:13.0805627+02:00",
+  "CreatedDate": "2006-11-06T13:57:13.0805627+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Denesik, Weber and Barton",
-  "SourcePersonName": "Bechtelar LLC",
-  "DestinationContactName": "Stokes, Kessler and Kling",
-  "DestinationPersonName": "Herman Inc and Sons",
-  "ActiveText": "quia",
-  "PassiveText": "soluta",
+  "SourceContactName": "Spinka LLC",
+  "SourcePersonName": "Schultz Inc and Sons",
+  "DestinationContactName": "Kertzmann Inc and Sons",
+  "DestinationPersonName": "Schamberger-Torphy",
+  "ActiveText": "sed",
+  "PassiveText": "tempora",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 581
     }
   }
 }

@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 04 Mar 2023 13:38:17 G3T
+Last-Modified: Sun, 07 Aug 2005 13:57:19 G8T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Sat, 04 Mar 2023 13:38:17 G3T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "eius",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Sat, 04 Mar 2023 13:38:17 G3T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2019-01-01T13:38:17.5930592+01:00",
-  "Amount": 9477.216,
-  "SaleId": 455,
-  "Earning": 23022.363999999998,
-  "EarningPercent": 23727.514,
-  "Heading": "et",
-  "Number": "1247928",
-  "Probability": 342,
-  "CreatedDate": "1998-04-08T13:38:17.5930592+02:00",
-  "UpdatedDate": "2023-03-04T13:38:17.5930592+01:00",
+  "Saledate": "2005-04-29T13:57:19.1559041+02:00",
+  "Amount": 19678.386,
+  "SaleId": 187,
+  "Earning": 26400.816,
+  "EarningPercent": 5512.706,
+  "Heading": "quia",
+  "Number": "1292282",
+  "Probability": 391,
+  "CreatedDate": "1996-12-07T13:57:19.1559041+01:00",
+  "UpdatedDate": "2005-08-07T13:57:19.1559041+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 349,
+  "ActiveLinks": 907,
   "Links": [
     {
-      "EntityName": "Cruickshank, Toy and West",
-      "Id": 579,
-      "Description": "Visionary tertiary structure",
-      "ExtraInfo": "nobis",
-      "LinkId": 459,
+      "EntityName": "Hudson-Romaguera",
+      "Id": 141,
+      "Description": "Fully-configurable 5th generation frame",
+      "ExtraInfo": "ea",
+      "LinkId": 718,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 383
+          "FieldLength": 456
         }
       }
     }
   ],
-  "NextDueDate": "2005-05-02T13:38:17.5930592+02:00",
-  "Postit": "esse",
+  "NextDueDate": "2008-04-07T13:57:19.1559041+02:00",
+  "Postit": "veritatis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2017-03-06T13:38:17.5930592+01:00",
+  "ReopenDate": "2011-04-15T13:57:19.1559041+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Larkin LLC",
-      "Comment": "aperiam",
-      "StakeholderRoleId": 426,
-      "CountryId": 509,
-      "PersonId": 921,
-      "EmailDescription": "aurelio.stiedemann@oharaframi.uk",
-      "EmailId": 139,
-      "EmailAddress": "vesta.langworth@boyertreutel.com",
-      "PhoneId": 52,
-      "ContactName": "Wiegand-Armstrong",
-      "ContactId": 73,
-      "SaleId": 878,
-      "Mrmrs": "et",
-      "Firstname": "Stephany",
-      "MiddleName": "White, Kilback and Hilpert",
-      "Lastname": "Gleichner",
-      "SaleStakeholderId": 552,
-      "Rank": 813,
-      "Phone": "1-064-518-3113 x55896",
+      "StakeholderRoleName": "Sporer-Quitzon",
+      "Comment": "incidunt",
+      "StakeholderRoleId": 317,
+      "CountryId": 373,
+      "PersonId": 24,
+      "EmailDescription": "jordy_bartoletti@emard.us",
+      "EmailId": 735,
+      "EmailAddress": "kara@crona.uk",
+      "PhoneId": 703,
+      "ContactName": "Braun Group",
+      "ContactId": 348,
+      "SaleId": 816,
+      "Mrmrs": "cupiditate",
+      "Firstname": "Uriel",
+      "MiddleName": "Rath, Bogisich and Fahey",
+      "Lastname": "O'Keefe",
+      "SaleStakeholderId": 17,
+      "Rank": 650,
+      "Phone": "1-888-899-0187 x828",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 793
+          "FieldLength": 104
         }
       }
     }
   ],
-  "ActiveErpLinks": 804,
+  "ActiveErpLinks": 9,
   "UserDefinedFields": {
-    "SuperOffice:1": "Anabel Nicolas",
-    "SuperOffice:2": "Ms. Phyllis Quinten Will"
+    "SuperOffice:1": "280952440",
+    "SuperOffice:2": "Maribel Schimmel"
   },
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "ex"
+    "ExtraFields1": "ipsa",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "veniam",
-    "CustomFields2": "est"
+    "CustomFields1": "ipsam",
+    "CustomFields2": "cum"
   },
-  "PublishEventDate": "2019-05-28T13:38:17.5930592+02:00",
-  "PublishTo": "1996-12-06T13:38:17.5930592+01:00",
-  "PublishFrom": "2016-12-25T13:38:17.5930592+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2000-07-08T13:57:19.1559041+02:00",
+  "PublishTo": "2009-03-04T13:57:19.1559041+01:00",
+  "PublishFrom": "2013-01-08T13:57:19.1559041+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 569,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 709
+          "FieldType": "System.String",
+          "FieldLength": 680
         }
       }
     },
     {
-      "VisibleId": 569,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 709
+          "FieldType": "System.String",
+          "FieldLength": 680
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Sat, 04 Mar 2023 13:38:17 G3T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldLength": 5
     }
   }
 }

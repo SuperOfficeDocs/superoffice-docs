@@ -84,11 +84,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "quis",
-  "SoProtocol": "voluptatem",
-  "CurrentContactId": 157,
-  "CurrentPersonId": 92,
-  "CurrentProjectId": 882
+  "IsoLangCode": "eaque",
+  "SoProtocol": "quis",
+  "CurrentContactId": 171,
+  "CurrentPersonId": 82,
+  "CurrentProjectId": 662
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2007-05-13T13:38:12.8271613+02:00",
-  "UserPrompt": "aliquam",
-  "UserDisplayText": "laboriosam",
-  "BotResponse": "quos",
+  "Timestamp": "2017-01-18T13:57:11.1056483+01:00",
+  "UserPrompt": "eos",
+  "UserDisplayText": "quae",
+  "BotResponse": "dolores",
   "BotActions": {
-    "BotActions1": "inventore",
-    "BotActions2": "et"
+    "BotActions1": "assumenda",
+    "BotActions2": "voluptatem"
   },
   "Attachments": [
-    "unde",
-    "quidem"
+    "eos",
+    "numquam"
   ]
 }
 ```

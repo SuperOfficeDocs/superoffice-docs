@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,97 +97,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 216,
-      "ContactName": "Langosh, Anderson and Koepp",
-      "PersonId": 651,
-      "PersonName": "Bartoletti-Wiza",
-      "AssociateId": 800,
-      "Address": "quas",
-      "EmailId": 765,
+      "ContactId": 640,
+      "ContactName": "Corkery, Haag and Watsica",
+      "PersonId": 39,
+      "PersonName": "Glover LLC",
+      "AssociateId": 925,
+      "Address": "molestiae",
+      "EmailId": 592,
       "DuplicatePersonIds": [
-        441,
-        158
+        250,
+        352
       ],
-      "Name": "Klocko, Mante and McLaughlin",
+      "Name": "Legros LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 948
+          "FieldLength": 32
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 858,
-      "ContactName": "Kulas Inc and Sons",
-      "PersonId": 408,
-      "PersonName": "Yost, McLaughlin and Schneider",
-      "AssociateId": 972,
-      "Address": "nisi",
-      "EmailId": 337,
+      "ContactId": 512,
+      "ContactName": "Kessler, Feil and Cummerata",
+      "PersonId": 354,
+      "PersonName": "Lang, Hand and Ferry",
+      "AssociateId": 878,
+      "Address": "laudantium",
+      "EmailId": 571,
       "DuplicatePersonIds": [
-        211,
-        879
+        159,
+        741
       ],
-      "Name": "Hessel-Block",
+      "Name": "Beatty, Reichel and Mertz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 856
+          "FieldLength": 669
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 747,
-      "ContactName": "Hegmann-Johns",
-      "PersonId": 503,
-      "PersonName": "Hermann, Parisian and Fahey",
-      "AssociateId": 95,
-      "Address": "accusamus",
-      "EmailId": 126,
+      "ContactId": 215,
+      "ContactName": "Langosh-Hagenes",
+      "PersonId": 535,
+      "PersonName": "Satterfield LLC",
+      "AssociateId": 957,
+      "Address": "quo",
+      "EmailId": 540,
       "DuplicatePersonIds": [
-        939,
-        875
+        900,
+        263
       ],
-      "Name": "Bradtke-Frami",
+      "Name": "West Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldLength": 759
         }
       }
     }
   ],
-  "Subject": "sed",
-  "HTMLBody": "fugiat",
+  "Subject": "necessitatibus",
+  "HTMLBody": "fugit",
   "From": null,
-  "Sent": "2007-10-25T13:38:13.5458695+02:00",
-  "Size": 468,
+  "Sent": "2012-10-11T13:57:12.2779931+02:00",
+  "Size": 725,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sapiente",
-  "PlainBody": "corporis",
-  "IsSent": true,
+  "MessageID": "est",
+  "PlainBody": "quibusdam",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 323,
+  "ServerId": 916,
   "Attachments": [
     {
-      "Description": "Synchronised cohesive challenge",
-      "Filename": "temporibus",
-      "Size": 70,
-      "Type": "voluptatem",
-      "Encoding": "sed",
-      "Id": "est",
-      "Disposition": "eligendi",
+      "Description": "Up-sized methodical local area network",
+      "Filename": "sit",
+      "Size": 865,
+      "Type": "qui",
+      "Encoding": "quibusdam",
+      "Id": "ipsam",
+      "Disposition": "perspiciatis",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -195,50 +195,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 52
+          "FieldLength": 169
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Nicolas-Fadel",
+      "Name": "Christiansen Inc and Sons",
       "Values": [
-        "nemo",
-        "ipsam"
+        "eius",
+        "commodi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldType": "System.String",
+          "FieldLength": 771
         }
       }
     },
     {
-      "Name": "Nicolas-Fadel",
+      "Name": "Christiansen Inc and Sons",
       "Values": [
-        "nemo",
-        "ipsam"
+        "eius",
+        "commodi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldType": "System.String",
+          "FieldLength": 771
         }
       }
     }
   ],
-  "FolderName": "Cassin Inc and Sons",
-  "EmailItemId": 996,
-  "AccountId": 436,
-  "ReceivedAt": "2007-10-09T13:38:13.5458695+02:00",
+  "FolderName": "Mohr Inc and Sons",
+  "EmailItemId": 459,
+  "AccountId": 158,
+  "ReceivedAt": "2007-03-09T13:57:12.2779931+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-06-29T13:38:13.5458695+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2005-02-07T13:57:12.2779931+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -246,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 170
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 235,
-  "ContactName": "Rice Inc and Sons",
-  "PersonId": 842,
-  "PersonName": "Batz, Kirlin and Davis",
-  "AssociateId": 930,
+  "ContactId": 95,
+  "ContactName": "Reichel, Stamm and McClure",
+  "PersonId": 723,
+  "PersonName": "Bailey Group",
+  "AssociateId": 414,
   "Address": "qui",
-  "EmailId": 302,
+  "EmailId": 829,
   "DuplicatePersonIds": [
-    582,
-    41
+    272,
+    219
   ],
-  "Name": "Ondricka Inc and Sons",
+  "Name": "Bashirian-Dach",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldLength": 902
     }
   }
 }

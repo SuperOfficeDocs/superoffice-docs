@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Dooley, Renner and Smith",
+  "TableName": "Ruecker-Treutel",
   "IncludeStandard": true
 }
 ```
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Walker-Anderson",
-    "DisplayName": "Lang-Lebsack",
-    "Description": "Total logistical internet solution",
-    "ShortLabel": "impedit",
+    "FieldName": "Rutherford, Wintheiser and Schamberger",
+    "DisplayName": "Schultz, Schuster and Abshire",
+    "Description": "Synergized neutral functionalities",
+    "ShortLabel": "sapiente",
     "HideLabel": false,
     "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": true,
-    "Rank": 667,
-    "TemplateVariableName": "Ritchie Inc and Sons"
+    "Rank": 293,
+    "TemplateVariableName": "Rowe-Bogisich"
   }
 ]
 ```

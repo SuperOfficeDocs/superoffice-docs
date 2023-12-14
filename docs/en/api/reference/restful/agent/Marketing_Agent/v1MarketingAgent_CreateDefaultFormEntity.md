@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 494,
-  "FormKey": "similique",
-  "Name": "Fahey-Runolfsdottir",
-  "Description": "Versatile eco-centric artificial intelligence",
-  "Config": "enim",
-  "FolderId": 9,
-  "ScriptId": 457,
-  "ResponseShipmentId": 208,
-  "Active": true,
-  "Expires": "2017-01-17T13:38:13.7333439+01:00",
-  "MaxSubmits": 677,
+  "FormId": 994,
+  "FormKey": "magni",
+  "Name": "Upton, Corwin and Bechtelar",
+  "Description": "Intuitive client-server database",
+  "Config": "placeat",
+  "FolderId": 3,
+  "ScriptId": 418,
+  "ResponseShipmentId": 430,
+  "Active": false,
+  "Expires": "2016-03-03T13:57:12.591212+01:00",
+  "MaxSubmits": 64,
   "Type": "Normal",
-  "Recipe": "temporibus",
-  "GroupId": 994,
+  "Recipe": "laudantium",
+  "GroupId": 844,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2015-01-23T13:38:13.7333439+01:00",
-  "RegisteredAssociateId": 603,
-  "Updated": "2013-12-07T13:38:13.7333439+01:00",
-  "UpdatedAssociateId": 236,
-  "UpdatedCount": 113,
-  "FolderName": "Mitchell, Schiller and Waelchi",
+  "Registered": "2011-02-26T13:57:12.591212+01:00",
+  "RegisteredAssociateId": 976,
+  "Updated": "2015-03-26T13:57:12.591212+01:00",
+  "UpdatedAssociateId": 327,
+  "UpdatedCount": 66,
+  "FolderName": "Kertzmann-Nolan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldType": "System.Int32",
+      "FieldLength": 141
     }
   }
 }

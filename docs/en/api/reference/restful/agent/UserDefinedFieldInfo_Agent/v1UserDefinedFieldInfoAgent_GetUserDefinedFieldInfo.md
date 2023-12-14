@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=198
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=904
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 873,
-  "ColumnId": 81,
-  "FieldDefault": "est",
-  "FieldHeight": 612,
-  "FieldLabel": "corporis",
-  "FieldLeft": 764,
-  "FieldTop": 269,
+  "UDefFieldId": 143,
+  "ColumnId": 689,
+  "FieldDefault": "et",
+  "FieldHeight": 701,
+  "FieldLabel": "sit",
+  "FieldLeft": 158,
+  "FieldTop": 120,
   "FieldType": "Checkbox",
-  "FieldWidth": 473,
-  "FormatMask": "iure",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 265,
-  "LabelLeft": 825,
-  "LabelTop": 398,
-  "LabelWidth": 838,
-  "LastVersionId": 537,
-  "ListTableId": 839,
+  "FieldWidth": 135,
+  "FormatMask": "mollitia",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 884,
+  "LabelLeft": 570,
+  "LabelTop": 673,
+  "LabelWidth": 392,
+  "LastVersionId": 195,
+  "ListTableId": 384,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 66,
-  "ProgId": "facere",
-  "IsReadOnly": true,
-  "ShortLabel": "rerum",
-  "TabOrder": 37,
-  "TextLength": 355,
-  "Tooltip": "corrupti",
-  "UdefIdentity": 923,
-  "UDListDefinitionId": 304,
+  "Page1LineNo": 999,
+  "ProgId": "est",
+  "IsReadOnly": false,
+  "ShortLabel": "consequatur",
+  "TabOrder": 516,
+  "TextLength": 615,
+  "Tooltip": "voluptatem",
+  "UdefIdentity": 687,
+  "UDListDefinitionId": 702,
   "Justification": "Center",
-  "Version": 514,
-  "TemplateVariableName": "Lockman Group",
+  "Version": 821,
+  "TemplateVariableName": "Zemlak, Pacocha and Beatty",
   "HasBeenPublished": true,
-  "MdoListName": "Deckow, Romaguera and Green",
+  "MdoListName": "Weimann LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 513
+      "FieldLength": 836
     }
   }
 }

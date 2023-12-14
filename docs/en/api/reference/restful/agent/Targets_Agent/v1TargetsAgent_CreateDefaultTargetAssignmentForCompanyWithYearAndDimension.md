@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 510,
-  "TargetDimensionId": 51
+  "Year": 464,
+  "TargetDimensionId": 117
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 834,
+    "TargetAssignmentInfoId": 184,
     "Values": [
-      420,
-      509
+      753,
+      30
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 147,
-    "DimensionListItemDisplayName": "Lockman, Lindgren and Monahan",
+    "DimensionListItem": 67,
+    "DimensionListItemDisplayName": "Maggio Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 951
+        "FieldLength": 826
       }
     }
   }

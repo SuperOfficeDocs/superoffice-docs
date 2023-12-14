@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 359,
-      "ColumnId": 672,
-      "FieldDefault": "architecto",
-      "FieldHeight": 54,
-      "FieldLabel": "dolore",
-      "FieldLeft": 535,
-      "FieldTop": 541,
+      "UDefFieldId": 876,
+      "ColumnId": 344,
+      "FieldDefault": "earum",
+      "FieldHeight": 905,
+      "FieldLabel": "ratione",
+      "FieldLeft": 3,
+      "FieldTop": 574,
       "FieldType": "Checkbox",
-      "FieldWidth": 644,
-      "FormatMask": "nesciunt",
-      "HideLabel": true,
-      "IsIndexed": true,
-      "LabelHeight": 58,
-      "LabelLeft": 565,
-      "LabelTop": 767,
-      "LabelWidth": 974,
-      "LastVersionId": 70,
-      "ListTableId": 264,
+      "FieldWidth": 520,
+      "FormatMask": "debitis",
+      "HideLabel": false,
+      "IsIndexed": false,
+      "LabelHeight": 297,
+      "LabelLeft": 315,
+      "LabelTop": 150,
+      "LabelWidth": 667,
+      "LastVersionId": 255,
+      "ListTableId": 56,
       "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 388,
-      "ProgId": "adipisci",
+      "Page1LineNo": 464,
+      "ProgId": "culpa",
       "IsReadOnly": false,
-      "ShortLabel": "quo",
-      "TabOrder": 842,
-      "TextLength": 516,
-      "Tooltip": "delectus",
-      "UdefIdentity": 446,
-      "UDListDefinitionId": 710,
+      "ShortLabel": "quis",
+      "TabOrder": 347,
+      "TextLength": 974,
+      "Tooltip": "quam",
+      "UdefIdentity": 756,
+      "UDListDefinitionId": 718,
       "Justification": "Center",
-      "Version": 300,
-      "TemplateVariableName": "Morar, Feeney and Effertz",
+      "Version": 290,
+      "TemplateVariableName": "Hackett-Johnson",
       "HasBeenPublished": false,
-      "MdoListName": "Carroll Group"
+      "MdoListName": "Borer, Borer and Stracke"
     }
   ]
 }

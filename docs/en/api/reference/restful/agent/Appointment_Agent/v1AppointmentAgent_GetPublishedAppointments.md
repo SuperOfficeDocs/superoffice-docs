@@ -125,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    11,
-    304
+    568,
+    219
   ]
 }
 ```
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 664,
-    "StartDate": "2020-01-20T13:38:12.8584402+01:00",
-    "EndDate": "2006-11-09T13:38:12.8584402+01:00",
+    "AppointmentId": 743,
+    "StartDate": "2013-11-07T13:57:11.1844296+01:00",
+    "EndDate": "1996-08-09T13:57:11.1844296+02:00",
     "Type": "BookingForChecklist",
-    "Task": "laboriosam",
-    "AssociateFullName": "Emma Purdy",
-    "ContactName": "Murray Group",
-    "Description": "Open-architected human-resource alliance",
-    "PersonFullName": "Dr. Alvera Jenifer Kessler",
-    "PersonId": 645,
-    "ContactId": 346,
-    "ProjectId": 112,
-    "ProjectName": "Abernathy LLC",
-    "IsPublished": false,
-    "AssociateId": 701,
-    "ColorIndex": 591,
+    "Task": "ipsam",
+    "AssociateFullName": "Ford Waters",
+    "ContactName": "Gibson-Aufderhar",
+    "Description": "Right-sized static encryption",
+    "PersonFullName": "Maymie Cartwright",
+    "PersonId": 93,
+    "ContactId": 621,
+    "ProjectId": 238,
+    "ProjectName": "Collins LLC",
+    "IsPublished": true,
+    "AssociateId": 154,
+    "ColorIndex": 228,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 466,
-    "PriorityName": "Parker LLC",
+    "PriorityId": 122,
+    "PriorityName": "Sipes, Corkery and Bins",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2004-06-18T13:38:12.8584402+02:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2009-02-24T13:57:11.1844296+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-10-15T13:38:12.8584402+02:00",
-    "RecurringEndDate": "1999-10-10T13:38:12.8584402+02:00",
-    "MotherId": 537,
-    "AssignedBy": 785,
-    "AssignedByFullName": "Zelda Quigley",
-    "RejectReason": "",
-    "Location": "eos",
-    "AlarmLeadTime": "minus",
-    "SaleId": 406,
-    "SaleName": "Mills, Streich and Brown",
-    "AssociateName": "Bogan, Leffler and Marvin",
-    "CreatedDate": "2013-04-13T13:38:12.8584402+02:00",
-    "CreatedBy": "unde",
-    "CreatedByFullName": "Mr. Nona Una Paucek DVM",
-    "CreatedByAssociateId": 60,
+    "RecurringStartDate": "2018-09-22T13:57:11.1844296+02:00",
+    "RecurringEndDate": "2010-03-23T13:57:11.1844296+01:00",
+    "MotherId": 419,
+    "AssignedBy": 842,
+    "AssignedByFullName": "Blaise Rau",
+    "RejectReason": "streamline leading-edge e-markets",
+    "Location": "maxime",
+    "AlarmLeadTime": "alias",
+    "SaleId": 174,
+    "SaleName": "Zemlak, Friesen and Gorczany",
+    "AssociateName": "Kovacek, Jerde and Trantow",
+    "CreatedDate": "2012-02-16T13:57:11.1844296+01:00",
+    "CreatedBy": "pariatur",
+    "CreatedByFullName": "Crystel Darwin Adams I",
+    "CreatedByAssociateId": 712,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 931,
-    "Title": "qui",
-    "Agenda": "assumenda",
-    "InternalNotes": "eum",
+    "PreferredTZLocation": 53,
+    "Title": "omnis",
+    "Agenda": "eos",
+    "InternalNotes": "laboriosam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 287
+        "FieldLength": 102
       }
     }
   }

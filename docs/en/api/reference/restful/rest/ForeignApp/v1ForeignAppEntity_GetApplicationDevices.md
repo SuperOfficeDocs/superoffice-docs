@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 29 Apr 2002 13:38:17 G4T
+Last-Modified: Wed, 25 Jul 2001 13:57:18 G7T
 
 [
   {
-    "ForeignDeviceId": 493,
-    "Name": "Dickinson Inc and Sons",
-    "CreatedDate": "2012-11-02T13:38:17.4368262+01:00",
-    "UpdatedDate": "2002-04-29T13:38:17.4368262+02:00",
-    "AssociateFullName": "Mrs. Vickie Farrell V",
-    "CreatedBy": "voluptatum",
-    "UpdatedBy": "labore",
-    "DeviceIdentifier": "omnis",
-    "ForeignAppId": 655,
+    "ForeignDeviceId": 633,
+    "Name": "Quitzon Inc and Sons",
+    "CreatedDate": "2009-12-08T13:57:18.8109737+01:00",
+    "UpdatedDate": "2001-07-25T13:57:18.8109737+02:00",
+    "AssociateFullName": "Nicolas Lowe DVM",
+    "CreatedBy": "est",
+    "UpdatedBy": "fugiat",
+    "DeviceIdentifier": "quidem",
+    "ForeignAppId": 443,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldType": "System.String",
+        "FieldLength": 290
       }
     }
   }

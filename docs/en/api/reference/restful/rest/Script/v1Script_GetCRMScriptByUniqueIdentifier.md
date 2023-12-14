@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "excepturi",
-  "Name": "Dooley Group",
-  "Description": "Configurable web-enabled application",
-  "IncludeId": "voluptatem",
-  "Source": "quo",
-  "Registered": "2017-06-16T13:38:17.8275624+02:00",
-  "RegisteredBy": "et",
-  "Updated": "2000-06-21T13:38:17.8275624+02:00",
-  "UpdatedBy": "fuga",
-  "Path": "ab",
+  "UniqueIdentifier": "eligendi",
+  "Name": "Bayer, Labadie and Watsica",
+  "Description": "Multi-tiered bandwidth-monitored focus group",
+  "IncludeId": "vel",
+  "Source": "neque",
+  "Registered": "2004-04-12T13:57:19.5158958+02:00",
+  "RegisteredBy": "quia",
+  "Updated": "2009-09-18T13:57:19.5158958+02:00",
+  "UpdatedBy": "neque",
+  "Path": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldType": "System.Int32",
+      "FieldLength": 170
     }
   }
 }

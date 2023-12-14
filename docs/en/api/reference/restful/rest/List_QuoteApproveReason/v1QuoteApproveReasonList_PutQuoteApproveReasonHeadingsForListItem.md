@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Predovic, Rath and Johnson",
-    "ToolTip": "Amet reprehenderit fuga perspiciatis.",
+    "Id": 125,
+    "Name": "O'Connell-Strosin",
+    "ToolTip": "Natus sapiente et.",
     "Deleted": false,
-    "Rank": 58,
-    "Type": "saepe",
-    "ColorBlock": 933,
-    "IconHint": "qui",
+    "Rank": 524,
+    "Type": "minima",
+    "ColorBlock": 897,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "2005-08-27T13:38:18.1712741+02:00",
+    "LastChanged": "2023-04-25T13:57:19.9377991+02:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Metz-Jacobs",
-        "ToolTip": "Aut assumenda modi.",
-        "Deleted": false,
-        "Rank": 532,
-        "Type": "quibusdam",
-        "ColorBlock": 684,
-        "IconHint": "necessitatibus",
-        "Selected": false,
-        "LastChanged": "1997-12-09T13:38:18.1712741+01:00",
+        "Id": 795,
+        "Name": "Russel LLC",
+        "ToolTip": "Et ex.",
+        "Deleted": true,
+        "Rank": 807,
+        "Type": "non",
+        "ColorBlock": 458,
+        "IconHint": "optio",
+        "Selected": true,
+        "LastChanged": "2014-11-23T13:57:19.9377991+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Ola Langworth"
+        "ExtraInfo": "fuga",
+        "StyleHint": "maiores",
+        "Hidden": true,
+        "FullName": "Leilani Bogan"
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "maxime",
-    "Hidden": true,
-    "FullName": "Eliane Gleason"
+    "ExtraInfo": "veritatis",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Gretchen Zora Harvey I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Hickle-Lang",
-    "ToolTip": "Voluptatem est magni.",
+    "Id": 383,
+    "Name": "Feest, Luettgen and Barton",
+    "ToolTip": "Commodi cum explicabo molestias aut odio.",
     "Deleted": false,
-    "Rank": 393,
-    "Type": "voluptas",
-    "ColorBlock": 257,
-    "IconHint": "quasi",
+    "Rank": 195,
+    "Type": "et",
+    "ColorBlock": 439,
+    "IconHint": "officia",
     "Selected": false,
-    "LastChanged": "2016-06-29T13:38:18.1712741+02:00",
+    "LastChanged": "2007-10-24T13:57:19.9377991+02:00",
     "ChildItems": [
       {
-        "Id": 486,
-        "Name": "Kiehn, Beahan and Stiedemann",
-        "ToolTip": "Distinctio aut consequatur et id accusamus qui velit.",
+        "Id": 357,
+        "Name": "Mosciski-Monahan",
+        "ToolTip": "Fugiat labore laudantium architecto voluptate.",
         "Deleted": false,
-        "Rank": 163,
-        "Type": "natus",
-        "ColorBlock": 497,
-        "IconHint": "impedit",
+        "Rank": 269,
+        "Type": "sunt",
+        "ColorBlock": 324,
+        "IconHint": "adipisci",
         "Selected": false,
-        "LastChanged": "2003-06-19T13:38:18.1712741+02:00",
+        "LastChanged": "2000-05-27T13:57:19.9377991+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "modi",
-        "Hidden": true,
-        "FullName": "Nigel Jones DVM",
+        "ExtraInfo": "sunt",
+        "StyleHint": "dignissimos",
+        "Hidden": false,
+        "FullName": "Lavina Ford Rice II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 11
+            "FieldType": "System.String",
+            "FieldLength": 531
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "facilis",
     "Hidden": true,
-    "FullName": "Mr. Jerry Durward Schaefer DVM",
+    "FullName": "Lucile Goldner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 563
+        "FieldLength": 749
       }
     }
   }

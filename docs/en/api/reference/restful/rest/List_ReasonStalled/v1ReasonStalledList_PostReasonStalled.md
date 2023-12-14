@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 397,
-  "Name": "Feest, Goldner and Tillman",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "UdListDefinitionId": 419,
-  "Rank": 980
+  "Id": 774,
+  "Name": "Hessel Group",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "UdListDefinitionId": 729,
+  "Rank": 463
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 960,
-  "Name": "Mann LLC",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 174,
-  "Rank": 529,
+  "Id": 591,
+  "Name": "Sipes, Veum and Schuster",
+  "Tooltip": "voluptates",
+  "Deleted": false,
+  "UdListDefinitionId": 441,
+  "Rank": 132,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 622
+      "FieldType": "System.Int32",
+      "FieldLength": 163
     }
   }
 }

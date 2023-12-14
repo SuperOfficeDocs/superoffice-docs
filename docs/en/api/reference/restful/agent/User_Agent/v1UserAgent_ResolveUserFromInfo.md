@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 659,
-  "PersonName": "Abernathy-Rohan",
+  "ContactId": 864,
+  "PersonName": "Corkery, Johnson and Pfannerstill",
   "PhoneNumbers": [
-    "711647",
-    "1010723"
+    "331441",
+    "818691"
   ],
   "Emails": [
-    "amos@block.com",
-    "lilliana@erdmanroob.name"
+    "ethelyn@beatty.uk",
+    "karolann_mraz@feil.info"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldLength": 489
     }
   }
 }

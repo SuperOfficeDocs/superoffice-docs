@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 342
+  "QuoteVersionId": 122
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 18192.87,
-    "Wgs84Longitude": 1614.01,
+    "Wgs84Latitude": 11254.194,
+    "Wgs84Longitude": 9398.866,
     "LocalizedAddress": [
       [
         {
-          "Name": "Schinner-Graham",
-          "Value": "illum",
-          "Tooltip": "aut",
-          "Label": "recusandae",
-          "ValueLength": 635,
-          "AddressType": "consectetur",
+          "Name": "Daugherty Group",
+          "Value": "vel",
+          "Tooltip": "vel",
+          "Label": "expedita",
+          "ValueLength": 956,
+          "AddressType": "eum",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 206
+              "FieldLength": 814
             }
           }
         }
       ],
       [
         {
-          "Name": "Douglas, Balistreri and Hintz",
-          "Value": "vero",
-          "Tooltip": "quo",
-          "Label": "praesentium",
-          "ValueLength": 548,
-          "AddressType": "est",
+          "Name": "Wilkinson, Greenfelder and Johnston",
+          "Value": "quia",
+          "Tooltip": "non",
+          "Label": "non",
+          "ValueLength": 342,
+          "AddressType": "et",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 338
+              "FieldLength": 267
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "qui",
+    "Formatted": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldLength": 831
       }
     }
   }

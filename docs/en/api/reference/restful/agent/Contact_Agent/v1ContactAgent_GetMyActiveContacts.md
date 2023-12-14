@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2016-03-05T13:38:13.2958954+01:00",
+  "ActivityStartTime": "2015-06-16T13:57:11.8861856+02:00",
   "ContactCategories": [
-    730,
-    850
+    876,
+    769
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 1002,
-    "Department": "mesh dynamic functionalities",
-    "OrgNr": "320074",
-    "Name": "Donnelly-Harber",
+    "ContactId": 465,
+    "Department": "",
+    "OrgNr": "931016",
+    "Name": "Christiansen Inc and Sons",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Amber Terry",
+    "AssociateFullName": "Neoma Walter",
     "Action": "ActivityCompleted",
-    "ActionTime": "2021-03-12T13:38:13.2958954+01:00",
+    "ActionTime": "2019-02-06T13:57:11.8861856+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Goldner, Bartoletti and Graham",
-    "ActionId": 921,
-    "PersonId": 903,
-    "ActivityPersonId": 321,
-    "AssociateId": 376,
+    "ActivityPersonName": "Gaylord Inc and Sons",
+    "ActionId": 892,
+    "PersonId": 939,
+    "ActivityPersonId": 631,
+    "AssociateId": 424,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 440
+        "FieldLength": 375
       }
     }
   }

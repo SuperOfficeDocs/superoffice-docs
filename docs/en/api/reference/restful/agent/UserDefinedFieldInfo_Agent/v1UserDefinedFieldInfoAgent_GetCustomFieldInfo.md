@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Christiansen, Renner and Mraz",
-  "FieldName": "Hickle, Carter and Kassulke"
+  "TableName": "Jacobi Group",
+  "FieldName": "Rodriguez, Bayer and Buckridge"
 }
 ```
 
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Jewess-Bartell",
-  "DisplayName": "Schuppe-Grimes",
-  "Description": "Open-source tertiary emulation",
-  "ShortLabel": "iure",
+  "FieldName": "Auer, Rempel and Cole",
+  "DisplayName": "Parisian Inc and Sons",
+  "Description": "Configurable eco-centric architecture",
+  "ShortLabel": "labore",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": true,
   "IsMandatory": true,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 56,
-  "TemplateVariableName": "Green-Cole"
+  "Rank": 37,
+  "TemplateVariableName": "Padberg, Kulas and Stanton"
 }
 ```

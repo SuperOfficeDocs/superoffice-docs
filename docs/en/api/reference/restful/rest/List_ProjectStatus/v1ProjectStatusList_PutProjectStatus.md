@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 876,
-  "Name": "Buckridge Inc and Sons",
-  "Tooltip": "consectetur",
-  "Deleted": true,
-  "UdListDefinitionId": 720,
-  "Rank": 424
+  "Id": 374,
+  "Name": "Grady Group",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 313,
+  "Rank": 700
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 319,
-  "Name": "Nicolas Group",
-  "Tooltip": "alias",
+  "Id": 907,
+  "Name": "Stoltenberg LLC",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "UdListDefinitionId": 909,
-  "Rank": 527,
+  "UdListDefinitionId": 824,
+  "Rank": 411,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 29
+      "FieldLength": 560
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 465,
-    "Name": "Wehner LLC",
-    "ToolTip": "Accusamus voluptatem aut laborum sint voluptatum eum.",
+    "Id": 692,
+    "Name": "Nolan, Murphy and Lubowitz",
+    "ToolTip": "Qui commodi impedit ex dolorem atque quasi et.",
     "Deleted": false,
-    "Rank": 230,
-    "Type": "perspiciatis",
-    "ColorBlock": 477,
-    "IconHint": "velit",
+    "Rank": 609,
+    "Type": "hic",
+    "ColorBlock": 488,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "1997-10-26T13:38:18.0619133+01:00",
+    "LastChanged": "2010-08-21T13:57:19.7658931+02:00",
     "ChildItems": [
       {
-        "Id": 53,
-        "Name": "Simonis LLC",
-        "ToolTip": "Autem illo fugiat nobis.",
-        "Deleted": false,
-        "Rank": 527,
-        "Type": "fugiat",
-        "ColorBlock": 440,
-        "IconHint": "ut",
+        "Id": 71,
+        "Name": "Kessler, Wilderman and Champlin",
+        "ToolTip": "Laboriosam molestiae nesciunt quia eligendi.",
+        "Deleted": true,
+        "Rank": 494,
+        "Type": "omnis",
+        "ColorBlock": 745,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2006-01-27T13:38:18.0619133+01:00",
+        "LastChanged": "2021-07-29T13:57:19.7658931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "eos",
         "Hidden": true,
-        "FullName": "Prof. Brandon Chasity Veum",
+        "FullName": "Kara Nikolaus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 264
+            "FieldLength": 888
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "impedit",
+    "ExtraInfo": "cum",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Miss Dallas Stokes III",
+    "FullName": "Aleen Murray",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldLength": 425
       }
     }
   }

@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "a",
+    "path": "sit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "a",
+    "path": "sit",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 715,
-  "SourcePersonId": 955,
-  "DestinationContactId": 302,
-  "DestinationPersonId": 785,
-  "RelationId": 353,
-  "Comment": "repellendus",
-  "RelationDefinitionId": 130,
-  "Reversed": 977,
-  "UpdatedDate": "2008-11-24T13:38:17.280593+01:00",
-  "CreatedDate": "2011-02-03T13:38:17.280593+01:00",
+  "SourceContactId": 803,
+  "SourcePersonId": 542,
+  "DestinationContactId": 829,
+  "DestinationPersonId": 281,
+  "RelationId": 224,
+  "Comment": "tempore",
+  "RelationDefinitionId": 752,
+  "Reversed": 951,
+  "UpdatedDate": "2018-03-23T13:57:18.6846845+01:00",
+  "CreatedDate": "2014-12-04T13:57:18.6846845+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Friesen Group",
-  "SourcePersonName": "Tromp, Stoltenberg and Cormier",
-  "DestinationContactName": "Jast, Thompson and Goodwin",
-  "DestinationPersonName": "Bailey, Beer and Keeling",
-  "ActiveText": "nam",
-  "PassiveText": "laborum",
+  "SourceContactName": "Kutch Group",
+  "SourcePersonName": "Hettinger, Ritchie and Satterfield",
+  "DestinationContactName": "Beier, Kihn and Conn",
+  "DestinationPersonName": "Rohan Inc and Sons",
+  "ActiveText": "dolores",
+  "PassiveText": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldType": "System.String",
+      "FieldLength": 645
     }
   },
   "_Links": {

@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=883
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=447
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 34,
-  "Name": "Corkery Group",
-  "Tooltip": "quia",
-  "SaveInDb": 25,
-  "Filename": "quo",
-  "DefaultOref": "aut",
+  "DocumentTemplateId": 659,
+  "Name": "Willms Group",
+  "Tooltip": "et",
+  "SaveInDb": 791,
+  "Filename": "id",
+  "DefaultOref": "dolor",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 535,
-  "IntentId": 427,
+  "AutoeventId": 899,
+  "IntentId": 241,
   "IsDefaultPublished": false,
-  "Rank": 230,
-  "LoadTemplateFromPlugin": 235,
-  "MimeType": "voluptate",
+  "Rank": 926,
+  "LoadTemplateFromPlugin": 812,
+  "MimeType": "ratione",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 670,
+  "DocumentTypeKey": 31,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "modesto_rice@greenfelder.co.uk",
-  "IncludeSignature": false,
+  "EmailSubject": "estelle.schmeler@wilkinson.com",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ahmad.anderson@medhurst.ca",
+  "SenderEmailAddress": "scarlett.hintz@shieldsbreitenberg.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldType": "System.String",
+      "FieldLength": 595
     }
   }
 }

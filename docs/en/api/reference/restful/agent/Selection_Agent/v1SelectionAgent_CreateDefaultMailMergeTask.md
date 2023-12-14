@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,23 +77,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 21,
-  "TypeId": 360,
-  "StartDate": "2012-07-17T13:38:14.1084486+02:00",
-  "Duration": 340,
-  "Description": "Balanced demand-driven flexibility",
-  "PriorityId": 905,
+  "ProjectId": 332,
+  "TypeId": 854,
+  "StartDate": "2002-09-14T13:57:13.1914846+02:00",
+  "Duration": 28,
+  "Description": "Intuitive eco-centric alliance",
+  "PriorityId": 24,
   "VisibleFor": null,
   "Completed": "Completed",
-  "OwnerAssociateId": 860,
-  "SingleEntryOnEachCompany": true,
-  "SaleId": 387,
+  "OwnerAssociateId": 92,
+  "SingleEntryOnEachCompany": false,
+  "SaleId": 740,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 565
     }
   }
 }

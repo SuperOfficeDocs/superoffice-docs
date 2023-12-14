@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Veum Group",
-  "Id": 900
+  "ListName": "Sawayn-White",
+  "Id": 735
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 872,
-  "Name": "Crona Group",
-  "ToolTip": "Minus eius voluptatem nihil odit consequuntur facilis.",
-  "Deleted": false,
-  "Rank": 835,
-  "Type": "voluptas",
+  "Id": 988,
+  "Name": "Hackett-Medhurst",
+  "ToolTip": "Fugiat cupiditate perspiciatis.",
+  "Deleted": true,
+  "Rank": 475,
+  "Type": "aut",
   "ChildItems": [
     {
-      "Id": 137,
-      "Name": "Murphy-Berge",
-      "ToolTip": "Consequuntur architecto quis illum assumenda deserunt.",
-      "Deleted": true,
-      "Rank": 473,
-      "Type": "beatae",
+      "Id": 476,
+      "Name": "Grant-Ledner",
+      "ToolTip": "Sint totam qui.",
+      "Deleted": false,
+      "Rank": 558,
+      "Type": "dolorem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptas",
-      "ColorBlock": 696,
-      "ExtraInfo": "qui",
-      "StyleHint": "illo",
-      "FullName": "Jordyn O'Conner",
+      "IconHint": "quod",
+      "ColorBlock": 104,
+      "ExtraInfo": "tempore",
+      "StyleHint": "quisquam",
+      "FullName": "Shannon Batz DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 876
         }
       }
     }
   ],
-  "IconHint": "vero",
-  "ColorBlock": 373,
-  "ExtraInfo": "atque",
-  "StyleHint": "cupiditate",
-  "FullName": "Jany Casper",
+  "IconHint": "incidunt",
+  "ColorBlock": 57,
+  "ExtraInfo": "eius",
+  "StyleHint": "saepe",
+  "FullName": "Ashleigh Haley",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldLength": 370
     }
   }
 }

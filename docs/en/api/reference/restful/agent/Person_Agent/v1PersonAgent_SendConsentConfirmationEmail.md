@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 844,
-  "EmailAddress": "devin@hudsonhahn.biz",
-  "EmailTemplateId": 835,
-  "CultureLcidId": 151,
-  "Subject": "asperiores"
+  "PersonId": 820,
+  "EmailAddress": "grover@brekke.co.uk",
+  "EmailTemplateId": 324,
+  "CultureLcidId": 494,
+  "Subject": "vel"
 }
 ```
 

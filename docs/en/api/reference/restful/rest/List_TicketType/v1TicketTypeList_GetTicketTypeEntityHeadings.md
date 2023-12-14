@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 411,
-    "Name": "Murray, Beatty and Hettinger",
-    "Tooltip": "ut",
+    "HeadingId": 553,
+    "Name": "Gusikowski-Mosciski",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 658,
-    "UdListDefinitionId": 845,
+    "Rank": 868,
+    "UdListDefinitionId": 761,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldType": "System.String",
+        "FieldLength": 863
       }
     }
   }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Feest, Sipes and Eichmann",
-  "GroupId": 907
+  "UdListDefinitionName": "Strosin-Jerde",
+  "GroupId": 803
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 934,
-    "Name": "Kub-Wolf",
-    "ToolTip": "Eos recusandae reiciendis.",
+    "Id": 759,
+    "Name": "Durgan LLC",
+    "ToolTip": "Inventore odio id molestias porro.",
     "Deleted": false,
-    "Rank": 720,
-    "Type": "aut",
-    "ColorBlock": 700,
-    "IconHint": "at",
-    "Selected": false,
-    "LastChanged": "2016-02-06T13:38:13.6708541+01:00",
+    "Rank": 320,
+    "Type": "debitis",
+    "ColorBlock": 393,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2018-08-14T13:57:12.5118644+02:00",
     "ChildItems": [
       {
-        "Id": 134,
-        "Name": "Parisian-Goyette",
-        "ToolTip": "Aut error dolores quas fugiat iure et.",
+        "Id": 683,
+        "Name": "Beer-Tremblay",
+        "ToolTip": "Possimus corrupti mollitia veritatis repudiandae dolorem alias.",
         "Deleted": false,
-        "Rank": 92,
-        "Type": "sed",
-        "ColorBlock": 777,
-        "IconHint": "voluptas",
+        "Rank": 413,
+        "Type": "animi",
+        "ColorBlock": 492,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2015-10-19T13:38:13.6708541+02:00",
+        "LastChanged": "2019-01-14T13:57:12.5118644+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "deserunt",
+        "ExtraInfo": "vero",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Kara Miller",
+        "FullName": "Prof. Marlin Kuphal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 385
+            "FieldType": "System.String",
+            "FieldLength": 795
           }
         }
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "eaque",
+    "ExtraInfo": "esse",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Rossie Gerhold Sr.",
+    "FullName": "Destany Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 291
+        "FieldLength": 895
       }
     }
   }

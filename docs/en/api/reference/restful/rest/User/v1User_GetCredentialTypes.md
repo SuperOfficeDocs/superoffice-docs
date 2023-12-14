@@ -73,9 +73,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "quod",
-    "Type": "inventore",
-    "Description": "Innovative attitude-oriented portal",
+    "DisplayType": "qui",
+    "Type": "ullam",
+    "Description": "De-engineered background solution",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
     "IsUserNameSupported": false,
@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 482
+        "FieldType": "System.Int32",
+        "FieldLength": 828
       }
     }
   }

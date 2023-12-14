@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 604,
-    "Name": "Ryan-Rohan",
-    "Tooltip": "alias",
+    "HeadingId": 948,
+    "Name": "Cormier Group",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 463,
-    "UdListDefinitionId": 78,
+    "Rank": 809,
+    "UdListDefinitionId": 802,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 933
+        "FieldLength": 552
       }
     }
   }

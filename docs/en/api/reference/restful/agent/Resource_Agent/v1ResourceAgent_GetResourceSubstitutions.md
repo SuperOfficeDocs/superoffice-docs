@@ -83,10 +83,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Monahan-Feeney",
-    "Satterfield Group"
+    "Johnson-Ebert",
+    "Borer-Kautzer"
   ],
-  "Culture": "temporibus",
+  "Culture": "quis",
   "ActiveOnly": false
 }
 ```
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Halvorson, Stehr and Nolan",
-    "ResourceValue": "veniam",
-    "Culture": "rem",
-    "IsActive": true,
+    "ResourceName": "Murazik, Hauck and Greenholt",
+    "ResourceValue": "animi",
+    "Culture": "aspernatur",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 247
+        "FieldType": "System.Int32",
+        "FieldLength": 388
       }
     }
   },
   {
-    "ResourceName": "Halvorson, Stehr and Nolan",
-    "ResourceValue": "veniam",
-    "Culture": "rem",
-    "IsActive": true,
+    "ResourceName": "Murazik, Hauck and Greenholt",
+    "ResourceValue": "animi",
+    "Culture": "aspernatur",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 247
+        "FieldType": "System.Int32",
+        "FieldLength": 388
       }
     }
   }

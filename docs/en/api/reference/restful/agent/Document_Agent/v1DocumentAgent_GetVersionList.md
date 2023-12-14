@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 175
+  "DocumentId": 930
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "hic",
-    "DocumentId": 945,
-    "VersionId": "praesentium",
-    "CheckedInDate": "2008-05-07T13:38:13.4990023+02:00",
-    "CheckedInByName": "Macejkovic, Boehm and Ankunding",
-    "CheckedInByAssociateId": 249,
-    "Description": "Customizable contextually-based protocol",
-    "DisplayText": "minima",
+    "ExternalReference": "et",
+    "DocumentId": 439,
+    "VersionId": "quod",
+    "CheckedInDate": "2022-05-23T13:57:12.199869+02:00",
+    "CheckedInByName": "Mayer-Hilpert",
+    "CheckedInByAssociateId": 266,
+    "Description": "Adaptive heuristic task-force",
+    "DisplayText": "officiis",
     "ExtraFields": [
-      "ducimus",
-      "odit"
+      "autem",
+      "omnis"
     ]
   }
 ]

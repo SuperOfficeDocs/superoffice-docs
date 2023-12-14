@@ -91,17 +91,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 72,
-  "Name": "Daniel-Schuppe",
-  "ContentType": "tempora",
-  "AttSize": 785,
+  "AttachmentId": 551,
+  "Name": "Goodwin Inc and Sons",
+  "ContentType": "placeat",
+  "AttSize": 135,
   "InlineImage": false,
-  "ContentId": "in",
-  "AuthKey": "expedita"
+  "ContentId": "quia",
+  "AuthKey": "qui"
 }
 ```
 
@@ -112,19 +112,19 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 86,
-  "Name": "Gutkowski Group",
-  "ContentType": "et",
-  "AttSize": 379,
-  "InlineImage": true,
-  "ContentId": "ipsum",
-  "AuthKey": "aliquid",
+  "AttachmentId": 872,
+  "Name": "Lueilwitz Inc and Sons",
+  "ContentType": "doloremque",
+  "AttSize": 902,
+  "InlineImage": false,
+  "ContentId": "voluptatem",
+  "AuthKey": "fugit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldLength": 74
     }
   },
   "_Links": {

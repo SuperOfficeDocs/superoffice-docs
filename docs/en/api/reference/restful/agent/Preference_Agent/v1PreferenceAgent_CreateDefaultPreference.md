@@ -78,22 +78,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "consequatur",
+  "RawValue": "in",
   "Specification": null,
-  "DisplayValue": "nihil",
-  "DisplayTooltip": "quae",
+  "DisplayValue": "modi",
+  "DisplayTooltip": "eligendi",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 606,
-  "PrefDescId": 204,
-  "TableName": "Lebsack-Hilpert",
-  "UserPreferenceId": 372,
+  "TargetId": 790,
+  "PrefDescId": 429,
+  "TableName": "Frami, Casper and Connelly",
+  "UserPreferenceId": 5,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldType": "System.String",
+      "FieldLength": 601
     }
   }
 }

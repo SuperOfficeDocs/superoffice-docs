@@ -78,9 +78,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 566,
-  "SelectionId": 682,
-  "Restrictions": "molestias"
+  "DashboardTileId": 867,
+  "SelectionId": 978,
+  "Restrictions": "eveniet"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Bashirian LLC",
-        "DisplayTooltip": "quia",
-        "DisplayType": "molestias",
-        "CanOrderBy": false,
-        "Name": "Goyette-Rempel",
+        "DisplayName": "Cummings, Cassin and Turcotte",
+        "DisplayTooltip": "qui",
+        "DisplayType": "debitis",
+        "CanOrderBy": true,
+        "Name": "Bechtelar-McGlynn",
         "CanRestrictBy": false,
-        "RestrictionType": "mollitia",
-        "RestrictionListName": "Robel Inc and Sons",
-        "IsVisible": true,
-        "ExtraInfo": "sint",
-        "Width": "libero",
-        "IconHint": "cum",
-        "HeadingIconHint": "dolorum"
+        "RestrictionType": "id",
+        "RestrictionListName": "Botsford-Douglas",
+        "IsVisible": false,
+        "ExtraInfo": "sed",
+        "Width": "odio",
+        "IconHint": "magni",
+        "HeadingIconHint": "vitae"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Bashirian LLC",
-        "DisplayTooltip": "quia",
-        "DisplayType": "molestias",
-        "CanOrderBy": false,
-        "Name": "Goyette-Rempel",
+        "DisplayName": "Cummings, Cassin and Turcotte",
+        "DisplayTooltip": "qui",
+        "DisplayType": "debitis",
+        "CanOrderBy": true,
+        "Name": "Bechtelar-McGlynn",
         "CanRestrictBy": false,
-        "RestrictionType": "mollitia",
-        "RestrictionListName": "Robel Inc and Sons",
-        "IsVisible": true,
-        "ExtraInfo": "sint",
-        "Width": "libero",
-        "IconHint": "cum",
-        "HeadingIconHint": "dolorum"
+        "RestrictionType": "id",
+        "RestrictionListName": "Botsford-Douglas",
+        "IsVisible": false,
+        "ExtraInfo": "sed",
+        "Width": "odio",
+        "IconHint": "magni",
+        "HeadingIconHint": "vitae"
       }
     ],
     "Result": null

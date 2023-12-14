@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 949,
-  "AppointmentId": 689,
-  "ProjectId": 37,
-  "SaleId": 896,
-  "Archived": true,
-  "ArchivedAt": "2018-12-25T13:38:13.5458695+01:00",
-  "ArchivedBy": 917,
-  "ArchivedDisplayName": "Spinka-Grant",
+  "DocumentId": 386,
+  "AppointmentId": 370,
+  "ProjectId": 247,
+  "SaleId": 99,
+  "Archived": false,
+  "ArchivedAt": "2018-04-19T13:57:12.2779931+02:00",
+  "ArchivedBy": 902,
+  "ArchivedDisplayName": "Heathcote Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 520
     }
   }
 }

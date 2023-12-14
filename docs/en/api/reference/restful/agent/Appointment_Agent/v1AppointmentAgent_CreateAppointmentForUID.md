@@ -71,6 +71,9 @@ OK
 | CreatedDate | date-time | Registered date  in UTC. |
 | AppointmentId | int32 | Primary key |
 | Description | string | Description of the appointment. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
@@ -112,9 +115,6 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
-| Title | string | The title of the appointment. |
-| Agenda | string | The agenda of the appointment. |
-| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "UID": "asperiores"
+  "UID": "sint"
 }
 ```
 
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-01-15T13:38:13.0302987+01:00",
-  "AppointmentId": 969,
-  "Description": "Quality-focused clear-thinking ability",
-  "StartDate": "2015-10-23T13:38:13.0302987+02:00",
-  "EndDate": "2011-05-12T13:38:13.0302987+02:00",
+  "CreatedDate": "2013-06-22T13:57:11.4656836+02:00",
+  "AppointmentId": 653,
+  "Description": "Right-sized asynchronous moderator",
+  "Title": "sit",
+  "Agenda": "placeat",
+  "InternalNotes": "sunt",
+  "StartDate": "2001-08-15T13:57:11.4656836+02:00",
+  "EndDate": "2011-11-23T13:57:11.4656836+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 460,
+  "MotherId": 387,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-05-11T13:38:13.0302987+02:00",
+  "UpdatedDate": "1999-08-14T13:57:11.4656836+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 515,
+  "ActiveLinks": 185,
   "Links": [
     {
-      "EntityName": "Cummerata Group",
-      "Id": 658,
-      "Description": "Advanced transitional task-force",
-      "ExtraInfo": "qui",
-      "LinkId": 776,
+      "EntityName": "Blick-Rempel",
+      "Id": 146,
+      "Description": "Face to face human-resource algorithm",
+      "ExtraInfo": "est",
+      "LinkId": 439,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 706
+          "FieldType": "System.Int32",
+          "FieldLength": 453
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
+  "AlarmLeadTime": "quis",
   "HasAlarm": false,
-  "ColorIndex": 163,
+  "ColorIndex": 560,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "in",
-  "LeadTime": "voluptatem",
-  "Location": "sed",
-  "RejectCounter": 326,
+  "IsAlldayEvent": true,
+  "LagTime": "voluptas",
+  "LeadTime": "facere",
+  "Location": "aut",
+  "RejectCounter": 274,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 62,
-      "PersonId": 886,
-      "ContactId": 947,
-      "EmailId": 586,
+      "AssociateId": 823,
+      "PersonId": 893,
+      "ContactId": 723,
+      "EmailId": 961,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "leon.russel@lueilwitz.com",
-      "Description": "Vision-oriented assymetric process improvement"
+      "EmailAddress": "xzavier@brakussmith.info",
+      "Description": "Open-source zero defect circuit"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-07-13T13:38:13.0302987+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2000-06-19T13:57:11.4656836+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 910,
+  "PreferredTZLocation": 974,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 604,
+  "SuggestedAppointmentId": 214,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nobis",
-  "Title": "repellendus",
-  "Agenda": "assumenda",
-  "InternalNotes": "dolorem",
+  "CentralserviceVideomeetId": "ad",
   "UserDefinedFields": {
-    "SuperOffice:1": "Jacinthe Runte DVM",
-    "SuperOffice:2": "1635138393"
+    "SuperOffice:1": "Pete Flatley",
+    "SuperOffice:2": "Kayla Sporer"
   },
   "ExtraFields": {
-    "ExtraFields1": "porro",
-    "ExtraFields2": "iusto"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "ipsa",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "veritatis",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2011-11-01T13:38:13.0302987+01:00",
-  "PublishTo": "2003-08-11T13:38:13.0302987+02:00",
-  "PublishFrom": "2007-09-08T13:38:13.0302987+02:00",
+  "PublishEventDate": "2000-02-22T13:57:11.4656836+01:00",
+  "PublishTo": "2021-03-20T13:57:11.4656836+01:00",
+  "PublishFrom": "2009-04-01T13:57:11.4656836+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 347,
+      "VisibleId": 613,
       "Visibility": "All",
-      "DisplayValue": "aperiam",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 889
+          "FieldType": "System.String",
+          "FieldLength": 347
         }
       }
     },
     {
-      "VisibleId": 347,
+      "VisibleId": 613,
       "Visibility": "All",
-      "DisplayValue": "aperiam",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 889
+          "FieldType": "System.String",
+          "FieldLength": 347
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldLength": 162
     }
   }
 }

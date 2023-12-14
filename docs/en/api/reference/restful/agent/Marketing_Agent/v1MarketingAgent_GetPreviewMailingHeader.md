@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 505
+  "ShipmentId": 428
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2004-08-18T13:38:13.7333439+02:00",
+  "StartDate": "1998-02-25T13:57:12.6068289+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 206,
-  "ShipmentDescription": "Persistent bifurcated policy",
-  "FromAddress": "et",
-  "PersonId": 625,
-  "PersonFullName": "Amie Casper",
-  "ShipmentType": "provident",
-  "MessageId": 818,
-  "MessageSubject": "voluptatum",
-  "DocumentMessageId": 251,
-  "NumSent": 659,
-  "NumOpened": 872,
-  "NumBounced": 70,
-  "NumClicks": 367,
+  "ShipmentId": 809,
+  "ShipmentDescription": "Up-sized global capacity",
+  "FromAddress": "incidunt",
+  "PersonId": 817,
+  "PersonFullName": "Mr. Reta Jacobson V",
+  "ShipmentType": "consequatur",
+  "MessageId": 249,
+  "MessageSubject": "perspiciatis",
+  "DocumentMessageId": 446,
+  "NumSent": 377,
+  "NumOpened": 580,
+  "NumBounced": 680,
+  "NumClicks": 573,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldType": "System.String",
+      "FieldLength": 330
     }
   }
 }

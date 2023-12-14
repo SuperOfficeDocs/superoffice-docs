@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 983
+  "ShipmentAddrId": 140
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2001-08-11T13:38:13.7333439+02:00",
+  "SendingTime": "1998-12-01T13:57:12.6068289+01:00",
   "Status": "Blocked",
-  "ShipmentId": 900,
-  "ShipmentDescription": "Persevering explicit data-warehouse",
-  "FromAddress": "eaque",
-  "ContactId": 110,
-  "ContactName": "Swaniawski, Lubowitz and Dibbert",
-  "PersonId": 835,
-  "PersonFullName": "Donna Pedro Kshlerin II",
-  "ShipmentType": "rerum",
-  "MessageId": 756,
-  "MessageSubject": "officia",
-  "DocumentMessageId": 388,
-  "Opened": "1998-06-29T13:38:13.7333439+02:00",
-  "LinkClicks": 993,
+  "ShipmentId": 166,
+  "ShipmentDescription": "Face to face system-worthy definition",
+  "FromAddress": "et",
+  "ContactId": 162,
+  "ContactName": "Ortiz-Howell",
+  "PersonId": 496,
+  "PersonFullName": "Audreanne Flatley",
+  "ShipmentType": "voluptas",
+  "MessageId": 481,
+  "MessageSubject": "voluptas",
+  "DocumentMessageId": 445,
+  "Opened": "2007-01-06T13:57:12.6068289+01:00",
+  "LinkClicks": 855,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldLength": 957
     }
   }
 }

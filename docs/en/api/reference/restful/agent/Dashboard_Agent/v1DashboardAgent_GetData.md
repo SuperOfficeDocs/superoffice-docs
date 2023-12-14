@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 485,
-  "Restrictions": "deleniti"
+  "DashboardTileId": 782,
+  "Restrictions": "architecto"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Kessler, Pagac and Hilpert",
-        "DisplayTooltip": "in",
-        "DisplayType": "similique",
+        "DisplayName": "Romaguera, Mills and Pollich",
+        "DisplayTooltip": "quasi",
+        "DisplayType": "deleniti",
         "CanOrderBy": false,
-        "Name": "Bruen Group",
-        "CanRestrictBy": false,
-        "RestrictionType": "dolorem",
-        "RestrictionListName": "Bednar, McGlynn and Gleichner",
+        "Name": "Treutel-Sanford",
+        "CanRestrictBy": true,
+        "RestrictionType": "quia",
+        "RestrictionListName": "Walsh-Schimmel",
         "IsVisible": false,
-        "ExtraInfo": "eius",
-        "Width": "vel",
-        "IconHint": "reiciendis",
-        "HeadingIconHint": "maxime"
+        "ExtraInfo": "qui",
+        "Width": "repellat",
+        "IconHint": "eum",
+        "HeadingIconHint": "natus"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Kessler, Pagac and Hilpert",
-        "DisplayTooltip": "in",
-        "DisplayType": "similique",
+        "DisplayName": "Romaguera, Mills and Pollich",
+        "DisplayTooltip": "quasi",
+        "DisplayType": "deleniti",
         "CanOrderBy": false,
-        "Name": "Bruen Group",
-        "CanRestrictBy": false,
-        "RestrictionType": "dolorem",
-        "RestrictionListName": "Bednar, McGlynn and Gleichner",
+        "Name": "Treutel-Sanford",
+        "CanRestrictBy": true,
+        "RestrictionType": "quia",
+        "RestrictionListName": "Walsh-Schimmel",
         "IsVisible": false,
-        "ExtraInfo": "eius",
-        "Width": "vel",
-        "IconHint": "reiciendis",
-        "HeadingIconHint": "maxime"
+        "ExtraInfo": "qui",
+        "Width": "repellat",
+        "IconHint": "eum",
+        "HeadingIconHint": "natus"
       }
     ],
     "Result": null

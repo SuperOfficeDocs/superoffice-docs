@@ -27,7 +27,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=quis
+GET /api/v1/List/Position/MDOItems?query=et
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 637,
-    "Name": "Medhurst Inc and Sons",
-    "ToolTip": "Rerum praesentium omnis.",
+    "Id": 386,
+    "Name": "Glover, Beier and Koepp",
+    "ToolTip": "Occaecati voluptatem consequuntur qui id.",
     "Deleted": false,
-    "Rank": 424,
-    "Type": "quos",
+    "Rank": 229,
+    "Type": "itaque",
     "ChildItems": [
       {
-        "Id": 249,
-        "Name": "Skiles LLC",
-        "ToolTip": "Sed rem facilis.",
+        "Id": 894,
+        "Name": "Hartmann-Koelpin",
+        "ToolTip": "Tenetur rerum nulla qui.",
         "Deleted": false,
-        "Rank": 193,
-        "Type": "et",
+        "Rank": 563,
+        "Type": "repellat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quaerat",
-        "ColorBlock": 305,
-        "ExtraInfo": "ullam",
-        "StyleHint": "sequi",
-        "FullName": "Mrs. Fannie Fredrick Buckridge I",
+        "IconHint": "in",
+        "ColorBlock": 628,
+        "ExtraInfo": "asperiores",
+        "StyleHint": "error",
+        "FullName": "Reilly Crooks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 904
+            "FieldType": "System.String",
+            "FieldLength": 930
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 855,
-    "ExtraInfo": "nam",
-    "StyleHint": "delectus",
-    "FullName": "Edison Pollich",
+    "IconHint": "sint",
+    "ColorBlock": 320,
+    "ExtraInfo": "pariatur",
+    "StyleHint": "hic",
+    "FullName": "Mr. Watson Windler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 95
+        "FieldLength": 363
       }
     }
   }

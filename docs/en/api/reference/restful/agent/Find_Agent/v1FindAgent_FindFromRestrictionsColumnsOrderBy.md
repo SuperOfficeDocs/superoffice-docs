@@ -82,21 +82,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Gerlach-Senger",
-      "Operator": "consequatur",
+      "Name": "Ledner LLC",
+      "Operator": "mollitia",
       "Values": [
-        "amet",
-        "labore"
+        "facilis",
+        "beatae"
       ],
       "DisplayValues": [
-        "dolores",
-        "officiis"
+        "repudiandae",
+        "necessitatibus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -104,28 +104,28 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 729,
+      "InterParenthesis": 623,
       "InterOperator": "And",
-      "UniqueHash": 138
+      "UniqueHash": 70
     }
   ],
-  "ProviderName": "Koss, Kertzmann and Mitchell",
+  "ProviderName": "Johnston-Quigley",
   "DesiredColumns": [
-    "sed",
-    "id"
+    "accusantium",
+    "aut"
   ],
   "OrderBy": [
     {
-      "Name": "Parisian-Champlin",
+      "Name": "Wunsch-Johnston",
       "Direction": "ASC"
     },
     {
-      "Name": "Parisian-Champlin",
+      "Name": "Wunsch-Johnston",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 363,
-  "PageNumber": 607
+  "PageSize": 620,
+  "PageNumber": 83
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Marquardt-Hand",
-      "DisplayTooltip": "aut",
-      "DisplayType": "in",
-      "CanOrderBy": true,
-      "Name": "Legros Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "id",
-      "RestrictionListName": "Smith-Okuneva",
+      "DisplayName": "Jacobi, Wisozk and Abshire",
+      "DisplayTooltip": "unde",
+      "DisplayType": "similique",
+      "CanOrderBy": false,
+      "Name": "Christiansen, Treutel and Torp",
+      "CanRestrictBy": true,
+      "RestrictionType": "officiis",
+      "RestrictionListName": "Trantow, Ondricka and Braun",
       "IsVisible": true,
-      "ExtraInfo": "soluta",
-      "Width": "minus",
-      "IconHint": "harum",
-      "HeadingIconHint": "qui"
+      "ExtraInfo": "quisquam",
+      "Width": "dolorum",
+      "IconHint": "nobis",
+      "HeadingIconHint": "iusto"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Blick, DuBuque and Green",
-      "PrimaryKey": 892,
+      "EntityName": "McKenzie Inc and Sons",
+      "PrimaryKey": 910,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ex",
-          "TooltipHint": "esse",
-          "LinkHint": "eum"
+          "DisplayValue": "nobis",
+          "TooltipHint": "in",
+          "LinkHint": "repellendus"
         }
       },
-      "LinkHint": "vel",
-      "StyleHint": "reiciendis",
+      "LinkHint": "nisi",
+      "StyleHint": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldType": "System.String",
+          "FieldLength": 902
         }
       }
     }
   ],
-  "RowCount": 587,
+  "RowCount": 87,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 660
+      "FieldType": "System.Int32",
+      "FieldLength": 404
     }
   }
 }

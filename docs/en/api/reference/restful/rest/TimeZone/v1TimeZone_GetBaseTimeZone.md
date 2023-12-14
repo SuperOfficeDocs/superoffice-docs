@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 538,
-  "Name": "Stehr, Schmeler and Paucek",
-  "TZLocationCode": "repellendus",
-  "TZLocationCities": "dolor",
-  "IsoNumber": 712,
+  "TZLocationID": 252,
+  "Name": "Pacocha-Runolfsdottir",
+  "TZLocationCode": "unde",
+  "TZLocationCities": "consectetur",
+  "IsoNumber": 512,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 175,
-      "StartMonth": 924,
-      "EndDay": 524,
-      "EndMonth": 609,
-      "TZOffset": 494,
-      "StartRulePattern": "et",
-      "EndRulePattern": "deleniti"
+      "StartDay": 581,
+      "StartMonth": 192,
+      "EndDay": 561,
+      "EndMonth": 685,
+      "TZOffset": 936,
+      "StartRulePattern": "doloremque",
+      "EndRulePattern": "quaerat"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 477,
-      "StartMonth": 748,
-      "EndDay": 505,
-      "EndMonth": 679,
-      "TZOffset": 823,
-      "StartRulePattern": "minus",
-      "EndRulePattern": "laboriosam"
+      "StartDay": 383,
+      "StartMonth": 181,
+      "EndDay": 623,
+      "EndMonth": 992,
+      "TZOffset": 173,
+      "StartRulePattern": "necessitatibus",
+      "EndRulePattern": "dolorem"
     }
   }
 }

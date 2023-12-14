@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Herman, Wyman and Terry",
-  "DeviceName": "McLaughlin Inc and Sons",
-  "DeviceIdentifier": "soluta",
-  "TableName": "Kautzer LLC",
-  "RecordId": 53
+  "ApplicationName": "Wyman LLC",
+  "DeviceName": "Auer-Senger",
+  "DeviceIdentifier": "quis",
+  "TableName": "Corkery-O'Hara",
+  "RecordId": 367
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "dolor",
+    "Key": "eum",
     "Value": "totam",
-    "RecordId": 363,
-    "CreatedDate": "2003-06-24T13:38:13.6396102+02:00",
-    "UpdatedDate": "2021-03-19T13:38:13.6396102+01:00",
-    "UpdatedBy": "ut",
-    "CreatedBy": "tempora",
-    "TableName": "Toy-Fahey",
+    "RecordId": 45,
+    "CreatedDate": "1996-11-27T13:57:12.4337359+01:00",
+    "UpdatedDate": "2018-01-10T13:57:12.4337359+01:00",
+    "UpdatedBy": "est",
+    "CreatedBy": "consequatur",
+    "TableName": "Erdman-Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldLength": 502
       }
     }
   }

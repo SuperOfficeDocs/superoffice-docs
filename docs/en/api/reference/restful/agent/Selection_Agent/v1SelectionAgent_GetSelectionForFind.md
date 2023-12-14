@@ -85,8 +85,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Rath, Lockman and Weber",
-  "TypicalSearchId": 801
+  "EntityName": "Blick, Stanton and Torphy",
+  "TypicalSearchId": 491
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kemmer, Kirlin and Howe",
-  "SelectionId": 96,
-  "CanSaveAsSelection": false,
-  "MainHeading": "autem",
-  "FilterScreenHeading": "nulla",
-  "SelectionEntityHeading": "tenetur",
+  "ProviderName": "Nitzsche Group",
+  "SelectionId": 26,
+  "CanSaveAsSelection": true,
+  "MainHeading": "id",
+  "FilterScreenHeading": "voluptate",
+  "SelectionEntityHeading": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 543
+      "FieldLength": 278
     }
   }
 }

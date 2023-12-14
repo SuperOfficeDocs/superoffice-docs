@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,16 +85,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 843,
-  "Name": "Howe-Hahn",
-  "Tooltip": "cupiditate",
+  "RoleId": 942,
+  "Name": "Buckridge, Grant and Ratke",
+  "Tooltip": "officiis",
   "RoleType": "Anonymous",
-  "Deleted": 600,
-  "Rank": 759,
-  "Created": "2012-11-10T13:38:17.5774332+01:00",
-  "UseCategories": 399,
+  "Deleted": 96,
+  "Rank": 849,
+  "Created": "1998-07-10T13:57:19.1403101+02:00",
+  "UseCategories": 571,
   "CreatedBy": null,
-  "Updated": "2022-09-19T13:38:17.5774332+02:00",
+  "Updated": "2001-03-20T13:57:19.1403101+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 264
     }
   }
 }

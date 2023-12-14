@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Document/GetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Smitham, Waters and Gaylord",
+  "TemplateName": "Witting, Abernathy and Koch",
   "AllowPersonal": false,
-  "UiCulture": "quisquam"
+  "UiCulture": "nam"
 }
 ```
 

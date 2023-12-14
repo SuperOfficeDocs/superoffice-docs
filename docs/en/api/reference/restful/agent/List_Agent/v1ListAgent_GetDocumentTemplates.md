@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 982,
-    "Name": "O'Hara, Goodwin and Waters",
-    "Tooltip": "placeat",
-    "SaveInDb": 19,
-    "Filename": "ut",
-    "DefaultOref": "itaque",
+    "DocumentTemplateId": 401,
+    "Name": "Gislason, Casper and Aufderhar",
+    "Tooltip": "occaecati",
+    "SaveInDb": 21,
+    "Filename": "deleniti",
+    "DefaultOref": "et",
     "RecordType": "Appointment",
-    "Deleted": 623,
+    "Deleted": 835,
     "Direction": "Incoming",
-    "AutoeventId": 860,
+    "AutoeventId": 274,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 215
+        "FieldType": "System.Int32",
+        "FieldLength": 619
       }
     }
   }

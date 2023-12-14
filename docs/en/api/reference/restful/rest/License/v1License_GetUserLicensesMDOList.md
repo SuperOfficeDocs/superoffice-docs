@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 881,
-    "Name": "Kuphal LLC",
-    "ToolTip": "Fugiat consequatur est blanditiis laborum.",
-    "Deleted": true,
-    "Rank": 210,
-    "Type": "ut",
-    "ColorBlock": 213,
-    "IconHint": "adipisci",
-    "Selected": true,
-    "LastChanged": "2004-01-11T13:38:17.7963134+01:00",
+    "Id": 595,
+    "Name": "Miller, Metz and Batz",
+    "ToolTip": "Laudantium architecto enim voluptate totam ex autem totam.",
+    "Deleted": false,
+    "Rank": 654,
+    "Type": "minima",
+    "ColorBlock": 475,
+    "IconHint": "corporis",
+    "Selected": false,
+    "LastChanged": "2023-09-20T13:57:19.4533957+02:00",
     "ChildItems": [
       {
-        "Id": 539,
-        "Name": "Hoppe Group",
-        "ToolTip": "Ullam distinctio dolorem.",
+        "Id": 203,
+        "Name": "Daugherty Group",
+        "ToolTip": "Qui commodi tempore qui.",
         "Deleted": false,
-        "Rank": 805,
-        "Type": "est",
-        "ColorBlock": 97,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2017-10-15T13:38:17.7963134+02:00",
+        "Rank": 352,
+        "Type": "recusandae",
+        "ColorBlock": 147,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2003-01-14T13:57:19.4533957+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "officiis",
+        "ExtraInfo": "numquam",
+        "StyleHint": "repellendus",
         "Hidden": false,
-        "FullName": "Mr. Soledad Pouros",
+        "FullName": "Julie Gleason",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 557
+            "FieldLength": 371
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Mr. Janelle Jodie Schinner PhD",
+    "ExtraInfo": "autem",
+    "StyleHint": "maiores",
+    "Hidden": true,
+    "FullName": "Jordyn Gerhold",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldType": "System.String",
+        "FieldLength": 306
       }
     }
   }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 683,
-    "Name": "Effertz-Gottlieb",
-    "Tooltip": "dolor",
-    "Deleted": true,
-    "Rank": 654,
-    "UdListDefinitionId": 841,
+    "HeadingId": 370,
+    "Name": "Schmeler-Gulgowski",
+    "Tooltip": "nisi",
+    "Deleted": false,
+    "Rank": 673,
+    "UdListDefinitionId": 356,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 861
+        "FieldType": "System.Int32",
+        "FieldLength": 515
       }
     }
   }

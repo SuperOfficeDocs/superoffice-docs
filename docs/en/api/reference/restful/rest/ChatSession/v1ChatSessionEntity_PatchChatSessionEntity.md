@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eveniet",
+    "path": "quam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eveniet",
+    "path": "quam",
     "value": {}
   }
 ]
@@ -162,29 +162,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 347,
-  "TopicId": 378,
+  "ChatSessionId": 834,
+  "TopicId": 607,
   "User": null,
   "Person": null,
-  "CustomerAlias": "odio",
-  "CustomerHost": "beatae",
-  "CustomerName": "Windler, Marks and Fritsch",
-  "CustomerEmail": "annabell_herzog@sporer.us",
-  "CustomerPhone": "(471)455-8699",
+  "CustomerAlias": "fugit",
+  "CustomerHost": "debitis",
+  "CustomerName": "Bartell, Upton and Swaniawski",
+  "CustomerEmail": "diana_hessel@wymanspinka.co.uk",
+  "CustomerPhone": "1-549-615-3033 x29839",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Lesch, Schmitt and Schuppe",
+  "CustomerCompanyName": "Hane-Kuhlman",
   "Status": "Closed",
-  "FirstMessage": "similique",
-  "LastMessage": "autem",
-  "WhenRequested": "2007-09-30T13:38:17.1399788+02:00",
-  "WhenStarted": "2022-04-23T13:38:17.1399788+02:00",
-  "WhenEnded": "2023-02-09T13:38:17.1399788+01:00",
-  "WhenIdle": "2013-06-11T13:38:17.1399788+02:00",
-  "WhenFetched": "1998-04-12T13:38:17.1399788+02:00",
-  "SessionKey": "consequatur",
-  "InitialQueuePos": 122,
-  "AlertLevel": 59,
-  "Rank": 310,
+  "FirstMessage": "aut",
+  "LastMessage": "ea",
+  "WhenRequested": "2017-10-14T13:57:18.4659363+02:00",
+  "WhenStarted": "2020-12-21T13:57:18.4659363+01:00",
+  "WhenEnded": "2000-08-02T13:57:18.4659363+02:00",
+  "WhenIdle": "2008-12-25T13:57:18.4659363+01:00",
+  "WhenFetched": "2014-12-23T13:57:18.4659363+01:00",
+  "SessionKey": "modi",
+  "InitialQueuePos": 30,
+  "AlertLevel": 830,
+  "Rank": 440,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -192,13 +192,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 220,
+  "Rating": 839,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldLength": 777
     }
   },
   "_Links": {

@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 300,
-  "Name": "Kemmer Inc and Sons",
-  "Tooltip": "qui",
-  "Rank": 763,
-  "AmountFrom": 7114.1799999999994,
-  "AmountTo": 15764.019999999999,
+  "AmountClassId": 373,
+  "Name": "Trantow-Lubowitz",
+  "Tooltip": "quia",
+  "Rank": 723,
+  "AmountFrom": 5735.22,
+  "AmountTo": 15488.228,
   "Deleted": false,
-  "CurrencyId": 764,
+  "CurrencyId": 601,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldLength": 696
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a TicketEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=570
+POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=118
 POST /api/v1/Agents/Ticket/GetTicketEntity?$select=name,department,category/id
 ```
 
@@ -123,7 +123,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -133,21 +133,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 249,
-  "Title": "quis",
-  "CreatedAt": "2003-02-13T13:38:14.2178238+01:00",
-  "LastChanged": "2022-05-30T13:38:14.2178238+02:00",
-  "ReadByOwner": "2007-09-25T13:38:14.2178238+02:00",
-  "ReadByCustomer": "2008-10-22T13:38:14.2178238+02:00",
-  "FirstReadByOwner": "2004-04-15T13:38:14.2178238+02:00",
-  "FirstReadByUser": "2013-12-21T13:38:14.2178238+01:00",
-  "Activate": "2021-06-06T13:38:14.2178238+02:00",
-  "ClosedAt": "2010-08-26T13:38:14.2178238+02:00",
-  "RepliedAt": "2007-11-20T13:38:14.2178238+01:00",
-  "AlertTimeout": "2004-04-01T13:38:14.2178238+02:00",
-  "Deadline": "2000-06-11T13:38:14.2178238+02:00",
+  "TicketId": 600,
+  "Title": "consequatur",
+  "CreatedAt": "2011-05-08T13:57:13.3489691+02:00",
+  "LastChanged": "2015-10-15T13:57:13.3489691+02:00",
+  "ReadByOwner": "2013-07-27T13:57:13.3489691+02:00",
+  "ReadByCustomer": "1998-05-30T13:57:13.3489691+02:00",
+  "FirstReadByOwner": "2015-11-12T13:57:13.3489691+01:00",
+  "FirstReadByUser": "2005-03-06T13:57:13.3489691+01:00",
+  "Activate": "2021-04-27T13:57:13.3489691+02:00",
+  "ClosedAt": "2006-09-20T13:57:13.3489691+02:00",
+  "RepliedAt": "2012-03-10T13:57:13.3489691+01:00",
+  "AlertTimeout": "2011-02-19T13:57:13.3489691+01:00",
+  "Deadline": "2017-08-07T13:57:13.3489691+02:00",
   "CreatedBy": null,
-  "Author": "est",
+  "Author": "ullam",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -159,160 +159,160 @@ Content-Type: application/json; charset=utf-8
   "SecondaryPersons": [
     {
       "Position": "aut",
-      "PersonId": 938,
-      "Mrmrs": "non",
-      "Firstname": "Salvatore",
-      "Lastname": "Denesik",
-      "MiddleName": "Schmidt-Roberts",
-      "Title": "quod",
-      "Description": "Sharable fault-tolerant Graphic Interface",
-      "Email": "kristopher_hintz@reinger.co.uk",
-      "FullName": "Rico Leuschke",
-      "DirectPhone": "728-426-0927",
-      "FormalName": "Weber-Walsh",
-      "CountryId": 936,
-      "ContactId": 9,
-      "ContactName": "Fay, Monahan and Turner",
-      "Retired": 887,
-      "Rank": 770,
-      "ActiveInterests": 567,
-      "ContactDepartment": "iterate rich partnerships",
-      "ContactCountryId": 590,
-      "ContactOrgNr": "1424956",
-      "FaxPhone": "1-324-585-2803 x729",
-      "MobilePhone": "1-405-375-5980 x8129",
-      "ContactPhone": "425-605-4093 x07845",
-      "AssociateName": "Cummerata Group",
-      "AssociateId": 275,
-      "UsePersonAddress": true,
-      "ContactFax": "pariatur",
-      "Kanafname": "est",
-      "Kanalname": "ut",
-      "Post1": "rerum",
-      "Post2": "dolorem",
-      "Post3": "qui",
-      "EmailName": "lizeth@schamberger.uk",
-      "ContactFullName": "Lionel Hoeger",
-      "ActiveErpLinks": 989,
-      "TicketPriorityId": 764,
-      "SupportLanguageId": 874,
-      "SupportAssociateId": 499,
+      "PersonId": 513,
+      "Mrmrs": "neque",
+      "Firstname": "Lucio",
+      "Lastname": "Williamson",
+      "MiddleName": "Weber LLC",
+      "Title": "esse",
+      "Description": "Self-enabling object-oriented hardware",
+      "Email": "dariana_wintheiser@marvin.com",
+      "FullName": "Jana Littel",
+      "DirectPhone": "787.547.9282 x511",
+      "FormalName": "Rolfson, Waelchi and Bernhard",
+      "CountryId": 219,
+      "ContactId": 785,
+      "ContactName": "Beer, Ernser and Hane",
+      "Retired": 649,
+      "Rank": 77,
+      "ActiveInterests": 737,
+      "ContactDepartment": "",
+      "ContactCountryId": 239,
+      "ContactOrgNr": "1180815",
+      "FaxPhone": "(934)073-6696",
+      "MobilePhone": "1-420-713-3812 x4415",
+      "ContactPhone": "(290)659-3658",
+      "AssociateName": "Kiehn, Rice and Herman",
+      "AssociateId": 536,
+      "UsePersonAddress": false,
+      "ContactFax": "minus",
+      "Kanafname": "sunt",
+      "Kanalname": "vel",
+      "Post1": "tempora",
+      "Post2": "alias",
+      "Post3": "sint",
+      "EmailName": "jadon@kerluke.name",
+      "ContactFullName": "Hosea Barney Schmitt V",
+      "ActiveErpLinks": 830,
+      "TicketPriorityId": 350,
+      "SupportLanguageId": 192,
+      "SupportAssociateId": 634,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 705
+          "FieldLength": 588
         }
       }
     }
   ],
-  "AlertLevel": 280,
-  "ConnectId": 149,
+  "AlertLevel": 321,
+  "ConnectId": 61,
   "ReadStatus": "Green",
-  "TimeToReply": 949,
-  "RealTimeToReply": 326,
-  "TimeToClose": 865,
-  "RealTimeToClose": 977,
-  "TimeSpentInternally": 208,
-  "TimeSpentExternally": 635,
-  "TimeSpentQueue": 669,
-  "RealTimeSpentInternally": 689,
-  "RealTimeSpentExternally": 100,
-  "RealTimeSpentQueue": 847,
-  "TimeSpent": 365,
-  "HasAttachment": true,
-  "NumReplies": 9,
-  "NumMessages": 572,
-  "FromAddress": "nostrum",
+  "TimeToReply": 568,
+  "RealTimeToReply": 968,
+  "TimeToClose": 555,
+  "RealTimeToClose": 736,
+  "TimeSpentInternally": 26,
+  "TimeSpentExternally": 543,
+  "TimeSpentQueue": 961,
+  "RealTimeSpentInternally": 455,
+  "RealTimeSpentExternally": 515,
+  "RealTimeSpentQueue": 306,
+  "TimeSpent": 993,
+  "HasAttachment": false,
+  "NumReplies": 719,
+  "NumMessages": 90,
+  "FromAddress": "et",
   "Messages": [
     {
-      "TicketMessageId": 475,
-      "CreatedAt": "2009-03-12T13:38:14.2334357+01:00",
+      "TicketMessageId": 517,
+      "CreatedAt": "2004-05-27T13:57:13.3489691+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "libero",
-      "PersonId": 878,
-      "PersonFullName": "Mellie Homenick",
-      "ContactId": 616,
-      "ContactName": "O'Reilly-Smitham",
+      "Author": "in",
+      "PersonId": 369,
+      "PersonFullName": "Darron Klein",
+      "ContactId": 233,
+      "ContactName": "Rath, Goldner and Schmeler",
       "ContactDepartment": "",
-      "NumAttachments": 402,
-      "EmailHeader": "brannon@shields.uk",
+      "NumAttachments": 681,
+      "EmailHeader": "eli@lockman.com",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "quia",
-      "Sentiment": 574,
-      "SentimentConfidence": 186,
-      "CreatedBy": 888,
-      "ChangedAt": "1996-07-11T13:38:14.2334357+02:00",
+      "Language": "ipsum",
+      "Sentiment": 906,
+      "SentimentConfidence": 108,
+      "CreatedBy": 838,
+      "ChangedAt": "2019-10-27T13:57:13.3489691+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 11
+          "FieldType": "System.Int32",
+          "FieldLength": 250
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 996,
-      "Name": "Greenholt-Donnelly",
-      "ToolTip": "Dicta aspernatur sunt.",
+      "Id": 189,
+      "Name": "Tillman, Gleichner and Rowe",
+      "ToolTip": "Aliquam velit aut fuga quo.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldLength": 221
         }
       }
     },
     {
-      "Id": 996,
-      "Name": "Greenholt-Donnelly",
-      "ToolTip": "Dicta aspernatur sunt.",
+      "Id": 189,
+      "Name": "Tillman, Gleichner and Rowe",
+      "ToolTip": "Aliquam velit aut fuga quo.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldLength": 221
         }
       }
     }
   ],
-  "Language": "atque",
-  "Sentiment": 126,
-  "SentimentConfidence": 655,
-  "SuggestedCategoryId": 504,
+  "Language": "velit",
+  "Sentiment": 152,
+  "SentimentConfidence": 530,
+  "SuggestedCategoryId": 287,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 242,
-  "IconHint": "quia",
+  "OrigHumanCategoryId": 580,
+  "IconHint": "similique",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "expedita"
+    "ExtraFields1": "temporibus",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "error"
+    "CustomFields1": "fugiat",
+    "CustomFields2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldLength": 54
     }
   }
 }

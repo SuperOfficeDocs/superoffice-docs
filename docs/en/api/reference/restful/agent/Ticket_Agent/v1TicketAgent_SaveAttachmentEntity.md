@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 33,
-  "Name": "Brown, Lubowitz and Schneider",
-  "ContentType": "fuga",
-  "AttSize": 89,
-  "InlineImage": true,
-  "ContentId": "omnis",
-  "AuthKey": "est"
+  "AttachmentId": 718,
+  "Name": "Aufderhar-Hoeger",
+  "ContentType": "qui",
+  "AttSize": 252,
+  "InlineImage": false,
+  "ContentId": "voluptatem",
+  "AuthKey": "illum"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 681,
-  "Name": "Thompson, Jacobson and Kuhic",
-  "ContentType": "eum",
-  "AttSize": 8,
+  "AttachmentId": 638,
+  "Name": "Jast-Haag",
+  "ContentType": "ad",
+  "AttSize": 319,
   "InlineImage": false,
-  "ContentId": "ut",
-  "AuthKey": "sapiente",
+  "ContentId": "neque",
+  "AuthKey": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 74
+      "FieldType": "System.Int32",
+      "FieldLength": 967
     }
   }
 }

@@ -109,28 +109,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 419,
-  "Name": "Ruecker, Flatley and Conroy",
-  "Tooltip": "optio",
+  "ExtAppId": 959,
+  "Name": "Schoen, Stanton and Grant",
+  "Tooltip": "repellat",
   "Deleted": true,
-  "Rank": 435,
-  "Filename": "esse",
-  "Parameters": "eligendi",
-  "Workdir": "vel",
+  "Rank": 414,
+  "Filename": "sint",
+  "Parameters": "tempore",
+  "Workdir": "praesentium",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 41,
+  "Icon": 20,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "sit"
+  "Path": "beatae"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 935,
-  "Name": "O'Hara, Abernathy and Fisher",
-  "Tooltip": "illum",
+  "ExtAppId": 216,
+  "Name": "Hirthe-Gibson",
+  "Tooltip": "dolor",
   "Deleted": true,
-  "Rank": 218,
-  "Filename": "fugiat",
-  "Parameters": "deserunt",
-  "Workdir": "quos",
+  "Rank": 160,
+  "Filename": "temporibus",
+  "Parameters": "omnis",
+  "Workdir": "necessitatibus",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "Icon": 262,
-  "WaitToFinish": false,
+  "Icon": 496,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "quaerat",
+  "Path": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldType": "System.String",
+      "FieldLength": 112
     }
   }
 }

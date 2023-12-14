@@ -70,11 +70,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Runte, Windler and Stamm",
-  "Id": 646,
+  "TableName": "Hills LLC",
+  "Id": 196,
   "Values": {
-    "Values1": "dolores",
-    "Values2": "eius"
+    "Values1": "quaerat",
+    "Values2": "soluta"
   }
 }
 ```

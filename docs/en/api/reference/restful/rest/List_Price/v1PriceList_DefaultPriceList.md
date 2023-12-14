@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 615,
-  "ERPPriceListKey": "nemo",
-  "QuoteConnectionId": 590,
-  "Name": "Fisher-Boyer",
-  "Description": "Streamlined stable frame",
-  "Currency": "deserunt",
-  "CurrencyName": "Murray, Cronin and Lueilwitz",
-  "ValidFrom": "2018-10-10T13:38:18.1087815+02:00",
-  "ValidTo": "2001-09-17T13:38:18.1087815+02:00",
-  "IsActive": false,
+  "PriceListId": 259,
+  "ERPPriceListKey": "maxime",
+  "QuoteConnectionId": 861,
+  "Name": "Hane, Beahan and Stoltenberg",
+  "Description": "Centralized systemic Graphic Interface",
+  "Currency": "eveniet",
+  "CurrencyName": "Brown Group",
+  "ValidFrom": "2014-11-22T13:57:19.8440154+01:00",
+  "ValidTo": "2019-05-22T13:57:19.8440154+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 833
+      "FieldType": "System.Int32",
+      "FieldLength": 171
     }
   }
 }

@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 524,
-  "Name": "Leannon, Mante and Schumm",
-  "Description": "Face to face intangible leverage",
+  "ProjectId": 31,
+  "Name": "Haag, Green and Swaniawski",
+  "Description": "Horizontal homogeneous archive",
   "URL": "http://www.example.com/",
-  "Type": "porro",
-  "AssociateId": 912,
-  "AssociateFullName": "Arthur Murphy III",
-  "TypeId": 860,
-  "Updated": "2012-11-12T13:38:17.5618158+01:00",
-  "StatusId": 735,
+  "Type": "nostrum",
+  "AssociateId": 382,
+  "AssociateFullName": "Mona McDermott",
+  "TypeId": 19,
+  "Updated": "2001-09-24T13:57:19.1090601+02:00",
+  "StatusId": 587,
   "Status": "et",
-  "TextId": 367,
-  "PublishTo": "2007-10-28T13:38:17.5618158+01:00",
-  "PublishFrom": "2023-08-07T13:38:17.5618158+02:00",
+  "TextId": 170,
+  "PublishTo": "2006-01-07T13:57:19.1090601+01:00",
+  "PublishFrom": "2019-07-23T13:57:19.1090601+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "813562",
-  "ActiveErpLinks": 305,
+  "ProjectNumber": "830942",
+  "ActiveErpLinks": 526,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldType": "System.String",
+      "FieldLength": 33
     }
   }
 }

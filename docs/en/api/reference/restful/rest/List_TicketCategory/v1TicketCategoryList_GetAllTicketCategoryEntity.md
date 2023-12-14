@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 535,
-    "ParentId": 949,
-    "Name": "Corkery LLC",
-    "Fullname": "labore",
-    "CategoryMaster": 489,
+    "TicketCategoryId": 483,
+    "ParentId": 856,
+    "Name": "Pfannerstill, Erdman and Emard",
+    "Fullname": "autem",
+    "CategoryMaster": 830,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Kautzer LLC",
+    "ExternalName": "Hansen-Labadie",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 639,
-    "ReplyTemplate": 126,
-    "NotificationEmail": "jesus@wolf.uk",
+    "AssignmentLag": 383,
+    "ReplyTemplate": 605,
+    "NotificationEmail": "fay.kassulke@kertzmann.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 671,
+    "EffectiveReplyTemplateId": 859,
     "ExtraFields": {
-      "ExtraFields1": "vero",
-      "ExtraFields2": "odio"
+      "ExtraFields1": "eveniet",
+      "ExtraFields2": "et"
     },
     "CustomFields": {
-      "CustomFields1": "temporibus",
-      "CustomFields2": "dolores"
+      "CustomFields1": "officia",
+      "CustomFields2": "laboriosam"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 466
+        "FieldLength": 609
       }
     }
   }

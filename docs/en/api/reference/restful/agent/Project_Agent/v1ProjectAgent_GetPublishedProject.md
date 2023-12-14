@@ -94,7 +94,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 38
+  "ProjectId": 338
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 625,
-  "Name": "Hoeger Inc and Sons",
-  "Description": "Re-contextualized bottom-line hierarchy",
+  "ProjectId": 804,
+  "Name": "Hills Inc and Sons",
+  "Description": "Cloned empowering complexity",
   "URL": "http://www.example.com/",
-  "Type": "molestias",
-  "AssociateId": 582,
-  "AssociateFullName": "Ms. Irwin Roscoe Robel II",
-  "TypeId": 182,
-  "Updated": "2020-01-26T13:38:13.9834617+01:00",
-  "StatusId": 524,
-  "Status": "in",
-  "TextId": 194,
-  "PublishTo": "1999-03-16T13:38:13.9834617+01:00",
-  "PublishFrom": "2013-07-27T13:38:13.9834617+02:00",
-  "IsPublished": true,
+  "Type": "eveniet",
+  "AssociateId": 963,
+  "AssociateFullName": "Ms. Wiley Powlowski V",
+  "TypeId": 932,
+  "Updated": "2023-02-21T13:57:13.0011314+01:00",
+  "StatusId": 148,
+  "Status": "quam",
+  "TextId": 208,
+  "PublishTo": "2013-01-17T13:57:13.0011314+01:00",
+  "PublishFrom": "2009-03-31T13:57:13.0011314+02:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1062422",
-  "ActiveErpLinks": 593,
+  "ProjectNumber": "928360",
+  "ActiveErpLinks": 455,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldType": "System.String",
+      "FieldLength": 33
     }
   }
 }

@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=est
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=velit
 ```
 
 
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 09 Feb 2022 13:38:17 G2T
+Last-Modified: Fri, 25 Jan 2008 13:57:18 G1T
 
 {
-  "Key": "at",
-  "Value": "voluptas",
-  "RecordId": 290,
-  "CreatedDate": "2011-04-27T13:38:17.4524494+02:00",
-  "UpdatedDate": "2022-02-09T13:38:17.4524494+01:00",
-  "UpdatedBy": "error",
-  "CreatedBy": "quod",
-  "TableName": "VonRueden-Daugherty",
+  "Key": "doloremque",
+  "Value": "labore",
+  "RecordId": 33,
+  "CreatedDate": "2022-03-21T13:57:18.8265985+01:00",
+  "UpdatedDate": "2008-01-25T13:57:18.8265985+01:00",
+  "UpdatedBy": "quos",
+  "CreatedBy": "nesciunt",
+  "TableName": "Jacobs LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldLength": 387
     }
   }
 }

@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Ratke Group",
-  "External": true
+  "ProgramName": "Block, Tromp and Hettinger",
+  "External": false
 }
 ```
 

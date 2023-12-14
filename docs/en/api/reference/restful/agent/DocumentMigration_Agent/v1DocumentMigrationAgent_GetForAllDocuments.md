@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 912,
+  "DocumentPluginId": 274,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 2,
-  "NumDocumentsAlreadyMigrated": 65,
+  "NumDocumentsOmitted": 619,
+  "NumDocumentsAlreadyMigrated": 494,
   "Documents": [
     {
-      "DocumentId": 518,
-      "ContactId": 70,
-      "PersonId": 929,
-      "SaleId": 897,
-      "ProjectId": 914,
-      "DocTmplId": 780,
-      "AssociateId": 236,
-      "UserGroupId": 340,
-      "VisibleForId": 854
+      "DocumentId": 502,
+      "ContactId": 122,
+      "PersonId": 287,
+      "SaleId": 27,
+      "ProjectId": 13,
+      "DocTmplId": 943,
+      "AssociateId": 998,
+      "UserGroupId": 442,
+      "VisibleForId": 552
     }
   ],
   "Associates": [
     {
-      "AssociateId": 491,
-      "EmailAddress": "josefa_kovacek@hirtheklocko.uk"
+      "AssociateId": 623,
+      "EmailAddress": "nathanael.denesik@mueller.com"
     },
     {
-      "AssociateId": 491,
-      "EmailAddress": "josefa_kovacek@hirtheklocko.uk"
+      "AssociateId": 623,
+      "EmailAddress": "nathanael.denesik@mueller.com"
     }
   ]
 }

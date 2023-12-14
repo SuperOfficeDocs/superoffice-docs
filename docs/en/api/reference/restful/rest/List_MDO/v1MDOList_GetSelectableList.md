@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=sit
+GET /api/v1/MDOList/{listname}/selectable?additional=quae
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 622,
-    "Name": "Sporer Group",
-    "ToolTip": "Necessitatibus et architecto.",
+    "Id": 376,
+    "Name": "Mann-Hartmann",
+    "ToolTip": "Dicta dicta occaecati officiis facere saepe debitis.",
     "Deleted": false,
-    "Rank": 962,
-    "Type": "optio",
-    "ColorBlock": 504,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2013-11-16T13:38:18.0775324+01:00",
+    "Rank": 87,
+    "Type": "autem",
+    "ColorBlock": 752,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2018-06-10T13:57:19.7815186+02:00",
     "ChildItems": [
       {
-        "Id": 586,
-        "Name": "Lowe LLC",
-        "ToolTip": "Consectetur dicta quas aut molestiae nobis.",
+        "Id": 274,
+        "Name": "Hyatt-Anderson",
+        "ToolTip": "Asperiores possimus iure debitis corporis debitis et commodi.",
         "Deleted": true,
-        "Rank": 575,
-        "Type": "cumque",
-        "ColorBlock": 139,
-        "IconHint": "non",
+        "Rank": 140,
+        "Type": "voluptas",
+        "ColorBlock": 397,
+        "IconHint": "animi",
         "Selected": false,
-        "LastChanged": "2021-12-14T13:38:18.0775324+01:00",
+        "LastChanged": "2018-10-18T13:57:19.7815186+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Robb Parker",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "ducimus",
+        "Hidden": false,
+        "FullName": "Carlos Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 473
+            "FieldType": "System.String",
+            "FieldLength": 905
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "magnam",
+    "ExtraInfo": "aut",
+    "StyleHint": "voluptates",
     "Hidden": true,
-    "FullName": "Sim Kuhlman",
+    "FullName": "Dr. Brooke Chester Okuneva Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldType": "System.String",
+        "FieldLength": 233
       }
     }
   }

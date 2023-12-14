@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Renner, Windler and DuBuque",
-    "Stracke-Bernier"
+    "Wiegand Inc and Sons",
+    "Goyette Group"
   ],
-  "Culture": "expedita"
+  "Culture": "sit"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Crist LLC",
-    "ResourceValue": "magnam",
-    "Culture": "facere",
+    "ResourceName": "Feest-Lindgren",
+    "ResourceValue": "omnis",
+    "Culture": "repellendus",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldType": "System.String",
+        "FieldLength": 74
       }
     }
   },
   {
-    "ResourceName": "Crist LLC",
-    "ResourceValue": "magnam",
-    "Culture": "facere",
+    "ResourceName": "Feest-Lindgren",
+    "ResourceValue": "omnis",
+    "Culture": "repellendus",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldType": "System.String",
+        "FieldLength": 74
       }
     }
   }

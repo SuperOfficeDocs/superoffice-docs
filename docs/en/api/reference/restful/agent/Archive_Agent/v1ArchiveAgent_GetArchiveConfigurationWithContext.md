@@ -84,9 +84,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Renner-Roob",
-  "ProviderName": "Upton-Price",
-  "Context": "tempore"
+  "GuiName": "Hane LLC",
+  "ProviderName": "Pfeffer Group",
+  "Context": "molestiae"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Carter-Lockman",
-      "DisplayTooltip": "quia",
-      "DisplayType": "ut",
+      "DisplayName": "Anderson Inc and Sons",
+      "DisplayTooltip": "sequi",
+      "DisplayType": "quibusdam",
       "CanOrderBy": false,
-      "Name": "Dickens-McCullough",
+      "Name": "Aufderhar, Kessler and Hudson",
       "CanRestrictBy": false,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Willms, Heidenreich and Treutel",
-      "IsVisible": true,
-      "ExtraInfo": "molestiae",
-      "Width": "assumenda",
-      "IconHint": "repudiandae",
-      "HeadingIconHint": "aut"
+      "RestrictionType": "dicta",
+      "RestrictionListName": "Ebert Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "omnis",
+      "Width": "enim",
+      "IconHint": "veniam",
+      "HeadingIconHint": "harum"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 274,
-      "Name": "Metz, DuBuque and Tremblay",
-      "ToolTip": "Optio reiciendis suscipit est quidem odio est.",
-      "Deleted": false,
-      "Rank": 554,
-      "Type": "rerum",
-      "ColorBlock": 913,
-      "IconHint": "nostrum",
-      "Selected": false,
-      "LastChanged": "2011-03-27T13:38:13.0615453+02:00",
+      "Id": 648,
+      "Name": "Bednar Inc and Sons",
+      "ToolTip": "Sit voluptatum delectus.",
+      "Deleted": true,
+      "Rank": 851,
+      "Type": "nobis",
+      "ColorBlock": 988,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2019-10-09T13:57:11.512557+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "excepturi",
-      "StyleHint": "minima",
-      "Hidden": true,
-      "FullName": "Mr. Bradly Erica Durgan I",
+      "ExtraInfo": "quia",
+      "StyleHint": "repellat",
+      "Hidden": false,
+      "FullName": "Alysson Feil MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldLength": 760
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Medhurst, Stark and Orn",
+      "Name": "Schultz, Bergstrom and Cremin",
       "Direction": "ASC"
     },
     {
-      "Name": "Medhurst, Stark and Orn",
+      "Name": "Schultz, Bergstrom and Cremin",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "nihil",
+  "OwnerKeys": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldType": "System.String",
+      "FieldLength": 199
     }
   }
 }

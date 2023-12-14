@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 334,
-  "Name": "Mosciski, Farrell and Daugherty",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 945,
-  "UdListDefinitionId": 65
+  "HeadingId": 648,
+  "Name": "Blick Inc and Sons",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 893,
+  "UdListDefinitionId": 938
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 215,
-  "Name": "Johns Group",
-  "Tooltip": "unde",
+  "HeadingId": 200,
+  "Name": "Feeney-Jaskolski",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 355,
-  "UdListDefinitionId": 865,
+  "Rank": 339,
+  "UdListDefinitionId": 424,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldLength": 5
     }
   }
 }

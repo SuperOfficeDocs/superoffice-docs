@@ -27,7 +27,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=tempore
+GET /api/v1/List/Priority/MDOItems?query=pariatur
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "Stanton-Rutherford",
-    "ToolTip": "Ipsum aliquid qui voluptatem porro et ipsam et.",
-    "Deleted": false,
-    "Rank": 752,
-    "Type": "inventore",
+    "Id": 807,
+    "Name": "Harvey Inc and Sons",
+    "ToolTip": "Omnis sunt aut occaecati non voluptatem nam.",
+    "Deleted": true,
+    "Rank": 389,
+    "Type": "similique",
     "ChildItems": [
       {
-        "Id": 66,
-        "Name": "Smitham-Kuhlman",
-        "ToolTip": "Perferendis a.",
+        "Id": 486,
+        "Name": "Hagenes-Hamill",
+        "ToolTip": "Aut ullam eum magni sit.",
         "Deleted": false,
-        "Rank": 595,
-        "Type": "molestiae",
+        "Rank": 945,
+        "Type": "eius",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "numquam",
-        "ColorBlock": 435,
-        "ExtraInfo": "optio",
-        "StyleHint": "facere",
-        "FullName": "Maritza Goyette",
+        "IconHint": "animi",
+        "ColorBlock": 49,
+        "ExtraInfo": "est",
+        "StyleHint": "optio",
+        "FullName": "Breana Marks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 451
+            "FieldType": "System.String",
+            "FieldLength": 728
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 846,
-    "ExtraInfo": "rem",
-    "StyleHint": "nobis",
-    "FullName": "Annalise Robel",
+    "IconHint": "enim",
+    "ColorBlock": 363,
+    "ExtraInfo": "et",
+    "StyleHint": "dolorem",
+    "FullName": "Dr. Rocio Zakary Veum V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 121
+        "FieldType": "System.Int32",
+        "FieldLength": 344
       }
     }
   }

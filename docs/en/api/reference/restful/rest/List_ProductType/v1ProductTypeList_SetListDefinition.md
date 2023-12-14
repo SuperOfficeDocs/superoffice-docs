@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 494,
-  "Name": "Altenwerth LLC",
-  "Tooltip": "aliquid",
-  "Deleted": false,
-  "Rank": 881,
+  "Id": 990,
+  "Name": "Heaney LLC",
+  "Tooltip": "enim",
+  "Deleted": true,
+  "Rank": 779,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sed",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "enim",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 289,
-  "Name": "Flatley, Shanahan and Bailey",
-  "Tooltip": "eligendi",
+  "Id": 31,
+  "Name": "Kris-Runolfsson",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 160,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 446,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quaerat",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sunt",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 242
+      "FieldLength": 937
     }
   }
 }

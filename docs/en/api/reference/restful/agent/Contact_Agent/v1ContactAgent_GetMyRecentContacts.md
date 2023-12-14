@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 117,
-    "Name": "Kuhlman, Dietrich and Berge",
-    "OrgNr": "1318373",
-    "Department": "streamline proactive technologies",
+    "ContactId": 795,
+    "Name": "Doyle, Runte and Jakubowski",
+    "OrgNr": "1159215",
+    "Department": "",
     "URL": "http://www.example.com/",
-    "City": "nihil",
-    "DirectPhone": "(944)511-1159",
-    "AssociateId": 940,
-    "CountryId": 858,
-    "EmailAddress": "kenyon@pacocha.ca",
-    "Kananame": "necessitatibus",
-    "EmailAddressName": "nayeli@cronin.biz",
+    "City": "alias",
+    "DirectPhone": "631.251.7967",
+    "AssociateId": 704,
+    "CountryId": 765,
+    "EmailAddress": "virgil@lubowitz.ca",
+    "Kananame": "nulla",
+    "EmailAddressName": "maryam@wymanweber.info",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Dylan Hane",
+    "AssociateFullName": "Loy Hickle",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "exercitationem",
-    "FullName": "Miss Arnaldo Jackeline Klein MD",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 531,
-    "Number1": "1212314",
-    "Number2": "630192",
+    "FormattedAddress": "optio",
+    "FullName": "Phyllis Grady",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 939,
+    "Number1": "1425802",
+    "Number2": "510136",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 175
+        "FieldType": "System.String",
+        "FieldLength": 514
       }
     }
   }

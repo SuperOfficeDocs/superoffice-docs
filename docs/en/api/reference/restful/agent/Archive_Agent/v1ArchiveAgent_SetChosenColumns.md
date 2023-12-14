@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Gorczany-Senger",
-  "ProviderName": "Gulgowski, Rohan and Casper",
+  "GuiName": "Wisozk, Heaney and Reinger",
+  "ProviderName": "Lehner Group",
   "ChosenColumns": [
-    "ullam",
-    "qui"
+    "aut",
+    "sed"
   ]
 }
 ```

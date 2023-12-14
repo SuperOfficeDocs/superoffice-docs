@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dach Inc and Sons",
+  "Name": "Kreiger-Harris",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 849,
-    "Name": "Sawayn, Beahan and Schoen",
-    "AssociateId": 65,
-    "DetailsTable": 636,
-    "DetailsRecord": 90,
+    "Id": 202,
+    "Name": "Heaney-Mante",
+    "AssociateId": 370,
+    "DetailsTable": 84,
+    "DetailsRecord": 967,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "consectetur",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "commodi",
+      "ParameterObject2": "consectetur"
     },
-    "LastStarted": "2009-01-11T13:38:13.0927968+01:00",
-    "Created": "2007-07-16T13:38:13.0927968+02:00",
-    "StartCount": 531,
-    "DatabaseSerialNumber": "1282873",
-    "Context": "doloremque",
-    "Result": "harum",
+    "LastStarted": "2006-04-26T13:57:11.5594343+02:00",
+    "Created": "2014-09-25T13:57:11.5594343+02:00",
+    "StartCount": 74,
+    "DatabaseSerialNumber": "928676",
+    "Context": "quae",
+    "Result": "id",
     "State": "All",
-    "Description": "Upgradable intangible definition",
-    "Response": "ab",
-    "Request": "officia",
-    "ProgressDescription": "Synchronised content-based infrastructure",
-    "ProgressPercent": 557,
-    "FileName": "Stanton-Balistreri",
+    "Description": "Polarised 4th generation Graphical User Interface",
+    "Response": "labore",
+    "Request": "incidunt",
+    "ProgressDescription": "Mandatory leading edge core",
+    "ProgressPercent": 297,
+    "FileName": "Gerlach, Quitzon and Parisian",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 817
       }
     }
   }

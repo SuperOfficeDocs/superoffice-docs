@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 162,
-    "Name": "Torphy-Stanton",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 111,
-    "UdListDefinitionId": 386
+    "HeadingId": 985,
+    "Name": "Hagenes, Powlowski and Windler",
+    "Tooltip": "ratione",
+    "Deleted": false,
+    "Rank": 616,
+    "UdListDefinitionId": 464
   },
   {
-    "HeadingId": 162,
-    "Name": "Torphy-Stanton",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 111,
-    "UdListDefinitionId": 386
+    "HeadingId": 985,
+    "Name": "Hagenes, Powlowski and Windler",
+    "Tooltip": "ratione",
+    "Deleted": false,
+    "Rank": 616,
+    "UdListDefinitionId": 464
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 734,
-    "Name": "Jewess, Green and Rippin",
-    "Tooltip": "ut",
+    "HeadingId": 225,
+    "Name": "Hansen LLC",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "Rank": 850,
-    "UdListDefinitionId": 181,
+    "Rank": 322,
+    "UdListDefinitionId": 943,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 668
+        "FieldLength": 407
       }
     }
   }

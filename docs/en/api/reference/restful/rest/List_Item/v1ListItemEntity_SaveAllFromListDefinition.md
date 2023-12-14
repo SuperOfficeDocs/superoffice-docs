@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 730,
-    "Name": "Beahan, Bernier and Borer",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "UdListDefinitionId": 125,
-    "Rank": 67
+    "Id": 392,
+    "Name": "Kuphal Inc and Sons",
+    "Tooltip": "nam",
+    "Deleted": false,
+    "UdListDefinitionId": 658,
+    "Rank": 626
   },
   {
-    "Id": 730,
-    "Name": "Beahan, Bernier and Borer",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "UdListDefinitionId": 125,
-    "Rank": 67
+    "Id": 392,
+    "Name": "Kuphal Inc and Sons",
+    "Tooltip": "nam",
+    "Deleted": false,
+    "UdListDefinitionId": 658,
+    "Rank": 626
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 965,
-    "Name": "Rosenbaum Inc and Sons",
-    "Tooltip": "neque",
+    "Id": 400,
+    "Name": "Hansen-Casper",
+    "Tooltip": "in",
     "Deleted": false,
-    "UdListDefinitionId": 363,
-    "Rank": 971,
+    "UdListDefinitionId": 586,
+    "Rank": 633,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldType": "System.String",
+        "FieldLength": 485
       }
     }
   }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 847,
-    "Name": "Stark-McKenzie",
-    "CurrencyId": 450,
-    "EnglishName": "Reinger, Boyer and Abbott",
+    "CountryId": 747,
+    "Name": "Aufderhar-Waelchi",
+    "CurrencyId": 975,
+    "EnglishName": "Turcotte Inc and Sons",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Function-based web-enabled encoding",
-    "OrgNrText": "935693",
-    "InterAreaPrefix": "fuga",
-    "DialInPrefix": "odit",
-    "ZipPrefix": "quia",
-    "DomainName": "Sauer, Kerluke and Rempel",
-    "AddressLayoutId": 241,
-    "DomesticAddressLayoutId": 517,
-    "ForeignAddressLayoutId": 372,
-    "Rank": 531,
-    "Tooltip": "perferendis",
-    "Deleted": false,
+    "ImageDescription": "Reverse-engineered cohesive process improvement",
+    "OrgNrText": "668614",
+    "InterAreaPrefix": "alias",
+    "DialInPrefix": "ut",
+    "ZipPrefix": "consectetur",
+    "DomainName": "Rippin, Carter and Trantow",
+    "AddressLayoutId": 582,
+    "DomesticAddressLayoutId": 640,
+    "ForeignAddressLayoutId": 815,
+    "Rank": 73,
+    "Tooltip": "vero",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 912
+        "FieldType": "System.Int32",
+        "FieldLength": 6
       }
     }
   }

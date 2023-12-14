@@ -79,40 +79,40 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "fugiat",
-  "UserPrompt": "voluptatem",
-  "DisplayValue": "placeat",
+  "IsoLangCode": "itaque",
+  "UserPrompt": "accusamus",
+  "DisplayValue": "quaerat",
   "PreviousTurns": [
     {
-      "Timestamp": "2014-01-31T13:38:12.8271613+01:00",
-      "UserPrompt": "voluptas",
-      "UserDisplayText": "rerum",
-      "BotResponse": "non",
+      "Timestamp": "2009-01-16T13:57:11.1056483+01:00",
+      "UserPrompt": "dolores",
+      "UserDisplayText": "et",
+      "BotResponse": "corporis",
       "BotActions": {
-        "BotActions1": "non",
-        "BotActions2": "delectus"
+        "BotActions1": "dolorem",
+        "BotActions2": "modi"
       },
       "Attachments": [
-        "officia",
-        "sit"
+        "accusamus",
+        "mollitia"
       ]
     },
     {
-      "Timestamp": "2014-01-31T13:38:12.8271613+01:00",
-      "UserPrompt": "voluptas",
-      "UserDisplayText": "rerum",
-      "BotResponse": "non",
+      "Timestamp": "2009-01-16T13:57:11.1056483+01:00",
+      "UserPrompt": "dolores",
+      "UserDisplayText": "et",
+      "BotResponse": "corporis",
       "BotActions": {
-        "BotActions1": "non",
-        "BotActions2": "delectus"
+        "BotActions1": "dolorem",
+        "BotActions2": "modi"
       },
       "Attachments": [
-        "officia",
-        "sit"
+        "accusamus",
+        "mollitia"
       ]
     }
   ]
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2019-10-08T13:38:12.8271613+02:00",
-  "UserPrompt": "vel",
-  "UserDisplayText": "quo",
-  "BotResponse": "error",
+  "Timestamp": "2022-09-23T13:57:11.1056483+02:00",
+  "UserPrompt": "reiciendis",
+  "UserDisplayText": "tenetur",
+  "BotResponse": "ea",
   "BotActions": {
-    "BotActions1": "aliquid",
-    "BotActions2": "natus"
+    "BotActions1": "odit",
+    "BotActions2": "exercitationem"
   },
   "Attachments": [
-    "sequi",
-    "voluptatem"
+    "sunt",
+    "libero"
   ]
 }
 ```

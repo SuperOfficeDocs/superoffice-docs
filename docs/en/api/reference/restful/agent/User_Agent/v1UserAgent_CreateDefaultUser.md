@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 834,
-  "Name": "Spencer Group",
-  "Rank": 123,
-  "Tooltip": "sunt",
+  "AssociateId": 908,
+  "Name": "Douglas-Ondricka",
+  "Rank": 381,
+  "Tooltip": "odit",
   "LicenseOwners": [
     {
-      "Name": "O'Reilly Group",
-      "Description": "Phased solution-oriented synergy",
+      "Name": "Ferry, Jakubowski and Lindgren",
+      "Description": "Persistent motivating service-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,13 +115,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 98
         }
       }
     },
     {
-      "Name": "O'Reilly Group",
-      "Description": "Phased solution-oriented synergy",
+      "Name": "Ferry, Jakubowski and Lindgren",
+      "Description": "Persistent motivating service-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 98
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ea",
-      "Tooltip": "mollitia",
-      "Id": 303,
-      "Rank": 144,
-      "Deleted": true,
+      "Value": "ad",
+      "Tooltip": "dolor",
+      "Id": 251,
+      "Rank": 605,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 2
+          "FieldType": "System.Int32",
+          "FieldLength": 457
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2007-10-13T13:38:14.342802+02:00",
-  "Lastlogout": "2023-06-04T13:38:14.342802+02:00",
-  "EjUserId": 511,
-  "RequestSignature": "omnis",
+  "Lastlogin": "2016-10-16T13:57:13.5208394+02:00",
+  "Lastlogout": "2005-12-11T13:57:13.5208394+01:00",
+  "EjUserId": 856,
+  "RequestSignature": "mollitia",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ex",
-      "DisplayValue": "sapiente",
+      "Value": "eius",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldLength": 959
         }
       }
     },
     {
       "Type": null,
-      "Value": "ex",
-      "DisplayValue": "sapiente",
+      "Value": "eius",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldLength": 959
         }
       }
     }
   ],
-  "UserName": "Collins, Reichert and Spinka",
+  "UserName": "Kreiger-Johns",
   "TicketCategories": [
     {
-      "Id": 457,
-      "Name": "Cormier, Kassulke and Robel",
-      "ToolTip": "Magni nulla dolores.",
+      "Id": 274,
+      "Name": "Gleason-Konopelski",
+      "ToolTip": "Rerum sit non.",
       "Deleted": false,
-      "Rank": 5,
-      "Type": "in",
+      "Rank": 777,
+      "Type": "perferendis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "fugit",
-      "ColorBlock": 110,
-      "ExtraInfo": "optio",
-      "StyleHint": "exercitationem",
-      "FullName": "Juston Torphy",
+      "IconHint": "autem",
+      "ColorBlock": 516,
+      "ExtraInfo": "molestiae",
+      "StyleHint": "quam",
+      "FullName": "Marge Bogisich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 474
         }
       }
     }
   ],
-  "NickName": "Bruen-Roob",
-  "WaitingForApproval": true,
+  "NickName": "Kling LLC",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "ullam",
-    "ExtraFields2": "earum"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "veritatis"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "quae"
+    "CustomFields1": "placeat",
+    "CustomFields2": "esse"
   },
   "PostSaveCommands": [
     {
-      "Name": "Reinger, Breitenberg and Spinka",
-      "DisplayName": "Smith, Reinger and Kertzmann",
-      "Description": "Re-contextualized encompassing ability",
-      "ToolTip": "Officiis consequatur sunt reiciendis sed delectus officiis.",
+      "Name": "Langosh-Walter",
+      "DisplayName": "Bauch, Schroeder and Satterfield",
+      "Description": "Assimilated well-modulated service-desk",
+      "ToolTip": "Vel vel ullam.",
       "Actions": "Implicit",
-      "ActionData": "ut",
+      "ActionData": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 231
+          "FieldLength": 793
         }
       }
     }
@@ -257,7 +257,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 170
     }
   }
 }

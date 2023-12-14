@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 910,
-  "CredentialType": "minima",
-  "CredentialValue": "neque",
-  "CredentialDisplayValue": "consectetur"
+  "ContactId": 568,
+  "CredentialType": "velit",
+  "CredentialValue": "dignissimos",
+  "CredentialDisplayValue": "quas"
 }
 ```
 
@@ -122,14 +122,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 591,
-  "Name": "O'Kon Inc and Sons",
-  "Rank": 494,
-  "Tooltip": "corporis",
+  "AssociateId": 653,
+  "Name": "Gerlach, Padberg and Parker",
+  "Rank": 591,
+  "Tooltip": "ipsa",
   "LicenseOwners": [
     {
-      "Name": "Cormier, Collier and Howell",
-      "Description": "Public-key 4th generation moratorium",
+      "Name": "Dooley-Volkman",
+      "Description": "Open-architected executive utilisation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldLength": 919
         }
       }
     },
     {
-      "Name": "Cormier, Collier and Howell",
-      "Description": "Public-key 4th generation moratorium",
+      "Name": "Dooley-Volkman",
+      "Description": "Open-architected executive utilisation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldLength": 919
         }
       }
     }
@@ -172,110 +172,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "perspiciatis",
-      "Tooltip": "illo",
-      "Id": 954,
-      "Rank": 770,
-      "Deleted": true,
+      "Value": "ab",
+      "Tooltip": "qui",
+      "Id": 756,
+      "Rank": 834,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 787
+          "FieldLength": 330
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2012-06-10T13:38:14.327173+02:00",
-  "Lastlogout": "1999-07-19T13:38:14.327173+02:00",
-  "EjUserId": 423,
-  "RequestSignature": "temporibus",
+  "Lastlogin": "2020-01-26T13:57:13.5052139+01:00",
+  "Lastlogout": "2002-06-14T13:57:13.5052139+02:00",
+  "EjUserId": 948,
+  "RequestSignature": "dolores",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "consectetur",
-      "DisplayValue": "ratione",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 72
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "consectetur",
-      "DisplayValue": "ratione",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 72
-        }
-      }
-    }
-  ],
-  "UserName": "Deckow-Streich",
-  "TicketCategories": [
-    {
-      "Id": 510,
-      "Name": "Ondricka-Jacobs",
-      "ToolTip": "Eos ut explicabo.",
-      "Deleted": true,
-      "Rank": 589,
-      "Type": "corrupti",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "laudantium",
-      "ColorBlock": 826,
-      "ExtraInfo": "autem",
-      "StyleHint": "maiores",
-      "FullName": "Fletcher Ledner",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 253
-        }
-      }
-    }
-  ],
-  "NickName": "Bernhard-Cruickshank",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "quibusdam",
-    "ExtraFields2": "doloremque"
-  },
-  "CustomFields": {
-    "CustomFields1": "tenetur",
-    "CustomFields2": "ipsam"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Reynolds Inc and Sons",
-      "DisplayName": "Von, Mertz and Farrell",
-      "Description": "Multi-layered leading edge circuit",
-      "ToolTip": "Ducimus eos nisi impedit perferendis.",
-      "Actions": "Implicit",
-      "ActionData": "corrupti",
+      "Value": "voluptas",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 788
+          "FieldLength": 769
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "voluptas",
+      "DisplayValue": "repellat",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 769
+        }
+      }
+    }
+  ],
+  "UserName": "Johnson-Swaniawski",
+  "TicketCategories": [
+    {
+      "Id": 255,
+      "Name": "Smith, Kuhic and Wilkinson",
+      "ToolTip": "Animi iure et maxime nisi dolorem.",
+      "Deleted": false,
+      "Rank": 500,
+      "Type": "eveniet",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "debitis",
+      "ColorBlock": 417,
+      "ExtraInfo": "repellendus",
+      "StyleHint": "eos",
+      "FullName": "Mrs. Columbus Pagac",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 738
+        }
+      }
+    }
+  ],
+  "NickName": "Rath, Bashirian and Keebler",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "repellat"
+  },
+  "CustomFields": {
+    "CustomFields1": "tenetur",
+    "CustomFields2": "laborum"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kris, Kub and O'Kon",
+      "DisplayName": "Rempel Group",
+      "Description": "Open-source reciprocal initiative",
+      "ToolTip": "Et suscipit sed ex autem.",
+      "Actions": "Implicit",
+      "ActionData": "dignissimos",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 16
         }
       }
     }
@@ -284,8 +284,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldType": "System.String",
+      "FieldLength": 660
     }
   }
 }

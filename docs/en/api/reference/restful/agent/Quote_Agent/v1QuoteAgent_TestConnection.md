@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Abshire-Heidenreich",
+  "ConnectorName": "Zboncak, Parker and Miller",
   "ConnectionData": {
-    "ConnectionData1": "veniam",
-    "ConnectionData2": "cumque"
+    "ConnectionData1": "debitis",
+    "ConnectionData2": "officiis"
   }
 }
 ```
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "aut",
-  "TechExplanation": "nihil",
-  "ErrorCode": "facere",
+  "UserExplanation": "ad",
+  "TechExplanation": "accusantium",
+  "ErrorCode": "porro",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldType": "System.String",
+      "FieldLength": 933
     }
   }
 }

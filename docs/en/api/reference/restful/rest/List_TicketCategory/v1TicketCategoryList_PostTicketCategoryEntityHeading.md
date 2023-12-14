@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 557,
-  "Name": "Schumm Inc and Sons",
-  "Tooltip": "et",
+  "HeadingId": 630,
+  "Name": "Jacobson-Braun",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 553,
-  "UdListDefinitionId": 496
+  "Rank": 751,
+  "UdListDefinitionId": 115
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 251,
-  "Name": "Shields-Mosciski",
-  "Tooltip": "iusto",
+  "HeadingId": 424,
+  "Name": "Kshlerin-Cronin",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 291,
-  "UdListDefinitionId": 783,
+  "Rank": 513,
+  "UdListDefinitionId": 69,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldLength": 600
     }
   }
 }

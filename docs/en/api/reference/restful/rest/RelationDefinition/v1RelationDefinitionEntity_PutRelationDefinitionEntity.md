@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 137,
-  "Name": "Rohan, Jast and Greenholt",
-  "Tooltip": "ipsum",
-  "PassiveText": "mollitia",
-  "Deleted": false,
-  "Rank": 641,
+  "ReldefId": 445,
+  "Name": "Kshlerin Group",
+  "Tooltip": "assumenda",
+  "PassiveText": "accusantium",
+  "Deleted": true,
+  "Rank": 685,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,20 +115,20 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 987,
-  "Name": "Jones, Hettinger and Quitzon",
-  "Tooltip": "consequatur",
-  "PassiveText": "sapiente",
+  "ReldefId": 543,
+  "Name": "Herzog, Jacobson and Altenwerth",
+  "Tooltip": "et",
+  "PassiveText": "excepturi",
   "Deleted": false,
-  "Rank": 885,
+  "Rank": 670,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldType": "System.String",
+      "FieldLength": 412
     }
   },
   "_Links": {

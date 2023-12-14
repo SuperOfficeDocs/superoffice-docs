@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 98,
-  "Name": "Herzog-Dickens",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "Rank": 858,
-  "IsCustomList": true,
+  "Id": 613,
+  "Name": "Price Inc and Sons",
+  "Tooltip": "vitae",
+  "Deleted": false,
+  "Rank": 613,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sed",
+  "UseGroupsAndHeadings": true,
+  "ListType": "molestias",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldLength": 705
     }
   }
 }

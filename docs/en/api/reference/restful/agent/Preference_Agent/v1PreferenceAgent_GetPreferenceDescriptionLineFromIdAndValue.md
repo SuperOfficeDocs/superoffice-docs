@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 883,
-  "PrefValue": "accusantium"
+  "PrefDescId": 487,
+  "PrefValue": "ut"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 185,
-  "PrefDescId": 528,
+  "PrefDescLineId": 866,
+  "PrefDescId": 383,
   "PrefValue": "et",
-  "PrefShowValue": "ad",
-  "Description": "Down-sized attitude-oriented interface",
+  "PrefShowValue": "et",
+  "Description": "Versatile grid-enabled system engine",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 246
     }
   }
 }

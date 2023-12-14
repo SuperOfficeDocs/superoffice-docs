@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 544,
-    "Name": "Shields Inc and Sons",
-    "Tooltip": "aperiam",
+    "HeadingId": 201,
+    "Name": "Sporer Inc and Sons",
+    "Tooltip": "exercitationem",
     "Deleted": false,
-    "Rank": 499,
-    "UdListDefinitionId": 338
+    "Rank": 139,
+    "UdListDefinitionId": 856
   },
   {
-    "HeadingId": 544,
-    "Name": "Shields Inc and Sons",
-    "Tooltip": "aperiam",
+    "HeadingId": 201,
+    "Name": "Sporer Inc and Sons",
+    "Tooltip": "exercitationem",
     "Deleted": false,
-    "Rank": 499,
-    "UdListDefinitionId": 338
+    "Rank": 139,
+    "UdListDefinitionId": 856
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 691,
-    "Name": "O'Hara, Reichert and Jakubowski",
-    "Tooltip": "reiciendis",
-    "Deleted": false,
-    "Rank": 735,
-    "UdListDefinitionId": 541,
+    "HeadingId": 803,
+    "Name": "Hoppe Inc and Sons",
+    "Tooltip": "officiis",
+    "Deleted": true,
+    "Rank": 904,
+    "UdListDefinitionId": 165,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 181
+        "FieldLength": 46
       }
     }
   }

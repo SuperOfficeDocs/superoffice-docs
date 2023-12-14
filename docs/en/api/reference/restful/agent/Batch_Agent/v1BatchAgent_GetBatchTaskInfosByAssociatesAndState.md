@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    177,
-    780
+    917,
+    848
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Herman-Morissette",
-    "AssociateId": 912,
-    "DetailsTable": 925,
-    "DetailsRecord": 281,
+    "Id": 884,
+    "Name": "Kuphal, Farrell and Abshire",
+    "AssociateId": 894,
+    "DetailsTable": 544,
+    "DetailsRecord": 576,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ut",
-      "ParameterObject2": "dolore"
+      "ParameterObject1": "hic",
+      "ParameterObject2": "sit"
     },
-    "LastStarted": "2010-08-26T13:38:13.0927968+02:00",
-    "Created": "2016-01-30T13:38:13.0927968+01:00",
-    "StartCount": 788,
-    "DatabaseSerialNumber": "1058316",
-    "Context": "quae",
-    "Result": "at",
+    "LastStarted": "2006-05-24T13:57:11.5594343+02:00",
+    "Created": "2023-05-08T13:57:11.5594343+02:00",
+    "StartCount": 837,
+    "DatabaseSerialNumber": "1069422",
+    "Context": "sunt",
+    "Result": "qui",
     "State": "All",
-    "Description": "Synergized radical benchmark",
-    "Response": "voluptate",
-    "Request": "aliquid",
-    "ProgressDescription": "Customer-focused high-level challenge",
-    "ProgressPercent": 932,
-    "FileName": "Haley-Hettinger",
+    "Description": "Implemented background middleware",
+    "Response": "quos",
+    "Request": "quaerat",
+    "ProgressDescription": "Seamless mobile methodology",
+    "ProgressPercent": 981,
+    "FileName": "Toy LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 711
+        "FieldLength": 983
       }
     }
   }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gaylord-Koepp"
+  "ApplicationName": "Ruecker Group"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 52,
-  "Name": "West, Auer and Donnelly",
-  "CreatedDate": "2000-01-15T13:38:13.623981+01:00",
-  "UpdatedDate": "2003-01-25T13:38:13.623981+01:00",
+  "ForeignAppId": 780,
+  "Name": "Schowalter, McKenzie and Volkman",
+  "CreatedDate": "2021-07-28T13:57:12.4181107+02:00",
+  "UpdatedDate": "2009-12-03T13:57:12.4181107+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 738,
-      "Name": "McDermott-Ryan",
-      "CreatedDate": "2009-10-10T13:38:13.623981+02:00",
-      "UpdatedDate": "2013-04-17T13:38:13.623981+02:00",
-      "AssociateFullName": "Kaden Renner",
-      "CreatedBy": "sit",
-      "UpdatedBy": "sint",
-      "DeviceIdentifier": "beatae",
-      "ForeignAppId": 395,
+      "ForeignDeviceId": 734,
+      "Name": "Jacobson, Boyer and Greenholt",
+      "CreatedDate": "2013-01-26T13:57:12.4181107+01:00",
+      "UpdatedDate": "2012-07-08T13:57:12.4181107+02:00",
+      "AssociateFullName": "Darrell Barton",
+      "CreatedBy": "sed",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "quo",
+      "ForeignAppId": 285,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 410
+          "FieldLength": 854
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldLength": 806
     }
   }
 }

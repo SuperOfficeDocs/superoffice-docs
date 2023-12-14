@@ -67,7 +67,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Hand, Veum and O'Keefe",
-    "DisplayName": "McCullough, Schuster and Konopelski",
-    "Description": "Reverse-engineered zero tolerance core",
-    "ShortLabel": "numquam",
+    "FieldName": "Hettinger, Gutmann and Haag",
+    "DisplayName": "Kassulke, Rosenbaum and Collins",
+    "Description": "Open-source methodical attitude",
+    "ShortLabel": "reiciendis",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsIndexed": false,
+    "IsMandatory": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 237,
-    "TemplateVariableName": "Crona, Sanford and Welch"
+    "Rank": 465,
+    "TemplateVariableName": "Stiedemann-Russel"
   }
 ]
 ```

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 642,
-    "Name": "Block Inc and Sons",
-    "Tooltip": "blanditiis",
+    "HeadingId": 532,
+    "Name": "Roob-Gusikowski",
+    "Tooltip": "ipsa",
     "Deleted": true,
-    "Rank": 234,
-    "UdListDefinitionId": 444,
+    "Rank": 109,
+    "UdListDefinitionId": 431,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldLength": 747
       }
     }
   }

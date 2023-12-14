@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 159,
-    "Name": "Ritchie-Block",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 453,
-    "Rank": 30
+    "Id": 691,
+    "Name": "Farrell, Grant and Watsica",
+    "Tooltip": "nemo",
+    "Deleted": false,
+    "UdListDefinitionId": 326,
+    "Rank": 462
   },
   {
-    "Id": 159,
-    "Name": "Ritchie-Block",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 453,
-    "Rank": 30
+    "Id": 691,
+    "Name": "Farrell, Grant and Watsica",
+    "Tooltip": "nemo",
+    "Deleted": false,
+    "UdListDefinitionId": 326,
+    "Rank": 462
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 507,
-    "Name": "Nolan Group",
-    "Tooltip": "voluptatem",
+    "Id": 988,
+    "Name": "Mohr-Dicki",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "UdListDefinitionId": 848,
-    "Rank": 456,
+    "UdListDefinitionId": 225,
+    "Rank": 772,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldType": "System.String",
+        "FieldLength": 576
       }
     }
   }

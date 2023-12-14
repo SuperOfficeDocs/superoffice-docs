@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 224
+  "UserGroupId": 214
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 560,
-    "ColumnId": 674,
-    "FieldDefault": "voluptas",
-    "FieldHeight": 894,
-    "FieldLabel": "natus",
-    "FieldLeft": 234,
-    "FieldTop": 331,
+    "UDefFieldId": 22,
+    "ColumnId": 194,
+    "FieldDefault": "eligendi",
+    "FieldHeight": 884,
+    "FieldLabel": "praesentium",
+    "FieldLeft": 666,
+    "FieldTop": 130,
     "FieldType": "Checkbox",
-    "FieldWidth": 317,
-    "FormatMask": "veniam",
-    "HideLabel": false,
+    "FieldWidth": 272,
+    "FormatMask": "quia",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 669,
-    "LabelLeft": 593,
-    "LabelTop": 537,
-    "LabelWidth": 206,
-    "LastVersionId": 162,
-    "ListTableId": 298,
+    "LabelHeight": 738,
+    "LabelLeft": 7,
+    "LabelTop": 703,
+    "LabelWidth": 501,
+    "LastVersionId": 161,
+    "ListTableId": 17,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 793,
-    "ProgId": "quidem",
+    "Page1LineNo": 830,
+    "ProgId": "harum",
     "IsReadOnly": false,
-    "ShortLabel": "odio",
-    "TabOrder": 886,
-    "TextLength": 913,
-    "Tooltip": "harum",
-    "UdefIdentity": 380,
-    "UDListDefinitionId": 22,
+    "ShortLabel": "aperiam",
+    "TabOrder": 476,
+    "TextLength": 33,
+    "Tooltip": "vitae",
+    "UdefIdentity": 336,
+    "UDListDefinitionId": 380,
     "Justification": "Center",
-    "Version": 669,
-    "TemplateVariableName": "Gleason, Runolfsdottir and Mills",
+    "Version": 272,
+    "TemplateVariableName": "Ledner-Jones",
     "HasBeenPublished": false,
-    "MdoListName": "Champlin Group",
+    "MdoListName": "Zboncak LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldType": "System.String",
+        "FieldLength": 550
       }
     }
   }

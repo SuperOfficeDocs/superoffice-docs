@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 920,
+  "HierarchyId": 458,
   "Domain": "Dashboards",
-  "Name": "Kulas-Koepp",
-  "Fullname": "velit",
-  "ParentId": 329,
+  "Name": "Gulgowski LLC",
+  "Fullname": "suscipit",
+  "ParentId": 690,
   "Children": [
     {
-      "HierarchyId": 85,
+      "HierarchyId": 415,
       "Domain": "Dashboards",
-      "Name": "Schaden LLC",
-      "Fullname": "quam",
-      "ParentId": 286,
+      "Name": "Becker Group",
+      "Fullname": "quos",
+      "ParentId": 12,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-11-30T13:38:13.7177215+01:00",
-      "RegisteredAssociateId": 86,
-      "Updated": "2015-09-15T13:38:13.7177215+02:00",
-      "UpdatedAssociateId": 731,
+      "Registered": "2011-07-04T13:57:12.575585+02:00",
+      "RegisteredAssociateId": 206,
+      "Updated": "2014-01-19T13:57:12.575585+01:00",
+      "UpdatedAssociateId": 890,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldLength": 224
         }
       }
     }
   ],
-  "Registered": "2004-02-18T13:38:13.7177215+01:00",
-  "RegisteredAssociateId": 158,
-  "Updated": "2007-07-25T13:38:13.7177215+02:00",
-  "UpdatedAssociateId": 701,
+  "Registered": "2010-08-01T13:57:12.575585+02:00",
+  "RegisteredAssociateId": 113,
+  "Updated": "2007-11-12T13:57:12.575585+01:00",
+  "UpdatedAssociateId": 244,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 788
+      "FieldType": "System.Int32",
+      "FieldLength": 497
     }
   }
 }

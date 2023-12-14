@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Marks Group",
-      "Comment": "sint",
-      "StakeholderRoleId": 112,
-      "CountryId": 553,
-      "PersonId": 966,
-      "EmailDescription": "tyrese_kohler@wilkinsonorn.biz",
-      "EmailId": 11,
-      "EmailAddress": "deven@denesik.ca",
-      "PhoneId": 830,
-      "ContactName": "Bogisich LLC",
-      "ContactId": 488,
-      "SaleId": 843,
-      "Mrmrs": "tempora",
-      "Firstname": "Russ",
-      "MiddleName": "Yost LLC",
-      "Lastname": "Hudson",
-      "SaleStakeholderId": 392,
-      "Rank": 827,
-      "Phone": "1-658-526-4987 x16514"
+      "StakeholderRoleName": "Auer-Stoltenberg",
+      "Comment": "sequi",
+      "StakeholderRoleId": 139,
+      "CountryId": 217,
+      "PersonId": 61,
+      "EmailDescription": "peter@collins.com",
+      "EmailId": 107,
+      "EmailAddress": "michaela_daniel@considine.uk",
+      "PhoneId": 565,
+      "ContactName": "Stanton-Price",
+      "ContactId": 126,
+      "SaleId": 726,
+      "Mrmrs": "aut",
+      "Firstname": "Nikolas",
+      "MiddleName": "Walter-O'Connell",
+      "Lastname": "Batz",
+      "SaleStakeholderId": 806,
+      "Rank": 427,
+      "Phone": "322-712-5005"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Hahn, Treutel and Funk",
-    "Comment": "quia",
-    "StakeholderRoleId": 155,
-    "CountryId": 168,
-    "PersonId": 254,
-    "EmailDescription": "dasia@trantow.uk",
-    "EmailId": 580,
-    "EmailAddress": "jamir.konopelski@bins.com",
-    "PhoneId": 419,
-    "ContactName": "Monahan-Heidenreich",
-    "ContactId": 910,
-    "SaleId": 239,
-    "Mrmrs": "rem",
-    "Firstname": "Domingo",
-    "MiddleName": "Gulgowski-Zulauf",
-    "Lastname": "Thompson",
-    "SaleStakeholderId": 982,
-    "Rank": 561,
-    "Phone": "736.350.1269 x6035",
+    "StakeholderRoleName": "Christiansen-Jaskolski",
+    "Comment": "quod",
+    "StakeholderRoleId": 843,
+    "CountryId": 366,
+    "PersonId": 570,
+    "EmailDescription": "isidro_nikolaus@pfannerstill.com",
+    "EmailId": 602,
+    "EmailAddress": "rusty_stokes@schmitt.info",
+    "PhoneId": 939,
+    "ContactName": "Stehr-Cummings",
+    "ContactId": 24,
+    "SaleId": 437,
+    "Mrmrs": "commodi",
+    "Firstname": "Candida",
+    "MiddleName": "Rempel-Gutkowski",
+    "Lastname": "Adams",
+    "SaleStakeholderId": 684,
+    "Rank": 486,
+    "Phone": "508-599-7003 x15926",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldType": "System.String",
+        "FieldLength": 600
       }
     }
   }

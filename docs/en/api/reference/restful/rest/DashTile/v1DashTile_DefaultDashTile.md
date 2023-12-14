@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 234,
-  "DashboardId": 71,
-  "Height": 205,
-  "Width": 739,
-  "Rank": 470,
+  "DashboardTileId": 597,
+  "DashboardId": 512,
+  "Height": 51,
+  "Width": 382,
+  "Rank": 557,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldLength": 719
     }
   }
 }

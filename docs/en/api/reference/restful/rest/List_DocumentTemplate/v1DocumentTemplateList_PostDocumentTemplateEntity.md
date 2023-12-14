@@ -113,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 370,
-  "Name": "Lynch-McKenzie",
-  "Tooltip": "quia",
-  "SaveInDb": 10,
-  "Filename": "occaecati",
-  "DefaultOref": "accusantium",
+  "DocumentTemplateId": 127,
+  "Name": "Halvorson, Schowalter and Batz",
+  "Tooltip": "quas",
+  "SaveInDb": 915,
+  "Filename": "est",
+  "DefaultOref": "quae",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 491,
-  "IntentId": 306,
+  "AutoeventId": 797,
+  "IntentId": 139,
   "IsDefaultPublished": true,
-  "Rank": 629,
-  "LoadTemplateFromPlugin": 208,
-  "MimeType": "aliquid",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 637,
+  "Rank": 186,
+  "LoadTemplateFromPlugin": 547,
+  "MimeType": "eum",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 775,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "giovani@hodkiewiczmayer.co.uk",
-  "IncludeSignature": false,
+  "EmailSubject": "bernhard.stracke@koelpin.info",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kelvin@cassin.us",
+  "SenderEmailAddress": "kayli@hackett.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 99,
-  "Name": "Batz-Braun",
-  "Tooltip": "vel",
-  "SaveInDb": 352,
-  "Filename": "aperiam",
-  "DefaultOref": "neque",
+  "DocumentTemplateId": 985,
+  "Name": "Jacobs, Marquardt and Grady",
+  "Tooltip": "animi",
+  "SaveInDb": 273,
+  "Filename": "impedit",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 443,
-  "IntentId": 665,
+  "AutoeventId": 947,
+  "IntentId": 946,
   "IsDefaultPublished": true,
-  "Rank": 980,
-  "LoadTemplateFromPlugin": 189,
-  "MimeType": "nisi",
+  "Rank": 517,
+  "LoadTemplateFromPlugin": 221,
+  "MimeType": "doloremque",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 400,
+  "DocumentTypeKey": 127,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "tavares@kuvalis.info",
-  "IncludeSignature": false,
+  "EmailSubject": "lisette_kreiger@lebsackthompson.co.uk",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "diana.rowe@kossjerde.info",
+  "SenderEmailAddress": "alexa@kuhlman.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 516
     }
   }
 }

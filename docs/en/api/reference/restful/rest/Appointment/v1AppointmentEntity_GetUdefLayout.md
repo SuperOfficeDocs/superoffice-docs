@@ -90,7 +90,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 200,
-    "ColumnId": 751,
-    "FieldDefault": "explicabo",
-    "FieldHeight": 210,
-    "FieldLabel": "id",
-    "FieldLeft": 363,
-    "FieldTop": 778,
+    "UDefFieldId": 51,
+    "ColumnId": 336,
+    "FieldDefault": "eius",
+    "FieldHeight": 571,
+    "FieldLabel": "voluptatem",
+    "FieldLeft": 591,
+    "FieldTop": 302,
     "FieldType": "Checkbox",
-    "FieldWidth": 191,
-    "FormatMask": "ipsa",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 826,
-    "LabelLeft": 360,
-    "LabelTop": 473,
-    "LabelWidth": 403,
-    "LastVersionId": 286,
-    "ListTableId": 996,
-    "IsMandatory": false,
+    "FieldWidth": 242,
+    "FormatMask": "est",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 441,
+    "LabelLeft": 357,
+    "LabelTop": 82,
+    "LabelWidth": 29,
+    "LastVersionId": 161,
+    "ListTableId": 324,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 193,
-    "ProgId": "eveniet",
+    "Page1LineNo": 499,
+    "ProgId": "non",
     "IsReadOnly": false,
-    "ShortLabel": "enim",
-    "TabOrder": 36,
-    "TextLength": 574,
+    "ShortLabel": "voluptas",
+    "TabOrder": 790,
+    "TextLength": 737,
     "Tooltip": "eum",
-    "UdefIdentity": 143,
-    "UDListDefinitionId": 76,
+    "UdefIdentity": 362,
+    "UDListDefinitionId": 673,
     "Justification": "Center",
-    "Version": 382,
-    "TemplateVariableName": "Streich, Kirlin and Mraz",
-    "HasBeenPublished": false,
-    "MdoListName": "Cronin Group",
+    "Version": 958,
+    "TemplateVariableName": "D'Amore-Grady",
+    "HasBeenPublished": true,
+    "MdoListName": "Luettgen, Gleichner and Crona",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldLength": 654
       }
     }
   }

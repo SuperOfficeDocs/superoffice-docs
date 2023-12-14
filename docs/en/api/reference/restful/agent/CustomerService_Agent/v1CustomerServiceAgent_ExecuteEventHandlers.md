@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,37 +101,37 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "voluptas",
-    "InputValues2": "aliquam"
+    "InputValues1": "laudantium",
+    "InputValues2": "enim"
   },
-  "BlockExecution": true,
-  "NavigateTo": "eos",
-  "Message": "rerum",
-  "ShowDialog": "corrupti",
+  "BlockExecution": false,
+  "NavigateTo": "a",
+  "Message": "nihil",
+  "ShowDialog": "animi",
   "OutputValues": {
-    "OutputValues1": "non",
-    "OutputValues2": "dolores"
+    "OutputValues1": "est",
+    "OutputValues2": "in"
   },
   "StateValues": {
-    "StateValues1": "ut",
-    "StateValues2": "quaerat"
+    "StateValues1": "est",
+    "StateValues2": "et"
   },
-  "Exception": "doloribus",
+  "Exception": "veniam",
   "ParserValues": {
-    "ParserValues1": "omnis",
-    "ParserValues2": "magnam"
+    "ParserValues1": "quidem",
+    "ParserValues2": "ut"
   },
   "CgiVariables": {
-    "CgiVariables1": "veniam",
-    "CgiVariables2": "laborum"
+    "CgiVariables1": "commodi",
+    "CgiVariables2": "sed"
   },
-  "CgiContent": "iusto",
+  "CgiContent": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 475
+      "FieldType": "System.Int32",
+      "FieldLength": 882
     }
   }
 }

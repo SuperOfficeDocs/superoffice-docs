@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 386,
-  "Name": "Abernathy-Bartoletti",
-  "Description": "Multi-channelled value-added migration"
+  "SourceId": 212,
+  "Name": "Torphy, Tremblay and Reichert",
+  "Description": "Cross-platform zero defect task-force"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 948,
+  "ReportId": 233,
   "ReportCategory": "All",
-  "Description": "Devolved mission-critical approach",
+  "Description": "Front-line motivating application",
   "ReportLayout": "CalendarMonth",
-  "Name": "Maggio Inc and Sons",
-  "AssociateId": 544,
-  "TemplateId": 393,
-  "Published": true,
+  "Name": "Thiel-Turner",
+  "AssociateId": 546,
+  "TemplateId": 769,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 402
+      "FieldType": "System.Int32",
+      "FieldLength": 322
     }
   }
 }

@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 737,
-  "FieldName": "Wisoky LLC",
-  "Label": "praesentium",
-  "Tooltip": "blanditiis",
-  "Editable": true,
+  "QuoteLineConfigurationId": 767,
+  "FieldName": "Hand LLC",
+  "Label": "cupiditate",
+  "Tooltip": "sed",
+  "Editable": false,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 818,
+  "Rank": 175,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 802
     }
   }
 }

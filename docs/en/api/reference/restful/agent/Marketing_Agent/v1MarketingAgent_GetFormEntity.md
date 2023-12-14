@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=745
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=773
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 150,
-  "FormKey": "corrupti",
-  "Name": "Terry-Dietrich",
-  "Description": "Multi-layered context-sensitive artificial intelligence",
-  "Config": "assumenda",
-  "FolderId": 110,
-  "ScriptId": 674,
-  "ResponseShipmentId": 196,
-  "Active": true,
-  "Expires": "2019-09-12T13:38:13.7333439+02:00",
-  "MaxSubmits": 273,
+  "FormId": 482,
+  "FormKey": "aut",
+  "Name": "Kiehn, Kohler and Langworth",
+  "Description": "Multi-layered empowering moratorium",
+  "Config": "eos",
+  "FolderId": 496,
+  "ScriptId": 801,
+  "ResponseShipmentId": 542,
+  "Active": false,
+  "Expires": "2006-11-29T13:57:12.591212+01:00",
+  "MaxSubmits": 603,
   "Type": "Normal",
-  "Recipe": "in",
-  "GroupId": 414,
-  "NewTicket": false,
+  "Recipe": "deleniti",
+  "GroupId": 349,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2004-04-09T13:38:13.7333439+02:00",
-  "RegisteredAssociateId": 646,
-  "Updated": "2020-02-15T13:38:13.7333439+01:00",
-  "UpdatedAssociateId": 418,
-  "UpdatedCount": 992,
-  "FolderName": "Hackett Group",
+  "Registered": "2002-07-20T13:57:12.591212+02:00",
+  "RegisteredAssociateId": 262,
+  "Updated": "2005-02-20T13:57:12.591212+01:00",
+  "UpdatedAssociateId": 842,
+  "UpdatedCount": 412,
+  "FolderName": "Nader Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldLength": 616
     }
   }
 }

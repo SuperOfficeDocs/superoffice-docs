@@ -578,7 +578,7 @@ Shadow contact provider for the dynamic Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/contactAssociate/isActive,mailingAddr/person/personUpdatedByFullName,mailingAddr/person/personAssociateId,mailingAddr/person/searchPhone/formattedNumber,project/projectAssociate/contactFullName
+GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/contactAssociate/lastName,mailingAddr/contact/contactAssociate/personEmail,mailingAddr/contact/contactUdef/SuperOffice:9,mailingAddr/contact/contactExtra/x_contact_dropdown,mailingAddr/person/hasInfoText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Roob, Jast and Brown",
-  "DisplayName": "Rippin-Steuber",
-  "Description": "Enterprise-wide discrete superstructure",
-  "ShortLabel": "consequatur",
+  "FieldName": "Mitchell-McClure",
+  "DisplayName": "Nienow-Miller",
+  "Description": "Vision-oriented client-server adapter",
+  "ShortLabel": "iure",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": true,
-  "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsIndexed": false,
+  "IsMandatory": true,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 658,
-  "TemplateVariableName": "Zulauf-Boyer"
+  "Rank": 857,
+  "TemplateVariableName": "Little Group"
 }
 ```

@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 932
+  "AssociateId": 727
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 645,
-    "AssociateId": 959,
-    "Caption": "minima",
+    "DashboardId": 271,
+    "AssociateId": 496,
+    "Caption": "accusantium",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 459,
-        "Caption": "et",
-        "Description": "Open-source maximized firmware",
-        "ChartName": "Kris Group",
-        "ChartId": "perferendis",
-        "IsDefault": false,
-        "AssociateId": 796,
-        "GroupId": 895,
-        "SelectionId": 7,
-        "Config": "provident",
+        "DashboardTileId": 357,
+        "Caption": "sunt",
+        "Description": "Fully-configurable exuding moderator",
+        "ChartName": "Wisozk, Keeling and Doyle",
+        "ChartId": "ratione",
+        "IsDefault": true,
+        "AssociateId": 284,
+        "GroupId": 99,
+        "SelectionId": 234,
+        "Config": "rerum",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 638
+            "FieldLength": 6
           }
         }
       }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 92
+        "FieldType": "System.String",
+        "FieldLength": 256
       }
     }
   }

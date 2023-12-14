@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
-GET /api/v1/List/ConsentPurpose/MDOItems?query=tempore
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
+GET /api/v1/List/ConsentPurpose/MDOItems?query=asperiores
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Name": "Swift Inc and Sons",
-    "ToolTip": "Voluptas ut maxime accusantium labore unde nostrum est.",
+    "Id": 249,
+    "Name": "Keeling, Kovacek and Murray",
+    "ToolTip": "Itaque eius.",
     "Deleted": false,
-    "Rank": 408,
-    "Type": "eos",
+    "Rank": 453,
+    "Type": "quos",
     "ChildItems": [
       {
-        "Id": 549,
-        "Name": "Ernser, Emmerich and Bernier",
-        "ToolTip": "Minima perspiciatis non sunt quibusdam.",
+        "Id": 437,
+        "Name": "Denesik, Moore and Haley",
+        "ToolTip": "Aliquid maiores exercitationem aut.",
         "Deleted": true,
-        "Rank": 777,
-        "Type": "temporibus",
+        "Rank": 968,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 873,
-        "ExtraInfo": "perferendis",
-        "StyleHint": "aspernatur",
-        "FullName": "Abdullah Toy",
+        "IconHint": "itaque",
+        "ColorBlock": 856,
+        "ExtraInfo": "non",
+        "StyleHint": "modi",
+        "FullName": "Bruce Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 252
+            "FieldType": "System.Int32",
+            "FieldLength": 738
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 731,
-    "ExtraInfo": "expedita",
-    "StyleHint": "nemo",
-    "FullName": "Carmen Nolan",
+    "IconHint": "deserunt",
+    "ColorBlock": 599,
+    "ExtraInfo": "ut",
+    "StyleHint": "saepe",
+    "FullName": "Annette Ledner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 849
+        "FieldType": "System.Int32",
+        "FieldLength": 429
       }
     }
   }

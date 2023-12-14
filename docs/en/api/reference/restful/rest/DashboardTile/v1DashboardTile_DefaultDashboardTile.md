@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 896,
-  "Caption": "autem",
-  "Description": "Cross-platform stable database",
-  "ChartName": "Ritchie, Johnson and Frami",
-  "ChartId": "cupiditate",
-  "IsDefault": false,
-  "AssociateId": 617,
-  "GroupId": 198,
-  "SelectionId": 427,
-  "Config": "debitis",
+  "DashboardTileId": 926,
+  "Caption": "aliquid",
+  "Description": "Down-sized modular neural-net",
+  "ChartName": "Miller Inc and Sons",
+  "ChartId": "quia",
+  "IsDefault": true,
+  "AssociateId": 865,
+  "GroupId": 654,
+  "SelectionId": 45,
+  "Config": "veritatis",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Treutel-Lang",
-      "Description": "Assimilated non-volatile product",
+      "Name": "Jenkins Inc and Sons",
+      "Description": "Total mobile collaboration",
       "Type": "Boolean",
-      "ListName": "Barton, Koch and Miller",
+      "ListName": "Pacocha Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ullam",
+      "Value": "magnam",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 487
+          "FieldLength": 973
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 839,
+      "VisibleId": 188,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldType": "System.String",
+          "FieldLength": 359
         }
       }
     },
     {
-      "VisibleId": 839,
+      "VisibleId": 188,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldType": "System.String",
+          "FieldLength": 359
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 172
+      "FieldLength": 81
     }
   }
 }

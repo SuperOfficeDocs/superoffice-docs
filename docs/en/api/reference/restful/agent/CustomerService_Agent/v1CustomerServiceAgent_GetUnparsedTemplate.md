@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 816,
-  "LanguageId": 617
+  "ReplyTemplateId": 981,
+  "LanguageId": 249
 }
 ```
 
@@ -96,35 +96,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 882,
-  "PlainParsed": "quam",
-  "HtmlParsed": "repellat",
+  "ReplyTemplateId": 164,
+  "PlainParsed": "excepturi",
+  "HtmlParsed": "dolorum",
   "Attachments": [
     {
-      "AttachmentId": 704,
-      "Name": "Klocko-Hills",
-      "ContentType": "voluptas",
-      "AttSize": 853,
-      "InlineImage": true,
-      "ContentId": "aperiam",
-      "AuthKey": "consectetur",
+      "AttachmentId": 137,
+      "Name": "Johnston LLC",
+      "ContentType": "autem",
+      "AttSize": 606,
+      "InlineImage": false,
+      "ContentId": "minima",
+      "AuthKey": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 191
         }
       }
     }
   ],
-  "Subject": "totam",
+  "Subject": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 615
+      "FieldType": "System.Int32",
+      "FieldLength": 198
     }
   }
 }

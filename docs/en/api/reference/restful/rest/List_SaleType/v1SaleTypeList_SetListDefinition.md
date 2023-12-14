@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 361,
-  "Name": "Donnelly, Volkman and Douglas",
-  "Tooltip": "delectus",
+  "Id": 230,
+  "Name": "McCullough LLC",
+  "Tooltip": "odit",
   "Deleted": false,
-  "Rank": 871,
+  "Rank": 835,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laudantium",
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Hoppe, Dibbert and Greenfelder",
-  "Tooltip": "maxime",
+  "Id": 518,
+  "Name": "O'Hara Inc and Sons",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 882,
+  "Rank": 571,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "distinctio",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 563
+      "FieldType": "System.Int32",
+      "FieldLength": 527
     }
   }
 }

@@ -139,25 +139,25 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 785,
-  "Name": "Klocko Group",
-  "Description": "Multi-lateral bandwidth-monitored paradigm",
-  "WelcomeMessage": "molestias",
+  "ChatTopicId": 82,
+  "Name": "Kemmer-Kovacek",
+  "Description": "User-friendly systematic toolset",
+  "WelcomeMessage": "repudiandae",
   "Language": null,
-  "LastAccept": "2008-12-21T13:38:17.1868579+01:00",
-  "SecondsPrAccept": 189,
-  "AlertRecipient": "omnis",
+  "LastAccept": "2017-05-12T13:57:18.5440601+02:00",
+  "SecondsPrAccept": 862,
+  "AlertRecipient": "nihil",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "repudiandae",
+  "BadgeHeader": "amet",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "nam",
-  "WarnNewChatMinutes": 301,
-  "WarnManagerNewChatMinutes": 295,
+  "CustomQueueText": "saepe",
+  "WarnNewChatMinutes": 367,
+  "WarnManagerNewChatMinutes": 122,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -167,13 +167,13 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 222,
-  "WarnManagerChatMessageMinutes": 8,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 260,
-  "OfflineFormQueueLength": 4,
+  "WarnChatMessageMinutes": 475,
+  "WarnManagerChatMessageMinutes": 507,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 153,
+  "OfflineFormQueueLength": 172,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "voluptas"
+  "WidgetRatingText": "eum"
 }
 ```
 
@@ -184,48 +184,48 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 388,
-  "Name": "Lockman, Pollich and Cruickshank",
-  "Description": "Progressive value-added internet solution",
-  "WelcomeMessage": "esse",
+  "ChatTopicId": 322,
+  "Name": "Koelpin Group",
+  "Description": "Right-sized empowering project",
+  "WelcomeMessage": "voluptate",
   "Language": null,
-  "LastAccept": "1998-01-18T13:38:17.1868579+01:00",
-  "SecondsPrAccept": 301,
-  "AlertRecipient": "dolor",
+  "LastAccept": "2014-08-05T13:57:18.5440601+02:00",
+  "SecondsPrAccept": 884,
+  "AlertRecipient": "nihil",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "repellendus",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "est",
-  "WarnNewChatMinutes": 124,
-  "WarnManagerNewChatMinutes": 265,
-  "TicketEnabled": false,
+  "BadgeHeader": "veniam",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "maiores",
+  "WarnNewChatMinutes": 81,
+  "WarnManagerNewChatMinutes": 346,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 566,
-  "WarnManagerChatMessageMinutes": 435,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 437,
-  "OfflineFormQueueLength": 121,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "vitae",
+  "WarnChatMessageMinutes": 871,
+  "WarnManagerChatMessageMinutes": 704,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 176,
+  "OfflineFormQueueLength": 561,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldType": "System.String",
+      "FieldLength": 505
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

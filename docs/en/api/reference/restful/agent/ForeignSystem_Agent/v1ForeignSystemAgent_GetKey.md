@@ -90,11 +90,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hane Inc and Sons",
-  "DeviceName": "Bogisich-Anderson",
-  "KeyName": "Skiles LLC",
-  "TableName": "Lemke-Greenfelder",
-  "RecordId": 252
+  "ApplicationName": "Greenfelder Group",
+  "DeviceName": "Jewess-Block",
+  "KeyName": "Bernier Inc and Sons",
+  "TableName": "Beer Group",
+  "RecordId": 882
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dignissimos",
-  "Value": "et",
-  "RecordId": 907,
-  "CreatedDate": "1997-05-01T13:38:13.623981+02:00",
-  "UpdatedDate": "2001-05-11T13:38:13.623981+02:00",
-  "UpdatedBy": "consequatur",
-  "CreatedBy": "cum",
-  "TableName": "Kuhic, Kassulke and Crooks",
+  "Key": "omnis",
+  "Value": "quasi",
+  "RecordId": 100,
+  "CreatedDate": "2007-03-07T13:57:12.4181107+01:00",
+  "UpdatedDate": "2017-06-02T13:57:12.4181107+02:00",
+  "UpdatedBy": "ducimus",
+  "CreatedBy": "laudantium",
+  "TableName": "Nikolaus, Hermann and Okuneva",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldType": "System.String",
+      "FieldLength": 18
     }
   }
 }

@@ -594,8 +594,12 @@ Sale selection archive using the selectionId as criterionmapping.
 |appointment/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointment/associate/userName|string|User name: User name| x |
 |appointment/associate/personEmail|string|E-mail| x |
-|appointment/appointment/textId|int|Text ID| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/appointment/title|positiveString|Title| x |
+|appointment/appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/appointment/agenda|positiveString|Agenda| x |
+|appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/appointment/isConverted| *None* |!!Is Converted|  |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -637,14 +641,14 @@ Sale selection archive using the selectionId as criterionmapping.
 |document/associate/firstName|string|First name: Displays the contact's first name| x |
 |document/associate/lastName|string|Last name: Displays the contact's last name| x |
 |document/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|document/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|document/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|document/associate/personId|int|Contact ID: Database ID of the contact row|  |
-|document/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|document/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|document/associate/personId|int|Contact ID: Database ID of the contact row|  |
+|document/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |document/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |document/associate/associateDbId|associate|ID| x |
 |document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -741,14 +745,14 @@ Sale selection archive using the selectionId as criterionmapping.
 |project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |project/projectAssociate/userName|string|User name: User name| x |
 |project/projectAssociate/personEmail|string|E-mail| x |
-|project/projectUdef/SuperOffice:1|string|projectshorttext| x |
-|project/projectUdef/SuperOffice:2|string|projectlongtext| x |
-|project/projectUdef/SuperOffice:3|int|projectnumber| x |
-|project/projectUdef/SuperOffice:4|date|projectdate| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectUdef/SuperOffice:1|string|projectshorttext| x |
+|project/projectUdef/SuperOffice:2|string|projectlongtext| x |
+|project/projectUdef/SuperOffice:3|int|projectnumber| x |
+|project/projectUdef/SuperOffice:4|date|projectdate| x |
 |project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
 |project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
@@ -845,14 +849,14 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleStakeholder/person/searchPhone/formattedNumber|string|Stakeholder - Phone: Displays phone number|  |
 |saleStakeholder/person/searchPhone/description|string|Stakeholder - Description: Phone number description| x |
 |saleStakeholder/person/personInfo/textId|int|Stakeholder - Text ID| x |
-|saleStakeholder/person/personInfo/infoText|positiveString|Stakeholder - Information: Displays the text entered in the description field| x |
-|saleStakeholder/person/email/emailProtocol|string|Stakeholder - Protocol: E-mail protocol, such as SMTP| x |
-|saleStakeholder/person/email/emailAddress|string|Stakeholder - E-mail| x |
-|saleStakeholder/person/email/emailDescription|string|Stakeholder - Description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/personInfo/infoText|positiveString|Stakeholder - Information: Displays the text entered in the description field| x |
+|saleStakeholder/person/email/emailProtocol|string|Stakeholder - Protocol: E-mail protocol, such as SMTP| x |
+|saleStakeholder/person/email/emailAddress|string|Stakeholder - E-mail| x |
+|saleStakeholder/person/email/emailDescription|string|Stakeholder - Description| x |
 |saleStakeholder/person/email/emailId|int|Stakeholder - ID| x |
 |saleStakeholder/person/email/emailLastSent|datetime|Stakeholder - Last sent: The date and time an e-mail was last sent to this address| x |
 |saleStakeholder/person/email/emailBounceCount|int|Stakeholder - Bounce count: Bounce count for this e-mail address| x |
@@ -949,14 +953,14 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleStakeholder/person/personAssociate/otherGroups|userGroup|Stakeholder - Other groups: Other groups|  |
 |saleStakeholder/person/personAssociate/userName|string|Stakeholder - User name: User name| x |
 |saleStakeholder/person/personAssociate/personEmail|string|Stakeholder - E-mail| x |
-|saleStakeholder/person/correspondingAssociate/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
-|saleStakeholder/person/correspondingAssociate/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
-|saleStakeholder/person/correspondingAssociate/middleName|string|Stakeholder - Middle Name: Displays the contact's middle name.| x |
-|saleStakeholder/person/correspondingAssociate/fullName|string|Stakeholder - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/correspondingAssociate/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
+|saleStakeholder/person/correspondingAssociate/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
+|saleStakeholder/person/correspondingAssociate/middleName|string|Stakeholder - Middle Name: Displays the contact's middle name.| x |
+|saleStakeholder/person/correspondingAssociate/fullName|string|Stakeholder - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |saleStakeholder/person/correspondingAssociate/contactId|int|Stakeholder - Company ID: Database ID of the company the user belongs to|  |
 |saleStakeholder/person/correspondingAssociate/personId|int|Stakeholder - Contact ID: Database ID of the contact row|  |
 |saleStakeholder/person/correspondingAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -1053,14 +1057,14 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleStakeholder/contact/streetAddress/line3|string|Stakeholder - Street address - Address 3: Third line of the address| x |
 |saleStakeholder/contact/streetAddress/county|string|Stakeholder - Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |saleStakeholder/contact/streetAddress/city|string|Stakeholder - Street address - City: This criterion corresponds to the City field on the Company card.| x |
-|saleStakeholder/contact/streetAddress/zip|string|Stakeholder - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|saleStakeholder/contact/streetAddress/state|string|Stakeholder - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|saleStakeholder/contact/streetAddress/wgs84latitude|decimal|Stakeholder - Street address - Latitude: Latitude| x |
-|saleStakeholder/contact/streetAddress/wgs84longitude|decimal|Stakeholder - Street address - Longitude: Longitude| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/streetAddress/zip|string|Stakeholder - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
+|saleStakeholder/contact/streetAddress/state|string|Stakeholder - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
+|saleStakeholder/contact/streetAddress/wgs84latitude|decimal|Stakeholder - Street address - Latitude: Latitude| x |
+|saleStakeholder/contact/streetAddress/wgs84longitude|decimal|Stakeholder - Street address - Longitude: Longitude| x |
 |saleStakeholder/contact/streetAddress/formattedAddress| *None* |Stakeholder - Street address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/contact/streetAddress/formattedMultiLineAddress| *None* |Stakeholder - Street address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/contact/restrictionAddress/addressId|int|Stakeholder - Search address - Address ID: Database ID for the address record| x |
@@ -1157,14 +1161,14 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleStakeholder/contact/NumberOfNotCompletedTicketsInPeriod|int|Stakeholder - Number of non-completed requests in last 90 days|  |
 |saleStakeholder/contact/LastTicket|date|Stakeholder - Date of last request|  |
 |saleStakeholder/contact/LastCompletedTicket|date|Stakeholder - Date of last completed request|  |
-|saleStakeholder/contact/LastDoByTicket|date|Stakeholder - Date of last non-completed request|  |
-|saleStakeholder/contact/SaintStatus1|saintStatus|Stakeholder - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
-|saleStakeholder/contact/SaintStatus2|saintStatus|Stakeholder - C-company: Kundens navn starter med bokstaven C|  |
-|saleStakeholder/contact/saintSaleStatus|listAny|Stakeholder - With status|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/LastDoByTicket|date|Stakeholder - Date of last non-completed request|  |
+|saleStakeholder/contact/SaintStatus1|saintStatus|Stakeholder - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|saleStakeholder/contact/SaintStatus2|saintStatus|Stakeholder - C-company: Kundens navn starter med bokstaven C|  |
+|saleStakeholder/contact/saintSaleStatus|listAny|Stakeholder - With status|  |
 |saleStakeholder/contact/saintAmountClass|listAny|Stakeholder - Amount class|  |
 |saleStakeholder/contact/saintActivityType|listAny|Stakeholder - SAINT type|  |
 |saleStakeholder/contact/saintDirection|listAny|Stakeholder - Direction|  |
@@ -1261,6 +1265,10 @@ Sale selection archive using the selectionId as criterionmapping.
 |quote/version/alternative/quoteline/productTypeKey|listExternal|Product type: The type of product|  |
 |quote/version/alternative/quoteline/status|listAny|Quote status: Status field showing the status of each line.| x |
 |quote/version/alternative/quoteline/subTotal|decimal|Sum: Sum of Quantity * Unit list price| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |quote/version/alternative/quoteline/vatAmount|decimal|VAT (amount: The calculated VAT amount| x |
 |quote/version/alternative/quoteline/totalPriceIncVAT|decimal|Total incl. VAT: Total including VAT| x |
 |quote/version/alternative/quoteline/totalPriceWithAlternativeDiscount|decimal|Total incl. alt. disc: Total, including any discount percentage set on the alternative| x |
@@ -1268,7 +1276,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelection?$select=person/personUdef/SuperOffice:8,contact/registeredDate,contact/postAddress/city,contact/NumberOfTickets,document/associate/associateDbId
+GET /api/v1/archive/SaleDynamicSelection?$select=person/personAssociate/personId,contact/hasInterests,contact/email/emailAddress,appointment/associate/title,appointment/appointment/agendaHtml
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

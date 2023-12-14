@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 809,
-  "Name": "Cummerata Group",
-  "Tooltip": "unde",
-  "Rank": 897,
-  "Key": "voluptas",
+  "LegalBaseId": 860,
+  "Name": "Leuschke, Wintheiser and Gleason",
+  "Tooltip": "est",
+  "Rank": 400,
+  "Key": "nostrum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldType": "System.String",
+      "FieldLength": 961
     }
   }
 }

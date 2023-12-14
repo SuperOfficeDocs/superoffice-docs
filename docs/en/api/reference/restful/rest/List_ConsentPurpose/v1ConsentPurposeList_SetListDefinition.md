@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 98,
-  "Name": "Deckow Group",
-  "Tooltip": "rem",
+  "Id": 568,
+  "Name": "Marks Inc and Sons",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 221,
+  "Rank": 359,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "unde",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quasi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 678,
-  "Name": "Blick, Hane and Farrell",
-  "Tooltip": "officia",
+  "Id": 211,
+  "Name": "Kunze, Ondricka and Armstrong",
+  "Tooltip": "modi",
   "Deleted": false,
-  "Rank": 96,
+  "Rank": 961,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "atque",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "rerum",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 880
+      "FieldType": "System.Int32",
+      "FieldLength": 557
     }
   }
 }

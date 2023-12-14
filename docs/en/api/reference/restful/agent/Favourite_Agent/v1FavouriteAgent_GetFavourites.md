@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Greenholt, McKenzie and Raynor",
-  "AssociateId": 794
+  "TableName": "Barrows-Nitzsche",
+  "AssociateId": 135
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Jenkins LLC",
-    "RecordId": 345,
-    "AssociateId": 465,
-    "ExtraInfo": "natus",
-    "Rank": 111,
+    "TableName": "Nienow-Blick",
+    "RecordId": 66,
+    "AssociateId": 352,
+    "ExtraInfo": "consequuntur",
+    "Rank": 839,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldLength": 730
       }
     }
   }

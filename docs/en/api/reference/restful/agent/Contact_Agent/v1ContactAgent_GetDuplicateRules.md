@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Runte-Batz",
-    "DisplayName": "Gutkowski Inc and Sons",
-    "DisplayTooltip": "id",
-    "IsActive": true,
+    "Name": "Pouros-Bartell",
+    "DisplayName": "Schowalter, Cummings and Lowe",
+    "DisplayTooltip": "dolor",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldLength": 518
       }
     }
   },
   {
-    "Name": "Runte-Batz",
-    "DisplayName": "Gutkowski Inc and Sons",
-    "DisplayTooltip": "id",
-    "IsActive": true,
+    "Name": "Pouros-Bartell",
+    "DisplayName": "Schowalter, Cummings and Lowe",
+    "DisplayTooltip": "dolor",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldLength": 518
       }
     }
   }

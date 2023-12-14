@@ -69,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 679,
+  "AttachmentId": 389,
   "Content": "GIF89....File contents as raw bytes..."
 }
 ```

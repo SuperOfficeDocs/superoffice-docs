@@ -133,51 +133,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 275,
-  "ERPProductKey": "voluptate",
-  "ERPPriceListKey": "aspernatur",
-  "Name": "Glover, Pfannerstill and Davis",
-  "Description": "Extended even-keeled core",
-  "Code": "quas",
-  "PriceUnit": "harum",
-  "QuantityUnit": "non",
-  "IsSubscription": false,
-  "SubscriptionUnit": "harum",
-  "DefaultSubscriptionQuantity": 29017.706,
-  "ItemNumber": "1216139",
+  "ProductId": 500,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "nesciunt",
+  "Name": "Kuphal, Lesch and Kertzmann",
+  "Description": "Versatile methodical service-desk",
+  "Code": "atque",
+  "PriceUnit": "et",
+  "QuantityUnit": "et",
+  "IsSubscription": true,
+  "SubscriptionUnit": "nobis",
+  "DefaultSubscriptionQuantity": 13610.962,
+  "ItemNumber": "1007759",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "magnam",
-  "ProductTypeKey": "voluptatum",
-  "VAT": 16566.324,
-  "VATInfo": "a",
-  "UnitCost": 9834.492,
-  "UnitMinimumPrice": 26438.424,
-  "UnitListPrice": 30634.85,
+  "ProductFamilyKey": "optio",
+  "ProductTypeKey": "sapiente",
+  "VAT": 23342.032,
+  "VATInfo": "non",
+  "UnitCost": 15275.116,
+  "UnitMinimumPrice": 5384.2119999999995,
+  "UnitListPrice": 24517.282,
   "InAssortment": false,
-  "Supplier": "quod",
-  "SupplierCode": "deleniti",
-  "Rights": "soluta",
-  "Rule": "rerum",
+  "Supplier": "voluptatem",
+  "SupplierCode": "quibusdam",
+  "Rights": "vitae",
+  "Rule": "minus",
   "ExtraInfo": [
     {
-      "Name": "Homenick-Swaniawski",
-      "Value": "provident",
+      "Name": "Trantow LLC",
+      "Value": "est",
       "Type": "Image"
     },
     {
-      "Name": "Homenick-Swaniawski",
-      "Value": "provident",
+      "Name": "Trantow LLC",
+      "Value": "est",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "doloremque",
-  "ExtraField1": "ducimus",
-  "ExtraField2": "omnis",
-  "ExtraField3": "esse",
-  "ExtraField4": "ab",
-  "ExtraField5": "qui",
-  "InStock": 30738.271999999997
+  "RawExtraInfo": "aut",
+  "ExtraField1": "ad",
+  "ExtraField2": "repudiandae",
+  "ExtraField3": "error",
+  "ExtraField4": "perferendis",
+  "ExtraField5": "possimus",
+  "InStock": 1090.632
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 305,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "enim",
-  "Name": "Larkin, Bins and Emard",
-  "Description": "Digitized multi-state system engine",
-  "Code": "numquam",
-  "PriceUnit": "qui",
-  "QuantityUnit": "aut",
+  "ProductId": 650,
+  "ERPProductKey": "tempora",
+  "ERPPriceListKey": "magni",
+  "Name": "Bergstrom-Mitchell",
+  "Description": "Configurable foreground parallelism",
+  "Code": "est",
+  "PriceUnit": "nisi",
+  "QuantityUnit": "quis",
   "IsSubscription": false,
-  "SubscriptionUnit": "amet",
-  "DefaultSubscriptionQuantity": 7819.33,
-  "ItemNumber": "1407734",
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 11896.663999999999,
+  "ItemNumber": "829748",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ullam",
-  "ProductTypeKey": "id",
-  "VAT": 12811.792,
-  "VATInfo": "perspiciatis",
-  "UnitCost": 12733.442,
-  "UnitMinimumPrice": 19524.82,
-  "UnitListPrice": 30277.574,
+  "ProductFamilyKey": "inventore",
+  "ProductTypeKey": "molestiae",
+  "VAT": 27554.128,
+  "VATInfo": "facere",
+  "UnitCost": 12702.101999999999,
+  "UnitMinimumPrice": 13438.591999999999,
+  "UnitListPrice": 8584.026,
   "InAssortment": false,
-  "Supplier": "ea",
-  "SupplierCode": "nam",
-  "Rights": "sed",
-  "Rule": "eveniet",
+  "Supplier": "eius",
+  "SupplierCode": "asperiores",
+  "Rights": "dolorem",
+  "Rule": "deleniti",
   "ExtraInfo": [
     {
-      "Name": "Haag-Abernathy",
-      "Value": "officia",
+      "Name": "Marvin-Mann",
+      "Value": "assumenda",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 947
+          "FieldLength": 252
         }
       }
     },
     {
-      "Name": "Haag-Abernathy",
-      "Value": "officia",
+      "Name": "Marvin-Mann",
+      "Value": "assumenda",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 947
+          "FieldLength": 252
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "quos",
-  "ExtraField2": "numquam",
-  "ExtraField3": "dolores",
-  "ExtraField4": "rerum",
-  "ExtraField5": "nam",
-  "InStock": 2623.158,
+  "RawExtraInfo": "et",
+  "ExtraField1": "modi",
+  "ExtraField2": "eveniet",
+  "ExtraField3": "deleniti",
+  "ExtraField4": "qui",
+  "ExtraField5": "in",
+  "InStock": 28462.987999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldLength": 946
     }
   }
 }

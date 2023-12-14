@@ -94,37 +94,37 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "amet",
-    "InputValues2": "iste"
+    "InputValues1": "et",
+    "InputValues2": "earum"
   },
   "BlockExecution": true,
-  "NavigateTo": "dicta",
-  "Message": "reprehenderit",
-  "ShowDialog": "ut",
+  "NavigateTo": "iste",
+  "Message": "rerum",
+  "ShowDialog": "neque",
   "OutputValues": {
-    "OutputValues1": "ipsam",
-    "OutputValues2": "enim"
+    "OutputValues1": "aut",
+    "OutputValues2": "dolor"
   },
   "StateValues": {
-    "StateValues1": "sit",
-    "StateValues2": "placeat"
+    "StateValues1": "minus",
+    "StateValues2": "odit"
   },
-  "Exception": "fugiat",
+  "Exception": "voluptate",
   "ParserValues": {
-    "ParserValues1": "in",
-    "ParserValues2": "quia"
+    "ParserValues1": "vel",
+    "ParserValues2": "placeat"
   },
   "CgiVariables": {
-    "CgiVariables1": "ut",
-    "CgiVariables2": "autem"
+    "CgiVariables1": "id",
+    "CgiVariables2": "error"
   },
-  "CgiContent": "at"
+  "CgiContent": "minus"
 }
 ```
 
@@ -137,37 +137,37 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "enim",
-    "InputValues2": "dolore"
+    "InputValues1": "perferendis",
+    "InputValues2": "sed"
   },
-  "BlockExecution": false,
-  "NavigateTo": "rerum",
-  "Message": "vero",
-  "ShowDialog": "cupiditate",
+  "BlockExecution": true,
+  "NavigateTo": "sed",
+  "Message": "qui",
+  "ShowDialog": "velit",
   "OutputValues": {
-    "OutputValues1": "maxime",
-    "OutputValues2": "corporis"
+    "OutputValues1": "placeat",
+    "OutputValues2": "libero"
   },
   "StateValues": {
-    "StateValues1": "voluptas",
-    "StateValues2": "nisi"
+    "StateValues1": "aperiam",
+    "StateValues2": "dolores"
   },
-  "Exception": "aut",
+  "Exception": "consequatur",
   "ParserValues": {
-    "ParserValues1": "aliquam",
-    "ParserValues2": "rem"
+    "ParserValues1": "dolor",
+    "ParserValues2": "fugiat"
   },
   "CgiVariables": {
-    "CgiVariables1": "consequatur",
-    "CgiVariables2": "dolores"
+    "CgiVariables1": "expedita",
+    "CgiVariables2": "labore"
   },
-  "CgiContent": "necessitatibus",
+  "CgiContent": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 712
+      "FieldLength": 355
     }
   }
 }

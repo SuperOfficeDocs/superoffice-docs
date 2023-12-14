@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 504,
-  "Name": "Glover, Thompson and Ruecker",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "Rank": 924,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false
+  "Id": 286,
+  "Name": "Lueilwitz Inc and Sons",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 60,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolores",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 88,
-  "Name": "Corwin-Marquardt",
-  "Tooltip": "repudiandae",
+  "Id": 137,
+  "Name": "Goldner Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 491,
-  "IsCustomList": true,
+  "Rank": 511,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "incidunt",
-  "InUseByUserDefinedFields": false,
+  "ListType": "dicta",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 639
+      "FieldType": "System.Int32",
+      "FieldLength": 175
     }
   }
 }

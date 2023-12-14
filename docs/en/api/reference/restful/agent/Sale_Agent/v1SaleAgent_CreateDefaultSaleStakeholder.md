@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Smith-Pollich",
-  "Comment": "nobis",
-  "StakeholderRoleId": 844,
-  "CountryId": 92,
-  "PersonId": 89,
-  "EmailDescription": "kelton@kochvandervort.uk",
-  "EmailId": 90,
-  "EmailAddress": "alberta@hamill.biz",
-  "PhoneId": 979,
-  "ContactName": "Schulist-Denesik",
-  "ContactId": 637,
-  "SaleId": 400,
-  "Mrmrs": "vel",
-  "Firstname": "Montana",
-  "MiddleName": "O'Hara-Trantow",
-  "Lastname": "Harber",
-  "SaleStakeholderId": 122,
-  "Rank": 932,
-  "Phone": "1-550-031-1399",
+  "StakeholderRoleName": "Sanford-Greenfelder",
+  "Comment": "molestiae",
+  "StakeholderRoleId": 606,
+  "CountryId": 100,
+  "PersonId": 892,
+  "EmailDescription": "constance_kassulke@volkman.uk",
+  "EmailId": 473,
+  "EmailAddress": "beverly@bergstrom.name",
+  "PhoneId": 596,
+  "ContactName": "Walsh-Gusikowski",
+  "ContactId": 241,
+  "SaleId": 140,
+  "Mrmrs": "architecto",
+  "Firstname": "Joy",
+  "MiddleName": "Heaney Inc and Sons",
+  "Lastname": "Stamm",
+  "SaleStakeholderId": 80,
+  "Rank": 952,
+  "Phone": "166-594-7650 x93203",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldType": "System.String",
+      "FieldLength": 775
     }
   }
 }

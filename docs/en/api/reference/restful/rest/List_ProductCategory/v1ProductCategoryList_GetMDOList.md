@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=reprehenderit
+GET /api/v1/List/ProductCategory/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Feil Group",
-    "ToolTip": "Corporis non delectus ut.",
-    "Deleted": true,
-    "Rank": 93,
+    "Id": 906,
+    "Name": "Grant Inc and Sons",
+    "ToolTip": "Sint consectetur quam.",
+    "Deleted": false,
+    "Rank": 888,
     "Type": "et",
     "ChildItems": [
       {
-        "Id": 310,
-        "Name": "Kohler, Lesch and Conn",
-        "ToolTip": "Eum earum suscipit.",
-        "Deleted": false,
-        "Rank": 489,
-        "Type": "quia",
+        "Id": 755,
+        "Name": "Schaefer-Beier",
+        "ToolTip": "Illum eos deserunt eum reprehenderit.",
+        "Deleted": true,
+        "Rank": 416,
+        "Type": "quibusdam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nam",
-        "ColorBlock": 707,
-        "ExtraInfo": "temporibus",
-        "StyleHint": "delectus",
-        "FullName": "Mrs. Alexandria Michele Okuneva",
+        "IconHint": "voluptates",
+        "ColorBlock": 610,
+        "ExtraInfo": "unde",
+        "StyleHint": "aut",
+        "FullName": "Opal Willms",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 870
+            "FieldType": "System.Int32",
+            "FieldLength": 581
           }
         }
       }
     ],
-    "IconHint": "voluptatum",
-    "ColorBlock": 792,
-    "ExtraInfo": "nihil",
-    "StyleHint": "dicta",
-    "FullName": "Herbert Bartell",
+    "IconHint": "tenetur",
+    "ColorBlock": 126,
+    "ExtraInfo": "laborum",
+    "StyleHint": "id",
+    "FullName": "Chaz Conroy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 613
+        "FieldLength": 60
       }
     }
   }

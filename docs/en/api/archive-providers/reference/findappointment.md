@@ -694,13 +694,17 @@ Find appointment provider
 |associate/otherGroups|userGroup|Other groups: Other groups|  |
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
-|appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindAppointment?$select=appointmentPublish/isPublished,project/projectUdef/SuperOffice:10,contact/saintIntention
+GET /api/v1/archive/FindAppointment?$select=contact/contactAssociate/portraitThumbnail,contact/contactUdef/SuperOffice:6,person/personUpdatedBy,person/hasCompany,person/hasStoreConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Berge, Huels and Frami",
+  "ProviderName": "Kiehn-Larkin",
   "Columns": [
-    "id",
-    "ut"
+    "distinctio",
+    "blanditiis"
   ],
   "SortOrder": [
     {
-      "Name": "McKenzie LLC",
+      "Name": "Fay, Murphy and Anderson",
       "Direction": "ASC"
     },
     {
-      "Name": "McKenzie LLC",
+      "Name": "Fay, Murphy and Anderson",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Kiehn, Kohler and Murazik",
-      "Operator": "libero",
+      "Name": "Rosenbaum Group",
+      "Operator": "modi",
       "Values": [
-        "labore",
-        "qui"
+        "suscipit",
+        "doloribus"
       ],
       "DisplayValues": [
-        "consequatur",
-        "qui"
+        "natus",
+        "odio"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 861,
+      "InterParenthesis": 208,
       "InterOperator": "And",
-      "UniqueHash": 765
+      "UniqueHash": 317
     }
   ],
   "Entities": [
-    "a",
-    "quibusdam"
+    "unde",
+    "quis"
   ],
-  "Page": 215,
-  "PageSize": 34,
-  "Options": "reiciendis"
+  "Page": 598,
+  "PageSize": 148,
+  "Options": "sunt"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 350,
+  "RowCount": 117,
   "Rows": [
     {
-      "EntityName": "Ortiz Group",
-      "PrimaryKey": 218,
+      "EntityName": "Toy-Hansen",
+      "PrimaryKey": 405,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aliquam",
-          "TooltipHint": "itaque",
-          "LinkHint": "commodi"
+          "DisplayValue": "numquam",
+          "TooltipHint": "repellendus",
+          "LinkHint": "id"
         }
       },
-      "LinkHint": "fugiat",
-      "StyleHint": "omnis",
+      "LinkHint": "facere",
+      "StyleHint": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldType": "System.String",
+          "FieldLength": 528
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldType": "System.String",
+      "FieldLength": 748
     }
   }
 }

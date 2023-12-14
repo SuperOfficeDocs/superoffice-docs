@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 105,
-  "StartTime": "1997-10-01T13:38:12.8584402+02:00",
-  "EndTime": "2009-12-12T13:38:12.8584402+01:00",
-  "Count": 713,
+  "ContactId": 468,
+  "StartTime": "1997-11-03T13:57:11.168145+01:00",
+  "EndTime": "1999-05-24T13:57:11.168145+02:00",
+  "Count": 916,
   "TaskIds": [
-    411,
-    574
+    349,
+    229
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 104,
-    "StartDate": "2009-03-16T13:38:12.8584402+01:00",
-    "EndDate": "1999-09-03T13:38:12.8584402+02:00",
+    "AppointmentId": 123,
+    "StartDate": "2015-08-26T13:57:11.168145+02:00",
+    "EndDate": "2012-04-07T13:57:11.168145+02:00",
     "Type": "BookingForChecklist",
-    "Task": "corrupti",
-    "AssociateFullName": "Candice Gleichner",
-    "ContactName": "Lehner Group",
-    "Description": "Decentralized user-facing attitude",
-    "PersonFullName": "Albin Sanford Collier DVM",
-    "PersonId": 702,
-    "ContactId": 369,
-    "ProjectId": 1002,
-    "ProjectName": "Goodwin LLC",
-    "IsPublished": false,
-    "AssociateId": 670,
-    "ColorIndex": 833,
+    "Task": "eos",
+    "AssociateFullName": "Estella Zieme",
+    "ContactName": "Roob-Mante",
+    "Description": "De-engineered executive software",
+    "PersonFullName": "Ms. Veda Hickle",
+    "PersonId": 37,
+    "ContactId": 929,
+    "ProjectId": 955,
+    "ProjectName": "Hayes-Becker",
+    "IsPublished": true,
+    "AssociateId": 773,
+    "ColorIndex": 739,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 206,
-    "PriorityName": "Batz Inc and Sons",
+    "PriorityId": 325,
+    "PriorityName": "Smith Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2012-12-22T13:38:12.8584402+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2003-01-29T13:57:11.168145+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-07-10T13:38:12.8584402+02:00",
-    "RecurringEndDate": "2011-12-07T13:38:12.8584402+01:00",
-    "MotherId": 916,
-    "AssignedBy": 383,
-    "AssignedByFullName": "Prof. Jennie Casper Sr.",
+    "RecurringStartDate": "2020-02-29T13:57:11.168145+01:00",
+    "RecurringEndDate": "2017-04-07T13:57:11.168145+02:00",
+    "MotherId": 979,
+    "AssignedBy": 372,
+    "AssignedByFullName": "Arden Mohr",
     "RejectReason": "",
-    "Location": "beatae",
-    "AlarmLeadTime": "unde",
-    "SaleId": 185,
-    "SaleName": "O'Reilly-Cruickshank",
-    "AssociateName": "Greenholt, Gutmann and Schiller",
-    "CreatedDate": "2019-06-30T13:38:12.8584402+02:00",
-    "CreatedBy": "sint",
-    "CreatedByFullName": "Leora Norwood Schmeler MD",
-    "CreatedByAssociateId": 263,
+    "Location": "dicta",
+    "AlarmLeadTime": "praesentium",
+    "SaleId": 274,
+    "SaleName": "Bayer, Schmeler and Armstrong",
+    "AssociateName": "Kessler, Bailey and Leannon",
+    "CreatedDate": "2006-09-11T13:57:11.168145+02:00",
+    "CreatedBy": "fugit",
+    "CreatedByFullName": "Odell Jacobs",
+    "CreatedByAssociateId": 170,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 100,
-    "Title": "et",
-    "Agenda": "tempore",
-    "InternalNotes": "omnis",
+    "PreferredTZLocation": 10,
+    "Title": "aut",
+    "Agenda": "error",
+    "InternalNotes": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldLength": 644
       }
     }
   }

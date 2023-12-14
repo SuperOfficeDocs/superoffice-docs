@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Configuration/GetApplicationConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "perspiciatis",
-  "Instance": "accusamus"
+  "Application": "est",
+  "Instance": "explicabo"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptatem"
+"sit"
 ```

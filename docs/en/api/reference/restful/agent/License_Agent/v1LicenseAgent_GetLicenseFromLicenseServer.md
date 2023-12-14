@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Toy Group"
+  "OwnerName": "Rutherford, Grady and Schaden"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 315,
-      "NumberOfLicensesFree": 841,
-      "NumberOfLicensesAdded": 320,
-      "NumberOfLicensesNewTotal": 700,
-      "NumberOfLicensesNewFree": 940,
-      "NumberOfLicensesTotal": 213
+      "NumberOfLicensesInUse": 720,
+      "NumberOfLicensesFree": 996,
+      "NumberOfLicensesAdded": 627,
+      "NumberOfLicensesNewTotal": 499,
+      "NumberOfLicensesNewFree": 522,
+      "NumberOfLicensesTotal": 938
     }
   ],
-  "AccumulatedNextCheckDate": "2016-01-12T13:38:13.6396102+01:00"
+  "AccumulatedNextCheckDate": "1999-02-24T13:57:12.4337359+01:00"
 }
 ```

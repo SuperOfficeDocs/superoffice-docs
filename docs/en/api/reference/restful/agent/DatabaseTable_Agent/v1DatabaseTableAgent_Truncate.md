@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Torphy Inc and Sons"
+  "TableName": "Luettgen, Murazik and Brakus"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "qui",
-  "Inserts": 125,
-  "Updates": 891,
-  "Deletes": 618,
+  "Message": "ex",
+  "Inserts": 635,
+  "Updates": 969,
+  "Deletes": 21,
   "RowStatus": [
     {
-      "PrimaryKey": 975,
+      "PrimaryKey": 665,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quia",
-        "in"
+        "quod",
+        "ea"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 594
+          "FieldLength": 210
         }
       }
     },
     {
-      "PrimaryKey": 975,
+      "PrimaryKey": 665,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quia",
-        "in"
+        "quod",
+        "ea"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 594
+          "FieldLength": 210
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldType": "System.String",
+      "FieldLength": 607
     }
   }
 }

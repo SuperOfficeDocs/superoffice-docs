@@ -74,8 +74,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 740,
-  "DocumentId": 639,
+  "QuoteVersionId": 835,
+  "DocumentId": 620,
   "Include": false
 }
 ```

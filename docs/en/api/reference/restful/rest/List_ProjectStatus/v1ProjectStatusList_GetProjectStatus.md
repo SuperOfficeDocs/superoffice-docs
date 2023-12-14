@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 233,
-  "Name": "Paucek Group",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 160,
-  "Rank": 585,
+  "Id": 938,
+  "Name": "Skiles Inc and Sons",
+  "Tooltip": "mollitia",
+  "Deleted": false,
+  "UdListDefinitionId": 956,
+  "Rank": 108,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 972
     }
   }
 }

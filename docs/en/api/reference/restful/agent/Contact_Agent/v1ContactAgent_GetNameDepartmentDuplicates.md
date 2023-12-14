@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bayer, Collier and Fisher",
+  "Name": "Medhurst-Trantow",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Prosacco-Kozey",
-    "SoPrimaryKey": 969,
-    "EntryName": "D'Amore, Blick and Mosciski",
-    "EntryIdentifier": "quod",
-    "RuleDisplayName": "Medhurst, Cummings and Koepp",
+    "RuleName": "Ullrich-Morar",
+    "SoPrimaryKey": 892,
+    "EntryName": "Leffler-Terry",
+    "EntryIdentifier": "blanditiis",
+    "RuleDisplayName": "Ziemann Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 238
+        "FieldType": "System.Int32",
+        "FieldLength": 657
       }
     }
   }

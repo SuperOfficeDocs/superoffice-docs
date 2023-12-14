@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 498,
+  "HierarchyId": 105,
   "Domain": "Dashboards",
-  "Name": "Kilback, Pfeffer and Kuhic",
-  "Fullname": "aut",
-  "ParentId": 565,
+  "Name": "Champlin-Hegmann",
+  "Fullname": "ab",
+  "ParentId": 501,
   "Children": [
     {
-      "HierarchyId": 24,
+      "HierarchyId": 126,
       "Domain": "Dashboards",
-      "Name": "Swift Inc and Sons",
-      "Fullname": "voluptatibus",
-      "ParentId": 459,
+      "Name": "Walker, Gulgowski and Bergstrom",
+      "Fullname": "officiis",
+      "ParentId": 737,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-12-16T13:38:17.4524494+01:00",
-      "RegisteredAssociateId": 606,
-      "Updated": "2002-04-01T13:38:17.4524494+02:00",
-      "UpdatedAssociateId": 274,
+      "Registered": "1996-12-12T13:57:18.8265985+01:00",
+      "RegisteredAssociateId": 872,
+      "Updated": "2017-01-08T13:57:18.8265985+01:00",
+      "UpdatedAssociateId": 748,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 386
+          "FieldType": "System.Int32",
+          "FieldLength": 632
         }
       }
     }
   ],
-  "Registered": "2023-04-28T13:38:17.4524494+02:00",
-  "RegisteredAssociateId": 850,
-  "Updated": "2008-09-12T13:38:17.4524494+02:00",
-  "UpdatedAssociateId": 284,
+  "Registered": "2000-07-05T13:57:18.8265985+02:00",
+  "RegisteredAssociateId": 433,
+  "Updated": "2013-10-10T13:57:18.8265985+02:00",
+  "UpdatedAssociateId": 81,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldType": "System.String",
+      "FieldLength": 690
     }
   },
   "_Links": {

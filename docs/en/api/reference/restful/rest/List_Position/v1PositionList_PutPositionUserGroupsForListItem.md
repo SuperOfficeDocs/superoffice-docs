@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 451,
-    "Name": "Hartmann, Cummerata and Pacocha",
-    "ToolTip": "Aperiam amet aut.",
+    "Id": 976,
+    "Name": "Conroy, Heathcote and Langosh",
+    "ToolTip": "Sequi quaerat velit vero est nisi ut.",
     "Deleted": false,
-    "Rank": 687,
-    "Type": "voluptas",
-    "ColorBlock": 364,
-    "IconHint": "magni",
+    "Rank": 674,
+    "Type": "sit",
+    "ColorBlock": 213,
+    "IconHint": "distinctio",
     "Selected": false,
-    "LastChanged": "2007-01-06T13:38:18.1087815+01:00",
+    "LastChanged": "2018-05-29T13:57:19.8283923+02:00",
     "ChildItems": [
       {
-        "Id": 736,
-        "Name": "Dietrich, Champlin and Kassulke",
-        "ToolTip": "Fuga distinctio reiciendis ipsum et autem dolorum.",
-        "Deleted": true,
-        "Rank": 213,
-        "Type": "sunt",
-        "ColorBlock": 486,
-        "IconHint": "alias",
-        "Selected": false,
-        "LastChanged": "2012-11-29T13:38:18.1087815+01:00",
+        "Id": 226,
+        "Name": "Bergstrom Group",
+        "ToolTip": "Ea illo magni minus sed.",
+        "Deleted": false,
+        "Rank": 754,
+        "Type": "reiciendis",
+        "ColorBlock": 251,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2000-08-23T13:57:19.8283923+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "aut",
+        "ExtraInfo": "placeat",
+        "StyleHint": "doloremque",
         "Hidden": false,
-        "FullName": "Deangelo Alayna Dickens V"
+        "FullName": "Arnoldo Flatley DDS"
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Callie Lakin"
+    "ExtraInfo": "illum",
+    "StyleHint": "numquam",
+    "Hidden": false,
+    "FullName": "Lewis Rebecca Ledner MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 411,
-    "Name": "Haley-Volkman",
-    "ToolTip": "Delectus quo consectetur.",
-    "Deleted": true,
-    "Rank": 716,
-    "Type": "perferendis",
-    "ColorBlock": 611,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2019-01-06T13:38:18.1087815+01:00",
+    "Id": 651,
+    "Name": "Walsh, Waters and Hoeger",
+    "ToolTip": "Facere perferendis aut ut in impedit pariatur numquam.",
+    "Deleted": false,
+    "Rank": 116,
+    "Type": "necessitatibus",
+    "ColorBlock": 923,
+    "IconHint": "eaque",
+    "Selected": false,
+    "LastChanged": "2012-12-09T13:57:19.8283923+01:00",
     "ChildItems": [
       {
-        "Id": 984,
-        "Name": "Harvey Group",
-        "ToolTip": "Aliquid dolorum eligendi ex.",
+        "Id": 427,
+        "Name": "Armstrong LLC",
+        "ToolTip": "Et ut.",
         "Deleted": false,
-        "Rank": 100,
-        "Type": "est",
-        "ColorBlock": 80,
-        "IconHint": "distinctio",
+        "Rank": 576,
+        "Type": "quod",
+        "ColorBlock": 730,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2007-10-16T13:38:18.1087815+02:00",
+        "LastChanged": "2006-04-09T13:57:19.8283923+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "veritatis",
-        "Hidden": false,
-        "FullName": "David Fahey",
+        "ExtraInfo": "ea",
+        "StyleHint": "fugit",
+        "Hidden": true,
+        "FullName": "Jazmin Dina Waelchi MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 849
+            "FieldLength": 547
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Mr. Hyman Ziemann Sr.",
+    "FullName": "Prof. Gregoria Jay Kemmer Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 28
+        "FieldType": "System.Int32",
+        "FieldLength": 583
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 287,
-    "Name": "Bartell-Ortiz",
-    "Tooltip": "non",
+    "HeadingId": 764,
+    "Name": "Ernser, Torphy and Oberbrunner",
+    "Tooltip": "vero",
     "Deleted": false,
-    "Rank": 448,
-    "UdListDefinitionId": 717
+    "Rank": 760,
+    "UdListDefinitionId": 970
   },
   {
-    "HeadingId": 287,
-    "Name": "Bartell-Ortiz",
-    "Tooltip": "non",
+    "HeadingId": 764,
+    "Name": "Ernser, Torphy and Oberbrunner",
+    "Tooltip": "vero",
     "Deleted": false,
-    "Rank": 448,
-    "UdListDefinitionId": 717
+    "Rank": 760,
+    "UdListDefinitionId": 970
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 525,
-    "Name": "Torp Inc and Sons",
-    "Tooltip": "quis",
-    "Deleted": false,
-    "Rank": 612,
-    "UdListDefinitionId": 101,
+    "HeadingId": 490,
+    "Name": "Conn LLC",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 429,
+    "UdListDefinitionId": 623,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 983
+        "FieldLength": 286
       }
     }
   }

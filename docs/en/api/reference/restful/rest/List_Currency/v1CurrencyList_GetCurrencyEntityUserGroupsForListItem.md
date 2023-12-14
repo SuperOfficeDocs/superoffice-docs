@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 243,
-    "Name": "Hirthe, Streich and Heaney",
-    "ToolTip": "Est eius odio necessitatibus eos quas voluptate rem.",
+    "Id": 787,
+    "Name": "Yundt, Krajcik and Schulist",
+    "ToolTip": "Laudantium placeat in et aliquid ea nulla.",
     "Deleted": false,
-    "Rank": 568,
-    "Type": "enim",
-    "ColorBlock": 565,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "1997-12-03T13:38:18.0306692+01:00",
+    "Rank": 97,
+    "Type": "unde",
+    "ColorBlock": 702,
+    "IconHint": "sint",
+    "Selected": false,
+    "LastChanged": "2008-11-07T13:57:19.719018+01:00",
     "ChildItems": [
       {
-        "Id": 462,
-        "Name": "Blick Group",
-        "ToolTip": "Aut ut quae.",
-        "Deleted": true,
-        "Rank": 222,
-        "Type": "aut",
-        "ColorBlock": 116,
-        "IconHint": "alias",
+        "Id": 586,
+        "Name": "Ernser Group",
+        "ToolTip": "Dignissimos voluptate quo quaerat sapiente incidunt occaecati.",
+        "Deleted": false,
+        "Rank": 783,
+        "Type": "et",
+        "ColorBlock": 660,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2016-07-23T13:38:18.0306692+02:00",
+        "LastChanged": "1999-12-30T13:57:19.719018+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Veronica Blick DVM",
+        "FullName": "Silas Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 414
+            "FieldLength": 988
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "modi",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "corrupti",
     "Hidden": true,
-    "FullName": "Pierre Kovacek DDS",
+    "FullName": "Bonnie Jewess",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 650
+        "FieldLength": 286
       }
     }
   }

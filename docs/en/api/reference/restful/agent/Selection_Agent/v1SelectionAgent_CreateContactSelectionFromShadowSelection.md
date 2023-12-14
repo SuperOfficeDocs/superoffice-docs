@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 743,
-  "Name": "Ryan, McCullough and Jerde"
+  "SelectionId": 295,
+  "Name": "Kilback Inc and Sons"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enterprise-wide intermediate forecast",
-  "Postit": "atque",
+  "Description": "Decentralized dynamic support",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 10,
-  "IncludePerson": 339,
-  "MemberCount": 706,
-  "Name": "Larkin Inc and Sons",
-  "PostitTextId": 855,
-  "CreatedDate": "2023-04-26T13:38:14.1553188+02:00",
-  "SelectionId": 138,
-  "SoundEx": "eos",
-  "Source": 247,
-  "TextId": 151,
-  "UpdatedDate": "2011-03-27T13:38:14.1553188+02:00",
-  "UpdatedCount": 703,
-  "Visibility": 921,
+  "GroupIdx": 740,
+  "IncludePerson": 841,
+  "MemberCount": 979,
+  "Name": "Fadel-Walsh",
+  "PostitTextId": 551,
+  "CreatedDate": "2002-09-20T13:57:13.2384042+02:00",
+  "SelectionId": 376,
+  "SoundEx": "reiciendis",
+  "Source": 281,
+  "TextId": 648,
+  "UpdatedDate": "2021-05-10T13:57:13.2384042+02:00",
+  "UpdatedCount": 470,
+  "Visibility": 546,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 887,
-  "TargetTableName": "Smith-Johnson",
+  "TargetTableNumber": 925,
+  "TargetTableName": "Runte, Jast and Johnson",
   "Completed": false,
-  "LeftSelectionId": 740,
-  "RightSelectionId": 988,
+  "LeftSelectionId": 889,
+  "RightSelectionId": 44,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Cartwright-Blick",
-  "ShadowProviderName": "Wolff, Borer and Davis",
-  "ChartKey": "cumque",
-  "LastLoaded": "2001-03-22T13:38:14.1553188+01:00",
-  "LastLoadedBy": 565,
+  "MainProviderName": "Konopelski, Romaguera and Hamill",
+  "ShadowProviderName": "Murray, Abernathy and Bogan",
+  "ChartKey": "nostrum",
+  "LastLoaded": "2016-08-02T13:57:13.2384042+02:00",
+  "LastLoadedBy": 265,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-03-11T13:38:14.1553188+01:00",
-  "LastMembershipChangeBy": 288,
+  "LastMembershipChange": "2015-05-04T13:57:13.2384042+02:00",
+  "LastMembershipChangeBy": 885,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nesciunt",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Bruen, Kerluke and Beier",
-  "DashboardTileDefinitionId": 857,
+  "MainHeading": "pariatur",
+  "MemberTabHeading": "quia",
+  "MailingsProviderName": "Roberts Inc and Sons",
+  "DashboardTileDefinitionId": 524,
   "VisibleFor": [
     {
-      "VisibleId": 197,
+      "VisibleId": 159,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldType": "System.String",
+          "FieldLength": 340
         }
       }
     },
     {
-      "VisibleId": 197,
+      "VisibleId": 159,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldType": "System.String",
+          "FieldLength": 340
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 755
     }
   }
 }

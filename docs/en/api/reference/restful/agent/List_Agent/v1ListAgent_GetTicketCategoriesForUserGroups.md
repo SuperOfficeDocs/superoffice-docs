@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    285,
-    553
+    863,
+    271
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 492,
-    "Name": "Kerluke Group",
-    "ToolTip": "Eius dicta est provident.",
+    "Id": 142,
+    "Name": "O'Conner-Dare",
+    "ToolTip": "Quibusdam tempora nesciunt deserunt vitae exercitationem voluptas.",
     "Deleted": false,
-    "Rank": 272,
-    "Type": "et",
+    "Rank": 611,
+    "Type": "doloribus",
     "ChildItems": [
       {
-        "Id": 677,
-        "Name": "Bednar, Simonis and Rice",
-        "ToolTip": "Quia suscipit vel voluptas necessitatibus doloremque.",
+        "Id": 673,
+        "Name": "Boehm-Kemmer",
+        "ToolTip": "Vel asperiores repellat eos et voluptates.",
         "Deleted": false,
-        "Rank": 415,
-        "Type": "et",
+        "Rank": 467,
+        "Type": "ducimus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 766,
-        "ExtraInfo": "nostrum",
-        "StyleHint": "illo",
-        "FullName": "Della Franecki",
+        "IconHint": "suscipit",
+        "ColorBlock": 316,
+        "ExtraInfo": "deleniti",
+        "StyleHint": "est",
+        "FullName": "Miss Ardith Sigurd Wehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 605
+            "FieldType": "System.String",
+            "FieldLength": 941
           }
         }
       }
     ],
-    "IconHint": "explicabo",
-    "ColorBlock": 852,
-    "ExtraInfo": "est",
-    "StyleHint": "ex",
-    "FullName": "Heather Sanford MD",
+    "IconHint": "accusamus",
+    "ColorBlock": 198,
+    "ExtraInfo": "qui",
+    "StyleHint": "excepturi",
+    "FullName": "Ms. Lemuel Olson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldLength": 455
       }
     }
   }

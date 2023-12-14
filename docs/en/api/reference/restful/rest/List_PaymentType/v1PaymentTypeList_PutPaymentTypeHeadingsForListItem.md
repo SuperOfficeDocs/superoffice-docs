@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Fay-Pollich",
-    "ToolTip": "Repellendus velit atque explicabo.",
+    "Id": 45,
+    "Name": "Fritsch LLC",
+    "ToolTip": "Autem eum et qui.",
     "Deleted": false,
-    "Rank": 777,
-    "Type": "molestiae",
-    "ColorBlock": 101,
-    "IconHint": "natus",
-    "Selected": false,
-    "LastChanged": "2012-05-21T13:38:18.1087815+02:00",
+    "Rank": 791,
+    "Type": "similique",
+    "ColorBlock": 32,
+    "IconHint": "esse",
+    "Selected": true,
+    "LastChanged": "2019-07-11T13:57:19.8283923+02:00",
     "ChildItems": [
       {
-        "Id": 46,
-        "Name": "Ernser, Gorczany and Hamill",
-        "ToolTip": "Ab rerum ut sit.",
-        "Deleted": false,
-        "Rank": 386,
-        "Type": "aut",
-        "ColorBlock": 305,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "1999-01-05T13:38:18.1087815+01:00",
+        "Id": 974,
+        "Name": "Lemke, Reichel and Wintheiser",
+        "ToolTip": "Officia vel ea deserunt eligendi.",
+        "Deleted": true,
+        "Rank": 823,
+        "Type": "eum",
+        "ColorBlock": 850,
+        "IconHint": "earum",
+        "Selected": false,
+        "LastChanged": "1997-10-29T13:57:19.8283923+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "rerum",
+        "ExtraInfo": "expedita",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Haven Griffin Dickinson IV"
+        "FullName": "Buck Heidenreich"
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "nihil",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "labore",
     "Hidden": true,
-    "FullName": "Gladyce Lueilwitz"
+    "FullName": "Isaiah Lakin DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Konopelski LLC",
-    "ToolTip": "Labore quia rerum sequi.",
+    "Id": 383,
+    "Name": "Buckridge-Christiansen",
+    "ToolTip": "Voluptatem repellat quis et qui rerum vero.",
     "Deleted": false,
-    "Rank": 610,
-    "Type": "cum",
-    "ColorBlock": 158,
-    "IconHint": "rem",
-    "Selected": true,
-    "LastChanged": "2006-05-20T13:38:18.1087815+02:00",
+    "Rank": 752,
+    "Type": "provident",
+    "ColorBlock": 252,
+    "IconHint": "nostrum",
+    "Selected": false,
+    "LastChanged": "1997-04-18T13:57:19.8283923+02:00",
     "ChildItems": [
       {
-        "Id": 887,
-        "Name": "Goldner LLC",
-        "ToolTip": "Temporibus blanditiis ut.",
-        "Deleted": true,
-        "Rank": 542,
-        "Type": "perspiciatis",
-        "ColorBlock": 272,
+        "Id": 96,
+        "Name": "Rau, Lockman and Sporer",
+        "ToolTip": "Voluptatibus voluptatem aspernatur sit voluptatem distinctio optio.",
+        "Deleted": false,
+        "Rank": 90,
+        "Type": "similique",
+        "ColorBlock": 805,
         "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "2001-09-12T13:38:18.1087815+02:00",
+        "LastChanged": "1996-11-02T13:57:19.8283923+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "ea",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "itaque",
         "Hidden": true,
-        "FullName": "Carmel Homenick",
+        "FullName": "Lisa Larkin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 550
+            "FieldLength": 330
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "beatae",
+    "StyleHint": "autem",
     "Hidden": true,
-    "FullName": "Mr. Autumn Lowe DVM",
+    "FullName": "Haylie Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 381
+        "FieldType": "System.Int32",
+        "FieldLength": 436
       }
     }
   }

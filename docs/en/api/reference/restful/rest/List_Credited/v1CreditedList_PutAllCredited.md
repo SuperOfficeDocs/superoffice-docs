@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "Mante Inc and Sons",
-    "Tooltip": "velit",
+    "Id": 627,
+    "Name": "Oberbrunner Group",
+    "Tooltip": "tempore",
     "Deleted": false,
-    "UdListDefinitionId": 17,
-    "Rank": 66
+    "UdListDefinitionId": 500,
+    "Rank": 976
   },
   {
-    "Id": 328,
-    "Name": "Mante Inc and Sons",
-    "Tooltip": "velit",
+    "Id": 627,
+    "Name": "Oberbrunner Group",
+    "Tooltip": "tempore",
     "Deleted": false,
-    "UdListDefinitionId": 17,
-    "Rank": 66
+    "UdListDefinitionId": 500,
+    "Rank": 976
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 510,
-    "Name": "Shields, Conroy and Veum",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 306,
-    "Rank": 759,
+    "Id": 168,
+    "Name": "Gibson-Gerhold",
+    "Tooltip": "eveniet",
+    "Deleted": false,
+    "UdListDefinitionId": 230,
+    "Rank": 116,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 27
+        "FieldType": "System.Int32",
+        "FieldLength": 328
       }
     }
   }

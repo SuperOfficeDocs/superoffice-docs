@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 495,
-  "HeadingId": 645
+  "UdListDefinitionId": 194,
+  "HeadingId": 59
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 280,
-    "Name": "Stiedemann, Zulauf and Dooley",
-    "ToolTip": "Sed sit quidem dolorum laborum distinctio quae voluptas.",
+    "Id": 941,
+    "Name": "Balistreri, Krajcik and Cummings",
+    "ToolTip": "Minima pariatur quidem iure in necessitatibus facere.",
     "Deleted": false,
-    "Rank": 754,
-    "Type": "et",
-    "ColorBlock": 991,
-    "IconHint": "numquam",
-    "Selected": false,
-    "LastChanged": "2016-01-17T13:38:13.6864749+01:00",
+    "Rank": 758,
+    "Type": "sed",
+    "ColorBlock": 20,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2009-08-10T13:57:12.5286589+02:00",
     "ChildItems": [
       {
-        "Id": 726,
-        "Name": "West Inc and Sons",
-        "ToolTip": "Est vel voluptate.",
-        "Deleted": true,
-        "Rank": 859,
-        "Type": "qui",
-        "ColorBlock": 997,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2003-01-09T13:38:13.6864749+01:00",
+        "Id": 422,
+        "Name": "Bayer-O'Connell",
+        "ToolTip": "Architecto nulla omnis.",
+        "Deleted": false,
+        "Rank": 637,
+        "Type": "voluptatum",
+        "ColorBlock": 161,
+        "IconHint": "atque",
+        "Selected": true,
+        "LastChanged": "2021-11-25T13:57:12.5286589+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "amet",
+        "ExtraInfo": "illo",
+        "StyleHint": "voluptates",
         "Hidden": false,
-        "FullName": "Douglas Smitham",
+        "FullName": "Ova Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 742
+            "FieldLength": 35
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "perferendis",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Peggie Fadel",
+    "FullName": "Mr. Derick McGlynn I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 91
+        "FieldLength": 744
       }
     }
   }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 428,
-  "Name": "Berge Inc and Sons",
-  "Tooltip": "alias",
+  "Id": 265,
+  "Name": "Zboncak-Hills",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 845,
-  "Rank": 723
+  "UdListDefinitionId": 616,
+  "Rank": 938
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Name": "Schaefer LLC",
-  "Tooltip": "illo",
+  "Id": 536,
+  "Name": "Ritchie, Kautzer and Koss",
+  "Tooltip": "ex",
   "Deleted": false,
-  "UdListDefinitionId": 425,
-  "Rank": 880,
+  "UdListDefinitionId": 246,
+  "Rank": 862,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 837
+      "FieldType": "System.Int32",
+      "FieldLength": 676
     }
   }
 }

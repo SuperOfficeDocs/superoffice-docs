@@ -70,31 +70,31 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Oberbrunner-Gulgowski",
+  "ProviderName": "Koelpin LLC",
   "Restrictions": [
     {
-      "Name": "Bernhard-Runte",
-      "Operator": "assumenda",
+      "Name": "Zulauf Group",
+      "Operator": "iusto",
       "Values": [
-        "veritatis",
-        "et"
+        "praesentium",
+        "excepturi"
       ],
       "DisplayValues": [
-        "labore",
-        "et"
+        "quasi",
+        "error"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 295,
+      "InterParenthesis": 817,
       "InterOperator": "And",
-      "UniqueHash": 120
+      "UniqueHash": 395
     }
   ],
-  "AssociateId": 890
+  "AssociateId": 108
 }
 ```
 

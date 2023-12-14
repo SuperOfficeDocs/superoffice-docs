@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 667,
-  "Name": "Tromp, Krajcik and Wisoky",
-  "Tooltip": "fuga",
-  "Rank": 512,
-  "Key": "accusantium",
-  "MailTemplateId": 258,
+  "ConsentSourceId": 141,
+  "Name": "Bosco-Kiehn",
+  "Tooltip": "molestiae",
+  "Rank": 855,
+  "Key": "at",
+  "MailTemplateId": 163,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 344
+      "FieldType": "System.String",
+      "FieldLength": 106
     }
   }
 }

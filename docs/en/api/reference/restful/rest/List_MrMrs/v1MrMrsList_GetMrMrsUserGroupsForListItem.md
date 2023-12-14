@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Abbott Group",
-    "ToolTip": "Hic occaecati eius asperiores sed blanditiis.",
+    "Id": 516,
+    "Name": "Breitenberg-Runte",
+    "ToolTip": "Voluptates nulla eius voluptatem.",
     "Deleted": false,
-    "Rank": 13,
-    "Type": "quia",
-    "ColorBlock": 211,
-    "IconHint": "ipsam",
-    "Selected": true,
-    "LastChanged": "2019-01-05T13:38:18.0775324+01:00",
+    "Rank": 398,
+    "Type": "molestiae",
+    "ColorBlock": 312,
+    "IconHint": "ducimus",
+    "Selected": false,
+    "LastChanged": "2000-07-22T13:57:19.7971417+02:00",
     "ChildItems": [
       {
-        "Id": 647,
-        "Name": "Simonis, Goodwin and Bechtelar",
-        "ToolTip": "Sit nemo quaerat.",
+        "Id": 640,
+        "Name": "Koepp, Wolff and Gusikowski",
+        "ToolTip": "Ipsa laudantium.",
         "Deleted": false,
-        "Rank": 557,
-        "Type": "natus",
-        "ColorBlock": 923,
-        "IconHint": "fugit",
+        "Rank": 59,
+        "Type": "est",
+        "ColorBlock": 868,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2013-05-28T13:38:18.0775324+02:00",
+        "LastChanged": "1998-09-08T13:57:19.7971417+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "dolores",
-        "Hidden": true,
-        "FullName": "Arlo Hintz",
+        "ExtraInfo": "sit",
+        "StyleHint": "provident",
+        "Hidden": false,
+        "FullName": "Felix Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 748
+            "FieldLength": 970
           }
         }
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "expedita",
+    "ExtraInfo": "rerum",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Else Runte",
+    "FullName": "Susana Olson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 154
+        "FieldLength": 173
       }
     }
   }

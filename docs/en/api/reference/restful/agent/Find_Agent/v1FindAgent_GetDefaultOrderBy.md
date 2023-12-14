@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "veritatis",
-  "ProviderName": "Jerde LLC",
-  "StorageKey": "rerum"
+  "StorageType": "consectetur",
+  "ProviderName": "Leffler, McLaughlin and Kris",
+  "StorageKey": "eaque"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Strosin Group",
+    "Name": "Bradtke Inc and Sons",
     "Direction": "ASC"
   },
   {
-    "Name": "Strosin Group",
+    "Name": "Bradtke Inc and Sons",
     "Direction": "ASC"
   }
 ]

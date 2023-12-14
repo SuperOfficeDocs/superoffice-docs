@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 336
+  "SelectionId": 354
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Runolfsson, Gislason and Heathcote",
-    "Description": "Digitized web-enabled challenge",
-    "Rank": 214,
+    "Name": "White-Roberts",
+    "Description": "Phased heuristic Graphical User Interface",
+    "Rank": 145,
     "Restrictions": [
       {
-        "Name": "Lindgren-Torp",
-        "Operator": "vero",
+        "Name": "Cassin Inc and Sons",
+        "Operator": "similique",
         "Values": [
-          "qui",
-          "numquam"
+          "consequatur",
+          "fugit"
         ],
         "DisplayValues": [
-          "corrupti",
-          "natus"
+          "debitis",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 436,
+        "InterParenthesis": 699,
         "InterOperator": "And",
-        "UniqueHash": 201
+        "UniqueHash": 299
       }
     ]
   },
   {
-    "Name": "Runolfsson, Gislason and Heathcote",
-    "Description": "Digitized web-enabled challenge",
-    "Rank": 214,
+    "Name": "White-Roberts",
+    "Description": "Phased heuristic Graphical User Interface",
+    "Rank": 145,
     "Restrictions": [
       {
-        "Name": "Lindgren-Torp",
-        "Operator": "vero",
+        "Name": "Cassin Inc and Sons",
+        "Operator": "similique",
         "Values": [
-          "qui",
-          "numquam"
+          "consequatur",
+          "fugit"
         ],
         "DisplayValues": [
-          "corrupti",
-          "natus"
+          "debitis",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 436,
+        "InterParenthesis": 699,
         "InterOperator": "And",
-        "UniqueHash": 201
+        "UniqueHash": 299
       }
     ]
   }

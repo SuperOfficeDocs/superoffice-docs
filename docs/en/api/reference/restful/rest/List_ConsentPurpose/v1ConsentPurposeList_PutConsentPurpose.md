@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 595,
-  "Name": "Abernathy Inc and Sons",
-  "ConsentText": "et",
-  "FormText": "numquam",
-  "Key": "consectetur",
-  "Tooltip": "exercitationem",
-  "Active": 825,
-  "UpdatedDate": "1998-07-09T13:38:17.9994152+02:00",
+  "ConsentPurposeId": 376,
+  "Name": "Bayer, Rogahn and Reichert",
+  "ConsentText": "quam",
+  "FormText": "molestiae",
+  "Key": "saepe",
+  "Tooltip": "minima",
+  "Active": 104,
+  "UpdatedDate": "2004-03-19T13:57:19.6721792+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 830,
-  "PrivacyStatementDesc": "qui",
+  "Deleted": false,
+  "Rank": 210,
+  "PrivacyStatementDesc": "dignissimos",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 98,
-  "Name": "Christiansen-Collins",
-  "ConsentText": "quo",
-  "FormText": "et",
-  "Key": "veritatis",
-  "Tooltip": "voluptatem",
-  "Active": 312,
-  "UpdatedDate": "1996-11-04T13:38:17.9994152+01:00",
+  "ConsentPurposeId": 477,
+  "Name": "Maggio-Langworth",
+  "ConsentText": "iusto",
+  "FormText": "quisquam",
+  "Key": "illo",
+  "Tooltip": "consequatur",
+  "Active": 37,
+  "UpdatedDate": "2012-03-08T13:57:19.6721792+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 971,
-  "PrivacyStatementDesc": "sunt",
+  "Rank": 63,
+  "PrivacyStatementDesc": "dignissimos",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 425
+      "FieldType": "System.Int32",
+      "FieldLength": 315
     }
   }
 }

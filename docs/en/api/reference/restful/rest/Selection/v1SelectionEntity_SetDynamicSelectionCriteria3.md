@@ -95,34 +95,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pouros Inc and Sons",
+    "Name": "Kemmer-Bogisich",
     "Operator": "ut",
     "Values": [
-      "dolorum",
-      "nulla"
+      "nemo",
+      "mollitia"
     ],
     "DisplayValues": [
-      "id",
-      "consequatur"
+      "accusantium",
+      "repudiandae"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Nicolas-Johns",
-        "Operator": "perspiciatis",
+        "Name": "Brown LLC",
+        "Operator": "ullam",
         "Values": [
-          "magni",
-          "rerum"
+          "minima",
+          "qui"
         ],
         "DisplayValues": [
-          "ipsum",
-          "non"
+          "aut",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 742,
+        "InterParenthesis": 150,
         "InterOperator": "And",
-        "UniqueHash": 634
+        "UniqueHash": 331
       }
     ],
-    "InterParenthesis": 419,
+    "InterParenthesis": 978,
     "InterOperator": "And",
-    "UniqueHash": 978
+    "UniqueHash": 230
   }
 ]
 ```
@@ -150,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dicki, Kuhn and Bashirian",
-    "Operator": "quibusdam",
+    "Name": "Lakin-Bailey",
+    "Operator": "praesentium",
     "Values": [
-      "voluptates",
-      "facilis"
+      "incidunt",
+      "maxime"
     ],
     "DisplayValues": [
-      "sit",
-      "rem"
+      "possimus",
+      "dolore"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Connelly Inc and Sons",
-        "Operator": "reiciendis",
+        "Name": "Metz, Paucek and Gottlieb",
+        "Operator": "est",
         "Values": [
-          "rem",
-          "ducimus"
+          "et",
+          "sed"
         ],
         "DisplayValues": [
-          "molestias",
-          "eveniet"
+          "ad",
+          "sit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -180,14 +180,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 280,
+        "InterParenthesis": 295,
         "InterOperator": "And",
-        "UniqueHash": 253
+        "UniqueHash": 202
       }
     ],
-    "InterParenthesis": 605,
+    "InterParenthesis": 8,
     "InterOperator": "And",
-    "UniqueHash": 329
+    "UniqueHash": 109
   }
 ]
 ```

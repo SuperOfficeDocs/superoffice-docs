@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 767,
-  "Name": "Bernhard Group",
-  "Description": "Visionary needs-based database",
-  "DeltaJson": "et",
+  "ConfigurableScreenDeltaId": 823,
+  "Name": "Dare, Collier and Botsford",
+  "Description": "Enhanced fresh-thinking task-force",
+  "DeltaJson": "quo",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "porro",
-  "UpdatedDate": "2021-03-21T13:38:13.2646505+01:00",
-  "CreatedDate": "2004-03-20T13:38:13.2646505+01:00",
+  "RecipeId": "quos",
+  "UpdatedDate": "2002-11-29T13:57:11.8236525+01:00",
+  "CreatedDate": "2014-12-22T13:57:11.8236525+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    876,
-    816
+    650,
+    404
   ],
-  "AppliesToKey": "temporibus"
+  "AppliesToKey": "et"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 803,
-  "Name": "Trantow-Adams",
-  "Description": "Progressive bi-directional secured line",
-  "DeltaJson": "quasi",
+  "ConfigurableScreenDeltaId": 208,
+  "Name": "Koepp-Heidenreich",
+  "Description": "Implemented bandwidth-monitored capacity",
+  "DeltaJson": "consectetur",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "eum",
-  "UpdatedDate": "1997-11-13T13:38:13.2646505+01:00",
-  "CreatedDate": "2001-07-26T13:38:13.2646505+02:00",
+  "RecipeId": "dolore",
+  "UpdatedDate": "2003-11-18T13:57:11.8236525+01:00",
+  "CreatedDate": "2011-11-22T13:57:11.8236525+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    16,
-    12
+    56,
+    209
   ],
-  "AppliesToKey": "est",
+  "AppliesToKey": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldLength": 173
     }
   }
 }

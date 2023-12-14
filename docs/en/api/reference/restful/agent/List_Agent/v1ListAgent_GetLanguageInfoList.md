@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 684,
-    "LCID": 323,
-    "EnglishName": "Stark-Langworth",
-    "NativeName": "Pollich-Haag",
-    "ThreeLetterISOLanguageName": "Jerde, Green and Larson",
-    "TwoLetterISOLanguageName": "Marks, Kihn and Littel",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 313,
+    "LCID": 496,
+    "EnglishName": "O'Connell Inc and Sons",
+    "NativeName": "Pouros Inc and Sons",
+    "ThreeLetterISOLanguageName": "Trantow Group",
+    "TwoLetterISOLanguageName": "Kuhlman, Williamson and Kuhic",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 404
+        "FieldType": "System.String",
+        "FieldLength": 43
       }
     }
   }

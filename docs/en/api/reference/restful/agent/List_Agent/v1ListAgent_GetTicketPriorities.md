@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Value": "nesciunt",
-    "Tooltip": "reiciendis",
+    "Id": 323,
+    "Value": "et",
+    "Tooltip": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 707
       }
     }
   },
   {
-    "Id": 308,
-    "Value": "nesciunt",
-    "Tooltip": "reiciendis",
+    "Id": 323,
+    "Value": "et",
+    "Tooltip": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 707
       }
     }
   }

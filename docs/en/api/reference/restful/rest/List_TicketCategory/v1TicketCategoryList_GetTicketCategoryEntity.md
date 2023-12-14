@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 596,
-  "ParentId": 900,
-  "Name": "Boyle-Waelchi",
-  "Fullname": "voluptas",
-  "CategoryMaster": 385,
+  "TicketCategoryId": 775,
+  "ParentId": 490,
+  "Name": "Douglas LLC",
+  "Fullname": "odio",
+  "CategoryMaster": 303,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Murazik, Lindgren and Goodwin",
+  "ExternalName": "Wiza-Stracke",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 426,
-  "ReplyTemplate": 643,
-  "NotificationEmail": "lucile@lemketorp.ca",
+  "AssignmentLag": 819,
+  "ReplyTemplate": 685,
+  "NotificationEmail": "kirstin@ullrich.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 167,
+  "EffectiveReplyTemplateId": 1001,
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "in"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "nisi",
-    "CustomFields2": "quis"
+    "CustomFields1": "vel",
+    "CustomFields2": "rem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 372
     }
   }
 }

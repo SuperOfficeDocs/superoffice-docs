@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 808,
-  "Name": "Willms Group",
-  "Tooltip": "explicabo",
-  "Deleted": false,
-  "Rank": 944,
-  "UdListDefinitionId": 721
+  "HeadingId": 406,
+  "Name": "Hermiston Group",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 592,
+  "UdListDefinitionId": 902
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 225,
-  "Name": "Blanda LLC",
-  "Tooltip": "voluptates",
+  "HeadingId": 759,
+  "Name": "Wuckert-Kunde",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 657,
-  "UdListDefinitionId": 675,
+  "Rank": 933,
+  "UdListDefinitionId": 357,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 584
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 996,
-    "Name": "Cole, Will and Cruickshank",
-    "Tooltip": "ut",
-    "Rank": 498,
-    "Key": "voluptatem",
-    "MailTemplateId": 85,
+    "ConsentSourceId": 877,
+    "Name": "Okuneva, DuBuque and West",
+    "Tooltip": "voluptate",
+    "Rank": 855,
+    "Key": "enim",
+    "MailTemplateId": 45,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldLength": 220
       }
     }
   }

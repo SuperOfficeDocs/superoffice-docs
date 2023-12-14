@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 641,
-  "Name": "VonRueden, Mills and Pollich",
-  "Tooltip": "at",
-  "Deleted": true,
-  "UdListDefinitionId": 271,
-  "Rank": 2
+  "Id": 604,
+  "Name": "Goyette-Casper",
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "UdListDefinitionId": 856,
+  "Rank": 638
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 676,
-  "Name": "Zulauf Group",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "UdListDefinitionId": 496,
-  "Rank": 400,
+  "Id": 670,
+  "Name": "Lehner-Goldner",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "UdListDefinitionId": 755,
+  "Rank": 920,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldLength": 676
     }
   }
 }

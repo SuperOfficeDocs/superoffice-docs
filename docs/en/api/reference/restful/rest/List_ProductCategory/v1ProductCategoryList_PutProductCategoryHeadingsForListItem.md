@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 482,
-    "Name": "Heller-Klein",
-    "ToolTip": "Est dolor quia laudantium officiis earum.",
+    "Id": 577,
+    "Name": "Treutel, Jaskolski and Murazik",
+    "ToolTip": "Velit optio sed ut.",
     "Deleted": false,
-    "Rank": 877,
-    "Type": "enim",
-    "ColorBlock": 443,
-    "IconHint": "voluptatum",
-    "Selected": false,
-    "LastChanged": "2003-09-05T13:38:18.1244081+02:00",
+    "Rank": 776,
+    "Type": "saepe",
+    "ColorBlock": 523,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "1998-04-22T13:57:19.8752673+02:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Collier LLC",
-        "ToolTip": "Quibusdam architecto voluptas non ex ea.",
+        "Id": 587,
+        "Name": "Pollich-Bode",
+        "ToolTip": "Aut id cumque expedita qui aspernatur ut corrupti.",
         "Deleted": false,
-        "Rank": 418,
-        "Type": "in",
-        "ColorBlock": 766,
-        "IconHint": "aut",
+        "Rank": 815,
+        "Type": "ullam",
+        "ColorBlock": 748,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2000-05-05T13:38:18.1244081+02:00",
+        "LastChanged": "2013-04-15T13:57:19.8752673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "impedit",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Mr. Triston Satterfield PhD"
+        "FullName": "Miss Kristina Conn"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "dolor",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Elsa Stoltenberg"
+    "FullName": "Mr. Leonel Vivianne Predovic"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Skiles, Bashirian and Wilkinson",
-    "ToolTip": "Nemo labore nemo aut dolor.",
+    "Id": 943,
+    "Name": "Jacobs-Pacocha",
+    "ToolTip": "Quo voluptates est.",
     "Deleted": false,
-    "Rank": 333,
-    "Type": "inventore",
-    "ColorBlock": 375,
-    "IconHint": "doloribus",
-    "Selected": true,
-    "LastChanged": "2017-07-17T13:38:18.1244081+02:00",
+    "Rank": 451,
+    "Type": "et",
+    "ColorBlock": 354,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2010-03-17T13:57:19.8752673+01:00",
     "ChildItems": [
       {
-        "Id": 850,
-        "Name": "Crooks Group",
-        "ToolTip": "Omnis ea.",
-        "Deleted": true,
-        "Rank": 58,
-        "Type": "nobis",
-        "ColorBlock": 357,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2017-05-30T13:38:18.1244081+02:00",
+        "Id": 600,
+        "Name": "Doyle Inc and Sons",
+        "ToolTip": "Ex expedita autem et voluptates.",
+        "Deleted": false,
+        "Rank": 377,
+        "Type": "qui",
+        "ColorBlock": 712,
+        "IconHint": "culpa",
+        "Selected": true,
+        "LastChanged": "2020-03-01T13:57:19.8752673+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Verna Powlowski",
+        "ExtraInfo": "est",
+        "StyleHint": "consequuntur",
+        "Hidden": true,
+        "FullName": "Miss Dee Hartmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 77
+            "FieldLength": 266
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "blanditiis",
-    "Hidden": true,
-    "FullName": "Gloria Kirlin II",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "consectetur",
+    "Hidden": false,
+    "FullName": "Mrs. Joan Eugenia Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 341
+        "FieldType": "System.Int32",
+        "FieldLength": 510
       }
     }
   }

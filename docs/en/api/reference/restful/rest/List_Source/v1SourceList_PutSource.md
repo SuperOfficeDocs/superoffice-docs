@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 713,
-  "Name": "Treutel Inc and Sons",
-  "Tooltip": "animi",
+  "Id": 113,
+  "Name": "Rutherford Inc and Sons",
+  "Tooltip": "facere",
   "Deleted": false,
-  "UdListDefinitionId": 143,
-  "Rank": 83
+  "UdListDefinitionId": 395,
+  "Rank": 922
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 616,
-  "Name": "Swift-Medhurst",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 647,
-  "Rank": 521,
+  "Id": 537,
+  "Name": "Mertz LLC",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 929,
+  "Rank": 320,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 289
     }
   }
 }

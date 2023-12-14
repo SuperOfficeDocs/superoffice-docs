@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 764
+  "ChatSessionId": 899
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 760,
-  "TopicId": 163,
+  "ChatSessionId": 946,
+  "TopicId": 953,
   "User": null,
   "Person": null,
-  "CustomerAlias": "non",
-  "CustomerHost": "eos",
-  "CustomerName": "Hauck, Prosacco and Harris",
-  "CustomerEmail": "leilani_ryan@kuhlmanmiller.us",
-  "CustomerPhone": "650-652-5828 x50126",
+  "CustomerAlias": "consequuntur",
+  "CustomerHost": "nulla",
+  "CustomerName": "Pagac LLC",
+  "CustomerEmail": "rod@botsford.biz",
+  "CustomerPhone": "644.807.7478",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kassulke-Block",
+  "CustomerCompanyName": "Erdman-Corkery",
   "Status": "Closed",
-  "FirstMessage": "ea",
-  "LastMessage": "eveniet",
-  "WhenRequested": "2011-10-08T13:38:13.1552857+02:00",
-  "WhenStarted": "2017-05-02T13:38:13.1552857+02:00",
-  "WhenEnded": "2000-02-12T13:38:13.1552857+01:00",
-  "WhenIdle": "2020-09-24T13:38:13.1552857+02:00",
-  "WhenFetched": "2004-11-28T13:38:13.1552857+01:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 5,
-  "AlertLevel": 1001,
-  "Rank": 242,
+  "FirstMessage": "dolorum",
+  "LastMessage": "debitis",
+  "WhenRequested": "2011-09-13T13:57:11.65318+02:00",
+  "WhenStarted": "2020-03-18T13:57:11.65318+01:00",
+  "WhenEnded": "2022-04-06T13:57:11.65318+02:00",
+  "WhenIdle": "1998-04-21T13:57:11.65318+02:00",
+  "WhenFetched": "2002-11-03T13:57:11.65318+01:00",
+  "SessionKey": "voluptatem",
+  "InitialQueuePos": 39,
+  "AlertLevel": 766,
+  "Rank": 48,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 943,
+  "ChatbotIsActive": true,
+  "Rating": 183,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 317
     }
   }
 }

@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 55,
-  "Name": "Conn, Sanford and VonRueden",
-  "CreatedDate": "2006-12-01T13:38:17.4368262+01:00",
-  "UpdatedDate": "2006-06-26T13:38:17.4368262+02:00",
-  "AssociateFullName": "Joanne Rempel",
-  "CreatedBy": "est",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "ipsum",
-  "ForeignAppId": 471
+  "ForeignDeviceId": 72,
+  "Name": "Watsica, Lebsack and Sipes",
+  "CreatedDate": "2020-10-26T13:57:18.8109737+01:00",
+  "UpdatedDate": "2001-11-23T13:57:18.8109737+01:00",
+  "AssociateFullName": "Prof. Eloise Shanie Ebert I",
+  "CreatedBy": "sapiente",
+  "UpdatedBy": "quidem",
+  "DeviceIdentifier": "cum",
+  "ForeignAppId": 488
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 483,
-  "Name": "Sauer, Quigley and Carter",
-  "CreatedDate": "2008-10-27T13:38:17.4524494+01:00",
-  "UpdatedDate": "2018-07-25T13:38:17.4524494+02:00",
-  "AssociateFullName": "Ollie Ernser",
-  "CreatedBy": "totam",
-  "UpdatedBy": "neque",
-  "DeviceIdentifier": "quia",
-  "ForeignAppId": 187,
+  "ForeignDeviceId": 75,
+  "Name": "Stiedemann, Deckow and Weber",
+  "CreatedDate": "1998-03-06T13:57:18.8109737+01:00",
+  "UpdatedDate": "2011-08-29T13:57:18.8109737+02:00",
+  "AssociateFullName": "Zander Schimmel",
+  "CreatedBy": "temporibus",
+  "UpdatedBy": "qui",
+  "DeviceIdentifier": "consequatur",
+  "ForeignAppId": 393,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldLength": 245
     }
   }
 }

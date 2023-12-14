@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 112,
-  "ColumnId": 340,
-  "FieldDefault": "iusto",
-  "FieldHeight": 380,
-  "FieldLabel": "excepturi",
-  "FieldLeft": 999,
-  "FieldTop": 808,
+  "UDefFieldId": 901,
+  "ColumnId": 948,
+  "FieldDefault": "quod",
+  "FieldHeight": 482,
+  "FieldLabel": "iure",
+  "FieldLeft": 177,
+  "FieldTop": 129,
   "FieldType": "Checkbox",
-  "FieldWidth": 926,
-  "FormatMask": "autem",
+  "FieldWidth": 166,
+  "FormatMask": "id",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 20,
-  "LabelLeft": 105,
-  "LabelTop": 440,
-  "LabelWidth": 386,
-  "LastVersionId": 789,
-  "ListTableId": 517,
+  "LabelHeight": 167,
+  "LabelLeft": 175,
+  "LabelTop": 536,
+  "LabelWidth": 437,
+  "LastVersionId": 782,
+  "ListTableId": 837,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 265,
-  "ProgId": "consequatur",
-  "IsReadOnly": false,
-  "ShortLabel": "deleniti",
-  "TabOrder": 238,
-  "TextLength": 830,
-  "Tooltip": "officia",
-  "UdefIdentity": 948,
-  "UDListDefinitionId": 17,
+  "Page1LineNo": 992,
+  "ProgId": "ipsum",
+  "IsReadOnly": true,
+  "ShortLabel": "illo",
+  "TabOrder": 321,
+  "TextLength": 236,
+  "Tooltip": "quia",
+  "UdefIdentity": 18,
+  "UDListDefinitionId": 903,
   "Justification": "Center",
-  "Version": 495,
-  "TemplateVariableName": "Emard Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Hauck-Borer",
+  "Version": 451,
+  "TemplateVariableName": "Hoeger, Bogan and Stamm",
+  "HasBeenPublished": true,
+  "MdoListName": "Pagac Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldType": "System.String",
+      "FieldLength": 951
     }
   }
 }

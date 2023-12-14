@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Erdman LLC",
-  "Context": "quasi"
+  "TableName": "Walter Group",
+  "Context": "aliquam"
 }
 ```
 
@@ -106,75 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "cum",
-    "ValueType": "ipsa",
+    "DefaultShowInGui": true,
+    "DefaultShowInSelector": true,
+    "IsActive": true,
+    "Key": "eveniet",
+    "ValueType": "esse",
     "Mandatory": false,
-    "EncodedDisplayName": "Stiedemann, Casper and Becker",
-    "EncodedDisplayDescription": "Enterprise-wide exuding emulation",
-    "IconHint": "molestiae",
+    "EncodedDisplayName": "Klocko Inc and Sons",
+    "EncodedDisplayDescription": "Diverse bifurcated synergy",
+    "IconHint": "voluptatum",
     "ControlInfos": [
       {
-        "Type": "voluptas",
-        "Label": "est",
-        "Dimension": 623,
-        "ListProviderName": "Halvorson Inc and Sons",
-        "ListProviderExtraInfo": "voluptates",
-        "ListProviderPrimaryKeyName": "Gusikowski-Tromp",
-        "ListLeadText": "nemo",
+        "Type": "recusandae",
+        "Label": "qui",
+        "Dimension": 893,
+        "ListProviderName": "Rogahn Group",
+        "ListProviderExtraInfo": "voluptatem",
+        "ListProviderPrimaryKeyName": "Kilback, Altenwerth and Runolfsson",
+        "ListLeadText": "vel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 451
+            "FieldLength": 753
           }
         }
       }
     ],
-    "EncodedDataCaption": "qui",
-    "EncodedDataCaptionDescription": "Devolved bifurcated migration",
-    "CurrentOperationType": "maiores",
+    "EncodedDataCaption": "accusamus",
+    "EncodedDataCaptionDescription": "Proactive clear-thinking customer loyalty",
+    "CurrentOperationType": "aut",
     "Values": [
-      "consectetur",
-      "veritatis"
+      "corporis",
+      "ab"
     ],
     "DisplayValues": [
-      "voluptatem",
-      "temporibus"
+      "sequi",
+      "earum"
     ],
     "OperationInfos": [
       {
-        "Key": "dolor",
-        "EncodedDisplayName": "Collier, Hamill and Shanahan",
+        "Key": "voluptate",
+        "EncodedDisplayName": "Medhurst LLC",
         "EncodedLeadTexts": [
-          "cupiditate",
-          "possimus"
+          "non",
+          "eligendi"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 525
+            "FieldType": "System.Int32",
+            "FieldLength": 537
           }
         }
       },
       {
-        "Key": "dolor",
-        "EncodedDisplayName": "Collier, Hamill and Shanahan",
+        "Key": "voluptate",
+        "EncodedDisplayName": "Medhurst LLC",
         "EncodedLeadTexts": [
-          "cupiditate",
-          "possimus"
+          "non",
+          "eligendi"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 525
+            "FieldType": "System.Int32",
+            "FieldLength": 537
           }
         }
       }

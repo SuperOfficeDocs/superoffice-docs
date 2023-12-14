@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Name": "Harris, Sanford and Wintheiser",
-    "ToolTip": "Mollitia dolorum assumenda quis voluptas aut.",
+    "Id": 911,
+    "Name": "Howell-Bins",
+    "ToolTip": "Iure ex dolor quod aliquid velit minima.",
     "Deleted": false,
-    "Rank": 497,
-    "Type": "id",
-    "ColorBlock": 283,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2001-02-06T13:38:17.8744364+01:00",
+    "Rank": 518,
+    "Type": "illo",
+    "ColorBlock": 86,
+    "IconHint": "quae",
+    "Selected": false,
+    "LastChanged": "2012-12-27T13:57:19.5940221+01:00",
     "ChildItems": [
       {
-        "Id": 523,
-        "Name": "Roberts-Bailey",
-        "ToolTip": "Reiciendis minima quia error ab quia.",
-        "Deleted": true,
-        "Rank": 197,
-        "Type": "culpa",
-        "ColorBlock": 947,
-        "IconHint": "reprehenderit",
-        "Selected": false,
-        "LastChanged": "2016-03-09T13:38:17.8744364+01:00",
+        "Id": 893,
+        "Name": "Daniel, Schmeler and Howe",
+        "ToolTip": "Ea ipsa tempora.",
+        "Deleted": false,
+        "Rank": 253,
+        "Type": "officia",
+        "ColorBlock": 486,
+        "IconHint": "pariatur",
+        "Selected": true,
+        "LastChanged": "2021-08-27T13:57:19.5940221+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "repudiandae",
-        "Hidden": false,
-        "FullName": "Mireya Grimes",
+        "ExtraInfo": "quis",
+        "StyleHint": "necessitatibus",
+        "Hidden": true,
+        "FullName": "Ms. Marisa Jabari D'Amore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 955
+            "FieldLength": 42
           }
         }
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "hic",
+    "ExtraInfo": "eum",
+    "StyleHint": "doloremque",
     "Hidden": false,
-    "FullName": "Dr. Haley Wyatt Parker",
+    "FullName": "Taryn Wuckert DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 671
+        "FieldType": "System.Int32",
+        "FieldLength": 957
       }
     }
   }

@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 789
+  "PersonId": 759
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 497,
-    "Comment": "sint",
-    "Registered": "2016-09-19T13:38:13.8272279+02:00",
-    "RegisteredAssociateId": 300,
-    "Updated": "2009-06-25T13:38:13.8272279+02:00",
-    "UpdatedAssociateId": 194,
-    "LegalBaseId": 763,
-    "LegalBaseKey": "sit",
-    "LegalBaseName": "Cruickshank, Farrell and Torp",
-    "ConsentPurposeId": 830,
-    "ConsentPurposeKey": "minus",
-    "ConsentPurposeName": "Larkin LLC",
-    "ConsentSourceId": 32,
-    "ConsentSourceKey": "rerum",
-    "ConsentSourceName": "Will-West",
+    "ConsentPersonId": 310,
+    "Comment": "dolores",
+    "Registered": "2008-10-30T13:57:12.7474482+01:00",
+    "RegisteredAssociateId": 1002,
+    "Updated": "2000-02-22T13:57:12.7474482+01:00",
+    "UpdatedAssociateId": 377,
+    "LegalBaseId": 859,
+    "LegalBaseKey": "aliquid",
+    "LegalBaseName": "Kilback, Keeling and Jast",
+    "ConsentPurposeId": 505,
+    "ConsentPurposeKey": "id",
+    "ConsentPurposeName": "Sawayn LLC",
+    "ConsentSourceId": 340,
+    "ConsentSourceKey": "sit",
+    "ConsentSourceName": "Bogan, Kihn and Buckridge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldLength": 22
       }
     }
   }

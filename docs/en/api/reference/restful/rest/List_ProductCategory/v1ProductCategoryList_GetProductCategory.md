@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 518,
-  "Name": "Senger Group",
-  "Tooltip": "dolores",
+  "Id": 815,
+  "Name": "Mraz-Nicolas",
+  "Tooltip": "aut",
   "Deleted": true,
-  "UdListDefinitionId": 56,
-  "Rank": 215,
+  "UdListDefinitionId": 356,
+  "Rank": 235,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 941
     }
   }
 }

@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 374,
-  "Type": 263
+  "GroupId": 993,
+  "Type": 500
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 834,
-    "Name": "Veum Group",
-    "PersonId": 671,
-    "Rank": 867,
-    "Tooltip": "enim",
+    "AssociateId": 371,
+    "Name": "Tromp, Turcotte and Kassulke",
+    "PersonId": 783,
+    "Rank": 157,
+    "Tooltip": "impedit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 444,
-    "FullName": "Mrs. Roosevelt Lelah Haag III",
-    "FormalName": "Feest-Smitham",
-    "Deleted": true,
-    "EjUserId": 785,
-    "UserName": "Weimann-Boyer",
+    "GroupIdx": 674,
+    "FullName": "Miss Barton Ward MD",
+    "FormalName": "Hills-Wyman",
+    "Deleted": false,
+    "EjUserId": 204,
+    "UserName": "Lockman Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 887
+        "FieldLength": 229
       }
     }
   }

@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "tempore",
-  "ProviderName": "Witting, Bosco and Abbott",
-  "StorageKey": "quidem",
-  "Rank": 556,
-  "Context": "amet"
+  "StorageType": "laudantium",
+  "ProviderName": "Pollich LLC",
+  "StorageKey": "facilis",
+  "Rank": 823,
+  "Context": "quidem"
 }
 ```
 
@@ -97,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Becker-Jacobs",
-  "Description": "Open-source grid-enabled hub",
-  "Rank": 116,
+  "Name": "Wunsch-Bogan",
+  "Description": "Configurable client-driven adapter",
+  "Rank": 265,
   "Restrictions": [
     {
-      "Name": "Fahey, Kunze and Lehner",
-      "Operator": "corrupti",
+      "Name": "Gibson, Pagac and Krajcik",
+      "Operator": "iste",
       "Values": [
-        "error",
-        "voluptas"
+        "voluptates",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "consequuntur",
-        "sit"
+        "quo",
+        "iste"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 460,
+      "InterParenthesis": 629,
       "InterOperator": "And",
-      "UniqueHash": 936
+      "UniqueHash": 97
     }
   ]
 }

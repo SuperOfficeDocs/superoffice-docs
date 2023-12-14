@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 505
+  "QuoteId": 258
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 404,
-  "SaleId": 169,
-  "QuoteConnectionId": 798,
-  "ERPQuoteKey": "officiis",
-  "ERPOrderKey": "veniam",
-  "ActiveQuoteVersionId": 61,
-  "AcceptedQuoteAlternativeId": 562,
-  "UseValuesFromQuote": 689,
-  "DocumentId": 185,
-  "PoNumber": "1560030",
-  "OrderComment": "doloribus",
-  "PreferredEmailCulture": "roel_armstrong@gislason.biz",
+  "QuoteId": 620,
+  "SaleId": 270,
+  "QuoteConnectionId": 987,
+  "ERPQuoteKey": "recusandae",
+  "ERPOrderKey": "perspiciatis",
+  "ActiveQuoteVersionId": 599,
+  "AcceptedQuoteAlternativeId": 215,
+  "UseValuesFromQuote": 751,
+  "DocumentId": 301,
+  "PoNumber": "790640",
+  "OrderComment": "voluptatem",
+  "PreferredEmailCulture": "peggie.moore@muller.name",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 794,
-      "ERPQuoteVersionKey": "rerum",
-      "QuoteId": 152,
-      "Description": "Re-engineered 3rd generation pricing structure",
-      "Number": "1469171",
+      "QuoteVersionId": 38,
+      "ERPQuoteVersionKey": "modi",
+      "QuoteId": 956,
+      "Description": "Profit-focused leading edge function",
+      "Number": "1052826",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 760,
-      "SentDate": "1996-09-22T13:38:14.0303322+02:00",
-      "FollowupId": 609,
-      "ExpirationDate": "2017-10-21T13:38:14.0303322+02:00",
-      "DeliveryCountryId": 691,
+      "LikelyQuoteAlternativeId": 982,
+      "SentDate": "2005-04-29T13:57:13.064942+02:00",
+      "FollowupId": 472,
+      "ExpirationDate": "2002-07-16T13:57:13.064942+02:00",
+      "DeliveryCountryId": 610,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 740,
+      "InvoiceCountryId": 231,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "laudantium",
-      "ERPPaymentTypeKey": "voluptatum",
-      "ERPDeliveryTermsKey": "eos",
-      "ERPDeliveryTypeKey": "ad",
-      "Rank": 757,
-      "ApprovedBy": 298,
-      "ApprovedText": "odit",
-      "ApprovedRegisteredBy": 79,
-      "ApprovedRegisteredDate": "2014-04-15T13:38:14.0303322+02:00",
-      "ExtraField1": "quo",
-      "ExtraField2": "a",
-      "ExtraField3": "temporibus",
-      "ExtraField4": "aut",
-      "ExtraField5": "dolor",
-      "LastRecalculated": "2014-02-28T13:38:14.0303322+01:00",
-      "Updated": "2001-10-26T13:38:14.0303322+02:00",
-      "UpdatedAssociateId": 921,
-      "Registered": "2019-09-02T13:38:14.0303322+02:00",
-      "RegisteredAssociateId": 676,
-      "RequestAssociateId": 710,
-      "RequestComment": "laborum",
+      "ERPPaymentTermsKey": "ut",
+      "ERPPaymentTypeKey": "quo",
+      "ERPDeliveryTermsKey": "numquam",
+      "ERPDeliveryTypeKey": "impedit",
+      "Rank": 787,
+      "ApprovedBy": 432,
+      "ApprovedText": "sit",
+      "ApprovedRegisteredBy": 386,
+      "ApprovedRegisteredDate": "2005-07-23T13:57:13.064942+02:00",
+      "ExtraField1": "perferendis",
+      "ExtraField2": "tempore",
+      "ExtraField3": "deserunt",
+      "ExtraField4": "eius",
+      "ExtraField5": "quia",
+      "LastRecalculated": "2004-04-05T13:57:13.064942+02:00",
+      "Updated": "2009-08-01T13:57:13.064942+02:00",
+      "UpdatedAssociateId": 291,
+      "Registered": "2011-11-03T13:57:13.064942+01:00",
+      "RegisteredAssociateId": 980,
+      "RequestAssociateId": 561,
+      "RequestComment": "corporis",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 72
+          "FieldLength": 600
         }
       }
     }
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldType": "System.String",
+      "FieldLength": 611
     }
   }
 }

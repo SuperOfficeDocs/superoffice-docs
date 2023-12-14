@@ -79,15 +79,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 692,
+  "DashboardTileDefinitionId": 688,
   "Languages": [
     {
-      "LanguageCode": "cum",
-      "Html": "magni"
+      "LanguageCode": "optio",
+      "Html": "debitis"
     },
     {
-      "LanguageCode": "cum",
-      "Html": "magni"
+      "LanguageCode": "optio",
+      "Html": "debitis"
     }
   ]
 }
@@ -101,26 +101,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "illum",
-    "Html": "eveniet",
+    "LanguageCode": "fuga",
+    "Html": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 268
+        "FieldLength": 59
       }
     }
   },
   {
-    "LanguageCode": "illum",
-    "Html": "eveniet",
+    "LanguageCode": "fuga",
+    "Html": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 268
+        "FieldLength": 59
       }
     }
   }

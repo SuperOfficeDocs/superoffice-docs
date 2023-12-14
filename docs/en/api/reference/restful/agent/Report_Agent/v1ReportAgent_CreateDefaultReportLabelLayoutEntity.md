@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 637,
-  "Name": "Larkin-Powlowski",
-  "Description": "Virtual fresh-thinking installation",
+  "ReportLabelLayoutId": 63,
+  "Name": "Hamill, Beatty and Nader",
+  "Description": "Decentralized motivating forecast",
   "Orientation": "Landscape",
-  "PaperWidth": 780,
-  "PaperHeight": 39,
-  "LeftMargin": 165,
-  "RightMargin": 500,
-  "TopMargin": 864,
-  "BottomMargin": 17,
-  "CountColumns": 127,
-  "CountRows": 33,
+  "PaperWidth": 363,
+  "PaperHeight": 816,
+  "LeftMargin": 727,
+  "RightMargin": 699,
+  "TopMargin": 288,
+  "BottomMargin": 880,
+  "CountColumns": 436,
+  "CountRows": 358,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 315
+      "FieldLength": 601
     }
   }
 }

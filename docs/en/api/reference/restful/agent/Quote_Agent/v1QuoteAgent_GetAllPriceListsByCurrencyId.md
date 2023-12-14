@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 176,
-  "CurrencyId": 97
+  "QuoteConnectionId": 92,
+  "CurrencyId": 757
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 434,
-    "ERPPriceListKey": "ipsum",
-    "QuoteConnectionId": 40,
-    "Name": "Cartwright Group",
-    "Description": "Programmable disintermediate orchestration",
-    "Currency": "corporis",
-    "CurrencyName": "Morar, Anderson and Connelly",
-    "ValidFrom": "2008-11-22T13:38:14.0303322+01:00",
-    "ValidTo": "2010-10-25T13:38:14.0303322+02:00",
+    "PriceListId": 259,
+    "ERPPriceListKey": "nisi",
+    "QuoteConnectionId": 308,
+    "Name": "Barton, Kihn and Koch",
+    "Description": "Realigned client-driven methodology",
+    "Currency": "rerum",
+    "CurrencyName": "Leffler-Stroman",
+    "ValidFrom": "2005-08-25T13:57:13.064942+02:00",
+    "ValidTo": "2002-04-05T13:57:13.064942+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 392
+        "FieldType": "System.Int32",
+        "FieldLength": 783
       }
     }
   }

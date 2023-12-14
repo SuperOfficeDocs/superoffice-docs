@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 915,
-  "Name": "Bahringer-Ebert",
-  "Tooltip": "expedita",
+  "Id": 367,
+  "Name": "Corwin-Rice",
+  "Tooltip": "est",
   "Deleted": false,
-  "UdListDefinitionId": 30,
-  "Rank": 280,
+  "UdListDefinitionId": 163,
+  "Rank": 959,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 643
+      "FieldType": "System.Int32",
+      "FieldLength": 433
     }
   }
 }

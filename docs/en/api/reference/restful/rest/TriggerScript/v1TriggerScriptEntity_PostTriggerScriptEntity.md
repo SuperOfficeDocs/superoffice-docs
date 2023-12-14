@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 69,
-  "Name": "Hills-McLaughlin",
+  "ScreenChooserId": 246,
+  "Name": "Kuhic-Becker",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quis",
-  "Source": "debitis",
-  "Registered": "1999-08-14T13:38:17.7650302+02:00",
-  "RegisteredAssociateId": 769,
-  "Updated": "1999-06-26T13:38:17.7650302+02:00",
-  "UpdatedAssociateId": 761
+  "UniqueIdentifier": "et",
+  "Source": "eaque",
+  "Registered": "1997-05-02T13:57:19.4221461+02:00",
+  "RegisteredAssociateId": 283,
+  "Updated": "2018-06-26T13:57:19.4221461+02:00",
+  "UpdatedAssociateId": 860
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 844,
-  "Name": "Nitzsche-Wehner",
+  "ScreenChooserId": 357,
+  "Name": "Hegmann, Douglas and Torp",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ad",
-  "Source": "voluptatum",
-  "Registered": "2013-11-03T13:38:17.7650302+01:00",
-  "RegisteredAssociateId": 991,
-  "Updated": "1997-11-07T13:38:17.7650302+01:00",
-  "UpdatedAssociateId": 271,
+  "UniqueIdentifier": "non",
+  "Source": "unde",
+  "Registered": "2002-02-07T13:57:19.4221461+01:00",
+  "RegisteredAssociateId": 458,
+  "Updated": "2008-11-09T13:57:19.4221461+01:00",
+  "UpdatedAssociateId": 636,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 868
+      "FieldType": "System.Int32",
+      "FieldLength": 171
     }
   },
   "_Links": {

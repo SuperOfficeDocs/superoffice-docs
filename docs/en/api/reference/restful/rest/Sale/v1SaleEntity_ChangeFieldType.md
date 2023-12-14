@@ -30,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 555,
-  "ColumnId": 38,
-  "FieldDefault": "aut",
-  "FieldHeight": 535,
-  "FieldLabel": "velit",
-  "FieldLeft": 643,
-  "FieldTop": 723,
+  "UDefFieldId": 955,
+  "ColumnId": 860,
+  "FieldDefault": "enim",
+  "FieldHeight": 75,
+  "FieldLabel": "expedita",
+  "FieldLeft": 395,
+  "FieldTop": 543,
   "FieldType": "Checkbox",
-  "FieldWidth": 821,
-  "FormatMask": "nam",
+  "FieldWidth": 714,
+  "FormatMask": "quia",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 229,
-  "LabelLeft": 848,
-  "LabelTop": 267,
-  "LabelWidth": 5,
-  "LastVersionId": 289,
-  "ListTableId": 90,
+  "IsIndexed": false,
+  "LabelHeight": 670,
+  "LabelLeft": 15,
+  "LabelTop": 727,
+  "LabelWidth": 304,
+  "LastVersionId": 290,
+  "ListTableId": 31,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 726,
-  "ProgId": "impedit",
-  "IsReadOnly": true,
-  "ShortLabel": "numquam",
-  "TabOrder": 12,
-  "TextLength": 187,
-  "Tooltip": "eligendi",
-  "UdefIdentity": 725,
-  "UDListDefinitionId": 518,
+  "Page1LineNo": 942,
+  "ProgId": "facere",
+  "IsReadOnly": false,
+  "ShortLabel": "minus",
+  "TabOrder": 488,
+  "TextLength": 176,
+  "Tooltip": "eum",
+  "UdefIdentity": 498,
+  "UDListDefinitionId": 293,
   "Justification": "Center",
-  "Version": 63,
-  "TemplateVariableName": "Torp LLC",
+  "Version": 390,
+  "TemplateVariableName": "Schumm, Cremin and Schimmel",
   "HasBeenPublished": false,
-  "MdoListName": "Koss Inc and Sons",
+  "MdoListName": "Romaguera, Veum and Fadel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 726
+      "FieldType": "System.Int32",
+      "FieldLength": 554
     }
   }
 }

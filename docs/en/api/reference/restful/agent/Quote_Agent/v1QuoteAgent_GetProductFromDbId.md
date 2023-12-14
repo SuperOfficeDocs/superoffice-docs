@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 768
+  "ProductId": 711
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 810,
-  "ERPProductKey": "maiores",
-  "ERPPriceListKey": "ad",
-  "Name": "Koepp-Spinka",
-  "Description": "Proactive full-range conglomeration",
-  "Code": "fugiat",
-  "PriceUnit": "impedit",
-  "QuantityUnit": "mollitia",
+  "ProductId": 548,
+  "ERPProductKey": "non",
+  "ERPPriceListKey": "ea",
+  "Name": "Schowalter-Rosenbaum",
+  "Description": "Fundamental incremental task-force",
+  "Code": "deserunt",
+  "PriceUnit": "voluptates",
+  "QuantityUnit": "impedit",
   "IsSubscription": false,
-  "SubscriptionUnit": "enim",
-  "DefaultSubscriptionQuantity": 3108.928,
-  "ItemNumber": "1254989",
+  "SubscriptionUnit": "similique",
+  "DefaultSubscriptionQuantity": 19023.38,
+  "ItemNumber": "1148519",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "provident",
-  "ProductTypeKey": "fugit",
-  "VAT": 6029.816,
-  "VATInfo": "excepturi",
-  "UnitCost": 1751.906,
-  "UnitMinimumPrice": 6318.144,
-  "UnitListPrice": 15068.271999999999,
-  "InAssortment": false,
-  "Supplier": "nisi",
-  "SupplierCode": "debitis",
-  "Rights": "suscipit",
-  "Rule": "voluptatibus",
+  "ProductFamilyKey": "harum",
+  "ProductTypeKey": "ea",
+  "VAT": 6434.102,
+  "VATInfo": "assumenda",
+  "UnitCost": 13285.026,
+  "UnitMinimumPrice": 11683.552,
+  "UnitListPrice": 21304.932,
+  "InAssortment": true,
+  "Supplier": "velit",
+  "SupplierCode": "quia",
+  "Rights": "libero",
+  "Rule": "sed",
   "ExtraInfo": [
     {
-      "Name": "Von-Crooks",
-      "Value": "nam",
+      "Name": "Cruickshank-Nitzsche",
+      "Value": "accusantium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 30
+          "FieldType": "System.Int32",
+          "FieldLength": 156
         }
       }
     },
     {
-      "Name": "Von-Crooks",
-      "Value": "nam",
+      "Name": "Cruickshank-Nitzsche",
+      "Value": "accusantium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 30
+          "FieldType": "System.Int32",
+          "FieldLength": 156
         }
       }
     }
   ],
-  "RawExtraInfo": "accusantium",
-  "ExtraField1": "saepe",
-  "ExtraField2": "odit",
-  "ExtraField3": "eum",
-  "ExtraField4": "facere",
-  "ExtraField5": "minus",
-  "InStock": 5528.376,
+  "RawExtraInfo": "dignissimos",
+  "ExtraField1": "occaecati",
+  "ExtraField2": "dolor",
+  "ExtraField3": "ut",
+  "ExtraField4": "quo",
+  "ExtraField5": "sapiente",
+  "InStock": 6355.7519999999995,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 927
     }
   }
 }

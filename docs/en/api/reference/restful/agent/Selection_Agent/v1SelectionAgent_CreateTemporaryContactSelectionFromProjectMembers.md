@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 685
+  "ProjectId": 93
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Implemented heuristic collaboration",
-  "Postit": "harum",
+  "Description": "Reactive bifurcated task-force",
+  "Postit": "nostrum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 240,
-  "IncludePerson": 709,
-  "MemberCount": 206,
-  "Name": "Cummerata Group",
-  "PostitTextId": 927,
-  "CreatedDate": "2017-11-28T13:38:14.1396943+01:00",
-  "SelectionId": 243,
-  "SoundEx": "nostrum",
-  "Source": 279,
-  "TextId": 928,
-  "UpdatedDate": "2012-10-19T13:38:14.1396943+02:00",
-  "UpdatedCount": 214,
-  "Visibility": 281,
+  "GroupIdx": 913,
+  "IncludePerson": 203,
+  "MemberCount": 107,
+  "Name": "Steuber-Wolff",
+  "PostitTextId": 837,
+  "CreatedDate": "2000-11-18T13:57:13.2227834+01:00",
+  "SelectionId": 485,
+  "SoundEx": "perferendis",
+  "Source": 215,
+  "TextId": 495,
+  "UpdatedDate": "2019-08-11T13:57:13.2227834+02:00",
+  "UpdatedCount": 516,
+  "Visibility": 393,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 764,
-  "TargetTableName": "Murray-Rippin",
+  "TargetTableNumber": 805,
+  "TargetTableName": "Paucek, Torp and Fahey",
   "Completed": true,
-  "LeftSelectionId": 782,
-  "RightSelectionId": 126,
+  "LeftSelectionId": 789,
+  "RightSelectionId": 670,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Pagac Inc and Sons",
-  "ShadowProviderName": "Hyatt, Beahan and Romaguera",
-  "ChartKey": "rem",
-  "LastLoaded": "1999-12-30T13:38:14.1396943+01:00",
-  "LastLoadedBy": 838,
+  "MainProviderName": "Hane, Adams and Sporer",
+  "ShadowProviderName": "Stracke, Powlowski and Blick",
+  "ChartKey": "ab",
+  "LastLoaded": "2000-07-02T13:57:13.2227834+02:00",
+  "LastLoadedBy": 856,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-08-21T13:38:14.1396943+02:00",
-  "LastMembershipChangeBy": 281,
+  "LastMembershipChange": "1998-08-11T13:57:13.2227834+02:00",
+  "LastMembershipChangeBy": 399,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "molestiae",
-  "MailingsProviderName": "Kreiger LLC",
-  "DashboardTileDefinitionId": 371,
+  "MainHeading": "iusto",
+  "MemberTabHeading": "rem",
+  "MailingsProviderName": "Bechtelar-Erdman",
+  "DashboardTileDefinitionId": 355,
   "VisibleFor": [
     {
-      "VisibleId": 585,
+      "VisibleId": 52,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 984
+          "FieldType": "System.Int32",
+          "FieldLength": 827
         }
       }
     },
     {
-      "VisibleId": 585,
+      "VisibleId": 52,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 984
+          "FieldType": "System.Int32",
+          "FieldLength": 827
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   }
 }

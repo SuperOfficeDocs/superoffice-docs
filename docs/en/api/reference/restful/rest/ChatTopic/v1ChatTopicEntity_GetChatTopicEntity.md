@@ -103,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,48 +113,48 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 192,
-  "Name": "Labadie, Hegmann and Flatley",
-  "Description": "Function-based background functionalities",
-  "WelcomeMessage": "quas",
+  "ChatTopicId": 259,
+  "Name": "Reynolds Group",
+  "Description": "Fully-configurable incremental hardware",
+  "WelcomeMessage": "ut",
   "Language": null,
-  "LastAccept": "2012-12-09T13:38:17.1868579+01:00",
-  "SecondsPrAccept": 898,
-  "AlertRecipient": "sint",
+  "LastAccept": "2004-02-28T13:57:18.5440601+01:00",
+  "SecondsPrAccept": 708,
+  "AlertRecipient": "reprehenderit",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "aut",
+  "BadgeHeader": "minima",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "natus",
-  "WarnNewChatMinutes": 229,
-  "WarnManagerNewChatMinutes": 646,
-  "TicketEnabled": false,
+  "CustomQueueText": "id",
+  "WarnNewChatMinutes": 125,
+  "WarnManagerNewChatMinutes": 432,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 809,
-  "WarnManagerChatMessageMinutes": 391,
+  "WarnChatMessageMinutes": 155,
+  "WarnManagerChatMessageMinutes": 250,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 380,
-  "OfflineFormQueueLength": 97,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "quo",
+  "OfflineFormTimeLimit": 975,
+  "OfflineFormQueueLength": 657,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldLength": 125
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -98,7 +98,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 716
+  "Id": 286
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 93,
-  "Name": "Weimann Group",
-  "AssociateId": 69,
-  "DetailsTable": 209,
-  "DetailsRecord": 339,
+  "Id": 972,
+  "Name": "Zieme, Klocko and Christiansen",
+  "AssociateId": 484,
+  "DetailsTable": 954,
+  "DetailsRecord": 322,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "doloremque",
-    "ParameterObject2": "qui"
+    "ParameterObject1": "deleniti",
+    "ParameterObject2": "pariatur"
   },
-  "LastStarted": "2010-09-05T13:38:13.0771703+02:00",
-  "Created": "2012-01-18T13:38:13.0771703+01:00",
-  "StartCount": 654,
-  "DatabaseSerialNumber": "1795380",
-  "Context": "odit",
-  "Result": "delectus",
+  "LastStarted": "2005-07-11T13:57:11.5438073+02:00",
+  "Created": "1999-01-08T13:57:11.5438073+01:00",
+  "StartCount": 111,
+  "DatabaseSerialNumber": "1432063",
+  "Context": "accusantium",
+  "Result": "quia",
   "State": "All",
-  "Description": "Multi-channelled web-enabled solution",
-  "Response": "veritatis",
-  "Request": "excepturi",
-  "ProgressDescription": "Intuitive composite access",
-  "ProgressPercent": 119,
-  "FileName": "Krajcik, Lubowitz and Bruen",
+  "Description": "Automated disintermediate knowledge base",
+  "Response": "et",
+  "Request": "dolores",
+  "ProgressDescription": "Stand-alone intermediate orchestration",
+  "ProgressPercent": 784,
+  "FileName": "O'Kon, Denesik and Grimes",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 56
+      "FieldType": "System.Int32",
+      "FieldLength": 862
     }
   }
 }

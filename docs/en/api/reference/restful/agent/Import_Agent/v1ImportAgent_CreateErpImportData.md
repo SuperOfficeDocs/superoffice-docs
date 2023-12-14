@@ -77,21 +77,21 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Trantow-Yundt",
-      "Operator": "molestias",
+      "Name": "Mueller Group",
+      "Operator": "omnis",
       "Values": [
-        "quos",
-        "ut"
+        "expedita",
+        "odit"
       ],
       "DisplayValues": [
-        "laboriosam",
-        "voluptatem"
+        "maiores",
+        "quod"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 633,
+      "InterParenthesis": 11,
       "InterOperator": "And",
-      "UniqueHash": 203
+      "UniqueHash": 672
     }
   ],
   "Columns": [
-    "omnis",
-    "omnis"
+    "doloremque",
+    "veniam"
   ],
-  "ConnectionId": 973,
+  "ConnectionId": 779,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "eligendi",
-        "labore"
+        "eos",
+        "est"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "consequuntur",
+      "ExternalKey": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 103
+          "FieldLength": 845
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Bartoletti-Zboncak",
-      "DisplayName": "Rath-Wunsch",
+      "Name": "Parker, Wolf and Reilly",
+      "DisplayName": "Dach Group",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 141
         }
       }
     },
     {
-      "Name": "Bartoletti-Zboncak",
-      "DisplayName": "Rath-Wunsch",
+      "Name": "Parker, Wolf and Reilly",
+      "DisplayName": "Dach Group",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 141
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 742
+      "FieldLength": 944
     }
   }
 }

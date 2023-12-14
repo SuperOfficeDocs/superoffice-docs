@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 29,
-  "DefaultValue": "quia",
+  "ErpFieldId": 878,
+  "DefaultValue": "harum",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "magnam",
-  "PromptUser": true,
+  "FirstSyncDefaultValue": "ut",
+  "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "quaerat",
+  "ErpFieldKey": "eos",
   "FieldType": "Checkbox",
-  "ListName": "Weissnat, Willms and Ferry",
+  "ListName": "Moore Inc and Sons",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 887
+      "FieldLength": 958
     }
   }
 }

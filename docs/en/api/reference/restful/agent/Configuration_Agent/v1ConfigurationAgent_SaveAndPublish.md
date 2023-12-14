@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 364,
-  "Name": "Jones-Shields",
-  "Description": "Ergonomic interactive implementation",
-  "DeltaJson": "qui",
+  "ConfigurableScreenDeltaId": 123,
+  "Name": "Hegmann, Batz and Nolan",
+  "Description": "Proactive directional standardization",
+  "DeltaJson": "consequatur",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "temporibus",
-  "UpdatedDate": "2004-04-15T13:38:13.2646505+02:00",
-  "CreatedDate": "2013-06-02T13:38:13.2646505+02:00",
+  "RecipeId": "corporis",
+  "UpdatedDate": "2020-06-12T13:57:11.8393076+02:00",
+  "CreatedDate": "1998-12-20T13:57:11.8393076+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    225,
-    346
+    370,
+    363
   ],
-  "AppliesToKey": "dignissimos",
+  "AppliesToKey": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldType": "System.Int32",
+      "FieldLength": 124
     }
   }
 }

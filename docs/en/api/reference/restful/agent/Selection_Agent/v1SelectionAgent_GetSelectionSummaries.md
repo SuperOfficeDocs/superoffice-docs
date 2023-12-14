@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    997,
-    140
+    104,
+    782
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 443,
-    "Name": "Wunsch, Kunde and Ritchie",
-    "TargetTable": "nihil",
-    "Registered": "2008-03-13T13:38:14.1553188+01:00",
-    "ProviderName": "Lynch Inc and Sons"
+    "SelectionId": 192,
+    "Name": "Zemlak-Lind",
+    "TargetTable": "natus",
+    "Registered": "2013-04-11T13:57:13.2540276+02:00",
+    "ProviderName": "Kling, Barton and Goyette"
   },
   {
-    "SelectionId": 443,
-    "Name": "Wunsch, Kunde and Ritchie",
-    "TargetTable": "nihil",
-    "Registered": "2008-03-13T13:38:14.1553188+01:00",
-    "ProviderName": "Lynch Inc and Sons"
+    "SelectionId": 192,
+    "Name": "Zemlak-Lind",
+    "TargetTable": "natus",
+    "Registered": "2013-04-11T13:57:13.2540276+02:00",
+    "ProviderName": "Kling, Barton and Goyette"
   }
 ]
 ```

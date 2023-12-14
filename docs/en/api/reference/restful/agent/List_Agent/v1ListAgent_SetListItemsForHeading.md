@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 258,
-  "HeadingId": 647,
+  "UdListDefinitionId": 328,
+  "HeadingId": 872,
   "ListItemIds": [
-    155,
-    294
+    12,
+    402
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

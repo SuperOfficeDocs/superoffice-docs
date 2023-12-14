@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 74,
-  "Name": "Feest-Heathcote",
-  "Tooltip": "in",
-  "Deleted": true,
-  "UdListDefinitionId": 994,
-  "Rank": 797,
+  "Id": 501,
+  "Name": "Von-Nader",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "UdListDefinitionId": 948,
+  "Rank": 559,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 669
     }
   }
 }

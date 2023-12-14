@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 943,
-  "WorkflowId": 832,
+  "WorkflowGoalId": 794,
+  "WorkflowId": 422,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Olson LLC",
-      "Description": "Fundamental multi-state website",
-      "Rank": 669,
+      "Name": "Daugherty Group",
+      "Description": "Virtual next generation instruction set",
+      "Rank": 402,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Olson LLC",
-      "Description": "Fundamental multi-state website",
-      "Rank": 669,
+      "Name": "Daugherty Group",
+      "Description": "Virtual next generation instruction set",
+      "Rank": 402,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 907,
-  "WorkflowId": 135,
+  "WorkflowGoalId": 149,
+  "WorkflowId": 667,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Okuneva-Keebler",
-      "Description": "Reactive optimal application",
-      "Rank": 815,
+      "Name": "Altenwerth-Emmerich",
+      "Description": "Cross-group web-enabled capability",
+      "Rank": 664,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Okuneva-Keebler",
-      "Description": "Reactive optimal application",
-      "Rank": 815,
+      "Name": "Altenwerth-Emmerich",
+      "Description": "Cross-group web-enabled capability",
+      "Rank": 664,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldType": "System.Int32",
+      "FieldLength": 463
     }
   }
 }

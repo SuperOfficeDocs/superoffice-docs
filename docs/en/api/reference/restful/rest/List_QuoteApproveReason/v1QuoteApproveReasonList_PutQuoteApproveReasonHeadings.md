@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 80,
-    "Name": "Dach Group",
-    "Tooltip": "modi",
+    "HeadingId": 35,
+    "Name": "Koepp-Tromp",
+    "Tooltip": "adipisci",
     "Deleted": false,
-    "Rank": 54,
-    "UdListDefinitionId": 929
+    "Rank": 750,
+    "UdListDefinitionId": 124
   },
   {
-    "HeadingId": 80,
-    "Name": "Dach Group",
-    "Tooltip": "modi",
+    "HeadingId": 35,
+    "Name": "Koepp-Tromp",
+    "Tooltip": "adipisci",
     "Deleted": false,
-    "Rank": 54,
-    "UdListDefinitionId": 929
+    "Rank": 750,
+    "UdListDefinitionId": 124
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 483,
-    "Name": "Hermiston, Nader and Murphy",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "Rank": 214,
-    "UdListDefinitionId": 610,
+    "HeadingId": 738,
+    "Name": "Eichmann, Volkman and Legros",
+    "Tooltip": "dolores",
+    "Deleted": false,
+    "Rank": 231,
+    "UdListDefinitionId": 700,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldType": "System.String",
+        "FieldLength": 278
       }
     }
   }

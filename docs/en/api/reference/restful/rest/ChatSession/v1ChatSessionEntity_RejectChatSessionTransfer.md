@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 512,
-  "TopicId": 942,
+  "ChatSessionId": 135,
+  "TopicId": 772,
   "User": null,
   "Person": null,
-  "CustomerAlias": "non",
-  "CustomerHost": "ut",
-  "CustomerName": "Harber Group",
-  "CustomerEmail": "scarlett.ledner@schustergibson.uk",
-  "CustomerPhone": "(344)906-0447",
+  "CustomerAlias": "vel",
+  "CustomerHost": "minus",
+  "CustomerName": "Krajcik, Trantow and Reinger",
+  "CustomerEmail": "tatyana@kilback.uk",
+  "CustomerPhone": "136.921.2881 x445",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Simonis LLC",
+  "CustomerCompanyName": "Mitchell, Rice and Feil",
   "Status": "Closed",
-  "FirstMessage": "libero",
-  "LastMessage": "autem",
-  "WhenRequested": "2004-05-10T13:38:17.171193+02:00",
-  "WhenStarted": "2003-02-26T13:38:17.171193+01:00",
-  "WhenEnded": "2020-03-07T13:38:17.171193+01:00",
-  "WhenIdle": "2016-09-16T13:38:17.171193+02:00",
-  "WhenFetched": "2007-07-26T13:38:17.171193+02:00",
-  "SessionKey": "ratione",
-  "InitialQueuePos": 598,
-  "AlertLevel": 502,
-  "Rank": 261,
+  "FirstMessage": "dolor",
+  "LastMessage": "tempora",
+  "WhenRequested": "2006-02-10T13:57:18.4971905+01:00",
+  "WhenStarted": "2023-01-23T13:57:18.4971905+01:00",
+  "WhenEnded": "2021-04-12T13:57:18.4971905+02:00",
+  "WhenIdle": "2021-10-20T13:57:18.4971905+02:00",
+  "WhenFetched": "1997-10-27T13:57:18.4971905+01:00",
+  "SessionKey": "magni",
+  "InitialQueuePos": 152,
+  "AlertLevel": 985,
+  "Rank": 206,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 800,
+  "ChatbotIsActive": true,
+  "Rating": 561,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 762
+      "FieldLength": 120
     }
   }
 }

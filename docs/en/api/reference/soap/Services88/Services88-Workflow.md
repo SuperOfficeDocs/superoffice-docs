@@ -603,7 +603,11 @@ title: Services88.WorkflowAgent WSDL
       <xs:complexType name="WorkflowStepSendSMS">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
-            <xs:sequence />
+            <xs:sequence>
+              <xs:element minOccurs="0" name="From" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Exit" type="xs:boolean" />
+            </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
@@ -612,8 +616,11 @@ title: Services88.WorkflowAgent WSDL
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
             <xs:sequence>
+              <xs:element minOccurs="0" name="SplitName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="SplitOptionType" type="tns:WorkflowSplitOptionType" />
+              <xs:element minOccurs="0" name="ShipmentId" type="xs:int" />
               <xs:element minOccurs="0" name="Options" nillable="true" type="tns:ArrayOfWorkflowStepOptionBase" />
+              <xs:element minOccurs="0" name="ExitFlow" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -763,11 +770,30 @@ title: Services88.WorkflowAgent WSDL
       <xs:complexType name="WorkflowStepUpdateParticipant">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
-            <xs:sequence />
+            <xs:sequence>
+              <xs:element minOccurs="0" name="FieldValues" nillable="true" type="tns:ArrayOfFieldValue" />
+            </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="WorkflowStepUpdateParticipant" nillable="true" type="tns:WorkflowStepUpdateParticipant" />
+      <xs:complexType name="ArrayOfFieldValue">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="FieldValue" nillable="true" type="tns:FieldValue" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfFieldValue" nillable="true" type="tns:ArrayOfFieldValue" />
+      <xs:complexType name="FieldValue">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Values" nillable="true" type="q6:ArrayOfstring" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FieldValue" nillable="true" type="tns:FieldValue" />
       <xs:complexType name="WorkflowStepWaitForAction">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
@@ -1244,14 +1270,14 @@ title: Services88.WorkflowAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="EmailFlowId" type="xs:int" />
-            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q6:ArrayOfint" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q7:ArrayOfint" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="TryAddPersonsToEmailFlowResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q7:ArrayOfboolean" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q8:ArrayOfboolean" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1259,7 +1285,7 @@ title: Services88.WorkflowAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="EmailFlowId" type="xs:int" />
-            <xs:element minOccurs="0" name="WorkflowInstanceIds" nillable="true" type="q8:ArrayOfint" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="WorkflowInstanceIds" nillable="true" type="q9:ArrayOfint" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>

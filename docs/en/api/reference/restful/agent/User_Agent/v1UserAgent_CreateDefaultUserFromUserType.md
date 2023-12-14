@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 704,
-  "Name": "Welch Group",
-  "Rank": 850,
-  "Tooltip": "qui",
+  "AssociateId": 119,
+  "Name": "Jakubowski, Moore and Haag",
+  "Rank": 26,
+  "Tooltip": "ut",
   "LicenseOwners": [
     {
-      "Name": "Brakus-Thompson",
-      "Description": "Innovative systematic implementation",
+      "Name": "Blick, Monahan and Kulas",
+      "Description": "Multi-layered object-oriented circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 761
+          "FieldLength": 222
         }
       }
     },
     {
-      "Name": "Brakus-Thompson",
-      "Description": "Innovative systematic implementation",
+      "Name": "Blick, Monahan and Kulas",
+      "Description": "Multi-layered object-oriented circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 761
+          "FieldLength": 222
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "maxime",
-      "Tooltip": "iure",
-      "Id": 792,
-      "Rank": 334,
-      "Deleted": false,
+      "Value": "quisquam",
+      "Tooltip": "aut",
+      "Id": 453,
+      "Rank": 132,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldType": "System.String",
+          "FieldLength": 389
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2009-10-14T13:38:14.374047+02:00",
-  "Lastlogout": "1997-11-29T13:38:14.374047+01:00",
-  "EjUserId": 283,
-  "RequestSignature": "et",
+  "Lastlogin": "2007-04-12T13:57:13.583338+02:00",
+  "Lastlogout": "2009-12-17T13:57:13.583338+01:00",
+  "EjUserId": 222,
+  "RequestSignature": "modi",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "reprehenderit",
-      "DisplayValue": "et",
+      "Value": "eos",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 616
         }
       }
     },
     {
       "Type": null,
-      "Value": "reprehenderit",
-      "DisplayValue": "et",
+      "Value": "eos",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 616
         }
       }
     }
   ],
-  "UserName": "Purdy, Aufderhar and Mann",
+  "UserName": "Muller-Wilkinson",
   "TicketCategories": [
     {
-      "Id": 387,
-      "Name": "Legros-Pfannerstill",
-      "ToolTip": "Aut assumenda temporibus.",
+      "Id": 684,
+      "Name": "Batz-Herman",
+      "ToolTip": "Ea temporibus ipsa inventore et perferendis voluptas.",
       "Deleted": false,
-      "Rank": 897,
-      "Type": "et",
+      "Rank": 71,
+      "Type": "hic",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "non",
-      "ColorBlock": 73,
-      "ExtraInfo": "a",
-      "StyleHint": "mollitia",
-      "FullName": "Tomasa Bergstrom",
+      "IconHint": "enim",
+      "ColorBlock": 153,
+      "ExtraInfo": "vel",
+      "StyleHint": "impedit",
+      "FullName": "Mr. Humberto Will Moore MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldLength": 761
         }
       }
     }
   ],
-  "NickName": "Greenholt Inc and Sons",
-  "WaitingForApproval": false,
+  "NickName": "O'Reilly Inc and Sons",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "commodi",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "ullam"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "deleniti"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "quos"
   },
   "PostSaveCommands": [
     {
-      "Name": "Emmerich, Lueilwitz and Bednar",
-      "DisplayName": "Swift, Williamson and Collins",
-      "Description": "Upgradable 5th generation infrastructure",
-      "ToolTip": "Est quia quia.",
+      "Name": "Langworth LLC",
+      "DisplayName": "Ferry LLC",
+      "Description": "Re-contextualized bifurcated methodology",
+      "ToolTip": "Qui facere non alias reiciendis veniam.",
       "Actions": "Implicit",
-      "ActionData": "dolore",
+      "ActionData": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 533
+          "FieldType": "System.Int32",
+          "FieldLength": 204
         }
       }
     }
@@ -279,8 +279,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 812
+      "FieldType": "System.Int32",
+      "FieldLength": 825
     }
   }
 }

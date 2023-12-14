@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Larson Group",
-  "ProviderName": "Senger-Larkin"
+  "GuiName": "Kub, Shields and Kertzmann",
+  "ProviderName": "Hessel, Hettinger and Wehner"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Gleason, Lang and Blick",
-      "DisplayTooltip": "libero",
-      "DisplayType": "eaque",
-      "CanOrderBy": true,
-      "Name": "Feil Inc and Sons",
+      "DisplayName": "Keebler Group",
+      "DisplayTooltip": "eaque",
+      "DisplayType": "error",
+      "CanOrderBy": false,
+      "Name": "Hessel LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "voluptatem",
-      "RestrictionListName": "Macejkovic-Schultz",
-      "IsVisible": true,
-      "ExtraInfo": "ipsum",
-      "Width": "aliquid",
-      "IconHint": "possimus",
-      "HeadingIconHint": "repellendus"
+      "RestrictionType": "amet",
+      "RestrictionListName": "Runolfsdottir Group",
+      "IsVisible": false,
+      "ExtraInfo": "id",
+      "Width": "adipisci",
+      "IconHint": "perferendis",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 227,
-      "Name": "Stracke, Anderson and Lemke",
-      "ToolTip": "Ad in suscipit quisquam totam omnis quia.",
-      "Deleted": true,
-      "Rank": 260,
-      "Type": "autem",
-      "ColorBlock": 990,
-      "IconHint": "culpa",
+      "Id": 381,
+      "Name": "Gleason-Kulas",
+      "ToolTip": "Qui perferendis dolorem consequuntur ipsum quaerat.",
+      "Deleted": false,
+      "Rank": 309,
+      "Type": "sed",
+      "ColorBlock": 116,
+      "IconHint": "sint",
       "Selected": false,
-      "LastChanged": "2007-02-17T13:38:13.0615453+01:00",
+      "LastChanged": "2000-05-13T13:57:11.512557+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "impedit",
+      "ExtraInfo": "tempore",
+      "StyleHint": "voluptatibus",
       "Hidden": false,
-      "FullName": "Josh Bailey",
+      "FullName": "Brianne Emard",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 580
+          "FieldLength": 171
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "McLaughlin Group",
+      "Name": "Boehm, Langosh and Spencer",
       "Direction": "ASC"
     },
     {
-      "Name": "McLaughlin Group",
+      "Name": "Boehm, Langosh and Spencer",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "in",
+  "OwnerKeys": "accusamus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldType": "System.String",
+      "FieldLength": 979
     }
   }
 }

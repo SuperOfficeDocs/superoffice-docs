@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 316,
-    "Name": "Satterfield LLC",
-    "Tooltip": "similique",
-    "Deleted": true,
-    "UdListDefinitionId": 622,
-    "Rank": 652,
+    "Id": 798,
+    "Name": "Abshire-Anderson",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 444,
+    "Rank": 133,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 644
+        "FieldType": "System.Int32",
+        "FieldLength": 885
       }
     }
   }

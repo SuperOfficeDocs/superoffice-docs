@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 824,
-    "Name": "Zboncak, Collier and Champlin",
-    "Tooltip": "delectus",
+    "Id": 271,
+    "Name": "Ritchie LLC",
+    "Tooltip": "error",
     "Deleted": false,
-    "UdListDefinitionId": 847,
-    "Rank": 40,
+    "UdListDefinitionId": 729,
+    "Rank": 990,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 104
       }
     }
   }

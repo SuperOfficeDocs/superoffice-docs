@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 407,
-  "LanguageId": 114,
-  "PersonId": 936,
-  "TicketId": 339
+  "ReplyTemplateId": 45,
+  "LanguageId": 222,
+  "PersonId": 149,
+  "TicketId": 646
 }
 ```
 
@@ -98,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 153,
-  "PlainParsed": "laudantium",
-  "HtmlParsed": "assumenda",
+  "ReplyTemplateId": 255,
+  "PlainParsed": "omnis",
+  "HtmlParsed": "voluptas",
   "Attachments": [
     {
-      "AttachmentId": 817,
-      "Name": "Murphy Inc and Sons",
-      "ContentType": "expedita",
-      "AttSize": 132,
+      "AttachmentId": 499,
+      "Name": "Ortiz, Rogahn and Conn",
+      "ContentType": "sint",
+      "AttSize": 37,
       "InlineImage": true,
-      "ContentId": "quas",
-      "AuthKey": "deleniti",
+      "ContentId": "aliquam",
+      "AuthKey": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 549
+          "FieldType": "System.Int32",
+          "FieldLength": 497
         }
       }
     }
   ],
-  "Subject": "in",
+  "Subject": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldType": "System.String",
+      "FieldLength": 268
     }
   }
 }

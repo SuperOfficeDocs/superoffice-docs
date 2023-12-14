@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Hackett, Kessler and Gleichner",
-    "ToolTip": "Ab vitae sapiente dolores earum non ea aut.",
-    "Deleted": true,
-    "Rank": 812,
-    "Type": "quis",
-    "ColorBlock": 86,
-    "IconHint": "soluta",
+    "Id": 185,
+    "Name": "Schimmel-Kuhlman",
+    "ToolTip": "Omnis consequatur qui ut aliquam doloribus architecto sit.",
+    "Deleted": false,
+    "Rank": 542,
+    "Type": "et",
+    "ColorBlock": 442,
+    "IconHint": "officia",
     "Selected": false,
-    "LastChanged": "2003-08-31T13:38:18.2181419+02:00",
+    "LastChanged": "2003-02-27T13:57:20.1265357+01:00",
     "ChildItems": [
       {
-        "Id": 868,
-        "Name": "Kovacek, Pagac and Erdman",
-        "ToolTip": "Quibusdam sed sit amet omnis.",
-        "Deleted": true,
-        "Rank": 207,
-        "Type": "saepe",
-        "ColorBlock": 186,
-        "IconHint": "maxime",
-        "Selected": true,
-        "LastChanged": "2020-01-31T13:38:18.2181419+01:00",
+        "Id": 682,
+        "Name": "Gleason, Sporer and Runolfsson",
+        "ToolTip": "Nulla accusantium.",
+        "Deleted": false,
+        "Rank": 591,
+        "Type": "qui",
+        "ColorBlock": 732,
+        "IconHint": "ea",
+        "Selected": false,
+        "LastChanged": "1998-07-17T13:57:20.1265357+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "neque",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Sheila Oberbrunner",
+        "FullName": "Ms. Anibal Anissa Kirlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 847
+            "FieldLength": 147
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "ullam",
-    "Hidden": true,
-    "FullName": "Noah Turner",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Lilly Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldType": "System.String",
+        "FieldLength": 972
       }
     }
   }

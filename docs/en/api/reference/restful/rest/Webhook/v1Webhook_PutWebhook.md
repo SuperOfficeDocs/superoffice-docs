@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 394,
-  "Name": "Wolf LLC",
+  "WebhookId": 222,
+  "Name": "Lockman-Smitham",
   "Events": [
-    "ab",
-    "doloribus"
+    "sit",
+    "consequatur"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "deleniti",
+  "Secret": "fugiat",
   "State": "Active",
-  "Type": "aut",
+  "Type": "ad",
   "Headers": {
-    "Headers1": "molestiae",
-    "Headers2": "cum"
+    "Headers1": "ipsa",
+    "Headers2": "aut"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2002-11-18T13:38:17.8744364+01:00",
+  "Registered": "2022-09-04T13:57:19.5940221+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2012-06-27T13:38:17.8744364+02:00",
+  "Updated": "1996-11-14T13:57:19.5940221+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "myriam_lebsack@schinner.name"
+  "ErrorsEmail": "tad.oconner@brown.co.uk"
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 880,
-  "Name": "Murphy-Carroll",
+  "WebhookId": 630,
+  "Name": "Lynch Inc and Sons",
   "Events": [
-    "eaque",
-    "voluptatem"
+    "dolor",
+    "est"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "maiores",
+  "Secret": "sed",
   "State": "Active",
-  "Type": "ad",
+  "Type": "ut",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "molestias"
+    "Headers1": "sint",
+    "Headers2": "omnis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2019-07-11T13:38:17.8744364+02:00",
+  "Registered": "2019-08-30T13:57:19.5940221+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2023-06-18T13:38:17.8744364+02:00",
+  "Updated": "2012-04-05T13:57:19.5940221+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "sebastian.klein@leannonkuhn.us",
+  "ErrorsEmail": "carmela.renner@ward.info",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

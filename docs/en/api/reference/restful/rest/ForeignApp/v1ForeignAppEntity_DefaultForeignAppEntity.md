@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 25 Nov 2019 13:38:17 G11T
+Last-Modified: Wed, 04 Apr 2018 13:57:18 G4T
 
 {
-  "ForeignAppId": 154,
-  "Name": "Stoltenberg-Lockman",
-  "CreatedDate": "2002-07-30T13:38:17.4368262+02:00",
-  "UpdatedDate": "2019-11-25T13:38:17.4368262+01:00",
+  "ForeignAppId": 576,
+  "Name": "Pagac, Farrell and Johnson",
+  "CreatedDate": "2000-12-26T13:57:18.7953465+01:00",
+  "UpdatedDate": "2018-04-04T13:57:18.7953465+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 691,
-      "Name": "Baumbach-Lang",
-      "CreatedDate": "2001-10-03T13:38:17.4368262+02:00",
-      "UpdatedDate": "2012-09-16T13:38:17.4368262+02:00",
-      "AssociateFullName": "Ms. Bradly Joanny Stehr",
-      "CreatedBy": "et",
-      "UpdatedBy": "sint",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 570,
+      "ForeignDeviceId": 581,
+      "Name": "Lowe, Herman and Gibson",
+      "CreatedDate": "2012-04-18T13:57:18.7953465+02:00",
+      "UpdatedDate": "1997-08-12T13:57:18.7953465+02:00",
+      "AssociateFullName": "Brandon Schimmel IV",
+      "CreatedBy": "repellendus",
+      "UpdatedBy": "rerum",
+      "DeviceIdentifier": "nam",
+      "ForeignAppId": 354,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 929
+          "FieldLength": 979
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Mon, 25 Nov 2019 13:38:17 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldLength": 649
     }
   }
 }

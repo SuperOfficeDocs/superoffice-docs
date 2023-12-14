@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 932,
-    "Name": "Schiller, Runolfsson and Frami",
-    "ToolTip": "Magni et illo accusamus nemo veniam qui.",
-    "Deleted": true,
-    "Rank": 850,
-    "Type": "velit",
-    "ColorBlock": 715,
-    "IconHint": "molestiae",
+    "Id": 781,
+    "Name": "Hane LLC",
+    "ToolTip": "Asperiores voluptas et.",
+    "Deleted": false,
+    "Rank": 685,
+    "Type": "earum",
+    "ColorBlock": 649,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "1997-07-09T13:38:18.2025212+02:00",
+    "LastChanged": "2004-03-26T13:57:20.0952749+01:00",
     "ChildItems": [
       {
-        "Id": 731,
-        "Name": "Lehner-Ebert",
-        "ToolTip": "Dicta ratione.",
-        "Deleted": false,
-        "Rank": 727,
-        "Type": "minima",
-        "ColorBlock": 857,
-        "IconHint": "labore",
-        "Selected": true,
-        "LastChanged": "2000-01-25T13:38:18.2025212+01:00",
+        "Id": 160,
+        "Name": "Ondricka, Jewess and Toy",
+        "ToolTip": "Sit vel.",
+        "Deleted": true,
+        "Rank": 982,
+        "Type": "sit",
+        "ColorBlock": 33,
+        "IconHint": "laborum",
+        "Selected": false,
+        "LastChanged": "2014-09-17T13:57:20.0952749+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "nisi",
+        "ExtraInfo": "corporis",
+        "StyleHint": "incidunt",
         "Hidden": true,
-        "FullName": "Leonie Powlowski",
+        "FullName": "Jacinthe Fahey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 525
+            "FieldType": "System.String",
+            "FieldLength": 583
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "voluptatibus",
-    "Hidden": true,
-    "FullName": "Izaiah Schuster",
+    "ExtraInfo": "facere",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Kim Satterfield",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldLength": 247
       }
     }
   }

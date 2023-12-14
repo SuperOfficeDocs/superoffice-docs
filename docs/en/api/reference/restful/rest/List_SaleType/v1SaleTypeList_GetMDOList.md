@@ -27,7 +27,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=velit
+GET /api/v1/List/SaleType/MDOItems?query=dolorem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 443,
-    "Name": "Murray Group",
-    "ToolTip": "Nisi neque autem amet.",
+    "Id": 152,
+    "Name": "Romaguera, Howe and Jerde",
+    "ToolTip": "Aspernatur omnis laborum nemo quidem quasi dolores.",
     "Deleted": false,
-    "Rank": 432,
-    "Type": "rerum",
+    "Rank": 610,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 775,
-        "Name": "Jerde Group",
-        "ToolTip": "Veniam atque dolor.",
+        "Id": 523,
+        "Name": "Block-Wisozk",
+        "ToolTip": "Quod est a velit dolorem ullam molestias eum.",
         "Deleted": false,
-        "Rank": 208,
-        "Type": "earum",
+        "Rank": 136,
+        "Type": "inventore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 145,
-        "ExtraInfo": "possimus",
-        "StyleHint": "ut",
-        "FullName": "Alexandria Pacocha",
+        "IconHint": "aut",
+        "ColorBlock": 353,
+        "ExtraInfo": "a",
+        "StyleHint": "velit",
+        "FullName": "Trystan Marielle Turcotte Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 807
+            "FieldLength": 390
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 640,
-    "ExtraInfo": "atque",
-    "StyleHint": "non",
-    "FullName": "Woodrow Runte",
+    "IconHint": "magnam",
+    "ColorBlock": 284,
+    "ExtraInfo": "culpa",
+    "StyleHint": "numquam",
+    "FullName": "Wilson Goodwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldLength": 92
       }
     }
   }

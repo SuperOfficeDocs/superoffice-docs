@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rau-Gottlieb",
-    "DisplayName": "Dach, Daniel and Prohaska",
-    "DisplayTooltip": "consequatur",
-    "IsActive": true
+    "Name": "Corkery-Wolf",
+    "DisplayName": "Considine Inc and Sons",
+    "DisplayTooltip": "alias",
+    "IsActive": false
   },
   {
-    "Name": "Rau-Gottlieb",
-    "DisplayName": "Dach, Daniel and Prohaska",
-    "DisplayTooltip": "consequatur",
-    "IsActive": true
+    "Name": "Corkery-Wolf",
+    "DisplayName": "Considine Inc and Sons",
+    "DisplayTooltip": "alias",
+    "IsActive": false
   }
 ]
 ```

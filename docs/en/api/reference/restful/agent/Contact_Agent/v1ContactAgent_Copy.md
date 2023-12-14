@@ -77,8 +77,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 689,
-  "DestinationContactName": "Wunsch-Padberg",
+  "SourceContactId": 284,
+  "DestinationContactName": "Kling Group",
   "DestinationContactDepartment": "",
   "CopyPersons": false
 }
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-125
+287
 ```

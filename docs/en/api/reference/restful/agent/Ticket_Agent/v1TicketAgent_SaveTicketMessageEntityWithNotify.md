@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -115,78 +115,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 284,
+  "EjMessageId": 567,
   "Ticket": null,
-  "CreatedAt": "2004-09-19T13:38:14.3115522+02:00",
+  "CreatedAt": "2019-08-30T13:57:13.4739653+02:00",
   "CreatedBy": null,
-  "Author": "dolorem",
+  "Author": "odio",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eum",
-  "TimeSpent": 128,
-  "Body": "dicta",
-  "HtmlBody": "nemo",
-  "EmailHeader": "judd@walsh.ca",
-  "DebugInfo": "et",
-  "MailSorter": "delectus",
+  "MessageId": "iure",
+  "TimeSpent": 189,
+  "Body": "neque",
+  "HtmlBody": "id",
+  "EmailHeader": "keyshawn@hintz.ca",
+  "DebugInfo": "quasi",
+  "MailSorter": "vitae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "omnis",
   "MessageHeaders": [
     {
-      "Id": 56,
-      "Name": "Kihn-Koss",
-      "Value": "dicta",
+      "Id": 763,
+      "Name": "Murazik, Ziemann and Rice",
+      "Value": "dolore",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 389
+          "FieldType": "System.String",
+          "FieldLength": 79
         }
       }
     }
   ],
   "Important": true,
-  "Language": "qui",
-  "Sentiment": 527,
-  "SentimentConfidence": 130,
+  "Language": "unde",
+  "Sentiment": 322,
+  "SentimentConfidence": 532,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 502,
-      "Name": "Abshire Inc and Sons",
-      "ContentType": "maiores",
-      "AttSize": 681,
+      "AttachmentId": 401,
+      "Name": "Metz-Bartell",
+      "ContentType": "corrupti",
+      "AttSize": 370,
       "InlineImage": false,
-      "ContentId": "illo",
-      "AuthKey": "aperiam",
+      "ContentId": "consequatur",
+      "AuthKey": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldType": "System.String",
+          "FieldLength": 111
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quos",
-    "ExtraFields2": "maxime"
+    "ExtraFields1": "non",
+    "ExtraFields2": "accusamus"
   },
   "CustomFields": {
-    "CustomFields1": "quidem",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "tenetur",
+    "CustomFields2": "facilis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldType": "System.String",
+      "FieldLength": 957
     }
   }
 }

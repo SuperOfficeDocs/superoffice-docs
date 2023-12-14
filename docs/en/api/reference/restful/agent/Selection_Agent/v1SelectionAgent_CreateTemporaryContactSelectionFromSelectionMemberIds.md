@@ -118,10 +118,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 585,
+  "SelectionId": 361,
   "SelectionMemberIds": [
-    321,
-    567
+    356,
+    797
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Streamlined human-resource project",
-  "Postit": "nisi",
+  "Description": "Multi-tiered zero tolerance matrices",
+  "Postit": "enim",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 127,
-  "IncludePerson": 888,
-  "MemberCount": 914,
-  "Name": "Lueilwitz LLC",
-  "PostitTextId": 623,
-  "CreatedDate": "2014-04-17T13:38:14.1396943+02:00",
-  "SelectionId": 747,
-  "SoundEx": "eveniet",
-  "Source": 548,
-  "TextId": 836,
-  "UpdatedDate": "2018-06-27T13:38:14.1396943+02:00",
-  "UpdatedCount": 483,
-  "Visibility": 319,
+  "GroupIdx": 230,
+  "IncludePerson": 274,
+  "MemberCount": 426,
+  "Name": "Hahn Group",
+  "PostitTextId": 142,
+  "CreatedDate": "2011-10-29T13:57:13.2227834+02:00",
+  "SelectionId": 102,
+  "SoundEx": "rerum",
+  "Source": 9,
+  "TextId": 587,
+  "UpdatedDate": "2005-10-14T13:57:13.2227834+02:00",
+  "UpdatedCount": 715,
+  "Visibility": 216,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 682,
-  "TargetTableName": "Graham LLC",
+  "TargetTableNumber": 951,
+  "TargetTableName": "Maggio LLC",
   "Completed": false,
-  "LeftSelectionId": 510,
-  "RightSelectionId": 383,
+  "LeftSelectionId": 165,
+  "RightSelectionId": 151,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Willms, Kshlerin and Luettgen",
-  "ShadowProviderName": "Balistreri, Fritsch and Weber",
-  "ChartKey": "at",
-  "LastLoaded": "2021-10-31T13:38:14.1396943+01:00",
-  "LastLoadedBy": 127,
+  "MainProviderName": "Murphy, Torp and Barrows",
+  "ShadowProviderName": "Ledner-Turner",
+  "ChartKey": "amet",
+  "LastLoaded": "2020-03-10T13:57:13.2227834+01:00",
+  "LastLoadedBy": 590,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-08-20T13:38:14.1396943+02:00",
-  "LastMembershipChangeBy": 826,
+  "LastMembershipChange": "2013-09-27T13:57:13.2227834+02:00",
+  "LastMembershipChangeBy": 47,
   "LastMembershipChangeByAssociate": null,
   "MainHeading": "ut",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Simonis, Ebert and Haag",
-  "DashboardTileDefinitionId": 243,
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Schmidt, Price and Volkman",
+  "DashboardTileDefinitionId": 386,
   "VisibleFor": [
     {
-      "VisibleId": 928,
+      "VisibleId": 295,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 858
+          "FieldType": "System.Int32",
+          "FieldLength": 199
         }
       }
     },
     {
-      "VisibleId": 928,
+      "VisibleId": 295,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 858
+          "FieldType": "System.Int32",
+          "FieldLength": 199
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldType": "System.String",
+      "FieldLength": 817
     }
   }
 }

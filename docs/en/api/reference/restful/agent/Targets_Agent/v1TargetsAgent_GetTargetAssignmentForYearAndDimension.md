@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 348,
+  "TargetYear": 605,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 3,
-  "DimensionId": 728
+  "Id": 306,
+  "DimensionId": 948
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 86,
+  "TargetAssignmentInfoId": 279,
   "Values": [
-    629,
-    115
+    662,
+    660
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 267,
-  "DimensionListItemDisplayName": "Grimes, Streich and Marquardt",
+  "DimensionListItem": 401,
+  "DimensionListItemDisplayName": "Ryan, Lubowitz and Smith",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldType": "System.String",
+      "FieldLength": 586
     }
   }
 }

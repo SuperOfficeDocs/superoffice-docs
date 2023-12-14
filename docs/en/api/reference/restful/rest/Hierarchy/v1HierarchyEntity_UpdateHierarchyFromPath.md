@@ -86,36 +86,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 399,
+  "HierarchyId": 14,
   "Domain": "Dashboards",
-  "Name": "Cormier-Jast",
-  "Fullname": "ratione",
-  "ParentId": 51,
+  "Name": "Hermann-Mante",
+  "Fullname": "non",
+  "ParentId": 621,
   "Children": [
     {
-      "HierarchyId": 547,
+      "HierarchyId": 885,
       "Domain": "Dashboards",
-      "Name": "Hodkiewicz-Sauer",
-      "Fullname": "doloribus",
-      "ParentId": 692,
+      "Name": "Hills Inc and Sons",
+      "Fullname": "odio",
+      "ParentId": 305,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-10-13T13:38:17.4524494+02:00",
-      "RegisteredAssociateId": 708,
-      "Updated": "2016-10-09T13:38:17.4524494+02:00",
-      "UpdatedAssociateId": 56
+      "Registered": "1998-07-09T13:57:18.8265985+02:00",
+      "RegisteredAssociateId": 777,
+      "Updated": "2007-08-17T13:57:18.8265985+02:00",
+      "UpdatedAssociateId": 462
     }
   ],
-  "Registered": "1998-06-07T13:38:17.4524494+02:00",
-  "RegisteredAssociateId": 559,
-  "Updated": "1997-04-15T13:38:17.4524494+02:00",
-  "UpdatedAssociateId": 129
+  "Registered": "2004-02-21T13:57:18.8265985+01:00",
+  "RegisteredAssociateId": 992,
+  "Updated": "2016-07-07T13:57:18.8265985+02:00",
+  "UpdatedAssociateId": 810
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 486,
+  "HierarchyId": 536,
   "Domain": "Dashboards",
-  "Name": "Ernser, Weber and Von",
-  "Fullname": "reiciendis",
-  "ParentId": 588,
+  "Name": "Cassin Inc and Sons",
+  "Fullname": "et",
+  "ParentId": 401,
   "Children": [
     {
-      "HierarchyId": 884,
+      "HierarchyId": 12,
       "Domain": "Dashboards",
-      "Name": "Armstrong-Kris",
-      "Fullname": "id",
-      "ParentId": 455,
+      "Name": "Gottlieb Inc and Sons",
+      "Fullname": "eaque",
+      "ParentId": 532,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2023-01-07T13:38:17.4524494+01:00",
-      "RegisteredAssociateId": 95,
-      "Updated": "2011-09-22T13:38:17.4524494+02:00",
-      "UpdatedAssociateId": 171,
+      "Registered": "2017-06-08T13:57:18.8265985+02:00",
+      "RegisteredAssociateId": 721,
+      "Updated": "2001-06-22T13:57:18.8265985+02:00",
+      "UpdatedAssociateId": 129,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldType": "System.String",
+          "FieldLength": 333
         }
       }
     }
   ],
-  "Registered": "2022-09-23T13:38:17.4524494+02:00",
-  "RegisteredAssociateId": 710,
-  "Updated": "1997-12-06T13:38:17.4524494+01:00",
-  "UpdatedAssociateId": 65,
+  "Registered": "2012-01-28T13:57:18.8265985+01:00",
+  "RegisteredAssociateId": 373,
+  "Updated": "2017-04-13T13:57:18.8265985+02:00",
+  "UpdatedAssociateId": 342,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldType": "System.String",
+      "FieldLength": 191
     }
   }
 }

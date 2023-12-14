@@ -987,13 +987,17 @@ as well as before any ORDER BY, are applied.
 |personAppointment/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |personAppointment/associate/userName|string|User name: User name| x |
 |personAppointment/associate/personEmail|string|E-mail| x |
-|personAppointment/appointment/textId|int|Text ID| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|personAppointment/appointment/title|positiveString|Title| x |
+|personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
+|personAppointment/appointment/agenda|positiveString|Agenda| x |
+|personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
+|personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=personPager/description,personSourceRelation/ticketPriority,personAssociate/contactName,personContact/contactUdef/SuperOffice:9,request/extra/x_ticket_faq
+GET /api/v1/archive/FreetextPerson?$select=personSourceRelation/isStakeholder,personContact/postAddress/state,personContact/contactSupportPerson/legalBaseEmarketing,projectMembers/saintSaleStatus,personAppointment/location
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

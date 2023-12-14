@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "fugit",
-  "Name": "Ratke, Sporer and Gottlieb"
+  "Path": "magnam",
+  "Name": "Veum, Torphy and Gibson"
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 556,
+  "HierarchyId": 578,
   "Domain": "Dashboards",
-  "Name": "Schumm Inc and Sons",
-  "Fullname": "sint",
-  "ParentId": 69,
+  "Name": "Leuschke, Gibson and Waelchi",
+  "Fullname": "consequatur",
+  "ParentId": 44,
   "Children": [
     {
-      "HierarchyId": 971,
+      "HierarchyId": 257,
       "Domain": "Dashboards",
-      "Name": "Bauch LLC",
-      "Fullname": "dolore",
-      "ParentId": 661,
+      "Name": "Torphy Group",
+      "Fullname": "dolores",
+      "ParentId": 976,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-06-30T13:38:13.7021023+02:00",
-      "RegisteredAssociateId": 375,
-      "Updated": "2008-06-22T13:38:13.7021023+02:00",
-      "UpdatedAssociateId": 692,
+      "Registered": "2018-09-09T13:57:12.5599631+02:00",
+      "RegisteredAssociateId": 607,
+      "Updated": "1997-12-05T13:57:12.5599631+01:00",
+      "UpdatedAssociateId": 794,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldType": "System.String",
+          "FieldLength": 768
         }
       }
     }
   ],
-  "Registered": "2012-04-04T13:38:13.7021023+02:00",
-  "RegisteredAssociateId": 818,
-  "Updated": "2014-04-02T13:38:13.7021023+02:00",
-  "UpdatedAssociateId": 748,
+  "Registered": "2001-12-01T13:57:12.5599631+01:00",
+  "RegisteredAssociateId": 442,
+  "Updated": "2005-02-10T13:57:12.5599631+01:00",
+  "UpdatedAssociateId": 241,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 345
+      "FieldType": "System.Int32",
+      "FieldLength": 2
     }
   }
 }

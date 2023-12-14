@@ -114,18 +114,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -138,19 +138,19 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 508,
-  "Name": "Stracke, Osinski and Eichmann",
-  "ContentType": "iusto",
-  "AttSize": 407,
+  "AttachmentId": 312,
+  "Name": "Quitzon Group",
+  "ContentType": "autem",
+  "AttSize": 5,
   "InlineImage": false,
-  "ContentId": "vel",
-  "AuthKey": "libero",
+  "ContentId": "blanditiis",
+  "AuthKey": "doloribus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldType": "System.String",
+      "FieldLength": 917
     }
   },
   "_Links": {

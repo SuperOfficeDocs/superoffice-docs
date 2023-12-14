@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kuhn Inc and Sons",
-  "ContactGroupId": 582,
-  "ContactAssociateId": 877
+  "TableName": "Fay Group",
+  "ContactGroupId": 640,
+  "ContactAssociateId": 342
 }
 ```
 
@@ -92,6 +92,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Mask": "Delete",
-  "Reason": ""
+  "Reason": "innovate granular systems"
 }
 ```

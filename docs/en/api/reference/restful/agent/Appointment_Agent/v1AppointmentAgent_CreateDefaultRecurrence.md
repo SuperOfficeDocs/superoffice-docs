@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 357,
-  "StartDate": "2011-06-01T13:38:12.9521841+02:00",
-  "EndDate": "2022-02-12T13:38:12.9521841+01:00",
-  "RecurrenceCounter": 892,
+  "RecurrenceId": 95,
+  "StartDate": "2019-03-30T13:57:11.3563104+01:00",
+  "EndDate": "2010-07-20T13:57:11.3563104+02:00",
+  "RecurrenceCounter": 295,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1999-04-28T13:38:12.9521841+02:00",
+      "Date": "1997-04-20T13:57:11.3563104+02:00",
       "IsConflict": false,
-      "Description": "Decentralized bandwidth-monitored parallelism",
-      "DescriptionStyleHint": "Operative radical support",
-      "Tooltip": "consequatur"
+      "Description": "Phased optimal encoding",
+      "DescriptionStyleHint": "Assimilated bifurcated adapter",
+      "Tooltip": "eligendi"
     },
     {
-      "Date": "1999-04-28T13:38:12.9521841+02:00",
+      "Date": "1997-04-20T13:57:11.3563104+02:00",
       "IsConflict": false,
-      "Description": "Decentralized bandwidth-monitored parallelism",
-      "DescriptionStyleHint": "Operative radical support",
-      "Tooltip": "consequatur"
+      "Description": "Phased optimal encoding",
+      "DescriptionStyleHint": "Assimilated bifurcated adapter",
+      "Tooltip": "eligendi"
     }
   ],
   "IsRecurrence": false

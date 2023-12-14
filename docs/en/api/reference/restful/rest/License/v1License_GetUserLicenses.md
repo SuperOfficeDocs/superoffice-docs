@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Weimann LLC",
-    "Description": "Pre-emptive 6th generation initiative",
+    "Name": "Stroman LLC",
+    "Description": "Adaptive tertiary workforce",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 78,
-        "Tooltip": "nihil",
-        "CanAssign": false,
-        "Free": 488,
-        "InUse": 313,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 133,
-        "Name": "Romaguera-Hodkiewicz",
-        "Description": "Synchronised 4th generation model",
-        "PrerequisiteModuleName": "Cormier Inc and Sons",
-        "SortOrder": 54,
-        "ExtraFlags": 903,
+        "Total": 528,
+        "Tooltip": "hic",
+        "CanAssign": true,
+        "Free": 841,
+        "InUse": 434,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 405,
+        "Name": "Daniel-Gulgowski",
+        "Description": "Cloned zero administration flexibility",
+        "PrerequisiteModuleName": "Kovacek LLC",
+        "SortOrder": 140,
+        "ExtraFlags": 845,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 60
+            "FieldLength": 405
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 166,
-        "Tooltip": "non",
+        "Total": 581,
+        "Tooltip": "dicta",
         "CanAssign": true,
-        "Free": 944,
-        "InUse": 338,
+        "Free": 243,
+        "InUse": 88,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 721,
-        "Name": "Fadel Inc and Sons",
-        "Description": "Decentralized hybrid portal",
-        "PrerequisiteModuleName": "Wolf, Cremin and Leffler",
-        "SortOrder": 213,
-        "ExtraFlags": 631,
+        "Assigned": true,
+        "ModuleLicenseId": 115,
+        "Name": "Lind, Stroman and Murazik",
+        "Description": "Cross-platform composite frame",
+        "PrerequisiteModuleName": "Barrows, Leannon and Rogahn",
+        "SortOrder": 551,
+        "ExtraFlags": 35,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 314
+            "FieldType": "System.Int32",
+            "FieldLength": 942
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldLength": 281
       }
     }
   },
   {
-    "Name": "Weimann LLC",
-    "Description": "Pre-emptive 6th generation initiative",
+    "Name": "Stroman LLC",
+    "Description": "Adaptive tertiary workforce",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 78,
-        "Tooltip": "nihil",
-        "CanAssign": false,
-        "Free": 488,
-        "InUse": 313,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 133,
-        "Name": "Romaguera-Hodkiewicz",
-        "Description": "Synchronised 4th generation model",
-        "PrerequisiteModuleName": "Cormier Inc and Sons",
-        "SortOrder": 54,
-        "ExtraFlags": 903,
+        "Total": 528,
+        "Tooltip": "hic",
+        "CanAssign": true,
+        "Free": 841,
+        "InUse": 434,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 405,
+        "Name": "Daniel-Gulgowski",
+        "Description": "Cloned zero administration flexibility",
+        "PrerequisiteModuleName": "Kovacek LLC",
+        "SortOrder": 140,
+        "ExtraFlags": 845,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 60
+            "FieldLength": 405
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 166,
-        "Tooltip": "non",
+        "Total": 581,
+        "Tooltip": "dicta",
         "CanAssign": true,
-        "Free": 944,
-        "InUse": 338,
+        "Free": 243,
+        "InUse": 88,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 721,
-        "Name": "Fadel Inc and Sons",
-        "Description": "Decentralized hybrid portal",
-        "PrerequisiteModuleName": "Wolf, Cremin and Leffler",
-        "SortOrder": 213,
-        "ExtraFlags": 631,
+        "Assigned": true,
+        "ModuleLicenseId": 115,
+        "Name": "Lind, Stroman and Murazik",
+        "Description": "Cross-platform composite frame",
+        "PrerequisiteModuleName": "Barrows, Leannon and Rogahn",
+        "SortOrder": 551,
+        "ExtraFlags": 35,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 314
+            "FieldType": "System.Int32",
+            "FieldLength": 942
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldLength": 281
       }
     }
   }

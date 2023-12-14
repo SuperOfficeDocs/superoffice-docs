@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 266,
-  "Year": 232,
+  "TargetGroupId": 875,
+  "Year": 964,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 204,
+      "TargetAssignmentInfoId": 812,
       "Values": [
-        899,
-        758
+        29,
+        144
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 483,
-      "DimensionListItemDisplayName": "Ullrich-Gleason"
+      "DimensionListItem": 453,
+      "DimensionListItemDisplayName": "Armstrong-Jerde"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 823,
-  "Year": 922,
+  "TargetGroupId": 40,
+  "Year": 252,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 634,
+      "TargetAssignmentInfoId": 465,
       "Values": [
-        129,
-        31
+        646,
+        77
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 774,
-      "DimensionListItemDisplayName": "Smith-Luettgen",
+      "DimensionListItem": 794,
+      "DimensionListItemDisplayName": "Borer-Christiansen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 858
+          "FieldLength": 909
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldLength": 670
     }
   }
 }

@@ -79,16 +79,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 207,
-  "Value": "cumque",
+  "TaskListItemId": 751,
+  "Value": "accusamus",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "IntentId": 487,
-  "Rank": 555,
-  "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
+  "Tooltip": "et",
+  "Deleted": true,
+  "IntentId": 415,
+  "Rank": 19,
+  "IsDefaultAlldayEvent": true,
+  "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 60
+      "FieldType": "System.Int32",
+      "FieldLength": 691
     }
   }
 }

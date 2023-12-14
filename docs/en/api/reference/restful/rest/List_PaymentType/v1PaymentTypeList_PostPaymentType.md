@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 607,
-  "Name": "Ryan, Nader and Streich",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "UdListDefinitionId": 579,
-  "Rank": 239
+  "Id": 359,
+  "Name": "Lowe, Glover and Wiza",
+  "Tooltip": "libero",
+  "Deleted": true,
+  "UdListDefinitionId": 909,
+  "Rank": 626
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 402,
-  "Name": "Murphy Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 989,
-  "Rank": 259,
+  "Id": 864,
+  "Name": "Wilkinson-Simonis",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "UdListDefinitionId": 761,
+  "Rank": 507,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldLength": 818
     }
   }
 }

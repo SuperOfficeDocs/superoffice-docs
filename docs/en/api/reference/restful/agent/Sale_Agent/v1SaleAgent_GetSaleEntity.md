@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=299
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=767
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "cum",
+  "SaleText": "id",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2018-01-26T13:38:14.0928295+01:00",
-  "Amount": 10596.054,
-  "SaleId": 685,
-  "Earning": 14936.644,
-  "EarningPercent": 10298.324,
-  "Heading": "illo",
-  "Number": "657747",
-  "Probability": 407,
-  "CreatedDate": "2010-08-24T13:38:14.0928295+02:00",
-  "UpdatedDate": "2014-02-17T13:38:14.0928295+01:00",
+  "Saledate": "2004-03-16T13:57:13.1600641+01:00",
+  "Amount": 5243.182,
+  "SaleId": 214,
+  "Earning": 24514.147999999997,
+  "EarningPercent": 4791.8859999999995,
+  "Heading": "delectus",
+  "Number": "1284685",
+  "Probability": 553,
+  "CreatedDate": "2015-03-12T13:57:13.1600641+01:00",
+  "UpdatedDate": "2021-11-05T13:57:13.1600641+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 496,
+  "ActiveLinks": 443,
   "Links": [
     {
-      "EntityName": "Bogan Inc and Sons",
-      "Id": 145,
-      "Description": "Team-oriented global task-force",
-      "ExtraInfo": "qui",
-      "LinkId": 215,
+      "EntityName": "Kiehn-Zemlak",
+      "Id": 991,
+      "Description": "Triple-buffered content-based budgetary management",
+      "ExtraInfo": "at",
+      "LinkId": 169,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 454
+          "FieldLength": 220
         }
       }
     }
   ],
-  "NextDueDate": "2006-07-10T13:38:14.0928295+02:00",
-  "Postit": "et",
+  "NextDueDate": "1997-09-11T13:57:13.1600641+02:00",
+  "Postit": "beatae",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2023-01-07T13:38:14.0928295+01:00",
+  "ReopenDate": "2005-04-16T13:57:13.1600641+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Lowe Inc and Sons",
-      "Comment": "quaerat",
-      "StakeholderRoleId": 744,
-      "CountryId": 749,
-      "PersonId": 771,
-      "EmailDescription": "russ@sipes.com",
-      "EmailId": 329,
-      "EmailAddress": "maryam.hahn@kuhic.co.uk",
-      "PhoneId": 330,
-      "ContactName": "Lemke Inc and Sons",
-      "ContactId": 8,
-      "SaleId": 144,
-      "Mrmrs": "non",
-      "Firstname": "Ernestina",
-      "MiddleName": "Runolfsdottir, Rolfson and Deckow",
-      "Lastname": "Reichert",
-      "SaleStakeholderId": 229,
-      "Rank": 371,
-      "Phone": "(510)217-1010",
+      "StakeholderRoleName": "Medhurst, Wehner and Kiehn",
+      "Comment": "rerum",
+      "StakeholderRoleId": 394,
+      "CountryId": 489,
+      "PersonId": 176,
+      "EmailDescription": "ethel.cummings@labadie.ca",
+      "EmailId": 58,
+      "EmailAddress": "randall@wilkinsonsauer.com",
+      "PhoneId": 681,
+      "ContactName": "Dickens-Haley",
+      "ContactId": 976,
+      "SaleId": 985,
+      "Mrmrs": "quas",
+      "Firstname": "Ceasar",
+      "MiddleName": "Blanda, McClure and Connelly",
+      "Lastname": "Cartwright",
+      "SaleStakeholderId": 641,
+      "Rank": 421,
+      "Phone": "249-014-5202 x2652",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldLength": 2
         }
       }
     }
   ],
-  "ActiveErpLinks": 669,
+  "ActiveErpLinks": 697,
   "UserDefinedFields": {
-    "SuperOffice:1": "138734588",
-    "SuperOffice:2": "430451719"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Callie McLaughlin"
   },
   "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "laboriosam",
+    "ExtraFields2": "ad"
   },
   "CustomFields": {
-    "CustomFields1": "earum",
-    "CustomFields2": "et"
+    "CustomFields1": "aspernatur",
+    "CustomFields2": "architecto"
   },
-  "PublishEventDate": "2006-10-11T13:38:14.0928295+02:00",
-  "PublishTo": "2007-09-06T13:38:14.0928295+02:00",
-  "PublishFrom": "2008-12-11T13:38:14.0928295+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-07-13T13:57:13.1600641+02:00",
+  "PublishTo": "2001-11-24T13:57:13.1600641+01:00",
+  "PublishFrom": "2012-04-09T13:57:13.1600641+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 197,
+      "VisibleId": 293,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 390
+          "FieldType": "System.String",
+          "FieldLength": 956
         }
       }
     },
     {
-      "VisibleId": 197,
+      "VisibleId": 293,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 390
+          "FieldType": "System.String",
+          "FieldLength": 956
         }
       }
     }
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 195
     }
   }
 }

@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 373,
-  "Name": "Fay Group",
-  "Tooltip": "non",
-  "PassiveText": "eaque",
-  "Deleted": false,
-  "Rank": 927,
+  "ReldefId": 260,
+  "Name": "Larson, Schaefer and Schinner",
+  "Tooltip": "veniam",
+  "PassiveText": "modi",
+  "Deleted": true,
+  "Rank": 101,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 178
+      "FieldLength": 553
     }
   }
 }

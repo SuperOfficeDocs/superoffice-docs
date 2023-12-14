@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 364,
-  "StartTime": "2013-05-12T13:38:13.4208858+02:00",
-  "EndTime": "2023-03-21T13:38:13.4208858+01:00",
-  "Count": 979,
-  "TemplateHeadingId": 544
+  "ContactId": 626,
+  "StartTime": "2021-07-13T13:57:12.074872+02:00",
+  "EndTime": "2013-09-07T13:57:12.074872+02:00",
+  "Count": 406,
+  "TemplateHeadingId": 505
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 775,
-    "Attention": "aspernatur",
-    "Header": "suscipit",
-    "Name": "Gusikowski Inc and Sons",
-    "OurRef": "non",
-    "YourRef": "quia",
-    "Description": "Sharable human-resource system engine",
-    "DocumentTemplate": "sapiente",
+    "DocumentId": 134,
+    "Attention": "et",
+    "Header": "et",
+    "Name": "Kuhic Group",
+    "OurRef": "ea",
+    "YourRef": "eum",
+    "Description": "Triple-buffered explicit structure",
+    "DocumentTemplate": "nemo",
     "IsPublished": false,
-    "PersonId": 324,
-    "PersonFullName": "Ms. Ramiro Arielle Orn",
-    "AssociateFullName": "Hazle Dooley",
-    "ContactId": 690,
-    "ContactName": "Morissette-Wyman",
-    "ProjectId": 121,
-    "ProjectName": "Sipes, Mayer and Hessel",
-    "AssociateId": 501,
-    "Snum": 437,
-    "SaleId": 668,
-    "SaleName": "Stiedemann-Rath",
+    "PersonId": 245,
+    "PersonFullName": "Miss Tony Ledner",
+    "AssociateFullName": "Mrs. Christa Smith II",
+    "ContactId": 995,
+    "ContactName": "Gibson, Dach and Grant",
+    "ProjectId": 869,
+    "ProjectName": "Dickens, Hermiston and Ferry",
+    "AssociateId": 714,
+    "Snum": 791,
+    "SaleId": 103,
+    "SaleName": "Reichel-Stanton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldLength": 501
       }
     }
   }

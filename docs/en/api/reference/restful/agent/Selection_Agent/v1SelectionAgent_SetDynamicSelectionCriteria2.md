@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 113,
-  "Filter": "consequatur"
+  "SelectionId": 674,
+  "Filter": "tenetur"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kihn-Smitham",
-    "Operator": "blanditiis",
+    "Name": "Jacobs, Ritchie and Mann",
+    "Operator": "reprehenderit",
     "Values": [
-      "tempore",
-      "qui"
+      "quia",
+      "sed"
     ],
     "DisplayValues": [
-      "explicabo",
-      "est"
+      "est",
+      "aut"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Koepp-Farrell",
-        "Operator": "et",
+        "Name": "Marvin LLC",
+        "Operator": "laborum",
         "Values": [
-          "similique",
-          "itaque"
+          "nulla",
+          "accusantium"
         ],
         "DisplayValues": [
-          "totam",
-          "alias"
+          "veritatis",
+          "quia"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 566,
+        "InterParenthesis": 897,
         "InterOperator": "And",
-        "UniqueHash": 340
+        "UniqueHash": 420
       }
     ],
-    "InterParenthesis": 985,
+    "InterParenthesis": 790,
     "InterOperator": "And",
-    "UniqueHash": 508
+    "UniqueHash": 992
   }
 ]
 ```

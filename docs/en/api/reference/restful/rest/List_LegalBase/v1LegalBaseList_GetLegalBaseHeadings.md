@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 635,
-    "Name": "Connelly Inc and Sons",
-    "Tooltip": "rem",
+    "HeadingId": 736,
+    "Name": "Davis Inc and Sons",
+    "Tooltip": "error",
     "Deleted": false,
-    "Rank": 501,
-    "UdListDefinitionId": 27,
+    "Rank": 605,
+    "UdListDefinitionId": 396,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 433
+        "FieldLength": 541
       }
     }
   }

@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 747
+  "UserGroupId": 146
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 583,
-    "ColumnId": 146,
+    "UDefFieldId": 673,
+    "ColumnId": 729,
     "FieldDefault": "consequatur",
-    "FieldHeight": 278,
-    "FieldLabel": "mollitia",
-    "FieldLeft": 817,
-    "FieldTop": 322,
+    "FieldHeight": 872,
+    "FieldLabel": "ea",
+    "FieldLeft": 310,
+    "FieldTop": 88,
     "FieldType": "Checkbox",
-    "FieldWidth": 596,
-    "FormatMask": "dolores",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 221,
-    "LabelLeft": 374,
-    "LabelTop": 454,
-    "LabelWidth": 763,
-    "LastVersionId": 343,
-    "ListTableId": 494,
+    "FieldWidth": 653,
+    "FormatMask": "minima",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 642,
+    "LabelLeft": 813,
+    "LabelTop": 69,
+    "LabelWidth": 95,
+    "LastVersionId": 760,
+    "ListTableId": 542,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 438,
-    "ProgId": "et",
-    "IsReadOnly": false,
-    "ShortLabel": "eaque",
-    "TabOrder": 365,
-    "TextLength": 495,
-    "Tooltip": "labore",
-    "UdefIdentity": 710,
-    "UDListDefinitionId": 332,
+    "Page1LineNo": 233,
+    "ProgId": "sapiente",
+    "IsReadOnly": true,
+    "ShortLabel": "est",
+    "TabOrder": 703,
+    "TextLength": 606,
+    "Tooltip": "qui",
+    "UdefIdentity": 525,
+    "UDListDefinitionId": 617,
     "Justification": "Center",
-    "Version": 159,
-    "TemplateVariableName": "Runte-Skiles",
+    "Version": 478,
+    "TemplateVariableName": "Dicki-Kuphal",
     "HasBeenPublished": false,
-    "MdoListName": "Thiel-Mann",
+    "MdoListName": "Grady, Rogahn and Klocko",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldLength": 1000
       }
     }
   }

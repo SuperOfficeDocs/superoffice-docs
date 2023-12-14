@@ -85,15 +85,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 988,
+  "SystemEventId": 723,
   "Scope": "Database",
-  "Eta": "2016-05-08T13:38:13.2646505+02:00",
-  "Eventkey": "nobis",
-  "Eventmess": "voluptatem",
-  "ExtraInfo": 59,
-  "Owner": 3,
-  "UpdatedCount": 559,
-  "Registered": "2009-11-12T13:38:13.2646505+01:00",
+  "Eta": "2019-01-28T13:57:11.8236525+01:00",
+  "Eventkey": "deserunt",
+  "Eventmess": "dolores",
+  "ExtraInfo": 202,
+  "Owner": 452,
+  "UpdatedCount": 117,
+  "Registered": "2018-08-08T13:57:11.8236525+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 405,
+  "SystemEventId": 229,
   "Scope": "Database",
-  "Eta": "2014-06-19T13:38:13.2646505+02:00",
-  "Eventkey": "cumque",
-  "Eventmess": "nobis",
-  "ExtraInfo": 559,
-  "Owner": 858,
-  "UpdatedCount": 457,
-  "Registered": "2019-06-28T13:38:13.2646505+02:00",
+  "Eta": "2014-07-21T13:57:11.8236525+02:00",
+  "Eventkey": "laudantium",
+  "Eventmess": "minus",
+  "ExtraInfo": 50,
+  "Owner": 47,
+  "UpdatedCount": 20,
+  "Registered": "2015-01-17T13:57:11.8236525+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldType": "System.String",
+      "FieldLength": 377
     }
   }
 }

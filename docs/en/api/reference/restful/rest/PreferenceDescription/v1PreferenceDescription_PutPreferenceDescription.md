@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 410,
-  "Section": "reprehenderit",
-  "Key": "aut",
-  "Name": "Haley-Nader",
+  "PrefDescId": 9,
+  "Section": "omnis",
+  "Key": "est",
+  "Name": "Denesik, Stiedemann and Green",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Devolved neutral process improvement",
-  "IsBuiltin": true,
-  "TableName": "Hoppe, Ritchie and Farrell",
-  "UserDefinedListId": 819,
-  "Rank": 975,
-  "SubGroup": "iusto",
-  "MinLevel": 756,
-  "MaxValue": 793,
-  "MinValue": 609,
-  "RequiredLicense": "voluptatum"
+  "Description": "Diverse stable moratorium",
+  "IsBuiltin": false,
+  "TableName": "Corwin, Gorczany and Hills",
+  "UserDefinedListId": 739,
+  "Rank": 938,
+  "SubGroup": "nisi",
+  "MinLevel": 305,
+  "MaxValue": 731,
+  "MinValue": 2,
+  "RequiredLicense": "nihil"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 206,
-  "Section": "asperiores",
-  "Key": "a",
-  "Name": "Hintz-Lemke",
+  "PrefDescId": 962,
+  "Section": "debitis",
+  "Key": "ullam",
+  "Name": "Price, Welch and Kovacek",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-source next generation leverage",
+  "Description": "Virtual systemic task-force",
   "IsBuiltin": true,
-  "TableName": "Bernhard-Russel",
-  "UserDefinedListId": 197,
-  "Rank": 808,
-  "SubGroup": "vero",
-  "MinLevel": 690,
-  "MaxValue": 54,
-  "MinValue": 488,
-  "RequiredLicense": "eius",
+  "TableName": "Hammes Group",
+  "UserDefinedListId": 6,
+  "Rank": 83,
+  "SubGroup": "ipsum",
+  "MinLevel": 587,
+  "MaxValue": 135,
+  "MinValue": 740,
+  "RequiredLicense": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 548
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -86,8 +86,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Tromp-Abernathy",
-  "DeviceName": "Tromp-Nicolas"
+  "ApplicationName": "Ondricka-Labadie",
+  "DeviceName": "Gusikowski-Jerde"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 392,
-  "Name": "Kulas-Lemke",
-  "CreatedDate": "2001-02-05T13:38:13.623981+01:00",
-  "UpdatedDate": "2016-02-23T13:38:13.623981+01:00",
-  "AssociateFullName": "Jensen Bogisich",
-  "CreatedBy": "incidunt",
-  "UpdatedBy": "earum",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 520,
+  "ForeignDeviceId": 279,
+  "Name": "Funk-Lakin",
+  "CreatedDate": "2015-06-07T13:57:12.4181107+02:00",
+  "UpdatedDate": "2012-08-10T13:57:12.4181107+02:00",
+  "AssociateFullName": "Catalina Tillman",
+  "CreatedBy": "in",
+  "UpdatedBy": "quis",
+  "DeviceIdentifier": "amet",
+  "ForeignAppId": 907,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 272
     }
   }
 }

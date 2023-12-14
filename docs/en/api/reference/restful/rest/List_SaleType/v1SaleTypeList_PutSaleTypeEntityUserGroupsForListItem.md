@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Beer-Runolfsdottir",
-    "ToolTip": "Non aliquam in.",
+    "Id": 581,
+    "Name": "Mueller-Armstrong",
+    "ToolTip": "Laboriosam quasi doloremque odit ab mollitia.",
     "Deleted": false,
-    "Rank": 97,
-    "Type": "vel",
-    "ColorBlock": 535,
-    "IconHint": "odio",
+    "Rank": 163,
+    "Type": "omnis",
+    "ColorBlock": 990,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2020-06-11T13:38:18.2181419+02:00",
+    "LastChanged": "2008-02-14T13:57:20.1109105+01:00",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "Windler-Ferry",
-        "ToolTip": "Molestiae repellendus rerum fuga ut.",
+        "Id": 173,
+        "Name": "Hudson Inc and Sons",
+        "ToolTip": "Hic et cum non et nesciunt fugiat quia.",
         "Deleted": false,
-        "Rank": 122,
-        "Type": "eligendi",
-        "ColorBlock": 620,
-        "IconHint": "porro",
+        "Rank": 101,
+        "Type": "est",
+        "ColorBlock": 445,
+        "IconHint": "fugit",
         "Selected": false,
-        "LastChanged": "2004-06-06T13:38:18.2181419+02:00",
+        "LastChanged": "2022-05-10T13:57:20.1109105+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "maiores",
+        "StyleHint": "quasi",
         "Hidden": true,
-        "FullName": "Maureen Schiller"
+        "FullName": "Ottilie Quigley"
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "sint",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Clara Alta Powlowski I"
+    "FullName": "Ms. Marcus McDermott PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "McLaughlin, Schmeler and Mosciski",
-    "ToolTip": "Molestiae maiores dignissimos dolor.",
+    "Id": 547,
+    "Name": "Grimes LLC",
+    "ToolTip": "Impedit minus atque praesentium sint excepturi.",
     "Deleted": false,
-    "Rank": 144,
-    "Type": "fuga",
-    "ColorBlock": 876,
-    "IconHint": "libero",
+    "Rank": 642,
+    "Type": "veritatis",
+    "ColorBlock": 833,
+    "IconHint": "labore",
     "Selected": true,
-    "LastChanged": "2023-08-24T13:38:18.2181419+02:00",
+    "LastChanged": "1997-05-08T13:57:20.1265357+02:00",
     "ChildItems": [
       {
-        "Id": 408,
-        "Name": "Yost-Konopelski",
-        "ToolTip": "Ipsam voluptas laudantium culpa dicta voluptatem aut inventore.",
-        "Deleted": false,
-        "Rank": 414,
-        "Type": "occaecati",
-        "ColorBlock": 722,
-        "IconHint": "quaerat",
-        "Selected": false,
-        "LastChanged": "1999-08-27T13:38:18.2181419+02:00",
+        "Id": 297,
+        "Name": "Hamill LLC",
+        "ToolTip": "Optio officiis nobis.",
+        "Deleted": true,
+        "Rank": 606,
+        "Type": "laudantium",
+        "ColorBlock": 758,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2004-12-18T13:57:20.1265357+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Prof. Marshall Hettinger",
+        "ExtraInfo": "in",
+        "StyleHint": "eligendi",
+        "Hidden": true,
+        "FullName": "Antone Grady",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 131
+            "FieldLength": 423
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "a",
+    "ExtraInfo": "velit",
+    "StyleHint": "similique",
     "Hidden": false,
-    "FullName": "Otis DuBuque",
+    "FullName": "Reina Block",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldLength": 232
       }
     }
   }

@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 335,
+  "ReportId": 304,
   "ReportCategory": "All",
-  "Description": "Enhanced context-sensitive Graphic Interface",
+  "Description": "Implemented cohesive superstructure",
   "ReportLayout": "CalendarMonth",
-  "Name": "Weber, Carter and Waters",
-  "AssociateId": 269,
-  "TemplateId": 212,
+  "Name": "Bernhard LLC",
+  "AssociateId": 341,
+  "TemplateId": 98,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldLength": 623
     }
   }
 }

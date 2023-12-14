@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Johns, Von and Robel"
+  "Name": "Schamberger Group"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Name": "Nicolas LLC",
-    "ToolTip": "Eum eum quae aut minima cum similique dolores.",
+    "Id": 765,
+    "Name": "Hoeger, Hagenes and Connelly",
+    "ToolTip": "Non quia et eaque.",
     "Deleted": false,
-    "Rank": 604,
-    "Type": "est",
+    "Rank": 987,
+    "Type": "blanditiis",
     "ChildItems": [
       {
-        "Id": 481,
-        "Name": "Smith, Watsica and Doyle",
-        "ToolTip": "Et est.",
+        "Id": 400,
+        "Name": "Daniel-Parisian",
+        "ToolTip": "Cum enim voluptatem occaecati occaecati.",
         "Deleted": false,
-        "Rank": 860,
-        "Type": "natus",
+        "Rank": 200,
+        "Type": "ipsa",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "corporis",
-        "ColorBlock": 567,
-        "ExtraInfo": "beatae",
-        "StyleHint": "ut",
-        "FullName": "Miss Kip Windler",
+        "IconHint": "recusandae",
+        "ColorBlock": 509,
+        "ExtraInfo": "sit",
+        "StyleHint": "exercitationem",
+        "FullName": "Rosalia Wehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 316
+            "FieldType": "System.Int32",
+            "FieldLength": 617
           }
         }
       }
     ],
-    "IconHint": "temporibus",
-    "ColorBlock": 279,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "doloremque",
-    "FullName": "Dr. Amie Layla Casper III",
+    "IconHint": "atque",
+    "ColorBlock": 243,
+    "ExtraInfo": "et",
+    "StyleHint": "omnis",
+    "FullName": "Jordy Jakubowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 209
+        "FieldType": "System.Int32",
+        "FieldLength": 323
       }
     }
   }

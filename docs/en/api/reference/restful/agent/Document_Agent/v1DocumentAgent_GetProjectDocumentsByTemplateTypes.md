@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 855,
-  "StartTime": "1998-10-31T13:38:13.4208858+01:00",
-  "EndTime": "2012-06-22T13:38:13.4208858+02:00",
-  "Count": 113,
+  "ProjectId": 568,
+  "StartTime": "2009-12-29T13:57:12.074872+01:00",
+  "EndTime": "2020-11-22T13:57:12.074872+01:00",
+  "Count": 394,
   "DocumentTemplateIds": [
-    937,
-    387
+    417,
+    378
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 582,
-    "Attention": "at",
-    "Header": "inventore",
-    "Name": "Hegmann, Fay and Rath",
-    "OurRef": "qui",
-    "YourRef": "molestiae",
-    "Description": "Front-line bottom-line ability",
-    "DocumentTemplate": "blanditiis",
+    "DocumentId": 590,
+    "Attention": "est",
+    "Header": "quo",
+    "Name": "Beatty-Hilll",
+    "OurRef": "at",
+    "YourRef": "rerum",
+    "Description": "Profit-focused actuating paradigm",
+    "DocumentTemplate": "magni",
     "IsPublished": false,
-    "PersonId": 207,
-    "PersonFullName": "Joana Boyle",
-    "AssociateFullName": "Dr. Alessia Emely Bradtke III",
-    "ContactId": 674,
-    "ContactName": "Hegmann-Franecki",
-    "ProjectId": 232,
-    "ProjectName": "Dickens-Heaney",
-    "AssociateId": 97,
-    "Snum": 119,
-    "SaleId": 134,
-    "SaleName": "Nitzsche Inc and Sons",
+    "PersonId": 131,
+    "PersonFullName": "Mr. Clinton Destiney Considine IV",
+    "AssociateFullName": "Sabina Casper",
+    "ContactId": 99,
+    "ContactName": "Rowe-Larson",
+    "ProjectId": 419,
+    "ProjectName": "Gulgowski-Mitchell",
+    "AssociateId": 331,
+    "Snum": 632,
+    "SaleId": 978,
+    "SaleName": "Hane Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldLength": 824
       }
     }
   }

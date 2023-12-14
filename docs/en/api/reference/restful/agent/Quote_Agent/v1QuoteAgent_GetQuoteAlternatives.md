@@ -99,7 +99,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 284
+  "QuoteVersionId": 834
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 517,
-    "ERPQuoteAlternativeKey": "modi",
-    "QuoteVersionId": 509,
-    "Name": "Mante, Aufderhar and Bruen",
-    "Description": "Networked uniform secured line",
+    "QuoteAlternativeId": 353,
+    "ERPQuoteAlternativeKey": "eligendi",
+    "QuoteVersionId": 47,
+    "Name": "Gislason, Medhurst and Hansen",
+    "Description": "Self-enabling client-driven throughput",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 1369.558,
-    "ERPDiscountAmount": 3704.388,
-    "DiscountPercent": 17396.834,
-    "DiscountAmount": 22107.236,
+    "ERPDiscountPercent": 13178.47,
+    "ERPDiscountAmount": 21812.64,
+    "DiscountPercent": 9966.119999999999,
+    "DiscountAmount": 19653.314,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "quo",
-    "VAT": 6669.152,
-    "EarningPercent": 6841.522,
-    "EarningAmount": 15384.805999999999,
-    "SubTotal": 22514.656,
-    "TotalPrice": 2240.81,
-    "ExtraField1": "ullam",
-    "ExtraField2": "quae",
-    "ExtraField3": "officiis",
-    "ExtraField4": "et",
-    "ExtraField5": "aperiam",
+    "VATInfo": "earum",
+    "VAT": 28375.236,
+    "EarningPercent": 1679.8239999999998,
+    "EarningAmount": 22771.644,
+    "SubTotal": 29986.111999999997,
+    "TotalPrice": 21167.036,
+    "ExtraField1": "facere",
+    "ExtraField2": "est",
+    "ExtraField3": "temporibus",
+    "ExtraField4": "ipsam",
+    "ExtraField5": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldType": "System.String",
+        "FieldLength": 940
       }
     }
   }

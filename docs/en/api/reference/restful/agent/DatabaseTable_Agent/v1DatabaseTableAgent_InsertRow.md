@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Pfannerstill, McDermott and Rippin",
+  "TableName": "Crona Group",
   "Values": {
-    "Values1": "amet",
-    "Values2": "numquam"
+    "Values1": "reiciendis",
+    "Values2": "velit"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-74
+735
 ```

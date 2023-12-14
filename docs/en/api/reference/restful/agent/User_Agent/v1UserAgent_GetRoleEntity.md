@@ -28,7 +28,7 @@ Gets a RoleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=324
+POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=250
 POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/User/GetRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,24 +90,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 38,
-  "Name": "Hilpert Inc and Sons",
+  "RoleId": 681,
+  "Name": "Kuvalis Inc and Sons",
   "Tooltip": "ut",
   "RoleType": "Anonymous",
-  "Deleted": 838,
-  "Rank": 845,
-  "Created": "2001-01-31T13:38:14.342802+01:00",
-  "UseCategories": 863,
+  "Deleted": 417,
+  "Rank": 281,
+  "Created": "2013-07-11T13:57:13.5364634+02:00",
+  "UseCategories": 746,
   "CreatedBy": null,
-  "Updated": "2003-09-12T13:38:14.342802+02:00",
+  "Updated": "1999-10-28T13:57:13.5364634+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldType": "System.String",
+      "FieldLength": 881
     }
   }
 }

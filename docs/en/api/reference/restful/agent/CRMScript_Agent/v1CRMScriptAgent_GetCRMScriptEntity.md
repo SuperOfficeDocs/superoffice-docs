@@ -28,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=159
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=148
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -89,23 +89,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 270,
-  "UniqueIdentifier": "suscipit",
-  "Name": "Upton Inc and Sons",
-  "Description": "Stand-alone fresh-thinking structure",
-  "IncludeId": "voluptatem",
-  "HierarchyId": 722,
-  "Source": "esse",
-  "Registered": "2022-10-18T13:38:13.374011+02:00",
-  "RegisteredAssociateId": 15,
-  "Updated": "2016-12-18T13:38:13.374011+01:00",
-  "UpdatedAssociateId": 967,
+  "EjscriptId": 738,
+  "UniqueIdentifier": "repellendus",
+  "Name": "Kuhlman-Gerlach",
+  "Description": "Expanded uniform focus group",
+  "IncludeId": "tenetur",
+  "HierarchyId": 366,
+  "Source": "velit",
+  "Registered": "1998-11-13T13:57:11.9967528+01:00",
+  "RegisteredAssociateId": 990,
+  "Updated": "2018-12-14T13:57:11.9967528+01:00",
+  "UpdatedAssociateId": 934,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 652
     }
   }
 }

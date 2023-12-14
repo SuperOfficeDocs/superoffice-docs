@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=ullam
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=esse
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 15 Mar 1997 13:38:17 G3T
+Last-Modified: Thu, 04 Oct 2018 13:57:18 G10T
 
 {
-  "Key": "ducimus",
-  "Value": "asperiores",
-  "RecordId": 846,
-  "CreatedDate": "2003-12-04T13:38:17.4524494+01:00",
-  "UpdatedDate": "1997-03-15T13:38:17.4524494+01:00",
-  "UpdatedBy": "dolorum",
-  "CreatedBy": "error",
-  "TableName": "Smitham Inc and Sons",
+  "Key": "quo",
+  "Value": "est",
+  "RecordId": 340,
+  "CreatedDate": "2006-11-20T13:57:18.8265985+01:00",
+  "UpdatedDate": "2018-10-04T13:57:18.8265985+02:00",
+  "UpdatedBy": "ullam",
+  "CreatedBy": "et",
+  "TableName": "Dicki Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldType": "System.String",
+      "FieldLength": 346
     }
   }
 }

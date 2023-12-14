@@ -63,7 +63,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 587,
-  "Name": "Little Inc and Sons",
-  "ContentType": "et",
-  "AttSize": 570,
+  "AttachmentId": 313,
+  "Name": "Prohaska Group",
+  "ContentType": "impedit",
+  "AttSize": 650,
   "InlineImage": true,
-  "ContentId": "et",
-  "AuthKey": "accusantium",
+  "ContentId": "quis",
+  "AuthKey": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 133
     }
   }
 }

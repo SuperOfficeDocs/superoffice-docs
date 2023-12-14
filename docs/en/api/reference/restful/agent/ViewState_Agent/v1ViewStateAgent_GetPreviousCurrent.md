@@ -86,8 +86,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Russel-Veum",
-  "Id": 558
+  "HistoryName": "Quitzon-Daniel",
+  "Id": 23
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 857,
-  "Id": 413,
-  "HistoryName": "Harber, Sporer and Mante",
-  "HistoryId": 84,
-  "AssociateId": 11,
-  "Name": "Gusikowski Group",
-  "ItemInfo": "fugit",
+  "Rank": 93,
+  "Id": 71,
+  "HistoryName": "Windler-Wiza",
+  "HistoryId": 612,
+  "AssociateId": 483,
+  "Name": "Gutkowski, Adams and Schulist",
+  "ItemInfo": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 221
+      "FieldType": "System.Int32",
+      "FieldLength": 98
     }
   }
 }

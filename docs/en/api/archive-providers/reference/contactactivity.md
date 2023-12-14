@@ -739,20 +739,24 @@ Activity archive provider for the Company card
 |appointmentUdef/SuperOffice:6|bool|followupcheckbox| x |
 |appointmentUdef/SuperOffice:7|listAny|followupdropdownlistbox| x |
 |appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
-|appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 |formSubmissionId|int|Form submission ID: ID of the form submission record| x |
 |formSubmissionFormId|int|Id: Id of the form| x |
 |formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
 |formSubmissionStatus|listAny|Status: Status of the form submission record| x |
-|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
-|mailingId|int|ID: Displays the ID of the mailing| x |
-|mailingSelectionId|int|Selection ID: The database ID of the selection| x |
-|mailingDescription|string|Name: Displays the name of the mailing| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
+|mailingId|int|ID: Displays the ID of the mailing| x |
+|mailingSelectionId|int|Selection ID: The database ID of the selection| x |
+|mailingDescription|string|Name: Displays the name of the mailing| x |
 |mailingSent|listAny|Sent: Displays the sent status of the mailing| x |
 |mailingSimpleStatus|listAny|Status: Status| x |
 |mailingEndDate|date|Date sent: Displays the date when the mailing was sent (completed)| x |
@@ -849,14 +853,14 @@ Activity archive provider for the Company card
 |mailingAddr/contact/restrictionAddress/formattedMultiLineAddress| *None* |Company - Search address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/contact/url/URLAddress|string|Company - URL| x |
 |mailingAddr/contact/url/URLDescription|string|Company - Description| x |
-|mailingAddr/contact/contactAssociate/firstName|string|Company - First name: Displays the contact's first name| x |
-|mailingAddr/contact/contactAssociate/lastName|string|Company - Last name: Displays the contact's last name| x |
-|mailingAddr/contact/contactAssociate/middleName|string|Company - Middle Name: Displays the contact's middle name.| x |
-|mailingAddr/contact/contactAssociate/fullName|string|Company - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/contactAssociate/firstName|string|Company - First name: Displays the contact's first name| x |
+|mailingAddr/contact/contactAssociate/lastName|string|Company - Last name: Displays the contact's last name| x |
+|mailingAddr/contact/contactAssociate/middleName|string|Company - Middle Name: Displays the contact's middle name.| x |
+|mailingAddr/contact/contactAssociate/fullName|string|Company - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |mailingAddr/contact/contactAssociate/contactId|int|Company - Company ID: Database ID of the company the user belongs to|  |
 |mailingAddr/contact/contactAssociate/personId|int|Company - Contact ID: Database ID of the contact row|  |
 |mailingAddr/contact/contactAssociate/mrMrs|string|Company - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -953,14 +957,14 @@ Activity archive provider for the Company card
 |mailingAddr/person/hasInterests|bool|Contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |mailingAddr/person/personHasInterests|bool|Contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |mailingAddr/person/mrMrs|string|Contact - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|mailingAddr/person/position|listAny|Contact - Position| x |
-|mailingAddr/person/personNumber|string|Contact - Number: Displays the contact's number| x |
-|mailingAddr/person/title|string|Contact - Title: Displays the contact's job title| x |
-|mailingAddr/person/personCountry|listAny|Contact - Country: Country| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/position|listAny|Contact - Position| x |
+|mailingAddr/person/personNumber|string|Contact - Number: Displays the contact's number| x |
+|mailingAddr/person/title|string|Contact - Title: Displays the contact's job title| x |
+|mailingAddr/person/personCountry|listAny|Contact - Country: Country| x |
 |mailingAddr/person/personCountryId|int|Contact - Country ID: Country ID| x |
 |mailingAddr/person/personNoMail|bool|Contact - No Mailings: Displays the contact's No Mailings checkbox| x |
 |mailingAddr/person/rank|int|Contact - Rank: Displays a contact's current rank| x |
@@ -1057,14 +1061,14 @@ Activity archive provider for the Company card
 |mailingAddr/person/personUdef/SuperOffice:11|string|Contact - page1adminonly| x |
 |mailingAddr/person/personExtra/x\_person\_integer|int|Contact - Extra Integer: Custom person integer| x |
 |mailingAddr/person/personExtra/x\_person\_hidden\_integer|int|Contact - Extra hidden integer: Custom integer field that is hidden| x |
-|mailingAddr/person/personExtra/x\_person\_float|decimal|Contact - Extra float: Custom float field| x |
-|mailingAddr/person/personExtra/x\_person\_longtext|string|Contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
-|mailingAddr/person/personExtra/x\_person\_date|date|Contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
-|mailingAddr/person/personExtra/x\_person\_datetime|datetime|Contact - Extra DateTime: Custom person date and time field. No default| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/personExtra/x\_person\_float|decimal|Contact - Extra float: Custom float field| x |
+|mailingAddr/person/personExtra/x\_person\_longtext|string|Contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
+|mailingAddr/person/personExtra/x\_person\_date|date|Contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
+|mailingAddr/person/personExtra/x\_person\_datetime|datetime|Contact - Extra DateTime: Custom person date and time field. No default| x |
 |mailingAddr/person/personExtra/x\_person\_time| *None* |Contact - Extra time: Custom time field on person. Current time as default| x |
 |mailingAddr/person/personExtra/x\_person\_boolean|bool|Contact - Extra Boolean: Custom boolean field on person. Default checked| x |
 |mailingAddr/person/personExtra/x\_person\_timespan|timeSpan|Contact - Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
@@ -1156,7 +1160,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=person/personAssociateFullName,person/personAssociate/role,person/correspondingAssociate/fullName,contact/mainContact,contact/restrictionAddress/addressId
+GET /api/v1/archive/ContactActivity?$select=documentId,person/personAssociate/assocType,contact/restrictionAddress/zip,associate/simultaneousEjUser,document/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

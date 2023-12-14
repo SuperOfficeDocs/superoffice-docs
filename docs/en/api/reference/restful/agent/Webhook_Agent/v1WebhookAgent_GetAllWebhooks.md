@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Renner, Marquardt and Sawayn",
-  "EventFilter": "quod",
+  "NameFilter": "Will-Grimes",
+  "EventFilter": "iusto",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 901,
-    "Name": "Kautzer-Gerhold",
+    "WebhookId": 594,
+    "Name": "Cruickshank, O'Conner and Fay",
     "Events": [
-      "recusandae",
-      "quod"
+      "corrupti",
+      "ipsam"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "laborum",
+    "Secret": "architecto",
     "State": "Active",
-    "Type": "cupiditate",
+    "Type": "ut",
     "Headers": {
-      "Headers1": "quas",
-      "Headers2": "non"
+      "Headers1": "illum",
+      "Headers2": "placeat"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2017-08-04T13:38:14.4052895+02:00",
+    "Registered": "2022-06-24T13:57:13.6145882+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2020-10-03T13:38:14.4052895+02:00",
+    "Updated": "1997-05-18T13:57:13.6145882+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "mylene.bogan@predovic.info"
+    "ErrorsEmail": "danny.wilderman@runte.ca"
   }
 ]
 ```

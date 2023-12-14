@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Watsica, Goldner and Hahn",
-    "StepNumber": 776,
+    "Name": "Halvorson, O'Connell and Zemlak",
+    "StepNumber": 108,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 720
+        "FieldLength": 585
       }
     }
   },
   {
-    "Name": "Watsica, Goldner and Hahn",
-    "StepNumber": 776,
+    "Name": "Halvorson, O'Connell and Zemlak",
+    "StepNumber": 108,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 720
+        "FieldLength": 585
       }
     }
   }

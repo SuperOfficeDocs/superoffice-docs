@@ -85,7 +85,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,42 +95,42 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 154,
-  "UniqueId": "quis",
-  "Name": "Runolfsson, Senger and Crooks",
-  "Description": "Profit-focused 3rd generation leverage",
-  "AssociateId": 603,
-  "Columns": 646,
+  "DashboardId": 15,
+  "UniqueId": "enim",
+  "Name": "Brekke-Hodkiewicz",
+  "Description": "Pre-emptive high-level infrastructure",
+  "AssociateId": 545,
+  "Columns": 751,
   "Theme": null,
-  "VisibleForAll": 320,
+  "VisibleForAll": 422,
   "VisibleForAssociates": [
-    233,
-    524
+    209,
+    688
   ],
   "VisibleForGroups": [
-    25,
-    512
+    769,
+    205
   ],
-  "PinForAll": 326,
+  "PinForAll": 243,
   "PinForAssociates": [
-    333,
-    26
+    540,
+    478
   ],
   "PinForGroups": [
-    939,
-    244
+    974,
+    493
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldType": "System.String",
+      "FieldLength": 700
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

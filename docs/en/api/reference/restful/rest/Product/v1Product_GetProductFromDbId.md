@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 353,
-  "ERPProductKey": "porro",
-  "ERPPriceListKey": "provident",
-  "Name": "Bergstrom-Feeney",
-  "Description": "Devolved systematic parallelism",
-  "Code": "nihil",
-  "PriceUnit": "laudantium",
-  "QuantityUnit": "qui",
-  "IsSubscription": false,
-  "SubscriptionUnit": "fuga",
-  "DefaultSubscriptionQuantity": 24498.478,
-  "ItemNumber": "360922",
+  "ProductId": 972,
+  "ERPProductKey": "asperiores",
+  "ERPPriceListKey": "magni",
+  "Name": "West-Gaylord",
+  "Description": "Versatile intermediate task-force",
+  "Code": "harum",
+  "PriceUnit": "doloremque",
+  "QuantityUnit": "autem",
+  "IsSubscription": true,
+  "SubscriptionUnit": "consectetur",
+  "DefaultSubscriptionQuantity": 24661.446,
+  "ItemNumber": "1140314",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quae",
-  "ProductTypeKey": "esse",
-  "VAT": 1219.126,
-  "VATInfo": "tempore",
-  "UnitCost": 18017.365999999998,
-  "UnitMinimumPrice": 24028.378,
-  "UnitListPrice": 9605.71,
-  "InAssortment": false,
-  "Supplier": "cupiditate",
-  "SupplierCode": "possimus",
-  "Rights": "deleniti",
-  "Rule": "voluptatum",
+  "ProductFamilyKey": "non",
+  "ProductTypeKey": "corrupti",
+  "VAT": 12736.576,
+  "VATInfo": "cupiditate",
+  "UnitCost": 30832.291999999998,
+  "UnitMinimumPrice": 13799.002,
+  "UnitListPrice": 29086.654,
+  "InAssortment": true,
+  "Supplier": "dolores",
+  "SupplierCode": "aut",
+  "Rights": "sit",
+  "Rule": "autem",
   "ExtraInfo": [
     {
-      "Name": "Cummerata LLC",
-      "Value": "aliquid",
+      "Name": "Macejkovic-Conn",
+      "Value": "amet",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 684
+          "FieldLength": 151
         }
       }
     },
     {
-      "Name": "Cummerata LLC",
-      "Value": "aliquid",
+      "Name": "Macejkovic-Conn",
+      "Value": "amet",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 684
+          "FieldLength": 151
         }
       }
     }
   ],
-  "RawExtraInfo": "deserunt",
-  "ExtraField1": "quidem",
-  "ExtraField2": "illo",
-  "ExtraField3": "reprehenderit",
-  "ExtraField4": "quia",
-  "ExtraField5": "voluptates",
-  "InStock": 8941.302,
+  "RawExtraInfo": "ut",
+  "ExtraField1": "vero",
+  "ExtraField2": "voluptates",
+  "ExtraField3": "aut",
+  "ExtraField4": "enim",
+  "ExtraField5": "occaecati",
+  "InStock": 15118.416,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 82
     }
   }
 }

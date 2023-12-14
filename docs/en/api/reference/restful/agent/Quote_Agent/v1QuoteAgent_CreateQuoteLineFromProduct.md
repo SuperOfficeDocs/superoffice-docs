@@ -126,7 +126,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 641,
+  "QuoteAlternativeId": 265,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 675,
-  "ERPQuoteLineKey": "amet",
-  "QuoteAlternativeId": 9,
-  "ERPProductKey": "laborum",
+  "QuoteLineId": 206,
+  "ERPQuoteLineKey": "ratione",
+  "QuoteAlternativeId": 811,
+  "ERPProductKey": "quo",
   "Status": "Error",
-  "Reason": "",
-  "Quantity": 28723.11,
-  "DeliveredQuantity": 28362.7,
-  "Rank": 720,
-  "Name": "DuBuque-Streich",
-  "Description": "Extended bandwidth-monitored framework",
-  "Code": "omnis",
-  "QuantityUnit": "numquam",
-  "PriceUnit": "cum",
-  "ItemNumber": "774221",
+  "Reason": "incubate holistic architectures",
+  "Quantity": 16190.243999999999,
+  "DeliveredQuantity": 16503.644,
+  "Rank": 840,
+  "Name": "Bayer LLC",
+  "Description": "Total transitional middleware",
+  "Code": "ut",
+  "QuantityUnit": "sit",
+  "PriceUnit": "voluptatem",
+  "ItemNumber": "1031327",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quis",
-  "ProductTypeKey": "architecto",
-  "Supplier": "reprehenderit",
-  "SupplierCode": "quia",
-  "Thumbnail": "impedit",
-  "VATInfo": "enim",
-  "VAT": 9909.708,
-  "UnitCost": 30045.658,
-  "UnitMinimumPrice": 10251.314,
-  "UnitListPrice": 3911.232,
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "voluptatum",
+  "Supplier": "rerum",
+  "SupplierCode": "eius",
+  "Thumbnail": "nihil",
+  "VATInfo": "sint",
+  "VAT": 19925.971999999998,
+  "UnitCost": 21135.696,
+  "UnitMinimumPrice": 25410.471999999998,
+  "UnitListPrice": 17672.626,
   "ExtraInfo": [
     {
-      "Name": "Corkery-Nicolas",
-      "Value": "doloremque",
+      "Name": "Heathcote-Parisian",
+      "Value": "pariatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 529
+          "FieldType": "System.String",
+          "FieldLength": 550
         }
       }
     },
     {
-      "Name": "Corkery-Nicolas",
-      "Value": "doloremque",
+      "Name": "Heathcote-Parisian",
+      "Value": "pariatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 529
+          "FieldType": "System.String",
+          "FieldLength": 550
         }
       }
     }
   ],
-  "RawExtraInfo": "blanditiis",
+  "RawExtraInfo": "quis",
   "IsSubscription": false,
-  "SubscriptionUnit": "doloremque",
-  "SubscriptionQuantity": 25827.293999999998,
-  "SubscriptionStart": "2008-11-22T13:38:14.0303322+01:00",
-  "ERPDiscountPercent": 959.004,
-  "ERPDiscountAmount": 11464.172,
-  "DiscountPercent": 12141.116,
-  "DiscountAmount": 25313.318,
+  "SubscriptionUnit": "doloribus",
+  "SubscriptionQuantity": 31048.538,
+  "SubscriptionStart": "2014-09-17T13:57:13.0805627+02:00",
+  "ERPDiscountPercent": 7969.762,
+  "ERPDiscountAmount": 19120.534,
+  "DiscountPercent": 15582.248,
+  "DiscountAmount": 18800.865999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 17594.275999999998,
-  "EarningAmount": 16506.778,
-  "SubTotal": 17945.284,
-  "TotalPrice": 14717.264,
-  "Rights": "exercitationem",
-  "Rule": "consequatur",
-  "ExtraField1": "dicta",
-  "ExtraField2": "est",
-  "ExtraField3": "et",
-  "ExtraField4": "omnis",
-  "ExtraField5": "eum",
+  "EarningPercent": 10097.748,
+  "EarningAmount": 26764.36,
+  "SubTotal": 19606.304,
+  "TotalPrice": 29766.732,
+  "Rights": "aperiam",
+  "Rule": "ut",
+  "ExtraField1": "consequuntur",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "dolores",
+  "ExtraField4": "dolores",
+  "ExtraField5": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldType": "System.String",
+      "FieldLength": 344
     }
   }
 }

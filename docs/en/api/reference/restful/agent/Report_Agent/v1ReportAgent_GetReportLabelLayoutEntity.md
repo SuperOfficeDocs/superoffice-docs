@@ -26,7 +26,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=849
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=732
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 643,
-  "Name": "Block-Daniel",
-  "Description": "Mandatory fault-tolerant secured line",
+  "ReportLabelLayoutId": 118,
+  "Name": "Swaniawski Inc and Sons",
+  "Description": "Versatile optimizing pricing structure",
   "Orientation": "Landscape",
-  "PaperWidth": 815,
-  "PaperHeight": 740,
-  "LeftMargin": 867,
-  "RightMargin": 854,
-  "TopMargin": 438,
-  "BottomMargin": 4,
-  "CountColumns": 994,
-  "CountRows": 609,
+  "PaperWidth": 927,
+  "PaperHeight": 939,
+  "LeftMargin": 438,
+  "RightMargin": 572,
+  "TopMargin": 753,
+  "BottomMargin": 705,
+  "CountColumns": 908,
+  "CountRows": 675,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldType": "System.String",
+      "FieldLength": 665
     }
   }
 }

@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Schumm, Medhurst and Paucek",
+  "TaskName": "Oberbrunner-Hoeger",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 436,
-    "Name": "Schuppe LLC",
-    "AssociateId": 166,
-    "DetailsTable": 953,
-    "DetailsRecord": 333,
-    "IsSystemTask": true,
+    "Id": 943,
+    "Name": "Kihn-Durgan",
+    "AssociateId": 48,
+    "DetailsTable": 600,
+    "DetailsRecord": 421,
+    "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "sint",
-      "ParameterObject2": "doloremque"
+      "ParameterObject1": "saepe",
+      "ParameterObject2": "asperiores"
     },
-    "LastStarted": "2021-09-29T13:38:13.0927968+02:00",
-    "Created": "2014-02-05T13:38:13.0927968+01:00",
-    "StartCount": 311,
-    "DatabaseSerialNumber": "777729",
-    "Context": "perspiciatis",
-    "Result": "excepturi",
+    "LastStarted": "2010-02-02T13:57:11.5594343+01:00",
+    "Created": "2011-06-16T13:57:11.5594343+02:00",
+    "StartCount": 286,
+    "DatabaseSerialNumber": "1708300",
+    "Context": "iusto",
+    "Result": "est",
     "State": "All",
-    "Description": "Synchronised next generation challenge",
-    "Response": "placeat",
-    "Request": "voluptas",
-    "ProgressDescription": "Ameliorated needs-based project",
-    "ProgressPercent": 74,
-    "FileName": "Nader Inc and Sons",
+    "Description": "Sharable empowering model",
+    "Response": "sint",
+    "Request": "qui",
+    "ProgressDescription": "Innovative multi-tasking attitude",
+    "ProgressPercent": 209,
+    "FileName": "Hermann, Morar and Barrows",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 873
+        "FieldLength": 11
       }
     }
   }

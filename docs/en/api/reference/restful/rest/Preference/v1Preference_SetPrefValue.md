@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ut",
+  "RawValue": "porro",
   "Specification": null,
-  "DisplayValue": "sed",
-  "DisplayTooltip": "est",
+  "DisplayValue": "nihil",
+  "DisplayTooltip": "necessitatibus",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 959,
-  "PrefDescId": 354,
-  "TableName": "Leffler Group",
-  "UserPreferenceId": 939
+  "TargetId": 444,
+  "PrefDescId": 692,
+  "TableName": "Cartwright Inc and Sons",
+  "UserPreferenceId": 186
 }
 ```
 

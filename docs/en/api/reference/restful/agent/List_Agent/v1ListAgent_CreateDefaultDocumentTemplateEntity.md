@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 715,
-  "Name": "Leannon LLC",
-  "Tooltip": "ratione",
-  "SaveInDb": 522,
-  "Filename": "sed",
-  "DefaultOref": "enim",
+  "DocumentTemplateId": 965,
+  "Name": "Nienow Group",
+  "Tooltip": "adipisci",
+  "SaveInDb": 940,
+  "Filename": "rerum",
+  "DefaultOref": "accusantium",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 23,
-  "IntentId": 879,
+  "AutoeventId": 138,
+  "IntentId": 304,
   "IsDefaultPublished": false,
-  "Rank": 539,
-  "LoadTemplateFromPlugin": 720,
-  "MimeType": "fugiat",
+  "Rank": 600,
+  "LoadTemplateFromPlugin": 963,
+  "MimeType": "accusamus",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 426,
+  "DocumentTypeKey": 615,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "merlin@kozey.com",
+  "EmailSubject": "celestino@dietrich.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "colten@monahan.name",
+  "SenderEmailAddress": "glennie@gibson.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldType": "System.String",
+      "FieldLength": 236
     }
   }
 }

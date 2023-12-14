@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 916,
-  "Name": "Olson, Deckow and Cremin",
-  "Description": "Visionary contextually-based parallelism",
-  "WelcomeMessage": "adipisci",
+  "ChatTopicId": 549,
+  "Name": "Fahey Inc and Sons",
+  "Description": "Fundamental 6th generation structure",
+  "WelcomeMessage": "eaque",
   "Language": null,
-  "LastAccept": "2004-04-30T13:38:17.1868579+02:00",
-  "SecondsPrAccept": 37,
-  "AlertRecipient": "repudiandae",
+  "LastAccept": "2014-10-19T13:57:18.5440601+02:00",
+  "SecondsPrAccept": 18,
+  "AlertRecipient": "dolorem",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "repudiandae",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "autem",
-  "WarnNewChatMinutes": 269,
-  "WarnManagerNewChatMinutes": 901,
-  "TicketEnabled": false,
+  "CollectConsent": false,
+  "BadgeHeader": "doloribus",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "quis",
+  "WarnNewChatMinutes": 779,
+  "WarnManagerNewChatMinutes": 570,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 224,
-  "WarnManagerChatMessageMinutes": 51,
+  "WarnChatMessageMinutes": 691,
+  "WarnManagerChatMessageMinutes": 505,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 489,
-  "OfflineFormQueueLength": 813,
+  "OfflineFormTimeLimit": 840,
+  "OfflineFormQueueLength": 14,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "placeat",
+  "WidgetRatingText": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 280
+      "FieldType": "System.Int32",
+      "FieldLength": 466
     }
   }
 }

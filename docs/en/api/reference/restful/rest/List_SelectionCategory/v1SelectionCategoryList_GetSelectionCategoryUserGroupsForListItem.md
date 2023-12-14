@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 410,
-    "Name": "Powlowski, Bernier and Turcotte",
-    "ToolTip": "Molestiae voluptatem itaque libero et ut nesciunt.",
-    "Deleted": false,
-    "Rank": 862,
-    "Type": "error",
-    "ColorBlock": 651,
-    "IconHint": "hic",
+    "Id": 34,
+    "Name": "Adams-Medhurst",
+    "ToolTip": "Autem tempora aspernatur corrupti ut sequi occaecati laborum.",
+    "Deleted": true,
+    "Rank": 716,
+    "Type": "laboriosam",
+    "ColorBlock": 4,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "2022-04-14T13:38:18.2337719+02:00",
+    "LastChanged": "2023-10-10T13:57:20.1265357+02:00",
     "ChildItems": [
       {
-        "Id": 482,
-        "Name": "Gerlach, Fritsch and Pagac",
-        "ToolTip": "Magnam et.",
+        "Id": 772,
+        "Name": "Brekke-Jones",
+        "ToolTip": "Sed tempora et quasi.",
         "Deleted": false,
-        "Rank": 400,
-        "Type": "voluptatem",
-        "ColorBlock": 623,
-        "IconHint": "sit",
+        "Rank": 309,
+        "Type": "nisi",
+        "ColorBlock": 174,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2015-01-30T13:38:18.2337719+01:00",
+        "LastChanged": "2011-06-23T13:57:20.1265357+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "dolor",
-        "Hidden": false,
-        "FullName": "Miss Danny Wehner II",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "provident",
+        "Hidden": true,
+        "FullName": "Catalina Nolan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 680
+            "FieldLength": 999
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "pariatur",
-    "Hidden": true,
-    "FullName": "Aniyah Hahn",
+    "ExtraInfo": "possimus",
+    "StyleHint": "aliquid",
+    "Hidden": false,
+    "FullName": "Elnora Emard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 412
       }
     }
   }

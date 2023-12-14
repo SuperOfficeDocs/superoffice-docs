@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 32
+  "ErpConnectionId": 45
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 356,
-  "ErpConnectorId": 905,
-  "DisplayName": "Mohr, Stracke and Monahan",
-  "DisplayDescription": "Intuitive impactful core",
+  "ErpConnectionId": 656,
+  "ErpConnectorId": 124,
+  "DisplayName": "Bogisich, Towne and Dickens",
+  "DisplayDescription": "Decentralized secondary concept",
   "Active": false,
-  "ConnectionId": "necessitatibus",
-  "MostRecentTimestamp": "et",
+  "ConnectionId": "est",
+  "MostRecentTimestamp": "maxime",
   "ConfigFields": {
-    "ConfigFields1": "vero",
-    "ConfigFields2": "maxime"
+    "ConfigFields1": "ea",
+    "ConfigFields2": "iste"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": true,
   "UserGroupAccessIds": [
-    382,
-    982
+    198,
+    30
   ],
   "AssociateAccessIds": [
-    902,
-    921
+    909,
+    163
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldLength": 38
     }
   }
 }

@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,43 +98,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 228,
-    "Name": "Howe Inc and Sons",
-    "Description": "Seamless executive groupware",
-    "WelcomeMessage": "similique",
+    "ChatTopicId": 745,
+    "Name": "Runolfsdottir, Weimann and Larkin",
+    "Description": "Decentralized mission-critical data-warehouse",
+    "WelcomeMessage": "earum",
     "Language": null,
-    "LastAccept": "2010-02-07T13:38:17.1868579+01:00",
-    "SecondsPrAccept": 375,
-    "AlertRecipient": "modi",
+    "LastAccept": "1999-05-08T13:57:18.5596847+02:00",
+    "SecondsPrAccept": 570,
+    "AlertRecipient": "et",
     "AlertTemplate": null,
     "CollectConsent": true,
-    "BadgeHeader": "ut",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "aut",
-    "WarnNewChatMinutes": 914,
-    "WarnManagerNewChatMinutes": 751,
+    "BadgeHeader": "et",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "minus",
+    "WarnNewChatMinutes": 858,
+    "WarnManagerNewChatMinutes": 622,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": false,
+    "BotEnabled": true,
     "BotSettings": null,
-    "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 459,
-    "WarnManagerChatMessageMinutes": 915,
+    "OfflineCollectConsent": true,
+    "WarnChatMessageMinutes": 352,
+    "WarnManagerChatMessageMinutes": 544,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 923,
-    "OfflineFormQueueLength": 77,
+    "OfflineFormTimeLimit": 725,
+    "OfflineFormQueueLength": 382,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "repellat",
+    "WidgetRatingText": "reiciendis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 457
+        "FieldLength": 71
       }
     }
   }

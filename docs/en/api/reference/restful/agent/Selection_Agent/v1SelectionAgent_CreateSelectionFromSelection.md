@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 984,
-  "Name": "White, Kovacek and Strosin",
+  "SelectionId": 848,
+  "Name": "Parisian-Smitham",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Quality-focused multi-state ability",
-  "Postit": "eligendi",
+  "Description": "Optimized next generation matrices",
+  "Postit": "vel",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 754,
-  "IncludePerson": 172,
-  "MemberCount": 373,
-  "Name": "Greenholt LLC",
-  "PostitTextId": 93,
-  "CreatedDate": "2021-12-25T13:38:14.1553188+01:00",
-  "SelectionId": 199,
-  "SoundEx": "est",
-  "Source": 599,
-  "TextId": 598,
-  "UpdatedDate": "2021-11-11T13:38:14.1553188+01:00",
-  "UpdatedCount": 145,
-  "Visibility": 512,
+  "GroupIdx": 462,
+  "IncludePerson": 752,
+  "MemberCount": 273,
+  "Name": "Leannon Inc and Sons",
+  "PostitTextId": 879,
+  "CreatedDate": "2019-11-26T13:57:13.2384042+01:00",
+  "SelectionId": 297,
+  "SoundEx": "voluptas",
+  "Source": 313,
+  "TextId": 835,
+  "UpdatedDate": "2016-04-01T13:57:13.2384042+02:00",
+  "UpdatedCount": 388,
+  "Visibility": 781,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 197,
-  "TargetTableName": "Mraz, Abernathy and Gottlieb",
+  "TargetTableNumber": 432,
+  "TargetTableName": "Grady LLC",
   "Completed": false,
-  "LeftSelectionId": 318,
-  "RightSelectionId": 300,
+  "LeftSelectionId": 696,
+  "RightSelectionId": 620,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schoen, Sipes and Little",
-  "ShadowProviderName": "Treutel Inc and Sons",
-  "ChartKey": "vero",
-  "LastLoaded": "2017-07-15T13:38:14.1553188+02:00",
-  "LastLoadedBy": 500,
+  "MainProviderName": "Gerlach, Eichmann and Mayert",
+  "ShadowProviderName": "Ryan Inc and Sons",
+  "ChartKey": "id",
+  "LastLoaded": "2002-06-05T13:57:13.2384042+02:00",
+  "LastLoadedBy": 864,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2000-08-14T13:38:14.1553188+02:00",
-  "LastMembershipChangeBy": 48,
+  "LastMembershipChange": "2005-11-20T13:57:13.2384042+01:00",
+  "LastMembershipChangeBy": 102,
   "LastMembershipChangeByAssociate": null,
   "MainHeading": "et",
-  "MemberTabHeading": "excepturi",
-  "MailingsProviderName": "Waters LLC",
-  "DashboardTileDefinitionId": 762,
+  "MemberTabHeading": "cumque",
+  "MailingsProviderName": "Hettinger, Runolfsdottir and Bartell",
+  "DashboardTileDefinitionId": 246,
   "VisibleFor": [
     {
-      "VisibleId": 7,
+      "VisibleId": 387,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 322
+          "FieldType": "System.Int32",
+          "FieldLength": 885
         }
       }
     },
     {
-      "VisibleId": 7,
+      "VisibleId": 387,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 322
+          "FieldType": "System.Int32",
+          "FieldLength": 885
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldLength": 206
     }
   }
 }

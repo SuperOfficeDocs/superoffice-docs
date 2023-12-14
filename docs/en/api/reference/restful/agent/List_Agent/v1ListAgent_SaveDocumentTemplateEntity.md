@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 731,
-  "Name": "Howe-Hayes",
-  "Tooltip": "quos",
-  "SaveInDb": 995,
-  "Filename": "in",
-  "DefaultOref": "iste",
+  "DocumentTemplateId": 976,
+  "Name": "Emmerich-Cummings",
+  "Tooltip": "architecto",
+  "SaveInDb": 633,
+  "Filename": "velit",
+  "DefaultOref": "veritatis",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 488,
-  "IntentId": 622,
-  "IsDefaultPublished": true,
-  "Rank": 943,
-  "LoadTemplateFromPlugin": 91,
-  "MimeType": "explicabo",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 512,
+  "AutoeventId": 166,
+  "IntentId": 29,
+  "IsDefaultPublished": false,
+  "Rank": 562,
+  "LoadTemplateFromPlugin": 588,
+  "MimeType": "repudiandae",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 446,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kaia_jones@leannon.com",
-  "IncludeSignature": false,
+  "EmailSubject": "heidi@kilbackfadel.name",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "katarina@towne.info",
+  "SenderEmailAddress": "jacinto@harriswalter.info",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 460,
-  "Name": "McDermott LLC",
-  "Tooltip": "ut",
-  "SaveInDb": 145,
-  "Filename": "tenetur",
-  "DefaultOref": "similique",
+  "DocumentTemplateId": 316,
+  "Name": "Marvin-Wunsch",
+  "Tooltip": "et",
+  "SaveInDb": 422,
+  "Filename": "consequatur",
+  "DefaultOref": "perferendis",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 344,
-  "IntentId": 832,
+  "AutoeventId": 852,
+  "IntentId": 499,
   "IsDefaultPublished": false,
-  "Rank": 564,
-  "LoadTemplateFromPlugin": 189,
-  "MimeType": "sed",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 552,
+  "Rank": 536,
+  "LoadTemplateFromPlugin": 106,
+  "MimeType": "et",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 129,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "ena.walsh@witting.co.uk",
+  "EmailSubject": "estefania.price@nienow.biz",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "beaulah@bauch.name",
+  "SenderEmailAddress": "noemi@welch.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 981
+      "FieldType": "System.Int32",
+      "FieldLength": 249
     }
   }
 }

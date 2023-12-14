@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 376,
-  "IsActive": false,
+  "ErpConnectionId": 339,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 442,
-      "CrmFieldKey": "quia",
-      "CrmDisplayName": "Tremblay-Cartwright",
-      "CrmDisplayTooltip": "ullam",
-      "ErpFieldKey": "eum",
+      "ErpFieldId": 466,
+      "CrmFieldKey": "est",
+      "CrmDisplayName": "Mayer, Wunsch and Quigley",
+      "CrmDisplayTooltip": "non",
+      "ErpFieldKey": "distinctio",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Effertz LLC",
-      "ErpDisplayTooltip": "corrupti",
+      "ErpDisplayName": "Collier-Metz",
+      "ErpDisplayTooltip": "eligendi",
       "SyncToCrm": false,
       "SyncToErp": false,
       "ShowInGui": true,
       "ShowInSearch": false,
-      "AlreadyMapped": true,
+      "AlreadyMapped": false,
       "MissingInERP": false,
-      "MissingInCRM": true,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "cupiditate",
+      "ListReference": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 610
+          "FieldLength": 845
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldLength": 848
     }
   }
 }

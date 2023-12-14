@@ -107,33 +107,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 271,
-  "ERPQuoteAlternativeKey": "ut",
-  "QuoteVersionId": 352,
-  "Name": "Beer LLC",
-  "Description": "Advanced reciprocal encryption",
+  "QuoteAlternativeId": 259,
+  "ERPQuoteAlternativeKey": "tempora",
+  "QuoteVersionId": 890,
+  "Name": "Zulauf, Schowalter and Runolfsson",
+  "Description": "Total optimal matrices",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 24197.613999999998,
-  "ERPDiscountAmount": 22514.656,
-  "DiscountPercent": 9433.34,
-  "DiscountAmount": 24739.796,
+  "ERPDiscountPercent": 12617.484,
+  "ERPDiscountAmount": 25877.438,
+  "DiscountPercent": 23251.146,
+  "DiscountAmount": 11796.376,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "delectus",
-  "VAT": 30083.266,
-  "EarningPercent": 27482.046,
-  "EarningAmount": 27046.42,
-  "SubTotal": 14626.377999999999,
-  "TotalPrice": 24877.692,
-  "ExtraField1": "dolorem",
-  "ExtraField2": "nulla",
-  "ExtraField3": "aspernatur",
-  "ExtraField4": "beatae",
-  "ExtraField5": "maxime"
+  "VATInfo": "accusantium",
+  "VAT": 5177.3679999999995,
+  "EarningPercent": 22204.39,
+  "EarningAmount": 12774.184,
+  "SubTotal": 21865.917999999998,
+  "TotalPrice": 9962.985999999999,
+  "ExtraField1": "consequatur",
+  "ExtraField2": "saepe",
+  "ExtraField3": "libero",
+  "ExtraField4": "qui",
+  "ExtraField5": "assumenda"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 708,
-  "ERPQuoteAlternativeKey": "in",
-  "QuoteVersionId": 684,
-  "Name": "Kihn Inc and Sons",
-  "Description": "Cloned mission-critical matrix",
+  "QuoteAlternativeId": 688,
+  "ERPQuoteAlternativeKey": "adipisci",
+  "QuoteVersionId": 432,
+  "Name": "Block, Kohler and Keebler",
+  "Description": "Advanced secondary structure",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 9123.074,
-  "ERPDiscountAmount": 16663.478,
-  "DiscountPercent": 22188.719999999998,
-  "DiscountAmount": 29606.897999999997,
+  "ERPDiscountPercent": 12736.576,
+  "ERPDiscountAmount": 28303.154,
+  "DiscountPercent": 24504.746,
+  "DiscountAmount": 5349.7379999999994,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "voluptatem",
-  "VAT": 25877.438,
-  "EarningPercent": 9499.154,
-  "EarningAmount": 4936.05,
-  "SubTotal": 21079.284,
-  "TotalPrice": 16829.579999999998,
-  "ExtraField1": "saepe",
-  "ExtraField2": "illo",
-  "ExtraField3": "quibusdam",
-  "ExtraField4": "rerum",
-  "ExtraField5": "doloremque",
+  "VATInfo": "beatae",
+  "VAT": 5146.028,
+  "EarningPercent": 5813.57,
+  "EarningAmount": 16838.982,
+  "SubTotal": 4779.3499999999995,
+  "TotalPrice": 5882.518,
+  "ExtraField1": "necessitatibus",
+  "ExtraField2": "labore",
+  "ExtraField3": "optio",
+  "ExtraField4": "assumenda",
+  "ExtraField5": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldLength": 857
     }
   }
 }

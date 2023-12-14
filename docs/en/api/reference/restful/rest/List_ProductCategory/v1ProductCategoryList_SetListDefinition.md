@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 128,
-  "Name": "Barrows, Gulgowski and Tromp",
-  "Tooltip": "quo",
+  "Id": 503,
+  "Name": "Barton, Lowe and Macejkovic",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 235,
+  "Rank": 863,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "commodi",
+  "ListType": "dolores",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 803,
-  "Name": "Hodkiewicz Group",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 389,
+  "Id": 252,
+  "Name": "Satterfield Inc and Sons",
+  "Tooltip": "ipsam",
+  "Deleted": false,
+  "Rank": 53,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "nihil",
+  "ListType": "quisquam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 15
+      "FieldLength": 761
     }
   }
 }

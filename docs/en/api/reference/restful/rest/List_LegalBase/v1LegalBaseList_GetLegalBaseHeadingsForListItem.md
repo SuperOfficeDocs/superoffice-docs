@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 213,
-    "Name": "Batz-Erdman",
-    "ToolTip": "Voluptatibus ea architecto.",
+    "Id": 223,
+    "Name": "Hodkiewicz, Kessler and Spencer",
+    "ToolTip": "Est numquam iusto rerum sed quia necessitatibus in.",
     "Deleted": false,
-    "Rank": 478,
-    "Type": "praesentium",
-    "ColorBlock": 221,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2020-03-07T13:38:18.0775324+01:00",
+    "Rank": 856,
+    "Type": "quo",
+    "ColorBlock": 129,
+    "IconHint": "delectus",
+    "Selected": false,
+    "LastChanged": "2003-07-26T13:57:19.7815186+02:00",
     "ChildItems": [
       {
-        "Id": 765,
-        "Name": "Nader-Weimann",
-        "ToolTip": "Ab veritatis ipsam et qui at neque qui.",
-        "Deleted": true,
-        "Rank": 599,
-        "Type": "maxime",
-        "ColorBlock": 868,
-        "IconHint": "optio",
+        "Id": 262,
+        "Name": "Feest, Walsh and Wolff",
+        "ToolTip": "Unde est vel et ut.",
+        "Deleted": false,
+        "Rank": 885,
+        "Type": "pariatur",
+        "ColorBlock": 908,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2014-01-31T13:38:18.0775324+01:00",
+        "LastChanged": "2020-01-13T13:57:19.7815186+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "iusto",
+        "ExtraInfo": "totam",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Lance Towne PhD",
+        "FullName": "Olin Kling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 368
+            "FieldType": "System.String",
+            "FieldLength": 113
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "minus",
+    "ExtraInfo": "illum",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Anjali Zieme",
+    "FullName": "Lorine Estrella Bashirian DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldLength": 698
       }
     }
   }

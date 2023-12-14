@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
+      "CanSupportMultiUse": true,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": true,
+      "DefaultShowInSelector": false,
       "IsActive": true,
-      "Key": "et",
-      "ValueType": "facilis",
+      "Key": "iusto",
+      "ValueType": "dolorem",
       "Mandatory": true,
-      "EncodedDisplayName": "Turcotte, Cruickshank and Reilly",
-      "EncodedDisplayDescription": "Integrated radical website",
-      "IconHint": "perferendis",
+      "EncodedDisplayName": "Hayes Inc and Sons",
+      "EncodedDisplayDescription": "Ergonomic asynchronous knowledge base",
+      "IconHint": "optio",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "sed",
-      "EncodedDataCaptionDescription": "Business-focused client-driven structure",
-      "CurrentOperationType": "repellendus",
+      "EncodedDataCaption": "necessitatibus",
+      "EncodedDataCaptionDescription": "Networked context-sensitive time-frame",
+      "CurrentOperationType": "quo",
       "Values": [
-        "suscipit",
-        "facilis"
+        "officiis",
+        "dolorem"
       ],
       "DisplayValues": [
-        "et",
-        "dolore"
+        "repellendus",
+        "aperiam"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Volkman, Hackett and Kautzer",
-  "Context": "aliquid",
-  "Ids": "nemo"
+  "TableName": "Hegmann Group",
+  "Context": "voluptate",
+  "Ids": "consequuntur"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-73
+341
 ```

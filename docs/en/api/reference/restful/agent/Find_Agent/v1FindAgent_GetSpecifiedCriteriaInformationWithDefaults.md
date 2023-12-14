@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "adipisci",
-  "ProviderName": "Lubowitz-Flatley",
-  "StorageKey": "et",
+  "StorageType": "debitis",
+  "ProviderName": "Keebler-Schumm",
+  "StorageKey": "voluptas",
   "DesiredColumnNames": [
-    "Wiegand, Carter and Braun",
-    "Lindgren-Mayer"
+    "Kunde, Bode and Runte",
+    "Lakin, Reilly and Kshlerin"
   ],
   "StaticColumns": [
-    "placeat",
-    "totam"
+    "sed",
+    "quidem"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Conn, Hettinger and Beer",
-      "Operator": "beatae",
+      "Name": "Klein, Tromp and Nikolaus",
+      "Operator": "ea",
       "Values": [
-        "suscipit",
-        "possimus"
+        "a",
+        "saepe"
       ],
       "DisplayValues": [
-        "officia",
-        "maxime"
+        "accusantium",
+        "eaque"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 121,
+      "InterParenthesis": 983,
       "InterOperator": "And",
-      "UniqueHash": 682
+      "UniqueHash": 757
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Grimes LLC",
-      "DisplayTooltip": "aut",
-      "DisplayType": "illum",
+      "DisplayName": "Hessel, Sporer and Greenfelder",
+      "DisplayTooltip": "qui",
+      "DisplayType": "facere",
       "CanOrderBy": false,
-      "Name": "Ernser-Ledner",
+      "Name": "Leannon-Wilderman",
       "CanRestrictBy": true,
-      "RestrictionType": "et",
-      "RestrictionListName": "Wolff, Kuhlman and Connelly",
-      "IsVisible": false,
-      "ExtraInfo": "dicta",
-      "Width": "aut",
-      "IconHint": "reiciendis",
-      "HeadingIconHint": "rem"
+      "RestrictionType": "nesciunt",
+      "RestrictionListName": "Krajcik, Jacobs and Carter",
+      "IsVisible": true,
+      "ExtraInfo": "consectetur",
+      "Width": "esse",
+      "IconHint": "aut",
+      "HeadingIconHint": "quaerat"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Bergnaum-Lynch",
-      "PrimaryKey": 185,
+      "EntityName": "Oberbrunner LLC",
+      "PrimaryKey": 144,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quia",
-          "TooltipHint": "labore",
-          "LinkHint": "officiis"
+          "DisplayValue": "earum",
+          "TooltipHint": "reprehenderit",
+          "LinkHint": "et"
         }
       },
       "LinkHint": "et",
-      "StyleHint": "excepturi",
+      "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 143
+          "FieldLength": 451
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Padberg, Hagenes and Vandervort",
-      "Description": "Assimilated discrete time-frame",
-      "Rank": 774,
+      "Name": "Thompson-Kuvalis",
+      "Description": "Focused incremental synergy",
+      "Rank": 60,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Padberg, Hagenes and Vandervort",
-      "Description": "Assimilated discrete time-frame",
-      "Rank": 774,
+      "Name": "Thompson-Kuvalis",
+      "Description": "Focused incremental synergy",
+      "Rank": 60,
       "Restrictions": [
         {},
         {}
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldType": "System.Int32",
+      "FieldLength": 344
     }
   }
 }

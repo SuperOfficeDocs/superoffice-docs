@@ -54,6 +54,9 @@ OK
 | CreatedDate | date-time | Registered date  in UTC. |
 | AppointmentId | int32 | Primary key |
 | Description | string | Description of the appointment. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
@@ -95,9 +98,6 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
-| Title | string | The title of the appointment. |
-| Agenda | string | The agenda of the appointment. |
-| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -129,120 +129,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2004-12-27T13:38:12.9053116+01:00",
-  "AppointmentId": 23,
-  "Description": "Assimilated stable intranet",
-  "StartDate": "2008-05-08T13:38:12.9053116+02:00",
-  "EndDate": "2003-07-29T13:38:12.9053116+02:00",
+  "CreatedDate": "2005-04-28T13:57:11.2625978+02:00",
+  "AppointmentId": 453,
+  "Description": "Automated national orchestration",
+  "Title": "repellendus",
+  "Agenda": "tempora",
+  "InternalNotes": "quos",
+  "StartDate": "2003-04-19T13:57:11.2625978+02:00",
+  "EndDate": "2000-10-17T13:57:11.2625978+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 567,
+  "MotherId": 135,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2000-11-07T13:38:12.9053116+01:00",
+  "UpdatedDate": "2016-10-11T13:57:11.2782197+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 320,
+  "ActiveLinks": 794,
   "Links": [
     {
-      "EntityName": "Lesch Inc and Sons",
-      "Id": 46,
-      "Description": "Right-sized disintermediate moderator",
-      "ExtraInfo": "laboriosam",
-      "LinkId": 70,
+      "EntityName": "Grimes Inc and Sons",
+      "Id": 748,
+      "Description": "Synergistic national matrix",
+      "ExtraInfo": "et",
+      "LinkId": 464,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 519
+          "FieldLength": 732
         }
       }
     }
   ],
-  "AlarmLeadTime": "sequi",
+  "AlarmLeadTime": "nihil",
   "HasAlarm": false,
-  "ColorIndex": 887,
-  "IsFree": false,
+  "ColorIndex": 630,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "vel",
-  "LeadTime": "illum",
-  "Location": "quaerat",
-  "RejectCounter": 654,
+  "LagTime": "magni",
+  "LeadTime": "officiis",
+  "Location": "delectus",
+  "RejectCounter": 178,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 654,
-      "PersonId": 391,
-      "ContactId": 311,
-      "EmailId": 677,
-      "SendEmail": true,
+      "AssociateId": 509,
+      "PersonId": 691,
+      "ContactId": 16,
+      "EmailId": 846,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "royal_bednar@moore.biz",
-      "Description": "Polarised 5th generation collaboration"
+      "EmailAddress": "christophe@wuckert.biz",
+      "Description": "Fully-configurable tangible project"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-12-03T13:38:12.9053116+01:00",
+  "ActiveDate": "2004-09-22T13:57:11.2782197+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 494,
+  "PreferredTZLocation": 920,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 19,
+  "SuggestedAppointmentId": 154,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "aut",
-  "Title": "rerum",
-  "Agenda": "vero",
-  "InternalNotes": "explicabo",
+  "CentralserviceVideomeetId": "architecto",
   "UserDefinedFields": {
-    "SuperOffice:1": "1130380241",
-    "SuperOffice:2": "Jerod Ryan"
+    "SuperOffice:1": "Keshaun Nicolas",
+    "SuperOffice:2": "Dr. Virgil Schimmel"
   },
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "in"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "ipsam",
-    "CustomFields2": "et"
+    "CustomFields1": "eum",
+    "CustomFields2": "ducimus"
   },
-  "PublishEventDate": "2017-10-10T13:38:12.9053116+02:00",
-  "PublishTo": "2011-06-12T13:38:12.9053116+02:00",
-  "PublishFrom": "1998-05-21T13:38:12.9053116+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-03-10T13:57:11.2782197+01:00",
+  "PublishTo": "2011-01-22T13:57:11.2782197+01:00",
+  "PublishFrom": "2008-03-19T13:57:11.2782197+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 59,
+      "VisibleId": 414,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 724
+          "FieldLength": 195
         }
       }
     },
     {
-      "VisibleId": 59,
+      "VisibleId": 414,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 724
+          "FieldLength": 195
         }
       }
     }
@@ -252,7 +252,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldLength": 132
     }
   }
 }

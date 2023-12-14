@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 35,
-  "PersonId": 185,
-  "AppointmentId": 780,
-  "DocumentId": 62,
-  "SaleId": 276,
-  "SelectionId": 815,
-  "ProjectId": 942,
+  "ContactId": 883,
+  "PersonId": 134,
+  "AppointmentId": 522,
+  "DocumentId": 870,
+  "SaleId": 500,
+  "SelectionId": 851,
+  "ProjectId": 193,
   "CustomTags": {
-    "CustomTags1": "incidunt",
-    "CustomTags2": "nihil"
+    "CustomTags1": "ab",
+    "CustomTags2": "pariatur"
   },
-  "UiCulture": "voluptas"
+  "UiCulture": "ea"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 932,
+  "DocumentId": 47,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aut",
-  "Header": "optio",
-  "Name": "Corkery Group",
-  "OurRef": "at",
-  "YourRef": "quaerat",
-  "CreatedDate": "2009-12-19T13:38:13.4833723+01:00",
-  "UpdatedDate": "2015-06-07T13:38:13.4833723+02:00",
-  "Description": "Innovative interactive capability",
+  "Attention": "quis",
+  "Header": "in",
+  "Name": "Hoeger Inc and Sons",
+  "OurRef": "esse",
+  "YourRef": "aspernatur",
+  "CreatedDate": "2014-02-10T13:57:12.1686185+01:00",
+  "UpdatedDate": "2001-08-23T13:57:12.1686185+02:00",
+  "Description": "Synergistic leading edge challenge",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-12-23T13:38:13.4833723+01:00",
-  "ExternalRef": "consequatur",
+  "Date": "2021-12-30T13:57:12.1842424+01:00",
+  "ExternalRef": "quis",
   "Completed": "Completed",
-  "ActiveLinks": 770,
+  "ActiveLinks": 520,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Satterfield-Beahan",
-      "Id": 697,
-      "Description": "Fully-configurable 24 hour firmware",
-      "ExtraInfo": "architecto",
-      "LinkId": 64,
+      "EntityName": "Olson-Von",
+      "Id": 109,
+      "Description": "Realigned upward-trending policy",
+      "ExtraInfo": "omnis",
+      "LinkId": 336,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldLength": 875
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 559,
-  "Snum": 264,
+  "SuggestedDocumentId": 951,
+  "Snum": 340,
   "UserDefinedFields": {
-    "SuperOffice:1": "23327182",
-    "SuperOffice:2": "761969176"
+    "SuperOffice:1": "339127381",
+    "SuperOffice:2": "Elvie Wintheiser"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "neque"
+    "ExtraFields1": "est",
+    "ExtraFields2": "totam"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "fuga"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "sed"
   },
-  "PublishEventDate": "2004-01-28T13:38:13.4833723+01:00",
-  "PublishTo": "1997-04-18T13:38:13.4833723+02:00",
-  "PublishFrom": "2016-11-15T13:38:13.4833723+01:00",
+  "PublishEventDate": "1998-12-27T13:57:12.1842424+01:00",
+  "PublishTo": "2013-06-07T13:57:12.1842424+02:00",
+  "PublishFrom": "2010-08-30T13:57:12.1842424+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 611,
+      "VisibleId": 172,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 399
+          "FieldLength": 352
         }
       }
     },
     {
-      "VisibleId": 611,
+      "VisibleId": 172,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 399
+          "FieldLength": 352
         }
       }
     }
@@ -233,7 +233,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldLength": 782
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 370,
-    "Name": "Olson, DuBuque and Dickens",
-    "Tooltip": "aliquid",
-    "Deleted": false,
-    "Rank": 344,
-    "UdListDefinitionId": 338
+    "HeadingId": 568,
+    "Name": "Schultz Inc and Sons",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "Rank": 926,
+    "UdListDefinitionId": 580
   },
   {
-    "HeadingId": 370,
-    "Name": "Olson, DuBuque and Dickens",
-    "Tooltip": "aliquid",
-    "Deleted": false,
-    "Rank": 344,
-    "UdListDefinitionId": 338
+    "HeadingId": 568,
+    "Name": "Schultz Inc and Sons",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "Rank": 926,
+    "UdListDefinitionId": 580
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 99,
-    "Name": "DuBuque-Boyer",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 146,
-    "UdListDefinitionId": 21,
+    "HeadingId": 225,
+    "Name": "Miller-Bins",
+    "Tooltip": "magni",
+    "Deleted": false,
+    "Rank": 988,
+    "UdListDefinitionId": 342,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 789
+        "FieldType": "System.Int32",
+        "FieldLength": 364
       }
     }
   }

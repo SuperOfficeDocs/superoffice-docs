@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 590,
-  "ColumnId": 381,
-  "FieldDefault": "sunt",
-  "FieldHeight": 196,
-  "FieldLabel": "corporis",
-  "FieldLeft": 655,
-  "FieldTop": 90,
+  "UDefFieldId": 367,
+  "ColumnId": 459,
+  "FieldDefault": "animi",
+  "FieldHeight": 645,
+  "FieldLabel": "ab",
+  "FieldLeft": 465,
+  "FieldTop": 301,
   "FieldType": "Checkbox",
-  "FieldWidth": 191,
-  "FormatMask": "alias",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 118,
-  "LabelLeft": 491,
-  "LabelTop": 917,
-  "LabelWidth": 319,
-  "LastVersionId": 691,
-  "ListTableId": 574,
-  "IsMandatory": false,
+  "FieldWidth": 370,
+  "FormatMask": "ut",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 602,
+  "LabelLeft": 443,
+  "LabelTop": 679,
+  "LabelWidth": 865,
+  "LastVersionId": 930,
+  "ListTableId": 228,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 520,
-  "ProgId": "aliquam",
-  "IsReadOnly": true,
-  "ShortLabel": "repellat",
-  "TabOrder": 237,
-  "TextLength": 171,
-  "Tooltip": "laboriosam",
-  "UdefIdentity": 18,
-  "UDListDefinitionId": 932,
+  "Page1LineNo": 96,
+  "ProgId": "perspiciatis",
+  "IsReadOnly": false,
+  "ShortLabel": "placeat",
+  "TabOrder": 604,
+  "TextLength": 829,
+  "Tooltip": "debitis",
+  "UdefIdentity": 870,
+  "UDListDefinitionId": 158,
   "Justification": "Center",
-  "Version": 380,
-  "TemplateVariableName": "Kihn LLC",
+  "Version": 485,
+  "TemplateVariableName": "Buckridge Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Hackett, Nitzsche and Wuckert",
+  "MdoListName": "Jaskolski-Reilly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 137
+      "FieldLength": 153
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 810,
-  "Name": "Bode, Gorczany and Brown",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 338,
-  "Rank": 408
+  "Id": 990,
+  "Name": "Morar Inc and Sons",
+  "Tooltip": "a",
+  "Deleted": false,
+  "UdListDefinitionId": 951,
+  "Rank": 859
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 251,
-  "Name": "Kemmer-Jakubowski",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 178,
-  "Rank": 720,
+  "Id": 315,
+  "Name": "Walsh-Lockman",
+  "Tooltip": "numquam",
+  "Deleted": false,
+  "UdListDefinitionId": 938,
+  "Rank": 78,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 165
+      "FieldLength": 265
     }
   }
 }

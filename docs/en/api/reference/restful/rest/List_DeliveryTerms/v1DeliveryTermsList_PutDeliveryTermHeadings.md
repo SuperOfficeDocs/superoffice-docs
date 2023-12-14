@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 850,
-    "Name": "Smitham-Wunsch",
-    "Tooltip": "nemo",
+    "HeadingId": 152,
+    "Name": "Green-Dooley",
+    "Tooltip": "tenetur",
     "Deleted": false,
-    "Rank": 187,
-    "UdListDefinitionId": 623
+    "Rank": 850,
+    "UdListDefinitionId": 257
   },
   {
-    "HeadingId": 850,
-    "Name": "Smitham-Wunsch",
-    "Tooltip": "nemo",
+    "HeadingId": 152,
+    "Name": "Green-Dooley",
+    "Tooltip": "tenetur",
     "Deleted": false,
-    "Rank": 187,
-    "UdListDefinitionId": 623
+    "Rank": 850,
+    "UdListDefinitionId": 257
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 30,
-    "Name": "Fritsch Group",
-    "Tooltip": "nihil",
+    "HeadingId": 188,
+    "Name": "Brown Inc and Sons",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 877,
-    "UdListDefinitionId": 190,
+    "Rank": 795,
+    "UdListDefinitionId": 841,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 722
+        "FieldLength": 983
       }
     }
   }

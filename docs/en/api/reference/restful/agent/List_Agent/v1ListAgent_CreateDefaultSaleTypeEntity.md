@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 706,
-  "Name": "Beahan-Jewess",
-  "Tooltip": "ea",
-  "Rank": 832,
+  "SaleTypeId": 103,
+  "Name": "Brown, Bechtelar and Heathcote",
+  "Tooltip": "a",
+  "Rank": 1002,
   "DurationUnit": "Century",
-  "SaleDuration": 755,
-  "SaleTypeCatId": 29,
-  "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 830,
-  "QuoteLinesTemplate": 928,
-  "ConfirmationLinesTemplate": 265,
+  "SaleDuration": 406,
+  "SaleTypeCatId": 929,
+  "Deleted": false,
+  "HasGuide": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 270,
+  "QuoteLinesTemplate": 304,
+  "ConfirmationLinesTemplate": 756,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 216,
-  "MinEarningPercent": 872,
-  "GroupQuoteLinesBy": 678,
-  "SortGroupLinesBy": 784,
+  "MaxDiscountPercent": 578,
+  "MinEarningPercent": 464,
+  "GroupQuoteLinesBy": 976,
+  "SortGroupLinesBy": 469,
   "Stages": [
     {
-      "Id": 362,
-      "Name": "Deckow LLC",
-      "ToolTip": "Ut quod sunt aliquam.",
-      "Deleted": false,
-      "Rank": 265,
-      "Type": "aspernatur",
-      "ColorBlock": 177,
-      "IconHint": "porro",
-      "Selected": false,
-      "LastChanged": "2019-09-06T13:38:13.7177215+02:00",
+      "Id": 558,
+      "Name": "Osinski, Bailey and Marquardt",
+      "ToolTip": "Debitis quo et ut.",
+      "Deleted": true,
+      "Rank": 950,
+      "Type": "cumque",
+      "ColorBlock": 339,
+      "IconHint": "in",
+      "Selected": true,
+      "LastChanged": "2014-12-10T13:57:12.575585+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "deserunt",
-      "StyleHint": "quasi",
+      "ExtraInfo": "ut",
+      "StyleHint": "quia",
       "Hidden": true,
-      "FullName": "Jermaine Armando Weissnat Jr.",
+      "FullName": "Mr. Alexandrea Harvey Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 326
+          "FieldLength": 284
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 312
+      "FieldLength": 962
     }
   }
 }

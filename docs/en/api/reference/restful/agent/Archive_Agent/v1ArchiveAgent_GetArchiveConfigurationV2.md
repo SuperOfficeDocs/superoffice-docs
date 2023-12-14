@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hintz, Bauch and Klocko",
-  "ProviderName": "Dibbert-Halvorson",
-  "Context": "consequuntur",
-  "OwnerKeys": "dolore"
+  "GuiName": "Kuphal-Morissette",
+  "ProviderName": "Crona-Doyle",
+  "Context": "facilis",
+  "OwnerKeys": "eveniet"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Kirlin-Wunsch",
+      "DisplayName": "Macejkovic, Daugherty and Predovic",
       "DisplayTooltip": "eos",
-      "DisplayType": "et",
-      "CanOrderBy": false,
-      "Name": "Hirthe, Wehner and Hettinger",
-      "CanRestrictBy": false,
-      "RestrictionType": "sit",
-      "RestrictionListName": "Klein Group",
-      "IsVisible": true,
-      "ExtraInfo": "nisi",
-      "Width": "sunt",
-      "IconHint": "sequi",
-      "HeadingIconHint": "accusamus"
+      "DisplayType": "quo",
+      "CanOrderBy": true,
+      "Name": "Grady, Bartoletti and Hills",
+      "CanRestrictBy": true,
+      "RestrictionType": "dignissimos",
+      "RestrictionListName": "Legros-O'Hara",
+      "IsVisible": false,
+      "ExtraInfo": "sit",
+      "Width": "cumque",
+      "IconHint": "asperiores",
+      "HeadingIconHint": "voluptatum"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 561,
-      "Name": "Legros Inc and Sons",
-      "ToolTip": "Quae voluptates expedita et omnis esse molestiae sint.",
+      "Id": 443,
+      "Name": "Greenholt-Emard",
+      "ToolTip": "Explicabo quas natus praesentium autem non.",
       "Deleted": false,
-      "Rank": 339,
-      "Type": "veritatis",
-      "ColorBlock": 701,
-      "IconHint": "qui",
-      "Selected": false,
-      "LastChanged": "2002-10-13T13:38:13.0615453+02:00",
+      "Rank": 186,
+      "Type": "aliquid",
+      "ColorBlock": 984,
+      "IconHint": "autem",
+      "Selected": true,
+      "LastChanged": "2017-06-16T13:57:11.512557+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "inventore",
-      "StyleHint": "dolorem",
+      "ExtraInfo": "cum",
+      "StyleHint": "iste",
       "Hidden": false,
-      "FullName": "Tatum Adolphus Hintz I",
+      "FullName": "Prof. Trent Abdullah Heidenreich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldType": "System.String",
+          "FieldLength": 10
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Hermann LLC",
+      "Name": "Russel-Nader",
       "Direction": "ASC"
     },
     {
-      "Name": "Hermann LLC",
+      "Name": "Russel-Nader",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "ducimus",
+  "OwnerKeys": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldType": "System.String",
+      "FieldLength": 869
     }
   }
 }

@@ -105,6 +105,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_GetAlarms.md
   - name: GetAppointment
     href: Appointment_Agent/v1AppointmentAgent_GetAppointment.md
+  - name: GetAppointmentEmailInvitation
+    href: Appointment_Agent/v1AppointmentAgent_GetAppointmentEmailInvitation.md
   - name: GetAppointmentEntity
     href: Appointment_Agent/v1AppointmentAgent_GetAppointmentEntity.md
   - name: GetAppointmentFromUID
@@ -121,6 +123,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_GetAssociateDiary.md
   - name: GetAssociatesDiary
     href: Appointment_Agent/v1AppointmentAgent_GetAssociatesDiary.md
+  - name: GetAssociatesDiaryInfo
+    href: Appointment_Agent/v1AppointmentAgent_GetAssociatesDiaryInfo.md
   - name: GetCanInsertForAssociates
     href: Appointment_Agent/v1AppointmentAgent_GetCanInsertForAssociates.md
   - name: GetContactAppointments
@@ -223,6 +227,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_SaveSuggestedAppointmentEntity.md
   - name: SaveTaskListItem
     href: Appointment_Agent/v1AppointmentAgent_SaveTaskListItem.md
+  - name: SaveWithCustomInvitation
+    href: Appointment_Agent/v1AppointmentAgent_SaveWithCustomInvitation.md
   - name: SetActivityStatus
     href: Appointment_Agent/v1AppointmentAgent_SetActivityStatus.md
   - name: SetSeen
@@ -599,6 +605,8 @@ items:
     href: Configuration_Agent/v1ConfigurationAgent_DeleteWindowPosSize.md
   - name: ExistsSystemEvent
     href: Configuration_Agent/v1ConfigurationAgent_ExistsSystemEvent.md
+  - name: GetAllFeatureToggles
+    href: Configuration_Agent/v1ConfigurationAgent_GetAllFeatureToggles.md
   - name: GetAnyConfiguration
     href: Configuration_Agent/v1ConfigurationAgent_GetAnyConfiguration.md
   - name: GetApplicationConfiguration
@@ -1045,6 +1053,8 @@ items:
     href: Diagnostics_Agent/v1DiagnosticsAgent_GetCacheNames.md
   - name: GetCacheState
     href: Diagnostics_Agent/v1DiagnosticsAgent_GetCacheState.md
+  - name: GetEntityCountsForAllUsers
+    href: Diagnostics_Agent/v1DiagnosticsAgent_GetEntityCountsForAllUsers.md
   - name: GetEntityCountsForCurrentUser
     href: Diagnostics_Agent/v1DiagnosticsAgent_GetEntityCountsForCurrentUser.md
   - name: GetWebAppUsagesForPeriod

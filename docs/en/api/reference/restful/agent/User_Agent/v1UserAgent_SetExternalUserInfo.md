@@ -78,11 +78,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 747,
-  "UserName": "Watsica-Zboncak",
-  "Password": "et",
+  "AssociateId": 940,
+  "UserName": "Brekke Group",
+  "Password": "facilis",
   "IsActive": false,
-  "RoleId": 968,
+  "RoleId": 543,
   "ExternalUserInfoModification": "Active"
 }
 ```

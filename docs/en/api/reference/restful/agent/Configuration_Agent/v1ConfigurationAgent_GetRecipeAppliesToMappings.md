@@ -70,7 +70,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "enim",
-  "2": "et"
+  "1": "nihil",
+  "2": "repellendus"
 }
 ```

@@ -473,7 +473,7 @@ Provides populated mail envelope rows as an archive
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail2?$select=person/hasInfoText,contact/contactAssociate/mrMrs,contact/SaintStatus2
+GET /api/v1/archive/Mail2?$select=person/personId,person/rank,contact/streetAddress/wgs84longitude,contact/contactAssociate/ejDisplayName,accountAssociate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

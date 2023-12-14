@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 577,
-    "Name": "Farrell-Brown",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 696,
-    "UdListDefinitionId": 912,
+    "HeadingId": 142,
+    "Name": "Jast, Brekke and Runte",
+    "Tooltip": "sed",
+    "Deleted": true,
+    "Rank": 16,
+    "UdListDefinitionId": 813,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 391
       }
     }
   }

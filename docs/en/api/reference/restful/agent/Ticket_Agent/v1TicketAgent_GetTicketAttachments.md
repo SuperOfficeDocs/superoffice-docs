@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 184
+  "TicketEntityId": 844
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 431,
-    "Name": "Bruen, Mosciski and Corwin",
-    "ContentType": "eaque",
-    "AttSize": 699,
+    "AttachmentId": 371,
+    "Name": "Wisozk Inc and Sons",
+    "ContentType": "quam",
+    "AttSize": 383,
     "InlineImage": false,
-    "ContentId": "eos",
-    "AuthKey": "voluptates",
+    "ContentId": "cupiditate",
+    "AuthKey": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldType": "System.String",
+        "FieldLength": 424
       }
     }
   }

@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Torp Inc and Sons",
+  "ProviderName": "Anderson, Rohan and Renner",
   "DesiredColumns": [
-    "consequatur",
-    "rerum"
+    "excepturi",
+    "est"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "O'Reilly-Feeney",
+    "Name": "Sawayn, Rippin and Hintz",
     "Direction": "ASC"
   },
   {
-    "Name": "O'Reilly-Feeney",
+    "Name": "Sawayn, Rippin and Hintz",
     "Direction": "ASC"
   }
 ]

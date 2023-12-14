@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 554,
-  "ERPName": "Barton-O'Reilly",
-  "DisplayName": "Collier, Sipes and Quitzon",
-  "DisplayDescription": "Streamlined scalable moratorium",
-  "Rank": 196,
-  "ConnectorName": "Carroll-Rowe",
-  "ErpConnectionId": 338,
-  "ExtraData": "aspernatur",
+  "QuoteConnectionId": 291,
+  "ERPName": "Daniel Group",
+  "DisplayName": "Gleichner Group",
+  "DisplayDescription": "Implemented national info-mediaries",
+  "Rank": 977,
+  "ConnectorName": "Yost Group",
+  "ErpConnectionId": 532,
+  "ExtraData": "non",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 22,
-      "ERPPriceListKey": "id",
-      "QuoteConnectionId": 301,
-      "Name": "Bins LLC",
-      "Description": "Extended next generation matrix",
-      "Currency": "voluptatum",
-      "CurrencyName": "Larkin Group",
-      "ValidFrom": "2016-03-12T13:38:14.0303322+01:00",
-      "ValidTo": "2017-02-06T13:38:14.0303322+01:00",
+      "PriceListId": 106,
+      "ERPPriceListKey": "magni",
+      "QuoteConnectionId": 333,
+      "Name": "White, Sauer and Cole",
+      "Description": "Managed web-enabled encoding",
+      "Currency": "excepturi",
+      "CurrencyName": "Schulist, Eichmann and Abshire",
+      "ValidFrom": "2001-08-03T13:57:13.064942+02:00",
+      "ValidTo": "2006-09-17T13:57:13.064942+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 855
+          "FieldLength": 692
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    621,
-    722
+    620,
+    691
   ],
   "AssociateAccessIds": [
-    82,
-    814
+    648,
+    512
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldType": "System.String",
+      "FieldLength": 595
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 520,
-  "Name": "Larson, Little and Anderson",
+  "TicketPriorityId": 97,
+  "Name": "Zemlak Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 311,
+  "SortOrder": 991,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 21,
-  "MonStart": "2009-12-16T13:38:18.2650127+01:00",
-  "MonStop": "2004-09-08T13:38:18.2650127+02:00",
-  "TueStart": "2004-11-27T13:38:18.2650127+01:00",
-  "TueStop": "2012-10-26T13:38:18.2650127+02:00",
-  "WedStart": "2019-10-12T13:38:18.2650127+02:00",
-  "WedStop": "2011-08-08T13:38:18.2650127+02:00",
-  "ThuStart": "1998-12-18T13:38:18.2650127+01:00",
-  "ThuStop": "2007-02-23T13:38:18.2650127+01:00",
-  "FriStart": "2023-03-24T13:38:18.2650127+01:00",
-  "FriStop": "2019-05-08T13:38:18.2650127+02:00",
-  "SatStart": "2007-02-18T13:38:18.2650127+01:00",
-  "SatStop": "2022-02-04T13:38:18.2650127+01:00",
-  "SunStart": "2022-12-07T13:38:18.2650127+01:00",
-  "SunStop": "2013-01-18T13:38:18.2650127+01:00",
+  "Deadline": 383,
+  "MonStart": "2018-02-18T13:57:20.1734375+01:00",
+  "MonStop": "2002-09-08T13:57:20.1734375+02:00",
+  "TueStart": "2014-04-03T13:57:20.1734375+02:00",
+  "TueStop": "2017-04-30T13:57:20.1734375+02:00",
+  "WedStart": "2001-01-23T13:57:20.1734375+01:00",
+  "WedStop": "2020-08-18T13:57:20.1734375+02:00",
+  "ThuStart": "2013-05-21T13:57:20.1734375+02:00",
+  "ThuStop": "2005-07-09T13:57:20.1734375+02:00",
+  "FriStart": "1998-12-13T13:57:20.1734375+01:00",
+  "FriStop": "2015-01-26T13:57:20.1734375+01:00",
+  "SatStart": "2005-04-27T13:57:20.1734375+02:00",
+  "SatStop": "2015-02-24T13:57:20.1734375+01:00",
+  "SunStart": "2010-06-06T13:57:20.1734375+02:00",
+  "SunStop": "1999-07-05T13:57:20.1734375+02:00",
   "NonDates": [
-    "possimus",
-    "et"
+    "voluptatem",
+    "ex"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 450,
-      "AlertLevel": 656,
-      "AlertTimeout": 909,
-      "Action": 261,
-      "DelegateTo": 856,
-      "ScriptId": 574,
-      "EmailTo": "sean.boyle@emard.com",
-      "SmsTo": "sint",
-      "ReplyTemplateIdCustomer": 16,
-      "ReplyTemplateIdUser": 307,
-      "ReplyTemplateIdCatmast": 77,
-      "ReplyTemplateIdEmail": 559,
-      "RtiCustomerSms": 35,
-      "ReplyTemplateIdUserSms": 329,
-      "ReplyTemplateIdCatmastSms": 391,
-      "ReplyTemplateIdSms": 691,
+      "TicketAlertId": 133,
+      "AlertLevel": 221,
+      "AlertTimeout": 105,
+      "Action": 913,
+      "DelegateTo": 887,
+      "ScriptId": 433,
+      "EmailTo": "lenna.haley@moen.info",
+      "SmsTo": "nesciunt",
+      "ReplyTemplateIdCustomer": 531,
+      "ReplyTemplateIdUser": 983,
+      "ReplyTemplateIdCatmast": 878,
+      "ReplyTemplateIdEmail": 186,
+      "RtiCustomerSms": 44,
+      "ReplyTemplateIdUserSms": 820,
+      "ReplyTemplateIdCatmastSms": 280,
+      "ReplyTemplateIdSms": 544,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldLength": 978
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 365
     }
   }
 }

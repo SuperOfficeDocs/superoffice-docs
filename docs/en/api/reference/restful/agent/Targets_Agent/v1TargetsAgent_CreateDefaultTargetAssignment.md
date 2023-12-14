@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 794,
+  "TargetAssignmentInfoId": 112,
   "Values": [
-    188,
-    657
+    388,
+    923
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 188,
-  "DimensionListItemDisplayName": "Connelly-Lubowitz",
+  "DimensionListItem": 508,
+  "DimensionListItemDisplayName": "Ankunding LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldLength": 938
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=nisi
+GET /api/v1/List/Credited/MDOItems?flat=False
+GET /api/v1/List/Credited/MDOItems?query=voluptatum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 411,
-    "Name": "Waelchi, Huel and Kreiger",
-    "ToolTip": "Veritatis consequuntur aspernatur mollitia earum quaerat.",
+    "Id": 427,
+    "Name": "Gleichner, Wintheiser and Waelchi",
+    "ToolTip": "Velit aspernatur quidem inventore.",
     "Deleted": false,
-    "Rank": 642,
-    "Type": "veniam",
+    "Rank": 325,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 858,
-        "Name": "Kessler LLC",
-        "ToolTip": "Ullam atque.",
-        "Deleted": false,
-        "Rank": 425,
-        "Type": "eos",
+        "Id": 359,
+        "Name": "Carroll-Eichmann",
+        "ToolTip": "Possimus non quisquam distinctio.",
+        "Deleted": true,
+        "Rank": 402,
+        "Type": "tempora",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "perferendis",
-        "ColorBlock": 624,
-        "ExtraInfo": "dolor",
-        "StyleHint": "et",
-        "FullName": "Marcelle Koepp",
+        "IconHint": "voluptates",
+        "ColorBlock": 351,
+        "ExtraInfo": "asperiores",
+        "StyleHint": "cupiditate",
+        "FullName": "Lisette Weimann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 247
+            "FieldLength": 595
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 686,
-    "ExtraInfo": "nulla",
-    "StyleHint": "qui",
-    "FullName": "Cory Eloy Steuber II",
+    "IconHint": "in",
+    "ColorBlock": 182,
+    "ExtraInfo": "sed",
+    "StyleHint": "quibusdam",
+    "FullName": "Prof. Neva Raymond Ortiz Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldType": "System.String",
+        "FieldLength": 881
       }
     }
   }

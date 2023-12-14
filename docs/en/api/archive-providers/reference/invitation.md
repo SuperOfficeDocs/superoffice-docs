@@ -706,14 +706,18 @@ because someone may explicitly request an instance an a recurring booking, so th
 |associate/otherGroups|userGroup|Other groups: Other groups|  |
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
-|appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 |invitationRestrictionIds|int|Invitation ID: ID of follow-ups to be shown as invitations, regardless of actual status|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Invitation?$select=type,contact/updatedDate,contact/searchPhone/description,person/personId,person/personCountryId
+GET /api/v1/archive/Invitation?$select=joinVideomeetUrl,contact/contactAssociate/fullName,person/email/emailLastBounce,person/personAssociate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

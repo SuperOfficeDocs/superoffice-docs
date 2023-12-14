@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 695,
-    "Name": "Terry Group",
-    "ToolTip": "Ad est repellat provident.",
-    "Deleted": false,
-    "Rank": 816,
-    "Type": "quo",
-    "ColorBlock": 807,
-    "IconHint": "consectetur",
+    "Id": 35,
+    "Name": "Quigley, Kling and Reilly",
+    "ToolTip": "Ipsum veniam nam dolorem atque.",
+    "Deleted": true,
+    "Rank": 193,
+    "Type": "fuga",
+    "ColorBlock": 163,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2013-05-03T13:38:18.2025212+02:00",
+    "LastChanged": "1997-01-13T13:57:20.0783884+01:00",
     "ChildItems": [
       {
-        "Id": 602,
-        "Name": "Gutkowski, Carter and Pacocha",
-        "ToolTip": "Voluptas sit rerum autem magni quibusdam.",
-        "Deleted": false,
-        "Rank": 16,
-        "Type": "eligendi",
-        "ColorBlock": 623,
-        "IconHint": "iure",
-        "Selected": true,
-        "LastChanged": "2004-11-21T13:38:18.2025212+01:00",
+        "Id": 253,
+        "Name": "VonRueden Inc and Sons",
+        "ToolTip": "Ipsa eos.",
+        "Deleted": true,
+        "Rank": 642,
+        "Type": "quia",
+        "ColorBlock": 183,
+        "IconHint": "velit",
+        "Selected": false,
+        "LastChanged": "2019-02-10T13:57:20.0783884+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Sandrine Larkin"
+        "ExtraInfo": "ut",
+        "StyleHint": "tempore",
+        "Hidden": false,
+        "FullName": "Wilfredo Hettinger"
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Stanley Langosh"
+    "ExtraInfo": "esse",
+    "StyleHint": "dignissimos",
+    "Hidden": false,
+    "FullName": "Leora Swift"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 778,
-    "Name": "Langworth, McCullough and Koss",
-    "ToolTip": "Magni sunt et autem quo optio culpa.",
-    "Deleted": false,
-    "Rank": 625,
-    "Type": "id",
-    "ColorBlock": 126,
-    "IconHint": "quidem",
+    "Id": 373,
+    "Name": "Olson, Hermiston and Raynor",
+    "ToolTip": "Accusamus quo illum expedita blanditiis hic.",
+    "Deleted": true,
+    "Rank": 653,
+    "Type": "cupiditate",
+    "ColorBlock": 759,
+    "IconHint": "error",
     "Selected": false,
-    "LastChanged": "2022-09-30T13:38:18.2025212+02:00",
+    "LastChanged": "2013-01-11T13:57:20.0783884+01:00",
     "ChildItems": [
       {
-        "Id": 573,
-        "Name": "Champlin LLC",
-        "ToolTip": "Voluptate accusantium esse possimus adipisci.",
-        "Deleted": false,
-        "Rank": 398,
-        "Type": "dolorum",
-        "ColorBlock": 421,
-        "IconHint": "repellat",
+        "Id": 485,
+        "Name": "Steuber, Hagenes and Senger",
+        "ToolTip": "Autem quasi quibusdam qui fugiat laudantium.",
+        "Deleted": true,
+        "Rank": 536,
+        "Type": "est",
+        "ColorBlock": 931,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2019-06-22T13:38:18.2025212+02:00",
+        "LastChanged": "2008-02-19T13:57:20.0783884+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "sed",
+        "ExtraInfo": "soluta",
+        "StyleHint": "doloremque",
         "Hidden": true,
-        "FullName": "Lauretta Goodwin",
+        "FullName": "Gia Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 273
+            "FieldType": "System.Int32",
+            "FieldLength": 624
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "error",
+    "ExtraInfo": "similique",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Dr. Concepcion Zachary McCullough I",
+    "FullName": "Madalyn Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 912
+        "FieldType": "System.String",
+        "FieldLength": 571
       }
     }
   }

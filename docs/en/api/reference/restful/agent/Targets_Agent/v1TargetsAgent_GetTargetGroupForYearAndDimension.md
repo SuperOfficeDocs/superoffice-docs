@@ -83,8 +83,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 725,
-  "DimensionId": 452
+  "TargetYear": 913,
+  "DimensionId": 170
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 665,
-  "Year": 856,
+  "TargetGroupId": 181,
+  "Year": 970,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 275,
+      "TargetAssignmentInfoId": 883,
       "Values": [
-        653,
-        357
+        27,
+        574
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 359,
-      "DimensionListItemDisplayName": "Harris LLC",
+      "DimensionListItem": 608,
+      "DimensionListItemDisplayName": "Hamill, Bednar and Ortiz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 928
+          "FieldLength": 603
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 303
+      "FieldLength": 916
     }
   }
 }

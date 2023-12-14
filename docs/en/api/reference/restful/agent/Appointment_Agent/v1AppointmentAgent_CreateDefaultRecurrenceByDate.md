@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2009-07-07T13:38:12.983428+02:00"
+  "StartDate": "2010-10-12T13:57:11.4031843+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 98,
-  "StartDate": "2006-12-14T13:38:12.983428+01:00",
-  "EndDate": "1996-10-13T13:38:12.983428+02:00",
-  "RecurrenceCounter": 271,
+  "RecurrenceId": 557,
+  "StartDate": "1999-02-27T13:57:11.4031843+01:00",
+  "EndDate": "2021-03-29T13:57:11.4031843+02:00",
+  "RecurrenceCounter": 169,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2012-10-24T13:38:12.983428+02:00",
+      "Date": "2000-04-18T13:57:11.4031843+02:00",
       "IsConflict": false,
-      "Description": "Enterprise-wide mobile firmware",
-      "DescriptionStyleHint": "Quality-focused transitional circuit",
-      "Tooltip": "tenetur"
+      "Description": "Enhanced exuding leverage",
+      "DescriptionStyleHint": "Profound incremental definition",
+      "Tooltip": "sunt"
     },
     {
-      "Date": "2012-10-24T13:38:12.983428+02:00",
+      "Date": "2000-04-18T13:57:11.4031843+02:00",
       "IsConflict": false,
-      "Description": "Enterprise-wide mobile firmware",
-      "DescriptionStyleHint": "Quality-focused transitional circuit",
-      "Tooltip": "tenetur"
+      "Description": "Enhanced exuding leverage",
+      "DescriptionStyleHint": "Profound incremental definition",
+      "Tooltip": "sunt"
     }
   ],
   "IsRecurrence": true

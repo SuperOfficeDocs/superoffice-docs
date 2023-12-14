@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 481,
-  "Name": "Shanahan-Bins",
-  "Tooltip": "et",
+  "Id": 618,
+  "Name": "Fritsch Group",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "UdListDefinitionId": 388,
-  "Rank": 829,
+  "UdListDefinitionId": 668,
+  "Rank": 559,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldLength": 487
     }
   }
 }

@@ -64,7 +64,7 @@ OK
 GET /api/v1/RelationDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 155,
-  "Name": "Lind, Paucek and Satterfield",
-  "Tooltip": "aut",
-  "PassiveText": "rem",
+  "ReldefId": 696,
+  "Name": "Daniel-Morar",
+  "Tooltip": "praesentium",
+  "PassiveText": "iure",
   "Deleted": false,
-  "Rank": 17,
+  "Rank": 477,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 880
+      "FieldType": "System.Int32",
+      "FieldLength": 94
     }
   }
 }

@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 765,
-  "ListItemId": 6,
+  "UdListDefinitionId": 59,
+  "ListItemId": 851,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 85,
-    "Name": "Fahey, Mayert and Hahn",
-    "ToolTip": "Saepe fugit ut animi.",
+    "Id": 484,
+    "Name": "Grimes-Marvin",
+    "ToolTip": "Dicta doloremque impedit ut.",
     "Deleted": false,
-    "Rank": 861,
-    "Type": "harum",
-    "ColorBlock": 912,
-    "IconHint": "sapiente",
-    "Selected": true,
-    "LastChanged": "1999-07-04T13:38:13.6864749+02:00",
+    "Rank": 550,
+    "Type": "praesentium",
+    "ColorBlock": 288,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "2000-06-12T13:57:12.5118644+02:00",
     "ChildItems": [
       {
-        "Id": 418,
-        "Name": "Schumm, Bergnaum and McCullough",
-        "ToolTip": "Nisi aut consequatur.",
-        "Deleted": false,
-        "Rank": 909,
-        "Type": "sapiente",
-        "ColorBlock": 296,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2021-03-25T13:38:13.6864749+01:00",
+        "Id": 750,
+        "Name": "Treutel, McLaughlin and Wolf",
+        "ToolTip": "Qui et voluptas aut temporibus totam rerum.",
+        "Deleted": true,
+        "Rank": 816,
+        "Type": "maxime",
+        "ColorBlock": 858,
+        "IconHint": "ab",
+        "Selected": false,
+        "LastChanged": "2021-09-29T13:57:12.5118644+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "repudiandae",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "eius",
         "Hidden": false,
-        "FullName": "Mrs. Amely Alaina Yundt",
+        "FullName": "Ms. Luna Terry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 269
+            "FieldLength": 62
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Addison Nader",
+    "ExtraInfo": "rem",
+    "StyleHint": "totam",
+    "Hidden": true,
+    "FullName": "Mr. Stacey Lauretta Pfeffer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 52
+        "FieldType": "System.Int32",
+        "FieldLength": 651
       }
     }
   }

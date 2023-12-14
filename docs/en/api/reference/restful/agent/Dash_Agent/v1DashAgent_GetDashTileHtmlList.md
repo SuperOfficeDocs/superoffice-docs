@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 665
+  "DashboardTileDefinitionId": 269
 }
 ```
 
@@ -92,26 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "sed",
-    "Html": "quisquam",
+    "LanguageCode": "veniam",
+    "Html": "voluptate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 919
+        "FieldLength": 509
       }
     }
   },
   {
-    "LanguageCode": "sed",
-    "Html": "quisquam",
+    "LanguageCode": "veniam",
+    "Html": "voluptate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 919
+        "FieldLength": 509
       }
     }
   }

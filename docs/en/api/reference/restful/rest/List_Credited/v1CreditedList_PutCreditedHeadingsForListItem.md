@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 724,
-    "Name": "Kuphal, Cormier and Quitzon",
-    "ToolTip": "Molestiae soluta laborum repudiandae.",
-    "Deleted": false,
-    "Rank": 740,
-    "Type": "fuga",
-    "ColorBlock": 708,
-    "IconHint": "vel",
+    "Id": 826,
+    "Name": "Nienow-Brakus",
+    "ToolTip": "Nulla aut provident quo nostrum.",
+    "Deleted": true,
+    "Rank": 100,
+    "Type": "ullam",
+    "ColorBlock": 216,
+    "IconHint": "maiores",
     "Selected": false,
-    "LastChanged": "2015-11-09T13:38:18.0306692+01:00",
+    "LastChanged": "2023-02-09T13:57:19.719018+01:00",
     "ChildItems": [
       {
-        "Id": 293,
-        "Name": "King, Luettgen and Kovacek",
-        "ToolTip": "Consequatur hic.",
+        "Id": 29,
+        "Name": "Kreiger, Bogan and Cartwright",
+        "ToolTip": "Velit ipsum impedit et aut.",
         "Deleted": true,
-        "Rank": 613,
-        "Type": "sit",
-        "ColorBlock": 151,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2008-12-30T13:38:18.0306692+01:00",
+        "Rank": 793,
+        "Type": "cumque",
+        "ColorBlock": 384,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "2021-05-08T13:57:19.719018+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "ea",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Miss Ervin Sipes IV"
+        "FullName": "Gordon Angela O'Connell Sr."
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "consequuntur",
-    "Hidden": false,
-    "FullName": "Melvin Wilkinson"
+    "ExtraInfo": "voluptates",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Dr. Alize Mitchell"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Huel, Schuster and Mohr",
-    "ToolTip": "Tempore nobis temporibus tempora velit iure est.",
+    "Id": 386,
+    "Name": "Schowalter Group",
+    "ToolTip": "Veniam aut quia.",
     "Deleted": false,
-    "Rank": 16,
-    "Type": "sit",
-    "ColorBlock": 997,
-    "IconHint": "voluptatem",
+    "Rank": 820,
+    "Type": "occaecati",
+    "ColorBlock": 61,
+    "IconHint": "cupiditate",
     "Selected": false,
-    "LastChanged": "2021-05-31T13:38:18.0306692+02:00",
+    "LastChanged": "2000-01-14T13:57:19.719018+01:00",
     "ChildItems": [
       {
-        "Id": 670,
-        "Name": "Witting, Bode and Larkin",
-        "ToolTip": "Commodi eum.",
-        "Deleted": false,
-        "Rank": 682,
-        "Type": "libero",
-        "ColorBlock": 276,
-        "IconHint": "incidunt",
+        "Id": 321,
+        "Name": "Volkman Group",
+        "ToolTip": "Enim possimus eligendi accusantium ullam animi beatae sapiente.",
+        "Deleted": true,
+        "Rank": 530,
+        "Type": "beatae",
+        "ColorBlock": 260,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2002-02-15T13:38:18.0306692+01:00",
+        "LastChanged": "2016-06-12T13:57:19.719018+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "dolores",
+        "ExtraInfo": "sit",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Adolph Jakubowski",
+        "FullName": "Prof. Anne Cameron Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 662
+            "FieldType": "System.String",
+            "FieldLength": 998
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "ipsa",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "at",
     "Hidden": true,
-    "FullName": "Alessandra Kessler",
+    "FullName": "Cody Kihn V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldLength": 382
       }
     }
   }

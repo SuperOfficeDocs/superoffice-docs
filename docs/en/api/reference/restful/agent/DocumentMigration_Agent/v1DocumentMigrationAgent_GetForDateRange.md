@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 116,
-  "MinDate": "2017-05-01T13:38:13.5146196+02:00",
-  "MaxDate": "1997-03-31T13:38:13.5146196+02:00",
+  "DocumentPluginId": 987,
+  "MinDate": "2019-04-26T13:57:12.2311227+02:00",
+  "MaxDate": "2003-04-18T13:57:12.2311227+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 126,
-  "NumDocumentsAlreadyMigrated": 997,
+  "NumDocumentsOmitted": 746,
+  "NumDocumentsAlreadyMigrated": 508,
   "Documents": [
     {
-      "DocumentId": 344,
-      "ContactId": 857,
-      "PersonId": 768,
-      "SaleId": 989,
-      "ProjectId": 784,
-      "DocTmplId": 302,
-      "AssociateId": 143,
-      "UserGroupId": 702,
-      "VisibleForId": 661
+      "DocumentId": 709,
+      "ContactId": 650,
+      "PersonId": 794,
+      "SaleId": 407,
+      "ProjectId": 474,
+      "DocTmplId": 81,
+      "AssociateId": 649,
+      "UserGroupId": 989,
+      "VisibleForId": 482
     }
   ],
   "Associates": [
     {
-      "AssociateId": 76,
-      "EmailAddress": "mellie_fay@quigley.biz"
+      "AssociateId": 448,
+      "EmailAddress": "ronaldo@toy.co.uk"
     },
     {
-      "AssociateId": 76,
-      "EmailAddress": "mellie_fay@quigley.biz"
+      "AssociateId": 448,
+      "EmailAddress": "ronaldo@toy.co.uk"
     }
   ]
 }

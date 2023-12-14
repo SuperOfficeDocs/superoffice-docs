@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ondricka Group",
-    "SaleDate": "2003-05-11T13:38:14.0928295+02:00",
-    "SaleId": 613,
-    "Probability": 78,
-    "Title": "molestiae",
-    "Amount": 7825.598,
-    "Currency": "neque",
-    "ProjectName": "Keebler-Kertzmann",
-    "AssociateFullName": "Mya Lynch",
-    "Description": "Multi-tiered encompassing standardization",
+    "ContactName": "Barrows, Spinka and Crona",
+    "SaleDate": "2001-05-28T13:57:13.1757129+02:00",
+    "SaleId": 996,
+    "Probability": 303,
+    "Title": "soluta",
+    "Amount": 16321.872,
+    "Currency": "eos",
+    "ProjectName": "Jacobs-Predovic",
+    "AssociateFullName": "Eduardo Alford Mosciski Sr.",
+    "Description": "Secured methodical local area network",
     "Status": "Lost",
-    "WeightedAmount": 15193.632,
-    "ProjectId": 233,
-    "EarningPercent": 9395.732,
-    "Earning": 9273.506,
-    "ContactId": 699,
-    "AssociateId": 718,
-    "PersonId": 124,
-    "SaleTypeId": 861,
-    "SaleTypeName": "Champlin-Jaskolski",
-    "PersonFullName": "Geo Quigley",
+    "WeightedAmount": 31311.793999999998,
+    "ProjectId": 309,
+    "EarningPercent": 4973.6579999999994,
+    "Earning": 22991.023999999998,
+    "ContactId": 438,
+    "AssociateId": 659,
+    "PersonId": 943,
+    "SaleTypeId": 463,
+    "SaleTypeName": "Ullrich LLC",
+    "PersonFullName": "Hildegard Aufderhar",
     "Completed": "Completed",
-    "ActiveErpLinks": 793,
-    "NextDueDate": "2012-02-01T13:38:14.0928295+01:00",
-    "Number": "566203",
+    "ActiveErpLinks": 842,
+    "NextDueDate": "2012-02-05T13:57:13.1757129+01:00",
+    "Number": "1218501",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldLength": 706
       }
     }
   }

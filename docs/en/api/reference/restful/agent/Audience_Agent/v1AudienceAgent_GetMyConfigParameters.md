@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 622,
-    "Name": "Roob Inc and Sons",
-    "Value": "ut",
-    "CreatedDate": "2016-07-06T13:38:13.0771703+02:00",
-    "UpdatedDate": "2020-02-19T13:38:13.0771703+01:00",
-    "CreatedBy": "ut",
-    "UpdatedBy": "nihil",
+    "AudienceLayoutId": 314,
+    "Name": "Leffler, Koss and Hartmann",
+    "Value": "repellat",
+    "CreatedDate": "2009-07-21T13:57:11.5438073+02:00",
+    "UpdatedDate": "1999-06-24T13:57:11.5438073+02:00",
+    "CreatedBy": "ex",
+    "UpdatedBy": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 638
+        "FieldType": "System.Int32",
+        "FieldLength": 773
       }
     }
   }

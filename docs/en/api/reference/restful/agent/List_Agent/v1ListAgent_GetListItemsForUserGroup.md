@@ -92,8 +92,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 652,
-  "GroupId": 369
+  "UdListDefinitionId": 457,
+  "GroupId": 214
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Reynolds-Hills",
-    "ToolTip": "Eos molestiae et voluptatem modi.",
-    "Deleted": false,
-    "Rank": 453,
-    "Type": "perspiciatis",
-    "ColorBlock": 158,
-    "IconHint": "occaecati",
-    "Selected": false,
-    "LastChanged": "1996-11-07T13:38:13.6708541+01:00",
+    "Id": 319,
+    "Name": "Blanda-Nienow",
+    "ToolTip": "Non et enim delectus quam voluptas.",
+    "Deleted": true,
+    "Rank": 174,
+    "Type": "rerum",
+    "ColorBlock": 682,
+    "IconHint": "explicabo",
+    "Selected": true,
+    "LastChanged": "2019-01-15T13:57:12.5118644+01:00",
     "ChildItems": [
       {
-        "Id": 977,
-        "Name": "Hodkiewicz LLC",
-        "ToolTip": "Qui et nostrum ipsam expedita illo.",
-        "Deleted": false,
-        "Rank": 145,
-        "Type": "tenetur",
-        "ColorBlock": 188,
-        "IconHint": "sit",
+        "Id": 949,
+        "Name": "Douglas Group",
+        "ToolTip": "Fuga dolor aut rerum odio et qui.",
+        "Deleted": true,
+        "Rank": 143,
+        "Type": "molestiae",
+        "ColorBlock": 779,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2020-07-28T13:38:13.6708541+02:00",
+        "LastChanged": "2020-07-06T13:57:12.5118644+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "expedita",
-        "Hidden": true,
-        "FullName": "Reilly Elisabeth Nolan PhD",
+        "ExtraInfo": "rem",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Kameron Ziemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 659
+            "FieldType": "System.String",
+            "FieldLength": 952
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "quod",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Prof. Virgie Jamal Keebler I",
+    "FullName": "Miss Candace Rau DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 859
+        "FieldLength": 124
       }
     }
   }

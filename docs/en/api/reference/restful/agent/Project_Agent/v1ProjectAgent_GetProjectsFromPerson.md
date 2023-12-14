@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 1002
+  "PersonId": 431
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 868,
-    "Name": "Auer-Russel",
-    "Description": "Networked content-based concept",
+    "ProjectId": 129,
+    "Name": "Roberts, Bins and Moore",
+    "Description": "Multi-tiered intermediate model",
     "URL": "http://www.example.com/",
-    "Type": "ratione",
-    "AssociateId": 129,
-    "AssociateFullName": "Valentine Hodkiewicz",
-    "TypeId": 697,
-    "Updated": "2005-10-05T13:38:13.9834617+02:00",
-    "StatusId": 329,
-    "Status": "asperiores",
-    "TextId": 444,
-    "PublishTo": "2006-08-10T13:38:13.9834617+02:00",
-    "PublishFrom": "2002-06-07T13:38:13.9834617+02:00",
+    "Type": "qui",
+    "AssociateId": 71,
+    "AssociateFullName": "Lucious Aliyah Jakubowski V",
+    "TypeId": 114,
+    "Updated": "2022-10-19T13:57:13.0011314+02:00",
+    "StatusId": 295,
+    "Status": "hic",
+    "TextId": 296,
+    "PublishTo": "2002-09-06T13:57:13.0011314+02:00",
+    "PublishFrom": "2015-05-09T13:57:13.0011314+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "531027",
-    "ActiveErpLinks": 170,
+    "ProjectNumber": "735393",
+    "ActiveErpLinks": 758,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 428
+        "FieldType": "System.Int32",
+        "FieldLength": 763
       }
     }
   }

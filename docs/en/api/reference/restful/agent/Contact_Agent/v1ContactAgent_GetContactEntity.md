@@ -26,7 +26,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=311
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=359
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 946,
-  "Name": "Swift Inc and Sons",
+  "ContactId": 155,
+  "Name": "Baumbach Group",
   "Department": "",
-  "OrgNr": "671871",
-  "Number1": "869050",
-  "Number2": "1120620",
-  "UpdatedDate": "2021-10-07T13:38:13.3115228+02:00",
-  "CreatedDate": "2021-04-20T13:38:13.3115228+02:00",
+  "OrgNr": "1419142",
+  "Number1": "642270",
+  "Number2": "592247",
+  "UpdatedDate": "2022-11-12T13:57:11.9018093+01:00",
+  "CreatedDate": "2020-01-13T13:57:11.9018093+01:00",
   "Emails": [
     {
-      "Value": "aliquam",
-      "StrippedValue": "in",
-      "Description": "User-friendly multimedia projection",
+      "Value": "quod",
+      "StrippedValue": "et",
+      "Description": "Re-contextualized zero defect solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 406
+          "FieldLength": 349
         }
       }
     },
     {
-      "Value": "aliquam",
-      "StrippedValue": "in",
-      "Description": "User-friendly multimedia projection",
+      "Value": "quod",
+      "StrippedValue": "et",
+      "Description": "Re-contextualized zero defect solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 406
+          "FieldLength": 349
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 561,
-      "Name": "Reichert, Eichmann and Bartoletti",
-      "ToolTip": "Molestias odit voluptas sed quibusdam similique sunt.",
+      "Id": 716,
+      "Name": "O'Reilly, Halvorson and Heller",
+      "ToolTip": "Sint architecto.",
       "Deleted": false,
-      "Rank": 479,
-      "Type": "sed",
-      "ColorBlock": 430,
-      "IconHint": "est",
-      "Selected": true,
-      "LastChanged": "2021-11-12T13:38:13.3115228+01:00",
+      "Rank": 861,
+      "Type": "delectus",
+      "ColorBlock": 858,
+      "IconHint": "sed",
+      "Selected": false,
+      "LastChanged": "2004-01-19T13:57:11.9018093+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolor",
-      "StyleHint": "voluptas",
-      "Hidden": false,
-      "FullName": "Amiya Boyer III",
+      "ExtraInfo": "eos",
+      "StyleHint": "praesentium",
+      "Hidden": true,
+      "FullName": "Trenton Stracke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 879
+          "FieldLength": 313
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "rem",
-      "StrippedValue": "similique",
-      "Description": "Synergistic intangible artificial intelligence",
+      "Value": "consequatur",
+      "StrippedValue": "dolorem",
+      "Description": "Horizontal intangible workforce",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldLength": 852
         }
       }
     },
     {
-      "Value": "rem",
-      "StrippedValue": "similique",
-      "Description": "Synergistic intangible artificial intelligence",
+      "Value": "consequatur",
+      "StrippedValue": "dolorem",
+      "Description": "Horizontal intangible workforce",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldLength": 852
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "nesciunt",
-      "StrippedValue": "quisquam",
-      "Description": "Cross-platform exuding matrices",
+      "Value": "doloremque",
+      "StrippedValue": "saepe",
+      "Description": "Pre-emptive solution-oriented infrastructure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 60
+          "FieldType": "System.Int32",
+          "FieldLength": 68
         }
       }
     },
     {
-      "Value": "nesciunt",
-      "StrippedValue": "quisquam",
-      "Description": "Cross-platform exuding matrices",
+      "Value": "doloremque",
+      "StrippedValue": "saepe",
+      "Description": "Pre-emptive solution-oriented infrastructure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 60
+          "FieldType": "System.Int32",
+          "FieldLength": 68
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "recusandae",
-      "StrippedValue": "ullam",
-      "Description": "Mandatory contextually-based encryption",
+      "Value": "aut",
+      "StrippedValue": "repudiandae",
+      "Description": "Universal intermediate algorithm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 364
         }
       }
     },
     {
-      "Value": "recusandae",
-      "StrippedValue": "ullam",
-      "Description": "Mandatory contextually-based encryption",
+      "Value": "aut",
+      "StrippedValue": "repudiandae",
+      "Description": "Universal intermediate algorithm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 364
         }
       }
     }
   ],
-  "Description": "Inverse systematic complexity",
+  "Description": "Managed foreground adapter",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "officia",
-      "PersonId": 631,
-      "Mrmrs": "commodi",
-      "Firstname": "Cody",
-      "Lastname": "Walter",
-      "MiddleName": "Macejkovic-Conroy",
-      "Title": "aut",
-      "Description": "Horizontal scalable framework",
-      "Email": "karlie_cole@raynorkris.co.uk",
-      "FullName": "Aubree Schmitt",
-      "DirectPhone": "886.603.7751 x6896",
-      "FormalName": "Kunze Inc and Sons",
-      "CountryId": 423,
-      "ContactId": 158,
-      "ContactName": "Stamm-Yost",
-      "Retired": 955,
-      "Rank": 85,
-      "ActiveInterests": 79,
+      "Position": "dolorum",
+      "PersonId": 347,
+      "Mrmrs": "incidunt",
+      "Firstname": "Alphonso",
+      "Lastname": "Hackett",
+      "MiddleName": "Wiegand LLC",
+      "Title": "harum",
+      "Description": "Implemented logistical concept",
+      "Email": "camron_bernhard@turneroberbrunner.co.uk",
+      "FullName": "Ivory Block",
+      "DirectPhone": "773-664-7225 x39831",
+      "FormalName": "Quitzon Group",
+      "CountryId": 469,
+      "ContactId": 940,
+      "ContactName": "Vandervort, Schiller and Block",
+      "Retired": 280,
+      "Rank": 976,
+      "ActiveInterests": 925,
       "ContactDepartment": "",
-      "ContactCountryId": 638,
-      "ContactOrgNr": "1163080",
-      "FaxPhone": "(143)031-2497 x32299",
-      "MobilePhone": "416-239-3567 x245",
-      "ContactPhone": "586.759.1039 x712",
-      "AssociateName": "Lowe-Murphy",
-      "AssociateId": 640,
+      "ContactCountryId": 770,
+      "ContactOrgNr": "1491073",
+      "FaxPhone": "1-500-060-3748",
+      "MobilePhone": "445-106-8613 x762",
+      "ContactPhone": "597.244.7530",
+      "AssociateName": "Reichel, Wuckert and Ruecker",
+      "AssociateId": 947,
       "UsePersonAddress": false,
-      "ContactFax": "laborum",
-      "Kanafname": "vel",
-      "Kanalname": "quia",
-      "Post1": "facilis",
-      "Post2": "explicabo",
-      "Post3": "consequatur",
-      "EmailName": "brock_gerlach@rath.co.uk",
-      "ContactFullName": "Baron Volkman",
-      "ActiveErpLinks": 563,
-      "TicketPriorityId": 536,
-      "SupportLanguageId": 71,
-      "SupportAssociateId": 923,
+      "ContactFax": "ad",
+      "Kanafname": "laboriosam",
+      "Kanalname": "iste",
+      "Post1": "quisquam",
+      "Post2": "dolor",
+      "Post3": "et",
+      "EmailName": "felicity.batz@mitchell.info",
+      "ContactFullName": "Ms. Raquel Mireille Cruickshank",
+      "ActiveErpLinks": 745,
+      "TicketPriorityId": 762,
+      "SupportLanguageId": 684,
+      "SupportAssociateId": 269,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldType": "System.String",
+          "FieldLength": 911
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "non",
+  "NoMailing": true,
+  "Kananame": "accusamus",
   "Xstop": false,
-  "ActiveInterests": 745,
-  "GroupId": 829,
-  "ActiveStatusMonitorId": 874,
+  "ActiveInterests": 158,
+  "GroupId": 760,
+  "ActiveStatusMonitorId": 84,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 414,
-  "DbiAgentId": 684,
-  "DbiLastSyncronized": "2017-07-09T13:38:13.3115228+02:00",
-  "DbiKey": "recusandae",
-  "DbiLastModified": "2007-01-08T13:38:13.3115228+01:00",
+  "Deleted": 41,
+  "DbiAgentId": 595,
+  "DbiLastSyncronized": "2013-04-12T13:57:11.9018093+02:00",
+  "DbiKey": "doloremque",
+  "DbiLastModified": "2000-03-08T13:57:11.9018093+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 481,
-  "ActiveErpLinks": 611,
+  "Source": 401,
+  "ActiveErpLinks": 915,
   "BounceEmails": [
-    "fabiola@gleichner.us",
-    "myron_dietrich@pagacyost.biz"
+    "deontae_schimmel@lubowitzlarson.com",
+    "prudence_reilly@king.uk"
   ],
   "Domains": [
-    "voluptatem",
+    "voluptate",
     "qui"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Laron Casper",
-    "SuperOffice:2": "Monroe Bechtelar DDS"
+    "SuperOffice:1": "Immanuel Cummings",
+    "SuperOffice:2": "Mrs. Eulalia Koelpin IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "atque",
+    "ExtraFields2": "consectetur"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "aut"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "maxime"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldLength": 89
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 467,
-  "ListItemId": 54
+  "UdListDefinitionId": 823,
+  "ListItemId": 246
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "Cormier, Dickens and Thompson",
-    "ToolTip": "Quia quod sit perspiciatis molestiae consequuntur.",
-    "Deleted": true,
-    "Rank": 914,
-    "Type": "dolorum",
-    "ColorBlock": 925,
-    "IconHint": "dolorum",
+    "Id": 400,
+    "Name": "Feeney-Roob",
+    "ToolTip": "Amet itaque.",
+    "Deleted": false,
+    "Rank": 350,
+    "Type": "unde",
+    "ColorBlock": 723,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2004-10-15T13:38:13.6708541+02:00",
+    "LastChanged": "2010-06-25T13:57:12.5118644+02:00",
     "ChildItems": [
       {
-        "Id": 29,
-        "Name": "Fahey-Jacobs",
-        "ToolTip": "Ipsum veniam.",
+        "Id": 233,
+        "Name": "Corwin-Pagac",
+        "ToolTip": "Labore adipisci aut ea aspernatur quia.",
         "Deleted": true,
-        "Rank": 556,
-        "Type": "ut",
-        "ColorBlock": 34,
-        "IconHint": "odio",
+        "Rank": 374,
+        "Type": "perspiciatis",
+        "ColorBlock": 554,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "2015-10-10T13:38:13.6708541+02:00",
+        "LastChanged": "2008-10-20T13:57:12.5118644+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "aliquam",
-        "Hidden": true,
-        "FullName": "Mr. Alexzander Volkman",
+        "ExtraInfo": "rerum",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Jennie Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 792
+            "FieldLength": 391
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "placeat",
+    "StyleHint": "recusandae",
     "Hidden": true,
-    "FullName": "Dr. Mariana Prosacco",
+    "FullName": "Mr. Patrick Rigoberto Hoppe I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 671
+        "FieldType": "System.String",
+        "FieldLength": 603
       }
     }
   }

@@ -121,18 +121,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ducimus",
+    "path": "similique",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ducimus",
+    "path": "similique",
     "value": {}
   }
 ]
@@ -145,23 +145,23 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 608,
-  "UniqueIdentifier": "ut",
-  "Name": "Altenwerth, Schiller and Sanford",
-  "Description": "Automated bottom-line firmware",
-  "IncludeId": "odio",
-  "HierarchyId": 28,
-  "Source": "velit",
-  "Registered": "2012-03-21T13:38:17.280593+01:00",
-  "RegisteredAssociateId": 231,
-  "Updated": "2006-11-13T13:38:17.280593+01:00",
-  "UpdatedAssociateId": 812,
+  "EjscriptId": 411,
+  "UniqueIdentifier": "distinctio",
+  "Name": "Stanton, Langworth and Becker",
+  "Description": "Digitized solution-oriented paradigm",
+  "IncludeId": "officia",
+  "HierarchyId": 169,
+  "Source": "corporis",
+  "Registered": "2006-10-24T13:57:18.6846845+02:00",
+  "RegisteredAssociateId": 956,
+  "Updated": "1998-12-23T13:57:18.6846845+01:00",
+  "UpdatedAssociateId": 474,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 649
+      "FieldType": "System.Int32",
+      "FieldLength": 121
     }
   },
   "_Links": {

@@ -87,26 +87,26 @@ Dashboard updated.
 PUT /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 646,
-  "AssociateId": 416,
-  "Caption": "est",
+  "DashboardId": 79,
+  "AssociateId": 384,
+  "Caption": "alias",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 429,
-      "Caption": "odit",
-      "Description": "Business-focused explicit monitoring",
-      "ChartName": "Lakin Group",
-      "ChartId": "quo",
+      "DashboardTileId": 256,
+      "Caption": "assumenda",
+      "Description": "Vision-oriented human-resource knowledge user",
+      "ChartName": "Greenfelder-Bechtelar",
+      "ChartId": "est",
       "IsDefault": true,
-      "AssociateId": 129,
-      "GroupId": 499,
-      "SelectionId": 523,
-      "Config": "voluptas",
+      "AssociateId": 296,
+      "GroupId": 400,
+      "SelectionId": 122,
+      "Config": "nihil",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -129,22 +129,22 @@ HTTP/1.1 200 Dashboard updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 396,
-  "AssociateId": 191,
-  "Caption": "magnam",
+  "DashboardId": 278,
+  "AssociateId": 701,
+  "Caption": "illo",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 711,
-      "Caption": "provident",
-      "Description": "Managed web-enabled capacity",
-      "ChartName": "Boyer LLC",
-      "ChartId": "nobis",
-      "IsDefault": false,
-      "AssociateId": 200,
-      "GroupId": 229,
-      "SelectionId": 932,
-      "Config": "quisquam",
+      "DashboardTileId": 44,
+      "Caption": "maxime",
+      "Description": "Diverse 24/7 conglomeration",
+      "ChartName": "Glover-Reichel",
+      "ChartId": "sit",
+      "IsDefault": true,
+      "AssociateId": 432,
+      "GroupId": 539,
+      "SelectionId": 942,
+      "Config": "ab",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 292
+          "FieldType": "System.Int32",
+          "FieldLength": 467
         }
       }
     }
@@ -170,12 +170,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 178
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

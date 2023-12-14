@@ -37,7 +37,7 @@ Lists all email flows
 |workflowId|int|Workflow id: Id of a worflow definition| x |
 |workflowName|string|Name: Name of the workflow definition| x |
 |workflowDescription|string|Description: Description of the workflow definition| x |
-|workflowDefinitionStatus|listAny|E-mail flow status: Status of the workflow definition| x |
+|workflowDefinitionStatus|listAny|Status: Status of the workflow definition| x |
 |jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |startOnlyOnce|bool|Start only once: Should the participant enter the workflow only once?| x |
 |workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this workflow|  |

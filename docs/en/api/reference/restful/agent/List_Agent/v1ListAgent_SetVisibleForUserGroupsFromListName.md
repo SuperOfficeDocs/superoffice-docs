@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Koelpin Inc and Sons",
-  "ListItemId": 222,
+  "UdListDefinitionName": "Green LLC",
+  "ListItemId": 343,
   "UserGroups": [
     {
-      "Id": 620,
-      "Name": "Mayert Inc and Sons",
-      "ToolTip": "Unde veritatis recusandae amet.",
-      "Deleted": false,
-      "Rank": 171,
-      "Type": "ipsam",
-      "ColorBlock": 63,
-      "IconHint": "tempora",
+      "Id": 786,
+      "Name": "Schimmel LLC",
+      "ToolTip": "Qui et optio doloremque.",
+      "Deleted": true,
+      "Rank": 395,
+      "Type": "expedita",
+      "ColorBlock": 412,
+      "IconHint": "labore",
       "Selected": false,
-      "LastChanged": "2012-12-10T13:38:13.6708541+01:00",
+      "LastChanged": "2002-04-28T13:57:12.5118644+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptates",
-      "StyleHint": "hic",
-      "Hidden": true,
-      "FullName": "Miss Lenore Towne"
+      "ExtraInfo": "magni",
+      "StyleHint": "vitae",
+      "Hidden": false,
+      "FullName": "Lincoln Beatty"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 143,
-    "Name": "Brakus, Mraz and Kilback",
-    "ToolTip": "Eos nam aut.",
+    "Id": 385,
+    "Name": "Welch-Kirlin",
+    "ToolTip": "Odit voluptatum omnis in.",
     "Deleted": true,
-    "Rank": 830,
-    "Type": "voluptate",
-    "ColorBlock": 102,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2002-07-01T13:38:13.6708541+02:00",
+    "Rank": 419,
+    "Type": "pariatur",
+    "ColorBlock": 511,
+    "IconHint": "facilis",
+    "Selected": true,
+    "LastChanged": "2021-02-17T13:57:12.5118644+01:00",
     "ChildItems": [
       {
-        "Id": 394,
-        "Name": "Purdy-O'Conner",
-        "ToolTip": "Quas dolor nostrum voluptatem laudantium quis repellendus commodi.",
+        "Id": 874,
+        "Name": "Bailey Inc and Sons",
+        "ToolTip": "Similique neque reiciendis sit est aut et.",
         "Deleted": false,
-        "Rank": 976,
-        "Type": "blanditiis",
-        "ColorBlock": 344,
-        "IconHint": "qui",
+        "Rank": 738,
+        "Type": "et",
+        "ColorBlock": 850,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "2011-10-22T13:38:13.6708541+02:00",
+        "LastChanged": "2004-06-19T13:57:12.5118644+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "cumque",
-        "Hidden": false,
-        "FullName": "Kareem Bode",
+        "ExtraInfo": "sunt",
+        "StyleHint": "consequuntur",
+        "Hidden": true,
+        "FullName": "Ms. Aubrey Hahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 289
+            "FieldType": "System.Int32",
+            "FieldLength": 6
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "architecto",
-    "Hidden": true,
-    "FullName": "Ms. Glen Carson Koelpin",
+    "ExtraInfo": "aut",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Prof. Kian Connelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldLength": 32
       }
     }
   }

@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2003-06-14T13:38:14.0928295+02:00",
-  "ToDate": "2022-08-04T13:38:14.0928295+02:00",
-  "AmountLimit": 474,
+  "FromDate": "2013-08-22T13:57:13.1757129+02:00",
+  "ToDate": "2006-05-27T13:57:13.1757129+02:00",
+  "AmountLimit": 793,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bernier, Leannon and Smith",
-    "SaleDate": "2005-05-12T13:38:14.1084486+02:00",
-    "SaleId": 25,
-    "Probability": 360,
-    "Title": "et",
-    "Amount": 16268.594,
-    "Currency": "eum",
-    "ProjectName": "Hyatt, Windler and Grady",
-    "AssociateFullName": "Joy Pfannerstill",
-    "Description": "Right-sized homogeneous support",
+    "ContactName": "Stanton-Beahan",
+    "SaleDate": "2001-08-08T13:57:13.1757129+02:00",
+    "SaleId": 359,
+    "Probability": 582,
+    "Title": "ut",
+    "Amount": 11902.931999999999,
+    "Currency": "consequatur",
+    "ProjectName": "Graham-Langosh",
+    "AssociateFullName": "Miss Thelma Vita Kessler V",
+    "Description": "Up-sized well-modulated project",
     "Status": "Lost",
-    "WeightedAmount": 28566.41,
-    "ProjectId": 684,
-    "EarningPercent": 20643.658,
-    "Earning": 21549.384,
-    "ContactId": 907,
-    "AssociateId": 551,
-    "PersonId": 905,
-    "SaleTypeId": 651,
-    "SaleTypeName": "Schoen-Kuhn",
-    "PersonFullName": "Ms. Elbert Mraz Jr.",
+    "WeightedAmount": 5819.838,
+    "ProjectId": 809,
+    "EarningPercent": 4898.442,
+    "Earning": 12476.454,
+    "ContactId": 464,
+    "AssociateId": 890,
+    "PersonId": 242,
+    "SaleTypeId": 292,
+    "SaleTypeName": "Smith Group",
+    "PersonFullName": "Kristian Von",
     "Completed": "Completed",
-    "ActiveErpLinks": 358,
-    "NextDueDate": "2020-03-03T13:38:14.1084486+01:00",
-    "Number": "1534714",
+    "ActiveErpLinks": 980,
+    "NextDueDate": "1997-04-26T13:57:13.1757129+02:00",
+    "Number": "712407",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 704
+        "FieldLength": 691
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=expedita
+GET /api/v1/List/Currency/MDOItems?flat=False
+GET /api/v1/List/Currency/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Pacocha Inc and Sons",
-    "ToolTip": "Illo molestiae quia ut rem placeat pariatur.",
-    "Deleted": true,
-    "Rank": 326,
-    "Type": "molestiae",
+    "Id": 963,
+    "Name": "Skiles-Kautzer",
+    "ToolTip": "Aperiam velit impedit consequatur.",
+    "Deleted": false,
+    "Rank": 666,
+    "Type": "inventore",
     "ChildItems": [
       {
-        "Id": 283,
-        "Name": "Rosenbaum-Kihn",
-        "ToolTip": "Praesentium non velit occaecati voluptas dicta harum.",
-        "Deleted": true,
-        "Rank": 668,
-        "Type": "blanditiis",
+        "Id": 83,
+        "Name": "Barton Inc and Sons",
+        "ToolTip": "Aperiam iusto est.",
+        "Deleted": false,
+        "Rank": 964,
+        "Type": "facere",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facere",
-        "ColorBlock": 857,
-        "ExtraInfo": "accusamus",
-        "StyleHint": "quidem",
-        "FullName": "Mia Hudson",
+        "IconHint": "sint",
+        "ColorBlock": 310,
+        "ExtraInfo": "eligendi",
+        "StyleHint": "eum",
+        "FullName": "Mrs. Shanon Franecki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 19
+            "FieldLength": 380
           }
         }
       }
     ],
-    "IconHint": "molestiae",
-    "ColorBlock": 797,
-    "ExtraInfo": "quaerat",
-    "StyleHint": "sed",
-    "FullName": "Ms. Filiberto Nico Eichmann",
+    "IconHint": "corporis",
+    "ColorBlock": 221,
+    "ExtraInfo": "in",
+    "StyleHint": "earum",
+    "FullName": "Dejuan Ulices Auer III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldLength": 841
       }
     }
   }

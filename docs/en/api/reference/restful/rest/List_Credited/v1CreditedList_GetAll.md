@@ -25,7 +25,7 @@ Gets all the Credited items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Credited/Items?includeDeleted=False
+GET /api/v1/List/Credited/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Lockman-Mohr",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "UdListDefinitionId": 515,
-    "Rank": 728,
+    "Id": 268,
+    "Name": "Goyette, Okuneva and Bartoletti",
+    "Tooltip": "illo",
+    "Deleted": true,
+    "UdListDefinitionId": 808,
+    "Rank": 417,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldLength": 909
       }
     }
   }

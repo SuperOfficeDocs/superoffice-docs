@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 855,
-  "Name": "Hagenes Inc and Sons",
-  "Tooltip": "eveniet",
+  "RoleId": 309,
+  "Name": "Rath LLC",
+  "Tooltip": "dolorum",
   "RoleType": "Anonymous",
-  "Deleted": 610,
-  "Rank": 869,
-  "Created": "2005-10-05T13:38:14.327173+02:00",
-  "UseCategories": 590,
+  "Deleted": 368,
+  "Rank": 300,
+  "Created": "2023-04-24T13:57:13.5052139+02:00",
+  "UseCategories": 487,
   "CreatedBy": null,
-  "Updated": "2018-12-16T13:38:14.327173+01:00",
+  "Updated": "2000-03-30T13:57:13.5052139+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 168,
-  "Name": "Nolan-Kuphal",
-  "Tooltip": "voluptatem",
+  "RoleId": 777,
+  "Name": "Dibbert LLC",
+  "Tooltip": "consequatur",
   "RoleType": "Anonymous",
-  "Deleted": 575,
-  "Rank": 218,
-  "Created": "2018-09-09T13:38:14.342802+02:00",
-  "UseCategories": 107,
+  "Deleted": 660,
+  "Rank": 823,
+  "Created": "2009-06-21T13:57:13.5208394+02:00",
+  "UseCategories": 798,
   "CreatedBy": null,
-  "Updated": "2011-05-31T13:38:14.342802+02:00",
+  "Updated": "2001-10-16T13:57:13.5208394+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldType": "System.String",
+      "FieldLength": 597
     }
   }
 }

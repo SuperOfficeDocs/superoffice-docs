@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Bayer LLC"
+  "TaskName": "Weissnat, Hilll and Pfannerstill"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 209,
-    "Name": "Jacobi, D'Amore and Schulist",
-    "AssociateId": 169,
-    "DetailsTable": 965,
-    "DetailsRecord": 147,
-    "IsSystemTask": true,
+    "Id": 707,
+    "Name": "Brakus-Davis",
+    "AssociateId": 457,
+    "DetailsTable": 518,
+    "DetailsRecord": 573,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "cum",
-      "ParameterObject2": "non"
+      "ParameterObject1": "ex",
+      "ParameterObject2": "sit"
     },
-    "LastStarted": "2001-12-12T13:38:13.0927968+01:00",
-    "Created": "2000-08-12T13:38:13.0927968+02:00",
-    "StartCount": 986,
-    "DatabaseSerialNumber": "1041749",
-    "Context": "itaque",
-    "Result": "ipsam",
+    "LastStarted": "2014-12-03T13:57:11.5594343+01:00",
+    "Created": "2023-10-23T13:57:11.5594343+02:00",
+    "StartCount": 688,
+    "DatabaseSerialNumber": "1449434",
+    "Context": "earum",
+    "Result": "ut",
     "State": "All",
-    "Description": "Robust grid-enabled productivity",
-    "Response": "necessitatibus",
-    "Request": "odit",
-    "ProgressDescription": "Reduced asynchronous matrix",
-    "ProgressPercent": 792,
-    "FileName": "Haley-Stokes",
+    "Description": "Persevering systemic methodology",
+    "Response": "vero",
+    "Request": "ea",
+    "ProgressDescription": "Organized high-level attitude",
+    "ProgressPercent": 405,
+    "FileName": "Stokes LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 145
+        "FieldType": "System.Int32",
+        "FieldLength": 539
       }
     }
   }

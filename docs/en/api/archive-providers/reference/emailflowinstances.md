@@ -51,7 +51,7 @@ Lists all email flow Instances
 |emailFlow/workflowId|int|Workflow id: Id of a worflow definition| x |
 |emailFlow/workflowName|string|Name: Name of the workflow definition| x |
 |emailFlow/workflowDescription|string|Description: Description of the workflow definition| x |
-|emailFlow/workflowDefinitionStatus|listAny|E-mail flow status: Status of the workflow definition| x |
+|emailFlow/workflowDefinitionStatus|listAny|Status: Status of the workflow definition| x |
 |emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the workflow only once?| x |
 |emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this workflow|  |
@@ -485,7 +485,7 @@ Lists all email flow Instances
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowInstances?$select=person/personDirectFax/formattedNumber,person/personExtra/y_rental/x_start,contact/contactExtra/x_contact_contact
+GET /api/v1/archive/EmailFlowInstances?$select=person/personUpdatedByFullName,person/personAddress/county,person/personAssociate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

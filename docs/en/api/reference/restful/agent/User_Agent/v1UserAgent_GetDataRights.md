@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/User/GetDataRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 21,
-  "TableName": "Kris-Yost"
+  "RoleId": 745,
+  "TableName": "Wisozk LLC"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "expedita",
-  "2": "eum"
+  "1": "doloremque",
+  "2": "perspiciatis"
 }
 ```

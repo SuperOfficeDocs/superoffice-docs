@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wilderman, Schaefer and Schimmel",
-  "AdditionalInfo": "mollitia",
+  "Name": "Fadel, Ritchie and Yundt",
+  "AdditionalInfo": "voluptatem",
   "SelectableMDOList": [
     {
-      "Id": 781,
-      "Name": "Heaney, Quitzon and Rosenbaum",
-      "ToolTip": "Dolores a quos dolor amet voluptatem.",
-      "Deleted": true,
-      "Rank": 158,
-      "Type": "qui",
-      "ColorBlock": 708,
-      "IconHint": "non",
-      "Selected": false,
-      "LastChanged": "2001-10-16T13:38:13.7491627+02:00",
+      "Id": 816,
+      "Name": "Turcotte, Mitchell and Morissette",
+      "ToolTip": "Iste est.",
+      "Deleted": false,
+      "Rank": 474,
+      "Type": "amet",
+      "ColorBlock": 154,
+      "IconHint": "accusamus",
+      "Selected": true,
+      "LastChanged": "2011-08-05T13:57:12.6224541+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quisquam",
-      "StyleHint": "consequatur",
-      "Hidden": false,
-      "FullName": "Tiffany Mayert Sr."
+      "ExtraInfo": "praesentium",
+      "StyleHint": "error",
+      "Hidden": true,
+      "FullName": "Kamille Oberbrunner"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 873,
-    "Name": "Hartmann Inc and Sons",
-    "ToolTip": "Consequatur et libero doloremque quo fugit ipsum.",
+    "Id": 140,
+    "Name": "Conroy-Koss",
+    "ToolTip": "In voluptas voluptas aut enim provident asperiores et.",
     "Deleted": false,
-    "Rank": 151,
-    "Type": "quaerat",
-    "ColorBlock": 262,
-    "IconHint": "amet",
+    "Rank": 148,
+    "Type": "placeat",
+    "ColorBlock": 710,
+    "IconHint": "aperiam",
     "Selected": false,
-    "LastChanged": "2009-01-24T13:38:13.7491627+01:00",
+    "LastChanged": "2021-10-09T13:57:12.6224541+02:00",
     "ChildItems": [
       {
-        "Id": 211,
-        "Name": "Friesen-Franecki",
-        "ToolTip": "Labore natus sed.",
+        "Id": 923,
+        "Name": "Pollich-Hammes",
+        "ToolTip": "Vel odio totam sint sunt ab.",
         "Deleted": false,
-        "Rank": 824,
-        "Type": "vitae",
-        "ColorBlock": 467,
-        "IconHint": "molestias",
-        "Selected": true,
-        "LastChanged": "2021-01-28T13:38:13.7491627+01:00",
+        "Rank": 149,
+        "Type": "occaecati",
+        "ColorBlock": 382,
+        "IconHint": "ipsam",
+        "Selected": false,
+        "LastChanged": "2016-07-02T13:57:12.6224541+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "earum",
-        "Hidden": true,
-        "FullName": "Miss Alan Gerlach",
+        "ExtraInfo": "quam",
+        "StyleHint": "eum",
+        "Hidden": false,
+        "FullName": "Malika Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 670
+            "FieldType": "System.String",
+            "FieldLength": 786
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "odit",
-    "Hidden": false,
-    "FullName": "Lucie Franecki",
+    "ExtraInfo": "facilis",
+    "StyleHint": "distinctio",
+    "Hidden": true,
+    "FullName": "Otis Jerde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 965
+        "FieldLength": 263
       }
     }
   }

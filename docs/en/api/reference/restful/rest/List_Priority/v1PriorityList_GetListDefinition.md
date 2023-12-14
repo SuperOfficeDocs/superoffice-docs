@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 196,
-  "Name": "Bartoletti, Lynch and Bosco",
-  "Tooltip": "eaque",
-  "Deleted": false,
-  "Rank": 788,
-  "IsCustomList": true,
+  "Id": 965,
+  "Name": "Leuschke-Brekke",
+  "Tooltip": "delectus",
+  "Deleted": true,
+  "Rank": 902,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vero",
-  "InUseByUserDefinedFields": false,
+  "ListType": "eos",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldLength": 556
     }
   },
   "_Links": {

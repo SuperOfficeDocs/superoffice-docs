@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 58,
-    "Name": "Becker-Herzog",
-    "ToolTip": "Voluptas quaerat laborum.",
+    "Id": 434,
+    "Name": "Brakus, Konopelski and Keeling",
+    "ToolTip": "Iure veritatis vitae excepturi enim voluptatibus iste.",
     "Deleted": true,
-    "Rank": 141,
-    "Type": "vitae",
-    "ColorBlock": 603,
-    "IconHint": "aut",
+    "Rank": 177,
+    "Type": "alias",
+    "ColorBlock": 874,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2004-12-09T13:38:18.2337719+01:00",
+    "LastChanged": "2004-08-15T13:57:20.1421596+02:00",
     "ChildItems": [
       {
-        "Id": 810,
-        "Name": "Swaniawski, Hills and Johnston",
-        "ToolTip": "Aut ipsam et dolores ut voluptatem quia fugit.",
+        "Id": 609,
+        "Name": "Lubowitz-Schmidt",
+        "ToolTip": "Et aut.",
         "Deleted": false,
-        "Rank": 863,
-        "Type": "amet",
-        "ColorBlock": 658,
-        "IconHint": "voluptas",
+        "Rank": 25,
+        "Type": "laborum",
+        "ColorBlock": 677,
+        "IconHint": "quidem",
         "Selected": true,
-        "LastChanged": "2011-08-14T13:38:18.2337719+02:00",
+        "LastChanged": "2011-06-06T13:57:20.1421596+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "repellat",
-        "Hidden": true,
-        "FullName": "Viva Abshire",
+        "ExtraInfo": "dolores",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Prof. Nelson Wilkinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 48
+            "FieldType": "System.Int32",
+            "FieldLength": 85
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "consequatur",
-    "Hidden": true,
-    "FullName": "Ms. Verdie Melyna Casper",
+    "ExtraInfo": "animi",
+    "StyleHint": "minus",
+    "Hidden": false,
+    "FullName": "Dayton Hellen Lesch Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 744
+        "FieldLength": 604
       }
     }
   }

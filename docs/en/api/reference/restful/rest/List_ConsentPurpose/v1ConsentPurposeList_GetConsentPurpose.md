@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,25 +84,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 74,
-  "Name": "Trantow-Marks",
-  "ConsentText": "omnis",
-  "FormText": "asperiores",
-  "Key": "nam",
-  "Tooltip": "sapiente",
-  "Active": 2,
-  "UpdatedDate": "2022-11-22T13:38:17.9994152+01:00",
+  "ConsentPurposeId": 518,
+  "Name": "Bayer Group",
+  "ConsentText": "minima",
+  "FormText": "accusantium",
+  "Key": "tempore",
+  "Tooltip": "ipsam",
+  "Active": 278,
+  "UpdatedDate": "2017-09-30T13:57:19.6721792+02:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 181,
-  "PrivacyStatementDesc": "voluptas",
+  "Rank": 539,
+  "PrivacyStatementDesc": "consectetur",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 698
     }
   }
 }

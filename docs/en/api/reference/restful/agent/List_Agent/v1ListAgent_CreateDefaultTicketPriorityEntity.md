@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 607,
-  "Name": "Heathcote, Langworth and Emmerich",
+  "TicketPriorityId": 507,
+  "Name": "Mayer-Ziemann",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 314,
+  "SortOrder": 891,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 56,
-  "MonStart": "2022-01-19T13:38:13.7177215+01:00",
-  "MonStop": "2001-10-09T13:38:13.7177215+02:00",
-  "TueStart": "2016-11-29T13:38:13.7177215+01:00",
-  "TueStop": "2002-10-03T13:38:13.7177215+02:00",
-  "WedStart": "2011-10-26T13:38:13.7177215+02:00",
-  "WedStop": "2014-01-07T13:38:13.7177215+01:00",
-  "ThuStart": "2012-11-13T13:38:13.7177215+01:00",
-  "ThuStop": "2021-02-05T13:38:13.7177215+01:00",
-  "FriStart": "2007-07-30T13:38:13.7177215+02:00",
-  "FriStop": "2003-03-04T13:38:13.7177215+01:00",
-  "SatStart": "2002-07-06T13:38:13.7177215+02:00",
-  "SatStop": "2023-08-24T13:38:13.7177215+02:00",
-  "SunStart": "1997-04-13T13:38:13.7177215+02:00",
-  "SunStop": "2011-07-04T13:38:13.7177215+02:00",
+  "Deadline": 264,
+  "MonStart": "2022-11-10T13:57:12.575585+01:00",
+  "MonStop": "2002-12-30T13:57:12.575585+01:00",
+  "TueStart": "1997-08-28T13:57:12.575585+02:00",
+  "TueStop": "2004-06-12T13:57:12.575585+02:00",
+  "WedStart": "2017-10-18T13:57:12.575585+02:00",
+  "WedStop": "2017-11-11T13:57:12.575585+01:00",
+  "ThuStart": "2009-02-02T13:57:12.575585+01:00",
+  "ThuStop": "2012-06-08T13:57:12.575585+02:00",
+  "FriStart": "2000-06-06T13:57:12.575585+02:00",
+  "FriStop": "2010-04-21T13:57:12.575585+02:00",
+  "SatStart": "2006-11-09T13:57:12.575585+01:00",
+  "SatStop": "2022-09-05T13:57:12.575585+02:00",
+  "SunStart": "2004-11-19T13:57:12.575585+01:00",
+  "SunStop": "2013-04-04T13:57:12.575585+02:00",
   "NonDates": [
-    "ullam",
-    "cumque"
+    "perferendis",
+    "suscipit"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 428,
-      "AlertLevel": 607,
-      "AlertTimeout": 152,
-      "Action": 715,
-      "DelegateTo": 661,
-      "ScriptId": 809,
-      "EmailTo": "carlos@gutkowski.biz",
-      "SmsTo": "ut",
-      "ReplyTemplateIdCustomer": 175,
-      "ReplyTemplateIdUser": 42,
-      "ReplyTemplateIdCatmast": 877,
-      "ReplyTemplateIdEmail": 272,
-      "RtiCustomerSms": 596,
-      "ReplyTemplateIdUserSms": 320,
-      "ReplyTemplateIdCatmastSms": 591,
-      "ReplyTemplateIdSms": 669,
+      "TicketAlertId": 614,
+      "AlertLevel": 181,
+      "AlertTimeout": 958,
+      "Action": 299,
+      "DelegateTo": 630,
+      "ScriptId": 546,
+      "EmailTo": "deshaun@mclaughlin.ca",
+      "SmsTo": "voluptatum",
+      "ReplyTemplateIdCustomer": 114,
+      "ReplyTemplateIdUser": 752,
+      "ReplyTemplateIdCatmast": 900,
+      "ReplyTemplateIdEmail": 360,
+      "RtiCustomerSms": 583,
+      "ReplyTemplateIdUserSms": 231,
+      "ReplyTemplateIdCatmastSms": 214,
+      "ReplyTemplateIdSms": 519,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 190
+          "FieldType": "System.Int32",
+          "FieldLength": 243
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldLength": 599
     }
   }
 }

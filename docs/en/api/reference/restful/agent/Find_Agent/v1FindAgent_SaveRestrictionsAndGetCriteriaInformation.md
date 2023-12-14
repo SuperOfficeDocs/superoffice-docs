@@ -86,35 +86,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Ullrich Group",
-  "StorageKey": "atque",
+  "StorageType": "ut",
+  "ProviderName": "D'Amore, Blanda and Huels",
+  "StorageKey": "sit",
   "Restrictions": [
     {
-      "Name": "Senger-Mayer",
-      "Operator": "magni",
+      "Name": "Schimmel, Cole and Toy",
+      "Operator": "sint",
       "Values": [
-        "earum",
-        "animi"
+        "beatae",
+        "molestiae"
       ],
       "DisplayValues": [
-        "error",
-        "sit"
+        "sed",
+        "nesciunt"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 759,
+      "InterParenthesis": 928,
       "InterOperator": "And",
-      "UniqueHash": 361
+      "UniqueHash": 108
     }
   ],
   "StaticColumns": [
-    "modi",
-    "error"
+    "repellat",
+    "eligendi"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Vandervort-Kuhic",
-      "Operator": "voluptatem",
+      "Name": "Collins, Carroll and Mills",
+      "Operator": "deleniti",
       "Values": [
-        "animi",
-        "officia"
+        "illum",
+        "magni"
       ],
       "DisplayValues": [
-        "quas",
-        "ratione"
+        "culpa",
+        "assumenda"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 715,
+      "InterParenthesis": 178,
       "InterOperator": "And",
-      "UniqueHash": 391
+      "UniqueHash": 716
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Stamm, DuBuque and Feil",
-      "DisplayTooltip": "consequatur",
-      "DisplayType": "consectetur",
+      "DisplayName": "Wiegand-Cummerata",
+      "DisplayTooltip": "aut",
+      "DisplayType": "mollitia",
       "CanOrderBy": false,
-      "Name": "Bode-Tillman",
+      "Name": "Rolfson, Spinka and Denesik",
       "CanRestrictBy": false,
-      "RestrictionType": "debitis",
-      "RestrictionListName": "Simonis LLC",
+      "RestrictionType": "cupiditate",
+      "RestrictionListName": "Rau, O'Hara and Effertz",
       "IsVisible": false,
-      "ExtraInfo": "occaecati",
-      "Width": "occaecati",
-      "IconHint": "nihil",
-      "HeadingIconHint": "quisquam"
+      "ExtraInfo": "deleniti",
+      "Width": "est",
+      "IconHint": "illo",
+      "HeadingIconHint": "perferendis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Crooks LLC",
-      "PrimaryKey": 353,
+      "EntityName": "Orn, Collins and Goyette",
+      "PrimaryKey": 11,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "pariatur",
-          "TooltipHint": "consequatur",
-          "LinkHint": "beatae"
+          "DisplayValue": "repellat",
+          "TooltipHint": "saepe",
+          "LinkHint": "aliquam"
         }
       },
-      "LinkHint": "dolores",
-      "StyleHint": "enim",
+      "LinkHint": "non",
+      "StyleHint": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 321
+          "FieldLength": 243
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Abshire Inc and Sons",
-      "Description": "Balanced zero administration core",
-      "Rank": 817,
+      "Name": "Koss LLC",
+      "Description": "Fundamental attitude-oriented encoding",
+      "Rank": 49,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Abshire Inc and Sons",
-      "Description": "Balanced zero administration core",
-      "Rank": 817,
+      "Name": "Koss LLC",
+      "Description": "Fundamental attitude-oriented encoding",
+      "Rank": 49,
       "Restrictions": [
         {},
         {}
@@ -213,8 +213,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 814
+      "FieldType": "System.Int32",
+      "FieldLength": 23
     }
   }
 }

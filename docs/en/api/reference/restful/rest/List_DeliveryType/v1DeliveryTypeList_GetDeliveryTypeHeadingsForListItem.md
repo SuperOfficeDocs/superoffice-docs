@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 280,
-    "Name": "McKenzie LLC",
-    "ToolTip": "Provident quis quis.",
+    "Id": 336,
+    "Name": "Morissette, Pollich and O'Keefe",
+    "ToolTip": "Possimus quaerat quisquam repudiandae placeat.",
     "Deleted": false,
-    "Rank": 113,
-    "Type": "dolor",
-    "ColorBlock": 867,
-    "IconHint": "ipsum",
-    "Selected": true,
-    "LastChanged": "2020-04-18T13:38:18.0462875+02:00",
+    "Rank": 286,
+    "Type": "dolores",
+    "ColorBlock": 996,
+    "IconHint": "exercitationem",
+    "Selected": false,
+    "LastChanged": "2015-01-30T13:57:19.7502685+01:00",
     "ChildItems": [
       {
-        "Id": 539,
-        "Name": "Hettinger, Marks and Cummerata",
-        "ToolTip": "Aut quia nihil consequuntur.",
+        "Id": 449,
+        "Name": "Bradtke-VonRueden",
+        "ToolTip": "Alias quod beatae.",
         "Deleted": false,
-        "Rank": 485,
-        "Type": "et",
-        "ColorBlock": 839,
-        "IconHint": "rem",
+        "Rank": 633,
+        "Type": "ipsa",
+        "ColorBlock": 277,
+        "IconHint": "corporis",
         "Selected": false,
-        "LastChanged": "2010-07-01T13:38:18.0462875+02:00",
+        "LastChanged": "2004-09-06T13:57:19.7502685+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "minus",
-        "Hidden": false,
-        "FullName": "Lelah Hoppe Sr.",
+        "ExtraInfo": "nobis",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Lowell Ferry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 688
+            "FieldLength": 528
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Grayson Conn Sr.",
+    "FullName": "Nyah Audie Hansen V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldLength": 682
       }
     }
   }

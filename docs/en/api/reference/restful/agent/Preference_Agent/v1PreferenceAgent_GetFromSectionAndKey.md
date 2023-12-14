@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "architecto",
-  "Key": "velit"
+  "Section": "est",
+  "Key": "et"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 694,
-  "Section": "temporibus",
-  "Key": "et",
-  "Name": "McCullough, Steuber and Bailey",
+  "PrefDescId": 519,
+  "Section": "nam",
+  "Key": "quam",
+  "Name": "Lakin-Klocko",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Integrated didactic Graphical User Interface",
+  "Description": "Upgradable systematic product",
   "IsBuiltin": true,
-  "TableName": "Leannon Group",
-  "UserDefinedListId": 815,
-  "Rank": 746,
-  "SubGroup": "sit",
-  "MinLevel": 764,
-  "MaxValue": 926,
-  "MinValue": 661,
-  "RequiredLicense": "est",
+  "TableName": "Wuckert, Hettinger and Willms",
+  "UserDefinedListId": 794,
+  "Rank": 998,
+  "SubGroup": "voluptates",
+  "MinLevel": 313,
+  "MaxValue": 512,
+  "MinValue": 274,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 605
+      "FieldType": "System.String",
+      "FieldLength": 45
     }
   }
 }

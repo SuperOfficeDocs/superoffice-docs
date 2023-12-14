@@ -101,9 +101,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 580,
-  "QuoteAlternativeId": 918,
-  "QuoteAlternativeName": "Doyle, Bruen and Schulist"
+  "QuoteVersionId": 833,
+  "QuoteAlternativeId": 566,
+  "QuoteAlternativeName": "Padberg LLC"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 941,
-  "ERPQuoteAlternativeKey": "dignissimos",
-  "QuoteVersionId": 773,
-  "Name": "Stehr-Nienow",
-  "Description": "Digitized intermediate structure",
+  "QuoteAlternativeId": 22,
+  "ERPQuoteAlternativeKey": "fuga",
+  "QuoteVersionId": 297,
+  "Name": "Kuvalis-Altenwerth",
+  "Description": "Business-focused needs-based core",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 24150.604,
-  "ERPDiscountAmount": 25780.284,
-  "DiscountPercent": 6650.348,
-  "DiscountAmount": 15967.73,
+  "Reason": "syndicate best-of-breed partnerships",
+  "ERPDiscountPercent": 27115.368,
+  "ERPDiscountAmount": 27660.683999999997,
+  "DiscountPercent": 21599.528,
+  "DiscountAmount": 17199.392,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "porro",
-  "VAT": 14463.41,
-  "EarningPercent": 18299.426,
-  "EarningAmount": 29102.324,
-  "SubTotal": 8944.436,
-  "TotalPrice": 6214.722,
-  "ExtraField1": "eos",
-  "ExtraField2": "ipsum",
-  "ExtraField3": "sed",
-  "ExtraField4": "consequatur",
-  "ExtraField5": "placeat",
+  "VATInfo": "iure",
+  "VAT": 9229.63,
+  "EarningPercent": 3228.02,
+  "EarningAmount": 26313.064,
+  "SubTotal": 29428.26,
+  "TotalPrice": 27839.322,
+  "ExtraField1": "pariatur",
+  "ExtraField2": "nemo",
+  "ExtraField3": "magni",
+  "ExtraField4": "autem",
+  "ExtraField5": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 472
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 902,
-  "Name": "O'Hara Group",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "UdListDefinitionId": 743,
-  "Rank": 137
+  "Id": 887,
+  "Name": "Mertz-Yost",
+  "Tooltip": "non",
+  "Deleted": false,
+  "UdListDefinitionId": 623,
+  "Rank": 613
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "Name": "Feeney LLC",
-  "Tooltip": "suscipit",
+  "Id": 17,
+  "Name": "Carter-Predovic",
+  "Tooltip": "optio",
   "Deleted": true,
-  "UdListDefinitionId": 593,
-  "Rank": 56,
+  "UdListDefinitionId": 916,
+  "Rank": 847,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 364
+      "FieldType": "System.Int32",
+      "FieldLength": 792
     }
   }
 }

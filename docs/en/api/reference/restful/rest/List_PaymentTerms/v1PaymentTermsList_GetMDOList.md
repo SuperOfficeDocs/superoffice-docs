@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=rerum
+GET /api/v1/List/PaymentTerm/MDOItems?flat=False
+GET /api/v1/List/PaymentTerm/MDOItems?query=praesentium
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 352,
-    "Name": "Marvin, Erdman and Hansen",
-    "ToolTip": "Sapiente nihil doloribus dolor quidem.",
+    "Id": 840,
+    "Name": "Haley, Sipes and Denesik",
+    "ToolTip": "Alias quis id similique sapiente distinctio.",
     "Deleted": false,
-    "Rank": 394,
-    "Type": "ducimus",
+    "Rank": 772,
+    "Type": "unde",
     "ChildItems": [
       {
-        "Id": 151,
-        "Name": "Rempel, Frami and Gislason",
-        "ToolTip": "Et et porro.",
-        "Deleted": false,
-        "Rank": 929,
-        "Type": "ipsa",
+        "Id": 342,
+        "Name": "Rippin, Dibbert and Gorczany",
+        "ToolTip": "Vel impedit qui doloremque enim qui.",
+        "Deleted": true,
+        "Rank": 511,
+        "Type": "repudiandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laborum",
-        "ColorBlock": 653,
-        "ExtraInfo": "animi",
-        "StyleHint": "explicabo",
-        "FullName": "Miss Yazmin Garry O'Conner",
+        "IconHint": "aliquam",
+        "ColorBlock": 547,
+        "ExtraInfo": "quo",
+        "StyleHint": "ratione",
+        "FullName": "Kurtis Adams",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 925
+            "FieldLength": 260
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 884,
-    "ExtraInfo": "quas",
-    "StyleHint": "harum",
-    "FullName": "Dayna Hettinger",
+    "IconHint": "ex",
+    "ColorBlock": 609,
+    "ExtraInfo": "et",
+    "StyleHint": "recusandae",
+    "FullName": "Ms. Aurelia Jovanny Heaney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldLength": 990
       }
     }
   }

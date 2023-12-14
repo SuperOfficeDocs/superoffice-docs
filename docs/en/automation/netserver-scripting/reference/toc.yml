@@ -105,6 +105,8 @@ items:
     href: appointmentagent/getalarms.md
   - name: GetAppointment
     href: appointmentagent/getappointment.md
+  - name: GetAppointmentEmailInvitation
+    href: appointmentagent/getappointmentemailinvitation.md
   - name: GetAppointmentEntity
     href: appointmentagent/getappointmententity.md
   - name: GetAppointmentFromUID
@@ -121,6 +123,8 @@ items:
     href: appointmentagent/getassociatediary.md
   - name: GetAssociatesDiary
     href: appointmentagent/getassociatesdiary.md
+  - name: GetAssociatesDiaryInfo
+    href: appointmentagent/getassociatesdiaryinfo.md
   - name: GetCanInsertForAssociates
     href: appointmentagent/getcaninsertforassociates.md
   - name: GetContactAppointments
@@ -223,6 +227,8 @@ items:
     href: appointmentagent/savesuggestedappointmententity.md
   - name: SaveTaskListItem
     href: appointmentagent/savetasklistitem.md
+  - name: SaveWithCustomInvitation
+    href: appointmentagent/savewithcustominvitation.md
   - name: SetActivityStatus
     href: appointmentagent/setactivitystatus.md
   - name: SetSeen
@@ -946,6 +952,8 @@ items:
     href: diagnosticsagent/getcachenames.md
   - name: GetCacheState
     href: diagnosticsagent/getcachestate.md
+  - name: GetEntityCountsForAllUsers
+    href: diagnosticsagent/getentitycountsforallusers.md
   - name: GetEntityCountsForCurrentUser
     href: diagnosticsagent/getentitycountsforcurrentuser.md
   - name: GetWebAppUsagesForPeriod

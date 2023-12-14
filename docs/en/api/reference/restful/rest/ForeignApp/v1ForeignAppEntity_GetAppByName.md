@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 24 Nov 2002 13:38:17 G11T
+Last-Modified: Tue, 31 Oct 2000 13:57:18 G10T
 
 {
-  "ForeignAppId": 12,
-  "Name": "Jast, Keeling and Littel",
-  "CreatedDate": "2002-03-08T13:38:17.4368262+01:00",
-  "UpdatedDate": "2002-11-24T13:38:17.4368262+01:00",
+  "ForeignAppId": 748,
+  "Name": "Lang Group",
+  "CreatedDate": "2008-11-28T13:57:18.8109737+01:00",
+  "UpdatedDate": "2000-10-31T13:57:18.8109737+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 510,
-      "Name": "Schiller LLC",
-      "CreatedDate": "2021-02-21T13:38:17.4368262+01:00",
-      "UpdatedDate": "2017-02-11T13:38:17.4368262+01:00",
-      "AssociateFullName": "Cayla Stanton",
-      "CreatedBy": "eius",
-      "UpdatedBy": "repellat",
-      "DeviceIdentifier": "consequatur",
-      "ForeignAppId": 608,
+      "ForeignDeviceId": 744,
+      "Name": "Nicolas-Smith",
+      "CreatedDate": "2000-03-03T13:57:18.8109737+01:00",
+      "UpdatedDate": "2023-01-26T13:57:18.8109737+01:00",
+      "AssociateFullName": "Miss Gustave Yvonne Bergnaum III",
+      "CreatedBy": "maiores",
+      "UpdatedBy": "aperiam",
+      "DeviceIdentifier": "vel",
+      "ForeignAppId": 492,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 203
+          "FieldLength": 96
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Sun, 24 Nov 2002 13:38:17 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 519
     }
   }
 }

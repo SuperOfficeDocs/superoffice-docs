@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 438,
-    "Name": "O'Keefe-Rutherford",
-    "Tooltip": "ducimus",
-    "Deleted": false,
-    "Rank": 913,
-    "UdListDefinitionId": 587,
+    "HeadingId": 980,
+    "Name": "Grimes LLC",
+    "Tooltip": "tempora",
+    "Deleted": true,
+    "Rank": 70,
+    "UdListDefinitionId": 257,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldType": "System.String",
+        "FieldLength": 383
       }
     }
   }

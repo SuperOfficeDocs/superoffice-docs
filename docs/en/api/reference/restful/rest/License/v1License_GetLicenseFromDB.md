@@ -73,21 +73,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 607,
-      "NumberOfLicensesFree": 734,
-      "NumberOfLicensesAdded": 734,
-      "NumberOfLicensesNewTotal": 261,
-      "NumberOfLicensesNewFree": 428,
-      "NumberOfLicensesTotal": 477
+      "NumberOfLicensesInUse": 950,
+      "NumberOfLicensesFree": 226,
+      "NumberOfLicensesAdded": 897,
+      "NumberOfLicensesNewTotal": 69,
+      "NumberOfLicensesNewFree": 631,
+      "NumberOfLicensesTotal": 746
     }
   ],
-  "AccumulatedNextCheckDate": "2011-10-13T13:38:17.7806901+02:00"
+  "AccumulatedNextCheckDate": "1999-05-27T13:57:19.4533957+02:00"
 }
 ```

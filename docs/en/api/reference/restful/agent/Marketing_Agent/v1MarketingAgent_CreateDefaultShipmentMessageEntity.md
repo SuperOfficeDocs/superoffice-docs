@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 405,
-  "PlainMessage": "rerum",
-  "HtmlMessage": "odit",
-  "SmsMessage": "numquam",
-  "Description": "Up-sized disintermediate matrices",
-  "Subject": "libero",
-  "FolderId": 152,
-  "HeaderField": "totam",
-  "Design": "dolorum",
+  "ShipmentMessageId": 192,
+  "PlainMessage": "molestiae",
+  "HtmlMessage": "ut",
+  "SmsMessage": "repellendus",
+  "Description": "Multi-layered reciprocal open system",
+  "Subject": "quod",
+  "FolderId": 389,
+  "HeaderField": "ex",
+  "Design": "nostrum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Open-architected national task-force",
-  "AccessKey": "modi",
-  "DocumentMessage": 49,
-  "Registered": "2001-12-25T13:38:13.7333439+01:00",
-  "RegisteredAssociateId": 805,
-  "Updated": "2017-02-16T13:38:13.7333439+01:00",
-  "UpdatedAssociateId": 69,
-  "UpdatedCount": 906,
+  "LongDescription": "Proactive dedicated support",
+  "AccessKey": "et",
+  "DocumentMessage": 418,
+  "Registered": "2017-03-20T13:57:12.591212+01:00",
+  "RegisteredAssociateId": 61,
+  "Updated": "2011-07-26T13:57:12.591212+02:00",
+  "UpdatedAssociateId": 970,
+  "UpdatedCount": 987,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 603
+      "FieldType": "System.Int32",
+      "FieldLength": 621
     }
   }
 }

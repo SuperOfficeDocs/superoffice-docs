@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "asperiores",
-  "ProviderName": "Kertzmann Inc and Sons",
-  "StorageKey": "quo",
+  "StorageType": "vero",
+  "ProviderName": "Yundt-Gutkowski",
+  "StorageKey": "dolores",
   "StaticColumns": [
-    "voluptates",
-    "cumque"
+    "officia",
+    "ullam"
   ],
-  "Context": "non"
+  "Context": "esse"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Frami Group",
-      "Operator": "qui",
+      "Name": "Flatley-Lindgren",
+      "Operator": "exercitationem",
       "Values": [
-        "omnis",
-        "est"
+        "deleniti",
+        "rerum"
       ],
       "DisplayValues": [
-        "fuga",
-        "beatae"
+        "et",
+        "rerum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 607,
+      "InterParenthesis": 674,
       "InterOperator": "And",
-      "UniqueHash": 360
+      "UniqueHash": 450
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Wunsch LLC",
-      "DisplayTooltip": "corporis",
-      "DisplayType": "illo",
-      "CanOrderBy": false,
-      "Name": "Ritchie Inc and Sons",
+      "DisplayName": "Kuvalis-Reinger",
+      "DisplayTooltip": "aut",
+      "DisplayType": "quam",
+      "CanOrderBy": true,
+      "Name": "Orn Group",
       "CanRestrictBy": false,
-      "RestrictionType": "rerum",
-      "RestrictionListName": "Monahan-Powlowski",
+      "RestrictionType": "fugit",
+      "RestrictionListName": "Walter, Wyman and Boyer",
       "IsVisible": true,
-      "ExtraInfo": "sit",
-      "Width": "porro",
-      "IconHint": "eaque",
-      "HeadingIconHint": "doloribus"
+      "ExtraInfo": "et",
+      "Width": "ipsa",
+      "IconHint": "totam",
+      "HeadingIconHint": "libero"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Koelpin Inc and Sons",
-      "PrimaryKey": 282,
+      "EntityName": "Sanford-Armstrong",
+      "PrimaryKey": 630,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "consequatur",
-          "TooltipHint": "qui",
-          "LinkHint": "nihil"
+          "DisplayValue": "deleniti",
+          "TooltipHint": "architecto",
+          "LinkHint": "perspiciatis"
         }
       },
-      "LinkHint": "ipsam",
-      "StyleHint": "est",
+      "LinkHint": "est",
+      "StyleHint": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldType": "System.String",
+          "FieldLength": 344
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Pagac Inc and Sons",
-      "Description": "Ergonomic user-facing challenge",
-      "Rank": 170,
+      "Name": "Crona, Kihn and Barton",
+      "Description": "Cross-group systematic attitude",
+      "Rank": 195,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Pagac Inc and Sons",
-      "Description": "Ergonomic user-facing challenge",
-      "Rank": 170,
+      "Name": "Crona, Kihn and Barton",
+      "Description": "Cross-group systematic attitude",
+      "Rank": 195,
       "Restrictions": [
         {},
         {}
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 282
+      "FieldType": "System.Int32",
+      "FieldLength": 730
     }
   }
 }

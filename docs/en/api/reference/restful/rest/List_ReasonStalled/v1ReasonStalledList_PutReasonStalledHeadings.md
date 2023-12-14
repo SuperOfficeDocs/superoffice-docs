@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 112,
-    "Name": "Runte, Lubowitz and Yost",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 857,
-    "UdListDefinitionId": 629
+    "HeadingId": 396,
+    "Name": "Hyatt, Kihn and Fritsch",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "Rank": 418,
+    "UdListDefinitionId": 532
   },
   {
-    "HeadingId": 112,
-    "Name": "Runte, Lubowitz and Yost",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 857,
-    "UdListDefinitionId": 629
+    "HeadingId": 396,
+    "Name": "Hyatt, Kihn and Fritsch",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "Rank": 418,
+    "UdListDefinitionId": 532
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 564,
-    "Name": "Kohler, DuBuque and Moen",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "Rank": 361,
-    "UdListDefinitionId": 467,
+    "HeadingId": 489,
+    "Name": "Smith Group",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "Rank": 760,
+    "UdListDefinitionId": 553,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 72
+        "FieldType": "System.Int32",
+        "FieldLength": 466
       }
     }
   }

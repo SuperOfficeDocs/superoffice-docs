@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 832,
-  "Name": "Gutmann-Champlin",
-  "Rank": 138,
-  "Tooltip": "vero",
-  "Icon": "itaque",
-  "DefaultTicketStatus": 691,
+  "TicketTypeId": 256,
+  "Name": "Jaskolski, Boyle and Ebert",
+  "Rank": 60,
+  "Tooltip": "est",
+  "Icon": "consequatur",
+  "DefaultTicketStatus": 888,
   "TicketStatuses": [
-    146,
-    160
+    879,
+    5
   ],
-  "DefaultTicketPriority": 943,
+  "DefaultTicketPriority": 817,
   "TicketPriorities": [
-    555,
-    285
+    553,
+    648
   ],
-  "ReplyTemplate": 894,
-  "IsExternalVisible": false,
-  "IsDefault": false,
+  "ReplyTemplate": 399,
+  "IsExternalVisible": true,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldType": "System.String",
+      "FieldLength": 260
     }
   }
 }

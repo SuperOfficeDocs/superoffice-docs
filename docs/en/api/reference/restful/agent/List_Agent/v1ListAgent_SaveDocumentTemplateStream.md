@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 586,
+  "DocumentTemplateId": 119,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "dignissimos",
-  "PluginId": 586
+  "LanguageCode": "enim",
+  "PluginId": 409
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bogisich Inc and Sons",
-  "Description": "Realigned scalable pricing structure",
-  "ExternalReference": "qui",
-  "MimeType": "commodi",
-  "PluginId": 152
+  "Name": "Conroy Inc and Sons",
+  "Description": "Object-based intermediate Graphical User Interface",
+  "ExternalReference": "expedita",
+  "MimeType": "repudiandae",
+  "PluginId": 347
 }
 ```

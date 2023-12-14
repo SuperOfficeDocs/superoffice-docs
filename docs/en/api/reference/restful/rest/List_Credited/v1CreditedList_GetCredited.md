@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 691,
-  "Name": "Schroeder LLC",
-  "Tooltip": "nobis",
-  "Deleted": false,
-  "UdListDefinitionId": 730,
-  "Rank": 609,
+  "Id": 48,
+  "Name": "Beahan-Kertzmann",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 811,
+  "Rank": 247,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldLength": 81
     }
   }
 }

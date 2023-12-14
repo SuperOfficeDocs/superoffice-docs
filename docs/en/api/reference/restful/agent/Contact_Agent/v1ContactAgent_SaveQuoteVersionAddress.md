@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 998,
+  "QuoteVersionId": 568,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 352
+  "CountryId": 343
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 6659.75,
-  "Wgs84Longitude": 24811.878,
+  "Wgs84Latitude": 6158.3099999999995,
+  "Wgs84Longitude": 16453.5,
   "LocalizedAddress": [
     [
       {
-        "Name": "Barrows, Schuster and Jacobson",
-        "Value": "rem",
-        "Tooltip": "impedit",
-        "Label": "consequatur",
-        "ValueLength": 436,
-        "AddressType": "quisquam",
+        "Name": "Casper Inc and Sons",
+        "Value": "excepturi",
+        "Tooltip": "voluptates",
+        "Label": "ullam",
+        "ValueLength": 868,
+        "AddressType": "quod",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 163
+            "FieldType": "System.String",
+            "FieldLength": 942
           }
         }
       }
     ],
     [
       {
-        "Name": "Kuhlman Group",
-        "Value": "sunt",
-        "Tooltip": "et",
-        "Label": "et",
-        "ValueLength": 857,
-        "AddressType": "error",
+        "Name": "Aufderhar-Klocko",
+        "Value": "voluptates",
+        "Tooltip": "quia",
+        "Label": "cumque",
+        "ValueLength": 613,
+        "AddressType": "soluta",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 595
+            "FieldType": "System.String",
+            "FieldLength": 616
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "dolor",
+  "Formatted": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 34
     }
   }
 }

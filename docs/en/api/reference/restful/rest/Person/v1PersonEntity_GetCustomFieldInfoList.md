@@ -67,7 +67,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Jones, Price and Powlowski",
-    "DisplayName": "Ruecker-DuBuque",
-    "Description": "Stand-alone interactive matrices",
-    "ShortLabel": "vel",
+    "FieldName": "Becker-Kuhlman",
+    "DisplayName": "Nader Group",
+    "Description": "User-friendly clear-thinking installation",
+    "ShortLabel": "est",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 271,
-    "TemplateVariableName": "Kulas LLC"
+    "Rank": 531,
+    "TemplateVariableName": "D'Amore Group"
   }
 ]
 ```

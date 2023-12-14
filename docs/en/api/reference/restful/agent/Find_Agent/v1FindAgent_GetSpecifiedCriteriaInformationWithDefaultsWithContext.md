@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Jones, Green and Stokes",
-  "StorageKey": "voluptas",
+  "StorageType": "tempore",
+  "ProviderName": "Mayert LLC",
+  "StorageKey": "eius",
   "DesiredColumnNames": [
-    "Wuckert LLC",
-    "Grimes-Ruecker"
+    "Stroman Group",
+    "Kunde LLC"
   ],
   "StaticColumns": [
-    "soluta",
-    "incidunt"
+    "cupiditate",
+    "sit"
   ],
-  "Context": "nam"
+  "Context": "sed"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Dickens LLC",
-      "Operator": "dolorem",
+      "Name": "Rau Inc and Sons",
+      "Operator": "quas",
       "Values": [
-        "similique",
-        "rerum"
+        "dicta",
+        "tempore"
       ],
       "DisplayValues": [
-        "qui",
-        "aut"
+        "provident",
+        "placeat"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 469,
+      "InterParenthesis": 111,
       "InterOperator": "And",
-      "UniqueHash": 920
+      "UniqueHash": 642
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "O'Hara-Spencer",
-      "DisplayTooltip": "in",
-      "DisplayType": "fugiat",
-      "CanOrderBy": false,
-      "Name": "Funk-Daugherty",
-      "CanRestrictBy": false,
-      "RestrictionType": "neque",
-      "RestrictionListName": "Howe-Cormier",
+      "DisplayName": "Deckow, Runolfsdottir and Renner",
+      "DisplayTooltip": "sit",
+      "DisplayType": "in",
+      "CanOrderBy": true,
+      "Name": "Wisoky-Kshlerin",
+      "CanRestrictBy": true,
+      "RestrictionType": "magni",
+      "RestrictionListName": "Kuphal-Gleason",
       "IsVisible": true,
-      "ExtraInfo": "repellendus",
-      "Width": "reprehenderit",
-      "IconHint": "sint",
-      "HeadingIconHint": "sed"
+      "ExtraInfo": "perferendis",
+      "Width": "quia",
+      "IconHint": "omnis",
+      "HeadingIconHint": "eum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Stiedemann LLC",
-      "PrimaryKey": 823,
+      "EntityName": "Erdman, Morar and Altenwerth",
+      "PrimaryKey": 877,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "cupiditate",
-          "LinkHint": "voluptas"
+          "DisplayValue": "quasi",
+          "TooltipHint": "aliquam",
+          "LinkHint": "maiores"
         }
       },
-      "LinkHint": "nesciunt",
-      "StyleHint": "veniam",
+      "LinkHint": "quis",
+      "StyleHint": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 732
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Emard-Sipes",
-      "Description": "Expanded asynchronous array",
-      "Rank": 804,
+      "Name": "Waelchi Inc and Sons",
+      "Description": "Devolved multi-tasking definition",
+      "Rank": 269,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Emard-Sipes",
-      "Description": "Expanded asynchronous array",
-      "Rank": 804,
+      "Name": "Waelchi Inc and Sons",
+      "Description": "Devolved multi-tasking definition",
+      "Rank": 269,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 388
     }
   }
 }

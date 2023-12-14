@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 646,
-  "Name": "Kautzer, Eichmann and Muller",
-  "AssociateId": 252,
-  "DetailsTable": 415,
-  "DetailsRecord": 640,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 868,
+  "Name": "Jaskolski, Nitzsche and Hoppe",
+  "AssociateId": 184,
+  "DetailsTable": 84,
+  "DetailsRecord": 313,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "a",
-    "ParameterObject2": "et"
+    "ParameterObject1": "ea",
+    "ParameterObject2": "magni"
   },
-  "LastStarted": "2021-06-22T13:38:17.7650302+02:00",
-  "Created": "2008-11-17T13:38:17.7650302+01:00",
-  "StartCount": 610,
-  "DatabaseSerialNumber": "1462882",
-  "Context": "eos",
-  "Result": "quia",
+  "LastStarted": "2001-02-22T13:57:19.4221461+01:00",
+  "Created": "2018-05-22T13:57:19.4221461+02:00",
+  "StartCount": 814,
+  "DatabaseSerialNumber": "1403269",
+  "Context": "quidem",
+  "Result": "placeat",
   "State": "All",
-  "Description": "Secured user-facing secured line",
-  "Response": "mollitia",
-  "Request": "maxime",
-  "ProgressDescription": "Enterprise-wide regional focus group",
-  "ProgressPercent": 341,
-  "FileName": "Kiehn Group",
+  "Description": "Expanded zero administration Graphical User Interface",
+  "Response": "molestiae",
+  "Request": "corrupti",
+  "ProgressDescription": "Cross-group content-based open architecture",
+  "ProgressPercent": 955,
+  "FileName": "Kirlin LLC",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-496
+184
 ```

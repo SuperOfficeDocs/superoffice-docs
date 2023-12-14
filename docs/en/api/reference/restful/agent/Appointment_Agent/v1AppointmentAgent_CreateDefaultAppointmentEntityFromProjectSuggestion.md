@@ -73,6 +73,9 @@ OK
 | CreatedDate | date-time | Registered date  in UTC. |
 | AppointmentId | int32 | Primary key |
 | Description | string | Description of the appointment. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
@@ -114,9 +117,6 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
-| Title | string | The title of the appointment. |
-| Agenda | string | The agenda of the appointment. |
-| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -138,10 +138,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 335,
-  "ProjectId": 274,
+  "SuggestedAppointmentId": 956,
+  "ProjectId": 766,
   "CreateNow": false,
-  "OwnerId": 45
+  "OwnerId": 95
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2022-01-17T13:38:13.0146764+01:00",
-  "AppointmentId": 31,
-  "Description": "Focused discrete database",
-  "StartDate": "2000-11-10T13:38:13.0146764+01:00",
-  "EndDate": "2018-04-20T13:38:13.0146764+02:00",
+  "CreatedDate": "2008-10-27T13:57:11.4500606+01:00",
+  "AppointmentId": 861,
+  "Description": "Innovative actuating project",
+  "Title": "omnis",
+  "Agenda": "veritatis",
+  "InternalNotes": "qui",
+  "StartDate": "2002-10-28T13:57:11.4500606+01:00",
+  "EndDate": "2007-04-06T13:57:11.4500606+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 83,
+  "MotherId": 573,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-06-19T13:38:13.0146764+02:00",
+  "UpdatedDate": "2012-12-08T13:57:11.4500606+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 324,
+  "ActiveLinks": 878,
   "Links": [
     {
-      "EntityName": "Rodriguez, Lindgren and Veum",
-      "Id": 961,
-      "Description": "Balanced 24 hour infrastructure",
-      "ExtraInfo": "repudiandae",
-      "LinkId": 162,
+      "EntityName": "Murphy-Grimes",
+      "Id": 958,
+      "Description": "Proactive optimizing structure",
+      "ExtraInfo": "quos",
+      "LinkId": 945,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldLength": 386
         }
       }
     }
   ],
-  "AlarmLeadTime": "facere",
-  "HasAlarm": false,
-  "ColorIndex": 893,
+  "AlarmLeadTime": "tempora",
+  "HasAlarm": true,
+  "ColorIndex": 325,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "nisi",
-  "LeadTime": "dolores",
-  "Location": "fugit",
-  "RejectCounter": 877,
+  "LagTime": "provident",
+  "LeadTime": "et",
+  "Location": "sunt",
+  "RejectCounter": 369,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 161,
-      "PersonId": 497,
-      "ContactId": 330,
-      "EmailId": 706,
-      "SendEmail": true,
+      "AssociateId": 807,
+      "PersonId": 262,
+      "ContactId": 68,
+      "EmailId": 407,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "rachel@bahringerturcotte.us",
-      "Description": "Inverse fault-tolerant frame"
+      "EmailAddress": "kaia_eichmann@yundtwiza.co.uk",
+      "Description": "Function-based motivating framework"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-03-23T13:38:13.0146764+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2021-03-09T13:57:11.4500606+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 887,
+  "PreferredTZLocation": 818,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 95,
+  "SuggestedAppointmentId": 912,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "aspernatur",
-  "Title": "laborum",
-  "Agenda": "laborum",
-  "InternalNotes": "omnis",
+  "CentralserviceVideomeetId": "sit",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "696324848"
+    "SuperOffice:1": "2043733042",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "inventore",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "magnam"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "quia"
+    "CustomFields1": "assumenda",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2023-05-07T13:38:13.0146764+02:00",
-  "PublishTo": "1997-09-19T13:38:13.0146764+02:00",
-  "PublishFrom": "1998-05-16T13:38:13.0146764+02:00",
+  "PublishEventDate": "2009-10-26T13:57:11.4500606+01:00",
+  "PublishTo": "2002-03-14T13:57:11.4500606+01:00",
+  "PublishFrom": "2002-10-05T13:57:11.4500606+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 968,
+      "VisibleId": 77,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1000
+          "FieldType": "System.Int32",
+          "FieldLength": 607
         }
       }
     },
     {
-      "VisibleId": 968,
+      "VisibleId": 77,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1000
+          "FieldType": "System.Int32",
+          "FieldLength": 607
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 824
     }
   }
 }

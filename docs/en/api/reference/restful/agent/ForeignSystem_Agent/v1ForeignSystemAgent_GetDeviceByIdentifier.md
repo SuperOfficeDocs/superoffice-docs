@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Pagac-Vandervort",
-  "DeviceName": "Wilkinson-Funk",
-  "DeviceIdentifier": "vel"
+  "ApplicationName": "Kerluke-Witting",
+  "DeviceName": "Denesik-Brakus",
+  "DeviceIdentifier": "laboriosam"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 186,
-  "Name": "Witting-Weimann",
-  "CreatedDate": "2012-07-23T13:38:13.623981+02:00",
-  "UpdatedDate": "1999-05-15T13:38:13.623981+02:00",
-  "AssociateFullName": "Ms. Vada Hunter Jerde PhD",
-  "CreatedBy": "accusantium",
-  "UpdatedBy": "neque",
-  "DeviceIdentifier": "eveniet",
-  "ForeignAppId": 737,
+  "ForeignDeviceId": 451,
+  "Name": "Block, Considine and Hagenes",
+  "CreatedDate": "2022-10-03T13:57:12.4181107+02:00",
+  "UpdatedDate": "2016-05-28T13:57:12.4181107+02:00",
+  "AssociateFullName": "Davin Wiza",
+  "CreatedBy": "fugit",
+  "UpdatedBy": "quia",
+  "DeviceIdentifier": "numquam",
+  "ForeignAppId": 254,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 17
     }
   }
 }

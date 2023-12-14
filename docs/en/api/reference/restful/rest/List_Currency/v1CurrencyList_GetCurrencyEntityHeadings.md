@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 607,
-    "Name": "Kerluke, Rath and Schamberger",
-    "Tooltip": "qui",
+    "HeadingId": 486,
+    "Name": "Dooley, Aufderhar and Corkery",
+    "Tooltip": "modi",
     "Deleted": false,
-    "Rank": 582,
-    "UdListDefinitionId": 824,
+    "Rank": 568,
+    "UdListDefinitionId": 765,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldType": "System.String",
+        "FieldLength": 812
       }
     }
   }

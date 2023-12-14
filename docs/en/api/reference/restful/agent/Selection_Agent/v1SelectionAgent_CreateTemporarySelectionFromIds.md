@@ -119,10 +119,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    972,
-    768
+    413,
+    595
   ],
-  "TargetTableNumber": 763
+  "TargetTableNumber": 344
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organic client-driven project",
-  "Postit": "ullam",
+  "Description": "Networked bandwidth-monitored framework",
+  "Postit": "id",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 867,
-  "IncludePerson": 75,
-  "MemberCount": 583,
-  "Name": "Zieme-Hettinger",
-  "PostitTextId": 833,
-  "CreatedDate": "2001-05-22T13:38:14.1396943+02:00",
-  "SelectionId": 379,
-  "SoundEx": "fugiat",
-  "Source": 761,
-  "TextId": 897,
-  "UpdatedDate": "2006-08-11T13:38:14.1396943+02:00",
-  "UpdatedCount": 104,
-  "Visibility": 468,
+  "GroupIdx": 442,
+  "IncludePerson": 891,
+  "MemberCount": 13,
+  "Name": "Wiza Group",
+  "PostitTextId": 666,
+  "CreatedDate": "2004-01-11T13:57:13.2384042+01:00",
+  "SelectionId": 52,
+  "SoundEx": "debitis",
+  "Source": 811,
+  "TextId": 862,
+  "UpdatedDate": "2016-08-23T13:57:13.2384042+02:00",
+  "UpdatedCount": 141,
+  "Visibility": 826,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 464,
-  "TargetTableName": "Halvorson, Hettinger and Bruen",
+  "TargetTableNumber": 443,
+  "TargetTableName": "Ankunding, Gusikowski and Skiles",
   "Completed": false,
-  "LeftSelectionId": 287,
-  "RightSelectionId": 5,
+  "LeftSelectionId": 536,
+  "RightSelectionId": 470,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Mohr, Will and Torp",
-  "ShadowProviderName": "Pollich Group",
-  "ChartKey": "a",
-  "LastLoaded": "2009-03-04T13:38:14.1396943+01:00",
-  "LastLoadedBy": 849,
+  "MainProviderName": "Gulgowski-Swaniawski",
+  "ShadowProviderName": "Schulist, Schinner and Powlowski",
+  "ChartKey": "magnam",
+  "LastLoaded": "2011-01-20T13:57:13.2384042+01:00",
+  "LastLoadedBy": 1001,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-03-07T13:38:14.1396943+01:00",
-  "LastMembershipChangeBy": 646,
+  "LastMembershipChange": "2002-07-20T13:57:13.2384042+02:00",
+  "LastMembershipChangeBy": 829,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "reiciendis",
-  "MemberTabHeading": "vel",
-  "MailingsProviderName": "Mraz-Powlowski",
-  "DashboardTileDefinitionId": 639,
+  "MainHeading": "voluptas",
+  "MemberTabHeading": "voluptas",
+  "MailingsProviderName": "Abshire, Weber and Bahringer",
+  "DashboardTileDefinitionId": 666,
   "VisibleFor": [
     {
-      "VisibleId": 881,
+      "VisibleId": 208,
       "Visibility": "All",
-      "DisplayValue": "quas",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 858
+          "FieldLength": 102
         }
       }
     },
     {
-      "VisibleId": 881,
+      "VisibleId": 208,
       "Visibility": "All",
-      "DisplayValue": "quas",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 858
+          "FieldLength": 102
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldLength": 425
     }
   }
 }

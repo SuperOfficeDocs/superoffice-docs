@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 480,
-    "Name": "Marks Group",
-    "ToolTip": "Eum numquam quod aut quidem dignissimos temporibus.",
-    "Deleted": true,
-    "Rank": 11,
-    "Type": "magni",
-    "ColorBlock": 717,
-    "IconHint": "eveniet",
-    "Selected": false,
-    "LastChanged": "2000-04-08T13:38:18.2337719+02:00",
+    "Id": 205,
+    "Name": "O'Connell, Monahan and Donnelly",
+    "ToolTip": "Molestiae ut quidem ea omnis ex beatae explicabo.",
+    "Deleted": false,
+    "Rank": 164,
+    "Type": "sint",
+    "ColorBlock": 811,
+    "IconHint": "veritatis",
+    "Selected": true,
+    "LastChanged": "2010-09-16T13:57:20.1421596+02:00",
     "ChildItems": [
       {
-        "Id": 469,
-        "Name": "Kuhlman Inc and Sons",
-        "ToolTip": "Exercitationem labore reiciendis numquam sit commodi laborum.",
+        "Id": 991,
+        "Name": "Botsford, Lockman and O'Hara",
+        "ToolTip": "Numquam et labore soluta dolor.",
         "Deleted": false,
-        "Rank": 161,
-        "Type": "aut",
-        "ColorBlock": 404,
-        "IconHint": "dignissimos",
+        "Rank": 486,
+        "Type": "delectus",
+        "ColorBlock": 524,
+        "IconHint": "quasi",
         "Selected": true,
-        "LastChanged": "2012-06-22T13:38:18.2337719+02:00",
+        "LastChanged": "2008-04-09T13:57:20.1421596+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "iusto",
-        "Hidden": true,
-        "FullName": "Sylvester Marta O'Reilly MD"
+        "ExtraInfo": "quia",
+        "StyleHint": "voluptatum",
+        "Hidden": false,
+        "FullName": "Prof. Hillard Alba Bayer I"
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "nisi",
-    "Hidden": true,
-    "FullName": "Ulices Considine"
+    "ExtraInfo": "ea",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Domenica Carter"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "McLaughlin, Hane and O'Connell",
-    "ToolTip": "Ea et et quis dolor inventore.",
-    "Deleted": true,
-    "Rank": 484,
-    "Type": "ut",
-    "ColorBlock": 109,
-    "IconHint": "quae",
+    "Id": 43,
+    "Name": "Purdy, Lesch and Moen",
+    "ToolTip": "Ut repellendus ea.",
+    "Deleted": false,
+    "Rank": 858,
+    "Type": "at",
+    "ColorBlock": 502,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2018-10-22T13:38:18.2493876+02:00",
+    "LastChanged": "2014-09-30T13:57:20.1421596+02:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Osinski LLC",
-        "ToolTip": "Eos quasi aut ut est expedita quaerat inventore.",
+        "Id": 683,
+        "Name": "Schroeder Inc and Sons",
+        "ToolTip": "Consequatur aliquam quis sint.",
         "Deleted": false,
-        "Rank": 726,
-        "Type": "quo",
-        "ColorBlock": 183,
-        "IconHint": "excepturi",
+        "Rank": 526,
+        "Type": "veritatis",
+        "ColorBlock": 266,
+        "IconHint": "exercitationem",
         "Selected": false,
-        "LastChanged": "2019-12-15T13:38:18.2493876+01:00",
+        "LastChanged": "2000-11-01T13:57:20.1421596+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "nisi",
-        "Hidden": true,
-        "FullName": "Dr. Leonie Jacobson",
+        "ExtraInfo": "quia",
+        "StyleHint": "at",
+        "Hidden": false,
+        "FullName": "Melvina Randal Heaney Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 457
+            "FieldLength": 825
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "aut",
+    "ExtraInfo": "harum",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Marion Farrell II",
+    "FullName": "Jolie Cassin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 786
+        "FieldType": "System.String",
+        "FieldLength": 885
       }
     }
   }

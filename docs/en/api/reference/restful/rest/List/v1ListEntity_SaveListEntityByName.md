@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 947,
-  "Name": "Quitzon-Barton",
-  "Tooltip": "nobis",
-  "Deleted": true,
-  "Rank": 355,
+  "Id": 600,
+  "Name": "Hahn Group",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 258,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "neque",
-  "InUseByUserDefinedFields": true
+  "ListType": "voluptatum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 911,
-  "Name": "Moore, Grady and Deckow",
-  "Tooltip": "sit",
+  "Id": 902,
+  "Name": "Williamson Group",
+  "Tooltip": "recusandae",
   "Deleted": true,
-  "Rank": 188,
-  "IsCustomList": true,
+  "Rank": 850,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "esse",
+  "ListType": "officiis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldLength": 879
     }
   }
 }

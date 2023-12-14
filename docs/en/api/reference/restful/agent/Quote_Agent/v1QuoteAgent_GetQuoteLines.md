@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 659
+  "QuoteAlternativeId": 297
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 260,
-    "ERPQuoteLineKey": "enim",
-    "QuoteAlternativeId": 824,
-    "ERPProductKey": "illo",
+    "QuoteLineId": 877,
+    "ERPQuoteLineKey": "voluptas",
+    "QuoteAlternativeId": 1002,
+    "ERPProductKey": "consequatur",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 6659.75,
-    "DeliveredQuantity": 1896.07,
-    "Rank": 377,
-    "Name": "Larson-Pagac",
-    "Description": "Synchronised upward-trending analyzer",
-    "Code": "est",
-    "QuantityUnit": "deleniti",
-    "PriceUnit": "rerum",
-    "ItemNumber": "909864",
+    "Quantity": 25871.17,
+    "DeliveredQuantity": 21511.775999999998,
+    "Rank": 218,
+    "Name": "Rosenbaum-Weber",
+    "Description": "Up-sized human-resource approach",
+    "Code": "qui",
+    "QuantityUnit": "rerum",
+    "PriceUnit": "praesentium",
+    "ItemNumber": "1518563",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "non",
-    "ProductTypeKey": "enim",
-    "Supplier": "voluptates",
-    "SupplierCode": "amet",
-    "Thumbnail": "architecto",
-    "VATInfo": "dolorem",
-    "VAT": 855.582,
-    "UnitCost": 7744.114,
-    "UnitMinimumPrice": 24742.93,
-    "UnitListPrice": 6443.504,
+    "ProductFamilyKey": "quis",
+    "ProductTypeKey": "consequatur",
+    "Supplier": "consequatur",
+    "SupplierCode": "eum",
+    "Thumbnail": "nostrum",
+    "VATInfo": "magni",
+    "VAT": 30625.448,
+    "UnitCost": 20173.558,
+    "UnitMinimumPrice": 20888.11,
+    "UnitListPrice": 16252.923999999999,
     "ExtraInfo": [
       {
-        "Name": "Marks Inc and Sons",
-        "Value": "fugit",
+        "Name": "Howe-Ledner",
+        "Value": "ratione",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 491
+            "FieldLength": 876
           }
         }
       },
       {
-        "Name": "Marks Inc and Sons",
-        "Value": "fugit",
+        "Name": "Howe-Ledner",
+        "Value": "ratione",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 491
+            "FieldLength": 876
           }
         }
       }
     ],
-    "RawExtraInfo": "sed",
+    "RawExtraInfo": "eaque",
     "IsSubscription": false,
-    "SubscriptionUnit": "error",
-    "SubscriptionQuantity": 2231.408,
-    "SubscriptionStart": "2020-07-21T13:38:14.045953+02:00",
-    "ERPDiscountPercent": 13125.192,
-    "ERPDiscountAmount": 27610.54,
-    "DiscountPercent": 1682.9579999999999,
-    "DiscountAmount": 10389.21,
+    "SubscriptionUnit": "quasi",
+    "SubscriptionQuantity": 23216.672,
+    "SubscriptionStart": "1998-12-01T13:57:13.0805627+01:00",
+    "ERPDiscountPercent": 843.04599999999994,
+    "ERPDiscountAmount": 15701.34,
+    "DiscountPercent": 5970.2699999999995,
+    "DiscountAmount": 11711.758,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 20659.327999999998,
-    "EarningAmount": 9837.626,
-    "SubTotal": 5888.786,
-    "TotalPrice": 16187.109999999999,
-    "Rights": "veritatis",
-    "Rule": "in",
-    "ExtraField1": "error",
-    "ExtraField2": "sapiente",
-    "ExtraField3": "et",
-    "ExtraField4": "harum",
-    "ExtraField5": "nemo",
+    "EarningPercent": 24564.291999999998,
+    "EarningAmount": 12373.032,
+    "SubTotal": 25717.604,
+    "TotalPrice": 27563.53,
+    "Rights": "vero",
+    "Rule": "at",
+    "ExtraField1": "consequatur",
+    "ExtraField2": "exercitationem",
+    "ExtraField3": "nam",
+    "ExtraField4": "accusamus",
+    "ExtraField5": "a",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldType": "System.String",
+        "FieldLength": 946
       }
     }
   }

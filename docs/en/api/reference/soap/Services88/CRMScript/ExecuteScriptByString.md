@@ -114,8 +114,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      </CRMScript:StringKeyValuePair>
     </CRMScript:Parameters>
     <CRMScript:TraceRun xsi:type="CRMScript:CRMScriptTraceRun">
-     <CRMScript:StartedAt xsi:type="xsd:dateTime">2023-11-10T12:36:15Z</CRMScript:StartedAt>
-     <CRMScript:EndedAt xsi:type="xsd:dateTime">2023-11-10T12:36:15Z</CRMScript:EndedAt>
+     <CRMScript:StartedAt xsi:type="xsd:dateTime">2023-12-07T12:55:03Z</CRMScript:StartedAt>
+     <CRMScript:EndedAt xsi:type="xsd:dateTime">2023-12-07T12:55:03Z</CRMScript:EndedAt>
      <CRMScript:ExecutionTime xsi:type="xsd:int">0</CRMScript:ExecutionTime>
      <CRMScript:UserExecutionTime xsi:type="xsd:int">0</CRMScript:UserExecutionTime>
      <CRMScript:PeakMemory xsi:type="xsd:int">0</CRMScript:PeakMemory>
@@ -124,6 +124,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <CRMScript:AssociateId xsi:type="xsd:int">0</CRMScript:AssociateId>
      <CRMScript:Status xsi:type="xsd:string"></CRMScript:Status>
      <CRMScript:Frames xsi:type="xsd:string"></CRMScript:Frames>
+     <CRMScript:ForceSaveTrace xsi:type="xsd:boolean">false</CRMScript:ForceSaveTrace>
     </CRMScript:TraceRun>
     <CRMScript:Eventdata xsi:type="CRMScript:EventData">
      <CRMScript:Type xsi:type="CRMScript:EventHandlerType">Unknown</CRMScript:Type>

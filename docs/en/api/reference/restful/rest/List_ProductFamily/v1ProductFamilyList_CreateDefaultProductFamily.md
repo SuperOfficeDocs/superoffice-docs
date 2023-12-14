@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 85,
-  "Name": "Zieme, Keebler and Erdman",
-  "Tooltip": "non",
+  "Id": 980,
+  "Name": "Ondricka, Botsford and Monahan",
+  "Tooltip": "rem",
   "Deleted": false,
-  "UdListDefinitionId": 254,
-  "Rank": 359,
+  "UdListDefinitionId": 211,
+  "Rank": 84,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 246
+      "FieldType": "System.String",
+      "FieldLength": 896
     }
   }
 }

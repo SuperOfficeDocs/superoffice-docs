@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,74 +105,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "nemo",
-    "ValueType": "praesentium",
+    "Key": "cupiditate",
+    "ValueType": "dicta",
     "Mandatory": false,
-    "EncodedDisplayName": "Collier-Gutmann",
-    "EncodedDisplayDescription": "Up-sized bifurcated website",
-    "IconHint": "quos",
+    "EncodedDisplayName": "Hansen Inc and Sons",
+    "EncodedDisplayDescription": "Up-sized high-level software",
+    "IconHint": "ut",
     "ControlInfos": [
       {
-        "Type": "mollitia",
-        "Label": "labore",
-        "Dimension": 516,
-        "ListProviderName": "Nolan Inc and Sons",
-        "ListProviderExtraInfo": "mollitia",
-        "ListProviderPrimaryKeyName": "McClure, Bahringer and Bode",
-        "ListLeadText": "dolores",
+        "Type": "error",
+        "Label": "dolorem",
+        "Dimension": 101,
+        "ListProviderName": "Dicki Inc and Sons",
+        "ListProviderExtraInfo": "culpa",
+        "ListProviderPrimaryKeyName": "Altenwerth, Weimann and Turner",
+        "ListLeadText": "consectetur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 725
+            "FieldLength": 291
           }
         }
       }
     ],
-    "EncodedDataCaption": "omnis",
-    "EncodedDataCaptionDescription": "Seamless client-driven complexity",
-    "CurrentOperationType": "tempora",
+    "EncodedDataCaption": "id",
+    "EncodedDataCaptionDescription": "Reduced encompassing strategy",
+    "CurrentOperationType": "sequi",
     "Values": [
-      "aut",
-      "sit"
+      "odio",
+      "est"
     ],
     "DisplayValues": [
-      "autem",
-      "exercitationem"
+      "officia",
+      "ut"
     ],
     "OperationInfos": [
       {
-        "Key": "laboriosam",
-        "EncodedDisplayName": "Toy, Skiles and Streich",
+        "Key": "a",
+        "EncodedDisplayName": "Conroy, Kulas and Stanton",
         "EncodedLeadTexts": [
-          "minima",
-          "suscipit"
+          "vel",
+          "voluptas"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 308
+            "FieldLength": 931
           }
         }
       },
       {
-        "Key": "laboriosam",
-        "EncodedDisplayName": "Toy, Skiles and Streich",
+        "Key": "a",
+        "EncodedDisplayName": "Conroy, Kulas and Stanton",
         "EncodedLeadTexts": [
-          "minima",
-          "suscipit"
+          "vel",
+          "voluptas"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 308
+            "FieldLength": 931
           }
         }
       }

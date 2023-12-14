@@ -92,78 +92,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 876,
+  "EjMessageId": 434,
   "Ticket": null,
-  "CreatedAt": "2017-11-01T13:38:17.7336652+01:00",
+  "CreatedAt": "2012-08-09T13:57:19.3753131+02:00",
   "CreatedBy": null,
-  "Author": "dolor",
+  "Author": "aut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 216,
-  "Body": "perspiciatis",
-  "HtmlBody": "numquam",
-  "EmailHeader": "georgette.kautzer@wizastamm.name",
-  "DebugInfo": "quaerat",
-  "MailSorter": "autem",
+  "MessageId": "occaecati",
+  "TimeSpent": 985,
+  "Body": "libero",
+  "HtmlBody": "veritatis",
+  "EmailHeader": "cydney.rau@lindgrenherzog.ca",
+  "DebugInfo": "quibusdam",
+  "MailSorter": "omnis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "repudiandae",
+  "SearchTitle": "unde",
   "MessageHeaders": [
     {
-      "Id": 509,
-      "Name": "Schiller-Pagac",
-      "Value": "aut",
+      "Id": 451,
+      "Name": "Armstrong Group",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldType": "System.String",
+          "FieldLength": 808
         }
       }
     }
   ],
   "Important": false,
-  "Language": "doloribus",
-  "Sentiment": 659,
-  "SentimentConfidence": 379,
+  "Language": "nobis",
+  "Sentiment": 251,
+  "SentimentConfidence": 422,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 1001,
-      "Name": "Torp Group",
-      "ContentType": "totam",
-      "AttSize": 573,
+      "AttachmentId": 137,
+      "Name": "Hilpert-Bruen",
+      "ContentType": "sit",
+      "AttSize": 288,
       "InlineImage": true,
-      "ContentId": "omnis",
-      "AuthKey": "blanditiis",
+      "ContentId": "ut",
+      "AuthKey": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 137
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "assumenda",
-    "ExtraFields2": "neque"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "quia"
+    "CustomFields1": "et",
+    "CustomFields2": "commodi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldType": "System.String",
+      "FieldLength": 508
     }
   }
 }

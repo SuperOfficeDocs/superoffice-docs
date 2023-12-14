@@ -71,30 +71,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "molestiae",
-  "ProviderName": "Berge Group",
-  "StorageKey": "ut",
+  "StorageType": "nihil",
+  "ProviderName": "Heidenreich, Ledner and Heidenreich",
+  "StorageKey": "ipsum",
   "Restrictions": [
     {
-      "Name": "Kreiger Inc and Sons",
-      "Operator": "velit",
+      "Name": "Heathcote-Cormier",
+      "Operator": "ut",
       "Values": [
-        "quas",
-        "doloremque"
+        "labore",
+        "cum"
       ],
       "DisplayValues": [
-        "porro",
-        "ut"
+        "ea",
+        "reiciendis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 548,
+      "InterParenthesis": 186,
       "InterOperator": "And",
-      "UniqueHash": 43
+      "UniqueHash": 815
     }
   ]
 }

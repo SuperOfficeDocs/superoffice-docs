@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=08/26/1999 13:38:18
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=10/01/2006 13:38:18
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=226
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=07/13/2014 13:57:21
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=04/10/2015 13:57:21
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=998
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
 
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 691,
-  "ERPPriceListKey": "dolores",
-  "QuoteConnectionId": 4,
-  "Name": "Cassin-Koelpin",
-  "Description": "De-engineered neutral support",
-  "Currency": "aliquam",
-  "CurrencyName": "Lowe Inc and Sons",
-  "ValidFrom": "2008-02-04T13:38:18.1087815+01:00",
-  "ValidTo": "2017-01-31T13:38:18.1087815+01:00",
+  "PriceListId": 576,
+  "ERPPriceListKey": "architecto",
+  "QuoteConnectionId": 392,
+  "Name": "Altenwerth-Wunsch",
+  "Description": "Innovative logistical archive",
+  "Currency": "praesentium",
+  "CurrencyName": "Rempel Inc and Sons",
+  "ValidFrom": "2013-12-23T13:57:19.8440154+01:00",
+  "ValidTo": "2010-01-25T13:57:19.8440154+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 718
+      "FieldLength": 598
     }
   }
 }

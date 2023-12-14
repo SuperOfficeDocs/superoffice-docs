@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "nemo",
+    "path": "autem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nemo",
+    "path": "autem",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 133,
-  "UniqueId": "sint",
-  "Name": "Schroeder Group",
-  "Description": "Right-sized bi-directional throughput",
-  "AssociateId": 943,
-  "Columns": 691,
+  "DashboardId": 314,
+  "UniqueId": "velit",
+  "Name": "Christiansen, Walter and McGlynn",
+  "Description": "Business-focused intangible attitude",
+  "AssociateId": 939,
+  "Columns": 663,
   "Theme": null,
-  "VisibleForAll": 982,
+  "VisibleForAll": 177,
   "VisibleForAssociates": [
-    404,
-    658
+    202,
+    353
   ],
   "VisibleForGroups": [
-    388,
-    384
+    763,
+    814
   ],
-  "PinForAll": 929,
+  "PinForAll": 580,
   "PinForAssociates": [
-    888,
-    816
+    244,
+    872
   ],
   "PinForGroups": [
-    958,
-    496
+    844,
+    610
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 532
+      "FieldType": "System.String",
+      "FieldLength": 505
     }
   },
   "_Links": {

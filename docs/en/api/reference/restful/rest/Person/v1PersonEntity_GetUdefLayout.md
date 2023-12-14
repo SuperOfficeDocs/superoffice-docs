@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 913,
-    "ColumnId": 995,
-    "FieldDefault": "quia",
-    "FieldHeight": 836,
-    "FieldLabel": "aut",
-    "FieldLeft": 949,
-    "FieldTop": 725,
+    "UDefFieldId": 626,
+    "ColumnId": 577,
+    "FieldDefault": "ut",
+    "FieldHeight": 154,
+    "FieldLabel": "tempora",
+    "FieldLeft": 542,
+    "FieldTop": 90,
     "FieldType": "Checkbox",
-    "FieldWidth": 330,
-    "FormatMask": "ex",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 620,
-    "LabelLeft": 114,
-    "LabelTop": 310,
-    "LabelWidth": 911,
-    "LastVersionId": 599,
-    "ListTableId": 675,
-    "IsMandatory": false,
+    "FieldWidth": 800,
+    "FormatMask": "quasi",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 864,
+    "LabelLeft": 778,
+    "LabelTop": 487,
+    "LabelWidth": 109,
+    "LastVersionId": 117,
+    "ListTableId": 585,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 910,
-    "ProgId": "mollitia",
-    "IsReadOnly": false,
-    "ShortLabel": "ad",
-    "TabOrder": 676,
-    "TextLength": 889,
-    "Tooltip": "non",
-    "UdefIdentity": 904,
-    "UDListDefinitionId": 229,
+    "Page1LineNo": 40,
+    "ProgId": "omnis",
+    "IsReadOnly": true,
+    "ShortLabel": "voluptas",
+    "TabOrder": 987,
+    "TextLength": 728,
+    "Tooltip": "qui",
+    "UdefIdentity": 553,
+    "UDListDefinitionId": 337,
     "Justification": "Center",
-    "Version": 871,
-    "TemplateVariableName": "Fisher Group",
-    "HasBeenPublished": false,
-    "MdoListName": "Powlowski, Abbott and Farrell",
+    "Version": 92,
+    "TemplateVariableName": "Mohr Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Kemmer Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldLength": 136
       }
     }
   }
