@@ -90,6 +90,19 @@ This widget shows real-time statistics from the [Messaging Center][1]. Click a t
 | Pending/waiting requests | The number of requests that are awaiting action. |
 | Message status changes | Notification of any status change in the messaging center. |
 
+### New Customers
+
+All customers within a specified timerange, those who have signed in and given consent to allow your application, will appear in the New Customers widget.
+
+The available timeframes are:
+
+* Last 7 days (default)
+* Last month
+* Last quarter
+* Last six months
+* Last year
+
+
 <!-- Referenced links -->
 [1]: ../create-app/message-center.md
 
