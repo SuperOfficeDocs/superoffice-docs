@@ -693,8 +693,12 @@ Implementation of the provider for the combined selection
 |associate/otherGroups|userGroup|Other groups: Other groups|  |
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
-|appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 |selectionId|int|Selection ID: The database ID of the selection|  |
 |selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
@@ -704,7 +708,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowSelectionCombinedV2?$select=contact/postAddress/county,contact/contactUdef/SuperOffice:1,contact/contactUdef/SuperOffice:3,contact/contactExtra/x_contact_contact,person/retired
+GET /api/v1/archive/AppointmentShadowSelectionCombinedV2?$select=recordTypeText,contact/activeErpLinks,contact/searchPhone/description,contact/contactUdef/SuperOffice:1,person/personAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

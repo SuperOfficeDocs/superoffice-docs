@@ -693,8 +693,12 @@ Shadow contact provider for the appointment provider.
 |associate/otherGroups|userGroup|Other groups: Other groups|  |
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
-|appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 |selectionId|int|Selection ID: The database ID of the selection|  |
 |selectionMemberId| *None* |Selection member ID: The database ID of the selection member record|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
@@ -705,7 +709,7 @@ Shadow contact provider for the appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowSelection?$select=registeredBy,rawStatus,contact/NumberOfTicketsInPeriod,person/personHasInterests,person/personAssociate/title
+GET /api/v1/archive/AppointmentShadowSelection?$select=text,contact/contactAssociate/ejDisplayName,contact/NumberOfActivities,project/associateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

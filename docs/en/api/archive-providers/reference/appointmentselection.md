@@ -693,8 +693,12 @@ This is the archive Provider for the Selection appouintment archive.
 |associate/otherGroups|userGroup|Other groups: Other groups|  |
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
-|appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 |selectionId|int|Selection ID: The database ID of the selection|  |
 |selectionMemberId| *None* |Selection member ID: The database ID of the selection member record|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
@@ -705,7 +709,7 @@ This is the archive Provider for the Selection appouintment archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelection?$select=contact/contactExtra/x_contact_time,person/personUdef/SuperOffice:5,person/correspondingAssociate/assocName,project/projectAssociate/lastName
+GET /api/v1/archive/AppointmentSelection?$select=contact/email/emailProtocol,contact/contactAssociate/personId,person/personMobilePhone/description,project/projectUrl/URLAddress,sale/saleNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

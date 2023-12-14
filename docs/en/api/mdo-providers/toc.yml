@@ -291,6 +291,8 @@ items:
   href: reference/importproductfields.md
 - name: Intent
   href: reference/Intent.md
+- name: Invitationtemplatelanguage
+  href: reference/invitationtemplatelanguage.md
 - name: Iso639language
   href: reference/iso639language.md
 - name: Kbentry

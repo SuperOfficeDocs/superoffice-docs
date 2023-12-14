@@ -306,8 +306,12 @@ Project selection archive with OR-able selection groups. Each group is represent
 |appointment/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointment/associate/userName|string|User name: User name| x |
 |appointment/associate/personEmail|string|E-mail| x |
-|appointment/appointment/textId|int|Text ID| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/appointment/title|positiveString|Title| x |
+|appointment/appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/appointment/agenda|positiveString|Agenda| x |
+|appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/appointment/isConverted| *None* |!!Is Converted|  |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -325,14 +329,14 @@ Project selection archive with OR-able selection groups. Each group is represent
 |document/updatedBy|associate|Updated by: The user who last updated the data| x |
 |document/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |document/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|document/registeredBy|associate|Registered by: The user who registered the data| x |
-|document/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|document/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|document/documentId|int|Document ID: Database ID of document record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/registeredBy|associate|Registered by: The user who registered the data| x |
+|document/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
+|document/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|document/documentId|int|Document ID: Database ID of document record| x |
 |document/keywords|string|Keywords | x |
 |document/ourref|string|Our ref.| x |
 |document/yourref|string|Your ref.| x |
@@ -429,14 +433,14 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |projectMember/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |projectMember/portraitThumbnail| *None* |Person image: Person image|  |
-|projectMember/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|projectMember/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
-|projectMember/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
-|projectMember/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|projectMember/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
+|projectMember/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
+|projectMember/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |projectMember/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |projectMember/personAssociateId|associate|Our contact: Displays our contact| x |
 |projectMember/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
@@ -533,14 +537,14 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |projectMember/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |projectMember/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|projectMember/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|projectMember/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|projectMember/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
-|projectMember/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|projectMember/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|projectMember/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|projectMember/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMember/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMember/personAssociate/associateDbId|associate|ID| x |
 |projectMember/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -637,14 +641,14 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/contactEmail/emailDescription|string|Company - Description| x |
 |projectMember/contactEmail/emailId|int|Company - ID| x |
 |projectMember/contactEmail/emailLastSent|datetime|Company - Last sent: The date and time an e-mail was last sent to this address| x |
-|projectMember/contactEmail/emailBounceCount|int|Company - Bounce count: Bounce count for this e-mail address| x |
-|projectMember/contactEmail/emailLastBounce|datetime|Company - Last bounce: Date and time for last bounce to this e-mail address| x |
-|projectMember/contactEmail/emailHasBounced|bool|Company - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
-|projectMember/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactEmail/emailBounceCount|int|Company - Bounce count: Bounce count for this e-mail address| x |
+|projectMember/contactEmail/emailLastBounce|datetime|Company - Last bounce: Date and time for last bounce to this e-mail address| x |
+|projectMember/contactEmail/emailHasBounced|bool|Company - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
+|projectMember/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
 |projectMember/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
 |projectMember/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
 |projectMember/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
@@ -741,14 +745,14 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |projectMember/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |projectMember/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
-|projectMember/LastSale|date|Date of last sale|  |
-|projectMember/LastCompletedSale|date|Date of last completed sale|  |
-|projectMember/LastDoBySale|date|Date of last non-completed sale|  |
-|projectMember/NumberOfTickets|int|Number of requests|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/LastSale|date|Date of last sale|  |
+|projectMember/LastCompletedSale|date|Date of last completed sale|  |
+|projectMember/LastDoBySale|date|Date of last non-completed sale|  |
+|projectMember/NumberOfTickets|int|Number of requests|  |
 |projectMember/NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |projectMember/NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
 |projectMember/NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
@@ -770,7 +774,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelectionV2?$select=projectMember/personAddress/state,projectMember/correspondingAssociate/contactCategory,projectMember/contactAssociate/role,projectMember/contactUdef/SuperOffice:8,projectMember/LastDoBySale
+GET /api/v1/archive/ProjectDynamicSelectionV2?$select=NumberOfNotCompletedActivitiesInPeriod,sale/associate/contactFullName,sale/saleUdef/SuperOffice:2,appointment/appointmentUdef/SuperOffice:2,document/mailMergeDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

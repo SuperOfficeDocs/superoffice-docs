@@ -463,7 +463,7 @@ Archive provider for listing form submissions
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmission?$select=contact/contactAssociate/contactId,person/restrictionAddress/zip,person/personAssociate/personEmail
+GET /api/v1/archive/FormSubmission?$select=formSubmissionStatus,associate/contactFullName,person/legalBaseEmarketing,contact/updatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

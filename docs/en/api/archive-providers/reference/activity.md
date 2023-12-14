@@ -721,13 +721,17 @@ Activity archive provider that performs no filtering. This archive is not presen
 |appointmentUdef/SuperOffice:6|bool|followupcheckbox| x |
 |appointmentUdef/SuperOffice:7|listAny|followupdropdownlistbox| x |
 |appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
-|appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=person/personAddress/wgs84longitude,person/personAssociate/fullName,person/correspondingAssociate/firstName,person/correspondingAssociate/title,person/correspondingAssociate/otherGroups
+GET /api/v1/archive/Activity?$select=person/personUdef/SuperOffice:7,person/personExtra/x_person_hidden_integer,person/personAssociate/ejDisplayName,person/correspondingAssociate/mrMrs,person/correspondingAssociate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -451,8 +451,12 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |appointment/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointment/associate/userName|string|User name: User name| x |
 |appointment/associate/personEmail|string|E-mail| x |
-|appointment/appointment/textId|int|Text ID| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/appointment/title|positiveString|Title| x |
+|appointment/appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/appointment/agenda|positiveString|Agenda| x |
+|appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/appointment/isConverted| *None* |!!Is Converted|  |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -533,14 +537,14 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |document/document/description|positiveString|Text: Displays the text entered in the description field| x |
 |personId|int|DB ID: Displays the database ID of a contact| x |
 |firstName|string|First name: Displays the contact's first name| x |
-|lastName|string|Last name: Displays the contact's last name| x |
-|middleName|string|Middle name: Displays the contact's middle name.| x |
-|fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
-|personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|lastName|string|Last name: Displays the contact's last name| x |
+|middleName|string|Middle name: Displays the contact's middle name.| x |
+|fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |position|listAny|Position| x |
 |personNumber|string|Number: Displays the contact's number| x |
@@ -637,14 +641,14 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
 |personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
 |personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
-|personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
-|personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
-|personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
-|personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
+|personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
+|personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
+|personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
 |personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
@@ -726,7 +730,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintContact?$select=contactAssociate/mrMrs,sourceRelation/category,targetRelation/registeredDate,sale/saleUdef/SuperOffice:5,document/name
+GET /api/v1/archive/SaintContact?$select=sale/amount,sale/nextDueDate,document/associate/role,document/associate/isActiveText,ticketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

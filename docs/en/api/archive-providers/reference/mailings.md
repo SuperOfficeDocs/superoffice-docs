@@ -578,7 +578,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mailings?$select=mailingAddr/contact/contactFax/description,mailingAddr/contact/NumberOfSales,mailingAddr/person/fullName,mailingAddr/person/email/emailLastBounce,project/type
+GET /api/v1/archive/Mailings?$select=type,mailingAddr/contact/contactAssociate/lastName,mailingAddr/person/fullName,mailingAddr/person/birthYear,mailingAddr/person/personDirectPhone/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

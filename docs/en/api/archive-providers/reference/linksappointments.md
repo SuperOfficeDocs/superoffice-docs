@@ -702,14 +702,18 @@ Link data provider for appointments, handles both addressing by source or by des
 |associate/otherGroups|userGroup|Other groups: Other groups|  |
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
-|appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 |destinationAppointmentRestrictionId|int|Destination follow-up ID: IDs of follow-ups which are linked to|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=recordTypeText,contact/contactAssociate/associateDbId,contact/contactAssociate/usergroup,project/status
+GET /api/v1/archive/LinksAppointments?$select=contact/restrictionAddress/zip,contact/contactExtra/x_contact_longtext,project/projectUdef/SuperOffice:5,sale/associateId,sale/amount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

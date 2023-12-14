@@ -456,8 +456,12 @@ This is the archive Provider for the Selection contact/person archive.
 |appointment/associate/otherGroups| *None* |Other groups: Other groups|  |
 |appointment/associate/userName| *None* |User name: User name| x |
 |appointment/associate/personEmail| *None* |E-mail| x |
-|appointment/appointment/textId| *None* |Text ID| x |
 |appointment/appointment/description| *None* |Text: Displays the text entered in the description field| x |
+|appointment/appointment/title| *None* |Title| x |
+|appointment/appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/appointment/agenda| *None* |Agenda| x |
+|appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/appointment/isConverted| *None* |!!Is Converted|  |
 |document/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon| *None* |Category: Displays the icon for an activity type| x |
 |document/date| *None* |Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -536,14 +540,14 @@ This is the archive Provider for the Selection contact/person archive.
 |document/documentUdef/SuperOffice:8| *None* |documentdecimal| x |
 |document/document/textId| *None* |Text ID| x |
 |document/document/description| *None* |Text: Displays the text entered in the description field| x |
-|personId|int|DB ID: Displays the database ID of a contact| x |
-|firstName|string|First name: Displays the contact's first name| x |
-|lastName|string|Last name: Displays the contact's last name| x |
-|middleName|string|Middle name: Displays the contact's middle name.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personId|int|DB ID: Displays the database ID of a contact| x |
+|firstName|string|First name: Displays the contact's first name| x |
+|lastName|string|Last name: Displays the contact's last name| x |
+|middleName|string|Middle name: Displays the contact's middle name.| x |
 |fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
 |personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -640,14 +644,14 @@ This is the archive Provider for the Selection contact/person archive.
 |personPager/formattedNumber| *None* |Other - Phone: Displays phone number|  |
 |personPager/description| *None* |Other - Description: Phone number description| x |
 |personDirectFax/formattedNumber| *None* |Fax - Phone: Displays phone number|  |
-|personDirectFax/description| *None* |Fax - Description: Phone number description| x |
-|personEmail/emailProtocol| *None* |Protocol: E-mail protocol, such as SMTP| x |
-|personEmail/emailAddress| *None* |E-mail| x |
-|personEmail/emailDescription| *None* |Description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personDirectFax/description| *None* |Fax - Description: Phone number description| x |
+|personEmail/emailProtocol| *None* |Protocol: E-mail protocol, such as SMTP| x |
+|personEmail/emailAddress| *None* |E-mail| x |
+|personEmail/emailDescription| *None* |Description| x |
 |personEmail/emailId| *None* |ID| x |
 |personEmail/emailLastSent| *None* |Last sent: The date and time an e-mail was last sent to this address| x |
 |personEmail/emailBounceCount| *None* |Bounce count: Bounce count for this e-mail address| x |
@@ -744,14 +748,14 @@ This is the archive Provider for the Selection contact/person archive.
 |personTargetRelation/birthYear| *None* |Target - Birth year: Displays contact's birth year| x |
 |personTargetRelation/birthMonth| *None* |Target - Birth month: Displays contact's birth month| x |
 |personTargetRelation/birthDay| *None* |Target - Birth day: Displays contact's birth day (day of month)| x |
-|personTargetRelation/kanaFirstName| *None* |Target - First name, kana: Contact's first name, in kana alphabet| x |
-|personTargetRelation/kanaLastName| *None* |Target - Last name, kana: Contact's last name, in kana alphabet| x |
-|personTargetRelation/personUpdatedBy| *None* |Target - Updated by: The user who last updated the data| x |
-|personTargetRelation/personUpdatedByFullName| *None* |Target - Updated by - Full name: The user who last updated the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personTargetRelation/kanaFirstName| *None* |Target - First name, kana: Contact's first name, in kana alphabet| x |
+|personTargetRelation/kanaLastName| *None* |Target - Last name, kana: Contact's last name, in kana alphabet| x |
+|personTargetRelation/personUpdatedBy| *None* |Target - Updated by: The user who last updated the data| x |
+|personTargetRelation/personUpdatedByFullName| *None* |Target - Updated by - Full name: The user who last updated the data| x |
 |personTargetRelation/personUpdatedDate| *None* |Target - Updated: The date/time the data was last updated in UTC.| x |
 |personTargetRelation/personRegisteredBy| *None* |Target - Registered by: The user who registered the data| x |
 |personTargetRelation/personRegisteredByFullName| *None* |Target - Registered by - Full name: The user who registered the data| x |
@@ -848,14 +852,14 @@ This is the archive Provider for the Selection contact/person archive.
 |request/createdAt| *None* |Created: Displays when the request was created| x |
 |request/lastChanged| *None* |Last changed: Displays when the request was last changed| x |
 |request/author| *None* |Author: Displays the author of the request| x |
-|request/readByOwner| *None* |Read by owner: Displays when the request was read by the owner| x |
-|request/firstReadByOwner| *None* |First read by owner: Displays when the request was read by owner for the first time| x |
-|request/firstReadByUser| *None* |First read by user: Displays when the request was read by user for the first time| x |
-|request/readByCustomer| *None* |Read by contact: Displays when the request was read by the contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/readByOwner| *None* |Read by owner: Displays when the request was read by the owner| x |
+|request/firstReadByOwner| *None* |First read by owner: Displays when the request was read by owner for the first time| x |
+|request/firstReadByUser| *None* |First read by user: Displays when the request was read by user for the first time| x |
+|request/readByCustomer| *None* |Read by contact: Displays when the request was read by the contact| x |
 |request/status| *None* |Internal status: Shows only system defined statuses for a request| x |
 |request/origin| *None* |Origin: Origin| x |
 |request/slevel| *None* |Access level: Access level| x |
@@ -952,14 +956,14 @@ This is the archive Provider for the Selection contact/person archive.
 |request/extra/x\_ticket\_datetime| *None* |Extra DateTime: Custom date+time on ticket. Default = 28.03.2019 2:24 pm. External. Show in properties. Display for new request| x |
 |request/extra/x\_ticket\_time| *None* |Extra time: Custom time field on Request. Default = 13min Display for new.| x |
 |request/extra/x\_ticket\_boolean| *None* |Extra boolean: Custom boolean on Ticket.| x |
-|request/extra/x\_ticket\_timespan| *None* |Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
-|request/extra/x\_ticket\_short\_text| *None* |Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
-|request/extra/x\_ticket\_shorttext\_list| *None* |Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
-|request/extra/x\_ticket\_timestamp| *None* |Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/extra/x\_ticket\_timespan| *None* |Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
+|request/extra/x\_ticket\_short\_text| *None* |Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
+|request/extra/x\_ticket\_shorttext\_list| *None* |Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
+|request/extra/x\_ticket\_timestamp| *None* |Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |request/extra/x\_ticket\_project\_relation| *None* |Extra project: Custom project relation on Request| x |
 |request/extra/x\_ticket\_faq| *None* |Extra FAQ Relation| x |
 |request/extra/x\_ticket\_category\_relation| *None* |Extra category relation: Category relation on request| x |
@@ -1056,14 +1060,14 @@ This is the archive Provider for the Selection contact/person archive.
 |projectMembers/saintSaleStatus| *None* |With status|  |
 |projectMembers/saintAmountClass| *None* |Amount class|  |
 |projectMembers/saintActivityType| *None* |SAINT type|  |
-|projectMembers/saintDirection| *None* |Direction|  |
-|projectMembers/saintIntention| *None* |Intention|  |
-|projectMembers/saintTicketStatus| *None* |Status|  |
-|projectMembers/saintTicketCategory| *None* |Category|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/saintDirection| *None* |Direction|  |
+|projectMembers/saintIntention| *None* |Intention|  |
+|projectMembers/saintTicketStatus| *None* |Status|  |
+|projectMembers/saintTicketCategory| *None* |Category|  |
 |projectMembers/project/textId| *None* |Text ID| x |
 |projectMembers/project/infoText| *None* |Information: Displays the text entered in the description field| x |
 |personAppointment/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed| x |
@@ -1150,15 +1154,19 @@ This is the archive Provider for the Selection contact/person archive.
 |personAppointment/associate/otherGroups| *None* |Other groups: Other groups|  |
 |personAppointment/associate/userName| *None* |User name: User name| x |
 |personAppointment/associate/personEmail| *None* |E-mail| x |
-|personAppointment/appointment/textId| *None* |Text ID| x |
 |personAppointment/appointment/description| *None* |Text: Displays the text entered in the description field| x |
+|personAppointment/appointment/title| *None* |Title| x |
+|personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
+|personAppointment/appointment/agenda| *None* |Agenda| x |
+|personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
+|personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
 |includePersonRestriction| *None* |Include main contact: Specifies which contacts should be included in the result ('none', 'main', 'all')|  |
 |includePersonWithNoDMRestriction| *None* |Include contacts with No Mailings: Should contacts with the 'No Mailings' flag set be included|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=orgnr,email/emailLastSent,contactExtra/x_contact_longtext,LastDoByTicket,targetRelation/number
+GET /api/v1/archive/ContactPersonSelectionV2?$select=appointment/registeredDate,appointment/associate/ejDisplayName,personUpdatedDate,personSourceRelation/personCountryId,request/createdBy/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

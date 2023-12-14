@@ -51,11 +51,11 @@ foreach (var item in listProvider.RootItems) {
 |1000086|Filter Dialog||FilterDialog|
 |1000088|Freetext search||Freetext|
 |1000096|Functions||Functions|
-|1000525|In-app communication||InApp|
+|1000526|In-app communication||InApp|
 |1000151|E-mail||Mail|
 |1000213|Marketing||Mailing|
 |1000219|Grouped lists||MDOList|
-|1000522|Data mirroring||Mirroring|
+|1000523|Data mirroring||Mirroring|
 |1000290|Web Services||NetServices|
 |1000313|Notifications via popup||notification|
 |1000321|Notifications via e-mail||notificationEmail|

@@ -696,13 +696,17 @@ Appointment shadow selection archive with OR-able selection groups. Each group i
 |associate/otherGroups|userGroup|Other groups: Other groups|  |
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
-|appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelectionV2?$select=person/hasCompany,person/personAssociate/assocTooltip,project/SaintStatus3,project/saintAmountClass,sale/type
+GET /api/v1/archive/AppointmentShadowDynamicSelectionV2?$select=contact/contactAssociate/firstName,contact/LastCompletedActivity,appointmentUdef/SuperOffice:6,sale/saleTypeCategory,associate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

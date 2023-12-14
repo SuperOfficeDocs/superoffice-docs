@@ -208,6 +208,7 @@ so.envir: onsite, online
 | [importproductduplicatematch](importproductduplicatematch.md) |Import product detect duplicates based on field:  Name, Code, Name+Code|
 | [importproductfields](importproductfields.md) |MDO provider for column headers used in import|
 | [intent](intent.md) |GenericMDOProvider reads MDO lists with default settings|
+| [invitationtemplatelanguage](invitationtemplatelanguage.md) ||
 | [iso639language](iso639language.md) ||
 | [kbentry](kbentry.md) ||
 | [language](language.md) ||

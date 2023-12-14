@@ -693,13 +693,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |associate/otherGroups|userGroup|Other groups: Other groups|  |
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
-|appointment/textId|int|Text ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/appointmentfavourites?$select=userGroup,appointmentPublish/publishedTo,person/personAddress/line2,person/withdrawnEmarketingConsent,project/endDate
+GET /api/v1/archive/appointmentfavourites?$select=getAllRows,contact/NumberOfNotCompletedActivitiesInPeriod,person/personAddress/line2,sale/saleTypeCategory,appointment/agendaHtml
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

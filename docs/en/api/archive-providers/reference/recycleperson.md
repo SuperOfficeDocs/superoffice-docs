@@ -120,7 +120,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecyclePerson?$select=personUpdatedByFullName,hasCompany
+GET /api/v1/archive/RecyclePerson?$select=personId,personCountryId,birthDay,personContact/activeErpLinks,personContact/deletedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

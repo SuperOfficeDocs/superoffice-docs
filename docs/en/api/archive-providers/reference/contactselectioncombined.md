@@ -454,8 +454,12 @@ Implementation of the provider for the combined selection
 |appointment/associate/otherGroups| *None* |Other groups: Other groups|  |
 |appointment/associate/userName| *None* |User name: User name|  |
 |appointment/associate/personEmail| *None* |E-mail|  |
-|appointment/appointment/textId| *None* |Text ID|  |
 |appointment/appointment/description| *None* |Text: Displays the text entered in the description field|  |
+|appointment/appointment/title| *None* |Title|  |
+|appointment/appointment/titleHtml| *None* |!!Title Html|  |
+|appointment/appointment/agenda| *None* |Agenda|  |
+|appointment/appointment/agendaHtml| *None* |!!Agenda Html|  |
+|appointment/appointment/isConverted| *None* |!!Is Converted|  |
 |document/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed|  |
 |document/icon| *None* |Category: Displays the icon for an activity type|  |
 |document/date| *None* |Date: Displays start date of a follow-up / sale date of a sale|  |
@@ -534,14 +538,14 @@ Implementation of the provider for the combined selection
 |document/documentUdef/SuperOffice:8| *None* |documentdecimal|  |
 |document/document/textId| *None* |Text ID|  |
 |document/document/description| *None* |Text: Displays the text entered in the description field|  |
-|personId|int|DB ID: Displays the database ID of a contact| x |
-|firstName|string|First name: Displays the contact's first name| x |
-|lastName|string|Last name: Displays the contact's last name| x |
-|middleName|string|Middle name: Displays the contact's middle name.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personId|int|DB ID: Displays the database ID of a contact| x |
+|firstName|string|First name: Displays the contact's first name| x |
+|lastName|string|Last name: Displays the contact's last name| x |
+|middleName|string|Middle name: Displays the contact's middle name.| x |
 |fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
 |personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -638,14 +642,14 @@ Implementation of the provider for the combined selection
 |personPager/formattedNumber| *None* |Other - Phone: Displays phone number|  |
 |personPager/description| *None* |Other - Description: Phone number description|  |
 |personDirectFax/formattedNumber| *None* |Fax - Phone: Displays phone number|  |
-|personDirectFax/description| *None* |Fax - Description: Phone number description|  |
-|personEmail/emailProtocol| *None* |Protocol: E-mail protocol, such as SMTP|  |
-|personEmail/emailAddress| *None* |E-mail|  |
-|personEmail/emailDescription| *None* |Description|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personDirectFax/description| *None* |Fax - Description: Phone number description|  |
+|personEmail/emailProtocol| *None* |Protocol: E-mail protocol, such as SMTP|  |
+|personEmail/emailAddress| *None* |E-mail|  |
+|personEmail/emailDescription| *None* |Description|  |
 |personEmail/emailId| *None* |ID|  |
 |personEmail/emailLastSent| *None* |Last sent: The date and time an e-mail was last sent to this address|  |
 |personEmail/emailBounceCount| *None* |Bounce count: Bounce count for this e-mail address|  |
@@ -742,14 +746,14 @@ Implementation of the provider for the combined selection
 |personTargetRelation/birthYear| *None* |Target - Birth year: Displays contact's birth year|  |
 |personTargetRelation/birthMonth| *None* |Target - Birth month: Displays contact's birth month|  |
 |personTargetRelation/birthDay| *None* |Target - Birth day: Displays contact's birth day (day of month)|  |
-|personTargetRelation/kanaFirstName| *None* |Target - First name, kana: Contact's first name, in kana alphabet|  |
-|personTargetRelation/kanaLastName| *None* |Target - Last name, kana: Contact's last name, in kana alphabet|  |
-|personTargetRelation/personUpdatedBy| *None* |Target - Updated by: The user who last updated the data|  |
-|personTargetRelation/personUpdatedByFullName| *None* |Target - Updated by - Full name: The user who last updated the data|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personTargetRelation/kanaFirstName| *None* |Target - First name, kana: Contact's first name, in kana alphabet|  |
+|personTargetRelation/kanaLastName| *None* |Target - Last name, kana: Contact's last name, in kana alphabet|  |
+|personTargetRelation/personUpdatedBy| *None* |Target - Updated by: The user who last updated the data|  |
+|personTargetRelation/personUpdatedByFullName| *None* |Target - Updated by - Full name: The user who last updated the data|  |
 |personTargetRelation/personUpdatedDate| *None* |Target - Updated: The date/time the data was last updated in UTC.|  |
 |personTargetRelation/personRegisteredBy| *None* |Target - Registered by: The user who registered the data|  |
 |personTargetRelation/personRegisteredByFullName| *None* |Target - Registered by - Full name: The user who registered the data|  |
@@ -846,14 +850,14 @@ Implementation of the provider for the combined selection
 |request/createdAt| *None* |Created: Displays when the request was created|  |
 |request/lastChanged| *None* |Last changed: Displays when the request was last changed|  |
 |request/author| *None* |Author: Displays the author of the request|  |
-|request/readByOwner| *None* |Read by owner: Displays when the request was read by the owner|  |
-|request/firstReadByOwner| *None* |First read by owner: Displays when the request was read by owner for the first time|  |
-|request/firstReadByUser| *None* |First read by user: Displays when the request was read by user for the first time|  |
-|request/readByCustomer| *None* |Read by contact: Displays when the request was read by the contact|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/readByOwner| *None* |Read by owner: Displays when the request was read by the owner|  |
+|request/firstReadByOwner| *None* |First read by owner: Displays when the request was read by owner for the first time|  |
+|request/firstReadByUser| *None* |First read by user: Displays when the request was read by user for the first time|  |
+|request/readByCustomer| *None* |Read by contact: Displays when the request was read by the contact|  |
 |request/status| *None* |Internal status: Shows only system defined statuses for a request|  |
 |request/origin| *None* |Origin: Origin|  |
 |request/slevel| *None* |Access level: Access level|  |
@@ -950,14 +954,14 @@ Implementation of the provider for the combined selection
 |request/extra/x\_ticket\_datetime| *None* |Extra DateTime: Custom date+time on ticket. Default = 28.03.2019 2:24 pm. External. Show in properties. Display for new request|  |
 |request/extra/x\_ticket\_time| *None* |Extra time: Custom time field on Request. Default = 13min Display for new.|  |
 |request/extra/x\_ticket\_boolean| *None* |Extra boolean: Custom boolean on Ticket.|  |
-|request/extra/x\_ticket\_timespan| *None* |Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props|  |
-|request/extra/x\_ticket\_short\_text| *None* |Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request|  |
-|request/extra/x\_ticket\_shorttext\_list| *None* |Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot|  |
-|request/extra/x\_ticket\_timestamp| *None* |Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/extra/x\_ticket\_timespan| *None* |Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props|  |
+|request/extra/x\_ticket\_short\_text| *None* |Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request|  |
+|request/extra/x\_ticket\_shorttext\_list| *None* |Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot|  |
+|request/extra/x\_ticket\_timestamp| *None* |Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field|  |
 |request/extra/x\_ticket\_project\_relation| *None* |Extra project: Custom project relation on Request|  |
 |request/extra/x\_ticket\_faq| *None* |Extra FAQ Relation|  |
 |request/extra/x\_ticket\_category\_relation| *None* |Extra category relation: Category relation on request|  |
@@ -1054,14 +1058,14 @@ Implementation of the provider for the combined selection
 |projectMembers/saintSaleStatus| *None* |With status|  |
 |projectMembers/saintAmountClass| *None* |Amount class|  |
 |projectMembers/saintActivityType| *None* |SAINT type|  |
-|projectMembers/saintDirection| *None* |Direction|  |
-|projectMembers/saintIntention| *None* |Intention|  |
-|projectMembers/saintTicketStatus| *None* |Status|  |
-|projectMembers/saintTicketCategory| *None* |Category|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/saintDirection| *None* |Direction|  |
+|projectMembers/saintIntention| *None* |Intention|  |
+|projectMembers/saintTicketStatus| *None* |Status|  |
+|projectMembers/saintTicketCategory| *None* |Category|  |
 |projectMembers/project/textId| *None* |Text ID|  |
 |projectMembers/project/infoText| *None* |Information: Displays the text entered in the description field|  |
 |personAppointment/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed|  |
@@ -1148,13 +1152,17 @@ Implementation of the provider for the combined selection
 |personAppointment/associate/otherGroups| *None* |Other groups: Other groups|  |
 |personAppointment/associate/userName| *None* |User name: User name|  |
 |personAppointment/associate/personEmail| *None* |E-mail|  |
-|personAppointment/appointment/textId| *None* |Text ID|  |
 |personAppointment/appointment/description| *None* |Text: Displays the text entered in the description field|  |
+|personAppointment/appointment/title| *None* |Title|  |
+|personAppointment/appointment/titleHtml| *None* |!!Title Html|  |
+|personAppointment/appointment/agenda| *None* |Agenda|  |
+|personAppointment/appointment/agendaHtml| *None* |!!Agenda Html|  |
+|personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelectionCombined?$select=contactUdef/SuperOffice:12,contactExtra/x_contact_date,sourceRelation/hasInterests,sale/saleUdef/SuperOffice:7,appointment/booking
+GET /api/v1/archive/ContactSelectionCombined?$select=sourceRelation/code,sourceRelation/updatedBy,sourceRelation/csRelation,targetRelation/contactNoMail,targetRelation/personContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

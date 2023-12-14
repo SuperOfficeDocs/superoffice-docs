@@ -767,13 +767,17 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |personAppointment/associate/userName|string|User name: User name| x |
 |personAppointment/associate/personEmail|string|E-mail| x |
-|personAppointment/appointment/textId|int|Text ID| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|personAppointment/appointment/title|positiveString|Title| x |
+|personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
+|personAppointment/appointment/agenda|positiveString|Agenda| x |
+|personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
+|personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=contactId,personExtra/y_rental/x_start,personTargetRelation/lastName,personAssociate/isActiveText,personContact/streetAddress/zip
+GET /api/v1/archive/Person?$select=personSourceRelation/birthDay,personAssociate/role,personAssociate/assocType,personContact/streetAddress/zip,request/createdBy/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

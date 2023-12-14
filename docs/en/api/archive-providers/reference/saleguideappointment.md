@@ -713,13 +713,17 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointmentInstance/associate/userName|string|User name: User name| x |
 |appointmentInstance/associate/personEmail|string|E-mail| x |
-|appointmentInstance/appointment/textId|int|Text ID| x |
 |appointmentInstance/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointmentInstance/appointment/title|positiveString|Title| x |
+|appointmentInstance/appointment/titleHtml| *None* |!!Title Html| x |
+|appointmentInstance/appointment/agenda|positiveString|Agenda| x |
+|appointmentInstance/appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointmentInstance/appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideAppointment?$select=suggestedItemText,appointmentInstance/appointmentPublish/publishedBy,appointmentInstance/contact/streetAddress/city,appointmentInstance/contact/contactExtra/x_contact_time,appointmentInstance/contact/contactExtra/x_contact_contact
+GET /api/v1/archive/SaleGuideAppointment?$select=appointmentInstance/person/personAddress/line3,appointmentInstance/person/personExtra/y_rental/id,appointmentInstance/project/LastDoBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
