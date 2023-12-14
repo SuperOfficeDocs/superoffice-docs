@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=ut
+GET /api/v1/List/LegalBase/MDOItems?query=non
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Collins-Volkman",
-    "ToolTip": "Aut perferendis.",
-    "Deleted": true,
-    "Rank": 447,
-    "Type": "fugit",
+    "Id": 892,
+    "Name": "Ebert, Kling and Stiedemann",
+    "ToolTip": "Provident in atque rem.",
+    "Deleted": false,
+    "Rank": 565,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 726,
-        "Name": "Schultz-Ritchie",
-        "ToolTip": "Molestiae soluta cum.",
+        "Id": 273,
+        "Name": "Klocko Inc and Sons",
+        "ToolTip": "Autem quisquam qui tempora sunt omnis.",
         "Deleted": false,
-        "Rank": 359,
-        "Type": "numquam",
+        "Rank": 372,
+        "Type": "ad",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "error",
-        "ColorBlock": 54,
-        "ExtraInfo": "in",
-        "StyleHint": "quo",
-        "FullName": "Miss Matilda Jameson Rodriguez",
+        "IconHint": "quod",
+        "ColorBlock": 548,
+        "ExtraInfo": "et",
+        "StyleHint": "est",
+        "FullName": "Tabitha Runolfsdottir",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 310
+            "FieldLength": 516
           }
         }
       }
     ],
-    "IconHint": "aspernatur",
-    "ColorBlock": 165,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "quisquam",
-    "FullName": "Anjali Bins",
+    "IconHint": "debitis",
+    "ColorBlock": 942,
+    "ExtraInfo": "natus",
+    "StyleHint": "possimus",
+    "FullName": "Carmine Ova Carter PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 158
+        "FieldLength": 496
       }
     }
   }

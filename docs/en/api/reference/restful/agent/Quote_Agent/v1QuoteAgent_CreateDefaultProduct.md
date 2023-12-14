@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 41,
-  "ERPProductKey": "ut",
-  "ERPPriceListKey": "aut",
-  "Name": "Willms LLC",
-  "Description": "Realigned actuating algorithm",
-  "Code": "non",
-  "PriceUnit": "dignissimos",
-  "QuantityUnit": "necessitatibus",
-  "IsSubscription": false,
-  "SubscriptionUnit": "aut",
-  "DefaultSubscriptionQuantity": 11094.359999999999,
-  "ItemNumber": "670718",
+  "ProductId": 499,
+  "ERPProductKey": "a",
+  "ERPPriceListKey": "beatae",
+  "Name": "Klocko Group",
+  "Description": "Re-engineered 3rd generation process improvement",
+  "Code": "aut",
+  "PriceUnit": "nihil",
+  "QuantityUnit": "qui",
+  "IsSubscription": true,
+  "SubscriptionUnit": "aliquid",
+  "DefaultSubscriptionQuantity": 28967.561999999998,
+  "ItemNumber": "1041285",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "molestiae",
-  "ProductTypeKey": "sequi",
-  "VAT": 5569.1179999999995,
-  "VATInfo": "ipsum",
-  "UnitCost": 16312.47,
-  "UnitMinimumPrice": 5484.5,
-  "UnitListPrice": 31039.136,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "perferendis",
+  "VAT": 27002.543999999998,
+  "VATInfo": "consequatur",
+  "UnitCost": 1764.442,
+  "UnitMinimumPrice": 4679.062,
+  "UnitListPrice": 30832.291999999998,
   "InAssortment": false,
-  "Supplier": "sapiente",
-  "SupplierCode": "numquam",
-  "Rights": "commodi",
-  "Rule": "eum",
+  "Supplier": "aperiam",
+  "SupplierCode": "quibusdam",
+  "Rights": "et",
+  "Rule": "repellat",
   "ExtraInfo": [
     {
-      "Name": "Johnston Group",
-      "Value": "reprehenderit",
+      "Name": "Dach-Gislason",
+      "Value": "eveniet",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 624
+          "FieldLength": 632
         }
       }
     },
     {
-      "Name": "Johnston Group",
-      "Value": "reprehenderit",
+      "Name": "Dach-Gislason",
+      "Value": "eveniet",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 624
+          "FieldLength": 632
         }
       }
     }
   ],
-  "RawExtraInfo": "eligendi",
-  "ExtraField1": "hic",
-  "ExtraField2": "possimus",
-  "ExtraField3": "voluptas",
-  "ExtraField4": "molestiae",
-  "ExtraField5": "sit",
-  "InStock": 22044.556,
+  "RawExtraInfo": "accusamus",
+  "ExtraField1": "modi",
+  "ExtraField2": "ea",
+  "ExtraField3": "vel",
+  "ExtraField4": "optio",
+  "ExtraField5": "ea",
+  "InStock": 31145.692,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldType": "System.String",
+      "FieldLength": 82
     }
   }
 }

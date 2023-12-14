@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 191,
-    "Name": "Mertz-Carroll",
-    "Description": "Digitized next generation core",
+    "ProjectId": 80,
+    "Name": "Dicki-Collins",
+    "Description": "Proactive incremental open architecture",
     "URL": "http://www.example.com/",
-    "Type": "odit",
-    "AssociateId": 549,
-    "AssociateFullName": "Miss Gerardo Skyla Mayer",
-    "TypeId": 572,
-    "Updated": "2017-09-13T13:38:13.9834617+02:00",
-    "StatusId": 141,
-    "Status": "vitae",
-    "TextId": 496,
-    "PublishTo": "2016-04-02T13:38:13.9834617+02:00",
-    "PublishFrom": "2004-04-05T13:38:13.9834617+02:00",
-    "IsPublished": true,
+    "Type": "deleniti",
+    "AssociateId": 322,
+    "AssociateFullName": "Dr. Euna Dusty Dare IV",
+    "TypeId": 707,
+    "Updated": "2018-10-13T13:57:13.0011314+02:00",
+    "StatusId": 700,
+    "Status": "iure",
+    "TextId": 165,
+    "PublishTo": "2003-10-06T13:57:13.0011314+02:00",
+    "PublishFrom": "2018-11-13T13:57:13.0011314+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "353199",
-    "ActiveErpLinks": 419,
+    "ProjectNumber": "1264472",
+    "ActiveErpLinks": 93,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldType": "System.String",
+        "FieldLength": 579
       }
     }
   }

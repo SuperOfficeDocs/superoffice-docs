@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 283,
-  "Name": "Gleason-Bartoletti",
-  "PersonId": 229,
-  "Rank": 880,
-  "Tooltip": "veritatis",
+  "AssociateId": 362,
+  "Name": "Oberbrunner Inc and Sons",
+  "PersonId": 780,
+  "Rank": 437,
+  "Tooltip": "qui",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 133,
-  "FullName": "Mrs. David Denesik",
-  "FormalName": "Koss, Terry and Stracke",
+  "GroupIdx": 273,
+  "FullName": "Cassie Fritsch",
+  "FormalName": "Stracke-Glover",
   "Deleted": false,
-  "EjUserId": 75,
-  "UserName": "Stamm-Bernier",
+  "EjUserId": 101,
+  "UserName": "Kemmer, Collins and Rodriguez",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldType": "System.String",
+      "FieldLength": 445
     }
   }
 }

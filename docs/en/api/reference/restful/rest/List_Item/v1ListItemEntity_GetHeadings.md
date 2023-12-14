@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 688,
-    "Name": "Morissette, Boyer and Stroman",
-    "ToolTip": "Asperiores aspernatur cupiditate vero eveniet nam.",
+    "Id": 34,
+    "Name": "Hilll Inc and Sons",
+    "ToolTip": "Provident sed harum earum doloremque enim ipsum numquam.",
     "Deleted": false,
-    "Rank": 43,
-    "Type": "ab",
-    "ColorBlock": 148,
-    "IconHint": "quos",
-    "Selected": false,
-    "LastChanged": "2023-01-13T13:38:17.8900531+01:00",
+    "Rank": 474,
+    "Type": "distinctio",
+    "ColorBlock": 605,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2011-06-16T13:57:19.6096461+02:00",
     "ChildItems": [
       {
-        "Id": 890,
-        "Name": "Fadel-Berge",
-        "ToolTip": "Laborum repellendus.",
-        "Deleted": false,
-        "Rank": 550,
-        "Type": "est",
-        "ColorBlock": 492,
-        "IconHint": "consectetur",
-        "Selected": true,
-        "LastChanged": "2001-09-30T13:38:17.8900531+02:00",
+        "Id": 619,
+        "Name": "Dooley, Gaylord and Langosh",
+        "ToolTip": "Expedita commodi exercitationem quis mollitia.",
+        "Deleted": true,
+        "Rank": 538,
+        "Type": "aut",
+        "ColorBlock": 416,
+        "IconHint": "voluptates",
+        "Selected": false,
+        "LastChanged": "2005-11-08T13:57:19.6096461+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "rerum",
+        "StyleHint": "ipsam",
         "Hidden": false,
-        "FullName": "Fidel Klein I",
+        "FullName": "Prof. Chasity Andreane Nikolaus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 763
+            "FieldLength": 826
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Dejuan Mayert",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "enim",
+    "Hidden": false,
+    "FullName": "Prof. Sadye Bednar MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 962
+        "FieldType": "System.Int32",
+        "FieldLength": 887
       }
     }
   }

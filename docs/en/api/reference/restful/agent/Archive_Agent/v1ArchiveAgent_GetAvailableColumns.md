@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Pfeffer Inc and Sons",
-  "Context": "dignissimos"
+  "ProviderName": "Schiller Group",
+  "Context": "error"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Durgan, Hamill and Reinger",
-    "DisplayTooltip": "blanditiis",
-    "DisplayType": "molestias",
+    "DisplayName": "Little LLC",
+    "DisplayTooltip": "vel",
+    "DisplayType": "voluptas",
     "CanOrderBy": false,
-    "Name": "Wolf Inc and Sons",
-    "CanRestrictBy": true,
-    "RestrictionType": "delectus",
-    "RestrictionListName": "Abshire-Halvorson",
-    "IsVisible": true,
-    "ExtraInfo": "nemo",
-    "Width": "voluptas",
-    "IconHint": "molestiae",
-    "HeadingIconHint": "debitis"
+    "Name": "Cummerata LLC",
+    "CanRestrictBy": false,
+    "RestrictionType": "dolore",
+    "RestrictionListName": "Balistreri-Kassulke",
+    "IsVisible": false,
+    "ExtraInfo": "quod",
+    "Width": "consequatur",
+    "IconHint": "pariatur",
+    "HeadingIconHint": "quia"
   }
 ]
 ```

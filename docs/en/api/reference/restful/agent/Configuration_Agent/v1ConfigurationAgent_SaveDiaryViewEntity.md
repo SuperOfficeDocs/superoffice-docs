@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 107,
-  "Name": "Mohr, Ortiz and Weber",
-  "Tooltip": "blanditiis",
-  "VisibleColumns": 111,
-  "Rank": 954,
-  "AssocId": 943,
+  "DiaryViewId": 862,
+  "Name": "Gaylord LLC",
+  "Tooltip": "deleniti",
+  "VisibleColumns": 787,
+  "Rank": 606,
+  "AssocId": 397,
   "AssociateList": [
     {
-      "Id": 949,
-      "Name": "Parisian, Luettgen and Hermann",
-      "ToolTip": "Omnis quia blanditiis qui.",
+      "Id": 100,
+      "Name": "Metz-Kuvalis",
+      "ToolTip": "Quam sed modi et recusandae occaecati est eum.",
       "Deleted": false,
-      "Rank": 232,
-      "Type": "quibusdam",
-      "ColorBlock": 633,
+      "Rank": 955,
+      "Type": "quaerat",
+      "ColorBlock": 3,
       "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2011-03-17T13:38:13.2646505+01:00",
+      "Selected": false,
+      "LastChanged": "1999-06-08T13:57:11.8236525+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "harum",
-      "StyleHint": "nihil",
+      "ExtraInfo": "ut",
+      "StyleHint": "beatae",
       "Hidden": true,
-      "FullName": "Zack Parisian"
+      "FullName": "Mr. Domenica Shields"
     }
   ],
-  "TzLocationId": 28
+  "TzLocationId": 321
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 750,
-  "Name": "Feest, Goldner and Lindgren",
-  "Tooltip": "sed",
-  "VisibleColumns": 904,
-  "Rank": 626,
-  "AssocId": 266,
+  "DiaryViewId": 292,
+  "Name": "Grimes Group",
+  "Tooltip": "nesciunt",
+  "VisibleColumns": 381,
+  "Rank": 671,
+  "AssocId": 138,
   "AssociateList": [
     {
-      "Id": 568,
-      "Name": "McKenzie, Miller and Koelpin",
-      "ToolTip": "Ducimus consequatur minima illo.",
+      "Id": 675,
+      "Name": "Stamm Inc and Sons",
+      "ToolTip": "Magni natus reprehenderit blanditiis quia ut eius sunt.",
       "Deleted": false,
-      "Rank": 384,
-      "Type": "molestiae",
-      "ColorBlock": 423,
-      "IconHint": "aut",
-      "Selected": false,
-      "LastChanged": "2006-08-18T13:38:13.2646505+02:00",
+      "Rank": 307,
+      "Type": "rerum",
+      "ColorBlock": 567,
+      "IconHint": "non",
+      "Selected": true,
+      "LastChanged": "2022-11-06T13:57:11.8236525+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "dolor",
+      "ExtraInfo": "molestiae",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Annabel Gulgowski",
+      "FullName": "Rosalee Leffler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldLength": 930
         }
       }
     }
   ],
-  "TzLocationId": 384,
+  "TzLocationId": 657,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 347
+      "FieldType": "System.String",
+      "FieldLength": 721
     }
   }
 }

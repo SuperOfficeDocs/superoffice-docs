@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 801,
+  "QuoteId": 293,
   "SaleId": 571,
-  "QuoteConnectionId": 626,
-  "ERPQuoteKey": "eos",
-  "ERPOrderKey": "quos",
-  "ActiveQuoteVersionId": 768,
-  "AcceptedQuoteAlternativeId": 402,
-  "UseValuesFromQuote": 617,
-  "DocumentId": 773,
-  "PoNumber": "1766731",
-  "OrderComment": "sed",
-  "PreferredEmailCulture": "alice@barrows.name",
+  "QuoteConnectionId": 408,
+  "ERPQuoteKey": "sint",
+  "ERPOrderKey": "omnis",
+  "ActiveQuoteVersionId": 774,
+  "AcceptedQuoteAlternativeId": 295,
+  "UseValuesFromQuote": 632,
+  "DocumentId": 919,
+  "PoNumber": "227450",
+  "OrderComment": "aspernatur",
+  "PreferredEmailCulture": "robbie.renner@altenwerth.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 389,
-      "ERPQuoteVersionKey": "sint",
-      "QuoteId": 855,
-      "Description": "Seamless high-level circuit",
-      "Number": "1123280",
+      "QuoteVersionId": 66,
+      "ERPQuoteVersionKey": "vel",
+      "QuoteId": 984,
+      "Description": "Versatile static extranet",
+      "Number": "928331",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 889,
-      "SentDate": "1998-11-12T13:38:14.0303322+01:00",
-      "FollowupId": 329,
-      "ExpirationDate": "2012-07-09T13:38:14.0303322+02:00",
-      "DeliveryCountryId": 218,
+      "LikelyQuoteAlternativeId": 967,
+      "SentDate": "2005-10-01T13:57:13.0805627+02:00",
+      "FollowupId": 803,
+      "ExpirationDate": "1997-06-20T13:57:13.0805627+02:00",
+      "DeliveryCountryId": 793,
       "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 583,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "omnis",
-      "ERPPaymentTypeKey": "corporis",
-      "ERPDeliveryTermsKey": "sit",
-      "ERPDeliveryTypeKey": "ut",
-      "Rank": 1000,
-      "ApprovedBy": 939,
-      "ApprovedText": "in",
-      "ApprovedRegisteredBy": 62,
-      "ApprovedRegisteredDate": "2017-08-22T13:38:14.0303322+02:00",
-      "ExtraField1": "sunt",
-      "ExtraField2": "perferendis",
-      "ExtraField3": "aut",
-      "ExtraField4": "nemo",
-      "ExtraField5": "ut",
-      "LastRecalculated": "2009-04-01T13:38:14.0303322+02:00",
-      "Updated": "1997-06-04T13:38:14.0303322+02:00",
-      "UpdatedAssociateId": 105,
-      "Registered": "1997-01-21T13:38:14.0303322+01:00",
-      "RegisteredAssociateId": 623,
-      "RequestAssociateId": 131,
-      "RequestComment": "et",
+      "InvoiceCountryId": 193,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "et",
+      "ERPPaymentTypeKey": "omnis",
+      "ERPDeliveryTermsKey": "vitae",
+      "ERPDeliveryTypeKey": "nobis",
+      "Rank": 657,
+      "ApprovedBy": 618,
+      "ApprovedText": "nostrum",
+      "ApprovedRegisteredBy": 211,
+      "ApprovedRegisteredDate": "2022-02-28T13:57:13.0805627+01:00",
+      "ExtraField1": "eveniet",
+      "ExtraField2": "velit",
+      "ExtraField3": "distinctio",
+      "ExtraField4": "amet",
+      "ExtraField5": "dolor",
+      "LastRecalculated": "2012-08-01T13:57:13.0805627+02:00",
+      "Updated": "2023-11-07T13:57:13.0805627+01:00",
+      "UpdatedAssociateId": 538,
+      "Registered": "2017-03-09T13:57:13.0805627+01:00",
+      "RegisteredAssociateId": 782,
+      "RequestAssociateId": 641,
+      "RequestComment": "id",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldType": "System.String",
+          "FieldLength": 914
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 692
+      "FieldLength": 727
     }
   }
 }

@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    828,
-    523
+    163,
+    90
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 211,
-    "Caption": "dicta",
-    "Description": "Innovative 3rd generation matrix",
-    "ChartName": "Carter-Green",
-    "ChartId": "tenetur",
+    "DashboardTileId": 565,
+    "Caption": "beatae",
+    "Description": "Open-source well-modulated access",
+    "ChartName": "Denesik, Franecki and Rice",
+    "ChartId": "voluptates",
     "IsDefault": false,
-    "AssociateId": 717,
-    "GroupId": 625,
-    "SelectionId": 31,
-    "Config": "et",
+    "AssociateId": 270,
+    "GroupId": 231,
+    "SelectionId": 871,
+    "Config": "qui",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Dickens LLC",
-        "Description": "Multi-layered bi-directional challenge",
+        "Name": "Reichel, Herzog and Maggio",
+        "Description": "Quality-focused object-oriented time-frame",
         "Type": "Boolean",
-        "ListName": "Hackett-Leannon",
+        "ListName": "Prohaska Inc and Sons",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "accusantium",
+        "Value": "exercitationem",
         "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 670
+            "FieldLength": 65
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 490,
+        "VisibleId": 338,
         "Visibility": "All",
-        "DisplayValue": "ex",
+        "DisplayValue": "rerum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 313
+            "FieldLength": 720
           }
         }
       },
       {
-        "VisibleId": 490,
+        "VisibleId": 338,
         "Visibility": "All",
-        "DisplayValue": "ex",
+        "DisplayValue": "rerum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 313
+            "FieldLength": 720
           }
         }
       }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldLength": 775
       }
     }
   }

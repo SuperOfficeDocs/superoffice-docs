@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 874,
-  "Name": "Zulauf, Hirthe and Dicki",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "UdListDefinitionId": 958,
-  "Rank": 492,
+  "Id": 196,
+  "Name": "Maggio-Hermiston",
+  "Tooltip": "nostrum",
+  "Deleted": false,
+  "UdListDefinitionId": 511,
+  "Rank": 691,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldLength": 170
     }
   }
 }

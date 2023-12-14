@@ -98,15 +98,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 996,
-  "ERPPriceListKey": "cum",
-  "QuoteConnectionId": 710,
-  "Name": "Gleason LLC",
-  "Description": "Vision-oriented client-server moderator",
-  "Currency": "delectus",
-  "CurrencyName": "Stark, Hauck and Baumbach",
-  "ValidFrom": "2005-04-21T13:38:18.1087815+02:00",
-  "ValidTo": "2011-09-30T13:38:18.1087815+02:00",
+  "PriceListId": 646,
+  "ERPPriceListKey": "ea",
+  "QuoteConnectionId": 851,
+  "Name": "Zemlak, Franecki and Von",
+  "Description": "Object-based demand-driven definition",
+  "Currency": "saepe",
+  "CurrencyName": "Murphy-Abbott",
+  "ValidFrom": "2006-07-24T13:57:19.8440154+02:00",
+  "ValidTo": "2006-09-12T13:57:19.8440154+02:00",
   "IsActive": false
 }
 ```
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 900,
-  "ERPPriceListKey": "non",
-  "QuoteConnectionId": 221,
-  "Name": "Haley, Funk and Lebsack",
-  "Description": "Grass-roots client-driven website",
-  "Currency": "enim",
-  "CurrencyName": "Smith-Ratke",
-  "ValidFrom": "2018-11-21T13:38:18.1087815+01:00",
-  "ValidTo": "2015-06-20T13:38:18.1087815+02:00",
-  "IsActive": true,
+  "PriceListId": 454,
+  "ERPPriceListKey": "itaque",
+  "QuoteConnectionId": 826,
+  "Name": "Schinner-Swift",
+  "Description": "Innovative high-level collaboration",
+  "Currency": "fugit",
+  "CurrencyName": "Schaden, Stiedemann and Jenkins",
+  "ValidFrom": "2010-10-30T13:57:19.8440154+02:00",
+  "ValidTo": "2001-05-18T13:57:19.8440154+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 94
+      "FieldLength": 941
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

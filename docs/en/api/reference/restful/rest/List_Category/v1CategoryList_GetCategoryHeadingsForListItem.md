@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 296,
-    "Name": "Abshire, Bechtelar and Kohler",
-    "ToolTip": "Molestias suscipit.",
+    "Id": 198,
+    "Name": "Champlin, Denesik and Stehr",
+    "ToolTip": "Dolorem praesentium molestias veniam.",
     "Deleted": false,
-    "Rank": 369,
-    "Type": "et",
-    "ColorBlock": 474,
-    "IconHint": "a",
+    "Rank": 906,
+    "Type": "architecto",
+    "ColorBlock": 93,
+    "IconHint": "adipisci",
     "Selected": false,
-    "LastChanged": "2000-09-23T13:38:17.9056813+02:00",
+    "LastChanged": "2000-10-11T13:57:19.6409229+02:00",
     "ChildItems": [
       {
-        "Id": 612,
-        "Name": "Abshire, Windler and Fahey",
-        "ToolTip": "Quis magnam qui ducimus aliquam omnis.",
+        "Id": 336,
+        "Name": "McGlynn-Prohaska",
+        "ToolTip": "Quibusdam minus ut doloremque quis vero corrupti aperiam.",
         "Deleted": false,
-        "Rank": 543,
-        "Type": "nulla",
-        "ColorBlock": 192,
-        "IconHint": "magni",
-        "Selected": false,
-        "LastChanged": "2016-02-20T13:38:17.9056813+01:00",
+        "Rank": 65,
+        "Type": "tempore",
+        "ColorBlock": 437,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2013-01-12T13:57:19.6409229+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "saepe",
+        "ExtraInfo": "vitae",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Dolly Welch",
+        "FullName": "Mable Langosh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 550
+            "FieldType": "System.String",
+            "FieldLength": 374
           }
         }
       }
     ],
     "ExtraInfo": "voluptatem",
-    "StyleHint": "quos",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Dr. Archibald Liam Walter Jr.",
+    "FullName": "Anderson Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 809
+        "FieldType": "System.Int32",
+        "FieldLength": 169
       }
     }
   }

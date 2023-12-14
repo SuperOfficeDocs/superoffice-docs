@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stracke, Donnelly and Williamson",
-  "RecordId": 516,
-  "AssociateId": 217
+  "TableName": "Hintz-Haag",
+  "RecordId": 691,
+  "AssociateId": 372
 }
 ```
 

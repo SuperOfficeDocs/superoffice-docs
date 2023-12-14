@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 760
+  "ContactId": 264
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "201.468.4175 x15829",
-    "PersonCellPhone": "534-395-7674 x5977",
-    "PersonPrivatePhone": "335.134.7572 x473",
-    "PersonFaxNumber": "627942",
-    "PersonPagerNumber": "1059239",
-    "PersonEmail": "alejandra.klein@jerde.us",
-    "Id": 422,
-    "Name": "Hansen-Conroy",
-    "Tooltip": "in",
-    "UniqueId": "facere",
+    "PersonDirectPhone": "1-671-021-6931 x897",
+    "PersonCellPhone": "348-853-6972 x211",
+    "PersonPrivatePhone": "321-770-1878",
+    "PersonFaxNumber": "373648",
+    "PersonPagerNumber": "882063",
+    "PersonEmail": "leola@collinshauck.biz",
+    "Id": 125,
+    "Name": "Adams, Weissnat and Cummings",
+    "Tooltip": "eligendi",
+    "UniqueId": "quidem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldLength": 697
       }
     }
   }

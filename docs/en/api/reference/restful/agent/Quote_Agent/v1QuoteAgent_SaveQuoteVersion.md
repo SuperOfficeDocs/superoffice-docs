@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 516,
-  "ERPQuoteVersionKey": "nihil",
-  "QuoteId": 146,
-  "Description": "Managed object-oriented process improvement",
-  "Number": "968300",
+  "QuoteVersionId": 389,
+  "ERPQuoteVersionKey": "sunt",
+  "QuoteId": 693,
+  "Description": "Vision-oriented foreground installation",
+  "Number": "362965",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "transform bricks-and-clicks schemas",
-  "LikelyQuoteAlternativeId": 765,
-  "SentDate": "2022-05-31T13:38:13.9990881+02:00",
-  "FollowupId": 957,
-  "ExpirationDate": "2018-09-13T13:38:13.9990881+02:00",
-  "DeliveryCountryId": 788,
+  "Reason": "",
+  "LikelyQuoteAlternativeId": 195,
+  "SentDate": "2017-12-08T13:57:13.0324135+01:00",
+  "FollowupId": 988,
+  "ExpirationDate": "2003-02-12T13:57:13.0324135+01:00",
+  "DeliveryCountryId": 521,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 291,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "unde",
-  "ERPPaymentTypeKey": "officiis",
-  "ERPDeliveryTermsKey": "recusandae",
-  "ERPDeliveryTypeKey": "et",
-  "Rank": 460,
-  "ApprovedBy": 686,
-  "ApprovedText": "voluptas",
-  "ApprovedRegisteredBy": 638,
-  "ApprovedRegisteredDate": "1998-03-11T13:38:13.9990881+01:00",
-  "ExtraField1": "non",
-  "ExtraField2": "sapiente",
-  "ExtraField3": "doloremque",
-  "ExtraField4": "rem",
-  "ExtraField5": "voluptates",
-  "LastRecalculated": "2005-11-25T13:38:13.9990881+01:00",
-  "Updated": "1999-02-09T13:38:13.9990881+01:00",
-  "UpdatedAssociateId": 425,
-  "Registered": "2021-11-25T13:38:13.9990881+01:00",
-  "RegisteredAssociateId": 838,
-  "RequestAssociateId": 795,
-  "RequestComment": "non",
+  "InvoiceCountryId": 175,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "odio",
+  "ERPPaymentTypeKey": "aliquid",
+  "ERPDeliveryTermsKey": "molestiae",
+  "ERPDeliveryTypeKey": "numquam",
+  "Rank": 192,
+  "ApprovedBy": 497,
+  "ApprovedText": "pariatur",
+  "ApprovedRegisteredBy": 972,
+  "ApprovedRegisteredDate": "1999-08-21T13:57:13.0324135+02:00",
+  "ExtraField1": "ea",
+  "ExtraField2": "sunt",
+  "ExtraField3": "laborum",
+  "ExtraField4": "eius",
+  "ExtraField5": "quo",
+  "LastRecalculated": "2021-12-17T13:57:13.0324135+01:00",
+  "Updated": "2015-11-06T13:57:13.0324135+01:00",
+  "UpdatedAssociateId": 591,
+  "Registered": "2007-04-12T13:57:13.0324135+02:00",
+  "RegisteredAssociateId": 243,
+  "RequestAssociateId": 970,
+  "RequestComment": "fugit",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 921,
-      "ERPQuoteAlternativeKey": "non",
-      "QuoteVersionId": 689,
-      "Name": "Funk Inc and Sons",
-      "Description": "Sharable multi-state collaboration",
+      "QuoteAlternativeId": 360,
+      "ERPQuoteAlternativeKey": "quia",
+      "QuoteVersionId": 43,
+      "Name": "Reilly, Dooley and Kirlin",
+      "Description": "Re-contextualized high-level framework",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 22762.242,
-      "ERPDiscountAmount": 20696.935999999998,
-      "DiscountPercent": 11498.645999999999,
-      "DiscountAmount": 19951.043999999998,
+      "ERPDiscountPercent": 15914.452,
+      "ERPDiscountAmount": 2200.0679999999998,
+      "DiscountPercent": 30998.394,
+      "DiscountAmount": 18340.167999999998,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "ab",
-      "VAT": 23038.034,
-      "EarningPercent": 2792.394,
-      "EarningAmount": 30769.611999999997,
-      "SubTotal": 19687.788,
-      "TotalPrice": 19195.75,
-      "ExtraField1": "nostrum",
-      "ExtraField2": "corrupti",
-      "ExtraField3": "itaque",
-      "ExtraField4": "saepe",
-      "ExtraField5": "itaque",
+      "VATInfo": "quo",
+      "VAT": 1986.956,
+      "EarningPercent": 3268.7619999999997,
+      "EarningAmount": 6603.338,
+      "SubTotal": 319.668,
+      "TotalPrice": 3973.912,
+      "ExtraField1": "sunt",
+      "ExtraField2": "quia",
+      "ExtraField3": "voluptatibus",
+      "ExtraField4": "culpa",
+      "ExtraField5": "cumque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 501
+          "FieldLength": 466
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 742
     }
   }
 }

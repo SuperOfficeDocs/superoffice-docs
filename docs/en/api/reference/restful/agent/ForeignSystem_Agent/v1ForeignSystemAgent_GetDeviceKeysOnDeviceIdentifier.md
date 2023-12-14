@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Casper, Gusikowski and White",
-  "DeviceName": "Medhurst LLC",
-  "DeviceIdentifier": "qui"
+  "ApplicationName": "Mante-Heller",
+  "DeviceName": "Wehner-Wyman",
+  "DeviceIdentifier": "sed"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ut",
-    "Value": "libero",
-    "RecordId": 143,
-    "CreatedDate": "2003-03-27T13:38:13.6396102+01:00",
-    "UpdatedDate": "2017-12-15T13:38:13.6396102+01:00",
-    "UpdatedBy": "autem",
-    "CreatedBy": "sequi",
-    "TableName": "Lubowitz Group",
+    "Key": "quo",
+    "Value": "similique",
+    "RecordId": 351,
+    "CreatedDate": "2001-04-19T13:57:12.4337359+02:00",
+    "UpdatedDate": "2005-08-16T13:57:12.4337359+02:00",
+    "UpdatedBy": "itaque",
+    "CreatedBy": "fugiat",
+    "TableName": "Bergstrom, Barton and Dickens",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldLength": 29
       }
     }
   }

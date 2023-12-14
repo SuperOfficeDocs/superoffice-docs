@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 401,
-  "NumDocumentsAlreadyMigrated": 364,
+  "NumDocumentsOmitted": 497,
+  "NumDocumentsAlreadyMigrated": 722,
   "Documents": [
     {
-      "DocumentId": 296,
-      "ContactId": 858,
-      "PersonId": 599,
-      "SaleId": 705,
-      "ProjectId": 724,
-      "DocTmplId": 323,
-      "AssociateId": 613,
-      "UserGroupId": 857,
-      "VisibleForId": 910
+      "DocumentId": 483,
+      "ContactId": 730,
+      "PersonId": 242,
+      "SaleId": 749,
+      "ProjectId": 834,
+      "DocTmplId": 175,
+      "AssociateId": 307,
+      "UserGroupId": 84,
+      "VisibleForId": 650
     }
   ],
   "Associates": [
     {
-      "AssociateId": 236,
-      "EmailAddress": "noemy@schoen.info"
+      "AssociateId": 569,
+      "EmailAddress": "terrance.effertz@balistrerijacobi.us"
     },
     {
-      "AssociateId": 236,
-      "EmailAddress": "noemy@schoen.info"
+      "AssociateId": 569,
+      "EmailAddress": "terrance.effertz@balistrerijacobi.us"
     }
   ]
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 473,
-    "Name": "Kautzer Inc and Sons",
-    "ToolTip": "Autem error.",
+    "Id": 548,
+    "Name": "Zieme, Kunde and Kuphal",
+    "ToolTip": "Expedita eveniet eaque.",
     "Deleted": false,
-    "Rank": 350,
-    "Type": "illum",
-    "ColorBlock": 681,
-    "IconHint": "soluta",
-    "Selected": false,
-    "LastChanged": "2013-01-01T13:38:18.2493876+01:00",
+    "Rank": 406,
+    "Type": "voluptates",
+    "ColorBlock": 418,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2015-06-24T13:57:20.1421596+02:00",
     "ChildItems": [
       {
-        "Id": 113,
-        "Name": "Kuhlman-Rau",
-        "ToolTip": "Deleniti sunt.",
+        "Id": 750,
+        "Name": "Upton-Williamson",
+        "ToolTip": "Alias non blanditiis.",
         "Deleted": false,
-        "Rank": 486,
-        "Type": "error",
-        "ColorBlock": 133,
-        "IconHint": "corporis",
-        "Selected": true,
-        "LastChanged": "1996-08-06T13:38:18.2493876+02:00",
+        "Rank": 149,
+        "Type": "beatae",
+        "ColorBlock": 264,
+        "IconHint": "molestiae",
+        "Selected": false,
+        "LastChanged": "2010-08-11T13:57:20.1421596+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "cupiditate",
-        "Hidden": true,
-        "FullName": "Ms. Rosa Elton Fadel",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "in",
+        "Hidden": false,
+        "FullName": "Mrs. Elton Arden Fay",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldLength": 520
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "cum",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Earnest Darien Jast III",
+    "FullName": "Mr. Colten Jermaine Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 69
+        "FieldType": "System.Int32",
+        "FieldLength": 48
       }
     }
   }

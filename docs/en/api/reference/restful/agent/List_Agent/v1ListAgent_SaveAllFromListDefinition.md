@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 603,
+  "UdListDefinitionId": 119,
   "Items": [
     {
-      "Id": 794,
-      "Name": "Veum-Bernier",
-      "Tooltip": "autem",
+      "Id": 795,
+      "Name": "Bode-Kuhn",
+      "Tooltip": "quo",
       "Deleted": false,
-      "UdListDefinitionId": 579,
-      "Rank": 282
+      "UdListDefinitionId": 878,
+      "Rank": 257
     },
     {
-      "Id": 794,
-      "Name": "Veum-Bernier",
-      "Tooltip": "autem",
+      "Id": 795,
+      "Name": "Bode-Kuhn",
+      "Tooltip": "quo",
       "Deleted": false,
-      "UdListDefinitionId": 579,
-      "Rank": 282
+      "UdListDefinitionId": 878,
+      "Rank": 257
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 303,
-    "Name": "Stanton, Boehm and Langworth",
-    "Tooltip": "et",
+    "Id": 53,
+    "Name": "Schoen Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 279,
-    "Rank": 621,
+    "UdListDefinitionId": 670,
+    "Rank": 315,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldType": "System.String",
+        "FieldLength": 558
       }
     }
   }

@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 465,
-    "Name": "Hills Group",
-    "Description": "Automated dynamic protocol",
-    "DeltaJson": "et",
+    "ConfigurableScreenDeltaId": 931,
+    "Name": "DuBuque, Yundt and Jones",
+    "Description": "Business-focused empowering structure",
+    "DeltaJson": "nemo",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "deleniti",
-    "UpdatedDate": "2004-10-08T13:38:13.2646505+02:00",
-    "CreatedDate": "2019-12-17T13:38:13.2646505+01:00",
+    "RecipeId": "dolores",
+    "UpdatedDate": "2009-01-06T13:57:11.8393076+01:00",
+    "CreatedDate": "2015-07-16T13:57:11.8393076+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      963,
-      912
+      237,
+      624
     ],
-    "AppliesToKey": "molestiae",
+    "AppliesToKey": "modi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 104
+        "FieldType": "System.Int32",
+        "FieldLength": 518
       }
     }
   }

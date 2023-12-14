@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "VonRueden-Medhurst",
-    "ToolTip": "Voluptatibus ducimus quibusdam ut sit.",
+    "Id": 50,
+    "Name": "Goyette-Dickinson",
+    "ToolTip": "Illum et autem in.",
     "Deleted": false,
-    "Rank": 687,
-    "Type": "reiciendis",
-    "ColorBlock": 306,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2013-11-24T13:38:18.0150452+01:00",
+    "Rank": 456,
+    "Type": "animi",
+    "ColorBlock": 398,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2023-01-05T13:57:19.6877703+01:00",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Bernhard-Tillman",
-        "ToolTip": "Nam occaecati velit doloribus.",
-        "Deleted": true,
-        "Rank": 925,
-        "Type": "quod",
-        "ColorBlock": 394,
-        "IconHint": "praesentium",
+        "Id": 737,
+        "Name": "Marks-Fay",
+        "ToolTip": "Sapiente corrupti necessitatibus dolore eum.",
+        "Deleted": false,
+        "Rank": 349,
+        "Type": "deleniti",
+        "ColorBlock": 57,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2004-09-29T13:38:18.0150452+02:00",
+        "LastChanged": "2017-11-07T13:57:19.6877703+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "at",
         "Hidden": false,
-        "FullName": "Katrine Larkin",
+        "FullName": "Litzy Heller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 150
+            "FieldLength": 358
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "fuga",
+    "ExtraInfo": "qui",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Mrs. Kay Holly Upton II",
+    "FullName": "Luther Bruen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 795
+        "FieldType": "System.String",
+        "FieldLength": 601
       }
     }
   }

@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 77,
-  "Name": "Tromp-Steuber",
-  "Tooltip": "et",
-  "Rank": 762,
+  "SaleTypeId": 106,
+  "Name": "Abernathy, Tillman and Wyman",
+  "Tooltip": "sit",
+  "Rank": 39,
   "DurationUnit": "Century",
-  "SaleDuration": 358,
-  "SaleTypeCatId": 693,
-  "Deleted": false,
-  "HasGuide": false,
+  "SaleDuration": 149,
+  "SaleTypeCatId": 199,
+  "Deleted": true,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 967,
-  "QuoteLinesTemplate": 494,
-  "ConfirmationLinesTemplate": 96,
+  "DefaultQuoteValidity": 374,
+  "QuoteLinesTemplate": 673,
+  "ConfirmationLinesTemplate": 481,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 955,
-  "MinEarningPercent": 496,
-  "GroupQuoteLinesBy": 283,
-  "SortGroupLinesBy": 127,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 38,
+  "MinEarningPercent": 829,
+  "GroupQuoteLinesBy": 679,
+  "SortGroupLinesBy": 932,
   "Stages": [
     {
-      "Id": 491,
-      "Name": "Schamberger-Marquardt",
-      "ToolTip": "Rerum alias aliquid dolorem.",
-      "Deleted": true,
+      "Id": 937,
+      "Name": "Schumm LLC",
+      "ToolTip": "Voluptas vitae odit officia dicta quis.",
+      "Deleted": false,
       "Rank": 85,
-      "Type": "culpa",
-      "ColorBlock": 420,
-      "IconHint": "aut",
-      "Selected": false,
-      "LastChanged": "2021-05-21T13:38:18.2181419+02:00",
+      "Type": "at",
+      "ColorBlock": 833,
+      "IconHint": "nihil",
+      "Selected": true,
+      "LastChanged": "2013-12-27T13:57:20.1109105+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ratione",
-      "StyleHint": "aut",
+      "ExtraInfo": "nam",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Amira Nienow"
+      "FullName": "Ms. Ashly Toy V"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 362,
-  "Name": "Collins LLC",
-  "Tooltip": "voluptatibus",
-  "Rank": 743,
+  "SaleTypeId": 720,
+  "Name": "Bogan, Heathcote and Grimes",
+  "Tooltip": "consequuntur",
+  "Rank": 792,
   "DurationUnit": "Century",
-  "SaleDuration": 280,
-  "SaleTypeCatId": 334,
+  "SaleDuration": 827,
+  "SaleTypeCatId": 639,
   "Deleted": true,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 8,
-  "QuoteLinesTemplate": 216,
-  "ConfirmationLinesTemplate": 350,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 423,
+  "QuoteLinesTemplate": 324,
+  "ConfirmationLinesTemplate": 488,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 352,
-  "MinEarningPercent": 620,
-  "GroupQuoteLinesBy": 579,
-  "SortGroupLinesBy": 560,
+  "MaxDiscountPercent": 489,
+  "MinEarningPercent": 562,
+  "GroupQuoteLinesBy": 500,
+  "SortGroupLinesBy": 953,
   "Stages": [
     {
-      "Id": 983,
-      "Name": "Murray, Bayer and Kozey",
-      "ToolTip": "Impedit earum est doloremque in officiis id.",
-      "Deleted": true,
-      "Rank": 10,
-      "Type": "natus",
-      "ColorBlock": 815,
-      "IconHint": "natus",
+      "Id": 465,
+      "Name": "Smith, Macejkovic and Balistreri",
+      "ToolTip": "Voluptatem minima sint cumque dicta nobis recusandae alias.",
+      "Deleted": false,
+      "Rank": 374,
+      "Type": "et",
+      "ColorBlock": 833,
+      "IconHint": "quia",
       "Selected": false,
-      "LastChanged": "2012-02-10T13:38:18.2181419+01:00",
+      "LastChanged": "2014-03-26T13:57:20.1109105+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repellendus",
-      "StyleHint": "ipsam",
-      "Hidden": true,
-      "FullName": "Clyde Gottlieb",
+      "ExtraInfo": "magni",
+      "StyleHint": "dolorem",
+      "Hidden": false,
+      "FullName": "Clarabelle Johan Hartmann II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 535
+          "FieldType": "System.String",
+          "FieldLength": 877
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldType": "System.Int32",
+      "FieldLength": 447
     }
   }
 }

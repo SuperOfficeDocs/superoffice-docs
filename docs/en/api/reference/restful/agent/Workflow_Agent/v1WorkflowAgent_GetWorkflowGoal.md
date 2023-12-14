@@ -26,7 +26,7 @@ Gets a WorkflowGoal object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=566
+POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=15
 POST /api/v1/Agents/Workflow/GetWorkflowGoal?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 407,
-  "WorkflowId": 863,
+  "WorkflowGoalId": 528,
+  "WorkflowId": 942,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Kessler-Watsica",
-      "Description": "Focused content-based parallelism",
-      "Rank": 81,
+      "Name": "Towne, Halvorson and Walsh",
+      "Description": "Stand-alone tangible methodology",
+      "Rank": 985,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kessler-Watsica",
-      "Description": "Focused content-based parallelism",
-      "Rank": 81,
+      "Name": "Towne, Halvorson and Walsh",
+      "Description": "Stand-alone tangible methodology",
+      "Rank": 985,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldLength": 673
     }
   }
 }

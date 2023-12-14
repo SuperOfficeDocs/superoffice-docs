@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 132,
-    "Name": "Klein LLC",
-    "Tooltip": "inventore",
+    "HeadingId": 713,
+    "Name": "Cronin, Greenholt and Johns",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 676,
-    "UdListDefinitionId": 653
+    "Rank": 22,
+    "UdListDefinitionId": 663
   },
   {
-    "HeadingId": 132,
-    "Name": "Klein LLC",
-    "Tooltip": "inventore",
+    "HeadingId": 713,
+    "Name": "Cronin, Greenholt and Johns",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 676,
-    "UdListDefinitionId": 653
+    "Rank": 22,
+    "UdListDefinitionId": 663
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 265,
-    "Name": "Stiedemann-Stoltenberg",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 424,
-    "UdListDefinitionId": 201,
+    "HeadingId": 709,
+    "Name": "Rowe LLC",
+    "Tooltip": "voluptatibus",
+    "Deleted": false,
+    "Rank": 858,
+    "UdListDefinitionId": 473,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldLength": 352
       }
     }
   }

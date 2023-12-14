@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 449
+  "DocumentId": 236
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Roob Inc and Sons",
-  "Type": "porro",
-  "Size": 286,
+  "Name": "Cole-Daugherty",
+  "Type": "velit",
+  "Size": 724,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 884
+      "FieldLength": 739
     }
   }
 }

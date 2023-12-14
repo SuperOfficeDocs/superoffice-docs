@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Dicki-Bartoletti",
-  "Comment": "doloremque",
-  "StakeholderRoleId": 238,
-  "CountryId": 107,
-  "PersonId": 388,
-  "EmailDescription": "orrin_kerluke@grimes.biz",
-  "EmailId": 87,
-  "EmailAddress": "adele@orn.name",
-  "PhoneId": 424,
-  "ContactName": "Donnelly, Greenholt and Gislason",
-  "ContactId": 463,
-  "SaleId": 247,
-  "Mrmrs": "adipisci",
-  "Firstname": "Kirk",
-  "MiddleName": "Grant, Goldner and Lynch",
-  "Lastname": "Funk",
-  "SaleStakeholderId": 78,
-  "Rank": 645,
-  "Phone": "441-085-3196 x06766",
+  "StakeholderRoleName": "Macejkovic Inc and Sons",
+  "Comment": "ducimus",
+  "StakeholderRoleId": 426,
+  "CountryId": 390,
+  "PersonId": 610,
+  "EmailDescription": "amely.dickinson@hickle.com",
+  "EmailId": 599,
+  "EmailAddress": "damien@mraz.co.uk",
+  "PhoneId": 260,
+  "ContactName": "Wisozk, Maggio and Gislason",
+  "ContactId": 174,
+  "SaleId": 192,
+  "Mrmrs": "est",
+  "Firstname": "Triston",
+  "MiddleName": "Kertzmann-Braun",
+  "Lastname": "Williamson",
+  "SaleStakeholderId": 173,
+  "Rank": 949,
+  "Phone": "795.163.8628 x230",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 360
     }
   },
   "_Links": {

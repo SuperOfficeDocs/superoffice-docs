@@ -97,19 +97,19 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 578,
-  "BlobSize": 72,
-  "Description": "Focused bandwidth-monitored matrices",
-  "ExtraInfo": "eligendi",
+  "BlobId": 916,
+  "BlobSize": 787,
+  "Description": "Synchronised analyzing intranet",
+  "ExtraInfo": "nesciunt",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "iusto",
-  "OriginalSize": 188,
-  "CreatedDate": "2004-07-12T13:38:17.5305626+02:00",
-  "UpdatedDate": "2012-02-09T13:38:17.5305626+01:00",
+  "IsZipped": true,
+  "MimeType": "eum",
+  "OriginalSize": 841,
+  "CreatedDate": "1996-09-16T13:57:18.9528139+02:00",
+  "UpdatedDate": "2002-01-25T13:57:18.9528139+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "molestiae"
+  "ConceptualType": "quam"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 453,
-  "BlobSize": 539,
-  "Description": "Integrated executive methodology",
-  "ExtraInfo": "possimus",
-  "IsEncrypted": false,
+  "BlobId": 521,
+  "BlobSize": 533,
+  "Description": "Optional explicit website",
+  "ExtraInfo": "voluptas",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "vero",
-  "OriginalSize": 942,
-  "CreatedDate": "2016-04-07T13:38:17.5305626+02:00",
-  "UpdatedDate": "2008-07-15T13:38:17.5305626+02:00",
+  "MimeType": "laboriosam",
+  "OriginalSize": 388,
+  "CreatedDate": "2002-10-19T13:57:18.9528139+02:00",
+  "UpdatedDate": "2006-07-12T13:57:18.9528139+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "debitis",
+  "ConceptualType": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 743
     }
   }
 }

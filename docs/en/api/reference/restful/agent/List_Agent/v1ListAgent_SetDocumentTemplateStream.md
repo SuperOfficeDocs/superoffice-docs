@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "omnis",
-  "PluginId": 785
+  "LanguageCode": "sapiente",
+  "PluginId": 1000
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 933,
-  "Name": "Walker, Weimann and Kuvalis",
-  "Tooltip": "vitae",
-  "SaveInDb": 824,
-  "Filename": "quasi",
-  "DefaultOref": "voluptatem",
+  "DocumentTemplateId": 643,
+  "Name": "Hartmann Group",
+  "Tooltip": "magnam",
+  "SaveInDb": 638,
+  "Filename": "pariatur",
+  "DefaultOref": "iusto",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 887,
-  "IntentId": 700,
-  "IsDefaultPublished": false,
-  "Rank": 663,
-  "LoadTemplateFromPlugin": 337,
-  "MimeType": "vitae",
+  "AutoeventId": 250,
+  "IntentId": 64,
+  "IsDefaultPublished": true,
+  "Rank": 408,
+  "LoadTemplateFromPlugin": 8,
+  "MimeType": "voluptate",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 811,
+  "DocumentTypeKey": 395,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "davin@champlin.biz",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "noelia@weissnatnader.ca",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "maria@parisian.name",
+  "SenderEmailAddress": "kellie@homenick.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldType": "System.Int32",
+      "FieldLength": 900
     }
   }
 }

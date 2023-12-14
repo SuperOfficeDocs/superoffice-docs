@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 389,
-    "Name": "Koss, Ortiz and Kutch",
-    "Tooltip": "quasi",
-    "Rank": 951,
-    "Rate": 8909.962,
-    "Units": 28274.948,
+    "CurrencyId": 825,
+    "Name": "Keeling-Brakus",
+    "Tooltip": "vel",
+    "Rank": 446,
+    "Rate": 11752.5,
+    "Units": 10263.85,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 216
+        "FieldType": "System.Int32",
+        "FieldLength": 463
       }
     }
   }

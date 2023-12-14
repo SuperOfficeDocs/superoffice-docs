@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 964,
-    "Name": "Hettinger Group",
-    "ToolTip": "Error ut similique aperiam eos velit.",
-    "Deleted": true,
-    "Rank": 730,
-    "Type": "ut",
-    "ColorBlock": 299,
-    "IconHint": "ab",
+    "Id": 873,
+    "Name": "Botsford Inc and Sons",
+    "ToolTip": "Animi perferendis quo ut.",
+    "Deleted": false,
+    "Rank": 657,
+    "Type": "suscipit",
+    "ColorBlock": 621,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2005-07-01T13:38:18.2181419+02:00",
+    "LastChanged": "2018-12-18T13:57:20.1109105+01:00",
     "ChildItems": [
       {
-        "Id": 324,
-        "Name": "Moore-Morar",
-        "ToolTip": "Rerum harum ratione quia omnis debitis mollitia.",
+        "Id": 937,
+        "Name": "Gottlieb-Romaguera",
+        "ToolTip": "Illum officia harum voluptatum dolorum.",
         "Deleted": true,
-        "Rank": 182,
-        "Type": "beatae",
-        "ColorBlock": 207,
-        "IconHint": "veniam",
-        "Selected": true,
-        "LastChanged": "2009-04-12T13:38:18.2181419+02:00",
+        "Rank": 674,
+        "Type": "repellat",
+        "ColorBlock": 698,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2004-05-10T13:57:20.1109105+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "sit",
+        "ExtraInfo": "dolore",
+        "StyleHint": "illum",
         "Hidden": false,
-        "FullName": "Prof. Camden Nienow",
+        "FullName": "Caleb Cordelia Koelpin III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 364
+            "FieldType": "System.Int32",
+            "FieldLength": 571
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "dolores",
+    "ExtraInfo": "vitae",
+    "StyleHint": "temporibus",
     "Hidden": false,
-    "FullName": "Prof. Rex Tracy Collins IV",
+    "FullName": "Lauriane Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 608
+        "FieldType": "System.Int32",
+        "FieldLength": 500
       }
     }
   }

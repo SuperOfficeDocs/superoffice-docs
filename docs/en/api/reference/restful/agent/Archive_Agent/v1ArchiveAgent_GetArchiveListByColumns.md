@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Satterfield Inc and Sons",
+  "ProviderName": "Mueller, Mayert and Brown",
   "Columns": [
-    "et",
-    "voluptate"
+    "dolorem",
+    "tempora"
   ],
   "SortOrder": [
     {
-      "Name": "Kautzer, Lindgren and Ortiz",
+      "Name": "Schiller Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Kautzer, Lindgren and Ortiz",
+      "Name": "Schiller Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Graham Group",
-      "Operator": "ut",
+      "Name": "Sporer LLC",
+      "Operator": "dolore",
       "Values": [
-        "eligendi",
-        "ut"
+        "architecto",
+        "nobis"
       ],
       "DisplayValues": [
-        "omnis",
-        "est"
+        "aperiam",
+        "natus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,17 +140,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 549,
+      "InterParenthesis": 250,
       "InterOperator": "And",
-      "UniqueHash": 810
+      "UniqueHash": 967
     }
   ],
   "Entities": [
-    "corrupti",
-    "ut"
+    "non",
+    "qui"
   ],
-  "Page": 69,
-  "PageSize": 874
+  "Page": 446,
+  "PageSize": 314
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Lebsack-Jacobs",
-    "PrimaryKey": 447,
+    "EntityName": "Mills-Koss",
+    "PrimaryKey": 145,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptate",
-        "TooltipHint": "autem",
-        "LinkHint": "commodi"
+        "DisplayValue": "aut",
+        "TooltipHint": "unde",
+        "LinkHint": "cum"
       }
     },
-    "LinkHint": "expedita",
-    "StyleHint": "consequuntur",
+    "LinkHint": "beatae",
+    "StyleHint": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldLength": 834
       }
     }
   }

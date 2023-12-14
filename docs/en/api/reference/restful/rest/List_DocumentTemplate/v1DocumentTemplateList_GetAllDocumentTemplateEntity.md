@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 915,
-    "Name": "Bernier Inc and Sons",
-    "Tooltip": "temporibus",
-    "SaveInDb": 652,
-    "Filename": "qui",
-    "DefaultOref": "quia",
+    "DocumentTemplateId": 202,
+    "Name": "Kuhlman, Boehm and Leannon",
+    "Tooltip": "asperiores",
+    "SaveInDb": 796,
+    "Filename": "laudantium",
+    "DefaultOref": "sint",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 654,
-    "IntentId": 442,
+    "AutoeventId": 371,
+    "IntentId": 122,
     "IsDefaultPublished": true,
-    "Rank": 435,
-    "LoadTemplateFromPlugin": 571,
-    "MimeType": "sequi",
-    "IsInUseInGuides": true,
+    "Rank": 589,
+    "LoadTemplateFromPlugin": 325,
+    "MimeType": "inventore",
+    "IsInUseInGuides": false,
     "DocumentTypeKey": 781,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "anthony@walkerhowe.us",
-    "IncludeSignature": false,
-    "ShowCurrents": true,
+    "EmailSubject": "haskell@mosciski.uk",
+    "IncludeSignature": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "patience_walker@ruecker.ca",
+    "SenderEmailAddress": "jonathan.leannon@lemke.ca",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 207
+        "FieldType": "System.Int32",
+        "FieldLength": 491
       }
     }
   }

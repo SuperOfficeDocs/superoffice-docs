@@ -76,7 +76,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Email": null,
-  "StripAttachments": false
+  "StripAttachments": true
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"gaylord@oconner.info"
+"hayden_padberg@vonruedenhaag.ca"
 ```

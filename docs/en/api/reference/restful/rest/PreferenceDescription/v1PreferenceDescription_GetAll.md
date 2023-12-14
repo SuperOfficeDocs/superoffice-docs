@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 126,
-    "Section": "vel",
-    "Key": "velit",
-    "Name": "Langosh, Kunde and Mertz",
+    "PrefDescId": 774,
+    "Section": "aperiam",
+    "Key": "fugit",
+    "Name": "Pfannerstill, Murazik and Reilly",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "De-engineered background open system",
+    "Description": "Robust uniform approach",
     "IsBuiltin": false,
-    "TableName": "Hoppe-Cremin",
-    "UserDefinedListId": 530,
-    "Rank": 384,
-    "SubGroup": "facilis",
-    "MinLevel": 567,
-    "MaxValue": 610,
-    "MinValue": 250,
-    "RequiredLicense": "deserunt",
+    "TableName": "Murray, Littel and McClure",
+    "UserDefinedListId": 524,
+    "Rank": 206,
+    "SubGroup": "dolor",
+    "MinLevel": 488,
+    "MaxValue": 591,
+    "MinValue": 387,
+    "RequiredLicense": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldType": "System.String",
+        "FieldLength": 284
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Abernathy-Feeney",
-    "Description": "Upgradable multi-tasking paradigm",
+    "Name": "Feil-Blanda",
+    "Description": "Horizontal multi-state hierarchy",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 841,
-        "Tooltip": "et",
+        "Total": 381,
+        "Tooltip": "nobis",
         "CanAssign": false,
-        "Free": 912,
-        "InUse": 471,
+        "Free": 672,
+        "InUse": 307,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 754,
-        "Name": "O'Connell-Ruecker",
-        "Description": "Synergized 3rd generation intranet",
-        "PrerequisiteModuleName": "Langworth, Abbott and Gottlieb",
-        "SortOrder": 26,
-        "ExtraFlags": 166,
+        "ModuleLicenseId": 13,
+        "Name": "Botsford Inc and Sons",
+        "Description": "Devolved multimedia local area network",
+        "PrerequisiteModuleName": "Dach-Schulist",
+        "SortOrder": 626,
+        "ExtraFlags": 664,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 127
+            "FieldLength": 663
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 433,
-        "Tooltip": "possimus",
+        "Unrestricted": true,
+        "Total": 681,
+        "Tooltip": "sed",
         "CanAssign": false,
-        "Free": 342,
-        "InUse": 416,
+        "Free": 807,
+        "InUse": 19,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 332,
-        "Name": "Conn, Gerlach and Schulist",
-        "Description": "Multi-tiered 4th generation infrastructure",
-        "PrerequisiteModuleName": "Runte, Cronin and Spencer",
-        "SortOrder": 736,
-        "ExtraFlags": 254,
+        "Assigned": true,
+        "ModuleLicenseId": 668,
+        "Name": "Hegmann, Lakin and Kunde",
+        "Description": "Business-focused homogeneous contingency",
+        "PrerequisiteModuleName": "Hyatt, Terry and Kovacek",
+        "SortOrder": 899,
+        "ExtraFlags": 366,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 348
+            "FieldLength": 278
           }
         }
       }
@@ -132,61 +132,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldLength": 781
       }
     }
   },
   {
-    "Name": "Abernathy-Feeney",
-    "Description": "Upgradable multi-tasking paradigm",
+    "Name": "Feil-Blanda",
+    "Description": "Horizontal multi-state hierarchy",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 841,
-        "Tooltip": "et",
+        "Total": 381,
+        "Tooltip": "nobis",
         "CanAssign": false,
-        "Free": 912,
-        "InUse": 471,
+        "Free": 672,
+        "InUse": 307,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 754,
-        "Name": "O'Connell-Ruecker",
-        "Description": "Synergized 3rd generation intranet",
-        "PrerequisiteModuleName": "Langworth, Abbott and Gottlieb",
-        "SortOrder": 26,
-        "ExtraFlags": 166,
+        "ModuleLicenseId": 13,
+        "Name": "Botsford Inc and Sons",
+        "Description": "Devolved multimedia local area network",
+        "PrerequisiteModuleName": "Dach-Schulist",
+        "SortOrder": 626,
+        "ExtraFlags": 664,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 127
+            "FieldLength": 663
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 433,
-        "Tooltip": "possimus",
+        "Unrestricted": true,
+        "Total": 681,
+        "Tooltip": "sed",
         "CanAssign": false,
-        "Free": 342,
-        "InUse": 416,
+        "Free": 807,
+        "InUse": 19,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 332,
-        "Name": "Conn, Gerlach and Schulist",
-        "Description": "Multi-tiered 4th generation infrastructure",
-        "PrerequisiteModuleName": "Runte, Cronin and Spencer",
-        "SortOrder": 736,
-        "ExtraFlags": 254,
+        "Assigned": true,
+        "ModuleLicenseId": 668,
+        "Name": "Hegmann, Lakin and Kunde",
+        "Description": "Business-focused homogeneous contingency",
+        "PrerequisiteModuleName": "Hyatt, Terry and Kovacek",
+        "SortOrder": 899,
+        "ExtraFlags": 366,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 348
+            "FieldLength": 278
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldLength": 781
       }
     }
   }

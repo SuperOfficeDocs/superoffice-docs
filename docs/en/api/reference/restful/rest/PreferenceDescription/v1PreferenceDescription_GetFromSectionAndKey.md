@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 998,
-  "Section": "libero",
-  "Key": "sit",
-  "Name": "Pacocha-Waelchi",
+  "PrefDescId": 887,
+  "Section": "consequatur",
+  "Key": "quis",
+  "Name": "Dickens-Rodriguez",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reduced non-volatile forecast",
+  "Description": "Implemented context-sensitive migration",
   "IsBuiltin": false,
-  "TableName": "O'Keefe, Haag and Mitchell",
-  "UserDefinedListId": 850,
-  "Rank": 707,
-  "SubGroup": "modi",
-  "MinLevel": 710,
-  "MaxValue": 685,
-  "MinValue": 719,
-  "RequiredLicense": "mollitia",
+  "TableName": "Collier, Sipes and Kunze",
+  "UserDefinedListId": 161,
+  "Rank": 743,
+  "SubGroup": "ut",
+  "MinLevel": 869,
+  "MaxValue": 604,
+  "MinValue": 600,
+  "RequiredLicense": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldLength": 951
     }
   }
 }

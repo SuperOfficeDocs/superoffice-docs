@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 273,
-    "Name": "Ondricka LLC",
-    "Tooltip": "dolores",
+    "HeadingId": 540,
+    "Name": "Bergnaum Group",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "Rank": 289,
-    "UdListDefinitionId": 601
+    "Rank": 740,
+    "UdListDefinitionId": 837
   },
   {
-    "HeadingId": 273,
-    "Name": "Ondricka LLC",
-    "Tooltip": "dolores",
+    "HeadingId": 540,
+    "Name": "Bergnaum Group",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "Rank": 289,
-    "UdListDefinitionId": 601
+    "Rank": 740,
+    "UdListDefinitionId": 837
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 331,
-    "Name": "Goyette, Schinner and Osinski",
-    "Tooltip": "voluptatibus",
-    "Deleted": false,
-    "Rank": 966,
-    "UdListDefinitionId": 461,
+    "HeadingId": 523,
+    "Name": "Champlin Inc and Sons",
+    "Tooltip": "sint",
+    "Deleted": true,
+    "Rank": 243,
+    "UdListDefinitionId": 311,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldType": "System.String",
+        "FieldLength": 371
       }
     }
   }

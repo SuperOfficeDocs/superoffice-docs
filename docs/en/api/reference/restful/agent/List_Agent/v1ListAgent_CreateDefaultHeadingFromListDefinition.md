@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 298
+  "UdListDefinitionId": 448
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 394,
-  "Name": "Zulauf Inc and Sons",
-  "Tooltip": "est",
+  "HeadingId": 847,
+  "Name": "Larkin Inc and Sons",
+  "Tooltip": "minima",
   "Deleted": false,
-  "Rank": 879,
-  "UdListDefinitionId": 37,
+  "Rank": 172,
+  "UdListDefinitionId": 430,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldLength": 368
     }
   }
 }

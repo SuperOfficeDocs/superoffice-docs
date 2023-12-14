@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 499
+  "QuoteId": 861
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 637,
-    "ERPQuoteVersionKey": "rerum",
-    "QuoteId": 612,
-    "Description": "Front-line needs-based core",
-    "Number": "1391465",
+    "QuoteVersionId": 31,
+    "ERPQuoteVersionKey": "commodi",
+    "QuoteId": 257,
+    "Description": "Ergonomic object-oriented pricing structure",
+    "Number": "1387556",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 325,
-    "SentDate": "2020-03-29T13:38:13.9990881+02:00",
-    "FollowupId": 730,
-    "ExpirationDate": "2008-06-12T13:38:13.9990881+02:00",
-    "DeliveryCountryId": 379,
+    "LikelyQuoteAlternativeId": 942,
+    "SentDate": "2015-01-20T13:57:13.0324135+01:00",
+    "FollowupId": 972,
+    "ExpirationDate": "2021-04-09T13:57:13.0324135+02:00",
+    "DeliveryCountryId": 897,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 157,
+    "InvoiceCountryId": 461,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "delectus",
-    "ERPPaymentTypeKey": "aut",
-    "ERPDeliveryTermsKey": "laudantium",
-    "ERPDeliveryTypeKey": "error",
-    "Rank": 491,
-    "ApprovedBy": 756,
-    "ApprovedText": "officiis",
-    "ApprovedRegisteredBy": 697,
-    "ApprovedRegisteredDate": "2022-01-12T13:38:13.9990881+01:00",
-    "ExtraField1": "provident",
-    "ExtraField2": "minima",
-    "ExtraField3": "porro",
-    "ExtraField4": "incidunt",
-    "ExtraField5": "voluptatibus",
-    "LastRecalculated": "2010-03-12T13:38:13.9990881+01:00",
-    "Updated": "2020-01-09T13:38:13.9990881+01:00",
-    "UpdatedAssociateId": 182,
-    "Registered": "2004-05-13T13:38:13.9990881+02:00",
-    "RegisteredAssociateId": 598,
-    "RequestAssociateId": 948,
-    "RequestComment": "nihil",
+    "ERPPaymentTermsKey": "quo",
+    "ERPPaymentTypeKey": "harum",
+    "ERPDeliveryTermsKey": "delectus",
+    "ERPDeliveryTypeKey": "cupiditate",
+    "Rank": 472,
+    "ApprovedBy": 856,
+    "ApprovedText": "magnam",
+    "ApprovedRegisteredBy": 906,
+    "ApprovedRegisteredDate": "2022-05-12T13:57:13.0324135+02:00",
+    "ExtraField1": "tempore",
+    "ExtraField2": "est",
+    "ExtraField3": "beatae",
+    "ExtraField4": "inventore",
+    "ExtraField5": "quo",
+    "LastRecalculated": "2012-01-17T13:57:13.0324135+01:00",
+    "Updated": "2018-09-08T13:57:13.0324135+02:00",
+    "UpdatedAssociateId": 5,
+    "Registered": "1999-01-07T13:57:13.0324135+01:00",
+    "RegisteredAssociateId": 509,
+    "RequestAssociateId": 69,
+    "RequestComment": "et",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 959,
-        "ERPQuoteAlternativeKey": "animi",
-        "QuoteVersionId": 5,
-        "Name": "Toy Group",
-        "Description": "Fundamental cohesive alliance",
+        "QuoteAlternativeId": 889,
+        "ERPQuoteAlternativeKey": "a",
+        "QuoteVersionId": 53,
+        "Name": "Stiedemann Inc and Sons",
+        "Description": "Customer-focused didactic concept",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 1172.116,
-        "ERPDiscountAmount": 7505.9299999999994,
-        "DiscountPercent": 6885.398,
-        "DiscountAmount": 29926.566,
+        "ERPDiscountPercent": 13197.274,
+        "ERPDiscountAmount": 20753.347999999998,
+        "DiscountPercent": 13241.15,
+        "DiscountAmount": 30929.446,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "modi",
-        "VAT": 9050.992,
-        "EarningPercent": 5258.852,
-        "EarningAmount": 11765.036,
-        "SubTotal": 23827.802,
-        "TotalPrice": 25983.994,
-        "ExtraField1": "tempora",
-        "ExtraField2": "aut",
-        "ExtraField3": "optio",
-        "ExtraField4": "vel",
-        "ExtraField5": "omnis",
+        "VATInfo": "quo",
+        "VAT": 17362.36,
+        "EarningPercent": 4613.248,
+        "EarningAmount": 24470.272,
+        "SubTotal": 11768.17,
+        "TotalPrice": 25623.584,
+        "ExtraField1": "quasi",
+        "ExtraField2": "sint",
+        "ExtraField3": "dolorem",
+        "ExtraField4": "aut",
+        "ExtraField5": "animi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 589
+            "FieldLength": 802
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldLength": 536
       }
     }
   }

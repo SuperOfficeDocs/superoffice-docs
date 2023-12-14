@@ -92,78 +92,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 813,
+  "EjMessageId": 676,
   "Ticket": null,
-  "CreatedAt": "2019-09-04T13:38:14.2178238+02:00",
+  "CreatedAt": "2017-07-26T13:57:13.3333445+02:00",
   "CreatedBy": null,
-  "Author": "aliquam",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "hic",
-  "TimeSpent": 811,
-  "Body": "non",
-  "HtmlBody": "eaque",
-  "EmailHeader": "lexie.herman@stromanpfannerstill.uk",
-  "DebugInfo": "eius",
-  "MailSorter": "ex",
+  "MessageId": "sed",
+  "TimeSpent": 766,
+  "Body": "maxime",
+  "HtmlBody": "praesentium",
+  "EmailHeader": "lupe_dooley@stehr.com",
+  "DebugInfo": "at",
+  "MailSorter": "exercitationem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "reiciendis",
+  "SearchTitle": "nemo",
   "MessageHeaders": [
     {
-      "Id": 42,
-      "Name": "Pouros LLC",
-      "Value": "rerum",
+      "Id": 234,
+      "Name": "Jacobi-Romaguera",
+      "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 127
+          "FieldType": "System.String",
+          "FieldLength": 853
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quia",
-  "Sentiment": 725,
-  "SentimentConfidence": 40,
+  "Language": "reiciendis",
+  "Sentiment": 427,
+  "SentimentConfidence": 968,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 478,
-      "Name": "Hegmann LLC",
-      "ContentType": "recusandae",
-      "AttSize": 548,
-      "InlineImage": false,
-      "ContentId": "eos",
-      "AuthKey": "corporis",
+      "AttachmentId": 518,
+      "Name": "Langosh-Hettinger",
+      "ContentType": "unde",
+      "AttSize": 830,
+      "InlineImage": true,
+      "ContentId": "et",
+      "AuthKey": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldType": "System.String",
+          "FieldLength": 97
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "magnam",
-    "ExtraFields2": "deleniti"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "voluptatibus"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "similique",
+    "CustomFields2": "nobis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 241
+      "FieldType": "System.Int32",
+      "FieldLength": 685
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=134
+POST /api/v1/Agents/Document/GetDocument?documentId=289
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 378,
-  "Attention": "voluptas",
-  "Header": "dicta",
-  "Name": "Rowe, Gerhold and Dach",
-  "OurRef": "sit",
-  "YourRef": "quia",
-  "Description": "Down-sized upward-trending flexibility",
-  "DocumentTemplate": "ea",
-  "IsPublished": false,
-  "PersonId": 844,
-  "PersonFullName": "Brandi Toby Waelchi PhD",
-  "AssociateFullName": "Aidan Ila Douglas II",
-  "ContactId": 526,
-  "ContactName": "Stoltenberg-Nienow",
-  "ProjectId": 759,
-  "ProjectName": "Tremblay-Yundt",
-  "AssociateId": 936,
-  "Snum": 849,
-  "SaleId": 166,
-  "SaleName": "Gottlieb, Kreiger and Dach",
+  "DocumentId": 316,
+  "Attention": "ut",
+  "Header": "totam",
+  "Name": "Paucek-Sawayn",
+  "OurRef": "laboriosam",
+  "YourRef": "adipisci",
+  "Description": "Synchronised incremental neural-net",
+  "DocumentTemplate": "quia",
+  "IsPublished": true,
+  "PersonId": 284,
+  "PersonFullName": "Prof. Barton Lockman",
+  "AssociateFullName": "Mr. Bart Medhurst",
+  "ContactId": 139,
+  "ContactName": "Swift, Bogan and Hansen",
+  "ProjectId": 534,
+  "ProjectName": "Huels, McGlynn and Brakus",
+  "AssociateId": 22,
+  "Snum": 929,
+  "SaleId": 660,
+  "SaleName": "Weber-Herman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldLength": 378
     }
   }
 }

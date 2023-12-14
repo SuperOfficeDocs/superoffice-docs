@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "quis",
-    "DocumentId": 485,
-    "VersionId": "illo",
-    "CheckedInDate": "2013-12-01T13:38:17.4212037+01:00",
-    "CheckedInByName": "Goodwin Inc and Sons",
-    "CheckedInByAssociateId": 901,
-    "Description": "Advanced 5th generation secured line",
-    "DisplayText": "inventore",
+    "ExternalReference": "aliquid",
+    "DocumentId": 936,
+    "VersionId": "dicta",
+    "CheckedInDate": "2017-07-07T13:57:18.7797241+02:00",
+    "CheckedInByName": "Sauer Inc and Sons",
+    "CheckedInByAssociateId": 937,
+    "Description": "Enterprise-wide local time-frame",
+    "DisplayText": "perferendis",
     "ExtraFields": [
-      "debitis",
-      "omnis"
+      "et",
+      "molestiae"
     ]
   }
 ]

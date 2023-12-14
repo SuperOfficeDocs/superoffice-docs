@@ -70,12 +70,12 @@ Content-Type: application/json; charset=utf-8
 {
   "FeatureToggles": [
     {
-      "Name": "Kulas, Hirthe and Reichel",
-      "State": true
+      "Name": "Maggio, Hayes and Bednar",
+      "State": false
     },
     {
-      "Name": "Kulas, Hirthe and Reichel",
-      "State": true
+      "Name": "Maggio, Hayes and Bednar",
+      "State": false
     }
   ]
 }

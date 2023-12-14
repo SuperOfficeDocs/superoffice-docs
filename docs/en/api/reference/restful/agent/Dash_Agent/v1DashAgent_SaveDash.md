@@ -91,30 +91,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 505,
-  "UniqueId": "porro",
-  "Name": "Hartmann LLC",
-  "Description": "Upgradable stable circuit",
-  "AssociateId": 732,
-  "Columns": 697,
+  "DashboardId": 362,
+  "UniqueId": "dignissimos",
+  "Name": "Von, Walsh and Lockman",
+  "Description": "Digitized full-range model",
+  "AssociateId": 255,
+  "Columns": 22,
   "Theme": null,
-  "VisibleForAll": 617,
+  "VisibleForAll": 356,
   "VisibleForAssociates": [
-    382,
-    960
+    837,
+    489
   ],
   "VisibleForGroups": [
-    285,
-    150
+    688,
+    939
   ],
-  "PinForAll": 241,
+  "PinForAll": 461,
   "PinForAssociates": [
-    282,
-    678
+    515,
+    995
   ],
   "PinForGroups": [
-    211,
-    878
+    157,
+    946
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 675,
-  "UniqueId": "eaque",
-  "Name": "Upton Inc and Sons",
-  "Description": "Centralized non-volatile Graphic Interface",
-  "AssociateId": 75,
-  "Columns": 56,
+  "DashboardId": 628,
+  "UniqueId": "officia",
+  "Name": "Friesen-Kilback",
+  "Description": "Business-focused multi-tasking firmware",
+  "AssociateId": 34,
+  "Columns": 979,
   "Theme": null,
-  "VisibleForAll": 299,
+  "VisibleForAll": 502,
   "VisibleForAssociates": [
-    791,
-    170
+    399,
+    681
   ],
   "VisibleForGroups": [
-    32,
-    799
+    385,
+    577
   ],
-  "PinForAll": 674,
+  "PinForAll": 157,
   "PinForAssociates": [
-    891,
-    840
+    278,
+    926
   ],
   "PinForGroups": [
-    966,
-    913
+    97,
+    255
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldType": "System.String",
+      "FieldLength": 325
     }
   }
 }

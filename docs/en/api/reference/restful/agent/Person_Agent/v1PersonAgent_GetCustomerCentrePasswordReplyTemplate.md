@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 609
+  "PersonId": 754
 }
 ```
 
@@ -92,35 +92,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 275,
-  "PlainParsed": "velit",
-  "HtmlParsed": "assumenda",
+  "ReplyTemplateId": 818,
+  "PlainParsed": "aut",
+  "HtmlParsed": "ad",
   "Attachments": [
     {
-      "AttachmentId": 909,
-      "Name": "Abshire, Kuhn and Runolfsson",
-      "ContentType": "facilis",
-      "AttSize": 650,
+      "AttachmentId": 791,
+      "Name": "Kris-Jenkins",
+      "ContentType": "aut",
+      "AttSize": 609,
       "InlineImage": true,
-      "ContentId": "quisquam",
-      "AuthKey": "aut",
+      "ContentId": "sunt",
+      "AuthKey": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldLength": 784
         }
       }
     }
   ],
-  "Subject": "aliquid",
+  "Subject": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 145
     }
   }
 }

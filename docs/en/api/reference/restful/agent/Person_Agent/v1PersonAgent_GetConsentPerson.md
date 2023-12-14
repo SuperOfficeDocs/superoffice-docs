@@ -26,7 +26,7 @@ Gets a ConsentPerson object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetConsentPerson?consentPersonId=767
+POST /api/v1/Agents/Person/GetConsentPerson?consentPersonId=817
 POST /api/v1/Agents/Person/GetConsentPerson?$select=name,department,category/id
 ```
 
@@ -82,18 +82,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 831,
+  "ConsentPersonId": 417,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 626,
+  "PersonId": 305,
   "ConsentPurpose": null,
-  "Comment": "voluptatem",
+  "Comment": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldLength": 980
     }
   }
 }

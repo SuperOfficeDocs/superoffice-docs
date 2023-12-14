@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 389,
-  "OnlyOpenSales": true
+  "PersonId": 95,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Jewess, Kuhn and Dickinson",
-    "SaleDate": "2000-04-18T13:38:14.1084486+02:00",
-    "SaleId": 491,
-    "Probability": 307,
-    "Title": "vero",
-    "Amount": 29362.446,
-    "Currency": "ipsam",
-    "ProjectName": "Von-Hoppe",
-    "AssociateFullName": "Ms. Jalon Schuyler Schmitt II",
-    "Description": "Persistent next generation structure",
+    "ContactName": "Wiegand, Weber and Heller",
+    "SaleDate": "2010-05-14T13:57:13.1757129+02:00",
+    "SaleId": 773,
+    "Probability": 743,
+    "Title": "commodi",
+    "Amount": 21188.974,
+    "Currency": "quis",
+    "ProjectName": "Kilback-Lind",
+    "AssociateFullName": "Baby Sawayn",
+    "Description": "Fully-configurable full-range neural-net",
     "Status": "Lost",
-    "WeightedAmount": 19621.974,
-    "ProjectId": 84,
-    "EarningPercent": 12752.246,
-    "Earning": 14049.722,
-    "ContactId": 782,
-    "AssociateId": 62,
-    "PersonId": 371,
-    "SaleTypeId": 477,
-    "SaleTypeName": "Schimmel-Hilpert",
-    "PersonFullName": "Everett Nolan",
+    "WeightedAmount": 21690.414,
+    "ProjectId": 744,
+    "EarningPercent": 1648.484,
+    "Earning": 18239.88,
+    "ContactId": 259,
+    "AssociateId": 813,
+    "PersonId": 630,
+    "SaleTypeId": 78,
+    "SaleTypeName": "Heidenreich-Ondricka",
+    "PersonFullName": "Elnora Pouros",
     "Completed": "Completed",
-    "ActiveErpLinks": 477,
-    "NextDueDate": "2023-09-19T13:38:14.1084486+02:00",
-    "Number": "1686143",
+    "ActiveErpLinks": 153,
+    "NextDueDate": "2020-09-17T13:57:13.1757129+02:00",
+    "Number": "1431515",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldLength": 261
       }
     }
   }

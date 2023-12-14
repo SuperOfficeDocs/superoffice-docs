@@ -96,33 +96,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 268,
-    "Name": "Moore Group",
-    "Tooltip": "adipisci",
-    "Deleted": false,
-    "Rank": 904,
+    "WebPanelId": 653,
+    "Name": "Thompson, Pfannerstill and Barrows",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 369,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
-    "OnTravel": true,
-    "OnSalesMarketingWeb": true,
+    "OnTravel": false,
+    "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": false,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Waters, Schmidt and Bayer",
+    "WindowName": "Kuvalis-Bashirian",
     "Url": "http://www.example.com/",
-    "ProgId": "et",
-    "Icon": 676,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "quidem",
+    "Icon": 247,
+    "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 845
+        "FieldLength": 1002
       }
     }
   }

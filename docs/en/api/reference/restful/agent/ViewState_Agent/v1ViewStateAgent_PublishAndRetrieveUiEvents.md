@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 423,
+  "LatestKnownEventId": 790,
   "PublishEvents": [
     {
-      "EventId": 911,
-      "EventName": "Wilderman-Block",
-      "EntityType": "in",
-      "EntityKey": 50,
-      "AssociateId": 150,
-      "AssociateName": "Kuhlman Inc and Sons",
-      "EventDateTime": "2005-10-21T13:38:14.4052895+02:00"
+      "EventId": 808,
+      "EventName": "Gulgowski Group",
+      "EntityType": "suscipit",
+      "EntityKey": 464,
+      "AssociateId": 924,
+      "AssociateName": "Waelchi, Schaefer and Haley",
+      "EventDateTime": "2023-10-17T13:57:13.6145882+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Langworth, Stark and Blick",
-      "Value": 716
+      "Name": "Schneider-Renner",
+      "Value": 77
     },
     {
-      "Name": "Langworth, Stark and Blick",
-      "Value": 716
+      "Name": "Schneider-Renner",
+      "Value": 77
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 715,
-    "EventName": "Wisozk LLC",
-    "EntityType": "eveniet",
-    "EntityKey": 466,
-    "AssociateId": 395,
-    "AssociateName": "Willms-Wunsch",
-    "EventDateTime": "2014-05-22T13:38:14.4052895+02:00",
+    "EventId": 735,
+    "EventName": "Barton-Bradtke",
+    "EntityType": "explicabo",
+    "EntityKey": 36,
+    "AssociateId": 619,
+    "AssociateName": "Quigley, Kassulke and Zulauf",
+    "EventDateTime": "2009-01-08T13:57:13.6145882+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 655
+        "FieldType": "System.Int32",
+        "FieldLength": 786
       }
     }
   }

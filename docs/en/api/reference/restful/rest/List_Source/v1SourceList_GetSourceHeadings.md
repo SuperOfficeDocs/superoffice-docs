@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 464,
-    "Name": "Durgan Inc and Sons",
-    "Tooltip": "veniam",
+    "HeadingId": 981,
+    "Name": "Bergnaum-Kreiger",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 680,
-    "UdListDefinitionId": 626,
+    "Rank": 535,
+    "UdListDefinitionId": 157,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 273
+        "FieldType": "System.String",
+        "FieldLength": 101
       }
     }
   }

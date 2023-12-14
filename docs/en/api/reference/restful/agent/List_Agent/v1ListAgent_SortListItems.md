@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/List/SortListItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 328,
+  "UdListDefinitionId": 179,
   "CultureName": "sv"
 }
 ```

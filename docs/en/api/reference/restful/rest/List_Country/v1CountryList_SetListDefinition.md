@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 863,
-  "Name": "Roob Inc and Sons",
-  "Tooltip": "dolor",
+  "Id": 701,
+  "Name": "Olson-Spencer",
+  "Tooltip": "quaerat",
   "Deleted": true,
-  "Rank": 932,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 235,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
-  "InUseByUserDefinedFields": true
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 7,
-  "Name": "Marquardt Group",
-  "Tooltip": "totam",
-  "Deleted": true,
-  "Rank": 687,
+  "Id": 693,
+  "Name": "Mohr-Mertz",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "Rank": 320,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "in",
+  "ListType": "cupiditate",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 102
+      "FieldLength": 510
     }
   }
 }

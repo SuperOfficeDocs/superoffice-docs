@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 878,
-  "Name": "Kerluke-Parisian",
-  "Tooltip": "et",
+  "HeadingId": 141,
+  "Name": "Leuschke, Okuneva and Bruen",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 280,
-  "UdListDefinitionId": 405
+  "Rank": 437,
+  "UdListDefinitionId": 328
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 718,
-  "Name": "Welch-Donnelly",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "Rank": 24,
-  "UdListDefinitionId": 236,
+  "HeadingId": 925,
+  "Name": "Carroll Inc and Sons",
+  "Tooltip": "optio",
+  "Deleted": false,
+  "Rank": 129,
+  "UdListDefinitionId": 839,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 807
+      "FieldType": "System.Int32",
+      "FieldLength": 523
     }
   }
 }

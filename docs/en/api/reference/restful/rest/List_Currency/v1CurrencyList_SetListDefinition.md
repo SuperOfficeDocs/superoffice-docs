@@ -88,16 +88,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 200,
-  "Name": "Toy-Runolfsson",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 604,
+  "Id": 707,
+  "Name": "Zboncak Inc and Sons",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "Rank": 231,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "excepturi",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "minima",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 266,
-  "Name": "Fadel Inc and Sons",
-  "Tooltip": "at",
+  "Id": 300,
+  "Name": "Dickinson-Klocko",
+  "Tooltip": "enim",
   "Deleted": true,
-  "Rank": 773,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "facere",
-  "InUseByUserDefinedFields": false,
+  "Rank": 188,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldType": "System.String",
+      "FieldLength": 730
     }
   }
 }

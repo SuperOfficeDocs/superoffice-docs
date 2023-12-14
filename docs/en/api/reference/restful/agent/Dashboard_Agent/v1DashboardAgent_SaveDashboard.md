@@ -71,25 +71,25 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 136,
-  "AssociateId": 391,
-  "Caption": "ut",
+  "DashboardId": 889,
+  "AssociateId": 590,
+  "Caption": "vitae",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 829,
-      "Caption": "qui",
-      "Description": "Stand-alone incremental secured line",
-      "ChartName": "Kub, Moore and Macejkovic",
-      "ChartId": "et",
+      "DashboardTileId": 194,
+      "Caption": "et",
+      "Description": "User-friendly high-level instruction set",
+      "ChartName": "Abshire LLC",
+      "ChartId": "atque",
       "IsDefault": false,
-      "AssociateId": 802,
-      "GroupId": 998,
-      "SelectionId": 166,
+      "AssociateId": 714,
+      "GroupId": 920,
+      "SelectionId": 290,
       "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 897,
-  "AssociateId": 457,
-  "Caption": "quia",
+  "DashboardId": 766,
+  "AssociateId": 92,
+  "Caption": "nisi",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 691,
-      "Caption": "eligendi",
-      "Description": "Quality-focused holistic Graphical User Interface",
-      "ChartName": "Heller, Konopelski and Boyle",
-      "ChartId": "id",
-      "IsDefault": false,
-      "AssociateId": 843,
-      "GroupId": 860,
-      "SelectionId": 776,
-      "Config": "non",
+      "DashboardTileId": 654,
+      "Caption": "at",
+      "Description": "Stand-alone human-resource system engine",
+      "ChartName": "Schaden Group",
+      "ChartId": "illo",
+      "IsDefault": true,
+      "AssociateId": 313,
+      "GroupId": 176,
+      "SelectionId": 353,
+      "Config": "repudiandae",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 799
+          "FieldType": "System.Int32",
+          "FieldLength": 960
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 918
+      "FieldLength": 1002
     }
   }
 }

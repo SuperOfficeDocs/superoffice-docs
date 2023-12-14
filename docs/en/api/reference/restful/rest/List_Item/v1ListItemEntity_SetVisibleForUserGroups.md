@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 908,
-    "Name": "Stokes Group",
-    "ToolTip": "Odio minus voluptas molestiae quis accusantium est.",
+    "Id": 818,
+    "Name": "Huel, Gerhold and Powlowski",
+    "ToolTip": "Fuga enim exercitationem aut dolor at fugit.",
     "Deleted": true,
-    "Rank": 397,
-    "Type": "omnis",
-    "ColorBlock": 716,
-    "IconHint": "inventore",
+    "Rank": 288,
+    "Type": "fuga",
+    "ColorBlock": 970,
+    "IconHint": "omnis",
     "Selected": true,
-    "LastChanged": "2020-08-19T13:38:17.8744364+02:00",
+    "LastChanged": "1998-04-23T13:57:19.5940221+02:00",
     "ChildItems": [
       {
-        "Id": 579,
-        "Name": "Mayert Inc and Sons",
-        "ToolTip": "Cumque velit alias quaerat.",
-        "Deleted": true,
-        "Rank": 817,
-        "Type": "sapiente",
-        "ColorBlock": 958,
-        "IconHint": "cupiditate",
+        "Id": 668,
+        "Name": "Stoltenberg, Rosenbaum and Swift",
+        "ToolTip": "Consequatur error eum error quas alias.",
+        "Deleted": false,
+        "Rank": 536,
+        "Type": "quis",
+        "ColorBlock": 375,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "2013-01-17T13:38:17.8744364+01:00",
+        "LastChanged": "2001-02-18T13:57:19.5940221+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "neque",
-        "Hidden": true,
-        "FullName": "Schuyler Tillman"
+        "ExtraInfo": "sed",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Fernando Hagenes"
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "illo",
-    "Hidden": false,
-    "FullName": "Lina Stroman"
+    "ExtraInfo": "consequatur",
+    "StyleHint": "totam",
+    "Hidden": true,
+    "FullName": "Piper McClure"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 486,
-    "Name": "Braun-Powlowski",
-    "ToolTip": "Quo incidunt perferendis doloribus perspiciatis.",
+    "Id": 500,
+    "Name": "Schuster-Berge",
+    "ToolTip": "Iure vel quia quisquam repellat.",
     "Deleted": false,
-    "Rank": 866,
-    "Type": "sint",
-    "ColorBlock": 199,
-    "IconHint": "ea",
+    "Rank": 456,
+    "Type": "perferendis",
+    "ColorBlock": 732,
+    "IconHint": "fuga",
     "Selected": true,
-    "LastChanged": "2019-03-19T13:38:17.8900531+01:00",
+    "LastChanged": "2019-08-26T13:57:19.5940221+02:00",
     "ChildItems": [
       {
-        "Id": 653,
-        "Name": "Wisozk, Padberg and Berge",
-        "ToolTip": "Nulla suscipit et voluptatem autem officiis possimus.",
+        "Id": 263,
+        "Name": "Hermann LLC",
+        "ToolTip": "Architecto illum maiores dolorum.",
         "Deleted": false,
-        "Rank": 47,
-        "Type": "voluptatibus",
-        "ColorBlock": 397,
-        "IconHint": "magni",
-        "Selected": true,
-        "LastChanged": "2020-07-30T13:38:17.8900531+02:00",
+        "Rank": 632,
+        "Type": "consequatur",
+        "ColorBlock": 121,
+        "IconHint": "in",
+        "Selected": false,
+        "LastChanged": "2016-10-01T13:57:19.5940221+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "quidem",
-        "Hidden": true,
-        "FullName": "Chauncey Kshlerin",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Kara Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 115
+            "FieldType": "System.String",
+            "FieldLength": 739
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "sed",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "odit",
     "Hidden": true,
-    "FullName": "Mrs. Amelie Nicolas",
+    "FullName": "Ms. Shania Melisa Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 461
+        "FieldType": "System.Int32",
+        "FieldLength": 778
       }
     }
   }

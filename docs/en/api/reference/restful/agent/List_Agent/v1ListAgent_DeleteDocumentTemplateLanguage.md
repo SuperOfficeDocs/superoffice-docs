@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 33,
-  "LanguageCode": "commodi"
+  "DocumentTemplateId": 649,
+  "LanguageCode": "magnam"
 }
 ```
 

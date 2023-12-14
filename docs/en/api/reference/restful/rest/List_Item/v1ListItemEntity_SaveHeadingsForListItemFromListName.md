@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 595,
-    "Name": "Schmitt, Hoeger and Kessler",
-    "ToolTip": "Et repudiandae.",
-    "Deleted": false,
-    "Rank": 398,
-    "Type": "ea",
-    "ColorBlock": 935,
-    "IconHint": "non",
+    "Id": 1001,
+    "Name": "Wilderman-Hayes",
+    "ToolTip": "Quod qui.",
+    "Deleted": true,
+    "Rank": 768,
+    "Type": "totam",
+    "ColorBlock": 146,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2019-03-04T13:38:17.8900531+01:00",
+    "LastChanged": "2021-04-22T13:57:19.6096461+02:00",
     "ChildItems": [
       {
-        "Id": 230,
-        "Name": "Rohan LLC",
-        "ToolTip": "Dolore id ut.",
-        "Deleted": true,
-        "Rank": 36,
-        "Type": "placeat",
-        "ColorBlock": 343,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2012-06-22T13:38:17.8900531+02:00",
+        "Id": 915,
+        "Name": "Littel Group",
+        "ToolTip": "Incidunt tempore dolorem iste aut.",
+        "Deleted": false,
+        "Rank": 310,
+        "Type": "et",
+        "ColorBlock": 517,
+        "IconHint": "exercitationem",
+        "Selected": false,
+        "LastChanged": "2004-06-24T13:57:19.6096461+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "quidem",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Serena Cremin"
+        "FullName": "Ms. Guy O'Kon"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "adipisci",
+    "ExtraInfo": "vero",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Miss Justine Abagail Ebert I"
+    "FullName": "Una Bahringer"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 197,
-    "Name": "Brown Group",
-    "ToolTip": "Cum et qui illum earum.",
+    "Id": 884,
+    "Name": "Nitzsche-Okuneva",
+    "ToolTip": "Est natus at itaque qui excepturi dolorem.",
     "Deleted": false,
-    "Rank": 281,
-    "Type": "illo",
-    "ColorBlock": 475,
-    "IconHint": "ratione",
+    "Rank": 349,
+    "Type": "vel",
+    "ColorBlock": 823,
+    "IconHint": "culpa",
     "Selected": false,
-    "LastChanged": "2015-06-10T13:38:17.8900531+02:00",
+    "LastChanged": "2006-03-19T13:57:19.6096461+01:00",
     "ChildItems": [
       {
-        "Id": 662,
-        "Name": "Rau, Towne and Wilkinson",
-        "ToolTip": "Quam enim expedita.",
+        "Id": 475,
+        "Name": "Cartwright-Dooley",
+        "ToolTip": "Dolorem officiis nobis suscipit et tempora et similique.",
         "Deleted": false,
-        "Rank": 29,
-        "Type": "quae",
-        "ColorBlock": 627,
-        "IconHint": "enim",
+        "Rank": 166,
+        "Type": "sint",
+        "ColorBlock": 266,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2006-05-20T13:38:17.8900531+02:00",
+        "LastChanged": "1999-11-15T13:57:19.6096461+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "rerum",
+        "ExtraInfo": "id",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Carleton Eino Zboncak I",
+        "FullName": "Gussie Gibson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 957
+            "FieldType": "System.Int32",
+            "FieldLength": 419
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "facilis",
+    "ExtraInfo": "sed",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Noemi Dayana Rodriguez I",
+    "FullName": "Annabelle Zulauf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 374
       }
     }
   }

@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Boyle, Kub and Collier",
-    "DisplayName": "Gorczany LLC",
-    "DisplayTooltip": "maiores",
-    "IsActive": true
+    "Name": "Blick, Shields and Schroeder",
+    "DisplayName": "Hilpert Inc and Sons",
+    "DisplayTooltip": "veniam",
+    "IsActive": false
   },
   {
-    "Name": "Boyle, Kub and Collier",
-    "DisplayName": "Gorczany LLC",
-    "DisplayTooltip": "maiores",
-    "IsActive": true
+    "Name": "Blick, Shields and Schroeder",
+    "DisplayName": "Hilpert Inc and Sons",
+    "DisplayTooltip": "veniam",
+    "IsActive": false
   }
 ]
 ```

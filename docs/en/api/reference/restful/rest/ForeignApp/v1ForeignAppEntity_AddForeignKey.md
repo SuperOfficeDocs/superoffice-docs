@@ -87,14 +87,14 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "accusamus",
-  "Value": "voluptatem",
-  "RecordId": 838,
-  "CreatedDate": "2012-12-26T13:38:17.4524494+01:00",
-  "UpdatedDate": "2003-06-18T13:38:17.4524494+02:00",
-  "UpdatedBy": "adipisci",
-  "CreatedBy": "eligendi",
-  "TableName": "Wehner-Hansen"
+  "Key": "laboriosam",
+  "Value": "quia",
+  "RecordId": 707,
+  "CreatedDate": "2020-03-22T13:57:18.8265985+01:00",
+  "UpdatedDate": "2011-05-02T13:57:18.8265985+02:00",
+  "UpdatedBy": "doloribus",
+  "CreatedBy": "rerum",
+  "TableName": "Berge Inc and Sons"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptas",
-  "Value": "aut",
-  "RecordId": 43,
-  "CreatedDate": "2014-07-12T13:38:17.4524494+02:00",
-  "UpdatedDate": "2012-11-29T13:38:17.4524494+01:00",
-  "UpdatedBy": "labore",
-  "CreatedBy": "architecto",
-  "TableName": "Murphy, Rosenbaum and Rippin",
+  "Key": "aut",
+  "Value": "eligendi",
+  "RecordId": 312,
+  "CreatedDate": "2017-08-07T13:57:18.8265985+02:00",
+  "UpdatedDate": "2008-04-13T13:57:18.8265985+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "nostrum",
+  "TableName": "Bechtelar, Dicki and Stamm",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldLength": 268
     }
   }
 }

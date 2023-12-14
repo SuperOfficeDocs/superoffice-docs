@@ -88,15 +88,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 920,
-  "Name": "Brakus LLC",
-  "Tooltip": "est",
+  "Id": 134,
+  "Name": "Waelchi, Stanton and Hermiston",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 431,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "a",
+  "Rank": 961,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "temporibus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 20,
-  "Name": "Streich-Terry",
-  "Tooltip": "omnis",
+  "Id": 86,
+  "Name": "D'Amore LLC",
+  "Tooltip": "cum",
   "Deleted": false,
-  "Rank": 990,
-  "IsCustomList": false,
+  "Rank": 360,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
-  "InUseByUserDefinedFields": true,
+  "ListType": "harum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldLength": 564
     }
   }
 }

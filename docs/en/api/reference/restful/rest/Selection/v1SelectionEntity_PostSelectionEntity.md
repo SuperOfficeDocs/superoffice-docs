@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots hybrid ability",
-  "Postit": "velit",
+  "Description": "User-centric exuding synergy",
+  "Postit": "quibusdam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 663,
-  "IncludePerson": 936,
-  "MemberCount": 83,
-  "Name": "Strosin-Senger",
-  "PostitTextId": 90,
-  "CreatedDate": "2012-01-18T13:38:17.6555554+01:00",
-  "SelectionId": 184,
-  "SoundEx": "fugit",
-  "Source": 863,
-  "TextId": 628,
-  "UpdatedDate": "2021-09-19T13:38:17.6555554+02:00",
-  "UpdatedCount": 525,
-  "Visibility": 222,
+  "GroupIdx": 552,
+  "IncludePerson": 392,
+  "MemberCount": 549,
+  "Name": "Dicki, Hammes and Bins",
+  "PostitTextId": 85,
+  "CreatedDate": "1997-06-06T13:57:19.2502736+02:00",
+  "SelectionId": 451,
+  "SoundEx": "provident",
+  "Source": 848,
+  "TextId": 883,
+  "UpdatedDate": "2003-12-19T13:57:19.2502736+01:00",
+  "UpdatedCount": 534,
+  "Visibility": 43,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 817,
-  "TargetTableName": "Rodriguez Inc and Sons",
+  "CompanyUnique": true,
+  "TargetTableNumber": 383,
+  "TargetTableName": "Waters, Borer and Haley",
   "Completed": false,
-  "LeftSelectionId": 304,
-  "RightSelectionId": 659,
+  "LeftSelectionId": 985,
+  "RightSelectionId": 272,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schamberger-Stiedemann",
-  "ShadowProviderName": "Botsford Inc and Sons",
-  "ChartKey": "suscipit",
-  "LastLoaded": "2011-01-24T13:38:17.6555554+01:00",
-  "LastLoadedBy": 911,
+  "MainProviderName": "Harber-Rosenbaum",
+  "ShadowProviderName": "Hintz, Runolfsson and Rohan",
+  "ChartKey": "quia",
+  "LastLoaded": "2009-03-27T13:57:19.2502736+01:00",
+  "LastLoadedBy": 213,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-05-23T13:38:17.6555554+02:00",
-  "LastMembershipChangeBy": 60,
+  "LastMembershipChange": "2017-02-17T13:57:19.2502736+01:00",
+  "LastMembershipChangeBy": 463,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatum",
-  "MemberTabHeading": "quasi",
-  "MailingsProviderName": "Buckridge-Jerde",
-  "DashboardTileDefinitionId": 738,
+  "MainHeading": "nam",
+  "MemberTabHeading": "eum",
+  "MailingsProviderName": "Huel, Schuster and Mueller",
+  "DashboardTileDefinitionId": 750,
   "VisibleFor": [
     {
-      "VisibleId": 57,
+      "VisibleId": 107,
       "Visibility": "All",
-      "DisplayValue": "quaerat"
+      "DisplayValue": "ut"
     },
     {
-      "VisibleId": 57,
+      "VisibleId": 107,
       "Visibility": "All",
-      "DisplayValue": "quaerat"
+      "DisplayValue": "ut"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-layered optimizing local area network",
-  "Postit": "at",
+  "Description": "Streamlined foreground archive",
+  "Postit": "quas",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 833,
-  "IncludePerson": 298,
-  "MemberCount": 436,
-  "Name": "Casper, Turner and Hermann",
-  "PostitTextId": 417,
-  "CreatedDate": "2007-02-22T13:38:17.6555554+01:00",
-  "SelectionId": 211,
-  "SoundEx": "facere",
-  "Source": 553,
-  "TextId": 257,
-  "UpdatedDate": "2004-06-09T13:38:17.6555554+02:00",
-  "UpdatedCount": 269,
-  "Visibility": 21,
+  "GroupIdx": 228,
+  "IncludePerson": 648,
+  "MemberCount": 707,
+  "Name": "Kemmer-Kautzer",
+  "PostitTextId": 857,
+  "CreatedDate": "2012-03-04T13:57:19.2502736+01:00",
+  "SelectionId": 800,
+  "SoundEx": "et",
+  "Source": 537,
+  "TextId": 55,
+  "UpdatedDate": "1997-08-22T13:57:19.2502736+02:00",
+  "UpdatedCount": 154,
+  "Visibility": 345,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 220,
-  "TargetTableName": "Becker-Cole",
+  "CompanyUnique": false,
+  "TargetTableNumber": 572,
+  "TargetTableName": "Herman Group",
   "Completed": false,
-  "LeftSelectionId": 280,
-  "RightSelectionId": 773,
+  "LeftSelectionId": 408,
+  "RightSelectionId": 508,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Dibbert LLC",
-  "ShadowProviderName": "Bednar, Medhurst and Kiehn",
-  "ChartKey": "dolores",
-  "LastLoaded": "2004-05-19T13:38:17.6555554+02:00",
-  "LastLoadedBy": 635,
+  "MainProviderName": "Prohaska, Little and Greenfelder",
+  "ShadowProviderName": "Lesch LLC",
+  "ChartKey": "ex",
+  "LastLoaded": "2004-08-15T13:57:19.2502736+02:00",
+  "LastLoadedBy": 212,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-03-26T13:38:17.6555554+01:00",
-  "LastMembershipChangeBy": 302,
+  "LastMembershipChange": "2002-09-02T13:57:19.2502736+02:00",
+  "LastMembershipChangeBy": 614,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "odio",
-  "MemberTabHeading": "similique",
-  "MailingsProviderName": "Little, Davis and Gleichner",
-  "DashboardTileDefinitionId": 326,
+  "MainHeading": "veritatis",
+  "MemberTabHeading": "magnam",
+  "MailingsProviderName": "Lind-Klocko",
+  "DashboardTileDefinitionId": 535,
   "VisibleFor": [
     {
-      "VisibleId": 34,
+      "VisibleId": 640,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 342
+          "FieldType": "System.Int32",
+          "FieldLength": 274
         }
       }
     },
     {
-      "VisibleId": 34,
+      "VisibleId": 640,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 342
+          "FieldType": "System.Int32",
+          "FieldLength": 274
         }
       }
     }
@@ -294,8 +294,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldType": "System.String",
+      "FieldLength": 910
     }
   },
   "_Links": {

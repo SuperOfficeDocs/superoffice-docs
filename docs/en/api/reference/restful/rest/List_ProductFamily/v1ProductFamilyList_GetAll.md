@@ -25,7 +25,7 @@ Gets all the ProductFamily items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductFamily/Items?includeDeleted=False
+GET /api/v1/List/ProductFamily/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Bergstrom-Rowe",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "UdListDefinitionId": 750,
-    "Rank": 312,
+    "Id": 116,
+    "Name": "Grady, Turcotte and Berge",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "UdListDefinitionId": 947,
+    "Rank": 789,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 124
+        "FieldType": "System.Int32",
+        "FieldLength": 265
       }
     }
   }

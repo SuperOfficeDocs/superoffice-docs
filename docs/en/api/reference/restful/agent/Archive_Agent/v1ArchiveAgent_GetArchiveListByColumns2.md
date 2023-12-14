@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gorczany-Thompson",
-  "Columns": "sed",
-  "SortOrder": "tenetur",
-  "Restrictions": "pariatur",
-  "Entities": "dolorum",
-  "Page": 395,
-  "PageSize": 363
+  "ProviderName": "Kris Group",
+  "Columns": "eligendi",
+  "SortOrder": "cum",
+  "Restrictions": "maxime",
+  "Entities": "tempora",
+  "Page": 270,
+  "PageSize": 735
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jerde, Waters and Yundt",
-    "PrimaryKey": 930,
+    "EntityName": "Schiller Inc and Sons",
+    "PrimaryKey": 275,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "earum",
-        "TooltipHint": "ad",
-        "LinkHint": "rerum"
+        "DisplayValue": "quisquam",
+        "TooltipHint": "sed",
+        "LinkHint": "sit"
       }
     },
-    "LinkHint": "dolor",
-    "StyleHint": "saepe",
+    "LinkHint": "itaque",
+    "StyleHint": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 565
+        "FieldLength": 295
       }
     }
   }

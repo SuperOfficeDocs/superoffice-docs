@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 481,
-  "Name": "Howe, Wolf and Gutmann",
-  "Tooltip": "molestias",
+  "Id": 120,
+  "Name": "Moore-Dach",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "Rank": 877,
-  "IsCustomList": false,
+  "Rank": 766,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "unde",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldLength": 569
     }
   },
   "_Links": {

@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Hauck-Kassulke",
-  "StorageKey": "ea",
+  "StorageType": "molestiae",
+  "ProviderName": "Howe Inc and Sons",
+  "StorageKey": "dolor",
   "StaticColumns": [
-    "eius",
-    "totam"
+    "laborum",
+    "rerum"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Bernier-Ortiz",
-      "Operator": "repellat",
+      "Name": "Gutkowski-Schuster",
+      "Operator": "voluptatem",
       "Values": [
-        "eum",
-        "ullam"
+        "eos",
+        "enim"
       ],
       "DisplayValues": [
-        "dicta",
-        "voluptatem"
+        "eaque",
+        "quidem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 503,
+      "InterParenthesis": 88,
       "InterOperator": "And",
-      "UniqueHash": 337
+      "UniqueHash": 679
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Bednar-Lowe",
-      "DisplayTooltip": "provident",
-      "DisplayType": "animi",
-      "CanOrderBy": true,
-      "Name": "Wilderman LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "molestiae",
-      "RestrictionListName": "Senger LLC",
-      "IsVisible": false,
-      "ExtraInfo": "dolores",
-      "Width": "non",
-      "IconHint": "quis",
-      "HeadingIconHint": "rem"
+      "DisplayName": "Monahan, Kohler and Baumbach",
+      "DisplayTooltip": "nobis",
+      "DisplayType": "non",
+      "CanOrderBy": false,
+      "Name": "Kreiger Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "excepturi",
+      "RestrictionListName": "Beatty Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "ea",
+      "Width": "reiciendis",
+      "IconHint": "maiores",
+      "HeadingIconHint": "eius"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Turner, Fay and Eichmann",
-      "PrimaryKey": 320,
+      "EntityName": "Conn, Rau and Kuphal",
+      "PrimaryKey": 151,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quod",
-          "TooltipHint": "id",
-          "LinkHint": "exercitationem"
+          "DisplayValue": "aut",
+          "TooltipHint": "accusamus",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "perspiciatis",
-      "StyleHint": "fugit",
+      "LinkHint": "nisi",
+      "StyleHint": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldLength": 563
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Boyer-Gaylord",
-      "Description": "Customer-focused analyzing intranet",
-      "Rank": 644,
+      "Name": "Kertzmann Group",
+      "Description": "Future-proofed non-volatile policy",
+      "Rank": 245,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Boyer-Gaylord",
-      "Description": "Customer-focused analyzing intranet",
-      "Rank": 644,
+      "Name": "Kertzmann Group",
+      "Description": "Future-proofed non-volatile policy",
+      "Rank": 245,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldType": "System.Int32",
+      "FieldLength": 267
     }
   }
 }

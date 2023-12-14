@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bergnaum, Robel and Kris",
-  "ListItemId": 329
+  "UdListDefinitionName": "Monahan-Wintheiser",
+  "ListItemId": 249
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 619,
-    "Name": "Dach Inc and Sons",
-    "ToolTip": "Ut quod aut.",
+    "Id": 711,
+    "Name": "Cronin Inc and Sons",
+    "ToolTip": "Consequatur magnam nihil.",
     "Deleted": false,
-    "Rank": 924,
-    "Type": "suscipit",
-    "ColorBlock": 960,
-    "IconHint": "rerum",
+    "Rank": 455,
+    "Type": "voluptatem",
+    "ColorBlock": 579,
+    "IconHint": "amet",
     "Selected": true,
-    "LastChanged": "2003-12-18T13:38:13.6708541+01:00",
+    "LastChanged": "1997-08-10T13:57:12.5118644+02:00",
     "ChildItems": [
       {
-        "Id": 866,
-        "Name": "Ebert-Ferry",
-        "ToolTip": "Quis eligendi magnam.",
-        "Deleted": true,
-        "Rank": 7,
-        "Type": "nihil",
-        "ColorBlock": 79,
-        "IconHint": "expedita",
-        "Selected": true,
-        "LastChanged": "2000-01-04T13:38:13.6708541+01:00",
+        "Id": 309,
+        "Name": "Wilkinson Inc and Sons",
+        "ToolTip": "Temporibus ipsam ipsam dolorem laborum cum id.",
+        "Deleted": false,
+        "Rank": 834,
+        "Type": "quo",
+        "ColorBlock": 649,
+        "IconHint": "quam",
+        "Selected": false,
+        "LastChanged": "2007-01-18T13:57:12.5118644+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "beatae",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Mac Uriah Wintheiser DDS",
+        "FullName": "Domingo Isidro Wunsch V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 124
+            "FieldType": "System.Int32",
+            "FieldLength": 582
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "quasi",
-    "Hidden": true,
-    "FullName": "Jany Mertie Mills Sr.",
+    "ExtraInfo": "tempore",
+    "StyleHint": "impedit",
+    "Hidden": false,
+    "FullName": "Dino Sawayn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldLength": 793
       }
     }
   }

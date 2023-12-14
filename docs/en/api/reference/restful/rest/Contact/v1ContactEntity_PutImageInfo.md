@@ -97,19 +97,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 810,
-  "BlobSize": 630,
-  "Description": "Adaptive foreground emulation",
-  "ExtraInfo": "vel",
-  "IsEncrypted": false,
+  "BlobId": 127,
+  "BlobSize": 493,
+  "Description": "Reactive discrete instruction set",
+  "ExtraInfo": "laboriosam",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "ratione",
-  "OriginalSize": 641,
-  "CreatedDate": "1999-08-29T13:38:17.2024711+02:00",
-  "UpdatedDate": "2004-06-16T13:38:17.2024711+02:00",
+  "MimeType": "adipisci",
+  "OriginalSize": 15,
+  "CreatedDate": "2013-07-17T13:57:18.5753123+02:00",
+  "UpdatedDate": "2019-10-27T13:57:18.5753123+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rerum"
+  "ConceptualType": "sed"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 275,
-  "BlobSize": 51,
-  "Description": "Automated optimizing core",
-  "ExtraInfo": "dolorem",
+  "BlobId": 614,
+  "BlobSize": 578,
+  "Description": "Ergonomic system-worthy project",
+  "ExtraInfo": "molestiae",
   "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "dolorem",
-  "OriginalSize": 169,
-  "CreatedDate": "1998-02-15T13:38:17.2024711+01:00",
-  "UpdatedDate": "1997-11-26T13:38:17.2024711+01:00",
+  "IsZipped": false,
+  "MimeType": "eius",
+  "OriginalSize": 213,
+  "CreatedDate": "2005-11-14T13:57:18.5753123+01:00",
+  "UpdatedDate": "1997-09-26T13:57:18.5753123+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "magnam",
+  "ConceptualType": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 972
+      "FieldType": "System.Int32",
+      "FieldLength": 707
     }
   }
 }

@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 234,
-  "Name": "Beer, Rempel and Raynor",
-  "Tooltip": "laborum",
+  "Id": 448,
+  "Name": "Jerde Inc and Sons",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 872,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "accusamus",
-  "InUseByUserDefinedFields": true
+  "Rank": 946,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 71,
-  "Name": "Robel, Schowalter and Gaylord",
-  "Tooltip": "assumenda",
+  "Id": 328,
+  "Name": "Funk, Durgan and Cartwright",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 605,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "deserunt",
+  "Rank": 24,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "autem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 999
     }
   }
 }

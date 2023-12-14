@@ -114,24 +114,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 32,
-  "Section": "consequatur",
-  "Key": "aut",
-  "Name": "Borer, Quigley and Lesch",
+  "PrefDescId": 658,
+  "Section": "quos",
+  "Key": "magnam",
+  "Name": "Heathcote, Sipes and Ruecker",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "De-engineered logistical moratorium",
+  "Description": "Upgradable multi-state middleware",
   "IsBuiltin": false,
-  "TableName": "Bogan, Bauch and Pollich",
-  "UserDefinedListId": 794,
-  "Rank": 996,
-  "SubGroup": "aut",
-  "MinLevel": 312,
-  "MaxValue": 34,
-  "MinValue": 133,
-  "RequiredLicense": "doloremque"
+  "TableName": "Homenick Group",
+  "UserDefinedListId": 913,
+  "Rank": 105,
+  "SubGroup": "vitae",
+  "MinLevel": 272,
+  "MaxValue": 159,
+  "MinValue": 651,
+  "RequiredLicense": "vero"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 41,
-  "Section": "inventore",
-  "Key": "non",
-  "Name": "Murphy-Keebler",
+  "PrefDescId": 333,
+  "Section": "rem",
+  "Key": "tempore",
+  "Name": "Kuhlman, Gislason and Morissette",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Digitized composite database",
+  "Description": "Innovative bandwidth-monitored collaboration",
   "IsBuiltin": true,
-  "TableName": "Auer, Johnston and Mills",
-  "UserDefinedListId": 366,
-  "Rank": 609,
-  "SubGroup": "vero",
-  "MinLevel": 474,
-  "MaxValue": 861,
-  "MinValue": 816,
-  "RequiredLicense": "quis",
+  "TableName": "Runte, Ruecker and Wehner",
+  "UserDefinedListId": 840,
+  "Rank": 286,
+  "SubGroup": "molestias",
+  "MinLevel": 450,
+  "MaxValue": 783,
+  "MinValue": 691,
+  "RequiredLicense": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 965
+      "FieldLength": 110
     }
   },
   "_Links": {

@@ -72,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneId": 952
+  "TimezoneId": 771
 }
 ```
 

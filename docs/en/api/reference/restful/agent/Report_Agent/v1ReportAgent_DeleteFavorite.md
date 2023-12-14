@@ -68,7 +68,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportEntityId": 702
+  "ReportEntityId": 580
 }
 ```
 

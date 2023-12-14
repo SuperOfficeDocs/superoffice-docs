@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Casper Group",
-    "ToolTip": "Praesentium voluptas nostrum et et earum debitis.",
-    "Deleted": true,
-    "Rank": 126,
-    "Type": "impedit",
-    "ColorBlock": 765,
-    "IconHint": "laborum",
-    "Selected": false,
-    "LastChanged": "2012-12-19T13:38:17.9056813+01:00",
+    "Id": 877,
+    "Name": "Kihn-Quitzon",
+    "ToolTip": "Amet cum sit.",
+    "Deleted": false,
+    "Rank": 119,
+    "Type": "dolores",
+    "ColorBlock": 279,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2007-01-24T13:57:19.6252691+01:00",
     "ChildItems": [
       {
-        "Id": 188,
-        "Name": "Emard-Kohler",
-        "ToolTip": "Atque fuga laudantium reiciendis necessitatibus occaecati ipsa porro.",
-        "Deleted": true,
-        "Rank": 837,
-        "Type": "et",
-        "ColorBlock": 492,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2010-03-25T13:38:17.9056813+01:00",
+        "Id": 893,
+        "Name": "Steuber LLC",
+        "ToolTip": "Et et voluptates voluptas ut maiores occaecati debitis.",
+        "Deleted": false,
+        "Rank": 716,
+        "Type": "eius",
+        "ColorBlock": 30,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2013-08-07T13:57:19.6252691+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Mr. Layla Stefanie Roberts III",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "autem",
+        "Hidden": false,
+        "FullName": "Antoinette Windler PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 923
+            "FieldType": "System.String",
+            "FieldLength": 21
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "hic",
+    "ExtraInfo": "est",
+    "StyleHint": "saepe",
     "Hidden": true,
-    "FullName": "Jany Konopelski",
+    "FullName": "Lisandro Brady Christiansen DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 935
+        "FieldType": "System.Int32",
+        "FieldLength": 245
       }
     }
   }

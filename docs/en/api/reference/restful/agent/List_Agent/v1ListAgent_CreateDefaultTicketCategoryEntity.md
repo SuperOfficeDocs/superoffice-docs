@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 705,
-  "ParentId": 270,
-  "Name": "Dach-Kulas",
-  "Fullname": "dolore",
-  "CategoryMaster": 96,
+  "TicketCategoryId": 681,
+  "ParentId": 169,
+  "Name": "Batz-Bruen",
+  "Fullname": "velit",
+  "CategoryMaster": 182,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Brekke Inc and Sons",
+  "ExternalName": "Sipes, Sawayn and Schmitt",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 948,
-  "ReplyTemplate": 882,
-  "NotificationEmail": "tremayne@ratke.us",
+  "AssignmentLag": 655,
+  "ReplyTemplate": 910,
+  "NotificationEmail": "lisette_feil@zboncakblock.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 150,
+  "EffectiveReplyTemplateId": 393,
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "debitis"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "consequuntur"
   },
   "CustomFields": {
-    "CustomFields1": "nisi",
-    "CustomFields2": "nihil"
+    "CustomFields1": "et",
+    "CustomFields2": "facere"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 295
     }
   }
 }

@@ -85,16 +85,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 205,
-  "ERPPriceListKey": "qui",
-  "QuoteConnectionId": 100,
-  "Name": "Marvin, Wilkinson and Ullrich",
-  "Description": "Streamlined mission-critical product",
-  "Currency": "ipsa",
-  "CurrencyName": "Smitham Group",
-  "ValidFrom": "2014-03-28T13:38:14.0147081+01:00",
-  "ValidTo": "2012-03-25T13:38:14.0147081+02:00",
-  "IsActive": false
+  "PriceListId": 133,
+  "ERPPriceListKey": "veniam",
+  "QuoteConnectionId": 867,
+  "Name": "Pagac-Pacocha",
+  "Description": "Customer-focused analyzing hierarchy",
+  "Currency": "ducimus",
+  "CurrencyName": "Langosh-Champlin",
+  "ValidFrom": "2002-03-10T13:57:13.0324135+01:00",
+  "ValidTo": "2020-04-19T13:57:13.0324135+02:00",
+  "IsActive": true
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 85,
-  "ERPPriceListKey": "ex",
-  "QuoteConnectionId": 394,
-  "Name": "Bradtke Inc and Sons",
-  "Description": "Inverse client-server analyzer",
-  "Currency": "tempore",
-  "CurrencyName": "Hauck Group",
-  "ValidFrom": "2006-03-19T13:38:14.0147081+01:00",
-  "ValidTo": "2009-05-26T13:38:14.0147081+02:00",
+  "PriceListId": 652,
+  "ERPPriceListKey": "repellendus",
+  "QuoteConnectionId": 980,
+  "Name": "O'Kon LLC",
+  "Description": "Re-contextualized composite hardware",
+  "Currency": "maiores",
+  "CurrencyName": "Kub, Kozey and Ullrich",
+  "ValidFrom": "2023-04-28T13:57:13.0324135+02:00",
+  "ValidTo": "2016-01-22T13:57:13.0324135+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 394
+      "FieldType": "System.Int32",
+      "FieldLength": 340
     }
   }
 }

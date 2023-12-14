@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 601,
-    "Name": "Konopelski-Schimmel",
-    "Rank": 394,
-    "Tooltip": "modi",
-    "Icon": "quisquam",
-    "DefaultTicketStatus": 35,
+    "TicketTypeId": 805,
+    "Name": "Spencer-Breitenberg",
+    "Rank": 240,
+    "Tooltip": "quia",
+    "Icon": "consequatur",
+    "DefaultTicketStatus": 523,
     "TicketStatuses": [
-      628,
-      82
+      274,
+      92
     ],
-    "DefaultTicketPriority": 711,
+    "DefaultTicketPriority": 525,
     "TicketPriorities": [
-      300,
-      255
+      629,
+      677
     ],
-    "ReplyTemplate": 749,
+    "ReplyTemplate": 237,
     "IsExternalVisible": true,
-    "IsDefault": false,
+    "IsDefault": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 469
+        "FieldLength": 199
       }
     }
   }

@@ -164,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "laudantium",
-  "ProviderName": "Kiehn-Kuhlman",
-  "DesiredColumns": "et",
-  "PageSize": 512,
-  "PageNumber": 929
+  "Restrictions": "dolor",
+  "ProviderName": "Bosco, McDermott and Willms",
+  "DesiredColumns": "eos",
+  "PageSize": 424,
+  "PageNumber": 242
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Gleason Inc and Sons",
-      "DisplayTooltip": "a",
-      "DisplayType": "eos",
+      "DisplayName": "Bednar, Hoppe and Schowalter",
+      "DisplayTooltip": "dolor",
+      "DisplayType": "est",
       "CanOrderBy": true,
-      "Name": "Wisoky, Hane and Mayert",
+      "Name": "Collier-Bauch",
       "CanRestrictBy": true,
-      "RestrictionType": "nihil",
-      "RestrictionListName": "Runte, Mills and Kunde",
-      "IsVisible": false,
-      "ExtraInfo": "odit",
-      "Width": "aut",
-      "IconHint": "tempore",
-      "HeadingIconHint": "aliquid"
+      "RestrictionType": "magni",
+      "RestrictionListName": "Schmitt, Cormier and Gibson",
+      "IsVisible": true,
+      "ExtraInfo": "soluta",
+      "Width": "et",
+      "IconHint": "aut",
+      "HeadingIconHint": "ullam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Jacobson, Hirthe and Bednar",
-      "PrimaryKey": 528,
+      "EntityName": "Medhurst, Bashirian and Kilback",
+      "PrimaryKey": 16,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "nostrum",
-          "LinkHint": "sunt"
+          "DisplayValue": "dolores",
+          "TooltipHint": "molestiae",
+          "LinkHint": "sed"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "ut",
+      "LinkHint": "tempora",
+      "StyleHint": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldLength": 925
         }
       }
     }
   ],
-  "RowCount": 675,
+  "RowCount": 822,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 364
     }
   }
 }

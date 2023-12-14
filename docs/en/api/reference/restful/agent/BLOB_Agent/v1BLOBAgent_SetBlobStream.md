@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/BLOB/SetBlobStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobEntityId": 658,
+  "BlobEntityId": 187,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```

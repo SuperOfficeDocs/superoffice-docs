@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 315,
-    "Name": "Ward, Glover and Olson",
-    "Tooltip": "esse",
-    "Deleted": true,
-    "Rank": 793,
-    "UdListDefinitionId": 267,
+    "HeadingId": 960,
+    "Name": "Stehr Group",
+    "Tooltip": "animi",
+    "Deleted": false,
+    "Rank": 467,
+    "UdListDefinitionId": 741,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldType": "System.String",
+        "FieldLength": 382
       }
     }
   }

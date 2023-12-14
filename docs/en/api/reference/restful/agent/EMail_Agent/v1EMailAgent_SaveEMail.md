@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 603,
-      "ContactName": "Lebsack LLC",
-      "PersonId": 492,
-      "PersonName": "O'Reilly LLC",
-      "AssociateId": 115,
-      "Address": "sed",
-      "EmailId": 957,
+      "ContactId": 659,
+      "ContactName": "Hand Inc and Sons",
+      "PersonId": 622,
+      "PersonName": "Bernhard, Hane and Davis",
+      "AssociateId": 505,
+      "Address": "consectetur",
+      "EmailId": 247,
       "DuplicatePersonIds": [
-        657,
-        711
+        56,
+        286
       ],
-      "Name": "Windler, Medhurst and Graham",
+      "Name": "Satterfield, Leffler and Grant",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 304
+          "FieldType": "System.Int32",
+          "FieldLength": 470
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 50,
-      "ContactName": "Upton, Marvin and Wisozk",
-      "PersonId": 439,
-      "PersonName": "Heidenreich-Treutel",
-      "AssociateId": 756,
-      "Address": "ea",
-      "EmailId": 878,
+      "ContactId": 198,
+      "ContactName": "Stehr, Bednar and Rodriguez",
+      "PersonId": 340,
+      "PersonName": "Schaden-Sawayn",
+      "AssociateId": 777,
+      "Address": "consequuntur",
+      "EmailId": 880,
       "DuplicatePersonIds": [
-        603,
-        257
+        106,
+        306
       ],
-      "Name": "Krajcik-Buckridge",
+      "Name": "Harvey, Torphy and Bradtke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 50
+          "FieldLength": 784
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 175,
-      "ContactName": "Bernhard-Nicolas",
-      "PersonId": 277,
-      "PersonName": "Zieme-Friesen",
-      "AssociateId": 271,
-      "Address": "aut",
-      "EmailId": 459,
+      "ContactId": 712,
+      "ContactName": "Pfannerstill-Monahan",
+      "PersonId": 322,
+      "PersonName": "Wolf-Volkman",
+      "AssociateId": 557,
+      "Address": "assumenda",
+      "EmailId": 176,
       "DuplicatePersonIds": [
-        566,
-        869
+        250,
+        573
       ],
-      "Name": "Halvorson-Funk",
+      "Name": "Barton Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 47
+          "FieldLength": 169
         }
       }
     }
   ],
-  "Subject": "ea",
-  "HTMLBody": "rerum",
+  "Subject": "earum",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2010-12-21T13:38:13.5614895+01:00",
-  "Size": 236,
+  "Sent": "2012-12-23T13:57:12.313052+01:00",
+  "Size": 947,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "et",
+  "MessageID": "quasi",
+  "PlainBody": "minima",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 352,
+  "ServerId": 5,
   "Attachments": [
     {
-      "Description": "Synergistic heuristic middleware",
-      "Filename": "aut",
-      "Size": 768,
-      "Type": "est",
-      "Encoding": "quis",
-      "Id": "in",
-      "Disposition": "exercitationem",
+      "Description": "Operative methodical projection",
+      "Filename": "est",
+      "Size": 615,
+      "Type": "assumenda",
+      "Encoding": "et",
+      "Id": "minus",
+      "Disposition": "dolor",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 630
+          "FieldType": "System.Int32",
+          "FieldLength": 987
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Dach-Shanahan",
+      "Name": "Schowalter-Oberbrunner",
       "Values": [
-        "quis",
-        "exercitationem"
+        "quidem",
+        "quod"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 779
+          "FieldLength": 829
         }
       }
     },
     {
-      "Name": "Dach-Shanahan",
+      "Name": "Schowalter-Oberbrunner",
       "Values": [
-        "quis",
-        "exercitationem"
+        "quidem",
+        "quod"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 779
+          "FieldLength": 829
         }
       }
     }
   ],
-  "FolderName": "Rowe, Hauck and Wolff",
-  "EmailItemId": 668,
-  "AccountId": 731,
-  "ReceivedAt": "2022-10-18T13:38:13.5614895+02:00",
+  "FolderName": "Hahn Group",
+  "EmailItemId": 758,
+  "AccountId": 667,
+  "ReceivedAt": "2010-01-10T13:57:12.313052+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-01-04T13:38:13.5614895+01:00",
+  "RepliedAt": "2019-10-03T13:57:12.313052+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 295
     }
   }
 }

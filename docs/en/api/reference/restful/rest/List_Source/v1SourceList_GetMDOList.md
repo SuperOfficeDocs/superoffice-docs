@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=repellendus
+GET /api/v1/List/Source/MDOItems?flat=False
+GET /api/v1/List/Source/MDOItems?query=eos
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Ward, Kunze and Jast",
-    "ToolTip": "Iusto dolor sit.",
-    "Deleted": false,
-    "Rank": 812,
-    "Type": "velit",
+    "Id": 740,
+    "Name": "Lemke Inc and Sons",
+    "ToolTip": "Expedita ipsum dolor.",
+    "Deleted": true,
+    "Rank": 56,
+    "Type": "porro",
     "ChildItems": [
       {
-        "Id": 817,
-        "Name": "Anderson-Bins",
-        "ToolTip": "Est et.",
+        "Id": 596,
+        "Name": "Emard-Sipes",
+        "ToolTip": "Aut officia voluptatem.",
         "Deleted": false,
-        "Rank": 794,
-        "Type": "delectus",
+        "Rank": 520,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 409,
-        "ExtraInfo": "tenetur",
-        "StyleHint": "ipsa",
-        "FullName": "Dr. Ernestina Parisian DVM",
+        "IconHint": "animi",
+        "ColorBlock": 680,
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "sint",
+        "FullName": "Ms. Tevin Kristina Rogahn MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 254
+            "FieldLength": 130
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 260,
-    "ExtraInfo": "fuga",
-    "StyleHint": "atque",
-    "FullName": "Adrianna Schumm",
+    "IconHint": "sapiente",
+    "ColorBlock": 846,
+    "ExtraInfo": "aut",
+    "StyleHint": "corporis",
+    "FullName": "Jayden Lemke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldType": "System.String",
+        "FieldLength": 659
       }
     }
   }

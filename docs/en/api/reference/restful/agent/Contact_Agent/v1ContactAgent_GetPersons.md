@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 67
+  "ContactId": 109
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "nemo",
-    "PersonId": 770,
-    "Mrmrs": "sint",
-    "Firstname": "Tanya",
-    "Lastname": "Gerhold",
-    "MiddleName": "Cassin, Abbott and Kerluke",
-    "Title": "rerum",
-    "Description": "Assimilated exuding focus group",
-    "Email": "citlalli_schmeler@champlin.info",
-    "FullName": "Ms. Grady Crooks",
-    "DirectPhone": "299-106-0242",
-    "FormalName": "Schmidt, Cassin and Schowalter",
-    "CountryId": 157,
-    "ContactId": 82,
-    "ContactName": "Koepp, Murphy and Mertz",
-    "Retired": 906,
-    "Rank": 902,
-    "ActiveInterests": 187,
+    "Position": "atque",
+    "PersonId": 803,
+    "Mrmrs": "et",
+    "Firstname": "Lambert",
+    "Lastname": "Wiegand",
+    "MiddleName": "Hartmann-Schowalter",
+    "Title": "aut",
+    "Description": "Expanded background Graphical User Interface",
+    "Email": "davonte_hand@cummings.us",
+    "FullName": "Hope Braun Jr.",
+    "DirectPhone": "097-562-3010",
+    "FormalName": "Lowe Inc and Sons",
+    "CountryId": 583,
+    "ContactId": 905,
+    "ContactName": "Miller, Balistreri and Eichmann",
+    "Retired": 142,
+    "Rank": 978,
+    "ActiveInterests": 290,
     "ContactDepartment": "",
-    "ContactCountryId": 872,
-    "ContactOrgNr": "1361515",
-    "FaxPhone": "631-197-7041",
-    "MobilePhone": "(305)771-8868 x45632",
-    "ContactPhone": "(916)701-6179",
-    "AssociateName": "Quitzon, Runolfsson and Hahn",
-    "AssociateId": 846,
-    "UsePersonAddress": true,
-    "ContactFax": "quos",
-    "Kanafname": "saepe",
-    "Kanalname": "eveniet",
-    "Post1": "labore",
-    "Post2": "sint",
-    "Post3": "praesentium",
-    "EmailName": "sydnie_ledner@okeefeparisian.uk",
-    "ContactFullName": "Terry Kreiger",
-    "ActiveErpLinks": 132,
-    "TicketPriorityId": 174,
-    "SupportLanguageId": 155,
-    "SupportAssociateId": 558,
+    "ContactCountryId": 569,
+    "ContactOrgNr": "903491",
+    "FaxPhone": "1-383-321-2639 x14346",
+    "MobilePhone": "(167)215-6417 x857",
+    "ContactPhone": "020-250-5871",
+    "AssociateName": "Franecki Inc and Sons",
+    "AssociateId": 378,
+    "UsePersonAddress": false,
+    "ContactFax": "maiores",
+    "Kanafname": "est",
+    "Kanalname": "architecto",
+    "Post1": "id",
+    "Post2": "molestias",
+    "Post3": "iure",
+    "EmailName": "winona.nienow@darebradtke.name",
+    "ContactFullName": "Mr. Jovanny Beer",
+    "ActiveErpLinks": 128,
+    "TicketPriorityId": 771,
+    "SupportLanguageId": 700,
+    "SupportAssociateId": 123,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 487
+        "FieldType": "System.Int32",
+        "FieldLength": 762
       }
     }
   }

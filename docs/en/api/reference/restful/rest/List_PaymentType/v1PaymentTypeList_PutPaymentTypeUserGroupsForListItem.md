@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 161,
-    "Name": "Zboncak Group",
-    "ToolTip": "Excepturi officiis amet similique blanditiis.",
+    "Id": 33,
+    "Name": "Smitham, Hoppe and Johnston",
+    "ToolTip": "Et nulla dolorum.",
     "Deleted": false,
-    "Rank": 542,
-    "Type": "ipsum",
-    "ColorBlock": 361,
-    "IconHint": "blanditiis",
-    "Selected": false,
-    "LastChanged": "2015-01-13T13:38:18.0931573+01:00",
+    "Rank": 811,
+    "Type": "qui",
+    "ColorBlock": 810,
+    "IconHint": "nihil",
+    "Selected": true,
+    "LastChanged": "2021-08-29T13:57:19.8127681+02:00",
     "ChildItems": [
       {
-        "Id": 255,
-        "Name": "Bogan, Hagenes and Jast",
-        "ToolTip": "Odit totam soluta unde asperiores ut dolores eius.",
-        "Deleted": false,
-        "Rank": 790,
-        "Type": "ut",
-        "ColorBlock": 37,
-        "IconHint": "beatae",
+        "Id": 961,
+        "Name": "Skiles-Upton",
+        "ToolTip": "Facilis quia.",
+        "Deleted": true,
+        "Rank": 957,
+        "Type": "quidem",
+        "ColorBlock": 733,
+        "IconHint": "autem",
         "Selected": true,
-        "LastChanged": "2018-09-08T13:38:18.0931573+02:00",
+        "LastChanged": "2016-03-08T13:57:19.8127681+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Mr. Bella Kiehn I"
+        "ExtraInfo": "fugiat",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Mrs. Sam Alycia Padberg IV"
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "fuga",
+    "ExtraInfo": "dolores",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Mrs. Earl Koelpin DDS"
+    "FullName": "Cassidy Kiehn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Gutmann, Zulauf and Hickle",
-    "ToolTip": "Laboriosam vel tempore consequuntur.",
-    "Deleted": true,
-    "Rank": 755,
-    "Type": "est",
-    "ColorBlock": 972,
-    "IconHint": "exercitationem",
-    "Selected": true,
-    "LastChanged": "2019-03-26T13:38:18.0931573+01:00",
+    "Id": 87,
+    "Name": "Christiansen-Vandervort",
+    "ToolTip": "Doloremque possimus corrupti quisquam saepe necessitatibus.",
+    "Deleted": false,
+    "Rank": 745,
+    "Type": "qui",
+    "ColorBlock": 886,
+    "IconHint": "impedit",
+    "Selected": false,
+    "LastChanged": "2015-03-30T13:57:19.8283923+02:00",
     "ChildItems": [
       {
-        "Id": 299,
-        "Name": "Renner-McClure",
-        "ToolTip": "Vitae enim sequi quae et voluptatem.",
-        "Deleted": false,
-        "Rank": 889,
-        "Type": "voluptas",
-        "ColorBlock": 743,
-        "IconHint": "quia",
+        "Id": 777,
+        "Name": "Grady, Rutherford and Anderson",
+        "ToolTip": "Illum magni at alias consectetur et rem.",
+        "Deleted": true,
+        "Rank": 133,
+        "Type": "rerum",
+        "ColorBlock": 752,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2001-04-30T13:38:18.0931573+02:00",
+        "LastChanged": "2002-09-05T13:57:19.8283923+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "non",
-        "StyleHint": "aut",
+        "StyleHint": "nihil",
         "Hidden": true,
-        "FullName": "Janice Dickinson",
+        "FullName": "Prof. Ana Quitzon DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 938
+            "FieldLength": 724
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "quos",
-    "Hidden": false,
-    "FullName": "Whitney Carolyne Aufderhar III",
+    "ExtraInfo": "itaque",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Mackenzie Wilkinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 205
+        "FieldType": "System.String",
+        "FieldLength": 441
       }
     }
   }

@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 6,
-  "Name": "Bergnaum LLC",
-  "Tooltip": "iure",
-  "Deleted": true,
-  "Rank": 563,
+  "WebPanelId": 955,
+  "Name": "Bayer, Funk and Yost",
+  "Tooltip": "ratione",
+  "Deleted": false,
+  "Rank": 64,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Hand Group",
+  "WindowName": "Borer Group",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptatem",
-  "Icon": 585,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "officiis",
+  "Icon": 218,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 96
     }
   }
 }

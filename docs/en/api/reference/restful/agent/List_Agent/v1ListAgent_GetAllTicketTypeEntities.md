@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 476,
-    "Name": "Ferry-Harber",
-    "Rank": 522,
-    "Tooltip": "aspernatur",
-    "Icon": "tempore",
-    "DefaultTicketStatus": 563,
+    "TicketTypeId": 571,
+    "Name": "Stiedemann-Stehr",
+    "Rank": 545,
+    "Tooltip": "pariatur",
+    "Icon": "tempora",
+    "DefaultTicketStatus": 609,
     "TicketStatuses": [
-      25,
-      15
+      124,
+      70
     ],
-    "DefaultTicketPriority": 836,
+    "DefaultTicketPriority": 552,
     "TicketPriorities": [
-      538,
-      12
+      626,
+      504
     ],
-    "ReplyTemplate": 118,
-    "IsExternalVisible": true,
+    "ReplyTemplate": 211,
+    "IsExternalVisible": false,
     "IsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 351
+        "FieldLength": 765
       }
     }
   }

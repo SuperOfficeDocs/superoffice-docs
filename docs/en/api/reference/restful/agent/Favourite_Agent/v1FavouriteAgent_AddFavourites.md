@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lindgren Inc and Sons",
+  "TableName": "Feest LLC",
   "RecordIds": [
-    789,
-    995
+    476,
+    116
   ],
-  "AssociateId": 607,
-  "ExtraInfo": "deserunt"
+  "AssociateId": 706,
+  "ExtraInfo": "nemo"
 }
 ```
 

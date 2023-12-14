@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Gottlieb-Steuber",
-    "ToolTip": "Cupiditate ea quis dolor consequatur cupiditate qui vitae.",
-    "Deleted": false,
-    "Rank": 237,
-    "Type": "occaecati",
-    "ColorBlock": 827,
+    "Id": 123,
+    "Name": "Von, Rolfson and Graham",
+    "ToolTip": "At ducimus esse iure.",
+    "Deleted": true,
+    "Rank": 890,
+    "Type": "non",
+    "ColorBlock": 209,
     "IconHint": "sit",
     "Selected": true,
-    "LastChanged": "2006-10-17T13:38:18.1400255+02:00",
+    "LastChanged": "2012-03-19T13:57:19.8752673+01:00",
     "ChildItems": [
       {
-        "Id": 684,
-        "Name": "Vandervort LLC",
-        "ToolTip": "Architecto eaque est dolor aut ipsum ipsum.",
+        "Id": 143,
+        "Name": "Denesik-Harris",
+        "ToolTip": "Commodi excepturi sit.",
         "Deleted": true,
-        "Rank": 655,
-        "Type": "quas",
-        "ColorBlock": 153,
-        "IconHint": "laudantium",
-        "Selected": false,
-        "LastChanged": "2001-08-25T13:38:18.1400255+02:00",
+        "Rank": 641,
+        "Type": "perspiciatis",
+        "ColorBlock": 383,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "2014-01-07T13:57:19.8752673+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "a",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Rahsaan Maggio DVM"
+        "FullName": "Ansley Schulist"
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "saepe",
-    "Hidden": false,
-    "FullName": "Kane Dickinson"
+    "ExtraInfo": "veritatis",
+    "StyleHint": "harum",
+    "Hidden": true,
+    "FullName": "Shanie Cremin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 850,
-    "Name": "Conn LLC",
-    "ToolTip": "Dolorem voluptas aliquid architecto odio enim et.",
+    "Id": 171,
+    "Name": "Wilderman-Okuneva",
+    "ToolTip": "Quo ea voluptatem saepe ut optio aut.",
     "Deleted": false,
-    "Rank": 669,
-    "Type": "sit",
-    "ColorBlock": 264,
-    "IconHint": "odio",
-    "Selected": false,
-    "LastChanged": "2013-09-03T13:38:18.1400255+02:00",
+    "Rank": 34,
+    "Type": "recusandae",
+    "ColorBlock": 157,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2011-01-17T13:57:19.8752673+01:00",
     "ChildItems": [
       {
-        "Id": 326,
-        "Name": "Krajcik, Brakus and Larkin",
-        "ToolTip": "Sed unde.",
-        "Deleted": false,
-        "Rank": 580,
+        "Id": 603,
+        "Name": "Predovic Group",
+        "ToolTip": "Aperiam exercitationem accusantium.",
+        "Deleted": true,
+        "Rank": 3,
         "Type": "dolores",
-        "ColorBlock": 941,
-        "IconHint": "qui",
+        "ColorBlock": 987,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "1997-07-03T13:38:18.1400255+02:00",
+        "LastChanged": "2012-05-01T13:57:19.8752673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "saepe",
+        "ExtraInfo": "iure",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Miss Kayla Wiegand",
+        "FullName": "Helena Sanford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 391
+            "FieldLength": 744
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "facilis",
+    "ExtraInfo": "qui",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Dr. Vance Quigley",
+    "FullName": "Roberto Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 575
+        "FieldLength": 760
       }
     }
   }

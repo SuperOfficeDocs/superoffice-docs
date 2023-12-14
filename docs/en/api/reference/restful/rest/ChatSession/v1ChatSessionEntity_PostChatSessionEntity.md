@@ -136,33 +136,33 @@ OK
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 800,
-  "TopicId": 299,
+  "ChatSessionId": 264,
+  "TopicId": 493,
   "User": null,
   "Person": null,
-  "CustomerAlias": "saepe",
-  "CustomerHost": "quam",
-  "CustomerName": "Marks, Metz and Jacobi",
-  "CustomerEmail": "jacques@kuvalis.us",
-  "CustomerPhone": "(322)099-1584",
+  "CustomerAlias": "quia",
+  "CustomerHost": "voluptas",
+  "CustomerName": "Maggio-Auer",
+  "CustomerEmail": "sedrick@medhurst.ca",
+  "CustomerPhone": "582-604-7989",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Moen-Windler",
+  "CustomerCompanyName": "Stiedemann-Kohler",
   "Status": "Closed",
-  "FirstMessage": "quasi",
-  "LastMessage": "assumenda",
-  "WhenRequested": "2021-08-15T13:38:17.1087373+02:00",
-  "WhenStarted": "2012-11-17T13:38:17.1087373+01:00",
-  "WhenEnded": "2003-08-26T13:38:17.1087373+02:00",
-  "WhenIdle": "2008-01-02T13:38:17.1087373+01:00",
-  "WhenFetched": "2010-06-18T13:38:17.1087373+02:00",
-  "SessionKey": "beatae",
-  "InitialQueuePos": 553,
-  "AlertLevel": 413,
-  "Rank": 199,
+  "FirstMessage": "et",
+  "LastMessage": "reprehenderit",
+  "WhenRequested": "1996-07-26T13:57:18.4190587+02:00",
+  "WhenStarted": "2018-09-18T13:57:18.4190587+02:00",
+  "WhenEnded": "2007-09-01T13:57:18.4190587+02:00",
+  "WhenIdle": "2019-02-02T13:57:18.4190587+01:00",
+  "WhenFetched": "1998-05-22T13:57:18.4190587+02:00",
+  "SessionKey": "cumque",
+  "InitialQueuePos": 607,
+  "AlertLevel": 292,
+  "Rank": 758,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 648
+  "Rating": 786
 }
 ```
 
@@ -181,29 +181,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 499,
-  "TopicId": 525,
+  "ChatSessionId": 299,
+  "TopicId": 596,
   "User": null,
   "Person": null,
-  "CustomerAlias": "molestiae",
-  "CustomerHost": "quas",
-  "CustomerName": "Kilback, Okuneva and Bins",
-  "CustomerEmail": "estella.nikolaus@homenick.us",
-  "CustomerPhone": "314.410.5911",
+  "CustomerAlias": "et",
+  "CustomerHost": "in",
+  "CustomerName": "Weimann Inc and Sons",
+  "CustomerEmail": "vickie_schumm@mohr.us",
+  "CustomerPhone": "1-718-144-8347 x2587",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Blick-Jakubowski",
+  "CustomerCompanyName": "Batz-Larkin",
   "Status": "Closed",
-  "FirstMessage": "blanditiis",
-  "LastMessage": "omnis",
-  "WhenRequested": "2001-11-18T13:38:17.1087373+01:00",
-  "WhenStarted": "2005-10-05T13:38:17.1087373+02:00",
-  "WhenEnded": "2016-06-01T13:38:17.1087373+02:00",
-  "WhenIdle": "2019-01-05T13:38:17.1087373+01:00",
-  "WhenFetched": "2021-12-08T13:38:17.1087373+01:00",
-  "SessionKey": "voluptatem",
-  "InitialQueuePos": 538,
-  "AlertLevel": 459,
-  "Rank": 184,
+  "FirstMessage": "odit",
+  "LastMessage": "vero",
+  "WhenRequested": "2014-06-09T13:57:18.4346895+02:00",
+  "WhenStarted": "2021-12-09T13:57:18.4346895+01:00",
+  "WhenEnded": "2014-12-18T13:57:18.4346895+01:00",
+  "WhenIdle": "2008-11-30T13:57:18.4346895+01:00",
+  "WhenFetched": "2012-09-27T13:57:18.4346895+02:00",
+  "SessionKey": "veniam",
+  "InitialQueuePos": 991,
+  "AlertLevel": 183,
+  "Rank": 722,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -211,13 +211,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 967,
+  "Rating": 839,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldType": "System.String",
+      "FieldLength": 557
     }
   },
   "_Links": {

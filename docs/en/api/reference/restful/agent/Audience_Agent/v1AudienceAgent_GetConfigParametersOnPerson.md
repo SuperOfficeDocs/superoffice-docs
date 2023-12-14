@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 789
+  "PersonId": 666
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 281,
-    "Name": "Braun, Abernathy and Kuhn",
-    "Value": "eos",
-    "CreatedDate": "2003-01-20T13:38:13.0771703+01:00",
-    "UpdatedDate": "2017-01-18T13:38:13.0771703+01:00",
-    "CreatedBy": "numquam",
-    "UpdatedBy": "voluptatum",
+    "AudienceLayoutId": 829,
+    "Name": "Thiel, Quitzon and Hodkiewicz",
+    "Value": "id",
+    "CreatedDate": "2001-12-10T13:57:11.5438073+01:00",
+    "UpdatedDate": "2019-12-06T13:57:11.5438073+01:00",
+    "CreatedBy": "aliquid",
+    "UpdatedBy": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldType": "System.String",
+        "FieldLength": 49
       }
     }
   }

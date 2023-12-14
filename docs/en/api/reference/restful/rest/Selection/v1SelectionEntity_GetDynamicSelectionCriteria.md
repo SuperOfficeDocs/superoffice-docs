@@ -66,7 +66,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Brakus Group",
-    "Operator": "debitis",
+    "Name": "Anderson Inc and Sons",
+    "Operator": "qui",
     "Values": [
-      "asperiores",
-      "sint"
+      "voluptas",
+      "soluta"
     ],
     "DisplayValues": [
-      "dolore",
-      "dolore"
+      "delectus",
+      "nesciunt"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Nikolaus, Ward and Carroll",
-        "Operator": "quo",
+        "Name": "Abbott Inc and Sons",
+        "Operator": "quas",
         "Values": [
-          "autem",
-          "quibusdam"
+          "neque",
+          "rerum"
         ],
         "DisplayValues": [
-          "et",
-          "voluptate"
+          "vitae",
+          "cupiditate"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 782,
+        "InterParenthesis": 934,
         "InterOperator": "And",
-        "UniqueHash": 275
+        "UniqueHash": 374
       }
     ],
-    "InterParenthesis": 426,
+    "InterParenthesis": 796,
     "InterOperator": "And",
-    "UniqueHash": 384
+    "UniqueHash": 790
   }
 ]
 ```

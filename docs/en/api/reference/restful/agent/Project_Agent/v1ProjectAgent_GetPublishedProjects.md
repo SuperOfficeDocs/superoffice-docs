@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    2,
-    546
+    276,
+    750
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 895,
-    "Name": "Sauer, Stokes and Rodriguez",
-    "Description": "Cloned uniform parallelism",
+    "ProjectId": 521,
+    "Name": "Larkin, Borer and Hammes",
+    "Description": "Automated asynchronous parallelism",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 875,
-    "AssociateFullName": "Reina Schumm",
-    "TypeId": 254,
-    "Updated": "2005-03-21T13:38:13.9834617+01:00",
-    "StatusId": 989,
-    "Status": "et",
-    "TextId": 34,
-    "PublishTo": "2018-01-01T13:38:13.9834617+01:00",
-    "PublishFrom": "2003-11-16T13:38:13.9834617+01:00",
+    "Type": "ullam",
+    "AssociateId": 512,
+    "AssociateFullName": "Kyler Walker",
+    "TypeId": 759,
+    "Updated": "2021-09-18T13:57:13.0011314+02:00",
+    "StatusId": 467,
+    "Status": "est",
+    "TextId": 292,
+    "PublishTo": "2008-04-27T13:57:13.0011314+02:00",
+    "PublishFrom": "2004-06-07T13:57:13.0011314+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "926402",
-    "ActiveErpLinks": 911,
+    "ProjectNumber": "963940",
+    "ActiveErpLinks": 377,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldType": "System.String",
+        "FieldLength": 600
       }
     }
   }

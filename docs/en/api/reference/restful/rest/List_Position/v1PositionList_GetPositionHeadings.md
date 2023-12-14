@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 671,
-    "Name": "Schmidt-Bailey",
-    "Tooltip": "minima",
-    "Deleted": true,
-    "Rank": 395,
-    "UdListDefinitionId": 63,
+    "HeadingId": 53,
+    "Name": "Schroeder, Borer and Champlin",
+    "Tooltip": "doloremque",
+    "Deleted": false,
+    "Rank": 448,
+    "UdListDefinitionId": 150,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldLength": 56
       }
     }
   }

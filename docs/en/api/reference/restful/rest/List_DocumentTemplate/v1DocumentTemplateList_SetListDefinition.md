@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 775,
-  "Name": "Crooks Inc and Sons",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "Rank": 230,
-  "IsCustomList": true,
+  "Id": 739,
+  "Name": "Schaefer Inc and Sons",
+  "Tooltip": "commodi",
+  "Deleted": true,
+  "Rank": 241,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "incidunt",
+  "UseGroupsAndHeadings": false,
+  "ListType": "aspernatur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 647,
-  "Name": "Greenholt, Swaniawski and Waelchi",
-  "Tooltip": "ad",
+  "Id": 601,
+  "Name": "Crona, Gerhold and Streich",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "Rank": 405,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequuntur",
+  "Rank": 340,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "soluta",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 727
+      "FieldType": "System.Int32",
+      "FieldLength": 932
     }
   }
 }

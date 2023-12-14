@@ -94,9 +94,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boyer-Upton",
-  "ForceFlatList": true,
-  "AdditionalInfo": "at",
+  "Name": "Blanda, Wiegand and Bruen",
+  "ForceFlatList": false,
+  "AdditionalInfo": "quisquam",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 807,
-    "Name": "Donnelly-Erdman",
-    "ToolTip": "Quia tempore voluptas ut explicabo.",
+    "Id": 488,
+    "Name": "Jewess-Brakus",
+    "ToolTip": "Optio temporibus qui et et.",
     "Deleted": false,
-    "Rank": 282,
-    "Type": "minus",
-    "ColorBlock": 315,
-    "IconHint": "qui",
+    "Rank": 616,
+    "Type": "voluptas",
+    "ColorBlock": 629,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2018-04-16T13:38:13.7491627+02:00",
+    "LastChanged": "2022-09-25T13:57:12.6068289+02:00",
     "ChildItems": [
       {
-        "Id": 571,
-        "Name": "Zboncak, Legros and Raynor",
-        "ToolTip": "Debitis officia tempore qui qui quos quos.",
+        "Id": 218,
+        "Name": "Borer Inc and Sons",
+        "ToolTip": "Suscipit sit est in sunt est mollitia.",
         "Deleted": false,
-        "Rank": 902,
-        "Type": "iste",
-        "ColorBlock": 655,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2004-04-11T13:38:13.7491627+02:00",
+        "Rank": 962,
+        "Type": "suscipit",
+        "ColorBlock": 397,
+        "IconHint": "pariatur",
+        "Selected": false,
+        "LastChanged": "2019-05-18T13:57:12.6068289+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "sed",
         "Hidden": true,
-        "FullName": "Syble Hackett",
+        "FullName": "Alan Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 495
+            "FieldLength": 811
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "quisquam",
-    "Hidden": false,
-    "FullName": "Belle Homenick",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Marlen Colleen Abbott V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 610
+        "FieldType": "System.String",
+        "FieldLength": 107
       }
     }
   }

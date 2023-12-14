@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 176
+  "SaleId": 122
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 267,
-  "SaleId": 68,
-  "QuoteConnectionId": 107,
-  "ERPQuoteKey": "dicta",
-  "ERPOrderKey": "at",
-  "ActiveQuoteVersionId": 950,
-  "AcceptedQuoteAlternativeId": 510,
-  "UseValuesFromQuote": 965,
-  "DocumentId": 836,
-  "PoNumber": "774934",
-  "OrderComment": "dignissimos",
-  "PreferredEmailCulture": "eva_kuhic@swift.co.uk",
+  "QuoteId": 358,
+  "SaleId": 1002,
+  "QuoteConnectionId": 672,
+  "ERPQuoteKey": "qui",
+  "ERPOrderKey": "vero",
+  "ActiveQuoteVersionId": 957,
+  "AcceptedQuoteAlternativeId": 672,
+  "UseValuesFromQuote": 743,
+  "DocumentId": 350,
+  "PoNumber": "1245486",
+  "OrderComment": "et",
+  "PreferredEmailCulture": "reyes@wisozk.co.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldType": "System.String",
+      "FieldLength": 635
     }
   }
 }

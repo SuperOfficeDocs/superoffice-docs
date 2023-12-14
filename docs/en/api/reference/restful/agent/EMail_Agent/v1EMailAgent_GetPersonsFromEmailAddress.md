@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "benny.zulauf@mclaughlin.name"
+  "EmailAddress": "enid@davis.ca"
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "voluptatem",
-    "PersonId": 806,
-    "Mrmrs": "asperiores",
-    "Firstname": "Madelyn",
-    "Lastname": "Pfannerstill",
-    "MiddleName": "Halvorson Group",
-    "Title": "animi",
-    "Description": "User-centric assymetric customer loyalty",
-    "Email": "jamaal@okuneva.co.uk",
-    "FullName": "Dr. Deshaun O'Kon IV",
-    "DirectPhone": "(926)853-7360 x660",
-    "FormalName": "Ward Group",
-    "CountryId": 269,
-    "ContactId": 184,
-    "ContactName": "Collins-Ullrich",
-    "Retired": 268,
-    "Rank": 657,
-    "ActiveInterests": 16,
+    "Position": "est",
+    "PersonId": 357,
+    "Mrmrs": "ex",
+    "Firstname": "Josefa",
+    "Lastname": "Ratke",
+    "MiddleName": "Schoen Group",
+    "Title": "eos",
+    "Description": "Monitored full-range info-mediaries",
+    "Email": "bernadine@kihn.uk",
+    "FullName": "Graciela Jenkins",
+    "DirectPhone": "(051)154-2623 x8437",
+    "FormalName": "Rutherford, Padberg and Hauck",
+    "CountryId": 870,
+    "ContactId": 850,
+    "ContactName": "Reichel-Yundt",
+    "Retired": 810,
+    "Rank": 648,
+    "ActiveInterests": 780,
     "ContactDepartment": "",
-    "ContactCountryId": 169,
-    "ContactOrgNr": "1496583",
-    "FaxPhone": "(162)296-3673",
-    "MobilePhone": "354.146.5155 x66228",
-    "ContactPhone": "631-467-3279 x46033",
-    "AssociateName": "Zulauf-Rau",
-    "AssociateId": 235,
-    "UsePersonAddress": true,
-    "ContactFax": "molestias",
-    "Kanafname": "nostrum",
-    "Kanalname": "quasi",
-    "Post1": "molestias",
-    "Post2": "ut",
-    "Post3": "facilis",
-    "EmailName": "millie@erdman.biz",
-    "ContactFullName": "Mrs. Tamia Jackson Reilly I",
-    "ActiveErpLinks": 12,
-    "TicketPriorityId": 909,
-    "SupportLanguageId": 149,
-    "SupportAssociateId": 705,
+    "ContactCountryId": 687,
+    "ContactOrgNr": "1038395",
+    "FaxPhone": "(691)894-3364",
+    "MobilePhone": "(452)168-0270 x7915",
+    "ContactPhone": "(659)991-3010",
+    "AssociateName": "Heller LLC",
+    "AssociateId": 589,
+    "UsePersonAddress": false,
+    "ContactFax": "adipisci",
+    "Kanafname": "harum",
+    "Kanalname": "quidem",
+    "Post1": "hic",
+    "Post2": "voluptates",
+    "Post3": "qui",
+    "EmailName": "joesph@torp.com",
+    "ContactFullName": "Bo Anderson",
+    "ActiveErpLinks": 315,
+    "TicketPriorityId": 290,
+    "SupportLanguageId": 984,
+    "SupportAssociateId": 174,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 911
+        "FieldLength": 746
       }
     }
   }

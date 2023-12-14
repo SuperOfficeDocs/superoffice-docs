@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 546,
-  "NumSentences": 883,
-  "IsoLangCode": "animi"
+  "ContactId": 781,
+  "NumSentences": 158,
+  "IsoLangCode": "est"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ducimus"
+"reprehenderit"
 ```

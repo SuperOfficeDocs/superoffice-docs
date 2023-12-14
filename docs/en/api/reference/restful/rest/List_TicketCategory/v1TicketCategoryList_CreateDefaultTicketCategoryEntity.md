@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 511,
-  "ParentId": 839,
-  "Name": "Bernhard, Kerluke and Pacocha",
-  "Fullname": "maiores",
-  "CategoryMaster": 962,
+  "TicketCategoryId": 82,
+  "ParentId": 960,
+  "Name": "O'Conner-Wehner",
+  "Fullname": "optio",
+  "CategoryMaster": 654,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Emard LLC",
+  "ExternalName": "Adams-Beatty",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 355,
-  "ReplyTemplate": 145,
-  "NotificationEmail": "marina@runolfsson.ca",
+  "AssignmentLag": 730,
+  "ReplyTemplate": 605,
+  "NotificationEmail": "rafaela.feeney@abernathy.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 40,
+  "EffectiveReplyTemplateId": 422,
   "ExtraFields": {
-    "ExtraFields1": "voluptatibus",
-    "ExtraFields2": "iure"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "rem",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "sint",
+    "CustomFields2": "deserunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldType": "System.String",
+      "FieldLength": 995
     }
   }
 }

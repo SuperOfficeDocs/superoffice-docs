@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 121
+  "ProjectId": 610
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 889,
-  "BlobSize": 145,
-  "Description": "Total assymetric help-desk",
-  "ExtraInfo": "autem",
+  "BlobId": 193,
+  "BlobSize": 41,
+  "Description": "Fully-configurable local productivity",
+  "ExtraInfo": "id",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "rem",
-  "OriginalSize": 872,
-  "CreatedDate": "2000-07-11T13:38:13.0927968+02:00",
-  "UpdatedDate": "2013-06-19T13:38:13.0927968+02:00",
+  "MimeType": "perspiciatis",
+  "OriginalSize": 502,
+  "CreatedDate": "2017-01-16T13:57:11.5594343+01:00",
+  "UpdatedDate": "2009-10-29T13:57:11.5594343+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "perferendis",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldType": "System.String",
+      "FieldLength": 320
     }
   }
 }

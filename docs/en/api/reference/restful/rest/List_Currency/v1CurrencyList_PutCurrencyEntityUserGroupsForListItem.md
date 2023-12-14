@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Abbott LLC",
-    "ToolTip": "Quas deleniti consequuntur culpa et sed sit consequuntur.",
+    "Id": 682,
+    "Name": "Emmerich-Deckow",
+    "ToolTip": "Dolorem similique.",
     "Deleted": true,
-    "Rank": 292,
-    "Type": "voluptatem",
-    "ColorBlock": 191,
-    "IconHint": "quae",
-    "Selected": false,
-    "LastChanged": "2007-07-31T13:38:18.0306692+02:00",
+    "Rank": 312,
+    "Type": "voluptas",
+    "ColorBlock": 1002,
+    "IconHint": "doloremque",
+    "Selected": true,
+    "LastChanged": "2005-10-19T13:57:19.719018+02:00",
     "ChildItems": [
       {
-        "Id": 642,
-        "Name": "Nolan LLC",
-        "ToolTip": "Consequatur maxime eum quidem.",
-        "Deleted": false,
-        "Rank": 565,
-        "Type": "nulla",
-        "ColorBlock": 161,
-        "IconHint": "minus",
+        "Id": 669,
+        "Name": "Feil LLC",
+        "ToolTip": "Consequatur dolorem dolorum molestiae et.",
+        "Deleted": true,
+        "Rank": 611,
+        "Type": "dolores",
+        "ColorBlock": 798,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2021-09-18T13:38:18.0306692+02:00",
+        "LastChanged": "2006-03-07T13:57:19.719018+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Abraham Braun"
+        "ExtraInfo": "doloribus",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Alexa Wisoky PhD"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Alfonzo Gibson"
+    "ExtraInfo": "ipsum",
+    "StyleHint": "ex",
+    "Hidden": false,
+    "FullName": "Maxime Hahn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 717,
-    "Name": "Gorczany, Beahan and Kuvalis",
-    "ToolTip": "Molestiae consequuntur adipisci vitae magnam magni totam reprehenderit.",
-    "Deleted": true,
-    "Rank": 924,
-    "Type": "aut",
-    "ColorBlock": 479,
-    "IconHint": "et",
+    "Id": 707,
+    "Name": "Kemmer Group",
+    "ToolTip": "Nihil voluptatem magni.",
+    "Deleted": false,
+    "Rank": 122,
+    "Type": "ducimus",
+    "ColorBlock": 660,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2002-12-07T13:38:18.0306692+01:00",
+    "LastChanged": "2020-08-28T13:57:19.719018+02:00",
     "ChildItems": [
       {
-        "Id": 332,
-        "Name": "Grady-Mueller",
-        "ToolTip": "Quia repellendus deleniti nulla labore qui voluptate in.",
-        "Deleted": false,
-        "Rank": 399,
-        "Type": "ad",
-        "ColorBlock": 605,
-        "IconHint": "ut",
+        "Id": 352,
+        "Name": "Stehr, Wintheiser and Nitzsche",
+        "ToolTip": "Et ipsam dolor.",
+        "Deleted": true,
+        "Rank": 259,
+        "Type": "quas",
+        "ColorBlock": 293,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "1998-12-30T13:38:18.0306692+01:00",
+        "LastChanged": "2023-10-21T13:57:19.719018+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "corrupti",
-        "Hidden": false,
-        "FullName": "Miss Lexi Schuster DDS",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "dicta",
+        "Hidden": true,
+        "FullName": "Dereck Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 809
+            "FieldType": "System.Int32",
+            "FieldLength": 302
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "sed",
+    "StyleHint": "vero",
     "Hidden": false,
-    "FullName": "Walter Braun",
+    "FullName": "Ms. Felicia Adolphus Bergnaum Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 485
+        "FieldType": "System.Int32",
+        "FieldLength": 644
       }
     }
   }

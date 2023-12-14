@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 97,
-    "Name": "Koepp Inc and Sons",
-    "ToolTip": "Asperiores doloremque ut.",
+    "Id": 737,
+    "Name": "Kulas-Zemlak",
+    "ToolTip": "Dolorem adipisci dolores alias animi.",
     "Deleted": false,
-    "Rank": 784,
-    "Type": "veniam",
-    "ColorBlock": 477,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2017-08-08T13:38:17.9994152+02:00",
+    "Rank": 314,
+    "Type": "aut",
+    "ColorBlock": 509,
+    "IconHint": "quos",
+    "Selected": false,
+    "LastChanged": "2001-06-17T13:57:19.6721792+02:00",
     "ChildItems": [
       {
-        "Id": 724,
-        "Name": "Torphy-Schmitt",
-        "ToolTip": "Dolorem enim consequatur autem et iste.",
-        "Deleted": true,
-        "Rank": 570,
-        "Type": "non",
-        "ColorBlock": 431,
-        "IconHint": "laborum",
+        "Id": 668,
+        "Name": "Romaguera Group",
+        "ToolTip": "Culpa in magnam qui et voluptatem quisquam dolor.",
+        "Deleted": false,
+        "Rank": 867,
+        "Type": "dolor",
+        "ColorBlock": 546,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2016-01-03T13:38:17.9994152+01:00",
+        "LastChanged": "1999-04-24T13:57:19.6721792+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "et",
+        "ExtraInfo": "est",
+        "StyleHint": "repudiandae",
         "Hidden": false,
-        "FullName": "Lorine Reichel DDS"
+        "FullName": "Mrs. Tillman Wiza II"
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "quas",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Jailyn Borer"
+    "FullName": "Verona Swift"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 257,
-    "Name": "Baumbach Inc and Sons",
-    "ToolTip": "A aut aut est.",
-    "Deleted": false,
-    "Rank": 17,
-    "Type": "fugit",
-    "ColorBlock": 393,
-    "IconHint": "earum",
+    "Id": 190,
+    "Name": "Windler, Wisoky and Schimmel",
+    "ToolTip": "Suscipit est consequatur ex.",
+    "Deleted": true,
+    "Rank": 536,
+    "Type": "natus",
+    "ColorBlock": 201,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2004-07-31T13:38:17.9994152+02:00",
+    "LastChanged": "2013-11-23T13:57:19.6721792+01:00",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Connelly-Jakubowski",
-        "ToolTip": "Laborum sint.",
+        "Id": 896,
+        "Name": "Watsica, O'Conner and Rohan",
+        "ToolTip": "Molestias voluptate dolores harum et velit quis in.",
         "Deleted": false,
-        "Rank": 216,
-        "Type": "exercitationem",
-        "ColorBlock": 804,
-        "IconHint": "vitae",
+        "Rank": 386,
+        "Type": "quidem",
+        "ColorBlock": 61,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2023-04-10T13:38:17.9994152+02:00",
+        "LastChanged": "2012-02-21T13:57:19.6721792+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "dolore",
-        "Hidden": false,
-        "FullName": "Kristian Labadie MD",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Everett Gaylord II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 785
+            "FieldType": "System.Int32",
+            "FieldLength": 36
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "nisi",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Rex Brown",
+    "FullName": "Ned Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 278
+        "FieldLength": 898
       }
     }
   }

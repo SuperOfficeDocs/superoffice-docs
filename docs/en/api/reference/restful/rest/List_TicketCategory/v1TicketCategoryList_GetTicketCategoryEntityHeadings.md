@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 738,
-    "Name": "Hyatt, Rice and Sipes",
-    "Tooltip": "inventore",
-    "Deleted": false,
-    "Rank": 887,
-    "UdListDefinitionId": 15,
+    "HeadingId": 46,
+    "Name": "Jakubowski LLC",
+    "Tooltip": "aperiam",
+    "Deleted": true,
+    "Rank": 703,
+    "UdListDefinitionId": 580,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 137
+        "FieldLength": 685
       }
     }
   }

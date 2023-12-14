@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 485,
-    "Name": "Mosciski-Schroeder",
-    "ToolTip": "Harum in sunt blanditiis quis saepe voluptatem.",
+    "Id": 359,
+    "Name": "Hartmann, Metz and Dare",
+    "ToolTip": "Iste sed et labore facilis.",
     "Deleted": false,
-    "Rank": 153,
-    "Type": "consequatur",
-    "ColorBlock": 475,
-    "IconHint": "qui",
+    "Rank": 686,
+    "Type": "nam",
+    "ColorBlock": 563,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2007-02-13T13:38:18.2025212+01:00",
+    "LastChanged": "1999-02-06T13:57:20.0783884+01:00",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Zieme Inc and Sons",
-        "ToolTip": "Non eius quia omnis odit.",
+        "Id": 809,
+        "Name": "Stracke, Stroman and Kuhlman",
+        "ToolTip": "Dolor cum ratione officia enim.",
         "Deleted": false,
-        "Rank": 592,
-        "Type": "explicabo",
-        "ColorBlock": 796,
-        "IconHint": "a",
+        "Rank": 912,
+        "Type": "et",
+        "ColorBlock": 817,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2014-07-25T13:38:18.2025212+02:00",
+        "LastChanged": "2010-04-17T13:57:20.0940145+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "commodi",
+        "StyleHint": "culpa",
         "Hidden": false,
-        "FullName": "Mrs. Carole Huel II"
+        "FullName": "Vladimir Harris"
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Makenna Collin Stroman Sr."
+    "ExtraInfo": "aperiam",
+    "StyleHint": "aperiam",
+    "Hidden": false,
+    "FullName": "Orion Tremblay"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 103,
-    "Name": "Hand-Johnston",
-    "ToolTip": "Recusandae tempore explicabo.",
+    "Id": 593,
+    "Name": "Doyle-Jewess",
+    "ToolTip": "Quaerat consequatur est tenetur labore qui.",
     "Deleted": false,
-    "Rank": 431,
-    "Type": "voluptates",
-    "ColorBlock": 541,
-    "IconHint": "eos",
-    "Selected": true,
-    "LastChanged": "2005-06-17T13:38:18.2025212+02:00",
+    "Rank": 451,
+    "Type": "et",
+    "ColorBlock": 418,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "2005-01-07T13:57:20.0952749+01:00",
     "ChildItems": [
       {
-        "Id": 718,
-        "Name": "Smith Group",
-        "ToolTip": "Iure qui ullam.",
+        "Id": 696,
+        "Name": "Fadel Inc and Sons",
+        "ToolTip": "Et id.",
         "Deleted": false,
-        "Rank": 358,
-        "Type": "sit",
-        "ColorBlock": 782,
-        "IconHint": "modi",
-        "Selected": true,
-        "LastChanged": "2022-10-30T13:38:18.2025212+01:00",
+        "Rank": 676,
+        "Type": "qui",
+        "ColorBlock": 205,
+        "IconHint": "dolor",
+        "Selected": false,
+        "LastChanged": "2023-01-16T13:57:20.0952749+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "dignissimos",
-        "Hidden": false,
-        "FullName": "Lavada Sanford",
+        "ExtraInfo": "illum",
+        "StyleHint": "debitis",
+        "Hidden": true,
+        "FullName": "Bryon Walsh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 841
+            "FieldType": "System.String",
+            "FieldLength": 90
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "rem",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "nulla",
     "Hidden": true,
-    "FullName": "Miss Ethel Wilkinson DDS",
+    "FullName": "Miss Napoleon Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 149
+        "FieldType": "System.Int32",
+        "FieldLength": 593
       }
     }
   }

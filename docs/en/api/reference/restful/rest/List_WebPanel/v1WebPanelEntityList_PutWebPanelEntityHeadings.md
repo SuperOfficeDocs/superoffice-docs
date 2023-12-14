@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 27,
-    "Name": "Murray-Cummings",
-    "Tooltip": "asperiores",
+    "HeadingId": 608,
+    "Name": "Rempel Inc and Sons",
+    "Tooltip": "dicta",
     "Deleted": false,
-    "Rank": 594,
-    "UdListDefinitionId": 317
+    "Rank": 684,
+    "UdListDefinitionId": 599
   },
   {
-    "HeadingId": 27,
-    "Name": "Murray-Cummings",
-    "Tooltip": "asperiores",
+    "HeadingId": 608,
+    "Name": "Rempel Inc and Sons",
+    "Tooltip": "dicta",
     "Deleted": false,
-    "Rank": 594,
-    "UdListDefinitionId": 317
+    "Rank": 684,
+    "UdListDefinitionId": 599
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 72,
-    "Name": "Fritsch, Kulas and Okuneva",
-    "Tooltip": "dolores",
-    "Deleted": true,
-    "Rank": 229,
-    "UdListDefinitionId": 368,
+    "HeadingId": 159,
+    "Name": "Terry, Yost and Larkin",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 49,
+    "UdListDefinitionId": 578,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 647
+        "FieldLength": 27
       }
     }
   }

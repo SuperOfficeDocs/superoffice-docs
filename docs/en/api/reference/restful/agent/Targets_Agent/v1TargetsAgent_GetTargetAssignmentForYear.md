@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 597,
+  "TargetYear": 939,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 267
+  "Id": 64
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 394,
+  "TargetAssignmentInfoId": 465,
   "Values": [
-    107,
-    57
+    144,
+    416
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 668,
-  "DimensionListItemDisplayName": "Heaney-Bode",
+  "DimensionListItem": 884,
+  "DimensionListItemDisplayName": "Beer-Deckow",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 654
+      "FieldType": "System.Int32",
+      "FieldLength": 275
     }
   }
 }

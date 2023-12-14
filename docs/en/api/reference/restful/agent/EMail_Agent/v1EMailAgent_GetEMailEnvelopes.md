@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    563,
-    242
+    726,
+    639
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 800,
-    "MessageId": "sunt",
-    "Subject": "consequatur",
+    "ServerId": 367,
+    "MessageId": "qui",
+    "Subject": "nihil",
     "From": null,
     "To": [
       {
-        "ContactId": 753,
-        "ContactName": "Rodriguez Group",
-        "PersonId": 204,
-        "PersonName": "Jacobson, Deckow and Lehner",
-        "AssociateId": 599,
-        "Address": "reiciendis",
-        "EmailId": 114,
+        "ContactId": 20,
+        "ContactName": "Pouros LLC",
+        "PersonId": 237,
+        "PersonName": "Lowe Inc and Sons",
+        "AssociateId": 486,
+        "Address": "quia",
+        "EmailId": 593,
         "DuplicatePersonIds": [
-          751,
-          673
+          612,
+          401
         ],
-        "Name": "Hilll, Brown and Rutherford",
+        "Name": "Marks, Zieme and Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 18
+            "FieldType": "System.String",
+            "FieldLength": 635
           }
         }
       }
     ],
-    "Sent": "2001-11-20T13:38:13.5771153+01:00",
+    "Sent": "2023-08-25T13:57:12.3243156+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 872,
+    "Size": 12,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldLength": 733
       }
     }
   }

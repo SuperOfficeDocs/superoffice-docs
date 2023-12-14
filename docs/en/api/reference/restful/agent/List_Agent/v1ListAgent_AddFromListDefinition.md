@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 697,
+  "UdListDefinitionId": 548,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 580,
-  "Name": "Bosco-Kshlerin",
-  "Tooltip": "quibusdam",
+  "Id": 503,
+  "Name": "Macejkovic-Botsford",
+  "Tooltip": "cumque",
   "Deleted": true,
-  "UdListDefinitionId": 998,
-  "Rank": 870,
+  "UdListDefinitionId": 916,
+  "Rank": 970,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 941
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   }
 }

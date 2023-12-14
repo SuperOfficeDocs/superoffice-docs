@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 659,
-  "Name": "Wuckert, Carter and Kuphal",
+  "ScreenChooserId": 653,
+  "Name": "Dickinson-Mitchell",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sapiente",
-  "Source": "ut",
-  "Registered": "2004-02-25T13:38:17.7650302+01:00",
-  "RegisteredAssociateId": 564,
-  "Updated": "2007-06-27T13:38:17.7650302+02:00",
-  "UpdatedAssociateId": 122,
+  "UniqueIdentifier": "atque",
+  "Source": "necessitatibus",
+  "Registered": "2009-11-16T13:57:19.4221461+01:00",
+  "RegisteredAssociateId": 939,
+  "Updated": "2017-08-02T13:57:19.4221461+02:00",
+  "UpdatedAssociateId": 280,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldLength": 842
     }
   }
 }

@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 885,
-  "Name": "Johnson, Swaniawski and Haley",
-  "Tooltip": "non",
+  "RoleId": 657,
+  "Name": "Zieme LLC",
+  "Tooltip": "impedit",
   "RoleType": "Anonymous",
-  "Deleted": 697,
-  "Rank": 503,
-  "Created": "2011-12-09T13:38:17.5774332+01:00",
-  "UseCategories": 371,
+  "Deleted": 495,
+  "Rank": 606,
+  "Created": "2004-02-07T13:57:19.1403101+01:00",
+  "UseCategories": 189,
   "CreatedBy": null,
-  "Updated": "2018-06-16T13:38:17.5774332+02:00",
+  "Updated": "1999-07-12T13:57:19.1403101+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +129,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 934,
-  "Name": "Stark-Volkman",
-  "Tooltip": "tempora",
+  "RoleId": 949,
+  "Name": "Fisher LLC",
+  "Tooltip": "architecto",
   "RoleType": "Anonymous",
-  "Deleted": 6,
-  "Rank": 464,
-  "Created": "2002-02-16T13:38:17.5774332+01:00",
-  "UseCategories": 246,
+  "Deleted": 254,
+  "Rank": 779,
+  "Created": "1998-07-09T13:57:19.1403101+02:00",
+  "UseCategories": 404,
   "CreatedBy": null,
-  "Updated": "2019-06-20T13:38:17.5774332+02:00",
+  "Updated": "2006-07-18T13:57:19.1403101+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldLength": 906
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

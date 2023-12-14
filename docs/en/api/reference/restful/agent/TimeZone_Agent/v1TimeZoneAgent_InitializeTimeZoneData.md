@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 884,
-    "Name": "Lebsack, Larson and Gleason",
-    "TZLocationCode": "iste",
-    "TZLocationCities": "voluptatem",
-    "IsoNumber": 906,
+    "TZLocationID": 483,
+    "Name": "Bayer, Bernier and Gusikowski",
+    "TZLocationCode": "aut",
+    "TZLocationCities": "accusantium",
+    "IsoNumber": 304,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 535,
-        "StartMonth": 970,
-        "EndDay": 501,
-        "EndMonth": 557,
-        "TZOffset": 701,
-        "StartRulePattern": "dolorem",
-        "EndRulePattern": "similique"
+        "StartDay": 944,
+        "StartMonth": 706,
+        "EndDay": 324,
+        "EndMonth": 538,
+        "TZOffset": 577,
+        "StartRulePattern": "qui",
+        "EndRulePattern": "quae"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 44,
-        "StartMonth": 168,
-        "EndDay": 887,
-        "EndMonth": 941,
-        "TZOffset": 847,
-        "StartRulePattern": "aut",
-        "EndRulePattern": "vel"
+        "StartDay": 382,
+        "StartMonth": 362,
+        "EndDay": 64,
+        "EndMonth": 806,
+        "TZOffset": 94,
+        "StartRulePattern": "odio",
+        "EndRulePattern": "distinctio"
       }
     }
   }

@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 888,
-    "DisplayName": "Larson, McClure and Beer",
-    "OngoingChats": 655,
+    "UserId": 995,
+    "DisplayName": "Steuber Inc and Sons",
+    "OngoingChats": 709,
     "Present": false,
     "ChatTopics": [
-      355,
-      754
+      461,
+      458
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 766
+        "FieldType": "System.Int32",
+        "FieldLength": 385
       }
     }
   }

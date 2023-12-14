@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 190,
-    "Name": "Lubowitz-Jones",
-    "ToolTip": "Laborum qui at quam.",
+    "Id": 683,
+    "Name": "Collier, Bruen and Pfannerstill",
+    "ToolTip": "Optio maiores omnis adipisci amet maxime animi.",
     "Deleted": false,
-    "Rank": 849,
-    "Type": "soluta",
-    "ColorBlock": 241,
-    "IconHint": "est",
+    "Rank": 447,
+    "Type": "dicta",
+    "ColorBlock": 77,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2005-04-17T13:38:18.186902+02:00",
+    "LastChanged": "2012-04-13T13:57:20.047138+02:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Pouros-Towne",
-        "ToolTip": "Eligendi quae voluptatem corrupti earum qui.",
-        "Deleted": true,
-        "Rank": 476,
-        "Type": "ad",
-        "ColorBlock": 973,
-        "IconHint": "nam",
+        "Id": 643,
+        "Name": "Schroeder-Walsh",
+        "ToolTip": "Rerum dolor.",
+        "Deleted": false,
+        "Rank": 560,
+        "Type": "error",
+        "ColorBlock": 311,
+        "IconHint": "numquam",
         "Selected": false,
-        "LastChanged": "2009-04-16T13:38:18.186902+02:00",
+        "LastChanged": "2023-06-06T13:57:20.047138+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Kailee Mohr"
+        "ExtraInfo": "ut",
+        "StyleHint": "quos",
+        "Hidden": true,
+        "FullName": "Regan Pfeffer"
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "id",
+    "ExtraInfo": "corporis",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Freda Conroy"
+    "FullName": "Kayleigh Romaguera"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1000,
-    "Name": "Doyle LLC",
-    "ToolTip": "Rerum quis a et quaerat facilis molestiae ipsam.",
+    "Id": 439,
+    "Name": "Gottlieb Group",
+    "ToolTip": "In repudiandae porro et.",
     "Deleted": false,
-    "Rank": 108,
-    "Type": "id",
-    "ColorBlock": 514,
-    "IconHint": "rem",
+    "Rank": 833,
+    "Type": "ad",
+    "ColorBlock": 772,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2002-09-28T13:38:18.186902+02:00",
+    "LastChanged": "2008-12-30T13:57:20.0627631+01:00",
     "ChildItems": [
       {
-        "Id": 955,
-        "Name": "Kovacek Inc and Sons",
-        "ToolTip": "Itaque asperiores alias adipisci quaerat quis eligendi.",
+        "Id": 65,
+        "Name": "Beahan, Rau and Greenholt",
+        "ToolTip": "Aperiam facilis pariatur debitis quas nobis distinctio.",
         "Deleted": true,
-        "Rank": 576,
-        "Type": "deleniti",
-        "ColorBlock": 791,
-        "IconHint": "quam",
-        "Selected": true,
-        "LastChanged": "2015-10-11T13:38:18.186902+02:00",
+        "Rank": 142,
+        "Type": "quos",
+        "ColorBlock": 108,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "1997-04-20T13:57:20.0627631+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "quam",
-        "Hidden": true,
-        "FullName": "Prof. Okey Hayes",
+        "ExtraInfo": "quo",
+        "StyleHint": "quibusdam",
+        "Hidden": false,
+        "FullName": "Gaetano Larkin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 668
+            "FieldLength": 283
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Miss Angelita Jerod Kerluke",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "voluptatum",
+    "Hidden": false,
+    "FullName": "Mikel Mabelle Pfeffer DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldType": "System.String",
+        "FieldLength": 698
       }
     }
   }

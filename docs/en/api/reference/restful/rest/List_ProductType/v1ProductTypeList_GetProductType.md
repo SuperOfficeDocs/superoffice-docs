@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 166,
-  "Name": "Collins-Muller",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "UdListDefinitionId": 151,
-  "Rank": 236,
+  "Id": 431,
+  "Name": "Mertz-Glover",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "UdListDefinitionId": 754,
+  "Rank": 893,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 118
+      "FieldLength": 352
     }
   }
 }

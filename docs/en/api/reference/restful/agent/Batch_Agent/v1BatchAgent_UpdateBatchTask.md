@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 444,
-  "Name": "West-Hoeger",
-  "AssociateId": 369,
-  "DetailsTable": 237,
-  "DetailsRecord": 287,
+  "Id": 849,
+  "Name": "Zemlak, Keeling and Hayes",
+  "AssociateId": 98,
+  "DetailsTable": 748,
+  "DetailsRecord": 908,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "eius",
-    "ParameterObject2": "non"
+    "ParameterObject1": "sunt",
+    "ParameterObject2": "sunt"
   },
-  "LastStarted": "2009-05-24T13:38:13.0771703+02:00",
-  "Created": "2003-09-08T13:38:13.0771703+02:00",
-  "StartCount": 349,
-  "DatabaseSerialNumber": "1534830",
-  "Context": "doloremque",
-  "Result": "ut",
+  "LastStarted": "2021-03-10T13:57:11.5594343+01:00",
+  "Created": "2006-04-11T13:57:11.5594343+02:00",
+  "StartCount": 395,
+  "DatabaseSerialNumber": "994548",
+  "Context": "dolor",
+  "Result": "porro",
   "State": "All",
-  "Description": "Managed transitional internet solution",
-  "Response": "quidem",
-  "Request": "officia",
-  "ProgressDescription": "Balanced assymetric hardware",
-  "ProgressPercent": 390,
-  "FileName": "Stark, Armstrong and Borer",
+  "Description": "Customizable hybrid initiative",
+  "Response": "error",
+  "Request": "totam",
+  "ProgressDescription": "Distributed transitional challenge",
+  "ProgressPercent": 689,
+  "FileName": "Bode Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 890
     }
   }
 }

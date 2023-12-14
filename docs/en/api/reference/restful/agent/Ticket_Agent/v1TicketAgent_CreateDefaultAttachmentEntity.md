@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 677,
-  "Name": "Farrell LLC",
-  "ContentType": "totam",
-  "AttSize": 794,
+  "AttachmentId": 780,
+  "Name": "Lubowitz, Kihn and Legros",
+  "ContentType": "in",
+  "AttSize": 1000,
   "InlineImage": false,
-  "ContentId": "id",
-  "AuthKey": "magni",
+  "ContentId": "ut",
+  "AuthKey": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 183
     }
   }
 }

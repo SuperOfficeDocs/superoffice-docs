@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 401,
-  "Name": "Morar, Adams and Crist",
-  "Tooltip": "recusandae",
+  "Id": 54,
+  "Name": "Hand LLC",
+  "Tooltip": "fugiat",
   "Deleted": true,
-  "UdListDefinitionId": 797,
-  "Rank": 146,
+  "UdListDefinitionId": 127,
+  "Rank": 190,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldType": "System.String",
+      "FieldLength": 937
     }
   }
 }

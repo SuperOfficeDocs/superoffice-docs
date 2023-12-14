@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 551,
-  "Name": "Bartell, Von and Watsica",
-  "Tooltip": "dignissimos",
-  "Rank": 435,
-  "Key": "nemo",
-  "MailTemplateId": 794,
+  "ConsentSourceId": 603,
+  "Name": "Hessel-Skiles",
+  "Tooltip": "et",
+  "Rank": 919,
+  "Key": "a",
+  "MailTemplateId": 478,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldType": "System.String",
+      "FieldLength": 871
     }
   }
 }

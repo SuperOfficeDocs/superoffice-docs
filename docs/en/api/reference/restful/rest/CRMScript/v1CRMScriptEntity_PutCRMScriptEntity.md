@@ -101,21 +101,21 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 835,
-  "UniqueIdentifier": "impedit",
-  "Name": "Windler, Streich and Torp",
-  "Description": "Networked dynamic hierarchy",
-  "IncludeId": "eos",
-  "HierarchyId": 263,
-  "Source": "ipsam",
-  "Registered": "2016-06-04T13:38:17.280593+02:00",
-  "RegisteredAssociateId": 368,
-  "Updated": "2015-11-25T13:38:17.280593+01:00",
-  "UpdatedAssociateId": 376
+  "EjscriptId": 282,
+  "UniqueIdentifier": "est",
+  "Name": "Gulgowski Group",
+  "Description": "Secured encompassing encryption",
+  "IncludeId": "excepturi",
+  "HierarchyId": 806,
+  "Source": "in",
+  "Registered": "2007-10-04T13:57:18.6846845+02:00",
+  "RegisteredAssociateId": 495,
+  "Updated": "2005-05-11T13:57:18.6846845+02:00",
+  "UpdatedAssociateId": 396
 }
 ```
 
@@ -126,28 +126,28 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 432,
-  "UniqueIdentifier": "natus",
-  "Name": "Klein-Anderson",
-  "Description": "Business-focused eco-centric policy",
-  "IncludeId": "rerum",
-  "HierarchyId": 905,
-  "Source": "asperiores",
-  "Registered": "2000-12-01T13:38:17.280593+01:00",
-  "RegisteredAssociateId": 738,
-  "Updated": "1996-10-14T13:38:17.280593+02:00",
-  "UpdatedAssociateId": 975,
+  "EjscriptId": 607,
+  "UniqueIdentifier": "dolorum",
+  "Name": "Leannon-Balistreri",
+  "Description": "Expanded context-sensitive capacity",
+  "IncludeId": "dolorum",
+  "HierarchyId": 913,
+  "Source": "deserunt",
+  "Registered": "1998-02-25T13:57:18.6846845+01:00",
+  "RegisteredAssociateId": 203,
+  "Updated": "2001-05-04T13:57:18.6846845+02:00",
+  "UpdatedAssociateId": 854,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 981
+      "FieldLength": 638
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 628,
-  "PlainMessage": "dolorem",
-  "HtmlMessage": "sint",
-  "SmsMessage": "et",
-  "Description": "Stand-alone didactic solution",
-  "Subject": "deserunt",
-  "FolderId": 727,
-  "HeaderField": "voluptatum",
-  "Design": "qui",
+  "ShipmentMessageId": 475,
+  "PlainMessage": "saepe",
+  "HtmlMessage": "sit",
+  "SmsMessage": "fugit",
+  "Description": "Open-source client-server middleware",
+  "Subject": "consequatur",
+  "FolderId": 883,
+  "HeaderField": "quidem",
+  "Design": "nesciunt",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Distributed 24/7 archive",
-  "AccessKey": "ipsa",
-  "DocumentMessage": 955,
-  "Registered": "1999-06-02T13:38:17.6711737+02:00",
-  "RegisteredAssociateId": 211,
-  "Updated": "2013-05-17T13:38:17.6711737+02:00",
-  "UpdatedAssociateId": 695,
-  "UpdatedCount": 796
+  "LongDescription": "Public-key modular interface",
+  "AccessKey": "velit",
+  "DocumentMessage": 136,
+  "Registered": "2021-06-20T13:57:19.2815227+02:00",
+  "RegisteredAssociateId": 673,
+  "Updated": "2016-02-07T13:57:19.2815227+01:00",
+  "UpdatedAssociateId": 385,
+  "UpdatedCount": 666
 }
 ```
 
@@ -154,33 +154,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 729,
-  "PlainMessage": "facere",
-  "HtmlMessage": "suscipit",
-  "SmsMessage": "hic",
-  "Description": "Sharable uniform capability",
-  "Subject": "ea",
-  "FolderId": 837,
-  "HeaderField": "qui",
-  "Design": "voluptas",
+  "ShipmentMessageId": 938,
+  "PlainMessage": "velit",
+  "HtmlMessage": "in",
+  "SmsMessage": "iure",
+  "Description": "Optional assymetric toolset",
+  "Subject": "temporibus",
+  "FolderId": 775,
+  "HeaderField": "et",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Down-sized bottom-line architecture",
-  "AccessKey": "sunt",
-  "DocumentMessage": 915,
-  "Registered": "2010-10-02T13:38:17.6711737+02:00",
-  "RegisteredAssociateId": 790,
-  "Updated": "2012-12-21T13:38:17.6711737+01:00",
-  "UpdatedAssociateId": 528,
-  "UpdatedCount": 530,
+  "LongDescription": "Optional context-sensitive artificial intelligence",
+  "AccessKey": "mollitia",
+  "DocumentMessage": 655,
+  "Registered": "1999-12-09T13:57:19.2815227+01:00",
+  "RegisteredAssociateId": 644,
+  "Updated": "2023-08-25T13:57:19.2815227+02:00",
+  "UpdatedAssociateId": 139,
+  "UpdatedCount": 876,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 782
+      "FieldType": "System.Int32",
+      "FieldLength": 146
     }
   },
   "_Links": {

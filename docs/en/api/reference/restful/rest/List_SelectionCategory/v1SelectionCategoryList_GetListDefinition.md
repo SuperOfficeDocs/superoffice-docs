@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 59,
-  "Name": "Ritchie Group",
-  "Tooltip": "dolore",
-  "Deleted": false,
-  "Rank": 561,
-  "IsCustomList": false,
+  "Id": 681,
+  "Name": "Orn Inc and Sons",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "Rank": 924,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sint",
+  "ListType": "natus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldLength": 137
     }
   },
   "_Links": {

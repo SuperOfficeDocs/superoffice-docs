@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 912,
-  "Name": "Goodwin Group",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "Rank": 668,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cum",
+  "Id": 641,
+  "Name": "Torphy Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 96,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 958,
-  "Name": "Leffler, Fadel and Baumbach",
-  "Tooltip": "magnam",
-  "Deleted": false,
-  "Rank": 624,
-  "IsCustomList": true,
+  "Id": 848,
+  "Name": "Pouros, King and Fahey",
+  "Tooltip": "laboriosam",
+  "Deleted": true,
+  "Rank": 412,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldType": "System.String",
+      "FieldLength": 363
     }
   }
 }

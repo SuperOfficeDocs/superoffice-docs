@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=fuga
+GET /api/v1/List/SelectionCategory/MDOItems?query=eum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 923,
-    "Name": "Zboncak-Labadie",
-    "ToolTip": "At laboriosam et itaque et aliquid deleniti.",
-    "Deleted": true,
-    "Rank": 70,
-    "Type": "magni",
+    "Id": 626,
+    "Name": "Ferry Inc and Sons",
+    "ToolTip": "Et delectus dolore autem ullam.",
+    "Deleted": false,
+    "Rank": 882,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 117,
-        "Name": "Johnston, Hyatt and Larkin",
-        "ToolTip": "Repudiandae ut est esse quo enim.",
+        "Id": 935,
+        "Name": "Lockman, Quigley and Moen",
+        "ToolTip": "Autem veritatis minima laborum consequatur doloribus.",
         "Deleted": false,
-        "Rank": 798,
-        "Type": "id",
+        "Rank": 749,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nulla",
-        "ColorBlock": 922,
-        "ExtraInfo": "autem",
-        "StyleHint": "deleniti",
-        "FullName": "Winifred Kutch",
+        "IconHint": "consectetur",
+        "ColorBlock": 301,
+        "ExtraInfo": "sed",
+        "StyleHint": "repudiandae",
+        "FullName": "Ms. Cristina Rolfson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 968
+            "FieldType": "System.String",
+            "FieldLength": 871
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 934,
-    "ExtraInfo": "qui",
-    "StyleHint": "consequatur",
-    "FullName": "Rafaela Joanie Ziemann DVM",
+    "IconHint": "ex",
+    "ColorBlock": 243,
+    "ExtraInfo": "nobis",
+    "StyleHint": "nesciunt",
+    "FullName": "Mrs. Amelie Mia Altenwerth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 996
+        "FieldLength": 380
       }
     }
   }

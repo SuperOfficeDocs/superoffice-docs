@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 622
+  "EntityId": 30
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 3,
-    "ConnectionName": "Rath Group",
-    "Connected": false,
+    "ErpConnectionId": 193,
+    "ConnectionName": "Harvey-Cormier",
+    "Connected": true,
     "ErpFields": [
       {
-        "FieldKey": "ut",
-        "Rank": 753,
-        "DisplayName": "Waelchi-Mitchell",
-        "DisplayDescription": "Distributed multimedia moderator",
+        "FieldKey": "autem",
+        "Rank": 114,
+        "DisplayName": "Effertz-Leffler",
+        "DisplayDescription": "Down-sized bandwidth-monitored local area network",
         "FieldType": "Checkbox",
-        "ListName": "Schoen Inc and Sons",
+        "ListName": "Stracke, Rowe and Crist",
         "DefaultValue": "occaecati",
-        "MaxLength": 124,
+        "MaxLength": 28,
         "Access": "Mandatory",
-        "ShowInSearch": false,
+        "ShowInSearch": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 267
+            "FieldType": "System.String",
+            "FieldLength": 868
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "atque",
-      "fuga"
+      "voluptas",
+      "voluptatibus"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 792
+        "FieldLength": 749
       }
     }
   }

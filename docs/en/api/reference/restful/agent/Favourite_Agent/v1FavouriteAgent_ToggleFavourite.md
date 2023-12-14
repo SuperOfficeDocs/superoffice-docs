@@ -75,10 +75,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "McKenzie-Herman",
-  "RecordId": 786,
-  "AssociateId": 706,
-  "ExtraInfo": "excepturi"
+  "TableName": "Wehner-Fay",
+  "RecordId": 802,
+  "AssociateId": 860,
+  "ExtraInfo": "et"
 }
 ```
 

@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Fadel Group"
+  "TargetTableName": "Miller, Kuhn and Mann"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Versatile mobile data-warehouse",
-  "Postit": "nostrum",
+  "Description": "Ergonomic national Graphical User Interface",
+  "Postit": "inventore",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 765,
-  "IncludePerson": 388,
-  "MemberCount": 165,
-  "Name": "Lynch, Kunze and Crist",
-  "PostitTextId": 443,
-  "CreatedDate": "2022-01-30T13:38:14.124071+01:00",
-  "SelectionId": 150,
-  "SoundEx": "hic",
-  "Source": 735,
-  "TextId": 173,
-  "UpdatedDate": "2013-12-31T13:38:14.124071+01:00",
-  "UpdatedCount": 771,
-  "Visibility": 444,
+  "GroupIdx": 370,
+  "IncludePerson": 886,
+  "MemberCount": 839,
+  "Name": "Raynor Group",
+  "PostitTextId": 23,
+  "CreatedDate": "2007-10-29T13:57:13.2071528+01:00",
+  "SelectionId": 454,
+  "SoundEx": "animi",
+  "Source": 900,
+  "TextId": 982,
+  "UpdatedDate": "2003-03-16T13:57:13.2071528+01:00",
+  "UpdatedCount": 612,
+  "Visibility": 159,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 588,
-  "TargetTableName": "Gutmann-Lowe",
-  "Completed": false,
-  "LeftSelectionId": 328,
-  "RightSelectionId": 686,
+  "CompanyUnique": false,
+  "TargetTableNumber": 942,
+  "TargetTableName": "Rutherford LLC",
+  "Completed": true,
+  "LeftSelectionId": 178,
+  "RightSelectionId": 384,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Nienow Group",
-  "ShadowProviderName": "Adams-Hand",
-  "ChartKey": "modi",
-  "LastLoaded": "2015-08-22T13:38:14.124071+02:00",
-  "LastLoadedBy": 13,
+  "MainProviderName": "Boehm Group",
+  "ShadowProviderName": "Hills, Brown and Thompson",
+  "ChartKey": "est",
+  "LastLoaded": "2021-01-08T13:57:13.2071528+01:00",
+  "LastLoadedBy": 697,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-04-18T13:38:14.124071+02:00",
-  "LastMembershipChangeBy": 124,
+  "LastMembershipChange": "2003-09-04T13:57:13.2071528+02:00",
+  "LastMembershipChangeBy": 976,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "numquam",
-  "MemberTabHeading": "ex",
-  "MailingsProviderName": "Emard, Runolfsson and Johns",
-  "DashboardTileDefinitionId": 71,
+  "MainHeading": "laboriosam",
+  "MemberTabHeading": "in",
+  "MailingsProviderName": "Spencer Group",
+  "DashboardTileDefinitionId": 780,
   "VisibleFor": [
     {
-      "VisibleId": 63,
+      "VisibleId": 19,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 592
+          "FieldType": "System.String",
+          "FieldLength": 448
         }
       }
     },
     {
-      "VisibleId": 63,
+      "VisibleId": 19,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 592
+          "FieldType": "System.String",
+          "FieldLength": 448
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldType": "System.Int32",
+      "FieldLength": 166
     }
   }
 }

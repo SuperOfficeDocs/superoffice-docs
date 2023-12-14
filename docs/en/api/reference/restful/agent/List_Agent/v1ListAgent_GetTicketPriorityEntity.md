@@ -26,7 +26,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=170
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=71
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,60 +104,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 519,
-  "Name": "Brakus, Mosciski and Lynch",
+  "TicketPriorityId": 6,
+  "Name": "Bahringer-Mohr",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 324,
+  "SortOrder": 854,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 484,
-  "MonStart": "1998-09-13T13:38:13.6552317+02:00",
-  "MonStop": "2017-07-20T13:38:13.6552317+02:00",
-  "TueStart": "2001-11-10T13:38:13.6552317+01:00",
-  "TueStop": "2005-01-21T13:38:13.6552317+01:00",
-  "WedStart": "2009-10-25T13:38:13.6552317+01:00",
-  "WedStop": "1999-08-24T13:38:13.6552317+02:00",
-  "ThuStart": "2000-12-24T13:38:13.6552317+01:00",
-  "ThuStop": "2021-03-13T13:38:13.6552317+01:00",
-  "FriStart": "2021-07-03T13:38:13.6552317+02:00",
-  "FriStop": "2020-09-14T13:38:13.6552317+02:00",
-  "SatStart": "2023-04-30T13:38:13.6552317+02:00",
-  "SatStop": "2006-12-11T13:38:13.6552317+01:00",
-  "SunStart": "2001-03-17T13:38:13.6552317+01:00",
-  "SunStop": "2005-06-21T13:38:13.6552317+02:00",
+  "Deadline": 312,
+  "MonStart": "2009-05-27T13:57:12.4649848+02:00",
+  "MonStop": "2012-12-13T13:57:12.4649848+01:00",
+  "TueStart": "2018-04-23T13:57:12.4649848+02:00",
+  "TueStop": "2021-05-07T13:57:12.4649848+02:00",
+  "WedStart": "2019-12-21T13:57:12.4649848+01:00",
+  "WedStop": "2022-04-18T13:57:12.4649848+02:00",
+  "ThuStart": "1998-04-03T13:57:12.4649848+02:00",
+  "ThuStop": "2015-01-08T13:57:12.4649848+01:00",
+  "FriStart": "2012-04-21T13:57:12.4649848+02:00",
+  "FriStop": "2007-07-28T13:57:12.4649848+02:00",
+  "SatStart": "2006-05-14T13:57:12.4649848+02:00",
+  "SatStop": "2013-04-24T13:57:12.4649848+02:00",
+  "SunStart": "2023-07-31T13:57:12.4649848+02:00",
+  "SunStop": "2015-07-21T13:57:12.4649848+02:00",
   "NonDates": [
-    "assumenda",
-    "est"
+    "dolores",
+    "hic"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 270,
-      "AlertLevel": 606,
-      "AlertTimeout": 916,
-      "Action": 373,
-      "DelegateTo": 713,
-      "ScriptId": 592,
-      "EmailTo": "walter_ohara@schmitt.uk",
-      "SmsTo": "fugiat",
-      "ReplyTemplateIdCustomer": 669,
-      "ReplyTemplateIdUser": 692,
-      "ReplyTemplateIdCatmast": 908,
-      "ReplyTemplateIdEmail": 854,
-      "RtiCustomerSms": 868,
-      "ReplyTemplateIdUserSms": 691,
-      "ReplyTemplateIdCatmastSms": 37,
-      "ReplyTemplateIdSms": 812,
+      "TicketAlertId": 828,
+      "AlertLevel": 612,
+      "AlertTimeout": 441,
+      "Action": 64,
+      "DelegateTo": 262,
+      "ScriptId": 89,
+      "EmailTo": "ivy@collier.name",
+      "SmsTo": "perspiciatis",
+      "ReplyTemplateIdCustomer": 301,
+      "ReplyTemplateIdUser": 224,
+      "ReplyTemplateIdCatmast": 143,
+      "ReplyTemplateIdEmail": 934,
+      "RtiCustomerSms": 402,
+      "ReplyTemplateIdUserSms": 957,
+      "ReplyTemplateIdCatmastSms": 912,
+      "ReplyTemplateIdSms": 470,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldLength": 242
         }
       }
     }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 85
+      "FieldLength": 237
     }
   }
 }

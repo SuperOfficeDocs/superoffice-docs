@@ -91,12 +91,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "vitae",
-      "Key": "qui"
+      "Section": "quaerat",
+      "Key": "rerum"
     },
     {
-      "Section": "vitae",
-      "Key": "qui"
+      "Section": "quaerat",
+      "Key": "rerum"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "in",
+    "RawValue": "nam",
     "Specification": null,
-    "DisplayValue": "placeat",
-    "DisplayTooltip": "molestiae",
+    "DisplayValue": "rem",
+    "DisplayTooltip": "et",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 996,
-    "PrefDescId": 997,
-    "TableName": "Marvin, Bednar and Powlowski",
-    "UserPreferenceId": 365,
+    "TargetId": 64,
+    "PrefDescId": 59,
+    "TableName": "Hackett Inc and Sons",
+    "UserPreferenceId": 363,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldType": "System.String",
+        "FieldLength": 361
       }
     }
   }

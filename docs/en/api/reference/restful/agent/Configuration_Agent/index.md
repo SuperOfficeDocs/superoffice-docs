@@ -88,6 +88,8 @@ generated: true
 
 * [POST Agents/Configuration/GetSpfDomain](v1ConfigurationAgent_GetSpfDomain.md)
 
+* [POST Agents/Configuration/GetAllFeatureToggles](v1ConfigurationAgent_GetAllFeatureToggles.md)
+
 * [POST Agents/Configuration/GetDiaryViewEntity](v1ConfigurationAgent_GetDiaryViewEntity.md)
 
 * [POST Agents/Configuration/GetSystemEventEntity](v1ConfigurationAgent_GetSystemEventEntity.md)

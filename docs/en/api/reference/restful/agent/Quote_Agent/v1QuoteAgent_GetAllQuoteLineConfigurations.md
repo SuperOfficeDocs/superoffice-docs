@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 251,
-    "FieldName": "Cummerata Inc and Sons",
-    "Label": "aut",
-    "Tooltip": "accusantium",
+    "QuoteLineConfigurationId": 602,
+    "FieldName": "Paucek-Greenfelder",
+    "Label": "ducimus",
+    "Tooltip": "laborum",
     "Editable": false,
     "InUse": true,
-    "Mandatory": false,
-    "Rank": 782,
+    "Mandatory": true,
+    "Rank": 410,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldLength": 71
       }
     }
   }

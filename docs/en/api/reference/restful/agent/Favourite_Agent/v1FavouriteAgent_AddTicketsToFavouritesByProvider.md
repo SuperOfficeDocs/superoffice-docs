@@ -71,32 +71,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Boyle, Wolff and Swaniawski",
+  "ProviderName": "Kutch Group",
   "Restrictions": [
     {
-      "Name": "Hilpert, Mayer and Conroy",
-      "Operator": "fuga",
+      "Name": "Jast Inc and Sons",
+      "Operator": "omnis",
       "Values": [
-        "accusantium",
-        "velit"
+        "alias",
+        "laudantium"
       ],
       "DisplayValues": [
-        "cumque",
-        "doloremque"
+        "quod",
+        "est"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 90,
+      "InterParenthesis": 896,
       "InterOperator": "And",
-      "UniqueHash": 133
+      "UniqueHash": 168
     }
   ],
-  "AssociateId": 441,
-  "ExtraInfo": "sit"
+  "AssociateId": 256,
+  "ExtraInfo": "rem"
 }
 ```
 

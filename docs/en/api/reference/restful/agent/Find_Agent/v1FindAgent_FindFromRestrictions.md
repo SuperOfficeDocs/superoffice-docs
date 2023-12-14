@@ -99,36 +99,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Langworth, Fisher and Schamberger",
-      "Operator": "cum",
+      "Name": "Rolfson Inc and Sons",
+      "Operator": "aut",
       "Values": [
-        "incidunt",
-        "enim"
+        "hic",
+        "maxime"
       ],
       "DisplayValues": [
-        "illum",
-        "expedita"
+        "sequi",
+        "maxime"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 444,
+      "InterParenthesis": 920,
       "InterOperator": "And",
-      "UniqueHash": 434
+      "UniqueHash": 506
     }
   ],
-  "ProviderName": "Jacobs-Langworth",
-  "PageSize": 401,
-  "PageNumber": 452
+  "ProviderName": "Vandervort LLC",
+  "PageSize": 435,
+  "PageNumber": 516
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Schaden, Terry and Quigley",
-      "DisplayTooltip": "et",
-      "DisplayType": "a",
-      "CanOrderBy": false,
-      "Name": "Hermann, Funk and Kreiger",
-      "CanRestrictBy": false,
-      "RestrictionType": "quia",
-      "RestrictionListName": "Sawayn LLC",
+      "DisplayName": "Eichmann-Runolfsdottir",
+      "DisplayTooltip": "molestiae",
+      "DisplayType": "accusamus",
+      "CanOrderBy": true,
+      "Name": "Friesen-Simonis",
+      "CanRestrictBy": true,
+      "RestrictionType": "amet",
+      "RestrictionListName": "Aufderhar-Osinski",
       "IsVisible": false,
-      "ExtraInfo": "maxime",
-      "Width": "repellendus",
-      "IconHint": "dolores",
-      "HeadingIconHint": "pariatur"
+      "ExtraInfo": "facere",
+      "Width": "dolores",
+      "IconHint": "et",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Johns-Berge",
-      "PrimaryKey": 582,
+      "EntityName": "Altenwerth-Bins",
+      "PrimaryKey": 399,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "perferendis",
-          "TooltipHint": "aut",
-          "LinkHint": "et"
+          "DisplayValue": "aut",
+          "TooltipHint": "quasi",
+          "LinkHint": "praesentium"
         }
       },
-      "LinkHint": "reprehenderit",
-      "StyleHint": "non",
+      "LinkHint": "distinctio",
+      "StyleHint": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 466
+          "FieldType": "System.Int32",
+          "FieldLength": 138
         }
       }
     }
   ],
-  "RowCount": 557,
+  "RowCount": 343,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 540
     }
   }
 }

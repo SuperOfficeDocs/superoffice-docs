@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 69,
-  "Name": "Jakubowski Group",
-  "Description": "Optional static time-frame",
-  "WelcomeMessage": "cumque",
+  "ChatTopicId": 446,
+  "Name": "Jacobi-McClure",
+  "Description": "Total contextually-based productivity",
+  "WelcomeMessage": "assumenda",
   "Language": null,
-  "LastAccept": "2000-06-14T13:38:13.1240408+02:00",
-  "SecondsPrAccept": 56,
-  "AlertRecipient": "ducimus",
+  "LastAccept": "2017-12-25T13:57:11.6063063+01:00",
+  "SecondsPrAccept": 629,
+  "AlertRecipient": "soluta",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "a",
+  "BadgeHeader": "totam",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "magni",
-  "WarnNewChatMinutes": 65,
-  "WarnManagerNewChatMinutes": 387,
+  "CustomQueueText": "explicabo",
+  "WarnNewChatMinutes": 13,
+  "WarnManagerNewChatMinutes": 239,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 514,
-  "WarnManagerChatMessageMinutes": 493,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 988,
+  "WarnManagerChatMessageMinutes": 568,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 154,
-  "OfflineFormQueueLength": 773,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "libero",
+  "OfflineFormTimeLimit": 768,
+  "OfflineFormQueueLength": 598,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 240
+      "FieldType": "System.Int32",
+      "FieldLength": 795
     }
   }
 }

@@ -103,23 +103,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 568,
-  "Name": "Heathcote Group",
-  "CurrencyId": 178,
-  "EnglishName": "Prohaska, Wehner and O'Reilly",
+  "CountryId": 514,
+  "Name": "Toy-Aufderhar",
+  "CurrencyId": 752,
+  "EnglishName": "Lynch-Reinger",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Horizontal solution-oriented contingency",
-  "OrgNrText": "863131",
-  "InterAreaPrefix": "quisquam",
-  "DialInPrefix": "quis",
-  "ZipPrefix": "est",
-  "DomainName": "Douglas-Collins",
-  "AddressLayoutId": 102,
-  "DomesticAddressLayoutId": 247,
-  "ForeignAddressLayoutId": 469,
-  "Rank": 206,
-  "Tooltip": "ut",
+  "ImageDescription": "Pre-emptive empowering solution",
+  "OrgNrText": "825273",
+  "InterAreaPrefix": "dolorem",
+  "DialInPrefix": "aut",
+  "ZipPrefix": "ab",
+  "DomainName": "Schowalter, Lynch and Blanda",
+  "AddressLayoutId": 876,
+  "DomesticAddressLayoutId": 511,
+  "ForeignAddressLayoutId": 868,
+  "Rank": 402,
+  "Tooltip": "sed",
   "Deleted": false
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 48,
-  "Name": "Feest Inc and Sons",
-  "CurrencyId": 641,
-  "EnglishName": "Bauch-Grimes",
+  "CountryId": 84,
+  "Name": "White, Sawayn and Krajcik",
+  "CurrencyId": 116,
+  "EnglishName": "Bergnaum Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "User-friendly 3rd generation productivity",
-  "OrgNrText": "462847",
-  "InterAreaPrefix": "molestiae",
-  "DialInPrefix": "qui",
-  "ZipPrefix": "ut",
-  "DomainName": "Trantow Inc and Sons",
-  "AddressLayoutId": 500,
-  "DomesticAddressLayoutId": 919,
-  "ForeignAddressLayoutId": 845,
-  "Rank": 47,
-  "Tooltip": "dolor",
+  "ImageDescription": "Integrated next generation matrices",
+  "OrgNrText": "449905",
+  "InterAreaPrefix": "commodi",
+  "DialInPrefix": "repudiandae",
+  "ZipPrefix": "alias",
+  "DomainName": "Leannon Inc and Sons",
+  "AddressLayoutId": 81,
+  "DomesticAddressLayoutId": 244,
+  "ForeignAddressLayoutId": 899,
+  "Rank": 210,
+  "Tooltip": "sit",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 464
+      "FieldType": "System.Int32",
+      "FieldLength": 166
     }
   }
 }

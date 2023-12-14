@@ -96,8 +96,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "qui",
-  "Key": "autem",
+  "Section": "dolor",
+  "Key": "dolor",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 319,
-  "Section": "iste",
-  "Key": "voluptatem",
-  "Name": "Nolan Inc and Sons",
+  "PrefDescId": 666,
+  "Section": "quo",
+  "Key": "quia",
+  "Name": "Langworth-Hoppe",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profound optimizing hardware",
-  "IsBuiltin": true,
-  "TableName": "Donnelly Group",
-  "UserDefinedListId": 301,
-  "Rank": 255,
-  "SubGroup": "quaerat",
-  "MinLevel": 816,
-  "MaxValue": 278,
-  "MinValue": 789,
-  "RequiredLicense": "ut",
+  "Description": "Networked explicit orchestration",
+  "IsBuiltin": false,
+  "TableName": "Larson Group",
+  "UserDefinedListId": 361,
+  "Rank": 866,
+  "SubGroup": "sequi",
+  "MinLevel": 372,
+  "MaxValue": 339,
+  "MinValue": 473,
+  "RequiredLicense": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldType": "System.String",
+      "FieldLength": 891
     }
   }
 }

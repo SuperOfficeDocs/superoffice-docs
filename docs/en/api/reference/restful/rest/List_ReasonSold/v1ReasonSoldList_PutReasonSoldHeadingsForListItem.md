@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Name": "Effertz-Gorczany",
-    "ToolTip": "Placeat ipsum quaerat omnis laboriosam inventore est.",
+    "Id": 867,
+    "Name": "Conroy Inc and Sons",
+    "ToolTip": "Quo et similique tempora consequatur eius veniam distinctio.",
     "Deleted": false,
-    "Rank": 449,
-    "Type": "atque",
-    "ColorBlock": 320,
-    "IconHint": "est",
+    "Rank": 775,
+    "Type": "quod",
+    "ColorBlock": 502,
+    "IconHint": "mollitia",
     "Selected": false,
-    "LastChanged": "1997-01-01T13:38:18.2025212+01:00",
+    "LastChanged": "2013-05-17T13:57:20.0952749+02:00",
     "ChildItems": [
       {
-        "Id": 650,
-        "Name": "Goodwin Group",
-        "ToolTip": "Aut voluptatem doloremque necessitatibus qui.",
-        "Deleted": false,
-        "Rank": 365,
-        "Type": "debitis",
-        "ColorBlock": 43,
-        "IconHint": "fugit",
+        "Id": 924,
+        "Name": "Schultz LLC",
+        "ToolTip": "Veritatis nam veniam exercitationem maxime quod dolore.",
+        "Deleted": true,
+        "Rank": 251,
+        "Type": "non",
+        "ColorBlock": 334,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "2023-06-16T13:38:18.2025212+02:00",
+        "LastChanged": "2007-02-02T13:57:20.0952749+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "itaque",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "quo",
         "Hidden": true,
-        "FullName": "Genoveva Kale Jacobi III"
+        "FullName": "Federico Howell Stracke Jr."
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Miss Stephen Bernhard II"
+    "ExtraInfo": "repellat",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Etha Littel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 708,
-    "Name": "Jaskolski, Funk and Berge",
-    "ToolTip": "Aut ratione esse.",
+    "Id": 849,
+    "Name": "McLaughlin Inc and Sons",
+    "ToolTip": "Iusto asperiores est exercitationem et error.",
     "Deleted": false,
-    "Rank": 718,
-    "Type": "eos",
-    "ColorBlock": 247,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2002-08-30T13:38:18.2025212+02:00",
+    "Rank": 44,
+    "Type": "earum",
+    "ColorBlock": 248,
+    "IconHint": "dicta",
+    "Selected": true,
+    "LastChanged": "2003-07-01T13:57:20.0952749+02:00",
     "ChildItems": [
       {
-        "Id": 851,
-        "Name": "Mraz-DuBuque",
-        "ToolTip": "Impedit expedita quia autem voluptatem temporibus.",
-        "Deleted": false,
-        "Rank": 426,
-        "Type": "voluptatem",
-        "ColorBlock": 470,
-        "IconHint": "saepe",
-        "Selected": false,
-        "LastChanged": "2008-11-26T13:38:18.2025212+01:00",
+        "Id": 805,
+        "Name": "Daugherty-Schneider",
+        "ToolTip": "Nobis ad quisquam qui id unde illo.",
+        "Deleted": true,
+        "Rank": 291,
+        "Type": "architecto",
+        "ColorBlock": 873,
+        "IconHint": "incidunt",
+        "Selected": true,
+        "LastChanged": "2018-06-12T13:57:20.0952749+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "nisi",
-        "Hidden": false,
-        "FullName": "Mr. Tyshawn Padberg",
+        "ExtraInfo": "vitae",
+        "StyleHint": "sapiente",
+        "Hidden": true,
+        "FullName": "Prof. Lolita Olga Stoltenberg III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 844
+            "FieldLength": 55
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quidem",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Ms. Vallie Crona V",
+    "FullName": "Grover Wehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 565
+        "FieldType": "System.Int32",
+        "FieldLength": 967
       }
     }
   }

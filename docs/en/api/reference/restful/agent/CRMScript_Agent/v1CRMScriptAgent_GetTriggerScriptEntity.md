@@ -28,7 +28,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=598
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=166
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 337,
-  "Name": "Quigley Inc and Sons",
+  "ScreenChooserId": 954,
+  "Name": "Marquardt, Willms and Batz",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "recusandae",
-  "Source": "quis",
-  "Registered": "2014-05-09T13:38:13.3896326+02:00",
-  "RegisteredAssociateId": 526,
-  "Updated": "2018-05-11T13:38:13.3896326+02:00",
-  "UpdatedAssociateId": 821,
+  "UniqueIdentifier": "et",
+  "Source": "doloremque",
+  "Registered": "2003-10-23T13:57:12.0123726+02:00",
+  "RegisteredAssociateId": 503,
+  "Updated": "2022-07-02T13:57:12.0123726+02:00",
+  "UpdatedAssociateId": 599,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 488
+      "FieldType": "System.Int32",
+      "FieldLength": 277
     }
   }
 }

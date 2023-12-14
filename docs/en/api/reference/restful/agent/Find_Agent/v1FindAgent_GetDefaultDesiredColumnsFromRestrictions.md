@@ -90,18 +90,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jones-Buckridge",
+  "ProviderName": "Schmeler, McDermott and Bahringer",
   "Restrictions": [
     {
-      "Name": "Schmitt-Gleichner",
-      "Operator": "et",
+      "Name": "Powlowski LLC",
+      "Operator": "molestiae",
       "Values": [
-        "qui",
-        "quia"
+        "sequi",
+        "aut"
       ],
       "DisplayValues": [
-        "enim",
-        "iure"
+        "delectus",
+        "iusto"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 649,
+      "InterParenthesis": 6,
       "InterOperator": "And",
-      "UniqueHash": 290
+      "UniqueHash": 438
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Emmerich, Jones and Weimann",
-    "DisplayTooltip": "perferendis",
-    "DisplayType": "vel",
+    "DisplayName": "Casper Inc and Sons",
+    "DisplayTooltip": "ut",
+    "DisplayType": "quibusdam",
     "CanOrderBy": true,
-    "Name": "Marquardt, Kuvalis and O'Keefe",
-    "CanRestrictBy": true,
-    "RestrictionType": "cupiditate",
-    "RestrictionListName": "Heller LLC",
-    "IsVisible": false,
-    "ExtraInfo": "quo",
-    "Width": "sapiente",
-    "IconHint": "neque",
-    "HeadingIconHint": "laborum"
+    "Name": "Effertz-Robel",
+    "CanRestrictBy": false,
+    "RestrictionType": "vel",
+    "RestrictionListName": "Veum, Dickens and Jaskolski",
+    "IsVisible": true,
+    "ExtraInfo": "ullam",
+    "Width": "consequatur",
+    "IconHint": "est",
+    "HeadingIconHint": "vel"
   }
 ]
 ```

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 200,
-    "Name": "Hettinger-Rosenbaum",
-    "ToolTip": "Ut praesentium aliquid accusantium sint.",
-    "Deleted": true,
-    "Rank": 483,
-    "Type": "delectus",
-    "ColorBlock": 143,
-    "IconHint": "corrupti",
-    "Selected": true,
-    "LastChanged": "2008-03-29T13:38:18.1712741+01:00",
+    "Id": 386,
+    "Name": "Kuhic, Tremblay and Hansen",
+    "ToolTip": "Ea necessitatibus magnam explicabo.",
+    "Deleted": false,
+    "Rank": 769,
+    "Type": "aut",
+    "ColorBlock": 966,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2009-12-09T13:57:19.9533908+01:00",
     "ChildItems": [
       {
-        "Id": 732,
-        "Name": "Hayes, Murazik and Conroy",
-        "ToolTip": "Numquam provident est commodi.",
+        "Id": 668,
+        "Name": "Kilback, Trantow and Dooley",
+        "ToolTip": "Sunt ea ut a culpa.",
         "Deleted": false,
-        "Rank": 715,
-        "Type": "facilis",
-        "ColorBlock": 716,
-        "IconHint": "neque",
+        "Rank": 604,
+        "Type": "qui",
+        "ColorBlock": 397,
+        "IconHint": "distinctio",
         "Selected": false,
-        "LastChanged": "2001-01-10T13:38:18.1712741+01:00",
+        "LastChanged": "2004-11-10T13:57:19.9533908+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "est",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Miss Verla Emmet Treutel Sr.",
+        "FullName": "Adell Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 954
+            "FieldLength": 965
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "est",
     "Hidden": true,
-    "FullName": "Amya Kasandra Gerlach V",
+    "FullName": "Stephany Cheyenne Lind DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 402
+        "FieldLength": 600
       }
     }
   }

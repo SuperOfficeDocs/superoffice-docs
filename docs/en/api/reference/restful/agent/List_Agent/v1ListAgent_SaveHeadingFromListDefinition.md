@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 659,
+  "Id": 966,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 120,
-  "Name": "Bode, Schinner and Torphy",
-  "Tooltip": "veniam",
-  "Deleted": true,
-  "Rank": 221,
-  "UdListDefinitionId": 641,
+  "HeadingId": 447,
+  "Name": "Rath-Ondricka",
+  "Tooltip": "vero",
+  "Deleted": false,
+  "Rank": 415,
+  "UdListDefinitionId": 999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 133
+      "FieldType": "System.Int32",
+      "FieldLength": 797
     }
   }
 }

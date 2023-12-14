@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 08 Jun 2000 13:38:17 G6T
+Last-Modified: Sat, 30 Jan 2010 13:57:18 G1T
 
 {
-  "BlobId": 35,
-  "BlobSize": 160,
-  "Description": "Function-based transitional success",
+  "BlobId": 293,
+  "BlobSize": 631,
+  "Description": "Vision-oriented 3rd generation flexibility",
   "ExtraInfo": "voluptate",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "facere",
-  "OriginalSize": 195,
-  "CreatedDate": "1997-09-01T13:38:17.5305626+02:00",
-  "UpdatedDate": "2000-06-08T13:38:17.5305626+02:00",
+  "MimeType": "ut",
+  "OriginalSize": 928,
+  "CreatedDate": "2002-02-14T13:57:18.9528139+01:00",
+  "UpdatedDate": "2010-01-30T13:57:18.9528139+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "odit",
+  "ConceptualType": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 308
+      "FieldLength": 459
     }
   }
 }

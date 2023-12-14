@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Ziemann Inc and Sons",
-    "ToolTip": "Et est et consequatur explicabo autem a odio.",
+    "Id": 776,
+    "Name": "Fahey Group",
+    "ToolTip": "Qui est et sint voluptatem earum.",
     "Deleted": false,
-    "Rank": 424,
-    "Type": "autem",
-    "ColorBlock": 667,
-    "IconHint": "architecto",
-    "Selected": false,
-    "LastChanged": "2005-04-14T13:38:17.5774332+02:00",
+    "Rank": 313,
+    "Type": "nisi",
+    "ColorBlock": 677,
+    "IconHint": "quam",
+    "Selected": true,
+    "LastChanged": "2003-02-28T13:57:19.1403101+01:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Lebsack-Sporer",
-        "ToolTip": "Ea ut nemo ea ut.",
-        "Deleted": true,
-        "Rank": 402,
-        "Type": "quod",
-        "ColorBlock": 249,
-        "IconHint": "eum",
-        "Selected": true,
-        "LastChanged": "2011-10-21T13:38:17.5774332+02:00",
+        "Id": 643,
+        "Name": "Yost Inc and Sons",
+        "ToolTip": "Voluptatibus ad reiciendis sit et.",
+        "Deleted": false,
+        "Rank": 827,
+        "Type": "qui",
+        "ColorBlock": 787,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2003-02-05T13:57:19.1403101+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "porro",
         "Hidden": true,
-        "FullName": "Brigitte Schumm",
+        "FullName": "Deja Erick Schmitt DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 627
+            "FieldLength": 311
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "aut",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Julius Schaden",
+    "FullName": "Dr. Lyda Goldner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 854
+        "FieldType": "System.Int32",
+        "FieldLength": 90
       }
     }
   }

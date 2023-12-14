@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=ut
+GET /api/v1/List/Category/MDOItems?query=nesciunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Will Inc and Sons",
-    "ToolTip": "Sint ratione accusamus ab sed fuga.",
+    "Id": 756,
+    "Name": "Morar Inc and Sons",
+    "ToolTip": "Eos et cumque.",
     "Deleted": false,
-    "Rank": 142,
-    "Type": "facilis",
+    "Rank": 757,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 449,
-        "Name": "Donnelly, Schmitt and O'Kon",
-        "ToolTip": "Officiis tempore earum odio molestiae iure et expedita.",
-        "Deleted": true,
-        "Rank": 330,
-        "Type": "quas",
+        "Id": 955,
+        "Name": "Ward-Treutel",
+        "ToolTip": "Ad eius qui est molestiae laborum totam.",
+        "Deleted": false,
+        "Rank": 693,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facilis",
-        "ColorBlock": 921,
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "dicta",
-        "FullName": "Ms. Abdullah Gutmann I",
+        "IconHint": "sit",
+        "ColorBlock": 532,
+        "ExtraInfo": "autem",
+        "StyleHint": "aliquam",
+        "FullName": "Mrs. Delpha Lambert Halvorson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldType": "System.String",
+            "FieldLength": 158
           }
         }
       }
     ],
-    "IconHint": "deleniti",
-    "ColorBlock": 374,
-    "ExtraInfo": "atque",
-    "StyleHint": "praesentium",
-    "FullName": "Braeden Dooley",
+    "IconHint": "dolores",
+    "ColorBlock": 953,
+    "ExtraInfo": "labore",
+    "StyleHint": "non",
+    "FullName": "Braulio Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 221
       }
     }
   }

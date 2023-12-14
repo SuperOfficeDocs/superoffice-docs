@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 332,
-    "Name": "Heaney-Runolfsdottir",
-    "ToolTip": "Quam et fugit.",
+    "Id": 37,
+    "Name": "Bashirian, Morissette and Moen",
+    "ToolTip": "Non necessitatibus voluptatibus quae est similique.",
     "Deleted": false,
-    "Rank": 433,
-    "Type": "magnam",
-    "ColorBlock": 414,
-    "IconHint": "omnis",
+    "Rank": 798,
+    "Type": "nesciunt",
+    "ColorBlock": 945,
+    "IconHint": "itaque",
     "Selected": false,
-    "LastChanged": "2002-01-04T13:38:18.1400255+01:00",
+    "LastChanged": "2015-06-25T13:57:19.8908927+02:00",
     "ChildItems": [
       {
-        "Id": 559,
-        "Name": "Terry-Hodkiewicz",
-        "ToolTip": "Enim laborum sed blanditiis et distinctio nihil rem.",
+        "Id": 809,
+        "Name": "Lockman, Kling and Nicolas",
+        "ToolTip": "Velit id nulla ducimus velit.",
         "Deleted": false,
-        "Rank": 872,
-        "Type": "et",
-        "ColorBlock": 465,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "1998-12-12T13:38:18.1400255+01:00",
+        "Rank": 124,
+        "Type": "explicabo",
+        "ColorBlock": 877,
+        "IconHint": "corporis",
+        "Selected": false,
+        "LastChanged": "2013-01-17T13:57:19.8908927+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "amet",
+        "ExtraInfo": "sunt",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Kristofer Kenyatta Towne V",
+        "FullName": "Joannie Schiller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 296
+            "FieldType": "System.Int32",
+            "FieldLength": 901
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "autem",
+    "ExtraInfo": "est",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Prof. Harrison Wolff PhD",
+    "FullName": "Miss Joesph Russel II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 15
       }
     }
   }

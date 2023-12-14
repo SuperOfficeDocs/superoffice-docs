@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=808
+POST /api/v1/Agents/Person/GetPerson?personId=711
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "ad",
-  "PersonId": 42,
-  "Mrmrs": "voluptatem",
-  "Firstname": "Mose",
-  "Lastname": "Bradtke",
-  "MiddleName": "Hyatt-Macejkovic",
-  "Title": "sit",
-  "Description": "Balanced encompassing emulation",
-  "Email": "edmond_dietrich@auer.uk",
-  "FullName": "Gail Christiansen",
-  "DirectPhone": "(018)839-0577 x49911",
-  "FormalName": "Nolan-Flatley",
-  "CountryId": 24,
-  "ContactId": 101,
-  "ContactName": "Hoppe Inc and Sons",
-  "Retired": 433,
-  "Rank": 748,
-  "ActiveInterests": 707,
+  "Position": "aliquam",
+  "PersonId": 439,
+  "Mrmrs": "eaque",
+  "Firstname": "Burnice",
+  "Lastname": "Windler",
+  "MiddleName": "Morissette LLC",
+  "Title": "vel",
+  "Description": "Horizontal dedicated parallelism",
+  "Email": "delilah_hackett@johnston.biz",
+  "FullName": "Mrs. Carlee Daniel",
+  "DirectPhone": "(220)250-7910 x7784",
+  "FormalName": "Pollich, Kautzer and Fisher",
+  "CountryId": 961,
+  "ContactId": 576,
+  "ContactName": "Ferry LLC",
+  "Retired": 259,
+  "Rank": 635,
+  "ActiveInterests": 579,
   "ContactDepartment": "",
-  "ContactCountryId": 338,
-  "ContactOrgNr": "1226973",
-  "FaxPhone": "413-853-1938 x2640",
-  "MobilePhone": "228-696-3953",
-  "ContactPhone": "529-429-8558",
-  "AssociateName": "Spencer, Heathcote and Deckow",
-  "AssociateId": 302,
+  "ContactCountryId": 976,
+  "ContactOrgNr": "1000931",
+  "FaxPhone": "(554)599-9230",
+  "MobilePhone": "224.239.7320",
+  "ContactPhone": "(985)951-1409 x99931",
+  "AssociateName": "Bogisich, Reichel and Blick",
+  "AssociateId": 521,
   "UsePersonAddress": false,
-  "ContactFax": "eligendi",
-  "Kanafname": "velit",
-  "Kanalname": "animi",
-  "Post1": "odit",
-  "Post2": "deleniti",
-  "Post3": "omnis",
-  "EmailName": "kristofer_runolfsson@gerlachwelch.uk",
-  "ContactFullName": "Mireille King",
-  "ActiveErpLinks": 930,
-  "TicketPriorityId": 828,
-  "SupportLanguageId": 950,
-  "SupportAssociateId": 173,
+  "ContactFax": "pariatur",
+  "Kanafname": "laborum",
+  "Kanalname": "omnis",
+  "Post1": "nemo",
+  "Post2": "ea",
+  "Post3": "at",
+  "EmailName": "javonte@dickens.co.uk",
+  "ContactFullName": "Ellsworth Schultz",
+  "ActiveErpLinks": 992,
+  "TicketPriorityId": 759,
+  "SupportLanguageId": 962,
+  "SupportAssociateId": 395,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 426
+      "FieldType": "System.Int32",
+      "FieldLength": 342
     }
   }
 }

@@ -88,7 +88,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 523,
-    "ColumnId": 882,
-    "FieldDefault": "commodi",
-    "FieldHeight": 925,
-    "FieldLabel": "nostrum",
-    "FieldLeft": 696,
-    "FieldTop": 338,
+    "UDefFieldId": 506,
+    "ColumnId": 957,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 998,
+    "FieldLabel": "harum",
+    "FieldLeft": 968,
+    "FieldTop": 239,
     "FieldType": "Checkbox",
-    "FieldWidth": 876,
-    "FormatMask": "ipsam",
-    "HideLabel": true,
+    "FieldWidth": 841,
+    "FormatMask": "nisi",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 809,
-    "LabelLeft": 485,
-    "LabelTop": 48,
-    "LabelWidth": 842,
-    "LastVersionId": 792,
-    "ListTableId": 331,
+    "LabelHeight": 319,
+    "LabelLeft": 46,
+    "LabelTop": 123,
+    "LabelWidth": 959,
+    "LastVersionId": 200,
+    "ListTableId": 552,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 315,
-    "ProgId": "omnis",
+    "Page1LineNo": 193,
+    "ProgId": "voluptas",
     "IsReadOnly": false,
-    "ShortLabel": "et",
-    "TabOrder": 661,
-    "TextLength": 69,
-    "Tooltip": "assumenda",
-    "UdefIdentity": 881,
-    "UDListDefinitionId": 634,
+    "ShortLabel": "sed",
+    "TabOrder": 977,
+    "TextLength": 839,
+    "Tooltip": "necessitatibus",
+    "UdefIdentity": 641,
+    "UDListDefinitionId": 214,
     "Justification": "Center",
-    "Version": 811,
-    "TemplateVariableName": "Gusikowski Group",
-    "HasBeenPublished": false,
-    "MdoListName": "Klein, Welch and Rosenbaum",
+    "Version": 576,
+    "TemplateVariableName": "Armstrong, Herzog and Wyman",
+    "HasBeenPublished": true,
+    "MdoListName": "Will LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 322
+        "FieldLength": 866
       }
     }
   }

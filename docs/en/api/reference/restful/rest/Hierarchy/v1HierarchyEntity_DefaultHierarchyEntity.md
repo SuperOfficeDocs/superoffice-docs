@@ -66,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 541,
+  "HierarchyId": 695,
   "Domain": "Dashboards",
-  "Name": "Stamm Inc and Sons",
-  "Fullname": "vel",
-  "ParentId": 138,
+  "Name": "Cormier, Pfeffer and Roob",
+  "Fullname": "voluptates",
+  "ParentId": 887,
   "Children": [
     {
-      "HierarchyId": 461,
+      "HierarchyId": 821,
       "Domain": "Dashboards",
-      "Name": "Senger-Parker",
-      "Fullname": "est",
-      "ParentId": 504,
+      "Name": "Gerlach LLC",
+      "Fullname": "cupiditate",
+      "ParentId": 89,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-08-15T13:38:17.4524494+02:00",
-      "RegisteredAssociateId": 701,
-      "Updated": "2008-12-10T13:38:17.4524494+01:00",
-      "UpdatedAssociateId": 123,
+      "Registered": "2003-04-20T13:57:18.8265985+02:00",
+      "RegisteredAssociateId": 890,
+      "Updated": "1998-07-08T13:57:18.8265985+02:00",
+      "UpdatedAssociateId": 738,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 639
+          "FieldLength": 827
         }
       }
     }
   ],
-  "Registered": "2007-10-26T13:38:17.4524494+02:00",
-  "RegisteredAssociateId": 57,
-  "Updated": "2003-02-10T13:38:17.4524494+01:00",
-  "UpdatedAssociateId": 441,
+  "Registered": "2013-12-10T13:57:18.8265985+01:00",
+  "RegisteredAssociateId": 541,
+  "Updated": "2022-04-07T13:57:18.8265985+02:00",
+  "UpdatedAssociateId": 106,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 725
+      "FieldLength": 379
     }
   }
 }

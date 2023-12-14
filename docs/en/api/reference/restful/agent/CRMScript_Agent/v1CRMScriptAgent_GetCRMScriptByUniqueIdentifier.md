@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "assumenda"
+  "UniqueIdentifier": "quis"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "a",
-  "Name": "Hettinger Inc and Sons",
-  "Description": "Intuitive hybrid info-mediaries",
-  "IncludeId": "qui",
-  "Source": "veritatis",
-  "Registered": "2009-04-01T13:38:13.374011+02:00",
-  "RegisteredBy": "maxime",
-  "Updated": "2015-12-28T13:38:13.374011+01:00",
-  "UpdatedBy": "non",
-  "Path": "fugit",
+  "UniqueIdentifier": "iste",
+  "Name": "Sawayn Group",
+  "Description": "Decentralized mobile system engine",
+  "IncludeId": "odit",
+  "Source": "perferendis",
+  "Registered": "2009-10-17T13:57:11.9967528+02:00",
+  "RegisteredBy": "perspiciatis",
+  "Updated": "2011-04-03T13:57:11.9967528+02:00",
+  "UpdatedBy": "perferendis",
+  "Path": "pariatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 60
+      "FieldLength": 6
     }
   }
 }

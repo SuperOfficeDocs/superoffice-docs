@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 51,
-  "Name": "Shields Inc and Sons",
-  "CurrencyId": 868,
-  "EnglishName": "Blanda-Stoltenberg",
+  "CountryId": 824,
+  "Name": "Schuster, Kulas and Balistreri",
+  "CurrencyId": 256,
+  "EnglishName": "Borer-Wisozk",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "User-centric directional knowledge base",
-  "OrgNrText": "1246881",
-  "InterAreaPrefix": "delectus",
-  "DialInPrefix": "illum",
-  "ZipPrefix": "sed",
-  "DomainName": "Gaylord Inc and Sons",
-  "AddressLayoutId": 45,
-  "DomesticAddressLayoutId": 631,
-  "ForeignAddressLayoutId": 56,
-  "Rank": 332,
-  "Tooltip": "repellendus",
+  "ImageDescription": "Devolved cohesive approach",
+  "OrgNrText": "1005837",
+  "InterAreaPrefix": "quis",
+  "DialInPrefix": "ea",
+  "ZipPrefix": "deserunt",
+  "DomainName": "Yost-Jones",
+  "AddressLayoutId": 40,
+  "DomesticAddressLayoutId": 83,
+  "ForeignAddressLayoutId": 474,
+  "Rank": 351,
+  "Tooltip": "illo",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldLength": 874
     }
   }
 }

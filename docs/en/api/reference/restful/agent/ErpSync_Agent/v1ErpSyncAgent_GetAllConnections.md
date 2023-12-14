@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 245,
-    "ErpConnectorId": 605,
-    "DisplayName": "Rohan-Larkin",
-    "DisplayDescription": "Managed secondary structure",
-    "Active": false,
-    "ConnectionId": "quod",
-    "MostRecentTimestamp": "et",
+    "ErpConnectionId": 583,
+    "ErpConnectorId": 267,
+    "DisplayName": "Hegmann, Blanda and Moen",
+    "DisplayDescription": "Polarised hybrid structure",
+    "Active": true,
+    "ConnectionId": "illo",
+    "MostRecentTimestamp": "harum",
     "ConfigFields": {
-      "ConfigFields1": "perspiciatis",
-      "ConfigFields2": "aut"
+      "ConfigFields1": "commodi",
+      "ConfigFields2": "odit"
     },
     "Deleted": false,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      885,
-      792
+      741,
+      729
     ],
     "AssociateAccessIds": [
-      474,
-      389
+      28,
+      959
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldLength": 22
       }
     }
   }

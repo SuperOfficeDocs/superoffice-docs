@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 184,
-    "Name": "Powlowski-Reilly",
-    "ToolTip": "Ducimus veniam molestiae voluptates saepe qui id quo.",
+    "Id": 646,
+    "Name": "West Group",
+    "ToolTip": "Atque impedit libero id.",
     "Deleted": false,
-    "Rank": 214,
-    "Type": "quae",
-    "ColorBlock": 938,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "2014-01-05T13:38:17.9994152+01:00",
+    "Rank": 158,
+    "Type": "dolorum",
+    "ColorBlock": 507,
+    "IconHint": "pariatur",
+    "Selected": true,
+    "LastChanged": "2015-05-21T13:57:19.6721792+02:00",
     "ChildItems": [
       {
-        "Id": 571,
-        "Name": "Halvorson, Olson and Cormier",
-        "ToolTip": "Officia quia et non molestiae eos.",
+        "Id": 436,
+        "Name": "Altenwerth, Romaguera and Schmidt",
+        "ToolTip": "Voluptatem soluta aliquam perspiciatis aut voluptatum tenetur blanditiis.",
         "Deleted": false,
-        "Rank": 451,
-        "Type": "aspernatur",
-        "ColorBlock": 694,
-        "IconHint": "officiis",
+        "Rank": 268,
+        "Type": "totam",
+        "ColorBlock": 317,
+        "IconHint": "quis",
         "Selected": true,
-        "LastChanged": "2011-09-28T13:38:17.9994152+02:00",
+        "LastChanged": "2001-11-06T13:57:19.6721792+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "similique",
-        "Hidden": false,
-        "FullName": "Christophe Satterfield V",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Travis Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 954
+            "FieldType": "System.Int32",
+            "FieldLength": 500
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "expedita",
+    "ExtraInfo": "minus",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Junior Bertrand Balistreri DVM",
+    "FullName": "Margarete Gus Mohr III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 341
+        "FieldLength": 142
       }
     }
   }

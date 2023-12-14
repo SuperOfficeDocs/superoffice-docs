@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 600,
-  "Name": "Welch-Wilderman",
+  "WebhookId": 564,
+  "Name": "Dickens-Kutch",
   "Events": [
-    "exercitationem",
-    "exercitationem"
+    "soluta",
+    "voluptatum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "consequatur",
+  "Secret": "cupiditate",
   "State": "Active",
-  "Type": "totam",
+  "Type": "occaecati",
   "Headers": {
-    "Headers1": "voluptas",
-    "Headers2": "sapiente"
+    "Headers1": "nobis",
+    "Headers2": "dolor"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2018-02-15T13:38:14.4052895+01:00",
+  "Registered": "2015-12-28T13:57:13.6145882+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-09-17T13:38:14.4052895+02:00",
+  "Updated": "2017-07-31T13:57:13.6145882+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "lexie.conroy@littlereilly.com"
+  "ErrorsEmail": "kitty.mertz@huels.name"
 }
 ```

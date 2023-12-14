@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "dolores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "dolores",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 693,
-  "PlainMessage": "laboriosam",
-  "HtmlMessage": "delectus",
-  "SmsMessage": "sunt",
-  "Description": "Optimized systemic moderator",
-  "Subject": "consequatur",
-  "FolderId": 510,
-  "HeaderField": "rerum",
-  "Design": "est",
+  "ShipmentMessageId": 594,
+  "PlainMessage": "consequuntur",
+  "HtmlMessage": "harum",
+  "SmsMessage": "enim",
+  "Description": "Persistent interactive interface",
+  "Subject": "quo",
+  "FolderId": 738,
+  "HeaderField": "maxime",
+  "Design": "nisi",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Seamless web-enabled pricing structure",
-  "AccessKey": "sit",
-  "DocumentMessage": 756,
-  "Registered": "2001-06-07T13:38:17.6711737+02:00",
-  "RegisteredAssociateId": 154,
-  "Updated": "2015-11-03T13:38:17.6711737+01:00",
-  "UpdatedAssociateId": 59,
-  "UpdatedCount": 692,
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Innovative tangible open system",
+  "AccessKey": "consequuntur",
+  "DocumentMessage": 21,
+  "Registered": "2008-09-28T13:57:19.2815227+02:00",
+  "RegisteredAssociateId": 309,
+  "Updated": "1998-05-03T13:57:19.2815227+02:00",
+  "UpdatedAssociateId": 272,
+  "UpdatedCount": 471,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldType": "System.String",
+      "FieldLength": 629
     }
   },
   "_Links": {

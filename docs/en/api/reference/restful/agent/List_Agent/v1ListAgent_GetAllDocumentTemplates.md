@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 312,
-    "Name": "Ondricka-Schowalter",
-    "Tooltip": "necessitatibus",
-    "SaveInDb": 695,
-    "Filename": "maiores",
-    "DefaultOref": "veniam",
+    "DocumentTemplateId": 321,
+    "Name": "Prosacco LLC",
+    "Tooltip": "optio",
+    "SaveInDb": 892,
+    "Filename": "non",
+    "DefaultOref": "deleniti",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 406,
-    "IntentId": 513,
+    "AutoeventId": 154,
+    "IntentId": 520,
     "IsDefaultPublished": true,
-    "Rank": 584,
-    "LoadTemplateFromPlugin": 729,
-    "MimeType": "saepe",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 439,
+    "Rank": 797,
+    "LoadTemplateFromPlugin": 980,
+    "MimeType": "magnam",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 631,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "heloise_kuhn@welch.name",
+    "EmailSubject": "iliana_bogisich@klein.ca",
     "IncludeSignature": false,
-    "ShowCurrents": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "antonia.nader@kessler.uk",
+    "SenderEmailAddress": "cheyenne.veum@daniel.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 104
+        "FieldType": "System.Int32",
+        "FieldLength": 538
       }
     }
   }

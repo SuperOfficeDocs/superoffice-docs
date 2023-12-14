@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 191,
-    "Name": "Maggio-Hoeger",
-    "ToolTip": "Nulla maxime qui fugiat adipisci et.",
+    "Id": 877,
+    "Name": "Kilback-Ruecker",
+    "ToolTip": "Non perspiciatis temporibus rerum corporis mollitia aliquam.",
     "Deleted": false,
-    "Rank": 608,
+    "Rank": 593,
     "Type": "ut",
-    "ColorBlock": 557,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "2014-03-28T13:38:18.1556538+01:00",
+    "ColorBlock": 950,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2004-08-25T13:57:19.9065482+02:00",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "Brakus, Fritsch and Anderson",
-        "ToolTip": "Ut et autem dolorem quaerat.",
-        "Deleted": false,
-        "Rank": 736,
-        "Type": "culpa",
-        "ColorBlock": 157,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "2017-12-07T13:38:18.1556538+01:00",
+        "Id": 56,
+        "Name": "Schuppe-Cruickshank",
+        "ToolTip": "Impedit et ad laborum iure a laudantium dolores.",
+        "Deleted": true,
+        "Rank": 875,
+        "Type": "enim",
+        "ColorBlock": 860,
+        "IconHint": "nesciunt",
+        "Selected": true,
+        "LastChanged": "1996-07-24T13:57:19.9065482+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "quam",
-        "Hidden": true,
-        "FullName": "Madaline Schmidt",
+        "ExtraInfo": "est",
+        "StyleHint": "vero",
+        "Hidden": false,
+        "FullName": "Ms. Francis Piper Langworth PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 686
+            "FieldType": "System.Int32",
+            "FieldLength": 52
           }
         }
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "qui",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Dr. Jevon Cristina Bogan",
+    "FullName": "Sandy Helena Kreiger MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 462
+        "FieldType": "System.Int32",
+        "FieldLength": 10
       }
     }
   }

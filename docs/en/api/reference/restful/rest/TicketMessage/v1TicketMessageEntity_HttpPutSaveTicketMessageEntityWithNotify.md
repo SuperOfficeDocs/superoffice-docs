@@ -128,66 +128,66 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 564,
+  "EjMessageId": 517,
   "Ticket": null,
-  "CreatedAt": "2009-05-13T13:38:17.7492894+02:00",
+  "CreatedAt": "2004-07-12T13:57:19.3909317+02:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "doloremque",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "deleniti",
-  "TimeSpent": 948,
-  "Body": "inventore",
-  "HtmlBody": "neque",
-  "EmailHeader": "fausto@conroy.co.uk",
-  "DebugInfo": "voluptas",
-  "MailSorter": "nihil",
+  "MessageId": "suscipit",
+  "TimeSpent": 464,
+  "Body": "cupiditate",
+  "HtmlBody": "rem",
+  "EmailHeader": "jaylan.schaefer@lueilwitzkirlin.com",
+  "DebugInfo": "sit",
+  "MailSorter": "tempora",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "excepturi",
+  "SearchTitle": "tempora",
   "MessageHeaders": [
     {
-      "Id": 561,
-      "Name": "Ullrich Group",
-      "Value": "et",
+      "Id": 470,
+      "Name": "Terry-Reinger",
+      "Value": "iste",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 561,
-      "Name": "Ullrich Group",
-      "Value": "et",
+      "Id": 470,
+      "Name": "Terry-Reinger",
+      "Value": "iste",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "esse",
-  "Sentiment": 501,
-  "SentimentConfidence": 551,
+  "Important": true,
+  "Language": "repellat",
+  "Sentiment": 846,
+  "SentimentConfidence": 723,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 393,
-      "Name": "Grant, Swaniawski and Daugherty",
-      "ContentType": "natus",
-      "AttSize": 43,
+      "AttachmentId": 335,
+      "Name": "Prosacco LLC",
+      "ContentType": "repellendus",
+      "AttSize": 651,
       "InlineImage": false,
-      "ContentId": "corporis",
-      "AuthKey": "beatae"
+      "ContentId": "sunt",
+      "AuthKey": "et"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "officia"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "ut"
+    "CustomFields1": "vel",
+    "CustomFields2": "corrupti"
   }
 }
 ```
@@ -199,78 +199,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 748,
+  "EjMessageId": 107,
   "Ticket": null,
-  "CreatedAt": "2009-08-05T13:38:17.7492894+02:00",
+  "CreatedAt": "2007-04-23T13:57:19.4065594+02:00",
   "CreatedBy": null,
-  "Author": "eligendi",
+  "Author": "non",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "expedita",
-  "TimeSpent": 926,
-  "Body": "non",
-  "HtmlBody": "omnis",
-  "EmailHeader": "camron_torp@kunzemiller.com",
-  "DebugInfo": "tempore",
-  "MailSorter": "eos",
+  "MessageId": "consequatur",
+  "TimeSpent": 415,
+  "Body": "aut",
+  "HtmlBody": "in",
+  "EmailHeader": "america@considinekris.ca",
+  "DebugInfo": "sapiente",
+  "MailSorter": "necessitatibus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "mollitia",
+  "SearchTitle": "repellendus",
   "MessageHeaders": [
     {
-      "Id": 629,
-      "Name": "Denesik LLC",
-      "Value": "dolorem",
+      "Id": 735,
+      "Name": "Herman-Bashirian",
+      "Value": "aspernatur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldType": "System.String",
+          "FieldLength": 734
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "dignissimos",
-  "Sentiment": 75,
-  "SentimentConfidence": 358,
+  "Important": true,
+  "Language": "hic",
+  "Sentiment": 795,
+  "SentimentConfidence": 97,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 170,
-      "Name": "Conroy, Glover and Kilback",
-      "ContentType": "hic",
-      "AttSize": 152,
+      "AttachmentId": 711,
+      "Name": "Morissette-Bartell",
+      "ContentType": "sunt",
+      "AttSize": 291,
       "InlineImage": true,
-      "ContentId": "iure",
-      "AuthKey": "inventore",
+      "ContentId": "molestias",
+      "AuthKey": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 997
+          "FieldLength": 852
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "culpa",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "neque",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 943
+      "FieldType": "System.Int32",
+      "FieldLength": 649
     }
   }
 }

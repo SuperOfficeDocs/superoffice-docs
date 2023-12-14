@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 107,
-  "ErpConnectorId": 829,
-  "DisplayName": "Schmidt Group",
-  "DisplayDescription": "Horizontal demand-driven contingency",
-  "Active": true,
-  "ConnectionId": "minus",
-  "MostRecentTimestamp": "cupiditate",
+  "ErpConnectionId": 10,
+  "ErpConnectorId": 70,
+  "DisplayName": "Brakus, Barton and Schmeler",
+  "DisplayDescription": "Multi-channelled systematic standardization",
+  "Active": false,
+  "ConnectionId": "itaque",
+  "MostRecentTimestamp": "distinctio",
   "ConfigFields": {
-    "ConfigFields1": "qui",
-    "ConfigFields2": "non"
+    "ConfigFields1": "porro",
+    "ConfigFields2": "et"
   },
-  "Deleted": true,
-  "AllAccess": true,
+  "Deleted": false,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    702,
-    918
+    125,
+    24
   ],
   "AssociateAccessIds": [
-    729,
-    700
+    125,
+    685
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 178
+      "FieldType": "System.Int32",
+      "FieldLength": 489
     }
   }
 }

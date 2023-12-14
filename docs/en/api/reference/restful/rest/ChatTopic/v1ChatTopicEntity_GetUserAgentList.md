@@ -28,8 +28,8 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=True
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
+GET /api/v1/ChatTopic/UserAgents?flat=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 546,
-    "Name": "Cremin, Greenholt and Bednar",
-    "ToolTip": "Autem quidem et quos quod.",
+    "Id": 353,
+    "Name": "Botsford Inc and Sons",
+    "ToolTip": "Dolores illo.",
     "Deleted": false,
-    "Rank": 439,
-    "Type": "vero",
+    "Rank": 986,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 773,
-        "Name": "Barrows Group",
-        "ToolTip": "Vero non id laboriosam quas sapiente autem.",
+        "Id": 281,
+        "Name": "Lemke-Wintheiser",
+        "ToolTip": "Incidunt adipisci sint recusandae esse quam.",
         "Deleted": false,
-        "Rank": 55,
-        "Type": "excepturi",
+        "Rank": 915,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aperiam",
-        "ColorBlock": 430,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "rem",
-        "FullName": "Daphnee Leuschke",
+        "IconHint": "doloremque",
+        "ColorBlock": 692,
+        "ExtraInfo": "culpa",
+        "StyleHint": "quaerat",
+        "FullName": "Assunta Donna Hermiston II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 923
+            "FieldType": "System.String",
+            "FieldLength": 397
           }
         }
       }
     ],
-    "IconHint": "suscipit",
-    "ColorBlock": 742,
-    "ExtraInfo": "veritatis",
-    "StyleHint": "unde",
-    "FullName": "Reagan Cummings",
+    "IconHint": "voluptates",
+    "ColorBlock": 740,
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "est",
+    "FullName": "Dean Zemlak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 142
+        "FieldLength": 130
       }
     }
   }

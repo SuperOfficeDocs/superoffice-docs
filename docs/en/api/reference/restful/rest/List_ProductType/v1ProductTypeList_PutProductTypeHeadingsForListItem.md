@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Fritsch-Morar",
-    "ToolTip": "Et velit voluptatem enim est dolorem.",
-    "Deleted": true,
-    "Rank": 102,
-    "Type": "inventore",
-    "ColorBlock": 105,
-    "IconHint": "ipsum",
-    "Selected": true,
-    "LastChanged": "2021-05-12T13:38:18.1400255+02:00",
+    "Id": 407,
+    "Name": "Gleason-Veum",
+    "ToolTip": "Beatae distinctio.",
+    "Deleted": false,
+    "Rank": 521,
+    "Type": "id",
+    "ColorBlock": 520,
+    "IconHint": "deserunt",
+    "Selected": false,
+    "LastChanged": "2017-03-04T13:57:19.8908927+01:00",
     "ChildItems": [
       {
-        "Id": 398,
-        "Name": "Bechtelar Group",
-        "ToolTip": "Aut consequatur quaerat provident.",
-        "Deleted": false,
-        "Rank": 54,
-        "Type": "officia",
-        "ColorBlock": 823,
-        "IconHint": "facilis",
+        "Id": 521,
+        "Name": "Hintz, Marvin and Wintheiser",
+        "ToolTip": "Doloribus reprehenderit quia enim.",
+        "Deleted": true,
+        "Rank": 752,
+        "Type": "fuga",
+        "ColorBlock": 59,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "2011-02-05T13:38:18.1400255+01:00",
+        "LastChanged": "2014-03-14T13:57:19.8908927+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "autem",
+        "ExtraInfo": "quas",
+        "StyleHint": "distinctio",
         "Hidden": true,
-        "FullName": "Ms. Brandon Sipes"
+        "FullName": "Hallie Larkin"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "earum",
-    "Hidden": false,
-    "FullName": "Morgan Emerson VonRueden II"
+    "ExtraInfo": "iste",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Gianni Koelpin DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 199,
-    "Name": "Sawayn Group",
-    "ToolTip": "A perferendis aliquam sunt.",
-    "Deleted": true,
-    "Rank": 8,
-    "Type": "suscipit",
-    "ColorBlock": 932,
-    "IconHint": "impedit",
-    "Selected": false,
-    "LastChanged": "2022-12-25T13:38:18.1556538+01:00",
+    "Id": 327,
+    "Name": "Flatley Inc and Sons",
+    "ToolTip": "Autem nam non nihil ullam fugiat in cum.",
+    "Deleted": false,
+    "Rank": 650,
+    "Type": "aliquam",
+    "ColorBlock": 60,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2020-02-08T13:57:19.8908927+01:00",
     "ChildItems": [
       {
-        "Id": 83,
-        "Name": "Crist LLC",
-        "ToolTip": "Reprehenderit exercitationem in ut odit sit.",
+        "Id": 71,
+        "Name": "Purdy, Kreiger and Goyette",
+        "ToolTip": "Tempore ut velit necessitatibus saepe.",
         "Deleted": false,
-        "Rank": 115,
-        "Type": "ipsum",
-        "ColorBlock": 742,
-        "IconHint": "explicabo",
-        "Selected": true,
-        "LastChanged": "2015-10-24T13:38:18.1556538+02:00",
+        "Rank": 623,
+        "Type": "facere",
+        "ColorBlock": 833,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "2020-04-18T13:57:19.8908927+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "sed",
+        "ExtraInfo": "qui",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Dr. Jaiden Huels",
+        "FullName": "Prof. D'angelo Hettinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldLength": 675
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Dominic Denesik",
+    "ExtraInfo": "ea",
+    "StyleHint": "asperiores",
+    "Hidden": false,
+    "FullName": "Ryann Jacobs",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldType": "System.String",
+        "FieldLength": 28
       }
     }
   }

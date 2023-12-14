@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=725
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=21
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 163,
-  "Name": "Fritsch, Klein and Hodkiewicz",
-  "Tooltip": "est",
-  "Rank": 143,
+  "ProjTypeId": 230,
+  "Name": "Harber, Lesch and Corwin",
+  "Tooltip": "placeat",
+  "Rank": 509,
   "DurationUnit": "Century",
-  "ProjectDuration": 164,
-  "Deleted": false,
+  "ProjectDuration": 159,
+  "Deleted": true,
   "HasGuide": false,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 981,
-      "Name": "Mayer LLC",
-      "ToolTip": "Qui aliquid id autem itaque error.",
+      "Id": 43,
+      "Name": "Ortiz, Kunde and Cruickshank",
+      "ToolTip": "Quisquam doloribus rem.",
       "Deleted": true,
-      "Rank": 657,
-      "Type": "ducimus",
-      "ColorBlock": 44,
-      "IconHint": "est",
-      "Selected": true,
-      "LastChanged": "2004-09-11T13:38:13.6552317+02:00",
+      "Rank": 860,
+      "Type": "itaque",
+      "ColorBlock": 820,
+      "IconHint": "vitae",
+      "Selected": false,
+      "LastChanged": "2022-01-08T13:57:12.4806109+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "molestias",
+      "ExtraInfo": "vitae",
+      "StyleHint": "minus",
       "Hidden": false,
-      "FullName": "Kiley Spencer",
+      "FullName": "Dr. Rosalinda Dach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldLength": 323
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldLength": 590
     }
   }
 }

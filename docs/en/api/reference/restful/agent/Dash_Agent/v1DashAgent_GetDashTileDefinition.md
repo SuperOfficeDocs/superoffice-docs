@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=866
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=439
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 101,
-  "Name": "Jacobs, Sanford and Effertz",
-  "Description": "Open-architected didactic model",
-  "DefaultHeight": 240,
-  "DefaultWidth": 520,
+  "DashboardTileDefinitionId": 509,
+  "Name": "Hane-Cronin",
+  "Description": "Optimized systemic conglomeration",
+  "DefaultHeight": 489,
+  "DefaultWidth": 987,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Fisher-Walsh",
-  "SelectionId": 689,
+  "EntityName": "Hoeger Inc and Sons",
+  "SelectionId": 521,
   "CurrencyMode": "Base",
-  "CurrencyCode": "non",
+  "CurrencyCode": "animi",
   "Measure": "Average",
-  "MeasureField": "non",
-  "SortBy": "unde",
-  "LayoutConfig": "dolor",
-  "SecondarySelectionId": 171,
-  "MeasureByField": "praesentium",
+  "MeasureField": "doloremque",
+  "SortBy": "cupiditate",
+  "LayoutConfig": "dolorem",
+  "SecondarySelectionId": 249,
+  "MeasureByField": "non",
   "Usage": "Dashboard",
-  "ProviderName": "Casper Group",
+  "ProviderName": "Grimes, Cole and Cruickshank",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldLength": 198
     }
   }
 }

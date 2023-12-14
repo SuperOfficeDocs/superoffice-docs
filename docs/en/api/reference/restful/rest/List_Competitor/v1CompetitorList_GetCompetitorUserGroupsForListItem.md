@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 669,
-    "Name": "Wolff, Dibbert and White",
-    "ToolTip": "Illo voluptate temporibus ipsum aut omnis.",
+    "Id": 729,
+    "Name": "Powlowski, Hoppe and Ernser",
+    "ToolTip": "Hic nulla eius id fugit iure blanditiis culpa.",
     "Deleted": true,
-    "Rank": 440,
-    "Type": "ut",
-    "ColorBlock": 761,
-    "IconHint": "odit",
+    "Rank": 587,
+    "Type": "omnis",
+    "ColorBlock": 940,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1997-11-04T13:38:17.9213006+01:00",
+    "LastChanged": "2019-05-12T13:57:19.6565553+02:00",
     "ChildItems": [
       {
-        "Id": 167,
-        "Name": "Kunze, Hirthe and Marvin",
-        "ToolTip": "Dolorem laudantium voluptatem et.",
+        "Id": 791,
+        "Name": "Kessler, Waelchi and Ondricka",
+        "ToolTip": "Necessitatibus iusto.",
         "Deleted": true,
-        "Rank": 966,
-        "Type": "modi",
-        "ColorBlock": 504,
-        "IconHint": "id",
+        "Rank": 41,
+        "Type": "laboriosam",
+        "ColorBlock": 559,
+        "IconHint": "fuga",
         "Selected": false,
-        "LastChanged": "2015-09-24T13:38:17.9213006+02:00",
+        "LastChanged": "2004-09-13T13:57:19.6565553+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "nostrum",
-        "Hidden": false,
-        "FullName": "Prof. Sheridan Morar",
+        "ExtraInfo": "quas",
+        "StyleHint": "necessitatibus",
+        "Hidden": true,
+        "FullName": "Justyn Sipes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 235
+            "FieldType": "System.Int32",
+            "FieldLength": 914
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "magni",
+    "ExtraInfo": "et",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Dr. Willis Darwin Wintheiser",
+    "FullName": "Fabiola Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldType": "System.String",
+        "FieldLength": 38
       }
     }
   }

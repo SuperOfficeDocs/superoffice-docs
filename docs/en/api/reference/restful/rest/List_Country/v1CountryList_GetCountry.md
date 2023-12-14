@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 258,
-  "Name": "Cremin, Goodwin and Johnson",
-  "CurrencyId": 32,
-  "EnglishName": "Strosin-Will",
+  "CountryId": 69,
+  "Name": "Mann LLC",
+  "CurrencyId": 761,
+  "EnglishName": "Hoppe Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Reduced holistic concept",
-  "OrgNrText": "869472",
-  "InterAreaPrefix": "dolore",
-  "DialInPrefix": "nihil",
-  "ZipPrefix": "dolores",
-  "DomainName": "Thompson LLC",
-  "AddressLayoutId": 809,
-  "DomesticAddressLayoutId": 153,
-  "ForeignAddressLayoutId": 196,
-  "Rank": 303,
-  "Tooltip": "quis",
-  "Deleted": false,
+  "ImageDescription": "Streamlined assymetric matrix",
+  "OrgNrText": "1562111",
+  "InterAreaPrefix": "quam",
+  "DialInPrefix": "enim",
+  "ZipPrefix": "quia",
+  "DomainName": "Langosh Inc and Sons",
+  "AddressLayoutId": 294,
+  "DomesticAddressLayoutId": 621,
+  "ForeignAddressLayoutId": 912,
+  "Rank": 2,
+  "Tooltip": "possimus",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 295
+      "FieldLength": 933
     }
   }
 }

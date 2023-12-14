@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 24,
-  "AssociateId": 488,
-  "Caption": "vel",
+  "DashboardId": 268,
+  "AssociateId": 35,
+  "Caption": "perferendis",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 540,
-      "Caption": "eum",
-      "Description": "Assimilated context-sensitive intranet",
-      "ChartName": "Wuckert Inc and Sons",
-      "ChartId": "aut",
-      "IsDefault": false,
-      "AssociateId": 194,
-      "GroupId": 988,
-      "SelectionId": 534,
-      "Config": "nulla",
+      "DashboardTileId": 101,
+      "Caption": "vel",
+      "Description": "Reverse-engineered background forecast",
+      "ChartName": "Trantow-Schultz",
+      "ChartId": "et",
+      "IsDefault": true,
+      "AssociateId": 407,
+      "GroupId": 926,
+      "SelectionId": 5,
+      "Config": "voluptatem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 671
+          "FieldType": "System.Int32",
+          "FieldLength": 759
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 537
     }
   }
 }

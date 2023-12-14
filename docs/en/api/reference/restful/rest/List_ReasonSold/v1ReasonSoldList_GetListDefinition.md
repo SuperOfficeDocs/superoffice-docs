@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 822,
-  "Name": "Bartell-Cremin",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "Rank": 697,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "maxime",
-  "InUseByUserDefinedFields": true,
+  "Id": 390,
+  "Name": "Fay, Kuhlman and Schimmel",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "Rank": 297,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "inventore",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 220
     }
   },
   "_Links": {

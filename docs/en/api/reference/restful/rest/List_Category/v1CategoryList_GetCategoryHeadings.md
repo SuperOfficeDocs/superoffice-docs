@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 441,
-    "Name": "Cronin Group",
-    "Tooltip": "quae",
+    "HeadingId": 113,
+    "Name": "Smith-Hintz",
+    "Tooltip": "iste",
     "Deleted": false,
-    "Rank": 926,
-    "UdListDefinitionId": 39,
+    "Rank": 668,
+    "UdListDefinitionId": 793,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 488
+        "FieldLength": 749
       }
     }
   }

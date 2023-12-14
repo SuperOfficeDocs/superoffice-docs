@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 787,
-  "Name": "Morissette-McKenzie",
-  "Tooltip": "voluptatum",
+  "Id": 936,
+  "Name": "Ortiz-Walsh",
+  "Tooltip": "distinctio",
   "Deleted": false,
-  "UdListDefinitionId": 248,
-  "Rank": 503,
+  "UdListDefinitionId": 357,
+  "Rank": 68,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 550
+      "FieldLength": 413
     }
   }
 }

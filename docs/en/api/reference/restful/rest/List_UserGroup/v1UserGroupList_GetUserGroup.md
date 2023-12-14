@@ -76,17 +76,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "voluptatem",
-  "Tooltip": "cum",
-  "Id": 235,
-  "Rank": 951,
-  "Deleted": false,
+  "Value": "tempore",
+  "Tooltip": "impedit",
+  "Id": 654,
+  "Rank": 869,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 595
+      "FieldType": "System.Int32",
+      "FieldLength": 692
     }
   }
 }

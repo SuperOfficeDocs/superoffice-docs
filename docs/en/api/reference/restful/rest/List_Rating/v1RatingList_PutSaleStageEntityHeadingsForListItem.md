@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 886,
-    "Name": "Barrows, Thiel and Crist",
-    "ToolTip": "Culpa provident sequi nihil aut similique sint.",
+    "Id": 470,
+    "Name": "Weissnat, Dickinson and Bergnaum",
+    "ToolTip": "Aliquid possimus totam qui et ab assumenda.",
     "Deleted": false,
-    "Rank": 897,
-    "Type": "omnis",
-    "ColorBlock": 99,
-    "IconHint": "dolorem",
+    "Rank": 476,
+    "Type": "tempora",
+    "ColorBlock": 370,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2003-12-08T13:38:18.186902+01:00",
+    "LastChanged": "2013-12-01T13:57:20.0627631+01:00",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Wisozk-Reinger",
-        "ToolTip": "Voluptas temporibus debitis ut repudiandae.",
-        "Deleted": false,
-        "Rank": 701,
-        "Type": "aperiam",
-        "ColorBlock": 27,
-        "IconHint": "laboriosam",
-        "Selected": true,
-        "LastChanged": "1998-10-11T13:38:18.186902+02:00",
+        "Id": 106,
+        "Name": "Heathcote, Wilderman and Ebert",
+        "ToolTip": "Doloribus necessitatibus nostrum autem dolorum dolorem minus soluta.",
+        "Deleted": true,
+        "Rank": 272,
+        "Type": "aut",
+        "ColorBlock": 345,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2007-01-27T13:57:20.0627631+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "quidem",
+        "ExtraInfo": "repellat",
+        "StyleHint": "hic",
         "Hidden": false,
-        "FullName": "Mr. Kay Diana Boyer"
+        "FullName": "Geovany Mertz"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "excepturi",
-    "Hidden": true,
-    "FullName": "Bulah Rowe III"
+    "ExtraInfo": "a",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Ocie Lakin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Stroman LLC",
-    "ToolTip": "Molestiae ut et vel.",
+    "Id": 81,
+    "Name": "McClure Inc and Sons",
+    "ToolTip": "Corporis vero accusantium autem est.",
     "Deleted": false,
-    "Rank": 124,
-    "Type": "consequuntur",
-    "ColorBlock": 734,
-    "IconHint": "debitis",
+    "Rank": 919,
+    "Type": "eius",
+    "ColorBlock": 606,
+    "IconHint": "nisi",
     "Selected": false,
-    "LastChanged": "2015-08-03T13:38:18.186902+02:00",
+    "LastChanged": "2022-01-19T13:57:20.0627631+01:00",
     "ChildItems": [
       {
-        "Id": 482,
-        "Name": "Jacobs-Reichert",
-        "ToolTip": "Dignissimos et inventore aut.",
-        "Deleted": true,
-        "Rank": 173,
-        "Type": "dignissimos",
-        "ColorBlock": 718,
-        "IconHint": "eaque",
-        "Selected": true,
-        "LastChanged": "2000-11-01T13:38:18.186902+01:00",
+        "Id": 417,
+        "Name": "Sanford Inc and Sons",
+        "ToolTip": "Impedit amet inventore.",
+        "Deleted": false,
+        "Rank": 633,
+        "Type": "est",
+        "ColorBlock": 155,
+        "IconHint": "labore",
+        "Selected": false,
+        "LastChanged": "2009-04-26T13:57:20.0627631+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "tempora",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Cathryn Lind",
+        "FullName": "Ms. Adonis Miller DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 836
+            "FieldLength": 403
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "ad",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "fugit",
     "Hidden": false,
-    "FullName": "Prof. Luna Nader",
+    "FullName": "Bernardo Kuhn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldLength": 795
       }
     }
   }

@@ -81,13 +81,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 735,
-  "Name": "Hammes Group",
-  "Tooltip": "nam",
-  "Rank": 766,
-  "Rate": 19487.212,
-  "Units": 20947.656,
-  "Deleted": true
+  "CurrencyId": 280,
+  "Name": "Kuhic Inc and Sons",
+  "Tooltip": "sequi",
+  "Rank": 614,
+  "Rate": 23279.352,
+  "Units": 28544.471999999998,
+  "Deleted": false
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 409,
-  "Name": "Hoppe LLC",
-  "Tooltip": "architecto",
-  "Rank": 925,
-  "Rate": 26009.066,
-  "Units": 7922.7519999999995,
-  "Deleted": true,
+  "CurrencyId": 330,
+  "Name": "Langworth, Parker and Bayer",
+  "Tooltip": "tempore",
+  "Rank": 366,
+  "Rate": 2717.178,
+  "Units": 19211.42,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 442
+      "FieldType": "System.String",
+      "FieldLength": 380
     }
   }
 }

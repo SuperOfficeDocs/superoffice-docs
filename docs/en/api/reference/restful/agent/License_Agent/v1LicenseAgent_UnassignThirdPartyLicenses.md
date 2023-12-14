@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 270,
-  "ModuleOwner": "debitis",
+  "AssociateId": 651,
+  "ModuleOwner": "magnam",
   "ModuleLicenseNames": [
-    "Brakus-Ward",
-    "Runolfsdottir, Towne and Miller"
+    "Ullrich, Grant and Bradtke",
+    "Schowalter Inc and Sons"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 440,
-    "Tooltip": "sunt",
+    "Total": 911,
+    "Tooltip": "nisi",
     "CanAssign": false,
-    "Free": 745,
-    "InUse": 512,
+    "Free": 847,
+    "InUse": 978,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 132,
-    "Name": "Crooks LLC",
-    "Description": "Automated reciprocal collaboration",
-    "PrerequisiteModuleName": "Huels, Gislason and Rath",
-    "SortOrder": 611,
-    "ExtraFlags": 559,
+    "ModuleLicenseId": 727,
+    "Name": "Spencer, Windler and Grimes",
+    "Description": "Profound fresh-thinking emulation",
+    "PrerequisiteModuleName": "Beatty-Trantow",
+    "SortOrder": 959,
+    "ExtraFlags": 809,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldLength": 526
       }
     }
   }

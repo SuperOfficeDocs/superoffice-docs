@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=unde
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=possimus
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 103,
-    "Name": "Jast-Stark",
-    "ToolTip": "Incidunt eaque sint.",
+    "Id": 462,
+    "Name": "Heaney-Howe",
+    "ToolTip": "Quisquam laboriosam commodi maxime.",
     "Deleted": true,
-    "Rank": 436,
-    "Type": "ut",
+    "Rank": 772,
+    "Type": "aspernatur",
     "ChildItems": [
       {
-        "Id": 815,
-        "Name": "Stoltenberg, Russel and Hermiston",
-        "ToolTip": "Ut atque eveniet veniam eligendi dolorum.",
+        "Id": 443,
+        "Name": "Ankunding-Hoppe",
+        "ToolTip": "Et et iure explicabo numquam nihil.",
         "Deleted": false,
-        "Rank": 373,
-        "Type": "molestias",
+        "Rank": 251,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consectetur",
-        "ColorBlock": 710,
-        "ExtraInfo": "autem",
-        "StyleHint": "nesciunt",
-        "FullName": "Oral Kunze",
+        "IconHint": "aut",
+        "ColorBlock": 25,
+        "ExtraInfo": "harum",
+        "StyleHint": "qui",
+        "FullName": "Zita Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 293
+            "FieldLength": 927
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 363,
-    "ExtraInfo": "temporibus",
-    "StyleHint": "natus",
-    "FullName": "Evalyn Zieme",
+    "IconHint": "ut",
+    "ColorBlock": 327,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "nihil",
+    "FullName": "Prof. Helena Durgan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 135
+        "FieldType": "System.Int32",
+        "FieldLength": 428
       }
     }
   }

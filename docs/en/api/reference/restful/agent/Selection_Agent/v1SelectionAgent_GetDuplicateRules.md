@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schroeder Inc and Sons",
-    "DisplayName": "Wilkinson Group",
-    "DisplayTooltip": "sunt",
-    "IsActive": false,
+    "Name": "Schaden Group",
+    "DisplayName": "Hirthe Inc and Sons",
+    "DisplayTooltip": "nesciunt",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 183
+        "FieldType": "System.Int32",
+        "FieldLength": 312
       }
     }
   },
   {
-    "Name": "Schroeder Inc and Sons",
-    "DisplayName": "Wilkinson Group",
-    "DisplayTooltip": "sunt",
-    "IsActive": false,
+    "Name": "Schaden Group",
+    "DisplayName": "Hirthe Inc and Sons",
+    "DisplayTooltip": "nesciunt",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 183
+        "FieldType": "System.Int32",
+        "FieldLength": 312
       }
     }
   }

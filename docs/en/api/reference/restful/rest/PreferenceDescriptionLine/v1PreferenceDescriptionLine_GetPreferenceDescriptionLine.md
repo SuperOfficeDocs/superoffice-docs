@@ -78,7 +78,7 @@ PreferenceDescriptionLine found.
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 682,
-  "PrefDescId": 40,
-  "PrefValue": "quasi",
-  "PrefShowValue": "esse",
-  "Description": "Configurable zero defect database",
-  "IsBuiltin": false,
+  "PrefDescLineId": 23,
+  "PrefDescId": 277,
+  "PrefValue": "non",
+  "PrefShowValue": "iure",
+  "Description": "Team-oriented full-range middleware",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldLength": 612
     }
   },
   "_Links": {

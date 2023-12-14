@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=deserunt
+GET /api/v1/List/Rating/MDOItems?flat=True
+GET /api/v1/List/Rating/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Name": "Goyette-Monahan",
-    "ToolTip": "Quibusdam sit repellat quasi fugit numquam.",
-    "Deleted": false,
-    "Rank": 20,
-    "Type": "dignissimos",
+    "Id": 539,
+    "Name": "Schuppe LLC",
+    "ToolTip": "Provident sint amet rerum iure distinctio dolores asperiores.",
+    "Deleted": true,
+    "Rank": 706,
+    "Type": "officiis",
     "ChildItems": [
       {
-        "Id": 70,
-        "Name": "Hirthe Group",
-        "ToolTip": "Rerum eos molestiae hic quis.",
+        "Id": 700,
+        "Name": "Macejkovic-Fahey",
+        "ToolTip": "Autem in quas.",
         "Deleted": true,
-        "Rank": 35,
-        "Type": "in",
+        "Rank": 58,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "optio",
-        "ColorBlock": 98,
-        "ExtraInfo": "pariatur",
-        "StyleHint": "ex",
-        "FullName": "Miss Kavon Daniel",
+        "IconHint": "ut",
+        "ColorBlock": 253,
+        "ExtraInfo": "non",
+        "StyleHint": "eos",
+        "FullName": "Mrs. Helena Waelchi V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 946
+            "FieldLength": 732
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 29,
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "ad",
-    "FullName": "Mr. Martin Hilpert Jr.",
+    "IconHint": "quidem",
+    "ColorBlock": 132,
+    "ExtraInfo": "quos",
+    "StyleHint": "qui",
+    "FullName": "Josue Altenwerth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldLength": 992
       }
     }
   }

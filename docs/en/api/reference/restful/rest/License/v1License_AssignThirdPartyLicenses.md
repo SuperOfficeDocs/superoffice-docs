@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 827,
-    "Tooltip": "sunt",
-    "CanAssign": true,
-    "Free": 557,
-    "InUse": 134,
+    "Unrestricted": false,
+    "Total": 852,
+    "Tooltip": "labore",
+    "CanAssign": false,
+    "Free": 801,
+    "InUse": 305,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 277,
-    "Name": "Mayert Group",
-    "Description": "Horizontal systemic project",
-    "PrerequisiteModuleName": "Mueller Inc and Sons",
-    "SortOrder": 384,
-    "ExtraFlags": 414,
+    "ModuleLicenseId": 814,
+    "Name": "Grady-Klocko",
+    "Description": "Reduced leading edge system engine",
+    "PrerequisiteModuleName": "Roberts-Tremblay",
+    "SortOrder": 646,
+    "ExtraFlags": 367,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldType": "System.Int32",
+        "FieldLength": 877
       }
     }
   }

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 305,
+  "PersonId": 157,
   "IncludeProjectDocuments": true,
-  "StartTime": "2020-05-08T13:38:13.4208858+02:00",
-  "EndTime": "2017-05-03T13:38:13.4208858+02:00",
-  "Count": 145
+  "StartTime": "2013-05-20T13:57:12.074872+02:00",
+  "EndTime": "2011-05-13T13:57:12.074872+02:00",
+  "Count": 819
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 387,
-    "Attention": "dignissimos",
-    "Header": "est",
-    "Name": "Renner, Rempel and Williamson",
-    "OurRef": "necessitatibus",
-    "YourRef": "soluta",
-    "Description": "Organized client-server array",
-    "DocumentTemplate": "architecto",
+    "DocumentId": 488,
+    "Attention": "hic",
+    "Header": "nesciunt",
+    "Name": "Erdman, Morissette and Jast",
+    "OurRef": "est",
+    "YourRef": "atque",
+    "Description": "Profound next generation productivity",
+    "DocumentTemplate": "tempore",
     "IsPublished": false,
-    "PersonId": 829,
-    "PersonFullName": "Fay Abbott",
-    "AssociateFullName": "Jack Haley",
-    "ContactId": 571,
-    "ContactName": "Reichert-Corkery",
-    "ProjectId": 885,
-    "ProjectName": "Pouros, Konopelski and McGlynn",
-    "AssociateId": 901,
-    "Snum": 471,
-    "SaleId": 544,
-    "SaleName": "Von Group",
+    "PersonId": 570,
+    "PersonFullName": "Odie Hodkiewicz III",
+    "AssociateFullName": "Will Robert Hickle I",
+    "ContactId": 906,
+    "ContactName": "Denesik LLC",
+    "ProjectId": 869,
+    "ProjectName": "Windler-Pfannerstill",
+    "AssociateId": 217,
+    "Snum": 611,
+    "SaleId": 80,
+    "SaleName": "Goyette-Kris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 817
+        "FieldType": "System.Int32",
+        "FieldLength": 727
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "Durgan Inc and Sons",
-    "ToolTip": "Sequi aut dicta.",
+    "Id": 328,
+    "Name": "Gutmann-Hansen",
+    "ToolTip": "Quis velit laborum.",
     "Deleted": true,
-    "Rank": 127,
-    "Type": "nihil",
-    "ColorBlock": 126,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2003-07-16T13:38:18.1400255+02:00",
+    "Rank": 936,
+    "Type": "laborum",
+    "ColorBlock": 636,
+    "IconHint": "pariatur",
+    "Selected": true,
+    "LastChanged": "2004-02-11T13:57:19.8908927+01:00",
     "ChildItems": [
       {
-        "Id": 589,
-        "Name": "Murphy-Denesik",
-        "ToolTip": "Eaque consequatur consequatur aspernatur atque perspiciatis et.",
+        "Id": 162,
+        "Name": "Raynor, King and Murphy",
+        "ToolTip": "Suscipit omnis amet.",
         "Deleted": true,
-        "Rank": 456,
-        "Type": "molestiae",
-        "ColorBlock": 448,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "2017-01-30T13:38:18.1400255+01:00",
+        "Rank": 425,
+        "Type": "molestias",
+        "ColorBlock": 999,
+        "IconHint": "vitae",
+        "Selected": false,
+        "LastChanged": "2014-12-29T13:57:19.8908927+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "consequuntur",
-        "Hidden": false,
-        "FullName": "Mrs. Fritz Daphne Blanda III"
+        "ExtraInfo": "quia",
+        "StyleHint": "itaque",
+        "Hidden": true,
+        "FullName": "Laura Monahan"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "omnis",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Alysha Grimes"
+    "FullName": "Dr. Elta Cruickshank"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 875,
-    "Name": "Prohaska, Stanton and Mante",
-    "ToolTip": "Accusantium omnis corrupti dicta.",
+    "Id": 715,
+    "Name": "Rowe, Schmitt and Schmitt",
+    "ToolTip": "Maxime quia ab.",
     "Deleted": true,
-    "Rank": 861,
-    "Type": "occaecati",
-    "ColorBlock": 980,
-    "IconHint": "reiciendis",
+    "Rank": 755,
+    "Type": "ut",
+    "ColorBlock": 778,
+    "IconHint": "deserunt",
     "Selected": false,
-    "LastChanged": "2000-05-24T13:38:18.1400255+02:00",
+    "LastChanged": "1999-06-22T13:57:19.8908927+02:00",
     "ChildItems": [
       {
-        "Id": 335,
-        "Name": "Boyle-Wisoky",
-        "ToolTip": "Eius voluptas deserunt.",
+        "Id": 547,
+        "Name": "Balistreri-Hamill",
+        "ToolTip": "Et voluptates omnis architecto vitae totam vero.",
         "Deleted": false,
-        "Rank": 851,
-        "Type": "eveniet",
-        "ColorBlock": 339,
-        "IconHint": "asperiores",
-        "Selected": false,
-        "LastChanged": "1997-12-01T13:38:18.1400255+01:00",
+        "Rank": 23,
+        "Type": "corrupti",
+        "ColorBlock": 161,
+        "IconHint": "expedita",
+        "Selected": true,
+        "LastChanged": "2006-02-28T13:57:19.8908927+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Wanda Terry I",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Ms. Favian Lebsack",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 911
+            "FieldType": "System.Int32",
+            "FieldLength": 741
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "quos",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Elisa Lind",
+    "FullName": "Gerry Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 241
+        "FieldLength": 777
       }
     }
   }

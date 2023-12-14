@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 276,
-  "Name": "Corkery, Koch and Wehner",
-  "Tooltip": "non",
-  "Deleted": false,
-  "Rank": 125,
-  "UdListDefinitionId": 549
+  "HeadingId": 562,
+  "Name": "Robel Inc and Sons",
+  "Tooltip": "mollitia",
+  "Deleted": true,
+  "Rank": 528,
+  "UdListDefinitionId": 651
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 717,
-  "Name": "Green-O'Keefe",
-  "Tooltip": "incidunt",
-  "Deleted": false,
-  "Rank": 100,
-  "UdListDefinitionId": 30,
+  "HeadingId": 174,
+  "Name": "Kunde, Bergnaum and Breitenberg",
+  "Tooltip": "recusandae",
+  "Deleted": true,
+  "Rank": 341,
+  "UdListDefinitionId": 13,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldType": "System.String",
+      "FieldLength": 751
     }
   }
 }

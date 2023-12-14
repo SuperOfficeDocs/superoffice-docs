@@ -106,24 +106,24 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 348,
-  "Section": "autem",
-  "Key": "sequi",
-  "Name": "Wilkinson Inc and Sons",
+  "PrefDescId": 810,
+  "Section": "sunt",
+  "Key": "id",
+  "Name": "Koss Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Progressive 6th generation product",
-  "IsBuiltin": false,
-  "TableName": "Wilkinson-Dickinson",
-  "UserDefinedListId": 674,
-  "Rank": 617,
-  "SubGroup": "repudiandae",
-  "MinLevel": 154,
-  "MaxValue": 170,
-  "MinValue": 237,
-  "RequiredLicense": "atque"
+  "Description": "Mandatory non-volatile benchmark",
+  "IsBuiltin": true,
+  "TableName": "Bauch-Borer",
+  "UserDefinedListId": 142,
+  "Rank": 682,
+  "SubGroup": "adipisci",
+  "MinLevel": 166,
+  "MaxValue": 607,
+  "MinValue": 336,
+  "RequiredLicense": "iure"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 1000,
-  "Section": "veritatis",
-  "Key": "quis",
-  "Name": "Bogan, Jerde and Zboncak",
+  "PrefDescId": 331,
+  "Section": "laboriosam",
+  "Key": "quam",
+  "Name": "Kunze, Lakin and Casper",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Pre-emptive optimal extranet",
-  "IsBuiltin": false,
-  "TableName": "Powlowski, Littel and Bernier",
-  "UserDefinedListId": 640,
-  "Rank": 650,
-  "SubGroup": "quia",
-  "MinLevel": 958,
-  "MaxValue": 256,
-  "MinValue": 464,
-  "RequiredLicense": "dicta",
+  "Description": "Open-architected bottom-line circuit",
+  "IsBuiltin": true,
+  "TableName": "Gleichner, Schneider and Hickle",
+  "UserDefinedListId": 533,
+  "Rank": 969,
+  "SubGroup": "deleniti",
+  "MinLevel": 679,
+  "MaxValue": 926,
+  "MinValue": 616,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldType": "System.Int32",
+      "FieldLength": 395
     }
   }
 }

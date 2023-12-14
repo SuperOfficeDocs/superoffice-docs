@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Schowalter, DuBuque and Barton",
-    "ToolTip": "Voluptas quo eos eos necessitatibus vitae molestias.",
-    "Deleted": false,
-    "Rank": 786,
-    "Type": "sed",
-    "ColorBlock": 433,
-    "IconHint": "provident",
-    "Selected": false,
-    "LastChanged": "1998-07-16T13:38:18.1400255+02:00",
+    "Id": 814,
+    "Name": "Schowalter Group",
+    "ToolTip": "Laudantium soluta explicabo repellat.",
+    "Deleted": true,
+    "Rank": 563,
+    "Type": "et",
+    "ColorBlock": 645,
+    "IconHint": "a",
+    "Selected": true,
+    "LastChanged": "2023-10-25T13:57:19.8752673+02:00",
     "ChildItems": [
       {
-        "Id": 419,
-        "Name": "Bruen LLC",
-        "ToolTip": "Ex qui.",
-        "Deleted": true,
-        "Rank": 382,
-        "Type": "rerum",
-        "ColorBlock": 19,
-        "IconHint": "nemo",
+        "Id": 844,
+        "Name": "Shanahan-Auer",
+        "ToolTip": "Autem earum qui quia voluptatum.",
+        "Deleted": false,
+        "Rank": 385,
+        "Type": "quasi",
+        "ColorBlock": 766,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2022-09-26T13:38:18.1400255+02:00",
+        "LastChanged": "1996-08-06T13:57:19.8752673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "minima",
-        "Hidden": true,
-        "FullName": "Hilton Koss Jr.",
+        "ExtraInfo": "quia",
+        "StyleHint": "asperiores",
+        "Hidden": false,
+        "FullName": "Rudy Reina Hartmann Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 625
+            "FieldType": "System.String",
+            "FieldLength": 397
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "soluta",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Jennie Heathcote",
+    "FullName": "Judson Turcotte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 437
+        "FieldLength": 847
       }
     }
   }

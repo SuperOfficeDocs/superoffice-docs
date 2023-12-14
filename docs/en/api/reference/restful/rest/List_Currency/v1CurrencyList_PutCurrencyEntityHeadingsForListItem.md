@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 435,
-    "Name": "Bailey, Wilderman and Olson",
-    "ToolTip": "Aut dolorem.",
-    "Deleted": false,
-    "Rank": 270,
-    "Type": "eveniet",
-    "ColorBlock": 13,
-    "IconHint": "sint",
-    "Selected": false,
-    "LastChanged": "2016-12-14T13:38:18.0306692+01:00",
+    "Id": 547,
+    "Name": "Quitzon, Hand and Schultz",
+    "ToolTip": "Veniam enim sed id enim.",
+    "Deleted": true,
+    "Rank": 46,
+    "Type": "reiciendis",
+    "ColorBlock": 777,
+    "IconHint": "vero",
+    "Selected": true,
+    "LastChanged": "1996-12-07T13:57:19.7346424+01:00",
     "ChildItems": [
       {
-        "Id": 329,
-        "Name": "Raynor-Deckow",
-        "ToolTip": "Mollitia quae.",
+        "Id": 452,
+        "Name": "Lakin, Erdman and Leuschke",
+        "ToolTip": "Corrupti eos magnam dolores labore sit ipsa.",
         "Deleted": false,
-        "Rank": 182,
-        "Type": "nostrum",
-        "ColorBlock": 496,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2006-04-15T13:38:18.0306692+02:00",
+        "Rank": 520,
+        "Type": "laboriosam",
+        "ColorBlock": 492,
+        "IconHint": "praesentium",
+        "Selected": false,
+        "LastChanged": "2022-06-30T13:57:19.7346424+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Tate Gusikowski"
+        "ExtraInfo": "aut",
+        "StyleHint": "expedita",
+        "Hidden": true,
+        "FullName": "Enrique Franecki"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "architecto",
+    "ExtraInfo": "ex",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Michele Sipes"
+    "FullName": "Mrs. Gustave Johann Hamill DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 590,
-    "Name": "Weimann, Nader and Simonis",
-    "ToolTip": "Recusandae animi.",
+    "Id": 887,
+    "Name": "Bauch LLC",
+    "ToolTip": "Et non qui ea.",
     "Deleted": false,
-    "Rank": 492,
-    "Type": "voluptas",
-    "ColorBlock": 373,
-    "IconHint": "minima",
+    "Rank": 920,
+    "Type": "quia",
+    "ColorBlock": 459,
+    "IconHint": "eligendi",
     "Selected": false,
-    "LastChanged": "2001-03-11T13:38:18.0306692+01:00",
+    "LastChanged": "1997-06-21T13:57:19.7346424+02:00",
     "ChildItems": [
       {
-        "Id": 223,
-        "Name": "Willms, Bergstrom and Kozey",
-        "ToolTip": "Voluptas nihil expedita.",
-        "Deleted": true,
-        "Rank": 272,
-        "Type": "praesentium",
-        "ColorBlock": 520,
-        "IconHint": "soluta",
+        "Id": 801,
+        "Name": "White Inc and Sons",
+        "ToolTip": "Et omnis praesentium.",
+        "Deleted": false,
+        "Rank": 433,
+        "Type": "voluptatem",
+        "ColorBlock": 226,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2014-11-15T13:38:18.0462875+01:00",
+        "LastChanged": "2011-07-24T13:57:19.7346424+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "hic",
+        "StyleHint": "facere",
         "Hidden": false,
-        "FullName": "Ignacio Tremblay",
+        "FullName": "Dr. Jailyn Upton Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 785
+            "FieldLength": 396
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "et",
+    "ExtraInfo": "aut",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Miss Elza Hand",
+    "FullName": "Carley Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 199
+        "FieldLength": 50
       }
     }
   }

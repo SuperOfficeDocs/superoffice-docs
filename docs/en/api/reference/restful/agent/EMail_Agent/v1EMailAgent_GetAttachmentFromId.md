@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 486,
-  "AttachmentId": "recusandae"
+  "MailItemId": 960,
+  "AttachmentId": "rem"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Diverse intangible matrix",
-  "Filename": "necessitatibus",
-  "Size": 434,
-  "Type": "vitae",
-  "Encoding": "praesentium",
-  "Id": "harum",
-  "Disposition": "ut",
+  "Description": "Managed systematic collaboration",
+  "Filename": "atque",
+  "Size": 873,
+  "Type": "voluptas",
+  "Encoding": "inventore",
+  "Id": "aut",
+  "Disposition": "nihil",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 750
+      "FieldType": "System.Int32",
+      "FieldLength": 757
     }
   }
 }

@@ -74,13 +74,13 @@ Content-Type: application/json; charset=utf-8
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Swift-Prosacco",
-      "Delimiter": "enim",
-      "Flags": "quas",
-      "TotalItems": 992,
-      "UnreadItems": 409,
-      "Subscribed": true,
-      "EmailFolderId": 305
+      "Name": "Heathcote, Hettinger and Paucek",
+      "Delimiter": "fugit",
+      "Flags": "dolores",
+      "TotalItems": 389,
+      "UnreadItems": 798,
+      "Subscribed": false,
+      "EmailFolderId": 554
     }
   ]
 }

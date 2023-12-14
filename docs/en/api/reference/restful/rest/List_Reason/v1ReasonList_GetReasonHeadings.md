@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 860,
-    "Name": "Hills-Steuber",
-    "Tooltip": "magnam",
+    "HeadingId": 351,
+    "Name": "Hyatt, Hettinger and Haag",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 888,
-    "UdListDefinitionId": 23,
+    "Rank": 493,
+    "UdListDefinitionId": 225,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldLength": 825
       }
     }
   }

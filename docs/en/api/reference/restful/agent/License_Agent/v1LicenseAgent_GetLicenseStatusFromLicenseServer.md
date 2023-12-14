@@ -77,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Wilkinson-Padberg"
+  "OwnerName": "McClure-Macejkovic"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "quam",
+  "Message": "explicabo",
   "Url": "http://www.example.com/"
 }
 ```

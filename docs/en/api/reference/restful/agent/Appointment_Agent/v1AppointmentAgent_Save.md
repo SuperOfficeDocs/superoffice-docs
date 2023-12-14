@@ -74,6 +74,9 @@ OK
 | CreatedDate | date-time | Registered date  in UTC. |
 | AppointmentId | int32 | Primary key |
 | Description | string | Description of the appointment. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
@@ -115,9 +118,6 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
-| Title | string | The title of the appointment. |
-| Agenda | string | The agenda of the appointment. |
-| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -135,13 +135,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -158,120 +158,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-03-29T13:38:12.9521841+02:00",
-  "AppointmentId": 451,
-  "Description": "Diverse systemic function",
-  "StartDate": "2023-04-04T13:38:12.9521841+02:00",
-  "EndDate": "2004-10-27T13:38:12.9521841+02:00",
+  "CreatedDate": "2000-04-15T13:57:11.3563104+02:00",
+  "AppointmentId": 71,
+  "Description": "Enhanced real-time functionalities",
+  "Title": "accusantium",
+  "Agenda": "aut",
+  "InternalNotes": "et",
+  "StartDate": "2004-12-23T13:57:11.3563104+01:00",
+  "EndDate": "1998-03-27T13:57:11.3563104+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 522,
+  "MotherId": 875,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-02-08T13:38:12.9521841+01:00",
+  "UpdatedDate": "2021-10-31T13:57:11.3563104+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 877,
+  "ActiveLinks": 140,
   "Links": [
     {
-      "EntityName": "Kiehn-Mohr",
-      "Id": 798,
-      "Description": "Sharable bi-directional budgetary management",
-      "ExtraInfo": "dolorum",
-      "LinkId": 119,
+      "EntityName": "Kovacek, VonRueden and Williamson",
+      "Id": 460,
+      "Description": "Team-oriented leading edge customer loyalty",
+      "ExtraInfo": "omnis",
+      "LinkId": 683,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldLength": 63
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptas",
+  "AlarmLeadTime": "numquam",
   "HasAlarm": true,
-  "ColorIndex": 737,
-  "IsFree": true,
+  "ColorIndex": 467,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "dolorem",
-  "LeadTime": "sapiente",
-  "Location": "corporis",
-  "RejectCounter": 891,
+  "LagTime": "perspiciatis",
+  "LeadTime": "quia",
+  "Location": "omnis",
+  "RejectCounter": 813,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 70,
-      "PersonId": 756,
-      "ContactId": 83,
-      "EmailId": 281,
+      "AssociateId": 181,
+      "PersonId": 166,
+      "ContactId": 360,
+      "EmailId": 837,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "davion_huels@schroederrussel.name",
-      "Description": "Multi-layered assymetric local area network"
+      "EmailAddress": "derrick@stehrskiles.us",
+      "Description": "User-centric executive database"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-10-15T13:38:12.9521841+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2000-07-12T13:57:11.3563104+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 293,
+  "PreferredTZLocation": 633,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 374,
+  "SuggestedAppointmentId": 278,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "dolor",
-  "Title": "accusantium",
-  "Agenda": "esse",
-  "InternalNotes": "libero",
+  "CentralserviceVideomeetId": "voluptate",
   "UserDefinedFields": {
-    "SuperOffice:1": "Brody Crist",
-    "SuperOffice:2": "Dr. Ward Beahan"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "atque",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "odit"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "nemo"
+    "CustomFields1": "odio",
+    "CustomFields2": "nulla"
   },
-  "PublishEventDate": "2013-03-31T13:38:12.9521841+02:00",
-  "PublishTo": "2013-10-14T13:38:12.9521841+02:00",
-  "PublishFrom": "2021-05-21T13:38:12.9521841+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2010-11-03T13:57:11.3563104+01:00",
+  "PublishTo": "2013-01-18T13:57:11.3563104+01:00",
+  "PublishFrom": "1997-09-06T13:57:11.3563104+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 698,
+      "VisibleId": 62,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 539
+          "FieldType": "System.Int32",
+          "FieldLength": 354
         }
       }
     },
     {
-      "VisibleId": 698,
+      "VisibleId": 62,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 539
+          "FieldType": "System.Int32",
+          "FieldLength": 354
         }
       }
     }
@@ -281,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 891
+      "FieldLength": 409
     }
   }
 }

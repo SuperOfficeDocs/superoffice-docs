@@ -100,40 +100,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Medhurst LLC",
-      "Operator": "voluptas",
+      "Name": "Huels Inc and Sons",
+      "Operator": "doloremque",
       "Values": [
-        "deleniti",
-        "nisi"
+        "alias",
+        "quos"
       ],
       "DisplayValues": [
-        "dicta",
-        "ea"
+        "et",
+        "natus"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 289,
+      "InterParenthesis": 265,
       "InterOperator": "And",
-      "UniqueHash": 533
+      "UniqueHash": 102
     }
   ],
-  "ProviderName": "Kunze-Rempel",
+  "ProviderName": "Marvin Inc and Sons",
   "DesiredColumns": [
-    "quia",
-    "quibusdam"
+    "officia",
+    "reiciendis"
   ],
-  "PageSize": 326,
-  "PageNumber": 863
+  "PageSize": 347,
+  "PageNumber": 751
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Berge, Greenfelder and Brown",
-      "DisplayTooltip": "ratione",
-      "DisplayType": "iste",
+      "DisplayName": "Osinski, Mueller and Ward",
+      "DisplayTooltip": "error",
+      "DisplayType": "sequi",
       "CanOrderBy": false,
-      "Name": "Hodkiewicz Group",
+      "Name": "Kovacek Group",
       "CanRestrictBy": false,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Hudson, Larkin and Mitchell",
-      "IsVisible": true,
-      "ExtraInfo": "ipsum",
-      "Width": "consequatur",
-      "IconHint": "est",
-      "HeadingIconHint": "doloremque"
+      "RestrictionType": "maxime",
+      "RestrictionListName": "Terry, Quigley and Johnson",
+      "IsVisible": false,
+      "ExtraInfo": "accusantium",
+      "Width": "numquam",
+      "IconHint": "animi",
+      "HeadingIconHint": "sit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Quigley-Reichel",
-      "PrimaryKey": 606,
+      "EntityName": "Braun Group",
+      "PrimaryKey": 334,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "harum",
-          "TooltipHint": "accusamus",
-          "LinkHint": "id"
+          "DisplayValue": "odit",
+          "TooltipHint": "quasi",
+          "LinkHint": "non"
         }
       },
-      "LinkHint": "facilis",
-      "StyleHint": "nostrum",
+      "LinkHint": "cumque",
+      "StyleHint": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 241
+          "FieldType": "System.Int32",
+          "FieldLength": 163
         }
       }
     }
   ],
-  "RowCount": 348,
+  "RowCount": 381,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 831
     }
   }
 }

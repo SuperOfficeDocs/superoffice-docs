@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 698,
-  "Name": "Effertz, Donnelly and Smith",
-  "Tooltip": "omnis",
+  "Id": 135,
+  "Name": "Schroeder Group",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "UdListDefinitionId": 372,
-  "Rank": 883,
+  "UdListDefinitionId": 813,
+  "Rank": 672,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 639
+      "FieldType": "System.Int32",
+      "FieldLength": 689
     }
   }
 }

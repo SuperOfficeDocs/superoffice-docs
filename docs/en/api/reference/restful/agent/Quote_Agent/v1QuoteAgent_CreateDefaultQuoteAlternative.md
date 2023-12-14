@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 361,
-  "ERPQuoteAlternativeKey": "mollitia",
-  "QuoteVersionId": 446,
-  "Name": "Ryan-Rempel",
-  "Description": "Down-sized needs-based attitude",
+  "QuoteAlternativeId": 927,
+  "ERPQuoteAlternativeKey": "quisquam",
+  "QuoteVersionId": 937,
+  "Name": "Batz, Nader and Rau",
+  "Description": "Persevering uniform middleware",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 13006.1,
-  "ERPDiscountAmount": 10216.84,
-  "DiscountPercent": 7233.272,
-  "DiscountAmount": 12774.184,
+  "ERPDiscountPercent": 31321.196,
+  "ERPDiscountAmount": 9492.886,
+  "DiscountPercent": 20076.404,
+  "DiscountAmount": 21790.701999999997,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "iusto",
-  "VAT": 9470.948,
-  "EarningPercent": 15754.617999999999,
-  "EarningAmount": 28243.608,
-  "SubTotal": 20327.124,
-  "TotalPrice": 20847.368,
-  "ExtraField1": "minus",
-  "ExtraField2": "quaerat",
-  "ExtraField3": "odit",
-  "ExtraField4": "nobis",
-  "ExtraField5": "id",
+  "VATInfo": "accusamus",
+  "VAT": 5086.482,
+  "EarningPercent": 13773.93,
+  "EarningAmount": 3983.314,
+  "SubTotal": 11335.678,
+  "TotalPrice": 18358.971999999998,
+  "ExtraField1": "rerum",
+  "ExtraField2": "nemo",
+  "ExtraField3": "alias",
+  "ExtraField4": "voluptatibus",
+  "ExtraField5": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldType": "System.String",
+      "FieldLength": 78
     }
   }
 }

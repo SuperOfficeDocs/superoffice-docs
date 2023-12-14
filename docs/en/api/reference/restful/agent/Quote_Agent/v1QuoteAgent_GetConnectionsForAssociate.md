@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 70
+  "AssociateId": 261
 }
 ```
 
@@ -103,54 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 778,
-    "ERPName": "Harris-Sporer",
-    "DisplayName": "Hamill, Padberg and Morissette",
-    "DisplayDescription": "Face to face incremental neural-net",
-    "Rank": 849,
-    "ConnectorName": "Rodriguez Inc and Sons",
-    "ErpConnectionId": 930,
-    "ExtraData": "saepe",
-    "IsAvailable": true,
+    "QuoteConnectionId": 986,
+    "ERPName": "Ebert Inc and Sons",
+    "DisplayName": "Larkin, Beatty and Reichert",
+    "DisplayDescription": "Up-sized secondary productivity",
+    "Rank": 942,
+    "ConnectorName": "Schamberger-Funk",
+    "ErpConnectionId": 69,
+    "ExtraData": "aspernatur",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 214,
-        "ERPPriceListKey": "autem",
-        "QuoteConnectionId": 109,
-        "Name": "Klein, Quitzon and Heller",
-        "Description": "Integrated tangible approach",
-        "Currency": "voluptatem",
-        "CurrencyName": "Jenkins, Marquardt and Braun",
-        "ValidFrom": "2019-10-28T13:38:14.0303322+01:00",
-        "ValidTo": "1999-01-23T13:38:14.0303322+01:00",
+        "PriceListId": 519,
+        "ERPPriceListKey": "accusantium",
+        "QuoteConnectionId": 717,
+        "Name": "Hoppe, Osinski and Kuhic",
+        "Description": "Synchronised explicit budgetary management",
+        "Currency": "omnis",
+        "CurrencyName": "Blick-Goyette",
+        "ValidFrom": "2009-06-24T13:57:13.064942+02:00",
+        "ValidTo": "2023-01-16T13:57:13.064942+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 846
+            "FieldLength": 331
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      581,
-      868
+      851,
+      796
     ],
     "AssociateAccessIds": [
-      114,
-      833
+      942,
+      204
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldLength": 688
       }
     }
   }

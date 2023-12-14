@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 793,
-  "Name": "Prohaska LLC",
-  "TZLocationCode": "consequatur",
-  "TZLocationCities": "dolor",
-  "IsoNumber": 200,
+  "TZLocationID": 261,
+  "Name": "Bosco, Littel and Bartoletti",
+  "TZLocationCode": "maxime",
+  "TZLocationCities": "rerum",
+  "IsoNumber": 987,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 233,
-      "StartMonth": 111,
-      "EndDay": 48,
-      "EndMonth": 1002,
-      "TZOffset": 560,
-      "StartRulePattern": "aliquam",
-      "EndRulePattern": "quia"
+      "StartDay": 629,
+      "StartMonth": 484,
+      "EndDay": 106,
+      "EndMonth": 965,
+      "TZOffset": 543,
+      "StartRulePattern": "libero",
+      "EndRulePattern": "voluptates"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 837,
-      "StartMonth": 773,
-      "EndDay": 191,
-      "EndMonth": 202,
-      "TZOffset": 195,
-      "StartRulePattern": "ut",
-      "EndRulePattern": "reprehenderit"
+      "StartDay": 688,
+      "StartMonth": 696,
+      "EndDay": 152,
+      "EndMonth": 983,
+      "TZOffset": 460,
+      "StartRulePattern": "qui",
+      "EndRulePattern": "quam"
     }
   }
 }

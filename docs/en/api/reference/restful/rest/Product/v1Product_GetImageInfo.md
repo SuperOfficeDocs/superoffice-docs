@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 03 Jul 2018 13:38:17 G7T
+Last-Modified: Sun, 04 Sep 2016 13:57:19 G9T
 
 {
-  "BlobId": 704,
-  "BlobSize": 540,
-  "Description": "Stand-alone multimedia migration",
-  "ExtraInfo": "et",
+  "BlobId": 493,
+  "BlobSize": 179,
+  "Description": "Networked optimizing open architecture",
+  "ExtraInfo": "sint",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "omnis",
-  "OriginalSize": 845,
-  "CreatedDate": "2017-12-20T13:38:17.8119358+01:00",
-  "UpdatedDate": "2018-07-03T13:38:17.8119358+02:00",
+  "IsZipped": true,
+  "MimeType": "inventore",
+  "OriginalSize": 864,
+  "CreatedDate": "2011-03-25T13:57:19.4846459+01:00",
+  "UpdatedDate": "2016-09-04T13:57:19.4846459+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sequi",
+  "ConceptualType": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldLength": 136
     }
   }
 }

@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 764,
-  "PlainMessage": "perferendis",
-  "HtmlMessage": "nihil",
-  "SmsMessage": "aut",
-  "Description": "Synchronised 5th generation installation",
-  "Subject": "nemo",
-  "FolderId": 1001,
-  "HeaderField": "occaecati",
-  "Design": "quia",
+  "ShipmentMessageId": 142,
+  "PlainMessage": "reprehenderit",
+  "HtmlMessage": "ipsam",
+  "SmsMessage": "voluptas",
+  "Description": "Stand-alone non-volatile capability",
+  "Subject": "et",
+  "FolderId": 240,
+  "HeaderField": "impedit",
+  "Design": "vel",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Public-key zero administration workforce",
-  "AccessKey": "assumenda",
-  "DocumentMessage": 947,
-  "Registered": "2022-07-31T13:38:17.6711737+02:00",
-  "RegisteredAssociateId": 465,
-  "Updated": "2000-07-19T13:38:17.6711737+02:00",
-  "UpdatedAssociateId": 218,
-  "UpdatedCount": 224
+  "LongDescription": "Customizable mobile workforce",
+  "AccessKey": "aut",
+  "DocumentMessage": 14,
+  "Registered": "2007-04-01T13:57:19.2815227+02:00",
+  "RegisteredAssociateId": 966,
+  "Updated": "2023-08-06T13:57:19.2815227+02:00",
+  "UpdatedAssociateId": 954,
+  "UpdatedCount": 199
 }
 ```
 
@@ -151,33 +151,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 984,
-  "PlainMessage": "et",
-  "HtmlMessage": "culpa",
-  "SmsMessage": "recusandae",
-  "Description": "Focused leading edge middleware",
-  "Subject": "sint",
-  "FolderId": 477,
-  "HeaderField": "sit",
-  "Design": "qui",
+  "ShipmentMessageId": 626,
+  "PlainMessage": "rem",
+  "HtmlMessage": "aspernatur",
+  "SmsMessage": "quia",
+  "Description": "Multi-channelled tertiary system engine",
+  "Subject": "quas",
+  "FolderId": 254,
+  "HeaderField": "vel",
+  "Design": "debitis",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Digitized incremental Graphic Interface",
-  "AccessKey": "eum",
-  "DocumentMessage": 667,
-  "Registered": "2002-12-19T13:38:17.6711737+01:00",
-  "RegisteredAssociateId": 820,
-  "Updated": "2018-04-24T13:38:17.6711737+02:00",
-  "UpdatedAssociateId": 1002,
-  "UpdatedCount": 778,
+  "InlineImages": false,
+  "LongDescription": "Front-line reciprocal process improvement",
+  "AccessKey": "ullam",
+  "DocumentMessage": 374,
+  "Registered": "2018-04-30T13:57:19.2815227+02:00",
+  "RegisteredAssociateId": 849,
+  "Updated": "2003-07-17T13:57:19.2815227+02:00",
+  "UpdatedAssociateId": 412,
+  "UpdatedCount": 835,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldLength": 726
     }
   },
   "_Links": {

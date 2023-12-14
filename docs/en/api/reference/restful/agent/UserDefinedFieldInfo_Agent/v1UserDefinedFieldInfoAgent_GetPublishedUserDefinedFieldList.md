@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 49,
-    "ColumnId": 552,
-    "FieldDefault": "corrupti",
-    "FieldHeight": 183,
-    "FieldLabel": "occaecati",
-    "FieldLeft": 23,
-    "FieldTop": 94,
+    "UDefFieldId": 449,
+    "ColumnId": 663,
+    "FieldDefault": "dolorum",
+    "FieldHeight": 533,
+    "FieldLabel": "quia",
+    "FieldLeft": 328,
+    "FieldTop": 294,
     "FieldType": "Checkbox",
-    "FieldWidth": 418,
-    "FormatMask": "dolorem",
+    "FieldWidth": 873,
+    "FormatMask": "est",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 99,
-    "LabelLeft": 775,
-    "LabelTop": 650,
-    "LabelWidth": 94,
-    "LastVersionId": 323,
-    "ListTableId": 614,
+    "LabelHeight": 865,
+    "LabelLeft": 64,
+    "LabelTop": 578,
+    "LabelWidth": 160,
+    "LastVersionId": 442,
+    "ListTableId": 893,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 975,
-    "ProgId": "iusto",
-    "IsReadOnly": true,
-    "ShortLabel": "voluptatem",
-    "TabOrder": 875,
-    "TextLength": 83,
-    "Tooltip": "porro",
-    "UdefIdentity": 119,
-    "UDListDefinitionId": 974,
+    "Page1LineNo": 317,
+    "ProgId": "repellat",
+    "IsReadOnly": false,
+    "ShortLabel": "voluptas",
+    "TabOrder": 597,
+    "TextLength": 149,
+    "Tooltip": "hic",
+    "UdefIdentity": 729,
+    "UDListDefinitionId": 946,
     "Justification": "Center",
-    "Version": 463,
-    "TemplateVariableName": "Ortiz, Koch and Hoppe",
-    "HasBeenPublished": false,
-    "MdoListName": "Bradtke Group",
+    "Version": 893,
+    "TemplateVariableName": "Lueilwitz LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Ebert-Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldLength": 866
       }
     }
   }

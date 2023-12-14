@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "veniam",
+  "RawValue": "ea",
   "Specification": null,
-  "DisplayValue": "mollitia",
-  "DisplayTooltip": "a",
+  "DisplayValue": "aut",
+  "DisplayTooltip": "ratione",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 480,
-  "PrefDescId": 609,
-  "TableName": "Connelly Inc and Sons",
-  "UserPreferenceId": 336,
+  "TargetId": 718,
+  "PrefDescId": 883,
+  "TableName": "Brekke LLC",
+  "UserPreferenceId": 19,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 467
     }
   }
 }

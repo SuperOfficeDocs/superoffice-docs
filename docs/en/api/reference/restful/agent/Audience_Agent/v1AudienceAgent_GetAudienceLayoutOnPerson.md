@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 564
+  "PersonId": 441
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 50,
-  "InstanceLayout": "repellat",
-  "InstanceName": "Streich, Littel and Buckridge",
-  "CreatedDate": "2014-11-14T13:38:13.0771703+01:00",
-  "UpdatedDate": "2022-06-15T13:38:13.0771703+02:00",
+  "AudienceLayoutId": 142,
+  "InstanceLayout": "et",
+  "InstanceName": "McGlynn, Konopelski and Hagenes",
+  "CreatedDate": "1998-08-29T13:57:11.5438073+02:00",
+  "UpdatedDate": "2009-11-08T13:57:11.5438073+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldLength": 637
     }
   }
 }

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 251,
-  "ColumnId": 385,
-  "FieldDefault": "sit",
-  "FieldHeight": 839,
-  "FieldLabel": "et",
-  "FieldLeft": 842,
-  "FieldTop": 34,
+  "UDefFieldId": 625,
+  "ColumnId": 923,
+  "FieldDefault": "fugiat",
+  "FieldHeight": 456,
+  "FieldLabel": "itaque",
+  "FieldLeft": 577,
+  "FieldTop": 296,
   "FieldType": "Checkbox",
-  "FieldWidth": 111,
-  "FormatMask": "neque",
+  "FieldWidth": 428,
+  "FormatMask": "voluptas",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 821,
-  "LabelLeft": 27,
-  "LabelTop": 592,
-  "LabelWidth": 575,
-  "LastVersionId": 457,
-  "ListTableId": 882,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 625,
+  "LabelLeft": 626,
+  "LabelTop": 710,
+  "LabelWidth": 176,
+  "LastVersionId": 483,
+  "ListTableId": 951,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 237,
-  "ProgId": "repellat",
-  "IsReadOnly": true,
-  "ShortLabel": "est",
-  "TabOrder": 177,
-  "TextLength": 564,
-  "Tooltip": "dolores",
-  "UdefIdentity": 130,
-  "UDListDefinitionId": 441,
+  "Page1LineNo": 336,
+  "ProgId": "nobis",
+  "IsReadOnly": false,
+  "ShortLabel": "sint",
+  "TabOrder": 54,
+  "TextLength": 379,
+  "Tooltip": "eos",
+  "UdefIdentity": 483,
+  "UDListDefinitionId": 557,
   "Justification": "Center",
-  "Version": 598,
-  "TemplateVariableName": "Harris-Grady",
-  "HasBeenPublished": true,
-  "MdoListName": "Haag LLC",
+  "Version": 744,
+  "TemplateVariableName": "Weimann, Lindgren and Johnston",
+  "HasBeenPublished": false,
+  "MdoListName": "Abbott-Armstrong",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldType": "System.String",
+      "FieldLength": 263
     }
   }
 }

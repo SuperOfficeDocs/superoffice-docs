@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 385,
-  "EmailAddress": "myriam@yostbahringer.com",
-  "SetAsPrimaryEmail": false
+  "PersonId": 366,
+  "EmailAddress": "ivy_koelpin@larkin.co.uk",
+  "SetAsPrimaryEmail": true
 }
 ```
 

@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 140,
-    "Name": "Ryan-Kreiger",
+    "TicketPriorityId": 892,
+    "Name": "Rice, Wilkinson and Ryan",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 385,
+    "SortOrder": 1001,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 398,
-    "MonStart": "2002-07-18T13:38:13.6552317+02:00",
-    "MonStop": "2018-04-02T13:38:13.6552317+02:00",
-    "TueStart": "2006-11-05T13:38:13.6552317+01:00",
-    "TueStop": "1998-08-26T13:38:13.6552317+02:00",
-    "WedStart": "2006-01-16T13:38:13.6552317+01:00",
-    "WedStop": "2005-09-13T13:38:13.6552317+02:00",
-    "ThuStart": "2004-09-27T13:38:13.6552317+02:00",
-    "ThuStop": "2017-10-04T13:38:13.6552317+02:00",
-    "FriStart": "1997-06-02T13:38:13.6552317+02:00",
-    "FriStop": "2021-04-20T13:38:13.6552317+02:00",
-    "SatStart": "2006-11-07T13:38:13.6552317+01:00",
-    "SatStop": "2007-03-25T13:38:13.6552317+02:00",
-    "SunStart": "2004-08-13T13:38:13.6552317+02:00",
-    "SunStop": "2002-02-16T13:38:13.6552317+01:00",
+    "Deadline": 847,
+    "MonStart": "2001-03-15T13:57:12.4649848+01:00",
+    "MonStop": "2021-01-02T13:57:12.4649848+01:00",
+    "TueStart": "2011-12-18T13:57:12.4649848+01:00",
+    "TueStop": "2011-07-12T13:57:12.4649848+02:00",
+    "WedStart": "2023-08-10T13:57:12.4649848+02:00",
+    "WedStop": "2019-05-07T13:57:12.4649848+02:00",
+    "ThuStart": "2009-04-28T13:57:12.4649848+02:00",
+    "ThuStop": "1996-11-11T13:57:12.4649848+01:00",
+    "FriStart": "2021-06-27T13:57:12.4649848+02:00",
+    "FriStop": "2003-03-03T13:57:12.4649848+01:00",
+    "SatStart": "2023-01-20T13:57:12.4649848+01:00",
+    "SatStop": "2001-10-28T13:57:12.4649848+01:00",
+    "SunStart": "1998-01-19T13:57:12.4649848+01:00",
+    "SunStop": "2004-12-08T13:57:12.4649848+01:00",
     "NonDates": [
-      "consectetur",
-      "ut"
+      "magni",
+      "sed"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 170,
-        "AlertLevel": 872,
-        "AlertTimeout": 326,
-        "Action": 351,
-        "DelegateTo": 416,
-        "ScriptId": 894,
-        "EmailTo": "emerson@kassulkehowe.ca",
-        "SmsTo": "voluptatem",
-        "ReplyTemplateIdCustomer": 581,
-        "ReplyTemplateIdUser": 924,
-        "ReplyTemplateIdCatmast": 535,
-        "ReplyTemplateIdEmail": 877,
-        "RtiCustomerSms": 410,
-        "ReplyTemplateIdUserSms": 331,
-        "ReplyTemplateIdCatmastSms": 575,
-        "ReplyTemplateIdSms": 224,
+        "TicketAlertId": 194,
+        "AlertLevel": 547,
+        "AlertTimeout": 693,
+        "Action": 450,
+        "DelegateTo": 675,
+        "ScriptId": 206,
+        "EmailTo": "winifred.konopelski@willms.info",
+        "SmsTo": "sint",
+        "ReplyTemplateIdCustomer": 570,
+        "ReplyTemplateIdUser": 223,
+        "ReplyTemplateIdCatmast": 344,
+        "ReplyTemplateIdEmail": 937,
+        "RtiCustomerSms": 125,
+        "ReplyTemplateIdUserSms": 928,
+        "ReplyTemplateIdCatmastSms": 712,
+        "ReplyTemplateIdSms": 629,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 828
+            "FieldLength": 943
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldLength": 890
       }
     }
   }

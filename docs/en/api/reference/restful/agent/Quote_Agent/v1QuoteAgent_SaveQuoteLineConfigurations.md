@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 60,
-      "FieldName": "Dickens, Sauer and Romaguera",
-      "Label": "ea",
-      "Tooltip": "eius",
+      "QuoteLineConfigurationId": 393,
+      "FieldName": "Rutherford Group",
+      "Label": "earum",
+      "Tooltip": "quisquam",
       "Editable": false,
-      "InUse": true,
-      "Mandatory": true,
-      "Rank": 356,
+      "InUse": false,
+      "Mandatory": false,
+      "Rank": 406,
       "RestrictEdit": false
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 463,
-    "FieldName": "VonRueden, Lockman and Goyette",
-    "Label": "nobis",
-    "Tooltip": "qui",
+    "QuoteLineConfigurationId": 206,
+    "FieldName": "Rosenbaum, Rippin and Lockman",
+    "Label": "voluptas",
+    "Tooltip": "tempora",
     "Editable": false,
-    "InUse": false,
+    "InUse": true,
     "Mandatory": true,
-    "Rank": 235,
+    "Rank": 322,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldType": "System.String",
+        "FieldLength": 133
       }
     }
   }

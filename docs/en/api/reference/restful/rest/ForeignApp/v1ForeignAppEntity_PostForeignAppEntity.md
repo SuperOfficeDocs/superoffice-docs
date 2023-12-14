@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 330,
-  "Name": "Weimann Group",
-  "CreatedDate": "2005-01-21T13:38:17.4368262+01:00",
-  "UpdatedDate": "2006-09-11T13:38:17.4368262+02:00",
+  "ForeignAppId": 187,
+  "Name": "Tromp-Gutkowski",
+  "CreatedDate": "2020-11-17T13:57:18.7953465+01:00",
+  "UpdatedDate": "2010-09-01T13:57:18.7953465+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 595,
-      "Name": "Kub, Zboncak and Goodwin",
-      "CreatedDate": "1997-04-28T13:38:17.4368262+02:00",
-      "UpdatedDate": "1999-06-11T13:38:17.4368262+02:00",
-      "AssociateFullName": "Rae Ondricka",
-      "CreatedBy": "aut",
-      "UpdatedBy": "corporis",
-      "DeviceIdentifier": "eveniet",
-      "ForeignAppId": 890
+      "ForeignDeviceId": 434,
+      "Name": "Hilpert, Turcotte and Greenholt",
+      "CreatedDate": "2011-08-08T13:57:18.7953465+02:00",
+      "UpdatedDate": "2004-09-14T13:57:18.7953465+02:00",
+      "AssociateFullName": "Jane Lockman",
+      "CreatedBy": "illo",
+      "UpdatedBy": "saepe",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 815
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 575,
-  "Name": "McGlynn Group",
-  "CreatedDate": "2020-03-08T13:38:17.4368262+01:00",
-  "UpdatedDate": "2004-11-01T13:38:17.4368262+01:00",
+  "ForeignAppId": 138,
+  "Name": "Rowe Inc and Sons",
+  "CreatedDate": "2021-09-05T13:57:18.7953465+02:00",
+  "UpdatedDate": "2008-03-31T13:57:18.7953465+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 187,
-      "Name": "Hermiston Inc and Sons",
-      "CreatedDate": "2005-08-14T13:38:17.4368262+02:00",
-      "UpdatedDate": "2011-03-17T13:38:17.4368262+01:00",
-      "AssociateFullName": "Skylar Taurean Jerde III",
-      "CreatedBy": "sint",
-      "UpdatedBy": "aperiam",
-      "DeviceIdentifier": "aliquam",
-      "ForeignAppId": 847,
+      "ForeignDeviceId": 113,
+      "Name": "Lehner Inc and Sons",
+      "CreatedDate": "2002-10-14T13:57:18.7953465+02:00",
+      "UpdatedDate": "2017-04-24T13:57:18.7953465+02:00",
+      "AssociateFullName": "Dean Ortiz",
+      "CreatedBy": "inventore",
+      "UpdatedBy": "libero",
+      "DeviceIdentifier": "dolorem",
+      "ForeignAppId": 467,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldType": "System.String",
+          "FieldLength": 998
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   },
   "_Links": {

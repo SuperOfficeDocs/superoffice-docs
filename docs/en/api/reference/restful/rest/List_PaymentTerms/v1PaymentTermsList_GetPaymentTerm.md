@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 713,
-  "Name": "Durgan Group",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "UdListDefinitionId": 638,
-  "Rank": 731,
+  "Id": 275,
+  "Name": "Dickens-Spencer",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "UdListDefinitionId": 203,
+  "Rank": 639,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldType": "System.Int32",
+      "FieldLength": 255
     }
   }
 }

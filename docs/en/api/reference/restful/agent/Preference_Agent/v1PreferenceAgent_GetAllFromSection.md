@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 211,
-    "Section": "hic",
-    "Key": "pariatur",
-    "Name": "Schiller Inc and Sons",
+    "PrefDescId": 804,
+    "Section": "modi",
+    "Key": "neque",
+    "Name": "Rice LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Function-based background database",
-    "IsBuiltin": false,
-    "TableName": "Feest, Koepp and Hegmann",
-    "UserDefinedListId": 719,
-    "Rank": 660,
-    "SubGroup": "harum",
-    "MinLevel": 444,
-    "MaxValue": 587,
-    "MinValue": 254,
-    "RequiredLicense": "et",
+    "Description": "Team-oriented static solution",
+    "IsBuiltin": true,
+    "TableName": "Gorczany Group",
+    "UserDefinedListId": 210,
+    "Rank": 458,
+    "SubGroup": "recusandae",
+    "MinLevel": 520,
+    "MaxValue": 529,
+    "MinValue": 155,
+    "RequiredLicense": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 733
+        "FieldLength": 879
       }
     }
   }

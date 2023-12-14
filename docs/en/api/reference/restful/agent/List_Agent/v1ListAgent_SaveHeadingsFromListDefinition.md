@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 187,
+  "Id": 62,
   "Entities": [
     {
-      "HeadingId": 924,
-      "Name": "Robel Group",
-      "Tooltip": "sequi",
+      "HeadingId": 221,
+      "Name": "Rohan-Toy",
+      "Tooltip": "consequuntur",
       "Deleted": true,
-      "Rank": 252,
-      "UdListDefinitionId": 393
+      "Rank": 874,
+      "UdListDefinitionId": 678
     },
     {
-      "HeadingId": 924,
-      "Name": "Robel Group",
-      "Tooltip": "sequi",
+      "HeadingId": 221,
+      "Name": "Rohan-Toy",
+      "Tooltip": "consequuntur",
       "Deleted": true,
-      "Rank": 252,
-      "UdListDefinitionId": 393
+      "Rank": 874,
+      "UdListDefinitionId": 678
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 721,
-    "Name": "Bernier, Hegmann and Moore",
-    "Tooltip": "tenetur",
-    "Deleted": true,
-    "Rank": 897,
-    "UdListDefinitionId": 765,
+    "HeadingId": 543,
+    "Name": "Ratke, Wolff and White",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "Rank": 273,
+    "UdListDefinitionId": 852,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 833
+        "FieldLength": 736
       }
     }
   }

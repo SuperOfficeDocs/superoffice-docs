@@ -25,7 +25,7 @@ Gets all the PaymentTerm items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items?includeDeleted=False
+GET /api/v1/List/PaymentTerm/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Crooks Inc and Sons",
-    "Tooltip": "voluptas",
+    "Id": 575,
+    "Name": "Rosenbaum, Schiller and Berge",
+    "Tooltip": "mollitia",
     "Deleted": true,
-    "UdListDefinitionId": 466,
-    "Rank": 690,
+    "UdListDefinitionId": 371,
+    "Rank": 109,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 8
+        "FieldType": "System.String",
+        "FieldLength": 530
       }
     }
   }

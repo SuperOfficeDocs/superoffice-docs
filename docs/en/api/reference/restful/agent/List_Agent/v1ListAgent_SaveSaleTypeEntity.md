@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 379,
-  "Name": "Hirthe-Ruecker",
-  "Tooltip": "iusto",
-  "Rank": 172,
+  "SaleTypeId": 586,
+  "Name": "Crooks LLC",
+  "Tooltip": "magni",
+  "Rank": 455,
   "DurationUnit": "Century",
-  "SaleDuration": 746,
-  "SaleTypeCatId": 353,
-  "Deleted": false,
-  "HasGuide": false,
+  "SaleDuration": 615,
+  "SaleTypeCatId": 313,
+  "Deleted": true,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 868,
-  "QuoteLinesTemplate": 896,
-  "ConfirmationLinesTemplate": 330,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 834,
+  "QuoteLinesTemplate": 767,
+  "ConfirmationLinesTemplate": 552,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 89,
-  "MinEarningPercent": 412,
-  "GroupQuoteLinesBy": 633,
-  "SortGroupLinesBy": 133,
+  "MaxDiscountPercent": 343,
+  "MinEarningPercent": 460,
+  "GroupQuoteLinesBy": 201,
+  "SortGroupLinesBy": 536,
   "Stages": [
     {
-      "Id": 765,
-      "Name": "Crist-Robel",
-      "ToolTip": "Aut perferendis dignissimos doloremque aspernatur aut nulla occaecati.",
+      "Id": 63,
+      "Name": "Renner, Stark and Bailey",
+      "ToolTip": "Dignissimos animi vero quas magni.",
       "Deleted": false,
-      "Rank": 378,
-      "Type": "id",
-      "ColorBlock": 754,
-      "IconHint": "dolorem",
+      "Rank": 142,
+      "Type": "ea",
+      "ColorBlock": 760,
+      "IconHint": "tempora",
       "Selected": false,
-      "LastChanged": "2003-07-23T13:38:13.7177215+02:00",
+      "LastChanged": "1999-02-20T13:57:12.575585+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vel",
-      "StyleHint": "cupiditate",
+      "ExtraInfo": "dolorum",
+      "StyleHint": "aperiam",
       "Hidden": false,
-      "FullName": "Godfrey Willms"
+      "FullName": "Roderick Wunsch"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 277,
-  "Name": "Hagenes-Bruen",
-  "Tooltip": "atque",
-  "Rank": 311,
+  "SaleTypeId": 988,
+  "Name": "Hackett Inc and Sons",
+  "Tooltip": "voluptas",
+  "Rank": 280,
   "DurationUnit": "Century",
-  "SaleDuration": 501,
-  "SaleTypeCatId": 128,
-  "Deleted": false,
+  "SaleDuration": 60,
+  "SaleTypeCatId": 828,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 628,
-  "QuoteLinesTemplate": 653,
-  "ConfirmationLinesTemplate": 21,
+  "DefaultQuoteValidity": 750,
+  "QuoteLinesTemplate": 994,
+  "ConfirmationLinesTemplate": 955,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 139,
-  "MinEarningPercent": 488,
-  "GroupQuoteLinesBy": 25,
-  "SortGroupLinesBy": 166,
+  "MaxDiscountPercent": 532,
+  "MinEarningPercent": 548,
+  "GroupQuoteLinesBy": 362,
+  "SortGroupLinesBy": 929,
   "Stages": [
     {
-      "Id": 470,
-      "Name": "Pfannerstill-Greenholt",
-      "ToolTip": "Dignissimos sed dolorem quae ducimus veritatis.",
+      "Id": 501,
+      "Name": "Schneider-Nader",
+      "ToolTip": "Voluptatem voluptatem.",
       "Deleted": true,
-      "Rank": 613,
-      "Type": "similique",
-      "ColorBlock": 364,
-      "IconHint": "et",
+      "Rank": 165,
+      "Type": "in",
+      "ColorBlock": 504,
+      "IconHint": "enim",
       "Selected": false,
-      "LastChanged": "2014-07-20T13:38:13.7177215+02:00",
+      "LastChanged": "1996-08-18T13:57:12.575585+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ullam",
+      "ExtraInfo": "voluptate",
       "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Zora Bogisich",
+      "Hidden": false,
+      "FullName": "Breanna Prohaska",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldLength": 427
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 970
+      "FieldType": "System.Int32",
+      "FieldLength": 577
     }
   }
 }

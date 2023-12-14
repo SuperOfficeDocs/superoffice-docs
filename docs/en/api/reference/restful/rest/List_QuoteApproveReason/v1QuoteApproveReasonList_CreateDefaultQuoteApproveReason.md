@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 791,
-  "Name": "Jast, Thiel and McLaughlin",
-  "Tooltip": "nihil",
+  "Id": 491,
+  "Name": "Will LLC",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 945,
-  "Rank": 234,
+  "UdListDefinitionId": 241,
+  "Rank": 562,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldType": "System.String",
+      "FieldLength": 847
     }
   }
 }

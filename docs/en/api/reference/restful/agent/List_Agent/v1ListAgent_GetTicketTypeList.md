@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 145,
-    "Value": "voluptatum",
-    "Tooltip": "dolorem",
+    "Id": 839,
+    "Value": "illo",
+    "Tooltip": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 115
+        "FieldType": "System.Int32",
+        "FieldLength": 1002
       }
     }
   },
   {
-    "Id": 145,
-    "Value": "voluptatum",
-    "Tooltip": "dolorem",
+    "Id": 839,
+    "Value": "illo",
+    "Tooltip": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 115
+        "FieldType": "System.Int32",
+        "FieldLength": 1002
       }
     }
   }

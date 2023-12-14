@@ -82,17 +82,17 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 728,
-  "Name": "Fadel Inc and Sons",
-  "Tooltip": "et",
-  "Rank": 163,
-  "Rate": 10608.59,
-  "Units": 9145.0119999999988,
-  "Deleted": true
+  "CurrencyId": 17,
+  "Name": "Gleichner, Hettinger and Ullrich",
+  "Tooltip": "laudantium",
+  "Rank": 553,
+  "Rate": 12084.704,
+  "Units": 26240.982,
+  "Deleted": false
 }
 ```
 
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 352,
-  "Name": "King-Abbott",
-  "Tooltip": "animi",
-  "Rank": 611,
-  "Rate": 4055.3959999999997,
-  "Units": 17973.489999999998,
+  "CurrencyId": 936,
+  "Name": "Beahan, Lemke and Macejkovic",
+  "Tooltip": "quaerat",
+  "Rank": 178,
+  "Rate": 13889.887999999999,
+  "Units": 12880.74,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldLength": 926
     }
   }
 }

@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Littel Group",
-  "DeviceName": "Predovic, Moore and Hodkiewicz",
-  "DeviceIdentifier": "qui"
+  "ApplicationName": "Goyette LLC",
+  "DeviceName": "Hane LLC",
+  "DeviceIdentifier": "unde"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "error",
-  "RecordId": 332,
-  "CreatedDate": "1997-11-13T13:38:13.6396102+01:00",
-  "UpdatedDate": "2011-06-17T13:38:13.6396102+02:00",
-  "UpdatedBy": "error",
-  "CreatedBy": "optio",
-  "TableName": "Klocko-Jacobs",
+  "Key": "sequi",
+  "Value": "rem",
+  "RecordId": 731,
+  "CreatedDate": "2015-05-31T13:57:12.4181107+02:00",
+  "UpdatedDate": "2010-09-19T13:57:12.4181107+02:00",
+  "UpdatedBy": "facere",
+  "CreatedBy": "sit",
+  "TableName": "Herman, Cartwright and Johnston",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 284
+      "FieldType": "System.Int32",
+      "FieldLength": 599
     }
   }
 }

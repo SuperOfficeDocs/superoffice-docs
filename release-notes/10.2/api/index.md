@@ -43,6 +43,9 @@ so.topic: reference
 
 ## New MDO Providers
 
+* v10.2.11
+  * [InvitationTemplateLanguage][226]
+
 * v10.2.10
   * [EmailPhone][210]
   * [WorkflowSplitOptionType][211]
@@ -538,3 +541,5 @@ services.AddLogging(a =>
 
 [224]: 10.2.10-update.md
 [225]: 10.2.11-update.md
+
+[226]: ../../../docs/en/api/mdo-providers/reference/invitationtemplatelanguage.md

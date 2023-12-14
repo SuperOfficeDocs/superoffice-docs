@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": true,
-      "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "consectetur",
-      "ValueType": "voluptatem",
+      "DefaultShowInGui": false,
+      "DefaultShowInSelector": true,
+      "IsActive": false,
+      "Key": "maxime",
+      "ValueType": "ea",
       "Mandatory": false,
-      "EncodedDisplayName": "Lindgren-Weimann",
-      "EncodedDisplayDescription": "Multi-tiered clear-thinking knowledge user",
-      "IconHint": "ad",
+      "EncodedDisplayName": "Watsica, Casper and Hills",
+      "EncodedDisplayDescription": "Multi-layered human-resource matrix",
+      "IconHint": "sed",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "corporis",
-      "EncodedDataCaptionDescription": "Total contextually-based workforce",
-      "CurrentOperationType": "cupiditate",
+      "EncodedDataCaption": "rerum",
+      "EncodedDataCaptionDescription": "Digitized logistical matrices",
+      "CurrentOperationType": "quidem",
       "Values": [
-        "voluptatem",
-        "voluptatem"
+        "id",
+        "quisquam"
       ],
       "DisplayValues": [
-        "a",
-        "eum"
+        "maiores",
+        "placeat"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Dickinson LLC",
-  "Context": "qui",
-  "SelectionId": 137,
+  "TableName": "Champlin, Langosh and Bogan",
+  "Context": "illo",
+  "SelectionId": 530,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-101
+757
 ```

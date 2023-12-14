@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 901,
-  "Name": "Johnston Group",
-  "Tooltip": "ipsam",
-  "Deleted": true,
-  "Rank": 298,
+  "Id": 477,
+  "Name": "Ortiz-Deckow",
+  "Tooltip": "minus",
+  "Deleted": false,
+  "Rank": 261,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "porro",
+  "ListType": "maxime",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 334,
-  "Name": "Jewess Group",
-  "Tooltip": "itaque",
+  "Id": 395,
+  "Name": "Langworth, Raynor and Kertzmann",
+  "Tooltip": "minus",
   "Deleted": false,
-  "Rank": 999,
+  "Rank": 299,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "corrupti",
-  "InUseByUserDefinedFields": false,
+  "ListType": "pariatur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldLength": 898
     }
   }
 }

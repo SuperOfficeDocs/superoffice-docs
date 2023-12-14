@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 223
+  "ChatTopicId": 370
 }
 ```
 
@@ -118,29 +118,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 502,
-  "TopicId": 521,
+  "ChatSessionId": 247,
+  "TopicId": 262,
   "User": null,
   "Person": null,
-  "CustomerAlias": "omnis",
-  "CustomerHost": "quidem",
-  "CustomerName": "Jerde LLC",
-  "CustomerEmail": "ashly_monahan@kubpaucek.info",
-  "CustomerPhone": "380.447.0732",
+  "CustomerAlias": "autem",
+  "CustomerHost": "sed",
+  "CustomerName": "Romaguera-Goyette",
+  "CustomerEmail": "misael_ullrich@gusikowski.ca",
+  "CustomerPhone": "880-251-6807 x8909",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hilll-Champlin",
+  "CustomerCompanyName": "Greenfelder, Torphy and Blanda",
   "Status": "Closed",
-  "FirstMessage": "eos",
-  "LastMessage": "inventore",
-  "WhenRequested": "2023-02-05T13:38:13.2646505+01:00",
-  "WhenStarted": "2015-04-17T13:38:13.2646505+02:00",
-  "WhenEnded": "2013-10-01T13:38:13.2646505+02:00",
-  "WhenIdle": "2007-02-17T13:38:13.2646505+01:00",
-  "WhenFetched": "2016-03-20T13:38:13.2646505+01:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 44,
-  "AlertLevel": 571,
-  "Rank": 855,
+  "FirstMessage": "et",
+  "LastMessage": "eum",
+  "WhenRequested": "2010-09-22T13:57:11.808026+02:00",
+  "WhenStarted": "2005-02-15T13:57:11.808026+01:00",
+  "WhenEnded": "2007-04-24T13:57:11.808026+02:00",
+  "WhenIdle": "2018-11-17T13:57:11.808026+01:00",
+  "WhenFetched": "2015-03-21T13:57:11.808026+01:00",
+  "SessionKey": "quisquam",
+  "InitialQueuePos": 316,
+  "AlertLevel": 619,
+  "Rank": 326,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -148,13 +148,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 307,
+  "Rating": 12,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 551
     }
   }
 }

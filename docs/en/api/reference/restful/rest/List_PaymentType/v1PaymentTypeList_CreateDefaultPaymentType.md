@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 893,
-  "Name": "Schroeder Inc and Sons",
-  "Tooltip": "a",
+  "Id": 689,
+  "Name": "Barton Group",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 28,
-  "Rank": 409,
+  "UdListDefinitionId": 389,
+  "Rank": 846,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldType": "System.String",
+      "FieldLength": 149
     }
   }
 }

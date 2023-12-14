@@ -84,12 +84,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 741,
-  "Value": "occaecati",
-  "Tooltip": "minus",
-  "Probability": 153,
+  "SaleStageId": 698,
+  "Value": "iusto",
+  "Tooltip": "nisi",
+  "Probability": 297,
   "Deleted": false,
-  "Rank": 155
+  "Rank": 413
 }
 ```
 
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 906,
-  "Value": "minima",
-  "Tooltip": "ullam",
-  "Probability": 927,
+  "SaleStageId": 755,
+  "Value": "reprehenderit",
+  "Tooltip": "rem",
+  "Probability": 317,
   "Deleted": true,
-  "Rank": 860,
+  "Rank": 732,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 110
+      "FieldType": "System.Int32",
+      "FieldLength": 397
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 374,
-    "Name": "Brekke-Weissnat",
-    "ToolTip": "Nihil velit iste quam.",
-    "Deleted": true,
-    "Rank": 63,
-    "Type": "et",
-    "ColorBlock": 872,
-    "IconHint": "quasi",
-    "Selected": true,
-    "LastChanged": "2001-03-28T13:38:18.1087815+02:00",
+    "Id": 537,
+    "Name": "Cassin Group",
+    "ToolTip": "Ut quaerat placeat.",
+    "Deleted": false,
+    "Rank": 449,
+    "Type": "qui",
+    "ColorBlock": 313,
+    "IconHint": "a",
+    "Selected": false,
+    "LastChanged": "2002-01-05T13:57:19.8283923+01:00",
     "ChildItems": [
       {
-        "Id": 235,
-        "Name": "Kshlerin, Leffler and Abshire",
-        "ToolTip": "Iusto quisquam nihil quia aut velit est libero.",
+        "Id": 49,
+        "Name": "Stroman Inc and Sons",
+        "ToolTip": "Et et dolorum ab quae sequi cumque aliquam.",
         "Deleted": false,
-        "Rank": 379,
-        "Type": "non",
-        "ColorBlock": 97,
-        "IconHint": "molestiae",
-        "Selected": true,
-        "LastChanged": "1996-10-02T13:38:18.1087815+02:00",
+        "Rank": 199,
+        "Type": "repellendus",
+        "ColorBlock": 177,
+        "IconHint": "similique",
+        "Selected": false,
+        "LastChanged": "1998-01-27T13:57:19.8283923+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "commodi",
+        "ExtraInfo": "atque",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Breanne Larson",
+        "FullName": "Ms. Kristin Friesen III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 243
+            "FieldLength": 473
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "non",
+    "ExtraInfo": "et",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Aimee Gusikowski",
+    "FullName": "Mrs. Raquel Blanche Von DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldLength": 676
       }
     }
   }

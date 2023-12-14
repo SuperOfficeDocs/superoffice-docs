@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Harber-Hahn",
-  "Comment": "non",
-  "StakeholderRoleId": 854,
-  "CountryId": 512,
-  "PersonId": 17,
-  "EmailDescription": "theron_west@altenwerth.biz",
-  "EmailId": 951,
-  "EmailAddress": "tania.vonrueden@quitzondaugherty.name",
-  "PhoneId": 142,
-  "ContactName": "Macejkovic LLC",
-  "ContactId": 702,
-  "SaleId": 331,
-  "Mrmrs": "dolor",
-  "Firstname": "Emile",
-  "MiddleName": "D'Amore LLC",
-  "Lastname": "Hudson",
-  "SaleStakeholderId": 475,
-  "Rank": 587,
-  "Phone": "910.100.0693"
+  "StakeholderRoleName": "Kuhn-Kautzer",
+  "Comment": "est",
+  "StakeholderRoleId": 922,
+  "CountryId": 622,
+  "PersonId": 714,
+  "EmailDescription": "lyla.jacobson@shanahanpredovic.co.uk",
+  "EmailId": 615,
+  "EmailAddress": "june_gottlieb@kuhnlangworth.com",
+  "PhoneId": 438,
+  "ContactName": "Cartwright-Ondricka",
+  "ContactId": 982,
+  "SaleId": 627,
+  "Mrmrs": "dicta",
+  "Firstname": "Jordi",
+  "MiddleName": "Mertz LLC",
+  "Lastname": "Schulist",
+  "SaleStakeholderId": 99,
+  "Rank": 389,
+  "Phone": "1-780-810-0555"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Shanahan Inc and Sons",
-  "Comment": "qui",
-  "StakeholderRoleId": 180,
-  "CountryId": 633,
-  "PersonId": 417,
-  "EmailDescription": "aidan@huelstokes.us",
-  "EmailId": 641,
-  "EmailAddress": "vella@hagenesschneider.co.uk",
-  "PhoneId": 995,
-  "ContactName": "Crist-Schumm",
-  "ContactId": 727,
-  "SaleId": 559,
-  "Mrmrs": "voluptatem",
-  "Firstname": "Fern",
-  "MiddleName": "Runolfsson, Zulauf and Stokes",
-  "Lastname": "Wiza",
-  "SaleStakeholderId": 701,
-  "Rank": 327,
-  "Phone": "(019)611-1292 x7147",
+  "StakeholderRoleName": "Jacobi LLC",
+  "Comment": "dolore",
+  "StakeholderRoleId": 233,
+  "CountryId": 144,
+  "PersonId": 984,
+  "EmailDescription": "beau@thompsonhammes.biz",
+  "EmailId": 531,
+  "EmailAddress": "dedrick_kunde@okeeferaynor.uk",
+  "PhoneId": 414,
+  "ContactName": "Dickens Inc and Sons",
+  "ContactId": 290,
+  "SaleId": 862,
+  "Mrmrs": "dolor",
+  "Firstname": "Jameson",
+  "MiddleName": "Maggio-Denesik",
+  "Lastname": "Upton",
+  "SaleStakeholderId": 961,
+  "Rank": 233,
+  "Phone": "541.143.8630",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 751
+      "FieldType": "System.Int32",
+      "FieldLength": 373
     }
   },
   "_Links": {

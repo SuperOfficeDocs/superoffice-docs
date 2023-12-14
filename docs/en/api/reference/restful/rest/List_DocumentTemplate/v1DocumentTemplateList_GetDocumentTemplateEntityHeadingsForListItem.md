@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 890,
-    "Name": "Swift Group",
-    "ToolTip": "Laboriosam et.",
+    "Id": 530,
+    "Name": "Buckridge Group",
+    "ToolTip": "Blanditiis doloribus voluptatem provident dolores quas earum et.",
     "Deleted": false,
-    "Rank": 133,
-    "Type": "dolor",
-    "ColorBlock": 624,
-    "IconHint": "unde",
+    "Rank": 281,
+    "Type": "occaecati",
+    "ColorBlock": 936,
+    "IconHint": "corporis",
     "Selected": false,
-    "LastChanged": "1999-05-31T13:38:18.0619133+02:00",
+    "LastChanged": "2013-11-08T13:57:19.7658931+01:00",
     "ChildItems": [
       {
-        "Id": 294,
-        "Name": "Dietrich-Murphy",
-        "ToolTip": "Est sunt deleniti natus.",
+        "Id": 137,
+        "Name": "Johnson, Spencer and Robel",
+        "ToolTip": "Culpa et sed dolorum est necessitatibus doloribus blanditiis.",
         "Deleted": false,
-        "Rank": 639,
-        "Type": "numquam",
-        "ColorBlock": 269,
-        "IconHint": "ea",
+        "Rank": 997,
+        "Type": "ea",
+        "ColorBlock": 275,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2019-09-24T13:38:18.0619133+02:00",
+        "LastChanged": "1999-09-17T13:57:19.7658931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "porro",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Prof. Barry Lowe Sr.",
+        "FullName": "Mr. Darlene Kiehn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 71
+            "FieldLength": 710
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "ab",
-    "Hidden": false,
-    "FullName": "Kylie Dach",
+    "ExtraInfo": "expedita",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Seth Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 502
+        "FieldLength": 487
       }
     }
   }

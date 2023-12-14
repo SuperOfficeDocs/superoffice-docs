@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 51,
-    "ERPName": "Hyatt-Hessel",
-    "DisplayName": "Kshlerin LLC",
-    "DisplayDescription": "Cross-platform homogeneous frame",
-    "Rank": 16,
-    "ConnectorName": "Nader, Jaskolski and Grant",
-    "ErpConnectionId": 893,
-    "ExtraData": "eligendi",
+    "QuoteConnectionId": 202,
+    "ERPName": "Reynolds-Hickle",
+    "DisplayName": "Hirthe, Dare and Breitenberg",
+    "DisplayDescription": "Switchable multimedia contingency",
+    "Rank": 922,
+    "ConnectorName": "King Inc and Sons",
+    "ErpConnectionId": 783,
+    "ExtraData": "labore",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 468,
-        "ERPPriceListKey": "cum",
-        "QuoteConnectionId": 9,
-        "Name": "Flatley Group",
-        "Description": "Secured user-facing encoding",
-        "Currency": "quas",
-        "CurrencyName": "Botsford Inc and Sons",
-        "ValidFrom": "2008-03-10T13:38:14.0303322+01:00",
-        "ValidTo": "2015-02-27T13:38:14.0303322+01:00",
+        "PriceListId": 363,
+        "ERPPriceListKey": "fuga",
+        "QuoteConnectionId": 562,
+        "Name": "Herman-Rice",
+        "Description": "Automated zero defect portal",
+        "Currency": "maiores",
+        "CurrencyName": "Herman-Hyatt",
+        "ValidFrom": "2007-12-30T13:57:13.064942+01:00",
+        "ValidTo": "2022-01-13T13:57:13.064942+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 87
+            "FieldLength": 135
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      808,
-      101
+      31,
+      605
     ],
     "AssociateAccessIds": [
-      475,
-      496
+      710,
+      388
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 606
       }
     }
   }

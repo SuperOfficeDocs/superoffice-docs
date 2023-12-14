@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 01 Jul 2023 13:38:17 G7T
+Last-Modified: Thu, 23 Sep 2010 13:57:19 G9T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Sat, 01 Jul 2023 13:38:17 G7T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "velit",
+  "SaleText": "hic",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Sat, 01 Jul 2023 13:38:17 G7T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2022-07-29T13:38:17.608684+02:00",
-  "Amount": 5989.074,
-  "SaleId": 153,
-  "Earning": 24310.438,
-  "EarningPercent": 26971.203999999998,
-  "Heading": "quisquam",
-  "Number": "830818",
-  "Probability": 366,
-  "CreatedDate": "2022-10-01T13:38:17.608684+02:00",
-  "UpdatedDate": "2023-07-01T13:38:17.608684+02:00",
+  "Saledate": "2009-08-18T13:57:19.1871497+02:00",
+  "Amount": 22420.636,
+  "SaleId": 293,
+  "Earning": 20458.752,
+  "EarningPercent": 25488.822,
+  "Heading": "consectetur",
+  "Number": "1234965",
+  "Probability": 465,
+  "CreatedDate": "2022-04-27T13:57:19.1871497+02:00",
+  "UpdatedDate": "2010-09-23T13:57:19.1871497+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 516,
+  "ActiveLinks": 291,
   "Links": [
     {
-      "EntityName": "Pollich, Goyette and Senger",
-      "Id": 344,
-      "Description": "Horizontal foreground open system",
-      "ExtraInfo": "sed",
-      "LinkId": 187,
+      "EntityName": "Hudson Group",
+      "Id": 863,
+      "Description": "Secured homogeneous projection",
+      "ExtraInfo": "inventore",
+      "LinkId": 149,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 390
+          "FieldLength": 591
         }
       }
     }
   ],
-  "NextDueDate": "2008-02-12T13:38:17.608684+01:00",
-  "Postit": "occaecati",
+  "NextDueDate": "2001-05-28T13:57:19.1871497+02:00",
+  "Postit": "qui",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1997-09-06T13:38:17.608684+02:00",
+  "ReopenDate": "2007-08-29T13:57:19.1871497+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Stark-Goldner",
-      "Comment": "dolores",
-      "StakeholderRoleId": 678,
-      "CountryId": 300,
-      "PersonId": 39,
-      "EmailDescription": "milan_bechtelar@hammes.co.uk",
-      "EmailId": 39,
-      "EmailAddress": "arlo.larkin@white.name",
-      "PhoneId": 933,
-      "ContactName": "Blick Group",
-      "ContactId": 15,
-      "SaleId": 796,
-      "Mrmrs": "dicta",
-      "Firstname": "Santino",
-      "MiddleName": "Kohler-Schultz",
-      "Lastname": "Jewess",
-      "SaleStakeholderId": 943,
-      "Rank": 417,
-      "Phone": "(623)680-2188",
+      "StakeholderRoleName": "Sauer, Watsica and Stiedemann",
+      "Comment": "magnam",
+      "StakeholderRoleId": 201,
+      "CountryId": 147,
+      "PersonId": 426,
+      "EmailDescription": "marshall_gleason@spinka.uk",
+      "EmailId": 165,
+      "EmailAddress": "herta_mayer@bradtke.name",
+      "PhoneId": 256,
+      "ContactName": "Kohler Group",
+      "ContactId": 76,
+      "SaleId": 499,
+      "Mrmrs": "soluta",
+      "Firstname": "Ubaldo",
+      "MiddleName": "Rau Group",
+      "Lastname": "Kreiger",
+      "SaleStakeholderId": 653,
+      "Rank": 95,
+      "Phone": "037.699.4591 x2705",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 843
+          "FieldLength": 966
         }
       }
     }
   ],
-  "ActiveErpLinks": 536,
+  "ActiveErpLinks": 572,
   "UserDefinedFields": {
-    "SuperOffice:1": "Marcelina Hamill",
-    "SuperOffice:2": "Pearlie Zulauf"
+    "SuperOffice:1": "Paxton Waelchi",
+    "SuperOffice:2": "Emilia Swaniawski"
   },
   "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "soluta"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "alias",
-    "CustomFields2": "eveniet"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "2015-04-20T13:38:17.608684+02:00",
-  "PublishTo": "2013-10-01T13:38:17.608684+02:00",
-  "PublishFrom": "2005-12-09T13:38:17.608684+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-06-04T13:57:19.1871497+02:00",
+  "PublishTo": "2017-05-12T13:57:19.1871497+02:00",
+  "PublishFrom": "2006-05-13T13:57:19.1871497+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 783,
+      "VisibleId": 438,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 99
+          "FieldType": "System.Int32",
+          "FieldLength": 734
         }
       }
     },
     {
-      "VisibleId": 783,
+      "VisibleId": 438,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 99
+          "FieldType": "System.Int32",
+          "FieldLength": 734
         }
       }
     }
@@ -261,12 +261,12 @@ Last-Modified: Sat, 01 Jul 2023 13:38:17 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 230
+      "FieldLength": 457
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

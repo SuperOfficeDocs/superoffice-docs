@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 999,
-  "Name": "Bergnaum Inc and Sons",
-  "Tooltip": "commodi",
+  "Id": 982,
+  "Name": "Jast-O'Hara",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 288,
-  "Rank": 225,
+  "UdListDefinitionId": 44,
+  "Rank": 222,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 86
+      "FieldType": "System.Int32",
+      "FieldLength": 107
     }
   }
 }

@@ -54,6 +54,9 @@ OK
 | CreatedDate | date-time | Registered date  in UTC. |
 | AppointmentId | int32 | Primary key |
 | Description | string | Description of the appointment. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
@@ -95,9 +98,6 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
-| Title | string | The title of the appointment. |
-| Agenda | string | The agenda of the appointment. |
-| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 19 Jul 2021 13:38:17 G7T
+Last-Modified: Sat, 15 Nov 2003 13:57:18 G11T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2015-09-19T13:38:17.0306178+02:00",
-  "AppointmentId": 304,
-  "Description": "Balanced heuristic productivity",
-  "StartDate": "2009-03-28T13:38:17.0306178+01:00",
-  "EndDate": "2008-08-07T13:38:17.0306178+02:00",
+  "CreatedDate": "2018-09-27T13:57:18.3096854+02:00",
+  "AppointmentId": 62,
+  "Description": "Decentralized solution-oriented hardware",
+  "Title": "ipsam",
+  "Agenda": "unde",
+  "InternalNotes": "ut",
+  "StartDate": "1997-04-27T13:57:18.3096854+02:00",
+  "EndDate": "2004-01-20T13:57:18.3096854+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 978,
+  "MotherId": 17,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-07-19T13:38:17.0306178+02:00",
+  "UpdatedDate": "2003-11-15T13:57:18.3096854+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 291,
+  "ActiveLinks": 729,
   "Links": [
     {
-      "EntityName": "Renner-Hoppe",
-      "Id": 988,
-      "Description": "Stand-alone scalable parallelism",
-      "ExtraInfo": "laboriosam",
-      "LinkId": 436,
+      "EntityName": "Heathcote Inc and Sons",
+      "Id": 753,
+      "Description": "Integrated holistic capability",
+      "ExtraInfo": "reprehenderit",
+      "LinkId": 811,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 481
+          "FieldType": "System.Int32",
+          "FieldLength": 522
         }
       }
     }
   ],
-  "AlarmLeadTime": "expedita",
-  "HasAlarm": false,
-  "ColorIndex": 178,
-  "IsFree": false,
+  "AlarmLeadTime": "ipsam",
+  "HasAlarm": true,
+  "ColorIndex": 107,
+  "IsFree": true,
   "IsAlldayEvent": true,
-  "LagTime": "ex",
-  "LeadTime": "impedit",
-  "Location": "sequi",
-  "RejectCounter": 356,
-  "RejectReason": "drive distributed e-commerce",
+  "LagTime": "est",
+  "LeadTime": "doloremque",
+  "Location": "tenetur",
+  "RejectCounter": 525,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 14,
-      "PersonId": 105,
-      "ContactId": 211,
-      "EmailId": 11,
+      "AssociateId": 685,
+      "PersonId": 496,
+      "ContactId": 76,
+      "EmailId": 570,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "nestor@kub.co.uk",
-      "Description": "Up-sized bottom-line success"
+      "EmailAddress": "kaylin.howe@turner.biz",
+      "Description": "Centralized executive synergy"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-08-06T13:38:17.0306178+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2014-03-29T13:57:18.3096854+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 309,
+  "PreferredTZLocation": 69,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 680,
+  "SuggestedAppointmentId": 361,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "distinctio",
-  "Title": "ullam",
-  "Agenda": "natus",
-  "InternalNotes": "ut",
+  "CentralserviceVideomeetId": "voluptatum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Orville Rosalee Kozey III",
-    "SuperOffice:2": "Sandrine Frami"
+    "SuperOffice:1": "Princess Kuhic",
+    "SuperOffice:2": "1097583609"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "et",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "blanditiis"
+    "CustomFields1": "quam",
+    "CustomFields2": "hic"
   },
-  "PublishEventDate": "1999-09-22T13:38:17.0306178+02:00",
-  "PublishTo": "2002-03-20T13:38:17.0306178+01:00",
-  "PublishFrom": "1998-05-14T13:38:17.0306178+02:00",
+  "PublishEventDate": "2019-10-23T13:57:18.3096854+02:00",
+  "PublishTo": "2001-10-16T13:57:18.3096854+02:00",
+  "PublishFrom": "2018-12-08T13:57:18.3096854+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 168,
+      "VisibleId": 625,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldType": "System.String",
+          "FieldLength": 622
         }
       }
     },
     {
-      "VisibleId": 168,
+      "VisibleId": 625,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldType": "System.String",
+          "FieldLength": 622
         }
       }
     }
@@ -252,8 +252,8 @@ Last-Modified: Mon, 19 Jul 2021 13:38:17 G7T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldType": "System.String",
+      "FieldLength": 64
     }
   }
 }

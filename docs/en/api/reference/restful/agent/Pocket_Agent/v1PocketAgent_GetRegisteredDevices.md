@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 858
+  "AssociateId": 126
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Schulist Inc and Sons",
-    "DeviceIdentifier": "voluptates",
-    "PocketVersion": "laudantium",
-    "Language": "a",
-    "PNSHandle": "odit",
+    "DeviceName": "Simonis, Harber and Von",
+    "DeviceIdentifier": "sed",
+    "PocketVersion": "modi",
+    "Language": "beatae",
+    "PNSHandle": "vitae",
     "Platform": "Apple",
-    "OSVersion": "consequatur",
-    "TimeZoneId": 16
+    "OSVersion": "ipsum",
+    "TimeZoneId": 990
   }
 ]
 ```

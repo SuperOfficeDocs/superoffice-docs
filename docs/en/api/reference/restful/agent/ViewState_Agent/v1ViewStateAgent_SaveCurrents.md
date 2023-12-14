@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 472,
-      "Id": 616,
-      "HistoryName": "Nicolas LLC",
-      "HistoryId": 268,
-      "AssociateId": 11,
-      "Name": "Bradtke LLC",
-      "ItemInfo": "dolores"
+      "Rank": 692,
+      "Id": 260,
+      "HistoryName": "Schulist-Wintheiser",
+      "HistoryId": 610,
+      "AssociateId": 295,
+      "Name": "Schoen Inc and Sons",
+      "ItemInfo": "corporis"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 787,
-    "Id": 302,
-    "HistoryName": "Paucek LLC",
-    "HistoryId": 800,
-    "AssociateId": 489,
-    "Name": "Kutch Inc and Sons",
+    "Rank": 465,
+    "Id": 757,
+    "HistoryName": "Simonis-Hansen",
+    "HistoryId": 84,
+    "AssociateId": 351,
+    "Name": "Frami, Rohan and Gottlieb",
     "ItemInfo": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 988
+        "FieldLength": 572
       }
     }
   }

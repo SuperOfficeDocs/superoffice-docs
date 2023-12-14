@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByContactOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Becker Inc and Sons",
-  "ContactId": 146
+  "TableName": "VonRueden-Rempel",
+  "ContactId": 576
 }
 ```
 

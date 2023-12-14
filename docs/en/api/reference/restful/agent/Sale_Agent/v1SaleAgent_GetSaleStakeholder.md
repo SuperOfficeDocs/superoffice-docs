@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=591
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=66
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Marquardt Group",
-  "Comment": "a",
-  "StakeholderRoleId": 253,
-  "CountryId": 949,
-  "PersonId": 885,
-  "EmailDescription": "hellen.gerhold@gislasonbreitenberg.info",
-  "EmailId": 379,
-  "EmailAddress": "heloise.gaylord@harvey.uk",
-  "PhoneId": 505,
-  "ContactName": "Robel-Jacobson",
-  "ContactId": 944,
-  "SaleId": 775,
-  "Mrmrs": "eum",
-  "Firstname": "Adriel",
-  "MiddleName": "Larson-Welch",
-  "Lastname": "Steuber",
-  "SaleStakeholderId": 645,
-  "Rank": 205,
-  "Phone": "(318)875-4103 x234",
+  "StakeholderRoleName": "Jakubowski, Johns and Kilback",
+  "Comment": "dolore",
+  "StakeholderRoleId": 858,
+  "CountryId": 315,
+  "PersonId": 111,
+  "EmailDescription": "aglae@reillymcclure.name",
+  "EmailId": 126,
+  "EmailAddress": "arvilla@torphy.com",
+  "PhoneId": 533,
+  "ContactName": "Smith LLC",
+  "ContactId": 342,
+  "SaleId": 429,
+  "Mrmrs": "placeat",
+  "Firstname": "Alf",
+  "MiddleName": "Hammes LLC",
+  "Lastname": "Schowalter",
+  "SaleStakeholderId": 252,
+  "Rank": 215,
+  "Phone": "1-713-859-9789 x396",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 191
+      "FieldType": "System.Int32",
+      "FieldLength": 745
     }
   }
 }

@@ -126,18 +126,18 @@ DashTileDefinition  updated.
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "autem",
+    "path": "animi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "autem",
+    "path": "animi",
     "value": {}
   }
 ]
@@ -150,36 +150,36 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 197,
-  "Name": "Gleason, Ferry and Lindgren",
-  "Description": "Team-oriented value-added encryption",
-  "DefaultHeight": 755,
-  "DefaultWidth": 826,
+  "DashboardTileDefinitionId": 377,
+  "Name": "Swaniawski-Kuvalis",
+  "Description": "Multi-tiered empowering throughput",
+  "DefaultHeight": 550,
+  "DefaultWidth": 88,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Mante Group",
-  "SelectionId": 693,
+  "EntityName": "Lehner, Kovacek and Prosacco",
+  "SelectionId": 618,
   "CurrencyMode": "Base",
-  "CurrencyCode": "repellendus",
+  "CurrencyCode": "quidem",
   "Measure": "Average",
-  "MeasureField": "ad",
-  "SortBy": "magni",
-  "LayoutConfig": "iusto",
-  "SecondarySelectionId": 655,
-  "MeasureByField": "eos",
+  "MeasureField": "minus",
+  "SortBy": "dolor",
+  "LayoutConfig": "eveniet",
+  "SecondarySelectionId": 602,
+  "MeasureByField": "sit",
   "Usage": "Dashboard",
-  "ProviderName": "Kuvalis-Smitham",
+  "ProviderName": "Smitham Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 149
+      "FieldType": "System.Int32",
+      "FieldLength": 65
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

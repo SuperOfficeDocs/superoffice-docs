@@ -79,21 +79,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 846,
-  "Name": "Macejkovic, Dickinson and Leuschke",
-  "CreatedDate": "2022-06-11T13:38:17.4524494+02:00",
-  "UpdatedDate": "2019-09-05T13:38:17.4524494+02:00",
-  "AssociateFullName": "Friedrich Kessler",
-  "CreatedBy": "perferendis",
-  "UpdatedBy": "deleniti",
-  "DeviceIdentifier": "laborum",
-  "ForeignAppId": 559,
+  "ForeignDeviceId": 142,
+  "Name": "Grimes Inc and Sons",
+  "CreatedDate": "2020-03-07T13:57:18.8109737+01:00",
+  "UpdatedDate": "2018-02-17T13:57:18.8109737+01:00",
+  "AssociateFullName": "Fanny Hyatt",
+  "CreatedBy": "maxime",
+  "UpdatedBy": "omnis",
+  "DeviceIdentifier": "blanditiis",
+  "ForeignAppId": 103,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldLength": 795
     }
   }
 }

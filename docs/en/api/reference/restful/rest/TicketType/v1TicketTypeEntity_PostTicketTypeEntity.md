@@ -98,26 +98,26 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 345,
-  "Name": "Ebert-Windler",
-  "Rank": 289,
-  "Tooltip": "molestias",
-  "Icon": "sequi",
-  "DefaultTicketStatus": 760,
+  "TicketTypeId": 170,
+  "Name": "Leannon LLC",
+  "Rank": 579,
+  "Tooltip": "est",
+  "Icon": "ratione",
+  "DefaultTicketStatus": 702,
   "TicketStatuses": [
-    473,
-    416
+    554,
+    690
   ],
-  "DefaultTicketPriority": 291,
+  "DefaultTicketPriority": 355,
   "TicketPriorities": [
-    523,
-    472
+    155,
+    529
   ],
-  "ReplyTemplate": 526,
+  "ReplyTemplate": 146,
   "IsExternalVisible": false,
   "IsDefault": false
 }
@@ -130,30 +130,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 644,
-  "Name": "Breitenberg, Powlowski and Williamson",
-  "Rank": 795,
-  "Tooltip": "neque",
-  "Icon": "non",
-  "DefaultTicketStatus": 457,
+  "TicketTypeId": 990,
+  "Name": "Zemlak, Carroll and Reichert",
+  "Rank": 605,
+  "Tooltip": "necessitatibus",
+  "Icon": "fugiat",
+  "DefaultTicketStatus": 679,
   "TicketStatuses": [
-    330,
-    566
+    744,
+    846
   ],
-  "DefaultTicketPriority": 803,
+  "DefaultTicketPriority": 481,
   "TicketPriorities": [
-    224,
-    879
+    836,
+    102
   ],
-  "ReplyTemplate": 277,
+  "ReplyTemplate": 77,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 298
+      "FieldType": "System.Int32",
+      "FieldLength": 186
     }
   },
   "_Links": {

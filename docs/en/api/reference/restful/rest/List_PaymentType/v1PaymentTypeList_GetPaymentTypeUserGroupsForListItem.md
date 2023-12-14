@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Nicolas, Parker and Dickens",
-    "ToolTip": "Beatae dolores mollitia.",
-    "Deleted": false,
-    "Rank": 352,
-    "Type": "reprehenderit",
-    "ColorBlock": 904,
-    "IconHint": "hic",
-    "Selected": true,
-    "LastChanged": "2016-11-21T13:38:18.0931573+01:00",
+    "Id": 162,
+    "Name": "Hyatt Group",
+    "ToolTip": "Consequuntur enim esse.",
+    "Deleted": true,
+    "Rank": 683,
+    "Type": "dolorem",
+    "ColorBlock": 964,
+    "IconHint": "nihil",
+    "Selected": false,
+    "LastChanged": "2002-09-11T13:57:19.8127681+02:00",
     "ChildItems": [
       {
-        "Id": 81,
-        "Name": "Schmitt Inc and Sons",
-        "ToolTip": "Sit facilis.",
+        "Id": 912,
+        "Name": "Corwin, McCullough and Deckow",
+        "ToolTip": "Est dolore eaque in aut commodi omnis quae.",
         "Deleted": false,
-        "Rank": 302,
-        "Type": "adipisci",
-        "ColorBlock": 328,
-        "IconHint": "facere",
-        "Selected": false,
-        "LastChanged": "2014-02-13T13:38:18.0931573+01:00",
+        "Rank": 324,
+        "Type": "enim",
+        "ColorBlock": 313,
+        "IconHint": "reprehenderit",
+        "Selected": true,
+        "LastChanged": "2004-08-30T13:57:19.8127681+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "modi",
+        "ExtraInfo": "tempora",
+        "StyleHint": "perferendis",
         "Hidden": false,
-        "FullName": "Megane Graham II",
+        "FullName": "Henri Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 917
+            "FieldLength": 768
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "et",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Watson Prohaska",
+    "FullName": "Oren Arch Stamm I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldType": "System.String",
+        "FieldLength": 917
       }
     }
   }

@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptates",
+    "path": "ea",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptates",
+    "path": "ea",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 893,
-  "Name": "Wilkinson Group",
+  "WebhookId": 901,
+  "Name": "Bogan Group",
   "Events": [
-    "modi",
-    "magni"
+    "et",
+    "deleniti"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "est",
+  "Secret": "odio",
   "State": "Active",
-  "Type": "sed",
+  "Type": "vitae",
   "Headers": {
-    "Headers1": "accusamus",
-    "Headers2": "commodi"
+    "Headers1": "et",
+    "Headers2": "iste"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2008-02-02T13:38:17.8744364+01:00",
+  "Registered": "2014-10-29T13:57:19.5940221+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2007-11-05T13:38:17.8744364+01:00",
+  "Updated": "1999-05-07T13:57:19.5940221+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "eliza@ledner.us",
+  "ErrorsEmail": "javier@deckow.co.uk",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

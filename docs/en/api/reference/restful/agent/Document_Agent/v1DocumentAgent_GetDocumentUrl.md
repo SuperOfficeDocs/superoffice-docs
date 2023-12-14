@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 39,
-  "VersionId": "est",
-  "WriteableUrl": true
+  "DocumentId": 810,
+  "VersionId": "expedita",
+  "WriteableUrl": false
 }
 ```
 

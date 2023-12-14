@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "West Group"
+  "Name": "Cruickshank-Connelly"
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 913,
-    "Name": "Vandervort Group",
-    "Tooltip": "totam",
+    "HeadingId": 335,
+    "Name": "Wilderman-Gerhold",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 687,
-    "UdListDefinitionId": 930,
+    "Rank": 306,
+    "UdListDefinitionId": 789,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldType": "System.String",
+        "FieldLength": 519
       }
     }
   }

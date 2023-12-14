@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wisozk Inc and Sons",
-  "ProviderName": "Quigley-Murphy",
-  "Context": "rerum",
-  "OwnerKeys": "sed",
+  "GuiName": "Bergstrom-Nolan",
+  "ProviderName": "Morar-Williamson",
+  "Context": "tempore",
+  "OwnerKeys": "aut",
   "ChosenColumns": [
-    "eum",
-    "nemo"
+    "similique",
+    "ex"
   ]
 }
 ```

@@ -101,27 +101,27 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 994,
-  "Name": "Glover-Friesen",
-  "Rank": 111,
-  "Tooltip": "consequatur",
-  "Icon": "quia",
-  "DefaultTicketStatus": 610,
+  "TicketTypeId": 709,
+  "Name": "Padberg-Eichmann",
+  "Rank": 302,
+  "Tooltip": "ut",
+  "Icon": "aperiam",
+  "DefaultTicketStatus": 657,
   "TicketStatuses": [
-    899,
-    477
+    1001,
+    604
   ],
-  "DefaultTicketPriority": 345,
+  "DefaultTicketPriority": 95,
   "TicketPriorities": [
-    256,
-    79
+    219,
+    222
   ],
-  "ReplyTemplate": 384,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 160,
+  "IsExternalVisible": true,
   "IsDefault": false
 }
 ```
@@ -133,22 +133,22 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 13,
-  "Name": "Wolf, Swaniawski and Hammes",
-  "Rank": 761,
-  "Tooltip": "nihil",
-  "Icon": "et",
-  "DefaultTicketStatus": 179,
+  "TicketTypeId": 196,
+  "Name": "Kuhic, Jenkins and Volkman",
+  "Rank": 304,
+  "Tooltip": "eum",
+  "Icon": "eius",
+  "DefaultTicketStatus": 298,
   "TicketStatuses": [
-    153,
-    202
+    299,
+    392
   ],
-  "DefaultTicketPriority": 656,
+  "DefaultTicketPriority": 871,
   "TicketPriorities": [
-    545,
-    912
+    151,
+    140
   ],
-  "ReplyTemplate": 289,
+  "ReplyTemplate": 544,
   "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 104
+      "FieldLength": 407
     }
   },
   "_Links": {

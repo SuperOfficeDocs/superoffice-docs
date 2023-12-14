@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 344,
-  "Created": "2003-03-15T13:38:14.045953+01:00",
+  "SatelliteId": 430,
+  "Created": "2012-06-23T13:57:13.0961896+02:00",
   "CreatedBy": null,
-  "Updated": "2011-08-31T13:38:14.045953+02:00",
+  "Updated": "2003-02-05T13:57:13.0961896+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "McClure, Walsh and Schroeder",
-      "Description": "Enhanced optimizing adapter",
+      "Name": "Lockman LLC",
+      "Description": "Assimilated systematic initiative",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldLength": 840
         }
       }
     },
     {
-      "Name": "McClure, Walsh and Schroeder",
-      "Description": "Enhanced optimizing adapter",
+      "Name": "Lockman LLC",
+      "Description": "Assimilated systematic initiative",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldLength": 840
         }
       }
     }
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldType": "System.Int32",
+      "FieldLength": 746
     }
   }
 }

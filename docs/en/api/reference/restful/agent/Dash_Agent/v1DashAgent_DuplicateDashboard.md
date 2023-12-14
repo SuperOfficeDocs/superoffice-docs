@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 168,
-  "Name": "Wehner-Cummerata"
+  "DashboardId": 560,
+  "Name": "Kassulke Group"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 630,
-  "UniqueId": "asperiores",
-  "Name": "Mayer, Bauch and Feil",
-  "Description": "Diverse solution-oriented intranet",
-  "AssociateId": 923,
-  "Columns": 819,
+  "DashboardId": 24,
+  "UniqueId": "tempora",
+  "Name": "Little, Cassin and Borer",
+  "Description": "Future-proofed object-oriented core",
+  "AssociateId": 629,
+  "Columns": 594,
   "Theme": null,
-  "VisibleForAll": 590,
+  "VisibleForAll": 800,
   "VisibleForAssociates": [
-    309,
-    703
+    86,
+    207
   ],
   "VisibleForGroups": [
-    164,
-    739
+    208,
+    819
   ],
-  "PinForAll": 897,
+  "PinForAll": 958,
   "PinForAssociates": [
-    496,
-    20
+    1000,
+    500
   ],
   "PinForGroups": [
-    844,
-    219
+    150,
+    999
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 787
+      "FieldType": "System.Int32",
+      "FieldLength": 464
     }
   }
 }

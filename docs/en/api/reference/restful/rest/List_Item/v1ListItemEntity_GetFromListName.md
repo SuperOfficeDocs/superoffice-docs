@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 728,
-  "Name": "Gibson LLC",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 922,
-  "Rank": 28,
+  "Id": 897,
+  "Name": "Kutch Inc and Sons",
+  "Tooltip": "optio",
+  "Deleted": false,
+  "UdListDefinitionId": 882,
+  "Rank": 422,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 774
+      "FieldLength": 288
     }
   }
 }

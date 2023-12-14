@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 467,
-    "Name": "Smith-Hane",
-    "ToolTip": "Nihil repellat necessitatibus et.",
+    "Id": 631,
+    "Name": "Simonis Inc and Sons",
+    "ToolTip": "Est quidem quia quibusdam qui nobis aut.",
     "Deleted": false,
-    "Rank": 248,
-    "Type": "nisi",
-    "ColorBlock": 909,
-    "IconHint": "placeat",
+    "Rank": 455,
+    "Type": "eum",
+    "ColorBlock": 152,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2021-03-09T13:38:18.0306692+01:00",
+    "LastChanged": "2006-06-03T13:57:19.7033929+02:00",
     "ChildItems": [
       {
-        "Id": 10,
-        "Name": "Witting-Bosco",
-        "ToolTip": "Repellat sit est nam maxime.",
+        "Id": 956,
+        "Name": "Rippin-Becker",
+        "ToolTip": "Soluta voluptatem velit eligendi repellendus id.",
         "Deleted": false,
-        "Rank": 434,
-        "Type": "ducimus",
-        "ColorBlock": 971,
-        "IconHint": "vitae",
-        "Selected": true,
-        "LastChanged": "2006-05-04T13:38:18.0306692+02:00",
+        "Rank": 322,
+        "Type": "non",
+        "ColorBlock": 925,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2021-09-04T13:57:19.719018+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "repudiandae",
-        "Hidden": true,
-        "FullName": "Mr. Lafayette Damien Gorczany Jr.",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Chaz Amalia Kilback MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 346
+            "FieldLength": 65
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "numquam",
-    "Hidden": true,
-    "FullName": "Garett Kristoffer Boyer I",
+    "ExtraInfo": "id",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Katherine Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 995
+        "FieldLength": 707
       }
     }
   }

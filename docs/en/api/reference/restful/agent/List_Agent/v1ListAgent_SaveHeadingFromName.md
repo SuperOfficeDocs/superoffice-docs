@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Okuneva LLC",
+  "Name": "Swaniawski, Stracke and Kuvalis",
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 673,
-  "Name": "Welch, Conroy and Erdman",
-  "Tooltip": "rem",
+  "HeadingId": 354,
+  "Name": "Braun, Greenholt and Swift",
+  "Tooltip": "mollitia",
   "Deleted": false,
-  "Rank": 475,
-  "UdListDefinitionId": 864,
+  "Rank": 718,
+  "UdListDefinitionId": 167,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   }
 }

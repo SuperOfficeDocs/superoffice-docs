@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Chat/AddChatMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 403,
+  "ChatSessionId": 708,
   "Message": null
 }
 ```
@@ -96,14 +96,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 434,
-  "ChatSessionId": 717,
+  "ChatMessageId": 370,
+  "ChatSessionId": 231,
   "Type": "Invalid",
-  "Message": "occaecati",
-  "Author": "sint",
-  "ReadByCustomer": 847,
+  "Message": "tempore",
+  "Author": "esse",
+  "ReadByCustomer": 665,
   "SpecialType": "Block",
-  "SpecialParam": "est",
-  "WhenPosted": "2001-12-07T13:38:13.2490288+01:00"
+  "SpecialParam": "consequatur",
+  "WhenPosted": "2006-06-08T13:57:11.7923994+02:00"
 }
 ```

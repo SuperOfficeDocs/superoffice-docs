@@ -94,19 +94,19 @@ OK
 POST /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 237,
+  "SystemEventId": 819,
   "Scope": "Database",
-  "Eta": "2009-06-27T13:38:17.6711737+02:00",
-  "Eventkey": "sit",
-  "Eventmess": "porro",
-  "ExtraInfo": 713,
-  "Owner": 667,
-  "UpdatedCount": 17,
-  "Registered": "2023-06-25T13:38:17.6711737+02:00",
+  "Eta": "2013-08-07T13:57:19.2815227+02:00",
+  "Eventkey": "deleniti",
+  "Eventmess": "eos",
+  "ExtraInfo": 614,
+  "Owner": 587,
+  "UpdatedCount": 903,
+  "Registered": "2012-10-25T13:57:19.2815227+02:00",
   "ActivatedBy": null
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 450,
+  "SystemEventId": 146,
   "Scope": "Database",
-  "Eta": "2014-03-28T13:38:17.6711737+01:00",
-  "Eventkey": "itaque",
-  "Eventmess": "aliquid",
-  "ExtraInfo": 514,
-  "Owner": 844,
-  "UpdatedCount": 404,
-  "Registered": "2021-02-01T13:38:17.6711737+01:00",
+  "Eta": "2004-04-06T13:57:19.2815227+02:00",
+  "Eventkey": "eaque",
+  "Eventmess": "amet",
+  "ExtraInfo": 574,
+  "Owner": 14,
+  "UpdatedCount": 722,
+  "Registered": "2023-05-18T13:57:19.2815227+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldType": "System.String",
+      "FieldLength": 286
     }
   },
   "_Links": {

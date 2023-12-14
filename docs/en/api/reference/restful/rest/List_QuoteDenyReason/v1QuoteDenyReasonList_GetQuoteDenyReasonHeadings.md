@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 320,
-    "Name": "Gorczany-Mueller",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "Rank": 312,
-    "UdListDefinitionId": 114,
+    "HeadingId": 60,
+    "Name": "Lindgren Group",
+    "Tooltip": "adipisci",
+    "Deleted": true,
+    "Rank": 60,
+    "UdListDefinitionId": 24,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 128
+        "FieldType": "System.Int32",
+        "FieldLength": 644
       }
     }
   }

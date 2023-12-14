@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 914,
-    "Name": "Weissnat LLC",
-    "Tooltip": "amet",
-    "Deleted": true,
-    "Rank": 414,
-    "UdListDefinitionId": 915
+    "HeadingId": 293,
+    "Name": "Hettinger-Hilll",
+    "Tooltip": "officiis",
+    "Deleted": false,
+    "Rank": 701,
+    "UdListDefinitionId": 147
   },
   {
-    "HeadingId": 914,
-    "Name": "Weissnat LLC",
-    "Tooltip": "amet",
-    "Deleted": true,
-    "Rank": 414,
-    "UdListDefinitionId": 915
+    "HeadingId": 293,
+    "Name": "Hettinger-Hilll",
+    "Tooltip": "officiis",
+    "Deleted": false,
+    "Rank": 701,
+    "UdListDefinitionId": 147
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 460,
-    "Name": "Schmidt-Gusikowski",
-    "Tooltip": "eius",
-    "Deleted": false,
-    "Rank": 243,
-    "UdListDefinitionId": 513,
+    "HeadingId": 643,
+    "Name": "Reichel Inc and Sons",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "Rank": 799,
+    "UdListDefinitionId": 474,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 47
+        "FieldType": "System.Int32",
+        "FieldLength": 628
       }
     }
   }

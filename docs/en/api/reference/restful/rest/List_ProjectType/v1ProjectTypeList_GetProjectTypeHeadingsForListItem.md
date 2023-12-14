@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 136,
-    "Name": "Weissnat-Mitchell",
-    "ToolTip": "Consequuntur ut ab ullam.",
-    "Deleted": true,
-    "Rank": 335,
-    "Type": "maxime",
-    "ColorBlock": 741,
-    "IconHint": "nihil",
-    "Selected": true,
-    "LastChanged": "2017-01-27T13:38:18.1712741+01:00",
+    "Id": 237,
+    "Name": "Toy LLC",
+    "ToolTip": "Repudiandae ut exercitationem voluptatem.",
+    "Deleted": false,
+    "Rank": 455,
+    "Type": "ipsam",
+    "ColorBlock": 761,
+    "IconHint": "dicta",
+    "Selected": false,
+    "LastChanged": "1997-02-24T13:57:19.9221765+01:00",
     "ChildItems": [
       {
-        "Id": 585,
-        "Name": "Nikolaus, Ryan and Carroll",
-        "ToolTip": "Suscipit accusamus ratione iusto exercitationem dolorem natus.",
-        "Deleted": true,
-        "Rank": 108,
-        "Type": "debitis",
-        "ColorBlock": 124,
-        "IconHint": "labore",
-        "Selected": true,
-        "LastChanged": "1996-10-03T13:38:18.1712741+02:00",
+        "Id": 103,
+        "Name": "Pollich Inc and Sons",
+        "ToolTip": "Repellat consectetur voluptatum.",
+        "Deleted": false,
+        "Rank": 841,
+        "Type": "tenetur",
+        "ColorBlock": 207,
+        "IconHint": "provident",
+        "Selected": false,
+        "LastChanged": "2006-01-16T13:57:19.9221765+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "qui",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Miss Schuyler Maggie Weimann",
+        "FullName": "Helena Glover",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 210
+            "FieldLength": 79
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "soluta",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Estevan Waters",
+    "FullName": "Nelda Brekke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldLength": 588
       }
     }
   }

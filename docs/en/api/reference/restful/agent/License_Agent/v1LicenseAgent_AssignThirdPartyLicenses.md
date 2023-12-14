@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 702,
-  "ModuleOwner": "corrupti",
+  "AssociateId": 592,
+  "ModuleOwner": "eos",
   "ModuleLicenseNames": [
-    "Mayert, Thompson and Heaney",
-    "Simonis Group"
+    "Shields, Lemke and Senger",
+    "Hartmann Inc and Sons"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 162,
-    "Tooltip": "esse",
+    "Unrestricted": true,
+    "Total": 844,
+    "Tooltip": "voluptatem",
     "CanAssign": false,
-    "Free": 986,
-    "InUse": 46,
-    "IsHidden": true,
+    "Free": 566,
+    "InUse": 730,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 344,
-    "Name": "Armstrong Group",
-    "Description": "Cloned system-worthy project",
-    "PrerequisiteModuleName": "Abbott-Roberts",
-    "SortOrder": 602,
-    "ExtraFlags": 781,
+    "ModuleLicenseId": 806,
+    "Name": "Greenholt, McKenzie and Hackett",
+    "Description": "Public-key eco-centric function",
+    "PrerequisiteModuleName": "O'Reilly-Kreiger",
+    "SortOrder": 530,
+    "ExtraFlags": 554,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 980
+        "FieldType": "System.Int32",
+        "FieldLength": 188
       }
     }
   }

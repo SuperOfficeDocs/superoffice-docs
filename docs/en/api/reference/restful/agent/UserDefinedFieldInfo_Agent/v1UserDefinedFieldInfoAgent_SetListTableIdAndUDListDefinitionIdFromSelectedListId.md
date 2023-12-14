@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 851
+  "SelectedListId": 523
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 410,
-  "ColumnId": 537,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 475,
-  "FieldLabel": "in",
-  "FieldLeft": 807,
-  "FieldTop": 210,
+  "UDefFieldId": 486,
+  "ColumnId": 796,
+  "FieldDefault": "sit",
+  "FieldHeight": 184,
+  "FieldLabel": "velit",
+  "FieldLeft": 107,
+  "FieldTop": 685,
   "FieldType": "Checkbox",
-  "FieldWidth": 68,
-  "FormatMask": "quasi",
+  "FieldWidth": 710,
+  "FormatMask": "est",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 439,
-  "LabelLeft": 32,
-  "LabelTop": 53,
-  "LabelWidth": 723,
-  "LastVersionId": 995,
-  "ListTableId": 182,
+  "LabelHeight": 456,
+  "LabelLeft": 276,
+  "LabelTop": 634,
+  "LabelWidth": 682,
+  "LastVersionId": 807,
+  "ListTableId": 763,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 700,
-  "ProgId": "modi",
-  "IsReadOnly": true,
-  "ShortLabel": "consequuntur",
-  "TabOrder": 81,
-  "TextLength": 60,
-  "Tooltip": "enim",
-  "UdefIdentity": 266,
-  "UDListDefinitionId": 417,
+  "Page1LineNo": 343,
+  "ProgId": "excepturi",
+  "IsReadOnly": false,
+  "ShortLabel": "nobis",
+  "TabOrder": 628,
+  "TextLength": 737,
+  "Tooltip": "excepturi",
+  "UdefIdentity": 363,
+  "UDListDefinitionId": 436,
   "Justification": "Center",
-  "Version": 421,
-  "TemplateVariableName": "Wisoky, Waelchi and Brekke",
+  "Version": 153,
+  "TemplateVariableName": "Koss, Schaden and Wiza",
   "HasBeenPublished": false,
-  "MdoListName": "Jerde, Wuckert and Bogan",
+  "MdoListName": "Weissnat Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 99
+      "FieldType": "System.Int32",
+      "FieldLength": 565
     }
   }
 }

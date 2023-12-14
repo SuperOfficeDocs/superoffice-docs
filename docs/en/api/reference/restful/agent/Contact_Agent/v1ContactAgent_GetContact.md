@@ -26,7 +26,7 @@ Gets a Contact object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=783
+POST /api/v1/Agents/Contact/GetContact?contactId=951
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Contact/GetContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,36 +100,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 806,
-  "Name": "Witting, Grimes and Schuster",
-  "OrgNr": "1580862",
+  "ContactId": 158,
+  "Name": "Hagenes Group",
+  "OrgNr": "1077666",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "consequatur",
-  "DirectPhone": "709.953.5138 x17299",
-  "AssociateId": 688,
-  "CountryId": 737,
-  "EmailAddress": "caroline.satterfield@weissnat.co.uk",
-  "Kananame": "dolores",
-  "EmailAddressName": "declan.moen@marks.info",
+  "City": "rerum",
+  "DirectPhone": "408-925-6270",
+  "AssociateId": 177,
+  "CountryId": 618,
+  "EmailAddress": "emmanuel_berge@lynch.com",
+  "Kananame": "sit",
+  "EmailAddressName": "brycen.lesch@hoeger.info",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Ron Quitzon",
+  "AssociateFullName": "Viva Rice",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "voluptatem",
-  "FullName": "Heaven Quitzon",
-  "IsOwnerContact": true,
-  "ActiveErpLinks": 635,
-  "Number1": "1050438",
-  "Number2": "1156269",
+  "FormattedAddress": "sunt",
+  "FullName": "Tessie Cummerata",
+  "IsOwnerContact": false,
+  "ActiveErpLinks": 128,
+  "Number1": "784498",
+  "Number2": "629743",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 303
     }
   }
 }

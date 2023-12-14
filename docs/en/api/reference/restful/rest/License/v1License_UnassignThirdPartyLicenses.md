@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 138,
-    "Tooltip": "impedit",
+    "Unrestricted": true,
+    "Total": 75,
+    "Tooltip": "sunt",
     "CanAssign": false,
-    "Free": 521,
-    "InUse": 326,
+    "Free": 442,
+    "InUse": 89,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 827,
-    "Name": "Goodwin, Von and Rath",
-    "Description": "Right-sized encompassing concept",
-    "PrerequisiteModuleName": "O'Conner, Steuber and Herzog",
-    "SortOrder": 1001,
-    "ExtraFlags": 409,
+    "ModuleLicenseId": 791,
+    "Name": "Windler-Beatty",
+    "Description": "Optimized high-level product",
+    "PrerequisiteModuleName": "Miller-Thompson",
+    "SortOrder": 885,
+    "ExtraFlags": 770,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldLength": 741
       }
     }
   }

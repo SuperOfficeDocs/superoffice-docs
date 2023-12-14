@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "hic",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "hic",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 768,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 395,
-  "Name": "Thompson, Schoen and Friesen",
-  "Description": "Distributed real-time utilisation",
-  "Currency": "inventore",
-  "CurrencyName": "Paucek Inc and Sons",
-  "ValidFrom": "2015-07-25T13:38:18.1087815+02:00",
-  "ValidTo": "1997-08-25T13:38:18.1087815+02:00",
-  "IsActive": true,
+  "PriceListId": 686,
+  "ERPPriceListKey": "mollitia",
+  "QuoteConnectionId": 619,
+  "Name": "Okuneva-Murray",
+  "Description": "Multi-layered user-facing core",
+  "Currency": "consequatur",
+  "CurrencyName": "Wehner, Maggio and VonRueden",
+  "ValidFrom": "2017-03-06T13:57:19.8440154+01:00",
+  "ValidTo": "2023-11-09T13:57:19.8440154+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldType": "System.Int32",
+      "FieldLength": 901
     }
   },
   "_Links": {

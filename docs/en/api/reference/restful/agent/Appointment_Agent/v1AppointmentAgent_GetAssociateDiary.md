@@ -128,14 +128,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 698,
-  "StartTime": "2019-09-11T13:38:12.8740699+02:00",
-  "EndTime": "2008-09-12T13:38:12.8740699+02:00",
-  "Count": 14
+  "AssociateId": 262,
+  "StartTime": "1996-11-17T13:57:11.2001023+01:00",
+  "EndTime": "2005-09-19T13:57:11.2001023+02:00",
+  "Count": 384
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 47,
-    "StartDate": "2021-05-12T13:38:12.8740699+02:00",
-    "EndDate": "2001-07-30T13:38:12.8740699+02:00",
+    "AppointmentId": 413,
+    "StartDate": "2017-11-07T13:57:11.2001023+01:00",
+    "EndDate": "2013-10-12T13:57:11.2001023+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ex",
-    "AssociateFullName": "Travis Bailey",
-    "ContactName": "Zemlak, Mohr and Kuvalis",
-    "Description": "Quality-focused cohesive approach",
-    "PersonFullName": "Rachel Swaniawski",
-    "PersonId": 484,
-    "ContactId": 57,
-    "ProjectId": 412,
-    "ProjectName": "Beatty-Pagac",
-    "IsPublished": true,
-    "AssociateId": 794,
-    "ColorIndex": 167,
+    "Task": "possimus",
+    "AssociateFullName": "Neha Sonny Kihn Sr.",
+    "ContactName": "Wisozk, Kerluke and Stokes",
+    "Description": "Optimized multimedia flexibility",
+    "PersonFullName": "Reta Isaac Ondricka V",
+    "PersonId": 464,
+    "ContactId": 922,
+    "ProjectId": 163,
+    "ProjectName": "Kunze-Kovacek",
+    "IsPublished": false,
+    "AssociateId": 771,
+    "ColorIndex": 490,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 129,
-    "PriorityName": "Auer, Wolff and Rohan",
+    "PriorityId": 87,
+    "PriorityName": "Jerde-Rice",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2021-02-27T13:38:12.8740699+01:00",
+    "ActiveDate": "2022-05-14T13:57:11.2001023+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-01-02T13:38:12.8740699+01:00",
-    "RecurringEndDate": "2003-10-04T13:38:12.8740699+02:00",
-    "MotherId": 198,
-    "AssignedBy": 359,
-    "AssignedByFullName": "Prof. Marian Kristoffer Crist",
-    "RejectReason": "mesh transparent interfaces",
-    "Location": "et",
-    "AlarmLeadTime": "dolor",
-    "SaleId": 425,
-    "SaleName": "Bahringer Inc and Sons",
-    "AssociateName": "Renner LLC",
-    "CreatedDate": "2005-10-27T13:38:12.8740699+02:00",
-    "CreatedBy": "illo",
-    "CreatedByFullName": "Lisette Skiles",
-    "CreatedByAssociateId": 960,
+    "RecurringStartDate": "2022-08-13T13:57:11.2001023+02:00",
+    "RecurringEndDate": "2005-09-19T13:57:11.2001023+02:00",
+    "MotherId": 704,
+    "AssignedBy": 419,
+    "AssignedByFullName": "Mark Doyle",
+    "RejectReason": "",
+    "Location": "voluptas",
+    "AlarmLeadTime": "doloremque",
+    "SaleId": 458,
+    "SaleName": "Schmidt Group",
+    "AssociateName": "Boehm Inc and Sons",
+    "CreatedDate": "2019-12-10T13:57:11.2001023+01:00",
+    "CreatedBy": "blanditiis",
+    "CreatedByFullName": "Prof. Fletcher Williamson",
+    "CreatedByAssociateId": 666,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 270,
-    "Title": "vel",
-    "Agenda": "consequatur",
-    "InternalNotes": "placeat",
+    "PreferredTZLocation": 917,
+    "Title": "velit",
+    "Agenda": "odit",
+    "InternalNotes": "illo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 770
+        "FieldLength": 68
       }
     }
   }

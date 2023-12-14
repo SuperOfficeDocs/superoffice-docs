@@ -75,8 +75,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 591,
-  "NickName": "Muller-Nicolas"
+  "AssociateId": 307,
+  "NickName": "Casper-Moore"
 }
 ```
 

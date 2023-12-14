@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 283,
-    "Name": "Fisher-Braun",
-    "Tooltip": "omnis",
-    "Rank": 79,
-    "Key": "rem",
+    "LegalBaseId": 215,
+    "Name": "Kutch, Gibson and Hills",
+    "Tooltip": "nemo",
+    "Rank": 141,
+    "Key": "et",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldType": "System.String",
+        "FieldLength": 875
       }
     }
   }

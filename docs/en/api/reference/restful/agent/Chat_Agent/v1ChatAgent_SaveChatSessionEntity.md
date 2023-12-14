@@ -123,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 645,
+  "ChatSessionId": 904,
   "TopicId": 10,
   "User": null,
   "Person": null,
-  "CustomerAlias": "molestias",
-  "CustomerHost": "sit",
-  "CustomerName": "Gleichner, Halvorson and Rempel",
-  "CustomerEmail": "rosalia.schinner@welch.com",
-  "CustomerPhone": "(654)006-1276",
+  "CustomerAlias": "quis",
+  "CustomerHost": "rerum",
+  "CustomerName": "Runolfsdottir-Olson",
+  "CustomerEmail": "jane.stoltenberg@gottliebmuller.biz",
+  "CustomerPhone": "(055)125-0668 x5424",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Labadie, Sauer and Morar",
+  "CustomerCompanyName": "Legros Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "dolorem",
-  "LastMessage": "reiciendis",
-  "WhenRequested": "2012-09-11T13:38:13.1084134+02:00",
-  "WhenStarted": "2017-10-01T13:38:13.1084134+02:00",
-  "WhenEnded": "2015-02-13T13:38:13.1084134+01:00",
-  "WhenIdle": "1998-09-30T13:38:13.1084134+02:00",
-  "WhenFetched": "2014-03-10T13:38:13.1084134+01:00",
-  "SessionKey": "deserunt",
-  "InitialQueuePos": 663,
-  "AlertLevel": 943,
-  "Rank": 719,
+  "FirstMessage": "soluta",
+  "LastMessage": "id",
+  "WhenRequested": "1999-02-15T13:57:11.590683+01:00",
+  "WhenStarted": "1996-09-29T13:57:11.590683+02:00",
+  "WhenEnded": "2013-05-09T13:57:11.590683+02:00",
+  "WhenIdle": "1999-05-28T13:57:11.590683+02:00",
+  "WhenFetched": "1997-06-28T13:57:11.590683+02:00",
+  "SessionKey": "beatae",
+  "InitialQueuePos": 260,
+  "AlertLevel": 470,
+  "Rank": 285,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 24
+  "ChatbotIsActive": false,
+  "Rating": 458
 }
 ```
 
@@ -168,29 +168,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 962,
-  "TopicId": 523,
+  "ChatSessionId": 323,
+  "TopicId": 23,
   "User": null,
   "Person": null,
-  "CustomerAlias": "rem",
-  "CustomerHost": "eius",
-  "CustomerName": "Rosenbaum-Runolfsdottir",
-  "CustomerEmail": "izabella_schulist@weber.ca",
-  "CustomerPhone": "672.593.9410 x1965",
+  "CustomerAlias": "ea",
+  "CustomerHost": "eos",
+  "CustomerName": "Considine, Wehner and Schneider",
+  "CustomerEmail": "jovani@schambergertoy.com",
+  "CustomerPhone": "308-327-6413 x094",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hahn, Braun and Hahn",
+  "CustomerCompanyName": "Gutkowski Group",
   "Status": "Closed",
-  "FirstMessage": "consectetur",
-  "LastMessage": "repudiandae",
-  "WhenRequested": "2023-07-08T13:38:13.1084134+02:00",
-  "WhenStarted": "1998-12-03T13:38:13.1084134+01:00",
-  "WhenEnded": "2016-02-26T13:38:13.1084134+01:00",
-  "WhenIdle": "2021-12-28T13:38:13.1084134+01:00",
-  "WhenFetched": "2023-02-25T13:38:13.1084134+01:00",
-  "SessionKey": "repellat",
-  "InitialQueuePos": 264,
-  "AlertLevel": 257,
-  "Rank": 625,
+  "FirstMessage": "voluptatem",
+  "LastMessage": "eaque",
+  "WhenRequested": "2016-10-08T13:57:11.6063063+02:00",
+  "WhenStarted": "1999-10-18T13:57:11.6063063+02:00",
+  "WhenEnded": "2013-03-19T13:57:11.6063063+01:00",
+  "WhenIdle": "2015-01-21T13:57:11.6063063+01:00",
+  "WhenFetched": "2010-06-10T13:57:11.6063063+02:00",
+  "SessionKey": "quaerat",
+  "InitialQueuePos": 163,
+  "AlertLevel": 880,
+  "Rank": 864,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -198,13 +198,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 197,
+  "Rating": 552,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldLength": 692
     }
   }
 }

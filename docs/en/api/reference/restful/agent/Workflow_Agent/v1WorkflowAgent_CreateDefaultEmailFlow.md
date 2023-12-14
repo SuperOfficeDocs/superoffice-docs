@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -106,34 +106,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 42,
-  "Name": "Adams Group",
-  "Description": "Multi-lateral global capability",
+  "EmailFlowId": 328,
+  "Name": "Langosh-Oberbrunner",
+  "Description": "User-centric well-modulated standardization",
   "Status": "None",
   "JumpToFinish": false,
   "StartOnlyOnce": false,
-  "OverrideConsentSubscription": true,
+  "OverrideConsentSubscription": false,
   "FromType": "FromOnlySpecified",
-  "FromName": "Hodkiewicz Group",
-  "FromAddr": "ea",
+  "FromName": "Beahan Inc and Sons",
+  "FromAddr": "et",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "recusandae",
-  "ReplyToName": "Wiza, Quitzon and Connelly",
-  "SmsSender": "aut",
+  "ReplyToAddr": "iure",
+  "ReplyToName": "VonRueden-Breitenberg",
+  "SmsSender": "velit",
   "UseGoogleAnalytics": false,
-  "GaSource": "aliquam",
-  "GaCampaign": "et",
+  "GaSource": "facere",
+  "GaCampaign": "sed",
   "UseTimeframe": false,
   "SelectedDays": "Friday",
-  "TimeframeStart": "sit",
-  "TimeframeEnd": "aut",
+  "TimeframeStart": "impedit",
+  "TimeframeEnd": "omnis",
   "UseWorkflowStart": false,
-  "WorkflowStart": "quam",
+  "WorkflowStart": "maxime",
   "UseEnrollmentEnd": false,
-  "EnrollmentEnd": "iusto",
+  "EnrollmentEnd": "doloremque",
   "RemoveFromFlows": [
-    567,
-    530
+    808,
+    919
   ],
   "TzLocation": null,
   "Folder": null,
@@ -141,22 +141,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 770,
-      "WorkflowId": 768,
+      "WorkflowStepId": 440,
+      "WorkflowId": 572,
       "StepType": "AddToList",
-      "Rank": 869
+      "Rank": 461
     },
     {
-      "WorkflowStepId": 770,
-      "WorkflowId": 768,
+      "WorkflowStepId": 440,
+      "WorkflowId": 572,
       "StepType": "AddToList",
-      "Rank": 869
+      "Rank": 461
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 989,
-      "WorkflowId": 160,
+      "WorkflowTriggerId": 968,
+      "WorkflowId": 902,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -167,13 +167,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 940
         }
       }
     },
     {
-      "WorkflowTriggerId": 989,
-      "WorkflowId": 160,
+      "WorkflowTriggerId": 968,
+      "WorkflowId": 902,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -184,15 +184,15 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 940
         }
       }
     }
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 69,
-      "WorkflowId": 507,
+      "WorkflowGoalId": 995,
+      "WorkflowId": 953,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -203,13 +203,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 447
         }
       }
     },
     {
-      "WorkflowGoalId": 69,
-      "WorkflowId": 507,
+      "WorkflowGoalId": 995,
+      "WorkflowId": 953,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -220,44 +220,44 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 447
         }
       }
     }
   ],
   "Filter": null,
   "BlockLists": [
-    681,
-    676
+    634,
+    804
   ],
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-04-03T13:38:14.4052895+02:00",
-  "UpdatedDate": "2023-04-26T13:38:14.4052895+02:00",
+  "CreatedDate": "2009-02-26T13:57:13.6145882+01:00",
+  "UpdatedDate": "2014-11-05T13:57:13.6145882+01:00",
   "VisibleFor": [
     {
-      "VisibleId": 839,
+      "VisibleId": 468,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldLength": 978
         }
       }
     },
     {
-      "VisibleId": 839,
+      "VisibleId": 468,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldLength": 978
         }
       }
     }
@@ -267,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 526
     }
   }
 }

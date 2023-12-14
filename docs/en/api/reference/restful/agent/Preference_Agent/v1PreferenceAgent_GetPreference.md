@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 884
+  "Id": 924
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "omnis",
+  "RawValue": "sequi",
   "Specification": null,
-  "DisplayValue": "sunt",
-  "DisplayTooltip": "quae",
+  "DisplayValue": "est",
+  "DisplayTooltip": "excepturi",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 396,
-  "PrefDescId": 100,
-  "TableName": "Watsica-Zulauf",
-  "UserPreferenceId": 141,
+  "TargetId": 127,
+  "PrefDescId": 724,
+  "TableName": "Mante-Skiles",
+  "UserPreferenceId": 296,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 235
     }
   }
 }

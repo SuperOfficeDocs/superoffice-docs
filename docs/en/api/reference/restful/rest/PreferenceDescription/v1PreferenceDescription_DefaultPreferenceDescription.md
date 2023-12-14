@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 431,
-  "Section": "quam",
-  "Key": "quo",
-  "Name": "Kuhlman, Wilderman and Ferry",
+  "PrefDescId": 173,
+  "Section": "et",
+  "Key": "sint",
+  "Name": "Carroll-Pollich",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-architected foreground info-mediaries",
+  "Description": "Persistent empowering contingency",
   "IsBuiltin": true,
-  "TableName": "Erdman, Haley and Rippin",
-  "UserDefinedListId": 201,
-  "Rank": 941,
-  "SubGroup": "eum",
-  "MinLevel": 437,
-  "MaxValue": 476,
-  "MinValue": 140,
-  "RequiredLicense": "harum",
+  "TableName": "Koss, Grant and Hessel",
+  "UserDefinedListId": 276,
+  "Rank": 716,
+  "SubGroup": "molestiae",
+  "MinLevel": 904,
+  "MaxValue": 878,
+  "MinValue": 222,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 661
     }
   }
 }

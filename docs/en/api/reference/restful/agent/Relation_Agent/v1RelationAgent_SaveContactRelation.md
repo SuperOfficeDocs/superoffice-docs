@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 357,
-  "SourcePersonId": 148,
-  "DestinationContactId": 499,
-  "DestinationPersonId": 9,
-  "RelationId": 217,
-  "Comment": "dolorum",
-  "RelationDefinitionId": 817,
-  "Reversed": 589,
-  "UpdatedDate": "2004-01-29T13:38:14.045953+01:00",
-  "CreatedDate": "2019-09-22T13:38:14.045953+02:00",
+  "SourceContactId": 158,
+  "SourcePersonId": 47,
+  "DestinationContactId": 477,
+  "DestinationPersonId": 446,
+  "RelationId": 68,
+  "Comment": "optio",
+  "RelationDefinitionId": 35,
+  "Reversed": 654,
+  "UpdatedDate": "2022-01-13T13:57:13.0961896+01:00",
+  "CreatedDate": "2010-07-23T13:57:13.0961896+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Rodriguez, Yost and VonRueden",
-  "SourcePersonName": "Beer LLC",
-  "DestinationContactName": "Jacobson Group",
-  "DestinationPersonName": "Hagenes LLC",
-  "ActiveText": "et",
-  "PassiveText": "reiciendis",
+  "SourceContactName": "Ruecker, Ward and Gottlieb",
+  "SourcePersonName": "O'Conner, Koss and Von",
+  "DestinationContactName": "Von, Bayer and Little",
+  "DestinationPersonName": "McDermott Group",
+  "ActiveText": "ex",
+  "PassiveText": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldType": "System.String",
+      "FieldLength": 823
     }
   }
 }

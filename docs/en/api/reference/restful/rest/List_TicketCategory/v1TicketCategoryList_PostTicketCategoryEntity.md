@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 58,
-  "ParentId": 226,
-  "Name": "Kirlin-Legros",
-  "Fullname": "animi",
-  "CategoryMaster": 371,
+  "TicketCategoryId": 328,
+  "ParentId": 586,
+  "Name": "Jones, Hauck and Trantow",
+  "Fullname": "est",
+  "CategoryMaster": 225,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Shields LLC",
+  "ExternalName": "Kub-Dare",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 673,
-  "ReplyTemplate": 30,
-  "NotificationEmail": "marilie@greenholt.name",
+  "AssignmentLag": 935,
+  "ReplyTemplate": 905,
+  "NotificationEmail": "broderick@mckenzie.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 373,
+  "EffectiveReplyTemplateId": 51,
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "incidunt",
+    "ExtraFields2": "soluta"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "rerum"
+    "CustomFields1": "eligendi",
+    "CustomFields2": "quisquam"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 253,
-  "ParentId": 46,
-  "Name": "Johnston, Kovacek and Weber",
-  "Fullname": "labore",
-  "CategoryMaster": 943,
+  "TicketCategoryId": 843,
+  "ParentId": 956,
+  "Name": "Pfeffer, Orn and Franecki",
+  "Fullname": "odio",
+  "CategoryMaster": 361,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Pacocha, Zboncak and Schaden",
+  "ExternalName": "Oberbrunner-Feest",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 754,
-  "ReplyTemplate": 789,
-  "NotificationEmail": "sallie@bashiriansipes.com",
+  "AssignmentLag": 806,
+  "ReplyTemplate": 79,
+  "NotificationEmail": "lavern@walter.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 731,
+  "EffectiveReplyTemplateId": 98,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "odit"
+    "ExtraFields1": "ratione",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "praesentium",
-    "CustomFields2": "recusandae"
+    "CustomFields1": "aut",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldType": "System.String",
+      "FieldLength": 546
     }
   }
 }

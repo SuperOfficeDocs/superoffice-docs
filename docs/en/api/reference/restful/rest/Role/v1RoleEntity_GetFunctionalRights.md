@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Name": "Mueller-Sipes",
-    "ToolTip": "Vel et fuga iusto asperiores aliquam.",
-    "Deleted": false,
-    "Rank": 990,
-    "Type": "aut",
-    "ColorBlock": 40,
-    "IconHint": "mollitia",
-    "Selected": false,
-    "LastChanged": "1998-02-25T13:38:17.5774332+01:00",
+    "Id": 564,
+    "Name": "Larkin, McClure and Jenkins",
+    "ToolTip": "Aspernatur amet fuga.",
+    "Deleted": true,
+    "Rank": 248,
+    "Type": "vel",
+    "ColorBlock": 163,
+    "IconHint": "occaecati",
+    "Selected": true,
+    "LastChanged": "1997-10-13T13:57:19.1403101+02:00",
     "ChildItems": [
       {
-        "Id": 635,
-        "Name": "Davis-Cartwright",
-        "ToolTip": "Consequuntur eos id ut.",
+        "Id": 936,
+        "Name": "Hickle, Kunze and Leannon",
+        "ToolTip": "Quia nobis quia quo ut natus facilis ipsa.",
         "Deleted": false,
-        "Rank": 267,
-        "Type": "voluptatem",
-        "ColorBlock": 374,
-        "IconHint": "possimus",
+        "Rank": 274,
+        "Type": "veniam",
+        "ColorBlock": 751,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2019-06-06T13:38:17.5774332+02:00",
+        "LastChanged": "2019-10-31T13:57:19.1403101+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Mrs. Laury Kelton Gaylord MD",
+        "ExtraInfo": "dolore",
+        "StyleHint": "officia",
+        "Hidden": true,
+        "FullName": "Alessandra Graham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 997
+            "FieldType": "System.String",
+            "FieldLength": 336
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "nobis",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Ms. Sibyl Heidenreich",
+    "FullName": "Miss Rafaela Betty Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldLength": 400
       }
     }
   }

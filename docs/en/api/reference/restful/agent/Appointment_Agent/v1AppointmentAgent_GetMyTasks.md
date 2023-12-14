@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 601
+  "Count": 26
 }
 ```
 
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 256,
-    "StartDate": "2006-02-05T13:38:13.0459237+01:00",
-    "EndDate": "1999-02-20T13:38:13.0459237+01:00",
+    "AppointmentId": 666,
+    "StartDate": "2004-02-05T13:57:11.496933+01:00",
+    "EndDate": "2011-06-10T13:57:11.496933+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptates",
-    "AssociateFullName": "Veronica Tremblay",
-    "ContactName": "Kirlin-Kilback",
-    "Description": "Fundamental real-time process improvement",
-    "PersonFullName": "Sallie Zulauf",
-    "PersonId": 590,
-    "ContactId": 922,
-    "ProjectId": 147,
-    "ProjectName": "Greenfelder, Steuber and Nienow",
-    "IsPublished": true,
-    "AssociateId": 872,
-    "ColorIndex": 169,
+    "Task": "enim",
+    "AssociateFullName": "Patience Moen",
+    "ContactName": "Macejkovic-Mitchell",
+    "Description": "Optional secondary paradigm",
+    "PersonFullName": "Miss Madonna Tanner Gerhold",
+    "PersonId": 713,
+    "ContactId": 419,
+    "ProjectId": 24,
+    "ProjectName": "Glover, Larkin and Heaney",
+    "IsPublished": false,
+    "AssociateId": 124,
+    "ColorIndex": 453,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 739,
-    "PriorityName": "Auer Group",
+    "PriorityId": 375,
+    "PriorityName": "Lebsack, Wisozk and Mertz",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2015-04-08T13:38:13.0459237+02:00",
+    "ActiveDate": "2009-10-06T13:57:11.496933+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1997-08-01T13:38:13.0459237+02:00",
-    "RecurringEndDate": "2014-04-13T13:38:13.0459237+02:00",
-    "MotherId": 922,
-    "AssignedBy": 989,
-    "AssignedByFullName": "Kaelyn Klein",
+    "RecurringStartDate": "2017-11-09T13:57:11.496933+01:00",
+    "RecurringEndDate": "2020-06-18T13:57:11.496933+02:00",
+    "MotherId": 884,
+    "AssignedBy": 335,
+    "AssignedByFullName": "Matteo Pouros",
     "RejectReason": "",
-    "Location": "non",
-    "AlarmLeadTime": "voluptas",
-    "SaleId": 389,
-    "SaleName": "Huel, Kirlin and Kub",
-    "AssociateName": "Ankunding Inc and Sons",
-    "CreatedDate": "2006-04-15T13:38:13.0459237+02:00",
-    "CreatedBy": "repudiandae",
-    "CreatedByFullName": "Dr. Anastacio Kasandra Schuster II",
-    "CreatedByAssociateId": 248,
+    "Location": "odio",
+    "AlarmLeadTime": "ducimus",
+    "SaleId": 290,
+    "SaleName": "Krajcik, Smith and Sporer",
+    "AssociateName": "Wisozk-Bernier",
+    "CreatedDate": "2013-09-06T13:57:11.496933+02:00",
+    "CreatedBy": "delectus",
+    "CreatedByFullName": "Mireya Barton IV",
+    "CreatedByAssociateId": 223,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 524,
-    "Title": "corrupti",
-    "Agenda": "accusantium",
-    "InternalNotes": "voluptate",
+    "PreferredTZLocation": 319,
+    "Title": "suscipit",
+    "Agenda": "facere",
+    "InternalNotes": "corporis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 24
+        "FieldLength": 915
       }
     }
   }

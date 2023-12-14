@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 873,
-  "SelectionId": 145,
-  "IncludeEmails": true
+  "DocumentPluginId": 853,
+  "SelectionId": 614,
+  "IncludeEmails": false
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 27,
-  "NumDocumentsAlreadyMigrated": 397,
+  "NumDocumentsOmitted": 459,
+  "NumDocumentsAlreadyMigrated": 353,
   "Documents": [
     {
-      "DocumentId": 717,
-      "ContactId": 765,
-      "PersonId": 605,
-      "SaleId": 20,
-      "ProjectId": 638,
-      "DocTmplId": 236,
-      "AssociateId": 643,
-      "UserGroupId": 158,
-      "VisibleForId": 7
+      "DocumentId": 535,
+      "ContactId": 732,
+      "PersonId": 822,
+      "SaleId": 23,
+      "ProjectId": 94,
+      "DocTmplId": 823,
+      "AssociateId": 975,
+      "UserGroupId": 650,
+      "VisibleForId": 913
     }
   ],
   "Associates": [
     {
-      "AssociateId": 621,
-      "EmailAddress": "gavin_auer@krajcik.us"
+      "AssociateId": 906,
+      "EmailAddress": "okey@king.name"
     },
     {
-      "AssociateId": 621,
-      "EmailAddress": "gavin_auer@krajcik.us"
+      "AssociateId": 906,
+      "EmailAddress": "okey@king.name"
     }
   ]
 }

@@ -104,6 +104,9 @@ AppointmentEntity  updated.
 | CreatedDate | date-time | Registered date  in UTC. |
 | AppointmentId | int32 | Primary key |
 | Description | string | Description of the appointment. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
@@ -145,9 +148,6 @@ AppointmentEntity  updated.
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
-| Title | string | The title of the appointment. |
-| Agenda | string | The agenda of the appointment. |
-| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -166,18 +166,18 @@ AppointmentEntity  updated.
 PATCH /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "deserunt",
+    "path": "occaecati",
     "value": {}
   },
   {
     "op": "add",
-    "path": "deserunt",
+    "path": "occaecati",
     "value": {}
   }
 ]
@@ -194,120 +194,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-08-01T13:38:17.0774873+02:00",
-  "AppointmentId": 691,
-  "Description": "Distributed cohesive flexibility",
-  "StartDate": "2016-06-14T13:38:17.0774873+02:00",
-  "EndDate": "1996-11-26T13:38:17.0774873+01:00",
+  "CreatedDate": "2022-05-01T13:57:18.3878111+02:00",
+  "AppointmentId": 581,
+  "Description": "Enterprise-wide regional interface",
+  "Title": "impedit",
+  "Agenda": "maiores",
+  "InternalNotes": "minima",
+  "StartDate": "1998-08-02T13:57:18.3878111+02:00",
+  "EndDate": "2014-05-11T13:57:18.3878111+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 885,
+  "MotherId": 328,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-05-12T13:38:17.0774873+02:00",
+  "UpdatedDate": "2001-01-01T13:57:18.3878111+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 693,
+  "ActiveLinks": 674,
   "Links": [
     {
-      "EntityName": "Sauer, Stark and Ernser",
-      "Id": 229,
-      "Description": "Open-source system-worthy service-desk",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 496,
+      "EntityName": "Botsford, Botsford and Towne",
+      "Id": 382,
+      "Description": "Extended foreground paradigm",
+      "ExtraInfo": "unde",
+      "LinkId": 452,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 455
+          "FieldType": "System.String",
+          "FieldLength": 496
         }
       }
     }
   ],
-  "AlarmLeadTime": "numquam",
+  "AlarmLeadTime": "autem",
   "HasAlarm": false,
-  "ColorIndex": 472,
+  "ColorIndex": 129,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "pariatur",
-  "LeadTime": "sapiente",
-  "Location": "fugiat",
-  "RejectCounter": 776,
+  "IsAlldayEvent": true,
+  "LagTime": "reprehenderit",
+  "LeadTime": "voluptate",
+  "Location": "praesentium",
+  "RejectCounter": 440,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 695,
-      "PersonId": 25,
-      "ContactId": 403,
-      "EmailId": 824,
+      "AssociateId": 690,
+      "PersonId": 243,
+      "ContactId": 565,
+      "EmailId": 783,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lavina_mcclure@kunzeschimmel.com",
-      "Description": "Focused fault-tolerant customer loyalty"
+      "EmailAddress": "israel.nicolas@stroman.info",
+      "Description": "Triple-buffered radical conglomeration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2019-12-01T13:38:17.0774873+01:00",
+  "ActiveDate": "2006-01-20T13:57:18.3878111+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 539,
+  "PreferredTZLocation": 888,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 29,
+  "SuggestedAppointmentId": 279,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptas",
-  "Title": "sunt",
-  "Agenda": "molestias",
-  "InternalNotes": "sit",
+  "CentralserviceVideomeetId": "fugit",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Joesph Homenick MD",
-    "SuperOffice:2": "Esteban Celestine Gislason V"
+    "SuperOffice:1": "1566797271",
+    "SuperOffice:2": "467129817"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestias",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "dolorum",
+    "ExtraFields2": "architecto"
   },
   "CustomFields": {
-    "CustomFields1": "labore",
-    "CustomFields2": "iste"
+    "CustomFields1": "eius",
+    "CustomFields2": "unde"
   },
-  "PublishEventDate": "2003-04-30T13:38:17.0931089+02:00",
-  "PublishTo": "1997-08-29T13:38:17.0931089+02:00",
-  "PublishFrom": "2012-06-01T13:38:17.0931089+02:00",
+  "PublishEventDate": "2013-09-07T13:57:18.3878111+02:00",
+  "PublishTo": "1999-09-09T13:57:18.3878111+02:00",
+  "PublishFrom": "2020-09-03T13:57:18.3878111+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 455,
+      "VisibleId": 909,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 535
+          "FieldLength": 682
         }
       }
     },
     {
-      "VisibleId": 455,
+      "VisibleId": 909,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 535
+          "FieldLength": 682
         }
       }
     }
@@ -316,8 +316,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 704
     }
   },
   "_Links": {

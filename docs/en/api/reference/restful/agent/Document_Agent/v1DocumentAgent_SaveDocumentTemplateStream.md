@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 70,
+  "DocumentTemplateId": 658,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "excepturi",
-  "PluginId": 313
+  "LanguageCode": "optio",
+  "PluginId": 322
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hoeger-Anderson",
-  "Description": "Extended zero tolerance parallelism",
-  "ExternalReference": "veniam",
-  "MimeType": "recusandae",
-  "PluginId": 738
+  "Name": "Lehner, Borer and Kovacek",
+  "Description": "Configurable heuristic circuit",
+  "ExternalReference": "at",
+  "MimeType": "eaque",
+  "PluginId": 581
 }
 ```

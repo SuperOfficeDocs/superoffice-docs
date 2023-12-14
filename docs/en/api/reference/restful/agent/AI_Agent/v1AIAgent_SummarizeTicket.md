@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 256,
-  "NumSentences": 841,
-  "IsoLangCode": "et"
+  "TicketId": 673,
+  "NumSentences": 256,
+  "IsoLangCode": "laboriosam"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"est"
+"ex"
 ```

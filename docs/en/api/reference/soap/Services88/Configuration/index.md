@@ -23,6 +23,7 @@ Download [WSDL file for Services88/Configuration](../Services88-Configuration.md
 * [DeleteSystemEventEntity](DeleteSystemEventEntity.md)
 * [DeleteWindowPosSize](DeleteWindowPosSize.md)
 * [ExistsSystemEvent](ExistsSystemEvent.md)
+* [GetAllFeatureToggles](GetAllFeatureToggles.md)
 * [GetAnyConfiguration](GetAnyConfiguration.md)
 * [GetApplicationConfiguration](GetApplicationConfiguration.md)
 * [GetConfigurableScreenDelta](GetConfigurableScreenDelta.md)

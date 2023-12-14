@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 786,
-    "Name": "Streich-Littel",
-    "ToolTip": "Rerum harum ullam eum autem.",
-    "Deleted": false,
-    "Rank": 219,
-    "Type": "accusantium",
-    "ColorBlock": 29,
-    "IconHint": "est",
+    "Id": 383,
+    "Name": "Halvorson, Beahan and Hudson",
+    "ToolTip": "Consequuntur rerum animi voluptatem possimus.",
+    "Deleted": true,
+    "Rank": 313,
+    "Type": "qui",
+    "ColorBlock": 468,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2004-12-25T13:38:18.1400255+01:00",
+    "LastChanged": "2014-09-06T13:57:19.8752673+02:00",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Crist, Zulauf and Beer",
-        "ToolTip": "Sed quo doloribus dolor eligendi.",
-        "Deleted": false,
-        "Rank": 705,
-        "Type": "nihil",
-        "ColorBlock": 35,
-        "IconHint": "et",
+        "Id": 986,
+        "Name": "Wolf-Volkman",
+        "ToolTip": "Ut enim voluptatem quas est.",
+        "Deleted": true,
+        "Rank": 388,
+        "Type": "consequuntur",
+        "ColorBlock": 341,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "2003-02-16T13:38:18.1400255+01:00",
+        "LastChanged": "2007-07-30T13:57:19.8752673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "similique",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Ms. Gianni Burnice Renner",
+        "FullName": "Geovany Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 109
+            "FieldLength": 963
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "ut",
+    "ExtraInfo": "est",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Jairo VonRueden",
+    "FullName": "Webster Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 41
+        "FieldLength": 722
       }
     }
   }

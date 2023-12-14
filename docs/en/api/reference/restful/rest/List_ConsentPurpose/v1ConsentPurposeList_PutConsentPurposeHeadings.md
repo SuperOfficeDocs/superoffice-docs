@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 760,
-    "Name": "Parker Group",
-    "Tooltip": "fugit",
+    "HeadingId": 938,
+    "Name": "Stehr-Thompson",
+    "Tooltip": "necessitatibus",
     "Deleted": false,
-    "Rank": 449,
-    "UdListDefinitionId": 366
+    "Rank": 152,
+    "UdListDefinitionId": 295
   },
   {
-    "HeadingId": 760,
-    "Name": "Parker Group",
-    "Tooltip": "fugit",
+    "HeadingId": 938,
+    "Name": "Stehr-Thompson",
+    "Tooltip": "necessitatibus",
     "Deleted": false,
-    "Rank": 449,
-    "UdListDefinitionId": 366
+    "Rank": 152,
+    "UdListDefinitionId": 295
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 279,
-    "Name": "Lynch Inc and Sons",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "Rank": 229,
-    "UdListDefinitionId": 257,
+    "HeadingId": 262,
+    "Name": "Zemlak, Williamson and Kub",
+    "Tooltip": "fugiat",
+    "Deleted": true,
+    "Rank": 501,
+    "UdListDefinitionId": 661,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 389
       }
     }
   }

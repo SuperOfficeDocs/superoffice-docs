@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 553,
-    "Name": "Ankunding Group",
-    "ToolTip": "Quos facilis.",
+    "Id": 62,
+    "Name": "Cole LLC",
+    "ToolTip": "Eos qui inventore.",
     "Deleted": false,
-    "Rank": 53,
-    "Type": "nihil",
-    "ColorBlock": 447,
-    "IconHint": "explicabo",
+    "Rank": 616,
+    "Type": "eius",
+    "ColorBlock": 354,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2003-04-30T13:38:18.2337719+02:00",
+    "LastChanged": "1999-04-04T13:57:20.1265357+02:00",
     "ChildItems": [
       {
-        "Id": 738,
-        "Name": "Bernier LLC",
-        "ToolTip": "Ipsa autem.",
+        "Id": 414,
+        "Name": "Stracke, Rice and Sauer",
+        "ToolTip": "Voluptas ea itaque.",
         "Deleted": false,
         "Rank": 714,
-        "Type": "nemo",
-        "ColorBlock": 133,
-        "IconHint": "est",
+        "Type": "molestiae",
+        "ColorBlock": 405,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2005-10-17T13:38:18.2337719+02:00",
+        "LastChanged": "1998-09-24T13:57:20.1265357+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "sit",
+        "ExtraInfo": "omnis",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Dr. Tomasa Boyer"
+        "FullName": "Juvenal Kovacek"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Kieran Jacobi"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Tiara Marvin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 549,
-    "Name": "Kunze LLC",
-    "ToolTip": "Eos voluptas in sequi nihil debitis facilis aliquid.",
+    "Id": 680,
+    "Name": "Yost, Runolfsdottir and Walter",
+    "ToolTip": "Cumque non qui quo.",
     "Deleted": true,
-    "Rank": 811,
-    "Type": "id",
-    "ColorBlock": 726,
-    "IconHint": "dolorem",
+    "Rank": 497,
+    "Type": "eaque",
+    "ColorBlock": 648,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "1997-04-27T13:38:18.2337719+02:00",
+    "LastChanged": "2015-09-14T13:57:20.1265357+02:00",
     "ChildItems": [
       {
-        "Id": 379,
-        "Name": "Goyette Inc and Sons",
-        "ToolTip": "Totam accusantium maiores deserunt sequi cum.",
-        "Deleted": true,
-        "Rank": 302,
-        "Type": "atque",
-        "ColorBlock": 636,
-        "IconHint": "necessitatibus",
+        "Id": 368,
+        "Name": "Hackett, Hoppe and Koss",
+        "ToolTip": "Repudiandae at necessitatibus corporis aut molestias iusto aliquid.",
+        "Deleted": false,
+        "Rank": 753,
+        "Type": "aliquid",
+        "ColorBlock": 890,
+        "IconHint": "esse",
         "Selected": false,
-        "LastChanged": "2005-10-03T13:38:18.2337719+02:00",
+        "LastChanged": "2013-06-09T13:57:20.1265357+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "itaque",
-        "Hidden": true,
-        "FullName": "Granville Keebler",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "veniam",
+        "Hidden": false,
+        "FullName": "Margarete Donnelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 945
+            "FieldLength": 820
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "maiores",
+    "StyleHint": "at",
     "Hidden": false,
-    "FullName": "Issac Rath",
+    "FullName": "Teresa Reichel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 812
+        "FieldLength": 310
       }
     }
   }

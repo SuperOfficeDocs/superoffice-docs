@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Koss LLC"
+  "ParameterName": "Cummerata Inc and Sons"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 497,
-  "Name": "Lehner Group",
-  "Value": "hic",
-  "CreatedDate": "2009-06-03T13:38:13.0771703+02:00",
-  "UpdatedDate": "2013-04-18T13:38:13.0771703+02:00",
-  "CreatedBy": "eos",
-  "UpdatedBy": "incidunt",
+  "AudienceLayoutId": 623,
+  "Name": "Dickens, Cassin and Gaylord",
+  "Value": "odio",
+  "CreatedDate": "2017-02-23T13:57:11.5438073+01:00",
+  "UpdatedDate": "2018-03-09T13:57:11.5438073+01:00",
+  "CreatedBy": "itaque",
+  "UpdatedBy": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldLength": 613
     }
   }
 }

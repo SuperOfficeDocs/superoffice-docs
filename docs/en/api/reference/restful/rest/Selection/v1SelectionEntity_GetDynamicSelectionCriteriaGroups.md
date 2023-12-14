@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Miller-Kihn",
-    "Description": "Function-based intangible support",
-    "Rank": 90,
+    "Name": "Kuhlman Inc and Sons",
+    "Description": "Profit-focused needs-based monitoring",
+    "Rank": 662,
     "Restrictions": [
       {
-        "Name": "Wilkinson Inc and Sons",
-        "Operator": "quo",
+        "Name": "Cummings, Zboncak and Emmerich",
+        "Operator": "aspernatur",
         "Values": [
-          "facere",
-          "ut"
+          "in",
+          "eaque"
         ],
         "DisplayValues": [
-          "voluptate",
-          "dolor"
+          "dolorem",
+          "modi"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 944,
+        "InterParenthesis": 457,
         "InterOperator": "And",
-        "UniqueHash": 983
+        "UniqueHash": 136
       }
     ]
   },
   {
-    "Name": "Miller-Kihn",
-    "Description": "Function-based intangible support",
-    "Rank": 90,
+    "Name": "Kuhlman Inc and Sons",
+    "Description": "Profit-focused needs-based monitoring",
+    "Rank": 662,
     "Restrictions": [
       {
-        "Name": "Wilkinson Inc and Sons",
-        "Operator": "quo",
+        "Name": "Cummings, Zboncak and Emmerich",
+        "Operator": "aspernatur",
         "Values": [
-          "facere",
-          "ut"
+          "in",
+          "eaque"
         ],
         "DisplayValues": [
-          "voluptate",
-          "dolor"
+          "dolorem",
+          "modi"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 944,
+        "InterParenthesis": 457,
         "InterOperator": "And",
-        "UniqueHash": 983
+        "UniqueHash": 136
       }
     ]
   }

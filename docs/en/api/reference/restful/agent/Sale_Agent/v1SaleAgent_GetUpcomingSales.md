@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 436,
-  "Count": 22
+  "WeightedAmountLimit": 97,
+  "Count": 83
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Schultz-Hessel",
-    "SaleDate": "2001-05-31T13:38:14.0928295+02:00",
-    "SaleId": 909,
-    "Probability": 158,
-    "Title": "vero",
-    "Amount": 30365.325999999997,
-    "Currency": "sunt",
-    "ProjectName": "O'Hara Group",
-    "AssociateFullName": "Giuseppe Jacobson",
-    "Description": "Stand-alone maximized encryption",
+    "ContactName": "Sauer-Carroll",
+    "SaleDate": "2006-05-06T13:57:13.1757129+02:00",
+    "SaleId": 802,
+    "Probability": 525,
+    "Title": "fuga",
+    "Amount": 30362.192,
+    "Currency": "dolor",
+    "ProjectName": "Leannon, Boyer and Herman",
+    "AssociateFullName": "Prof. Troy Zemlak",
+    "Description": "Persistent optimizing moratorium",
     "Status": "Lost",
-    "WeightedAmount": 9420.804,
-    "ProjectId": 50,
-    "EarningPercent": 15250.044,
-    "Earning": 24871.424,
-    "ContactId": 382,
-    "AssociateId": 214,
-    "PersonId": 806,
-    "SaleTypeId": 246,
-    "SaleTypeName": "Kuphal Group",
-    "PersonFullName": "Mr. Patricia Elza Hickle",
+    "WeightedAmount": 24815.012,
+    "ProjectId": 322,
+    "EarningPercent": 20386.67,
+    "Earning": 29506.61,
+    "ContactId": 397,
+    "AssociateId": 195,
+    "PersonId": 254,
+    "SaleTypeId": 151,
+    "SaleTypeName": "Windler Group",
+    "PersonFullName": "Rebekah Botsford",
     "Completed": "Completed",
-    "ActiveErpLinks": 276,
-    "NextDueDate": "2004-05-15T13:38:14.0928295+02:00",
-    "Number": "875677",
+    "ActiveErpLinks": 62,
+    "NextDueDate": "2013-08-02T13:57:13.1757129+02:00",
+    "Number": "843812",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 893
+        "FieldLength": 141
       }
     }
   }

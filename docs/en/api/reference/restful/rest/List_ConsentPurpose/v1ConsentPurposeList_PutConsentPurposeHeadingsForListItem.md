@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 62,
-    "Name": "Metz-Rempel",
-    "ToolTip": "Quod maxime praesentium cumque laudantium repellendus.",
+    "Id": 416,
+    "Name": "Donnelly Inc and Sons",
+    "ToolTip": "Ea aperiam.",
     "Deleted": false,
-    "Rank": 548,
-    "Type": "quod",
-    "ColorBlock": 600,
-    "IconHint": "et",
+    "Rank": 437,
+    "Type": "natus",
+    "ColorBlock": 110,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "2016-09-23T13:38:17.9994152+02:00",
+    "LastChanged": "2005-02-23T13:57:19.6721792+01:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Stracke-Auer",
-        "ToolTip": "Reprehenderit facilis perferendis molestias.",
+        "Id": 242,
+        "Name": "Yost Group",
+        "ToolTip": "Voluptas et.",
         "Deleted": false,
-        "Rank": 425,
-        "Type": "molestiae",
-        "ColorBlock": 499,
-        "IconHint": "nemo",
+        "Rank": 377,
+        "Type": "fugit",
+        "ColorBlock": 620,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2019-08-18T13:38:17.9994152+02:00",
+        "LastChanged": "1997-07-04T13:57:19.6721792+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "dolorem",
-        "Hidden": false,
-        "FullName": "Lora Herman"
+        "ExtraInfo": "accusamus",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Chesley Kautzer"
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "eum",
+    "ExtraInfo": "dolore",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Forrest Kunde"
+    "FullName": "Rickie Ward Littel DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 223,
-    "Name": "Wunsch-Howell",
-    "ToolTip": "Debitis quis magnam ut.",
+    "Id": 721,
+    "Name": "Rau-Jewess",
+    "ToolTip": "Et maiores hic est est accusantium ipsum omnis.",
     "Deleted": false,
-    "Rank": 246,
-    "Type": "qui",
-    "ColorBlock": 5,
-    "IconHint": "reprehenderit",
+    "Rank": 38,
+    "Type": "omnis",
+    "ColorBlock": 266,
+    "IconHint": "necessitatibus",
     "Selected": false,
-    "LastChanged": "2023-03-16T13:38:17.9994152+01:00",
+    "LastChanged": "2018-05-05T13:57:19.6721792+02:00",
     "ChildItems": [
       {
-        "Id": 443,
-        "Name": "Conn, Aufderhar and Bernhard",
-        "ToolTip": "Itaque corporis praesentium harum voluptas distinctio.",
-        "Deleted": true,
-        "Rank": 838,
-        "Type": "odio",
-        "ColorBlock": 974,
-        "IconHint": "magnam",
+        "Id": 14,
+        "Name": "Rempel-Yost",
+        "ToolTip": "Pariatur est eum distinctio consequatur.",
+        "Deleted": false,
+        "Rank": 720,
+        "Type": "deleniti",
+        "ColorBlock": 804,
+        "IconHint": "ratione",
         "Selected": true,
-        "LastChanged": "2006-10-09T13:38:17.9994152+02:00",
+        "LastChanged": "1997-10-04T13:57:19.6721792+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Alana Fisher",
+        "ExtraInfo": "quis",
+        "StyleHint": "vitae",
+        "Hidden": false,
+        "FullName": "Aditya Langosh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 421
+            "FieldLength": 42
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "porro",
-    "Hidden": false,
-    "FullName": "Nannie Bashirian",
+    "ExtraInfo": "ratione",
+    "StyleHint": "eligendi",
+    "Hidden": true,
+    "FullName": "Alicia Norene Daniel DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 519
+        "FieldType": "System.Int32",
+        "FieldLength": 773
       }
     }
   }

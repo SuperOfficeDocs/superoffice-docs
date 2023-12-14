@@ -916,6 +916,36 @@ title: Services88.ConfigurationAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetAllFeatureToggles">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllFeatureTogglesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:StringBoolDictionary" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="StringBoolDictionary">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringBoolKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" type="xs:boolean" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="StringBoolDictionary" nillable="true" type="tns:StringBoolDictionary" />
       <xs:element name="GetDiaryViewEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1819,6 +1849,23 @@ title: Services88.ConfigurationAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetAllFeatureTogglesRequest">
+    <wsdl:part name="parameters" element="tns:GetAllFeatureToggles" />
+  </wsdl:message>
+  <wsdl:message name="GetAllFeatureTogglesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAllFeatureTogglesResponse">
+    <wsdl:part name="parameters" element="tns:GetAllFeatureTogglesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllFeatureTogglesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetDiaryViewEntityRequest">
     <wsdl:part name="parameters" element="tns:GetDiaryViewEntity" />
   </wsdl:message>
@@ -2162,6 +2209,10 @@ title: Services88.ConfigurationAgent WSDL
     <wsdl:operation name="GetSpfDomain">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetSpfDomain" name="GetSpfDomainRequest" message="tns:GetSpfDomainRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetSpfDomainResponse" name="GetSpfDomainResponse" message="tns:GetSpfDomainResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllFeatureToggles">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetAllFeatureToggles" name="GetAllFeatureTogglesRequest" message="tns:GetAllFeatureTogglesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetAllFeatureTogglesResponse" name="GetAllFeatureTogglesResponse" message="tns:GetAllFeatureTogglesResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDiaryViewEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetDiaryViewEntity" name="GetDiaryViewEntityRequest" message="tns:GetDiaryViewEntityRequest" />
@@ -2831,6 +2882,22 @@ title: Services88.ConfigurationAgent WSDL
         <soap:header message="tns:GetSpfDomainResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetSpfDomainResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetSpfDomainResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllFeatureToggles">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetAllFeatureToggles" style="document" />
+      <wsdl:input name="GetAllFeatureTogglesRequest">
+        <soap:header message="tns:GetAllFeatureTogglesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetAllFeatureTogglesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetAllFeatureTogglesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAllFeatureTogglesResponse">
+        <soap:header message="tns:GetAllFeatureTogglesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetAllFeatureTogglesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetAllFeatureTogglesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetAllFeatureTogglesResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

@@ -28,8 +28,8 @@ Search the strings using Q parameter.
 | isoLangCode | string |  ISO Language code. ("nb-no", "en-gb" etc) Defaults to English if nothing specified in the Accept-Language header. |
 
 ```http
-GET /api/v1/String?q=culpa
-GET /api/v1/String?isoLangCode=velit
+GET /api/v1/String?q=fugit
+GET /api/v1/String?isoLangCode=est
 ```
 
 
@@ -64,7 +64,7 @@ OK
 GET /api/v1/String
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,6 +75,6 @@ Content-Type: application/json; charset=utf-8
 
 [
   "et",
-  "expedita"
+  "iste"
 ]
 ```

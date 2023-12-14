@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 482
+  "QuoteConnectionId": 410
 }
 ```
 
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 993,
-  "ERPName": "Schamberger Inc and Sons",
-  "DisplayName": "Graham, Rempel and Von",
-  "DisplayDescription": "Extended analyzing approach",
-  "Rank": 533,
-  "ConnectorName": "Jenkins-McClure",
-  "ErpConnectionId": 737,
-  "ExtraData": "autem",
-  "IsAvailable": true,
+  "QuoteConnectionId": 47,
+  "ERPName": "Strosin, Ritchie and Corwin",
+  "DisplayName": "Nienow, Yundt and Lehner",
+  "DisplayDescription": "Front-line incremental core",
+  "Rank": 953,
+  "ConnectorName": "Beier Group",
+  "ErpConnectionId": 838,
+  "ExtraData": "molestias",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 234,
-      "ERPPriceListKey": "facilis",
-      "QuoteConnectionId": 639,
-      "Name": "Maggio Group",
-      "Description": "Grass-roots systemic forecast",
-      "Currency": "modi",
-      "CurrencyName": "Olson-Mueller",
-      "ValidFrom": "2015-05-17T13:38:14.0303322+02:00",
-      "ValidTo": "2004-11-18T13:38:14.0303322+01:00",
-      "IsActive": false,
+      "PriceListId": 965,
+      "ERPPriceListKey": "tempore",
+      "QuoteConnectionId": 410,
+      "Name": "Moen, Feil and VonRueden",
+      "Description": "Cross-group radical system engine",
+      "Currency": "quo",
+      "CurrencyName": "Toy, Bahringer and Armstrong",
+      "ValidFrom": "2006-12-14T13:57:13.064942+01:00",
+      "ValidTo": "2021-12-06T13:57:13.064942+01:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 515
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    547,
-    158
+    886,
+    955
   ],
   "AssociateAccessIds": [
-    982,
-    636
+    712,
+    815
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldType": "System.String",
+      "FieldLength": 744
     }
   }
 }

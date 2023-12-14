@@ -87,35 +87,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 811,
-  "Field": "ut",
-  "RecordId": 892,
+  "RefCountsId": 644,
+  "Field": "non",
+  "RecordId": 273,
   "SuggestedRecords": [
     {
-      "Id": 747,
-      "Name": "Ferry, Nader and Dach",
-      "ToolTip": "Accusantium magnam recusandae et et dolores eos illum.",
+      "Id": 694,
+      "Name": "Fadel, Boyer and Quitzon",
+      "ToolTip": "Dolorem est minima et ducimus consequatur repellendus.",
       "Deleted": false,
-      "Rank": 821,
-      "Type": "soluta",
+      "Rank": 105,
+      "Type": "eius",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "nisi",
-      "ColorBlock": 376,
-      "ExtraInfo": "ut",
-      "StyleHint": "quod",
-      "FullName": "Ms. Eve Yadira Hartmann PhD"
+      "IconHint": "blanditiis",
+      "ColorBlock": 89,
+      "ExtraInfo": "sunt",
+      "StyleHint": "id",
+      "FullName": "Mrs. Darrell Shirley Schaden Sr."
     }
   ],
-  "CurrentValue": 272,
-  "TravelPrefix": 493,
-  "SatPrefix": 13,
+  "CurrentValue": 442,
+  "TravelPrefix": 336,
+  "SatPrefix": 660,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": false
+  "AllowBlank": true
 }
 ```
 
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 202,
-  "Field": "sapiente",
-  "RecordId": 37,
+  "RefCountsId": 106,
+  "Field": "accusantium",
+  "RecordId": 986,
   "SuggestedRecords": [
     {
-      "Id": 198,
-      "Name": "Connelly-Hamill",
-      "ToolTip": "Omnis sint esse eaque a.",
-      "Deleted": true,
-      "Rank": 43,
-      "Type": "inventore",
+      "Id": 79,
+      "Name": "Keeling-Schmeler",
+      "ToolTip": "Minus laudantium consectetur.",
+      "Deleted": false,
+      "Rank": 734,
+      "Type": "quasi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aliquid",
-      "ColorBlock": 225,
-      "ExtraInfo": "dolores",
-      "StyleHint": "in",
-      "FullName": "Conner Howe",
+      "IconHint": "dolor",
+      "ColorBlock": 208,
+      "ExtraInfo": "quibusdam",
+      "StyleHint": "quos",
+      "FullName": "Syble Schimmel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 175
+          "FieldLength": 612
         }
       }
     }
   ],
-  "CurrentValue": 105,
-  "TravelPrefix": 396,
-  "SatPrefix": 699,
+  "CurrentValue": 913,
+  "TravelPrefix": 212,
+  "SatPrefix": 89,
   "Allocate": false,
-  "Unique": false,
-  "ReadOnly": true,
-  "AllowBlank": true,
+  "Unique": true,
+  "ReadOnly": false,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 913
+      "FieldLength": 341
     }
   }
 }

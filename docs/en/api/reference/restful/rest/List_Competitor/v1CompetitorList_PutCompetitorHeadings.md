@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 625,
-    "Name": "Trantow, Beahan and Kovacek",
-    "Tooltip": "in",
+    "HeadingId": 108,
+    "Name": "Champlin LLC",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "Rank": 549,
-    "UdListDefinitionId": 511
+    "Rank": 484,
+    "UdListDefinitionId": 510
   },
   {
-    "HeadingId": 625,
-    "Name": "Trantow, Beahan and Kovacek",
-    "Tooltip": "in",
+    "HeadingId": 108,
+    "Name": "Champlin LLC",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "Rank": 549,
-    "UdListDefinitionId": 511
+    "Rank": 484,
+    "UdListDefinitionId": 510
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 162,
-    "Name": "Lemke-Schultz",
-    "Tooltip": "impedit",
-    "Deleted": true,
-    "Rank": 832,
-    "UdListDefinitionId": 124,
+    "HeadingId": 948,
+    "Name": "Yundt, Farrell and Parisian",
+    "Tooltip": "nulla",
+    "Deleted": false,
+    "Rank": 794,
+    "UdListDefinitionId": 804,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 350
+        "FieldType": "System.String",
+        "FieldLength": 447
       }
     }
   }

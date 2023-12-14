@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 385,
-  "Name": "Gerhold LLC",
-  "CreatedDate": "2006-01-17T13:38:17.4368262+01:00",
-  "UpdatedDate": "2021-07-10T13:38:17.4368262+02:00",
+  "ForeignAppId": 900,
+  "Name": "Kuphal, Heathcote and Corkery",
+  "CreatedDate": "2017-03-01T13:57:18.8109737+01:00",
+  "UpdatedDate": "2003-03-17T13:57:18.8109737+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 873,
-      "Name": "Hartmann-Heller",
-      "CreatedDate": "2005-07-17T13:38:17.4368262+02:00",
-      "UpdatedDate": "2013-12-24T13:38:17.4368262+01:00",
-      "AssociateFullName": "Bernardo Shanel Kuvalis V",
-      "CreatedBy": "rem",
-      "UpdatedBy": "vitae",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 187
+      "ForeignDeviceId": 717,
+      "Name": "Brakus-Medhurst",
+      "CreatedDate": "2001-01-19T13:57:18.8109737+01:00",
+      "UpdatedDate": "2004-11-12T13:57:18.8109737+01:00",
+      "AssociateFullName": "Mrs. Jayda Ellis Dickens II",
+      "CreatedBy": "deserunt",
+      "UpdatedBy": "ratione",
+      "DeviceIdentifier": "doloremque",
+      "ForeignAppId": 222
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 747,
-  "Name": "Kris LLC",
-  "CreatedDate": "2014-09-23T13:38:17.4368262+02:00",
-  "UpdatedDate": "2020-09-29T13:38:17.4368262+02:00",
+  "ForeignAppId": 297,
+  "Name": "Dibbert-Rippin",
+  "CreatedDate": "2000-10-02T13:57:18.8109737+02:00",
+  "UpdatedDate": "2000-01-03T13:57:18.8109737+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 452,
-      "Name": "Lehner, Dooley and Dare",
-      "CreatedDate": "2013-04-24T13:38:17.4368262+02:00",
-      "UpdatedDate": "2005-08-29T13:38:17.4368262+02:00",
-      "AssociateFullName": "Lenora Willms V",
-      "CreatedBy": "enim",
-      "UpdatedBy": "voluptas",
-      "DeviceIdentifier": "expedita",
-      "ForeignAppId": 437,
+      "ForeignDeviceId": 259,
+      "Name": "Gutkowski-Mills",
+      "CreatedDate": "2007-12-17T13:57:18.8109737+01:00",
+      "UpdatedDate": "2005-07-11T13:57:18.8109737+02:00",
+      "AssociateFullName": "Mrs. Jade Eli Frami",
+      "CreatedBy": "saepe",
+      "UpdatedBy": "quibusdam",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 871,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 382
+          "FieldLength": 744
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldLength": 6
     }
   },
   "_Links": {

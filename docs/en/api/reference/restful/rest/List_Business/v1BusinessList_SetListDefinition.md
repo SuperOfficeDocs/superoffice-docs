@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 629,
-  "Name": "Gutkowski, Smitham and Beahan",
-  "Tooltip": "provident",
+  "Id": 337,
+  "Name": "Ward-King",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 723,
+  "Rank": 861,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "eum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 174,
-  "Name": "Bernhard, Kris and Reilly",
-  "Tooltip": "assumenda",
+  "Id": 777,
+  "Name": "Emmerich, Raynor and Gerhold",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 395,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolorem",
+  "Rank": 846,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "possimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 114
+      "FieldLength": 249
     }
   }
 }

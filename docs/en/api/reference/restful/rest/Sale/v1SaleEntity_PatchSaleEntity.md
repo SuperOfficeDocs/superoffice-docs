@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "esse",
+    "path": "voluptatibus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "esse",
+    "path": "voluptatibus",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "iste",
+  "SaleText": "expedita",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2015-10-04T13:38:17.624303+02:00",
-  "Amount": 11981.282,
-  "SaleId": 440,
-  "Earning": 4180.756,
-  "EarningPercent": 30152.214,
-  "Heading": "et",
-  "Number": "811247",
-  "Probability": 739,
-  "CreatedDate": "2017-01-17T13:38:17.624303+01:00",
-  "UpdatedDate": "2007-06-11T13:38:17.624303+02:00",
+  "Saledate": "1997-06-15T13:57:19.2190256+02:00",
+  "Amount": 22430.038,
+  "SaleId": 196,
+  "Earning": 25328.987999999998,
+  "EarningPercent": 28162.124,
+  "Heading": "voluptatem",
+  "Number": "810315",
+  "Probability": 743,
+  "CreatedDate": "2003-08-19T13:57:19.2190256+02:00",
+  "UpdatedDate": "2012-01-03T13:57:19.2190256+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 753,
+  "ActiveLinks": 444,
   "Links": [
     {
-      "EntityName": "Ullrich, Senger and Botsford",
-      "Id": 815,
-      "Description": "Operative encompassing data-warehouse",
-      "ExtraInfo": "quasi",
-      "LinkId": 153,
+      "EntityName": "Kirlin Group",
+      "Id": 788,
+      "Description": "Quality-focused regional moderator",
+      "ExtraInfo": "facere",
+      "LinkId": 791,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 198
+          "FieldLength": 908
         }
       }
     }
   ],
-  "NextDueDate": "2006-02-24T13:38:17.624303+01:00",
-  "Postit": "vitae",
+  "NextDueDate": "2017-02-21T13:57:19.2190256+01:00",
+  "Postit": "veniam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2003-01-15T13:38:17.624303+01:00",
+  "ReopenDate": "2008-06-13T13:57:19.2190256+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Mohr-Barrows",
-      "Comment": "sunt",
-      "StakeholderRoleId": 818,
-      "CountryId": 894,
-      "PersonId": 720,
-      "EmailDescription": "louvenia@erdman.biz",
-      "EmailId": 772,
-      "EmailAddress": "marta@harber.biz",
-      "PhoneId": 767,
-      "ContactName": "Schuster, Monahan and Boyle",
-      "ContactId": 545,
-      "SaleId": 189,
-      "Mrmrs": "aut",
-      "Firstname": "Bulah",
-      "MiddleName": "Schaefer-Padberg",
-      "Lastname": "Kemmer",
-      "SaleStakeholderId": 749,
-      "Rank": 56,
-      "Phone": "(049)440-4966",
+      "StakeholderRoleName": "Jerde Group",
+      "Comment": "consequatur",
+      "StakeholderRoleId": 361,
+      "CountryId": 189,
+      "PersonId": 317,
+      "EmailDescription": "flavie.cummings@romagueramills.com",
+      "EmailId": 188,
+      "EmailAddress": "lourdes.beier@stanton.biz",
+      "PhoneId": 496,
+      "ContactName": "Hoppe Inc and Sons",
+      "ContactId": 551,
+      "SaleId": 480,
+      "Mrmrs": "autem",
+      "Firstname": "Ernie",
+      "MiddleName": "Wunsch, Osinski and Schaefer",
+      "Lastname": "Crooks",
+      "SaleStakeholderId": 29,
+      "Rank": 53,
+      "Phone": "889-623-4501 x3117",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 227
+          "FieldLength": 568
         }
       }
     }
   ],
-  "ActiveErpLinks": 581,
+  "ActiveErpLinks": 55,
   "UserDefinedFields": {
-    "SuperOffice:1": "Yazmin Mante",
-    "SuperOffice:2": "Miss Pearl Ubaldo Hodkiewicz"
+    "SuperOffice:1": "Mrs. Ilene Cornell Reilly",
+    "SuperOffice:2": "Luigi Braun I"
   },
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "quos"
+    "CustomFields1": "optio",
+    "CustomFields2": "dolorum"
   },
-  "PublishEventDate": "2020-09-01T13:38:17.624303+02:00",
-  "PublishTo": "2009-08-15T13:38:17.624303+02:00",
-  "PublishFrom": "2003-05-15T13:38:17.624303+02:00",
+  "PublishEventDate": "2021-01-27T13:57:19.2190256+01:00",
+  "PublishTo": "2014-02-03T13:57:19.2190256+01:00",
+  "PublishFrom": "2008-11-18T13:57:19.2190256+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 736,
+      "VisibleId": 256,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 794
+          "FieldType": "System.String",
+          "FieldLength": 246
         }
       }
     },
     {
-      "VisibleId": 736,
+      "VisibleId": 256,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 794
+          "FieldType": "System.String",
+          "FieldLength": 246
         }
       }
     }
@@ -306,7 +306,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 223
     }
   },
   "_Links": {

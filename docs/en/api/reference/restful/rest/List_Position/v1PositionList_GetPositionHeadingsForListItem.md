@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Schuster-Dibbert",
-    "ToolTip": "Reprehenderit dolor ut.",
+    "Id": 741,
+    "Name": "King-Daugherty",
+    "ToolTip": "Qui nesciunt expedita voluptatem libero suscipit ut.",
     "Deleted": false,
-    "Rank": 343,
-    "Type": "assumenda",
-    "ColorBlock": 587,
-    "IconHint": "quae",
+    "Rank": 864,
+    "Type": "ex",
+    "ColorBlock": 884,
+    "IconHint": "excepturi",
     "Selected": false,
-    "LastChanged": "2006-02-07T13:38:18.1087815+01:00",
+    "LastChanged": "2009-10-01T13:57:19.8283923+02:00",
     "ChildItems": [
       {
-        "Id": 402,
-        "Name": "Beer Inc and Sons",
-        "ToolTip": "Vitae ab omnis est illo nulla alias.",
+        "Id": 498,
+        "Name": "Simonis-Ledner",
+        "ToolTip": "Animi et vel fugit eos voluptatem consequuntur laborum.",
         "Deleted": false,
-        "Rank": 49,
-        "Type": "ut",
-        "ColorBlock": 496,
-        "IconHint": "totam",
+        "Rank": 291,
+        "Type": "a",
+        "ColorBlock": 599,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2016-10-06T13:38:18.1087815+02:00",
+        "LastChanged": "2019-09-20T13:57:19.8283923+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "ratione",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Miss Vada Crooks",
+        "FullName": "Dr. Grady Stokes I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldLength": 846
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "doloremque",
-    "Hidden": false,
-    "FullName": "Mr. Claudia Waters",
+    "ExtraInfo": "quod",
+    "StyleHint": "dolor",
+    "Hidden": true,
+    "FullName": "Lorna Prosacco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 234
+        "FieldType": "System.Int32",
+        "FieldLength": 230
       }
     }
   }

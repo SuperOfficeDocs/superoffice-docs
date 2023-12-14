@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Cassin, Becker and Homenick",
-    "AssociateId": 880,
-    "DetailsTable": 629,
-    "DetailsRecord": 147,
+    "Id": 333,
+    "Name": "Witting Inc and Sons",
+    "AssociateId": 351,
+    "DetailsTable": 568,
+    "DetailsRecord": 800,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "repudiandae",
-      "ParameterObject2": "dicta"
+      "ParameterObject1": "ipsum",
+      "ParameterObject2": "ut"
     },
-    "LastStarted": "2005-05-09T13:38:13.0771703+02:00",
-    "Created": "2003-12-15T13:38:13.0771703+01:00",
-    "StartCount": 181,
-    "DatabaseSerialNumber": "887953",
-    "Context": "nesciunt",
-    "Result": "officiis",
+    "LastStarted": "2008-11-25T13:57:11.5594343+01:00",
+    "Created": "1997-12-08T13:57:11.5594343+01:00",
+    "StartCount": 470,
+    "DatabaseSerialNumber": "1113365",
+    "Context": "sapiente",
+    "Result": "quis",
     "State": "All",
-    "Description": "Up-sized dynamic benchmark",
-    "Response": "maiores",
-    "Request": "adipisci",
-    "ProgressDescription": "Automated 24 hour archive",
-    "ProgressPercent": 225,
-    "FileName": "Mayer-Towne",
+    "Description": "Ergonomic encompassing help-desk",
+    "Response": "vel",
+    "Request": "placeat",
+    "ProgressDescription": "Innovative bandwidth-monitored contingency",
+    "ProgressPercent": 119,
+    "FileName": "Dach Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 171
+        "FieldType": "System.Int32",
+        "FieldLength": 550
       }
     }
   }

@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Dickens, Emmerich and Durgan"
+  "FunctionalRightName": "Goldner Group"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 108,
-    "Name": "Volkman, Kling and Bernhard",
-    "ToolTip": "Illo ab saepe sunt laudantium qui rerum sit.",
+    "Id": 463,
+    "Name": "Pagac Group",
+    "ToolTip": "Omnis ipsum est minus nisi est eos.",
     "Deleted": false,
-    "Rank": 928,
-    "Type": "officia",
+    "Rank": 619,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 105,
-        "Name": "Schroeder Group",
-        "ToolTip": "Aut porro.",
-        "Deleted": true,
-        "Rank": 485,
-        "Type": "quo",
+        "Id": 80,
+        "Name": "Jones-Halvorson",
+        "ToolTip": "Vitae sunt recusandae ex dolor.",
+        "Deleted": false,
+        "Rank": 528,
+        "Type": "suscipit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 278,
-        "ExtraInfo": "repellat",
-        "StyleHint": "illo",
-        "FullName": "Dr. Francesca Ben Steuber I",
+        "IconHint": "amet",
+        "ColorBlock": 839,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "modi",
+        "FullName": "Ken Orpha O'Keefe V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 975
+            "FieldLength": 429
           }
         }
       }
     ],
-    "IconHint": "esse",
-    "ColorBlock": 936,
-    "ExtraInfo": "delectus",
-    "StyleHint": "et",
-    "FullName": "Luigi Kessler Sr.",
+    "IconHint": "maxime",
+    "ColorBlock": 516,
+    "ExtraInfo": "debitis",
+    "StyleHint": "ut",
+    "FullName": "Anjali Considine",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldLength": 877
       }
     }
   }

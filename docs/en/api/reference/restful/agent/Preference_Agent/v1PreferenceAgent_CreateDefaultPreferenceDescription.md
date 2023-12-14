@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 683,
-  "Section": "deserunt",
-  "Key": "quod",
-  "Name": "Erdman, Predovic and McGlynn",
+  "PrefDescId": 345,
+  "Section": "non",
+  "Key": "ut",
+  "Name": "Rohan-Borer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persistent discrete Graphic Interface",
-  "IsBuiltin": true,
-  "TableName": "Nitzsche Inc and Sons",
-  "UserDefinedListId": 259,
-  "Rank": 861,
-  "SubGroup": "modi",
-  "MinLevel": 868,
-  "MaxValue": 58,
-  "MinValue": 619,
-  "RequiredLicense": "et",
+  "Description": "Object-based background interface",
+  "IsBuiltin": false,
+  "TableName": "Konopelski LLC",
+  "UserDefinedListId": 692,
+  "Rank": 584,
+  "SubGroup": "suscipit",
+  "MinLevel": 727,
+  "MaxValue": 710,
+  "MinValue": 824,
+  "RequiredLicense": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldLength": 602
     }
   }
 }

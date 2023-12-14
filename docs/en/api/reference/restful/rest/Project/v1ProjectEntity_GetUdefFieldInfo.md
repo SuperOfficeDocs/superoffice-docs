@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 960,
-  "ColumnId": 692,
-  "FieldDefault": "earum",
-  "FieldHeight": 218,
-  "FieldLabel": "ipsum",
-  "FieldLeft": 496,
-  "FieldTop": 410,
+  "UDefFieldId": 470,
+  "ColumnId": 956,
+  "FieldDefault": "et",
+  "FieldHeight": 663,
+  "FieldLabel": "sunt",
+  "FieldLeft": 89,
+  "FieldTop": 832,
   "FieldType": "Checkbox",
-  "FieldWidth": 932,
-  "FormatMask": "eaque",
+  "FieldWidth": 43,
+  "FormatMask": "minima",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 752,
-  "LabelLeft": 914,
-  "LabelTop": 323,
-  "LabelWidth": 511,
-  "LastVersionId": 443,
-  "ListTableId": 675,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 606,
+  "LabelLeft": 44,
+  "LabelTop": 426,
+  "LabelWidth": 553,
+  "LastVersionId": 807,
+  "ListTableId": 36,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 687,
-  "ProgId": "debitis",
-  "IsReadOnly": true,
-  "ShortLabel": "harum",
-  "TabOrder": 125,
-  "TextLength": 215,
-  "Tooltip": "quo",
-  "UdefIdentity": 675,
-  "UDListDefinitionId": 262,
+  "Page1LineNo": 754,
+  "ProgId": "quisquam",
+  "IsReadOnly": false,
+  "ShortLabel": "tenetur",
+  "TabOrder": 498,
+  "TextLength": 16,
+  "Tooltip": "praesentium",
+  "UdefIdentity": 762,
+  "UDListDefinitionId": 752,
   "Justification": "Center",
-  "Version": 368,
-  "TemplateVariableName": "Littel-Tillman",
+  "Version": 560,
+  "TemplateVariableName": "Boehm Group",
   "HasBeenPublished": false,
-  "MdoListName": "Krajcik Inc and Sons",
+  "MdoListName": "Bashirian-Kunde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 230
+      "FieldLength": 104
     }
   }
 }

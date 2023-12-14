@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Dicki, Dietrich and Pfeffer",
-  "Context": "adipisci"
+  "ProviderName": "Grimes Group",
+  "Context": "itaque"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 764,
-    "Name": "Rath Inc and Sons",
-    "ToolTip": "Ipsum ut qui distinctio nesciunt mollitia molestiae.",
+    "Id": 686,
+    "Name": "Kuhic Group",
+    "ToolTip": "Enim eos tempora minima voluptatum cum architecto aut.",
     "Deleted": false,
-    "Rank": 994,
-    "Type": "rerum",
+    "Rank": 32,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 779,
-        "Name": "Bednar, Ward and Schmidt",
-        "ToolTip": "Quam ratione ab sed dolor.",
-        "Deleted": false,
-        "Rank": 337,
-        "Type": "ea",
+        "Id": 278,
+        "Name": "Stokes, Haley and Stroman",
+        "ToolTip": "Est sequi rerum cum est.",
+        "Deleted": true,
+        "Rank": 476,
+        "Type": "vitae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "maiores",
-        "ColorBlock": 251,
-        "ExtraInfo": "eius",
-        "StyleHint": "ipsum",
-        "FullName": "Mr. Paris Berge III",
+        "IconHint": "aliquam",
+        "ColorBlock": 602,
+        "ExtraInfo": "qui",
+        "StyleHint": "laborum",
+        "FullName": "Domingo Schuster",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 748
+            "FieldLength": 800
           }
         }
       }
     ],
-    "IconHint": "repellat",
-    "ColorBlock": 979,
-    "ExtraInfo": "labore",
-    "StyleHint": "incidunt",
-    "FullName": "Bradford Rice",
+    "IconHint": "quae",
+    "ColorBlock": 122,
+    "ExtraInfo": "consectetur",
+    "StyleHint": "eum",
+    "FullName": "Everette Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 872
+        "FieldType": "System.Int32",
+        "FieldLength": 796
       }
     }
   }

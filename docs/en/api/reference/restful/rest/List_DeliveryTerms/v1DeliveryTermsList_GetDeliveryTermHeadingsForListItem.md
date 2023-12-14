@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Wyman, Monahan and Kuphal",
-    "ToolTip": "Et repudiandae corporis fugit rerum debitis rerum.",
-    "Deleted": false,
-    "Rank": 758,
-    "Type": "debitis",
-    "ColorBlock": 174,
-    "IconHint": "tempore",
+    "Id": 248,
+    "Name": "Lubowitz, Nienow and Klocko",
+    "ToolTip": "Perspiciatis eum voluptatem esse.",
+    "Deleted": true,
+    "Rank": 597,
+    "Type": "illum",
+    "ColorBlock": 22,
+    "IconHint": "consequatur",
     "Selected": true,
-    "LastChanged": "2020-03-16T13:38:18.0462875+01:00",
+    "LastChanged": "2003-04-14T13:57:19.7346424+02:00",
     "ChildItems": [
       {
-        "Id": 713,
-        "Name": "Cummings Group",
-        "ToolTip": "Dicta enim magnam.",
+        "Id": 944,
+        "Name": "Parisian-Zemlak",
+        "ToolTip": "Qui odit atque nostrum cum voluptas.",
         "Deleted": true,
-        "Rank": 702,
-        "Type": "nulla",
-        "ColorBlock": 353,
-        "IconHint": "est",
+        "Rank": 689,
+        "Type": "est",
+        "ColorBlock": 453,
+        "IconHint": "vel",
         "Selected": true,
-        "LastChanged": "2011-11-17T13:38:18.0462875+01:00",
+        "LastChanged": "2010-12-02T13:57:19.7346424+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Jacinto Farrell",
+        "ExtraInfo": "nihil",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Ms. D'angelo Nya Dare II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 326
+            "FieldLength": 372
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "aspernatur",
-    "Hidden": true,
-    "FullName": "Tyreek Fritsch",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "dicta",
+    "Hidden": false,
+    "FullName": "Mattie Brown",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 436
       }
     }
   }

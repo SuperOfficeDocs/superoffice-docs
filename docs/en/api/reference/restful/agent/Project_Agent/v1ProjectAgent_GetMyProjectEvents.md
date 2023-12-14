@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Wilber Lemke",
-    "Description": "Upgradable client-driven capacity",
-    "ProjectId": 433,
-    "EventName": "Ziemann LLC",
-    "AssociateId": 824,
-    "IsSignedOn": true,
-    "SignOffConfirmationText": "quis",
-    "SignOffText": "facilis",
-    "SignOnConfirmationText": "fugit",
-    "SignOnText": "voluptas",
-    "EventDate": "2012-02-13T13:38:13.9834617+01:00",
+    "AssociateFullName": "Prof. Rosalia Daija Ferry II",
+    "Description": "Self-enabling asynchronous core",
+    "ProjectId": 438,
+    "EventName": "Wolff, Zboncak and Abshire",
+    "AssociateId": 989,
+    "IsSignedOn": false,
+    "SignOffConfirmationText": "quo",
+    "SignOffText": "minus",
+    "SignOnConfirmationText": "sunt",
+    "SignOnText": "voluptatum",
+    "EventDate": "2009-03-11T13:57:13.0011314+01:00",
     "Enabled": false,
     "SignOff": false,
-    "SignOffTaskEnable": true,
+    "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
-    "SignOn": true,
-    "SignOffTaskId": 498,
-    "SignOnTaskId": 734,
+    "SignOn": false,
+    "SignOffTaskId": 931,
+    "SignOnTaskId": 247,
     "SignOffTriggersAssign": false,
-    "SignOnTriggersAssign": false,
-    "SignOnPersonId": 641,
-    "SignOffPersonId": 585,
+    "SignOnTriggersAssign": true,
+    "SignOnPersonId": 998,
+    "SignOffPersonId": 875,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 992
+        "FieldLength": 201
       }
     }
   }

@@ -73,63 +73,63 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rice, Runolfsson and Kuvalis",
-    "Description": "Networked responsive productivity",
-    "Rank": 156,
+    "Name": "Wyman-Emard",
+    "Description": "Versatile impactful task-force",
+    "Rank": 488,
     "Restrictions": [
       {
-        "Name": "Kiehn-Waelchi",
-        "Operator": "odit",
+        "Name": "Bergstrom, Mosciski and Doyle",
+        "Operator": "voluptas",
         "Values": [
-          "vero",
-          "eos"
+          "quaerat",
+          "repellat"
         ],
         "DisplayValues": [
-          "error",
-          "sed"
+          "incidunt",
+          "dolores"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 950,
+        "InterParenthesis": 681,
         "InterOperator": "And",
-        "UniqueHash": 345
+        "UniqueHash": 733
       }
     ]
   },
   {
-    "Name": "Rice, Runolfsson and Kuvalis",
-    "Description": "Networked responsive productivity",
-    "Rank": 156,
+    "Name": "Wyman-Emard",
+    "Description": "Versatile impactful task-force",
+    "Rank": 488,
     "Restrictions": [
       {
-        "Name": "Kiehn-Waelchi",
-        "Operator": "odit",
+        "Name": "Bergstrom, Mosciski and Doyle",
+        "Operator": "voluptas",
         "Values": [
-          "vero",
-          "eos"
+          "quaerat",
+          "repellat"
         ],
         "DisplayValues": [
-          "error",
-          "sed"
+          "incidunt",
+          "dolores"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 950,
+        "InterParenthesis": 681,
         "InterOperator": "And",
-        "UniqueHash": 345
+        "UniqueHash": 733
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hirthe LLC",
-    "Description": "Monitored next generation customer loyalty",
-    "Rank": 780,
+    "Name": "Rippin LLC",
+    "Description": "Balanced incremental middleware",
+    "Rank": 895,
     "Restrictions": [
       {
-        "Name": "Kling-Jacobson",
-        "Operator": "consectetur",
+        "Name": "Corkery, Schiller and Terry",
+        "Operator": "dolor",
         "Values": [
-          "voluptates",
-          "inventore"
+          "vero",
+          "quibusdam"
         ],
         "DisplayValues": [
-          "cumque",
-          "laboriosam"
+          "suscipit",
+          "dolores"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 183,
+        "InterParenthesis": 581,
         "InterOperator": "And",
-        "UniqueHash": 966
+        "UniqueHash": 664
       }
     ]
   },
   {
-    "Name": "Hirthe LLC",
-    "Description": "Monitored next generation customer loyalty",
-    "Rank": 780,
+    "Name": "Rippin LLC",
+    "Description": "Balanced incremental middleware",
+    "Rank": 895,
     "Restrictions": [
       {
-        "Name": "Kling-Jacobson",
-        "Operator": "consectetur",
+        "Name": "Corkery, Schiller and Terry",
+        "Operator": "dolor",
         "Values": [
-          "voluptates",
-          "inventore"
+          "vero",
+          "quibusdam"
         ],
         "DisplayValues": [
-          "cumque",
-          "laboriosam"
+          "suscipit",
+          "dolores"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 183,
+        "InterParenthesis": 581,
         "InterOperator": "And",
-        "UniqueHash": 966
+        "UniqueHash": 664
       }
     ]
   }

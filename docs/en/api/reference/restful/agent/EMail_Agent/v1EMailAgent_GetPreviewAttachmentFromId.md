@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 227,
-  "AttachmentId": "voluptatum",
-  "AttachmentType": "impedit",
-  "AttachmentFilename": "eius"
+  "MailItemId": 99,
+  "AttachmentId": "omnis",
+  "AttachmentType": "sed",
+  "AttachmentFilename": "veniam"
 }
 ```
 
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Distributed coherent info-mediaries",
-  "Filename": "impedit",
-  "Size": 453,
-  "Type": "facere",
-  "Encoding": "ducimus",
-  "Id": "eos",
-  "Disposition": "sunt",
+  "Description": "Assimilated discrete concept",
+  "Filename": "voluptatum",
+  "Size": 570,
+  "Type": "reprehenderit",
+  "Encoding": "provident",
+  "Id": "maxime",
+  "Disposition": "aspernatur",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 431
+      "FieldLength": 17
     }
   }
 }

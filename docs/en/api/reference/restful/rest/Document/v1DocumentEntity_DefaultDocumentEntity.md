@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 25 Apr 2009 13:38:17 G4T
+Last-Modified: Mon, 21 Mar 2022 13:57:18 G3T
 
 {
-  "DocumentId": 270,
+  "DocumentId": 500,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sequi",
-  "Header": "totam",
-  "Name": "Muller, Littel and Stracke",
-  "OurRef": "magni",
-  "YourRef": "et",
-  "CreatedDate": "2002-05-03T13:38:17.2962183+02:00",
-  "UpdatedDate": "2009-04-25T13:38:17.2962183+02:00",
-  "Description": "Multi-tiered uniform implementation",
+  "Attention": "mollitia",
+  "Header": "et",
+  "Name": "Bartell LLC",
+  "OurRef": "molestias",
+  "YourRef": "enim",
+  "CreatedDate": "2010-06-08T13:57:18.7003103+02:00",
+  "UpdatedDate": "2022-03-21T13:57:18.7003103+01:00",
+  "Description": "Programmable bottom-line extranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-07-22T13:38:17.2962183+02:00",
-  "ExternalRef": "exercitationem",
+  "Date": "1997-04-01T13:57:18.7161401+02:00",
+  "ExternalRef": "sed",
   "Completed": "Completed",
-  "ActiveLinks": 405,
+  "ActiveLinks": 524,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Rippin Inc and Sons",
-      "Id": 238,
-      "Description": "Profound 6th generation implementation",
-      "ExtraInfo": "ab",
-      "LinkId": 723,
+      "EntityName": "Kihn-Kassulke",
+      "Id": 558,
+      "Description": "Exclusive responsive protocol",
+      "ExtraInfo": "aliquid",
+      "LinkId": 408,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldLength": 200
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 236,
-  "Snum": 846,
+  "SuggestedDocumentId": 631,
+  "Snum": 915,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Angel Myrtis Weber",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Cheyenne Schultz",
+    "SuperOffice:2": "Mr. Cecile Johnston V"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "rem"
+    "ExtraFields1": "neque",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "adipisci",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "voluptates",
+    "CustomFields2": "consequuntur"
   },
-  "PublishEventDate": "2022-07-03T13:38:17.2962183+02:00",
-  "PublishTo": "2005-08-10T13:38:17.2962183+02:00",
-  "PublishFrom": "2011-09-22T13:38:17.2962183+02:00",
+  "PublishEventDate": "2007-03-01T13:57:18.7171795+01:00",
+  "PublishTo": "2011-12-13T13:57:18.7171795+01:00",
+  "PublishFrom": "2012-02-18T13:57:18.7171795+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 973,
+      "VisibleId": 300,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 60
         }
       }
     },
     {
-      "VisibleId": 973,
+      "VisibleId": 300,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 60
         }
       }
     }
@@ -192,7 +192,7 @@ Last-Modified: Sat, 25 Apr 2009 13:38:17 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 750
     }
   }
 }

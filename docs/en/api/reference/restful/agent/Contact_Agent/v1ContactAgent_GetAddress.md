@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 880
+  "ContactId": 328
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 18741.32,
-  "Wgs84Longitude": 10458.158,
+  "Wgs84Latitude": 14541.76,
+  "Wgs84Longitude": 13943.166,
   "LocalizedAddress": [
     [
       {
-        "Name": "Gislason, Larson and Fadel",
-        "Value": "nobis",
-        "Tooltip": "atque",
-        "Label": "eveniet",
-        "ValueLength": 185,
-        "AddressType": "ut",
+        "Name": "Crooks-Russel",
+        "Value": "voluptatibus",
+        "Tooltip": "quibusdam",
+        "Label": "facilis",
+        "ValueLength": 692,
+        "AddressType": "praesentium",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 898
+            "FieldType": "System.String",
+            "FieldLength": 186
           }
         }
       }
     ],
     [
       {
-        "Name": "Lind Group",
-        "Value": "odit",
-        "Tooltip": "rem",
-        "Label": "velit",
-        "ValueLength": 343,
-        "AddressType": "aut",
+        "Name": "Legros, Pouros and Beahan",
+        "Value": "accusamus",
+        "Tooltip": "quis",
+        "Label": "doloremque",
+        "ValueLength": 669,
+        "AddressType": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 909
+            "FieldLength": 910
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "reprehenderit",
+  "Formatted": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldType": "System.String",
+      "FieldLength": 729
     }
   }
 }

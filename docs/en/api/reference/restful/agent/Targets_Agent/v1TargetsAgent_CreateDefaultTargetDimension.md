@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 467,
+  "TargetDimensionId": 354,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "nemo",
-  "DimensionListName": "Kling-Feeney",
-  "DimensionListId": 663,
-  "DimensionListLabel": "labore",
+  "DimensionListField": "quam",
+  "DimensionListName": "Ferry LLC",
+  "DimensionListId": 876,
+  "DimensionListLabel": "consectetur",
   "SelectedDimensions": [
-    392,
-    122
+    504,
+    855
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 115
+      "FieldType": "System.Int32",
+      "FieldLength": 814
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 324,
-  "Name": "Halvorson-Kling",
-  "Tooltip": "doloribus",
+  "Id": 400,
+  "Name": "Walsh, Schaefer and Walker",
+  "Tooltip": "officiis",
   "Deleted": false,
-  "UdListDefinitionId": 703,
-  "Rank": 982,
+  "UdListDefinitionId": 560,
+  "Rank": 333,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldType": "System.String",
+      "FieldLength": 805
     }
   }
 }

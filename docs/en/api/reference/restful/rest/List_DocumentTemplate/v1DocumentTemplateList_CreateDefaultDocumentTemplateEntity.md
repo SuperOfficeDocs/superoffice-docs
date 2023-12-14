@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 815,
-  "Name": "Prohaska LLC",
-  "Tooltip": "rerum",
-  "SaveInDb": 236,
-  "Filename": "nulla",
-  "DefaultOref": "sunt",
+  "DocumentTemplateId": 984,
+  "Name": "Jacobs, Friesen and Quigley",
+  "Tooltip": "tempora",
+  "SaveInDb": 416,
+  "Filename": "sint",
+  "DefaultOref": "quidem",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 442,
-  "IntentId": 539,
-  "IsDefaultPublished": true,
-  "Rank": 787,
-  "LoadTemplateFromPlugin": 573,
-  "MimeType": "distinctio",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 176,
+  "AutoeventId": 200,
+  "IntentId": 295,
+  "IsDefaultPublished": false,
+  "Rank": 765,
+  "LoadTemplateFromPlugin": 556,
+  "MimeType": "pariatur",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 828,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "buford@kutchmohr.name",
+  "EmailSubject": "chadrick@kreiger.us",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "marcel@ernser.ca",
+  "SenderEmailAddress": "eldon@kuhickuphal.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldType": "System.String",
+      "FieldLength": 69
     }
   }
 }

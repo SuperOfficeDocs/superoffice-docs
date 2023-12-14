@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=611
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=834
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 809,
+  "DocumentId": 693,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ad",
-  "Header": "beatae",
-  "Name": "Walsh-McCullough",
-  "OurRef": "aliquam",
-  "YourRef": "quo",
-  "CreatedDate": "1999-08-09T13:38:13.452129+02:00",
-  "UpdatedDate": "2013-05-25T13:38:13.452129+02:00",
-  "Description": "Pre-emptive bifurcated standardization",
+  "Attention": "rerum",
+  "Header": "velit",
+  "Name": "Farrell-Lemke",
+  "OurRef": "vero",
+  "YourRef": "ut",
+  "CreatedDate": "2012-08-26T13:57:12.1373695+02:00",
+  "UpdatedDate": "2002-12-02T13:57:12.1373695+01:00",
+  "Description": "Multi-layered logistical parallelism",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-06-15T13:38:13.452129+02:00",
-  "ExternalRef": "totam",
+  "Date": "2012-01-21T13:57:12.1373695+01:00",
+  "ExternalRef": "voluptate",
   "Completed": "Completed",
-  "ActiveLinks": 724,
+  "ActiveLinks": 71,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Franecki Group",
-      "Id": 633,
-      "Description": "Proactive exuding core",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 528,
+      "EntityName": "Borer, Walker and Hegmann",
+      "Id": 652,
+      "Description": "Stand-alone bifurcated focus group",
+      "ExtraInfo": "sed",
+      "LinkId": 471,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 762
+          "FieldLength": 792
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 508,
-  "Snum": 597,
+  "SuggestedDocumentId": 95,
+  "Snum": 819,
   "UserDefinedFields": {
-    "SuperOffice:1": "1256745738",
-    "SuperOffice:2": "124073123"
+    "SuperOffice:1": "Demetrius Heathcote",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "molestias"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "minus"
+    "CustomFields1": "aut",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2011-12-31T13:38:13.452129+01:00",
-  "PublishTo": "2022-07-06T13:38:13.452129+02:00",
-  "PublishFrom": "2022-01-19T13:38:13.452129+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2001-10-10T13:57:12.1373695+02:00",
+  "PublishTo": "2018-03-04T13:57:12.1373695+01:00",
+  "PublishFrom": "2007-10-21T13:57:12.1373695+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 483,
+      "VisibleId": 983,
       "Visibility": "All",
-      "DisplayValue": "nam",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 594
+          "FieldLength": 882
         }
       }
     },
     {
-      "VisibleId": 483,
+      "VisibleId": 983,
       "Visibility": "All",
-      "DisplayValue": "nam",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 594
+          "FieldLength": 882
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 840
     }
   }
 }

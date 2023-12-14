@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 7,
-    "Name": "Lowe-Aufderhar",
-    "Tooltip": "maxime",
+    "HeadingId": 323,
+    "Name": "Jakubowski-Mueller",
+    "Tooltip": "reprehenderit",
     "Deleted": true,
-    "Rank": 2,
-    "UdListDefinitionId": 691
+    "Rank": 716,
+    "UdListDefinitionId": 255
   },
   {
-    "HeadingId": 7,
-    "Name": "Lowe-Aufderhar",
-    "Tooltip": "maxime",
+    "HeadingId": 323,
+    "Name": "Jakubowski-Mueller",
+    "Tooltip": "reprehenderit",
     "Deleted": true,
-    "Rank": 2,
-    "UdListDefinitionId": 691
+    "Rank": 716,
+    "UdListDefinitionId": 255
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 97,
-    "Name": "Price-Wilderman",
-    "Tooltip": "porro",
+    "HeadingId": 19,
+    "Name": "Spencer LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 657,
-    "UdListDefinitionId": 830,
+    "Rank": 801,
+    "UdListDefinitionId": 369,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 163
       }
     }
   }

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 918,
-  "Name": "Runolfsdottir Group",
-  "Tooltip": "aliquid",
+  "ExtAppId": 25,
+  "Name": "Bahringer-Harber",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 816,
-  "Filename": "reprehenderit",
-  "Parameters": "id",
-  "Workdir": "amet",
+  "Rank": 440,
+  "Filename": "dolor",
+  "Parameters": "ea",
+  "Workdir": "non",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 218,
-  "WaitToFinish": false,
+  "Icon": 575,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "eius",
+  "Path": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 167
+      "FieldLength": 270
     }
   }
 }

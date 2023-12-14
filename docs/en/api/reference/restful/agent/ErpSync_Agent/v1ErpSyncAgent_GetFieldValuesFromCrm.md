@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 594,
+  "RecordId": 922,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Howe-Harris",
+    "DisplayName": "Stanton, Orn and Friesen",
     "CrmFieldKey": "sit",
-    "Value": "quidem",
-    "DisplayValue": "recusandae",
-    "SyncToCrm": true,
+    "Value": "officiis",
+    "DisplayValue": "beatae",
+    "SyncToCrm": false,
     "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldLength": 113
       }
     }
   }

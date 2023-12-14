@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 631,
-    "Name": "Ortiz Group",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "UdListDefinitionId": 780,
-    "Rank": 911,
+    "Id": 255,
+    "Name": "D'Amore, Schaden and Dach",
+    "Tooltip": "nisi",
+    "Deleted": true,
+    "UdListDefinitionId": 994,
+    "Rank": 951,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldType": "System.String",
+        "FieldLength": 768
       }
     }
   }

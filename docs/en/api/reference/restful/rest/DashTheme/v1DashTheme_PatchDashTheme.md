@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "deleniti",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "deleniti",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 197,
-  "Name": "Volkman Group",
-  "Config": "quam",
-  "Rank": 954,
-  "Client": "debitis",
-  "Style": "vel",
+  "DashboardThemeId": 763,
+  "Name": "Veum-Bergstrom",
+  "Config": "quos",
+  "Rank": 700,
+  "Client": "quaerat",
+  "Style": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldLength": 492
     }
   },
   "_Links": {

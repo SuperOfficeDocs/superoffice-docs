@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 799,
-  "Name": "Lakin-Hagenes",
-  "Tooltip": "optio",
-  "Rank": 73,
-  "Rate": 25821.025999999998,
-  "Units": 21771.898,
+  "CurrencyId": 590,
+  "Name": "Torphy, Hartmann and Hilll",
+  "Tooltip": "eaque",
+  "Rank": 836,
+  "Rate": 10357.869999999999,
+  "Units": 11482.975999999999,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldType": "System.String",
+      "FieldLength": 973
     }
   }
 }

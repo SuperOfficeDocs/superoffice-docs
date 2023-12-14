@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 213
+  "ProjectId": 571
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "deserunt",
-  "SignOffText": "eius",
-  "SignOnConfirmationText": "dolorum",
-  "SignOnText": "alias",
-  "EventDate": "2021-06-06T13:38:13.9834617+02:00",
+  "SignOffConfirmationText": "aut",
+  "SignOffText": "repellat",
+  "SignOnConfirmationText": "soluta",
+  "SignOnText": "quam",
+  "EventDate": "2021-02-15T13:57:12.9854979+01:00",
   "Enabled": false,
-  "CreatedDate": "2015-06-26T13:38:13.9834617+02:00",
+  "CreatedDate": "1999-03-19T13:57:12.9854979+01:00",
   "SignOff": false,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 912,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 402,
   "SignOffTriggersAssign": false,
   "SignOn": true,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 852,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 504,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2000-08-26T13:38:13.9834617+02:00",
+  "UpdatedDate": "2019-06-30T13:57:12.9854979+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 593,
-  "Id": 581,
-  "PublishFrom": "2023-02-04T13:38:13.9834617+01:00",
+  "ProjectId": 851,
+  "Id": 753,
+  "PublishFrom": "2019-05-06T13:57:12.9854979+02:00",
   "PublishType": "External",
-  "PublishTo": "2011-04-03T13:38:13.9834617+02:00",
+  "PublishTo": "2005-01-17T13:57:12.9854979+01:00",
   "VisibleForCategories": [
     {
-      "Id": 723,
-      "Name": "Moore LLC",
-      "ToolTip": "Iusto vero deleniti.",
-      "Deleted": false,
-      "Rank": 720,
-      "Type": "qui",
+      "Id": 92,
+      "Name": "Johnston, Witting and Kozey",
+      "ToolTip": "Quia veritatis ab totam velit.",
+      "Deleted": true,
+      "Rank": 896,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "occaecati",
-      "ColorBlock": 166,
-      "ExtraInfo": "quae",
-      "StyleHint": "quam",
-      "FullName": "Dr. Erick Metz MD",
+      "IconHint": "iusto",
+      "ColorBlock": 11,
+      "ExtraInfo": "error",
+      "StyleHint": "minima",
+      "FullName": "Dolores Turner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 410
+          "FieldType": "System.Int32",
+          "FieldLength": 154
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 923,
-      "Name": "Cartwright, Turcotte and Hettinger",
-      "ToolTip": "Magnam aut cupiditate alias assumenda enim.",
-      "Deleted": false,
-      "Rank": 347,
-      "Type": "voluptatum",
+      "Id": 531,
+      "Name": "Gibson Group",
+      "ToolTip": "Necessitatibus quam odio.",
+      "Deleted": true,
+      "Rank": 17,
+      "Type": "magnam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "cumque",
-      "ColorBlock": 366,
-      "ExtraInfo": "cupiditate",
-      "StyleHint": "ex",
-      "FullName": "Tanner Braun",
+      "IconHint": "totam",
+      "ColorBlock": 104,
+      "ExtraInfo": "aspernatur",
+      "StyleHint": "ratione",
+      "FullName": "Agnes Cole",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 303
+          "FieldType": "System.Int32",
+          "FieldLength": 464
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 874,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 735,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldLength": 378
     }
   }
 }

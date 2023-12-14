@@ -46,6 +46,9 @@ Entity to be checked.
 | CreatedDate | String | Registered date  in UTC. |
 | AppointmentId | Integer | Primary key |
 | Description | String | Description of the appointment. |
+| Title | String | The title of the appointment. |
+| Agenda | String | The agenda of the appointment. |
+| InternalNotes | String | Internal notes for the appointment. |
 | StartDate | String | date + start time planned |
 | EndDate | String | Date + end time planned |
 | InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
@@ -87,9 +90,6 @@ Entity to be checked.
 | CautionWarning | String | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | String | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | String | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
-| Title | String | The title of the appointment. |
-| Agenda | String | The agenda of the appointment. |
-| InternalNotes | String | Internal notes for the appointment. |
 | UserDefinedFields | Object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | Object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | Object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -124,105 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-02-12T13:38:17.0931089+01:00",
-  "AppointmentId": 773,
-  "Description": "Synergized zero defect info-mediaries",
-  "StartDate": "2016-09-21T13:38:17.0931089+02:00",
-  "EndDate": "2005-01-15T13:38:17.0931089+01:00",
+  "CreatedDate": "2003-07-12T13:57:18.3878111+02:00",
+  "AppointmentId": 957,
+  "Description": "Adaptive bifurcated methodology",
+  "Title": "animi",
+  "Agenda": "suscipit",
+  "InternalNotes": "et",
+  "StartDate": "2007-08-25T13:57:18.3878111+02:00",
+  "EndDate": "2022-05-29T13:57:18.3878111+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 648,
+  "MotherId": 912,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-05-22T13:38:17.0931089+02:00",
+  "UpdatedDate": "2022-07-25T13:57:18.4034365+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 121,
+  "ActiveLinks": 955,
   "Links": [
     {
-      "EntityName": "Boyle Inc and Sons",
-      "Id": 670,
-      "Description": "Advanced 24 hour core",
-      "ExtraInfo": "est",
-      "LinkId": 447
+      "EntityName": "Tremblay, Hegmann and Ritchie",
+      "Id": 70,
+      "Description": "Organized composite strategy",
+      "ExtraInfo": "fugit",
+      "LinkId": 745
     },
     {
-      "EntityName": "Boyle Inc and Sons",
-      "Id": 670,
-      "Description": "Advanced 24 hour core",
-      "ExtraInfo": "est",
-      "LinkId": 447
+      "EntityName": "Tremblay, Hegmann and Ritchie",
+      "Id": 70,
+      "Description": "Organized composite strategy",
+      "ExtraInfo": "fugit",
+      "LinkId": 745
     }
   ],
-  "AlarmLeadTime": "est",
-  "HasAlarm": true,
-  "ColorIndex": 417,
-  "IsFree": false,
+  "AlarmLeadTime": "vitae",
+  "HasAlarm": false,
+  "ColorIndex": 412,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "laudantium",
-  "LeadTime": "enim",
-  "Location": "dignissimos",
-  "RejectCounter": 954,
+  "LagTime": "aliquam",
+  "LeadTime": "voluptates",
+  "Location": "quas",
+  "RejectCounter": 631,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 934,
-      "PersonId": 354,
-      "ContactId": 213,
-      "EmailId": 204,
-      "SendEmail": true,
+      "AssociateId": 34,
+      "PersonId": 8,
+      "ContactId": 254,
+      "EmailId": 373,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jedediah@kuvalis.uk",
-      "Description": "Expanded high-level customer loyalty"
+      "EmailAddress": "garnett@mcclure.biz",
+      "Description": "Versatile web-enabled protocol"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-12-17T13:38:17.0931089+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2022-10-14T13:57:18.4034365+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 885,
+  "PreferredTZLocation": 196,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 219,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 307,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "non",
-  "Title": "impedit",
-  "Agenda": "quia",
-  "InternalNotes": "aut",
+  "CentralserviceVideomeetId": "exercitationem",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Johnpaul Rutherford",
+    "SuperOffice:2": "1013816483"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "facere"
+    "ExtraFields1": "dignissimos",
+    "ExtraFields2": "laudantium"
   },
   "CustomFields": {
-    "CustomFields1": "natus",
-    "CustomFields2": "et"
+    "CustomFields1": "expedita",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "1999-07-12T13:38:17.0931089+02:00",
-  "PublishTo": "2010-10-17T13:38:17.0931089+02:00",
-  "PublishFrom": "2023-02-09T13:38:17.0931089+01:00",
+  "PublishEventDate": "2023-10-16T13:57:18.4034365+02:00",
+  "PublishTo": "2002-01-22T13:57:18.4034365+01:00",
+  "PublishFrom": "2014-03-23T13:57:18.4034365+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 15,
+      "VisibleId": 612,
       "Visibility": "All",
-      "DisplayValue": "facilis"
+      "DisplayValue": "molestiae"
     },
     {
-      "VisibleId": 15,
+      "VisibleId": 612,
       "Visibility": "All",
-      "DisplayValue": "facilis"
+      "DisplayValue": "molestiae"
     }
   ]
 }
@@ -235,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "est",
-  "2": "repudiandae"
+  "1": "autem",
+  "2": "voluptatibus"
 }
 ```

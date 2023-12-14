@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PrefSection": "eius",
-  "PrefKey": "et",
+  "PrefKey": "est",
   "PrefLevel": "Database",
-  "OwnerId": 59
+  "OwnerId": 989
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "autem",
+  "RawValue": "velit",
   "Specification": null,
-  "DisplayValue": "cumque",
-  "DisplayTooltip": "quo",
+  "DisplayValue": "nostrum",
+  "DisplayTooltip": "et",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 728,
-  "PrefDescId": 35,
-  "TableName": "Walker LLC",
-  "UserPreferenceId": 39,
+  "TargetId": 822,
+  "PrefDescId": 833,
+  "TableName": "Goodwin, Kutch and Heller",
+  "UserPreferenceId": 733,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldType": "System.String",
+      "FieldLength": 332
     }
   }
 }

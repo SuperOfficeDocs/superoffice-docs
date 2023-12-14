@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 289,
-  "Name": "Crona, Reichel and Welch",
-  "Tooltip": "vitae",
-  "Deleted": false,
-  "Rank": 114,
-  "IsCustomList": true,
+  "Id": 263,
+  "Name": "Blanda LLC",
+  "Tooltip": "excepturi",
+  "Deleted": true,
+  "Rank": 68,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "minima",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "molestias",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 313
+      "FieldType": "System.String",
+      "FieldLength": 412
     }
   },
   "_Links": {

@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Grady, Dickinson and Jerde",
-  "StorageKey": "quidem"
+  "StorageType": "aliquid",
+  "ProviderName": "Gislason-McKenzie",
+  "StorageKey": "dolores"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Keebler-McGlynn",
-    "DisplayTooltip": "magni",
-    "DisplayType": "rerum",
+    "DisplayName": "Lesch-Pagac",
+    "DisplayTooltip": "deleniti",
+    "DisplayType": "quidem",
     "CanOrderBy": false,
-    "Name": "Kutch-Mohr",
-    "CanRestrictBy": false,
-    "RestrictionType": "excepturi",
-    "RestrictionListName": "Williamson-Watsica",
-    "IsVisible": false,
-    "ExtraInfo": "animi",
-    "Width": "cum",
-    "IconHint": "repellat",
-    "HeadingIconHint": "voluptatum"
+    "Name": "Fay LLC",
+    "CanRestrictBy": true,
+    "RestrictionType": "culpa",
+    "RestrictionListName": "Lang, Hodkiewicz and Kutch",
+    "IsVisible": true,
+    "ExtraInfo": "exercitationem",
+    "Width": "quo",
+    "IconHint": "explicabo",
+    "HeadingIconHint": "expedita"
   }
 ]
 ```

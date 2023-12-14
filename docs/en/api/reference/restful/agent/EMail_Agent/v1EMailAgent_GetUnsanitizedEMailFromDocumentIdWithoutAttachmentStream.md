@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 397
+  "DocumentId": 828
 }
 ```
 
@@ -120,97 +120,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 77,
-      "ContactName": "Aufderhar-Bailey",
-      "PersonId": 939,
-      "PersonName": "Cormier Inc and Sons",
-      "AssociateId": 605,
-      "Address": "sit",
-      "EmailId": 338,
+      "ContactId": 378,
+      "ContactName": "Lehner LLC",
+      "PersonId": 493,
+      "PersonName": "Kreiger, Schuster and Ziemann",
+      "AssociateId": 239,
+      "Address": "quo",
+      "EmailId": 405,
       "DuplicatePersonIds": [
-        319,
-        623
+        805,
+        481
       ],
-      "Name": "Streich-Heathcote",
+      "Name": "Herzog, Cruickshank and Bernhard",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 453
+          "FieldType": "System.Int32",
+          "FieldLength": 423
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 884,
-      "ContactName": "Jakubowski Group",
-      "PersonId": 533,
-      "PersonName": "Schneider-Mayert",
-      "AssociateId": 524,
-      "Address": "tempore",
-      "EmailId": 629,
+      "ContactId": 82,
+      "ContactName": "Pacocha, Farrell and Stoltenberg",
+      "PersonId": 976,
+      "PersonName": "Waelchi Inc and Sons",
+      "AssociateId": 721,
+      "Address": "est",
+      "EmailId": 183,
       "DuplicatePersonIds": [
-        147,
-        21
+        626,
+        371
       ],
-      "Name": "Fahey, Thompson and Schultz",
+      "Name": "Blick-Bartoletti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 793
+          "FieldType": "System.Int32",
+          "FieldLength": 640
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 663,
-      "ContactName": "Rippin Group",
-      "PersonId": 615,
-      "PersonName": "Erdman-Wiza",
-      "AssociateId": 734,
-      "Address": "culpa",
-      "EmailId": 637,
+      "ContactId": 523,
+      "ContactName": "Littel-Rodriguez",
+      "PersonId": 678,
+      "PersonName": "Batz, Effertz and Ebert",
+      "AssociateId": 762,
+      "Address": "voluptatem",
+      "EmailId": 890,
       "DuplicatePersonIds": [
-        108,
-        333
+        595,
+        459
       ],
-      "Name": "Tromp Group",
+      "Name": "Bergstrom Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldLength": 163
         }
       }
     }
   ],
-  "Subject": "a",
-  "HTMLBody": "magnam",
+  "Subject": "impedit",
+  "HTMLBody": "beatae",
   "From": null,
-  "Sent": "2012-01-26T13:38:13.5302438+01:00",
-  "Size": 895,
+  "Sent": "2020-10-24T13:57:12.2623677+02:00",
+  "Size": 146,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "in",
-  "PlainBody": "voluptatem",
+  "MessageID": "facilis",
+  "PlainBody": "et",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 977,
+  "ServerId": 863,
   "Attachments": [
     {
-      "Description": "Multi-lateral national hardware",
-      "Filename": "voluptatem",
-      "Size": 385,
-      "Type": "et",
-      "Encoding": "molestiae",
-      "Id": "necessitatibus",
-      "Disposition": "aut",
+      "Description": "Persevering tertiary data-warehouse",
+      "Filename": "ipsum",
+      "Size": 245,
+      "Type": "iste",
+      "Encoding": "est",
+      "Id": "numquam",
+      "Disposition": "id",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -218,58 +218,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 181
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Weber Inc and Sons",
+      "Name": "Schiller-Bins",
       "Values": [
-        "omnis",
-        "sequi"
+        "numquam",
+        "nulla"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 634
+          "FieldType": "System.Int32",
+          "FieldLength": 978
         }
       }
     },
     {
-      "Name": "Weber Inc and Sons",
+      "Name": "Schiller-Bins",
       "Values": [
-        "omnis",
-        "sequi"
+        "numquam",
+        "nulla"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 634
+          "FieldType": "System.Int32",
+          "FieldLength": 978
         }
       }
     }
   ],
-  "FolderName": "Veum-Morar",
-  "EmailItemId": 835,
-  "AccountId": 808,
-  "ReceivedAt": "2018-01-07T13:38:13.5302438+01:00",
+  "FolderName": "Sipes Inc and Sons",
+  "EmailItemId": 882,
+  "AccountId": 312,
+  "ReceivedAt": "2005-04-10T13:57:12.2623677+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2009-01-15T13:38:13.5302438+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2016-02-20T13:57:12.2623677+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 776
+      "FieldType": "System.Int32",
+      "FieldLength": 611
     }
   }
 }

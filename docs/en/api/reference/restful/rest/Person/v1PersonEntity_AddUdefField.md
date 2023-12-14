@@ -98,7 +98,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 258,
-  "ColumnId": 187,
-  "FieldDefault": "earum",
-  "FieldHeight": 683,
-  "FieldLabel": "odio",
-  "FieldLeft": 445,
-  "FieldTop": 97,
+  "UDefFieldId": 40,
+  "ColumnId": 295,
+  "FieldDefault": "fugit",
+  "FieldHeight": 506,
+  "FieldLabel": "soluta",
+  "FieldLeft": 479,
+  "FieldTop": 748,
   "FieldType": "Checkbox",
-  "FieldWidth": 833,
-  "FormatMask": "quidem",
+  "FieldWidth": 973,
+  "FormatMask": "commodi",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 793,
-  "LabelLeft": 452,
-  "LabelTop": 603,
-  "LabelWidth": 246,
-  "LastVersionId": 770,
-  "ListTableId": 852,
-  "IsMandatory": true,
+  "LabelHeight": 620,
+  "LabelLeft": 550,
+  "LabelTop": 835,
+  "LabelWidth": 756,
+  "LastVersionId": 922,
+  "ListTableId": 615,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 59,
-  "ProgId": "quia",
+  "Page1LineNo": 359,
+  "ProgId": "sint",
   "IsReadOnly": true,
-  "ShortLabel": "ipsa",
-  "TabOrder": 895,
-  "TextLength": 609,
-  "Tooltip": "qui",
-  "UdefIdentity": 695,
-  "UDListDefinitionId": 985,
+  "ShortLabel": "deserunt",
+  "TabOrder": 884,
+  "TextLength": 575,
+  "Tooltip": "non",
+  "UdefIdentity": 540,
+  "UDListDefinitionId": 537,
   "Justification": "Center",
-  "Version": 6,
-  "TemplateVariableName": "Turner, Windler and Braun",
+  "Version": 926,
+  "TemplateVariableName": "Cartwright, Moore and Schiller",
   "HasBeenPublished": false,
-  "MdoListName": "Conroy, Wisozk and Christiansen",
+  "MdoListName": "Klocko, Herzog and Kuphal",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   }
 }

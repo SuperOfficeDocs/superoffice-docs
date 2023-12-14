@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 461,
-  "Name": "Torp, Hamill and Gleason",
-  "Description": "Re-engineered zero defect utilisation",
-  "DefaultHeight": 440,
-  "DefaultWidth": 175,
+  "DashboardTileDefinitionId": 669,
+  "Name": "Kovacek-Rau",
+  "Description": "Sharable foreground moderator",
+  "DefaultHeight": 855,
+  "DefaultWidth": 597,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hudson-Lesch",
-  "SelectionId": 651,
+  "EntityName": "Padberg, Weimann and Stehr",
+  "SelectionId": 31,
   "CurrencyMode": "Base",
-  "CurrencyCode": "aperiam",
+  "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "eum",
-  "SortBy": "velit",
-  "LayoutConfig": "voluptatibus",
-  "SecondarySelectionId": 103,
-  "MeasureByField": "aliquid",
+  "MeasureField": "quis",
+  "SortBy": "et",
+  "LayoutConfig": "ut",
+  "SecondarySelectionId": 993,
+  "MeasureByField": "qui",
   "Usage": "Dashboard",
-  "ProviderName": "Hessel, Halvorson and Stracke",
+  "ProviderName": "O'Reilly-Gislason",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldLength": 520
     }
   }
 }

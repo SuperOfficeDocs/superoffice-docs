@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 799,
-  "Name": "Batz, Bernier and Grimes",
-  "Tooltip": "quo",
+  "Id": 623,
+  "Name": "Lockman Inc and Sons",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "Rank": 590,
+  "Rank": 229,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sint",
+  "ListType": "eum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 783,
-  "Name": "Langosh-Hilll",
-  "Tooltip": "cupiditate",
-  "Deleted": true,
-  "Rank": 58,
+  "Id": 475,
+  "Name": "McClure, Bernier and Herzog",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 208,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quaerat",
-  "InUseByUserDefinedFields": false,
+  "ListType": "officia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldLength": 577
     }
   }
 }

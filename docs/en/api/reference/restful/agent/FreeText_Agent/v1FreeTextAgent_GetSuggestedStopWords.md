@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 972
+  "CountWords": 429
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Kub Inc and Sons",
-    "ToolTip": "Maiores nam voluptas occaecati pariatur.",
-    "Deleted": false,
-    "Rank": 366,
-    "Type": "quae",
+    "Id": 999,
+    "Name": "Jewess, Bruen and Donnelly",
+    "ToolTip": "Et magnam velit ipsam repellendus.",
+    "Deleted": true,
+    "Rank": 937,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 233,
-        "Name": "Hilll-Wiza",
-        "ToolTip": "Optio voluptas eos neque et.",
+        "Id": 977,
+        "Name": "Feil Group",
+        "ToolTip": "Ratione ab rem.",
         "Deleted": true,
-        "Rank": 530,
-        "Type": "voluptatem",
+        "Rank": 721,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 589,
-        "ExtraInfo": "amet",
-        "StyleHint": "nesciunt",
-        "FullName": "Dr. Amelie Ethan Schumm DVM",
+        "IconHint": "quo",
+        "ColorBlock": 1001,
+        "ExtraInfo": "corrupti",
+        "StyleHint": "sed",
+        "FullName": "Prof. Ulices Conroy I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 411
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 620,
-    "ExtraInfo": "fugit",
-    "StyleHint": "facere",
-    "FullName": "Miss Trudie Amie Harvey",
+    "IconHint": "nam",
+    "ColorBlock": 629,
+    "ExtraInfo": "repellendus",
+    "StyleHint": "rerum",
+    "FullName": "Lou Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldLength": 920
       }
     }
   }

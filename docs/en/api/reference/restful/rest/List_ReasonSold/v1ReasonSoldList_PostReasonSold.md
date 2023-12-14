@@ -77,12 +77,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 650,
-  "Name": "Gulgowski-Baumbach",
-  "Tooltip": "cupiditate",
+  "Id": 177,
+  "Name": "McClure Inc and Sons",
+  "Tooltip": "ex",
   "Deleted": true,
-  "UdListDefinitionId": 908,
-  "Rank": 641
+  "UdListDefinitionId": 168,
+  "Rank": 390
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 336,
-  "Name": "Weber-Johnston",
-  "Tooltip": "ab",
-  "Deleted": true,
-  "UdListDefinitionId": 654,
-  "Rank": 531,
+  "Id": 897,
+  "Name": "Maggio-Spencer",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 346,
+  "Rank": 513,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 923
+      "FieldType": "System.Int32",
+      "FieldLength": 284
     }
   }
 }

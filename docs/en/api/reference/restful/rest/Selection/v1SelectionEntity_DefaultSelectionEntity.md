@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 23 Aug 2006 13:38:17 G8T
+Last-Modified: Wed, 11 Oct 2000 13:57:19 G10T
 
 {
-  "Description": "Business-focused grid-enabled matrices",
-  "Postit": "unde",
+  "Description": "Advanced modular functionalities",
+  "Postit": "quis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 513,
-  "IncludePerson": 234,
-  "MemberCount": 58,
-  "Name": "Runte, Schroeder and Reilly",
-  "PostitTextId": 512,
-  "CreatedDate": "2008-10-24T13:38:17.6399305+02:00",
-  "SelectionId": 498,
-  "SoundEx": "quas",
-  "Source": 499,
-  "TextId": 701,
-  "UpdatedDate": "2006-08-23T13:38:17.6399305+02:00",
-  "UpdatedCount": 768,
-  "Visibility": 415,
+  "GroupIdx": 740,
+  "IncludePerson": 378,
+  "MemberCount": 205,
+  "Name": "Hirthe LLC",
+  "PostitTextId": 463,
+  "CreatedDate": "2008-03-07T13:57:19.2502736+01:00",
+  "SelectionId": 228,
+  "SoundEx": "et",
+  "Source": 311,
+  "TextId": 831,
+  "UpdatedDate": "2000-10-11T13:57:19.2502736+02:00",
+  "UpdatedCount": 161,
+  "Visibility": 135,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 532,
-  "TargetTableName": "Jakubowski-Bogan",
-  "Completed": true,
-  "LeftSelectionId": 878,
-  "RightSelectionId": 136,
+  "CompanyUnique": false,
+  "TargetTableNumber": 149,
+  "TargetTableName": "Weimann-Powlowski",
+  "Completed": false,
+  "LeftSelectionId": 346,
+  "RightSelectionId": 405,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "White-Larkin",
-  "ShadowProviderName": "Morar LLC",
-  "ChartKey": "quod",
-  "LastLoaded": "2004-05-13T13:38:17.6399305+02:00",
-  "LastLoadedBy": 625,
+  "MainProviderName": "Mraz Group",
+  "ShadowProviderName": "Kuhlman, Cremin and Lehner",
+  "ChartKey": "maxime",
+  "LastLoaded": "2006-06-18T13:57:19.2502736+02:00",
+  "LastLoadedBy": 136,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-11-15T13:38:17.6399305+01:00",
-  "LastMembershipChangeBy": 594,
+  "LastMembershipChange": "2013-07-14T13:57:19.2502736+02:00",
+  "LastMembershipChangeBy": 339,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "maiores",
-  "MailingsProviderName": "Ruecker Group",
-  "DashboardTileDefinitionId": 470,
+  "MainHeading": "nam",
+  "MemberTabHeading": "occaecati",
+  "MailingsProviderName": "Gorczany-Pacocha",
+  "DashboardTileDefinitionId": 381,
   "VisibleFor": [
     {
-      "VisibleId": 479,
+      "VisibleId": 683,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 372
+          "FieldType": "System.Int32",
+          "FieldLength": 494
         }
       }
     },
     {
-      "VisibleId": 479,
+      "VisibleId": 683,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 372
+          "FieldType": "System.Int32",
+          "FieldLength": 494
         }
       }
     }
@@ -181,7 +181,7 @@ Last-Modified: Wed, 23 Aug 2006 13:38:17 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 535
     }
   }
 }

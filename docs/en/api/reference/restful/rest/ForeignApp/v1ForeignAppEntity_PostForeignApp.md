@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 995,
-  "Name": "Trantow, Ernser and Anderson",
-  "CreatedDate": "2002-04-07T13:38:17.4368262+02:00",
-  "UpdatedDate": "2013-09-14T13:38:17.4368262+02:00",
+  "ForeignAppId": 799,
+  "Name": "Walker-Moen",
+  "CreatedDate": "2006-03-30T13:57:18.7953465+02:00",
+  "UpdatedDate": "2002-08-03T13:57:18.7953465+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 193,
-      "Name": "Ondricka, Swift and Stiedemann",
-      "CreatedDate": "2001-06-15T13:38:17.4368262+02:00",
-      "UpdatedDate": "2021-03-07T13:38:17.4368262+01:00",
-      "AssociateFullName": "Prof. Emmalee Perry Okuneva",
-      "CreatedBy": "voluptatem",
-      "UpdatedBy": "dolores",
-      "DeviceIdentifier": "ipsam",
-      "ForeignAppId": 962,
+      "ForeignDeviceId": 643,
+      "Name": "Schmidt, Luettgen and Spinka",
+      "CreatedDate": "2006-12-19T13:57:18.7953465+01:00",
+      "UpdatedDate": "1997-12-28T13:57:18.7953465+01:00",
+      "AssociateFullName": "Brian Bashirian",
+      "CreatedBy": "ab",
+      "UpdatedBy": "nam",
+      "DeviceIdentifier": "dolorem",
+      "ForeignAppId": 628,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 900
+          "FieldType": "System.String",
+          "FieldLength": 51
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldLength": 361
     }
   }
 }

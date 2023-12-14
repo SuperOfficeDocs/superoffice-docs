@@ -22,6 +22,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDiagnosticsAge
 * [FlushCachesByName](flushcachesbyname.md)
 * [GetCacheNames](getcachenames.md)
 * [GetCacheState](getcachestate.md)
+* [GetEntityCountsForAllUsers](getentitycountsforallusers.md)
 * [GetEntityCountsForCurrentUser](getentitycountsforcurrentuser.md)
 * [GetWebAppUsagesForPeriod](getwebappusagesforperiod.md)
 * [LogViewState](logviewstate.md)

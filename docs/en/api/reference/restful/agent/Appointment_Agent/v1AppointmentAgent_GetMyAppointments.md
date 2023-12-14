@@ -129,13 +129,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2018-06-18T13:38:13.0459237+02:00",
-  "EndTime": "2014-06-05T13:38:13.0459237+02:00",
-  "Count": 795
+  "StartTime": "2011-01-22T13:57:11.496933+01:00",
+  "EndTime": "2006-08-01T13:57:11.496933+02:00",
+  "Count": 872
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 817,
-    "StartDate": "2020-04-27T13:38:13.0459237+02:00",
-    "EndDate": "2023-05-03T13:38:13.0459237+02:00",
+    "AppointmentId": 845,
+    "StartDate": "2002-10-11T13:57:11.496933+02:00",
+    "EndDate": "2001-06-10T13:57:11.496933+02:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Kacey Quitzon",
-    "ContactName": "Littel, Graham and Bahringer",
-    "Description": "Mandatory empowering structure",
-    "PersonFullName": "Miss Emerald Weber",
-    "PersonId": 841,
-    "ContactId": 478,
-    "ProjectId": 296,
-    "ProjectName": "Nienow Group",
+    "Task": "ipsum",
+    "AssociateFullName": "Keeley Hane",
+    "ContactName": "Franecki, Zulauf and Schaefer",
+    "Description": "Diverse real-time access",
+    "PersonFullName": "Nova Cassin",
+    "PersonId": 527,
+    "ContactId": 642,
+    "ProjectId": 417,
+    "ProjectName": "Prosacco-Bernhard",
     "IsPublished": false,
-    "AssociateId": 125,
-    "ColorIndex": 290,
-    "IsFree": true,
-    "HasAlarm": false,
+    "AssociateId": 301,
+    "ColorIndex": 618,
+    "IsFree": false,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 579,
-    "PriorityName": "Wehner Group",
+    "PriorityId": 651,
+    "PriorityName": "Boyer LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2016-11-15T13:38:13.0459237+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2009-07-11T13:57:11.496933+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-01-31T13:38:13.0459237+01:00",
-    "RecurringEndDate": "1996-11-13T13:38:13.0459237+01:00",
-    "MotherId": 730,
-    "AssignedBy": 475,
-    "AssignedByFullName": "Mrs. Sharon Baumbach",
+    "RecurringStartDate": "2009-03-24T13:57:11.496933+01:00",
+    "RecurringEndDate": "2013-06-29T13:57:11.496933+02:00",
+    "MotherId": 814,
+    "AssignedBy": 837,
+    "AssignedByFullName": "Lauryn Yundt",
     "RejectReason": "",
-    "Location": "nisi",
-    "AlarmLeadTime": "voluptates",
-    "SaleId": 221,
-    "SaleName": "Rath LLC",
-    "AssociateName": "Johnston, Ward and Kuhlman",
-    "CreatedDate": "2011-01-06T13:38:13.0459237+01:00",
-    "CreatedBy": "tenetur",
-    "CreatedByFullName": "Hester Gibson DDS",
-    "CreatedByAssociateId": 508,
+    "Location": "assumenda",
+    "AlarmLeadTime": "error",
+    "SaleId": 791,
+    "SaleName": "Hartmann-Predovic",
+    "AssociateName": "Hermann LLC",
+    "CreatedDate": "2008-03-17T13:57:11.496933+01:00",
+    "CreatedBy": "rerum",
+    "CreatedByFullName": "Caroline Ward",
+    "CreatedByAssociateId": 670,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 779,
-    "Title": "totam",
-    "Agenda": "quidem",
-    "InternalNotes": "excepturi",
+    "PreferredTZLocation": 542,
+    "Title": "sequi",
+    "Agenda": "expedita",
+    "InternalNotes": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldLength": 807
       }
     }
   }

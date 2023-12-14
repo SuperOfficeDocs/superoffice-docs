@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    136,
-    801
+    623,
+    497
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 124,
-    "Name": "Pollich-Bednar",
-    "AssociateId": 605,
-    "DetailsTable": 133,
-    "DetailsRecord": 437,
+    "Id": 130,
+    "Name": "Pagac-Schaefer",
+    "AssociateId": 276,
+    "DetailsTable": 749,
+    "DetailsRecord": 729,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "perspiciatis",
-      "ParameterObject2": "nisi"
+      "ParameterObject1": "ipsa",
+      "ParameterObject2": "quaerat"
     },
-    "LastStarted": "2015-12-22T13:38:13.0771703+01:00",
-    "Created": "2021-01-13T13:38:13.0771703+01:00",
-    "StartCount": 234,
-    "DatabaseSerialNumber": "777400",
-    "Context": "eveniet",
-    "Result": "distinctio",
+    "LastStarted": "2019-11-12T13:57:11.5438073+01:00",
+    "Created": "1998-10-20T13:57:11.5438073+02:00",
+    "StartCount": 699,
+    "DatabaseSerialNumber": "621130",
+    "Context": "est",
+    "Result": "veniam",
     "State": "All",
-    "Description": "Expanded zero defect orchestration",
-    "Response": "facere",
-    "Request": "temporibus",
-    "ProgressDescription": "Proactive heuristic solution",
-    "ProgressPercent": 872,
-    "FileName": "Schmeler Group",
+    "Description": "Integrated mobile moratorium",
+    "Response": "voluptatem",
+    "Request": "et",
+    "ProgressDescription": "Extended high-level function",
+    "ProgressPercent": 659,
+    "FileName": "Kertzmann, McDermott and Huels",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 37
+        "FieldLength": 909
       }
     }
   }

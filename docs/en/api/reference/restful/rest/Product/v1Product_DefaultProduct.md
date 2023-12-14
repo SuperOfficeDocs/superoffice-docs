@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 581,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "ratione",
-  "Name": "Reynolds, Leannon and O'Hara",
-  "Description": "Sharable zero administration project",
-  "Code": "officiis",
-  "PriceUnit": "alias",
-  "QuantityUnit": "doloremque",
-  "IsSubscription": true,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 3901.83,
-  "ItemNumber": "394949",
+  "ProductId": 789,
+  "ERPProductKey": "voluptas",
+  "ERPPriceListKey": "sint",
+  "Name": "Rosenbaum Group",
+  "Description": "Down-sized encompassing function",
+  "Code": "voluptates",
+  "PriceUnit": "eius",
+  "QuantityUnit": "voluptate",
+  "IsSubscription": false,
+  "SubscriptionUnit": "quos",
+  "DefaultSubscriptionQuantity": 20922.584,
+  "ItemNumber": "1737549",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sed",
-  "ProductTypeKey": "aut",
-  "VAT": 21063.613999999998,
-  "VATInfo": "praesentium",
-  "UnitCost": 28469.255999999998,
-  "UnitMinimumPrice": 899.458,
-  "UnitListPrice": 3027.444,
+  "ProductFamilyKey": "neque",
+  "ProductTypeKey": "delectus",
+  "VAT": 21430.291999999998,
+  "VATInfo": "amet",
+  "UnitCost": 28256.144,
+  "UnitMinimumPrice": 19888.363999999998,
+  "UnitListPrice": 9787.482,
   "InAssortment": false,
-  "Supplier": "repellendus",
-  "SupplierCode": "ex",
-  "Rights": "facere",
-  "Rule": "voluptatem",
+  "Supplier": "et",
+  "SupplierCode": "hic",
+  "Rights": "enim",
+  "Rule": "est",
   "ExtraInfo": [
     {
-      "Name": "Pfeffer LLC",
-      "Value": "amet",
+      "Name": "Smith, Lubowitz and Farrell",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldType": "System.String",
+          "FieldLength": 756
         }
       }
     },
     {
-      "Name": "Pfeffer LLC",
-      "Value": "amet",
+      "Name": "Smith, Lubowitz and Farrell",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldType": "System.String",
+          "FieldLength": 756
         }
       }
     }
   ],
-  "RawExtraInfo": "quo",
-  "ExtraField1": "nostrum",
-  "ExtraField2": "iusto",
-  "ExtraField3": "rerum",
-  "ExtraField4": "molestiae",
-  "ExtraField5": "ut",
-  "InStock": 28908.016,
+  "RawExtraInfo": "sed",
+  "ExtraField1": "voluptatem",
+  "ExtraField2": "ipsam",
+  "ExtraField3": "enim",
+  "ExtraField4": "temporibus",
+  "ExtraField5": "et",
+  "InStock": 16487.974,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 365
     }
   }
 }

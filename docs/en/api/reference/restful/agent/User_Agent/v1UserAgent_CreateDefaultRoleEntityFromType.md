@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 396,
-  "Name": "Schneider Inc and Sons",
-  "Tooltip": "ut",
+  "RoleId": 247,
+  "Name": "Borer-Romaguera",
+  "Tooltip": "laudantium",
   "RoleType": "Anonymous",
-  "Deleted": 69,
-  "Rank": 167,
-  "Created": "2015-09-13T13:38:14.3584195+02:00",
-  "UseCategories": 72,
+  "Deleted": 707,
+  "Rank": 652,
+  "Created": "2018-08-21T13:57:13.5364634+02:00",
+  "UseCategories": 589,
   "CreatedBy": null,
-  "Updated": "2006-07-01T13:38:14.3584195+02:00",
+  "Updated": "2022-06-03T13:57:13.5520881+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 347
+      "FieldType": "System.String",
+      "FieldLength": 722
     }
   }
 }

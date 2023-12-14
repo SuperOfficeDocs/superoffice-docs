@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Brown, Bogisich and Dibbert"
+  "OwnerName": "Brekke Group"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 56,
-      "NumberOfLicensesFree": 709,
-      "NumberOfLicensesAdded": 514,
-      "NumberOfLicensesNewTotal": 518,
-      "NumberOfLicensesNewFree": 594,
-      "NumberOfLicensesTotal": 524
+      "NumberOfLicensesInUse": 991,
+      "NumberOfLicensesFree": 879,
+      "NumberOfLicensesAdded": 851,
+      "NumberOfLicensesNewTotal": 874,
+      "NumberOfLicensesNewFree": 589,
+      "NumberOfLicensesTotal": 101
     }
   ],
-  "AccumulatedNextCheckDate": "1997-12-26T13:38:13.6396102+01:00"
+  "AccumulatedNextCheckDate": "1996-10-22T13:57:12.4493603+02:00"
 }
 ```

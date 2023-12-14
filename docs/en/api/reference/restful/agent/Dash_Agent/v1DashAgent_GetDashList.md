@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    422,
-    429
+    480,
+    430
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 364,
-    "UniqueId": "laborum",
-    "Name": "Wuckert LLC",
-    "Description": "Re-engineered dedicated internet solution",
-    "AssociateId": 434,
-    "Columns": 920,
+    "DashboardId": 342,
+    "UniqueId": "saepe",
+    "Name": "Bins-Hayes",
+    "Description": "Self-enabling fresh-thinking groupware",
+    "AssociateId": 713,
+    "Columns": 168,
     "Theme": null,
-    "VisibleForAll": 129,
+    "VisibleForAll": 762,
     "VisibleForAssociates": [
-      178,
-      529
+      458,
+      304
     ],
     "VisibleForGroups": [
-      824,
-      583
+      362,
+      272
     ],
-    "PinForAll": 672,
+    "PinForAll": 856,
     "PinForAssociates": [
-      881,
-      793
+      85,
+      729
     ],
     "PinForGroups": [
-      117,
-      7
+      651,
+      268
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 129
+        "FieldLength": 329
       }
     }
   }

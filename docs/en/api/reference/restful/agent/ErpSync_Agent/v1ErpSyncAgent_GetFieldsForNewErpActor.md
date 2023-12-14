@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 141,
+  "ErpConnectionId": 897,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "maxime",
-    "Rank": 446,
-    "DisplayName": "Crist LLC",
-    "DisplayDescription": "Enhanced real-time knowledge base",
+    "FieldKey": "quod",
+    "Rank": 178,
+    "DisplayName": "Cormier Inc and Sons",
+    "DisplayDescription": "Exclusive 24 hour benchmark",
     "FieldType": "Checkbox",
-    "ListName": "Cartwright, Olson and Goodwin",
-    "DefaultValue": "sunt",
-    "MaxLength": 655,
+    "ListName": "Collins, Parisian and Swift",
+    "DefaultValue": "debitis",
+    "MaxLength": 664,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 839
+        "FieldType": "System.Int32",
+        "FieldLength": 573
       }
     }
   }

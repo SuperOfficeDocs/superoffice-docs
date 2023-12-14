@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 644,
-  "Name": "Lindgren-Olson",
-  "Tooltip": "non",
+  "Id": 476,
+  "Name": "Hegmann, Denesik and Pacocha",
+  "Tooltip": "eos",
   "Deleted": false,
-  "UdListDefinitionId": 222,
-  "Rank": 718,
+  "UdListDefinitionId": 780,
+  "Rank": 273,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 459
+      "FieldType": "System.Int32",
+      "FieldLength": 286
     }
   }
 }

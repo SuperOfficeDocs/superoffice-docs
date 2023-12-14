@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=308
+PUT /api/v1/Project/{id}/ImageInfo?projectId=893
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 406,
-  "BlobSize": 307,
-  "Description": "Customer-focused attitude-oriented local area network",
-  "ExtraInfo": "aperiam",
+  "BlobId": 423,
+  "BlobSize": 832,
+  "Description": "Mandatory bandwidth-monitored hierarchy",
+  "ExtraInfo": "modi",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 140,
-  "CreatedDate": "2013-04-17T13:38:17.5618158+02:00",
-  "UpdatedDate": "2023-07-14T13:38:17.5618158+02:00",
+  "MimeType": "numquam",
+  "OriginalSize": 83,
+  "CreatedDate": "2018-04-28T13:57:19.1246846+02:00",
+  "UpdatedDate": "2022-08-26T13:57:19.1246846+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aspernatur"
+  "ConceptualType": "voluptatem"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 177,
-  "BlobSize": 217,
-  "Description": "Focused non-volatile local area network",
-  "ExtraInfo": "et",
+  "BlobId": 943,
+  "BlobSize": 479,
+  "Description": "Down-sized homogeneous infrastructure",
+  "ExtraInfo": "velit",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sit",
-  "OriginalSize": 653,
-  "CreatedDate": "2022-10-10T13:38:17.5618158+02:00",
-  "UpdatedDate": "2012-07-24T13:38:17.5618158+02:00",
+  "MimeType": "harum",
+  "OriginalSize": 791,
+  "CreatedDate": "2023-05-12T13:57:19.1246846+02:00",
+  "UpdatedDate": "2002-12-23T13:57:19.1246846+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sint",
+  "ConceptualType": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 882
+      "FieldLength": 548
     }
   }
 }

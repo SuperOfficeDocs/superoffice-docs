@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=omnis
+GET /api/v1/List/Business/MDOItems?flat=False
+GET /api/v1/List/Business/MDOItems?query=consequatur
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "King, Stokes and Bailey",
-    "ToolTip": "Voluptas ad in ipsam qui et et cumque.",
+    "Id": 379,
+    "Name": "Gutkowski-Orn",
+    "ToolTip": "Autem libero.",
     "Deleted": false,
-    "Rank": 751,
-    "Type": "fugit",
+    "Rank": 238,
+    "Type": "totam",
     "ChildItems": [
       {
-        "Id": 517,
-        "Name": "O'Connell, Schroeder and Balistreri",
-        "ToolTip": "Dignissimos aperiam architecto optio dolorem.",
+        "Id": 385,
+        "Name": "Schimmel-Greenholt",
+        "ToolTip": "Corrupti ut in dolorum.",
         "Deleted": false,
-        "Rank": 230,
-        "Type": "vero",
+        "Rank": 284,
+        "Type": "numquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 43,
-        "ExtraInfo": "asperiores",
-        "StyleHint": "ad",
-        "FullName": "Mortimer Reynolds",
+        "IconHint": "rem",
+        "ColorBlock": 872,
+        "ExtraInfo": "iure",
+        "StyleHint": "vel",
+        "FullName": "Ila Huels",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 770
+            "FieldType": "System.String",
+            "FieldLength": 451
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 573,
-    "ExtraInfo": "illum",
-    "StyleHint": "atque",
-    "FullName": "Rhiannon Schoen",
+    "IconHint": "vitae",
+    "ColorBlock": 419,
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "tenetur",
+    "FullName": "Sidney Thompson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldType": "System.String",
+        "FieldLength": 103
       }
     }
   }

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 691,
-  "UdListDefinitionId": 325,
+  "Id": 997,
+  "UdListDefinitionId": 291,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 885,
-  "Name": "Runolfsson, Feest and Brown",
-  "Tooltip": "doloribus",
-  "Deleted": false,
-  "UdListDefinitionId": 168,
-  "Rank": 800,
+  "Id": 219,
+  "Name": "Bauch-Bartoletti",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 706,
+  "Rank": 222,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldType": "System.String",
+      "FieldLength": 419
     }
   }
 }

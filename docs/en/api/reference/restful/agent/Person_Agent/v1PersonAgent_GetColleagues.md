@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "recusandae",
-    "PersonId": 287,
-    "Mrmrs": "occaecati",
-    "Firstname": "Darwin",
-    "Lastname": "Langworth",
-    "MiddleName": "Huels-Lehner",
-    "Title": "eligendi",
-    "Description": "Streamlined object-oriented orchestration",
-    "Email": "dolores_russel@steuber.uk",
-    "FullName": "Prof. Vilma Kilback III",
-    "DirectPhone": "1-518-211-8329 x817",
-    "FormalName": "Littel-Mayert",
-    "CountryId": 148,
-    "ContactId": 932,
-    "ContactName": "Anderson-Batz",
-    "Retired": 252,
-    "Rank": 459,
-    "ActiveInterests": 458,
+    "Position": "soluta",
+    "PersonId": 816,
+    "Mrmrs": "dignissimos",
+    "Firstname": "Scarlett",
+    "Lastname": "Kassulke",
+    "MiddleName": "Towne-Wisoky",
+    "Title": "deserunt",
+    "Description": "Synergized maximized utilisation",
+    "Email": "christelle.bartell@brakus.co.uk",
+    "FullName": "Mafalda Heathcote",
+    "DirectPhone": "1-564-687-8804",
+    "FormalName": "Cummerata-Reilly",
+    "CountryId": 901,
+    "ContactId": 664,
+    "ContactName": "Klocko LLC",
+    "Retired": 437,
+    "Rank": 83,
+    "ActiveInterests": 289,
     "ContactDepartment": "",
-    "ContactCountryId": 162,
-    "ContactOrgNr": "1356621",
-    "FaxPhone": "993.383.3827 x169",
-    "MobilePhone": "193.336.8470",
-    "ContactPhone": "1-225-547-2049",
-    "AssociateName": "Mayert Inc and Sons",
-    "AssociateId": 771,
+    "ContactCountryId": 503,
+    "ContactOrgNr": "255397",
+    "FaxPhone": "(181)333-0016",
+    "MobilePhone": "715.328.0500 x43797",
+    "ContactPhone": "618.368.6388 x28026",
+    "AssociateName": "Rempel Group",
+    "AssociateId": 574,
     "UsePersonAddress": false,
-    "ContactFax": "doloremque",
-    "Kanafname": "eveniet",
-    "Kanalname": "aut",
-    "Post1": "suscipit",
-    "Post2": "nihil",
-    "Post3": "et",
-    "EmailName": "piper_thiel@daviscronin.uk",
-    "ContactFullName": "Kenton Dooley",
-    "ActiveErpLinks": 309,
-    "TicketPriorityId": 11,
-    "SupportLanguageId": 302,
-    "SupportAssociateId": 5,
+    "ContactFax": "ut",
+    "Kanafname": "in",
+    "Kanalname": "voluptates",
+    "Post1": "nisi",
+    "Post2": "eveniet",
+    "Post3": "nobis",
+    "EmailName": "alene_gerhold@champlinherman.uk",
+    "ContactFullName": "Maegan D'Amore",
+    "ActiveErpLinks": 783,
+    "TicketPriorityId": 199,
+    "SupportLanguageId": 13,
+    "SupportAssociateId": 148,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldLength": 500
       }
     }
   }

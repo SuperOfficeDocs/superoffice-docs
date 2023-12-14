@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 557,
-  "ConnectorName": "Schmeler-Lakin"
+  "ConnectionId": 154,
+  "ConnectorName": "Borer-Raynor"
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "adipisci",
-    "Rank": 195,
-    "DisplayName": "Hayes-Russel",
-    "DisplayDescription": "Pre-emptive user-facing protocol",
+    "FieldKey": "et",
+    "Rank": 659,
+    "DisplayName": "Douglas Group",
+    "DisplayDescription": "Managed intangible throughput",
     "FieldType": "Checkbox",
-    "ListName": "Reynolds LLC",
-    "DefaultValue": "amet",
-    "MaxLength": 4,
+    "ListName": "Dooley, Paucek and O'Kon",
+    "DefaultValue": "quasi",
+    "MaxLength": 247,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldLength": 211
       }
     }
   }

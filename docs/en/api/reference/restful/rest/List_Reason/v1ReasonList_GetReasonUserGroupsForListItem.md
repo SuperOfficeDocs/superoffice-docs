@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Okuneva LLC",
-    "ToolTip": "Hic enim ullam vitae quaerat non.",
-    "Deleted": false,
-    "Rank": 229,
-    "Type": "necessitatibus",
-    "ColorBlock": 554,
-    "IconHint": "similique",
+    "Id": 310,
+    "Name": "Sawayn-Sporer",
+    "ToolTip": "Temporibus ipsa in deserunt laborum fugit.",
+    "Deleted": true,
+    "Rank": 127,
+    "Type": "unde",
+    "ColorBlock": 296,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2021-01-24T13:38:18.2025212+01:00",
+    "LastChanged": "1998-04-12T13:57:20.0783884+02:00",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "Bayer, Hickle and Wyman",
-        "ToolTip": "Voluptas minus quia.",
+        "Id": 970,
+        "Name": "Wiza Inc and Sons",
+        "ToolTip": "In eligendi officia autem aut sed magnam.",
         "Deleted": true,
-        "Rank": 572,
-        "Type": "facilis",
-        "ColorBlock": 772,
-        "IconHint": "corrupti",
+        "Rank": 235,
+        "Type": "asperiores",
+        "ColorBlock": 366,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "1999-05-15T13:38:18.2025212+02:00",
+        "LastChanged": "2008-07-01T13:57:20.0783884+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "atque",
+        "StyleHint": "eaque",
         "Hidden": true,
-        "FullName": "Joe Hoppe",
+        "FullName": "Sammy Marquardt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 918
+            "FieldLength": 813
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "ratione",
-    "Hidden": false,
-    "FullName": "Miss Lincoln O'Kon",
+    "ExtraInfo": "laborum",
+    "StyleHint": "nihil",
+    "Hidden": true,
+    "FullName": "Mr. Magdalena Bednar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 510
+        "FieldLength": 16
       }
     }
   }

@@ -133,18 +133,18 @@ TicketMessageEntity  updated.
 PATCH /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "maxime",
+    "path": "incidunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "maxime",
+    "path": "incidunt",
     "value": {}
   }
 ]
@@ -157,28 +157,28 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 555,
+  "EjMessageId": 66,
   "Ticket": null,
-  "CreatedAt": "2003-06-17T13:38:17.7492894+02:00",
+  "CreatedAt": "2005-12-30T13:57:19.4065594+01:00",
   "CreatedBy": null,
-  "Author": "similique",
+  "Author": "consequuntur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "omnis",
-  "TimeSpent": 183,
-  "Body": "vel",
-  "HtmlBody": "veritatis",
-  "EmailHeader": "ruthie.weissnat@wiegand.com",
-  "DebugInfo": "corrupti",
-  "MailSorter": "iusto",
+  "MessageId": "sed",
+  "TimeSpent": 420,
+  "Body": "aliquid",
+  "HtmlBody": "ipsum",
+  "EmailHeader": "taylor@stracke.com",
+  "DebugInfo": "et",
+  "MailSorter": "veritatis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "adipisci",
+  "SearchTitle": "blanditiis",
   "MessageHeaders": [
     {
-      "Id": 363,
-      "Name": "Mayert, Beer and Walter",
-      "Value": "voluptates",
+      "Id": 598,
+      "Name": "Schaden-Schumm",
+      "Value": "dolor",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -186,54 +186,54 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 623
+          "FieldLength": 938
         }
       }
     }
   ],
   "Important": false,
-  "Language": "est",
-  "Sentiment": 757,
-  "SentimentConfidence": 10,
+  "Language": "quis",
+  "Sentiment": 320,
+  "SentimentConfidence": 136,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 673,
-      "Name": "Purdy-Dicki",
-      "ContentType": "ducimus",
-      "AttSize": 947,
-      "InlineImage": true,
-      "ContentId": "est",
-      "AuthKey": "dicta",
+      "AttachmentId": 97,
+      "Name": "Raynor, Will and Fisher",
+      "ContentType": "expedita",
+      "AttSize": 438,
+      "InlineImage": false,
+      "ContentId": "facilis",
+      "AuthKey": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldType": "System.String",
+          "FieldLength": 317
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "maxime"
   },
   "CustomFields": {
-    "CustomFields1": "distinctio",
-    "CustomFields2": "ullam"
+    "CustomFields1": "incidunt",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 683
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

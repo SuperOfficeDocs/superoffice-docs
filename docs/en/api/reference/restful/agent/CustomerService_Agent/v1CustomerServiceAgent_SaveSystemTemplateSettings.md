@@ -110,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 10,
-  "CustomerCustomerReplyTemplateId": 600,
-  "CustomerPasswordTemplateId": 172,
-  "CustomerConfirmEmailTemplateId": 387,
-  "CustomerChatLogTemplateId": 847,
-  "NewLinkTemplateId": 65,
-  "HotlistNewMessageTemplateId": 950,
-  "HotlistTicketActivatedTemplateId": 949,
-  "UserTicketAlarmTemplateId": 378,
-  "HotlistTicketTakenOverTemplateId": 937,
-  "UserActiveTicketsTemplateId": 508,
-  "UserNewMessageTemplateId": 991,
-  "UserTicketActivatedTemplateId": 127,
-  "UserNewTicketTemplateId": 135,
-  "PublishKbQuestionTemplateId": 828,
-  "PublishKbAnswerTemplateId": 986,
-  "UserTicketTakenOverTemplateId": 882,
-  "PrintTicketTemplateId": 181,
-  "WeekStatTemplateId": 171,
-  "TicketAlarmHotlistTemplateId": 424,
-  "EmailAddresses": "alia_hills@mayer.uk",
+  "CustomerNewCustomerTemplateId": 681,
+  "CustomerCustomerReplyTemplateId": 400,
+  "CustomerPasswordTemplateId": 843,
+  "CustomerConfirmEmailTemplateId": 768,
+  "CustomerChatLogTemplateId": 619,
+  "NewLinkTemplateId": 45,
+  "HotlistNewMessageTemplateId": 898,
+  "HotlistTicketActivatedTemplateId": 659,
+  "UserTicketAlarmTemplateId": 445,
+  "HotlistTicketTakenOverTemplateId": 680,
+  "UserActiveTicketsTemplateId": 157,
+  "UserNewMessageTemplateId": 421,
+  "UserTicketActivatedTemplateId": 373,
+  "UserNewTicketTemplateId": 749,
+  "PublishKbQuestionTemplateId": 563,
+  "PublishKbAnswerTemplateId": 515,
+  "UserTicketTakenOverTemplateId": 4,
+  "PrintTicketTemplateId": 633,
+  "WeekStatTemplateId": 355,
+  "TicketAlarmHotlistTemplateId": 300,
+  "EmailAddresses": "brycen_ledner@kassulkerowe.uk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldType": "System.String",
+      "FieldLength": 85
     }
   }
 }

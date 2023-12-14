@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 560,
-  "Rank": 404
+  "QuoteLineId": 786,
+  "Rank": 926
 }
 ```
 

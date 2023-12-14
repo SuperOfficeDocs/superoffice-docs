@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=83
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=694
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,47 +95,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 614,
-  "CreatedAt": "2016-09-17T13:38:14.295928+02:00",
+  "TicketMessageId": 710,
+  "CreatedAt": "2005-11-10T13:57:13.4583399+01:00",
   "Slevel": "External",
-  "Important": false,
-  "Author": "saepe",
-  "PersonId": 319,
-  "PersonFullName": "Joan Lowe",
-  "ContactId": 262,
-  "ContactName": "Graham-Mueller",
-  "ContactDepartment": "facilitate cross-platform convergence",
-  "NumAttachments": 174,
-  "EmailHeader": "lester.sauer@ullrichmurazik.ca",
+  "Important": true,
+  "Author": "eos",
+  "PersonId": 183,
+  "PersonFullName": "Jalon Senger",
+  "ContactId": 145,
+  "ContactName": "Oberbrunner, Beer and Fay",
+  "ContactDepartment": "",
+  "NumAttachments": 828,
+  "EmailHeader": "shyann@nolanfeil.co.uk",
   "MessageHeaders": [
     {
-      "Id": 807,
-      "Name": "Block, Kertzmann and Willms",
-      "Value": "sed",
+      "Id": 591,
+      "Name": "Feest-Smitham",
+      "Value": "porro",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 142
+          "FieldType": "System.Int32",
+          "FieldLength": 686
         }
       }
     }
   ],
-  "Language": "est",
-  "Sentiment": 102,
-  "SentimentConfidence": 561,
-  "CreatedBy": 264,
-  "ChangedAt": "1998-02-10T13:38:14.295928+01:00",
+  "Language": "rerum",
+  "Sentiment": 669,
+  "SentimentConfidence": 53,
+  "CreatedBy": 923,
+  "ChangedAt": "2022-11-15T13:57:13.4583399+01:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   }
 }

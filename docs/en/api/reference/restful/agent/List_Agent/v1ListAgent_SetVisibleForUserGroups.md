@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 226,
-  "ListItemId": 105,
+  "UdListDefinitionId": 489,
+  "ListItemId": 800,
   "UserGroups": [
     {
-      "Id": 237,
-      "Name": "Gerhold, Veum and Marks",
-      "ToolTip": "Veritatis ut rerum accusantium tempora.",
+      "Id": 289,
+      "Name": "Dietrich, Hermann and Blick",
+      "ToolTip": "Laudantium nam itaque sed.",
       "Deleted": true,
-      "Rank": 749,
-      "Type": "omnis",
-      "ColorBlock": 437,
-      "IconHint": "tempora",
+      "Rank": 487,
+      "Type": "et",
+      "ColorBlock": 739,
+      "IconHint": "eum",
       "Selected": false,
-      "LastChanged": "2016-11-10T13:38:13.6708541+01:00",
+      "LastChanged": "2002-03-11T13:57:12.5118644+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "est",
-      "Hidden": true,
-      "FullName": "Cierra Carroll"
+      "ExtraInfo": "exercitationem",
+      "StyleHint": "autem",
+      "Hidden": false,
+      "FullName": "Brody Marvin"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 928,
-    "Name": "Prosacco Inc and Sons",
-    "ToolTip": "Perferendis consectetur molestias reiciendis vitae quod incidunt repudiandae.",
+    "Id": 370,
+    "Name": "Schmidt-Beatty",
+    "ToolTip": "Nam aut vel autem saepe officia et.",
     "Deleted": false,
-    "Rank": 606,
-    "Type": "voluptate",
-    "ColorBlock": 931,
-    "IconHint": "quos",
+    "Rank": 744,
+    "Type": "et",
+    "ColorBlock": 768,
+    "IconHint": "ea",
     "Selected": true,
-    "LastChanged": "2006-12-25T13:38:13.6708541+01:00",
+    "LastChanged": "2022-05-16T13:57:12.5118644+02:00",
     "ChildItems": [
       {
-        "Id": 912,
-        "Name": "Marks-Funk",
-        "ToolTip": "Magni earum cum.",
+        "Id": 67,
+        "Name": "Padberg Group",
+        "ToolTip": "Quibusdam harum ratione molestiae assumenda voluptas consequatur.",
         "Deleted": true,
-        "Rank": 436,
-        "Type": "aliquid",
-        "ColorBlock": 679,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2017-05-19T13:38:13.6708541+02:00",
+        "Rank": 664,
+        "Type": "rem",
+        "ColorBlock": 184,
+        "IconHint": "repellat",
+        "Selected": false,
+        "LastChanged": "2016-04-05T13:57:12.5118644+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "iusto",
-        "Hidden": true,
-        "FullName": "Bessie Padberg",
+        "ExtraInfo": "quia",
+        "StyleHint": "deserunt",
+        "Hidden": false,
+        "FullName": "Breanna Dickens",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 436
+            "FieldLength": 775
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "culpa",
-    "Hidden": true,
-    "FullName": "Prof. Dulce Sierra Kreiger",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Valerie Zieme",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 755
+        "FieldLength": 301
       }
     }
   }

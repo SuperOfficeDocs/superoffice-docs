@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/ViewState/SetHistoryLengthPrefValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Length": 18
+  "Length": 321
 }
 ```
 

@@ -84,7 +84,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 498
+  "SelectionId": 280
 }
 ```
 
@@ -96,44 +96,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kautzer Inc and Sons",
-    "Operator": "placeat",
+    "Name": "Wyman, Walsh and Sanford",
+    "Operator": "cum",
     "Values": [
-      "recusandae",
-      "laudantium"
+      "harum",
+      "quia"
     ],
     "DisplayValues": [
-      "nostrum",
-      "nulla"
+      "eius",
+      "assumenda"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Rogahn, Runolfsdottir and Keeling",
-        "Operator": "eius",
+        "Name": "Ferry-Collins",
+        "Operator": "numquam",
         "Values": [
-          "est",
+          "perspiciatis",
           "incidunt"
         ],
         "DisplayValues": [
-          "veritatis",
-          "modi"
+          "ut",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 778,
+        "InterParenthesis": 606,
         "InterOperator": "And",
-        "UniqueHash": 284
+        "UniqueHash": 179
       }
     ],
-    "InterParenthesis": 501,
+    "InterParenthesis": 594,
     "InterOperator": "And",
-    "UniqueHash": 279
+    "UniqueHash": 925
   }
 ]
 ```

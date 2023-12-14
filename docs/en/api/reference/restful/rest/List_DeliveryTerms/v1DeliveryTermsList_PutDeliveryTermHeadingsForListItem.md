@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Larkin LLC",
-    "ToolTip": "Est officiis eum deleniti architecto eligendi earum.",
+    "Id": 808,
+    "Name": "McKenzie, Williamson and Ward",
+    "ToolTip": "Architecto earum.",
     "Deleted": false,
-    "Rank": 634,
-    "Type": "voluptas",
-    "ColorBlock": 378,
-    "IconHint": "aut",
+    "Rank": 775,
+    "Type": "aperiam",
+    "ColorBlock": 559,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2006-12-14T13:38:18.0462875+01:00",
+    "LastChanged": "2019-01-13T13:57:19.7346424+01:00",
     "ChildItems": [
       {
-        "Id": 508,
-        "Name": "Gerhold Group",
-        "ToolTip": "Nostrum odio voluptas incidunt at et autem quis.",
-        "Deleted": true,
-        "Rank": 26,
-        "Type": "quis",
-        "ColorBlock": 669,
-        "IconHint": "repudiandae",
+        "Id": 212,
+        "Name": "Stracke LLC",
+        "ToolTip": "Ratione et cupiditate aut amet repudiandae.",
+        "Deleted": false,
+        "Rank": 24,
+        "Type": "necessitatibus",
+        "ColorBlock": 218,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "1998-05-08T13:38:18.0462875+02:00",
+        "LastChanged": "1999-01-25T13:57:19.7346424+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "delectus",
-        "Hidden": false,
-        "FullName": "Arthur Greenholt DDS"
+        "ExtraInfo": "id",
+        "StyleHint": "tempore",
+        "Hidden": true,
+        "FullName": "Arvel Ondricka"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "maiores",
-    "Hidden": false,
-    "FullName": "Gabrielle Bauch"
+    "ExtraInfo": "dicta",
+    "StyleHint": "amet",
+    "Hidden": true,
+    "FullName": "Miss Ruby Christophe Maggio Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Harber-Franecki",
-    "ToolTip": "Architecto iste id.",
-    "Deleted": false,
-    "Rank": 909,
-    "Type": "voluptatem",
-    "ColorBlock": 742,
-    "IconHint": "corrupti",
-    "Selected": true,
-    "LastChanged": "2012-05-09T13:38:18.0462875+02:00",
+    "Id": 124,
+    "Name": "Cronin-Altenwerth",
+    "ToolTip": "Voluptatem impedit nihil et modi quisquam aut consequatur.",
+    "Deleted": true,
+    "Rank": 585,
+    "Type": "aliquam",
+    "ColorBlock": 685,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2009-10-01T13:57:19.7346424+02:00",
     "ChildItems": [
       {
-        "Id": 891,
-        "Name": "Brakus-Hyatt",
-        "ToolTip": "Placeat magni molestias.",
-        "Deleted": true,
-        "Rank": 434,
-        "Type": "consectetur",
-        "ColorBlock": 794,
+        "Id": 337,
+        "Name": "Johns-Christiansen",
+        "ToolTip": "Est est officia temporibus fuga labore ut id.",
+        "Deleted": false,
+        "Rank": 306,
+        "Type": "a",
+        "ColorBlock": 411,
         "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2015-07-06T13:38:18.0462875+02:00",
+        "Selected": true,
+        "LastChanged": "2000-09-03T13:57:19.7346424+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Arch Huel",
+        "ExtraInfo": "aut",
+        "StyleHint": "nesciunt",
+        "Hidden": false,
+        "FullName": "Delbert Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 453
+            "FieldType": "System.String",
+            "FieldLength": 343
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "ut",
+    "ExtraInfo": "earum",
+    "StyleHint": "unde",
     "Hidden": true,
-    "FullName": "Dane Wyman",
+    "FullName": "Philip Kuhic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 777
+        "FieldType": "System.Int32",
+        "FieldLength": 892
       }
     }
   }

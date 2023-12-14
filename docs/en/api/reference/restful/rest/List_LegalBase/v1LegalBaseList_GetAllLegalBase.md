@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 513,
-    "Name": "Hackett, Erdman and Hills",
-    "Tooltip": "voluptatem",
-    "Rank": 294,
-    "Key": "quis",
-    "Deleted": true,
+    "LegalBaseId": 32,
+    "Name": "Reinger-Pacocha",
+    "Tooltip": "mollitia",
+    "Rank": 887,
+    "Key": "sit",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldType": "System.String",
+        "FieldLength": 63
       }
     }
   }

@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 16 Jun 2010 13:38:17 G6T
+Last-Modified: Tue, 13 Jul 2004 13:57:19 G7T
 
 {
-  "Description": "Pre-emptive bottom-line product",
-  "Postit": "sunt",
+  "Description": "Balanced composite local area network",
+  "Postit": "accusantium",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 719,
-  "IncludePerson": 440,
-  "MemberCount": 948,
-  "Name": "West-Gutkowski",
-  "PostitTextId": 272,
-  "CreatedDate": "2017-11-24T13:38:17.6555554+01:00",
-  "SelectionId": 76,
-  "SoundEx": "quia",
-  "Source": 899,
-  "TextId": 281,
-  "UpdatedDate": "2010-06-16T13:38:17.6555554+02:00",
-  "UpdatedCount": 473,
-  "Visibility": 896,
+  "GroupIdx": 841,
+  "IncludePerson": 585,
+  "MemberCount": 619,
+  "Name": "Nicolas Group",
+  "PostitTextId": 70,
+  "CreatedDate": "2022-06-21T13:57:19.2502736+02:00",
+  "SelectionId": 611,
+  "SoundEx": "porro",
+  "Source": 383,
+  "TextId": 160,
+  "UpdatedDate": "2004-07-13T13:57:19.2502736+02:00",
+  "UpdatedCount": 766,
+  "Visibility": 687,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 68,
-  "TargetTableName": "Herman-Morissette",
+  "CompanyUnique": false,
+  "TargetTableNumber": 812,
+  "TargetTableName": "Pagac, Mosciski and Krajcik",
   "Completed": false,
-  "LeftSelectionId": 41,
-  "RightSelectionId": 148,
+  "LeftSelectionId": 392,
+  "RightSelectionId": 101,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Herzog, Fritsch and Rutherford",
-  "ShadowProviderName": "Bauch-Leuschke",
-  "ChartKey": "rerum",
-  "LastLoaded": "1997-07-09T13:38:17.6555554+02:00",
-  "LastLoadedBy": 652,
+  "MainProviderName": "Nader LLC",
+  "ShadowProviderName": "Bartoletti LLC",
+  "ChartKey": "vel",
+  "LastLoaded": "1997-02-20T13:57:19.2502736+01:00",
+  "LastLoadedBy": 101,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-08-21T13:38:17.6555554+02:00",
-  "LastMembershipChangeBy": 621,
+  "LastMembershipChange": "1996-11-17T13:57:19.2502736+01:00",
+  "LastMembershipChangeBy": 250,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "facere",
-  "MemberTabHeading": "voluptatum",
-  "MailingsProviderName": "Denesik-Marks",
-  "DashboardTileDefinitionId": 980,
+  "MainHeading": "quasi",
+  "MemberTabHeading": "doloribus",
+  "MailingsProviderName": "Willms-McClure",
+  "DashboardTileDefinitionId": 17,
   "VisibleFor": [
     {
-      "VisibleId": 930,
+      "VisibleId": 3,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 343
         }
       }
     },
     {
-      "VisibleId": 930,
+      "VisibleId": 3,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 343
         }
       }
     }
@@ -198,7 +198,7 @@ Last-Modified: Wed, 16 Jun 2010 13:38:17 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldLength": 175
     }
   },
   "_Links": {

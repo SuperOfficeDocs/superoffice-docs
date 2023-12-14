@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 954,
-  "ToAssociate": "fuga"
+  "ChatSessionId": 3,
+  "ToAssociate": "quidem"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 711,
-  "TopicId": 775,
+  "ChatSessionId": 755,
+  "TopicId": 887,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatum",
-  "CustomerHost": "illo",
-  "CustomerName": "Krajcik-Kirlin",
-  "CustomerEmail": "cleo_jacobi@mitchell.uk",
-  "CustomerPhone": "(219)886-5962",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Rohan LLC",
+  "CustomerAlias": "quis",
+  "CustomerHost": "magni",
+  "CustomerName": "Ledner, Batz and Hudson",
+  "CustomerEmail": "russell@heidenreichrodriguez.us",
+  "CustomerPhone": "1-955-118-9116",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Schimmel Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "sint",
-  "LastMessage": "molestiae",
-  "WhenRequested": "2006-10-10T13:38:13.1396659+02:00",
-  "WhenStarted": "2011-06-01T13:38:13.1396659+02:00",
-  "WhenEnded": "2018-02-25T13:38:13.1396659+01:00",
-  "WhenIdle": "2021-04-27T13:38:13.1396659+02:00",
-  "WhenFetched": "2014-05-05T13:38:13.1396659+02:00",
-  "SessionKey": "repellat",
-  "InitialQueuePos": 254,
-  "AlertLevel": 506,
-  "Rank": 850,
+  "FirstMessage": "quo",
+  "LastMessage": "dolore",
+  "WhenRequested": "2016-02-28T13:57:11.6375561+01:00",
+  "WhenStarted": "1997-06-16T13:57:11.6375561+02:00",
+  "WhenEnded": "2023-09-16T13:57:11.6375561+02:00",
+  "WhenIdle": "2017-03-13T13:57:11.6375561+01:00",
+  "WhenFetched": "2001-03-20T13:57:11.6375561+01:00",
+  "SessionKey": "reiciendis",
+  "InitialQueuePos": 913,
+  "AlertLevel": 1001,
+  "Rank": 439,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 901,
+  "Rating": 251,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 537
+      "FieldType": "System.Int32",
+      "FieldLength": 253
     }
   }
 }

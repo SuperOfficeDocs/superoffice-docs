@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "et"
+  "ProgId": "beatae"
 }
 ```
 
@@ -108,33 +108,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 496,
-  "Name": "Powlowski-Littel",
-  "Tooltip": "aperiam",
-  "Deleted": false,
-  "Rank": 928,
+  "WebPanelId": 860,
+  "Name": "Koch LLC",
+  "Tooltip": "placeat",
+  "Deleted": true,
+  "Rank": 435,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnCentral": true,
+  "OnSatellite": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Kreiger Inc and Sons",
+  "WindowName": "Osinski-Harber",
   "Url": "http://www.example.com/",
-  "ProgId": "odit",
-  "Icon": 553,
+  "ProgId": "optio",
+  "Icon": 733,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldType": "System.Int32",
+      "FieldLength": 957
     }
   }
 }

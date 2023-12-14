@@ -102,8 +102,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 515,
-  "OnlyOpenSales": true
+  "ContactId": 211,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kunde LLC",
-    "SaleDate": "2003-03-27T13:38:14.1084486+01:00",
-    "SaleId": 230,
-    "Probability": 939,
-    "Title": "nihil",
-    "Amount": 18058.108,
-    "Currency": "numquam",
-    "ProjectName": "Hermann, McGlynn and Carter",
-    "AssociateFullName": "Landen White PhD",
-    "Description": "Grass-roots dedicated success",
+    "ContactName": "Bayer, Turner and Schiller",
+    "SaleDate": "2008-12-01T13:57:13.1757129+01:00",
+    "SaleId": 358,
+    "Probability": 269,
+    "Title": "qui",
+    "Amount": 5305.862,
+    "Currency": "commodi",
+    "ProjectName": "Torp-Cronin",
+    "AssociateFullName": "Hannah Johnston",
+    "Description": "Robust tangible website",
     "Status": "Lost",
-    "WeightedAmount": 29509.744,
-    "ProjectId": 648,
-    "EarningPercent": 30826.023999999998,
-    "Earning": 17870.068,
-    "ContactId": 179,
-    "AssociateId": 690,
-    "PersonId": 349,
-    "SaleTypeId": 30,
-    "SaleTypeName": "Schoen Group",
-    "PersonFullName": "Joany Leffler",
+    "WeightedAmount": 2162.46,
+    "ProjectId": 502,
+    "EarningPercent": 4754.278,
+    "Earning": 18675.505999999998,
+    "ContactId": 392,
+    "AssociateId": 911,
+    "PersonId": 960,
+    "SaleTypeId": 202,
+    "SaleTypeName": "Sipes, Nicolas and Daniel",
+    "PersonFullName": "Alec Ziemann DVM",
     "Completed": "Completed",
-    "ActiveErpLinks": 349,
-    "NextDueDate": "1999-03-12T13:38:14.1084486+01:00",
-    "Number": "913036",
+    "ActiveErpLinks": 452,
+    "NextDueDate": "2006-11-14T13:57:13.1757129+01:00",
+    "Number": "1241041",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 970
+        "FieldLength": 546
       }
     }
   }

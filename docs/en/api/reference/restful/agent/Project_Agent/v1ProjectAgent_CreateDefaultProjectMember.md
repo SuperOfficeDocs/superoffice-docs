@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 95,
-  "ContactId": 56,
-  "ProjectId": 536,
-  "ContactName": "Boehm, Renner and Orn",
+  "ProjectmemberId": 590,
+  "ContactId": 885,
+  "ProjectId": 682,
+  "ContactName": "Friesen, Crooks and Barrows",
   "ContactDepartment": "",
-  "ProjectName": "Green-Towne",
-  "EmailId": 820,
-  "EmailAddress": "jeanie@gottlieb.com",
-  "CountryId": 47,
-  "Firstname": "Daisha",
-  "MiddleName": "Grimes-Upton",
-  "Lastname": "Kunze",
-  "PersonId": 159,
-  "Mrmrs": "voluptas",
-  "ProjectMemberTypeName": "Lockman, Schoen and Windler",
-  "Phone": "(889)039-8964",
-  "PhoneId": 698,
-  "ProjectMemberTypeId": 754,
-  "EmailAddressName": "helena@bashirianmclaughlin.co.uk",
-  "Comment": "quis",
-  "FullName": "Vicenta Wilkinson",
+  "ProjectName": "Steuber-Waelchi",
+  "EmailId": 511,
+  "EmailAddress": "alba_stehr@mills.com",
+  "CountryId": 313,
+  "Firstname": "Demetris",
+  "MiddleName": "Treutel-Dietrich",
+  "Lastname": "Gibson",
+  "PersonId": 794,
+  "Mrmrs": "rem",
+  "ProjectMemberTypeName": "Cummings, Veum and Herzog",
+  "Phone": "1-668-844-6388 x953",
+  "PhoneId": 410,
+  "ProjectMemberTypeId": 338,
+  "EmailAddressName": "wilma@boyerziemann.info",
+  "Comment": "est",
+  "FullName": "Gia Schimmel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 89
+      "FieldLength": 468
     }
   }
 }

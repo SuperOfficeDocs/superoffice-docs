@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 123,
-  "Name": "Hirthe, Daugherty and Walker"
+  "AssociateId": 771,
+  "Name": "Schoen-Baumbach"
 }
 ```

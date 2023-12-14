@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Schiller, Feest and Auer",
-    "Tooltip": "cumque",
+    "Id": 779,
+    "Name": "Dare Inc and Sons",
+    "Tooltip": "rerum",
     "Deleted": true,
-    "UdListDefinitionId": 185,
-    "Rank": 373,
+    "UdListDefinitionId": 369,
+    "Rank": 567,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldType": "System.String",
+        "FieldLength": 755
       }
     }
   }

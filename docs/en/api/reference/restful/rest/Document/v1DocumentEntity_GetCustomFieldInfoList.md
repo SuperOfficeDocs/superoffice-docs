@@ -67,7 +67,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Feest Inc and Sons",
-    "DisplayName": "Schmidt, Wisoky and Altenwerth",
-    "Description": "Triple-buffered context-sensitive monitoring",
-    "ShortLabel": "non",
+    "FieldName": "McCullough-Harber",
+    "DisplayName": "Gleichner, Walter and Glover",
+    "Description": "Organized zero administration archive",
+    "ShortLabel": "voluptatem",
     "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 935,
-    "TemplateVariableName": "Blanda Inc and Sons"
+    "IsReadOnly": false,
+    "IsExternal": true,
+    "Rank": 891,
+    "TemplateVariableName": "Wyman, Armstrong and Bailey"
   }
 ]
 ```

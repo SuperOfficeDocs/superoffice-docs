@@ -114,27 +114,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 372,
-  "Name": "Collier Group",
-  "Tooltip": "quos",
+  "WebPanelId": 536,
+  "Name": "Boehm-O'Kon",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "Rank": 219,
+  "Rank": 845,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Bartell, Rodriguez and Green",
+  "WindowName": "Dibbert-Satterfield",
   "Url": "http://www.example.com/",
-  "ProgId": "beatae",
-  "Icon": 127,
-  "AlwaysReloadOnShow": true
+  "ProgId": "aut",
+  "Icon": 738,
+  "AlwaysReloadOnShow": false
 }
 ```
 
@@ -145,33 +145,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 228,
-  "Name": "Wuckert-Wiza",
-  "Tooltip": "earum",
+  "WebPanelId": 731,
+  "Name": "Murazik, Quitzon and Koelpin",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 72,
+  "Rank": 881,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Feeney Inc and Sons",
+  "WindowName": "Toy-Ondricka",
   "Url": "http://www.example.com/",
-  "ProgId": "temporibus",
-  "Icon": 223,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "ipsa",
+  "Icon": 922,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldType": "System.String",
+      "FieldLength": 617
     }
   }
 }

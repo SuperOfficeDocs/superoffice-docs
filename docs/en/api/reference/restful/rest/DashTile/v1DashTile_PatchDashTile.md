@@ -113,18 +113,18 @@ DashTile  updated.
 PATCH /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "fugiat",
+    "path": "asperiores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "fugiat",
+    "path": "asperiores",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 822,
-  "DashboardId": 822,
-  "Height": 890,
-  "Width": 180,
-  "Rank": 817,
+  "DashboardTileId": 716,
+  "DashboardId": 664,
+  "Height": 386,
+  "Width": 501,
+  "Rank": 780,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldType": "System.String",
+      "FieldLength": 157
     }
   },
   "_Links": {

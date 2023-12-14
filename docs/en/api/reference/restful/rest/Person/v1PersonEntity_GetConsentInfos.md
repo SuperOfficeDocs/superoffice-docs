@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 688,
-    "Comment": "recusandae",
-    "Registered": "2000-05-10T13:38:17.5149376+02:00",
-    "RegisteredAssociateId": 853,
-    "Updated": "2014-02-14T13:38:17.5149376+01:00",
-    "UpdatedAssociateId": 808,
-    "LegalBaseId": 364,
+    "ConsentPersonId": 573,
+    "Comment": "ipsa",
+    "Registered": "2003-10-13T13:57:18.9371904+02:00",
+    "RegisteredAssociateId": 528,
+    "Updated": "2002-01-19T13:57:18.9371904+01:00",
+    "UpdatedAssociateId": 714,
+    "LegalBaseId": 588,
     "LegalBaseKey": "eius",
-    "LegalBaseName": "Goodwin, Borer and Grady",
-    "ConsentPurposeId": 978,
-    "ConsentPurposeKey": "voluptatem",
-    "ConsentPurposeName": "Mayert LLC",
-    "ConsentSourceId": 767,
-    "ConsentSourceKey": "ea",
-    "ConsentSourceName": "Nienow, Jakubowski and Oberbrunner",
+    "LegalBaseName": "Wiegand LLC",
+    "ConsentPurposeId": 518,
+    "ConsentPurposeKey": "unde",
+    "ConsentPurposeName": "Koss, Bernier and Bednar",
+    "ConsentSourceId": 126,
+    "ConsentSourceKey": "quod",
+    "ConsentSourceName": "McDermott LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 956
+        "FieldLength": 384
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=375
+POST /api/v1/Agents/List/GetCountry?countryId=829
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 960,
-  "Name": "Corwin LLC",
-  "CurrencyId": 667,
-  "EnglishName": "O'Kon LLC",
+  "CountryId": 497,
+  "Name": "Witting Group",
+  "CurrencyId": 718,
+  "EnglishName": "Conroy-Kuhic",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Synergized 6th generation migration",
-  "OrgNrText": "904258",
-  "InterAreaPrefix": "facere",
-  "DialInPrefix": "qui",
-  "ZipPrefix": "ipsa",
-  "DomainName": "Koch-Gerlach",
-  "AddressLayoutId": 408,
-  "DomesticAddressLayoutId": 369,
-  "ForeignAddressLayoutId": 810,
-  "Rank": 728,
-  "Tooltip": "temporibus",
-  "Deleted": false,
+  "ImageDescription": "Enhanced hybrid hub",
+  "OrgNrText": "748688",
+  "InterAreaPrefix": "libero",
+  "DialInPrefix": "dicta",
+  "ZipPrefix": "blanditiis",
+  "DomainName": "Von-Pacocha",
+  "AddressLayoutId": 345,
+  "DomesticAddressLayoutId": 218,
+  "ForeignAddressLayoutId": 18,
+  "Rank": 46,
+  "Tooltip": "harum",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 773
+      "FieldType": "System.Int32",
+      "FieldLength": 602
     }
   }
 }

@@ -110,13 +110,13 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "OverwriteExistingData": false
+  "OverwriteExistingData": true
 }
 ```
 
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 809,
+  "DocumentId": 732,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "error",
-  "Header": "aut",
-  "Name": "Hackett Group",
-  "OurRef": "repellat",
-  "YourRef": "et",
-  "CreatedDate": "2023-08-17T13:38:13.4677523+02:00",
-  "UpdatedDate": "1997-02-18T13:38:13.4677523+01:00",
-  "Description": "Balanced assymetric hub",
+  "Attention": "officia",
+  "Header": "ipsam",
+  "Name": "Balistreri LLC",
+  "OurRef": "reprehenderit",
+  "YourRef": "praesentium",
+  "CreatedDate": "1996-11-20T13:57:12.1373695+01:00",
+  "UpdatedDate": "2010-05-23T13:57:12.1373695+02:00",
+  "Description": "Organized web-enabled ability",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-08-24T13:38:13.4677523+02:00",
-  "ExternalRef": "laudantium",
+  "Date": "2023-04-21T13:57:12.1529946+02:00",
+  "ExternalRef": "quo",
   "Completed": "Completed",
-  "ActiveLinks": 241,
+  "ActiveLinks": 605,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Greenfelder-Mayert",
-      "Id": 747,
-      "Description": "Object-based human-resource archive",
-      "ExtraInfo": "amet",
-      "LinkId": 210,
+      "EntityName": "Wyman-Howe",
+      "Id": 276,
+      "Description": "Re-contextualized empowering attitude",
+      "ExtraInfo": "nam",
+      "LinkId": 895,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 79
+          "FieldType": "System.Int32",
+          "FieldLength": 655
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 925,
-  "Snum": 116,
+  "SuggestedDocumentId": 837,
+  "Snum": 480,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Regan Hintz",
-    "SuperOffice:2": "Kacey Satterfield"
+    "SuperOffice:1": "Madisen Barton",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "cum",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "voluptate"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "et"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "2000-03-19T13:38:13.4677523+01:00",
-  "PublishTo": "2016-11-04T13:38:13.4677523+01:00",
-  "PublishFrom": "2000-01-24T13:38:13.4677523+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1997-04-15T13:57:12.1529946+02:00",
+  "PublishTo": "2010-05-30T13:57:12.1529946+02:00",
+  "PublishFrom": "2015-03-24T13:57:12.1529946+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 888,
+      "VisibleId": 480,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldType": "System.Int32",
+          "FieldLength": 709
         }
       }
     },
     {
-      "VisibleId": 888,
+      "VisibleId": 480,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldType": "System.Int32",
+          "FieldLength": 709
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 901
+      "FieldType": "System.Int32",
+      "FieldLength": 368
     }
   }
 }

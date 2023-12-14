@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Eichmann, Lindgren and Moore",
-  "DeviceName": "Cronin LLC",
-  "KeyName": "Hansen-Lesch",
-  "KeyValue": "in",
-  "TableName": "Kautzer LLC"
+  "ApplicationName": "Collier, Bayer and Nikolaus",
+  "DeviceName": "Cronin-Hudson",
+  "KeyName": "Wehner-Gleason",
+  "KeyValue": "repudiandae",
+  "TableName": "Lueilwitz-Brakus"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nisi",
-  "Value": "id",
-  "RecordId": 124,
-  "CreatedDate": "2006-12-31T13:38:13.6396102+01:00",
-  "UpdatedDate": "2011-10-31T13:38:13.6396102+01:00",
-  "UpdatedBy": "rerum",
-  "CreatedBy": "aut",
-  "TableName": "Kiehn-Hoppe",
+  "Key": "incidunt",
+  "Value": "enim",
+  "RecordId": 458,
+  "CreatedDate": "2017-08-19T13:57:12.4181107+02:00",
+  "UpdatedDate": "2001-11-05T13:57:12.4181107+01:00",
+  "UpdatedBy": "dolor",
+  "CreatedBy": "itaque",
+  "TableName": "Spencer-Kuhic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 896
+      "FieldType": "System.Int32",
+      "FieldLength": 319
     }
   }
 }

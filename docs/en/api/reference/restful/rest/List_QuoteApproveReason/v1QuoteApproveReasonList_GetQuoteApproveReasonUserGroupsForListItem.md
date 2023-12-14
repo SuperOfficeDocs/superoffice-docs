@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Kessler Group",
-    "ToolTip": "Ut non recusandae asperiores enim dolor temporibus iure.",
+    "Id": 251,
+    "Name": "Kilback-Greenfelder",
+    "ToolTip": "Eius consequatur error culpa distinctio.",
     "Deleted": false,
-    "Rank": 197,
-    "Type": "debitis",
-    "ColorBlock": 394,
-    "IconHint": "saepe",
+    "Rank": 705,
+    "Type": "voluptatem",
+    "ColorBlock": 86,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2014-01-17T13:38:18.1712741+01:00",
+    "LastChanged": "1997-01-16T13:57:19.9221765+01:00",
     "ChildItems": [
       {
-        "Id": 99,
-        "Name": "Morar Inc and Sons",
-        "ToolTip": "Nesciunt facilis.",
-        "Deleted": true,
-        "Rank": 852,
-        "Type": "ex",
-        "ColorBlock": 215,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2018-09-15T13:38:18.1712741+02:00",
+        "Id": 896,
+        "Name": "Stanton, Schimmel and Ledner",
+        "ToolTip": "Officiis doloremque minus.",
+        "Deleted": false,
+        "Rank": 859,
+        "Type": "pariatur",
+        "ColorBlock": 296,
+        "IconHint": "architecto",
+        "Selected": true,
+        "LastChanged": "2022-07-20T13:57:19.9221765+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "ab",
+        "ExtraInfo": "et",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Ms. Randal Crona",
+        "FullName": "Alverta Kuvalis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 812
+            "FieldType": "System.Int32",
+            "FieldLength": 672
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "consequatur",
-    "Hidden": true,
-    "FullName": "Nyah Fahey",
+    "ExtraInfo": "cumque",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Dr. Henriette King IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 693
+        "FieldLength": 650
       }
     }
   }

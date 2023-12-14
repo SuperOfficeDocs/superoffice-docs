@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 711,
-  "ModuleOwner": "nihil"
+  "AssociateId": 814,
+  "ModuleOwner": "vel"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 255,
-    "Tooltip": "voluptatibus",
-    "CanAssign": true,
-    "Free": 691,
-    "InUse": 252,
+    "Total": 685,
+    "Tooltip": "sunt",
+    "CanAssign": false,
+    "Free": 824,
+    "InUse": 295,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 954,
-    "Name": "Funk, Hilpert and Nienow",
-    "Description": "User-friendly tertiary matrix",
-    "PrerequisiteModuleName": "Stehr LLC",
-    "SortOrder": 777,
-    "ExtraFlags": 571,
+    "Assigned": false,
+    "ModuleLicenseId": 307,
+    "Name": "Muller-Swaniawski",
+    "Description": "Distributed non-volatile service-desk",
+    "PrerequisiteModuleName": "Erdman, Dietrich and Mertz",
+    "SortOrder": 370,
+    "ExtraFlags": 757,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldLength": 1000
       }
     }
   }

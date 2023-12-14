@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 563,
-    "Name": "Prosacco LLC",
-    "Tooltip": "et",
+    "HeadingId": 993,
+    "Name": "Kirlin Inc and Sons",
+    "Tooltip": "perferendis",
     "Deleted": false,
-    "Rank": 61,
-    "UdListDefinitionId": 271
+    "Rank": 964,
+    "UdListDefinitionId": 207
   },
   {
-    "HeadingId": 563,
-    "Name": "Prosacco LLC",
-    "Tooltip": "et",
+    "HeadingId": 993,
+    "Name": "Kirlin Inc and Sons",
+    "Tooltip": "perferendis",
     "Deleted": false,
-    "Rank": 61,
-    "UdListDefinitionId": 271
+    "Rank": 964,
+    "UdListDefinitionId": 207
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 748,
-    "Name": "Hane-Quigley",
-    "Tooltip": "perferendis",
+    "HeadingId": 752,
+    "Name": "Beahan-Morar",
+    "Tooltip": "nesciunt",
     "Deleted": true,
-    "Rank": 852,
-    "UdListDefinitionId": 429,
+    "Rank": 361,
+    "UdListDefinitionId": 798,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 6
+        "FieldType": "System.Int32",
+        "FieldLength": 444
       }
     }
   }

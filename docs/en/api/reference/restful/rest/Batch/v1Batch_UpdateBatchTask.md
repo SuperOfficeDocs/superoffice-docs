@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 975,
-  "Name": "Rolfson Group",
-  "AssociateId": 24,
-  "DetailsTable": 773,
-  "DetailsRecord": 546,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 87,
+  "Name": "Abbott Inc and Sons",
+  "AssociateId": 206,
+  "DetailsTable": 884,
+  "DetailsRecord": 374,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "perferendis",
-    "ParameterObject2": "aliquam"
+    "ParameterObject1": "nihil",
+    "ParameterObject2": "atque"
   },
-  "LastStarted": "2003-09-16T13:38:17.7650302+02:00",
-  "Created": "1996-08-21T13:38:17.7650302+02:00",
-  "StartCount": 963,
-  "DatabaseSerialNumber": "729881",
-  "Context": "beatae",
-  "Result": "est",
+  "LastStarted": "2011-08-03T13:57:19.4221461+02:00",
+  "Created": "2021-01-04T13:57:19.4221461+01:00",
+  "StartCount": 939,
+  "DatabaseSerialNumber": "1047704",
+  "Context": "dolores",
+  "Result": "vel",
   "State": "All",
-  "Description": "Total clear-thinking protocol",
-  "Response": "est",
-  "Request": "sint",
-  "ProgressDescription": "Automated even-keeled project",
-  "ProgressPercent": 506,
-  "FileName": "Corkery-Stiedemann",
+  "Description": "Enhanced homogeneous project",
+  "Response": "ullam",
+  "Request": "est",
+  "ProgressDescription": "Open-architected next generation open architecture",
+  "ProgressPercent": 727,
+  "FileName": "Schneider Inc and Sons",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 471,
-  "Name": "McDermott, Collier and Hammes",
-  "AssociateId": 56,
-  "DetailsTable": 284,
-  "DetailsRecord": 606,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 528,
+  "Name": "Kautzer-Turcotte",
+  "AssociateId": 78,
+  "DetailsTable": 313,
+  "DetailsRecord": 439,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
     "ParameterObject1": "et",
-    "ParameterObject2": "qui"
+    "ParameterObject2": "eum"
   },
-  "LastStarted": "2012-03-16T13:38:17.7650302+01:00",
-  "Created": "2003-05-05T13:38:17.7650302+02:00",
-  "StartCount": 527,
-  "DatabaseSerialNumber": "595988",
-  "Context": "totam",
-  "Result": "saepe",
+  "LastStarted": "2018-09-08T13:57:19.4221461+02:00",
+  "Created": "1996-10-21T13:57:19.4221461+02:00",
+  "StartCount": 299,
+  "DatabaseSerialNumber": "1667918",
+  "Context": "tempora",
+  "Result": "vero",
   "State": "All",
-  "Description": "Optional 24 hour algorithm",
-  "Response": "omnis",
-  "Request": "eos",
-  "ProgressDescription": "Extended context-sensitive definition",
-  "ProgressPercent": 128,
-  "FileName": "Borer Group",
+  "Description": "Polarised value-added synergy",
+  "Response": "dolorem",
+  "Request": "vel",
+  "ProgressDescription": "Optional bifurcated application",
+  "ProgressPercent": 638,
+  "FileName": "Kautzer Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 539
+      "FieldType": "System.Int32",
+      "FieldLength": 149
     }
   }
 }

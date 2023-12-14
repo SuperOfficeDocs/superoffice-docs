@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "qui",
+  "RawValue": "aliquid",
   "Specification": null,
-  "DisplayValue": "explicabo",
-  "DisplayTooltip": "quisquam",
+  "DisplayValue": "id",
+  "DisplayTooltip": "nostrum",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 207,
-  "PrefDescId": 497,
-  "TableName": "Hane-Rosenbaum",
-  "UserPreferenceId": 186
+  "TargetId": 303,
+  "PrefDescId": 375,
+  "TableName": "Hilll, Bartell and Baumbach",
+  "UserPreferenceId": 472
 }
 ```
 

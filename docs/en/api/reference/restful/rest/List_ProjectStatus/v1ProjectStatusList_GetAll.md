@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 278,
-    "Name": "Ward-Watsica",
-    "Tooltip": "voluptas",
+    "Id": 487,
+    "Name": "Miller, Hickle and Gerlach",
+    "Tooltip": "quos",
     "Deleted": false,
-    "UdListDefinitionId": 461,
-    "Rank": 133,
+    "UdListDefinitionId": 100,
+    "Rank": 559,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 43
+        "FieldLength": 422
       }
     }
   }

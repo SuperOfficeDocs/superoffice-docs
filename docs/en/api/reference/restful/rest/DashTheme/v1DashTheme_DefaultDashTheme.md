@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 862,
-  "Name": "Parker Inc and Sons",
-  "Config": "molestiae",
-  "Rank": 172,
-  "Client": "omnis",
-  "Style": "esse",
+  "DashboardThemeId": 336,
+  "Name": "Larson-Nolan",
+  "Config": "ratione",
+  "Rank": 483,
+  "Client": "quis",
+  "Style": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldType": "System.Int32",
+      "FieldLength": 197
     }
   }
 }

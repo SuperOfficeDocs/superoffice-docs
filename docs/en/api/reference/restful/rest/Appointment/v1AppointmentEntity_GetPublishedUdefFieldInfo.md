@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 99,
-  "ColumnId": 391,
-  "FieldDefault": "distinctio",
-  "FieldHeight": 183,
-  "FieldLabel": "nostrum",
-  "FieldLeft": 44,
-  "FieldTop": 219,
+  "UDefFieldId": 35,
+  "ColumnId": 788,
+  "FieldDefault": "enim",
+  "FieldHeight": 98,
+  "FieldLabel": "laborum",
+  "FieldLeft": 484,
+  "FieldTop": 576,
   "FieldType": "Checkbox",
-  "FieldWidth": 171,
-  "FormatMask": "unde",
-  "HideLabel": true,
+  "FieldWidth": 959,
+  "FormatMask": "vitae",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 336,
-  "LabelLeft": 334,
-  "LabelTop": 834,
-  "LabelWidth": 759,
-  "LastVersionId": 111,
-  "ListTableId": 555,
+  "LabelHeight": 701,
+  "LabelLeft": 565,
+  "LabelTop": 390,
+  "LabelWidth": 625,
+  "LastVersionId": 762,
+  "ListTableId": 169,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 599,
-  "ProgId": "accusamus",
-  "IsReadOnly": true,
-  "ShortLabel": "est",
-  "TabOrder": 155,
-  "TextLength": 609,
-  "Tooltip": "est",
-  "UdefIdentity": 788,
-  "UDListDefinitionId": 514,
+  "Page1LineNo": 1001,
+  "ProgId": "exercitationem",
+  "IsReadOnly": false,
+  "ShortLabel": "hic",
+  "TabOrder": 170,
+  "TextLength": 990,
+  "Tooltip": "qui",
+  "UdefIdentity": 28,
+  "UDListDefinitionId": 405,
   "Justification": "Center",
-  "Version": 70,
-  "TemplateVariableName": "Cummings Group",
+  "Version": 778,
+  "TemplateVariableName": "Wehner LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Murphy, Stanton and Zulauf",
+  "MdoListName": "Kuhic Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldType": "System.String",
+      "FieldLength": 204
     }
   }
 }

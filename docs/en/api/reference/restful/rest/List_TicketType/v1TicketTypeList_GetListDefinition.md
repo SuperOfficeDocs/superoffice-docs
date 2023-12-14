@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 680,
-  "Name": "Baumbach LLC",
-  "Tooltip": "ipsum",
-  "Deleted": false,
-  "Rank": 216,
+  "Id": 638,
+  "Name": "Pfeffer, Christiansen and Harris",
+  "Tooltip": "fugiat",
+  "Deleted": true,
+  "Rank": 693,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fuga",
+  "UseGroupsAndHeadings": false,
+  "ListType": "officiis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldType": "System.String",
+      "FieldLength": 708
     }
   },
   "_Links": {

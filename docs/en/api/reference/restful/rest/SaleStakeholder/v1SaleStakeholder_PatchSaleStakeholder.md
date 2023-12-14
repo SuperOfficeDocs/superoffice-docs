@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "minima",
+    "path": "nulla",
     "value": {}
   },
   {
     "op": "add",
-    "path": "minima",
+    "path": "nulla",
     "value": {}
   }
 ]
@@ -150,36 +150,36 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Heathcote Inc and Sons",
-  "Comment": "consequatur",
-  "StakeholderRoleId": 646,
-  "CountryId": 250,
-  "PersonId": 991,
-  "EmailDescription": "sonia_gorczany@streich.us",
-  "EmailId": 642,
-  "EmailAddress": "nona.goodwin@stracke.biz",
-  "PhoneId": 241,
-  "ContactName": "Gusikowski-Price",
-  "ContactId": 353,
-  "SaleId": 460,
-  "Mrmrs": "perferendis",
-  "Firstname": "Lenna",
-  "MiddleName": "Lockman-Friesen",
-  "Lastname": "Ebert",
-  "SaleStakeholderId": 79,
-  "Rank": 591,
-  "Phone": "(383)205-3962 x43829",
+  "StakeholderRoleName": "Flatley, Douglas and Willms",
+  "Comment": "reprehenderit",
+  "StakeholderRoleId": 468,
+  "CountryId": 352,
+  "PersonId": 347,
+  "EmailDescription": "jena@raynor.biz",
+  "EmailId": 35,
+  "EmailAddress": "fermin.runte@okuneva.info",
+  "PhoneId": 601,
+  "ContactName": "Durgan Inc and Sons",
+  "ContactId": 857,
+  "SaleId": 992,
+  "Mrmrs": "delectus",
+  "Firstname": "Cloyd",
+  "MiddleName": "Gorczany LLC",
+  "Lastname": "Kuvalis",
+  "SaleStakeholderId": 68,
+  "Rank": 308,
+  "Phone": "(204)620-6522 x08019",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 285
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

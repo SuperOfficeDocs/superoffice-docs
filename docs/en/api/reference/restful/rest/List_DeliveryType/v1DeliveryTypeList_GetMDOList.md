@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=et
+GET /api/v1/List/DeliveryType/MDOItems?flat=False
+GET /api/v1/List/DeliveryType/MDOItems?query=similique
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Padberg-Gaylord",
-    "ToolTip": "Beatae quia tenetur.",
+    "Id": 661,
+    "Name": "Krajcik Group",
+    "ToolTip": "Animi et veniam voluptatem vel voluptatum.",
     "Deleted": false,
-    "Rank": 838,
-    "Type": "nesciunt",
+    "Rank": 648,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 820,
-        "Name": "Huel, Wintheiser and Wisoky",
-        "ToolTip": "Commodi mollitia eos.",
-        "Deleted": false,
-        "Rank": 582,
-        "Type": "odit",
+        "Id": 148,
+        "Name": "Bahringer-Auer",
+        "ToolTip": "Dolorum ipsa.",
+        "Deleted": true,
+        "Rank": 416,
+        "Type": "voluptas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 358,
-        "ExtraInfo": "doloribus",
-        "StyleHint": "rerum",
-        "FullName": "Giles Mellie Pouros PhD",
+        "IconHint": "non",
+        "ColorBlock": 668,
+        "ExtraInfo": "nobis",
+        "StyleHint": "dolorem",
+        "FullName": "Dahlia Moore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 871
+            "FieldLength": 186
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 147,
-    "ExtraInfo": "corporis",
-    "StyleHint": "quam",
-    "FullName": "Prof. Torrey Schroeder",
+    "IconHint": "consequatur",
+    "ColorBlock": 916,
+    "ExtraInfo": "et",
+    "StyleHint": "architecto",
+    "FullName": "Ms. Raoul Vandervort IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 304
+        "FieldType": "System.Int32",
+        "FieldLength": 773
       }
     }
   }

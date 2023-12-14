@@ -25,7 +25,7 @@ Get a list of the lists - built-in and user-defined.
 | includeDeleted | bool |  Include deleted items in result? |
 
 ```http
-GET /api/v1/List?includeDeleted=True
+GET /api/v1/List?includeDeleted=False
 ```
 
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 89,
-    "Name": "Cronin, Rodriguez and Mitchell",
-    "Tooltip": "natus",
+    "Id": 74,
+    "Name": "Hermann, Parisian and Zboncak",
+    "Tooltip": "maiores",
     "Deleted": false,
-    "Rank": 13,
+    "Rank": 514,
     "IsCustomList": false,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": true,
-    "ListType": "ratione",
-    "InUseByUserDefinedFields": true,
+    "UseGroupsAndHeadings": false,
+    "ListType": "unde",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 649
+        "FieldType": "System.String",
+        "FieldLength": 198
       }
     }
   }

@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 412,
-  "UniqueIdentifier": "ipsam",
-  "Name": "Powlowski LLC",
-  "Description": "Distributed fault-tolerant migration",
-  "IncludeId": "magni",
-  "HierarchyId": 670,
-  "Source": "provident",
-  "Registered": "2003-03-24T13:38:13.374011+01:00",
-  "RegisteredAssociateId": 961,
-  "Updated": "2019-03-18T13:38:13.374011+01:00",
-  "UpdatedAssociateId": 227,
+  "EjscriptId": 882,
+  "UniqueIdentifier": "adipisci",
+  "Name": "Grimes-Toy",
+  "Description": "Mandatory didactic groupware",
+  "IncludeId": "dolor",
+  "HierarchyId": 331,
+  "Source": "sed",
+  "Registered": "2009-07-08T13:57:11.9967528+02:00",
+  "RegisteredAssociateId": 525,
+  "Updated": "2003-06-29T13:57:11.9967528+02:00",
+  "UpdatedAssociateId": 287,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 31
+      "FieldType": "System.Int32",
+      "FieldLength": 435
     }
   }
 }

@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 337,
-  "Name": "Grady-Ryan",
-  "CreatedDate": "2002-08-20T13:38:17.4368262+02:00",
-  "UpdatedDate": "2000-04-10T13:38:17.4368262+02:00",
+  "ForeignAppId": 754,
+  "Name": "Flatley, Graham and Gerlach",
+  "CreatedDate": "1998-08-31T13:57:18.7953465+02:00",
+  "UpdatedDate": "2017-12-09T13:57:18.7953465+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 100,
-      "Name": "Waters Inc and Sons",
-      "CreatedDate": "2006-11-02T13:38:17.4368262+01:00",
-      "UpdatedDate": "2017-05-23T13:38:17.4368262+02:00",
-      "AssociateFullName": "Shany Spinka DVM",
-      "CreatedBy": "delectus",
-      "UpdatedBy": "labore",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 985,
+      "ForeignDeviceId": 125,
+      "Name": "Kilback-Towne",
+      "CreatedDate": "2023-01-05T13:57:18.7953465+01:00",
+      "UpdatedDate": "2018-06-18T13:57:18.7953465+02:00",
+      "AssociateFullName": "Ms. Maymie Toney Mohr IV",
+      "CreatedBy": "expedita",
+      "UpdatedBy": "quis",
+      "DeviceIdentifier": "optio",
+      "ForeignAppId": 219,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 70
+          "FieldType": "System.Int32",
+          "FieldLength": 67
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 575
+      "FieldType": "System.Int32",
+      "FieldLength": 151
     }
   }
 }

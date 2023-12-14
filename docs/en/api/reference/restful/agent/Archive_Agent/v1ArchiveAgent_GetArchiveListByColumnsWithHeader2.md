@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Rippin Inc and Sons",
-  "Columns": "illum",
-  "SortOrder": "impedit",
-  "Restriction": "delectus",
-  "Entities": "voluptatem",
-  "Page": 72,
-  "PageSize": 715,
-  "Options": "sed"
+  "ProviderName": "Nicolas Inc and Sons",
+  "Columns": "eveniet",
+  "SortOrder": "ut",
+  "Restriction": "veritatis",
+  "Entities": "quasi",
+  "Page": 671,
+  "PageSize": 841,
+  "Options": "mollitia"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 7,
+  "RowCount": 89,
   "Rows": [
     {
-      "EntityName": "Reilly Group",
-      "PrimaryKey": 91,
+      "EntityName": "Rosenbaum-Mitchell",
+      "PrimaryKey": 919,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "excepturi",
-          "TooltipHint": "recusandae",
-          "LinkHint": "tenetur"
+          "DisplayValue": "veniam",
+          "TooltipHint": "et",
+          "LinkHint": "consequatur"
         }
       },
-      "LinkHint": "doloremque",
-      "StyleHint": "quis",
+      "LinkHint": "iste",
+      "StyleHint": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 152
+          "FieldLength": 960
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldType": "System.Int32",
+      "FieldLength": 407
     }
   }
 }

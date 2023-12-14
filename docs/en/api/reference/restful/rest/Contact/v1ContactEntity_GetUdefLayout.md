@@ -90,7 +90,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 87,
-    "ColumnId": 393,
-    "FieldDefault": "amet",
-    "FieldHeight": 342,
-    "FieldLabel": "sit",
-    "FieldLeft": 857,
-    "FieldTop": 503,
+    "UDefFieldId": 458,
+    "ColumnId": 662,
+    "FieldDefault": "labore",
+    "FieldHeight": 587,
+    "FieldLabel": "veniam",
+    "FieldLeft": 569,
+    "FieldTop": 906,
     "FieldType": "Checkbox",
-    "FieldWidth": 730,
-    "FormatMask": "voluptatem",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 102,
-    "LabelLeft": 253,
-    "LabelTop": 778,
-    "LabelWidth": 670,
-    "LastVersionId": 238,
-    "ListTableId": 977,
+    "FieldWidth": 137,
+    "FormatMask": "reprehenderit",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 100,
+    "LabelLeft": 813,
+    "LabelTop": 685,
+    "LabelWidth": 444,
+    "LastVersionId": 456,
+    "ListTableId": 385,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 284,
-    "ProgId": "culpa",
+    "Page1LineNo": 349,
+    "ProgId": "quo",
     "IsReadOnly": false,
-    "ShortLabel": "aliquam",
-    "TabOrder": 495,
-    "TextLength": 457,
-    "Tooltip": "culpa",
-    "UdefIdentity": 380,
-    "UDListDefinitionId": 7,
+    "ShortLabel": "iusto",
+    "TabOrder": 674,
+    "TextLength": 112,
+    "Tooltip": "ipsam",
+    "UdefIdentity": 272,
+    "UDListDefinitionId": 120,
     "Justification": "Center",
-    "Version": 366,
-    "TemplateVariableName": "Jacobi Inc and Sons",
+    "Version": 390,
+    "TemplateVariableName": "Dickinson, Johnston and Macejkovic",
     "HasBeenPublished": false,
-    "MdoListName": "Harber LLC",
+    "MdoListName": "Rath, Jones and Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 706
+        "FieldType": "System.String",
+        "FieldLength": 773
       }
     }
   }

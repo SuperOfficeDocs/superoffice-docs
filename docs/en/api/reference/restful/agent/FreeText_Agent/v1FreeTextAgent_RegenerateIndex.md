@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 332,
-  "Name": "Kreiger, Shields and Hyatt",
-  "AssociateId": 298,
-  "DetailsTable": 684,
-  "DetailsRecord": 4,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 266,
+  "Name": "Luettgen-Homenick",
+  "AssociateId": 904,
+  "DetailsTable": 872,
+  "DetailsRecord": 245,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "rerum",
-    "ParameterObject2": "dignissimos"
+    "ParameterObject1": "consequatur",
+    "ParameterObject2": "quis"
   },
-  "LastStarted": "2015-02-09T13:38:13.6396102+01:00",
-  "Created": "1998-11-30T13:38:13.6396102+01:00",
-  "StartCount": 147,
-  "DatabaseSerialNumber": "671405",
-  "Context": "assumenda",
-  "Result": "placeat",
+  "LastStarted": "2004-10-08T13:57:12.4337359+02:00",
+  "Created": "2000-09-26T13:57:12.4337359+02:00",
+  "StartCount": 774,
+  "DatabaseSerialNumber": "807687",
+  "Context": "error",
+  "Result": "ipsam",
   "State": "All",
-  "Description": "Synergistic upward-trending matrices",
-  "Response": "enim",
-  "Request": "et",
-  "ProgressDescription": "Persevering dynamic open system",
-  "ProgressPercent": 250,
-  "FileName": "Beer Group",
+  "Description": "Realigned solution-oriented paradigm",
+  "Response": "reprehenderit",
+  "Request": "delectus",
+  "ProgressDescription": "Open-source fresh-thinking installation",
+  "ProgressPercent": 87,
+  "FileName": "Cronin Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 491
+      "FieldType": "System.Int32",
+      "FieldLength": 647
     }
   }
 }

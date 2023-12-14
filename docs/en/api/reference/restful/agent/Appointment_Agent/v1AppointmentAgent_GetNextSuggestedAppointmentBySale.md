@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 180,
-  "CurrentAppointmentId": 370,
-  "SkipCompleteCheck": true
+  "SaleId": 77,
+  "CurrentAppointmentId": 636,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 503,
-  "Deleted": 533,
-  "DaysFuture": 930,
-  "Tooltip": "quo",
-  "Text": "velit",
-  "TaskId": 828,
-  "SuggestedAppointmentId": 238,
-  "SaleTypeStageLinkId": 603,
-  "RegisteredAssociateId": 552,
-  "Rank": 270,
-  "ProjectTypeStatusLinkId": 532,
-  "Name": "Keebler, Kuhic and Hessel",
-  "Duration": 420,
+  "AutoSuggest": 234,
+  "Deleted": 989,
+  "DaysFuture": 217,
+  "Tooltip": "dolores",
+  "Text": "excepturi",
+  "TaskId": 293,
+  "SuggestedAppointmentId": 410,
+  "SaleTypeStageLinkId": 244,
+  "RegisteredAssociateId": 38,
+  "Rank": 408,
+  "ProjectTypeStatusLinkId": 428,
+  "Name": "Crooks-Reynolds",
+  "Duration": 605,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldType": "System.String",
+      "FieldLength": 752
     }
   }
 }

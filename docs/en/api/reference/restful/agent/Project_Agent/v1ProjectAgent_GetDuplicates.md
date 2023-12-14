@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hackett Group"
+  "Name": "Harber Group"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Sporer-Brakus",
-    "SoPrimaryKey": 105,
-    "EntryName": "Bernier Group",
-    "EntryIdentifier": "est",
-    "RuleDisplayName": "Strosin-Brekke",
+    "RuleName": "Adams Group",
+    "SoPrimaryKey": 284,
+    "EntryName": "Schuster, Hagenes and Ebert",
+    "EntryIdentifier": "aliquam",
+    "RuleDisplayName": "Gottlieb, Borer and Brown",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldLength": 532
       }
     }
   }

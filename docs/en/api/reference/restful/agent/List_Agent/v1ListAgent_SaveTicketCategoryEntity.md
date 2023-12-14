@@ -101,29 +101,29 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 214,
-  "ParentId": 311,
-  "Name": "Corkery LLC",
-  "Fullname": "et",
-  "CategoryMaster": 624,
+  "TicketCategoryId": 304,
+  "ParentId": 352,
+  "Name": "Cormier-Schmidt",
+  "Fullname": "esse",
+  "CategoryMaster": 214,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Swift-Crooks",
+  "ExternalName": "Senger Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 107,
-  "ReplyTemplate": 721,
-  "NotificationEmail": "alena.wintheiser@naderbechtelar.name",
+  "AssignmentLag": 264,
+  "ReplyTemplate": 154,
+  "NotificationEmail": "jerrell.morissette@gerlach.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 495,
+  "EffectiveReplyTemplateId": 741,
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "autem"
+    "CustomFields1": "maxime",
+    "CustomFields2": "qui"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 577,
-  "ParentId": 553,
-  "Name": "Ebert, Schaefer and Barton",
-  "Fullname": "consequuntur",
-  "CategoryMaster": 394,
+  "TicketCategoryId": 476,
+  "ParentId": 245,
+  "Name": "Kiehn, Ortiz and Lueilwitz",
+  "Fullname": "praesentium",
+  "CategoryMaster": 302,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Sanford-Crooks",
+  "ExternalName": "Vandervort-Effertz",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 576,
-  "ReplyTemplate": 146,
-  "NotificationEmail": "jillian@emmerichfunk.com",
+  "AssignmentLag": 768,
+  "ReplyTemplate": 768,
+  "NotificationEmail": "karl_bauch@gusikowski.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 513,
+  "EffectiveReplyTemplateId": 623,
   "ExtraFields": {
-    "ExtraFields1": "doloremque",
-    "ExtraFields2": "doloribus"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "odio"
+    "CustomFields1": "facere",
+    "CustomFields2": "ab"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldType": "System.String",
+      "FieldLength": 841
     }
   }
 }

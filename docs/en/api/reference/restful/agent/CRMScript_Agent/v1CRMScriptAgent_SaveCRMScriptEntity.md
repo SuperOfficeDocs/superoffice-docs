@@ -85,21 +85,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 594,
-  "UniqueIdentifier": "odit",
-  "Name": "Hettinger-Hudson",
-  "Description": "Front-line radical application",
-  "IncludeId": "molestias",
-  "HierarchyId": 132,
-  "Source": "provident",
-  "Registered": "2008-09-03T13:38:13.374011+02:00",
-  "RegisteredAssociateId": 445,
-  "Updated": "2017-04-17T13:38:13.374011+02:00",
-  "UpdatedAssociateId": 946
+  "EjscriptId": 587,
+  "UniqueIdentifier": "doloremque",
+  "Name": "Predovic-Heathcote",
+  "Description": "Diverse zero defect analyzer",
+  "IncludeId": "expedita",
+  "HierarchyId": 260,
+  "Source": "aliquam",
+  "Registered": "2004-11-22T13:57:11.9967528+01:00",
+  "RegisteredAssociateId": 261,
+  "Updated": "2003-08-04T13:57:11.9967528+02:00",
+  "UpdatedAssociateId": 542
 }
 ```
 
@@ -110,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 860,
-  "UniqueIdentifier": "earum",
-  "Name": "Green-Howell",
-  "Description": "Inverse 24 hour synergy",
-  "IncludeId": "nulla",
-  "HierarchyId": 970,
-  "Source": "autem",
-  "Registered": "2015-05-11T13:38:13.374011+02:00",
-  "RegisteredAssociateId": 337,
-  "Updated": "2010-09-19T13:38:13.374011+02:00",
-  "UpdatedAssociateId": 911,
+  "EjscriptId": 319,
+  "UniqueIdentifier": "alias",
+  "Name": "Kozey, O'Kon and Renner",
+  "Description": "Synergistic zero tolerance instruction set",
+  "IncludeId": "rerum",
+  "HierarchyId": 449,
+  "Source": "quos",
+  "Registered": "2005-03-02T13:57:11.9967528+01:00",
+  "RegisteredAssociateId": 159,
+  "Updated": "2022-09-08T13:57:11.9967528+02:00",
+  "UpdatedAssociateId": 170,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 81
+      "FieldType": "System.Int32",
+      "FieldLength": 3
     }
   }
 }

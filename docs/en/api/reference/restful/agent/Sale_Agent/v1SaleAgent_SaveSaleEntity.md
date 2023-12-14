@@ -149,7 +149,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "rerum",
+  "SaleText": "reiciendis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -168,90 +168,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-09-23T13:38:14.0772012+02:00",
-  "Amount": 4114.942,
-  "SaleId": 163,
-  "Earning": 11435.966,
-  "EarningPercent": 12915.214,
-  "Heading": "nesciunt",
-  "Number": "1637375",
-  "Probability": 781,
-  "CreatedDate": "2000-12-10T13:38:14.0772012+01:00",
-  "UpdatedDate": "1997-01-01T13:38:14.0772012+01:00",
+  "Saledate": "2015-11-27T13:57:13.1288062+01:00",
+  "Amount": 31249.113999999998,
+  "SaleId": 862,
+  "Earning": 9837.626,
+  "EarningPercent": 6365.1539999999995,
+  "Heading": "modi",
+  "Number": "1536887",
+  "Probability": 593,
+  "CreatedDate": "2011-08-19T13:57:13.1288062+02:00",
+  "UpdatedDate": "2023-03-28T13:57:13.1288062+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 114,
+  "ActiveLinks": 70,
   "Links": [
     {
-      "EntityName": "Mueller LLC",
-      "Id": 151,
-      "Description": "Optimized bottom-line capability",
-      "ExtraInfo": "at",
-      "LinkId": 996
+      "EntityName": "Schinner-Bernier",
+      "Id": 107,
+      "Description": "Polarised grid-enabled service-desk",
+      "ExtraInfo": "tempora",
+      "LinkId": 140
     },
     {
-      "EntityName": "Mueller LLC",
-      "Id": 151,
-      "Description": "Optimized bottom-line capability",
-      "ExtraInfo": "at",
-      "LinkId": 996
+      "EntityName": "Schinner-Bernier",
+      "Id": 107,
+      "Description": "Polarised grid-enabled service-desk",
+      "ExtraInfo": "tempora",
+      "LinkId": 140
     }
   ],
-  "NextDueDate": "2003-03-26T13:38:14.0772012+01:00",
-  "Postit": "molestias",
+  "NextDueDate": "2022-08-31T13:57:13.1288062+02:00",
+  "Postit": "tenetur",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-02-02T13:38:14.0772012+01:00",
+  "ReopenDate": "2020-07-15T13:57:13.1288062+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Krajcik Group",
-      "Comment": "ab",
-      "StakeholderRoleId": 77,
-      "CountryId": 857,
-      "PersonId": 872,
-      "EmailDescription": "estevan.conroy@hoppe.co.uk",
-      "EmailId": 368,
-      "EmailAddress": "jovany@tillman.ca",
-      "PhoneId": 750,
-      "ContactName": "Oberbrunner Inc and Sons",
-      "ContactId": 998,
-      "SaleId": 416,
-      "Mrmrs": "labore",
-      "Firstname": "Sid",
-      "MiddleName": "Lesch-Schulist",
-      "Lastname": "Batz",
-      "SaleStakeholderId": 793,
-      "Rank": 588,
-      "Phone": "201-897-1402"
+      "StakeholderRoleName": "Upton LLC",
+      "Comment": "consequatur",
+      "StakeholderRoleId": 317,
+      "CountryId": 74,
+      "PersonId": 356,
+      "EmailDescription": "mittie@marquardt.co.uk",
+      "EmailId": 118,
+      "EmailAddress": "maynard@kshlerin.co.uk",
+      "PhoneId": 77,
+      "ContactName": "Bins Inc and Sons",
+      "ContactId": 264,
+      "SaleId": 205,
+      "Mrmrs": "libero",
+      "Firstname": "Edmund",
+      "MiddleName": "Sauer-Bogan",
+      "Lastname": "Senger",
+      "SaleStakeholderId": 726,
+      "Rank": 739,
+      "Phone": "(991)122-5309 x91090"
     }
   ],
-  "ActiveErpLinks": 363,
+  "ActiveErpLinks": 922,
   "UserDefinedFields": {
-    "SuperOffice:1": "1900601374",
-    "SuperOffice:2": "Fern Haley"
+    "SuperOffice:1": "Brody Jacobson",
+    "SuperOffice:2": "Mabelle Lubowitz"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "minima"
+    "ExtraFields1": "laudantium",
+    "ExtraFields2": "cumque"
   },
   "CustomFields": {
-    "CustomFields1": "ducimus",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "reiciendis",
+    "CustomFields2": "accusantium"
   },
-  "PublishEventDate": "2009-10-14T13:38:14.0772012+02:00",
-  "PublishTo": "2006-12-12T13:38:14.0772012+01:00",
-  "PublishFrom": "2004-11-29T13:38:14.0772012+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-11-29T13:57:13.1288062+01:00",
+  "PublishTo": "2006-08-19T13:57:13.1288062+02:00",
+  "PublishFrom": "2014-07-20T13:57:13.1288062+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 564,
+      "VisibleId": 206,
       "Visibility": "All",
-      "DisplayValue": "nobis"
+      "DisplayValue": "laudantium"
     },
     {
-      "VisibleId": 564,
+      "VisibleId": 206,
       "Visibility": "All",
-      "DisplayValue": "nobis"
+      "DisplayValue": "laudantium"
     }
   ]
 }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "et",
+  "SaleText": "blanditiis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -279,113 +279,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-08-10T13:38:14.0772012+02:00",
-  "Amount": 1623.412,
-  "SaleId": 553,
-  "Earning": 11921.735999999999,
-  "EarningPercent": 14758.006,
-  "Heading": "et",
-  "Number": "1890406",
-  "Probability": 206,
-  "CreatedDate": "2017-08-01T13:38:14.0772012+02:00",
-  "UpdatedDate": "2010-04-13T13:38:14.0772012+02:00",
+  "Saledate": "2014-07-17T13:57:13.1444309+02:00",
+  "Amount": 4873.37,
+  "SaleId": 403,
+  "Earning": 24561.158,
+  "EarningPercent": 1024.818,
+  "Heading": "ipsam",
+  "Number": "1599043",
+  "Probability": 409,
+  "CreatedDate": "2006-01-13T13:57:13.1444309+01:00",
+  "UpdatedDate": "2008-12-22T13:57:13.1444309+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 702,
+  "ActiveLinks": 706,
   "Links": [
     {
-      "EntityName": "Gutmann, Gleichner and Block",
-      "Id": 272,
-      "Description": "Multi-tiered intangible projection",
-      "ExtraInfo": "quia",
+      "EntityName": "Volkman, Osinski and Orn",
+      "Id": 748,
+      "Description": "Visionary directional implementation",
+      "ExtraInfo": "incidunt",
       "LinkId": 342,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldLength": 938
         }
       }
     }
   ],
-  "NextDueDate": "2020-06-21T13:38:14.0772012+02:00",
-  "Postit": "animi",
+  "NextDueDate": "2010-05-19T13:57:13.1444309+02:00",
+  "Postit": "earum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2022-12-27T13:38:14.0772012+01:00",
+  "ReopenDate": "1998-07-08T13:57:13.1444309+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Adams Inc and Sons",
-      "Comment": "velit",
-      "StakeholderRoleId": 569,
-      "CountryId": 650,
-      "PersonId": 420,
-      "EmailDescription": "ricky@kling.name",
-      "EmailId": 75,
-      "EmailAddress": "adam@white.com",
-      "PhoneId": 312,
-      "ContactName": "Batz-Pfeffer",
-      "ContactId": 999,
-      "SaleId": 390,
-      "Mrmrs": "accusantium",
-      "Firstname": "Estevan",
-      "MiddleName": "Klein, Johnson and Steuber",
-      "Lastname": "Schinner",
-      "SaleStakeholderId": 51,
-      "Rank": 760,
-      "Phone": "1-411-519-1782",
+      "StakeholderRoleName": "Spencer-Sporer",
+      "Comment": "dignissimos",
+      "StakeholderRoleId": 775,
+      "CountryId": 684,
+      "PersonId": 764,
+      "EmailDescription": "vernon@wilderman.info",
+      "EmailId": 963,
+      "EmailAddress": "bryce@leuschke.ca",
+      "PhoneId": 210,
+      "ContactName": "Langworth-Yundt",
+      "ContactId": 406,
+      "SaleId": 439,
+      "Mrmrs": "dolorum",
+      "Firstname": "Clovis",
+      "MiddleName": "Mayer, Harvey and Ondricka",
+      "Lastname": "Turcotte",
+      "SaleStakeholderId": 514,
+      "Rank": 879,
+      "Phone": "1-337-454-9222 x9248",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 964
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 88,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Prof. Ben Rebeka Douglas",
+    "SuperOffice:2": "Ms. Katelin Marquis Schmitt IV"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "velit",
+    "ExtraFields2": "repellat"
+  },
+  "CustomFields": {
+    "CustomFields1": "sit",
+    "CustomFields2": "qui"
+  },
+  "PublishEventDate": "2012-04-04T13:57:13.1444309+02:00",
+  "PublishTo": "2004-09-08T13:57:13.1444309+02:00",
+  "PublishFrom": "2012-07-12T13:57:13.1444309+02:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 217,
+      "Visibility": "All",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 491
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 395,
-  "UserDefinedFields": {
-    "SuperOffice:1": "1070846633",
-    "SuperOffice:2": "Chyna Mosciski"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "quod"
-  },
-  "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "magni"
-  },
-  "PublishEventDate": "2015-02-23T13:38:14.0772012+01:00",
-  "PublishTo": "2000-10-17T13:38:14.0772012+02:00",
-  "PublishFrom": "1996-12-05T13:38:14.0772012+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 772,
-      "Visibility": "All",
-      "DisplayValue": "est",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 600
         }
       }
     },
     {
-      "VisibleId": 772,
+      "VisibleId": 217,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldType": "System.String",
+          "FieldLength": 600
         }
       }
     }
@@ -394,8 +394,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldType": "System.Int32",
+      "FieldLength": 784
     }
   }
 }

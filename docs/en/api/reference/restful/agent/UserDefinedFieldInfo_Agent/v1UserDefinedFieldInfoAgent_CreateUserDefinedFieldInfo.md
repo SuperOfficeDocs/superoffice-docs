@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 634,
-  "ColumnId": 168,
-  "FieldDefault": "tempora",
-  "FieldHeight": 276,
-  "FieldLabel": "quo",
-  "FieldLeft": 801,
-  "FieldTop": 517,
+  "UDefFieldId": 758,
+  "ColumnId": 598,
+  "FieldDefault": "odio",
+  "FieldHeight": 524,
+  "FieldLabel": "sequi",
+  "FieldLeft": 655,
+  "FieldTop": 881,
   "FieldType": "Checkbox",
-  "FieldWidth": 83,
-  "FormatMask": "deserunt",
-  "HideLabel": false,
+  "FieldWidth": 644,
+  "FormatMask": "sapiente",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 982,
-  "LabelLeft": 853,
-  "LabelTop": 112,
-  "LabelWidth": 919,
-  "LastVersionId": 105,
-  "ListTableId": 732,
-  "IsMandatory": true,
+  "LabelHeight": 72,
+  "LabelLeft": 804,
+  "LabelTop": 969,
+  "LabelWidth": 172,
+  "LastVersionId": 766,
+  "ListTableId": 577,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 807,
-  "ProgId": "tempora",
-  "IsReadOnly": false,
-  "ShortLabel": "hic",
-  "TabOrder": 553,
-  "TextLength": 174,
-  "Tooltip": "et",
-  "UdefIdentity": 340,
-  "UDListDefinitionId": 438,
+  "Page1LineNo": 280,
+  "ProgId": "autem",
+  "IsReadOnly": true,
+  "ShortLabel": "quae",
+  "TabOrder": 335,
+  "TextLength": 633,
+  "Tooltip": "facilis",
+  "UdefIdentity": 542,
+  "UDListDefinitionId": 110,
   "Justification": "Center",
-  "Version": 860,
-  "TemplateVariableName": "Douglas Group",
+  "Version": 547,
+  "TemplateVariableName": "Olson-Schamberger",
   "HasBeenPublished": false,
-  "MdoListName": "Heidenreich, Flatley and Waelchi",
+  "MdoListName": "Kertzmann-Waelchi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 925
     }
   }
 }

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 810
+  "SatelliteId": 836
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dare, Parker and Goldner",
-    "Description": "Synergistic 3rd generation solution",
+    "Name": "Hoeger-Bashirian",
+    "Description": "Robust solution-oriented framework",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 880,
-        "Tooltip": "excepturi",
-        "CanAssign": false,
-        "Free": 97,
-        "InUse": 86,
+        "Total": 805,
+        "Tooltip": "dolor",
+        "CanAssign": true,
+        "Free": 407,
+        "InUse": 826,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 464,
-        "Name": "Kunze-Kub",
-        "Description": "Centralized 3rd generation flexibility",
-        "PrerequisiteModuleName": "Klein-Deckow",
-        "SortOrder": 81,
-        "ExtraFlags": 925,
+        "ModuleLicenseId": 406,
+        "Name": "Ankunding-Bode",
+        "Description": "Operative composite pricing structure",
+        "PrerequisiteModuleName": "Osinski Inc and Sons",
+        "SortOrder": 513,
+        "ExtraFlags": 940,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 405
+            "FieldType": "System.String",
+            "FieldLength": 545
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 744,
-        "Tooltip": "nemo",
+        "Unrestricted": false,
+        "Total": 119,
+        "Tooltip": "consectetur",
         "CanAssign": false,
-        "Free": 790,
-        "InUse": 527,
-        "IsHidden": true,
+        "Free": 169,
+        "InUse": 167,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 387,
-        "Name": "Yundt-Wiza",
-        "Description": "Cross-group context-sensitive groupware",
-        "PrerequisiteModuleName": "Reynolds, Harber and Cummerata",
-        "SortOrder": 67,
-        "ExtraFlags": 515,
+        "ModuleLicenseId": 907,
+        "Name": "Luettgen, Macejkovic and Funk",
+        "Description": "Decentralized zero administration utilisation",
+        "PrerequisiteModuleName": "Hane-Goyette",
+        "SortOrder": 175,
+        "ExtraFlags": 277,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 169
+            "FieldLength": 341
           }
         }
       }
@@ -150,62 +150,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldType": "System.String",
+        "FieldLength": 178
       }
     }
   },
   {
-    "Name": "Dare, Parker and Goldner",
-    "Description": "Synergistic 3rd generation solution",
+    "Name": "Hoeger-Bashirian",
+    "Description": "Robust solution-oriented framework",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 880,
-        "Tooltip": "excepturi",
-        "CanAssign": false,
-        "Free": 97,
-        "InUse": 86,
+        "Total": 805,
+        "Tooltip": "dolor",
+        "CanAssign": true,
+        "Free": 407,
+        "InUse": 826,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 464,
-        "Name": "Kunze-Kub",
-        "Description": "Centralized 3rd generation flexibility",
-        "PrerequisiteModuleName": "Klein-Deckow",
-        "SortOrder": 81,
-        "ExtraFlags": 925,
+        "ModuleLicenseId": 406,
+        "Name": "Ankunding-Bode",
+        "Description": "Operative composite pricing structure",
+        "PrerequisiteModuleName": "Osinski Inc and Sons",
+        "SortOrder": 513,
+        "ExtraFlags": 940,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 405
+            "FieldType": "System.String",
+            "FieldLength": 545
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 744,
-        "Tooltip": "nemo",
+        "Unrestricted": false,
+        "Total": 119,
+        "Tooltip": "consectetur",
         "CanAssign": false,
-        "Free": 790,
-        "InUse": 527,
-        "IsHidden": true,
+        "Free": 169,
+        "InUse": 167,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 387,
-        "Name": "Yundt-Wiza",
-        "Description": "Cross-group context-sensitive groupware",
-        "PrerequisiteModuleName": "Reynolds, Harber and Cummerata",
-        "SortOrder": 67,
-        "ExtraFlags": 515,
+        "ModuleLicenseId": 907,
+        "Name": "Luettgen, Macejkovic and Funk",
+        "Description": "Decentralized zero administration utilisation",
+        "PrerequisiteModuleName": "Hane-Goyette",
+        "SortOrder": 175,
+        "ExtraFlags": 277,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 169
+            "FieldLength": 341
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldType": "System.String",
+        "FieldLength": 178
       }
     }
   }

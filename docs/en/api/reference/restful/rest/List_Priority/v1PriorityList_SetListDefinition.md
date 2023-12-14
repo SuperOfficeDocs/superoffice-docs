@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 291,
-  "Name": "Mertz Group",
-  "Tooltip": "assumenda",
+  "Id": 971,
+  "Name": "Hintz Group",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 818,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 702,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nam",
-  "InUseByUserDefinedFields": false
+  "ListType": "nemo",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 21,
-  "Name": "Schmitt-Brakus",
-  "Tooltip": "qui",
+  "Id": 520,
+  "Name": "Metz-Koepp",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 516,
+  "Rank": 654,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eum",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "maiores",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 681
     }
   }
 }

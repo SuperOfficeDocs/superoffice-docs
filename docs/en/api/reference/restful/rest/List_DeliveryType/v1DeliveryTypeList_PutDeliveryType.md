@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 319,
-  "Name": "Predovic LLC",
-  "Tooltip": "cum",
-  "Deleted": true,
-  "UdListDefinitionId": 397,
-  "Rank": 376
+  "Id": 160,
+  "Name": "Grimes-Schuppe",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "UdListDefinitionId": 249,
+  "Rank": 214
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 443,
-  "Name": "Gaylord LLC",
-  "Tooltip": "quia",
+  "Id": 353,
+  "Name": "Willms Group",
+  "Tooltip": "temporibus",
   "Deleted": false,
-  "UdListDefinitionId": 339,
-  "Rank": 34,
+  "UdListDefinitionId": 391,
+  "Rank": 789,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldType": "System.String",
+      "FieldLength": 80
     }
   }
 }

@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": true,
-  "OnlyPresent": true
+  "Flat": false,
+  "OnlyPresent": false
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 237,
-    "Name": "Medhurst Inc and Sons",
-    "ToolTip": "Ut est officiis architecto doloremque et.",
-    "Deleted": false,
-    "Rank": 940,
-    "Type": "sunt",
+    "Id": 463,
+    "Name": "Schumm Group",
+    "ToolTip": "Minus a vitae.",
+    "Deleted": true,
+    "Rank": 150,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 727,
-        "Name": "Brakus-Streich",
-        "ToolTip": "Ullam tenetur id ad.",
-        "Deleted": true,
-        "Rank": 393,
-        "Type": "perspiciatis",
+        "Id": 289,
+        "Name": "Fisher-Zemlak",
+        "ToolTip": "Enim natus dolorum natus corporis hic et.",
+        "Deleted": false,
+        "Rank": 69,
+        "Type": "magni",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 351,
-        "ExtraInfo": "et",
-        "StyleHint": "vitae",
-        "FullName": "Layla Howe",
+        "IconHint": "animi",
+        "ColorBlock": 64,
+        "ExtraInfo": "facilis",
+        "StyleHint": "doloribus",
+        "FullName": "Freddie Mraz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 940
+            "FieldLength": 387
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 904,
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "modi",
-    "FullName": "Heloise Metz",
+    "IconHint": "reprehenderit",
+    "ColorBlock": 269,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "eveniet",
+    "FullName": "Dr. Clemmie Lisa Abshire",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldLength": 606
       }
     }
   }

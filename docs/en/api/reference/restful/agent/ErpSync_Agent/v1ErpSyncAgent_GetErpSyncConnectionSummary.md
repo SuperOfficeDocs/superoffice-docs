@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 948
+  "ErpSyncConnectionId": 101
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Kirlin LLC",
-  "DisplayDescription": "Profound transitional hardware",
+  "DisplayName": "Welch-O'Connell",
+  "DisplayDescription": "Enhanced logistical project",
   "Active": false,
-  "Deleted": false,
-  "LastSync": "2003-03-11T13:38:13.592742+01:00",
+  "Deleted": true,
+  "LastSync": "2020-09-10T13:57:12.3556107+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "et",
+      "Defaults": "eos",
       "Mappings": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 655
+          "FieldType": "System.Int32",
+          "FieldLength": 266
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "et",
+      "Defaults": "eos",
       "Mappings": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 655
+          "FieldType": "System.Int32",
+          "FieldLength": 266
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldLength": 620
     }
   }
 }

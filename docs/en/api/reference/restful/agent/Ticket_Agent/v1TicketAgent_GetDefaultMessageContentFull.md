@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 499,
+  "TicketId": 544,
   "MessageActionType": "Forward",
-  "TicketMessageId": 518,
-  "TicketTypeId": 833
+  "TicketMessageId": 65,
+  "TicketTypeId": 289
 }
 ```
 
@@ -93,22 +93,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "esse",
+  "Body": "illo",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 197,
-      "Name": "Bartoletti-Zulauf",
-      "ContentType": "amet",
-      "AttSize": 941,
+      "AttachmentId": 165,
+      "Name": "Turcotte, Beatty and Johnston",
+      "ContentType": "laboriosam",
+      "AttSize": 504,
       "InlineImage": false,
-      "ContentId": "velit",
-      "AuthKey": "tempora",
+      "ContentId": "impedit",
+      "AuthKey": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldLength": 564
         }
       }
     }

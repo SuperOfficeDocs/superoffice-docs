@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wilkinson-Ullrich",
-  "DeviceName": "West Group",
-  "DeviceIdentifier": "repellendus"
+  "ApplicationName": "Bayer-Windler",
+  "DeviceName": "Klocko-Braun",
+  "DeviceIdentifier": "in"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 475,
-  "Name": "Kuhn, Johnson and Moen",
-  "CreatedDate": "2010-11-19T13:38:13.623981+01:00",
-  "UpdatedDate": "2003-02-19T13:38:13.623981+01:00",
-  "AssociateFullName": "Dorian Von",
-  "CreatedBy": "ad",
-  "UpdatedBy": "deleniti",
-  "DeviceIdentifier": "laboriosam",
-  "ForeignAppId": 399,
+  "ForeignDeviceId": 297,
+  "Name": "Schroeder, Haag and Ferry",
+  "CreatedDate": "2023-01-26T13:57:12.4181107+01:00",
+  "UpdatedDate": "2017-11-28T13:57:12.4181107+01:00",
+  "AssociateFullName": "Mrs. Okey Green",
+  "CreatedBy": "ut",
+  "UpdatedBy": "non",
+  "DeviceIdentifier": "qui",
+  "ForeignAppId": 301,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldType": "System.String",
+      "FieldLength": 409
     }
   }
 }

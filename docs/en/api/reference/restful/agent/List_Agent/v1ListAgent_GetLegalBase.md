@@ -26,7 +26,7 @@ Gets a LegalBase object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLegalBase?legalBaseId=603
+POST /api/v1/Agents/List/GetLegalBase?legalBaseId=132
 POST /api/v1/Agents/List/GetLegalBase?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 142,
-  "Name": "Becker-Leuschke",
-  "Tooltip": "incidunt",
-  "Rank": 545,
-  "Key": "natus",
-  "Deleted": false,
+  "LegalBaseId": 62,
+  "Name": "Rowe Group",
+  "Tooltip": "voluptatem",
+  "Rank": 37,
+  "Key": "suscipit",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldType": "System.String",
+      "FieldLength": 194
     }
   }
 }

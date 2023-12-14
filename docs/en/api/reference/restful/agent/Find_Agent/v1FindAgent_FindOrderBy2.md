@@ -82,16 +82,16 @@ OK
 POST /api/v1/Agents/Find/FindOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "tenetur",
-  "ProviderName": "Ryan-Goldner",
-  "StorageKey": "neque",
-  "PageSize": 345,
-  "PageNumber": 59,
-  "OrderBy": "veniam"
+  "StorageType": "omnis",
+  "ProviderName": "Stanton, Bernhard and Howell",
+  "StorageKey": "optio",
+  "PageSize": 964,
+  "PageNumber": 445,
+  "OrderBy": "earum"
 }
 ```
 
@@ -104,51 +104,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Larkin, Gulgowski and Krajcik",
-      "DisplayTooltip": "voluptatum",
-      "DisplayType": "id",
-      "CanOrderBy": true,
-      "Name": "Mante Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "ducimus",
-      "RestrictionListName": "Robel-Boyer",
-      "IsVisible": true,
-      "ExtraInfo": "explicabo",
-      "Width": "architecto",
-      "IconHint": "quo",
-      "HeadingIconHint": "consectetur"
+      "DisplayName": "Wolff Group",
+      "DisplayTooltip": "repellat",
+      "DisplayType": "et",
+      "CanOrderBy": false,
+      "Name": "Towne Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "illum",
+      "RestrictionListName": "Waelchi-Goodwin",
+      "IsVisible": false,
+      "ExtraInfo": "alias",
+      "Width": "et",
+      "IconHint": "corrupti",
+      "HeadingIconHint": "cum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Borer Inc and Sons",
-      "PrimaryKey": 72,
+      "EntityName": "Rowe, Haley and Heathcote",
+      "PrimaryKey": 121,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eos",
-          "TooltipHint": "vel",
-          "LinkHint": "officiis"
+          "DisplayValue": "temporibus",
+          "TooltipHint": "optio",
+          "LinkHint": "ullam"
         }
       },
-      "LinkHint": "ut",
-      "StyleHint": "odit",
+      "LinkHint": "quasi",
+      "StyleHint": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 41
+          "FieldLength": 473
         }
       }
     }
   ],
-  "RowCount": 89,
+  "RowCount": 612,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 224
+      "FieldType": "System.Int32",
+      "FieldLength": 996
     }
   }
 }

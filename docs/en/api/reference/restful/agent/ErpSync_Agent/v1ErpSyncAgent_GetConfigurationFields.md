@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 185
+  "ErpConnectorId": 792
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "pariatur",
-    "Rank": 247,
-    "DisplayName": "Auer Inc and Sons",
-    "DisplayDescription": "Total context-sensitive intranet",
+    "FieldKey": "optio",
+    "Rank": 947,
+    "DisplayName": "Lemke Inc and Sons",
+    "DisplayDescription": "Horizontal well-modulated orchestration",
     "FieldType": "Checkbox",
-    "ListName": "Kshlerin, Johnston and Bailey",
-    "DefaultValue": "consequatur",
-    "MaxLength": 69,
+    "ListName": "Goodwin Group",
+    "DefaultValue": "necessitatibus",
+    "MaxLength": 435,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 907
+        "FieldType": "System.Int32",
+        "FieldLength": 563
       }
     }
   }

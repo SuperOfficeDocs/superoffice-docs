@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 335,
-      "ContactId": 281
+      "PersonId": 961,
+      "ContactId": 237
     },
     {
-      "PersonId": 335,
-      "ContactId": 281
+      "PersonId": 961,
+      "ContactId": 237
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reactive zero defect encryption",
-  "Postit": "et",
+  "Description": "Inverse static service-desk",
+  "Postit": "voluptas",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 339,
-  "IncludePerson": 496,
-  "MemberCount": 615,
-  "Name": "West-Considine",
-  "PostitTextId": 518,
-  "CreatedDate": "2004-10-16T13:38:14.124071+02:00",
-  "SelectionId": 478,
-  "SoundEx": "qui",
-  "Source": 969,
-  "TextId": 135,
-  "UpdatedDate": "2001-11-09T13:38:14.124071+01:00",
-  "UpdatedCount": 1000,
-  "Visibility": 305,
+  "GroupIdx": 97,
+  "IncludePerson": 578,
+  "MemberCount": 57,
+  "Name": "Aufderhar-Nicolas",
+  "PostitTextId": 426,
+  "CreatedDate": "2019-11-03T13:57:13.2227834+01:00",
+  "SelectionId": 741,
+  "SoundEx": "culpa",
+  "Source": 713,
+  "TextId": 100,
+  "UpdatedDate": "2009-01-25T13:57:13.2227834+01:00",
+  "UpdatedCount": 770,
+  "Visibility": 697,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 499,
-  "TargetTableName": "Pagac Group",
-  "Completed": true,
-  "LeftSelectionId": 309,
-  "RightSelectionId": 989,
+  "CompanyUnique": true,
+  "TargetTableNumber": 674,
+  "TargetTableName": "Kovacek-Smitham",
+  "Completed": false,
+  "LeftSelectionId": 293,
+  "RightSelectionId": 701,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Halvorson-Beatty",
-  "ShadowProviderName": "Wisozk, Smith and Runolfsdottir",
-  "ChartKey": "reprehenderit",
-  "LastLoaded": "2014-07-31T13:38:14.124071+02:00",
-  "LastLoadedBy": 159,
+  "MainProviderName": "Christiansen Inc and Sons",
+  "ShadowProviderName": "Jacobson-O'Connell",
+  "ChartKey": "praesentium",
+  "LastLoaded": "2019-01-27T13:57:13.2227834+01:00",
+  "LastLoadedBy": 735,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-07-03T13:38:14.124071+02:00",
-  "LastMembershipChangeBy": 894,
+  "LastMembershipChange": "2000-03-13T13:57:13.2227834+01:00",
+  "LastMembershipChangeBy": 721,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "minima",
-  "MailingsProviderName": "Buckridge-Hyatt",
-  "DashboardTileDefinitionId": 224,
+  "MainHeading": "voluptatem",
+  "MemberTabHeading": "quo",
+  "MailingsProviderName": "Reichert Inc and Sons",
+  "DashboardTileDefinitionId": 211,
   "VisibleFor": [
     {
-      "VisibleId": 839,
+      "VisibleId": 150,
       "Visibility": "All",
-      "DisplayValue": "atque",
+      "DisplayValue": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldType": "System.String",
+          "FieldLength": 973
         }
       }
     },
     {
-      "VisibleId": 839,
+      "VisibleId": 150,
       "Visibility": "All",
-      "DisplayValue": "atque",
+      "DisplayValue": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldType": "System.String",
+          "FieldLength": 973
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 690
     }
   }
 }

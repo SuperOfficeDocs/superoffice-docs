@@ -71,7 +71,7 @@ OK
 GET /api/v1/Project/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Ritchie-Reynolds",
-  "DisplayName": "Tromp-Schuppe",
-  "Description": "Innovative national neural-net",
-  "ShortLabel": "adipisci",
+  "FieldName": "Kling-Schumm",
+  "DisplayName": "Bruen-Reilly",
+  "Description": "Virtual uniform analyzer",
+  "ShortLabel": "non",
   "HideLabel": true,
   "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "IsMandatory": true,
   "IsReadOnly": false,
   "IsExternal": true,
-  "Rank": 216,
-  "TemplateVariableName": "Dickinson-Funk"
+  "Rank": 751,
+  "TemplateVariableName": "Herzog-Spinka"
 }
 ```

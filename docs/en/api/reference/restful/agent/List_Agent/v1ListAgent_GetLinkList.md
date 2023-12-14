@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Thiel, Nader and West",
-    "Id": 353,
-    "Description": "Customer-focused clear-thinking concept",
-    "ExtraInfo": "dolorum",
-    "LinkId": 454,
+    "EntityName": "Feil LLC",
+    "Id": 811,
+    "Description": "Synergized interactive flexibility",
+    "ExtraInfo": "veniam",
+    "LinkId": 637,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 175
+        "FieldLength": 169
       }
     }
   }

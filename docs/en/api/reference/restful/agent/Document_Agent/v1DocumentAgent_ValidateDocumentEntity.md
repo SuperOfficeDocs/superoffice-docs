@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "pariatur",
-  "2": "quia"
+  "1": "aliquid",
+  "2": "rem"
 }
 ```

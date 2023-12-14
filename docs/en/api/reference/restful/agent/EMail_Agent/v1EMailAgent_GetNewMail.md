@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    628,
-    891
+    399,
+    377
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 529,
-    "MessageId": "explicabo",
-    "Subject": "molestiae",
+    "ServerId": 100,
+    "MessageId": "odio",
+    "Subject": "suscipit",
     "From": null,
     "To": [
       {
-        "ContactId": 257,
-        "ContactName": "Carroll, Bogan and Funk",
-        "PersonId": 48,
-        "PersonName": "Dare Group",
-        "AssociateId": 915,
-        "Address": "est",
-        "EmailId": 546,
+        "ContactId": 848,
+        "ContactName": "Mertz, Thiel and Kutch",
+        "PersonId": 678,
+        "PersonName": "Padberg, Conn and Herzog",
+        "AssociateId": 458,
+        "Address": "debitis",
+        "EmailId": 726,
         "DuplicatePersonIds": [
-          620,
-          9
+          555,
+          491
         ],
-        "Name": "Pfannerstill-Denesik",
+        "Name": "Walter, Murazik and Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 413
+            "FieldType": "System.Int32",
+            "FieldLength": 286
           }
         }
       }
     ],
-    "Sent": "2020-05-10T13:38:13.5302438+02:00",
+    "Sent": "2023-04-25T13:57:12.246749+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 755,
+    "Size": 124,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldLength": 482
       }
     }
   }

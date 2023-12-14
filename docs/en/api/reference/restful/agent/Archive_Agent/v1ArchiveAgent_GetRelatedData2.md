@@ -80,9 +80,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "eaque",
-  "RecordId": 55,
-  "Fields": "sed"
+  "Table": "ratione",
+  "RecordId": 50,
+  "Fields": "voluptates"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "magni",
+    "Field": "voluptates",
     "FieldValue": null
   },
   {
-    "Field": "magni",
+    "Field": "voluptates",
     "FieldValue": null
   }
 ]

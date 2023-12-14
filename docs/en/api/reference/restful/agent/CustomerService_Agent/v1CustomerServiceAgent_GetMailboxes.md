@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 127,
-    "Address": "ea",
+    "MailInFilterId": 254,
+    "Address": "pariatur",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Boyle LLC",
+    "PriorityName": "Rohan Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldLength": 915
       }
     }
   },
   {
-    "MailInFilterId": 127,
-    "Address": "ea",
+    "MailInFilterId": 254,
+    "Address": "pariatur",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Boyle LLC",
+    "PriorityName": "Rohan Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldLength": 915
       }
     }
   }

@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 86,
-      "UniqueId": "ut",
-      "Name": "Beier Group",
-      "Description": "Focused human-resource adapter",
-      "AssociateId": 570,
-      "Columns": 515,
+      "DashboardId": 657,
+      "UniqueId": "facilis",
+      "Name": "Wisozk-Crona",
+      "Description": "Universal hybrid analyzer",
+      "AssociateId": 183,
+      "Columns": 982,
       "Theme": null,
-      "VisibleForAll": 658,
+      "VisibleForAll": 825,
       "VisibleForAssociates": [
-        804,
-        744
+        521,
+        960
       ],
       "VisibleForGroups": [
-        998,
-        764
+        990,
+        212
       ],
-      "PinForAll": 263,
+      "PinForAll": 105,
       "PinForAssociates": [
-        82,
-        421
+        791,
+        915
       ],
       "PinForGroups": [
-        284,
-        214
+        985,
+        179
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldLength": 353
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 883,
-      "UniqueId": "vel",
-      "Name": "Schaden, Bosco and Marks",
-      "Description": "Decentralized context-sensitive conglomeration",
-      "AssociateId": 172,
-      "Columns": 598,
+      "DashboardId": 792,
+      "UniqueId": "expedita",
+      "Name": "Luettgen, Ryan and Bruen",
+      "Description": "User-friendly hybrid protocol",
+      "AssociateId": 764,
+      "Columns": 725,
       "Theme": null,
-      "VisibleForAll": 523,
+      "VisibleForAll": 342,
       "VisibleForAssociates": [
-        947,
-        888
+        151,
+        234
       ],
       "VisibleForGroups": [
-        99,
-        321
+        807,
+        294
       ],
-      "PinForAll": 216,
+      "PinForAll": 474,
       "PinForAssociates": [
-        139,
-        3
+        922,
+        938
       ],
       "PinForGroups": [
-        941,
-        835
+        231,
+        548
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 957
+          "FieldLength": 880
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 259,
-      "UniqueId": "ad",
-      "Name": "Kuhlman Inc and Sons",
-      "Description": "Synchronised neutral archive",
-      "AssociateId": 101,
-      "Columns": 162,
+      "DashboardId": 926,
+      "UniqueId": "incidunt",
+      "Name": "Yundt-Treutel",
+      "Description": "Future-proofed analyzing secured line",
+      "AssociateId": 400,
+      "Columns": 167,
       "Theme": null,
-      "VisibleForAll": 876,
+      "VisibleForAll": 521,
       "VisibleForAssociates": [
-        948,
-        677
+        968,
+        128
       ],
       "VisibleForGroups": [
-        639,
-        657
+        971,
+        542
       ],
-      "PinForAll": 127,
+      "PinForAll": 848,
       "PinForAssociates": [
-        521,
-        687
+        678,
+        844
       ],
       "PinForGroups": [
-        953,
-        263
+        605,
+        1002
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 386
+          "FieldLength": 940
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 245
     }
   }
 }

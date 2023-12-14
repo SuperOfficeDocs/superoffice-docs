@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Padberg, Nikolaus and Kuphal",
-    "Comment": "deserunt",
-    "StakeholderRoleId": 324,
-    "CountryId": 28,
-    "PersonId": 883,
-    "EmailDescription": "shania_hand@oreilly.info",
-    "EmailId": 782,
-    "EmailAddress": "mitchell_crooks@dickensmertz.ca",
-    "PhoneId": 780,
-    "ContactName": "Botsford-Kessler",
-    "ContactId": 231,
-    "SaleId": 563,
-    "Mrmrs": "voluptates",
-    "Firstname": "Rocky",
-    "MiddleName": "Kuhic LLC",
-    "Lastname": "Kuphal",
-    "SaleStakeholderId": 751,
-    "Rank": 314,
-    "Phone": "1-458-219-1684",
+    "StakeholderRoleName": "Rau-Prohaska",
+    "Comment": "quis",
+    "StakeholderRoleId": 925,
+    "CountryId": 488,
+    "PersonId": 201,
+    "EmailDescription": "ada@wardprosacco.biz",
+    "EmailId": 156,
+    "EmailAddress": "porter.gislason@beer.ca",
+    "PhoneId": 241,
+    "ContactName": "Jerde, Strosin and Bechtelar",
+    "ContactId": 965,
+    "SaleId": 631,
+    "Mrmrs": "cumque",
+    "Firstname": "Dannie",
+    "MiddleName": "Christiansen, Borer and Runte",
+    "Lastname": "Herman",
+    "SaleStakeholderId": 304,
+    "Rank": 529,
+    "Phone": "827.212.1722",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldLength": 252
       }
     }
   }

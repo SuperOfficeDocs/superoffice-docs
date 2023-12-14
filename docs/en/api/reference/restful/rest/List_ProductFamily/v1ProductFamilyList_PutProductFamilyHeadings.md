@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 350,
-    "Name": "Moen, Schuppe and Shields",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 773,
-    "UdListDefinitionId": 314
+    "HeadingId": 308,
+    "Name": "Armstrong, Prohaska and Douglas",
+    "Tooltip": "id",
+    "Deleted": false,
+    "Rank": 774,
+    "UdListDefinitionId": 813
   },
   {
-    "HeadingId": 350,
-    "Name": "Moen, Schuppe and Shields",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 773,
-    "UdListDefinitionId": 314
+    "HeadingId": 308,
+    "Name": "Armstrong, Prohaska and Douglas",
+    "Tooltip": "id",
+    "Deleted": false,
+    "Rank": 774,
+    "UdListDefinitionId": 813
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 149,
-    "Name": "Murphy-Jacobi",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 711,
-    "UdListDefinitionId": 704,
+    "HeadingId": 547,
+    "Name": "Weber-Crist",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 199,
+    "UdListDefinitionId": 112,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 982
       }
     }
   }

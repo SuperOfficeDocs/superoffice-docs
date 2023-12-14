@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 229,
-  "Name": "Williamson Inc and Sons",
-  "Rank": 903,
-  "Tooltip": "minus",
-  "Deleted": true,
-  "IsLocation": false,
-  "LocationAddress": "omnis",
+  "ResourceId": 567,
+  "Name": "Stamm LLC",
+  "Rank": 747,
+  "Tooltip": "animi",
+  "Deleted": false,
+  "IsLocation": true,
+  "LocationAddress": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 760
+      "FieldLength": 807
     }
   }
 }

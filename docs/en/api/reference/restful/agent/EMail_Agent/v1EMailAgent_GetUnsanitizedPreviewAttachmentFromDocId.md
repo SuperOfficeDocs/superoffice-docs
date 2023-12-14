@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 344,
-  "AttachmentId": "et"
+  "DocId": 693,
+  "AttachmentId": "quibusdam"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered 24 hour data-warehouse",
-  "Filename": "quibusdam",
-  "Size": 963,
-  "Type": "officia",
-  "Encoding": "voluptas",
-  "Id": "sit",
-  "Disposition": "corporis",
+  "Description": "Secured bandwidth-monitored customer loyalty",
+  "Filename": "officiis",
+  "Size": 499,
+  "Type": "hic",
+  "Encoding": "consequuntur",
+  "Id": "odit",
+  "Disposition": "ut",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 902
+      "FieldLength": 399
     }
   }
 }

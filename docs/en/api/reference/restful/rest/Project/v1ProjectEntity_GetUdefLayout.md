@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 838,
-    "ColumnId": 827,
-    "FieldDefault": "ipsam",
-    "FieldHeight": 906,
-    "FieldLabel": "sit",
-    "FieldLeft": 863,
-    "FieldTop": 247,
+    "UDefFieldId": 892,
+    "ColumnId": 664,
+    "FieldDefault": "quibusdam",
+    "FieldHeight": 555,
+    "FieldLabel": "autem",
+    "FieldLeft": 740,
+    "FieldTop": 539,
     "FieldType": "Checkbox",
-    "FieldWidth": 711,
-    "FormatMask": "aut",
+    "FieldWidth": 767,
+    "FormatMask": "ex",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 815,
-    "LabelLeft": 631,
-    "LabelTop": 794,
-    "LabelWidth": 204,
-    "LastVersionId": 60,
-    "ListTableId": 937,
-    "IsMandatory": true,
+    "LabelHeight": 907,
+    "LabelLeft": 39,
+    "LabelTop": 510,
+    "LabelWidth": 246,
+    "LastVersionId": 348,
+    "ListTableId": 616,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 872,
-    "ProgId": "ipsa",
-    "IsReadOnly": false,
-    "ShortLabel": "dolor",
-    "TabOrder": 810,
-    "TextLength": 383,
-    "Tooltip": "voluptatum",
-    "UdefIdentity": 345,
-    "UDListDefinitionId": 737,
+    "Page1LineNo": 557,
+    "ProgId": "temporibus",
+    "IsReadOnly": true,
+    "ShortLabel": "iure",
+    "TabOrder": 961,
+    "TextLength": 789,
+    "Tooltip": "non",
+    "UdefIdentity": 1001,
+    "UDListDefinitionId": 515,
     "Justification": "Center",
-    "Version": 760,
-    "TemplateVariableName": "Kautzer-Mante",
+    "Version": 398,
+    "TemplateVariableName": "Hudson, Heathcote and Wilkinson",
     "HasBeenPublished": false,
-    "MdoListName": "Prosacco-Bruen",
+    "MdoListName": "Hilpert, Zboncak and Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 297
+        "FieldLength": 221
       }
     }
   }

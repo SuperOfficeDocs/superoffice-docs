@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 998,
-  "Name": "Kovacek-Senger",
-  "Tooltip": "iusto",
-  "Deleted": true,
-  "UdListDefinitionId": 309,
-  "Rank": 315
+  "Id": 976,
+  "Name": "Rolfson, Gleason and Vandervort",
+  "Tooltip": "numquam",
+  "Deleted": false,
+  "UdListDefinitionId": 148,
+  "Rank": 627
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 615,
-  "Name": "McCullough Inc and Sons",
-  "Tooltip": "ipsum",
+  "Id": 740,
+  "Name": "Russel Group",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "UdListDefinitionId": 125,
-  "Rank": 281,
+  "UdListDefinitionId": 316,
+  "Rank": 452,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 69
+      "FieldType": "System.Int32",
+      "FieldLength": 76
     }
   }
 }

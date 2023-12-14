@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 47,
-    "Name": "Gulgowski, Braun and Bruen",
-    "ToolTip": "Provident placeat.",
-    "Deleted": true,
-    "Rank": 744,
-    "Type": "repellat",
-    "ColorBlock": 308,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "1997-06-17T13:38:18.0462875+02:00",
+    "Id": 385,
+    "Name": "Anderson-Wintheiser",
+    "ToolTip": "Fugiat ratione eum tempore repellendus distinctio.",
+    "Deleted": false,
+    "Rank": 357,
+    "Type": "assumenda",
+    "ColorBlock": 521,
+    "IconHint": "in",
+    "Selected": false,
+    "LastChanged": "2015-11-26T13:57:19.7346424+01:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Emard-Padberg",
-        "ToolTip": "Ut quasi laborum.",
+        "Id": 795,
+        "Name": "Torphy-Stoltenberg",
+        "ToolTip": "Consequatur incidunt aliquid illo.",
         "Deleted": false,
-        "Rank": 128,
-        "Type": "ut",
-        "ColorBlock": 608,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2009-04-26T13:38:18.0462875+02:00",
+        "Rank": 57,
+        "Type": "delectus",
+        "ColorBlock": 79,
+        "IconHint": "assumenda",
+        "Selected": true,
+        "LastChanged": "2002-08-25T13:57:19.7346424+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "eveniet",
-        "Hidden": false,
-        "FullName": "Lucienne Windler I",
+        "ExtraInfo": "architecto",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Agnes Beatty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 172
+            "FieldType": "System.String",
+            "FieldLength": 253
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "inventore",
-    "Hidden": true,
-    "FullName": "Kira Raynor",
+    "ExtraInfo": "similique",
+    "StyleHint": "earum",
+    "Hidden": false,
+    "FullName": "Audrey Kiehn DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldLength": 145
       }
     }
   }

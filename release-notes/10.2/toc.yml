@@ -59,6 +59,9 @@ items:
   items:
   - name: 10.2.11 update
     href: api/10.2.11-update.md
+    items:
+    - name: Database changes 10.2.11
+      href: ../database/changes-10.2.11.md
   - name: 10.2.10 update
     href: api/10.2.10-update.md
     items:

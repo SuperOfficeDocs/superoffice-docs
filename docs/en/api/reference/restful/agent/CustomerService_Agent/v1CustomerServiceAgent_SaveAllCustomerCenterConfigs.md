@@ -64,20 +64,20 @@ No Content
 POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "CustConfigs": [
     {
-      "CustConfigId": 182,
+      "CustConfigId": 517,
       "Type": "Options",
-      "Config": "nihil",
-      "CustLangId": 320,
-      "Registered": "2017-06-30T13:38:13.3896326+02:00",
-      "RegisteredAssociateId": 647,
-      "Updated": "2023-08-22T13:38:13.3896326+02:00",
-      "UpdatedAssociateId": 353
+      "Config": "itaque",
+      "CustLangId": 805,
+      "Registered": "2009-04-18T13:57:12.0123726+02:00",
+      "RegisteredAssociateId": 201,
+      "Updated": "2011-05-06T13:57:12.0123726+02:00",
+      "UpdatedAssociateId": 292
     }
   ]
 }

@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "reiciendis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "reiciendis",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 286,
-  "Name": "Schneider LLC",
-  "CreatedDate": "2022-03-25T13:38:17.4368262+01:00",
-  "UpdatedDate": "2007-01-06T13:38:17.4368262+01:00",
+  "ForeignAppId": 434,
+  "Name": "Grady-Schimmel",
+  "CreatedDate": "2002-08-31T13:57:18.8109737+02:00",
+  "UpdatedDate": "2007-05-02T13:57:18.8109737+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 536,
-      "Name": "Gaylord LLC",
-      "CreatedDate": "2000-07-20T13:38:17.4368262+02:00",
-      "UpdatedDate": "2020-08-12T13:38:17.4368262+02:00",
-      "AssociateFullName": "Greg Emard",
-      "CreatedBy": "asperiores",
-      "UpdatedBy": "id",
-      "DeviceIdentifier": "sunt",
-      "ForeignAppId": 662,
+      "ForeignDeviceId": 434,
+      "Name": "Mitchell Group",
+      "CreatedDate": "2002-04-18T13:57:18.8109737+02:00",
+      "UpdatedDate": "2016-10-23T13:57:18.8109737+02:00",
+      "AssociateFullName": "Delfina Schimmel",
+      "CreatedBy": "exercitationem",
+      "UpdatedBy": "iure",
+      "DeviceIdentifier": "minus",
+      "ForeignAppId": 249,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldType": "System.String",
+          "FieldLength": 325
         }
       }
     }
@@ -170,12 +170,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldLength": 245
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

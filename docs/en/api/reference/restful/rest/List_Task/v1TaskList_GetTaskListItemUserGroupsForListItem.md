@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 705,
-    "Name": "Pagac-Schiller",
-    "ToolTip": "Est magnam dolorem molestiae nemo similique numquam.",
+    "Id": 874,
+    "Name": "Lemke, Cremin and Runte",
+    "ToolTip": "Magni nemo voluptate aperiam dolores.",
     "Deleted": false,
-    "Rank": 63,
-    "Type": "quasi",
-    "ColorBlock": 762,
-    "IconHint": "magni",
-    "Selected": false,
-    "LastChanged": "2020-08-20T13:38:18.2493876+02:00",
+    "Rank": 333,
+    "Type": "et",
+    "ColorBlock": 781,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2019-01-06T13:57:20.1577843+01:00",
     "ChildItems": [
       {
-        "Id": 983,
-        "Name": "Davis Inc and Sons",
-        "ToolTip": "Asperiores quis.",
-        "Deleted": true,
-        "Rank": 249,
-        "Type": "sit",
-        "ColorBlock": 202,
-        "IconHint": "cupiditate",
+        "Id": 569,
+        "Name": "Haag LLC",
+        "ToolTip": "Aut cumque consequatur explicabo enim est.",
+        "Deleted": false,
+        "Rank": 242,
+        "Type": "quis",
+        "ColorBlock": 21,
+        "IconHint": "sit",
         "Selected": true,
-        "LastChanged": "2002-04-10T13:38:18.2493876+02:00",
+        "LastChanged": "2018-05-05T13:57:20.1577843+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "ex",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "maiores",
         "Hidden": false,
-        "FullName": "Keshaun Stehr",
+        "FullName": "Rosalyn Halvorson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 88
+            "FieldLength": 904
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "debitis",
-    "Hidden": false,
-    "FullName": "Jessika Jacobson",
+    "ExtraInfo": "beatae",
+    "StyleHint": "cumque",
+    "Hidden": true,
+    "FullName": "Jerel Hayes DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 917
+        "FieldType": "System.Int32",
+        "FieldLength": 937
       }
     }
   }

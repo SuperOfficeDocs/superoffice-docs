@@ -126,8 +126,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 997,
-  "ERPProductKey": "deserunt"
+  "QuoteAlternativeId": 762,
+  "ERPProductKey": "magni"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 81,
-  "ERPQuoteLineKey": "consectetur",
-  "QuoteAlternativeId": 67,
-  "ERPProductKey": "optio",
+  "QuoteLineId": 664,
+  "ERPQuoteLineKey": "officia",
+  "QuoteAlternativeId": 552,
+  "ERPProductKey": "corrupti",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 18227.344,
-  "DeliveredQuantity": 25654.924,
-  "Rank": 768,
-  "Name": "Ferry, Herzog and Huels",
-  "Description": "Re-engineered client-server projection",
-  "Code": "quidem",
-  "QuantityUnit": "ab",
-  "PriceUnit": "porro",
-  "ItemNumber": "1124567",
+  "Quantity": 16140.1,
+  "DeliveredQuantity": 4961.1219999999994,
+  "Rank": 995,
+  "Name": "Greenholt Group",
+  "Description": "Open-source content-based instruction set",
+  "Code": "voluptatem",
+  "QuantityUnit": "asperiores",
+  "PriceUnit": "non",
+  "ItemNumber": "599573",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "reiciendis",
-  "ProductTypeKey": "est",
-  "Supplier": "quia",
-  "SupplierCode": "earum",
-  "Thumbnail": "natus",
-  "VATInfo": "nisi",
-  "VAT": 24178.809999999998,
-  "UnitCost": 573.52199999999993,
-  "UnitMinimumPrice": 9944.1819999999989,
-  "UnitListPrice": 1087.498,
+  "ProductFamilyKey": "odio",
+  "ProductTypeKey": "mollitia",
+  "Supplier": "voluptatem",
+  "SupplierCode": "et",
+  "Thumbnail": "illo",
+  "VATInfo": "quia",
+  "VAT": 8668.644,
+  "UnitCost": 30205.492,
+  "UnitMinimumPrice": 22213.791999999998,
+  "UnitListPrice": 2265.882,
   "ExtraInfo": [
     {
-      "Name": "Bartell LLC",
-      "Value": "est",
+      "Name": "Mueller Inc and Sons",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldType": "System.String",
+          "FieldLength": 35
         }
       }
     },
     {
-      "Name": "Bartell LLC",
-      "Value": "est",
+      "Name": "Mueller Inc and Sons",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldType": "System.String",
+          "FieldLength": 35
         }
       }
     }
   ],
-  "RawExtraInfo": "nihil",
+  "RawExtraInfo": "distinctio",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "SubscriptionQuantity": 17497.122,
-  "SubscriptionStart": "2009-08-26T13:38:14.0303322+02:00",
-  "ERPDiscountPercent": 28798.325999999997,
-  "ERPDiscountAmount": 6465.442,
-  "DiscountPercent": 11266.73,
-  "DiscountAmount": 19399.46,
+  "SubscriptionUnit": "aut",
+  "SubscriptionQuantity": 6935.5419999999995,
+  "SubscriptionStart": "2017-12-10T13:57:13.0805627+01:00",
+  "ERPDiscountPercent": 21530.579999999998,
+  "ERPDiscountAmount": 6766.306,
+  "DiscountPercent": 8186.008,
+  "DiscountAmount": 31048.538,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 18456.126,
-  "EarningAmount": 19828.818,
-  "SubTotal": 1184.652,
-  "TotalPrice": 20333.392,
-  "Rights": "officia",
-  "Rule": "ipsa",
-  "ExtraField1": "ea",
-  "ExtraField2": "ducimus",
-  "ExtraField3": "adipisci",
-  "ExtraField4": "ut",
-  "ExtraField5": "voluptatem",
+  "EarningPercent": 9643.318,
+  "EarningAmount": 24357.448,
+  "SubTotal": 3362.7819999999997,
+  "TotalPrice": 24269.696,
+  "Rights": "sequi",
+  "Rule": "quibusdam",
+  "ExtraField1": "ex",
+  "ExtraField2": "omnis",
+  "ExtraField3": "sint",
+  "ExtraField4": "possimus",
+  "ExtraField5": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldType": "System.Int32",
+      "FieldLength": 335
     }
   }
 }

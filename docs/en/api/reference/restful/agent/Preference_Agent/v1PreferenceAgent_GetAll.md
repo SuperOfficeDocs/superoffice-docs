@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 557,
-    "Section": "sint",
-    "Key": "non",
-    "Name": "Johns LLC",
+    "PrefDescId": 710,
+    "Section": "rerum",
+    "Key": "aut",
+    "Name": "Goodwin, Ratke and Hermiston",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Focused multimedia paradigm",
+    "Description": "Expanded local help-desk",
     "IsBuiltin": false,
-    "TableName": "Romaguera, Turcotte and Koepp",
-    "UserDefinedListId": 940,
-    "Rank": 686,
-    "SubGroup": "repudiandae",
-    "MinLevel": 368,
-    "MaxValue": 464,
-    "MinValue": 20,
-    "RequiredLicense": "velit",
+    "TableName": "Murray Group",
+    "UserDefinedListId": 163,
+    "Rank": 127,
+    "SubGroup": "autem",
+    "MinLevel": 760,
+    "MaxValue": 962,
+    "MinValue": 977,
+    "RequiredLicense": "quod",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 365
+        "FieldLength": 116
       }
     }
   }

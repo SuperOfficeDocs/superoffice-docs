@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Wyman-Turcotte",
-  "ModuleName": "Hegmann Inc and Sons",
-  "ModuleDescription": "Seamless system-worthy model",
-  "ModuleTooltip": "dolores",
-  "ModuleVersion": "architecto",
+  "OwnerName": "Jast, Tillman and Langosh",
+  "ModuleName": "Stanton LLC",
+  "ModuleDescription": "Diverse demand-driven orchestration",
+  "ModuleTooltip": "amet",
+  "ModuleVersion": "facere",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 480,
-  "ExtraFlags": 619,
-  "ExtraInfo": "possimus",
-  "SortOrder": 443,
+  "NumberOfLicenses": 93,
+  "ExtraFlags": 402,
+  "ExtraInfo": "quo",
+  "SortOrder": 907,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Boyer, McCullough and Carter",
-  "Signature": "aspernatur"
+  "PrerequisiteModuleName": "Schiller Inc and Sons",
+  "Signature": "impedit"
 }
 ```

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 37,
-  "ColumnId": 253,
-  "FieldDefault": "quia",
-  "FieldHeight": 40,
-  "FieldLabel": "voluptate",
-  "FieldLeft": 630,
-  "FieldTop": 564,
+  "UDefFieldId": 13,
+  "ColumnId": 644,
+  "FieldDefault": "ut",
+  "FieldHeight": 701,
+  "FieldLabel": "commodi",
+  "FieldLeft": 943,
+  "FieldTop": 131,
   "FieldType": "Checkbox",
-  "FieldWidth": 595,
-  "FormatMask": "deleniti",
+  "FieldWidth": 103,
+  "FormatMask": "quasi",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 296,
-  "LabelLeft": 969,
-  "LabelTop": 169,
-  "LabelWidth": 485,
-  "LastVersionId": 791,
-  "ListTableId": 392,
-  "IsMandatory": true,
+  "LabelHeight": 653,
+  "LabelLeft": 288,
+  "LabelTop": 377,
+  "LabelWidth": 299,
+  "LastVersionId": 202,
+  "ListTableId": 568,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 594,
-  "ProgId": "et",
+  "Page1LineNo": 814,
+  "ProgId": "nostrum",
   "IsReadOnly": false,
-  "ShortLabel": "voluptatibus",
-  "TabOrder": 420,
-  "TextLength": 204,
-  "Tooltip": "dolorem",
-  "UdefIdentity": 208,
-  "UDListDefinitionId": 18,
+  "ShortLabel": "eum",
+  "TabOrder": 735,
+  "TextLength": 648,
+  "Tooltip": "dolore",
+  "UdefIdentity": 621,
+  "UDListDefinitionId": 313,
   "Justification": "Center",
-  "Version": 653,
-  "TemplateVariableName": "Heidenreich-Wisozk",
+  "Version": 254,
+  "TemplateVariableName": "Cummerata, Lang and Wunsch",
   "HasBeenPublished": true,
-  "MdoListName": "Toy-Gleason",
+  "MdoListName": "Cartwright LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldType": "System.String",
+      "FieldLength": 797
     }
   }
 }

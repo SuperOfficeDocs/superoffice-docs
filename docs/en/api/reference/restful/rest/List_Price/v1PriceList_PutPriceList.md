@@ -97,19 +97,19 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 505,
-  "ERPPriceListKey": "sint",
-  "QuoteConnectionId": 368,
-  "Name": "Purdy LLC",
-  "Description": "Object-based systemic task-force",
-  "Currency": "perspiciatis",
-  "CurrencyName": "Osinski, O'Hara and White",
-  "ValidFrom": "2014-08-10T13:38:18.1087815+02:00",
-  "ValidTo": "2002-11-14T13:38:18.1087815+01:00",
+  "PriceListId": 988,
+  "ERPPriceListKey": "sed",
+  "QuoteConnectionId": 633,
+  "Name": "Cruickshank Inc and Sons",
+  "Description": "Customer-focused interactive product",
+  "Currency": "excepturi",
+  "CurrencyName": "Gutmann-Pfannerstill",
+  "ValidFrom": "2007-09-29T13:57:19.8440154+02:00",
+  "ValidTo": "2000-01-28T13:57:19.8440154+01:00",
   "IsActive": false
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 265,
-  "ERPPriceListKey": "sunt",
-  "QuoteConnectionId": 641,
-  "Name": "Prosacco-Becker",
-  "Description": "Decentralized content-based database",
-  "Currency": "sint",
-  "CurrencyName": "Kuphal-Zulauf",
-  "ValidFrom": "2008-09-19T13:38:18.1087815+02:00",
-  "ValidTo": "2023-03-28T13:38:18.1087815+02:00",
+  "PriceListId": 204,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 878,
+  "Name": "Shanahan Group",
+  "Description": "Inverse content-based implementation",
+  "Currency": "et",
+  "CurrencyName": "Kuvalis, Dach and Rempel",
+  "ValidFrom": "2016-04-01T13:57:19.8440154+02:00",
+  "ValidTo": "2020-05-20T13:57:19.8440154+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 941
+      "FieldType": "System.Int32",
+      "FieldLength": 172
     }
   },
   "_Links": {

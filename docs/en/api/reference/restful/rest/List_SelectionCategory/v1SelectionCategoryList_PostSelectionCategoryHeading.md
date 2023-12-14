@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 503,
-  "Name": "Shields, Hoeger and Daugherty",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 284,
-  "UdListDefinitionId": 739
+  "HeadingId": 850,
+  "Name": "Hayes LLC",
+  "Tooltip": "incidunt",
+  "Deleted": true,
+  "Rank": 656,
+  "UdListDefinitionId": 805
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 363,
-  "Name": "Hermann Group",
-  "Tooltip": "necessitatibus",
+  "HeadingId": 26,
+  "Name": "Koepp-Beer",
+  "Tooltip": "voluptatibus",
   "Deleted": false,
-  "Rank": 595,
-  "UdListDefinitionId": 66,
+  "Rank": 269,
+  "UdListDefinitionId": 695,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldType": "System.Int32",
+      "FieldLength": 869
     }
   }
 }

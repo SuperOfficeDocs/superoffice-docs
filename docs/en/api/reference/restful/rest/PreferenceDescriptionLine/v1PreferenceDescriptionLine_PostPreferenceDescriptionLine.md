@@ -90,12 +90,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 695,
-  "PrefDescId": 922,
+  "PrefDescLineId": 826,
+  "PrefDescId": 623,
   "PrefValue": "et",
-  "PrefShowValue": "molestiae",
-  "Description": "Devolved leading edge functionalities",
-  "IsBuiltin": false
+  "PrefShowValue": "qui",
+  "Description": "Realigned real-time leverage",
+  "IsBuiltin": true
 }
 ```
 
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 753,
-  "PrefDescId": 482,
-  "PrefValue": "maxime",
-  "PrefShowValue": "ratione",
-  "Description": "Team-oriented foreground open architecture",
-  "IsBuiltin": true,
+  "PrefDescLineId": 785,
+  "PrefDescId": 675,
+  "PrefValue": "a",
+  "PrefShowValue": "magnam",
+  "Description": "Proactive zero defect local area network",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldLength": 808
     }
   },
   "_Links": {

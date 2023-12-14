@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 16 Oct 2011 13:38:17 G10T
+Last-Modified: Wed, 25 Sep 1996 13:57:18 G9T
 
 {
-  "DocumentId": 179,
+  "DocumentId": 758,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "occaecati",
-  "Header": "nihil",
-  "Name": "Koepp, Windler and Metz",
-  "OurRef": "reprehenderit",
-  "YourRef": "voluptate",
-  "CreatedDate": "2014-04-12T13:38:17.3900746+02:00",
-  "UpdatedDate": "2011-10-16T13:38:17.3900746+02:00",
-  "Description": "Universal bifurcated encoding",
+  "Attention": "modi",
+  "Header": "repudiandae",
+  "Name": "Schuppe Group",
+  "OurRef": "amet",
+  "YourRef": "amet",
+  "CreatedDate": "2020-07-14T13:57:18.7328156+02:00",
+  "UpdatedDate": "1996-09-25T13:57:18.7328156+02:00",
+  "Description": "Multi-tiered multi-tasking installation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-02-17T13:38:17.3900746+01:00",
-  "ExternalRef": "aut",
+  "Date": "2023-10-13T13:57:18.7328156+02:00",
+  "ExternalRef": "sed",
   "Completed": "Completed",
-  "ActiveLinks": 630,
+  "ActiveLinks": 435,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "O'Connell LLC",
-      "Id": 106,
-      "Description": "User-friendly tangible challenge",
-      "ExtraInfo": "quisquam",
-      "LinkId": 558,
+      "EntityName": "Paucek Group",
+      "Id": 276,
+      "Description": "Function-based zero defect framework",
+      "ExtraInfo": "odit",
+      "LinkId": 688,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 259
+          "FieldLength": 721
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 937,
-  "Snum": 140,
+  "SuggestedDocumentId": 267,
+  "Snum": 276,
   "UserDefinedFields": {
-    "SuperOffice:1": "Magdalena Kuhlman",
-    "SuperOffice:2": "Zakary Jerde"
+    "SuperOffice:1": "Neal Cleo Williamson Sr.",
+    "SuperOffice:2": "Brianne Ritchie"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "odio",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "quo"
+    "CustomFields1": "provident",
+    "CustomFields2": "aspernatur"
   },
-  "PublishEventDate": "2005-07-06T13:38:17.3900746+02:00",
-  "PublishTo": "2021-03-30T13:38:17.3900746+02:00",
-  "PublishFrom": "2017-11-24T13:38:17.3900746+01:00",
+  "PublishEventDate": "2020-02-08T13:57:18.7328156+01:00",
+  "PublishTo": "1999-11-11T13:57:18.7328156+01:00",
+  "PublishFrom": "2011-04-09T13:57:18.7328156+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 22,
+      "VisibleId": 524,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 415
+          "FieldType": "System.Int32",
+          "FieldLength": 205
         }
       }
     },
     {
-      "VisibleId": 22,
+      "VisibleId": 524,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 415
+          "FieldType": "System.Int32",
+          "FieldLength": 205
         }
       }
     }
@@ -210,13 +210,13 @@ Last-Modified: Sun, 16 Oct 2011 13:38:17 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

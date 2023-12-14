@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 495,
-  "Name": "McGlynn Inc and Sons",
-  "Tooltip": "sapiente",
+  "Id": 507,
+  "Name": "Lockman, Hickle and Eichmann",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 104,
+  "Rank": 395,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "tempore",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 943,
-  "Name": "Wisoky, Strosin and Legros",
-  "Tooltip": "velit",
+  "Id": 369,
+  "Name": "Kunze Group",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 930,
-  "IsCustomList": false,
+  "Rank": 259,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "maiores",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldLength": 850
     }
   }
 }

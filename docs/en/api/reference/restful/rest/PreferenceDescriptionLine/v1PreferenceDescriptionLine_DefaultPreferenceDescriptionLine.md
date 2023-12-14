@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 740,
-  "PrefDescId": 833,
-  "PrefValue": "dolorem",
-  "PrefShowValue": "laudantium",
-  "Description": "Distributed demand-driven monitoring",
-  "IsBuiltin": false,
+  "PrefDescLineId": 628,
+  "PrefDescId": 701,
+  "PrefValue": "amet",
+  "PrefShowValue": "odit",
+  "Description": "Grass-roots value-added hierarchy",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 815
+      "FieldLength": 529
     }
   }
 }

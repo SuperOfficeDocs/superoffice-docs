@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 264,
-  "Section": "molestiae",
-  "Key": "aut",
-  "Name": "Hodkiewicz-Leffler",
+  "PrefDescId": 442,
+  "Section": "qui",
+  "Key": "voluptas",
+  "Name": "O'Kon-Carroll",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Business-focused 24/7 internet solution",
+  "Description": "User-centric attitude-oriented infrastructure",
   "IsBuiltin": true,
-  "TableName": "Oberbrunner, Emard and Nicolas",
-  "UserDefinedListId": 200,
-  "Rank": 1002,
-  "SubGroup": "voluptatum",
-  "MinLevel": 133,
-  "MaxValue": 561,
-  "MinValue": 177,
-  "RequiredLicense": "aspernatur",
+  "TableName": "Howell Group",
+  "UserDefinedListId": 493,
+  "Rank": 641,
+  "SubGroup": "tempore",
+  "MinLevel": 987,
+  "MaxValue": 321,
+  "MinValue": 585,
+  "RequiredLicense": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldType": "System.String",
+      "FieldLength": 927
     }
   },
   "_Links": {

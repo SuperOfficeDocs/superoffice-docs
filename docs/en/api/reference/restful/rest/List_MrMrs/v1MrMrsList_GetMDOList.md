@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=aut
+GET /api/v1/List/MrMrs/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Cummerata, Cartwright and Mraz",
-    "ToolTip": "Quo sit voluptatem aspernatur.",
+    "Id": 852,
+    "Name": "Hudson-Hackett",
+    "ToolTip": "Omnis possimus sunt qui modi.",
     "Deleted": false,
-    "Rank": 722,
-    "Type": "voluptatem",
+    "Rank": 405,
+    "Type": "vero",
     "ChildItems": [
       {
-        "Id": 330,
-        "Name": "Hegmann Inc and Sons",
-        "ToolTip": "Est velit a quia ut voluptate.",
-        "Deleted": false,
-        "Rank": 150,
-        "Type": "asperiores",
+        "Id": 357,
+        "Name": "Mitchell-Pfannerstill",
+        "ToolTip": "Maxime inventore nisi vel sit.",
+        "Deleted": true,
+        "Rank": 47,
+        "Type": "magnam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 849,
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "fugit",
-        "FullName": "Mr. Jaydon Okuneva MD",
+        "IconHint": "ipsa",
+        "ColorBlock": 449,
+        "ExtraInfo": "sequi",
+        "StyleHint": "est",
+        "FullName": "Miss Thelma Predovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 851
+            "FieldLength": 883
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 612,
-    "ExtraInfo": "beatae",
-    "StyleHint": "fugiat",
-    "FullName": "Prof. Pattie Bart Gislason",
+    "IconHint": "et",
+    "ColorBlock": 850,
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "necessitatibus",
+    "FullName": "Mrs. Jasmin Schultz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 814
+        "FieldLength": 857
       }
     }
   }

@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 10,
-    "ColumnId": 939,
-    "FieldDefault": "et",
-    "FieldHeight": 373,
-    "FieldLabel": "eum",
-    "FieldLeft": 893,
-    "FieldTop": 949,
+    "UDefFieldId": 443,
+    "ColumnId": 967,
+    "FieldDefault": "ut",
+    "FieldHeight": 111,
+    "FieldLabel": "omnis",
+    "FieldLeft": 389,
+    "FieldTop": 239,
     "FieldType": "Checkbox",
-    "FieldWidth": 463,
-    "FormatMask": "quidem",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 688,
-    "LabelLeft": 290,
-    "LabelTop": 405,
-    "LabelWidth": 526,
-    "LastVersionId": 35,
-    "ListTableId": 633,
-    "IsMandatory": true,
+    "FieldWidth": 706,
+    "FormatMask": "reprehenderit",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 974,
+    "LabelLeft": 637,
+    "LabelTop": 726,
+    "LabelWidth": 841,
+    "LastVersionId": 766,
+    "ListTableId": 214,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 654,
-    "ProgId": "id",
+    "Page1LineNo": 123,
+    "ProgId": "magni",
     "IsReadOnly": false,
-    "ShortLabel": "est",
-    "TabOrder": 120,
-    "TextLength": 735,
-    "Tooltip": "eius",
-    "UdefIdentity": 753,
-    "UDListDefinitionId": 111,
+    "ShortLabel": "perferendis",
+    "TabOrder": 731,
+    "TextLength": 619,
+    "Tooltip": "modi",
+    "UdefIdentity": 124,
+    "UDListDefinitionId": 595,
     "Justification": "Center",
-    "Version": 884,
-    "TemplateVariableName": "Weissnat, Deckow and Waters",
+    "Version": 529,
+    "TemplateVariableName": "Ryan Group",
     "HasBeenPublished": false,
-    "MdoListName": "Beatty LLC",
+    "MdoListName": "Jenkins LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldLength": 357
       }
     }
   }

@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 764,
-  "Name": "Cormier-Herzog",
-  "Tooltip": "nihil",
-  "Rank": 421,
+  "SaleTypeId": 481,
+  "Name": "Goyette Inc and Sons",
+  "Tooltip": "qui",
+  "Rank": 400,
   "DurationUnit": "Century",
-  "SaleDuration": 860,
-  "SaleTypeCatId": 201,
+  "SaleDuration": 595,
+  "SaleTypeCatId": 528,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 13,
-  "QuoteLinesTemplate": 389,
-  "ConfirmationLinesTemplate": 814,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 713,
-  "MinEarningPercent": 745,
-  "GroupQuoteLinesBy": 675,
-  "SortGroupLinesBy": 828,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 504,
+  "QuoteLinesTemplate": 913,
+  "ConfirmationLinesTemplate": 223,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 758,
+  "MinEarningPercent": 76,
+  "GroupQuoteLinesBy": 5,
+  "SortGroupLinesBy": 171,
   "Stages": [
     {
-      "Id": 683,
-      "Name": "Mertz Inc and Sons",
-      "ToolTip": "Sunt omnis expedita aut facere officiis nostrum.",
-      "Deleted": false,
-      "Rank": 195,
-      "Type": "eos",
-      "ColorBlock": 505,
-      "IconHint": "quia",
+      "Id": 352,
+      "Name": "Beier-Reichert",
+      "ToolTip": "Voluptatibus ipsam.",
+      "Deleted": true,
+      "Rank": 413,
+      "Type": "est",
+      "ColorBlock": 932,
+      "IconHint": "nesciunt",
       "Selected": false,
-      "LastChanged": "2012-12-04T13:38:18.2181419+01:00",
+      "LastChanged": "2022-05-06T13:57:20.1109105+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odit",
-      "StyleHint": "modi",
+      "ExtraInfo": "assumenda",
+      "StyleHint": "deleniti",
       "Hidden": false,
-      "FullName": "Fatima Reilly",
+      "FullName": "Jayde Stiedemann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 156
+          "FieldLength": 432
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldType": "System.Int32",
+      "FieldLength": 304
     }
   }
 }

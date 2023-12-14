@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Koss LLC",
-  "ProviderName": "Pfeffer-Bernier",
-  "SortOrder": "magnam",
-  "Restriction": "tempora",
-  "Entities": "est",
-  "Page": 203,
-  "PageSize": 972
+  "GuiName": "Walter, Smith and Pacocha",
+  "ProviderName": "Farrell Group",
+  "SortOrder": "deleniti",
+  "Restriction": "doloremque",
+  "Entities": "et",
+  "Page": 938,
+  "PageSize": 888
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Emmerich Inc and Sons",
-    "PrimaryKey": 300,
+    "EntityName": "Gorczany, Murphy and Roberts",
+    "PrimaryKey": 165,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "asperiores",
-        "TooltipHint": "voluptas",
-        "LinkHint": "molestiae"
+        "DisplayValue": "molestiae",
+        "TooltipHint": "quia",
+        "LinkHint": "quod"
       }
     },
-    "LinkHint": "nobis",
-    "StyleHint": "natus",
+    "LinkHint": "et",
+    "StyleHint": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 519
+        "FieldType": "System.Int32",
+        "FieldLength": 464
       }
     }
   }

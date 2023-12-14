@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 31 Mar 2018 13:38:17 G3T
+Last-Modified: Tue, 30 Dec 2008 13:57:18 G12T
 
 {
-  "ForeignAppId": 726,
-  "Name": "Farrell-Kshlerin",
-  "CreatedDate": "1998-12-09T13:38:17.4368262+01:00",
-  "UpdatedDate": "2018-03-31T13:38:17.4368262+02:00",
+  "ForeignAppId": 227,
+  "Name": "Towne, Daniel and Howell",
+  "CreatedDate": "2022-12-06T13:57:18.7953465+01:00",
+  "UpdatedDate": "2008-12-30T13:57:18.7953465+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 341,
-      "Name": "Kertzmann-O'Conner",
-      "CreatedDate": "1999-07-06T13:38:17.4368262+02:00",
-      "UpdatedDate": "1998-05-11T13:38:17.4368262+02:00",
-      "AssociateFullName": "Fredy Tillman",
-      "CreatedBy": "ea",
-      "UpdatedBy": "eos",
-      "DeviceIdentifier": "rerum",
-      "ForeignAppId": 785,
+      "ForeignDeviceId": 687,
+      "Name": "Emmerich LLC",
+      "CreatedDate": "2005-08-28T13:57:18.8109737+02:00",
+      "UpdatedDate": "2019-06-27T13:57:18.8109737+02:00",
+      "AssociateFullName": "Flossie Delmer Grant MD",
+      "CreatedBy": "odio",
+      "UpdatedBy": "cum",
+      "DeviceIdentifier": "voluptatem",
+      "ForeignAppId": 596,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 880
+          "FieldLength": 419
         }
       }
     }
@@ -123,7 +123,7 @@ Last-Modified: Sat, 31 Mar 2018 13:38:17 G3T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldLength": 295
     }
   },
   "_Links": {

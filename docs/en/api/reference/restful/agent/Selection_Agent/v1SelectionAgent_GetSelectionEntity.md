@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=942
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=259
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Switchable client-driven adapter",
-  "Postit": "enim",
+  "Description": "Phased solution-oriented portal",
+  "Postit": "sit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 525,
-  "IncludePerson": 63,
-  "MemberCount": 411,
-  "Name": "Schmidt, Barrows and Predovic",
-  "PostitTextId": 245,
-  "CreatedDate": "2004-04-18T13:38:14.124071+02:00",
-  "SelectionId": 404,
-  "SoundEx": "aut",
-  "Source": 590,
-  "TextId": 106,
-  "UpdatedDate": "2018-04-05T13:38:14.124071+02:00",
-  "UpdatedCount": 284,
-  "Visibility": 333,
+  "GroupIdx": 7,
+  "IncludePerson": 533,
+  "MemberCount": 489,
+  "Name": "Wolff LLC",
+  "PostitTextId": 823,
+  "CreatedDate": "2018-06-05T13:57:13.2071528+02:00",
+  "SelectionId": 212,
+  "SoundEx": "dolores",
+  "Source": 459,
+  "TextId": 91,
+  "UpdatedDate": "2006-12-23T13:57:13.2071528+01:00",
+  "UpdatedCount": 345,
+  "Visibility": 435,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 159,
-  "TargetTableName": "Hermiston Inc and Sons",
+  "TargetTableNumber": 221,
+  "TargetTableName": "Bednar, Dare and Smitham",
   "Completed": false,
-  "LeftSelectionId": 265,
-  "RightSelectionId": 13,
+  "LeftSelectionId": 713,
+  "RightSelectionId": 724,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Swaniawski-Littel",
-  "ShadowProviderName": "Langworth, Hyatt and Braun",
-  "ChartKey": "rerum",
-  "LastLoaded": "2001-06-16T13:38:14.124071+02:00",
-  "LastLoadedBy": 375,
+  "MainProviderName": "Mante-Powlowski",
+  "ShadowProviderName": "Bode, Runolfsson and Conroy",
+  "ChartKey": "voluptas",
+  "LastLoaded": "1998-11-16T13:57:13.2071528+01:00",
+  "LastLoadedBy": 998,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-03-06T13:38:14.124071+01:00",
-  "LastMembershipChangeBy": 955,
+  "LastMembershipChange": "2001-10-05T13:57:13.2071528+02:00",
+  "LastMembershipChangeBy": 954,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "numquam",
-  "MemberTabHeading": "iure",
-  "MailingsProviderName": "Brown, Kuvalis and Schoen",
-  "DashboardTileDefinitionId": 430,
+  "MainHeading": "officiis",
+  "MemberTabHeading": "voluptatem",
+  "MailingsProviderName": "Renner, Sanford and Herman",
+  "DashboardTileDefinitionId": 554,
   "VisibleFor": [
     {
-      "VisibleId": 511,
+      "VisibleId": 217,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 780
+          "FieldType": "System.Int32",
+          "FieldLength": 487
         }
       }
     },
     {
-      "VisibleId": 511,
+      "VisibleId": 217,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 780
+          "FieldType": "System.Int32",
+          "FieldLength": 487
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldLength": 60
     }
   }
 }

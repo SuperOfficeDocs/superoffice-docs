@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 926,
-  "BlobSize": 208,
-  "Description": "Self-enabling attitude-oriented website",
-  "ExtraInfo": "consequatur",
-  "IsEncrypted": true,
+  "BlobId": 438,
+  "BlobSize": 643,
+  "Description": "Fundamental interactive analyzer",
+  "ExtraInfo": "quis",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "similique",
-  "OriginalSize": 987,
-  "CreatedDate": "2016-04-13T13:38:13.0927968+02:00",
-  "UpdatedDate": "2011-12-10T13:38:13.0927968+01:00",
+  "MimeType": "ad",
+  "OriginalSize": 422,
+  "CreatedDate": "2003-04-26T13:57:11.5594343+02:00",
+  "UpdatedDate": "1999-07-09T13:57:11.5594343+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "perspiciatis"
+  "ConceptualType": "placeat"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 740,
-  "BlobSize": 645,
-  "Description": "Enterprise-wide demand-driven Graphical User Interface",
-  "ExtraInfo": "veniam",
+  "BlobId": 477,
+  "BlobSize": 327,
+  "Description": "Innovative intangible collaboration",
+  "ExtraInfo": "eum",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "consequuntur",
-  "OriginalSize": 528,
-  "CreatedDate": "2013-06-26T13:38:13.0927968+02:00",
-  "UpdatedDate": "2012-04-23T13:38:13.0927968+02:00",
+  "MimeType": "facilis",
+  "OriginalSize": 656,
+  "CreatedDate": "2018-07-27T13:57:11.5594343+02:00",
+  "UpdatedDate": "2004-09-03T13:57:11.5594343+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "assumenda",
+  "ConceptualType": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldLength": 235
     }
   }
 }

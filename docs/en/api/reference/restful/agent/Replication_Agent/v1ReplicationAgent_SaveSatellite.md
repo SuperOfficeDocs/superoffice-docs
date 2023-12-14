@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 114,
-  "Created": "2013-02-07T13:38:14.045953+01:00",
+  "SatelliteId": 41,
+  "Created": "2008-06-24T13:57:13.0961896+02:00",
   "CreatedBy": null,
-  "Updated": "1996-11-10T13:38:14.045953+01:00",
+  "Updated": "2010-07-17T13:57:13.0961896+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Ortiz, O'Hara and Jast",
-      "Description": "Compatible tangible function",
+      "Name": "Shields-Towne",
+      "Description": "Balanced cohesive circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Ortiz, O'Hara and Jast",
-      "Description": "Compatible tangible function",
+      "Name": "Shields-Towne",
+      "Description": "Balanced cohesive circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 736,
-  "Created": "1997-01-31T13:38:14.045953+01:00",
+  "SatelliteId": 326,
+  "Created": "2018-10-25T13:57:13.0961896+02:00",
   "CreatedBy": null,
-  "Updated": "2012-04-26T13:38:14.045953+02:00",
+  "Updated": "2003-08-02T13:57:13.0961896+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Dach LLC",
-      "Description": "Quality-focused object-oriented approach",
+      "Name": "Lebsack, Howe and Hilll",
+      "Description": "Synergistic assymetric complexity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 85
+          "FieldType": "System.Int32",
+          "FieldLength": 376
         }
       }
     },
     {
-      "Name": "Dach LLC",
-      "Description": "Quality-focused object-oriented approach",
+      "Name": "Lebsack, Howe and Hilll",
+      "Description": "Synergistic assymetric complexity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 85
+          "FieldType": "System.Int32",
+          "FieldLength": 376
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldType": "System.String",
+      "FieldLength": 541
     }
   }
 }

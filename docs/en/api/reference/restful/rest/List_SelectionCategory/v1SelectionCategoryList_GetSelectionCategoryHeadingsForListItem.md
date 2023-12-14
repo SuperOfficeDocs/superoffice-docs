@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 410,
-    "Name": "Prohaska-Willms",
-    "ToolTip": "Culpa perspiciatis.",
+    "Id": 862,
+    "Name": "O'Conner-Crist",
+    "ToolTip": "Aut velit molestiae rem dolores.",
     "Deleted": false,
-    "Rank": 918,
-    "Type": "et",
-    "ColorBlock": 613,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "2023-02-21T13:38:18.2337719+01:00",
+    "Rank": 939,
+    "Type": "est",
+    "ColorBlock": 959,
+    "IconHint": "repudiandae",
+    "Selected": true,
+    "LastChanged": "2001-05-17T13:57:20.1265357+02:00",
     "ChildItems": [
       {
-        "Id": 142,
-        "Name": "Bins Group",
-        "ToolTip": "Sed veniam qui.",
-        "Deleted": true,
-        "Rank": 91,
-        "Type": "commodi",
-        "ColorBlock": 84,
-        "IconHint": "est",
+        "Id": 129,
+        "Name": "Ward, Koch and Friesen",
+        "ToolTip": "Corporis ullam quo necessitatibus deleniti et.",
+        "Deleted": false,
+        "Rank": 95,
+        "Type": "aut",
+        "ColorBlock": 246,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2023-02-08T13:38:18.2337719+01:00",
+        "LastChanged": "2006-08-01T13:57:20.1265357+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Dr. Doyle Schmeler MD",
+        "ExtraInfo": "quae",
+        "StyleHint": "ab",
+        "Hidden": false,
+        "FullName": "Daryl Konopelski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 225
+            "FieldType": "System.String",
+            "FieldLength": 864
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "odit",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Ms. Nathen Schroeder Jr.",
+    "FullName": "Roderick Kennedy Ortiz PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 598
+        "FieldLength": 863
       }
     }
   }

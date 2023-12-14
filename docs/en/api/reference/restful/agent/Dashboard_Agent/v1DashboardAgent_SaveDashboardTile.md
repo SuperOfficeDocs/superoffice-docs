@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 708,
-  "Caption": "reiciendis",
-  "Description": "Phased motivating process improvement",
-  "ChartName": "Runte-Fritsch",
-  "ChartId": "nobis",
+  "DashboardTileId": 426,
+  "Caption": "voluptatibus",
+  "Description": "Reverse-engineered global infrastructure",
+  "ChartName": "Jakubowski LLC",
+  "ChartId": "eum",
   "IsDefault": true,
-  "AssociateId": 922,
-  "GroupId": 386,
-  "SelectionId": 166,
-  "Config": "possimus",
+  "AssociateId": 417,
+  "GroupId": 126,
+  "SelectionId": 331,
+  "Config": "corrupti",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Pfeffer-Becker",
-      "Description": "Triple-buffered human-resource application",
+      "Name": "Kemmer-Glover",
+      "Description": "Upgradable value-added methodology",
       "Type": "Boolean",
-      "ListName": "Smitham, Streich and Halvorson",
+      "ListName": "Zboncak Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nemo",
-      "DefaultDataOption": false
+      "Value": "officiis",
+      "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 558,
+      "VisibleId": 377,
       "Visibility": "All",
-      "DisplayValue": "cumque"
+      "DisplayValue": "vel"
     },
     {
-      "VisibleId": 558,
+      "VisibleId": 377,
       "Visibility": "All",
-      "DisplayValue": "cumque"
+      "DisplayValue": "vel"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 574,
-  "Caption": "provident",
-  "Description": "Right-sized multimedia data-warehouse",
-  "ChartName": "Rosenbaum-Schneider",
-  "ChartId": "adipisci",
-  "IsDefault": true,
-  "AssociateId": 82,
-  "GroupId": 972,
-  "SelectionId": 460,
-  "Config": "excepturi",
+  "DashboardTileId": 966,
+  "Caption": "culpa",
+  "Description": "Ergonomic composite algorithm",
+  "ChartName": "Mayer Group",
+  "ChartId": "voluptatem",
+  "IsDefault": false,
+  "AssociateId": 454,
+  "GroupId": 714,
+  "SelectionId": 205,
+  "Config": "quis",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Abernathy, Bogan and Feil",
-      "Description": "Grass-roots client-driven system engine",
+      "Name": "Wehner, Marvin and Lesch",
+      "Description": "Focused methodical leverage",
       "Type": "Boolean",
-      "ListName": "Langosh-Hahn",
+      "ListName": "Kemmer LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sit",
+      "Value": "molestiae",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 268
+          "FieldLength": 4
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 817,
+      "VisibleId": 517,
       "Visibility": "All",
-      "DisplayValue": "illo",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 333
+          "FieldLength": 213
         }
       }
     },
     {
-      "VisibleId": 817,
+      "VisibleId": 517,
       "Visibility": "All",
-      "DisplayValue": "illo",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 333
+          "FieldLength": 213
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldLength": 871
     }
   }
 }

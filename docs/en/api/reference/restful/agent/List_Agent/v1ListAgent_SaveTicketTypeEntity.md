@@ -89,24 +89,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 9,
-  "Name": "Paucek-Rosenbaum",
-  "Rank": 237,
-  "Tooltip": "nam",
-  "Icon": "nesciunt",
-  "DefaultTicketStatus": 146,
+  "TicketTypeId": 699,
+  "Name": "Gleason Group",
+  "Rank": 968,
+  "Tooltip": "enim",
+  "Icon": "sapiente",
+  "DefaultTicketStatus": 845,
   "TicketStatuses": [
-    673,
-    503
+    341,
+    94
   ],
-  "DefaultTicketPriority": 502,
+  "DefaultTicketPriority": 267,
   "TicketPriorities": [
-    359,
-    841
+    12,
+    786
   ],
-  "ReplyTemplate": 62,
+  "ReplyTemplate": 601,
   "IsExternalVisible": true,
-  "IsDefault": false
+  "IsDefault": true
 }
 ```
 
@@ -117,30 +117,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 372,
-  "Name": "Kulas Inc and Sons",
-  "Rank": 601,
-  "Tooltip": "possimus",
-  "Icon": "autem",
-  "DefaultTicketStatus": 918,
+  "TicketTypeId": 987,
+  "Name": "Kshlerin, O'Conner and Green",
+  "Rank": 701,
+  "Tooltip": "eligendi",
+  "Icon": "aut",
+  "DefaultTicketStatus": 441,
   "TicketStatuses": [
-    316,
-    871
+    111,
+    194
   ],
-  "DefaultTicketPriority": 77,
+  "DefaultTicketPriority": 430,
   "TicketPriorities": [
-    620,
-    86
+    592,
+    980
   ],
-  "ReplyTemplate": 951,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 442,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldLength": 178
     }
   }
 }

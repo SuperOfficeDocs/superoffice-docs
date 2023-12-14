@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 962,
-  "StartTime": "2021-07-13T13:38:13.4208858+02:00",
-  "EndTime": "1997-08-26T13:38:13.4208858+02:00",
-  "Count": 172,
+  "ContactId": 370,
+  "StartTime": "2011-11-26T13:57:12.074872+01:00",
+  "EndTime": "2009-09-05T13:57:12.074872+02:00",
+  "Count": 635,
   "DocumentTemplateIds": [
-    696,
-    10
+    65,
+    674
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 936,
-    "Attention": "est",
-    "Header": "vitae",
-    "Name": "Boyer Group",
-    "OurRef": "similique",
-    "YourRef": "molestiae",
-    "Description": "Grass-roots 24/7 database",
-    "DocumentTemplate": "consequatur",
-    "IsPublished": false,
-    "PersonId": 406,
-    "PersonFullName": "Miss Ford Harvey",
-    "AssociateFullName": "Zackary Mitchell",
-    "ContactId": 490,
-    "ContactName": "Bernhard, Barrows and Toy",
-    "ProjectId": 480,
-    "ProjectName": "Funk, Heidenreich and Wisoky",
-    "AssociateId": 467,
-    "Snum": 881,
-    "SaleId": 197,
-    "SaleName": "Heidenreich-Funk",
+    "DocumentId": 751,
+    "Attention": "vel",
+    "Header": "voluptas",
+    "Name": "DuBuque LLC",
+    "OurRef": "recusandae",
+    "YourRef": "est",
+    "Description": "Sharable client-driven process improvement",
+    "DocumentTemplate": "quas",
+    "IsPublished": true,
+    "PersonId": 433,
+    "PersonFullName": "Mrs. Triston Zboncak DVM",
+    "AssociateFullName": "Dr. Burley Gleason",
+    "ContactId": 598,
+    "ContactName": "Keebler, Volkman and Schimmel",
+    "ProjectId": 44,
+    "ProjectName": "Brekke-Kemmer",
+    "AssociateId": 427,
+    "Snum": 394,
+    "SaleId": 828,
+    "SaleName": "Jones LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 512
+        "FieldType": "System.String",
+        "FieldLength": 683
       }
     }
   }

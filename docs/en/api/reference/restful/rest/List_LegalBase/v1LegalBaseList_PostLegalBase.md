@@ -79,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 629,
-  "Name": "Blick, Effertz and Kilback",
-  "Tooltip": "accusantium",
-  "Rank": 81,
-  "Key": "in",
-  "Deleted": false
+  "LegalBaseId": 43,
+  "Name": "Gutkowski-Auer",
+  "Tooltip": "quam",
+  "Rank": 531,
+  "Key": "aperiam",
+  "Deleted": true
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 657,
-  "Name": "Dare-Simonis",
-  "Tooltip": "quos",
-  "Rank": 761,
-  "Key": "fugit",
+  "LegalBaseId": 258,
+  "Name": "Dibbert Group",
+  "Tooltip": "dolor",
+  "Rank": 202,
+  "Key": "doloremque",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldType": "System.String",
+      "FieldLength": 80
     }
   }
 }

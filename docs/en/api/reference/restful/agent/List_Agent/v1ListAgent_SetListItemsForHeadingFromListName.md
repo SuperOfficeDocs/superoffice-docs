@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Huel, Hudson and Lebsack",
-  "HeadingId": 200,
+  "UdListDefinitionName": "Hammes, Swift and Kshlerin",
+  "HeadingId": 761,
   "ListItemIds": [
-    402,
-    716
+    23,
+    387
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

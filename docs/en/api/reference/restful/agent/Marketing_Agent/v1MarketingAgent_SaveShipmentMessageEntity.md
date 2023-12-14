@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 443,
-  "PlainMessage": "sed",
-  "HtmlMessage": "nulla",
-  "SmsMessage": "eius",
-  "Description": "Robust bottom-line hardware",
-  "Subject": "omnis",
-  "FolderId": 596,
-  "HeaderField": "et",
-  "Design": "consectetur",
+  "ShipmentMessageId": 781,
+  "PlainMessage": "ipsam",
+  "HtmlMessage": "est",
+  "SmsMessage": "qui",
+  "Description": "Operative transitional projection",
+  "Subject": "ut",
+  "FolderId": 188,
+  "HeaderField": "eos",
+  "Design": "tenetur",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Organized intermediate focus group",
-  "AccessKey": "saepe",
-  "DocumentMessage": 307,
-  "Registered": "2001-03-19T13:38:13.7333439+01:00",
-  "RegisteredAssociateId": 372,
-  "Updated": "1998-02-28T13:38:13.7333439+01:00",
-  "UpdatedAssociateId": 515,
-  "UpdatedCount": 285
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Streamlined attitude-oriented portal",
+  "AccessKey": "natus",
+  "DocumentMessage": 230,
+  "Registered": "1999-02-12T13:57:12.591212+01:00",
+  "RegisteredAssociateId": 690,
+  "Updated": "2017-07-05T13:57:12.591212+02:00",
+  "UpdatedAssociateId": 860,
+  "UpdatedCount": 359
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 692,
-  "PlainMessage": "pariatur",
-  "HtmlMessage": "qui",
-  "SmsMessage": "ab",
-  "Description": "Triple-buffered multi-state challenge",
-  "Subject": "qui",
-  "FolderId": 930,
-  "HeaderField": "qui",
-  "Design": "possimus",
+  "ShipmentMessageId": 840,
+  "PlainMessage": "aut",
+  "HtmlMessage": "tempora",
+  "SmsMessage": "asperiores",
+  "Description": "Focused empowering definition",
+  "Subject": "porro",
+  "FolderId": 991,
+  "HeaderField": "reiciendis",
+  "Design": "veritatis",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Operative coherent solution",
-  "AccessKey": "culpa",
-  "DocumentMessage": 609,
-  "Registered": "2010-10-11T13:38:13.7333439+02:00",
-  "RegisteredAssociateId": 427,
-  "Updated": "2003-09-19T13:38:13.7333439+02:00",
-  "UpdatedAssociateId": 214,
-  "UpdatedCount": 792,
+  "LongDescription": "Compatible attitude-oriented support",
+  "AccessKey": "eos",
+  "DocumentMessage": 658,
+  "Registered": "2010-05-09T13:57:12.591212+02:00",
+  "RegisteredAssociateId": 703,
+  "Updated": "2018-01-16T13:57:12.591212+01:00",
+  "UpdatedAssociateId": 791,
+  "UpdatedCount": 960,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 461
     }
   }
 }

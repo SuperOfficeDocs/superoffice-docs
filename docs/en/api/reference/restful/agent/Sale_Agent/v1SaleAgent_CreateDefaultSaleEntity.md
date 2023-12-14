@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quidem",
+  "SaleText": "est",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2000-05-12T13:38:14.0615788+02:00",
-  "Amount": 23157.126,
-  "SaleId": 186,
-  "Earning": 14717.264,
-  "EarningPercent": 1482.382,
-  "Heading": "labore",
-  "Number": "828125",
-  "Probability": 394,
-  "CreatedDate": "1998-07-27T13:38:14.0615788+02:00",
-  "UpdatedDate": "2011-08-23T13:38:14.0615788+02:00",
+  "Saledate": "2016-04-06T13:57:13.1288062+02:00",
+  "Amount": 11805.778,
+  "SaleId": 794,
+  "Earning": 2381.84,
+  "EarningPercent": 23950.028,
+  "Heading": "totam",
+  "Number": "1421038",
+  "Probability": 882,
+  "CreatedDate": "2001-07-23T13:57:13.1288062+02:00",
+  "UpdatedDate": "2000-12-21T13:57:13.1288062+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 543,
+  "ActiveLinks": 279,
   "Links": [
     {
-      "EntityName": "Keeling Group",
-      "Id": 612,
-      "Description": "Vision-oriented exuding conglomeration",
-      "ExtraInfo": "nihil",
-      "LinkId": 940,
+      "EntityName": "Simonis Inc and Sons",
+      "Id": 625,
+      "Description": "Managed value-added customer loyalty",
+      "ExtraInfo": "aperiam",
+      "LinkId": 239,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 68
+          "FieldLength": 338
         }
       }
     }
   ],
-  "NextDueDate": "2003-08-04T13:38:14.0615788+02:00",
-  "Postit": "aspernatur",
+  "NextDueDate": "2003-05-12T13:57:13.1288062+02:00",
+  "Postit": "reiciendis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2006-09-13T13:38:14.0615788+02:00",
+  "ReopenDate": "2003-05-28T13:57:13.1288062+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Littel Group",
-      "Comment": "velit",
-      "StakeholderRoleId": 287,
-      "CountryId": 921,
-      "PersonId": 606,
-      "EmailDescription": "jay_carroll@daniel.us",
-      "EmailId": 920,
-      "EmailAddress": "milton@carroll.co.uk",
-      "PhoneId": 759,
-      "ContactName": "Haley LLC",
-      "ContactId": 38,
-      "SaleId": 808,
-      "Mrmrs": "modi",
-      "Firstname": "Branson",
-      "MiddleName": "Leuschke-Zemlak",
-      "Lastname": "Kessler",
-      "SaleStakeholderId": 922,
-      "Rank": 328,
-      "Phone": "1-609-856-0965 x5171",
+      "StakeholderRoleName": "Muller-Lubowitz",
+      "Comment": "perspiciatis",
+      "StakeholderRoleId": 516,
+      "CountryId": 45,
+      "PersonId": 448,
+      "EmailDescription": "oma@hodkiewicznader.info",
+      "EmailId": 32,
+      "EmailAddress": "cassandra.kilback@leuschke.us",
+      "PhoneId": 536,
+      "ContactName": "Torp, Dare and Bechtelar",
+      "ContactId": 281,
+      "SaleId": 404,
+      "Mrmrs": "rerum",
+      "Firstname": "Hipolito",
+      "MiddleName": "Schimmel, Gerlach and Nolan",
+      "Lastname": "Jerde",
+      "SaleStakeholderId": 808,
+      "Rank": 865,
+      "Phone": "151-524-0111 x96715",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 867
+          "FieldType": "System.Int32",
+          "FieldLength": 988
         }
       }
     }
   ],
-  "ActiveErpLinks": 600,
+  "ActiveErpLinks": 623,
   "UserDefinedFields": {
-    "SuperOffice:1": "1636008032",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Lee Kuvalis I",
+    "SuperOffice:2": "Mrs. Lon Zoie Lind"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "veritatis"
+    "ExtraFields1": "porro",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "qui"
+    "CustomFields1": "culpa",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2011-07-04T13:38:14.0615788+02:00",
-  "PublishTo": "2005-11-12T13:38:14.0615788+01:00",
-  "PublishFrom": "2003-10-22T13:38:14.0615788+02:00",
+  "PublishEventDate": "1999-11-25T13:57:13.1288062+01:00",
+  "PublishTo": "2002-11-05T13:57:13.1288062+01:00",
+  "PublishFrom": "1998-11-08T13:57:13.1288062+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 162,
+      "VisibleId": 852,
       "Visibility": "All",
-      "DisplayValue": "veritatis",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 352
+          "FieldType": "System.Int32",
+          "FieldLength": 1002
         }
       }
     },
     {
-      "VisibleId": 162,
+      "VisibleId": 852,
       "Visibility": "All",
-      "DisplayValue": "veritatis",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 352
+          "FieldType": "System.Int32",
+          "FieldLength": 1002
         }
       }
     }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldType": "System.Int32",
+      "FieldLength": 314
     }
   }
 }

@@ -94,20 +94,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 406,
-  "Caption": "et",
-  "Description": "Balanced well-modulated challenge",
-  "SelectionId": 358,
+  "DashboardTileId": 390,
+  "Caption": "id",
+  "Description": "Polarised maximized emulation",
+  "SelectionId": 659,
   "VisibleFor": [
     {
-      "VisibleId": 206,
+      "VisibleId": 101,
       "Visibility": "All",
-      "DisplayValue": "repudiandae"
+      "DisplayValue": "eos"
     },
     {
-      "VisibleId": 206,
+      "VisibleId": 101,
       "Visibility": "All",
-      "DisplayValue": "repudiandae"
+      "DisplayValue": "eos"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 983,
-  "Caption": "est",
-  "Description": "Multi-lateral web-enabled product",
-  "ChartName": "Bogisich, Bins and Kuhn",
-  "ChartId": "laborum",
+  "DashboardTileId": 538,
+  "Caption": "aut",
+  "Description": "Intuitive discrete attitude",
+  "ChartName": "Barton-Batz",
+  "ChartId": "velit",
   "IsDefault": true,
-  "AssociateId": 456,
-  "GroupId": 223,
-  "SelectionId": 506,
-  "Config": "quas",
+  "AssociateId": 290,
+  "GroupId": 967,
+  "SelectionId": 425,
+  "Config": "nulla",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kuhn, Runolfsson and Jacobi",
-      "Description": "Ameliorated didactic matrices",
+      "Name": "Bechtelar, Kirlin and Abbott",
+      "Description": "Centralized bifurcated toolset",
       "Type": "Boolean",
-      "ListName": "Abshire, Reinger and Cole",
+      "ListName": "Murazik, Jenkins and Cole",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "aliquid",
-      "DefaultDataOption": true,
+      "Value": "voluptatem",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 317
+          "FieldType": "System.String",
+          "FieldLength": 77
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 132,
+      "VisibleId": 497,
       "Visibility": "All",
-      "DisplayValue": "reiciendis",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 276
         }
       }
     },
     {
-      "VisibleId": 132,
+      "VisibleId": 497,
       "Visibility": "All",
-      "DisplayValue": "reiciendis",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 276
         }
       }
     }
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldType": "System.String",
+      "FieldLength": 145
     }
   }
 }

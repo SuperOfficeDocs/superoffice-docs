@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 165,
-  "Name": "Eichmann, Hodkiewicz and Pagac",
-  "Tooltip": "quasi",
-  "Deleted": false,
-  "Rank": 270,
-  "UdListDefinitionId": 197
+  "HeadingId": 182,
+  "Name": "Stanton-Heller",
+  "Tooltip": "modi",
+  "Deleted": true,
+  "Rank": 603,
+  "UdListDefinitionId": 283
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 352,
-  "Name": "Rutherford-Johns",
-  "Tooltip": "quod",
+  "HeadingId": 611,
+  "Name": "Metz-Franecki",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 321,
-  "UdListDefinitionId": 911,
+  "Rank": 684,
+  "UdListDefinitionId": 744,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldType": "System.String",
+      "FieldLength": 173
     }
   }
 }

@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 982
+  "DocumentId": 631
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Halvorson Inc and Sons",
-  "Type": "dolorem",
-  "Size": 213,
+  "Name": "Hermiston, Fisher and Cole",
+  "Type": "et",
+  "Size": 792,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldLength": 732
     }
   }
 }

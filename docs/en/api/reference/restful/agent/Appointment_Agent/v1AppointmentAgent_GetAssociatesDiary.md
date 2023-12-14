@@ -10,7 +10,7 @@ generated: true
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 ```
 
-
+Fetch appointments for given associates
 
 
 
@@ -132,11 +132,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    399,
-    726
+    946,
+    950
   ],
-  "StartTime": "2001-08-06T13:38:12.8740699+02:00",
-  "EndTime": "2006-10-05T13:38:12.8740699+02:00"
+  "StartTime": "2012-06-26T13:57:11.2001023+02:00",
+  "EndTime": "2020-09-25T13:57:11.2001023+02:00"
 }
 ```
 
@@ -148,65 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 884,
-    "StartDate": "2020-09-05T13:38:12.8740699+02:00",
-    "EndDate": "2013-01-18T13:38:12.8740699+01:00",
+    "AppointmentId": 466,
+    "StartDate": "2009-05-12T13:57:11.2001023+02:00",
+    "EndDate": "2016-04-18T13:57:11.2001023+02:00",
     "Type": "BookingForChecklist",
-    "Task": "magni",
-    "AssociateFullName": "Ayana Von",
-    "ContactName": "Barton, Kuvalis and Heaney",
-    "Description": "Team-oriented optimizing software",
-    "PersonFullName": "Pansy Leuschke",
-    "PersonId": 568,
-    "ContactId": 659,
-    "ProjectId": 496,
-    "ProjectName": "Botsford Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 277,
-    "ColorIndex": 429,
+    "Task": "reprehenderit",
+    "AssociateFullName": "Nikita Powlowski",
+    "ContactName": "Will Group",
+    "Description": "Progressive asynchronous groupware",
+    "PersonFullName": "Ardith Williamson",
+    "PersonId": 902,
+    "ContactId": 114,
+    "ProjectId": 90,
+    "ProjectName": "Nitzsche, Konopelski and Rice",
+    "IsPublished": true,
+    "AssociateId": 688,
+    "ColorIndex": 106,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 956,
-    "PriorityName": "Halvorson Group",
+    "PriorityId": 821,
+    "PriorityName": "Friesen LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2009-08-22T13:38:12.8740699+02:00",
+    "ActiveDate": "1999-08-30T13:57:11.2001023+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-11-17T13:38:12.8740699+01:00",
-    "RecurringEndDate": "1999-01-03T13:38:12.8740699+01:00",
-    "MotherId": 987,
-    "AssignedBy": 128,
-    "AssignedByFullName": "Russell Kuhn",
+    "RecurringStartDate": "2013-05-02T13:57:11.2001023+02:00",
+    "RecurringEndDate": "2013-05-04T13:57:11.2001023+02:00",
+    "MotherId": 317,
+    "AssignedBy": 88,
+    "AssignedByFullName": "Carolyn O'Hara Jr.",
     "RejectReason": "",
-    "Location": "debitis",
-    "AlarmLeadTime": "commodi",
-    "SaleId": 347,
-    "SaleName": "Osinski-Walsh",
-    "AssociateName": "Borer, Stamm and Armstrong",
-    "CreatedDate": "2013-01-20T13:38:12.8740699+01:00",
-    "CreatedBy": "alias",
-    "CreatedByFullName": "Dr. Guillermo Hagenes",
-    "CreatedByAssociateId": 72,
+    "Location": "qui",
+    "AlarmLeadTime": "animi",
+    "SaleId": 403,
+    "SaleName": "Runolfsson LLC",
+    "AssociateName": "Osinski Inc and Sons",
+    "CreatedDate": "2018-10-08T13:57:11.2001023+02:00",
+    "CreatedBy": "aut",
+    "CreatedByFullName": "Marisol Cody Luettgen DDS",
+    "CreatedByAssociateId": 453,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 239,
-    "Title": "voluptatem",
-    "Agenda": "optio",
-    "InternalNotes": "eligendi",
+    "PreferredTZLocation": 602,
+    "Title": "nobis",
+    "Agenda": "earum",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldLength": 943
       }
     }
   }

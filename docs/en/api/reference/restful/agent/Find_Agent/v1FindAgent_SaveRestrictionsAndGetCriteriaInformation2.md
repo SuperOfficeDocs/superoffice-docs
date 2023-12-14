@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "exercitationem",
-  "ProviderName": "Rogahn-Reynolds",
-  "StorageKey": "veniam",
-  "Restrictions": "alias",
-  "StaticColumns": "praesentium"
+  "StorageType": "neque",
+  "ProviderName": "Bergnaum-Bailey",
+  "StorageKey": "qui",
+  "Restrictions": "at",
+  "StaticColumns": "veritatis"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "O'Reilly, Block and White",
-      "Operator": "molestiae",
+      "Name": "Hodkiewicz, Schaefer and Satterfield",
+      "Operator": "illo",
       "Values": [
-        "repellendus",
-        "dolorem"
+        "soluta",
+        "culpa"
       ],
       "DisplayValues": [
-        "modi",
-        "dolores"
+        "ut",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 158,
+      "InterParenthesis": 826,
       "InterOperator": "And",
-      "UniqueHash": 69
+      "UniqueHash": 342
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Klocko, Heller and Carroll",
-      "DisplayTooltip": "voluptates",
-      "DisplayType": "alias",
-      "CanOrderBy": false,
-      "Name": "Ledner Group",
+      "DisplayName": "Brakus, Botsford and Hirthe",
+      "DisplayTooltip": "asperiores",
+      "DisplayType": "quia",
+      "CanOrderBy": true,
+      "Name": "Bayer Group",
       "CanRestrictBy": false,
-      "RestrictionType": "consequatur",
-      "RestrictionListName": "Hauck, Wisozk and Nitzsche",
-      "IsVisible": true,
-      "ExtraInfo": "qui",
-      "Width": "quis",
-      "IconHint": "nam",
-      "HeadingIconHint": "eum"
+      "RestrictionType": "earum",
+      "RestrictionListName": "Kertzmann Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "reiciendis",
+      "Width": "corrupti",
+      "IconHint": "ipsam",
+      "HeadingIconHint": "eos"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Thompson Inc and Sons",
-      "PrimaryKey": 976,
+      "EntityName": "Volkman LLC",
+      "PrimaryKey": 403,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eligendi",
-          "TooltipHint": "enim",
-          "LinkHint": "sed"
+          "DisplayValue": "consectetur",
+          "TooltipHint": "est",
+          "LinkHint": "voluptate"
         }
       },
-      "LinkHint": "sapiente",
-      "StyleHint": "sit",
+      "LinkHint": "harum",
+      "StyleHint": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 847
+          "FieldType": "System.Int32",
+          "FieldLength": 843
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Torphy-Kiehn",
-      "Description": "Implemented user-facing ability",
-      "Rank": 633,
+      "Name": "Bradtke LLC",
+      "Description": "Cross-group leading edge flexibility",
+      "Rank": 107,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Torphy-Kiehn",
-      "Description": "Implemented user-facing ability",
-      "Rank": 633,
+      "Name": "Bradtke LLC",
+      "Description": "Cross-group leading edge flexibility",
+      "Rank": 107,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 155
+      "FieldLength": 795
     }
   }
 }

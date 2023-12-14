@@ -119,18 +119,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "est",
+    "path": "nesciunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "est",
+    "path": "nesciunt",
     "value": {}
   }
 ]
@@ -143,35 +143,35 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 498,
-  "Name": "Bernhard, Cormier and Volkman",
-  "Rank": 668,
-  "Tooltip": "aliquam",
-  "Icon": "dicta",
-  "DefaultTicketStatus": 730,
+  "TicketTypeId": 103,
+  "Name": "Strosin Group",
+  "Rank": 25,
+  "Tooltip": "vitae",
+  "Icon": "necessitatibus",
+  "DefaultTicketStatus": 197,
   "TicketStatuses": [
-    476,
-    598
+    293,
+    372
   ],
-  "DefaultTicketPriority": 496,
+  "DefaultTicketPriority": 367,
   "TicketPriorities": [
-    770,
-    81
+    211,
+    862
   ],
-  "ReplyTemplate": 529,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 10,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 641
+      "FieldType": "System.Int32",
+      "FieldLength": 847
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

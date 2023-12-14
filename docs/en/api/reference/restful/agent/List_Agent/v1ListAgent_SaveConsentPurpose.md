@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 988,
-  "Name": "Zulauf-Parker",
-  "ConsentText": "autem",
-  "FormText": "quod",
-  "Key": "possimus",
-  "Tooltip": "fugiat",
-  "Active": 756,
-  "UpdatedDate": "2008-04-30T13:38:13.7333439+02:00",
+  "ConsentPurposeId": 665,
+  "Name": "Emmerich-Kohler",
+  "ConsentText": "reiciendis",
+  "FormText": "omnis",
+  "Key": "quia",
+  "Tooltip": "vel",
+  "Active": 986,
+  "UpdatedDate": "2000-02-04T13:57:12.591212+01:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 873,
-  "PrivacyStatementDesc": "nihil",
+  "Deleted": true,
+  "Rank": 963,
+  "PrivacyStatementDesc": "temporibus",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 860
     }
   }
 }

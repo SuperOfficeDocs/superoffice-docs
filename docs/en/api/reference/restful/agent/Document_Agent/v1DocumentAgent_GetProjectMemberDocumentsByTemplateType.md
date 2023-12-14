@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 746,
-  "StartTime": "2018-08-17T13:38:13.4208858+02:00",
-  "EndTime": "2000-08-16T13:38:13.4208858+02:00",
-  "Count": 42,
-  "DocumentTemplateId": 778
+  "PersonId": 628,
+  "StartTime": "2013-11-27T13:57:12.074872+01:00",
+  "EndTime": "2021-03-03T13:57:12.074872+01:00",
+  "Count": 734,
+  "DocumentTemplateId": 547
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 366,
-    "Attention": "perferendis",
-    "Header": "dolorem",
-    "Name": "Nitzsche-Schoen",
-    "OurRef": "ut",
-    "YourRef": "eos",
-    "Description": "Synchronised heuristic forecast",
-    "DocumentTemplate": "nostrum",
-    "IsPublished": false,
-    "PersonId": 71,
-    "PersonFullName": "Hans Koch DVM",
-    "AssociateFullName": "Flavio Jacobson",
-    "ContactId": 601,
-    "ContactName": "Schroeder Group",
-    "ProjectId": 770,
-    "ProjectName": "Jaskolski Group",
-    "AssociateId": 519,
-    "Snum": 17,
-    "SaleId": 265,
-    "SaleName": "Osinski, Schaefer and Gleason",
+    "DocumentId": 237,
+    "Attention": "nam",
+    "Header": "labore",
+    "Name": "Breitenberg, McLaughlin and Wehner",
+    "OurRef": "unde",
+    "YourRef": "ratione",
+    "Description": "Open-architected bi-directional leverage",
+    "DocumentTemplate": "dolorum",
+    "IsPublished": true,
+    "PersonId": 391,
+    "PersonFullName": "Charlotte Morissette",
+    "AssociateFullName": "Jeffery Weissnat",
+    "ContactId": 841,
+    "ContactName": "Schinner, Lehner and Kreiger",
+    "ProjectId": 806,
+    "ProjectName": "Klein Inc and Sons",
+    "AssociateId": 598,
+    "Snum": 932,
+    "SaleId": 565,
+    "SaleName": "Harris-Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 14
+        "FieldLength": 916
       }
     }
   }

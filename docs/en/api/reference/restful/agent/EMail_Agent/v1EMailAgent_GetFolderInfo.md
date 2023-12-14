@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "in",
-    "id"
+    "illum",
+    "fugit"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McKenzie-King",
-    "Delimiter": "optio",
-    "Flags": "odio",
-    "TotalItems": 194,
-    "UnreadItems": 751,
+    "Name": "Grady Inc and Sons",
+    "Delimiter": "dolorem",
+    "Flags": "et",
+    "TotalItems": 441,
+    "UnreadItems": 129,
     "Subscribed": false,
-    "EmailFolderId": 557,
+    "EmailFolderId": 942,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 794
+        "FieldLength": 827
       }
     }
   }

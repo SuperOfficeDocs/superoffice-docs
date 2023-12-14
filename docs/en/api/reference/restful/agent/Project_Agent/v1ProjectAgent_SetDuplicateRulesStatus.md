@@ -70,16 +70,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Kemmer, McCullough and Tillman",
-      "DisplayName": "Stamm-Rohan",
-      "DisplayTooltip": "pariatur",
-      "IsActive": false
+      "Name": "Heathcote Group",
+      "DisplayName": "Simonis, Crona and Hintz",
+      "DisplayTooltip": "eaque",
+      "IsActive": true
     },
     {
-      "Name": "Kemmer, McCullough and Tillman",
-      "DisplayName": "Stamm-Rohan",
-      "DisplayTooltip": "pariatur",
-      "IsActive": false
+      "Name": "Heathcote Group",
+      "DisplayName": "Simonis, Crona and Hintz",
+      "DisplayTooltip": "eaque",
+      "IsActive": true
     }
   ]
 }

@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 38,
-    "DisplayName": "Mayert, Gibson and Dickens",
-    "OngoingChats": 805,
+    "UserId": 311,
+    "DisplayName": "Rosenbaum LLC",
+    "OngoingChats": 863,
     "Present": false,
     "ChatTopics": [
-      812,
-      847
+      748,
+      361
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldLength": 784
       }
     }
   }

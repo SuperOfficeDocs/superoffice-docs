@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Cormier-Anderson"
+  "ApplicationName": "Reinger, Hand and Auer"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 659,
-  "Name": "Hagenes, Block and Armstrong",
-  "CreatedDate": "2022-09-18T13:38:13.6396102+02:00",
-  "UpdatedDate": "2017-10-16T13:38:13.6396102+02:00",
-  "AssociateFullName": "Lenna Kerluke",
-  "CreatedBy": "illo",
-  "UpdatedBy": "aut",
-  "DeviceIdentifier": "occaecati",
-  "ForeignAppId": 598,
+  "ForeignDeviceId": 932,
+  "Name": "Heller-Greenfelder",
+  "CreatedDate": "2023-09-07T13:57:12.4337359+02:00",
+  "UpdatedDate": "2005-04-03T13:57:12.4337359+02:00",
+  "AssociateFullName": "Mr. Ron Dexter Cummings MD",
+  "CreatedBy": "ut",
+  "UpdatedBy": "rerum",
+  "DeviceIdentifier": "dolore",
+  "ForeignAppId": 860,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 662
+      "FieldType": "System.Int32",
+      "FieldLength": 670
     }
   }
 }

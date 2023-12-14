@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 326
+  "AppointmentId": 58
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 943,
-  "StartDate": "2005-12-14T13:38:12.8584402+01:00",
-  "EndDate": "1998-06-10T13:38:12.8584402+02:00",
+  "AppointmentId": 543,
+  "StartDate": "2015-09-30T13:57:11.1844296+02:00",
+  "EndDate": "2004-12-13T13:57:11.1844296+01:00",
   "Type": "BookingForChecklist",
-  "Task": "voluptatem",
-  "AssociateFullName": "Morgan Adolfo Kunde DDS",
-  "ContactName": "Gusikowski-Rau",
-  "Description": "Extended reciprocal analyzer",
-  "PersonFullName": "Sigrid Hirthe",
-  "PersonId": 254,
-  "ContactId": 48,
-  "ProjectId": 672,
-  "ProjectName": "Lueilwitz, Cummerata and Murphy",
-  "IsPublished": true,
-  "AssociateId": 495,
-  "ColorIndex": 370,
+  "Task": "et",
+  "AssociateFullName": "Carleton Glover",
+  "ContactName": "Smitham Group",
+  "Description": "Assimilated discrete data-warehouse",
+  "PersonFullName": "Jordan Sawayn III",
+  "PersonId": 30,
+  "ContactId": 201,
+  "ProjectId": 982,
+  "ProjectName": "Cummings Group",
+  "IsPublished": false,
+  "AssociateId": 978,
+  "ColorIndex": 83,
   "IsFree": true,
-  "HasAlarm": false,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 929,
-  "PriorityName": "Koepp LLC",
+  "PriorityId": 668,
+  "PriorityName": "Marvin-Waters",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "1999-08-11T13:38:12.8584402+02:00",
+  "IsBooking": true,
+  "ActiveDate": "1997-05-24T13:57:11.1844296+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2007-04-12T13:38:12.8584402+02:00",
-  "RecurringEndDate": "2020-02-29T13:38:12.8584402+01:00",
-  "MotherId": 807,
-  "AssignedBy": 747,
-  "AssignedByFullName": "Theresa Moen",
+  "RecurringStartDate": "2010-07-03T13:57:11.1844296+02:00",
+  "RecurringEndDate": "1998-09-30T13:57:11.1844296+02:00",
+  "MotherId": 763,
+  "AssignedBy": 175,
+  "AssignedByFullName": "Wilbert Watsica",
   "RejectReason": "",
-  "Location": "unde",
-  "AlarmLeadTime": "ipsam",
-  "SaleId": 645,
-  "SaleName": "Blick LLC",
-  "AssociateName": "Hartmann-Considine",
-  "CreatedDate": "2022-08-20T13:38:12.8584402+02:00",
-  "CreatedBy": "qui",
-  "CreatedByFullName": "Malika Schmidt",
-  "CreatedByAssociateId": 779,
+  "Location": "error",
+  "AlarmLeadTime": "cupiditate",
+  "SaleId": 351,
+  "SaleName": "Brown-Schulist",
+  "AssociateName": "VonRueden-Parisian",
+  "CreatedDate": "2016-01-25T13:57:11.1844296+01:00",
+  "CreatedBy": "ipsa",
+  "CreatedByFullName": "Dr. Vicente Fritsch",
+  "CreatedByAssociateId": 873,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 752,
-  "Title": "non",
-  "Agenda": "totam",
-  "InternalNotes": "hic",
+  "PreferredTZLocation": 131,
+  "Title": "sit",
+  "Agenda": "aspernatur",
+  "InternalNotes": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldLength": 435
     }
   }
 }

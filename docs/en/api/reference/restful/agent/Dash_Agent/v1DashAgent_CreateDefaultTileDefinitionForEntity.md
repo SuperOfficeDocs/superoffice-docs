@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Fahey Inc and Sons"
+  "EntityName": "Cremin Inc and Sons"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 497,
-  "Name": "Casper-Block",
-  "Description": "Profit-focused logistical process improvement",
-  "DefaultHeight": 702,
-  "DefaultWidth": 517,
+  "DashboardTileDefinitionId": 510,
+  "Name": "Bayer, Oberbrunner and Osinski",
+  "Description": "Assimilated interactive synergy",
+  "DefaultHeight": 824,
+  "DefaultWidth": 35,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hane LLC",
-  "SelectionId": 770,
+  "EntityName": "Nikolaus-Ward",
+  "SelectionId": 843,
   "CurrencyMode": "Base",
-  "CurrencyCode": "facilis",
+  "CurrencyCode": "sed",
   "Measure": "Average",
-  "MeasureField": "temporibus",
-  "SortBy": "id",
-  "LayoutConfig": "sunt",
-  "SecondarySelectionId": 81,
-  "MeasureByField": "quis",
+  "MeasureField": "aperiam",
+  "SortBy": "ut",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 510,
+  "MeasureByField": "necessitatibus",
   "Usage": "Dashboard",
-  "ProviderName": "Bernier LLC",
+  "ProviderName": "Heathcote, Tromp and Schowalter",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 295
+      "FieldType": "System.Int32",
+      "FieldLength": 592
     }
   }
 }

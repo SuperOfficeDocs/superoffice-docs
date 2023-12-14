@@ -72,6 +72,9 @@ AppointmentEntity found.
 | CreatedDate | date-time | Registered date  in UTC. |
 | AppointmentId | int32 | Primary key |
 | Description | string | Description of the appointment. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
@@ -113,9 +116,6 @@ AppointmentEntity found.
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
-| Title | string | The title of the appointment. |
-| Agenda | string | The agenda of the appointment. |
-| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -134,7 +134,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -142,127 +142,127 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 25 Oct 1998 13:38:17 G10T
+Last-Modified: Sun, 29 Dec 2013 13:57:18 G12T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2022-04-13T13:38:17.0618658+02:00",
-  "AppointmentId": 59,
-  "Description": "Exclusive demand-driven secured line",
-  "StartDate": "1996-11-16T13:38:17.0618658+01:00",
-  "EndDate": "2013-11-16T13:38:17.0618658+01:00",
+  "CreatedDate": "1999-09-28T13:57:18.3565633+02:00",
+  "AppointmentId": 70,
+  "Description": "Future-proofed empowering synergy",
+  "Title": "sed",
+  "Agenda": "ab",
+  "InternalNotes": "recusandae",
+  "StartDate": "2019-04-17T13:57:18.3565633+02:00",
+  "EndDate": "2011-03-02T13:57:18.3565633+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 573,
+  "MotherId": 385,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-10-25T13:38:17.0618658+01:00",
+  "UpdatedDate": "2013-12-29T13:57:18.3565633+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 147,
+  "ActiveLinks": 960,
   "Links": [
     {
-      "EntityName": "Murphy, Bosco and Mayer",
-      "Id": 687,
-      "Description": "Extended empowering framework",
-      "ExtraInfo": "veritatis",
-      "LinkId": 555,
+      "EntityName": "Olson, Moore and Grady",
+      "Id": 386,
+      "Description": "Mandatory radical service-desk",
+      "ExtraInfo": "officia",
+      "LinkId": 951,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 886
+          "FieldLength": 732
         }
       }
     }
   ],
-  "AlarmLeadTime": "perferendis",
+  "AlarmLeadTime": "id",
   "HasAlarm": false,
-  "ColorIndex": 488,
+  "ColorIndex": 175,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "adipisci",
-  "LeadTime": "qui",
-  "Location": "quis",
-  "RejectCounter": 382,
+  "LagTime": "eum",
+  "LeadTime": "quisquam",
+  "Location": "voluptatum",
+  "RejectCounter": 602,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 673,
-      "PersonId": 765,
-      "ContactId": 616,
-      "EmailId": 607,
+      "AssociateId": 263,
+      "PersonId": 874,
+      "ContactId": 315,
+      "EmailId": 39,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lavon@borer.biz",
-      "Description": "Object-based composite adapter"
+      "EmailAddress": "marcia_hodkiewicz@heller.info",
+      "Description": "Networked hybrid secured line"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-06-09T13:38:17.0618658+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2003-08-16T13:57:18.3565633+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 542,
+  "PreferredTZLocation": 193,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 908,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 569,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "provident",
-  "Title": "id",
-  "Agenda": "voluptatem",
-  "InternalNotes": "dolorum",
+  "CentralserviceVideomeetId": "eveniet",
   "UserDefinedFields": {
-    "SuperOffice:1": "Daniella Renner",
-    "SuperOffice:2": "Lorine Angelo Bahringer II"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Miss Brody Keyshawn Dickens II"
   },
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "iusto"
+    "ExtraFields1": "possimus",
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "magni"
+    "CustomFields1": "est",
+    "CustomFields2": "nulla"
   },
-  "PublishEventDate": "1996-08-05T13:38:17.0618658+02:00",
-  "PublishTo": "2020-09-25T13:38:17.0618658+02:00",
-  "PublishFrom": "2023-07-22T13:38:17.0618658+02:00",
+  "PublishEventDate": "2021-12-22T13:57:18.3565633+01:00",
+  "PublishTo": "2000-02-25T13:57:18.3565633+01:00",
+  "PublishFrom": "2001-01-29T13:57:18.3565633+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 356,
+      "VisibleId": 961,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldType": "System.String",
+          "FieldLength": 489
         }
       }
     },
     {
-      "VisibleId": 356,
+      "VisibleId": 961,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldType": "System.String",
+          "FieldLength": 489
         }
       }
     }
@@ -272,12 +272,12 @@ Last-Modified: Sun, 25 Oct 1998 13:38:17 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldLength": 667
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -92,26 +92,26 @@ OK
 PUT /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 691,
-  "Name": "Runolfsson Inc and Sons",
-  "Rank": 14,
+  "TicketTypeId": 765,
+  "Name": "Rath LLC",
+  "Rank": 637,
   "Tooltip": "quidem",
-  "Icon": "laudantium",
-  "DefaultTicketStatus": 958,
+  "Icon": "voluptates",
+  "DefaultTicketStatus": 30,
   "TicketStatuses": [
-    74,
-    587
+    601,
+    586
   ],
-  "DefaultTicketPriority": 792,
+  "DefaultTicketPriority": 752,
   "TicketPriorities": [
-    869,
-    55
+    624,
+    711
   ],
-  "ReplyTemplate": 412,
+  "ReplyTemplate": 834,
   "IsExternalVisible": false,
   "IsDefault": false
 }
@@ -124,22 +124,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 604,
-  "Name": "Bergnaum Inc and Sons",
-  "Rank": 860,
-  "Tooltip": "distinctio",
-  "Icon": "rerum",
-  "DefaultTicketStatus": 312,
+  "TicketTypeId": 473,
+  "Name": "Schaefer, Ullrich and Conroy",
+  "Rank": 1001,
+  "Tooltip": "magnam",
+  "Icon": "temporibus",
+  "DefaultTicketStatus": 965,
   "TicketStatuses": [
-    156,
-    520
+    924,
+    961
   ],
-  "DefaultTicketPriority": 420,
+  "DefaultTicketPriority": 200,
   "TicketPriorities": [
-    879,
-    120
+    753,
+    911
   ],
-  "ReplyTemplate": 232,
+  "ReplyTemplate": 345,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 561
+      "FieldLength": 773
     }
   }
 }

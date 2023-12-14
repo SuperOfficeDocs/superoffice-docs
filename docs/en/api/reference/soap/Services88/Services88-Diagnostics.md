@@ -260,6 +260,18 @@ title: Services88.DiagnosticsAgent WSDL
         </xs:list>
       </xs:simpleType>
       <xs:element name="EFieldRight" nillable="true" type="tns:EFieldRight" />
+      <xs:element name="GetEntityCountsForAllUsers">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetEntityCountsForAllUsersResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfEntityCounts" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="LogViewState">
         <xs:complexType>
           <xs:sequence>
@@ -555,6 +567,23 @@ title: Services88.DiagnosticsAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetEntityCountsForAllUsersRequest">
+    <wsdl:part name="parameters" element="tns:GetEntityCountsForAllUsers" />
+  </wsdl:message>
+  <wsdl:message name="GetEntityCountsForAllUsersRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetEntityCountsForAllUsersResponse">
+    <wsdl:part name="parameters" element="tns:GetEntityCountsForAllUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetEntityCountsForAllUsersResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="LogViewStateRequest">
     <wsdl:part name="parameters" element="tns:LogViewState" />
   </wsdl:message>
@@ -763,6 +792,10 @@ title: Services88.DiagnosticsAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetEntityCountsForCurrentUser" name="GetEntityCountsForCurrentUserRequest" message="tns:GetEntityCountsForCurrentUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetEntityCountsForCurrentUserResponse" name="GetEntityCountsForCurrentUserResponse" message="tns:GetEntityCountsForCurrentUserResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetEntityCountsForAllUsers">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetEntityCountsForAllUsers" name="GetEntityCountsForAllUsersRequest" message="tns:GetEntityCountsForAllUsersRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetEntityCountsForAllUsersResponse" name="GetEntityCountsForAllUsersResponse" message="tns:GetEntityCountsForAllUsersResponse" />
+    </wsdl:operation>
     <wsdl:operation name="LogViewState">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/LogViewState" name="LogViewStateRequest" message="tns:LogViewStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/LogViewStateResponse" name="LogViewStateResponse" message="tns:LogViewStateResponse" />
@@ -887,6 +920,22 @@ title: Services88.DiagnosticsAgent WSDL
         <soap:header message="tns:GetEntityCountsForCurrentUserResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetEntityCountsForCurrentUserResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetEntityCountsForCurrentUserResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEntityCountsForAllUsers">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetEntityCountsForAllUsers" style="document" />
+      <wsdl:input name="GetEntityCountsForAllUsersRequest">
+        <soap:header message="tns:GetEntityCountsForAllUsersRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetEntityCountsForAllUsersRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetEntityCountsForAllUsersRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetEntityCountsForAllUsersResponse">
+        <soap:header message="tns:GetEntityCountsForAllUsersResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetEntityCountsForAllUsersResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetEntityCountsForAllUsersResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetEntityCountsForAllUsersResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

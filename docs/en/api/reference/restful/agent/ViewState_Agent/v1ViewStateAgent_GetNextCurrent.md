@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ViewState/GetNextCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Russel-Douglas",
-  "Id": 781
+  "HistoryName": "Kilback, Hoppe and Dickinson",
+  "Id": 750
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 812,
-  "Id": 849,
-  "HistoryName": "Gulgowski LLC",
-  "HistoryId": 386,
-  "AssociateId": 117,
-  "Name": "White-Volkman",
-  "ItemInfo": "ea",
+  "Rank": 898,
+  "Id": 319,
+  "HistoryName": "Daugherty, Hegmann and Feil",
+  "HistoryId": 618,
+  "AssociateId": 281,
+  "Name": "Harber Inc and Sons",
+  "ItemInfo": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 22
     }
   }
 }

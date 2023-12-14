@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ortiz Group",
+  "Name": "Grant, Wilkinson and Hudson",
   "Entities": [
     {
-      "HeadingId": 636,
-      "Name": "Walter, Luettgen and Feest",
-      "Tooltip": "rem",
+      "HeadingId": 833,
+      "Name": "Heidenreich-Baumbach",
+      "Tooltip": "et",
       "Deleted": false,
-      "Rank": 529,
-      "UdListDefinitionId": 579
+      "Rank": 862,
+      "UdListDefinitionId": 122
     },
     {
-      "HeadingId": 636,
-      "Name": "Walter, Luettgen and Feest",
-      "Tooltip": "rem",
+      "HeadingId": 833,
+      "Name": "Heidenreich-Baumbach",
+      "Tooltip": "et",
       "Deleted": false,
-      "Rank": 529,
-      "UdListDefinitionId": 579
+      "Rank": 862,
+      "UdListDefinitionId": 122
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 449,
-    "Name": "Nolan Inc and Sons",
-    "Tooltip": "accusantium",
+    "HeadingId": 670,
+    "Name": "Ortiz, Anderson and Homenick",
+    "Tooltip": "error",
     "Deleted": false,
-    "Rank": 33,
-    "UdListDefinitionId": 364,
+    "Rank": 441,
+    "UdListDefinitionId": 40,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldLength": 255
       }
     }
   }

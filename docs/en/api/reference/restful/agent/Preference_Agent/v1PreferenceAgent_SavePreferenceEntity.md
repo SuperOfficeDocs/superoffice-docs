@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "officia",
+  "RawValue": "et",
   "Specification": null,
-  "DisplayValue": "sed",
-  "DisplayTooltip": "ad",
+  "DisplayValue": "harum",
+  "DisplayTooltip": "nulla",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 608,
-  "PrefDescId": 725,
-  "TableName": "Littel-Hudson",
-  "UserPreferenceId": 2,
+  "TargetId": 960,
+  "PrefDescId": 791,
+  "TableName": "Bernier, Veum and Jacobi",
+  "UserPreferenceId": 353,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 865
+      "FieldType": "System.Int32",
+      "FieldLength": 782
     }
   }
 }

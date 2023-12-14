@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 30 Dec 2020 13:38:17 G12T
+Last-Modified: Fri, 20 Apr 2007 13:57:18 G4T
 
 {
-  "ForeignDeviceId": 331,
-  "Name": "Cummings-Nikolaus",
-  "CreatedDate": "2019-04-28T13:38:17.4368262+02:00",
-  "UpdatedDate": "2020-12-30T13:38:17.4368262+01:00",
-  "AssociateFullName": "Hailee Kertzmann",
-  "CreatedBy": "unde",
-  "UpdatedBy": "fuga",
-  "DeviceIdentifier": "porro",
-  "ForeignAppId": 665,
+  "ForeignDeviceId": 221,
+  "Name": "Romaguera, Witting and Kemmer",
+  "CreatedDate": "2002-09-05T13:57:18.8109737+02:00",
+  "UpdatedDate": "2007-04-20T13:57:18.8109737+02:00",
+  "AssociateFullName": "Dorris Gleason",
+  "CreatedBy": "blanditiis",
+  "UpdatedBy": "accusantium",
+  "DeviceIdentifier": "occaecati",
+  "ForeignAppId": 777,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldLength": 467
     }
   }
 }

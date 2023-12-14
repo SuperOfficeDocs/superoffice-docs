@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rem",
+    "path": "repellat",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rem",
+    "path": "repellat",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 578,
-  "Name": "Rau, Jacobs and Muller",
+  "ScreenChooserId": 83,
+  "Name": "Turner-Hagenes",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "veritatis",
-  "Source": "aspernatur",
-  "Registered": "2020-04-21T13:38:17.7650302+02:00",
-  "RegisteredAssociateId": 277,
-  "Updated": "2012-07-19T13:38:17.7650302+02:00",
-  "UpdatedAssociateId": 491,
+  "Enabled": false,
+  "UniqueIdentifier": "quis",
+  "Source": "nam",
+  "Registered": "2021-06-26T13:57:19.4221461+02:00",
+  "RegisteredAssociateId": 740,
+  "Updated": "2017-11-17T13:57:19.4221461+01:00",
+  "UpdatedAssociateId": 107,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldLength": 150
     }
   },
   "_Links": {

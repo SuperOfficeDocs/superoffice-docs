@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 679,
-  "Name": "Eichmann Group",
-  "Tooltip": "quo",
+  "HeadingId": 420,
+  "Name": "Kassulke, Pollich and Bernier",
+  "Tooltip": "ex",
   "Deleted": false,
-  "Rank": 221,
-  "UdListDefinitionId": 707
+  "Rank": 516,
+  "UdListDefinitionId": 700
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 455,
-  "Name": "D'Amore, Wiza and Runolfsdottir",
-  "Tooltip": "corrupti",
+  "HeadingId": 864,
+  "Name": "Pagac, Nolan and Bogisich",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 966,
-  "UdListDefinitionId": 751,
+  "Rank": 840,
+  "UdListDefinitionId": 736,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldType": "System.String",
+      "FieldLength": 971
     }
   }
 }

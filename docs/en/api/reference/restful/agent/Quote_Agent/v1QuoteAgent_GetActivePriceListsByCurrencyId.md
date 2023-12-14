@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 214,
-  "CurrencyId": 95
+  "QuoteConnectionId": 478,
+  "CurrencyId": 112
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 970,
-    "ERPPriceListKey": "odit",
-    "QuoteConnectionId": 559,
-    "Name": "Pacocha, Buckridge and Davis",
-    "Description": "Expanded 24 hour array",
-    "Currency": "inventore",
-    "CurrencyName": "Welch Group",
-    "ValidFrom": "2019-08-13T13:38:14.0303322+02:00",
-    "ValidTo": "2015-02-03T13:38:14.0303322+01:00",
-    "IsActive": true,
+    "PriceListId": 173,
+    "ERPPriceListKey": "sed",
+    "QuoteConnectionId": 81,
+    "Name": "Spencer LLC",
+    "Description": "Team-oriented cohesive product",
+    "Currency": "sit",
+    "CurrencyName": "Quitzon Inc and Sons",
+    "ValidFrom": "2007-11-23T13:57:13.064942+01:00",
+    "ValidTo": "1996-07-27T13:57:13.064942+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 758
+        "FieldType": "System.Int32",
+        "FieldLength": 296
       }
     }
   }

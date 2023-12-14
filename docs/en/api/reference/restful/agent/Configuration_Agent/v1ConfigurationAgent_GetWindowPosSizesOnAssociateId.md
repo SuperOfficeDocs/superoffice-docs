@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 947
+  "AssociateId": 712
 }
 ```
 
@@ -99,23 +99,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "voluptas",
-    "PersonId": 655,
-    "AssociateId": 641,
-    "ExtraId": 705,
-    "ExtraInfo": "ut",
-    "Height": 529,
-    "LeftX": 295,
+    "OwnerWindow": "quos",
+    "PersonId": 522,
+    "AssociateId": 480,
+    "ExtraId": 328,
+    "ExtraInfo": "qui",
+    "Height": 71,
+    "LeftX": 128,
     "State": "Maximized",
-    "UpperY": 542,
-    "Width": 172,
-    "WindowPosSizeId": 514,
+    "UpperY": 57,
+    "Width": 538,
+    "WindowPosSizeId": 835,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldType": "System.String",
+        "FieldLength": 143
       }
     }
   }

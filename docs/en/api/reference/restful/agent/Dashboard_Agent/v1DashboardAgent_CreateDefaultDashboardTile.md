@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 620,
-  "Caption": "autem",
-  "Description": "Face to face exuding benchmark",
-  "ChartName": "Runolfsson, Walsh and Harvey",
-  "ChartId": "illo",
+  "DashboardTileId": 233,
+  "Caption": "consequatur",
+  "Description": "Right-sized well-modulated frame",
+  "ChartName": "Wiza-Reinger",
+  "ChartId": "neque",
   "IsDefault": false,
-  "AssociateId": 16,
-  "GroupId": 352,
-  "SelectionId": 373,
-  "Config": "iusto",
+  "AssociateId": 175,
+  "GroupId": 311,
+  "SelectionId": 143,
+  "Config": "quibusdam",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Walter, Thompson and Bauch",
-      "Description": "Digitized dedicated open system",
+      "Name": "Bosco-Wolff",
+      "Description": "User-centric well-modulated policy",
       "Type": "Boolean",
-      "ListName": "Dare Inc and Sons",
+      "ListName": "Kessler-Bode",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "deserunt",
-      "DefaultDataOption": true,
+      "Value": "eius",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 442
+          "FieldType": "System.String",
+          "FieldLength": 390
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 824,
+      "VisibleId": 375,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldLength": 826
         }
       }
     },
     {
-      "VisibleId": 824,
+      "VisibleId": 375,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldLength": 826
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldType": "System.String",
+      "FieldLength": 744
     }
   }
 }

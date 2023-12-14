@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "harum",
+    "path": "officia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "harum",
+    "path": "officia",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 244,
-  "Name": "Hodkiewicz Group",
-  "Description": "Robust holistic instruction set",
-  "WelcomeMessage": "ex",
+  "ChatTopicId": 688,
+  "Name": "Cummings-Reichert",
+  "Description": "Virtual explicit support",
+  "WelcomeMessage": "aut",
   "Language": null,
-  "LastAccept": "2000-10-04T13:38:17.1868579+02:00",
-  "SecondsPrAccept": 365,
-  "AlertRecipient": "alias",
+  "LastAccept": "2007-08-15T13:57:18.5440601+02:00",
+  "SecondsPrAccept": 239,
+  "AlertRecipient": "voluptatum",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "nam",
+  "CollectConsent": false,
+  "BadgeHeader": "quisquam",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "qui",
-  "WarnNewChatMinutes": 784,
-  "WarnManagerNewChatMinutes": 1001,
-  "TicketEnabled": false,
+  "CustomQueueText": "earum",
+  "WarnNewChatMinutes": 298,
+  "WarnManagerNewChatMinutes": 494,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 85,
-  "WarnManagerChatMessageMinutes": 436,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 565,
-  "OfflineFormQueueLength": 114,
+  "WarnChatMessageMinutes": 201,
+  "WarnManagerChatMessageMinutes": 70,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 18,
+  "OfflineFormQueueLength": 879,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "deleniti",
+  "WidgetRatingText": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldLength": 702
     }
   },
   "_Links": {

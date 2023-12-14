@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=nesciunt
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
+GET /api/v1/List/DeliveryTerm/MDOItems?query=et
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 213,
-    "Name": "Stiedemann, Hilll and Bailey",
-    "ToolTip": "Tempore vitae qui architecto.",
+    "Id": 283,
+    "Name": "Wolf Group",
+    "ToolTip": "Et ut veniam.",
     "Deleted": true,
-    "Rank": 364,
-    "Type": "at",
+    "Rank": 66,
+    "Type": "quis",
     "ChildItems": [
       {
-        "Id": 706,
-        "Name": "Larson-Schmeler",
-        "ToolTip": "Voluptates porro ut quae et.",
-        "Deleted": false,
-        "Rank": 373,
-        "Type": "facere",
+        "Id": 218,
+        "Name": "McCullough Inc and Sons",
+        "ToolTip": "Asperiores tenetur.",
+        "Deleted": true,
+        "Rank": 707,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cum",
-        "ColorBlock": 420,
-        "ExtraInfo": "similique",
-        "StyleHint": "velit",
-        "FullName": "Saige Armstrong",
+        "IconHint": "dolorum",
+        "ColorBlock": 202,
+        "ExtraInfo": "esse",
+        "StyleHint": "provident",
+        "FullName": "Veda Kuhlman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 476
+            "FieldLength": 632
           }
         }
       }
     ],
-    "IconHint": "beatae",
-    "ColorBlock": 724,
-    "ExtraInfo": "aut",
-    "StyleHint": "asperiores",
-    "FullName": "Helene Hayes V",
+    "IconHint": "aperiam",
+    "ColorBlock": 22,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "corrupti",
+    "FullName": "Mr. Vilma Chance Medhurst II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldLength": 812
       }
     }
   }

@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "est"
+  "ChartId": "numquam"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 822,
-  "Caption": "occaecati",
-  "Description": "Monitored leading edge hub",
-  "ChartName": "Nicolas-Wiza",
-  "ChartId": "quis",
-  "IsDefault": false,
-  "AssociateId": 503,
-  "GroupId": 290,
-  "SelectionId": 63,
-  "Config": "amet",
+  "DashboardTileId": 486,
+  "Caption": "provident",
+  "Description": "Seamless zero administration throughput",
+  "ChartName": "Wisoky, Johns and Cummerata",
+  "ChartId": "hic",
+  "IsDefault": true,
+  "AssociateId": 54,
+  "GroupId": 202,
+  "SelectionId": 568,
+  "Config": "occaecati",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Lebsack Inc and Sons",
-      "Description": "Configurable neutral interface",
+      "Name": "Veum, O'Kon and Collins",
+      "Description": "Future-proofed empowering matrices",
       "Type": "Boolean",
-      "ListName": "Wisozk, Douglas and Johnston",
+      "ListName": "Zieme-Nicolas",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "corporis",
-      "DefaultDataOption": true,
+      "Value": "rem",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldType": "System.String",
+          "FieldLength": 317
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 100,
+      "VisibleId": 799,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 950
+          "FieldType": "System.Int32",
+          "FieldLength": 23
         }
       }
     },
     {
-      "VisibleId": 100,
+      "VisibleId": 799,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 950
+          "FieldType": "System.Int32",
+          "FieldLength": 23
         }
       }
     }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 421
     }
   }
 }

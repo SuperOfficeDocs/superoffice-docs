@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,33 +85,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 235,
-  "Name": "Hodkiewicz-Hintz",
-  "Tooltip": "adipisci",
-  "Deleted": true,
-  "Rank": 709,
+  "WebPanelId": 669,
+  "Name": "Yost-Cole",
+  "Tooltip": "similique",
+  "Deleted": false,
+  "Rank": 944,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Langworth, Blick and Rempel",
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Rath LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "consequatur",
-  "Icon": 740,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "in",
+  "Icon": 352,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 703
     }
   }
 }

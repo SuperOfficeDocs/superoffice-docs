@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2015-08-03T13:38:13.0615453+02:00",
-  "ToDate": "2007-06-19T13:38:13.0615453+02:00",
+  "FromDate": "2003-10-26T13:57:11.512557+01:00",
+  "ToDate": "2012-10-06T13:57:11.512557+02:00",
   "AssociateList": [
     {
-      "Id": 200,
-      "Name": "Bogisich Group",
-      "ToolTip": "Autem suscipit sequi ipsum exercitationem odio corrupti dolorem.",
-      "Deleted": true,
-      "Rank": 301,
-      "Type": "quaerat",
-      "ColorBlock": 997,
-      "IconHint": "ea",
+      "Id": 495,
+      "Name": "Thompson Group",
+      "ToolTip": "Beatae at velit tenetur eum est non repellat.",
+      "Deleted": false,
+      "Rank": 359,
+      "Type": "tempora",
+      "ColorBlock": 496,
+      "IconHint": "magnam",
       "Selected": false,
-      "LastChanged": "2003-05-15T13:38:13.0615453+02:00",
+      "LastChanged": "2000-01-12T13:57:11.512557+01:00",
       "ChildItems": [
         {},
         {}
       ],
       "ExtraInfo": "qui",
-      "StyleHint": "facere",
+      "StyleHint": "amet",
       "Hidden": false,
-      "FullName": "Mr. Daphne Shields III",
+      "FullName": "Aurelie Herzog",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 687
+          "FieldType": "System.Int32",
+          "FieldLength": 905
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 757,
-      "Name": "Ernser, Thiel and Gibson",
-      "ToolTip": "Earum sed nobis praesentium ratione laudantium quas repellat.",
+      "Id": 154,
+      "Name": "Huels-Bechtelar",
+      "ToolTip": "Accusamus incidunt.",
       "Deleted": false,
       "Rank": 262,
-      "Type": "veniam",
-      "ColorBlock": 713,
-      "IconHint": "magnam",
-      "Selected": false,
-      "LastChanged": "2010-01-23T13:38:13.0615453+01:00",
+      "Type": "tenetur",
+      "ColorBlock": 71,
+      "IconHint": "dolore",
+      "Selected": true,
+      "LastChanged": "2014-01-03T13:57:11.512557+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "soluta",
-      "StyleHint": "possimus",
+      "ExtraInfo": "recusandae",
+      "StyleHint": "autem",
       "Hidden": false,
-      "FullName": "Miss Reuben White",
+      "FullName": "Emerald Purdy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldType": "System.String",
+          "FieldLength": 152
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 537,
-      "Name": "Marquardt-Hansen",
-      "ToolTip": "Optio aut.",
+      "Id": 688,
+      "Name": "Harber Group",
+      "ToolTip": "Dolore qui voluptatibus a aut laboriosam temporibus.",
       "Deleted": false,
-      "Rank": 482,
-      "Type": "facilis",
+      "Rank": 923,
+      "Type": "voluptas",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "culpa",
-      "ColorBlock": 396,
-      "ExtraInfo": "odio",
-      "StyleHint": "accusantium",
-      "FullName": "Ms. Constantin Torp V",
+      "IconHint": "expedita",
+      "ColorBlock": 171,
+      "ExtraInfo": "laboriosam",
+      "StyleHint": "omnis",
+      "FullName": "Dr. Sibyl Irwin Schultz III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldType": "System.String",
+          "FieldLength": 697
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldType": "System.String",
+      "FieldLength": 766
     }
   }
 }

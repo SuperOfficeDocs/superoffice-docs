@@ -74,9 +74,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 499,
+  "TicketId": 188,
   "MessageActionType": "Forward",
-  "TicketMessageId": 594
+  "TicketMessageId": 24
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"facilis"
+"autem"
 ```

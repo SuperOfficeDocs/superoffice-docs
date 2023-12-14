@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 998,
-  "RecurrenceRuleId": 863
+  "MotherId": 495,
+  "RecurrenceRuleId": 167
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 934,
-    "StartDate": "2004-11-18T13:38:12.8740699+01:00",
-    "EndDate": "2022-09-01T13:38:12.8740699+02:00",
+    "AppointmentId": 117,
+    "StartDate": "2013-04-30T13:57:11.2157245+02:00",
+    "EndDate": "2021-10-13T13:57:11.2157245+02:00",
     "Type": "BookingForChecklist",
-    "Task": "numquam",
-    "AssociateFullName": "Adriana Keeling",
-    "ContactName": "Larkin Inc and Sons",
-    "Description": "Implemented intermediate emulation",
-    "PersonFullName": "Rupert Schuster",
-    "PersonId": 642,
-    "ContactId": 858,
-    "ProjectId": 190,
-    "ProjectName": "Dibbert-Goldner",
+    "Task": "quidem",
+    "AssociateFullName": "Dr. Demario Breitenberg III",
+    "ContactName": "Stracke, Swift and Bahringer",
+    "Description": "Seamless exuding superstructure",
+    "PersonFullName": "Dr. Santa Genoveva Boehm",
+    "PersonId": 349,
+    "ContactId": 634,
+    "ProjectId": 240,
+    "ProjectName": "Treutel-Hagenes",
     "IsPublished": false,
-    "AssociateId": 18,
-    "ColorIndex": 353,
+    "AssociateId": 417,
+    "ColorIndex": 502,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 606,
-    "PriorityName": "Jenkins LLC",
+    "PriorityId": 309,
+    "PriorityName": "Collins, Lemke and Bartell",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "1998-03-27T13:38:12.8740699+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2001-07-17T13:57:11.2157245+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-06-30T13:38:12.8740699+02:00",
-    "RecurringEndDate": "2016-04-29T13:38:12.8740699+02:00",
-    "MotherId": 941,
-    "AssignedBy": 174,
-    "AssignedByFullName": "Felipe Boehm",
+    "RecurringStartDate": "2022-08-06T13:57:11.2157245+02:00",
+    "RecurringEndDate": "2009-01-16T13:57:11.2157245+01:00",
+    "MotherId": 148,
+    "AssignedBy": 685,
+    "AssignedByFullName": "Elijah Schuppe",
     "RejectReason": "",
-    "Location": "consequatur",
-    "AlarmLeadTime": "fuga",
-    "SaleId": 80,
-    "SaleName": "Ward, Osinski and Wintheiser",
-    "AssociateName": "Rath-Labadie",
-    "CreatedDate": "2002-03-18T13:38:12.8740699+01:00",
-    "CreatedBy": "minus",
-    "CreatedByFullName": "Mrs. Austen Dustin Murazik I",
-    "CreatedByAssociateId": 100,
+    "Location": "officia",
+    "AlarmLeadTime": "cum",
+    "SaleId": 295,
+    "SaleName": "Aufderhar, Boyle and Treutel",
+    "AssociateName": "Morar, Durgan and Stroman",
+    "CreatedDate": "2021-01-02T13:57:11.2157245+01:00",
+    "CreatedBy": "neque",
+    "CreatedByFullName": "Avis Quitzon I",
+    "CreatedByAssociateId": 392,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 182,
-    "Title": "nostrum",
-    "Agenda": "nam",
-    "InternalNotes": "laudantium",
+    "PreferredTZLocation": 349,
+    "Title": "eum",
+    "Agenda": "aut",
+    "InternalNotes": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 4
+        "FieldType": "System.String",
+        "FieldLength": 429
       }
     }
   }

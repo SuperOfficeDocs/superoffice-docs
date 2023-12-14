@@ -91,16 +91,16 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hermann-Crona",
+  "Name": "Jacobson Group",
   "ForceFlatList": false,
-  "AdditionalInfo": "error",
+  "AdditionalInfo": "deserunt",
   "HistoryItems": [
-    6,
-    604
+    610,
+    297
   ],
   "OnlyHistory": false
 }
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Heidenreich LLC",
-    "ToolTip": "Qui ipsum quae.",
+    "Id": 678,
+    "Name": "Skiles, Friesen and Ferry",
+    "ToolTip": "Saepe quis velit.",
     "Deleted": false,
-    "Rank": 356,
-    "Type": "esse",
-    "ColorBlock": 482,
-    "IconHint": "fugit",
+    "Rank": 489,
+    "Type": "voluptatem",
+    "ColorBlock": 828,
+    "IconHint": "adipisci",
     "Selected": true,
-    "LastChanged": "2020-08-04T13:38:13.7333439+02:00",
+    "LastChanged": "2000-04-10T13:57:12.6068289+02:00",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Pouros, D'Amore and Kovacek",
-        "ToolTip": "Quod explicabo voluptas in expedita dolor vel.",
-        "Deleted": true,
-        "Rank": 666,
-        "Type": "dolores",
-        "ColorBlock": 197,
-        "IconHint": "quam",
-        "Selected": false,
-        "LastChanged": "1997-05-05T13:38:13.7333439+02:00",
+        "Id": 478,
+        "Name": "Shields-Ondricka",
+        "ToolTip": "Enim eveniet officiis omnis et eos voluptas.",
+        "Deleted": false,
+        "Rank": 2,
+        "Type": "explicabo",
+        "ColorBlock": 952,
+        "IconHint": "assumenda",
+        "Selected": true,
+        "LastChanged": "1999-04-20T13:57:12.6068289+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "sed",
+        "ExtraInfo": "et",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Miss Tristian Greenholt",
+        "FullName": "Freddie Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 51
+            "FieldLength": 429
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "id",
+    "ExtraInfo": "maxime",
+    "StyleHint": "ratione",
     "Hidden": true,
-    "FullName": "Felicita Effertz",
+    "FullName": "Mitchell Crona",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldLength": 73
       }
     }
   }

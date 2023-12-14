@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 22,
-  "ListItemId": 4,
+  "UdListDefinitionId": 31,
+  "ListItemId": 851,
   "Headings": [
     {
-      "Id": 518,
-      "Name": "Hermiston-Harris",
-      "ToolTip": "Vero ullam sunt et quas quia voluptas.",
+      "Id": 723,
+      "Name": "Hoppe LLC",
+      "ToolTip": "Asperiores libero quo.",
       "Deleted": false,
-      "Rank": 578,
-      "Type": "sed",
-      "ColorBlock": 851,
-      "IconHint": "nisi",
-      "Selected": false,
-      "LastChanged": "2001-08-26T13:38:13.6864749+02:00",
+      "Rank": 189,
+      "Type": "et",
+      "ColorBlock": 744,
+      "IconHint": "eos",
+      "Selected": true,
+      "LastChanged": "2023-05-19T13:57:12.5276161+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "consequatur",
-      "Hidden": true,
-      "FullName": "Mrs. Kian Legros PhD"
+      "ExtraInfo": "repellendus",
+      "StyleHint": "reprehenderit",
+      "Hidden": false,
+      "FullName": "Carlotta Gutmann"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 899,
-    "Name": "Streich-Monahan",
-    "ToolTip": "Vero nam consequatur eum quo molestiae.",
+    "Id": 323,
+    "Name": "Williamson, Cummings and Lindgren",
+    "ToolTip": "Aliquid eveniet suscipit velit debitis consequatur et.",
     "Deleted": false,
-    "Rank": 978,
-    "Type": "iure",
-    "ColorBlock": 297,
-    "IconHint": "corrupti",
+    "Rank": 586,
+    "Type": "qui",
+    "ColorBlock": 273,
+    "IconHint": "perspiciatis",
     "Selected": false,
-    "LastChanged": "2013-03-16T13:38:13.6864749+01:00",
+    "LastChanged": "2021-08-18T13:57:12.5286589+02:00",
     "ChildItems": [
       {
-        "Id": 161,
-        "Name": "Lebsack-Muller",
-        "ToolTip": "Commodi asperiores voluptatem rerum incidunt quia repellendus repudiandae.",
-        "Deleted": false,
-        "Rank": 675,
-        "Type": "eum",
-        "ColorBlock": 469,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2021-02-21T13:38:13.6864749+01:00",
+        "Id": 397,
+        "Name": "Collins, VonRueden and Wisoky",
+        "ToolTip": "Vitae necessitatibus asperiores itaque ut ducimus.",
+        "Deleted": true,
+        "Rank": 688,
+        "Type": "magnam",
+        "ColorBlock": 863,
+        "IconHint": "porro",
+        "Selected": true,
+        "LastChanged": "2021-07-15T13:57:12.5286589+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "hic",
-        "Hidden": false,
-        "FullName": "Prof. Ahmad Runolfsdottir",
+        "ExtraInfo": "expedita",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Prof. Bradly Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 77
+            "FieldLength": 739
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "ea",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Ebba Hagenes",
+    "FullName": "Prof. Korey Blanda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldLength": 110
       }
     }
   }

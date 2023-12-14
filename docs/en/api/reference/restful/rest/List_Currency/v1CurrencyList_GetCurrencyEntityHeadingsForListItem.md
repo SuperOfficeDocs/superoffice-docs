@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 596,
-    "Name": "Hansen-Schuppe",
-    "ToolTip": "Quasi dolore a quisquam non.",
+    "Id": 240,
+    "Name": "Predovic, Schulist and Orn",
+    "ToolTip": "Neque quidem ad fugit.",
     "Deleted": false,
-    "Rank": 893,
-    "Type": "dolorem",
-    "ColorBlock": 95,
-    "IconHint": "dolor",
+    "Rank": 127,
+    "Type": "dolor",
+    "ColorBlock": 951,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "2004-04-21T13:38:18.0306692+02:00",
+    "LastChanged": "2010-08-05T13:57:19.7346424+02:00",
     "ChildItems": [
       {
-        "Id": 112,
-        "Name": "Hayes, Lindgren and Jacobi",
-        "ToolTip": "Nobis accusantium laudantium dolor vero.",
-        "Deleted": false,
-        "Rank": 307,
-        "Type": "porro",
-        "ColorBlock": 242,
-        "IconHint": "harum",
+        "Id": 335,
+        "Name": "Cruickshank-Schamberger",
+        "ToolTip": "Voluptatem et eum vel quia rem cum.",
+        "Deleted": true,
+        "Rank": 319,
+        "Type": "non",
+        "ColorBlock": 813,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2007-05-04T13:38:18.0306692+02:00",
+        "LastChanged": "2009-09-28T13:57:19.7346424+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "dicta",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Reymundo Harris",
+        "FullName": "Miss Amari Tiana Hayes I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 557
+            "FieldLength": 362
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "ea",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Prof. Stephany Jamir Lakin",
+    "FullName": "Rosamond Cummerata",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 50
+        "FieldLength": 534
       }
     }
   }

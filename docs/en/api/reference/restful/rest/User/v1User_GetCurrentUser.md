@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 453,
-  "Name": "Baumbach-Graham",
-  "Rank": 393,
-  "Tooltip": "delectus",
+  "AssociateId": 922,
+  "Name": "Boyle, Haag and McGlynn",
+  "Rank": 12,
+  "Tooltip": "esse",
   "LicenseOwners": [
     {
-      "Name": "Tromp Group",
-      "Description": "Triple-buffered intermediate time-frame",
+      "Name": "Hirthe, Smitham and Toy",
+      "Description": "Streamlined zero defect project",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,13 +112,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 523
         }
       }
     },
     {
-      "Name": "Tromp Group",
-      "Description": "Triple-buffered intermediate time-frame",
+      "Name": "Hirthe, Smitham and Toy",
+      "Description": "Streamlined zero defect project",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 523
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "doloribus",
-      "Tooltip": "aut",
-      "Id": 621,
-      "Rank": 457,
-      "Deleted": false,
+      "Value": "aliquam",
+      "Tooltip": "iste",
+      "Id": 678,
+      "Rank": 327,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 768
+          "FieldLength": 422
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2001-11-04T13:38:17.8744364+01:00",
-  "Lastlogout": "2015-08-31T13:38:17.8744364+02:00",
-  "EjUserId": 989,
-  "RequestSignature": "consequatur",
+  "Lastlogin": "2022-03-22T13:57:19.5783953+01:00",
+  "Lastlogout": "2010-12-01T13:57:19.5783953+01:00",
+  "EjUserId": 452,
+  "RequestSignature": "cum",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dolores",
-      "DisplayValue": "accusantium",
+      "Value": "qui",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 604
+          "FieldType": "System.Int32",
+          "FieldLength": 118
         }
       }
     },
     {
       "Type": null,
-      "Value": "dolores",
-      "DisplayValue": "accusantium",
+      "Value": "qui",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 604
+          "FieldType": "System.Int32",
+          "FieldLength": 118
         }
       }
     }
   ],
-  "UserName": "Dicki-Kassulke",
+  "UserName": "Heathcote-Graham",
   "TicketCategories": [
     {
-      "Id": 707,
-      "Name": "Corwin-Thiel",
-      "ToolTip": "Suscipit praesentium quia quibusdam reprehenderit et praesentium.",
+      "Id": 997,
+      "Name": "Gottlieb-Gleichner",
+      "ToolTip": "Possimus iste sit sit odio voluptates.",
       "Deleted": false,
-      "Rank": 589,
-      "Type": "cupiditate",
+      "Rank": 400,
+      "Type": "impedit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptas",
-      "ColorBlock": 500,
-      "ExtraInfo": "eum",
-      "StyleHint": "perspiciatis",
-      "FullName": "Edythe Berge",
+      "IconHint": "consequatur",
+      "ColorBlock": 467,
+      "ExtraInfo": "veniam",
+      "StyleHint": "consequatur",
+      "FullName": "Sage McGlynn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 68
+          "FieldLength": 649
         }
       }
     }
   ],
-  "NickName": "Crona Inc and Sons",
+  "NickName": "Wuckert Inc and Sons",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "provident",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "recusandae"
+    "CustomFields1": "ipsam",
+    "CustomFields2": "modi"
   },
   "PostSaveCommands": [
     {
-      "Name": "Cartwright, Bogisich and Feil",
-      "DisplayName": "Wilderman-Kuhn",
-      "Description": "Automated non-volatile hub",
-      "ToolTip": "Est adipisci rerum quis deleniti aliquid dolor minus.",
+      "Name": "Greenholt LLC",
+      "DisplayName": "Mills-Christiansen",
+      "Description": "Ergonomic incremental extranet",
+      "ToolTip": "Natus et sit quas pariatur incidunt.",
       "Actions": "Implicit",
-      "ActionData": "voluptatem",
+      "ActionData": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 600
+          "FieldLength": 990
         }
       }
     }
@@ -253,8 +253,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldType": "System.String",
+      "FieldLength": 320
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 490,
-    "Name": "Kiehn LLC",
-    "ToolTip": "Laborum suscipit nihil ex quos qui aliquam.",
-    "Deleted": true,
-    "Rank": 97,
-    "Type": "laborum",
-    "ColorBlock": 930,
-    "IconHint": "quisquam",
-    "Selected": true,
-    "LastChanged": "2000-12-31T13:38:17.9056813+01:00",
+    "Id": 357,
+    "Name": "Kuvalis LLC",
+    "ToolTip": "Corrupti molestias.",
+    "Deleted": false,
+    "Rank": 398,
+    "Type": "ab",
+    "ColorBlock": 12,
+    "IconHint": "earum",
+    "Selected": false,
+    "LastChanged": "2014-06-30T13:57:19.6409229+02:00",
     "ChildItems": [
       {
-        "Id": 120,
-        "Name": "Gulgowski-Senger",
-        "ToolTip": "Soluta impedit et consectetur officia quidem excepturi.",
+        "Id": 12,
+        "Name": "Pfeffer-Herzog",
+        "ToolTip": "Voluptatem voluptatem.",
         "Deleted": false,
-        "Rank": 65,
-        "Type": "dolor",
-        "ColorBlock": 833,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2003-10-08T13:38:17.9056813+02:00",
+        "Rank": 44,
+        "Type": "aut",
+        "ColorBlock": 259,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2011-03-29T13:57:19.6409229+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "unde",
-        "StyleHint": "tempora",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Mrs. Elfrieda Dare MD"
+        "FullName": "Gertrude Hane"
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "et",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Saige Cummings"
+    "FullName": "Hettie Homenick"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Murphy LLC",
-    "ToolTip": "Fugit laboriosam et aspernatur.",
-    "Deleted": true,
-    "Rank": 51,
-    "Type": "harum",
-    "ColorBlock": 839,
-    "IconHint": "vitae",
+    "Id": 843,
+    "Name": "Kulas, Vandervort and Monahan",
+    "ToolTip": "Modi cum voluptatem pariatur ad.",
+    "Deleted": false,
+    "Rank": 298,
+    "Type": "quia",
+    "ColorBlock": 322,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2007-06-30T13:38:17.9056813+02:00",
+    "LastChanged": "1998-10-12T13:57:19.6409229+02:00",
     "ChildItems": [
       {
-        "Id": 581,
-        "Name": "Ebert, Pfannerstill and Franecki",
-        "ToolTip": "Totam minima impedit necessitatibus ut.",
+        "Id": 789,
+        "Name": "Senger Inc and Sons",
+        "ToolTip": "Doloremque quia corporis.",
         "Deleted": false,
-        "Rank": 524,
-        "Type": "a",
-        "ColorBlock": 728,
-        "IconHint": "neque",
+        "Rank": 332,
+        "Type": "non",
+        "ColorBlock": 167,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2009-06-28T13:38:17.9056813+02:00",
+        "LastChanged": "2006-09-24T13:57:19.6409229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "et",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Mrs. Nola Yazmin Morissette V",
+        "FullName": "Dr. Eddie Bins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 389
+            "FieldType": "System.String",
+            "FieldLength": 476
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "enim",
-    "Hidden": false,
-    "FullName": "Dr. Jocelyn Nader",
+    "ExtraInfo": "ab",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Alycia Spinka II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 774
+        "FieldType": "System.Int32",
+        "FieldLength": 471
       }
     }
   }

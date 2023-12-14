@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 400,
-    "Name": "Schroeder LLC",
-    "Tooltip": "rerum",
+    "HeadingId": 994,
+    "Name": "Streich LLC",
+    "Tooltip": "unde",
     "Deleted": true,
-    "Rank": 357,
-    "UdListDefinitionId": 485,
+    "Rank": 697,
+    "UdListDefinitionId": 672,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 820
+        "FieldType": "System.Int32",
+        "FieldLength": 849
       }
     }
   }

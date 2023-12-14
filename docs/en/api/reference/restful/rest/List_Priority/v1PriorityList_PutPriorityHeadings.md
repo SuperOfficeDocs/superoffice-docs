@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 983,
-    "Name": "Boyer, Bins and Thompson",
-    "Tooltip": "a",
+    "HeadingId": 247,
+    "Name": "Dach Group",
+    "Tooltip": "laudantium",
     "Deleted": false,
-    "Rank": 735,
-    "UdListDefinitionId": 275
+    "Rank": 521,
+    "UdListDefinitionId": 16
   },
   {
-    "HeadingId": 983,
-    "Name": "Boyer, Bins and Thompson",
-    "Tooltip": "a",
+    "HeadingId": 247,
+    "Name": "Dach Group",
+    "Tooltip": "laudantium",
     "Deleted": false,
-    "Rank": 735,
-    "UdListDefinitionId": 275
+    "Rank": 521,
+    "UdListDefinitionId": 16
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 944,
-    "Name": "Farrell-Smitham",
-    "Tooltip": "fugiat",
+    "HeadingId": 497,
+    "Name": "Batz, Lynch and Hoeger",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 406,
-    "UdListDefinitionId": 181,
+    "Rank": 744,
+    "UdListDefinitionId": 877,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 446
+        "FieldType": "System.String",
+        "FieldLength": 550
       }
     }
   }

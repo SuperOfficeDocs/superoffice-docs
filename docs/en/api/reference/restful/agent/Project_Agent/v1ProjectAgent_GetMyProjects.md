@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 272,
-    "Name": "Champlin, Douglas and Heathcote",
-    "Description": "Balanced tertiary artificial intelligence",
+    "ProjectId": 727,
+    "Name": "Runolfsson-Auer",
+    "Description": "Cross-group optimal matrix",
     "URL": "http://www.example.com/",
-    "Type": "quam",
-    "AssociateId": 739,
-    "AssociateFullName": "Kale Zieme",
-    "TypeId": 387,
-    "Updated": "2008-03-21T13:38:13.9834617+01:00",
-    "StatusId": 589,
-    "Status": "id",
-    "TextId": 259,
-    "PublishTo": "2013-12-24T13:38:13.9834617+01:00",
-    "PublishFrom": "2013-05-14T13:38:13.9834617+02:00",
-    "IsPublished": true,
+    "Type": "debitis",
+    "AssociateId": 275,
+    "AssociateFullName": "Marcelina Witting",
+    "TypeId": 358,
+    "Updated": "2022-05-13T13:57:13.0011314+02:00",
+    "StatusId": 480,
+    "Status": "corporis",
+    "TextId": 462,
+    "PublishTo": "2001-01-25T13:57:13.0011314+01:00",
+    "PublishFrom": "2005-09-08T13:57:13.0011314+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "672209",
-    "ActiveErpLinks": 380,
+    "ProjectNumber": "504908",
+    "ActiveErpLinks": 817,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 231
+        "FieldType": "System.String",
+        "FieldLength": 393
       }
     }
   }

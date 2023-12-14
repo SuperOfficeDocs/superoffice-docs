@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 703,
-  "StartDate": "2020-05-13T13:38:12.9521841+02:00",
-  "EndDate": "2005-02-10T13:38:12.9521841+01:00",
-  "RecurrenceCounter": 782,
+  "RecurrenceId": 412,
+  "StartDate": "2017-07-15T13:57:11.3563104+02:00",
+  "EndDate": "2002-05-27T13:57:11.3563104+02:00",
+  "RecurrenceCounter": 614,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2001-09-07T13:38:12.9521841+02:00",
+      "Date": "1999-05-20T13:57:11.3563104+02:00",
       "IsConflict": false,
-      "Description": "Triple-buffered exuding task-force",
-      "DescriptionStyleHint": "Future-proofed foreground groupware",
-      "Tooltip": "saepe"
+      "Description": "Monitored holistic interface",
+      "DescriptionStyleHint": "Reverse-engineered zero defect workforce",
+      "Tooltip": "nulla"
     },
     {
-      "Date": "2001-09-07T13:38:12.9521841+02:00",
+      "Date": "1999-05-20T13:57:11.3563104+02:00",
       "IsConflict": false,
-      "Description": "Triple-buffered exuding task-force",
-      "DescriptionStyleHint": "Future-proofed foreground groupware",
-      "Tooltip": "saepe"
+      "Description": "Monitored holistic interface",
+      "DescriptionStyleHint": "Reverse-engineered zero defect workforce",
+      "Tooltip": "nulla"
     }
   ],
   "IsRecurrence": false

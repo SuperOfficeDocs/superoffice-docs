@@ -94,36 +94,36 @@ OK
 POST /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 31,
+  "HierarchyId": 694,
   "Domain": "Dashboards",
-  "Name": "Bruen-Renner",
-  "Fullname": "aut",
-  "ParentId": 892,
+  "Name": "Mayer-Waters",
+  "Fullname": "dolorem",
+  "ParentId": 954,
   "Children": [
     {
-      "HierarchyId": 827,
+      "HierarchyId": 400,
       "Domain": "Dashboards",
-      "Name": "Dickens, Hyatt and Bernhard",
-      "Fullname": "beatae",
-      "ParentId": 278,
+      "Name": "Friesen Inc and Sons",
+      "Fullname": "ex",
+      "ParentId": 281,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1996-11-07T13:38:17.4524494+01:00",
-      "RegisteredAssociateId": 685,
-      "Updated": "2013-07-01T13:38:17.4524494+02:00",
-      "UpdatedAssociateId": 627
+      "Registered": "2012-12-10T13:57:18.8265985+01:00",
+      "RegisteredAssociateId": 783,
+      "Updated": "2020-04-07T13:57:18.8265985+02:00",
+      "UpdatedAssociateId": 995
     }
   ],
-  "Registered": "2009-06-01T13:38:17.4524494+02:00",
-  "RegisteredAssociateId": 612,
-  "Updated": "2004-08-11T13:38:17.4524494+02:00",
-  "UpdatedAssociateId": 585
+  "Registered": "2012-11-25T13:57:18.8265985+01:00",
+  "RegisteredAssociateId": 278,
+  "Updated": "1999-04-09T13:57:18.8265985+02:00",
+  "UpdatedAssociateId": 680
 }
 ```
 
@@ -134,46 +134,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 279,
+  "HierarchyId": 326,
   "Domain": "Dashboards",
-  "Name": "Moen-Kautzer",
-  "Fullname": "dolorum",
-  "ParentId": 327,
+  "Name": "Waelchi-Langworth",
+  "Fullname": "repudiandae",
+  "ParentId": 623,
   "Children": [
     {
-      "HierarchyId": 976,
+      "HierarchyId": 139,
       "Domain": "Dashboards",
-      "Name": "Murazik, Jewess and Bergnaum",
-      "Fullname": "molestias",
-      "ParentId": 834,
+      "Name": "Smitham LLC",
+      "Fullname": "sit",
+      "ParentId": 176,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-01-29T13:38:17.4524494+01:00",
-      "RegisteredAssociateId": 244,
-      "Updated": "2007-02-08T13:38:17.4524494+01:00",
-      "UpdatedAssociateId": 629,
+      "Registered": "1999-06-11T13:57:18.8265985+02:00",
+      "RegisteredAssociateId": 359,
+      "Updated": "1996-11-29T13:57:18.8265985+01:00",
+      "UpdatedAssociateId": 527,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 240
+          "FieldType": "System.String",
+          "FieldLength": 874
         }
       }
     }
   ],
-  "Registered": "2001-03-16T13:38:17.4524494+01:00",
-  "RegisteredAssociateId": 241,
-  "Updated": "2021-04-24T13:38:17.4524494+02:00",
-  "UpdatedAssociateId": 860,
+  "Registered": "2023-02-27T13:57:18.8265985+01:00",
+  "RegisteredAssociateId": 25,
+  "Updated": "2004-11-12T13:57:18.8265985+01:00",
+  "UpdatedAssociateId": 556,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldType": "System.Int32",
+      "FieldLength": 951
     }
   },
   "_Links": {

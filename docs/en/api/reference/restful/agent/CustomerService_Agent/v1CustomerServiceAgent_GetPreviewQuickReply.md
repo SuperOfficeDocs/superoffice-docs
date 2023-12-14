@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 752
+  "QuickReplyId": 91
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Corwin-Emard",
-  "UpdatedByFullName": "Mrs. Chance Odessa Brekke PhD",
-  "Updated": "2020-02-27T13:38:13.3896326+01:00",
-  "HtmlBody": "quae",
+  "Name": "Gaylord Inc and Sons",
+  "UpdatedByFullName": "Karlie Lesch",
+  "Updated": "2001-11-13T13:57:12.0280012+01:00",
+  "HtmlBody": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldType": "System.String",
+      "FieldLength": 56
     }
   }
 }

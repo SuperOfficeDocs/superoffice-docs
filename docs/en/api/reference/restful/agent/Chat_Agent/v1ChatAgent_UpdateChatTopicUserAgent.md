@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 975,
-  "Username": "tempore",
+  "ChatTopicId": 582,
+  "Username": "magni",
   "Useragent": null
 }
 ```
@@ -95,11 +95,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 936,
+  "TopicId": 778,
   "User": null,
-  "CanListen": true,
+  "CanListen": false,
   "CanRespond": true,
-  "CanManage": true,
+  "CanManage": false,
   "CanNotify": false
 }
 ```

@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 378,
-  "PrefDescId": 199,
-  "PrefValue": "aut",
-  "PrefShowValue": "eaque",
-  "Description": "Fundamental zero tolerance flexibility",
+  "PrefDescLineId": 860,
+  "PrefDescId": 972,
+  "PrefValue": "voluptatem",
+  "PrefShowValue": "voluptas",
+  "Description": "Customizable maximized core",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldLength": 640
     }
   }
 }

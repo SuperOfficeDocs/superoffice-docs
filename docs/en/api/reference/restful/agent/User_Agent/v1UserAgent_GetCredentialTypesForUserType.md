@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,9 +96,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "iusto",
-    "Type": "maiores",
-    "Description": "Balanced web-enabled support",
+    "DisplayType": "ullam",
+    "Type": "aut",
+    "Description": "Polarised grid-enabled service-desk",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
     "IsUserNameSupported": true,
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 97
+        "FieldLength": 129
       }
     }
   }

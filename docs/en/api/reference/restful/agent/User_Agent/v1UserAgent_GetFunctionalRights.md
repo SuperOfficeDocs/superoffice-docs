@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 331
+  "RoleId": 809
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "Schiller, Connelly and Wiegand",
-    "ToolTip": "Provident similique quas cupiditate.",
+    "Id": 96,
+    "Name": "Sporer, Pfeffer and Moen",
+    "ToolTip": "Omnis at cumque illo quas ducimus temporibus dolorum.",
     "Deleted": false,
-    "Rank": 404,
-    "Type": "eaque",
-    "ColorBlock": 859,
-    "IconHint": "esse",
-    "Selected": true,
-    "LastChanged": "2019-02-17T13:38:14.3584195+01:00",
+    "Rank": 733,
+    "Type": "qui",
+    "ColorBlock": 402,
+    "IconHint": "similique",
+    "Selected": false,
+    "LastChanged": "2017-11-16T13:57:13.5364634+01:00",
     "ChildItems": [
       {
-        "Id": 865,
-        "Name": "Boyle Inc and Sons",
-        "ToolTip": "Quasi incidunt aut cupiditate nostrum adipisci cumque.",
+        "Id": 611,
+        "Name": "Tremblay-Hand",
+        "ToolTip": "Dolore sed sint ea impedit iste consectetur quisquam.",
         "Deleted": false,
-        "Rank": 590,
-        "Type": "tempora",
-        "ColorBlock": 777,
-        "IconHint": "odio",
-        "Selected": true,
-        "LastChanged": "2014-08-17T13:38:14.3584195+02:00",
+        "Rank": 749,
+        "Type": "iusto",
+        "ColorBlock": 988,
+        "IconHint": "ex",
+        "Selected": false,
+        "LastChanged": "1998-12-12T13:57:13.5364634+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "sed",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Darren Brakus",
+        "FullName": "Mrs. Maia Beier PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 316
+            "FieldLength": 34
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "dicta",
-    "Hidden": true,
-    "FullName": "Yvonne Marquardt",
+    "ExtraInfo": "optio",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Mr. Agnes Fadel Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 615
+        "FieldType": "System.Int32",
+        "FieldLength": 559
       }
     }
   }

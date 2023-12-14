@@ -92,33 +92,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 299,
-  "Name": "Schmitt Inc and Sons",
-  "Tooltip": "possimus",
-  "Deleted": false,
-  "Rank": 994,
+  "WebPanelId": 481,
+  "Name": "Considine, Stroman and Stokes",
+  "Tooltip": "ad",
+  "Deleted": true,
+  "Rank": 279,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnCentral": true,
+  "OnSatellite": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Blick Group",
+  "WindowName": "Robel, Jakubowski and Bahringer",
   "Url": "http://www.example.com/",
-  "ProgId": "officiis",
-  "Icon": 711,
+  "ProgId": "omnis",
+  "Icon": 990,
   "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 111
     }
   }
 }

@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bahringer LLC",
-  "DeviceName": "Kirlin, Bayer and Gusikowski"
+  "ApplicationName": "Wehner Inc and Sons",
+  "DeviceName": "Parisian-Kutch"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ut",
-    "Value": "tempora",
-    "RecordId": 468,
-    "CreatedDate": "2018-08-08T13:38:13.6396102+02:00",
-    "UpdatedDate": "2010-07-06T13:38:13.6396102+02:00",
-    "UpdatedBy": "non",
-    "CreatedBy": "necessitatibus",
-    "TableName": "Gutkowski Inc and Sons",
+    "Key": "aut",
+    "Value": "quis",
+    "RecordId": 722,
+    "CreatedDate": "2011-04-26T13:57:12.4337359+02:00",
+    "UpdatedDate": "2010-12-21T13:57:12.4337359+01:00",
+    "UpdatedBy": "alias",
+    "CreatedBy": "nam",
+    "TableName": "Greenfelder-Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldLength": 311
       }
     }
   }

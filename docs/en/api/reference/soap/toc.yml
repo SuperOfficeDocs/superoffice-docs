@@ -12192,6 +12192,8 @@
       href: Services88/Appointment/GetAlarms.md
     - name: GetAppointment
       href: Services88/Appointment/GetAppointment.md
+    - name: GetAppointmentEmailInvitation
+      href: Services88/Appointment/GetAppointmentEmailInvitation.md
     - name: GetAppointmentEntity
       href: Services88/Appointment/GetAppointmentEntity.md
     - name: GetAppointmentFromUID
@@ -12208,6 +12210,8 @@
       href: Services88/Appointment/GetAssociateDiary.md
     - name: GetAssociatesDiary
       href: Services88/Appointment/GetAssociatesDiary.md
+    - name: GetAssociatesDiaryInfo
+      href: Services88/Appointment/GetAssociatesDiaryInfo.md
     - name: GetCanInsertForAssociates
       href: Services88/Appointment/GetCanInsertForAssociates.md
     - name: GetContactAppointments
@@ -12310,6 +12314,8 @@
       href: Services88/Appointment/SaveSuggestedAppointmentEntity.md
     - name: SaveTaskListItem
       href: Services88/Appointment/SaveTaskListItem.md
+    - name: SaveWithCustomInvitation
+      href: Services88/Appointment/SaveWithCustomInvitation.md
     - name: SetActivityStatus
       href: Services88/Appointment/SetActivityStatus.md
     - name: SetSeen
@@ -12699,6 +12705,8 @@
       href: Services88/Configuration/DeleteWindowPosSize.md
     - name: ExistsSystemEvent
       href: Services88/Configuration/ExistsSystemEvent.md
+    - name: GetAllFeatureToggles
+      href: Services88/Configuration/GetAllFeatureToggles.md
     - name: GetAnyConfiguration
       href: Services88/Configuration/GetAnyConfiguration.md
     - name: GetApplicationConfiguration
@@ -13149,6 +13157,8 @@
       href: Services88/Diagnostics/GetCacheNames.md
     - name: GetCacheState
       href: Services88/Diagnostics/GetCacheState.md
+    - name: GetEntityCountsForAllUsers
+      href: Services88/Diagnostics/GetEntityCountsForAllUsers.md
     - name: GetEntityCountsForCurrentUser
       href: Services88/Diagnostics/GetEntityCountsForCurrentUser.md
     - name: GetWebAppUsagesForPeriod

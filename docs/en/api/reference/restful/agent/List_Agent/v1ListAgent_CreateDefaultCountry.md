@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 960,
-  "Name": "Spinka Inc and Sons",
-  "CurrencyId": 640,
-  "EnglishName": "Doyle-Fisher",
+  "CountryId": 391,
+  "Name": "Thiel Group",
+  "CurrencyId": 628,
+  "EnglishName": "Kiehn Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "User-centric grid-enabled Graphical User Interface",
-  "OrgNrText": "927705",
-  "InterAreaPrefix": "facilis",
-  "DialInPrefix": "deleniti",
-  "ZipPrefix": "eum",
-  "DomainName": "Eichmann Group",
-  "AddressLayoutId": 836,
-  "DomesticAddressLayoutId": 566,
-  "ForeignAddressLayoutId": 701,
+  "ImageDescription": "Progressive tangible archive",
+  "OrgNrText": "937983",
+  "InterAreaPrefix": "est",
+  "DialInPrefix": "aperiam",
+  "ZipPrefix": "aperiam",
+  "DomainName": "Bradtke LLC",
+  "AddressLayoutId": 193,
+  "DomesticAddressLayoutId": 845,
+  "ForeignAddressLayoutId": 408,
   "Rank": 55,
-  "Tooltip": "nulla",
+  "Tooltip": "voluptatum",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldType": "System.String",
+      "FieldLength": 513
     }
   }
 }

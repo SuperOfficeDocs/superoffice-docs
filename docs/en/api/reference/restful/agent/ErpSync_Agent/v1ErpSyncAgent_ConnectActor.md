@@ -71,31 +71,31 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 684,
-  "CrmRecordId": 386,
+  "ErpConnectionId": 716,
+  "CrmRecordId": 788,
   "CrmActorType": "Contact",
-  "ErpKey": "necessitatibus",
+  "ErpKey": "exercitationem",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Hauck Group",
-      "CrmFieldKey": "officia",
-      "Value": "voluptas",
-      "DisplayValue": "aut",
-      "SyncToCrm": false,
-      "SyncToErp": false
+      "DisplayName": "Murphy Inc and Sons",
+      "CrmFieldKey": "sit",
+      "Value": "rem",
+      "DisplayValue": "eaque",
+      "SyncToCrm": true,
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Hauck Group",
-      "CrmFieldKey": "officia",
-      "Value": "voluptas",
-      "DisplayValue": "aut",
-      "SyncToCrm": false,
-      "SyncToErp": false
+      "DisplayName": "Murphy Inc and Sons",
+      "CrmFieldKey": "sit",
+      "Value": "rem",
+      "DisplayValue": "eaque",
+      "SyncToCrm": true,
+      "SyncToErp": true
     }
   ]
 }

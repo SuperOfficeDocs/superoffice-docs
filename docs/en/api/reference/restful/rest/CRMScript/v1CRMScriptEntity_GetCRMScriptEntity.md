@@ -86,7 +86,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,28 +96,28 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 115,
-  "UniqueIdentifier": "fugit",
-  "Name": "Dicki-Johns",
-  "Description": "Stand-alone 24/7 methodology",
-  "IncludeId": "accusantium",
-  "HierarchyId": 444,
-  "Source": "omnis",
-  "Registered": "2011-11-21T13:38:17.280593+01:00",
-  "RegisteredAssociateId": 121,
-  "Updated": "2007-06-15T13:38:17.280593+02:00",
-  "UpdatedAssociateId": 450,
+  "EjscriptId": 50,
+  "UniqueIdentifier": "animi",
+  "Name": "Mitchell Inc and Sons",
+  "Description": "Compatible explicit methodology",
+  "IncludeId": "sed",
+  "HierarchyId": 246,
+  "Source": "reiciendis",
+  "Registered": "2022-08-09T13:57:18.6846845+02:00",
+  "RegisteredAssociateId": 278,
+  "Updated": "2017-08-16T13:57:18.6846845+02:00",
+  "UpdatedAssociateId": 579,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 651
+      "FieldType": "System.Int32",
+      "FieldLength": 730
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

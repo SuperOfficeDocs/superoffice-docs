@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 418,
-  "Name": "Champlin LLC",
-  "Rank": 780,
-  "Tooltip": "earum",
+  "AssociateId": 776,
+  "Name": "Schultz, Kling and Hermann",
+  "Rank": 843,
+  "Tooltip": "molestias",
   "LicenseOwners": [
     {
-      "Name": "Jacobi, Casper and Leuschke",
-      "Description": "Balanced leading edge implementation",
+      "Name": "Yundt, Rogahn and Wolff",
+      "Description": "Fundamental fault-tolerant complexity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 778
+          "FieldLength": 410
         }
       }
     },
     {
-      "Name": "Jacobi, Casper and Leuschke",
-      "Description": "Balanced leading edge implementation",
+      "Name": "Yundt, Rogahn and Wolff",
+      "Description": "Fundamental fault-tolerant complexity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 778
+          "FieldLength": 410
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "pariatur",
-      "Tooltip": "voluptas",
-      "Id": 553,
-      "Rank": 821,
+      "Value": "occaecati",
+      "Tooltip": "vel",
+      "Id": 19,
+      "Rank": 496,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldLength": 653
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2016-10-05T13:38:14.327173+02:00",
-  "Lastlogout": "2005-04-10T13:38:14.327173+02:00",
-  "EjUserId": 54,
-  "RequestSignature": "qui",
+  "Lastlogin": "2021-12-22T13:57:13.48959+01:00",
+  "Lastlogout": "2017-08-20T13:57:13.48959+02:00",
+  "EjUserId": 817,
+  "RequestSignature": "corrupti",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "blanditiis",
+      "Value": "rerum",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 333
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     },
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "blanditiis",
+      "Value": "rerum",
+      "DisplayValue": "mollitia",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 533
+        }
+      }
+    }
+  ],
+  "UserName": "Mayer Inc and Sons",
+  "TicketCategories": [
+    {
+      "Id": 595,
+      "Name": "Jewess, Rosenbaum and Corkery",
+      "ToolTip": "Dolorum eos laboriosam aut est accusantium.",
+      "Deleted": false,
+      "Rank": 718,
+      "Type": "est",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "qui",
+      "ColorBlock": 307,
+      "ExtraInfo": "ullam",
+      "StyleHint": "aliquid",
+      "FullName": "Ms. Coby Gerhold DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 333
+          "FieldLength": 967
         }
       }
     }
   ],
-  "UserName": "Lind, Wiegand and Rutherford",
-  "TicketCategories": [
-    {
-      "Id": 937,
-      "Name": "Jacobson, Walter and Beer",
-      "ToolTip": "Numquam doloremque facilis accusantium molestias accusantium consequatur.",
-      "Deleted": false,
-      "Rank": 347,
-      "Type": "repellat",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "officia",
-      "ColorBlock": 696,
-      "ExtraInfo": "aut",
-      "StyleHint": "amet",
-      "FullName": "Zelda Steuber",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 689
-        }
-      }
-    }
-  ],
-  "NickName": "Hansen Group",
-  "WaitingForApproval": true,
+  "NickName": "Nitzsche Inc and Sons",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "maiores"
+    "ExtraFields1": "hic",
+    "ExtraFields2": "expedita"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "et"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "autem"
   },
   "PostSaveCommands": [
     {
-      "Name": "Tremblay Group",
-      "DisplayName": "Stiedemann Inc and Sons",
-      "Description": "Function-based background hardware",
-      "ToolTip": "Nobis doloribus sit sed a.",
+      "Name": "Reichert Inc and Sons",
+      "DisplayName": "Corkery, Rippin and West",
+      "Description": "User-centric bi-directional paradigm",
+      "ToolTip": "Voluptatum dolorem veniam et officiis ad aliquid autem.",
       "Actions": "Implicit",
-      "ActionData": "debitis",
+      "ActionData": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 41
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldType": "System.String",
+      "FieldLength": 189
     }
   }
 }

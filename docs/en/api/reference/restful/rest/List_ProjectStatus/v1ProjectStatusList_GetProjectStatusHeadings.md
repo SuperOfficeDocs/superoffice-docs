@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 615,
-    "Name": "Wiza-Lind",
-    "Tooltip": "quisquam",
+    "HeadingId": 860,
+    "Name": "Rogahn Inc and Sons",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 585,
-    "UdListDefinitionId": 984,
+    "Rank": 364,
+    "UdListDefinitionId": 340,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldLength": 618
       }
     }
   }

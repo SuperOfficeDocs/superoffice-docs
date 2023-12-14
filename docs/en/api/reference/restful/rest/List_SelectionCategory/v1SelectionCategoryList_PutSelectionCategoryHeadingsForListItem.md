@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Gerlach, Larson and Green",
-    "ToolTip": "Accusamus blanditiis aspernatur quis harum est.",
-    "Deleted": true,
-    "Rank": 353,
-    "Type": "temporibus",
-    "ColorBlock": 543,
-    "IconHint": "illum",
-    "Selected": true,
-    "LastChanged": "2005-09-01T13:38:18.2337719+02:00",
+    "Id": 448,
+    "Name": "Cole Inc and Sons",
+    "ToolTip": "Eum beatae eligendi corrupti dolor.",
+    "Deleted": false,
+    "Rank": 846,
+    "Type": "atque",
+    "ColorBlock": 455,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2013-06-18T13:57:20.1265357+02:00",
     "ChildItems": [
       {
-        "Id": 484,
-        "Name": "Corkery-Larkin",
-        "ToolTip": "Eius minima ratione minima.",
+        "Id": 768,
+        "Name": "Runte LLC",
+        "ToolTip": "Cum totam provident inventore impedit explicabo occaecati.",
         "Deleted": true,
-        "Rank": 562,
-        "Type": "architecto",
-        "ColorBlock": 765,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "2018-03-25T13:38:18.2337719+02:00",
+        "Rank": 838,
+        "Type": "distinctio",
+        "ColorBlock": 951,
+        "IconHint": "quas",
+        "Selected": true,
+        "LastChanged": "1997-11-21T13:57:20.1265357+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "ea",
-        "Hidden": true,
-        "FullName": "Ariane Tremblay"
+        "ExtraInfo": "et",
+        "StyleHint": "deleniti",
+        "Hidden": false,
+        "FullName": "Mrs. Harold Runolfsson II"
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Dora Lockman"
+    "ExtraInfo": "odio",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Jordi Ferry"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 575,
-    "Name": "Nienow-West",
-    "ToolTip": "Sint illum debitis maxime.",
-    "Deleted": false,
-    "Rank": 215,
-    "Type": "placeat",
-    "ColorBlock": 825,
-    "IconHint": "officiis",
-    "Selected": false,
-    "LastChanged": "2019-06-25T13:38:18.2337719+02:00",
+    "Id": 444,
+    "Name": "Rogahn-Jenkins",
+    "ToolTip": "Maiores dolorem qui vero.",
+    "Deleted": true,
+    "Rank": 883,
+    "Type": "praesentium",
+    "ColorBlock": 790,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2020-05-06T13:57:20.1265357+02:00",
     "ChildItems": [
       {
-        "Id": 996,
-        "Name": "Little, Toy and Gislason",
-        "ToolTip": "Rerum dolor et cum aut est.",
+        "Id": 867,
+        "Name": "Heidenreich LLC",
+        "ToolTip": "Autem et velit aut nostrum praesentium ea.",
         "Deleted": false,
-        "Rank": 341,
-        "Type": "vel",
-        "ColorBlock": 168,
-        "IconHint": "deserunt",
+        "Rank": 694,
+        "Type": "qui",
+        "ColorBlock": 810,
+        "IconHint": "vitae",
         "Selected": false,
-        "LastChanged": "2017-07-09T13:38:18.2337719+02:00",
+        "LastChanged": "2021-09-02T13:57:20.1265357+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "sit",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "accusantium",
         "Hidden": true,
-        "FullName": "Dr. Kaelyn Kale Larson",
+        "FullName": "Prof. Newell Sauer II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 647
+            "FieldLength": 213
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "autem",
+    "ExtraInfo": "ad",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Lawson Rippin",
+    "FullName": "Sven Deckow II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 951
+        "FieldLength": 524
       }
     }
   }

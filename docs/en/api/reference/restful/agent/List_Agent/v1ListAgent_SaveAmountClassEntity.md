@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 934,
-  "Name": "Thompson Inc and Sons",
-  "Tooltip": "omnis",
-  "Rank": 343,
-  "AmountFrom": 14222.091999999999,
-  "AmountTo": 22991.023999999998,
-  "Deleted": false,
-  "CurrencyId": 433
+  "AmountClassId": 693,
+  "Name": "Jaskolski, Crooks and Moen",
+  "Tooltip": "temporibus",
+  "Rank": 341,
+  "AmountFrom": 11373.286,
+  "AmountTo": 3246.824,
+  "Deleted": true,
+  "CurrencyId": 111
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 798,
-  "Name": "Hudson-Boyle",
-  "Tooltip": "sit",
-  "Rank": 122,
-  "AmountFrom": 19321.11,
-  "AmountTo": 2898.95,
-  "Deleted": true,
-  "CurrencyId": 677,
+  "AmountClassId": 467,
+  "Name": "Glover-Harris",
+  "Tooltip": "odio",
+  "Rank": 788,
+  "AmountFrom": 27080.894,
+  "AmountTo": 11367.018,
+  "Deleted": false,
+  "CurrencyId": 732,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldType": "System.String",
+      "FieldLength": 573
     }
   }
 }

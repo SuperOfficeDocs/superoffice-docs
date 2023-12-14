@@ -112,9 +112,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 197,
-  "UserInput": "id",
-  "PriceListKey": "voluptatem"
+  "QuoteAlternativeId": 472,
+  "UserInput": "rerum",
+  "PriceListKey": "quidem"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 640,
-    "ERPProductKey": "et",
-    "ERPPriceListKey": "sed",
-    "Name": "McClure-Konopelski",
-    "Description": "Distributed modular instruction set",
-    "Code": "odit",
-    "PriceUnit": "placeat",
-    "QuantityUnit": "iste",
+    "ProductId": 57,
+    "ERPProductKey": "dignissimos",
+    "ERPPriceListKey": "dolores",
+    "Name": "Hane-Kub",
+    "Description": "Focused zero administration implementation",
+    "Code": "esse",
+    "PriceUnit": "sed",
+    "QuantityUnit": "tempore",
     "IsSubscription": true,
-    "SubscriptionUnit": "rerum",
-    "DefaultSubscriptionQuantity": 14955.448,
-    "ItemNumber": "1204176",
+    "SubscriptionUnit": "placeat",
+    "DefaultSubscriptionQuantity": 20317.721999999998,
+    "ItemNumber": "846871",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "nihil",
-    "ProductTypeKey": "est",
-    "VAT": 28187.196,
-    "VATInfo": "est",
-    "UnitCost": 29823.144,
-    "UnitMinimumPrice": 8618.5,
-    "UnitListPrice": 2936.558,
-    "InAssortment": false,
-    "Supplier": "et",
-    "SupplierCode": "alias",
-    "Rights": "non",
-    "Rule": "dolorem",
+    "ProductFamilyKey": "atque",
+    "ProductTypeKey": "excepturi",
+    "VAT": 13454.261999999999,
+    "VATInfo": "et",
+    "UnitCost": 25498.224,
+    "UnitMinimumPrice": 15246.91,
+    "UnitListPrice": 12921.482,
+    "InAssortment": true,
+    "Supplier": "tenetur",
+    "SupplierCode": "qui",
+    "Rights": "repellendus",
+    "Rule": "sit",
     "ExtraInfo": [
       {
-        "Name": "Ruecker, Okuneva and Schneider",
-        "Value": "omnis",
+        "Name": "Hirthe Inc and Sons",
+        "Value": "aliquam",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 747
+            "FieldType": "System.Int32",
+            "FieldLength": 765
           }
         }
       },
       {
-        "Name": "Ruecker, Okuneva and Schneider",
-        "Value": "omnis",
+        "Name": "Hirthe Inc and Sons",
+        "Value": "aliquam",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 747
+            "FieldType": "System.Int32",
+            "FieldLength": 765
           }
         }
       }
     ],
-    "RawExtraInfo": "nihil",
-    "ExtraField1": "suscipit",
-    "ExtraField2": "fuga",
-    "ExtraField3": "nemo",
-    "ExtraField4": "officiis",
-    "ExtraField5": "nihil",
-    "InStock": 5775.9619999999995,
+    "RawExtraInfo": "distinctio",
+    "ExtraField1": "voluptas",
+    "ExtraField2": "magni",
+    "ExtraField3": "voluptate",
+    "ExtraField4": "velit",
+    "ExtraField5": "laboriosam",
+    "InStock": 16350.078,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 490
       }
     }
   }

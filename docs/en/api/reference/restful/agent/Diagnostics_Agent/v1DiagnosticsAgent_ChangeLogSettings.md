@@ -75,13 +75,13 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LogWarning": true,
+  "LogWarning": false,
   "LogInformation": false,
-  "LogSuccessAudit": true,
+  "LogSuccessAudit": false,
   "LogFailureAudit": false,
-  "LogToEventLog": false,
-  "LogToSuperOffice": false,
-  "LogToFile": false,
+  "LogToEventLog": true,
+  "LogToSuperOffice": true,
+  "LogToFile": true,
   "LogToTrace": false
 }
 ```

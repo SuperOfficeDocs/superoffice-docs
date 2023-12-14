@@ -92,27 +92,27 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 23,
+  "SystemEventId": 524,
   "Scope": "Database",
-  "Eta": "2022-07-23T13:38:17.6711737+02:00",
-  "Eventkey": "voluptas",
-  "Eventmess": "nam",
-  "ExtraInfo": 307,
-  "Owner": 282,
-  "UpdatedCount": 110,
-  "Registered": "2002-10-22T13:38:17.6711737+02:00",
+  "Eta": "2020-11-04T13:57:19.2815227+01:00",
+  "Eventkey": "itaque",
+  "Eventmess": "quo",
+  "ExtraInfo": 979,
+  "Owner": 784,
+  "UpdatedCount": 743,
+  "Registered": "2000-08-11T13:57:19.2815227+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 10
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

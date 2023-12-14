@@ -67,7 +67,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Lockman-Williamson",
-    "DisplayName": "Abernathy Inc and Sons",
-    "Description": "Distributed secondary implementation",
-    "ShortLabel": "ducimus",
+    "FieldName": "Leuschke-Blick",
+    "DisplayName": "Durgan-Ortiz",
+    "Description": "Expanded reciprocal knowledge base",
+    "ShortLabel": "reiciendis",
     "HideLabel": false,
     "HideField": true,
-    "IsIndexed": true,
-    "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsIndexed": false,
+    "IsMandatory": false,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 248,
-    "TemplateVariableName": "Johns, Rippin and Larson"
+    "Rank": 287,
+    "TemplateVariableName": "Renner-Ortiz"
   }
 ]
 ```

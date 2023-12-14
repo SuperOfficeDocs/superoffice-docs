@@ -87,14 +87,14 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jewess, Boyer and Bogan",
-  "ForceFlatList": true,
-  "AdditionalInfo": "quam",
-  "OnlyHistory": false
+  "Name": "Champlin-Bauch",
+  "ForceFlatList": false,
+  "AdditionalInfo": "molestiae",
+  "OnlyHistory": true
 }
 ```
 
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 117,
-    "Name": "Blanda, Gerhold and Kihn",
-    "ToolTip": "Quaerat omnis.",
+    "Id": 204,
+    "Name": "Lemke-Schinner",
+    "ToolTip": "Repudiandae velit saepe distinctio doloribus voluptate harum libero.",
     "Deleted": false,
-    "Rank": 172,
-    "Type": "consectetur",
+    "Rank": 132,
+    "Type": "ad",
     "ChildItems": [
       {
-        "Id": 668,
-        "Name": "Bednar-Renner",
-        "ToolTip": "Aut qui quidem voluptates est nobis.",
+        "Id": 386,
+        "Name": "Mosciski-Lockman",
+        "ToolTip": "Ad et deserunt et.",
         "Deleted": false,
-        "Rank": 166,
-        "Type": "animi",
+        "Rank": 808,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "incidunt",
-        "ColorBlock": 177,
-        "ExtraInfo": "quam",
-        "StyleHint": "qui",
-        "FullName": "Estrella Runolfsson",
+        "IconHint": "molestias",
+        "ColorBlock": 137,
+        "ExtraInfo": "incidunt",
+        "StyleHint": "blanditiis",
+        "FullName": "Miss Randy Rubye Ullrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 174
+            "FieldType": "System.Int32",
+            "FieldLength": 532
           }
         }
       }
     ],
-    "IconHint": "molestias",
-    "ColorBlock": 128,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "a",
-    "FullName": "Leopold Lynch",
+    "IconHint": "mollitia",
+    "ColorBlock": 966,
+    "ExtraInfo": "aliquid",
+    "StyleHint": "nam",
+    "FullName": "Ms. Felicia Schulist DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldLength": 445
       }
     }
   }

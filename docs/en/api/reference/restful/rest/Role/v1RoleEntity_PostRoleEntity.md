@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 881,
-  "Name": "Von Inc and Sons",
-  "Tooltip": "reprehenderit",
+  "RoleId": 211,
+  "Name": "Boehm LLC",
+  "Tooltip": "iure",
   "RoleType": "Anonymous",
-  "Deleted": 978,
-  "Rank": 679,
-  "Created": "2011-10-25T13:38:17.5618158+02:00",
-  "UseCategories": 191,
+  "Deleted": 612,
+  "Rank": 404,
+  "Created": "2020-08-18T13:57:19.1246846+02:00",
+  "UseCategories": 906,
   "CreatedBy": null,
-  "Updated": "2009-10-22T13:38:17.5774332+02:00",
+  "Updated": "2005-09-02T13:57:19.1246846+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,24 +127,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 870,
-  "Name": "Hyatt, Hyatt and Crooks",
-  "Tooltip": "ut",
+  "RoleId": 200,
+  "Name": "Lubowitz LLC",
+  "Tooltip": "adipisci",
   "RoleType": "Anonymous",
-  "Deleted": 352,
-  "Rank": 228,
-  "Created": "2013-01-28T13:38:17.5774332+01:00",
-  "UseCategories": 98,
+  "Deleted": 559,
+  "Rank": 569,
+  "Created": "2011-05-14T13:57:19.1403101+02:00",
+  "UseCategories": 337,
   "CreatedBy": null,
-  "Updated": "2015-01-30T13:38:17.5774332+01:00",
+  "Updated": "2018-08-16T13:57:19.1403101+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 3
+      "FieldType": "System.Int32",
+      "FieldLength": 516
     }
   },
   "_Links": {

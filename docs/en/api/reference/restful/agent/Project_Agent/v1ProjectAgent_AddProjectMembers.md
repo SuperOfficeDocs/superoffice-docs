@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 276,
+  "ProjectEntityId": 511,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 410,
-      "ContactId": 138,
-      "ProjectId": 467,
-      "ContactName": "Willms Group",
+      "ProjectmemberId": 831,
+      "ContactId": 722,
+      "ProjectId": 529,
+      "ContactName": "Abshire-Ullrich",
       "ContactDepartment": "",
-      "ProjectName": "Kling-Block",
-      "EmailId": 750,
-      "EmailAddress": "sid_donnelly@boscowalker.co.uk",
-      "CountryId": 586,
-      "Firstname": "Joany",
-      "MiddleName": "Quigley LLC",
-      "Lastname": "Tremblay",
-      "PersonId": 247,
-      "Mrmrs": "qui",
-      "ProjectMemberTypeName": "Harvey-Langosh",
-      "Phone": "1-104-470-7144 x93946",
-      "PhoneId": 647,
-      "ProjectMemberTypeId": 296,
-      "EmailAddressName": "dalton@nader.uk",
-      "Comment": "in",
-      "FullName": "Jadyn Durward Lynch DDS"
+      "ProjectName": "Senger, Johns and Bartoletti",
+      "EmailId": 991,
+      "EmailAddress": "cheyanne@swift.co.uk",
+      "CountryId": 627,
+      "Firstname": "Kacie",
+      "MiddleName": "Fisher-DuBuque",
+      "Lastname": "Franecki",
+      "PersonId": 826,
+      "Mrmrs": "ducimus",
+      "ProjectMemberTypeName": "Hoeger, Lemke and Bailey",
+      "Phone": "112-305-3644 x29267",
+      "PhoneId": 519,
+      "ProjectMemberTypeId": 983,
+      "EmailAddressName": "marley@beer.name",
+      "Comment": "quo",
+      "FullName": "Ms. Carlotta Buckridge"
     }
   ]
 }

@@ -101,9 +101,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 221,
-  "QuoteAlternativeName": "Langworth-Satterfield",
-  "QuoteAlternativeDescription": "Re-contextualized impactful throughput"
+  "QuoteVersionId": 39,
+  "QuoteAlternativeName": "Ziemann-Howell",
+  "QuoteAlternativeDescription": "Streamlined multimedia budgetary management"
 }
 ```
 
@@ -115,34 +115,34 @@ Content-Type: application/json; charset=utf-8
 
 {
   "QuoteAlternativeId": 935,
-  "ERPQuoteAlternativeKey": "sunt",
-  "QuoteVersionId": 936,
-  "Name": "Roberts-Bernhard",
-  "Description": "Fully-configurable empowering help-desk",
+  "ERPQuoteAlternativeKey": "ut",
+  "QuoteVersionId": 180,
+  "Name": "Mayert-Pfeffer",
+  "Description": "Fully-configurable tangible policy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 16663.478,
-  "ERPDiscountAmount": 11404.626,
-  "DiscountPercent": 30600.376,
-  "DiscountAmount": 26990.007999999998,
+  "ERPDiscountPercent": 29503.476,
+  "ERPDiscountAmount": 8474.336,
+  "DiscountPercent": 13476.199999999999,
+  "DiscountAmount": 6800.78,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "consequatur",
-  "VAT": 13002.966,
-  "EarningPercent": 8345.842,
-  "EarningAmount": 9919.11,
-  "SubTotal": 8258.09,
-  "TotalPrice": 18797.732,
-  "ExtraField1": "reprehenderit",
-  "ExtraField2": "aliquid",
-  "ExtraField3": "est",
-  "ExtraField4": "autem",
-  "ExtraField5": "recusandae",
+  "VATInfo": "dolorum",
+  "VAT": 20957.058,
+  "EarningPercent": 31289.856,
+  "EarningAmount": 17957.82,
+  "SubTotal": 24128.665999999997,
+  "TotalPrice": 3262.4939999999997,
+  "ExtraField1": "recusandae",
+  "ExtraField2": "quo",
+  "ExtraField3": "et",
+  "ExtraField4": "impedit",
+  "ExtraField5": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldLength": 132
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 681,
-  "Name": "Wisoky, Hegmann and Pollich",
-  "Tooltip": "adipisci",
-  "Deleted": false,
-  "UdListDefinitionId": 694,
-  "Rank": 92,
+  "Id": 313,
+  "Name": "Schneider Group",
+  "Tooltip": "nesciunt",
+  "Deleted": true,
+  "UdListDefinitionId": 615,
+  "Rank": 666,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldLength": 86
     }
   }
 }

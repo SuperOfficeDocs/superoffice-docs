@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "Friesen, Altenwerth and Flatley",
-    "ToolTip": "Veniam placeat.",
-    "Deleted": true,
-    "Rank": 500,
-    "Type": "eaque",
-    "ColorBlock": 956,
-    "IconHint": "odit",
+    "Id": 390,
+    "Name": "Gerhold Group",
+    "ToolTip": "Quia hic voluptatum expedita ipsa.",
+    "Deleted": false,
+    "Rank": 202,
+    "Type": "et",
+    "ColorBlock": 246,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2023-05-22T13:38:18.0619133+02:00",
+    "LastChanged": "2012-03-29T13:57:19.7658931+02:00",
     "ChildItems": [
       {
-        "Id": 1000,
-        "Name": "Nitzsche-Keeling",
-        "ToolTip": "Et voluptatum minima itaque sint.",
+        "Id": 24,
+        "Name": "Blanda, Muller and Balistreri",
+        "ToolTip": "Sapiente placeat.",
         "Deleted": false,
-        "Rank": 561,
-        "Type": "placeat",
-        "ColorBlock": 624,
-        "IconHint": "modi",
+        "Rank": 876,
+        "Type": "est",
+        "ColorBlock": 172,
+        "IconHint": "ducimus",
         "Selected": true,
-        "LastChanged": "1999-09-19T13:38:18.0619133+02:00",
+        "LastChanged": "2012-06-18T13:57:19.7658931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "animi",
-        "Hidden": false,
-        "FullName": "Ms. Karley Melany Berge II"
+        "ExtraInfo": "est",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Noemy Vandervort"
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "atque",
+    "ExtraInfo": "non",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Jackeline Padberg"
+    "FullName": "Adella Spencer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 468,
-    "Name": "Gusikowski, Sauer and Hagenes",
-    "ToolTip": "Laborum unde.",
-    "Deleted": false,
-    "Rank": 774,
-    "Type": "qui",
-    "ColorBlock": 21,
-    "IconHint": "odit",
+    "Id": 505,
+    "Name": "O'Reilly-Corwin",
+    "ToolTip": "Ut error.",
+    "Deleted": true,
+    "Rank": 933,
+    "Type": "animi",
+    "ColorBlock": 224,
+    "IconHint": "atque",
     "Selected": true,
-    "LastChanged": "2013-07-23T13:38:18.0619133+02:00",
+    "LastChanged": "2021-02-18T13:57:19.7658931+01:00",
     "ChildItems": [
       {
-        "Id": 351,
-        "Name": "Konopelski, Emard and Durgan",
-        "ToolTip": "Voluptatibus eligendi error.",
-        "Deleted": true,
-        "Rank": 984,
-        "Type": "placeat",
-        "ColorBlock": 215,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "1999-11-15T13:38:18.0619133+01:00",
+        "Id": 870,
+        "Name": "Streich Group",
+        "ToolTip": "Et ipsum blanditiis voluptatem corrupti ut esse delectus.",
+        "Deleted": false,
+        "Rank": 505,
+        "Type": "magni",
+        "ColorBlock": 857,
+        "IconHint": "quam",
+        "Selected": true,
+        "LastChanged": "2000-06-29T13:57:19.7658931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "dolorem",
-        "Hidden": false,
-        "FullName": "Delphia Legros DDS",
+        "ExtraInfo": "est",
+        "StyleHint": "dolor",
+        "Hidden": true,
+        "FullName": "Gunner Hollie Keebler DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 157
+            "FieldType": "System.Int32",
+            "FieldLength": 849
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "et",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Ms. Dane Macejkovic III",
+    "FullName": "Prof. Leslie Mitchell DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 480
+        "FieldType": "System.Int32",
+        "FieldLength": 939
       }
     }
   }

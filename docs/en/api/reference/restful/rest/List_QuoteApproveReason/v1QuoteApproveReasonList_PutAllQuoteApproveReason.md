@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 470,
-    "Name": "Schoen, Langworth and Medhurst",
-    "Tooltip": "odit",
-    "Deleted": true,
-    "UdListDefinitionId": 312,
-    "Rank": 413
+    "Id": 370,
+    "Name": "Gerlach LLC",
+    "Tooltip": "deleniti",
+    "Deleted": false,
+    "UdListDefinitionId": 43,
+    "Rank": 15
   },
   {
-    "Id": 470,
-    "Name": "Schoen, Langworth and Medhurst",
-    "Tooltip": "odit",
-    "Deleted": true,
-    "UdListDefinitionId": 312,
-    "Rank": 413
+    "Id": 370,
+    "Name": "Gerlach LLC",
+    "Tooltip": "deleniti",
+    "Deleted": false,
+    "UdListDefinitionId": 43,
+    "Rank": 15
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 535,
-    "Name": "Moore, Kiehn and Stamm",
-    "Tooltip": "in",
+    "Id": 530,
+    "Name": "Torphy Group",
+    "Tooltip": "atque",
     "Deleted": false,
-    "UdListDefinitionId": 463,
-    "Rank": 535,
+    "UdListDefinitionId": 107,
+    "Rank": 759,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 192
+        "FieldLength": 105
       }
     }
   }

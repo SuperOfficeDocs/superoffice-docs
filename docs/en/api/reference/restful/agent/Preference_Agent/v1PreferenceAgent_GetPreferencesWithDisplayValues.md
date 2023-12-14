@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "et",
-      "Key": "in"
+      "Section": "sint",
+      "Key": "maxime"
     },
     {
-      "Section": "et",
-      "Key": "in"
+      "Section": "sint",
+      "Key": "maxime"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "ipsa",
+    "RawValue": "accusantium",
     "Specification": null,
-    "DisplayValue": "ipsa",
-    "DisplayTooltip": "velit",
+    "DisplayValue": "similique",
+    "DisplayTooltip": "aut",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 808,
-    "PrefDescId": 442,
-    "TableName": "Marks Inc and Sons",
-    "UserPreferenceId": 703,
+    "TargetId": 121,
+    "PrefDescId": 694,
+    "TableName": "Wunsch-Wilkinson",
+    "UserPreferenceId": 593,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldLength": 251
       }
     }
   }

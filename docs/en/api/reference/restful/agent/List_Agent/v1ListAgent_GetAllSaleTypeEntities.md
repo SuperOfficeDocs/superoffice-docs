@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 176,
-    "Name": "Wisoky, Gusikowski and Grimes",
-    "Tooltip": "doloremque",
-    "Rank": 283,
+    "SaleTypeId": 733,
+    "Name": "Hamill Inc and Sons",
+    "Tooltip": "qui",
+    "Rank": 254,
     "DurationUnit": "Century",
-    "SaleDuration": 162,
-    "SaleTypeCatId": 598,
+    "SaleDuration": 612,
+    "SaleTypeCatId": 519,
     "Deleted": false,
-    "HasGuide": true,
+    "HasGuide": false,
     "HasStakeholders": true,
     "IsAutoAdvance": true,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 774,
-    "QuoteLinesTemplate": 199,
-    "ConfirmationLinesTemplate": 174,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 248,
+    "QuoteLinesTemplate": 289,
+    "ConfirmationLinesTemplate": 60,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 787,
-    "MinEarningPercent": 90,
-    "GroupQuoteLinesBy": 457,
-    "SortGroupLinesBy": 662,
+    "MaxDiscountPercent": 305,
+    "MinEarningPercent": 290,
+    "GroupQuoteLinesBy": 671,
+    "SortGroupLinesBy": 219,
     "Stages": [
       {
-        "Id": 479,
-        "Name": "Wolff-Keebler",
-        "ToolTip": "Atque voluptas.",
+        "Id": 245,
+        "Name": "Mertz Inc and Sons",
+        "ToolTip": "Debitis autem.",
         "Deleted": false,
-        "Rank": 75,
-        "Type": "recusandae",
-        "ColorBlock": 40,
-        "IconHint": "fugit",
+        "Rank": 815,
+        "Type": "qui",
+        "ColorBlock": 77,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2005-02-24T13:38:13.6708541+01:00",
+        "LastChanged": "2018-08-18T13:57:12.4962375+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "dolores",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Kaleb Mabelle Sipes Sr.",
+        "FullName": "Nella Wehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldType": "System.Int32",
+            "FieldLength": 98
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 516
+        "FieldLength": 490
       }
     }
   }

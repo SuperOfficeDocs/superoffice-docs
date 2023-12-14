@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 168,
-  "Name": "Kuhlman Group",
-  "Tooltip": "molestiae",
+  "Id": 107,
+  "Name": "Breitenberg Group",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "Rank": 136,
+  "Rank": 207,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "occaecati",
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Huels Inc and Sons",
-  "Tooltip": "nesciunt",
-  "Deleted": false,
-  "Rank": 505,
+  "Id": 423,
+  "Name": "Veum-Mayer",
+  "Tooltip": "unde",
+  "Deleted": true,
+  "Rank": 507,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ratione",
+  "UseGroupsAndHeadings": true,
+  "ListType": "maxime",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldLength": 40
     }
   }
 }

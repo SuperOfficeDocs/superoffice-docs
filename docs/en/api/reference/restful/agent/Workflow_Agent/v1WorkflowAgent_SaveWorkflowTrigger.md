@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 401,
-  "WorkflowId": 700,
+  "WorkflowTriggerId": 115,
+  "WorkflowId": 776,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Franecki, Okuneva and Hintz",
-      "Description": "Vision-oriented encompassing customer loyalty",
-      "Rank": 811,
+      "Name": "Kessler, Altenwerth and Stehr",
+      "Description": "Devolved web-enabled capability",
+      "Rank": 362,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Franecki, Okuneva and Hintz",
-      "Description": "Vision-oriented encompassing customer loyalty",
-      "Rank": 811,
+      "Name": "Kessler, Altenwerth and Stehr",
+      "Description": "Devolved web-enabled capability",
+      "Rank": 362,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 21,
-  "WorkflowId": 743,
+  "WorkflowTriggerId": 80,
+  "WorkflowId": 597,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Doyle-Kozey",
-      "Description": "Focused empowering open architecture",
-      "Rank": 909,
+      "Name": "Stokes-Gulgowski",
+      "Description": "Customer-focused global service-desk",
+      "Rank": 735,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Doyle-Kozey",
-      "Description": "Focused empowering open architecture",
-      "Rank": 909,
+      "Name": "Stokes-Gulgowski",
+      "Description": "Customer-focused global service-desk",
+      "Rank": 735,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 715
+      "FieldLength": 103
     }
   }
 }

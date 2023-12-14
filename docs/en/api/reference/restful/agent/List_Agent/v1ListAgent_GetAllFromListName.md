@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Daniel Group",
+  "UdListDefinitionName": "King, Gottlieb and Halvorson",
   "IncludeDeleted": true
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 319,
-    "Name": "Littel-Shields",
-    "Tooltip": "similique",
-    "Deleted": true,
-    "UdListDefinitionId": 117,
-    "Rank": 816,
+    "Id": 786,
+    "Name": "Kihn, Predovic and Cassin",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 675,
+    "Rank": 820,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldType": "System.String",
+        "FieldLength": 80
       }
     }
   }

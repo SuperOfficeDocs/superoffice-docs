@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 87,
-  "ConnectionId": 242,
-  "FirstAlternativeName": "Dare LLC"
+  "SaleId": 86,
+  "ConnectionId": 513,
+  "FirstAlternativeName": "Keeling Inc and Sons"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 991,
-  "SaleId": 17,
-  "QuoteConnectionId": 459,
-  "ERPQuoteKey": "reprehenderit",
-  "ERPOrderKey": "ea",
-  "ActiveQuoteVersionId": 929,
-  "AcceptedQuoteAlternativeId": 969,
-  "UseValuesFromQuote": 438,
-  "DocumentId": 210,
-  "PoNumber": "1575128",
-  "OrderComment": "expedita",
-  "PreferredEmailCulture": "sandra@kovacek.ca",
+  "QuoteId": 997,
+  "SaleId": 470,
+  "QuoteConnectionId": 724,
+  "ERPQuoteKey": "itaque",
+  "ERPOrderKey": "voluptatum",
+  "ActiveQuoteVersionId": 35,
+  "AcceptedQuoteAlternativeId": 311,
+  "UseValuesFromQuote": 924,
+  "DocumentId": 205,
+  "PoNumber": "1106819",
+  "OrderComment": "quo",
+  "PreferredEmailCulture": "ivah_auer@reichelhansen.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 155,
-      "ERPQuoteVersionKey": "dolorem",
-      "QuoteId": 365,
-      "Description": "Secured analyzing project",
-      "Number": "1724268",
+      "QuoteVersionId": 12,
+      "ERPQuoteVersionKey": "eveniet",
+      "QuoteId": 71,
+      "Description": "Business-focused demand-driven analyzer",
+      "Number": "600338",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 236,
-      "SentDate": "2016-12-31T13:38:14.0303322+01:00",
-      "FollowupId": 125,
-      "ExpirationDate": "2003-12-13T13:38:14.0303322+01:00",
-      "DeliveryCountryId": 112,
+      "LikelyQuoteAlternativeId": 263,
+      "SentDate": "2012-03-22T13:57:13.064942+01:00",
+      "FollowupId": 737,
+      "ExpirationDate": "1996-10-08T13:57:13.064942+02:00",
+      "DeliveryCountryId": 610,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 225,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "impedit",
-      "ERPPaymentTypeKey": "perferendis",
-      "ERPDeliveryTermsKey": "dolor",
-      "ERPDeliveryTypeKey": "consectetur",
-      "Rank": 728,
-      "ApprovedBy": 484,
-      "ApprovedText": "corrupti",
-      "ApprovedRegisteredBy": 761,
-      "ApprovedRegisteredDate": "2012-08-18T13:38:14.0303322+02:00",
-      "ExtraField1": "ut",
-      "ExtraField2": "laudantium",
-      "ExtraField3": "ut",
-      "ExtraField4": "ipsum",
-      "ExtraField5": "quo",
-      "LastRecalculated": "2011-02-23T13:38:14.0303322+01:00",
-      "Updated": "1997-04-12T13:38:14.0303322+02:00",
-      "UpdatedAssociateId": 295,
-      "Registered": "1997-03-30T13:38:14.0303322+02:00",
-      "RegisteredAssociateId": 125,
-      "RequestAssociateId": 9,
-      "RequestComment": "velit",
+      "InvoiceCountryId": 767,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "fugiat",
+      "ERPPaymentTypeKey": "et",
+      "ERPDeliveryTermsKey": "laudantium",
+      "ERPDeliveryTypeKey": "veritatis",
+      "Rank": 937,
+      "ApprovedBy": 690,
+      "ApprovedText": "id",
+      "ApprovedRegisteredBy": 995,
+      "ApprovedRegisteredDate": "2017-06-19T13:57:13.064942+02:00",
+      "ExtraField1": "odit",
+      "ExtraField2": "occaecati",
+      "ExtraField3": "eligendi",
+      "ExtraField4": "aut",
+      "ExtraField5": "ut",
+      "LastRecalculated": "1998-06-19T13:57:13.064942+02:00",
+      "Updated": "2007-01-30T13:57:13.064942+01:00",
+      "UpdatedAssociateId": 983,
+      "Registered": "2004-05-23T13:57:13.064942+02:00",
+      "RegisteredAssociateId": 99,
+      "RequestAssociateId": 231,
+      "RequestComment": "aut",
       "QuoteAlternatives": [
         {},
         {}
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 314
+          "FieldLength": 649
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldLength": 27
     }
   }
 }

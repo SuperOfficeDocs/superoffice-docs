@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 178,
+  "RowCount": 281,
   "Rows": [
     {
-      "EntityName": "Koss, Yundt and Sporer",
-      "PrimaryKey": 841,
+      "EntityName": "Hills Group",
+      "PrimaryKey": 492,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "debitis",
-          "TooltipHint": "aperiam",
-          "LinkHint": "culpa"
+          "DisplayValue": "facere",
+          "TooltipHint": "in",
+          "LinkHint": "sint"
         }
       },
-      "LinkHint": "quis",
-      "StyleHint": "rerum",
+      "LinkHint": "qui",
+      "StyleHint": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 199
+          "FieldType": "System.Int32",
+          "FieldLength": 611
         }
       }
     }
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 452
+      "FieldType": "System.Int32",
+      "FieldLength": 347
     }
   }
 }

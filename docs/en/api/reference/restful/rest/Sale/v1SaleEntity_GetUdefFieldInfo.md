@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 633,
-  "ColumnId": 614,
-  "FieldDefault": "ratione",
-  "FieldHeight": 729,
-  "FieldLabel": "sed",
-  "FieldLeft": 676,
-  "FieldTop": 954,
+  "UDefFieldId": 271,
+  "ColumnId": 630,
+  "FieldDefault": "quia",
+  "FieldHeight": 667,
+  "FieldLabel": "qui",
+  "FieldLeft": 502,
+  "FieldTop": 313,
   "FieldType": "Checkbox",
-  "FieldWidth": 920,
-  "FormatMask": "eum",
+  "FieldWidth": 549,
+  "FormatMask": "quis",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 782,
-  "LabelLeft": 930,
-  "LabelTop": 157,
-  "LabelWidth": 360,
-  "LastVersionId": 671,
-  "ListTableId": 566,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 931,
+  "LabelLeft": 914,
+  "LabelTop": 565,
+  "LabelWidth": 94,
+  "LastVersionId": 864,
+  "ListTableId": 552,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 527,
-  "ProgId": "minima",
+  "Page1LineNo": 606,
+  "ProgId": "corporis",
   "IsReadOnly": true,
-  "ShortLabel": "iusto",
-  "TabOrder": 316,
-  "TextLength": 833,
-  "Tooltip": "eligendi",
-  "UdefIdentity": 911,
-  "UDListDefinitionId": 451,
+  "ShortLabel": "nobis",
+  "TabOrder": 102,
+  "TextLength": 258,
+  "Tooltip": "quia",
+  "UdefIdentity": 594,
+  "UDListDefinitionId": 420,
   "Justification": "Center",
-  "Version": 341,
-  "TemplateVariableName": "Halvorson LLC",
+  "Version": 805,
+  "TemplateVariableName": "Bode-Rohan",
   "HasBeenPublished": false,
-  "MdoListName": "Pollich-Hodkiewicz",
+  "MdoListName": "Eichmann-Johns",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldType": "System.String",
+      "FieldLength": 827
     }
   }
 }

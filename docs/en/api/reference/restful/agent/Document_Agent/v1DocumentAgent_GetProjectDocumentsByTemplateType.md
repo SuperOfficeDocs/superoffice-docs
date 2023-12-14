@@ -102,11 +102,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 583,
-  "StartTime": "2012-08-01T13:38:13.4208858+02:00",
-  "EndTime": "2023-03-08T13:38:13.4208858+01:00",
-  "Count": 341,
-  "DocumentTemplateId": 223
+  "ProjectId": 711,
+  "StartTime": "2018-09-30T13:57:12.074872+02:00",
+  "EndTime": "2000-07-31T13:57:12.074872+02:00",
+  "Count": 863,
+  "DocumentTemplateId": 738
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 492,
-    "Attention": "est",
-    "Header": "est",
-    "Name": "Lehner Inc and Sons",
-    "OurRef": "quae",
-    "YourRef": "facilis",
-    "Description": "Future-proofed bifurcated pricing structure",
-    "DocumentTemplate": "nulla",
-    "IsPublished": false,
-    "PersonId": 846,
-    "PersonFullName": "Lessie Wehner",
-    "AssociateFullName": "Dr. Adolph Jared Gleichner DDS",
-    "ContactId": 958,
-    "ContactName": "Bauch-Cremin",
-    "ProjectId": 605,
-    "ProjectName": "Borer, Hegmann and Gibson",
-    "AssociateId": 1001,
-    "Snum": 888,
-    "SaleId": 611,
-    "SaleName": "Feest-Cruickshank",
+    "DocumentId": 70,
+    "Attention": "eius",
+    "Header": "maxime",
+    "Name": "Hoppe Inc and Sons",
+    "OurRef": "ut",
+    "YourRef": "magni",
+    "Description": "User-centric bottom-line support",
+    "DocumentTemplate": "quae",
+    "IsPublished": true,
+    "PersonId": 88,
+    "PersonFullName": "Mortimer Zieme",
+    "AssociateFullName": "Mrs. Jaquelin Quigley",
+    "ContactId": 693,
+    "ContactName": "Davis, Larkin and Hilpert",
+    "ProjectId": 795,
+    "ProjectName": "Becker-Purdy",
+    "AssociateId": 798,
+    "Snum": 939,
+    "SaleId": 880,
+    "SaleName": "Considine-Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 831
+        "FieldType": "System.Int32",
+        "FieldLength": 743
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 466
+  "ReplyTemplateId": 60
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Graham, Wiegand and Abernathy",
-  "Description": "Synchronised attitude-oriented orchestration",
-  "OwnedByFullName": "Dr. Scot Rempel",
-  "Updated": "2008-07-28T13:38:13.3896326+02:00",
-  "Body": "dolorem",
+  "Name": "Crooks-Friesen",
+  "Description": "Programmable maximized archive",
+  "OwnedByFullName": "Lucie Boehm V",
+  "Updated": "2017-07-20T13:57:12.0280012+02:00",
+  "Body": "odit",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 780
+      "FieldType": "System.Int32",
+      "FieldLength": 811
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 341,
-  "Name": "Crist Inc and Sons",
-  "Tooltip": "et",
+  "Id": 624,
+  "Name": "Mertz-Franecki",
+  "Tooltip": "quia",
   "Deleted": true,
-  "Rank": 849,
+  "Rank": 236,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "odio",
-  "InUseByUserDefinedFields": false,
+  "ListType": "autem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldType": "System.String",
+      "FieldLength": 683
     }
   },
   "_Links": {

@@ -66,16 +66,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Little-Sauer",
+  "TableName": "Cormier LLC",
   "RecordIds": [
-    903,
-    629
+    706,
+    755
   ],
-  "AssociateId": 908
+  "AssociateId": 747
 }
 ```
 

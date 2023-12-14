@@ -79,13 +79,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 830,
-  "Name": "Langosh-Price",
-  "Rank": 782,
-  "Tooltip": "illum",
+  "ResourceId": 38,
+  "Name": "Jaskolski, Mohr and Kshlerin",
+  "Rank": 393,
+  "Tooltip": "tenetur",
   "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "quaerat"
+  "LocationAddress": "praesentium"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 42,
-  "Name": "Sipes, Pagac and West",
-  "Rank": 802,
-  "Tooltip": "consectetur",
+  "ResourceId": 357,
+  "Name": "Gorczany-Ledner",
+  "Rank": 314,
+  "Tooltip": "ea",
   "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "in",
+  "IsLocation": false,
+  "LocationAddress": "modi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 781
+      "FieldType": "System.Int32",
+      "FieldLength": 660
     }
   }
 }

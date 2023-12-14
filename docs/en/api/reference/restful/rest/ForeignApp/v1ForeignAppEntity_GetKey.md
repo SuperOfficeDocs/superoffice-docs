@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 03 Oct 2019 13:38:17 G10T
+Last-Modified: Sat, 04 Apr 1998 13:57:18 G4T
 
 {
-  "Key": "dignissimos",
-  "Value": "necessitatibus",
-  "RecordId": 502,
-  "CreatedDate": "1999-12-27T13:38:17.4524494+01:00",
-  "UpdatedDate": "2019-10-03T13:38:17.4524494+02:00",
-  "UpdatedBy": "aperiam",
-  "CreatedBy": "amet",
-  "TableName": "Ankunding Group",
+  "Key": "quo",
+  "Value": "nisi",
+  "RecordId": 20,
+  "CreatedDate": "2019-03-29T13:57:18.8109737+01:00",
+  "UpdatedDate": "1998-04-04T13:57:18.8109737+02:00",
+  "UpdatedBy": "est",
+  "CreatedBy": "et",
+  "TableName": "McDermott Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 555
+      "FieldType": "System.Int32",
+      "FieldLength": 766
     }
   }
 }

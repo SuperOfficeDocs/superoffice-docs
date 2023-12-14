@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 141,
-    "Name": "Denesik-Wisozk",
-    "ToolTip": "Enim nihil quaerat et laboriosam minima.",
-    "Deleted": true,
-    "Rank": 70,
-    "Type": "modi",
-    "ColorBlock": 463,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2014-11-02T13:38:18.1400255+01:00",
+    "Id": 252,
+    "Name": "Ward-Klein",
+    "ToolTip": "Voluptatum culpa eveniet libero itaque.",
+    "Deleted": false,
+    "Rank": 722,
+    "Type": "delectus",
+    "ColorBlock": 26,
+    "IconHint": "repudiandae",
+    "Selected": true,
+    "LastChanged": "2016-12-20T13:57:19.8908927+01:00",
     "ChildItems": [
       {
-        "Id": 437,
-        "Name": "Oberbrunner-Barton",
-        "ToolTip": "Sit omnis rerum praesentium.",
+        "Id": 717,
+        "Name": "Lockman-D'Amore",
+        "ToolTip": "Voluptatem corrupti ea nesciunt eum et.",
         "Deleted": false,
-        "Rank": 946,
-        "Type": "recusandae",
-        "ColorBlock": 778,
-        "IconHint": "non",
+        "Rank": 944,
+        "Type": "in",
+        "ColorBlock": 620,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2016-12-20T13:38:18.1400255+01:00",
+        "LastChanged": "2005-08-13T13:57:19.8908927+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "nemo",
-        "Hidden": false,
-        "FullName": "Mr. Mitchel Alexandre Heaney MD",
+        "ExtraInfo": "animi",
+        "StyleHint": "architecto",
+        "Hidden": true,
+        "FullName": "Beatrice Smith",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 338
+            "FieldType": "System.Int32",
+            "FieldLength": 107
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "cupiditate",
-    "Hidden": true,
-    "FullName": "Andre Nolan",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Ms. Lora Lockman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 327
+        "FieldLength": 272
       }
     }
   }

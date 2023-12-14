@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "consequatur",
+  "SearchString": "commodi",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(114)320-1491 x20441",
-    "PersonCellPhone": "669-224-1008 x6258",
-    "PersonPrivatePhone": "858.857.4680 x89293",
-    "PersonFaxNumber": "865010",
-    "PersonPagerNumber": "1252717",
-    "PersonEmail": "hudson@klocko.uk",
-    "Id": 138,
-    "Name": "Beer, Hagenes and Schaefer",
-    "Tooltip": "iure",
-    "UniqueId": "fuga",
+    "PersonDirectPhone": "1-705-067-0162 x52619",
+    "PersonCellPhone": "044.716.9009",
+    "PersonPrivatePhone": "1-444-638-4556 x920",
+    "PersonFaxNumber": "1114234",
+    "PersonPagerNumber": "359197",
+    "PersonEmail": "heaven@breitenberg.co.uk",
+    "Id": 791,
+    "Name": "Kuphal Group",
+    "Tooltip": "voluptatibus",
+    "UniqueId": "quos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 158
+        "FieldType": "System.String",
+        "FieldLength": 974
       }
     }
   }

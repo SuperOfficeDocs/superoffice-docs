@@ -85,35 +85,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 176,
-  "Name": "Keebler, Krajcik and Marquardt",
-  "Tooltip": "corrupti",
-  "Rank": 301,
+  "ProjTypeId": 416,
+  "Name": "Collier, Ferry and Parker",
+  "Tooltip": "omnis",
+  "Rank": 599,
   "DurationUnit": "Century",
-  "ProjectDuration": 144,
+  "ProjectDuration": 657,
   "Deleted": true,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 573,
-      "Name": "Hayes Group",
-      "ToolTip": "Et est dicta occaecati cumque deserunt.",
-      "Deleted": false,
-      "Rank": 506,
-      "Type": "omnis",
-      "ColorBlock": 487,
-      "IconHint": "sint",
-      "Selected": false,
-      "LastChanged": "2009-06-13T13:38:13.7177215+02:00",
+      "Id": 662,
+      "Name": "Cormier, Veum and Jaskolski",
+      "ToolTip": "Eaque qui distinctio voluptates sapiente.",
+      "Deleted": true,
+      "Rank": 587,
+      "Type": "error",
+      "ColorBlock": 384,
+      "IconHint": "error",
+      "Selected": true,
+      "LastChanged": "2015-07-02T13:57:12.575585+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "aut",
-      "Hidden": false,
-      "FullName": "Devyn Sporer"
+      "ExtraInfo": "quisquam",
+      "StyleHint": "quo",
+      "Hidden": true,
+      "FullName": "Prof. Terence Darren Walker"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 51,
-  "Name": "Huel-Wintheiser",
-  "Tooltip": "ut",
-  "Rank": 994,
+  "ProjTypeId": 384,
+  "Name": "Ritchie Inc and Sons",
+  "Tooltip": "earum",
+  "Rank": 493,
   "DurationUnit": "Century",
-  "ProjectDuration": 126,
+  "ProjectDuration": 780,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 38,
-      "Name": "Beahan Group",
-      "ToolTip": "Alias et dolor.",
-      "Deleted": false,
-      "Rank": 175,
-      "Type": "quaerat",
-      "ColorBlock": 209,
-      "IconHint": "voluptatem",
+      "Id": 270,
+      "Name": "Ruecker, King and Emard",
+      "ToolTip": "In optio veniam.",
+      "Deleted": true,
+      "Rank": 191,
+      "Type": "distinctio",
+      "ColorBlock": 540,
+      "IconHint": "non",
       "Selected": false,
-      "LastChanged": "2020-11-04T13:38:13.7177215+01:00",
+      "LastChanged": "2003-10-06T13:57:12.575585+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magni",
-      "StyleHint": "iure",
+      "ExtraInfo": "quas",
+      "StyleHint": "laboriosam",
       "Hidden": false,
-      "FullName": "Rebeka Doyle Mraz III",
+      "FullName": "Marisa Terry",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 25
+          "FieldLength": 873
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldLength": 420
     }
   }
 }

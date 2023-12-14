@@ -94,20 +94,20 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 988,
-  "Name": "Schuppe Group",
-  "Tooltip": "laudantium",
-  "Deleted": false,
-  "Rank": 710,
+  "Id": 948,
+  "Name": "Zulauf-Reichert",
+  "Tooltip": "iure",
+  "Deleted": true,
+  "Rank": 465,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "similique",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "saepe",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 189,
-  "Name": "Kunze Inc and Sons",
-  "Tooltip": "placeat",
+  "Id": 159,
+  "Name": "Schulist Inc and Sons",
+  "Tooltip": "cumque",
   "Deleted": true,
-  "Rank": 627,
+  "Rank": 870,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "excepturi",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 516
+      "FieldType": "System.Int32",
+      "FieldLength": 654
     }
   },
   "_Links": {

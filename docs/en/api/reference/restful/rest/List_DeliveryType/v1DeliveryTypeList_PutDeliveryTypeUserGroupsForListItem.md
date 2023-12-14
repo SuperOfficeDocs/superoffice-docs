@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Ruecker, Ondricka and Grimes",
-    "ToolTip": "Iste ad deserunt sapiente magni provident.",
+    "Id": 426,
+    "Name": "Rice-Kunze",
+    "ToolTip": "Sunt nemo inventore omnis quis.",
     "Deleted": false,
-    "Rank": 555,
-    "Type": "doloribus",
-    "ColorBlock": 495,
-    "IconHint": "corporis",
+    "Rank": 117,
+    "Type": "aspernatur",
+    "ColorBlock": 560,
+    "IconHint": "facere",
     "Selected": true,
-    "LastChanged": "2003-12-06T13:38:18.0462875+01:00",
+    "LastChanged": "2003-09-05T13:57:19.7502685+02:00",
     "ChildItems": [
       {
-        "Id": 728,
-        "Name": "Douglas-Rempel",
-        "ToolTip": "Sit quia dolore.",
+        "Id": 595,
+        "Name": "Volkman, Schultz and Luettgen",
+        "ToolTip": "Esse at quo nam.",
         "Deleted": true,
-        "Rank": 181,
-        "Type": "enim",
-        "ColorBlock": 912,
-        "IconHint": "eos",
+        "Rank": 927,
+        "Type": "tenetur",
+        "ColorBlock": 446,
+        "IconHint": "animi",
         "Selected": false,
-        "LastChanged": "2001-10-17T13:38:18.0462875+02:00",
+        "LastChanged": "2021-01-16T13:57:19.7502685+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Brielle Braun"
+        "ExtraInfo": "cum",
+        "StyleHint": "similique",
+        "Hidden": true,
+        "FullName": "Prof. Stephen Mayert IV"
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "dignissimos",
-    "Hidden": true,
-    "FullName": "Stan Mayert"
+    "ExtraInfo": "accusamus",
+    "StyleHint": "facilis",
+    "Hidden": false,
+    "FullName": "Jordane Greenholt MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 365,
-    "Name": "Gottlieb-King",
-    "ToolTip": "Labore aut unde ab.",
+    "Id": 499,
+    "Name": "Carter-Jacobi",
+    "ToolTip": "Ex ea facere aut laudantium cum.",
     "Deleted": false,
-    "Rank": 767,
-    "Type": "excepturi",
-    "ColorBlock": 962,
-    "IconHint": "molestias",
-    "Selected": true,
-    "LastChanged": "1999-11-27T13:38:18.0462875+01:00",
+    "Rank": 94,
+    "Type": "vero",
+    "ColorBlock": 547,
+    "IconHint": "alias",
+    "Selected": false,
+    "LastChanged": "2013-04-29T13:57:19.7502685+02:00",
     "ChildItems": [
       {
-        "Id": 259,
-        "Name": "Russel Inc and Sons",
-        "ToolTip": "Animi illo modi minus sequi in ex.",
-        "Deleted": false,
-        "Rank": 632,
-        "Type": "qui",
-        "ColorBlock": 89,
-        "IconHint": "sed",
+        "Id": 909,
+        "Name": "Hilpert LLC",
+        "ToolTip": "Et eligendi iusto culpa voluptatem.",
+        "Deleted": true,
+        "Rank": 248,
+        "Type": "accusantium",
+        "ColorBlock": 309,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2009-12-11T13:38:18.0462875+01:00",
+        "LastChanged": "2006-10-18T13:57:19.7502685+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "quasi",
+        "StyleHint": "sit",
         "Hidden": true,
-        "FullName": "Mrs. Retha Clint Hammes DDS",
+        "FullName": "Major Huel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 765
+            "FieldLength": 695
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "iste",
-    "Hidden": true,
-    "FullName": "Demarcus Alia Smith V",
+    "ExtraInfo": "est",
+    "StyleHint": "perspiciatis",
+    "Hidden": false,
+    "FullName": "Sydnie Hintz DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 203
+        "FieldType": "System.Int32",
+        "FieldLength": 188
       }
     }
   }

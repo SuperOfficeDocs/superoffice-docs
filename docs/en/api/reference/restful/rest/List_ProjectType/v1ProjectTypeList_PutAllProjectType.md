@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 689,
-    "Name": "Leuschke LLC",
-    "Tooltip": "non",
+    "Id": 482,
+    "Name": "Leannon-Crist",
+    "Tooltip": "amet",
     "Deleted": false,
-    "UdListDefinitionId": 534,
-    "Rank": 357
+    "UdListDefinitionId": 149,
+    "Rank": 932
   },
   {
-    "Id": 689,
-    "Name": "Leuschke LLC",
-    "Tooltip": "non",
+    "Id": 482,
+    "Name": "Leannon-Crist",
+    "Tooltip": "amet",
     "Deleted": false,
-    "UdListDefinitionId": 534,
-    "Rank": 357
+    "UdListDefinitionId": 149,
+    "Rank": 932
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Lowe-Stiedemann",
-    "Tooltip": "facere",
+    "Id": 683,
+    "Name": "Breitenberg Group",
+    "Tooltip": "qui",
     "Deleted": true,
-    "UdListDefinitionId": 940,
-    "Rank": 998,
+    "UdListDefinitionId": 64,
+    "Rank": 737,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 443
+        "FieldType": "System.Int32",
+        "FieldLength": 4
       }
     }
   }

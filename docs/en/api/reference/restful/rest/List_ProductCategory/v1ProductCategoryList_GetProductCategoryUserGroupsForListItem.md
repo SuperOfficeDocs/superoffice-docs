@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 105,
-    "Name": "Nitzsche, Fisher and Franecki",
-    "ToolTip": "Dolores velit alias nostrum.",
-    "Deleted": true,
-    "Rank": 983,
-    "Type": "amet",
-    "ColorBlock": 493,
-    "IconHint": "sapiente",
-    "Selected": false,
-    "LastChanged": "2008-05-10T13:38:18.1244081+02:00",
+    "Id": 969,
+    "Name": "Fahey LLC",
+    "ToolTip": "Dolores et.",
+    "Deleted": false,
+    "Rank": 551,
+    "Type": "consequatur",
+    "ColorBlock": 928,
+    "IconHint": "ipsa",
+    "Selected": true,
+    "LastChanged": "2016-05-21T13:57:19.8596433+02:00",
     "ChildItems": [
       {
-        "Id": 702,
-        "Name": "Johnston Group",
-        "ToolTip": "Laudantium officia est et dolores aut quia.",
+        "Id": 885,
+        "Name": "Robel Inc and Sons",
+        "ToolTip": "Impedit doloribus aspernatur laudantium totam.",
         "Deleted": false,
-        "Rank": 908,
-        "Type": "aut",
-        "ColorBlock": 652,
-        "IconHint": "vitae",
-        "Selected": false,
-        "LastChanged": "2022-04-12T13:38:18.1244081+02:00",
+        "Rank": 699,
+        "Type": "in",
+        "ColorBlock": 904,
+        "IconHint": "ducimus",
+        "Selected": true,
+        "LastChanged": "2005-11-14T13:57:19.8596433+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "vero",
+        "ExtraInfo": "ab",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Neil Anderson",
+        "FullName": "Ms. Myrtle Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 797
+            "FieldLength": 205
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "sed",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Ronny Upton",
+    "FullName": "Liana Hilll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 773
+        "FieldType": "System.Int32",
+        "FieldLength": 273
       }
     }
   }

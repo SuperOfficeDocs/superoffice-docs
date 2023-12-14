@@ -135,16 +135,16 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceTicketEntityId": 298,
-  "SourceTicketEntityStatusId": 954,
-  "SourceTicketEntityActivate": "2018-05-15T13:38:14.2646807+02:00",
+  "SourceTicketEntityId": 263,
+  "SourceTicketEntityStatusId": 163,
+  "SourceTicketEntityActivate": "2021-01-07T13:57:13.411477+01:00",
   "TransferMessageIds": [
-    573,
-    482
+    907,
+    236
   ],
   "NewTicketEntity": null
 }
@@ -157,21 +157,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 773,
-  "Title": "vel",
-  "CreatedAt": "2014-03-29T13:38:14.2803047+01:00",
-  "LastChanged": "2007-04-21T13:38:14.2803047+02:00",
-  "ReadByOwner": "2019-07-04T13:38:14.2803047+02:00",
-  "ReadByCustomer": "2011-09-28T13:38:14.2803047+02:00",
-  "FirstReadByOwner": "2009-04-04T13:38:14.2803047+02:00",
-  "FirstReadByUser": "2010-02-06T13:38:14.2803047+01:00",
-  "Activate": "2013-08-23T13:38:14.2803047+02:00",
-  "ClosedAt": "2005-09-19T13:38:14.2803047+02:00",
-  "RepliedAt": "1997-10-04T13:38:14.2803047+02:00",
-  "AlertTimeout": "2020-01-19T13:38:14.2803047+01:00",
-  "Deadline": "2003-12-04T13:38:14.2803047+01:00",
+  "TicketId": 587,
+  "Title": "aliquam",
+  "CreatedAt": "2015-11-19T13:57:13.411477+01:00",
+  "LastChanged": "2003-11-21T13:57:13.411477+01:00",
+  "ReadByOwner": "2022-11-15T13:57:13.411477+01:00",
+  "ReadByCustomer": "2016-01-04T13:57:13.411477+01:00",
+  "FirstReadByOwner": "2017-05-18T13:57:13.411477+02:00",
+  "FirstReadByUser": "2014-02-16T13:57:13.411477+01:00",
+  "Activate": "2003-04-27T13:57:13.411477+02:00",
+  "ClosedAt": "2019-03-01T13:57:13.411477+01:00",
+  "RepliedAt": "2002-06-11T13:57:13.411477+02:00",
+  "AlertTimeout": "2022-11-01T13:57:13.411477+01:00",
+  "Deadline": "2015-07-23T13:57:13.411477+02:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "quidem",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -182,161 +182,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "fugit",
-      "PersonId": 81,
-      "Mrmrs": "culpa",
-      "Firstname": "Rudolph",
-      "Lastname": "Harris",
-      "MiddleName": "Bosco, Vandervort and Bradtke",
-      "Title": "architecto",
-      "Description": "Down-sized secondary system engine",
-      "Email": "clarissa@hickle.info",
-      "FullName": "Cornell Hahn",
-      "DirectPhone": "1-630-550-3791",
-      "FormalName": "Casper LLC",
-      "CountryId": 403,
-      "ContactId": 411,
-      "ContactName": "McLaughlin, Shields and Jacobi",
-      "Retired": 725,
-      "Rank": 139,
-      "ActiveInterests": 826,
+      "Position": "ea",
+      "PersonId": 50,
+      "Mrmrs": "voluptatem",
+      "Firstname": "Elvera",
+      "Lastname": "Auer",
+      "MiddleName": "Tremblay Group",
+      "Title": "autem",
+      "Description": "Persistent national forecast",
+      "Email": "gerson_altenwerth@tromp.com",
+      "FullName": "Emilie Towne",
+      "DirectPhone": "1-323-379-4183 x4420",
+      "FormalName": "Blanda Group",
+      "CountryId": 44,
+      "ContactId": 970,
+      "ContactName": "Price Inc and Sons",
+      "Retired": 153,
+      "Rank": 981,
+      "ActiveInterests": 48,
       "ContactDepartment": "",
-      "ContactCountryId": 547,
-      "ContactOrgNr": "968047",
-      "FaxPhone": "809-249-5115",
-      "MobilePhone": "473.629.1240",
-      "ContactPhone": "078.868.4493 x20550",
-      "AssociateName": "Feil-Wolff",
-      "AssociateId": 478,
-      "UsePersonAddress": true,
-      "ContactFax": "itaque",
-      "Kanafname": "porro",
-      "Kanalname": "quo",
-      "Post1": "at",
-      "Post2": "dolores",
-      "Post3": "sapiente",
-      "EmailName": "raymundo.balistreri@baumbach.us",
-      "ContactFullName": "Giles Veum",
-      "ActiveErpLinks": 732,
-      "TicketPriorityId": 424,
-      "SupportLanguageId": 866,
-      "SupportAssociateId": 625,
+      "ContactCountryId": 210,
+      "ContactOrgNr": "923549",
+      "FaxPhone": "(432)559-9096",
+      "MobilePhone": "200.870.9003 x73097",
+      "ContactPhone": "1-264-002-9968 x0818",
+      "AssociateName": "Goyette Inc and Sons",
+      "AssociateId": 78,
+      "UsePersonAddress": false,
+      "ContactFax": "doloribus",
+      "Kanafname": "consequatur",
+      "Kanalname": "aliquam",
+      "Post1": "non",
+      "Post2": "officiis",
+      "Post3": "id",
+      "EmailName": "lucio_lockman@blandarau.info",
+      "ContactFullName": "Bart Ritchie",
+      "ActiveErpLinks": 349,
+      "TicketPriorityId": 166,
+      "SupportLanguageId": 522,
+      "SupportAssociateId": 520,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldType": "System.String",
+          "FieldLength": 519
         }
       }
     }
   ],
-  "AlertLevel": 345,
-  "ConnectId": 275,
+  "AlertLevel": 630,
+  "ConnectId": 984,
   "ReadStatus": "Green",
-  "TimeToReply": 801,
-  "RealTimeToReply": 3,
-  "TimeToClose": 702,
-  "RealTimeToClose": 626,
-  "TimeSpentInternally": 449,
-  "TimeSpentExternally": 632,
-  "TimeSpentQueue": 342,
-  "RealTimeSpentInternally": 275,
-  "RealTimeSpentExternally": 17,
-  "RealTimeSpentQueue": 464,
-  "TimeSpent": 832,
+  "TimeToReply": 48,
+  "RealTimeToReply": 375,
+  "TimeToClose": 74,
+  "RealTimeToClose": 368,
+  "TimeSpentInternally": 232,
+  "TimeSpentExternally": 803,
+  "TimeSpentQueue": 324,
+  "RealTimeSpentInternally": 173,
+  "RealTimeSpentExternally": 906,
+  "RealTimeSpentQueue": 910,
+  "TimeSpent": 899,
   "HasAttachment": false,
-  "NumReplies": 695,
-  "NumMessages": 928,
-  "FromAddress": "debitis",
+  "NumReplies": 478,
+  "NumMessages": 551,
+  "FromAddress": "enim",
   "Messages": [
     {
-      "TicketMessageId": 369,
-      "CreatedAt": "2012-02-26T13:38:14.2803047+01:00",
+      "TicketMessageId": 114,
+      "CreatedAt": "2000-09-19T13:57:13.4270928+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "repellat",
-      "PersonId": 771,
-      "PersonFullName": "Dr. Emily Herzog Sr.",
-      "ContactId": 244,
-      "ContactName": "Dibbert, Jerde and Wehner",
+      "Important": false,
+      "Author": "aut",
+      "PersonId": 701,
+      "PersonFullName": "Jacey Ruecker",
+      "ContactId": 890,
+      "ContactName": "Kutch, Nolan and Gulgowski",
       "ContactDepartment": "",
-      "NumAttachments": 54,
-      "EmailHeader": "eriberto.white@morissette.biz",
+      "NumAttachments": 104,
+      "EmailHeader": "henriette_gislason@kuhic.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "nesciunt",
-      "Sentiment": 971,
-      "SentimentConfidence": 670,
-      "CreatedBy": 841,
-      "ChangedAt": "2017-05-15T13:38:14.2803047+02:00",
+      "Language": "non",
+      "Sentiment": 57,
+      "SentimentConfidence": 322,
+      "CreatedBy": 416,
+      "ChangedAt": "2016-06-30T13:57:13.4270928+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 643
+          "FieldLength": 460
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 770,
-      "Name": "Schoen, Schuster and Stamm",
-      "ToolTip": "Quas officiis mollitia eum labore.",
+      "Id": 837,
+      "Name": "Stoltenberg Group",
+      "ToolTip": "Laudantium numquam dolor provident quo alias veniam est.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 862
+          "FieldType": "System.Int32",
+          "FieldLength": 17
         }
       }
     },
     {
-      "Id": 770,
-      "Name": "Schoen, Schuster and Stamm",
-      "ToolTip": "Quas officiis mollitia eum labore.",
+      "Id": 837,
+      "Name": "Stoltenberg Group",
+      "ToolTip": "Laudantium numquam dolor provident quo alias veniam est.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 862
+          "FieldType": "System.Int32",
+          "FieldLength": 17
         }
       }
     }
   ],
-  "Language": "quis",
-  "Sentiment": 550,
-  "SentimentConfidence": 544,
-  "SuggestedCategoryId": 690,
+  "Language": "iusto",
+  "Sentiment": 417,
+  "SentimentConfidence": 764,
+  "SuggestedCategoryId": 706,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 412,
-  "IconHint": "necessitatibus",
+  "OrigHumanCategoryId": 993,
+  "IconHint": "quis",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "beatae"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "qui"
+    "CustomFields1": "maxime",
+    "CustomFields2": "esse"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 623
+      "FieldType": "System.Int32",
+      "FieldLength": 634
     }
   }
 }

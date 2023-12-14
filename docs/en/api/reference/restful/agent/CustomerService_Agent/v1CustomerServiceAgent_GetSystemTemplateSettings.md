@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 773,
-  "CustomerCustomerReplyTemplateId": 886,
-  "CustomerPasswordTemplateId": 954,
-  "CustomerConfirmEmailTemplateId": 314,
-  "CustomerChatLogTemplateId": 523,
-  "NewLinkTemplateId": 855,
-  "HotlistNewMessageTemplateId": 298,
-  "HotlistTicketActivatedTemplateId": 306,
-  "UserTicketAlarmTemplateId": 691,
-  "HotlistTicketTakenOverTemplateId": 1001,
-  "UserActiveTicketsTemplateId": 330,
-  "UserNewMessageTemplateId": 998,
-  "UserTicketActivatedTemplateId": 26,
-  "UserNewTicketTemplateId": 232,
-  "PublishKbQuestionTemplateId": 42,
-  "PublishKbAnswerTemplateId": 557,
-  "UserTicketTakenOverTemplateId": 381,
-  "PrintTicketTemplateId": 466,
-  "WeekStatTemplateId": 928,
-  "TicketAlarmHotlistTemplateId": 357,
-  "EmailAddresses": "cali.kunze@miller.biz",
+  "CustomerNewCustomerTemplateId": 979,
+  "CustomerCustomerReplyTemplateId": 72,
+  "CustomerPasswordTemplateId": 733,
+  "CustomerConfirmEmailTemplateId": 264,
+  "CustomerChatLogTemplateId": 908,
+  "NewLinkTemplateId": 469,
+  "HotlistNewMessageTemplateId": 150,
+  "HotlistTicketActivatedTemplateId": 523,
+  "UserTicketAlarmTemplateId": 731,
+  "HotlistTicketTakenOverTemplateId": 956,
+  "UserActiveTicketsTemplateId": 295,
+  "UserNewMessageTemplateId": 512,
+  "UserTicketActivatedTemplateId": 297,
+  "UserNewTicketTemplateId": 100,
+  "PublishKbQuestionTemplateId": 609,
+  "PublishKbAnswerTemplateId": 279,
+  "UserTicketTakenOverTemplateId": 777,
+  "PrintTicketTemplateId": 621,
+  "WeekStatTemplateId": 67,
+  "TicketAlarmHotlistTemplateId": 5,
+  "EmailAddresses": "jeff@padberg.us",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldType": "System.String",
+      "FieldLength": 450
     }
   }
 }

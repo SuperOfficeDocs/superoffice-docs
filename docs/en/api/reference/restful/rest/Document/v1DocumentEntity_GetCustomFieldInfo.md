@@ -71,7 +71,7 @@ OK
 GET /api/v1/Document/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Morissette-Thompson",
-  "DisplayName": "Larkin, Rolfson and Witting",
-  "Description": "De-engineered assymetric time-frame",
-  "ShortLabel": "dicta",
+  "FieldName": "Senger Inc and Sons",
+  "DisplayName": "Parker Inc and Sons",
+  "Description": "Automated tertiary contingency",
+  "ShortLabel": "eaque",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 953,
-  "TemplateVariableName": "Towne LLC"
+  "IsMandatory": true,
+  "IsReadOnly": true,
+  "IsExternal": true,
+  "Rank": 679,
+  "TemplateVariableName": "Emmerich Inc and Sons"
 }
 ```

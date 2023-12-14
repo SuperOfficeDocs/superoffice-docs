@@ -25,7 +25,7 @@ Gets all the Source items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Source/Items?includeDeleted=False
+GET /api/v1/List/Source/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Shields LLC",
-    "Tooltip": "qui",
+    "Id": 167,
+    "Name": "Hilpert-Corwin",
+    "Tooltip": "est",
     "Deleted": true,
-    "UdListDefinitionId": 671,
-    "Rank": 744,
+    "UdListDefinitionId": 833,
+    "Rank": 852,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldLength": 484
       }
     }
   }

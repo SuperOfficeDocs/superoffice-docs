@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 926,
-  "Name": "Gusikowski, Christiansen and Okuneva",
-  "Tooltip": "vitae",
-  "Deleted": false,
-  "Rank": 658,
+  "Id": 614,
+  "Name": "Casper Inc and Sons",
+  "Tooltip": "dolorem",
+  "Deleted": true,
+  "Rank": 612,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aliquid",
-  "InUseByUserDefinedFields": true,
+  "ListType": "expedita",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldLength": 627
     }
   }
 }

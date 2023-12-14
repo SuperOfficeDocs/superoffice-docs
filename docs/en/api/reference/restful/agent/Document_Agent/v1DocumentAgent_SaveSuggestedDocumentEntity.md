@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 81,
-  "Name": "Nolan-Williamson",
-  "Tooltip": "est",
-  "Rank": 602,
-  "DoctmplId": 232,
-  "Header": "qui",
-  "OurRef": "voluptatem",
-  "Deleted": false,
+  "SuggestedDocumentId": 349,
+  "Name": "Thiel-Mann",
+  "Tooltip": "ut",
+  "Rank": 16,
+  "DoctmplId": 550,
+  "Header": "dolores",
+  "OurRef": "natus",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 152,
-  "Name": "Witting, Aufderhar and Emard",
-  "Tooltip": "et",
-  "Rank": 395,
-  "DoctmplId": 766,
-  "Header": "culpa",
-  "OurRef": "itaque",
+  "SuggestedDocumentId": 458,
+  "Name": "Hammes LLC",
+  "Tooltip": "dolor",
+  "Rank": 738,
+  "DoctmplId": 990,
+  "Header": "accusamus",
+  "OurRef": "repellendus",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 368
+      "FieldType": "System.Int32",
+      "FieldLength": 686
     }
   }
 }

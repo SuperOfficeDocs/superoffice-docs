@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 214,
-  "TopicId": 10,
+  "ChatSessionId": 176,
+  "TopicId": 54,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ut",
-  "CustomerHost": "ut",
-  "CustomerName": "Hoeger Group",
-  "CustomerEmail": "holden@connelly.name",
-  "CustomerPhone": "(057)384-0238 x08850",
+  "CustomerAlias": "occaecati",
+  "CustomerHost": "corporis",
+  "CustomerName": "Metz Group",
+  "CustomerEmail": "carleton@krisbartoletti.info",
+  "CustomerPhone": "720-478-3168 x000",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Fritsch Inc and Sons",
+  "CustomerCompanyName": "Ziemann, VonRueden and Abbott",
   "Status": "Closed",
-  "FirstMessage": "aliquam",
-  "LastMessage": "asperiores",
-  "WhenRequested": "1996-10-21T13:38:17.15557+02:00",
-  "WhenStarted": "1997-06-29T13:38:17.15557+02:00",
-  "WhenEnded": "2003-09-20T13:38:17.15557+02:00",
-  "WhenIdle": "2005-08-10T13:38:17.15557+02:00",
-  "WhenFetched": "2005-10-06T13:38:17.15557+02:00",
-  "SessionKey": "nesciunt",
-  "InitialQueuePos": 738,
-  "AlertLevel": 191,
-  "Rank": 502,
+  "FirstMessage": "nam",
+  "LastMessage": "impedit",
+  "WhenRequested": "2010-03-17T13:57:18.4971905+01:00",
+  "WhenStarted": "2016-01-24T13:57:18.4971905+01:00",
+  "WhenEnded": "1998-07-25T13:57:18.4971905+02:00",
+  "WhenIdle": "2023-02-28T13:57:18.4971905+01:00",
+  "WhenFetched": "2009-06-20T13:57:18.4971905+02:00",
+  "SessionKey": "eius",
+  "InitialQueuePos": 390,
+  "AlertLevel": 137,
+  "Rank": 446,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 232,
+  "Rating": 457,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 146
+      "FieldLength": 514
     }
   }
 }

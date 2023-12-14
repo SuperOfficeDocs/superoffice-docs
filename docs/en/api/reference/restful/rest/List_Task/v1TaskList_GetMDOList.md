@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=perferendis
+GET /api/v1/List/Task/MDOItems?query=aut
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 218,
-    "Name": "Schneider Inc and Sons",
-    "ToolTip": "Illum nam.",
+    "Id": 864,
+    "Name": "Sanford-Jenkins",
+    "ToolTip": "Saepe dolor veritatis.",
     "Deleted": false,
-    "Rank": 557,
-    "Type": "cum",
+    "Rank": 429,
+    "Type": "dolor",
     "ChildItems": [
       {
-        "Id": 820,
-        "Name": "Boyle, Haley and Langworth",
-        "ToolTip": "Ex ipsam quae.",
-        "Deleted": false,
-        "Rank": 656,
-        "Type": "dolor",
+        "Id": 189,
+        "Name": "Hettinger Inc and Sons",
+        "ToolTip": "Modi quo.",
+        "Deleted": true,
+        "Rank": 807,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "saepe",
-        "ColorBlock": 820,
-        "ExtraInfo": "voluptates",
-        "StyleHint": "minima",
-        "FullName": "Walker Thiel",
+        "IconHint": "non",
+        "ColorBlock": 130,
+        "ExtraInfo": "quasi",
+        "StyleHint": "similique",
+        "FullName": "Thaddeus Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 887
+            "FieldLength": 693
           }
         }
       }
     ],
-    "IconHint": "rem",
-    "ColorBlock": 796,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "ratione",
-    "FullName": "Miss Alec Kemmer",
+    "IconHint": "culpa",
+    "ColorBlock": 664,
+    "ExtraInfo": "fugit",
+    "StyleHint": "atque",
+    "FullName": "Miss Sylvan Senger MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldLength": 480
       }
     }
   }

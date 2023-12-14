@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 770,
-  "Name": "Wolff, Waters and Swift",
-  "AssociateId": 261,
-  "DetailsTable": 1002,
-  "DetailsRecord": 638,
+  "Id": 995,
+  "Name": "Reilly-Bartoletti",
+  "AssociateId": 545,
+  "DetailsTable": 215,
+  "DetailsRecord": 525,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "officia",
-    "ParameterObject2": "iste"
+    "ParameterObject1": "temporibus",
+    "ParameterObject2": "modi"
   },
-  "LastStarted": "2000-08-11T13:38:17.7650302+02:00",
-  "Created": "2002-01-17T13:38:17.7650302+01:00",
-  "StartCount": 720,
-  "DatabaseSerialNumber": "771474",
-  "Context": "aut",
-  "Result": "architecto",
+  "LastStarted": "2007-04-02T13:57:19.4221461+02:00",
+  "Created": "2023-09-05T13:57:19.4221461+02:00",
+  "StartCount": 724,
+  "DatabaseSerialNumber": "1291953",
+  "Context": "corporis",
+  "Result": "ullam",
   "State": "All",
-  "Description": "Assimilated fresh-thinking workforce",
-  "Response": "quisquam",
-  "Request": "magni",
-  "ProgressDescription": "Operative disintermediate focus group",
-  "ProgressPercent": 536,
-  "FileName": "Hessel, Batz and Hodkiewicz",
+  "Description": "Sharable methodical hub",
+  "Response": "tempora",
+  "Request": "sunt",
+  "ProgressDescription": "Virtual holistic hierarchy",
+  "ProgressPercent": 459,
+  "FileName": "Parker, Kovacek and Buckridge",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 544
     }
   }
 }

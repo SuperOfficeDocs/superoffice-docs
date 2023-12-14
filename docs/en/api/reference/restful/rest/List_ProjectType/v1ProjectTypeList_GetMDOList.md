@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=molestias
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=eos
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 554,
-    "Name": "Runte-Thompson",
-    "ToolTip": "Sequi dolores.",
-    "Deleted": true,
-    "Rank": 253,
-    "Type": "ab",
+    "Id": 752,
+    "Name": "Leuschke, Lindgren and Fadel",
+    "ToolTip": "Sunt labore qui itaque tempore rerum.",
+    "Deleted": false,
+    "Rank": 556,
+    "Type": "assumenda",
     "ChildItems": [
       {
-        "Id": 272,
-        "Name": "Fadel LLC",
-        "ToolTip": "Distinctio veniam quod voluptate deleniti cum ullam.",
+        "Id": 634,
+        "Name": "Collier, Thiel and Reichel",
+        "ToolTip": "Accusamus enim dolore non error nisi architecto.",
         "Deleted": false,
-        "Rank": 528,
-        "Type": "quas",
+        "Rank": 809,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 136,
-        "ExtraInfo": "enim",
-        "StyleHint": "deserunt",
-        "FullName": "Roman Pacocha DVM",
+        "IconHint": "ab",
+        "ColorBlock": 165,
+        "ExtraInfo": "aut",
+        "StyleHint": "eos",
+        "FullName": "Rachael Deckow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 240
+            "FieldType": "System.Int32",
+            "FieldLength": 113
           }
         }
       }
     ],
-    "IconHint": "iste",
-    "ColorBlock": 532,
+    "IconHint": "et",
+    "ColorBlock": 698,
     "ExtraInfo": "aut",
-    "StyleHint": "qui",
-    "FullName": "Genesis Nader",
+    "StyleHint": "incidunt",
+    "FullName": "Miss Alexandre Renner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldType": "System.String",
+        "FieldLength": 712
       }
     }
   }

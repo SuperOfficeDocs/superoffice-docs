@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 162,
-      "ContactName": "Kuphal, Stroman and Lemke",
-      "PersonId": 385,
-      "PersonName": "Walker-Dibbert",
-      "AssociateId": 675,
-      "Address": "voluptatem",
-      "EmailId": 242,
+      "ContactId": 401,
+      "ContactName": "Runte-Tromp",
+      "PersonId": 108,
+      "PersonName": "Lubowitz Group",
+      "AssociateId": 168,
+      "Address": "quis",
+      "EmailId": 499,
       "DuplicatePersonIds": [
-        391,
-        438
+        229,
+        621
       ],
-      "Name": "Huels-Lynch",
+      "Name": "Altenwerth, Dooley and Little",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 87
+          "FieldLength": 535
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 376,
-      "ContactName": "Stokes Group",
-      "PersonId": 589,
-      "PersonName": "Dicki Inc and Sons",
-      "AssociateId": 475,
-      "Address": "facilis",
-      "EmailId": 264,
+      "ContactId": 252,
+      "ContactName": "Von-Medhurst",
+      "PersonId": 474,
+      "PersonName": "Simonis, Gutkowski and Ryan",
+      "AssociateId": 893,
+      "Address": "omnis",
+      "EmailId": 986,
       "DuplicatePersonIds": [
-        444,
-        67
+        279,
+        962
       ],
-      "Name": "Connelly LLC",
+      "Name": "Ankunding LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldType": "System.String",
+          "FieldLength": 192
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 667,
-      "ContactName": "Marquardt, King and Flatley",
-      "PersonId": 567,
-      "PersonName": "Reinger-Dicki",
-      "AssociateId": 126,
-      "Address": "quasi",
-      "EmailId": 837,
+      "ContactId": 686,
+      "ContactName": "Metz-Rohan",
+      "PersonId": 919,
+      "PersonName": "Reinger Inc and Sons",
+      "AssociateId": 538,
+      "Address": "et",
+      "EmailId": 95,
       "DuplicatePersonIds": [
-        555,
-        336
+        443,
+        407
       ],
-      "Name": "Nikolaus Group",
+      "Name": "Fay LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 594
+          "FieldType": "System.Int32",
+          "FieldLength": 129
         }
       }
     }
   ],
-  "Subject": "nemo",
-  "HTMLBody": "provident",
+  "Subject": "rerum",
+  "HTMLBody": "dolorum",
   "From": null,
-  "Sent": "2021-04-14T13:38:13.5771153+02:00",
-  "Size": 700,
+  "Sent": "2013-10-13T13:57:12.3399846+02:00",
+  "Size": 266,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "aut",
+  "MessageID": "ab",
+  "PlainBody": "eum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 616,
+  "ServerId": 398,
   "Attachments": [
     {
-      "Description": "Switchable incremental moderator",
-      "Filename": "fugit",
-      "Size": 73,
-      "Type": "temporibus",
-      "Encoding": "suscipit",
-      "Id": "aut",
-      "Disposition": "rem",
-      "IsSafeFileExtension": false,
+      "Description": "Implemented stable intranet",
+      "Filename": "dignissimos",
+      "Size": 637,
+      "Type": "et",
+      "Encoding": "quis",
+      "Id": "totam",
+      "Disposition": "eveniet",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldLength": 136
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Medhurst Group",
+      "Name": "Heller, Powlowski and Walsh",
       "Values": [
-        "pariatur",
-        "dolor"
+        "ipsa",
+        "sed"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldType": "System.String",
+          "FieldLength": 753
         }
       }
     },
     {
-      "Name": "Medhurst Group",
+      "Name": "Heller, Powlowski and Walsh",
       "Values": [
-        "pariatur",
-        "dolor"
+        "ipsa",
+        "sed"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldType": "System.String",
+          "FieldLength": 753
         }
       }
     }
   ],
-  "FolderName": "Mann Group",
-  "EmailItemId": 53,
-  "AccountId": 891,
-  "ReceivedAt": "2007-06-28T13:38:13.5771153+02:00",
+  "FolderName": "Hessel, Stokes and Mueller",
+  "EmailItemId": 686,
+  "AccountId": 900,
+  "ReceivedAt": "2002-07-30T13:57:12.3399846+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-03-01T13:38:13.5771153+01:00",
+  "RepliedAt": "2020-11-20T13:57:12.3399846+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 476
+      "FieldType": "System.Int32",
+      "FieldLength": 99
     }
   }
 }

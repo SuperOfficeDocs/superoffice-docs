@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 850,
-    "LCID": 105,
-    "EnglishName": "Torp-D'Amore",
-    "NativeName": "Toy, Cruickshank and Becker",
-    "ThreeLetterISOLanguageName": "Lebsack LLC",
-    "TwoLetterISOLanguageName": "Oberbrunner, Lubowitz and Weber",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 635,
+    "LCID": 289,
+    "EnglishName": "Lynch-Bednar",
+    "NativeName": "Padberg-Eichmann",
+    "ThreeLetterISOLanguageName": "Pfeffer, Jones and Glover",
+    "TwoLetterISOLanguageName": "Halvorson Group",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 605
+        "FieldType": "System.Int32",
+        "FieldLength": 476
       }
     }
   }

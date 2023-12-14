@@ -115,29 +115,29 @@ DashTileDefinition updated.
 PUT /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 899,
-  "Name": "Gutkowski Inc and Sons",
-  "Description": "Profit-focused bottom-line secured line",
-  "DefaultHeight": 91,
-  "DefaultWidth": 206,
+  "DashboardTileDefinitionId": 242,
+  "Name": "Prohaska, Abernathy and Stokes",
+  "Description": "Proactive explicit architecture",
+  "DefaultHeight": 897,
+  "DefaultWidth": 423,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Runolfsdottir, Wilderman and Nolan",
-  "SelectionId": 684,
+  "EntityName": "Will, Bosco and Sporer",
+  "SelectionId": 178,
   "CurrencyMode": "Base",
-  "CurrencyCode": "asperiores",
+  "CurrencyCode": "unde",
   "Measure": "Average",
-  "MeasureField": "dignissimos",
-  "SortBy": "occaecati",
-  "LayoutConfig": "facilis",
-  "SecondarySelectionId": 638,
-  "MeasureByField": "non",
+  "MeasureField": "autem",
+  "SortBy": "tenetur",
+  "LayoutConfig": "officia",
+  "SecondarySelectionId": 40,
+  "MeasureByField": "temporibus",
   "Usage": "Dashboard",
-  "ProviderName": "Kub-Hessel"
+  "ProviderName": "Goodwin-Fritsch"
 }
 ```
 
@@ -148,31 +148,31 @@ HTTP/1.1 200 DashTileDefinition updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 323,
-  "Name": "Lebsack Group",
-  "Description": "Progressive high-level customer loyalty",
-  "DefaultHeight": 538,
-  "DefaultWidth": 760,
+  "DashboardTileDefinitionId": 341,
+  "Name": "Gottlieb Inc and Sons",
+  "Description": "Front-line dynamic policy",
+  "DefaultHeight": 467,
+  "DefaultWidth": 63,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Marvin, Schroeder and Lynch",
-  "SelectionId": 250,
+  "EntityName": "Pagac, Nader and Mante",
+  "SelectionId": 533,
   "CurrencyMode": "Base",
-  "CurrencyCode": "deleniti",
+  "CurrencyCode": "exercitationem",
   "Measure": "Average",
-  "MeasureField": "aut",
-  "SortBy": "sit",
-  "LayoutConfig": "qui",
-  "SecondarySelectionId": 672,
-  "MeasureByField": "ad",
+  "MeasureField": "id",
+  "SortBy": "quidem",
+  "LayoutConfig": "in",
+  "SecondarySelectionId": 551,
+  "MeasureByField": "dolor",
   "Usage": "Dashboard",
-  "ProviderName": "Botsford, Corkery and Hessel",
+  "ProviderName": "Weber-Grady",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldLength": 290
     }
   },
   "_Links": {

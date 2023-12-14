@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 18,
-  "TopicId": 338,
+  "ChatSessionId": 532,
+  "TopicId": 565,
   "User": null,
   "Person": null,
-  "CustomerAlias": "pariatur",
-  "CustomerHost": "pariatur",
-  "CustomerName": "Stracke, Brown and McGlynn",
-  "CustomerEmail": "bartholome.padberg@kuhlmanwalsh.com",
-  "CustomerPhone": "545.120.4460",
+  "CustomerAlias": "dolorum",
+  "CustomerHost": "mollitia",
+  "CustomerName": "Parker-Rice",
+  "CustomerEmail": "kennith_lang@muller.uk",
+  "CustomerPhone": "487-008-5824",
   "CustomerConsented": true,
-  "CustomerCompanyName": "O'Kon LLC",
+  "CustomerCompanyName": "Doyle, Okuneva and Macejkovic",
   "Status": "Closed",
-  "FirstMessage": "eum",
-  "LastMessage": "ratione",
-  "WhenRequested": "2012-06-14T13:38:17.171193+02:00",
-  "WhenStarted": "2014-09-02T13:38:17.171193+02:00",
-  "WhenEnded": "2009-05-05T13:38:17.171193+02:00",
-  "WhenIdle": "2010-05-12T13:38:17.171193+02:00",
-  "WhenFetched": "2014-09-23T13:38:17.171193+02:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 218,
-  "AlertLevel": 961,
-  "Rank": 726,
+  "FirstMessage": "impedit",
+  "LastMessage": "corrupti",
+  "WhenRequested": "2009-06-05T13:57:18.5128119+02:00",
+  "WhenStarted": "1997-12-30T13:57:18.5128119+01:00",
+  "WhenEnded": "2005-03-01T13:57:18.5128119+01:00",
+  "WhenIdle": "2016-04-28T13:57:18.5128119+02:00",
+  "WhenFetched": "2008-07-14T13:57:18.5128119+02:00",
+  "SessionKey": "non",
+  "InitialQueuePos": 138,
+  "AlertLevel": 746,
+  "Rank": 957,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 844,
+  "Rating": 37,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldLength": 371
     }
   }
 }

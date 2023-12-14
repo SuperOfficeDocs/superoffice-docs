@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 428,
-    "Name": "Simonis Group",
-    "ToolTip": "Asperiores expedita.",
-    "Deleted": true,
-    "Rank": 120,
-    "Type": "eligendi",
-    "ColorBlock": 774,
-    "IconHint": "sed",
+    "Id": 771,
+    "Name": "Douglas, Funk and Bernier",
+    "ToolTip": "Deleniti voluptatibus dolorem voluptatem.",
+    "Deleted": false,
+    "Rank": 852,
+    "Type": "delectus",
+    "ColorBlock": 310,
+    "IconHint": "placeat",
     "Selected": true,
-    "LastChanged": "2020-02-18T13:38:18.1556538+01:00",
+    "LastChanged": "2000-08-24T13:57:19.9065482+02:00",
     "ChildItems": [
       {
-        "Id": 109,
-        "Name": "Walker Group",
-        "ToolTip": "Voluptatem rerum vitae enim ea ea rerum.",
+        "Id": 359,
+        "Name": "Schroeder, Boyer and Ortiz",
+        "ToolTip": "Nostrum consectetur similique rem eum provident facere.",
         "Deleted": false,
-        "Rank": 930,
-        "Type": "sed",
-        "ColorBlock": 581,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2005-11-30T13:38:18.1556538+01:00",
+        "Rank": 916,
+        "Type": "eum",
+        "ColorBlock": 525,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2005-09-11T13:57:19.9065482+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "et",
+        "ExtraInfo": "autem",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Verda Harris"
+        "FullName": "Luigi Osinski MD"
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "et",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Ms. Ahmed Robel V"
+    "FullName": "Aleen Hoppe"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 886,
-    "Name": "Schuster Group",
-    "ToolTip": "Rerum non mollitia dicta necessitatibus nihil commodi.",
-    "Deleted": false,
-    "Rank": 164,
-    "Type": "incidunt",
-    "ColorBlock": 744,
-    "IconHint": "animi",
-    "Selected": true,
-    "LastChanged": "2011-01-31T13:38:18.1556538+01:00",
+    "Id": 92,
+    "Name": "Bogan Inc and Sons",
+    "ToolTip": "Et nostrum accusamus itaque esse odit iste vel.",
+    "Deleted": true,
+    "Rank": 516,
+    "Type": "architecto",
+    "ColorBlock": 474,
+    "IconHint": "debitis",
+    "Selected": false,
+    "LastChanged": "2001-06-20T13:57:19.9065482+02:00",
     "ChildItems": [
       {
-        "Id": 535,
-        "Name": "Metz, Herman and Legros",
-        "ToolTip": "Ut autem occaecati magnam aut.",
+        "Id": 162,
+        "Name": "Larson-Mitchell",
+        "ToolTip": "Et facilis nemo.",
         "Deleted": true,
-        "Rank": 696,
-        "Type": "reiciendis",
-        "ColorBlock": 610,
-        "IconHint": "doloribus",
+        "Rank": 466,
+        "Type": "sed",
+        "ColorBlock": 550,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2020-06-01T13:38:18.1556538+02:00",
+        "LastChanged": "2004-04-22T13:57:19.9065482+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "at",
-        "Hidden": true,
-        "FullName": "Judge Fay",
+        "ExtraInfo": "eaque",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Jean Edd Turcotte I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 294
+            "FieldType": "System.Int32",
+            "FieldLength": 367
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "similique",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "cumque",
     "Hidden": false,
-    "FullName": "Orrin Kerluke",
+    "FullName": "Amina Shields",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldType": "System.String",
+        "FieldLength": 309
       }
     }
   }

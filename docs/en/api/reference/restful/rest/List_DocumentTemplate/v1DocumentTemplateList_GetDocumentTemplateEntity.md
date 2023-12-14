@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 490,
-  "Name": "Koch LLC",
-  "Tooltip": "et",
-  "SaveInDb": 965,
-  "Filename": "repellat",
-  "DefaultOref": "quod",
+  "DocumentTemplateId": 98,
+  "Name": "Volkman, Smith and Hauck",
+  "Tooltip": "perspiciatis",
+  "SaveInDb": 572,
+  "Filename": "rem",
+  "DefaultOref": "consequatur",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 447,
-  "IntentId": 241,
+  "AutoeventId": 882,
+  "IntentId": 399,
   "IsDefaultPublished": false,
-  "Rank": 762,
-  "LoadTemplateFromPlugin": 888,
-  "MimeType": "laudantium",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 595,
+  "Rank": 1000,
+  "LoadTemplateFromPlugin": 51,
+  "MimeType": "occaecati",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 584,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "julian.runte@wolff.com",
-  "IncludeSignature": true,
+  "EmailSubject": "giovanni.gibson@kuphalgrimes.biz",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jerad@pagac.com",
+  "SenderEmailAddress": "rasheed@bayer.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 806
     }
   }
 }

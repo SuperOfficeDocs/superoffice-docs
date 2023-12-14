@@ -83,15 +83,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 737,
-  "PersonName": "Schneider LLC",
+  "ContactId": 847,
+  "PersonName": "Ondricka Inc and Sons",
   "PhoneNumbers": [
-    "79949",
-    "1466093"
+    "942060",
+    "1057151"
   ],
   "Emails": [
-    "destiny.roob@conroystoltenberg.ca",
-    "ernestine@sanforddickinson.name"
+    "ulices@osinski.ca",
+    "nathanial@schmeler.info"
   ]
 }
 ```
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 391
+      "FieldType": "System.Int32",
+      "FieldLength": 863
     }
   }
 }

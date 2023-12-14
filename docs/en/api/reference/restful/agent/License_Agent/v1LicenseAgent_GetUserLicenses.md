@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 835
+  "AssociateId": 712
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cruickshank Inc and Sons",
-    "Description": "Business-focused fault-tolerant intranet",
+    "Name": "Lang, Howell and Berge",
+    "Description": "Multi-lateral dynamic success",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 666,
-        "Tooltip": "velit",
+        "Unrestricted": true,
+        "Total": 33,
+        "Tooltip": "modi",
         "CanAssign": false,
-        "Free": 111,
-        "InUse": 467,
-        "IsHidden": false,
+        "Free": 919,
+        "InUse": 767,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 439,
-        "Name": "Gulgowski-Welch",
-        "Description": "Secured needs-based service-desk",
-        "PrerequisiteModuleName": "Towne-Carroll",
-        "SortOrder": 23,
-        "ExtraFlags": 657,
+        "ModuleLicenseId": 797,
+        "Name": "Marks, Schimmel and Schoen",
+        "Description": "Horizontal needs-based moratorium",
+        "PrerequisiteModuleName": "Kuhlman-Crooks",
+        "SortOrder": 739,
+        "ExtraFlags": 768,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 758
+            "FieldLength": 361
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 838,
-        "Tooltip": "accusamus",
+        "Unrestricted": false,
+        "Total": 475,
+        "Tooltip": "eaque",
         "CanAssign": false,
-        "Free": 592,
-        "InUse": 493,
-        "IsHidden": true,
+        "Free": 916,
+        "InUse": 163,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 479,
-        "Name": "Quitzon-Rath",
-        "Description": "Fully-configurable fault-tolerant attitude",
-        "PrerequisiteModuleName": "Homenick LLC",
-        "SortOrder": 44,
-        "ExtraFlags": 336,
+        "ModuleLicenseId": 970,
+        "Name": "Grimes-Ryan",
+        "Description": "Cross-platform bottom-line matrix",
+        "PrerequisiteModuleName": "Abbott LLC",
+        "SortOrder": 166,
+        "ExtraFlags": 158,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 342
+            "FieldLength": 986
           }
         }
       }
@@ -151,61 +151,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldLength": 313
       }
     }
   },
   {
-    "Name": "Cruickshank Inc and Sons",
-    "Description": "Business-focused fault-tolerant intranet",
+    "Name": "Lang, Howell and Berge",
+    "Description": "Multi-lateral dynamic success",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 666,
-        "Tooltip": "velit",
+        "Unrestricted": true,
+        "Total": 33,
+        "Tooltip": "modi",
         "CanAssign": false,
-        "Free": 111,
-        "InUse": 467,
-        "IsHidden": false,
+        "Free": 919,
+        "InUse": 767,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 439,
-        "Name": "Gulgowski-Welch",
-        "Description": "Secured needs-based service-desk",
-        "PrerequisiteModuleName": "Towne-Carroll",
-        "SortOrder": 23,
-        "ExtraFlags": 657,
+        "ModuleLicenseId": 797,
+        "Name": "Marks, Schimmel and Schoen",
+        "Description": "Horizontal needs-based moratorium",
+        "PrerequisiteModuleName": "Kuhlman-Crooks",
+        "SortOrder": 739,
+        "ExtraFlags": 768,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 758
+            "FieldLength": 361
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 838,
-        "Tooltip": "accusamus",
+        "Unrestricted": false,
+        "Total": 475,
+        "Tooltip": "eaque",
         "CanAssign": false,
-        "Free": 592,
-        "InUse": 493,
-        "IsHidden": true,
+        "Free": 916,
+        "InUse": 163,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 479,
-        "Name": "Quitzon-Rath",
-        "Description": "Fully-configurable fault-tolerant attitude",
-        "PrerequisiteModuleName": "Homenick LLC",
-        "SortOrder": 44,
-        "ExtraFlags": 336,
+        "ModuleLicenseId": 970,
+        "Name": "Grimes-Ryan",
+        "Description": "Cross-platform bottom-line matrix",
+        "PrerequisiteModuleName": "Abbott LLC",
+        "SortOrder": 166,
+        "ExtraFlags": 158,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 342
+            "FieldLength": 986
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldLength": 313
       }
     }
   }

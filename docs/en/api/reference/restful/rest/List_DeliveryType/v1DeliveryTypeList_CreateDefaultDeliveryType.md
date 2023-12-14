@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 100,
-  "Name": "Johnson Inc and Sons",
-  "Tooltip": "consequuntur",
+  "Id": 240,
+  "Name": "Nicolas-Johnston",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 652,
-  "Rank": 35,
+  "UdListDefinitionId": 361,
+  "Rank": 471,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldLength": 86
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 863,
-    "Name": "Carter LLC",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 935,
-    "UdListDefinitionId": 924,
+    "HeadingId": 899,
+    "Name": "Howe-Kulas",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "Rank": 345,
+    "UdListDefinitionId": 831,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldType": "System.String",
+        "FieldLength": 412
       }
     }
   }

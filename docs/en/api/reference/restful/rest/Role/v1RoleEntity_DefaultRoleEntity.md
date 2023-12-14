@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 411,
-  "Name": "Larson Inc and Sons",
-  "Tooltip": "corporis",
+  "RoleId": 676,
+  "Name": "Towne-Schaden",
+  "Tooltip": "placeat",
   "RoleType": "Anonymous",
-  "Deleted": 331,
-  "Rank": 75,
-  "Created": "2015-02-21T13:38:17.5618158+01:00",
-  "UseCategories": 379,
+  "Deleted": 994,
+  "Rank": 131,
+  "Created": "2007-02-26T13:57:19.1246846+01:00",
+  "UseCategories": 146,
   "CreatedBy": null,
-  "Updated": "2005-01-19T13:38:17.5618158+01:00",
+  "Updated": "2016-03-03T13:57:19.1246846+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldType": "System.String",
+      "FieldLength": 456
     }
   }
 }

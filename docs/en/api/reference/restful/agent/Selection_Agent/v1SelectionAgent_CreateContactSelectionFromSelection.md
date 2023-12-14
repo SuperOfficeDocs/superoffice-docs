@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 970,
-  "Name": "Kihn, Tremblay and Grant",
+  "SelectionId": 688,
+  "Name": "Ebert Inc and Sons",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Fundamental modular initiative",
-  "Postit": "placeat",
+  "Description": "Monitored 3rd generation help-desk",
+  "Postit": "modi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 867,
-  "IncludePerson": 361,
-  "MemberCount": 311,
-  "Name": "Kertzmann, Bartell and Runolfsson",
-  "PostitTextId": 485,
-  "CreatedDate": "2011-09-19T13:38:14.124071+02:00",
-  "SelectionId": 889,
-  "SoundEx": "ut",
-  "Source": 551,
-  "TextId": 993,
-  "UpdatedDate": "2000-04-20T13:38:14.124071+02:00",
-  "UpdatedCount": 771,
-  "Visibility": 746,
+  "GroupIdx": 517,
+  "IncludePerson": 976,
+  "MemberCount": 827,
+  "Name": "Walsh, Jast and Ullrich",
+  "PostitTextId": 816,
+  "CreatedDate": "2014-10-29T13:57:13.2071528+01:00",
+  "SelectionId": 906,
+  "SoundEx": "quaerat",
+  "Source": 14,
+  "TextId": 624,
+  "UpdatedDate": "1999-11-06T13:57:13.2071528+01:00",
+  "UpdatedCount": 511,
+  "Visibility": 263,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 884,
-  "TargetTableName": "Hermann, Vandervort and Durgan",
-  "Completed": true,
-  "LeftSelectionId": 460,
-  "RightSelectionId": 228,
+  "TargetTableNumber": 69,
+  "TargetTableName": "Gutkowski, Hermann and Crooks",
+  "Completed": false,
+  "LeftSelectionId": 813,
+  "RightSelectionId": 150,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Turcotte-Pagac",
-  "ShadowProviderName": "Ward-Lang",
-  "ChartKey": "necessitatibus",
-  "LastLoaded": "2001-05-25T13:38:14.124071+02:00",
-  "LastLoadedBy": 302,
+  "MainProviderName": "Balistreri LLC",
+  "ShadowProviderName": "Okuneva, Johnston and Konopelski",
+  "ChartKey": "voluptas",
+  "LastLoaded": "2003-03-06T13:57:13.2071528+01:00",
+  "LastLoadedBy": 135,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-03-22T13:38:14.124071+01:00",
-  "LastMembershipChangeBy": 332,
+  "LastMembershipChange": "2014-07-04T13:57:13.2071528+02:00",
+  "LastMembershipChangeBy": 206,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "cum",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Conn LLC",
-  "DashboardTileDefinitionId": 25,
+  "MainHeading": "quisquam",
+  "MemberTabHeading": "facere",
+  "MailingsProviderName": "Gaylord-Kertzmann",
+  "DashboardTileDefinitionId": 297,
   "VisibleFor": [
     {
-      "VisibleId": 842,
+      "VisibleId": 285,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "deserunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 673
+          "FieldType": "System.String",
+          "FieldLength": 596
         }
       }
     },
     {
-      "VisibleId": 842,
+      "VisibleId": 285,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "deserunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 673
+          "FieldType": "System.String",
+          "FieldLength": 596
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldType": "System.Int32",
+      "FieldLength": 921
     }
   }
 }

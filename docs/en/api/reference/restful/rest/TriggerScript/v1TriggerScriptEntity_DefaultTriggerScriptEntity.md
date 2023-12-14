@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 142,
-  "Name": "Rowe LLC",
+  "ScreenChooserId": 783,
+  "Name": "O'Reilly, Aufderhar and Schaefer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "sint",
-  "Source": "voluptatem",
-  "Registered": "1997-11-03T13:38:17.7650302+01:00",
-  "RegisteredAssociateId": 307,
-  "Updated": "2003-12-18T13:38:17.7650302+01:00",
-  "UpdatedAssociateId": 139,
+  "Enabled": false,
+  "UniqueIdentifier": "velit",
+  "Source": "saepe",
+  "Registered": "2014-10-18T13:57:19.4221461+02:00",
+  "RegisteredAssociateId": 847,
+  "Updated": "1999-04-06T13:57:19.4221461+02:00",
+  "UpdatedAssociateId": 424,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldType": "System.String",
+      "FieldLength": 163
     }
   }
 }

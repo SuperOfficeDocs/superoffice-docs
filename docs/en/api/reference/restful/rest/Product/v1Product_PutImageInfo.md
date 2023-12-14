@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 260,
-  "BlobSize": 430,
-  "Description": "Customer-focused contextually-based neural-net",
-  "ExtraInfo": "excepturi",
+  "BlobId": 223,
+  "BlobSize": 373,
+  "Description": "Upgradable heuristic moderator",
+  "ExtraInfo": "nesciunt",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "laborum",
-  "OriginalSize": 302,
-  "CreatedDate": "2003-03-09T13:38:17.8119358+01:00",
-  "UpdatedDate": "2000-11-07T13:38:17.8119358+01:00",
+  "MimeType": "iure",
+  "OriginalSize": 354,
+  "CreatedDate": "2002-02-02T13:57:19.4846459+01:00",
+  "UpdatedDate": "2019-01-07T13:57:19.4846459+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quaerat"
+  "ConceptualType": "reiciendis"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 506,
-  "BlobSize": 760,
-  "Description": "Vision-oriented multi-tasking algorithm",
-  "ExtraInfo": "et",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "adipisci",
-  "OriginalSize": 218,
-  "CreatedDate": "2007-11-19T13:38:17.8119358+01:00",
-  "UpdatedDate": "2007-12-24T13:38:17.8119358+01:00",
+  "BlobId": 74,
+  "BlobSize": 908,
+  "Description": "Self-enabling multi-tasking knowledge base",
+  "ExtraInfo": "asperiores",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "repudiandae",
+  "OriginalSize": 367,
+  "CreatedDate": "2020-09-30T13:57:19.4846459+02:00",
+  "UpdatedDate": "2019-04-26T13:57:19.4846459+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "unde",
+  "ConceptualType": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldLength": 668
     }
   }
 }

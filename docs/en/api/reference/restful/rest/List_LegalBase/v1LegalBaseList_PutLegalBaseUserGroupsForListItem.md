@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Kovacek, Casper and Stark",
-    "ToolTip": "Tempora quia.",
-    "Deleted": true,
-    "Rank": 806,
-    "Type": "occaecati",
-    "ColorBlock": 621,
-    "IconHint": "inventore",
+    "Id": 39,
+    "Name": "Ankunding-Dickens",
+    "ToolTip": "Beatae ratione.",
+    "Deleted": false,
+    "Rank": 921,
+    "Type": "eaque",
+    "ColorBlock": 953,
+    "IconHint": "quod",
     "Selected": true,
-    "LastChanged": "2020-09-15T13:38:18.0775324+02:00",
+    "LastChanged": "2015-10-29T13:57:19.7815186+01:00",
     "ChildItems": [
       {
-        "Id": 157,
-        "Name": "Cummerata-Grimes",
-        "ToolTip": "Enim sit quia ad temporibus modi et.",
-        "Deleted": false,
-        "Rank": 798,
-        "Type": "corrupti",
-        "ColorBlock": 351,
-        "IconHint": "omnis",
+        "Id": 473,
+        "Name": "Nikolaus Group",
+        "ToolTip": "Rerum omnis blanditiis magni quia.",
+        "Deleted": true,
+        "Rank": 995,
+        "Type": "voluptates",
+        "ColorBlock": 226,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2006-11-27T13:38:18.0775324+01:00",
+        "LastChanged": "2013-09-02T13:57:19.7815186+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Victoria Purdy"
+        "ExtraInfo": "excepturi",
+        "StyleHint": "occaecati",
+        "Hidden": false,
+        "FullName": "Chelsie Gutmann"
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "nesciunt",
-    "Hidden": false,
-    "FullName": "Talon Jenkins"
+    "ExtraInfo": "adipisci",
+    "StyleHint": "necessitatibus",
+    "Hidden": true,
+    "FullName": "Osbaldo Rowe DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 669,
-    "Name": "Renner-Stoltenberg",
-    "ToolTip": "Illo corporis eveniet enim sed odit quia atque.",
+    "Id": 218,
+    "Name": "Robel-Nikolaus",
+    "ToolTip": "Neque quasi suscipit placeat aut.",
     "Deleted": false,
-    "Rank": 506,
-    "Type": "similique",
-    "ColorBlock": 57,
-    "IconHint": "maiores",
+    "Rank": 554,
+    "Type": "et",
+    "ColorBlock": 172,
+    "IconHint": "quaerat",
     "Selected": false,
-    "LastChanged": "1998-10-22T13:38:18.0775324+02:00",
+    "LastChanged": "2000-10-05T13:57:19.7815186+02:00",
     "ChildItems": [
       {
-        "Id": 12,
-        "Name": "Mayer, Maggio and Kuvalis",
-        "ToolTip": "Quisquam eveniet.",
-        "Deleted": false,
-        "Rank": 343,
-        "Type": "ea",
-        "ColorBlock": 123,
-        "IconHint": "veritatis",
+        "Id": 681,
+        "Name": "Bashirian Inc and Sons",
+        "ToolTip": "Nesciunt quo non voluptates.",
+        "Deleted": true,
+        "Rank": 416,
+        "Type": "et",
+        "ColorBlock": 976,
+        "IconHint": "ducimus",
         "Selected": false,
-        "LastChanged": "2009-12-09T13:38:18.0775324+01:00",
+        "LastChanged": "2018-09-05T13:57:19.7815186+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "eos",
+        "ExtraInfo": "nihil",
+        "StyleHint": "ullam",
         "Hidden": false,
-        "FullName": "Lorna Grant",
+        "FullName": "Cole Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 831
+            "FieldType": "System.Int32",
+            "FieldLength": 884
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "nobis",
-    "Hidden": false,
-    "FullName": "Lisette Henri Reynolds IV",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "ipsum",
+    "Hidden": true,
+    "FullName": "Clarabelle Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 343
+        "FieldLength": 288
       }
     }
   }

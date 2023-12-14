@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 226,
+  "TicketId": 961,
   "MessageIds": [
-    848,
-    198
+    427,
+    193
   ]
 }
 ```
@@ -119,78 +119,78 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 837,
+    "EjMessageId": 165,
     "Ticket": null,
-    "CreatedAt": "2004-11-02T13:38:14.295928+01:00",
+    "CreatedAt": "2013-02-12T13:57:13.4583399+01:00",
     "CreatedBy": null,
-    "Author": "amet",
+    "Author": "cumque",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "consequatur",
-    "TimeSpent": 361,
-    "Body": "ratione",
-    "HtmlBody": "aut",
-    "EmailHeader": "candelario@stoltenberg.co.uk",
-    "DebugInfo": "provident",
-    "MailSorter": "qui",
+    "MessageId": "corrupti",
+    "TimeSpent": 999,
+    "Body": "nam",
+    "HtmlBody": "culpa",
+    "EmailHeader": "cortez@klein.info",
+    "DebugInfo": "possimus",
+    "MailSorter": "pariatur",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "et",
+    "SearchTitle": "est",
     "MessageHeaders": [
       {
-        "Id": 91,
-        "Name": "Macejkovic, Keeling and Champlin",
-        "Value": "praesentium",
+        "Id": 677,
+        "Name": "Kuhic, White and Rice",
+        "Value": "necessitatibus",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 827
+            "FieldType": "System.Int32",
+            "FieldLength": 273
           }
         }
       }
     ],
-    "Important": true,
-    "Language": "quo",
-    "Sentiment": 249,
-    "SentimentConfidence": 331,
+    "Important": false,
+    "Language": "dolore",
+    "Sentiment": 424,
+    "SentimentConfidence": 478,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 406,
-        "Name": "Steuber, Morissette and Rippin",
-        "ContentType": "id",
-        "AttSize": 490,
+        "AttachmentId": 692,
+        "Name": "Reynolds-Mills",
+        "ContentType": "autem",
+        "AttSize": 66,
         "InlineImage": false,
-        "ContentId": "repellendus",
-        "AuthKey": "et",
+        "ContentId": "eligendi",
+        "AuthKey": "eum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 684
+            "FieldLength": 48
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "ullam",
-      "ExtraFields2": "perferendis"
+      "ExtraFields1": "illum",
+      "ExtraFields2": "voluptatem"
     },
     "CustomFields": {
-      "CustomFields1": "quia",
-      "CustomFields2": "ullam"
+      "CustomFields1": "enim",
+      "CustomFields2": "quia"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 341
+        "FieldType": "System.Int32",
+        "FieldLength": 865
       }
     }
   }

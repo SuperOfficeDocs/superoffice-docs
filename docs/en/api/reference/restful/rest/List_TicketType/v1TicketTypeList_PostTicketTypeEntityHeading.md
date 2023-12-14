@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 152,
-  "Name": "Nienow Inc and Sons",
-  "Tooltip": "facere",
+  "HeadingId": 539,
+  "Name": "Hickle-Stehr",
+  "Tooltip": "error",
   "Deleted": true,
-  "Rank": 754,
-  "UdListDefinitionId": 629
+  "Rank": 233,
+  "UdListDefinitionId": 672
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 477,
-  "Name": "Cummings, Lehner and Predovic",
-  "Tooltip": "recusandae",
+  "HeadingId": 88,
+  "Name": "Oberbrunner LLC",
+  "Tooltip": "harum",
   "Deleted": false,
-  "Rank": 646,
-  "UdListDefinitionId": 232,
+  "Rank": 982,
+  "UdListDefinitionId": 405,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldType": "System.String",
+      "FieldLength": 752
     }
   }
 }

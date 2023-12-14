@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 938
+  "QuoteVersionId": 837
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 954,
-  "ERPQuoteVersionKey": "expedita",
-  "QuoteId": 885,
-  "Description": "Mandatory empowering productivity",
-  "Number": "1331188",
+  "QuoteVersionId": 513,
+  "ERPQuoteVersionKey": "est",
+  "QuoteId": 877,
+  "Description": "Robust neutral flexibility",
+  "Number": "929927",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 197,
-  "SentDate": "2023-04-17T13:38:13.9990881+02:00",
-  "FollowupId": 345,
-  "ExpirationDate": "2006-07-25T13:38:13.9990881+02:00",
-  "DeliveryCountryId": 249,
+  "LikelyQuoteAlternativeId": 241,
+  "SentDate": "1999-02-22T13:57:13.0324135+01:00",
+  "FollowupId": 22,
+  "ExpirationDate": "2006-11-11T13:57:13.0324135+01:00",
+  "DeliveryCountryId": 499,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 707,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "atque",
-  "ERPPaymentTypeKey": "omnis",
-  "ERPDeliveryTermsKey": "blanditiis",
-  "ERPDeliveryTypeKey": "vero",
-  "Rank": 68,
-  "ApprovedBy": 709,
-  "ApprovedText": "sapiente",
-  "ApprovedRegisteredBy": 390,
-  "ApprovedRegisteredDate": "2015-05-31T13:38:13.9990881+02:00",
-  "ExtraField1": "dolor",
-  "ExtraField2": "laborum",
-  "ExtraField3": "qui",
-  "ExtraField4": "ut",
-  "ExtraField5": "neque",
-  "LastRecalculated": "2017-02-14T13:38:13.9990881+01:00",
-  "Updated": "2001-04-17T13:38:13.9990881+02:00",
-  "UpdatedAssociateId": 188,
-  "Registered": "2021-08-06T13:38:13.9990881+02:00",
-  "RegisteredAssociateId": 368,
-  "RequestAssociateId": 513,
-  "RequestComment": "qui",
+  "InvoiceCountryId": 169,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "assumenda",
+  "ERPPaymentTypeKey": "nemo",
+  "ERPDeliveryTermsKey": "excepturi",
+  "ERPDeliveryTypeKey": "cumque",
+  "Rank": 411,
+  "ApprovedBy": 212,
+  "ApprovedText": "voluptatem",
+  "ApprovedRegisteredBy": 761,
+  "ApprovedRegisteredDate": "2020-05-07T13:57:13.0324135+02:00",
+  "ExtraField1": "eius",
+  "ExtraField2": "atque",
+  "ExtraField3": "eius",
+  "ExtraField4": "totam",
+  "ExtraField5": "esse",
+  "LastRecalculated": "2022-12-01T13:57:13.0324135+01:00",
+  "Updated": "2011-06-11T13:57:13.0324135+02:00",
+  "UpdatedAssociateId": 706,
+  "Registered": "2008-02-09T13:57:13.0324135+01:00",
+  "RegisteredAssociateId": 919,
+  "RequestAssociateId": 869,
+  "RequestComment": "temporibus",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 973,
-      "ERPQuoteAlternativeKey": "rerum",
-      "QuoteVersionId": 276,
-      "Name": "Gutkowski, Farrell and Prosacco",
-      "Description": "Assimilated incremental benchmark",
+      "QuoteAlternativeId": 293,
+      "ERPQuoteAlternativeKey": "expedita",
+      "QuoteVersionId": 182,
+      "Name": "Cronin-Stokes",
+      "Description": "Intuitive human-resource service-desk",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 23646.03,
-      "ERPDiscountAmount": 1488.6499999999999,
-      "DiscountPercent": 16779.435999999998,
-      "DiscountAmount": 9668.39,
+      "ERPDiscountPercent": 4547.434,
+      "ERPDiscountAmount": 30017.451999999997,
+      "DiscountPercent": 19828.818,
+      "DiscountAmount": 1519.99,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "dolores",
-      "VAT": 13306.964,
-      "EarningPercent": 17500.256,
-      "EarningAmount": 6268.0,
-      "SubTotal": 29841.948,
-      "TotalPrice": 14720.398,
-      "ExtraField1": "rerum",
-      "ExtraField2": "consequatur",
-      "ExtraField3": "molestiae",
+      "VATInfo": "consequatur",
+      "VAT": 23536.34,
+      "EarningPercent": 6747.5019999999995,
+      "EarningAmount": 13006.1,
+      "SubTotal": 14826.954,
+      "TotalPrice": 28174.66,
+      "ExtraField1": "omnis",
+      "ExtraField2": "quibusdam",
+      "ExtraField3": "aut",
       "ExtraField4": "voluptates",
-      "ExtraField5": "ut",
+      "ExtraField5": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 797
+          "FieldType": "System.String",
+          "FieldLength": 95
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldType": "System.String",
+      "FieldLength": 58
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Name": "Harris-Ondricka",
-    "ToolTip": "Sed aut provident ea iste ducimus velit.",
-    "Deleted": false,
-    "Rank": 667,
-    "Type": "corrupti",
-    "ColorBlock": 79,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2009-02-22T13:38:18.1244081+01:00",
+    "Id": 141,
+    "Name": "Simonis, Gerlach and Morar",
+    "ToolTip": "Est harum quisquam fuga ut.",
+    "Deleted": true,
+    "Rank": 974,
+    "Type": "et",
+    "ColorBlock": 948,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2012-01-20T13:57:19.8752673+01:00",
     "ChildItems": [
       {
-        "Id": 233,
-        "Name": "Howell, Murazik and Abbott",
-        "ToolTip": "Adipisci cum nostrum.",
+        "Id": 91,
+        "Name": "Reynolds-Davis",
+        "ToolTip": "Incidunt rerum autem sit cumque laborum magnam et.",
         "Deleted": false,
-        "Rank": 866,
-        "Type": "quod",
-        "ColorBlock": 394,
-        "IconHint": "totam",
+        "Rank": 664,
+        "Type": "laudantium",
+        "ColorBlock": 757,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2015-07-07T13:38:18.1244081+02:00",
+        "LastChanged": "2011-11-07T13:57:19.8752673+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Marcella Becker",
+        "ExtraInfo": "nemo",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Lorenza Aurelie Raynor MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 937
+            "FieldType": "System.String",
+            "FieldLength": 854
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Lizeth Dietrich",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "dolorum",
+    "Hidden": true,
+    "FullName": "Mr. Austyn Neoma Farrell V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldLength": 570
       }
     }
   }

@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 875,
+  "SelectionId": 737,
   "Criteria": [
     {
-      "Name": "Gutkowski-Heaney",
-      "Description": "Multi-tiered composite local area network",
-      "Rank": 107,
+      "Name": "Runolfsson, Deckow and Block",
+      "Description": "Cross-group static capacity",
+      "Rank": 691,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gutkowski-Heaney",
-      "Description": "Multi-tiered composite local area network",
-      "Rank": 107,
+      "Name": "Runolfsson, Deckow and Block",
+      "Description": "Cross-group static capacity",
+      "Rank": 691,
       "Restrictions": [
         {},
         {}
@@ -113,58 +113,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Beahan, Glover and Reilly",
-    "Description": "Exclusive multi-tasking approach",
-    "Rank": 455,
+    "Name": "Gorczany, Yost and Bartell",
+    "Description": "Fundamental uniform complexity",
+    "Rank": 607,
     "Restrictions": [
       {
-        "Name": "Lubowitz, Wiza and White",
-        "Operator": "quisquam",
+        "Name": "Romaguera-Braun",
+        "Operator": "ut",
         "Values": [
-          "sed",
-          "atque"
+          "corrupti",
+          "provident"
         ],
         "DisplayValues": [
-          "exercitationem",
-          "voluptate"
+          "commodi",
+          "debitis"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 845,
+        "InterParenthesis": 390,
         "InterOperator": "And",
-        "UniqueHash": 995
+        "UniqueHash": 936
       }
     ]
   },
   {
-    "Name": "Beahan, Glover and Reilly",
-    "Description": "Exclusive multi-tasking approach",
-    "Rank": 455,
+    "Name": "Gorczany, Yost and Bartell",
+    "Description": "Fundamental uniform complexity",
+    "Rank": 607,
     "Restrictions": [
       {
-        "Name": "Lubowitz, Wiza and White",
-        "Operator": "quisquam",
+        "Name": "Romaguera-Braun",
+        "Operator": "ut",
         "Values": [
-          "sed",
-          "atque"
+          "corrupti",
+          "provident"
         ],
         "DisplayValues": [
-          "exercitationem",
-          "voluptate"
+          "commodi",
+          "debitis"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 845,
+        "InterParenthesis": 390,
         "InterOperator": "And",
-        "UniqueHash": 995
+        "UniqueHash": 936
       }
     ]
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 491,
-    "Name": "Roob Inc and Sons",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 674,
-    "UdListDefinitionId": 200,
+    "HeadingId": 663,
+    "Name": "Brekke-McDermott",
+    "Tooltip": "mollitia",
+    "Deleted": false,
+    "Rank": 228,
+    "UdListDefinitionId": 545,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldType": "System.String",
+        "FieldLength": 318
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 746,
-    "Name": "Mraz Inc and Sons",
-    "ToolTip": "Praesentium hic harum repudiandae.",
-    "Deleted": false,
-    "Rank": 382,
-    "Type": "libero",
-    "ColorBlock": 57,
-    "IconHint": "perferendis",
+    "Id": 990,
+    "Name": "Mertz-Funk",
+    "ToolTip": "Commodi nesciunt provident minima illum aut id.",
+    "Deleted": true,
+    "Rank": 668,
+    "Type": "sed",
+    "ColorBlock": 72,
+    "IconHint": "doloremque",
     "Selected": false,
-    "LastChanged": "2013-01-10T13:38:18.0931573+01:00",
+    "LastChanged": "2021-01-05T13:57:19.8127681+01:00",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Klein-Hoppe",
-        "ToolTip": "Molestias vero voluptate sed aut.",
+        "Id": 280,
+        "Name": "Funk-Koepp",
+        "ToolTip": "Aut blanditiis eos repellendus nihil.",
         "Deleted": false,
-        "Rank": 828,
-        "Type": "recusandae",
-        "ColorBlock": 820,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "2018-01-16T13:38:18.0931573+01:00",
+        "Rank": 558,
+        "Type": "rem",
+        "ColorBlock": 937,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2005-09-20T13:57:19.8127681+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "molestiae",
-        "Hidden": false,
-        "FullName": "Mrs. Jermey Adams PhD",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "laboriosam",
+        "Hidden": true,
+        "FullName": "Leonora Romaguera",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 772
+            "FieldLength": 650
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "non",
+    "ExtraInfo": "minus",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Philip Kutch",
+    "FullName": "Henderson Easton Steuber II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 955
+        "FieldLength": 605
       }
     }
   }

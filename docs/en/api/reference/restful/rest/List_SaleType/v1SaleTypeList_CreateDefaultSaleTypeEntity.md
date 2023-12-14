@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 392,
-  "Name": "Hyatt-Schoen",
-  "Tooltip": "aut",
-  "Rank": 740,
+  "SaleTypeId": 993,
+  "Name": "Brown, Rodriguez and Schowalter",
+  "Tooltip": "modi",
+  "Rank": 791,
   "DurationUnit": "Century",
-  "SaleDuration": 901,
-  "SaleTypeCatId": 68,
+  "SaleDuration": 981,
+  "SaleTypeCatId": 404,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 940,
-  "QuoteLinesTemplate": 33,
-  "ConfirmationLinesTemplate": 13,
+  "DefaultQuoteValidity": 893,
+  "QuoteLinesTemplate": 492,
+  "ConfirmationLinesTemplate": 848,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 86,
-  "MinEarningPercent": 267,
-  "GroupQuoteLinesBy": 299,
-  "SortGroupLinesBy": 534,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 494,
+  "MinEarningPercent": 231,
+  "GroupQuoteLinesBy": 66,
+  "SortGroupLinesBy": 467,
   "Stages": [
     {
-      "Id": 899,
-      "Name": "Romaguera Group",
-      "ToolTip": "Quia distinctio corporis cumque autem.",
-      "Deleted": true,
-      "Rank": 627,
-      "Type": "eos",
-      "ColorBlock": 981,
-      "IconHint": "delectus",
+      "Id": 35,
+      "Name": "Schaefer-Lubowitz",
+      "ToolTip": "Asperiores qui explicabo ut voluptates voluptas.",
+      "Deleted": false,
+      "Rank": 916,
+      "Type": "possimus",
+      "ColorBlock": 436,
+      "IconHint": "explicabo",
       "Selected": false,
-      "LastChanged": "2003-04-14T13:38:18.2181419+02:00",
+      "LastChanged": "2008-12-15T13:57:20.1109105+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "necessitatibus",
+      "ExtraInfo": "et",
+      "StyleHint": "est",
       "Hidden": false,
-      "FullName": "Mrs. Frida Roob DDS",
+      "FullName": "Ms. Maverick Manley Senger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 637
+          "FieldType": "System.Int32",
+          "FieldLength": 520
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldType": "System.String",
+      "FieldLength": 387
     }
   }
 }

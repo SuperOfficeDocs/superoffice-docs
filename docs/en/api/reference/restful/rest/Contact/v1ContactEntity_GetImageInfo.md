@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 01 Jul 2023 13:38:17 G7T
+Last-Modified: Sat, 07 Aug 1999 13:57:18 G8T
 
 {
-  "BlobId": 563,
-  "BlobSize": 181,
-  "Description": "Innovative clear-thinking alliance",
-  "ExtraInfo": "saepe",
+  "BlobId": 977,
+  "BlobSize": 956,
+  "Description": "Re-engineered local complexity",
+  "ExtraInfo": "vero",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "qui",
-  "OriginalSize": 550,
-  "CreatedDate": "2013-10-07T13:38:17.2024711+02:00",
-  "UpdatedDate": "2023-07-01T13:38:17.2024711+02:00",
+  "MimeType": "corrupti",
+  "OriginalSize": 717,
+  "CreatedDate": "2021-11-27T13:57:18.5753123+01:00",
+  "UpdatedDate": "1999-08-07T13:57:18.5753123+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nobis",
+  "ConceptualType": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldLength": 479
     }
   }
 }

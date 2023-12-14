@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 303,
+  "PersonId": 736,
   "IncludeProjectDocuments": false,
-  "StartTime": "2023-07-15T13:38:13.4208858+02:00",
-  "EndTime": "2014-04-06T13:38:13.4208858+02:00",
-  "Count": 444
+  "StartTime": "2020-02-21T13:57:12.0592427+01:00",
+  "EndTime": "2002-06-20T13:57:12.0592427+02:00",
+  "Count": 485
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 743,
-    "Attention": "sed",
-    "Header": "debitis",
-    "Name": "Green, Quigley and Brekke",
-    "OurRef": "qui",
-    "YourRef": "qui",
-    "Description": "Multi-layered discrete application",
-    "DocumentTemplate": "nam",
+    "DocumentId": 753,
+    "Attention": "maiores",
+    "Header": "animi",
+    "Name": "Rath, Barton and Feest",
+    "OurRef": "aut",
+    "YourRef": "corrupti",
+    "Description": "Phased system-worthy software",
+    "DocumentTemplate": "voluptas",
     "IsPublished": false,
-    "PersonId": 323,
-    "PersonFullName": "Cecilia Schiller Jr.",
-    "AssociateFullName": "Khalid Reichel",
-    "ContactId": 605,
-    "ContactName": "Cremin-Balistreri",
-    "ProjectId": 661,
-    "ProjectName": "Walker-Rolfson",
-    "AssociateId": 775,
-    "Snum": 775,
-    "SaleId": 517,
-    "SaleName": "Mitchell, Barton and Heathcote",
+    "PersonId": 621,
+    "PersonFullName": "Modesto Crona IV",
+    "AssociateFullName": "Magnus Maggio",
+    "ContactId": 157,
+    "ContactName": "Oberbrunner Group",
+    "ProjectId": 672,
+    "ProjectName": "Schmidt Group",
+    "AssociateId": 580,
+    "Snum": 39,
+    "SaleId": 377,
+    "SaleName": "Romaguera-Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldLength": 14
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 748,
-  "Name": "Boehm, Hayes and Swift",
-  "Tooltip": "quidem",
-  "Deleted": true,
-  "Rank": 267,
-  "UdListDefinitionId": 551
+  "HeadingId": 222,
+  "Name": "Emard-Mayert",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "Rank": 508,
+  "UdListDefinitionId": 390
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 753,
-  "Name": "Carroll Group",
-  "Tooltip": "voluptas",
+  "HeadingId": 403,
+  "Name": "Collins, Wehner and Collier",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 116,
-  "UdListDefinitionId": 302,
+  "Rank": 225,
+  "UdListDefinitionId": 581,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 907
     }
   }
 }

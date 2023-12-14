@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 839,
-  "Name": "Schuppe, Torp and Moore",
-  "Tooltip": "itaque",
-  "Deleted": true,
-  "UdListDefinitionId": 292,
-  "Rank": 621,
+  "Id": 808,
+  "Name": "Kirlin Group",
+  "Tooltip": "error",
+  "Deleted": false,
+  "UdListDefinitionId": 150,
+  "Rank": 607,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 64
     }
   }
 }

@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Effertz-Gulgowski",
-      "DisplayName": "Schinner Inc and Sons",
-      "DisplayTooltip": "aut",
+      "Name": "Cartwright, Batz and Franecki",
+      "DisplayName": "Torp LLC",
+      "DisplayTooltip": "suscipit",
       "IsActive": false
     },
     {
-      "Name": "Effertz-Gulgowski",
-      "DisplayName": "Schinner Inc and Sons",
-      "DisplayTooltip": "aut",
+      "Name": "Cartwright, Batz and Franecki",
+      "DisplayName": "Torp LLC",
+      "DisplayTooltip": "suscipit",
       "IsActive": false
     }
   ]

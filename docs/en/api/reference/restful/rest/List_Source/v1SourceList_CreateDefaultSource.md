@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 673,
-  "Name": "Bogan Group",
-  "Tooltip": "vitae",
-  "Deleted": true,
-  "UdListDefinitionId": 214,
-  "Rank": 434,
+  "Id": 238,
+  "Name": "Howe LLC",
+  "Tooltip": "delectus",
+  "Deleted": false,
+  "UdListDefinitionId": 9,
+  "Rank": 117,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldType": "System.String",
+      "FieldLength": 771
     }
   }
 }

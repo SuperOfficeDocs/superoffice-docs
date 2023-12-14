@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 101
+  "ContactId": 131
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 555,
-    "Name": "Murray Group",
-    "Description": "Integrated content-based product",
+    "ProjectId": 753,
+    "Name": "Sawayn Group",
+    "Description": "Fully-configurable scalable architecture",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 217,
-    "AssociateFullName": "Narciso O'Hara",
-    "TypeId": 389,
-    "Updated": "2013-08-21T13:38:13.9834617+02:00",
-    "StatusId": 695,
-    "Status": "id",
-    "TextId": 395,
-    "PublishTo": "2006-10-06T13:38:13.9834617+02:00",
-    "PublishFrom": "2018-01-28T13:38:13.9834617+01:00",
-    "IsPublished": true,
+    "Type": "aliquid",
+    "AssociateId": 593,
+    "AssociateFullName": "Mrs. Frederick Gertrude Sanford II",
+    "TypeId": 174,
+    "Updated": "2023-01-17T13:57:13.0011314+01:00",
+    "StatusId": 212,
+    "Status": "quidem",
+    "TextId": 757,
+    "PublishTo": "2013-11-08T13:57:13.0011314+01:00",
+    "PublishFrom": "2003-11-12T13:57:13.0011314+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1076883",
-    "ActiveErpLinks": 845,
+    "ProjectNumber": "1028092",
+    "ActiveErpLinks": 843,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldLength": 893
       }
     }
   }

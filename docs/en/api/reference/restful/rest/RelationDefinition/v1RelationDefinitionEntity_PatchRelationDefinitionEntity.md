@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "dolor",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "dolor",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 65,
-  "Name": "Collins-Ryan",
-  "Tooltip": "ab",
-  "PassiveText": "eum",
+  "ReldefId": 8,
+  "Name": "Morar Group",
+  "Tooltip": "suscipit",
+  "PassiveText": "fugiat",
   "Deleted": false,
-  "Rank": 977,
+  "Rank": 790,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldType": "System.String",
+      "FieldLength": 377
     }
   },
   "_Links": {

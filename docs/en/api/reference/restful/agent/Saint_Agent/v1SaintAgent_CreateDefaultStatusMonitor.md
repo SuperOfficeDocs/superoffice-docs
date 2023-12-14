@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 619,
-  "Rank": 929,
-  "DefaultTask": 268,
-  "DefaultTaskText": "odio",
+  "OwnerTable": 131,
+  "Rank": 48,
+  "DefaultTask": 48,
+  "DefaultTaskText": "modi",
   "IsVisual": false,
-  "LastGenerated": "2014-12-08T13:38:14.0615788+01:00",
-  "Description": "Front-line directional emulation",
-  "Name": "Murphy-Kuvalis",
-  "StatusMonitorId": 677,
-  "PictureId": 465,
+  "LastGenerated": "2013-06-01T13:57:13.1131378+02:00",
+  "Description": "Profound value-added access",
+  "Name": "Klein, Jones and Bernhard",
+  "StatusMonitorId": 223,
+  "PictureId": 477,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 551,
-  "NumNeedUpdate": 845,
-  "GenerationStart": "2021-05-14T13:38:14.0615788+02:00",
+  "NumMatches": 645,
+  "NumNeedUpdate": 249,
+  "GenerationStart": "2002-08-05T13:57:13.1131378+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 633
     }
   }
 }

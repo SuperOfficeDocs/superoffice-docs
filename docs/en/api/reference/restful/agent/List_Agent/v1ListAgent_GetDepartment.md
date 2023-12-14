@@ -26,7 +26,7 @@ Gets a Department object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDepartment?departmentId=536
+POST /api/v1/Agents/List/GetDepartment?departmentId=856
 POST /api/v1/Agents/List/GetDepartment?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 94,
-  "Value": "ratione",
-  "Tooltip": "sed",
+  "Id": 305,
+  "Value": "et",
+  "Tooltip": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 466
+      "FieldLength": 847
     }
   }
 }

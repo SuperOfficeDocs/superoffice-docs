@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 968,
-  "Name": "Walsh LLC",
-  "CreatedDate": "2019-08-08T13:38:13.623981+02:00",
-  "UpdatedDate": "2008-10-28T13:38:13.623981+01:00",
+  "ForeignAppId": 276,
+  "Name": "Davis Group",
+  "CreatedDate": "2008-05-24T13:57:12.4024817+02:00",
+  "UpdatedDate": "2020-08-15T13:57:12.4024817+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 764,
-      "Name": "Funk-Cummings",
-      "CreatedDate": "1997-12-24T13:38:13.623981+01:00",
-      "UpdatedDate": "1999-05-29T13:38:13.623981+02:00",
-      "AssociateFullName": "Heath Schuppe",
-      "CreatedBy": "mollitia",
-      "UpdatedBy": "id",
-      "DeviceIdentifier": "excepturi",
-      "ForeignAppId": 539,
+      "ForeignDeviceId": 925,
+      "Name": "Windler, Dickens and Green",
+      "CreatedDate": "2020-10-04T13:57:12.4024817+02:00",
+      "UpdatedDate": "2004-03-10T13:57:12.4024817+01:00",
+      "AssociateFullName": "Prof. Laverne Lottie Mayer III",
+      "CreatedBy": "architecto",
+      "UpdatedBy": "in",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 487,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 816
+          "FieldLength": 129
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 581
+      "FieldType": "System.String",
+      "FieldLength": 779
     }
   }
 }

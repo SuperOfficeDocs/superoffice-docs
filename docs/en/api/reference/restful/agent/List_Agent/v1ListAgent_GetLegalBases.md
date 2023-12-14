@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 379,
-    "Name": "Bruen LLC",
-    "Tooltip": "sequi",
-    "Rank": 793,
+    "LegalBaseId": 774,
+    "Name": "Prohaska Group",
+    "Tooltip": "maiores",
+    "Rank": 968,
     "Key": "rerum",
-    "Deleted": true,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldLength": 449
       }
     }
   }

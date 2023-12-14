@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyAudienceLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 421,
-  "InstanceLayout": "qui",
-  "InstanceName": "Moore, Schulist and Williamson",
-  "CreatedDate": "2009-12-25T13:38:13.0771703+01:00",
-  "UpdatedDate": "2013-10-03T13:38:13.0771703+02:00",
+  "AudienceLayoutId": 443,
+  "InstanceLayout": "maiores",
+  "InstanceName": "Hermiston-Donnelly",
+  "CreatedDate": "2001-07-01T13:57:11.5438073+02:00",
+  "UpdatedDate": "2020-01-02T13:57:11.5438073+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldType": "System.String",
+      "FieldLength": 30
     }
   }
 }

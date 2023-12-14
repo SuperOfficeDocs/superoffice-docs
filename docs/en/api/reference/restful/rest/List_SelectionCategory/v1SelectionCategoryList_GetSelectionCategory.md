@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 599,
-  "Name": "Mayer-McLaughlin",
-  "Tooltip": "animi",
+  "Id": 221,
+  "Name": "Upton, Vandervort and Johnston",
+  "Tooltip": "odio",
   "Deleted": false,
-  "UdListDefinitionId": 177,
-  "Rank": 510,
+  "UdListDefinitionId": 688,
+  "Rank": 471,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 735
     }
   }
 }

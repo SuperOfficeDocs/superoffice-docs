@@ -73,6 +73,9 @@ OK
 | CreatedDate | date-time | Registered date  in UTC. |
 | AppointmentId | int32 | Primary key |
 | Description | string | Description of the appointment. |
+| Title | string | The title of the appointment. |
+| Agenda | string | The agenda of the appointment. |
+| InternalNotes | string | Internal notes for the appointment. |
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
@@ -114,9 +117,6 @@ OK
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
-| Title | string | The title of the appointment. |
-| Agenda | string | The agenda of the appointment. |
-| InternalNotes | string | Internal notes for the appointment. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -134,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 626,
-  "SaleId": 603,
+  "SuggestedAppointmentId": 906,
+  "SaleId": 18,
   "CreateNow": true,
-  "OwnerId": 335
+  "OwnerId": 671
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-09-28T13:38:12.9990505+02:00",
-  "AppointmentId": 689,
-  "Description": "Diverse coherent architecture",
-  "StartDate": "2015-02-28T13:38:12.9990505+01:00",
-  "EndDate": "2020-12-02T13:38:12.9990505+01:00",
+  "CreatedDate": "2001-02-22T13:57:11.4188093+01:00",
+  "AppointmentId": 589,
+  "Description": "Diverse local projection",
+  "Title": "eligendi",
+  "Agenda": "tenetur",
+  "InternalNotes": "amet",
+  "StartDate": "1999-09-16T13:57:11.4188093+02:00",
+  "EndDate": "2023-01-26T13:57:11.4188093+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 446,
+  "MotherId": 551,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-05-15T13:38:12.9990505+02:00",
+  "UpdatedDate": "2021-06-09T13:57:11.4188093+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 65,
+  "ActiveLinks": 635,
   "Links": [
     {
-      "EntityName": "Gottlieb LLC",
-      "Id": 616,
-      "Description": "Optimized intermediate website",
-      "ExtraInfo": "quia",
-      "LinkId": 733,
+      "EntityName": "Goodwin, Hauck and Kshlerin",
+      "Id": 723,
+      "Description": "Robust tangible benchmark",
+      "ExtraInfo": "alias",
+      "LinkId": 85,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 102
+          "FieldLength": 43
         }
       }
     }
   ],
-  "AlarmLeadTime": "repellat",
-  "HasAlarm": false,
-  "ColorIndex": 981,
+  "AlarmLeadTime": "asperiores",
+  "HasAlarm": true,
+  "ColorIndex": 71,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "ut",
-  "LeadTime": "dolorem",
-  "Location": "harum",
-  "RejectCounter": 241,
+  "IsAlldayEvent": false,
+  "LagTime": "cum",
+  "LeadTime": "quia",
+  "Location": "est",
+  "RejectCounter": 690,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 74,
-      "PersonId": 435,
-      "ContactId": 878,
-      "EmailId": 474,
+      "AssociateId": 980,
+      "PersonId": 290,
+      "ContactId": 588,
+      "EmailId": 290,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jayce@breitenbergjacobi.info",
-      "Description": "Balanced client-server moratorium"
+      "EmailAddress": "rickey_franecki@stromanbruen.info",
+      "Description": "Extended uniform challenge"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-06-21T13:38:12.9990505+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2001-11-13T13:57:11.4188093+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 342,
+  "PreferredTZLocation": 691,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 753,
+  "SuggestedAppointmentId": 34,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "et",
-  "Title": "earum",
-  "Agenda": "recusandae",
-  "InternalNotes": "qui",
+  "CentralserviceVideomeetId": "dolorem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Claudine Jayme Cruickshank Jr.",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Domenick Fritsch Jr.",
+    "SuperOffice:2": "Dr. Orrin Abigayle Murphy"
   },
   "ExtraFields": {
-    "ExtraFields1": "odio",
-    "ExtraFields2": "error"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "debitis"
   },
   "CustomFields": {
-    "CustomFields1": "suscipit",
-    "CustomFields2": "eius"
+    "CustomFields1": "omnis",
+    "CustomFields2": "nam"
   },
-  "PublishEventDate": "2014-12-07T13:38:12.9990505+01:00",
-  "PublishTo": "2007-04-10T13:38:12.9990505+02:00",
-  "PublishFrom": "1996-09-14T13:38:12.9990505+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2018-07-09T13:57:11.4344336+02:00",
+  "PublishTo": "2012-10-15T13:57:11.4344336+02:00",
+  "PublishFrom": "2003-10-17T13:57:11.4344336+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 702,
+      "VisibleId": 789,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 249
+          "FieldType": "System.Int32",
+          "FieldLength": 301
         }
       }
     },
     {
-      "VisibleId": 702,
+      "VisibleId": 789,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 249
+          "FieldType": "System.Int32",
+          "FieldLength": 301
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 685
+      "FieldType": "System.Int32",
+      "FieldLength": 951
     }
   }
 }

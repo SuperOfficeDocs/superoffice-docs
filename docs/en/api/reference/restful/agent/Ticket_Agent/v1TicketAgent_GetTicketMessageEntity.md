@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=417
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=706
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,78 +102,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 462,
+  "EjMessageId": 156,
   "Ticket": null,
-  "CreatedAt": "2002-04-20T13:38:14.295928+02:00",
+  "CreatedAt": "2002-07-14T13:57:13.4583399+02:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "consequuntur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sed",
-  "TimeSpent": 941,
-  "Body": "aut",
-  "HtmlBody": "architecto",
-  "EmailHeader": "hettie_volkman@toy.info",
-  "DebugInfo": "quas",
-  "MailSorter": "cumque",
+  "MessageId": "totam",
+  "TimeSpent": 1002,
+  "Body": "atque",
+  "HtmlBody": "incidunt",
+  "EmailHeader": "sherman.lehner@boyle.ca",
+  "DebugInfo": "totam",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "occaecati",
+  "SearchTitle": "aliquid",
   "MessageHeaders": [
     {
-      "Id": 203,
-      "Name": "Gutmann-Heaney",
-      "Value": "at",
+      "Id": 503,
+      "Name": "Mills Inc and Sons",
+      "Value": "qui",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 263
+          "FieldType": "System.Int32",
+          "FieldLength": 221
         }
       }
     }
   ],
   "Important": false,
-  "Language": "suscipit",
-  "Sentiment": 721,
-  "SentimentConfidence": 393,
+  "Language": "nulla",
+  "Sentiment": 568,
+  "SentimentConfidence": 294,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 750,
-      "Name": "Hudson Group",
-      "ContentType": "veniam",
-      "AttSize": 193,
+      "AttachmentId": 18,
+      "Name": "Cremin-Balistreri",
+      "ContentType": "est",
+      "AttSize": 175,
       "InlineImage": true,
-      "ContentId": "quo",
-      "AuthKey": "consequatur",
+      "ContentId": "repudiandae",
+      "AuthKey": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 724
+          "FieldLength": 821
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "officiis",
-    "ExtraFields2": "fuga"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "veniam"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "ut"
+    "CustomFields1": "vero",
+    "CustomFields2": "maiores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldLength": 45
     }
   }
 }

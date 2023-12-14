@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=quam
+GET /api/v1/List/PaymentType/MDOItems?flat=True
+GET /api/v1/List/PaymentType/MDOItems?query=alias
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Ullrich-Berge",
-    "ToolTip": "Alias quo quasi non quo.",
+    "Id": 431,
+    "Name": "Marvin-Ortiz",
+    "ToolTip": "Qui minus provident.",
     "Deleted": false,
-    "Rank": 210,
-    "Type": "aut",
+    "Rank": 902,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Schaefer Group",
-        "ToolTip": "Enim sed id.",
-        "Deleted": false,
-        "Rank": 907,
-        "Type": "distinctio",
+        "Id": 657,
+        "Name": "Rempel LLC",
+        "ToolTip": "Quia et.",
+        "Deleted": true,
+        "Rank": 4,
+        "Type": "quam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "mollitia",
-        "ColorBlock": 541,
-        "ExtraInfo": "quis",
-        "StyleHint": "et",
-        "FullName": "Stephan Mante",
+        "IconHint": "eligendi",
+        "ColorBlock": 369,
+        "ExtraInfo": "culpa",
+        "StyleHint": "quisquam",
+        "FullName": "Ms. Clementine Kutch I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 398
+            "FieldLength": 120
           }
         }
       }
     ],
-    "IconHint": "corporis",
-    "ColorBlock": 112,
-    "ExtraInfo": "quis",
-    "StyleHint": "facere",
-    "FullName": "Frederique Funk IV",
+    "IconHint": "quibusdam",
+    "ColorBlock": 981,
+    "ExtraInfo": "odit",
+    "StyleHint": "voluptatem",
+    "FullName": "Dedric DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldType": "System.String",
+        "FieldLength": 201
       }
     }
   }

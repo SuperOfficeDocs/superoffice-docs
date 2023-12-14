@@ -93,9 +93,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schamberger Group",
-  "ListItemId": 364,
-  "ShowDeleted": false
+  "UdListDefinitionName": "Koepp, Walsh and Lehner",
+  "ListItemId": 362,
+  "ShowDeleted": true
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 103,
-    "Name": "Hills-Sawayn",
-    "ToolTip": "Omnis dolores ut alias similique.",
-    "Deleted": false,
-    "Rank": 799,
-    "Type": "eos",
-    "ColorBlock": 209,
-    "IconHint": "esse",
-    "Selected": false,
-    "LastChanged": "2008-06-27T13:38:13.6864749+02:00",
+    "Id": 330,
+    "Name": "Romaguera, Beatty and Pagac",
+    "ToolTip": "Quas laudantium ex facere accusamus non fuga ut.",
+    "Deleted": true,
+    "Rank": 971,
+    "Type": "accusamus",
+    "ColorBlock": 372,
+    "IconHint": "quas",
+    "Selected": true,
+    "LastChanged": "2001-12-01T13:57:12.5118644+01:00",
     "ChildItems": [
       {
-        "Id": 903,
-        "Name": "Kirlin-Kirlin",
-        "ToolTip": "Placeat maxime.",
+        "Id": 625,
+        "Name": "Robel, Franecki and Hayes",
+        "ToolTip": "Molestiae voluptatem omnis dolor.",
         "Deleted": false,
-        "Rank": 795,
-        "Type": "dolorum",
-        "ColorBlock": 503,
-        "IconHint": "ipsa",
-        "Selected": false,
-        "LastChanged": "2021-02-06T13:38:13.6864749+01:00",
+        "Rank": 905,
+        "Type": "ut",
+        "ColorBlock": 947,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2010-04-28T13:57:12.5118644+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "fuga",
-        "Hidden": false,
-        "FullName": "Dr. Aryanna Georgiana Yost",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Stacey Batz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 334
+            "FieldLength": 619
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "optio",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "tempore",
     "Hidden": false,
-    "FullName": "Mr. Jalon Wolff",
+    "FullName": "Pattie Kub",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldType": "System.Int32",
+        "FieldLength": 497
       }
     }
   }

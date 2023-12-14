@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 103,
-  "UniqueId": "dolor",
-  "Name": "Schulist Inc and Sons",
-  "Description": "Business-focused optimal hardware",
-  "AssociateId": 888,
-  "Columns": 750,
+  "DashboardId": 374,
+  "UniqueId": "sunt",
+  "Name": "Runolfsdottir, O'Reilly and Lehner",
+  "Description": "Inverse full-range internet solution",
+  "AssociateId": 73,
+  "Columns": 706,
   "Theme": null,
-  "VisibleForAll": 108,
+  "VisibleForAll": 898,
   "VisibleForAssociates": [
-    736,
-    718
+    212,
+    844
   ],
   "VisibleForGroups": [
-    643,
-    552
+    902,
+    967
   ],
-  "PinForAll": 29,
+  "PinForAll": 413,
   "PinForAssociates": [
-    348,
-    938
+    580,
+    322
   ],
   "PinForGroups": [
-    689,
-    985
+    190,
+    833
   ]
 }
 ```
@@ -139,42 +139,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 417,
-  "UniqueId": "laudantium",
-  "Name": "Langosh, Marks and Wisozk",
-  "Description": "Monitored stable project",
-  "AssociateId": 277,
-  "Columns": 290,
+  "DashboardId": 735,
+  "UniqueId": "quidem",
+  "Name": "Kutch Inc and Sons",
+  "Description": "Advanced well-modulated analyzer",
+  "AssociateId": 280,
+  "Columns": 121,
   "Theme": null,
-  "VisibleForAll": 380,
+  "VisibleForAll": 962,
   "VisibleForAssociates": [
-    583,
-    115
+    109,
+    665
   ],
   "VisibleForGroups": [
-    392,
-    762
+    645,
+    969
   ],
-  "PinForAll": 722,
+  "PinForAll": 938,
   "PinForAssociates": [
-    862,
-    109
+    134,
+    941
   ],
   "PinForGroups": [
-    554,
-    883
+    667,
+    126
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldType": "System.String",
+      "FieldLength": 293
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

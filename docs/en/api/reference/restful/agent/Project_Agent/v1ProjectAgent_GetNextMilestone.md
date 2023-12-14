@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 477
+  "ProjectId": 877
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 905,
-  "StartDate": "1998-02-27T13:38:13.9834617+01:00",
-  "EndDate": "2005-01-17T13:38:13.9834617+01:00",
+  "AppointmentId": 193,
+  "StartDate": "2022-09-12T13:57:12.9854979+02:00",
+  "EndDate": "2014-09-27T13:57:12.9854979+02:00",
   "Type": "BookingForChecklist",
-  "Task": "quod",
-  "AssociateFullName": "Roxane Marvin",
-  "ContactName": "Miller-Medhurst",
-  "Description": "Upgradable local array",
-  "PersonFullName": "Akeem O'Kon",
-  "PersonId": 683,
-  "ContactId": 537,
-  "ProjectId": 262,
-  "ProjectName": "Gislason-Kshlerin",
+  "Task": "est",
+  "AssociateFullName": "Mrs. Makenzie Isabel Pfeffer",
+  "ContactName": "McDermott, Collins and Emmerich",
+  "Description": "Enhanced full-range attitude",
+  "PersonFullName": "Rosalyn Estella Torphy MD",
+  "PersonId": 510,
+  "ContactId": 649,
+  "ProjectId": 373,
+  "ProjectName": "Reynolds, Heathcote and West",
   "IsPublished": true,
-  "AssociateId": 237,
-  "ColorIndex": 164,
-  "IsFree": true,
-  "HasAlarm": true,
-  "IsAlldayEvent": true,
+  "AssociateId": 173,
+  "ColorIndex": 227,
+  "IsFree": false,
+  "HasAlarm": false,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 255,
-  "PriorityName": "Bergnaum-Graham",
+  "PriorityId": 333,
+  "PriorityName": "Medhurst LLC",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "2021-02-08T13:38:13.9834617+01:00",
+  "IsRecurrence": true,
+  "IsBooking": true,
+  "ActiveDate": "1999-12-21T13:57:12.9854979+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2019-05-25T13:38:13.9834617+02:00",
-  "RecurringEndDate": "2022-04-13T13:38:13.9834617+02:00",
-  "MotherId": 818,
-  "AssignedBy": 923,
-  "AssignedByFullName": "Nedra Veum V",
+  "RecurringStartDate": "2011-09-15T13:57:12.9854979+02:00",
+  "RecurringEndDate": "1998-04-16T13:57:12.9854979+02:00",
+  "MotherId": 774,
+  "AssignedBy": 77,
+  "AssignedByFullName": "Lelah Gorczany",
   "RejectReason": "",
-  "Location": "et",
-  "AlarmLeadTime": "sit",
-  "SaleId": 206,
-  "SaleName": "Hayes LLC",
-  "AssociateName": "Hodkiewicz-D'Amore",
-  "CreatedDate": "1997-08-28T13:38:13.9834617+02:00",
-  "CreatedBy": "sunt",
-  "CreatedByFullName": "Kelley Beier Sr.",
-  "CreatedByAssociateId": 758,
+  "Location": "nihil",
+  "AlarmLeadTime": "fugit",
+  "SaleId": 491,
+  "SaleName": "Green-Champlin",
+  "AssociateName": "Rippin-Trantow",
+  "CreatedDate": "2010-11-06T13:57:12.9854979+01:00",
+  "CreatedBy": "maxime",
+  "CreatedByFullName": "Ambrose Hartmann",
+  "CreatedByAssociateId": 663,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 15,
-  "Title": "iusto",
-  "Agenda": "et",
-  "InternalNotes": "sunt",
+  "PreferredTZLocation": 742,
+  "Title": "nemo",
+  "Agenda": "iusto",
+  "InternalNotes": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 538
+      "FieldType": "System.Int32",
+      "FieldLength": 21
     }
   }
 }

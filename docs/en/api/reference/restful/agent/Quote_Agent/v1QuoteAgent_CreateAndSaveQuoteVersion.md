@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 852
+  "QuoteVersionId": 721
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 384,
-  "ERPQuoteVersionKey": "necessitatibus",
-  "QuoteId": 58,
-  "Description": "Extended contextually-based adapter",
-  "Number": "1005678",
+  "QuoteVersionId": 549,
+  "ERPQuoteVersionKey": "rerum",
+  "QuoteId": 55,
+  "Description": "Streamlined heuristic migration",
+  "Number": "1269851",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 294,
-  "SentDate": "2013-08-26T13:38:13.9990881+02:00",
-  "FollowupId": 528,
-  "ExpirationDate": "2015-06-10T13:38:13.9990881+02:00",
-  "DeliveryCountryId": 110,
+  "LikelyQuoteAlternativeId": 814,
+  "SentDate": "1999-07-10T13:57:13.0324135+02:00",
+  "FollowupId": 365,
+  "ExpirationDate": "2023-08-05T13:57:13.0324135+02:00",
+  "DeliveryCountryId": 551,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 881,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "consequatur",
-  "ERPPaymentTypeKey": "eum",
-  "ERPDeliveryTermsKey": "non",
-  "ERPDeliveryTypeKey": "nulla",
-  "Rank": 956,
-  "ApprovedBy": 178,
-  "ApprovedText": "amet",
-  "ApprovedRegisteredBy": 927,
-  "ApprovedRegisteredDate": "2021-05-05T13:38:13.9990881+02:00",
-  "ExtraField1": "nobis",
-  "ExtraField2": "expedita",
-  "ExtraField3": "ipsa",
-  "ExtraField4": "non",
-  "ExtraField5": "voluptates",
-  "LastRecalculated": "2010-07-16T13:38:13.9990881+02:00",
-  "Updated": "2001-02-05T13:38:13.9990881+01:00",
-  "UpdatedAssociateId": 749,
-  "Registered": "2010-01-08T13:38:13.9990881+01:00",
-  "RegisteredAssociateId": 221,
-  "RequestAssociateId": 875,
-  "RequestComment": "tenetur",
+  "InvoiceCountryId": 123,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "ab",
+  "ERPPaymentTypeKey": "quia",
+  "ERPDeliveryTermsKey": "illo",
+  "ERPDeliveryTypeKey": "consequatur",
+  "Rank": 56,
+  "ApprovedBy": 598,
+  "ApprovedText": "quasi",
+  "ApprovedRegisteredBy": 617,
+  "ApprovedRegisteredDate": "2012-10-25T13:57:13.0324135+02:00",
+  "ExtraField1": "velit",
+  "ExtraField2": "id",
+  "ExtraField3": "qui",
+  "ExtraField4": "molestiae",
+  "ExtraField5": "ea",
+  "LastRecalculated": "2019-09-25T13:57:13.0324135+02:00",
+  "Updated": "2004-07-01T13:57:13.0324135+02:00",
+  "UpdatedAssociateId": 763,
+  "Registered": "1998-05-22T13:57:13.0324135+02:00",
+  "RegisteredAssociateId": 864,
+  "RequestAssociateId": 879,
+  "RequestComment": "et",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 590,
-      "ERPQuoteAlternativeKey": "molestias",
-      "QuoteVersionId": 939,
-      "Name": "Hickle-Cole",
-      "Description": "Intuitive multi-tasking intranet",
+      "QuoteAlternativeId": 160,
+      "ERPQuoteAlternativeKey": "tempora",
+      "QuoteVersionId": 786,
+      "Name": "Jones, Stanton and Mann",
+      "Description": "Open-source well-modulated local area network",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 23975.1,
-      "ERPDiscountAmount": 19565.561999999998,
-      "DiscountPercent": 7897.6799999999994,
-      "DiscountAmount": 5277.656,
+      "ERPDiscountPercent": 20872.44,
+      "ERPDiscountAmount": 1827.1219999999998,
+      "DiscountPercent": 15735.814,
+      "DiscountAmount": 25714.469999999998,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "nostrum",
-      "VAT": 3591.564,
-      "EarningPercent": 30747.674,
-      "EarningAmount": 22859.396,
-      "SubTotal": 29597.496,
-      "TotalPrice": 188.04,
-      "ExtraField1": "esse",
-      "ExtraField2": "laboriosam",
-      "ExtraField3": "dolores",
-      "ExtraField4": "ad",
-      "ExtraField5": "placeat",
+      "VATInfo": "molestiae",
+      "VAT": 12755.38,
+      "EarningPercent": 18377.775999999998,
+      "EarningAmount": 22928.344,
+      "SubTotal": 25799.088,
+      "TotalPrice": 3231.154,
+      "ExtraField1": "eos",
+      "ExtraField2": "quis",
+      "ExtraField3": "voluptatem",
+      "ExtraField4": "eum",
+      "ExtraField5": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 20
+          "FieldType": "System.String",
+          "FieldLength": 536
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 650
     }
   }
 }

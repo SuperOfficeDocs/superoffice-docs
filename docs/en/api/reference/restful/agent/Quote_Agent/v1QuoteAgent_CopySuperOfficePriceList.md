@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 43,
-  "NewName": "Waelchi-Stehr",
-  "ValidFrom": "1999-01-02T13:38:14.0147081+01:00",
-  "ValidTo": "2016-02-09T13:38:14.0147081+01:00",
-  "NewCurrencyId": 930,
+  "OriginalPriceListId": 174,
+  "NewName": "Lehner-Cartwright",
+  "ValidFrom": "2013-02-25T13:57:13.0492694+01:00",
+  "ValidTo": "2014-10-20T13:57:13.0492694+02:00",
+  "NewCurrencyId": 885,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 289,
-  "ERPPriceListKey": "ut",
-  "QuoteConnectionId": 66,
-  "Name": "Stark-Goodwin",
-  "Description": "Multi-channelled systemic knowledge user",
-  "Currency": "laborum",
-  "CurrencyName": "Kautzer, Crona and Koepp",
-  "ValidFrom": "2015-03-28T13:38:14.0147081+01:00",
-  "ValidTo": "2022-11-16T13:38:14.0147081+01:00",
+  "PriceListId": 504,
+  "ERPPriceListKey": "ea",
+  "QuoteConnectionId": 903,
+  "Name": "Bernhard-Schulist",
+  "Description": "Intuitive fault-tolerant standardization",
+  "Currency": "enim",
+  "CurrencyName": "Ryan, Harvey and VonRueden",
+  "ValidFrom": "2007-05-18T13:57:13.0492694+02:00",
+  "ValidTo": "2023-12-07T13:57:13.0492694+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 932
+      "FieldType": "System.Int32",
+      "FieldLength": 788
     }
   }
 }
