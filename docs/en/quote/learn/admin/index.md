@@ -3,7 +3,7 @@ uid: help-en-quote-admin
 title: Quote sync
 description: SuperOffice Quote helps you to create, validate, and manage quotes and orders across the entire order lifecycle.
 author: SuperOffice RnD
-so.date: 02.23.2023
+so.date: 12.13.2023
 keywords: quote, sync, sale
 so.topic: concept
 so.audience: settings
@@ -16,7 +16,7 @@ language: en
 SuperOffice Quote helps you to create, validate, and manage quotes and orders across the entire order lifecycle. It helps you get new or updated quotes to your customers faster and speed up the transition from a lead to a closed deal.
 
 > [!NOTE]
-> Quote management is a feature you get with the Sales premium license.
+> This feature requires a Sales Premium user plan and the Developer Tools license.
 
 Help your colleagues send their proposals quicker and avoid unnecessary errors by using an automated Quote system. Save time by converting your proposal to an order confirmation with just one click of a button.
 

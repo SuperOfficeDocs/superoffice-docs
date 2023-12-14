@@ -3,7 +3,7 @@ uid: help-da-quote-admin
 title: Synkronisering af tilbud
 description: "SuperOffice Quote hjælper dig med at oprette, validere og administrere tilbud og ordrer på tværs af hele ordrelivscyklussen."
 author: SuperOffice RnD
-so.date: 02.23.2023
+so.date: 12.13.2023
 keywords: tilbud, sync, salg
 so.topic: concept
 so.audience: settings
@@ -16,7 +16,7 @@ language: da
 SuperOffice Quote hjælper dig med at oprette, validere og administrere tilbud og ordrer på tværs af hele ordrelivscyklussen. Det hjælper dig med at få nye eller opdaterede tilbud til dine kunder hurtigere og fremskynde overgangen fra et kundeemne til en lukket aftale.
 
 > [!NOTE]
-> Tilbudshåndtering er en funktion, du får med Sales premium-licensen.
+> Denne funktion kræver en brugerplan for Sales Premium og Developer Tools-licens.
 
 Hjælp dine kolleger med at sende deres forslag hurtigere og undgå unødvendige fejl ved hjælp af et automatiseret tilbudssystem. Spar tid ved at konvertere dit tilbud til en ordrebekræftelse med et enkelt klik på en knap.
 

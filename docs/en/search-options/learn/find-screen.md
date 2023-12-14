@@ -3,7 +3,7 @@ uid: help-en-find-screen
 title: Find screen
 description: How to find all items of a specific type that match conditions, run a predefined search, or save a search as a selection.
 author: SuperOffice RnD
-so.date: 05.25.2023
+so.date: 12.13.2023
 keywords: search, find, typical, criteria, or, selection
 so.topic: howto
 language: en
@@ -16,7 +16,7 @@ To search for records and data in SuperOffice CRM, use the **Find** screen.
 There are effectively no limits to what you can search for in SuperOffice CRM. At the end of this section, we have included examples to provide you with tips on searching.
 
 > [!NOTE]
-> If you have a licence for SuperOffice Integration Server, you can search for products in existing quotes. If you have a licence for SuperOffice Service, you can search for requests.
+> If you have a licence for Developer Tools, you can search for products in existing quotes. If you have a licence for SuperOffice Service, you can search for requests.
 
 ## Search for information in SuperOffice CRM
 

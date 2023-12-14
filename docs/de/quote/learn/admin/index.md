@@ -3,7 +3,7 @@ uid: help-de-quote-admin
 title: Angebot/Sync
 description: "SuperOffice-Angebot hilft Ihnen, Angebote und Aufträge während des gesamten Auftragslebenszyklus zu erstellen, zu prüfen und zu verwalten."
 author: SuperOffice RnD
-so.date: 02.23.2023
+so.date: 12.13.2023
 keywords: Angebot, Sync, Verkauf
 so.topic: concept
 so.audience: settings
@@ -16,7 +16,7 @@ language: de
 SuperOffice-Angebot hilft Ihnen, Angebote und Aufträge während des gesamten Auftragslebenszyklus zu erstellen, zu prüfen und zu verwalten. Es hilft Ihnen, Ihren Kunden schneller neue oder aktualisierte Angebote zu unterbreiten und den Übergang von einem Lead zu einem abgeschlossenen Geschäft zu beschleunigen.
 
 > [!NOTE]
-> Die Angebotsverwaltung ist eine Funktion, die Sie mit der Premium-Lizenz für Verkäufe erhalten.
+> Diese Funktion erfordert einen Sales Premium-Benutzervertrag und die Lizenz für Developer Tools.
 
 Helfen Sie Ihren Kollegen mithilfe eines automatisierten Angebotssystems, ihre Angebote schneller zu senden und unnötige Fehler zu vermeiden. Sparen Sie Zeit, indem Sie Ihr Angebot mit nur einem Klick auf eine Schaltfläche in eine Auftragsbestätigung umwandeln.
 
