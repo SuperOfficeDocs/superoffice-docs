@@ -45,7 +45,8 @@ Watchcom will review the self-assessment and inform SuperOffice of potential red
 
 Watchcom’s expert penetration testers will make a limited manual audit of the application. The overall goal is to identify potential weaknesses and vulnerabilities in how the third-party application is integrated toward SuperOffice, and how the integration could affect SuperOffice and the data belonging to SuperOffice.
 
-Depending on the integration toward SuperOffice, the testing will include (but is not limited to)testing of weaknesses and vulnerabilities related to network communication, API endpoints, and web applications.
+Depending on the integration toward SuperOffice, the testing will include (but is not limited to) testing of weaknesses and vulnerabilities related to network communication, API endpoints, and web applications.
+
 
 The testing performed by Watchcom involves both manual and automated testing. **This may impact the service that is in scope, and could cause unwanted down-time.**
 
