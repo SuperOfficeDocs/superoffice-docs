@@ -2,7 +2,7 @@
 title: SuperOffice AI Services
 description: SuperOffice AI Services
 author: AnthonyYates
-so.date: 02.21.2023
+so.date: 12.14.2023
 keywords: AI, Artificial Intelligence, AI Platform, license
 so.topic: concept
 so.envir: cloud
@@ -35,12 +35,14 @@ You can save time and reduce manual work by automating various business processe
 | [Categorization][2] | Categorization |
 | [Translation, Language detection, mood detection][3] | Text Services |
 | [Chatbot][4] | Chatbot |
+| [ChatGPT sidebar][5] | In pilot only, by invite |
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/product-releases/pilot-programs/sign-up-pilot-programs/?action=formFrame&formId=F-MITXUrxp
 [2]: configuration-ai/index.md
 [3]: text-analysis/index.md
 [4]: ../automation/chatbot/index.md
+[5]: chatgpt-sidebar/index.md
 
 <!-- Referenced images -->
 [img1]: media/admin-navigator-buttons.png
