@@ -38,7 +38,12 @@ The SuperOffice Copilot is available in all screens with the [side panel][1]. By
 
     ![SuperOffice Copilot on a sale -screenshot][img3]
 
-1. After looking at the response, you can request more or less text or copy the result to the clipboard. To clear the chat, press F5.
+1. After the AI has generated a response, you have the following options:
+
+    * Select the plus or minus icon to get more or less text.
+    * Copy the result to the clipboard.
+    * Ask another question.
+    * Clear the chat.
 
     ![SuperOffice Copilot on a sale -screenshot][img4]
 
@@ -94,6 +99,6 @@ Prompts are subject to change without prior notice during the pilot!
 
 <!-- Referenced image -->
 [img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/loc/en/ai/chatgpt-in-sidepanel-list.png
-[img3]: ../../../media/loc/en/ai/chatgpt-on-sale.png
-[img4]: ../../../media/loc/en/ai/chatgpt-about-superoffice.png
+[img2]: ../../../media/loc/en/ai/copilot-in-sidepanel-list.png
+[img3]: ../../../media/loc/en/ai/copilot-on-sale.png
+[img4]: ../../../media/loc/en/ai/copilot-about-superoffice.png
