@@ -48,23 +48,23 @@ Hvis du markerer **Hele dagen**, indstilles tidspunktet for opfølgningen til pe
 
 ![Aftaledialog - skærmbillede][img6]
 
-* Vælg opfølgningstype.
+1. Vælg opfølgningstype.
 
-* Valgfrit, vælg et firma og/eller en kontakt, som opfølgningen vedrører.
+1. Valgfrit, vælg et firma og/eller en kontakt, som opfølgningen vedrører.
 
-* Valgfrit, vælg et projekt og/eller salg for at linke det til opfølgningen. Du kan vælge ethvert projekt/salg, uanset hvilket firma du tidligere har valgt.
+1. Valgfrit, vælg et projekt og/eller salg for at linke det til opfølgningen. Du kan vælge ethvert projekt/salg, uanset hvilket firma du tidligere har valgt.
 
-* Specificér tid og dato. **Varighed**-feltet justeres automatisk.
+1. Specificér tid og dato. **Varighed**-feltet justeres automatisk.
 
     Hvis den nye opfølgning overlapper med en eksisterende opfølgning, vises et udråbstegn ![ikon][img2] ved siden af start- og stopfelterne som en påmindelse (du kan stadig tilføje opfølgningen). Et forslag til den første ledige tidsperiode vises. Klik på det foreslåede tidspunkt til højre for **Først tilgængelig** for at vælge dette tidspunkt i stedet.
 
     Når du opretter en ny to-do, vises ingen tid i felterne **Start** og **Slut**. Dagens dato indsættes automatisk, men du kan ændre den til den ønskede dato. Datoen angiver deadline for to-do'en.
 
-* Valgfrit, vælg eller indtast adressen, hvor opfølgningen skal finde sted.
+1. Valgfrit, vælg eller indtast adressen, hvor opfølgningen skal finde sted.
 
-* Vælg fanen **Beskrivelse** for at tilføje en beskrivelse af opfølgningen (maksimalt 2048 tegn).
-* Vælg fanen **Detaljer** for at indstille [gentagelse][4], prioritet, [alarm][3], ejer og "vis som".
-* Vælg fanen **Deltagere** for at [tilføje deltagere][5].
+1. Vælg fanen **Beskrivelse** for at tilføje en beskrivelse af opfølgningen (maksimalt 2048 tegn).
+1. Vælg fanen **Detaljer** for at indstille [gentagelse][4], prioritet, [alarm][3], ejer og "vis som".
+1. Vælg fanen **Deltagere** for at [tilføje deltagere][5].
 
 > [!TIP]
 > Klik på ![ikon][img5] for at oprette et [videomøde][2].
@@ -73,23 +73,23 @@ Hvis du markerer **Hele dagen**, indstilles tidspunktet for opfølgningen til pe
 
 ![Opfølgingsdialog - skærmbillede][img7]
 
-* Indtast en titel.
+1. Indtast en titel.
 
-* Klik på den farvede bold og vælg en opfølgningstype.
+1. Klik på den farvede bold og vælg en opfølgningstype.
 
-* Valgfrit, vælg et firma eller en kontakt, som opfølgningen vedrører. Hvis du vil invitere dem og andre til mødet, skal du klikke på **Inviter**.
+1. Valgfrit, vælg et firma eller en kontakt, som opfølgningen vedrører. Hvis du vil invitere dem og andre til mødet, skal du klikke på **Inviter**.
 
-  * [Tilføj deltagere][5].
-  * Valgfrit, tilføj møderom, lokaler, eller steder.
-  * Valgfrit, tilføj sted eller adresse.
+    * [Tilføj deltagere][5].
+    * Valgfrit, tilføj møderom, lokaler, eller steder.
+    * Valgfrit, tilføj sted eller adresse.
 
     ![Udvidet opfølgingsdialog - skærmbillede][img8]
 
-* Specificér tid og dato. Klik på **Vis mere** for at indstille [gentagelse][4], "hele dagen", "optaget/fri" og tidszone. Klik på klokkeikonet i overskriften for at [sætte alarm][3].
+1. Specificér tid og dato. Klik på **Vis mere** for at indstille [gentagelse][4], "hele dagen", "optaget/fri" og tidszone. Klik på klokkeikonet i overskriften for at [sætte alarm][3].
 
-* Valgfrit, vælg et projekt og/eller salg for at linke det til opfølgningen. Du kan vælge ethvert projekt/salg, uanset hvilket firma du tidligere har valgt.
+1. Valgfrit, vælg et projekt og/eller salg for at linke det til opfølgningen. Du kan vælge ethvert projekt/salg, uanset hvilket firma du tidligere har valgt.
 
-* Vælg fanen **Dagsorden** for at tilføje yderligere information, såsom en dagsorden, en beskrivelse af opfølgningen, filer, billeder og links. Brug knapperne i bunden for at tilføje formatering af rig tekst og indhold.
+1. Vælg fanen **Dagsorden** for at tilføje yderligere information, såsom en dagsorden, en beskrivelse af opfølgningen, filer, billeder og links. Brug knapperne i bunden for at tilføje formatering af rig tekst og indhold.
 
     > [!TIP]
     > Hvis du vil begrænse adgangen til kun medarbejdere, skal du placere den information i fanen **Interne noter**. Det, der tilføjes her, sendes ikke til eksterne deltagere. Klik på uret-ikonet for at tilføje en tidsstempel. En prik på fanen indikerer, at nogen har tilføjet en note.

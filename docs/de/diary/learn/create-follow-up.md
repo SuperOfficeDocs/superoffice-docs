@@ -48,23 +48,23 @@ Wenn Sie **Ganztägig** aktivieren, wird die Zeit der Folgeaufgabe auf den als [
 
 ![Termin-Dialogfeld -screenshot][img6]
 
-* Wählen Sie den Typ der Folgeaufgabe aus.
+1. Wählen Sie den Typ der Folgeaufgabe aus.
 
-* Optional können Sie ein Unternehmen und/oder einen Kontakt auswählen, auf den sich die Folgeaufgabe bezieht.
+1. Optional können Sie ein Unternehmen und/oder einen Kontakt auswählen, auf den sich die Folgeaufgabe bezieht.
 
-* Optional können Sie ein Projekt und/oder einen Verkauf auswählen, um es mit der Folgeaufgabe zu verknüpfen. Sie können jedes Projekt/Verkauf auswählen, unabhängig davon, welches Unternehmen Sie zuvor ausgewählt haben.
+1. Optional können Sie ein Projekt und/oder einen Verkauf auswählen, um es mit der Folgeaufgabe zu verknüpfen. Sie können jedes Projekt/Verkauf auswählen, unabhängig davon, welches Unternehmen Sie zuvor ausgewählt haben.
 
-* Geben Sie Zeit und Datum an. Das Feld **Dauer** wird automatisch angepasst.
+1. Geben Sie Zeit und Datum an. Das Feld **Dauer** wird automatisch angepasst.
 
     Wenn die neue Folgeaufgabe mit einer bestehenden Folgeaufgabe überlappt, wird ein Ausrufezeichen ![Symbol][img2] neben den Start- und Stoppfeldern als Erinnerung angezeigt (Sie können die Folgeaufgabe dennoch hinzufügen). Ein Vorschlag für den ersten verfügbaren Zeitpunkt wird angezeigt. Klicken Sie auf die vorgeschlagene Zeit rechts von **Zuerst verfügbar**, um stattdessen diese Zeit auszuwählen.
 
     Wenn Sie eine neue Aufgabe erstellen, wird keine Zeit in den Feldern **Start** und **Fällig** angezeigt. Das heutige Datum wird automatisch eingefügt, Sie können es jedoch auf das erforderliche Datum ändern. Das Datum gibt den Termin für die Aufgabe an.
 
-* Optional können Sie die Adresse auswählen oder eingeben, an der die Folgeaufgabe stattfinden wird.
+1. Optional können Sie die Adresse auswählen oder eingeben, an der die Folgeaufgabe stattfinden wird.
 
-* Wählen Sie den Tab **Beschreibung**, um eine Beschreibung der Folgeaufgabe hinzuzufügen (maximal 2048 Zeichen).
-* Wählen Sie den Tab **Details**, um [Wiederholung][4], Priorität, [Alarm][3], Eigentümer und "als anzeigen" festzulegen.
-* Wählen Sie den Tab **Teilnehmer**, um [Teilnehmer hinzuzufügen][5].
+1. Wählen Sie den Tab **Beschreibung**, um eine Beschreibung der Folgeaufgabe hinzuzufügen (maximal 2048 Zeichen).
+1. Wählen Sie den Tab **Details**, um [Wiederholung][4], Priorität, [Alarm][3], Eigentümer und "als anzeigen" festzulegen.
+1. Wählen Sie den Tab **Teilnehmer**, um [Teilnehmer hinzuzufügen][5].
 
 > [!TIP]
 > Klicken Sie auf ![Symbol][img5], um ein [Videotreffen][2] einzurichten.
@@ -73,23 +73,23 @@ Wenn Sie **Ganztägig** aktivieren, wird die Zeit der Folgeaufgabe auf den als [
 
 ![Folgeaufgabesdialog -screenshot][img7]
 
-* Geben Sie einen Titel ein.
+1. Geben Sie einen Titel ein.
 
-* Klicken Sie auf den farbigen Ball und wählen Sie einen Folgeaufgabestyp aus.
+1. Klicken Sie auf den farbigen Ball und wählen Sie einen Folgeaufgabestyp aus.
 
-* Optional können Sie ein Unternehmen oder einen Kontakt auswählen, auf den sich die Folgeaufgabe bezieht. Wenn Sie sie und andere zu Ihrem Meeting einladen möchten, klicken Sie auf **Einladen**.
+1. Optional können Sie ein Unternehmen oder einen Kontakt auswählen, auf den sich die Folgeaufgabe bezieht. Wenn Sie sie und andere zu Ihrem Meeting einladen möchten, klicken Sie auf **Einladen**.
 
-  * [Teilnehmer hinzufügen][5].
-  * Optional, fügen Sie Räume, Standorte oder Ressourcen hinzu.
-  * Optional, fügen Sie eine Adresse hinzu.
+    * [Teilnehmer hinzufügen][5].
+    * Optional, fügen Sie Räume, Standorte oder Ressourcen hinzu.
+    * Optional, fügen Sie eine Adresse hinzu.
 
     ![Erweiterter Folgeaufgabesdialog -screenshot][img8]
 
-* Geben Sie Zeit und Datum an. Klicken Sie auf **Mehr anzeigen**, um [Wiederholung][4], "ganztägig", "beschäftigt/frei" und Zeitzoneneinstellungen vorzunehmen. Klicken Sie auf das Glockensymbol in der Kopfzeile, um [den Alarm einzustellen][3].
+1. Geben Sie Zeit und Datum an. Klicken Sie auf **Mehr anzeigen**, um [Wiederholung][4], "ganztägig", "beschäftigt/frei" und Zeitzoneneinstellungen vorzunehmen. Klicken Sie auf das Glockensymbol in der Kopfzeile, um [den Alarm einzustellen][3].
 
-* Optional, wählen Sie ein Projekt und/oder Verkauf aus, um es mit der Folgeaufgabe zu verknüpfen. Sie können jedes Projekt/Verkauf auswählen, unabhängig davon, welches Unternehmen Sie zuvor ausgewählt haben.
+1. Optional, wählen Sie ein Projekt und/oder Verkauf aus, um es mit der Folgeaufgabe zu verknüpfen. Sie können jedes Projekt/Verkauf auswählen, unabhängig davon, welches Unternehmen Sie zuvor ausgewählt haben.
 
-* Wählen Sie den Tab **Agenda**, um zusätzliche Informationen hinzuzufügen, wie z.B. eine Agenda, eine Beschreibung der Folgeaufgabe, Dateien, Bilder und Links. Verwenden Sie die Schaltflächen in der Fußzeile, um Rich-Text-Formatierung und Inhalt hinzuzufügen.
+1. Wählen Sie den Tab **Agenda**, um zusätzliche Informationen hinzuzufügen, wie z.B. eine Agenda, eine Beschreibung der Folgeaufgabe, Dateien, Bilder und Links. Verwenden Sie die Schaltflächen in der Fußzeile, um Rich-Text-Formatierung und Inhalt hinzuzufügen.
 
     > [!TIP]
     > Wenn Sie den Zugriff auf Mitarbeiter beschränken möchten, platzieren Sie diesen Inhalt im Tab **Interne Notizen**. Alles, was hier hinzugefügt wird, wird nicht an externe Teilnehmer gesendet. Klicken Sie auf das Uhrsymbol, um einen Zeitstempel hinzuzufügen. Ein Punkt auf dem Tab zeigt an, dass jemand eine Notiz hinzugefügt hat.
