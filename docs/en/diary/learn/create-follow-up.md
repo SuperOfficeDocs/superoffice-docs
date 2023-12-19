@@ -48,23 +48,23 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 
 ![Appointment dialog -screenshot][img6]
 
-* Select follow-up type.
+1. Select follow-up type.
 
-* Optionally, select a company and/or contact the follow-up pertains to.
+1. Optionally, select a company and/or contact the follow-up pertains to.
 
-* Optionally, select a project and/or sale to link it to the follow-up. You can choose any project/sale regardless of which company you chose earlier.
+1. Optionally, select a project and/or sale to link it to the follow-up. You can choose any project/sale regardless of which company you chose earlier.
 
-* Specify time and date. The **Duration** field is automatically adjusted.
+1. Specify time and date. The **Duration** field is automatically adjusted.
 
     If the new follow-up overlaps with an existing follow-up, an exclamation mark ![icon][img2] is shown next to the start and stop fields as a reminder (you can still add the follow-up). A suggestion for the first vacant time slot is shown. Click the proposed time to the right of **First available** to select this time instead.
 
     When you create a new to-do, no time is displayed in the **Start** and **Due** fields. Today's date is inserted automatically, but you can change it to the required date. The date indicates the deadline for the to-do.
 
-* Optionally, select or enter the address where the follow-up will take place.
+1. Optionally, select or enter the address where the follow-up will take place.
 
-* Select the **Description** tab to add a description of the follow-up (max 2048 characters).
-* Select the **Details** tab to set [recurrence][4], priority, [alarm][3], owner, and "show as".
-* Select the **Participants** tab to [add participants][5].
+1. Select the **Description** tab to add a description of the follow-up (max 2048 characters).
+1. Select the **Details** tab to set [recurrence][4], priority, [alarm][3], owner, and "show as".
+1. Select the **Participants** tab to [add participants][5].
 
 > [!TIP]
 > Click ![icon][img5] to set up a [video meeting][2].
