@@ -73,23 +73,23 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 
 ![Follow-up dialog -screenshot][img7]
 
-* Enter a title.
+1. Enter a title.
 
-* Click the colored ball and select a follow-up type.
+1. Click the colored ball and select a follow-up type.
 
-* Optionally, select a company or contact the follow-up pertains to. If you want to invite them and others to your meeting, click **Invite**.
+1. Optionally, select a company or contact the follow-up pertains to. If you want to invite them and others to your meeting, click **Invite**.
 
-  * [Add attendees][5].
-  * Optionally, add a location or address.
-  * Optionally, add meeting rooms, locations, or resources.
+    * [Add attendees][5].
+    * Optionally, add a location or address.
+    * Optionally, add meeting rooms, locations, or resources.
 
     ![Extended follow-up dialog -screenshot][img8]
 
-* Specify time and date. Click **Show more** to set [recurrence][4], "all day", "busy/free", and timezone. Click the bell icon in the header to [set the alarm][3].
+1. Specify time and date. Click **Show more** to set [recurrence][4], "all day", "busy/free", and timezone. Click the bell icon in the header to [set the alarm][3].
 
-* Optionally, select a project and/or sale to link it to the follow-up. You can choose any project/sale regardless of which company you chose earlier.
+1. Optionally, select a project and/or sale to link it to the follow-up. You can choose any project/sale regardless of which company you chose earlier.
 
-* Select the **Agenda** tab to add additional information, such as an agenda, a description of the follow-up, files, images, and links. Use the buttons in the footer to add rich text formatting and content.
+1. Select the **Agenda** tab to add additional information, such as an agenda, a description of the follow-up, files, images, and links. Use the buttons in the footer to add rich text formatting and content.
 
     > [!TIP]
     > If you want to restrict access to employees-only, place that content in the **Internal notes** tab. Whatever is added here is not sent to external participants. Click the clock icon to add a timestamp. A dot on the tab indicates that someone has added a note.
