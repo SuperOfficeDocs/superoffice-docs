@@ -7,7 +7,7 @@ so.date: 03.02.2023
 keywords: side panel
 so.topic: concept
 language: en
---- 
+---
 
 # The side panel
 
