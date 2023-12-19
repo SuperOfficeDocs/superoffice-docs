@@ -48,23 +48,23 @@ Hvis du markerer **Hele dagen**, blir tiden for oppfølgingen satt til perioden 
 
 ![Avtalevindu - skjermbilde][img6]
 
-* Velg oppfølgingstype.
+1. Velg oppfølgingstype.
 
-* Valgfritt, velg et selskap og/eller en kontakt som oppfølgingen gjelder.
+1. Valgfritt, velg et selskap og/eller en kontakt som oppfølgingen gjelder.
 
-* Valgfritt, velg et prosjekt og/eller salg for å koble det til oppfølgingen. Du kan velge hvilket som helst prosjekt/salg uavhengig av hvilket selskap du valgte tidligere.
+1. Valgfritt, velg et prosjekt og/eller salg for å koble det til oppfølgingen. Du kan velge hvilket som helst prosjekt/salg uavhengig av hvilket selskap du valgte tidligere.
 
-* Spesifiser tid og dato. **Varighet**-feltet justeres automatisk.
+1. Spesifiser tid og dato. **Varighet**-feltet justeres automatisk.
 
     Hvis den nye oppfølgingen overlapper med en eksisterende oppfølging, vises et utropstegn ![ikon][img2] ved siden av start- og stoppfeltene som en påminnelse (du kan fortsatt legge til oppfølgingen). Forslag til første ledige tidspunkt vises. Klikk på foreslått tid til høyre for **Første tilgjengelige** for å velge denne tiden i stedet.
 
     Når du oppretter en ny to-do, vises ingen tid i feltene **Start** og **Slutt**. Dagens dato settes automatisk inn, men du kan endre den til den nødvendige datoen. Datoen indikerer fristen for to-do-en.
 
-* Valgfritt, velg eller skriv inn adressen der oppfølgingen vil finne sted.
+1. Valgfritt, velg eller skriv inn adressen der oppfølgingen vil finne sted.
 
-* Velg fanen **Beskrivelse** for å legge til en beskrivelse av oppfølgingen (maks 2048 tegn).
-* Velg fanen **Detaljer** for å angi [gjentakelse][4], prioritet, [alarm][3], eier og "vis som".
-* Velg fanen **Deltakere** for å [legge til deltakere][5].
+1. Velg fanen **Beskrivelse** for å legge til en beskrivelse av oppfølgingen (maks 2048 tegn).
+1. Velg fanen **Detaljer** for å angi [gjentakelse][4], prioritet, [alarm][3], eier og "vis som".
+1. Velg fanen **Deltakere** for å [legge til deltakere][5].
 
 > [!TIP]
 > Klikk ![ikon][img5] for å sette opp et [videomøte][2].
@@ -73,23 +73,23 @@ Hvis du markerer **Hele dagen**, blir tiden for oppfølgingen satt til perioden 
 
 ![Oppfølgingsdialog - skjermbilde][img7]
 
-* Skriv inn en tittel.
+1. Skriv inn en tittel.
 
-* Klikk på den fargede ballen og velg en oppfølgingstype.
+1. Klikk på den fargede ballen og velg en oppfølgingstype.
 
-* Valgfritt, velg et selskap eller en kontakt som oppfølgingen gjelder for. Hvis du vil invitere dem og andre til møtet, klikk på **Inviter**.
+1. Valgfritt, velg et selskap eller en kontakt som oppfølgingen gjelder for. Hvis du vil invitere dem og andre til møtet, klikk på **Inviter**.
 
-  * [Legg til deltakere][5].
-  * Valgfritt, legg til møterom, lokasjoner, eller steder.
-  * Valgfritt, legg til sted eller adresse.
+    * [Legg til deltakere][5].
+    * Valgfritt, legg til møterom, lokasjoner, eller steder.
+    * Valgfritt, legg til sted eller adresse.
 
     ![Utvidet oppfølgingsdialog - skjermbilde][img8]
 
-* Spesifiser tid og dato. Klikk på **Vis mer** for å angi [gjentakelse][4], "hele dagen", "opptatt/fri" og tidssone. Klikk på klokkeikonet i overskriften for å [sette alarm][3].
+1. Spesifiser tid og dato. Klikk på **Vis mer** for å angi [gjentakelse][4], "hele dagen", "opptatt/fri" og tidssone. Klikk på klokkeikonet i overskriften for å [sette alarm][3].
 
-* Valgfritt, velg et prosjekt og/eller salg for å koble det til oppfølgingen. Du kan velge hvilket som helst prosjekt/salg uavhengig av hvilket selskap du valgte tidligere.
+1. Valgfritt, velg et prosjekt og/eller salg for å koble det til oppfølgingen. Du kan velge hvilket som helst prosjekt/salg uavhengig av hvilket selskap du valgte tidligere.
 
-* Velg fanen **Dagsorden** for å legge til ytterligere informasjon, for eksempel en dagsorden, en beskrivelse av oppfølgingen, filer, bilder og lenker. Bruk knappene i bunnen for å legge til formatering og innhold i rik tekst.
+1. Velg fanen **Dagsorden** for å legge til ytterligere informasjon, for eksempel en dagsorden, en beskrivelse av oppfølgingen, filer, bilder og lenker. Bruk knappene i bunnen for å legge til formatering og innhold i rik tekst.
 
     > [!TIP]
     > Hvis du vil begrense tilgangen til kun ansatte, plasser den informasjonen i fanen **Interne notater**. Det som legges til her sendes ikke til eksterne deltakere. Klikk på klokkeikonet for å legge til et tidsstempel. En prikk på fanen indikerer at noen har lagt til en merknad.

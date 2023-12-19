@@ -48,23 +48,23 @@ Als u **Hele dag** aanvinkt, wordt de tijd van de opvolging ingesteld op de peri
 
 ![Afspraak dialoogvenster -screenshot][img6]
 
-* Selecteer het type vervolg.
+1. Selecteer het type vervolg.
 
-* Optioneel, selecteer een bedrijf en/of contact waarop de vervolgactiviteit betrekking heeft.
+1. Optioneel, selecteer een bedrijf en/of contact waarop de vervolgactiviteit betrekking heeft.
 
-* Optioneel, selecteer een project en/of verkoop om het te koppelen aan de vervolg. U kunt elk project/verkoop kiezen, ongeacht welk bedrijf u eerder heeft gekozen.
+1. Optioneel, selecteer een project en/of verkoop om het te koppelen aan de vervolg. U kunt elk project/verkoop kiezen, ongeacht welk bedrijf u eerder heeft gekozen.
 
-* Specificeer tijd en datum. Het veld **Duur** wordt automatisch aangepast.
+1. Specificeer tijd en datum. Het veld **Duur** wordt automatisch aangepast.
 
     Als de nieuwe vervolgactiviteit overlapt met een bestaande vervolg, wordt een uitroepteken ![pictogram][img2] getoond naast de start- en stopvelden als herinnering (u kunt de vervolgactiviteit nog steeds toevoegen). Een suggestie voor het eerste beschikbare tijdsinterval wordt getoond. Klik op het voorgestelde tijdstip rechts van **Eerst beschikbaar** om dit tijdstip in plaats daarvan te selecteren.
 
     Wanneer u een nieuwe taak maakt, wordt er geen tijd weergegeven in de velden **Start** en **Vervaldatum**. De datum van vandaag wordt automatisch ingevoegd, maar u kunt deze wijzigen naar de vereiste datum. De datum geeft de deadline aan voor de taak.
 
-* Optioneel, selecteer of voer het adres in waar de vervolgactiviteit zal plaatsvinden.
+1. Optioneel, selecteer of voer het adres in waar de vervolgactiviteit zal plaatsvinden.
 
-* Selecteer het tabblad **Beschrijving** om een beschrijving van de vervolgactiviteit toe te voegen (maximaal 2048 tekens).
-* Selecteer het tabblad **Details** om [herhaling][4], prioriteit, [alarm][3], eigenaar en "weergeven als" in te stellen.
-* Selecteer het tabblad **Deelnemers** om [deelnemers toe te voegen][5].
+1. Selecteer het tabblad **Beschrijving** om een beschrijving van de vervolgactiviteit toe te voegen (maximaal 2048 tekens).
+1. Selecteer het tabblad **Details** om [herhaling][4], prioriteit, [alarm][3], eigenaar en "weergeven als" in te stellen.
+1. Selecteer het tabblad **Deelnemers** om [deelnemers toe te voegen][5].
 
 > [!TIP]
 > Klik op ![icoon][img5] om een [videomeeting][2] in te stellen.
@@ -75,23 +75,23 @@ Sommige informatie wordt automatisch ingevoegd op basis van de context, bijvoorb
 
 ![Follow-up dialoogvenster -screenshot][img7]
 
-* Voer een titel in.
+1. Voer een titel in.
 
-* Klik op de gekleurde bal en selecteer een opvolgingstype.
+1. Klik op de gekleurde bal en selecteer een opvolgingstype.
 
-* Optioneel, selecteer een bedrijf of contact waarop de opvolging betrekking heeft. Als u ze en anderen wilt uitnodigen voor uw vergadering, klik dan op **Uitnodigen**.
+1. Optioneel, selecteer een bedrijf of contact waarop de opvolging betrekking heeft. Als u ze en anderen wilt uitnodigen voor uw vergadering, klik dan op **Uitnodigen**.
 
-  * [Voeg deelnemers toe][5].
-  * Optioneel, voeg ruimters, locaties, of resources toe.
-  * Optioneel, voeg een adres toe.
+    * [Voeg deelnemers toe][5].
+    * Optioneel, voeg ruimters, locaties, of resources toe.
+    * Optioneel, voeg een adres toe.
 
     ![Uitgebreid follow-up dialoogvenster -screenshot][img8]
 
-* Specificeer tijd en datum. Klik op **Meer weergeven** om [herhaling][4], "de hele dag", "bezet/vrij" en tijdzone in te stellen. Klik op het belicoon in de kop om [de wekker in te stellen][3].
+1. Specificeer tijd en datum. Klik op **Meer weergeven** om [herhaling][4], "de hele dag", "bezet/vrij" en tijdzone in te stellen. Klik op het belicoon in de kop om [de wekker in te stellen][3].
 
-* Optioneel, selecteer een project en/of verkoop om het te koppelen aan de opvolging. U kunt elk project/verkoop kiezen, ongeacht welk bedrijf u eerder heeft gekozen.
+1. Optioneel, selecteer een project en/of verkoop om het te koppelen aan de opvolging. U kunt elk project/verkoop kiezen, ongeacht welk bedrijf u eerder heeft gekozen.
 
-* Selecteer het tabblad **Agenda** om aanvullende informatie toe te voegen, zoals een agenda, een beschrijving van de opvolging, bestanden, afbeeldingen en links. Gebruik de knoppen in de voettekst om opgemaakte tekst en inhoud toe te voegen.
+1. Selecteer het tabblad **Agenda** om aanvullende informatie toe te voegen, zoals een agenda, een beschrijving van de opvolging, bestanden, afbeeldingen en links. Gebruik de knoppen in de voettekst om opgemaakte tekst en inhoud toe te voegen.
 
     > [!TIP]
     > Als u de toegang wilt beperken tot alleen medewerkers, plaats dan die inhoud in het tabblad **Interne notities**. Wat hier wordt toegevoegd, wordt niet naar externe deelnemers verzonden. Klik op het klokicoon om een tijdstempel toe te voegen. Een stip op het tabblad geeft aan dat iemand een notitie heeft toegevoegd.

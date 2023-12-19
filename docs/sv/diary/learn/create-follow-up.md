@@ -48,22 +48,22 @@ Om du kryssar i **Hela dagen**, sätts tiden för händelsen till den period som
 
 ![Mötesdialogruta -screenshot][img6]
 
-* Välj händelsestyp.
+1. Välj händelsestyp.
 
-* Valfritt, välj ett företag och/eller en kontakt som händelsen gäller.
+1. Valfritt, välj ett företag och/eller en kontakt som händelsen gäller.
 
-* Valfritt, välj ett projekt och/eller en försäljning för att länka det till händelsen. Du kan välja vilket projekt/försäljning som helst oavsett vilket företag du valde tidigare.
+1. Valfritt, välj ett projekt och/eller en försäljning för att länka det till händelsen. Du kan välja vilket projekt/försäljning som helst oavsett vilket företag du valde tidigare.
 
-* Ange tid och datum. **Varaktighet**-fältet justeras automatiskt.
+1. Ange tid och datum. **Varaktighet**-fältet justeras automatiskt.
 händelsen överlappar med en befintlig händelse, visas ett utropstecken ![ikon][img2] bredvid start- och stoppfälten som en påminnelse (du kan fortfarande lägga till händelsen). Ett förslag på första lediga tidpunkt visas. Klicka på den föreslagna tiden till höger om **Första lediga** för att välja den här tiden istället.
 
     När du skapar en ny to-do visas ingen tid i fälten **Start** och **Slut**. Dagens datum sätts automatiskt in, men du kan ändra det till det önskade datumet. Datumet indikerar deadline för to-do:n.
 
-* Valfritt, välj eller ange adressen där händelsen kommer att äga rum.
+1. Valfritt, välj eller ange adressen där händelsen kommer att äga rum.
 
-* Välj fliken **Beskrivning** för att lägga till en beskrivning av händelsen (max 2048 tecken).
-* Välj fliken **Detaljer** för att ställa in [återkommande][4], prioritet, [larm][3], ägare och "visa som".
-* Välj fliken **Deltagare** för att [lägga till deltagare][5].
+1. Välj fliken **Beskrivning** för att lägga till en beskrivning av händelsen (max 2048 tecken).
+1. Välj fliken **Detaljer** för att ställa in [återkommande][4], prioritet, [larm][3], ägare och "visa som".
+1. Välj fliken **Deltagare** för att [lägga till deltagare][5].
 
 > [!TIP]
 > Klicka på ![ikon][img5] för att ställa in en [videomöte][2].
@@ -72,23 +72,23 @@ händelsen överlappar med en befintlig händelse, visas ett utropstecken ![ikon
 
 ![Uppföljningsdialogruta -screenshot][img7]
 
-* Ange en titel.
+1. Ange en titel.
 
-* Klicka på den färgade bollen och välj en händelsestyp.
+1. Klicka på den färgade bollen och välj en händelsestyp.
 
-* Valgfritt, välj ett företag eller en kontakt som händelsen gäller. Om du vill bjuda in dem och andra till mötet, klicka på **Bjud in**.
+1. Valgfritt, välj ett företag eller en kontakt som händelsen gäller. Om du vill bjuda in dem och andra till mötet, klicka på **Bjud in**.
 
-  * [Lägg till deltagare][5].
-  * Valgfritt, legg til rum, lokasjoner, eller resurser.
-  * Valgfritt, legg til plats eller adresse.
+    * [Lägg till deltagare][5].
+    * Valgfritt, legg til rum, lokasjoner, eller resurser.
+    * Valgfritt, legg til plats eller adresse.
 
     ![Utökad uppföljningsdialogruta -screenshot][img8]
 
-* Specificera tid och datum. Klicka på **Visa mer** för att ställa in [upprepning][4], "hela dagen", "upptagen/fri" och tidszon. Klicka på klockikonen i huvudet för att [ställa in larmet][3].
+1. Specificera tid och datum. Klicka på **Visa mer** för att ställa in [upprepning][4], "hela dagen", "upptagen/fri" och tidszon. Klicka på klockikonen i huvudet för att [ställa in larmet][3].
 
-* Valgfritt, välj ett projekt och/eller försäljning för att länka det till uppföljningen. Du kan välja vilket projekt/försäljning som helst oavsett vilket företag du valde tidigare.
+1. Valgfritt, välj ett projekt och/eller försäljning för att länka det till uppföljningen. Du kan välja vilket projekt/försäljning som helst oavsett vilket företag du valde tidigare.
 
-* Välj fliken **Agenda** för att lägga till ytterligare information, som en dagordning, en beskrivning av händelsen, filer, bilder och länkar. Använd knapparna i sidfoten för att lägga till formatering av rik text och innehåll.
+1. Välj fliken **Agenda** för att lägga till ytterligare information, som en dagordning, en beskrivning av händelsen, filer, bilder och länkar. Använd knapparna i sidfoten för att lägga till formatering av rik text och innehåll.
 
     > [!TIP]
     > Om du vill begränsa åtkomsten endast till anställda, placera den informationen i fliken **Intern anteckningar**. Det som läggs till här skickas inte till externa deltagare. Klicka på klockikonen för att lägga till en tidsstämpel. En prick på fliken indikerar att någon har lagt till en anteckning.
