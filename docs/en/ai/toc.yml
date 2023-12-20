@@ -4,6 +4,8 @@ items:
   items:
   - name: Introduction
     href: index.md
+  - name: SuperOffice Copilot
+    href: copilot/index.md
   - name: Configuration AI
     href: configuration-ai/index.md
     expanded: true
