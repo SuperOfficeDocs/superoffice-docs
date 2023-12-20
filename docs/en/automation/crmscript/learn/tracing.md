@@ -2,8 +2,8 @@
 uid: help-en-automation-script-tracing
 title: Tracing
 description: Tracing
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 12.20.2023
 keywords: CRMScript, trace, debug
 so.topic: howto
 so.audience: settings
@@ -13,40 +13,57 @@ language: en
 
 # Tracing
 
-The tracing feature will record every detail in the execution of a script or macro and save it in a log. Every time the script or macro is used, the execution is recorded.
+The tracing feature records every detail in the execution of a script or macro and save it in a log. Every time the script or macro is used, the execution is recorded.
 
 You can then investigate the script execution by rewinding and fast-forwarding through the recording. You get a full list of all the recorded executions of the script, and by whom the script was executed. This allows you to see how your scripts behaved and see all the variables at any given point.
 
-## View tracings
+## View traces
 
 The **Tracing** tab contains a list of all traces. Click a trace in the list to view the details.
 
-## Start tracings
+## Start a trace
 
-* Go to **CRMScript** > **Debug sessions** and click ![icon][img1] **Start tracing scripts** to start tracing the scripts in the list.
-* Open a script or macro in **Debugger** and click ![icon][img2] **Trace script**.
-* Open a script or macro in the **Macros and scripts** tab and click ![icon][img2] **Trace script**.
+1. Do one of the following:
 
-## Edit tracings
+    * Open a script or macro in **Debugger** and click **Trace script**.
+    * Open a script or macro in the **Macros and scripts** tab and click **Trace script**.
+
+1. Enter a **description** of the trace, to make it easier to identify.
+1. Optionally, set **User filter** if you want a user-specific trace.
+1. Optionally, specify notification and storage properties. See [list of fields](#fields) below.
+1. Select **Enabled** to activate the trace.
+1. Click **OK** when you are done.
+
+## Turn on/off all enabled traces
+
+1. Go to **CRMScript** > **Debug sessions**.
+1. Click **Start tracing scripts** to start tracing the scripts in the list.
+    Click **Stop tracing scripts** to pause tracing.
+
+## Edit trace
 
 1. Click a trace in the **Tracing** list to open it.
-
-2. Click ![icon][img3] **Edit trace**. The **Edit trace** screen displays.
-
-3. Fill in the following fields:
-
-    * **Description**: Enter a description of the trace, to make it easier to identify.
-    * **User filter**: To trace the script for a specific user, select the user from the list.
-    * **Trace resolution**: Enter the sampling frequency of the trace log.
-        Example: Enter 1 to log every command that is executed by the script. Enter 5 to log every fifth command that is executed by the script.
-    * **Keep traces**: Select how long the trace logs should be kept.
-    * **Enabled**: Select this option to activate the trace.
-
+2. Click **Edit trace**.
+3. Update the fields as needed.
 4. Click **OK** when you are done.
+
+![Trace CRMScript statistics-screenshot][img4]
+
+### <a id="fields" />Fields
+
+| Field | Description |
+|---|---|
+| Description | An explanation of the trace, to make it easier to identify. |
+| User filter | Limits tracing to a specific user. |
+| Trace resolution | The sampling frequency of the trace log. 1 - trace every execution of the script; 5 - trace every fifth execution; and so on. |
+| Keep traces | How long to keep a trace before deleting it. |
+| Enabled | Activates the trace. |
+| Notify | Whether to send notification emails. |
+| Max number of notifications | Limits number of emails sent. |
+| Notification email | Where to send notifications. |
+| Only save if there is an unhandled exception | Limits trace to exceptions. |
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/run-script.png
-[img2]: ../../../../media/icons/btn-script-trace-small.png
-[img3]: ../../../../media/icons/edit.png
+[img4]: ../../../../media/loc/en/automation/trace.png
