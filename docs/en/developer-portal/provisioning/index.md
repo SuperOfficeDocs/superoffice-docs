@@ -23,7 +23,7 @@ When the customer clicks **I approve,** it should automatically set up your appl
 
 Provisioning a partner application may involve configuration or settings in both SuperOffice and the other partner service depending on what the application actually does.
 
-## Example
+## Example (standard app)
 
 1. A customer sees your application in the App Store and would like to know more.
 

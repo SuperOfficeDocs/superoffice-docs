@@ -3,7 +3,7 @@ uid: tenant-get-consent
 title: Get consent to access a customer's tenant
 description: How to obtain consent to access a customer's tenant
 author: Margrethe Romnes
-so.date: 10.04.2023
+so.date: 12.20.2023
 keywords: tenant, consent, approve
 so.topic: howto
 so.envir: cloud
@@ -16,6 +16,12 @@ Each customer is responsible for their data and must explicitly approve each and
 
 > [!CAUTION]
 > External consultants **MAY NOT** approve access to a customer's production database!
+
+## For custom applications
+
+[!include[Activate app](../includes/explicit-consent.md)]
+
+## For standard applications in the App Store
 
 1. Send the administrator to the authorization endpoint and [authenticate the user][1].
 
