@@ -2,8 +2,9 @@
 uid: help-nl-automation-script-tracing
 title: Traceren
 description: Traceren
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 12.20.2023
+so.version: 10.2.11
 keywords: CRMScript, traceren, fout opsporen
 so.topic: howto
 so.audience: settings
@@ -21,32 +22,49 @@ U kunt vervolgens de uitvoering van het script onderzoeken door de vastgelegde s
 
 Het tabblad **Traceren** bevat een lijst met alle traceringen. Klik op een tracering in de lijst om de details weer te geven.
 
-## Traceringen starten
+## Script traceren
 
-* Ga naar **CRMScript** > **Foutopsporingssessies** en klik op ![pictogram][img1] **Traceringsscripts starten** om de tracering van de scripts in de lijst te starten.
-* Open een script of macro in **Foutopsporing** en klik op ![pictogram][img2] **Script traceren**.
-* Open een script of macro in het tabblad **Macro's en scripts** en klik op ![Pictogram][img2] **Script traceren**.
+1. Doe een van de volgende:
 
-## Traceringen bewerken
+    * Open een script of macro in **Foutopsporing** en klik op  **Script traceren**.
+    * Open een script of macro in het tabblad **Macro's en scripts** en klik op **Script traceren**.
 
-1. Klik op een tracering in de lijst **Traceren** om deze te openen.
+2. Voer een **beschrijving** van de trace in, om het gemakkelijker te maken te identificeren.
+3. Optioneel, stel **Gebruikersfilter** in als je een gebruikersspecifieke trace wilt.
+4. Optioneel, specificeer meldings- en opslageigenschappen. Zie [lijst van velden](#fields) hieronder.
+5. Selecteer **Ingeschakeld** om de trace te activeren.
+6. Klik op **OK** wanneer je klaar bent.
 
-2. Klik op ![pictogram][img3] **Tracering bewerken**. Het scherm **Tracering bewerken** wordt geopend.
+## Schakel alle ingeschakelde traces in/uit
 
-3. Vul de volgende velden in:
+1. Ga naar **CRMScript** > **Foutopsporingssessies**.
+2. Klik op **Traceringsscripts starten** om de scripts in de lijst te traceren.
+    Klik op **Traceringsscripts stoppen** om het traceren te pauzeren.
 
-    * **Beschrijving**: voer een beschrijving van de tracering in om deze makkelijker te kunnen identificeren.
-    * **Gebruikersfilter**: Als u het script wilt traceren voor een bepaalde gebruiker, selecteert u de gebruiker uit de lijst.
-    * **Traceeroplossing**: voer de metingsfrequentie in voor het traceringslogboek.
-        Bijvoorbeeld: voer 1 in om elke opdracht vast te leggen die het script uitvoert. voer 5 in om elke vijfde opdracht vast te leggen die het script uitvoert.
-    * **Traceringen bewaren**: selecteer hoe lang de traceringslogboeken moeten worden bewaard.
-    * **Ingeschakeld**: selecteer deze optie om de tracering te activeren.
+## Tracering bewerken
 
+1. Klik op een tracering in de **Sporing** lijst om het te openen.
+2. Klik op **Tracering bewerken**.
+3. Werk de velden bij zoals nodig.
 4. Klik op **OK** wanneer u klaar bent.
+
+![Trace CRMScript -screenshot][img4]
+
+### <a id="fields" />Veld
+
+| Veld | Beschrijving |
+|---|---|
+| Beschrijving | Een uitleg van de tracering, om het gemakkelijker te maken te identificeren. |
+| Gebruikersfilter | Beperkt het traceren tot een specifieke gebruiker. |
+| Traceeroplossing | De metingsfrequentie in voor het traceringslogboek. 1 - traceer elke uitvoering van het script; 5 - traceer elke vijfde uitvoering; enzovoort. |
+| Tracering bewaren | Hoe lang een tracering moet worden bewaard voordat het wordt verwijderd. |
+| Ingeschakeld | Activeert de tracering. |
+| Melden | Of meldingsmails moeten worden verzonden. |
+| Maximumaantal meldingen | Beperkt aantal verzonden e-mails. |
+| E-mailmelding | Waar meldingen naartoe moeten worden gestuurd. |
+| Alleen opslaan als er een niet-behandelde uitzondering is | Beperkt traceren tot uitzonderingen. |
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/run-script.png
-[img2]: ../../../../media/icons/btn-script-trace-small.png
-[img3]: ../../../../media/icons/edit.png
+[img4]: ../../../../media/loc/en/automation/trace.png

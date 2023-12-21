@@ -62,7 +62,7 @@ A script trace will be disabled when it has traced 100 times or the sum of saved
 
 The number of runs and accumulated data size are shown per trace and in the list of traces.
 
-Consider when and what you need to trace. The **Only trace when it is required** checkbox logs only unhandled exceptions or if the function 'forceSaveTrace(true)' is called within the script. Pair this with notifications to monitor your scripts.
+Consider when and what you need to trace. The **Only trace when it is required** checkbox logs only unhandled exceptions or if the function `forceSaveTrace(true)` is called within the script. Pair this with notifications to monitor your scripts.
 
 ## Notifications
 

@@ -2,8 +2,9 @@
 uid: help-da-automation-script-tracing
 title: Sporing
 description: Sporing
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 12.20.2023
+so.version: 10.2.11
 keywords: CRMScript, spor, debug
 so.topic: howto
 so.audience: settings
@@ -21,32 +22,49 @@ Du kan derefter undersøge udførelse af scriptet ved at spole tilbage og frem g
 
 Fanen **Sporing** indeholder en liste over alle sporinger. Klik på en sporing på listen for at få vist detaljerne.
 
-## Start sporinger
+## Start sporing
 
-* Gå til **CRMScript** > **Fejlfindingssessioner,** og klik på ![ikon][img1] **Start sporingsscripts** for at starte sporing af scripts på listen.
-* Åbn et script eller en makro i **Fejlfinding**, og klik på ![ikon][img2] **Spor script**.
-* Åbn et script eller en makro i fanen **Makroer og script**, og klik på ![ikon][img2] **Spor script**.
+1. Gør en af følgende:
 
-## Rediger sporinger
+    * Åbn et script eller en makro i **Fejlfinding**, og klik på **Spor script**.
+    * Åbn et script eller en makro i fanen **Makroer og script**, og klik på **Spor script**.
 
-1. Klik på en sporing på listen **Sporing** for at åbne den.
+2. Indtast en **Beskrivelse** af sporet, for at gøre det nemmere at identificere.
+3. Valgfrit, indstil **Brugerfilter** hvis du ønsker et brugerspecifikt spor.
+4. Valgfrit, specificér varsling og lagrings egenskaber. Se [liste over felter](#fields) nedenfor.
+5. Vælg **Aktiveret** for at aktivere sporet.
+6. Klik **OK** når du er færdig.
 
-2. Klik på ![ikonet][img3] **Rediger sporing**. Skærmbilledet **Rediger sporing** vises.
+## Slå alle aktiverede spor til/fra
 
-3. Udfyld de følgende felter:
+1. Gå til **CRMScript** > **Fejlfindingssessioner**.
+2. Klik på **Start sporingsscripts** for at starte sporingen af scripts i listen.
+    Klik på **Stop sporingsscripts** for at pause sporingen.
 
-    * **Beskrivelse**: Angiv en beskrivelse af sporingen, som gør den lettere at identificere.
-    * **Brugerfilter**: Du kan spore scriptet for en bestemt bruger ved at vælge brugeren på listen.
-    * **Opløsning af sporing**: Angiv samplingsfrekvensen for sporingsloggen.
-        Eksempel: Angiv 1 for at logge alle kommandoer, der udføres af scriptet. Angiv 5 for at logge hver femte kommando, der udføres af scriptet.
-    * **Behold sporinger**: Vælg, hvor længe sporingen skal beholdes.
-    * **Aktiveret**: Vælg denne valgmulighed for at aktivere sporingen.
+## Rediger sporing
 
-4. Klik på **OK**, når du er færdig.
+1. Klik på en sporing i **Sporing** listen for at åbne den.
+2. Klik **Rediger sporing**.
+3. Opdater felterne som nødvendigt.
+4. Klik **OK** når du er færdig.
+
+![Spor CRMScript -screenshot][img4]
+
+### <a id="fields" />Felt
+
+| Felt | Beskrivelse |
+|---|---|
+| Beskrivelse | En forklaring af sporet, for at gøre det nemmere at identificere. |
+| Brugerfilter | Begrænser sporingen til en bestemt bruger. |
+| Opløsning af sporing | Samplingsfrekvensen af sporloggen. 1 - spor hver udførelse af skriptet; 5 - spor hver femte udførelse; og så videre. |
+| Behold sporinger | Hvor længe at beholde et spor før det slettes. |
+| Aktiveret | Aktiverer sporingen. |
+| Giv besked | Om man skal sende varslingse-mails. |
+| Maksimalt antal beskeder: | Begrænser antal e-mails sendt. |
+| Notifikations-e-mail | Hvor man skal sende varsler. |
+| Gem kun, hvis der er en ikke-håndteret undtagelse | Begrænser spor til undtagelser. |
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/run-script.png
-[img2]: ../../../../media/icons/btn-script-trace-small.png
-[img3]: ../../../../media/icons/edit.png
+[img4]: ../../../../media/loc/en/automation/trace.png

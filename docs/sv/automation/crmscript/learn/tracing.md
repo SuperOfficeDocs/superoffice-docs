@@ -2,8 +2,9 @@
 uid: help-sv-automation-script-tracing
 title: Spårning
 description: Spårning
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 12.20.2023
+so.version: 10.2.11
 keywords: CRMScript, spåra, felsök
 so.topic: howto
 so.audience: settings
@@ -21,32 +22,49 @@ Sedan kan du undersöka skriptkörningen genom att spola tillbaka och spola fram
 
 Fliken **Spårning** innehåller en lista över alla spårningar. Klicka på ett spår i listan om du vill visa information.
 
-## Starta spårningar
+## Starta spårning
 
-* Gå till **CRMScript** > **Felsökningssessioner** och klicka på ![ikon][img1] **Starta spårning av skript** om du vill starta spårningen av skripten i listan.
-* Öppna ett skript eller makro i **Felsökning** och klicka på ![ikon][img2] **Spåra skript**.
-* Öppna ett skript eller makro på fliken **Makron och skript** och klicka på ![ikon][img2] **Spåra skript**.
+1. Gör en av följande:
 
-## Redigera spårningar
+    * Öppna ett skript eller makro i **Felsökning** och klicka på **Spåra skript**.
+    * Öppna ett skript eller makro på fliken **Makron och skript** och klicka på **Spåra skript**.
 
-1. Öppna ett spår genom att klicka på det i listan **Spårning**.
+2. Ange en **beskrivning** av spåret, för att göra det enklare att identifiera.
+3. Valgfritt, ställ in **Användarfilter** om du vill ha ett användarspecifikt spår.
+4. Valgfritt, specificera notifierings- och lagringsegenskaper. Se [lista över fält](#fields) nedan.
+5. Välj **Aktiverad** för att aktivera spåret.
+6. Klicka **OK** när du är klar.
 
-2. Klicka på ![ikon][img3] **Redigera spår**. Skärmen **Redigera spår** visas.
+## Slå på/av alla aktiverade spår
 
-3. Fyll i följande fält:
+1. Gå till **CRMScript** > **Felsökningssessioner**.
+2. Klicka på **Starta spårning av skript** för att starta spårningen av skripten i listan.
+    Klicka på **Stoppa spårning av skript** för att pausa spårningen.
 
-    * **Beskrivning**: Ange en beskrivning av spåret så att det blir lättare att identifiera.
-    * **Användarfilter**: Om du vill spåra skriptet för en specifik användare väljer du användaren i listan.
-    * **Spårningslösning**: Ange exempelfrekvensen i spårningsloggen.
-        Exempel: Ange 1 om du vill logga varje kommando som körs av skriptet. Ange 5 om du vill logga var femte kommando som körs av skriptet.
-    * **Behåll spår**: Välj hur länge spårningsloggarna ska behållas.
-    * **Aktiverad**: Välj det här alternativet om du vill aktivera spåret.
+## Redigera spår
 
-4. Klicka på **OK** när du är färdig.
+1. Klicka på ett spår i **Spårning** listan för att öppna den.
+2. Klicka **Redigera spår**.
+3. Uppdatera fälten som behövs.
+4. Klicka **OK** när du är klar.
+
+![Trace CRMScript -screenshot][img4]
+
+### <a id="fields" />Fält
+
+| Fält | Beskrivning |
+|---|---|
+| Beskrivning | En förklaring av spåret, för att göra det enklare att identifiera. |
+| Användarfilter | Begränsar spårningen till en specifik användare. |
+| Spårningslösning | Samplingsfrekvensen av spårloggen. 1 - spår varje utförande av skriptet; 5 - spår var femte utförande; och så vidare. |
+| Behåll spår | Hur länge att behålla ett spår innan det raderas. |
+| Aktiverad | Aktiverar spåret. |
+| Meddela | Om man ska skicka aviseringsmejl. |
+| Maximalt antal meddelanden | Begränsar antal mejl skickade. |
+| E-postavisering | Var man ska skicka notifikationer. |
+| Spara bara om det finns ett ohanterat undantag | Begränsar spår till undantag. |
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/run-script.png
-[img2]: ../../../../media/icons/btn-script-trace-small.png
-[img3]: ../../../../media/icons/edit.png
+[img4]: ../../../../media/loc/en/automation/trace.png

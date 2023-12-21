@@ -4,6 +4,7 @@ title: Tracing
 description: Tracing
 author: Bergfrid Dias
 so.date: 12.20.2023
+so.version: 10.2.11
 keywords: CRMScript, trace, debug
 so.topic: howto
 so.audience: settings
@@ -47,7 +48,7 @@ The **Tracing** tab contains a list of all traces. Click a trace in the list to 
 3. Update the fields as needed.
 4. Click **OK** when you are done.
 
-![Trace CRMScript statistics-screenshot][img4]
+![Trace CRMScript -screenshot][img4]
 
 ### <a id="fields" />Fields
 
