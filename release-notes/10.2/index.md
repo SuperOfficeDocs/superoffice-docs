@@ -26,6 +26,7 @@ so.version: 10.2
   * [Rearrange Request section tabs (10.2.11)][30] in Service
   * [Contact automatically added to To field in new request (10.2.11)][30] in Service
   * [Add multiple tags at once to a request (10.2.11)][30] in Service
+  * [CRMScript tracing limits and notifications][4]
 
 * 10.2.10 (14.11.2023):
   * [Time zones and Daylight Saving Time (10.2.10)][27] in Settings and maintenance
@@ -114,6 +115,7 @@ so.version: 10.2
 
 <!-- Referenced links -->
 [1]: admin/10.2.1-update.md
+[4]: admin/10.2.11-update.md
 [2]: core-crm/10.2.1-update.md
 [3]: marketing/10.2.2-update.md
 [5]: marketing/10.2.3-update.md
