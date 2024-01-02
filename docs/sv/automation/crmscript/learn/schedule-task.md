@@ -57,3 +57,10 @@ Klicka på en uppgift i listan om du vill redigera dess egenskaper, till exempel
 1. Ange **Minuter före omstart efter fel**. Den här inställningen anger tidpunkten före en misslyckad uppgift körs.
 
 1. Klicka på **OK**. Uppgiften läggs till i listan och status och tidpunkt för nästa körning av uppgiften visas.
+
+## Relaterat innehåll
+
+* [Bästa praxis för CRMScript][1]
+
+<!-- Referenced links -->
+[1]: ../../../../en/automation/crmscript/code-quality/best-practices.md

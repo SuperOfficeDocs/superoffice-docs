@@ -57,3 +57,10 @@ Klikk på en oppgave i listen for å redigere egenskapene, for eksempel når den
 1. Angi **Minutter til omstart etter feil**. Denne innstillingen angir tiden før en mislykket oppgave (en oppgave som har krasjet) kjøres på nytt.
 
 1. Klikk på **OK**. Oppgaven legges til i listen, og du kan se statusen og tidspunktet for neste kjøring av oppgaven.
+
+## Aktuelt innhold
+
+* [Beste praksis for CRMScript][1]
+
+<!-- Referenced links -->
+[1]: ../../../../en/automation/crmscript/code-quality/best-practices.md

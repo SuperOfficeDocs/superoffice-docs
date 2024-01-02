@@ -57,3 +57,10 @@ Klik op een taak in de lijst om de eigenschappen ervan te bewerken, zoals de laa
 1. Stel **Aantal minuten opnieuw starten na fout** in. Deze instelling geeft aan hoeveel tijd er verstrijkt voordat een mislukte taak (een taak die is vastgelopen) opnieuw wordt uitgevoerd.
 
 1. Klik op **OK**. De taak wordt toegevoegd aan de lijst en de status en het tijdstip van de volgende uitvoering van de taak zijn zichtbaar.
+
+## Gerelateerde inhoud
+
+* [Beste praktijken voor CRMScript][1]
+
+<!-- Referenced links -->
+[1]: ../../../../en/automation/crmscript/code-quality/best-practices.md

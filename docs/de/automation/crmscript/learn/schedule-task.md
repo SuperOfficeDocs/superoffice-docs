@@ -57,3 +57,10 @@ Klicken Sie in der Liste auf eine Aufgabe, um deren Eigenschaften zu bearbeiten,
 1. Stellen Sie **Minuten vor Neustart** ein. Mit dieser Einstellung legen Sie fest, wie lange es dauert, bis eine fehlgeschlagene (abgestürzte) Aufgabe erneut ausgeführt wird.
 
 1. Klicken Sie auf **OK**. Die Aufgabe wird zur Liste hinzugefügt und der Status und die Uhrzeit der nächsten Ausführung der Aufgabe werden angezeigt.
+
+## Zugehörige Inhalte
+
+* [Beste Praktiken für CRMScript][1]
+
+<!-- Referenced links -->
+[1]: ../../../../en/automation/crmscript/code-quality/best-practices.md

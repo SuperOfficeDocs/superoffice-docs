@@ -1,8 +1,9 @@
 ---
 uid: crmscript_best_practice
 title: CRMScript best practices
+description: Best practices for SuperOffice CRMScript development and use.
 author: Bergfrid Dias
-so.date: 10.21.2021
+so.date: 01.02.2024
 keywords: CRMScript, best practices, performance
 so.topic: reference
 ---
@@ -59,6 +60,14 @@ Don't use **USEC** variable as login_secret or preview_secret in web panels. Thi
 
 * Don't use the **NetServer agents** in a CRMScript unless absolutely necessary. Using SearchEngine or the classes that don't start with NS... will use fewer resources and be faster.
 
+## Scheduled tasks
+
+If the script is intended to run as a [scheduled task][1]:
+
+* Consider **how often** you really need to run the script. Running a script every minute is not recommended. Take other tasks also set up to run into account.
+
+* Review scheduled tasks regularly at **Settings and maintenance** > **CRMScript** > **Scheduled tasks**. Is the task still needed? Update the schedule or disable the task to reflect current demands.
+
 ## Optimize searches
 
 * Limit searches using SearchEngine to return **only the fields and rows you need**. Use `addCriteria()` for this. Even though not seen when running as a scheduled task, it will still take up resources. Also, for Online, set up the scheduled task to run just when needed, do you really need to be updated all the time?
@@ -66,3 +75,6 @@ Don't use **USEC** variable as login_secret or preview_secret in web panels. Thi
 * Don't add a SearchEngine inside another SearchEngine you're looping through.
 
 * Do you need to search for updated information, or could you use a **webhook**? Be aware of cascading effect, any changes you do to an entity will trigger a webhook to be signaled to those who subscribe to it.
+
+<!-- Referenced links -->
+[1]: ../learn/schedule-task.md

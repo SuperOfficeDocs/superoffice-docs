@@ -57,3 +57,10 @@ Klik på en opgave på listen for at redigere dens egenskaber, f.eks. hvornår d
 1. Indstil **Minutter til genstart efter fejl**. Denne indstilling angiver tidsrummet, før en mislykket opgave (en opgave der er gået ned) udføres igen.
 
 1. Klik på **OK**. Opgaven føjes til listen, og du kan se status og klokkeslæt for næste udførelse af opgaven.
+
+## Relateret indhold
+
+* [Bedste praksis for CRMScript][1]
+
+<!-- Referenced links -->
+[1]: ../../../../en/automation/crmscript/code-quality/best-practices.md
