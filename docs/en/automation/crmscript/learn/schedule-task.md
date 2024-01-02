@@ -57,3 +57,10 @@ Click a task in the list to edit its properties, such as when it was last execut
 1. Set **Minutes before restart after error**. This setting specifies the time before a failed task (a task that has crashed) will be re-run.
 
 1. Click **OK**. The task is added to the list, and you can see the status and time of the next execution of the task.
+
+## Related content
+
+* [Best practices][1]
+
+<!-- Referenced links -->
+[1]: ../../../../en/automation/crmscript/code-quality/best-practices.md
