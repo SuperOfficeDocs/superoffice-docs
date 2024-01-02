@@ -3,8 +3,8 @@ title: Check application usage
 uid: dp-metered-services
 description: How to check the API call statistics for your application and monitor metered services.
 author: Bergfrid Dias
-so.date: 11.15.2023
-keywords: metered services, API usage
+so.date: 01.02.2024
+keywords: metered services, API usage, metrics
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -13,9 +13,7 @@ so.version: 1.16
 
 # Check application usage (API calls)
 
-Metered API calls come from applications that are not part of the SuperOffice standard products.
-
-**Count** is the number of API calls. **Record count** is how many database records these API calls asked for. One database record could be asking for a company (with all additional entities, such as address, phones, URLs, and emails), and it may be one contact person with all additional entities linked to it. Asking for a list will count each list item as one database record.
+[!include[API call vs. record count](includes/def-metrics.md)]
 
 ## At a glance
 

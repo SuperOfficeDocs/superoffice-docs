@@ -3,7 +3,7 @@ title: Check application performance
 uid: dp-metric-performance
 description: How to check the API performance for your application.
 author: Anthony Yates
-so.date: 11.15.2023
+so.date: 01.02.2024
 keywords: API metrics, API performance, metered services
 so.topic: howto
 so.envir: cloud
@@ -13,7 +13,7 @@ so.version: 1.16
 
 # Check application API performance
 
-Metered API calls come from applications that are not part of the SuperOffice standard products.
+[!include[API call vs. record count](includes/def-metrics.md)]
 
 ## At a glance
 
