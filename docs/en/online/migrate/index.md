@@ -31,6 +31,10 @@ You will have some downtime during the migration, the time depends on how large 
 
 If you plan to use identify provider for the authentication, we recommend to [register the customer domain name][4] before doing the migration, so that users can immediately login using IDP and you don't need to do any user-transition later.
 
+### .Net Framework version
+
+.NET Framework 4.7.2 or higher installed (to run the SuperOffice CRM Online Migration Tool (OMT))
+
 ### Your onsite SuperOffice version
 
 You need to be on at least SuperOffice 7.1 to migrate to CRM Online. If you run an older version of SuperOffice than 7.1, then an upgrade must be performed first.
