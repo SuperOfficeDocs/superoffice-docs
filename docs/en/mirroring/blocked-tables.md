@@ -2,7 +2,9 @@
 title: Database mirroring blocked tables
 uid: mirroring_blocked_tables
 description: Lists the tables that are not mirrored.
-author: AnthonyYates
+author: AnthonyYates, Margrethe
+so.date: 01.11.2024
+so.version: 10.2
 keywords: mirroring, blocked tables, database, schema
 so.topic: reference
 so.envir: cloud
@@ -32,7 +34,7 @@ Tables not mirrored might have a reason specified in the "reason” field. This 
 | batchtaskdefinition            | Internal, not user data       |
 | cachetables                    | Internal, not user data       |
 | cacheinvalidation              | Internal, not user data       |
-| cc_template                    |        |
+| cc_template                    | Configuration       |
 | config                         | Internal, not user data       |
 | configurablescreendelta        | Internal, not user data       |
 | connectionconfigfield          | Internal, not user data       |
