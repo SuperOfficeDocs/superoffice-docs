@@ -7,8 +7,8 @@ so.date: 05.05.2023
 keywords: ui, screen, customization
 so.topic: concept
 so.version: 10
-so.envir:
-so.client:
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # The Screen Designer
@@ -54,7 +54,7 @@ Use the **Task** button to revert to an earlier version of the screen.
 
 Without the Development Tools license, the **More** tab shows all custom fields, organized in two columns.
 
-<!-- When a customer publishes their first layout from the Screen Designer, page1 admin is gone. However, this ability is preserved you don't use the designer. -->
+<!-- When a customer publishes their first layout from the Screen Designer, page1 admin is gone. However, this ability is preserved if you don't use the designer. -->
 
 <!-- Referenced links -->
 [1]: configurable-screens/working-with-fields.md

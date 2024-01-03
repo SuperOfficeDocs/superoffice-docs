@@ -3,7 +3,8 @@ uid: help-en-archive-edit-layout
 title: Edit layout on section tabs/archives
 description: ScreenDesigner Edit layout - Archives (section tabs)
 author: SuperOffice RnD
-so.date: 02.23.2023
+so.date: 01.03.2024
+so.version: 10.2.11
 keywords: screen designer, section tab, archive
 so.topic: howto
 so.audience: settings
@@ -23,7 +24,7 @@ When you have created a new layout for archives (section tabs) as described in A
 
 ## Steps
 
-You can add a new section tab on any main cards you like. Depending on the main card chosen, you can add a new tab with contents of: Document, Appointment, Product, Project, Project member, Sale, Sale stakeholder, Request, Contact, and Relation.
+You can add a new section tab on any screen with a section tab area. Depending on the main card chosen, you can add a new tab with contents of: Document, Appointment, Product, Project, Project member, Sale, Sale stakeholder, Request, Contact, and Relation.
 
 ![Select the type of content you want to show in the section tab -screenshot][img5]
 

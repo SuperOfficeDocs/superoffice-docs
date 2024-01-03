@@ -3,10 +3,12 @@ uid: screen-element-reference
 title: Working with fields
 description: Reference of elements available in the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 12.12.2023
+so.date: 01.03.2023
 so.version: 10.2.11
 keywords: ui, screen, customization
 so.topic: reference
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Reference
@@ -237,6 +239,39 @@ For details about the value of each field, see the [Ticket database table][12].
 * Details
 * Change log
 
+## Follow-up (only in pilot)
+
+**Standard fields:**
+
+| Field | Type | Comment |
+|---|---|---|
+| Alarm | Drop-down | |
+| [Check availability][15] | Scheduling assistant | |
+| Completed | Checkbox | |
+| Links | Multiline text | Select number of rows. Has no label |
+| Owner | Drop-down | |
+| Priority | Drop-down | |
+| Project Drop-down | | |
+| Sale | Drop-down | |
+| [Suggested time slots][15] | | Has no options |
+| Title | Text | Placement locked. |
+| Type | Drop-down | Placement locked |
+| Video link | Text | Has no options |
+| Visible for | Drop-down | Has no options |
+| Custom fields | | Both user-defined and extra |
+
+* Mandatory fields can't be moved or removed. This applies to: title, type, time, company/contact, attendees, locations, and resources.
+
+* The right column is hidden if no attendees.
+
+For details about the value of each field, see the [Appointment database table][14].
+
+**Default tabs:**
+
+* Agenda
+* Internal notes
+* Links
+
 ## Related content
 
 * [Working with fields][1]
@@ -244,6 +279,7 @@ For details about the value of each field, see the [Ticket database table][12].
 * [Learn more about sales][9]
 * [Learn more about projects][10]
 * [Learn more about requests][11]
+* [Learn more about follow-ups][16]
 
 <!-- Referenced links -->
 [1]: configurable-screens/working-with-fields.md
@@ -259,5 +295,8 @@ For details about the value of each field, see the [Ticket database table][12].
 [11]: ../../request/overview.md
 [12]: ../../database/tables/ticket.md
 [13]: ../../request/learn/type/index.md
+[14]: ../../database/tables/appointment.md
+[15]: ../../diary/learn/invitation/add-participant.md#availability
+[16]: ../../diary/learn/follow-ups.md
 
 <!-- Referenced images -->
