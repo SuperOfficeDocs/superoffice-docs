@@ -3,7 +3,7 @@ uid: help-no-screen-designer-add-layout
 title: Legg til ny skjermlayout
 description: Slik legger du til et nytt oppsett for en brukergruppe.
 author: Bergfrid Dias
-so.date: 12.12.2023
+so.date: 01.02.2024
 so.version: 10.2.11
 keywords: Skjermdesigner, format, hovedkort, arkiv
 so.topic: howto
@@ -14,9 +14,9 @@ language: no
 
 # Legg til ny skjermlayout
 
-Hvis standard layout ikke gjenspeiler behovene til en brukergruppe, kan du opprette et nytt layout som samsvarer med brukergruppens unike informasjonsbehov. Et tilpasset layout for person- og firmakortene og de forskjellige arkivfanene/detaljkortene lar teamene og organisasjonen arbeide mer effektivt.
+Hvis standard layout ikke gjenspeiler behovene til en brukergruppe, kan du opprette et nytt layout som samsvarer med brukergruppens unike informasjonsbehov. Et tilpasset layout for hovedkortene, de forskjellige arkivfanene/detaljkortene, og **Oppfølgings**-dialogen lar teamene og organisasjonen arbeide mer effektivt.
 
-Med egendefinerte skjermlayouter for hvert av teamene dine vil det være enklere enn noen gang å finne kundedata. De mest relevante dataene vil alltid være tilgjengelige og synlige. Fjern, flytt eller skjul irrelevante eller mindre viktige data for å rydde opp i skjermbildene firma, person, salg, prosjekt, og sak. Legg til tilpassede arkiver med de mest relevante dataene for teamene dine. Resultatet blir et renere og mer ryddig bilde som teamene dine kan jobbe i.
+Med egendefinerte skjermlayouter for hvert av teamene dine vil det være enklere enn noen gang å finne kundedata. De mest relevante dataene vil alltid være tilgjengelige og synlige. Fjern, flytt eller skjul irrelevante eller mindre viktige data for å rydde opp i skjermbildene. Legg til tilpassede arkiver med de mest relevante dataene for teamene dine. Resultatet blir et renere og mer ryddig bilde som teamene dine kan jobbe i.
 
 ## Hovedkortlayout
 

@@ -3,7 +3,7 @@ uid: help-de-screen-designer-add-layout
 title: Neues Ansichtslayout hinzufügen
 description: Wie man ein neues Layout für eine Benutzergruppe hinzufügt.
 author: Bergfrid Dias
-so.date: 12.12.2023
+so.date: 01.02.2024
 so.version: 10.2.11
 keywords: Ansichtsdesigner, Layout, Hauptkarte, Archiv
 so.topic: howto
@@ -14,9 +14,9 @@ language: de
 
 # Neues Ansichtslayout hinzufügen
 
-Wenn das Standardlayout nicht den Anforderungen einer Benutzergruppe entspricht, können Sie ein neues Layout erstellen, das den eindeutigen Informationsanforderungen der Benutzergruppe entspricht. Ein angepasstes Layout für die Personen- und Firmenkarten und die verschiedenen Archiv-/Bereichsregisterkarten sorgen für eine effizientere Arbeit Ihres Teams und Ihrer Organisation.
+Wenn das Standardlayout nicht den Anforderungen einer Benutzergruppe entspricht, können Sie ein neues Layout erstellen, das den eindeutigen Informationsanforderungen der Benutzergruppe entspricht. Ein angepasstes Layout für die Hauptkarten, die verschiedenen Archiv-/Bereichsregisterkarten, und den **Folgeaufabe**-Dialog sorgen für eine effizientere Arbeit Ihres Teams und Ihrer Organisation.
 
-Mit benutzerdefinierten Ansichtslayouts für die einzelnen Teams wird das Zugreifen auf Kundendaten einfacher denn je. Die wichtigsten Daten sind immer verfügbar und sichtbar. Entfernen oder verschieben Sie irrelevante oder weniger nützliche Daten oder blenden Sie sie aus, um übersichtliche Firmen-, Personen-, Verkaufs-, Projektansichten- und Anfragen zu erhalten. Fügen Sie benutzerdefinierte Archive mit den wichtigsten Daten für Ihre Teams hinzu. Ihren Teams steht folglich für die Arbeit eine ordentlichere und aufgeräumtere Ansicht zur Verfügung.
+Mit benutzerdefinierten Ansichtslayouts für die einzelnen Teams wird das Zugreifen auf Kundendaten einfacher denn je. Die wichtigsten Daten sind immer verfügbar und sichtbar. Entfernen oder verschieben Sie irrelevante oder weniger nützliche Daten oder blenden Sie sie aus, um übersichtliche ansichten zu erhalten. Fügen Sie benutzerdefinierte Archive mit den wichtigsten Daten für Ihre Teams hinzu. Ihren Teams steht folglich für die Arbeit eine ordentlichere und aufgeräumtere Ansicht zur Verfügung.
 
 ## Hauptkartenlayout
 

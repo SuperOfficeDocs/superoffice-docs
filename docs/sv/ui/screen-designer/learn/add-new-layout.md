@@ -3,7 +3,7 @@ uid: help-sv-screen-designer-add-layout
 title: Lägg till ny skärmlayout
 description: Så här lägger du till en ny layout för en användargrupp.
 author: Bergfrid Dias
-so.date: 12.12.2023
+so.date: 01.02.2024
 so.version: 10.2.11
 keywords: skärmdesigner, layout, huvudkort, arkiv
 so.topic: howto
@@ -14,9 +14,9 @@ language: sv
 
 # Lägg till ny skärmlayout
 
-Om standardlayouten inte återspeglar behoven hos en användargrupp kan du skapa en ny layout som matchar användargruppens unika informationsbehov. En anpassad layout för kontakt- och företagskorten och de olika arkiv-/sektionsflikarna gör att dina team och din organisation kan arbeta mer effektivt.
+Om standardlayouten inte återspeglar behoven hos en användargrupp kan du skapa en ny layout som matchar användargruppens unika informationsbehov. En anpassad layout för khuvudkorten, de olika arkiv-/sektionsflikarna, och **Händelse**-dialogen gör att dina team och din organisation kan arbeta mer effektivt.
 
-Med anpassade skärmlayouter för vart och ett av dina team blir det enklare än någonsin att hitta kunddata. Den mest relevanta informationen kommer alltid att vara tillgänglig och synlig. Ta bort, flytta eller dölj irrelevanta eller mindre viktiga data så att skärmarna Företag, Kontakt, Försäljning, Projekt, och Ärenden blir mindre röriga. Lägg till anpassade arkiv med de uppgifter som är mest relevanta för dina team. Resultatet blir en renare och prydligare skärm som dina team kan arbeta i.
+Med anpassade skärmlayouter för vart och ett av dina team blir det enklare än någonsin att hitta kunddata. Den mest relevanta informationen kommer alltid att vara tillgänglig och synlig. Ta bort, flytta eller dölj irrelevanta eller mindre viktiga data så att skärmarna blir mindre röriga. Lägg till anpassade arkiv med de uppgifter som är mest relevanta för dina team. Resultatet blir en renare och prydligare skärm som dina team kan arbeta i.
 
 ## Huvudkortslayout
 

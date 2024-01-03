@@ -1,12 +1,15 @@
 ---
 uid: help-da-screen-designer
 title: Skærmdesigner
-description: "Få mere at vide om, hvordan du konfigurerer dine firma-, person-, projekt-, og sagskort i denne vejledning."
+description: "Få mere at vide om, hvordan du konfigurerer dine skærmbilleder i denne vejledning."
 author: SuperOffice RnD
-so.date: 02.23.2023
+so.date: 01.02.2024
+so.version: 10.2.11
 keywords: skærmdesigner
 so.topic: concept
 language: da
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Skærmdesigner
@@ -22,19 +25,19 @@ Person- og firmakortene/skærmbillederne i SuperOffice CRM leveres med et standa
 
 Skærmdesigner gør det muligt for dig at fjerne unødvendige felter og/eller oprette nye, mere relevante felter. Du kan også gruppere felterne i faner eller kolonner og tilføje dine egne overskrifter (kaldet "ledetekster"). Hvis du finder nogle af fanerne unødvendige, kan du nemt fjerne dem eller erstatte dem med de faner, der passer bedre til din organisation.
 
-Dit salgsteam, supportteam og ledelsesteam har ikke nødvendigvis samme fokus og krav vedrørende de data, de som oftest skal have adgang i SuperOffice. Løsningen er at oprette brugerdefinerede skærme til hvert team. Din organisation sparer tid ved at give dine teams mulighed for hurtigere at finde relevante oplysninger. Konfigurer layoutet på dine hovedskærme og arkiver (detaljekort), og definer hvilke informationstyper hvert team (brugergruppe) kan få adgang til og se på skærmene for Firma, Person, Salg, Projekt, og Sag.
+Dit salgsteam, supportteam og ledelsesteam har ikke nødvendigvis samme fokus og krav vedrørende de data, de som oftest skal have adgang i SuperOffice. Løsningen er at oprette brugerdefinerede skærme til hvert team. Din organisation sparer tid ved at give dine teams mulighed for hurtigere at finde relevante oplysninger. Konfigurer layoutet på dine hovedskærme og arkiver (detaljekort), og definer hvilke informationstyper hvert team (brugergruppe) kan få adgang til og se på skærmene for Firma, Person, Salg, Projekt, og Sag og **Opfølgning**-dialogen.
 
 * Flyt de vigtigste felter til den første fane.
 * Brug kolonner, etiketter/titler og skilleelementer til at organisere oplysninger i logiske grupper.
 * Formatér felter til at fremhæve nøgledata (for eksempel fed og stor skrifttype) for bedre synlighed.
 * Flyt mindre vigtige felter til sekundære faner.
 * Fjern felter, der aldrig bruges.
-* Tilføj links/knapper til at finde oplysninger på andre websteder eller manuelt udløse en automatiseret proces baseret på CRM Script.
+* Tilføj links/knapper til at finde oplysninger på andre websteder eller manuelt udløse en automatiseret proces baseret på CRMScript.
 
 > [!NOTE]
-> Når denne funktion er aktiveret, ændres felterne på din aktuelle fane **Mere** for skærmbillederne Firma, Person, Salg, Projekt og Sag, så de danner to kolonner. Du kan redigere disse faner i skærmdesigneren (se [Rediger layout][1]).
+> Når denne funktion er aktiveret, ændres felterne på din aktuelle fane **Mere** for skærmbillederne Firma, Person, Salg, Projekt og Sag, så de danner to kolonner. Du kan [redigere disse faner][1] i skærmdesigneren.
 
-Du kan oprette tilpassede skærmlayout til kortene for firma, person, salg, projekt, og sag som det ses øverst på skærmen. Listen **Layout** viser alle eksisterende skærmlayout (normalt standardlayoutet) med en forhåndsvisningsskærm til højre.
+Du kan oprette tilpassede skærmlayout til kortene for firma, person, salg, projekt, og sag og **Opfølgning**-dialogen. Listen **Layout** viser alle eksisterende skærmlayout (normalt standardlayoutet) med en forhåndsvisningsskærm til højre.
 
 Layouterne er markeret med status (udgivet eller kladde) og de tildelte brugergrupper.
 
