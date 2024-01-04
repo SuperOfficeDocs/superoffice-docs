@@ -3,7 +3,7 @@ title: Validation checklist
 uid: custom-app-checklist
 description: "The app validation checklist - what to consider before you ask for a validation test."
 author: Margrethe Romnes
-so.date: 02.02.2022
+so.date: 12.20.2023
 keywords: custom app, validation, checklist
 so.topic: reference
 so.envir: cloud
@@ -14,9 +14,9 @@ so.client: online
 
 My custom application is ready, what should I consider before I ask for a validation test?
 
-## Expander service subscription
+## Development Tools subscription
 
-Access to a customer's tenant from a custom application requires an active [Expander service subscription][1] license. The license is purchased by the customer.
+Access to a customer's tenant from a custom application requires an active [Development Tools subscription][1] license. The license is purchased by the customer.
 
 If the subscription is discontinued, any custom applications will lose access to that tenant.
 
@@ -26,7 +26,8 @@ If the subscription is discontinued, any custom applications will lose access to
 
 ## Provisioning
 
-* Workflow for giving [consent to the tenant][2] is implemented so the customer administrator may approve the apps access to the database.
+[!include[Activate app](../includes/explicit-consent.md)]
+Custom apps therefore do not need to implement the [workflow for giving consent][2].
 
 ## Error handling
 
@@ -61,6 +62,6 @@ If the subscription is discontinued, any custom applications will lose access to
 <!-- Referenced links -->
 [4]: validate.md
 [1]: ../../admin/license/expander-services/index.md
-[2]: ../provisioning/consent.md
+[2]: ../provisioning/consent.md#hand-shake
 [3]: ../best-practices/tenant-status/check-status.md
 [5]: ../best-practices/index.md

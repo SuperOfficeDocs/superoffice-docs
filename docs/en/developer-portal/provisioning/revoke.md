@@ -1,16 +1,16 @@
 ---
 title: Revoke app
 uid: revoke-app
-description: How to revoke access given to an application.
+description: How to revoke access given to a standard application.
 author: Bergfrid Dias
-so.date: 04.28.2022
+so.date: 12.20.2023
 keywords: App Store, revoke, consent
 so.topic: howto
 so.envir: cloud
 so.client: online
 ---
 
-# Revoke access given to an app
+# Revoke access given to standard app
 
 Revoking access to an application is a manual procedure. It will sever the connection between the application and a database tenant. It will not remove any data from the database.
 
