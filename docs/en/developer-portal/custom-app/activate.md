@@ -23,7 +23,8 @@ The first-time activation starts after your [application passes validation][1]. 
 1. We will publish your application from SOD to the production environment.
 2. The user currently signed in to the Developer Portal will receive an automatic email asking for the customer name and customer ID in CRM Online. This is found under **Help** > **About** when signed in to `online.superoffice.com`.
     If you as the application developer is not an employee of the customer, please forward this email to the customer and have them confirm to us that they want us to activate this application on their tenant (SuperOffice installation).
-3. You contact the customer to initiate the [application setup][3].
+3. Wait for confirmation from the SuperOffice app manager that the application has consent to access the tenant.   
+4. You contact the customer to initiate the [application setup][3].
 
 ## Production sandbox
 
