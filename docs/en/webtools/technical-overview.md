@@ -2,32 +2,35 @@
 title: Technical overview
 uid: webtools_technical_overview
 description: Technical overview of SuperOffice WebTools
-author: Hans Oluf Waaler
+author: Jostein, Bergfrid, Hans Oluf Waaler
 keywords: WebTools
 so.topic: concept
-so.date: 10.13.2016
-so.envir: onsite
+so.date: 01.05.2024
+so.envir:
 ---
 
 # Technical overview
 
 The interaction between SuperOffice WebTools and SuperOffice CRM depends heavily on the capabilities in the browser used.
 
-We currently use SignalR-technology to communicate between SuperOffice in the browser and WebTools running on the user's desktop. The previous generation used NPAPI-based plugins, and before that protocol handlers.
+We currently use a custom protocol to communicate between SuperOffice in the browser and WebTools running on the user's desktop. The previous generations used SignalR-technology, NPAPI-based plugins, and before that protocol handlers.
 
-WebTools consists of 3 components:
+WebTools consists of 2 components installed server-side along with SuperOffice CRM and access the SuperOffice database through NetServer APIs. (Yes, the same APIs that are available to partners).
 
-* The installed component on the user’s computer
+* The installed component on the user's computer
 * TrayApp2.svc (WCF)
-* The SignalR endpoint
-
-The 2 latter are installed server-side along with SuperOffice CRM and access the SuperOffice database through NetServer APIs. (Yes, the same APIs that are available to partners).
 
 Check out the [system requirements][2].
 
 ## Starting up WebTools
 
-![Starting up WebTools -screenshot][img3]
+### SuperOffice 10.2.11 and later
+
+![Starting up WebTools 10.2.11 and later][img3]
+
+### SuperOffice 10.2.10 and earlier
+
+![Starting up WebTools 10.2.10 and earlier][img4]
 
 After WebTools have finished starting up, it will resume incomplete tasks.
 
@@ -35,7 +38,13 @@ The tasks files are stored in *%localappdata%SuperOffice\SuperOffice 7 Web Exten
 
 ## Document editing
 
-![Opening up a document in CRM -screenshot][img4]
+### SuperOffice 10.2.11 and later
+
+![Opening up a document in CRM 10.2.11 -diagram][img1]
+
+### SuperOffice 10.2.10 and earlier
+
+![Opening up a document in CRM 10.2.10 -diagram][img2]
 
 ## Authentication
 
@@ -62,5 +71,7 @@ After version 8.1, WebTools and MacLink are no longer bundled with the actual in
 [2]: system-requirements.md
 
 <!-- Referenced images -->
-[img3]: media/11036-21654.jpg
-[img4]: media/cdraw.png
+[img1]: ../../media/loc/en/webtools/diagram-open-document-10.2.11.png
+[img2]: ../../media/loc/en/webtools/diagram-open-document-10.2.10.png
+[img3]: ../../media/loc/en/webtools/diagram-start-webtools-10.2.11.png
+[img4]: ../../media/loc/en/webtools/diagram-start-webtools-10.2.10.png

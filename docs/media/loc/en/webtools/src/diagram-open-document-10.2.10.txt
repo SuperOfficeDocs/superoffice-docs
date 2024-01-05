@@ -1,0 +1,28 @@
+title Open document - CRM 10.2.10 and earlier
+
+actor User as u
+
+participant Browser as b
+participant WebTools as wt
+participant "CRM (SignalR + Web)" as r
+participant "CRM (WCF)" as c
+
+u->+b: Open document!
+
+b->+r: Open document
+r->r: Get last active WebTools client\n(reported active over the last 2 min)
+r->+wt: superoffice-extensions:\n/TrayApp2.svc?Module=SoDwa&DocumentId=13
+wt->r: OK
+r->-b: Return control to the browser
+
+wt->wt: Check if the document is already opened locally
+wt->wt: Create task file
+wt->+c: Download document in chunks
+c->-wt: Document data in chunks
+wt->+c: Check checkout status
+c->-wt: CheckoutStatus(locked, not locked, not supported)
+wt->wt: Start editor with document
+wt->c: Write changes back when changes are detected
+wt->-c: Check in the document when the editor closes.
+
+note over wt: Editor is detected closed when the shadow file\n ~$fileName is deleted and the process exits.
