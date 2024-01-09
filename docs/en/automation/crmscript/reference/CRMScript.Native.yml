@@ -14,7 +14,6 @@ items:
   - CRMScript.Native.Customer
   - CRMScript.Native.DbConverter
   - CRMScript.Native.DbiControl
-  - CRMScript.Native.DBWrite
   - CRMScript.Native.EabEntry
   - CRMScript.Native.Email
   - CRMScript.Native.EventData
@@ -124,12 +123,6 @@ references:
   name: DbiControl
   nameWithType: DbiControl
   fullName: CRMScript.Native.DbiControl
-- uid: CRMScript.Native.DBWrite
-  commentId: T:CRMScript.Native.DBWrite
-  isExternal: true
-  name: DBWrite
-  nameWithType: DBWrite
-  fullName: CRMScript.Native.DBWrite
 - uid: CRMScript.Native.EabEntry
   commentId: T:CRMScript.Native.EabEntry
   isExternal: true
