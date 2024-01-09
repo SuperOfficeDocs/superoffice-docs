@@ -52,8 +52,6 @@ items:
     href: CRMScript.Native.DbConverter.yml
   - name: DbiControl
     href: CRMScript.Native.DbiControl.yml
-  - name: DBWrite
-    href: CRMScript.Native.DBWrite.yml
   - name: EabEntry
     href: CRMScript.Native.EabEntry.yml
   - name: Email
