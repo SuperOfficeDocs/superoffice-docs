@@ -2,9 +2,10 @@
 uid: help-de-automation-script-tracing
 title: Ablaufverfolgung
 description: Ablaufverfolgung
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: CRMScript, Ablaufverfolgung, Debug
+author: Bergfrid Dias
+so.date: 12.20.2023
+so.version: 10.2.11
+keywords: CRMScript, Ablaufverfolgung, debug, verfolgen
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
@@ -21,32 +22,49 @@ Sie können die Skriptausführung untersuchen, indem Sie in der Aufzeichnung vor
 
 Die Registerkarte **Ablaufverfolgung** enthält eine Liste aller verfügbaren Ablaufverfolgungen. Klicken Sie in der Liste auf eine Ablaufverfolgung, um die Details anzuzeigen.
 
-## Ablaufverfolgungen starten
+## Skript verfolgen
 
-* Wechseln Sie zu **CRMScript** > **Sitzungen debuggen**, und klicken Sie auf das ![Symbol][img1] **Ablaufverfolgungsskripte starten**, um die Ablaufverfolgung der Skripts in der Liste zu starten.
-* Öffnen Sie ein Skript oder Makro im **Debugger** und klicken Sie auf ![Symbol][img2] **Skript verfolgen**.
-* Öffnen Sie ein Skript oder Makro auf der Registerkarte **Makros und Skripte** und klicken Sie auf ![Symbol][img2] **Skript verfolgen**.
+1. Führen Sie eine der folgenden Aktionen aus:
 
-## Ablaufverfolgungen bearbeiten
+    * Öffnen Sie ein Skript oder Makro im **Debugger** und klicken Sie auf **Skript verfolgen**.
+    * Öffnen Sie ein Skript oder Makro auf der Registerkarte **Makros und Skripte** und klicken Sie auf **Skript verfolgen**.
 
-1. Klicken Sie in der Liste **Ablaufverfolgung** auf eine Ablaufverfolgung, um sie zu öffnen.
+1. Geben Sie eine **Beschreibung** des Traces ein, um die Identifizierung zu erleichtern.
+1. Optional, setzen Sie **Benutzerfilter** falls Sie eine benutzerspezifische Verfolgung wünschen.
+1. Optional, geben Sie Benachrichtigungs- und Speichereigenschaften an. Siehe [Liste der Felder](#fields) unten.
+1. Wählen Sie **Aktiviert**, um die Verfolgung zu aktivieren.
+1. Klicken Sie **OK**, wenn Sie fertig sind.
 
-2. Klicken Sie auf das ![Symbol][img3] **Ablaufverfolgung bearbeiten**. Daraufhin wird die Ansicht **Ablaufverfolgung bearbeiten** angezeigt.
+## Alle aktivierte Ablaufverfolgung ein-/ausschalten
 
-3. Füllen Sie die folgenden Felder aus:
+1. Gehen Sie zu **CRMScript** > **Sitzungen debuggen**.
+2. Klicken Sie auf **Ablaufverfolgungsskripte starten**, um die Skripte in der Liste zu verfolgen.
+    Klicken Sie auf **Ablaufverfolgungsskripte stoppen**, um die Verfolgung zu pausieren.
 
-    * **Beschreibung**: Geben Sie eine Beschreibung für die Ablaufverfolgung ein, sodass diese leichter zu identifizieren ist.
-    * **Benutzerfilter**: Um das Skript für einen bestimmten Benutzer zu verfolgen, wählen Sie den Benutzer aus der Liste aus.
-    * **Auflösung der Ablaufverfolgung**: Geben Sie die Erfassungshäufigkeit für das Ablaufverfolgungsprotokoll ein.
-        Beispiel: Geben Sie 1 ein, damit jeder vom Skript ausgeführte Befehl protokolliert wird. Geben Sie 5 ein, damit jeder 5\. vom Skript ausgeführte Befehl protokolliert wird.
-    * **Ablaufverfolgungen speichern**: Wählen Sie aus, wie lange die Ablaufprotokolle aufbewahrt werden sollen.
-    * **Aktiviert**: Wählen Sie diese Option, wenn Sie die Ablaufverfolgung aktivieren wollen.
+## Ablaufverfolgung bearbeiten
 
-4. Klicken Sie, sobald Sie fertig sind, auf **OK**.
+1. Klicken Sie in der Liste auf eine Ablaufverfolgung, um sie zu öffnen.
+2. Klicken Sie auf **Ablaufverfolgung bearbeiten**.
+3. Aktualisieren Sie die Felder wie benötigt.
+4. Klicken Sie **OK**, wenn Sie fertig sind.
+
+![CRMScript verfolgen -screenshot][img4]
+
+### <a id="fields" />Feld
+
+| Feld | Beschreibung |
+|---|---|
+| Beschreibung | Eine Erklärung der Ablaufverfolgung, um die Identifizierung zu erleichtern. |
+| Benutzerfilter | Beschränkt die Verfolgung auf einen bestimmten Benutzer. |
+| Auflösung der Ablaufverfolgung | Die Erfassungshäufigkeit für das Ablaufverfolgungsprotokoll. 1 - Speichern bei jeder Ausführung des Skripts; 5 - Speichern bei jeder fünften Ausführung; und so weiter. |
+| Ablaufverfolgungen speichern | Wie lange eine Ablaufverfolgung aufbewahrt werden soll, bevor die gelöscht wird. |
+| Aktiviert | Aktiviert die Ablaufverfolgung. |
+| Benachrichtigen | Ob Benachrichtigungs-E-Mails gesendet werden sollen. |
+| Maximale Anzahl der Benachrichtigungen | Begrenzt die Anzahl der gesendeten E-Mails. |
+| Benachrichtigungs-E-Mail | Wo die Benachrichtigungen gesendet werden sollen. |
+| Nur speichern, wenn es eine unbehandelte Ausnahme gibt | Beschränkt die Verfolgung auf Ausnahmen. |
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/run-script.png
-[img2]: ../../../../media/icons/btn-script-trace-small.png
-[img3]: ../../../../media/icons/edit.png
+[img4]: ../../../../media/loc/en/automation/trace.png
