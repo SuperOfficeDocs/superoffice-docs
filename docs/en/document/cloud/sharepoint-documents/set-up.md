@@ -21,19 +21,10 @@ The set-up of the SharePoint site and document libraries is quite flexible, but 
 >
 > See the [reference of permissions in SharePoint​][1] for more information.
 
-1. Open Microsoft 365 and sign in.
-2. Open SharePoint from the menu.
-3. Click **Create site**.
+1. Documentation in Microsoft Learn on how to [create site][2] in SharePoint.
+2. Choose **Team site** as the type of site you would like to create.
+3. If you planning on using Visible for (Confidentiality), you should use Private for Privacy settings. 
 
-    ![SharePoint Create Site button -screenshot][img1]
-
-4. Choose **Team site** as the type of site you would like to create. [Learn more][2].
-5. Fill in the name of the site.
-6. Choose privacy settings according to how you like it.
-
-    ![SharePoint Add people -screenshot][img2]
-
-7. Click **Finish**.
 
 ## <a id="step-2" />Step 2 - Create library for documents in SharePoint site
 
