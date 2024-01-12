@@ -139,6 +139,7 @@ It does not contain Red Alerts or [Onsite release versions][1].
 | 10.2.8 - (2023.09.18-04) | 19.09.2023 |
 | 10.2.9 - (2023.10.11-01) | 28.10.2023 |
 | 10.2.10 - (2023.11.10-06) | 14.11.2023 |
+| 10.2.11 - (2023.12.18-02) | 12.12.2023 |
 
 <!-- Referenced links -->
 [1]: ../onsite/version-history.md
