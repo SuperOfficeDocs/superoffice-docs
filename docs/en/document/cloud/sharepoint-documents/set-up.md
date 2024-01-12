@@ -2,8 +2,8 @@
 title: How to setup Microsoft 365 SharePoint
 uid: sharepoint-set-up
 description: How to create a site and a document library in Microsoft 365 SharePoint
-author: Bergfrid Dias
-so.date: 06.20.2022
+author: Bergfrid Dias, ErikLebiko
+so.date: 01.12.2024
 keywords: SharePoint, document
 so.topic: how to
 so.envir: cloud
@@ -17,14 +17,14 @@ The set-up of the SharePoint site and document libraries is quite flexible, but 
 ## <a id="step-1" />Step 1 - Create a SharePoint site in your Microsoft 365 SharePoint
 
 > [!NOTE]
-> If you plan to use **Visible for**, we recommend to set up the SharePoint site with a Microsoft 365 "service user", to avoid normal users (personal) / SuperOffice users do not have owner-rights.
+> If you plan to use **Visible for** (confidentiality), we recommend to set up the SharePoint site with a Microsoft 365 "service user", to avoid normal users (personal) / SuperOffice users do not have owner-rights.
 >
 > See the [reference of permissions in SharePoint​][1] for more information.
 
-1. Documentation in Microsoft Learn on how to [create site][2] in SharePoint.
-2. Choose **Team site** as the type of site you would like to create.
-3. If you planning on using Visible for (Confidentiality), you should use Private for Privacy settings. 
-
+1. Go to SharePoint.
+1. Follow the instructions in Microsoft Learn on how to [create a site in SharePoint][2].
+1. Choose **Team site** as the type of site you would like to create.
+1. If you plan to use **Visible for**, you should use **Private** for privacy settings.
 
 ## <a id="step-2" />Step 2 - Create library for documents in SharePoint site
 
@@ -59,8 +59,6 @@ The set-up of the SharePoint site and document libraries is quite flexible, but 
 [2]: https://docs.microsoft.com/en-US/sharepoint/create-site-collection
 
 <!-- Referenced images -->
-[img1]: media/create-site-button.png
-[img2]: media/add-people.png
 [img3]: media/recent.png
 [img4]: media/new-document-library.png
 [img5]: media/create-document-library-documents.png
