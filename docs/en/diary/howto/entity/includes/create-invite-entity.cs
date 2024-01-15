@@ -16,11 +16,11 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
   //Retrieve a person to invite
   Person invitee = Person.GetFromIdxPersonId(5);
 
-  //Add participants to the Appointment
+  //Add attendee to the Appointment
   SuperOffice.CRM.Services.ParticipantInfo[] participants = new SuperOffice.CRM.Services.ParticipantInfo[1];
   participants[0] = new SuperOffice.CRM.Services.ParticipantInfo();
 
-  //Set the properties of the participant
+  //Set the properties of the attendee
   participants[0].AssociateId = invitee.AssociateId;
   participants[0].PersonId = invitee.PersonId;
   participants[0].SendEmail = false;

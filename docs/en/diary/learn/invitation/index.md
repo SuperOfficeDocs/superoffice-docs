@@ -5,7 +5,7 @@ description: Creating follow-ups with your associates
 author: Bergfrid Dias
 so.date: 11.20.2023
 so.version: 10.2.11
-keywords: diary, follow-up, calendar, invitation, appointment, meeting, associate, participant
+keywords: diary, follow-up, calendar, invitation, appointment, meeting, associate, attendee, participant
 so.topic: concept
 language: en
 ---
@@ -16,7 +16,7 @@ Invitations are **created** when calling meetings or other arrangements between 
 
 To allocate time for a meeting with one or more associates, use the **View** tab in the Diary screen. Here you can open your associates' diaries to see when they are available for a meeting. In addition, you can select to view resources such as conference rooms, to see when those are free and set up a joint reservation for everyone from within your own diary.
 
-Follow-ups with associates are set up by linking them as participants to the follow-up.
+Follow-ups with associates are set up by linking them as attendees to the follow-up.
 
 When we save the meeting, an invitation is added to the person we invited and will be shown in the diary of the person on the appropriate date and time. **This only happens if the invited person also is an associate.** You may invite persons belonging to other contacts as well, these will not have a diary where the meeting is shown. Instead, the follow-up is shown in the activity archive of their contact.
 
@@ -25,7 +25,7 @@ When we save the meeting, an invitation is added to the person we invited and wi
 
 ## <a id="status" />Status
 
-The users you chose to link to a follow-up will be notified of this on their screens. If you open the follow-up's **Participants** tab, you will see a list of participants and resources linked to the follow-up. You can also see who accepted or declined the invitation and which resources have been booked, from the symbols next to the names:
+The users you chose to link to a follow-up will be notified of this on their screens. In the follow-up dialog, you will see a list of attendees and resources linked to the follow-up. You can also see who accepted or declined the invitation and which resources have been booked, from the symbols next to the names:
 
 | Icon | Description |
 |:-:|---|
@@ -50,7 +50,7 @@ When you send an invitation, the recipient can either accept or decline it.
 
 ## What do you want to do?
 
-* [Add participants to follow-ups][2]
+* [Add attendees to follow-ups][2]
 * [Create group views][1]
 
 <!-- Referenced links -->

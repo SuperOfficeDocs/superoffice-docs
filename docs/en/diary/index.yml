@@ -73,7 +73,7 @@ conceptualContent:
         itemType: school
         typeDesc: learn
         url: learn/create-follow-up.md
-      - text: Invite participants
+      - text: Invite attendees
         itemType: school
         typeDesc: learn
         url: learn/invitation/add-participant.md

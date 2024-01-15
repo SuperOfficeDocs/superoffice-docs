@@ -12,7 +12,7 @@ so.topic: howto
 
 # How to create a recurring appointment (data layer)
 
-This demonstrates the use of [AppointmentMatrix][1] to create [recurring appointments][2]. `SuperOffice.CRM.Entities.AppointmentMatrix` is a matrix holding information about repeating appointments and their participants.
+This demonstrates the use of [AppointmentMatrix][1] to create [recurring appointments][2]. `SuperOffice.CRM.Entities.AppointmentMatrix` is a matrix holding information about repeating appointments and their attendees.
 
 In the following example, we will be creating an appointment at 2.00 P.M. tomorrow that will recur for the next 8 working days.
 

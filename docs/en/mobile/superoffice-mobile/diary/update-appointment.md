@@ -54,11 +54,11 @@ An alternative to editing the start and end time of an appointment, you can drag
 
 You can of course also drag and drop inside the diary to create new follow-ups.
 
-## Remove participants/resources
+## Remove attendees/resources
 
 1. Locate and open the appointment.
-2. Tap the number in the **With** section showing invited participants and resources.
-3. In the list of selected participants, swipe left on the item you want to remove.
+2. Tap the number in the **With** section showing invited attendees and resources.
+3. In the list of selected attendees, swipe left on the item you want to remove.
 4. Tap the **Task** icon and select **Remove participant**.
 
 ## Set alarm
@@ -76,7 +76,7 @@ To activate or update an alarm for the appointment:
 2. Tap the **Task** icon and select **Delete appointment**.
 3. Select **Yes** to confirm.
 
-* If you own the appointment, all the invited participants are notified of the cancellation.
+* If you own the appointment, all the invited attendees are notified of the cancellation.
 * If you are invited to the appointment, the appointment owner can see that you have rejected the invitation.
 
 ## Related content

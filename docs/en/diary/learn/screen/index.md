@@ -37,7 +37,7 @@ Follow-ups with times are displayed as boxes in the different views in the Diary
 | Icon | Description | Read more |
 |:-:|---|---|
 | ![icon][img1] | This is a repeating follow-up. | [Schedule repeating follow-ups][11] |
-| ![icon][img2] | The follow-up has several participants. | [Invite your associates to a follow-up][12] |
+| ![icon][img2] | The follow-up has several attendees. | [Invite your associates to a follow-up][12] |
 | ![icon][img3] | The follow-up is completed. | [Change Completed status of an activity][8] |
 | ![icon][img4] | The follow-up has an active alarm. | |
 | ![icon][img5] | There are unanswered invitations for this follow-up. | [Status of invitations][9] |
@@ -94,7 +94,7 @@ The ![icon][img8] **Task** button is available on the **View** tab.
 * Select **New group view** to create a new group view.
 * Select **Copy** to make a copy of the group view you opened.
 * Select **Delete group view** to delete the group view you opened.
-* Select **Invite participants** to link participants to a follow-up.
+* Select **Invite participants** to link contacts to a follow-up.
 * Select **Help** to open this user guide.
 
 ## Section tabs in the Diary screen

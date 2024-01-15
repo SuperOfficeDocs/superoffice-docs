@@ -79,11 +79,11 @@ You record a new project and select the **Conference** project type, which is li
 
 ### The Planned status
 
-1. You have agreed a meeting time and want to create the **Planning meeting** follow-up in the Diary and invite participants.
+1. You have agreed a meeting time and want to create the **Planning meeting** follow-up in the Diary and invite attendees.
 
     1. In the project guide, you click **Create** next to the **Planning meeting** follow-up.
         The **Follow-up** dialog opens, with **Meeting (Internal)** specified as the type and the name of the project prefilled.
-    1. Complete the information and [invite participants][1].
+    1. Complete the information and [invite attendees][1].
     1. Click **Save**.
 
 1. At the meeting you decide on the conference programme (agenda) and you want to create a memo containing this information.
@@ -136,7 +136,7 @@ You record a new project and select the **Conference** project type, which is li
 
     1. Click **Create** next to the **Conference** follow-up.
         The **Follow-up** dialog opens, with **Meeting (External)** specified as the type and the name of the project prefilled.
-    2. Complete the information and invite the conference participants in the usual way.
+    2. Complete the information and invite the conference attendees in the usual way.
     3. Click **Save**.
 
 ### The Closing status

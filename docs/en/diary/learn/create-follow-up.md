@@ -64,7 +64,7 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 
 1. Select the **Description** tab to add a description of the follow-up (max 2048 characters).
 1. Select the **Details** tab to set [recurrence][4], priority, [alarm][3], owner, and "show as".
-1. Select the **Participants** tab to [add participants][5].
+1. Select the **Participants** tab to [add attendees][5].
 
 > [!TIP]
 > Click ![icon][img5] to set up a [video meeting][2].
@@ -92,7 +92,7 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 1. Select the **Agenda** tab to add additional information, such as an agenda, a description of the follow-up, files, images, and links. Use the buttons in the footer to add rich text formatting and content.
 
     > [!TIP]
-    > If you want to restrict access to employees-only, place that content in the **Internal notes** tab. Whatever is added here is not sent to external participants. Click the clock icon to add a timestamp. A dot on the tab indicates that someone has added a note.
+    > If you want to restrict access to employees-only, place that content in the **Internal notes** tab. Whatever is added here is not sent to external attendees. Click the clock icon to add a timestamp. A dot on the tab indicates that someone has added a note.
 
 ***
 <!-- markdownlint-restore -->
@@ -137,7 +137,7 @@ You can open another user's diary, or the diary of an available resource, to see
 
 4. In the **Follow-up** dialog, [enter the required information](#fields).
 
-5. [Choose the participants to include][5], if they are not automatically included.
+5. [Choose the attendee to include][5], if they are not automatically included.
 
 6. Click **Save**. The meeting will be displayed in the selected person's diary.
 

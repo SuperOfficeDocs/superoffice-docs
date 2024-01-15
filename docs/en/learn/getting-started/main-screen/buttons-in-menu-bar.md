@@ -68,7 +68,7 @@ At the upper left in SuperOffice CRM is the SuperOffice logo. Click the logo to 
 | Filter | Used to edit the [filter settings][2]. |
 | Knowledge base | Used to access external documents (files), email addresses, FAQ and replay templates in Service. |
 | Show Notepad | Opens [the Notepad][9] and creates a new note. |
-| Show confirmation dialog when sending invitations | Used to activate/deactivate the confirmation dialog when sending emails to meeting participants from the **Follow-up** dialog. |
+| Show confirmation dialog when sending invitations | Used to activate/deactivate the confirmation dialog when sending emails to meeting attendees from the **Follow-up** dialog. |
 | Targets | Used to add [sales targets][17]. |
 | Edit system signature | Used to edit the default email signature. |
 | Settings and maintenance | Opens Settings and maintenance. This option is only available if you have administrator's rights. |

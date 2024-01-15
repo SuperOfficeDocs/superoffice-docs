@@ -67,7 +67,7 @@ If your SuperOffice has [time zones][10] turned on, you can select which time zo
 Enter a date and, where appropriate, a time in the **Start** field and the **End** field or **Due** field (for to-dos), for the follow-up start and the follow-up end/deadline respectively. If you specify a time, the content of the **Duration** field is automatically adjusted accordingly.
 
 > [!TIP]
-> If the follow-up conflicts with another one or has several participants, the **First available** field is displayed, showing the first available meeting time.
+> If the follow-up conflicts with another one or has several attendees, the **First available** field is displayed, showing the first available meeting time.
 
 ### All day
 
@@ -80,7 +80,7 @@ If you check **All day**, the time of the appointment is set to the period speci
 
 Here you choose the address where the follow-up will take place. By default, this field is empty, but if you click the arrow ![icon][img2] next to the field, two entries are displayed in a list box. One is the user's company and the other is the company to follow up.
 
-If you specified a resource of type **Location** (for example a meeting room) as a participant in the **Participants** tab, the resource is also displayed in this list box.
+If you specified a resource of type **Location** (for example a meeting room) as an attendee in the **Participants** tab, the resource is also displayed in this list box.
 
 > [!TIP]
 > You can also simply enter an address for the location.
@@ -146,7 +146,7 @@ Check here if you want the follow-up to be visible to external users.
 
 ## The Participants tab
 
-This tab contains a [list of participants][6] in the follow-up. Registered participants are marked with a dot.
+This tab contains a [list of attendees][6] in the follow-up. Registered attendees are marked with a dot.
 
 If you click the **View as group** button ![icon][img7] at the lower right of the **Participants** tab, the **View** tab in the diary opens, giving you an overview of the [diaries of the invited associates][7] (SuperOffice users).
 

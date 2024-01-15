@@ -48,11 +48,11 @@ You can easily set up a video meeting when creating a follow up. Watch this vide
 
 3. Optionally, set up an alarm to be notified by a pop-up before the meeting starts.
 
-4. [Invite participants][2].
+4. [Invite attendees][2].
 
     When you have added everyone that you want to attend the meeting, click **Save**.
 
-    If you turned on email invitations for the participants of the follow-up, an email with a link to join the video meeting is sent when the meeting is saved. In the diary, follow-ups with video meetings are displayed with the icon ![icon][img3].
+    If you turned on email invitations for the attendees of the follow-up, an email with a link to join the video meeting is sent when the meeting is saved. In the diary, follow-ups with video meetings are displayed with the icon ![icon][img3].
 
 > [!TIP]
 > Click ![icon][img4] to copy the video meeting link. You can then paste the link in the agenda/description of the meeting or send to others via direct messaging. Use the template variable {burl} to add the video meeting link to invitation templates.

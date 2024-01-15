@@ -23,7 +23,7 @@ To create a new appointment in SuperOffice the user may either click **File – 
 
 We can select the start, end times, and the description regarding an appointment. We can also enter the details if needed and there is a special feature to invite others to the same appointment.
 
-Here is a more complete SO Protocol string for creating an appointment with a start and end date, and a company (contact_id) with a contact (person_id), and participants (pids):
+Here is a more complete SO Protocol string for creating an appointment with a start and end date, and a company (contact_id) with a contact (person_id), and attendees (pids):
 
 ```html
 appointment[mode=edit&new=true]?appointment_id=0 
