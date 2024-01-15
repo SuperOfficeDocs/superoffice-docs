@@ -3,19 +3,19 @@ uid: screen-add-layout
 title:  Add a layout
 description: How to add a layout using the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 12.12.2023
+so.date: 01.03.2024
 so.version: 10.2.11
 keywords: ui, screen, customization
 so.topic: howto
-so.envir:
-so.client:
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Add a layout
 
 [!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
 
-Whether you add a personalized view for a selected user group or design a layout optimized for specific project types and sales types, start by adding a new layout for a screen in the Screen Designer.
+Whether you add a personalized view for a selected user group or design a layout optimized for specific project, sales, and request types, start by adding a new layout for a screen in the Screen Designer.
 
 ## Create new layout
 
@@ -23,7 +23,7 @@ To create a new screen layout:
 
 1. Open the Screen Designer.
 
-2. At the top, select a screen: Company, Contact, Sale, Project, or Request.
+2. At the top, select a screen: Company, Contact, Sale, Project, Request, or Follow-up.
 
 3. Under **Layouts**, click **Add**.
 

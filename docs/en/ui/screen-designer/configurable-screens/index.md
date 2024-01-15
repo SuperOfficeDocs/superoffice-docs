@@ -3,12 +3,12 @@ uid: configurable-screens
 title: Configurable screens
 description: Configurable screens
 author: Bergfrid Dias
-so.date: 05.05.2023
+so.date: 01.02.2024
+so.version: 10.2.11
 keywords: ui, screen, customization
 so.topic: concept
-so.version: 10
-so.envir:
-so.client:
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Configurable screens
@@ -24,13 +24,14 @@ Configurable screens enable CRM Administrators to customize SuperOffice CRM user
 * Sale
 * Project
 * Request
+* Follow-up
 
 ## What can I customize?
 
 * Modify the default (system) layout of one or more screens for all users to fit the specific needs of your organization.
 
 * Add personalized views for user groups to make them more effective.
-* Design layouts optimized for specific project types and sales types.
+* Design layouts optimized for specific project types, sale types, and request types.
 * Hide fields that are never used.
 * Give easy access to important custom fields.
 * Add custom buttons and links. For example, to run a CRMScript.
@@ -40,7 +41,7 @@ Configurable screens enable CRM Administrators to customize SuperOffice CRM user
 
 ## Layouts
 
-The default (system) layouts apply to all users until a custom layout is created. [Add custom layouts][2] and assign them to a user group with different needs. Layouts in the **Sales** screen can alternatively be assigned to a **sales type**. Layouts in the **Project** screen can alternatively be assigned to a **project type**.
+The default (system) layouts apply to all users until a custom layout is created. [Add custom layouts][2] and assign them to a user group with different needs. Layouts in the **Sales** screen can alternatively be assigned to a **sales type**. Layouts in the **Project** screen can alternatively be assigned to a **project type**. And layouts in the **Request** screen to **request types**.
 
 Layouts have status *published* or *draft*.
 

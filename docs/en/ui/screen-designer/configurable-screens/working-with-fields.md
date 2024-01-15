@@ -3,10 +3,12 @@ uid: screen-fields
 title: Working with fields
 description: How to add, move, and delete fields in a layout using the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 10.10.2022
+so.date: 01.03.2024
 keywords: ui, screen, customization
 so.topic: howto
 so.version: 10
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Working with fields
@@ -84,4 +86,4 @@ To restore the field, simply [re-add the field](#add-field).
 [3]: working-with-tabs.md#add-heading-or-divider
 
 <!-- Referenced images -->
-[img1]: media/edit-card-layout-fields.png
+[img1]: ../../../../media/loc/en/ui/edit-card-layout-fields.png

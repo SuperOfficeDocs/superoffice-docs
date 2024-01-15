@@ -2,8 +2,8 @@
 title: Expander Services
 uid: expander_services
 description: Expander Services
-author: {github-id}
-so.date: 10.21.2021
+author: Bergfrid Dias
+so.date: 01.15.2024
 so.topic: concept
 keywords: expander services, license, development tools
 ---
@@ -26,7 +26,7 @@ However, sometimes you need more than what is available out-of-the-box. For thos
 * [SuperMacro][4]
 * [Custom screens][5]: Create new screens in Service to support your specific processes
 * [Custom applications][6] (SuperOffice APIs)
-* Configurable Screens (the version 10 Screen Designer)
+* [Configurable Screens][8] (the version 10 Screen Designer)
 * [Sandbox for Dev (SOD)][3]
 * [Extra tables][7]: Add new tables to the database and increase your flexibility
 
@@ -56,6 +56,7 @@ Development products are **stand-alone products** that help customers utilize an
 [5]: ../../../ui/blogic/custom-screens/index.md
 [6]: ../../../developer-portal/custom-app/index.md
 [7]: ../../../custom-objects/extra-table/index.md
+[8]: ../../../ui/screen-designer/index.md
 [10]: ../../../online/sandbox/index.md
 [11]: ../../../identity-management/scim/index.yml
 [12]: ../../../mirroring/index.yml

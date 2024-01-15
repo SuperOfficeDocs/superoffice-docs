@@ -1,12 +1,15 @@
 ---
 uid: help-nl-screen-designer
 title: Schermontwerper
-description: "Kom te weten hoe u uw bedrijfs-, contact-, project-, en verzoekenkaarten configureert in deze gids."
+description: "Kom te weten hoe u uw kaarten configureert in deze gids."
 author: SuperOffice RnD
-so.date: 02.23.2023
+so.date: 01.02.2024
+so.version: 10.2.11
 keywords: schermontwerper
 so.topic: concept
 language: nl
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Schermontwerper
@@ -22,7 +25,7 @@ De Persoon en bedrijfskaarten/schermen in SuperOffice CRM worden geleverd met ee
 
 Met schermontwerper kunt u de niet-relevante velden verwijderen en/of nieuwe, relevantere velden toevoegen. U kunt de velden ook groeperen in tabbladen of kolommen en uw eigen koppen toevoegen ("labels" genoemd). Als u sommige tabbladen overbodig vindt, kunt u ze eenvoudig verwijderen of vervangen door de tabbladen die meer geschikt zijn voor uw organisatie.
 
-Uw verkoopteam, ondersteuningsteam en managementteam hebben niet noodzakelijkerwijs dezelfde focus en vereisten als het gaat om de gegevens die ze het vaakst nodig hebben in SuperOffice. De oplossing is om aangepaste schermen te maken voor elk team. Uw organisatie bespaart tijd doordat uw teams sneller relevante informatie kunnen vinden. Configureer de opmaak van uw hoofdschermen en archieven (sectietabbladen) en definieer welke soorten informatie elk team (gebruikersgroep) kan openen en zien op de bedrijfs-, persoons-, project-, en verzoekenschermen.
+Uw verkoopteam, ondersteuningsteam en managementteam hebben niet noodzakelijkerwijs dezelfde focus en vereisten als het gaat om de gegevens die ze het vaakst nodig hebben in SuperOffice. De oplossing is om aangepaste schermen te maken voor elk team. Uw organisatie bespaart tijd doordat uw teams sneller relevante informatie kunnen vinden. Configureer de opmaak van uw hoofdschermen en archieven (sectietabbladen) en definieer welke soorten informatie elk team (gebruikersgroep) kan openen en zien op de bedrijfs-, persoons-, verkoop-, project-, en verzoekenschermen en de **Vervolgactiviteit**-dialoog.
 
 * Verplaats de belangrijkste velden naar het eerste tabblad.
 * Gebruik kolommen, labels/titels en scheidingslijnen om informatie in logische groepen te ordenen.
@@ -32,9 +35,9 @@ Uw verkoopteam, ondersteuningsteam en managementteam hebben niet noodzakelijkerw
 * Voeg koppelingen/knoppen toe voor het opzoeken van informatie op andere websites of om handmatig een geautomatiseerd proces te activeren op basis van CRMScript.
 
 > [!NOTE]
-> Wanneer deze functie is geactiveerd, worden de velden in uw huidige tabblad **Meer** voor de schermen Bedrijf, Persoon, Verkoop, Project, en Verzoeken gewijzigd en zullen ze twee kolommen weergegeven. U kunt deze tabbladen bewerken in de schermontwerper (zie [Opmaak bewerken][1]).
+> Wanneer deze functie is geactiveerd, worden de velden in uw huidige tabblad **Meer** voor de schermen Bedrijf, Persoon, Verkoop, Project, en Verzoeken gewijzigd en zullen ze twee kolommen weergegeven. U kunt deze [tabbladen bewerken][1] in de schermontwerper.
 
-U kunt aangepaste schermopmaken maken voor de bedrijfs-, persoons-, verkoop-, project-, verzoekenkaarten, zoals boven aan het scherm te zien is. In de lijst **Opmaken** worden alle bestaande schermopmaken (meestal de standaardopmaak) weergegeven met een voorbeeldscherm aan de rechterkant.
+U kunt aangepaste schermopmaken maken voor de bedrijfs-, persoons-, verkoop-, project-, verzoekenkaarten en de **Vervolgactiviteit**-dialoog. In de lijst **Opmaken** worden alle bestaande schermopmaken (meestal de standaardopmaak) weergegeven met een voorbeeldscherm aan de rechterkant.
 
 De opmaken zijn gemarkeerd met de status (gepubliceerd of concept) en de toegewezen gebruikersgroepen.
 

@@ -3,7 +3,7 @@ uid: help-nl-screen-designer-add-layout
 title: Toevoegen van een nieuwe schermopmaak
 description: Een nieuwe lay-out toevoegen voor een gebruikersgroep.
 author: Bergfrid Dias
-so.date: 12.12.2023
+so.date: 01.02.2024
 so.version: 10.2.11
 keywords: schermontwerper, opmaak, hoofdkaart, archief
 so.topic: howto
@@ -14,9 +14,9 @@ language: nl
 
 # Toevoegen van een nieuwe schermopmaak
 
-Als de standaardopmaak niet overeenkomt met de behoeften van een gebruikersgroep, kunt u een nieuwe opmaak maken die voldoet aan de unieke informatiebehoeften van de gebruikersgroep. Met een aangepaste opmaak voor de persoon en bedrijfskaarten en de verschillende archief/sectie tabbladen kunnen uw teams en organisatie efficiënter werken.
+Als de standaardopmaak niet overeenkomt met de behoeften van een gebruikersgroep, kunt u een nieuwe opmaak maken die voldoet aan de unieke informatiebehoeften van de gebruikersgroep. Met een aangepaste opmaak voor de hoofdkaartn, de verschillende archief/sectie tabbladen, en de **Vervolgactiviteit**-dialoog kunnen uw teams en organisatie efficiënter werken.
 
-Met aangepaste schermopmaken voor elk van uw teams, wordt het zoeken van klantgegevens eenvoudiger dan ooit. De meest relevante gegevens zijn altijd beschikbaar en zichtbaar. Verwijder, verplaats of verberg irrelevante of minder belangrijke gegevens om de bedrijfs-, persoons-, verkoop-, project-, en verzoekenschermen overzichtelijk te houden. Voeg aangepaste archieven toe met de meest relevante gegevens voor uw teams. Het resultaat is een schoner en opgeruimder scherm voor uw teams om in te werken.
+Met aangepaste schermopmaken voor elk van uw teams, wordt het zoeken van klantgegevens eenvoudiger dan ooit. De meest relevante gegevens zijn altijd beschikbaar en zichtbaar. Verwijder, verplaats of verberg irrelevante of minder belangrijke gegevens om de schermen overzichtelijk te houden. Voeg aangepaste archieven toe met de meest relevante gegevens voor uw teams. Het resultaat is een schoner en opgeruimder scherm voor uw teams om in te werken.
 
 ## Opmaak hoofdkaart
 

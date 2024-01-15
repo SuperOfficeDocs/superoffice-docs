@@ -3,7 +3,7 @@ uid: help-da-screen-designer-add-layout
 title: Tilføj nyt skærmudseende
 description: Sådan tilføjes et nyt udseende for en brugergruppe.
 author: Bergfrid Dias
-so.date: 12.12.2023
+so.date: 01.02.2024
 so.version: 10.2.11
 keywords: skærmdesigner, udseende, hovedkort, arkiv
 so.topic: howto
@@ -14,9 +14,9 @@ language: da
 
 # Tilføj nyt skærmudseende
 
-Hvis standardlayout ikke afspejler en brugergruppes behov, kan du oprette et nyt udseende, der passer til brugergruppens unikke informationsbehov. Et tilpasset udseende til person- og firmakortene og de forskellige arkivfaner/detaljekort giver dine teams og din organisation mulighed for at arbejde mere effektivt.
+Hvis standardlayout ikke afspejler en brugergruppes behov, kan du oprette et nyt udseende, der passer til brugergruppens unikke informationsbehov. Et tilpasset udseende til hovedkortene, de forskellige arkivfaner/detaljekort, og **Opfølgning**-dialogen giver dine teams og din organisation mulighed for at arbejde mere effektivt.
 
-Med tilpassede skærmlayouts til hvert af dine teams vil det være nemmere end nogensinde at finde kundedata. De mest relevante data vil altid være tilgængelige og synlige. Fjern, flyt eller skjul irrelevante eller mindre vigtige data for at fjerne rod i firmaet, personen, salget, projekt, og sagskærmene. Tilføj tilpassede arkiver med de mest relevante data for dine teams. Resultatet bliver en renere og mere ryddelig skærm, som dine teams kan arbejde i.
+Med tilpassede skærmlayouts til hvert af dine teams vil det være nemmere end nogensinde at finde kundedata. De mest relevante data vil altid være tilgængelige og synlige. Fjern, flyt eller skjul irrelevante eller mindre vigtige data for at fjerne rod i skærmene. Tilføj tilpassede arkiver med de mest relevante data for dine teams. Resultatet bliver en renere og mere ryddelig skærm, som dine teams kan arbejde i.
 
 ## Hovedkort udseende
 

@@ -3,7 +3,7 @@ uid: help-en-screen-designer-add-layout
 title: Add new screen layout
 description: How to add a new layout for a user group.
 author: Bergfrid Dias
-so.date: 12.12.2023
+so.date: 01.02.2024
 so.version: 10.2.11
 keywords: screen designer, layout, main card, archive
 so.topic: howto
@@ -14,9 +14,9 @@ language: en
 
 # Add new screen layout
 
-If the default layout does not reflect the needs of a user group, you can create a new layout to match the user group's unique information needs. A customized layout for the company, contact, sale, project, and request cards and the different archive/section tabs lets your teams and organization work more efficient.
+If the default layout does not reflect the needs of a user group, you can create a new layout to match the user group's unique information needs. A customized layout for the company, contact, sale, project, and request cards, the archive/section tabs, and the **Follow-up** dialog lets your teams and organization work more efficient.
 
-With custom screen layouts for each of your teams, finding customer data will be easier than ever. The most relevant data will always be available and visible. Remove, move or hide irrelevant or less important data to unclutter the company, contact, sale, project, and request screens. Add customized archives with the most relevant data for your teams. The result will be a cleaner and more tidy screen for your teams to work in.
+With custom screen layouts for each of your teams, finding customer data will be easier than ever. The most relevant data will always be available and visible. Remove, move or hide irrelevant or less important data to unclutter the screens. Add customized archives with the most relevant data for your teams. The result will be a cleaner and more tidy screen for your teams to work in.
 
 ## Main card layout
 

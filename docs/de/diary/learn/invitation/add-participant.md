@@ -91,7 +91,7 @@ Sehen Sie sich das Video für [Teilnehmer zu einem Termin hinzufügen][15] an.
 
 ### <a id="availability" />Terminassistent (nur in der Pilotversion verfügbar)
 
-Der Terminassistent ist Teil des neuen **Folgeaufgabe**-Dialogs. Der detaillierte Kalender zeigt die Verfügbarkeit jedes internen Teilnehmers (Mitarbeiter). Die oberste Reihe zeigt die akkumulierte Verfügbarkeit. Die Verfügbarkeit von externen Teilnehmern und E-Mail-Teilnehmern ist unbekannt.
+Der Terminassistent ist Teil den neue **Folgeaufgabe**-Dialog. Der detaillierte Kalender zeigt die Verfügbarkeit jedes internen Teilnehmers (Mitarbeiter). Die oberste Reihe zeigt die akkumulierte Verfügbarkeit. Die Verfügbarkeit von externen Teilnehmern und E-Mail-Teilnehmern ist unbekannt.
 
 ![Folgeaufgabedialog, Terminassistent -screenshot][img18]
 
