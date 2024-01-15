@@ -48,6 +48,11 @@ A self-service UI to provision and configure SharePoint as SO repository from Su
 
 ## Things to consider
 
+> [!WARNING]
+> With SharePoint as your document library, all SuperOffice users MUST log in with "Sign in with Microsoft"!
+>
+> SuperOffice users in this tenant cannot authenticate any longer with password, as they will be redirected to Microsoft to authenticate.
+
 ### Data rights for a role
 
 [!include[data rights](includes/req-data-rights.md)]
