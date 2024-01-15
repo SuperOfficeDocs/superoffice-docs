@@ -3,7 +3,7 @@ uid: help-no-sharepoint-documents-folders
 title: Slik konfigurerer du SharePoint-mappene
 description: Slik konfigurerer du SharePoint-mappene
 author: Bergfrid Dias
-so.date: 02.14.2023
+so.date: 01.15.2024
 keywords: dokument, SharePoint
 so.topic: howto
 language: no
@@ -19,7 +19,7 @@ Dokumenter i biblioteket arver tillatelsen fra selve biblioteket.
 
 * SharePoint-brukergrupper:
   * I SharePoint kan du opprette og vedlikeholde SharePoint-brukergrupper, noe som gir direkte tilgang til dokumentene for brukerne (som standard har du en eiergruppe, en medlemsgruppe og en besøksgruppe).
-  * Du kan ikke bruke SharePoint-brukergrupper til å angi tillatelser på dokumentnivå med SuperOffice SharePoint-dokumenter. Integrasjonen må bruke domenegrupper (AAD). Så du må gi tillatelser til disse gruppene.
+  * Du kan ikke bruke SharePoint-brukergrupper til å angi tillatelser på dokumentnivå med SuperOffice SharePoint-dokumenter. Integrasjonen må bruke Microsoft Entra domenegrupper. Så du må gi tillatelser til disse gruppene.
 
 * Eiergruppe for SharePoint-område:
   * Når du oppretter et område i SharePoint, får du automatisk en *eiergruppe*. Medlemmer av denne eiergruppen vil ha tilgang til alle dokumenter på dette området.

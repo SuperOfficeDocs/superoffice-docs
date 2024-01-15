@@ -72,7 +72,7 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-          - text: Create Azure enterprise app
+          - text: Create Microsoft Entra enterprise app
             url: setup/create-azure-enterprise-app.md
           - text: Enable auto-sync
             url: setup/enable-auto-sync.md

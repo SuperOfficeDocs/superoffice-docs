@@ -3,7 +3,8 @@ title: Add new scim rule
 uid: add_scim_rule
 description:
 author: {github-id}
-keywords:
+so.date: 01.15.2024
+keywords: SCIM, Microsoft Entra, ME-ID, AAD
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -11,7 +12,7 @@ so.client: online
 
 # Add new scim rule
 
-Let's look at how you can add a [SCIM rule][1] to map Azure AD users to SuperOffice account settings.
+Let's look at how you can add a [SCIM rule][1] to map Microsoft Entra users to SuperOffice account settings.
 
 ## Pre-requisites
 
@@ -30,6 +31,7 @@ Let's look at how you can add a [SCIM rule][1] to map Azure AD users to SuperOff
     * all
     * only users in 1 specific group
     * all users except those in a specific group
+
 4. Select the settings these users should be mapped to in SuperOffice.
 
     ![SCIM fallback rule -screenshot][img2]
@@ -45,4 +47,4 @@ Let's look at how you can add a [SCIM rule][1] to map Azure AD users to SuperOff
 
 <!-- Referenced images -->
 [img1]: media/add-scim-rule.png
-[img2 ]: media/scim-fallback-rule.png
+[img2]: media/scim-fallback-rule.png

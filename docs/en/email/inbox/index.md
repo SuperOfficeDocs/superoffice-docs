@@ -119,7 +119,7 @@ b)
 1. Log in to your Microsoft email account in SuperOffice Inbox
     Fill inn your Microsoft365 'User Princpal Name' (UPN) in the field "Email account".
 2. Click **Next**.
-    If we recognize the UPN as an Microsoft 365 email account, we redirect you to Microsoft for authentication.
+    If we recognize the UPN as a Microsoft 365 email account, we redirect you to Microsoft for authentication.
 3. Authenticate towards Microsoft and complete the login
     You will then be taken to the SuperOffice Inbox. Your email account is now set up to use OAuth 2.0 authentication
 

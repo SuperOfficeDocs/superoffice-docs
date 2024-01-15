@@ -94,7 +94,7 @@ items:
     items:
     - name: Setup guide
       href: scim/setup/setup-guide.md
-    - name: Create Azure enterprise app
+    - name: Create Microsoft Entra enterprise app
       href: scim/setup/create-azure-enterprise-app.md
     - name: Enable auto sync
       href: scim/setup/enable-auto-sync.md

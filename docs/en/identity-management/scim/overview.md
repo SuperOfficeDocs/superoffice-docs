@@ -3,8 +3,8 @@ uid: scim_intro
 title: SCIM intro
 description: What is SCIM? Why use SCIM?
 author:
-so.date:
-keywords: SCIM
+so.date: 01.15.2024
+keywords: SCIM, IdP, Microsoft Entra, ME-ID, AAD
 so.topic: concept
 so.envir:  cloud
 so.client:  online
@@ -12,7 +12,7 @@ so.client:  online
 
 # System for Cross-domain Identity Management (SCIM)
 
-SCIM is a common language to describe what an identity is and how to handle it. With SuperOffice you can use SCIM to automate user provisioning from Azure AD.
+SCIM is a common language to describe what an identity is and how to handle it. With SuperOffice you can use SCIM to automate user provisioning from Microsoft Entra ID (formerly Azure Active Directory).
 
 > [!NOTE]
 > This feature is part of Expander Services and requires a site-wide SCIM license.
@@ -137,7 +137,7 @@ Manual entry by hand is time-consuming, labor-intensive, and error-prone in larg
 
 ## Provision users with SCIM
 
-Azure AD will access a SCIM endpoint in SuperOffice Cloud Integration, aka the SuperOffice Identity Management Gateway (IMG). This is configured as part of an Enterprise Application in Azure AD.
+ Microsoft Entra ID will access a SCIM endpoint in SuperOffice Cloud Integration, aka the SuperOffice Identity Management Gateway (IMG). This is configured as part of an Enterprise Application in Microsoft Entra admin center.
 
 The Identity Management Gateway is configured with a set of rules describing users in their SuperOffice CRM Online tenant.
 

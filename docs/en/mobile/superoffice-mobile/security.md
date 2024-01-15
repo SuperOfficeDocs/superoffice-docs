@@ -2,6 +2,7 @@
 title: Security
 description: Mobile CRM security in CRM Online
 author: Martin Pavlas
+so.date: 01.15.2024
 keywords: mobile, pocket
 so.topic: concept
 so.envir: online
@@ -86,11 +87,11 @@ SuperOffice identity provider [SuperID][7], handling federation with other syste
 
 Mobile CRM will delegate authentication to SuperID. SuperID has [standard support for Google and Microsoft][11] and can offer custom implementations if needed.
 
-Integration with Microsoft 365 and SharePoint requires that the user authenticates using Microsoft Azure AD.
+Integration with Microsoft 365 and SharePoint requires that the user authenticates using Microsoft Entra ID (formerly Azure Active Directory).
 
-Customers who use Citrix and Microsoft 365 often have a set-up where Azure AD Authentication is delegated to ADFS or other systems. We support this.
+Customers who use Citrix and Microsoft 365 often have a set-up where Microsoft Entra authentication is delegated to ADFS or other systems. We support this.
 
-* SuperID will use a standard connector with Azure AD
+* SuperID will use a standard connector with Microsoft Entra ID.
 * All clients, including TrayApp/WebTools/MailLink, Pocket/Mobile, Crm.web, AppStore apps, etc. will delegate authentication to SuperID.
 * Login with Google will support the new Google security policy for mobile apps
 * Users using IdP (Google / Microsoft 365), the IdP admin can retract token authorization (expire)

@@ -3,7 +3,7 @@ uid: help-sv-sharepoint-documents
 title: Integration för SharePoint dokumentbibliotek
 description: Med SuperOffice för Outlook-tillägget kan du enkelt arbeta med både Microsoft 365 och din SuperOffice CRM-lösning genom att du får tillgång till viktiga uppgifter och funktioner från SuperOffice direkt i din e-post.
 author: Bergfrid Dias
-so.date: 02.14.2023
+so.date: 01.15.2024
 keywords: dokument, Sharepoint
 so.topic: concept
 language: sv
@@ -13,7 +13,7 @@ language: sv
 
 Med SuperOffices integration för SharePoint dokumentbibliotek kan du skapa, arkivera och dela dokument och e-postmeddelanden smidigt och säkert.
 
-Med den här integrationen kan du spara alla dokument och e-postmeddelanden i SharePoint Online, där de är åtkomliga för alla som jobbar på företaget, även för dem som inte använder SuperOffice CRM. Åtkomsten till dina SuperOffice-dokument i SharePoint kan styras genom domängrupper (AAD = Azure Active Directory-autentisering).
+Med den här integrationen kan du spara alla dokument och e-postmeddelanden i SharePoint Online, där de är åtkomliga för alla som jobbar på företaget, även för dem som inte använder SuperOffice CRM. Åtkomsten till dina SuperOffice-dokument i SharePoint kan styras genom Microsoft Entra domängrupper (tidligare Azure Active Directory).
 
 ![Under Inställningar i Inställningar och underhåll hittar du dokumentbiblioteket, där du kan konfigurera SharePoint-integrationen -screenshot][img1]
 
@@ -22,7 +22,7 @@ Med den här integrationen kan du spara alla dokument och e-postmeddelanden i Sh
 För att konfigurera SharePoint som ditt dokumentbibliotek i SuperOffice behöver du följande:
 
 * SuperOffice Online-licens
-  * [AAD-autentisering av SO-administratör][1]
+  * [Microsoft Entra-autentisering av SO-administratör][1]
 * Prenumeration på Microsoft 365 för företag
   * Om du inte har en Microsoft 365-prenumeration måste du teckna en hos Microsoft
 * Ett SharePoint dokumentbibliotek (för lagring av dokument)

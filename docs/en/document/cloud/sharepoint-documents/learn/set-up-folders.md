@@ -3,7 +3,7 @@ uid: help-en-sharepoint-documents-folders
 title: How to set up the SharePoint folders
 description: How to set up the SharePoint folders
 author: Bergfrid Dias
-so.date: 02.14.2023
+so.date: 01.15.2024
 keywords: document, Sharepoint
 so.topic: howto
 language: en
@@ -19,7 +19,7 @@ Documents within the library inherit the permission from the library itself.
 
 * SharePoint user groups:
   * In SharePoint you can create and maintain SharePoint user groups, which gives direct access to the documents for the users (by default you have an owner group, a member group and a visitor group).
-  * You cannot use SharePoint user groups to set permission on the document level with SuperOffice SharePoint Documents. The integration needs to use domain (AAD) groups. So, you must grant permissions to these groups.
+  * You cannot use SharePoint user groups to set permission on the document level with SuperOffice SharePoint Documents. The integration needs to use Microsoft Entra domain groups. So, you must grant permissions to these groups.
 
 * SharePoint site owner group:
   * When you create a site in SharePoint, you automatically get an *owner group*. Members of this owner group will have access to all documents within that site.

@@ -3,8 +3,8 @@ title: Migration guide
 uid: sharepoint-documents-migration
 description: Introduction to SuperOffice SharePoint document migration.
 author: Frode Berntsen, Bergfrid Dias
-so.date: 11.02.2023
-keywords: SharePoint, document, Microsoft
+so.date: 01.15.2024
+keywords: SharePoint, document, Microsoft, Microsoft Entra, ME-ID, AAD
 so.topic: concept
 so.version:
 so.envir: cloud
@@ -94,24 +94,24 @@ Documents created with SharePoint version 1.0 are already stored in SharePoint. 
 * Update access tokens to enable reading of existing Office 365 documents.
 * Deactivate SharePoint version 1.0.
 
-### AAD external users
+### Microsoft Entra external users
 
 Additionally, there is one limitation in SharePoint version 3.x compared to version 1.0, which affects migration and usage for external users:
 
-* IdP authentication requires all users to use the same MS subscription.
+* IdP authentication requires all users to use the same Microsoft subscription.
 
-The legacy login process in SharePoint version 1.0 allows authentication for both internal users within the same Azure Active Directory tenant and external users, including those from other Azure subscriptions or external organizations. However, SharePoint version 3.x lacks support for AAD external users due to limitations in the Microsoft Graph API.
+The legacy login process in SharePoint version 1.0 allows authentication for both internal users within the same Microsoft Entra tenant and external users, including those from other Azure subscriptions or external organizations. However, SharePoint version 3.x lacks support for Microsoft Entra external users due to limitations in the Microsoft Graph API.
 
-When migrating documents created by AAD external users from SharePoint version 1.0 to SharePoint version 3.x, the documents' ownership transfer to the **SuperOffice App**. Admins should remove the user plan for these users during migration.
+When migrating documents created by Microsoft Entra external users from SharePoint version 1.0 to SharePoint version 3.x, the documents' ownership transfer to the **SuperOffice App**. Admins should remove the user plan for these users during migration.
 
-After migration, AAD external users won't be able to create new documents in SharePoint version 3.x from SuperOffice. To identify AAD external users, refer to Microsoft Azure Active Directory or Microsoft Entra ID under **Users**, where they may be labeled as *Guest* or *External AD* in terms of user type or identity. Alternatively, their User Principal Name may be in a specific format, such as `[externalUPN-name]#EXT#@[internaldomainname].onmicrosoft.com`.
+After migration, Microsoft Entra external users won't be able to create new documents in SharePoint version 3.x from SuperOffice. To identify Microsoft Entra external users, refer to Microsoft Entra ID (formerly Azure Active Directory) under **Users**, where they may be labeled as *Guest* or *External AD* in terms of user type or identity. Alternatively, their User Principal Name may be in a specific format, such as `[externalUPN-name]#EXT#@[internaldomainname].onmicrosoft.com`.
 
 ### Steps
 
 1. SuperOffice Admin: [Configure SuperOffice SharePoint documents][4].
 
     > [!NOTE]
-    > If you have AAD external users, remove SuperOffice user plans for SuperOffice users who are AAD external users.
+    > If you have Microsoft Entra external users, remove SuperOffice user plans for SuperOffice users who are Microsoft Entra external users.
 
 1. Online Operations: Run access token fix. This will update access tokens to be able to read existing Office 365 documents.
 

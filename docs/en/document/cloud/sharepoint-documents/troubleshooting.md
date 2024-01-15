@@ -3,8 +3,8 @@ title: Troubleshooting
 uid: sharepoint-troubleshooting
 description: Troubleshooting SharePoint Documents
 author: Bergfrid Dias
-so.date: 08.17.2023
-keywords: SharePoint, document
+so.date: 01.15.2024
+keywords: SharePoint, document, Microsoft Entra, ME-ID, AAD
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -14,7 +14,7 @@ so.client: online
 
 ## I get "Sorry, you don't have access" when I try to open a document from CRM​
 
-Most likely you are member of a user group in SuperOffice CRM and not in the corresponding AAD (domain) group that gives access to that document in SharePoint. For instance, the document you try to open has visible for Sales, but you are not a member of that group SharePoint. You need to contact your IT-Department to sort that out.​
+Most likely you are member of a user group in SuperOffice CRM and not in the corresponding Microsoft Entra (formerly AAD) domain group that gives access to that document in SharePoint. For instance, the document you try to open has visible for Sales, but you are not a member of that group SharePoint. You need to contact your IT-Department to sort that out.​
 
 ## Why does my document end up in the folder AAA when I set visible for BBB? ​
 
@@ -84,8 +84,7 @@ $permissionsToRemove = @("User.Read", "Sites.FullControl.All")
 
 ## How to retrieve document URLs in SuperOffice SharePoint v2
 
-
-To retrieve document URLs in SuperOffice SharePoint v2, it's recommended to use the [Microsoft Graph API][1] for access instead of SOExternalref for greater reliability and compatibility across DocPlugin versions. 
+To retrieve document URLs in SuperOffice SharePoint v2, it's recommended to use the [Microsoft Graph API][1] for access instead of SOExternalref for greater reliability and compatibility across DocPlugin versions.
 
 Fetching an ExtRef and assuming it has any meaningful value that can be interpreted by anyone other than the DocPlugin is incorrect code. While you may get lucky, the code will still be incorrect.
 
@@ -95,8 +94,8 @@ For the most effective approach, you should first determine whether a document's
 
 For detailed guidance and references, consult SuperOffice's documentation:
 
-- [GetDocumentProperties API Reference][2]
-- [GetDocumentUrl API Reference][3]
+* [GetDocumentProperties API Reference][2]
+* [GetDocumentUrl API Reference][3]
 
 <!-- Referenced links -->
 [1]: https://docs.microsoft.com/en-us/graph/api/overview

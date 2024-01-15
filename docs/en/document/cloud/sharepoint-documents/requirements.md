@@ -3,8 +3,8 @@ title: Requirements
 uid: sharepoint-requirements
 description: Requirements for SharePoint Documents
 author: Bergfrid Dias
-so.date: 11.01.2023
-keywords: SharePoint, document, AAD IDP
+so.date: 01.15.2024
+keywords: SharePoint, document, Microsoft Entra, ME-ID, AAD, IDP
 so.topic: reference
 so.envir: cloud
 so.client: online
@@ -15,16 +15,16 @@ so.client: online
 ## To set it up
 
 * SuperOffice Online tenant
-  * AAD Authentication of SuperOffice Admin. For more info, see [IDP authentication][2].
+  * Microsoft Entra (formerly AAD) authentication of SuperOffice Admin. For more info, see [IDP authentication][2].
   * You will not be able to continue to set up the integration [until ALL users with user plan use IDP](#to-use-it).
 
 * Microsoft 365 for business subscription
   * If you don't have a Microsoft 365 subscription, you have to sign up for one at Microsoft.
-  * You will be warned when you set up the integration if one or more users use different domain names. Note: [ALL users with user plan must be in the same Azure AD subscription](#to-use-it).
+  * You will be warned when you set up the integration if one or more users use different domain names. Note: [ALL users with user plan must be in the same Microsoft Entra subscription](#to-use-it).
 
 * A SharePoint site with document library for storing documents and document library for storing templates.
 
-* Permissions to your SharePoint document libraries using domain (AAD) groups.
+* Permissions to your SharePoint document libraries using Microsoft Entra domain groups.
   * The Group type must be Microsoft 365 and not Security.
   * This is mandatory if you plan to use *Visible for* in SuperOffice Online and recommended either way.
 
@@ -35,7 +35,7 @@ so.client: online
 
 ## To use it
 
-[!include[AAD](includes/req-usage.md)]
+[!include[ME-ID](includes/req-usage.md)]
 
 * No support for moving documents to other SharePoint sites, only within the same site.
 

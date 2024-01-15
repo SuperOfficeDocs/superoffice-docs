@@ -3,18 +3,18 @@ title: User provisioning
 uid: user_provisioning
 description: User provisioning
 author: {github-id}
-keywords: IDP
+so.date: 01.15.2024
+keywords: IDP, SCIM, Microsoft Entra, ME-ID, AAD
 so.topic: concept
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:
-# so.client:
+so.envir: cloud
+so.client: online
 ---
 
 # User provisioning
 
 User provisioning is an important identity management process for handling information about users in multiple applications and systems.
 
->[!NOTE]
+> [!NOTE]
 > When we talk about user provisioning, we refer to the data **object representing a person** and not the physical person. It is also distinct from [application provisioning][1].
 
 The user data object generally consist of:
@@ -30,7 +30,7 @@ The user data object generally consist of:
 
 User provisioning centralizes the management of the user data object and pushes updates to other systems and applications that also need to know about the person the object represents. De-provisioning is the process of removing the user from the subscribed systems - for example when an employee leaves a company.
 
-Azure active directory is one such centralized system.
+Microsoft Entra ID (formerly Azure Active Directory) is one such centralized system.
 
 ## What are the benefits?
 
@@ -62,7 +62,7 @@ The more users and applications your organization has, the greater is the risk o
 
 ## How does it work in SuperOffice?
 
->[!NOTE]
+> [!NOTE]
 > To be able to sign in to SuperOffice, a person needs an active user account and a valid license.
 
 A user data object can enter the SuperOffice sphere in the following ways:
@@ -71,7 +71,7 @@ A user data object can enter the SuperOffice sphere in the following ways:
 
 * Add the user in Admin client referring to UPN of the identity provider.
 
-* [Provision user from Azure Active Directory via SCIM][3].
+* [Provision user from Microsoft Entra ID via SCIM][3].
 
 <!-- Referenced links -->
 [1]: ../../developer-portal/provisioning/index.md

@@ -3,7 +3,7 @@ uid: help-nl-sharepoint-documents-folders
 title: De SharePoint-mappen instellen
 description: De SharePoint-mappen instellen
 author: Bergfrid Dias
-so.date: 02.14.2023
+so.date: 01.15.2024
 keywords: document, Sharepoint
 so.topic: howto
 language: nl
@@ -19,7 +19,7 @@ Documenten in de bibliotheek nemen de machtiging over van de bibliotheek zelf.
 
 * SharePoint-gebruikersgroepen:
   * In SharePoint kunt u SharePoint-gebruikersgroepen maken en onderhouden, waardoor de gebruikers direct toegang hebben tot de documenten (standaard hebt u een eigenaarsgroep, een ledengroep en een bezoekersgroep).
-  * U kunt geen SharePoint-gebruikersgroepen gebruiken om machtigingen op documentniveau in te stellen met SuperOffice SharePoint-documenten. De integratie moet domeingroepen (AAD) gebruiken. U moet dus machtigingen verlenen aan deze groepen.
+  * U kunt geen SharePoint-gebruikersgroepen gebruiken om machtigingen op documentniveau in te stellen met SuperOffice SharePoint-documenten. De integratie moet Microsoft Entra domeingroepen gebruiken. U moet dus machtigingen verlenen aan deze groepen.
 
 * Sharepoint-site-eigenaarsgroep:
   * Wanneer u een site maakt in SharePoint, krijgt u automatisch een *eigenaarsgroep*. Leden van deze eigenaarsgroep hebben toegang tot alle documenten op die site.

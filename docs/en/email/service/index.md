@@ -2,7 +2,7 @@
 title: Service and Marketing
 description: Email in Service and Marketing
 author: Frode B
-so.date: 09.12.2022
+so.date: 01.15.2024
 keywords: email, cURL, OAuth
 so.topic: concept
 # so.envir:
@@ -102,13 +102,13 @@ N/A
 **Onsite:**
 For versions between G9 9.2 R10 and 10.0.3 you can add the feature via adding:
 
-* a) a new sectionGroup 'FeatureToggles' with state
-* b) a FeatureToggles section, with state and key="NewAuthentication"
+* A: a new sectionGroup 'FeatureToggles' with state
+* B: a FeatureToggles section, with state and key="NewAuthentication"
 * in the web.config file (ask your technical installation partner for assistance if needed)
 
 <details>
 <summary>Show details</summary>
-a)
+A:
 
 ```xml
 <configuration>
@@ -122,7 +122,7 @@ a)
 ...
 ```
 
-b)
+B:
 
 ```xml
 <FeatureToggles>
@@ -154,7 +154,7 @@ To create a new mailbox with OAuth 2.0 (in 10.1.4 and older)::
 2. Click New mailbox.
     * The Mailbox properties screen appears, with the Properties tab open.
 3. In the Address field, enter the Microsoft 365 email account e-mail address you want to use for the mailbox.
-    * If we recognize the UPN as an Microsoft 365 email account, we redirect you to Microsoft for authentication.
+    * If we recognize the UPN as a Microsoft 365 email account, we redirect you to Microsoft for authentication.
     * Completing authentication towards Microsoft will redirect you back to Mailboxes tab.
 4. Click OK. The mailbox is created.
 
@@ -167,26 +167,26 @@ You do not have to delete and create a new mailbox just to change authentication
 1. Select System settings > E-mail. This takes you straight to the Mailboxes tab.
 2. Click on mailbox you want to change. The Mailbox properties screen appears, with the Properties tab open.
 3. Click "Change OAuth", this will trigger new dialog for setup of account.
-    * If we recognize the UPN as an Microsoft 365 email account, we will redirect you to Microsoft for authentication.
+    * If we recognize the UPN as a Microsoft 365 email account, we will redirect you to Microsoft for authentication.
     * Completing authentication towards Microsoft will redirect you back to Mailboxes tab.
 4. Click OK. The mailbox is updated.
 
-### Give access to SuperOffice Office365/Azure Enterprise App
+### Give access to SuperOffice Office365/Microsoft Entra enterprise app
 
-When registering, if the current user (by email address) doesn't have grant access rights, you first need to get a domain AAD administrator to authenticate and register it manually. You do this by registering the domain with us.
+When registering, if the current user (by email address) doesn't have grant access rights, you first need to get a Microsoft Entra (formerly AAD) domain administrator to authenticate and register it manually. You do this by registering the domain with us.
 
-We use the same service as for our federated sign-in service we use for CRM Online customers. This enables us to recognize the domain of the user's email address and redirect to the correct identity provider for authentication. This will add our Azure Enterprise App to your domains app list.
+We use the same service as for our federated sign-in service we use for CRM Online customers. This enables us to recognize the domain of the user's email address and redirect to the correct identity provider for authentication. This will add our Microsoft Entra enterprise app to your domains app list.
 
 This process will have no effect on login/authentication of SuperOffice Onsite users in general.
 
-To register Microsoft as an IDP and grant the SuperOffice ID Azure AD application access to read user profile information, the user should be Global Admin or App Admin.
+To register Microsoft as an IDP and grant the SuperOffice ID Microsoft Entra application access to read user profile information, the user should be Global Admin or App Admin.
 
 #### Start IDP registration
 
 1. Go to [https://id.superoffice.com/identityprovider/register][5].
 2. Select your organization's identity provider (Choose Microsoft).
 3. You are sent to the provider's sign-in page after starting registration.
-4. Authenticate with your Global admin or App admin Azure AD account.
+4. Authenticate with your Global admin or App admin Microsoft Entra account.
 5. Accept the permissions and grant SuperOffice access to read profile information if prompted.
 6. Confirm that all users of this domain should use the identity provider (not used for onsite logins). This scope is for OAuth only.
 

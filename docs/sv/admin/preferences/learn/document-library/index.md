@@ -3,7 +3,7 @@ uid: help-sv-document-library
 title: Dokumentbibliotek
 description: Dokumentbibliotek
 author: SuperOffice RnD
-so.date: 02.23.2023
+so.date: 01.15.2024
 keywords: dokument
 so.topic: concept
 language: sv
@@ -22,7 +22,7 @@ Om din organisation använder SharePoint, kan du konfigurera SuperOffice så att
 
 Med SuperOffices integration för SharePoint dokumentbibliotek kan du skapa, arkivera och dela dokument och e-postmeddelanden smidigt och säkert.
 
-Med den här integrationen kan du spara alla dokument och e-postmeddelanden i SharePoint Online, där de är åtkomliga för alla som jobbar på företaget, även för dem som inte använder SuperOffice CRM. Åtkomsten till dina SuperOffice-dokument i SharePoint kan styras genom domängrupper (AAD = Azure Active Directory-autentisering).
+Med den här integrationen kan du spara alla dokument och e-postmeddelanden i SharePoint Online, där de är åtkomliga för alla som jobbar på företaget, även för dem som inte använder SuperOffice CRM. Åtkomsten till dina SuperOffice-dokument i SharePoint kan styras genom Microsoft Entra domängrupper (tidligare Azure Active Directory).
 
 ## Relaterade ämnen
 

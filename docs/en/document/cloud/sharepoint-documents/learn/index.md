@@ -3,7 +3,7 @@ uid: help-en-sharepoint-documents
 title: SharePoint document library integration
 description: The SuperOffice for Outlook add-in lets you work effortlessly between your Microsoft 365 and SuperOffice CRM solution, by letting you access key information and features from SuperOffice directly in your email.
 author: Bergfrid Dias
-so.date: 02.14.2023
+so.date: 01.15.2024
 keywords: document, Sharepoint
 so.topic: concept
 language: en
@@ -13,7 +13,7 @@ language: en
 
 SuperOffice's SharePoint document library integration lets you create, archive, and share documents and emails effortlessly and securely.
 
-This integration allows you to store all documents and emails in SharePoint Online, where they can be accessed by everyone in the company, including even those who do not use SuperOffice CRM. The access to your SuperOffice document site in SharePoint can be controlled through domain groups (AAD = Azure active directory authentication).
+This integration allows you to store all documents and emails in SharePoint Online, where they can be accessed by everyone in the company, including even those who do not use SuperOffice CRM. The access to your SuperOffice document site in SharePoint can be controlled through Microsoft Entra domain groups (formerly Azure Active Directory).
 
 ![On Preferences in Settings and maintenance you find the Document library where you can set up the SharePoint integration -screenshot][img1]
 
@@ -22,7 +22,7 @@ This integration allows you to store all documents and emails in SharePoint Onli
 To set up SharePoint as your document library in SuperOffice, you need:
 
 * SuperOffice Online tenant
-  * [AAD Authentication of SO Admin][1]
+  * [Microsoft Entra authentication of SO Admin][1]
 * Microsoft 365 for business subscription
   * If you do not have a Microsoft 365 subscription, you have to sign up for one at Microsoft
 * A SharePoint document library (for storing documents)

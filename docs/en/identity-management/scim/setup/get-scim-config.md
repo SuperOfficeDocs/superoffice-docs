@@ -1,17 +1,18 @@
 ---
-title: Get SCIM config for AAD
+title: Get SCIM config for Microsoft Entra
 uid: get_scim_config
-description: Get SCIM config for the AAD enterprise application
+description: Get SCIM config for the Microsoft Entra enterprise application
 author: {github-id}
-keywords:
+so.date: 01.15.2024
+keywords: IdP, SCIM, Microsoft Entra, ME-ID, AAD
 so.topic: howto
 so.envir: cloud
 so.client: online
 ---
 
-# Get SCIM config for the AAD enterprise application
+# Get SCIM config for the Microsoft Entra enterprise application
 
-When setting up an Azure enterprise application for SCIM, you need to fetch the admin credentials from the SuperOffice Identity Manager.
+When setting up a Microsoft Entra (formerly AAD) enterprise application for SCIM, you need to fetch the admin credentials from the SuperOffice Identity Manager.
 
 ## Pre-requisites
 

@@ -3,8 +3,8 @@ title: Federated ID and identity providers
 uid: federated_id_and_identity_providers
 description: Federated ID and identity providers
 author:
-so.date:
-keywords: idp
+so.date: 01.15.2024
+keywords: IDP, identity provider, Microsoft Entra ID, ME-ID, AAD
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -32,19 +32,19 @@ We support 2 different 3rd-party identity providers:
 
 * Google Domains
   * Basic, Business, and Enterprise of Google Workspace subscriptions include this
-* Microsoft Azure AD (AAD)
+* Microsoft Entra ID (ME-ID, formerly Azure Active Directory)
   * Many Microsoft 365 subscriptions include this
-  * Azure AD Premium P1 or higher.
+  * Microsoft Entra ID Premium P1 or higher.
 
 >[!NOTE]
 > Use Microsoft or Google as federation gateway with your custom IDP.
 
 Other ways of achieving this can be to use:
 
-* **Microsoft Hybrid Identity:** able to connect local AD
+* **Microsoft Hybrid Identity:** able to connect local Active Directory
   * [microsoft.com - what-is-azure-ad-connect][3]
   * [microsoft.com - what-is-hybrid-identity][4]
-    * If you don't have a Microsoft 365 subscription, you probably need Azure AD Premium P1 or higher.
+    * If you don't have a Microsoft 365 subscription, you probably need Microsoft Entra ID Premium P1 or higher.
         Consult Microsoft for cost and other considerations for setting up a Hybrid Identity.
 * **Google Cloud Directory Sync**: sync from another system to Google
 
@@ -78,6 +78,6 @@ It is easier for the user to sign in and it increases the security of your ident
 <!-- Referenced links -->
 [1]: user/add-user-in-admin-client.md
 [2]: single-sign-on/index.md
-[3]: https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-azure-ad-connect
-[4]: https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity
+[3]: https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect
+[4]: https://learn.microsoft.com/en-us/entra/identity/hybrid/whatis-hybrid-identity
 [5]: superid/howto/register-idp.md

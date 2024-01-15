@@ -3,7 +3,8 @@ title: Enable automatic sync to SuperOffice
 uid: enable_auto_scim_sync
 description: Enable automatic sync to SuperOffice
 author: {github-id}
-keywords:
+so.date: 01.15.2024
+keywords: SCIM, Microsoft Entra, ME-ID, AAD, enterprise app
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -16,7 +17,7 @@ Automatic sync is a powerful tool for when you have set up your mapping.
 ## Pre-requisites
 
 * SuperOffice administrator account with access to user admin.
-* You have [created the Azure enterprise application][1].
+* You have [created the Microsoft Entra enterprise application][1].
 
 ## Procedure
 

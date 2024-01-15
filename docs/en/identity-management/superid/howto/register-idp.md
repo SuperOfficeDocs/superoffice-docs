@@ -3,8 +3,8 @@ title: Register identity provider (domain name)
 uid: register_idp
 description: Register identity provider (domain name)
 author: {github-id}
-so.date: 14.06.2022
-keywords: register idp provider identity
+so.date: 01.15.2024
+keywords: IdP, SuperID, Microsoft Entra, ME-ID, AAD
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -17,13 +17,13 @@ Before using a federated sign-in service, you must register the domain with us. 
 >[!NOTE]
 >Any user that can authenticate with the customer's domain can register **Google** as an identity provider.
 >
-> To register **Microsoft** as an IDP and grant the SuperOffice ID Azure AD application access to read user profile information, the user should be Global Admin or App Admin.
+> To register **Microsoft** as an IDP and grant the SuperOffice ID Microsoft Entra application access to read user profile information, the user should be Global Admin or App Admin.
 
 ## Pre-requisites
 
 * You have [mapped the usernames][1] to your IDP.
 
-* You are able to authenticate with the customer's domain. For Azure AD, Global Admin or Application Administrator is required.
+* You are able to authenticate with the customer's domain. For Microsoft Entra ID, Global Admin or Application Administrator is required.
 
 ## How does DP registration impact existing users?
 
@@ -46,7 +46,7 @@ No use of "SO password" any longer, but user is sent to Google/Microsoft for aut
 
 ### For Microsoft
 
-1. Authenticate with your **Global admin** or **App admin** Azure AD account.
+1. Authenticate with your **Global admin** or **App admin** Microsoft Entra account.
 
 2. Accept the permissions and grant SuperOffice access to read profile information if prompted.
 
@@ -106,9 +106,9 @@ Organizations may have multiple domains. Additional domains used to sign in to S
 
 The Domain Name System (DNS) has a tree structure or hierarchy, which includes nodes on the tree being a domain name. A subdomain is a domain that is part of a larger domain. A custom domain is a unique branded name that identifies a website.
 
-You may want to set a new primary domain name for your Azure AD organization. When your organization is created in Azure AD, the initial domain name, such as `contoso.onmicrosoft.com`, is also set as the primary domain name. The primary domain is the default domain name when you register the domain name. [Check out Microsoft's article on how to change the primary domain name][4].
+You may want to set a new primary domain name for your Microsoft Entra organization. When your organization is created in Microsoft Entra ID, the initial domain name, such as `contoso.onmicrosoft.com`, is also set as the primary domain name. The primary domain is the default domain name when you register the domain name. [Check out Microsoft's article on how to change the primary domain name][4].
 
-You can find additional domains in your Azure Active Directory under **Custom domain names**.
+You can find additional domains in your Microsoft Entra admin center under **Custom domain names**.
 
 ![Custom domains -screenshot][img10]
 
@@ -132,7 +132,7 @@ You can find additional domains in your Azure Active Directory under **Custom d
 [1]: map-idp-usernames.md
 [2]: https://id.superoffice.com/identityprovider/register
 [3]: complete-user-transition.md
-[4]: https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/domains-manage/
+[4]: https://learn.microsoft.com/en-us/entra/identity/users/domains-manage
 [5]: custom-domains-registration-form.md
 [6]: ../../user/send-welcome-emails.md
 
