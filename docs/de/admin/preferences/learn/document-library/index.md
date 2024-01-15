@@ -3,7 +3,7 @@ uid: help-de-document-library
 title: Dokumentbibliothek
 description: Dokumentbibliothek
 author: SuperOffice RnD
-so.date: 02.23.2023
+so.date: 01.15.2024
 keywords: Dokument
 so.topic: concept
 language: de
@@ -22,7 +22,7 @@ Wenn Ihre Organisation SharePoint verwendet, können Sie festlegen, dass SuperOf
 
 Mit der Integration der SharePoint-Dokumentenbibliothek von SuperOffice können Sie Dokumente und E-Mails mühelos und sicher erstellen, archivieren und teilen.
 
-Mit dieser Integration können Sie alle Dokumente und E-Mails in SharePoint Online speichern, wo jeder in der Firma - auch diejenigen, die SuperOffice CRM nicht verwenden, darauf zugreifen kann. Der Zugriff auf Ihre SuperOffice Dokumentenseite in SharePoint kann über Domänengruppen (AAD = Azure Active Directory Authentication) gesteuert werden.
+Mit dieser Integration können Sie alle Dokumente und E-Mails in SharePoint Online speichern, wo jeder in der Firma - auch diejenigen, die SuperOffice CRM nicht verwenden, darauf zugreifen kann. Der Zugriff auf Ihre SuperOffice Dokumentenseite in SharePoint kann über Microsoft Entra Domänengruppen (ehemals Azure Active Directory) gesteuert werden.
 
 ## Verwandte Themen
 

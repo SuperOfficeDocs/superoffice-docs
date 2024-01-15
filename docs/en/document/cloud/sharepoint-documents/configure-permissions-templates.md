@@ -3,8 +3,8 @@ title: Permissions in SharePoint
 uid: config-sharepoint-permissions-templates
 description: How to set up the SharePoint permissions for templates
 author: Martin Pavlas
-so.date: 29.09.2022
-keywords: SharePoint, permission security, access control
+so.date: 01.15.2024
+keywords: SharePoint, permission, security, access control, Microsoft Entra, domain group, ME-ID, AAD
 so.topic: howto
 so.version:
 so.envir: cloud
@@ -17,7 +17,7 @@ We recommend that you create a separate SharePoint document library on your Supe
 
 ## Permissions to the SharePoint document library for SuperOffice templates
 
-People who will edit the templates should have Permission level edit​. For instance, create a domain (AAD) group named template-editors​.
+People who will edit the templates should have Permission level edit​. For instance, create a Microsoft Entra (formerly AAD) domain group named template-editors​.
 
 All other users of SuperOffice Online must have Permission level Read. This is necessary because they must read it when creating document​.
 
@@ -55,7 +55,7 @@ In order to control access to you SuperOffice document library, you must stop in
 
 ## <a id="step-3a" />Step 3a – Change permissions​
 
-Follow these steps if the AAD (domain) groups already exist. If the groups do not exist or you need to add a group that can edit, go to step 3b.
+Follow these steps if the Microsoft Entra domain groups already exist. If the groups do not exist or you need to add a group that can edit, go to step 3b.
 
 1. Select the groups​.
 
@@ -75,7 +75,7 @@ Follow these steps if the AAD (domain) groups already exist. If the groups do no
 
 2. In **Invite people**​.
 
-    * Type in and add domain (AAD) groups​. Members of these groups will automatically get access.
+    * Type in and add Microsoft Entra domain groups​. Members of these groups will automatically get access.
 
     * Tick off **Share everything in this folder, even items with unique permissions**​.
 

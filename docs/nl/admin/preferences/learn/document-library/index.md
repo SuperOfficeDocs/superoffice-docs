@@ -3,7 +3,7 @@ uid: help-nl-document-library
 title: Documentbibliotheek
 description: Documentbibliotheek
 author: SuperOffice RnD
-so.date: 02.23.2023
+so.date: 01.15.2024
 keywords: document
 so.topic: concept
 language: nl
@@ -22,7 +22,7 @@ Als uw organisatie SharePoint gebruikt, kunt u SuperOffice configureren om Share
 
 Met de SharePoint-documentbibliotheekintegratie van SuperOffice kunt u moeiteloos en veilig documenten en e-mails maken, archiveren en delen.
 
-Met deze integratie kunt u alle documenten en e-mails opslaan in SharePoint Online, waar ze toegankelijk zijn voor iedereen in het bedrijf, zelfs voor degenen die geen SuperOffice CRM gebruiken. De toegang tot uw SuperOffice-documentsite in SharePoint kan worden beheerd via domeingroepen (AAD = Azure Active Directory-verificatie).
+Met deze integratie kunt u alle documenten en e-mails opslaan in SharePoint Online, waar ze toegankelijk zijn voor iedereen in het bedrijf, zelfs voor degenen die geen SuperOffice CRM gebruiken. De toegang tot uw SuperOffice-documentsite in SharePoint kan worden beheerd via Microsoft Entra domeingroepen (voorheen Azure Active Directory).
 
 ## Verwante onderwerpen
 

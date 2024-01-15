@@ -3,7 +3,7 @@ uid: help-de-sharepoint-documents-folders
 title: Wie man die SharePoint-Ordner einrichtet
 description: Wie man die SharePoint-Ordner einrichtet
 author: Bergfrid Dias
-so.date: 02.14.2023
+so.date: 01.15.2024
 keywords: Dokument, Sharepoint
 so.topic: howto
 language: de
@@ -19,7 +19,7 @@ Dokumente innerhalb der Bibliothek erben die Berechtigung von der Bibliothek sel
 
 * SharePoint-Benutzergruppen:
   * In SharePoint können Sie SharePoint-Benutzergruppen erstellen und verwalten, wodurch die Benutzer direkten Zugriff auf die Dokumente erhalten (standardmäßig haben Sie eine Eigentümergruppe, eine Mitgliedergruppe und eine Besuchergruppe).
-  * Sie können keine SharePoint-Benutzergruppen verwenden, um Berechtigungen auf Dokumentebene mit SuperOffice SharePoint-Dokumenten festzulegen. Für die Integration müssen Domänengruppen (AAD) verwendet werden. Daher müssen Sie diesen Gruppen Berechtigungen erteilen.
+  * Sie können keine SharePoint-Benutzergruppen verwenden, um Berechtigungen auf Dokumentebene mit SuperOffice SharePoint-Dokumenten festzulegen. Für die Integration müssen Microsoft Entra Domänengruppen verwendet werden. Daher müssen Sie diesen Gruppen Berechtigungen erteilen.
 
 * Eigentümergruppe der Website in SharePoint:
   * Wenn Sie eine Website in SharePoint erstellen, erhalten Sie automatisch eine *Eigentümergruppe*. Mitglieder dieser Eigentümergruppe haben Zugriff auf alle Dokumente in dieser Website.

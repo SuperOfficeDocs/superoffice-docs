@@ -3,7 +3,7 @@ uid: help-de-sharepoint-documents
 title: Integration der SharePoint-Dokumentbibliothek
 description: "Mit dem Add-In SuperOffice für Outlook können Sie mühelos zwischen Ihrer Microsoft 365- und SuperOffice CRM-Lösung arbeiten, indem Sie direkt in Ihrer E-Mail auf wichtige Informationen und Funktionen von SuperOffice zugreifen können."
 author: Bergfrid Dias
-so.date: 02.14.2023
+so.date: 01.15.2024
 keywords: Dokument, Sharepoint
 so.topic: concept
 language: de
@@ -13,7 +13,7 @@ language: de
 
 Mit der Integration der SharePoint-Dokumentenbibliothek von SuperOffice können Sie Dokumente und E-Mails mühelos und sicher erstellen, archivieren und teilen.
 
-Mit dieser Integration können Sie alle Dokumente und E-Mails in SharePoint Online speichern, wo jeder in der Firma - auch diejenigen, die SuperOffice CRM nicht verwenden, darauf zugreifen kann. Der Zugriff auf Ihre SuperOffice Dokumentenseite in SharePoint kann über Domänengruppen (AAD = Azure Active Directory Authentication) gesteuert werden.
+Mit dieser Integration können Sie alle Dokumente und E-Mails in SharePoint Online speichern, wo jeder in der Firma - auch diejenigen, die SuperOffice CRM nicht verwenden, darauf zugreifen kann. Der Zugriff auf Ihre SuperOffice Dokumentenseite in SharePoint kann über Microsoft Entra Domänengruppen (ehemals Azure Active Directory) gesteuert werden.
 
 ![Unter Einstellungen in Einstellungen und Verwaltung finden Sie die Dokumentbibliothek, in der Sie die SharePoint-Integration einrichten können -screenshot][img1]
 
@@ -22,7 +22,7 @@ Mit dieser Integration können Sie alle Dokumente und E-Mails in SharePoint Onli
 Um SharePoint als Ihre Dokumentbibliothek in SuperOffice einzurichten, benötigen Sie:
 
 * SuperOffice Online-Tenant
-  * [AAD-Authentifizierung des SO-Administrators][1]
+  * [Microsoft Entra Authentifizierung des SO-Administrators][1]
 * Microsoft 365 für Business-Abonnement
   * Wenn Sie kein Microsoft 365-Abonnement haben, müssen Sie sich dafür bei Microsoft anmelden
 * Eine SharePoint-Dokumentbibliothek (zum Speichern von Dokumenten)

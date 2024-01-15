@@ -3,7 +3,8 @@ title: Preparing IDP login for SharePoint
 uid: prepare_sharepoint_for_set_up
 description: Preparing IDP login for SharePoint integration
 author: {github-id}
-keywords:
+keywords: SharePoint, Microsoft Entra
+so.date: 01.15.2024
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -16,7 +17,7 @@ This guide will explain how to prepare IDP login for SharePoint integration.
 ## Make sure all users use the correct username
 
 To be able to use Microsoft 365 for authentication, the users' SuperOffice username needs to be the same for both systems.
-The Microsoft 365 username (User Principal Name, UPN) is managed by your Microsoft 365 Azure Active Directory. Update SuperOffice Admin with this username in the username field.
+The Microsoft 365 username (User Principal Name, UPN) is managed in Microsoft Entra admin center. Update SuperOffice Admin with this username in the username field.
 
 > [!NOTE]
 > The Microsoft 365 username must be identical to login name in CRM Online:

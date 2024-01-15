@@ -1,29 +1,30 @@
 ---
-title: Create an Azure AD enterprise application
+title: Create a Microsoft Entra enterprise application
 uid: create_azure_enterprise_app
-description: Create an Azure AD enterprise application
+description: Create a Microsoft Entra enterprise application
 author: {github-id}
-keywords:
+so.date: 01.15.2024
+keywords: IdP, SCIM, Microsoft Entra, ME-ID, AAD
 so.topic: howto
 so.envir: cloud
 so.client: online
 ---
 
-# Create an Azure AD enterprise application
+# Create a Microsoft Entra enterprise application
 
-Creating an Azure enterprise application is the 1st step to integrate the SuperOffice SCIM endpoint with the Azure AD provisioning service.
+Creating a Microsoft Entra (formerly Azure Active Directory) enterprise application is the first step to integrate the SuperOffice SCIM endpoint with the Microsoft Entra provisioning service.
 
 **Pre-requisites:**
 
-* An Azure AD admin account.
+* A Microsoft Entra admin account.
 
-* Access to Azure AD portal with permissions to create an enterprise application of type **non-gallery application** - **Azure Active Directory Premium** (P1 or P2) required.
+* Access to Microsoft Entra admin center with permissions to create an enterprise application of type **non-gallery application** - **Microsoft Entra Premium** (P1 or P2) required.
 
-For testing, you can do a [30-day free trial of AAD Premium][1]. If you obtain a new license to AAD, you might need to sign out and back in to activate the license.
+For testing, you can do a [30-day free trial of Microsoft Entra ID Premium][1]. If you obtain a new license to Microsoft Entra ID, you might need to sign out and back in to activate the license.
 
 ## Sign in and add the application
 
-1. In a browser, sign in to the [AAD portal][2].
+1. In a browser, sign in to the [Microsoft Entra admin center][2].
 2. From the left pane, select **Enterprise applications**.
 3. Add your own non-gallery application:
     1. Click **\+ New application**.
@@ -33,13 +34,13 @@ For testing, you can do a [30-day free trial of AAD Premium][1]. If you obtain a
 
 For updated info from Microsoft, see their guide to [build a SCIM endpoint and configure provisioning][3].
 
-## Turn on automatic provisioning from AAD
+## Turn on automatic provisioning from Microsoft Entra ID
 
 1. Go to the app management screen and select **Provisioning** from the left pane.
 
 2. Set **Provisioning mode** to **Automatic**.
 
-    ![AAD provisioning panel -screenshot][img1]
+    ![Microsoft Entra provisioning panel -screenshot][img1]
 
 ## Configure admin credentials
 
@@ -51,15 +52,15 @@ For updated info from Microsoft, see their guide to [build a SCIM endpoint and c
 
 4. Copy the **Token** into the **Secret Token** field.
 
-5. Click **Test Connection** and verify the connection between AAD and the SuperOffice SCIM endpoint.
+5. Click **Test Connection** and verify the connection between Microsoft Entra ID and the SuperOffice SCIM endpoint.
 
 6. Click **Save.**
 
-![SCIM test connection from AAD -screenshot][img2]
+![SCIM test connection from Microsoft Entra ID -screenshot][img2]
 
 ## Configure mapping
 
-The Azure portal allows mapping to the `id` attribute. However, this is **not** supported by SCIM and should not be used.
+The Microsoft Entra portal allows mapping to the `id` attribute. However, this is **not** supported by SCIM and should not be used.
 
 1. Expand the **Mappings** settings block.
 2. Customize the attribute mapping of `**externalId**` for user objects:
@@ -90,7 +91,7 @@ The Azure portal allows mapping to the `id` attribute. However, this is **not**
 5. Wait for the incremental cycle to complete.
 6. You can now [preview the users][5] in the SuperOffice Identity Manager.
 
-![AAD provisioning settings -screenshot][img5]
+![Microsoft Entra provisioning settings -screenshot][img5]
 
 ## Next steps
 
@@ -99,8 +100,8 @@ The Azure portal allows mapping to the `id` attribute. However, this is **not**
 
 <!-- Referenced links -->
 [1]: https://developer.microsoft.com/en-us/microsoft-365/dev-program
-[2]: https://aad.portal.azure.com/
-[3]: https://docs.microsoft.com/en-us/azure/active-directory/app-provisioning/use-scim-to-provision-users-and-groups#step-4-integrate-your-scim-endpoint-with-the-azure-ad-scim-client
+[2]: https://entra.microsoft.com/
+[3]: https://learn.microsoft.com/en-us/entra/identity/app-provisioning/use-scim-to-provision-users-and-groups#step-4-integrate-your-scim-endpoint-with-the-azure-ad-scim-client
 [4]: get-scim-config.md
 [5]: ../provisioning/preview-sync.md
 [6]: ../provisioning/add-scim-rule.md

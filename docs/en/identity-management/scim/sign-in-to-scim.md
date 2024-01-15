@@ -3,7 +3,8 @@ title: Sign in to SuperOffice Identity Manager
 uid: sign_in_to_scim
 description: Sign in to SuperOffice Identity Manager
 author: {github-id}
-keywords:
+so.date: 01.15.2024
+keywords: IdP, Microsoft Entra, ME-ID, AAD, SCIM
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -11,11 +12,11 @@ so.client: online
 
 # Sign in to SuperOffice Identity Manager
 
-You need to sign in to our Identity Manager to set up and to update the mapping of users synchronized from Azure AD to SuperOffice.
+You need to sign in to our Identity Manager to set up and to update the mapping of users synchronized from Microsoft Entra ID (formerly AAD) to SuperOffice.
 
 ## Pre-requisites
 
-* A SuperOffice admin account linked to an Azure Active Directory account (AAD admin not required).
+* A SuperOffice admin account linked to a Microsoft Entra account (Microsoft Entra admin not required).
 
 **Environments:**
 
@@ -32,7 +33,7 @@ You need to sign in to our Identity Manager to set up and to update the mapping 
 2. Sign in with your registered **SuperOffice admin account**.
 
     ![Sign-in dialog -screenshot][img1]
-3. **Pick the Azure AD account** from the IdP. Enter your password if you are not already signed in.
+3. **Pick the Microsoft Entra account** from the IdP. Enter your password if you are not already signed in.
 
     ![x -screenshot][img2]
 

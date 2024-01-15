@@ -3,9 +3,9 @@ uid: identity_management
 title: Identity management
 description: All you need to know about identity management in SuperOffice CRM Online.
 author: frodeb@superoffice.com
-so.date:
+so.date: 01.15.2024
 so.topic: concept
-keywords:
+keywords: SuperID, IdP, Microsoft Entra, ME-ID, AAD
 ---
 
 # Introduction to SuperOffice identity management
@@ -31,7 +31,7 @@ The trusted 3rd party is the **identity provider** (IdP). When accessing a new
 
 **Password hash -** we never store actual passwords, not even the encrypted version of them, in the CRM database or SuperID. Instead, we store a hash - an encrypted value that we **can use to validate a password**. We calculate the hash based on an industry-standard algorithm and store the random-looking string of characters. The transformation from a human-readable entered password to a hash is a **one-way operation**: we can't reconstruct the password, so resetting a password means generating a new hash for a new password.
 
-**SCIM -** a common language used to describe what an identity is and how to handle it. With SuperOffice you can use SCIM to automate user provisioning from Azure AD.
+**SCIM -** a common language used to describe what an identity is and how to handle it. With SuperOffice you can use SCIM to automate user provisioning from Microsoft Entra ID (formerly Azure Active Directory).
 
 <!-- Referenced links -->
 [1]: superid/overview.md

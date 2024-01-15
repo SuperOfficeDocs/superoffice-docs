@@ -3,8 +3,8 @@ title: Guide to federated sign-in
 uid: federated_sign_in_guide
 description: Guide to federated sign-in
 author: Bergfrid Dias
-so.date:
-keywords:
+so.date: 01.15.2024
+keywords: SuperID, Microsoft Entra ID
 so.topic: guide
 so.envir: cloud
 so.client: online
@@ -24,7 +24,7 @@ This guide will take you briefly through the identity management steps to let yo
 
 * Google or Microsoft account
 
-* For Azure AD, you need to be Global Admin
+* For Microsoft Entra ID (formerly Azure Active Directory), you need to be Global Admin
 
 ## Guide
 

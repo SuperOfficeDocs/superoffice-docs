@@ -3,7 +3,8 @@ title: Preview what will be synced
 uid: preview_scim_sync
 description: Preview what will be synced
 author: {github-id}
-keywords:
+so.date: 01.15.2024
+keywords: SCIM, Microsoft Entra, ME-ID, AAD
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -23,7 +24,7 @@ Previewing synchronization is useful when you are defining your rules to explore
 
 Open the **Preview** tab.
 
-* At the top, you can see the total number of users received from Azure AD and how many of those will be synced to SuperOffice.
+* At the top, you can see the total number of users received from Microsoft Entra ID (formerly AAD) and how many of those will be synced to SuperOffice.
 
 * The table shows the result of applying the mapping currently set in the **User sync rules** pane.
 
@@ -31,7 +32,7 @@ You can filter, sort, and reorder the information shown in the table.
 
 ![Preview screen -screenshot][img1]
 
-### Info from Azure AD
+### Info from Microsoft Entra ID
 
 * Name
 * Username

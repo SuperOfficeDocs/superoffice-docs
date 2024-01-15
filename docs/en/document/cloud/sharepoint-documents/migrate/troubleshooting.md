@@ -3,8 +3,8 @@ title: Troubleshooting
 uid: sharepoint-documents-migration-trouble
 description: Tips for troubleshooting a SharePoint document migration.
 author: Frode Berntsen, Bergfrid Dias
-so.date: 08.18.2023
-keywords: SharePoint, document, migrate, library, access
+so.date: 01.15.2024
+keywords: SharePoint, document, migrate, library, access, Microsoft Entra, ME-ID
 so.topic: howto
 so.version:
 so.envir: cloud
@@ -27,7 +27,7 @@ All users with a user plan and who owns a document that should be migrated:
 
 * Must use IDP authentication towards the target SharePoint site (SuperID password is not sufficient).
 
-* Must be an AAD user in SharePoint-target (access right is not sufficient).
+* Must be a Microsoft Entra (formerly AAD) user in SharePoint-target (access right is not sufficient).
 
 ## Retired users don't have access to target library
 

@@ -3,8 +3,8 @@ title: SharePoint documents
 uid: sharepoint-documents
 description: SharePoint document integration for SuperOffice
 author: Frode Berntsen
-so.date: 11.01.2023
-keywords: SharePoint, document
+so.date: 01.15.2024
+keywords: SharePoint, document, Microsoft Entra domain, ME-ID, AAD
 so.topic: concept
 so.version:
 so.envir: cloud
@@ -82,44 +82,44 @@ You can also check out our [webinar about the SharePoint integration][1].
 
 1. Check requirements:
     [!include[ALT](includes/req-general.md)]
-    [!include[AAD](includes/req-usage.md)]
+    [!include[ME-ID](includes/req-usage.md)]
 
 2. Set up Microsoft 365 SharePoint
-    1. (R) [Get or create an AAD Service Account user with Global Administrator][3].
-    2. (R) [Create or use existing AAD groups][13].
+    1. (R) [Get or create a Microsoft Entra service account user with Global Administrator][3].
+    2. (R) [Create or use existing Microsoft Entra groups][13].
     3. [Create a SharePoint site][5].
-        (R) Use the *AAD Service Account* user.
+        (R) Use the *Microsoft Entra service account* user.
     4. [Create a document library for documents][6].
-        (R) Use the *AAD Service Account* user.
+        (R) Use the *Microsoft Entra service account* user.
     5. [Create a document library for templates][7].
-        (R) Use the *AAD Service Account* user.
+        (R) Use the *Microsoft Entra service account* user.
 
 3. Set up SuperOffice
     1. [Run Configuration wizard][8].
-    2. [Enable system user][9] for storing documents in SharePoint, use the AAD Service Account.
+    2. [Enable system user][9] for storing documents in SharePoint, use the Microsoft Entra service account.
 
 ### If using Visible for (Confidential activities)
 
 1. Check requirements:
     [!include[ALT](includes/req-general.md)]
-    [!include[AAD](includes/req-usage.md)]
+    [!include[ME-ID](includes/req-usage.md)]
     * *Confidential activities* is enabled for one or more SuperOffice users in SuperOffice Settings and maintenance.
       * *Visible for* is set on one or more documents in SuperOffice.
 
 2. Set up Microsoft 365 SharePoint
-    1. (R) [Get or create an AAD Service Account user with Global Administrator][3].
-    2. [Create AAD groups][2]. The Group type must be Microsoft 365 and not Security.
-        1. Create *TemplateEditors* AAD group.
-        2. Create corresponding AAD groups to your SuperOffice user groups.
-        3. Add AAD users to the AAD group they belong to.
+    1. (R) [Get or create a Microsoft Entra service account user with Global Administrator][3].
+    2. [Create Microsoft Entra domain groups][2]. The Group type must be Microsoft 365 and not Security.
+        1. Create *TemplateEditors* Microsoft Entra domain group.
+        2. Create corresponding Microsoft Entra domain groups to your SuperOffice user groups.
+        3. Add Microsoft Entra users to the Microsoft Entra domain group they belong to.
     3. [Create a SharePoint site][5]
-        (R) Use the *AAD Service Account* OR Set *AAD Service Account* user (or the one to be used later to create the library for templates) to be in the owner group of the site.
+        (R) Use the *Microsoft Entra service account* OR Set *Microsoft Entra service account* user (or the one to be used later to create the library for templates) to be in the owner group of the site.
     4. [Create a document library for documents][6].
-        (R) Use the *AAD Service Account* user.
+        (R) Use the *Microsoft Entra service account* user.
     5. [Create a document library for templates][7].
-        (R) Use the *AAD Service Account* user.
+        (R) Use the *Microsoft Entra service account* user.
     6. [Set up SharePoint document library permissions for *Documents*][11]
-        * Grant permissions to the AAD groups you added above in step 2.2 *except TemplateEditors*.
+        * Grant permissions to the Microsoft Entra domain groups you added above in step 2.2 *except TemplateEditors*.
 
             | Group | Permission level | Values |
             |---|---|---|
@@ -127,9 +127,9 @@ You can also check out our [webinar about the SharePoint integration][1].
 
     7. [Set up SharePoint document library permissions for *Templates*][13]
         1. Stop inheriting permissions.
-        2. [Change permissions for existing AAD groups][12].
+        2. [Change permissions for existing Microsoft Entra domain groups][12].
             Click **Edit User Permissions** and select **Read**.
-        3. [Grant permissions to all AAD groups you added above in step 2.2][14].
+        3. [Grant permissions to all Microsoft Entra domain groups you added above in step 2.2][14].
 
             | Group | Permission level | Values |
             |---|---|---|
@@ -138,8 +138,8 @@ You can also check out our [webinar about the SharePoint integration][1].
 
 3. Set up SuperOffice
     1. [Run Configuration wizard][8].
-    2. [Enable system user][9] for storing documents in SharePoint, use the AAD Service Account.
-    3. [Map your SuperOffice user groups to corresponding AAD groups][10].
+    2. [Enable system user][9] for storing documents in SharePoint, use the Microsoft Entra service account.
+    3. [Map your SuperOffice user groups to corresponding Microsoft Entra domain groups][10].
 
 <!-- Referenced links -->
 [1]: https://youtu.be/8mIo3Yac2QI?t=589

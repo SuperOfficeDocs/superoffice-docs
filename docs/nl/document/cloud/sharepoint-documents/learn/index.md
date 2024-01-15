@@ -3,7 +3,7 @@ uid: help-nl-sharepoint-documents
 title: Integratie SharePoint-documentbibliotheek
 description: "Met de invoegtoepassing SuperOffice voor Outlook kunt u moeiteloos werken tussen uw Microsoft 365- en SuperOffice CRM-oplossing, door u rechtstreeks in uw e-mail toegang te geven tot belangrijke informatie en functies van SuperOffice."
 author: Bergfrid Dias
-so.date: 02.14.2023
+so.date: 01.15.2024
 keywords: document, Sharepoint
 so.topic: concept
 language: nl
@@ -13,7 +13,7 @@ language: nl
 
 Met de SharePoint-documentbibliotheekintegratie van SuperOffice kunt u moeiteloos en veilig documenten en e-mails maken, archiveren en delen.
 
-Met deze integratie kunt u alle documenten en e-mails opslaan in SharePoint Online, waar ze toegankelijk zijn voor iedereen in het bedrijf, zelfs voor degenen die geen SuperOffice CRM gebruiken. De toegang tot uw SuperOffice-documentsite in SharePoint kan worden beheerd via domeingroepen (AAD = Azure Active Directory-verificatie).
+Met deze integratie kunt u alle documenten en e-mails opslaan in SharePoint Online, waar ze toegankelijk zijn voor iedereen in het bedrijf, zelfs voor degenen die geen SuperOffice CRM gebruiken. De toegang tot uw SuperOffice-documentsite in SharePoint kan worden beheerd via Microsoft Entra domeingroepen (voorheen Azure Active Directory).
 
 ![Bij Voorkeuren in Instellingen en onderhoud vindt u de documentbibliotheek waar u de SharePoint-integratie kunt instellen -screenshot][img1]
 
@@ -22,7 +22,7 @@ Met deze integratie kunt u alle documenten en e-mails opslaan in SharePoint Onli
 Als u SharePoint wilt instellen als uw documentbibliotheek in SuperOffice, hebt u het volgende nodig:
 
 * SuperOffice Online tenant
-  * [AAD-verificatie van SO-beheerder][1]
+  * [Microsoft Entra-verificatie van SO-beheerder][1]
 * Abonnement op Microsoft 365 voor Bedrijven
   * Als u geen Microsoft 365-abonnement hebt, moet u zich aanmelden voor een Microsoft bij Microsoft
 * Een SharePoint-documentbibliotheek (voor het opslaan van documenten)

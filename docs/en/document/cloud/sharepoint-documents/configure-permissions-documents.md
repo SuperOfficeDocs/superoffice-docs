@@ -1,10 +1,10 @@
 ---
 title: Permissions in SharePoint
 uid: config-sharepoint-permissions-documents
-description: How to set up the SharePoint using site permissions and Domain (AAD) groups
+description: How to set up the SharePoint using site permissions and Microsoft Entra domain groups
 author: Bergfrid Dias
-so.date: 04.28.2023
-keywords: SharePoint, permission security, access control
+so.date: 01.15.2024
+keywords: SharePoint, permission, security, access control, Microsoft Entra, domain group, ME-ID, AAD
 so.topic: howto
 so.version:
 so.envir: cloud
@@ -39,10 +39,10 @@ This will give them access to the document library too.
 ## Step 3 – Grant permissions
 
 1. Click on **Grant Permissions**.
-2. In **Invite people**, type in and add domain (AAD) groups *. Members of these groups will automatically get access.
+2. In **Invite people**, type in and add Microsoft Entra domain groups. Members of these groups will automatically get access.
     > [!WARNING]
     >
-    > \* The Group type must be Microsoft 365 and not Security.
+    > The Group type must be Microsoft 365 and not Security.
 3. Tick off **Send an email invitation**. (There will be a lot of emails that the users will wonder about.)
 4. Make sure the permission level is **Edit**.
 5. When your done adding groups, press **Share**.

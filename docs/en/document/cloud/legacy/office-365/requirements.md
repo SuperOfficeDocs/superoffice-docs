@@ -2,8 +2,9 @@
 title: Pre-requisites for Microsoft 365 integration
 uid: office_365_requirements
 description: Requirements for Microsoft 365 integration
-author: {github-id}
-keywords:
+author: frodeb
+so.date: 01.15.2024
+keywords: Microsoft Entra
 so.topic: reference
 so.envir: cloud
 so.client: online
@@ -19,7 +20,7 @@ so.client: online
 * Read more about [How to configure IDP for SuperID][1].
 * Please use [this form][2] to register your IDP for your domain.
 
-When users have successfully logged in using Azure to authenticate to CRM Online, you may start to use the Microsoft 365 SharePoint Integration.
+When users have successfully logged in using Microsoft Entra to authenticate to CRM Online, you may start to use the Microsoft 365 SharePoint Integration.
 
 ## To use the integration
 
@@ -27,7 +28,7 @@ When users have successfully logged in using Azure to authenticate to CRM Online
 
 * A Microsoft 365 subscription (All users of the SuperOffice Online tenant must have and use a Microsoft 365 user account). All Microsoft 365 users need minimum read access to Root of the SharePoint site.
 
-* In Microsoft 365: Azure Active Directory (used for authentication) (It is usually called: *Active Directory Integration*).
+* In Microsoft 365: Microsoft Entra ID (formerly AAD, used for authentication) (It is usually called: *Active Directory Integration*).
 
 ## To set up the integration
 

@@ -3,7 +3,7 @@ uid: help-sv-sharepoint-documents-folders
 title: Så konfigurerar du SharePoint-mapparna
 description: Så konfigurerar du SharePoint-mapparna
 author: Bergfrid Dias
-so.date: 02.14.2023
+so.date: 01.15.2024
 keywords: dokument, Sharepoint
 so.topic: howto
 language: sv
@@ -19,7 +19,7 @@ Dokument i bibliotek ärver automatiskt behörigheten från själva biblioteket.
 
 * Användargrupper i SharePoint:
   * I SharePoint kan du skapa och underhålla användargrupper, vilket ger användarna direkt åtkomst till dokumenten (som standard har du en ägargrupp, en medlemsgrupp och en besökargrupp).
-  * Du kan inte använda SharePoint-användargrupper för att tilldela behörigheter på dokumentnivå med SuperOffice SharePoint-dokument. Integrationen måste använda domängrupper (AAD). Därför måste du tilldela behörigheter till dessa grupper.
+  * Du kan inte använda SharePoint-användargrupper för att tilldela behörigheter på dokumentnivå med SuperOffice SharePoint-dokument. Integrationen måste använda Microsoft Entra domängrupper. Därför måste du tilldela behörigheter till dessa grupper.
 
 * Ägargrupp för SharePoint-sidan:
   * När du skapar en sida i SharePoint får du automatiskt en *ägargrupp*. Medlemmarna i ägargruppen kommer åt alla dokument på den här sidan.
