@@ -2,6 +2,6 @@ items:
   - name: Overview
     href: index.md
   - name: Add attendee to follow-up
-    href: add-participant.md
+    href: add-attendee.md
   - name: Accept or decline
     href: accept-decline.md

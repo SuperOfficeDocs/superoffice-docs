@@ -165,7 +165,7 @@ After all the required follow-ups and documents for the project are completed, y
 * [Add and edit project guides in Settings and maintenance][4]
 
 <!-- Referenced links -->
-[1]: ../../../diary/learn/invitation/add-participant.md
+[1]: ../../../diary/learn/invitation/add-attendee.md
 [2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md

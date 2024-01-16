@@ -91,7 +91,7 @@ Om du vill ansluta till videomötet via förhandsgranskningen klickar du på kna
 
 <!-- Referenced links -->
 [1]: ../../../en/video-meeting/howto/connect-provider.md
-[2]: invitation/add-participant.md
+[2]: invitation/add-attendee.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/videocall-off.png

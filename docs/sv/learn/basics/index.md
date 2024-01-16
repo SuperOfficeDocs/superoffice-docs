@@ -111,7 +111,7 @@ Administratören kan [lägga till och anpassa projektguider][1] åt dig.
 [4]: deleting-elements.md
 [7]: ../../project/learn/create.md
 [8]: ../../diary/learn/create-follow-up.md
-[10]: ../../diary/learn/invitation/add-participant.md
+[10]: ../../diary/learn/invitation/add-attendee.md
 [11]: ../../../en/video-meeting/index.md
 [12]: activity.md
 [13]: ../../globalization-and-localization/learn/change-language.md

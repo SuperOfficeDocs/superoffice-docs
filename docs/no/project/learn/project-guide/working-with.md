@@ -165,7 +165,7 @@ Når alle ønskede oppfølginger og dokumenter for prosjektet er ferdige, kan du
 * [Legg til og rediger prosjektguider i Innstillinger og vedlikehold][4]
 
 <!-- Referenced links -->
-[1]: ../../../diary/learn/invitation/add-participant.md
+[1]: ../../../diary/learn/invitation/add-attendee.md
 [2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md

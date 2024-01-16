@@ -76,7 +76,7 @@ conceptualContent:
       - text: Invite attendees
         itemType: school
         typeDesc: learn
-        url: learn/invitation/add-participant.md
+        url: learn/invitation/add-attendee.md
 
     # Card
     - title: Videos

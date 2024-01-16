@@ -55,7 +55,7 @@ When you send an invitation, the recipient can either accept or decline it.
 
 <!-- Referenced links -->
 [1]: ../group-view.md
-[2]: add-participant.md
+[2]: add-attendee.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/check-black.png

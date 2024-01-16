@@ -2,6 +2,6 @@ items:
   - name: Überblick
     href: index.md
   - name: Teilnehmer zu Folgeaufgabe hinzufügen
-    href: add-participant.md
+    href: add-attendee.md
   - name: Einladungen annehmen oder ablehnen
     href: accept-decline.md
