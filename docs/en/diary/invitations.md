@@ -1,7 +1,7 @@
 ---
 uid: invitations-redirect
 title: Invitations
-description: Calling meetings or other arrangements with multiple participants.
+description: Calling meetings or other arrangements with multiple attendees.
 author: Bergfrid Skaara Dias
 so.date: 03.18.2022
 keywords:

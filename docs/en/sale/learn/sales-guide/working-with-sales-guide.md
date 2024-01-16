@@ -90,11 +90,11 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
 ### The First meeting stage
 
-1. You have agreed a meeting time and want to create the **Customer meeting** folllow-up in the Diary and invite participants.
+1. You have agreed a meeting time and want to create the **Customer meeting** follow-up in the Diary and invite attendees.
 
     1. In the sales guide, you click **Create** next to the **Customer meeting** follow-up.
         The **Follow-up** dialog opens, with **Meeting (External)** specified as the type and the name of the sale and company prefilled.
-    2. Complete the information and [invite participants][1].
+    2. Complete the information and [invite attendees][1].
     3. Click **Save**.
 
 2. For the sake of good order, you want to send an email confirming the time and location of the meeting.
@@ -181,7 +181,7 @@ You can now change the stage to **Sold**. After all the required follow-ups and 
 * [Set up a sales guide in Settings and maintenance][4]
 
 <!-- Referenced links -->
-[1]: ../../../diary/learn/invitation/add-participant.md
+[1]: ../../../diary/learn/invitation/add-attendee.md
 [2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md

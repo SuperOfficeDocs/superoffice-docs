@@ -24,7 +24,7 @@ When you are out visiting, you can create appointments directly from Mobile CRM.
 5. Tap the **With** section and choose a company or contact that the appointment concerns.
 6. Optionally, select any sale and/or project that the appointment concerns.
 7. Add other details as necessary. For example, set **Busy** or **Free** in the **Show as** field to indicate your availability during the appointment.
-8. Save the appointment. Now you can, for example, add more participants to the appointment.
+8. Save the appointment. Now you can, for example, add more attendees to the appointment.
 
 > [!NOTE]
 > If you see the conflict icon, it means that you already have an appointment at the time in question. Tap the time in the header to see all the appointments you have on that day.
@@ -45,16 +45,16 @@ The person who owns the calendar will be defined as the owner of the appointment
 1. Select their name just below the row of tabs in the Diary screen.
 2. Tap **+** at the bottom right corner and follow the steps outlined above.
 
-## Add participants and resources
+## Add attendee and resources
 
-Once you have created an appointment, you can invite participants to it. You can also add resources to the appointment (such as a meeting room and projector).
+Once you have created an appointment, you can invite attendees to it. You can also add resources to the appointment (such as a meeting room and projector).
 
 > [!NOTE]
-> You must be the owner of the appointment to add participants and resources.
+> You must be the owner of the appointment to add attendees and resources.
 
 1. Locate and open the appointment.
 2. Tap **Add people**.
-3. Search for and select participants.
+3. Search select attendees.
 4. To add a resource, tap the chair icon and select the item you want to book.
 
     > [!TIP]

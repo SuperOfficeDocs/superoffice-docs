@@ -18,7 +18,7 @@ You can send an SMS or an email to one or more persons from the following places
 * The **Project** and **Selection** tab on the main Contacts page.
 * The **Group** tab on the main Contacts page
 * The **Task** menu in the **Details** tab of a person.
-* The **Task** menu in the **Participants** tab of an appointment.
+* The **Task** menu in the **Participants** tab of a follow-up.
 * The action button for email at the top of your screen (![icon][img8]).
 
 ## Steps
@@ -47,8 +47,8 @@ You can send an SMS or an email to one or more persons from the following places
 
 ### Appointment card
 
-1. Go to the Diary screen and select an appointment.
-2. Tap the **Task** icon (1) to see options to either send an email or an SMS (2) to all participants of this appointment.
+1. Go to the Diary screen and select a follow-up.
+2. Tap the **Task** icon (1) to see options to either send an email or an SMS (2) to all attendees of this follow-up.
 
 ![Mobile CRM: Send email or SMS -app-screen][img4]
 

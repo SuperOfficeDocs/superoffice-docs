@@ -91,7 +91,7 @@ Du deltager i videomødet via forhåndsvisningsskærmen ved at klikke på knappe
 
 <!-- Referenced links -->
 [1]: ../../../en/video-meeting/howto/connect-provider.md
-[2]: invitation/add-participant.md
+[2]: invitation/add-attendee.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/videocall-off.png

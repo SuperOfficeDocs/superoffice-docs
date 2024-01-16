@@ -22,7 +22,7 @@ You can easily set up a video meeting when [creating a follow-up][1].
 
 3. Complete the information in the dialog.
 
-If you have turned on email invitations for the participants of the follow-up, an email with a link to join the video meeting will be sent when the follow-up is saved. In the diary, follow-ups with video meetings are displayed with the icon ![in diary -screenshot][img3].
+If you have turned on email invitations for the attendees of the follow-up, an email with a link to join the video meeting will be sent when the follow-up is saved. In the diary, follow-ups with video meetings are displayed with the icon ![in diary -screenshot][img3].
 
 > [!TIP]
 > Click ![copy link -screenshot][img4] to copy the video meeting link. You can then paste the link in the description of the follow-up or send it to others via direct messaging.

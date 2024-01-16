@@ -40,7 +40,7 @@ When you select an appointment, the **Appointment** screen opens and shows detai
 
 * Header: The date and time.
 * What: Appointment type and description. Tap to see the full description.
-* With: Organizer and participants (if any).
+* With: Organizer and attendees (if any).
 * Details: Completed status and any fields you have selected as visible. Tap the arrow to expand/collapse the list.
 * Link: Attached images
 
@@ -51,8 +51,8 @@ Icons in the action bar: Call, SMS, Email, Show location
 | Symbol | Description |
 |:-:|---|
 | ![icon][img13] | Have viewed but not yet responded to invitation. |
-| ![icon][img14] | Accepted. The participant has accepted the invitation. Automatically set for the owner. |
-| ![icon][img18] | Declined. The participant has rejected the invitation. |
+| ![icon][img14] | Accepted. The attendee has accepted the invitation. Automatically set for the owner. |
+| ![icon][img18] | Declined. The attendee has rejected the invitation. |
 | ![icon][img15] | Conflict. The time of the appointment overlaps with another appointment. You need to either alter the times or cancel one of them. |
 | ![icon][img16] | A recurring appointment (repeats at defined intervals). |
 | ![icon][img12] | Video meeting |
@@ -66,7 +66,7 @@ Icons in the action bar: Call, SMS, Email, Show location
 
 ### See who has been invited to an appointment
 
-The number shows how many participants (including the person who created the appointment) have been invited.
+The number shows how many attendees (including the person who created the appointment) have been invited.
 
 Persons without an icon have not yet viewed the invitation.
 

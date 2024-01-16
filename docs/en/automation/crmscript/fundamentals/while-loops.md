@@ -43,7 +43,7 @@ You can use both [conditional and logical operators][2] and also statements that
 
 You should use a `while` loop when you don't know the number of iterations ahead of time.
 
-It is also very useful when the counter updates don't follow a fixed pattern such as `++`. For example, when you receive a group sign-up, the new number of participants must reflect the size of the group.
+It is also very useful when the counter updates don't follow a fixed pattern such as `++`. For example, when you receive a group sign-up, the new number of attendees must reflect the size of the group.
 
 <!-- Referenced links -->
 [1]: ./conditions.md

@@ -165,7 +165,7 @@ När alla önskade händelser och dokument för projektet är färdiga kan du st
 * [Lägg till och redigera projektguider i Inställningar och underhåll][4]
 
 <!-- Referenced links -->
-[1]: ../../../diary/learn/invitation/add-participant.md
+[1]: ../../../diary/learn/invitation/add-attendee.md
 [2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md

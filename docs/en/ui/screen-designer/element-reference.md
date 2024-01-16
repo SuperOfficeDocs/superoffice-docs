@@ -296,7 +296,7 @@ For details about the value of each field, see the [Appointment database table][
 [12]: ../../database/tables/ticket.md
 [13]: ../../request/learn/type/index.md
 [14]: ../../database/tables/appointment.md
-[15]: ../../diary/learn/invitation/add-participant.md#availability
+[15]: ../../diary/learn/invitation/add-attendee.md#availability
 [16]: ../../diary/learn/follow-ups.md
 
 <!-- Referenced images -->

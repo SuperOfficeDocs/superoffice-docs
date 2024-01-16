@@ -52,7 +52,7 @@ Når du sender en invitation, kan modtageren af invitationen enten acceptere ell
 
 <!-- Referenced links -->
 [1]: ../group-view.md
-[2]: add-participant.md
+[2]: add-attendee.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/check-black.png
