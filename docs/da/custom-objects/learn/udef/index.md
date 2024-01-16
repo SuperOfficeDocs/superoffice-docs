@@ -45,6 +45,18 @@ Alle virksomheder og organisationer har deres egne krav til de oplysninger, de h
 
 [!include[List](includes/list-page-1-field-locations.md)]
 
+## Maksimalt antal felter
+
+Følgende begrænsninger gælder for antallet af tilpassede felter, du kan angive under hver fanerne Firma, Kontakt, Projekt og Salg.
+
+* **Nummer**, **Dato**, **Afkrydsningsfelt** og **Liste**: Højst 60 i alt.
+* **Kort tekst** og **Ubegrænset dato**: Højst 40 i alt.
+* **Lang tekst**: Højst 9 i alt.
+* **Decimal**: Højst 10 i alt.
+
+> [!NOTE]
+> Fire af de tilpassede felter i hver gruppe skal indekseres.
+
 ## Eksempler
 
 ### Brugerdefinerede felter til virksomheder

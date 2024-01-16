@@ -126,15 +126,15 @@ conceptualContent:
       - text: Web services
         itemType: list
         typeDesc: how-to-guide
-        url: udef/howto/services/set-udef-listitem-value.md
+        url: ../api/web-services/howto/custom-objects/set-udef-listitem-value.md
       - text: Entities
         itemType: list
         typeDesc: how-to-guide
-        url: udef/howto/entity/set-udef-listitem-value.md
+        url: ../api/entity/howto/custom-objects/set-udef-listitem-value.md
       - text: Raw SQL
         itemType: list
         typeDesc: how-to-guide
-        url: udef/howto/sql/set-udef.md
+        url: ../api/sql/howto/custom-objects/set-udef.md
 
     # Card
     - title: Database options

@@ -16,8 +16,6 @@ items:
     href: udef/edit.md
   - name: Sidan 1-fält
     href: udef/page-1-fields.md
-  - name: Maximalt antal fält
-    href: udef/limitations.md
 - name: Extratabeller och fält
   topicHref: extra-table/index.md
   items:

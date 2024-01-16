@@ -24,7 +24,7 @@ I fönstret **Tabeller** finns en lista över databastabellerna i SuperOffice. D
 I det här fönstret visas både standardtabeller (som är fördefinierade i systemet och utgör grunden för olika fönster) och extratabeller (som du skapar själv med valfritt innehåll).
 
 > [!NOTE]
-> Ett meddelande visas om att **NetServer** måste startas om varje gång du lägger till nya fält eller tabeller.
+> Ett meddelande visas om att **NetServer** måste startas om varje gång du lägger till nya fält eller tabeller. Om Travel är aktiverat visas också ett meddelande om att en ny Travel-databas måste skapas.
 
 ### Var hittar du fönstret?
 

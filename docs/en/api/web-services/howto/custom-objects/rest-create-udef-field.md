@@ -488,8 +488,8 @@ Do not use the PrimaryKey value, use the `udlistdefinition.listTableId` value.
 
 <!-- Linked references -->
 [1]: <xref:SuperOffice.WebApi.Data.UDefFieldType>
-[2]: ../../../../api/lists/services/how-to/get-all-lists.md
-[3]: ../../../../api/mdo-providers/reference/index.md
+[2]: ../../../lists/services/how-to/get-all-lists.md
+[3]: ../../../mdo-providers/reference/index.md
 <!-- 
 How to write good how-to guides 
 

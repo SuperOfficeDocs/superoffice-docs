@@ -45,6 +45,18 @@ Du kan definiera *sidan 1-fält* (fält som visas på "förstasidan" i respektiv
 
 [!include[List](includes/list-page-1-field-locations.md)]
 
+## Maximalt antal fält
+
+Följande begränsningar gäller för antalet användardefinierade fält som du kan lägga till på flikarna Företag, Kontakt, Projekt och Försäljning.
+
+* **Nummer**, **Datum**, **Kryssruta** och **Lista**: Max 60 totalt.
+* **Kort text** och **Obegränsat datum**: Max 40 totalt.
+* **Lång text**: Max 9 totalt.
+* **Decimal**: Max 10 totalt.
+
+> [!NOTE]
+> Fyra av de användardefinierade fälten i varje grupp måste indexeras.
+
 ## Exempel
 
 ### Användardefinierade fält för företag

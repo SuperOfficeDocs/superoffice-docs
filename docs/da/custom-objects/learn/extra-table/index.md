@@ -24,7 +24,7 @@ I **tabellerne** er der en liste over databasetabellerne i SuperOffice.**Datastr
 Dette skærmbillede viser både standardtabeller, som er foruddefineret i systemet, og som danner grundlag for forskellige skærmbilleder, og ekstratabeller, som er tabeller, du selv opretter med valgfrit indhold.
 
 > [!NOTE]
-> Du får vist en meddelelse om, at **NetServeren** skal genstartes, hver gang du tilføjer nye felter/tabeller.
+> Du får vist en meddelelse om, at at **NetServer** skal genstartes, hver gang du tilføjer nye felter/tabeller. Hvis Travel er aktiveret, vil du også se en meddelelse om, at en ny Travel-database skal genereres.
 
 ### Hvor finder du skærmen
 

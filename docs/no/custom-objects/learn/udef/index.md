@@ -46,6 +46,18 @@ Du kan angi *side 1-felt* (felt som skal vises på "førstesiden" i de aktuelle 
 
 [!include[List](includes/list-page-1-field-locations.md)]
 
+## Maksimalt antall felt
+
+Følgende begrensninger gjelder for hvor mange brukerdefinerte felt du kan angi i hver av fanene Firma, Person, Prosjekt og Salg.
+
+* **Nummer**, **Dato**, **Avmerkingsboks** og **Liste**: Maksimalt 60 totalt.
+* **Kort tekst** og **Ubegrenset dato**: Maksimalt 40 totalt.
+* **Lang tekst**: Maksimalt 9 totalt.
+* **Desimal**: Maksimalt 10 totalt.
+
+> [!NOTE]
+> Fire av de brukerdefinerte feltene i hver gruppe må indekseres.
+
 ## Eksempler
 
 ### Brukerdefinerte felt for firmaer

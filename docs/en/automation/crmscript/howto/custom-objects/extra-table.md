@@ -55,5 +55,5 @@ In addition, each type has its own set of properties. For example, items for a l
 
 <!-- Referenced links -->
 [1]: ../../../learn/extra-table/create.md
-[2]: ../../../../automation/crmscript/searchengine/index.md
+[2]: ../../searchengine/index.md
 [3]: ../../../learn/extra-field/create.md

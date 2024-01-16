@@ -24,7 +24,7 @@ In de **tabellen** staat een lijst met de databasetabellen in SuperOffice. De ge
 Dit scherm toont zowel standaardtabellen, d.w.z. tabellen die vooraf gedefinieerd zijn in het systeem en die de basis vormen van de verschillende schermen, als extra tabellen (tabellen die u zelf maakt met optionele inhoud).
 
 > [!NOTE]
-> U ziet een bericht dat **NetServer** opnieuw moet worden opgestart telkens wanneer u nieuwe velden of tabellen toevoegt.
+> U ziet een bericht dat **NetServer** opnieuw moet worden opgestart elke keer dat u nieuwe velden of tabellen toevoegt. Als Travel is geactiveerd, ziet u ook een bericht dat er een nieuwe Travel-database moet worden gegenereerd.
 
 ### Waar u het scherm vindt
 

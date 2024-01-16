@@ -1,6 +1,6 @@
 ---
 title: Set a user-defined field
-uid: set_udef_sql
+uid: sql-set-udef
 description: Set a user-defined field using raw SQL.
 author: Bergfrid Skaara Dias
 so.date: 11.05.2021

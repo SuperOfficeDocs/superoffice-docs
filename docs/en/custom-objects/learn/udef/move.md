@@ -7,7 +7,6 @@ so.date: 06.29.2022
 keywords: udef, custom field
 so.topic: howto
 so.audience: settings
-so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: en
 ---

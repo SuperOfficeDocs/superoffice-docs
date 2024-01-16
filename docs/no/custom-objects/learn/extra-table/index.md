@@ -25,7 +25,7 @@ I **Tabeller** er det en liste over databasetabellene i SuperOffice. Datastruktu
 Dette skjermbildet viser både standardtabeller (forhåndsdefinert i systemet og danner grunnlaget for forskjellige bilder) og ekstra tabeller (tabeller du lager selv med valgfritt innhold).
 
 > [!NOTE]
-> Du ser en melding om at **NetServer** må startes på nytt hver gang du legger til nye felt eller tabeller.
+> Du ser en melding om at NetServer må startes på nytt hver gang du legger inn nye felt eller tabeller. Hvis Travel er aktivert, får du også beskjed om at en ny Travel-database må genereres.
 
 ### Slik finner du bildet
 

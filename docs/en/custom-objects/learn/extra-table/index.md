@@ -19,12 +19,12 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 
 ## Tables screen
 
-In the **Tables** there is a list of the database tables in SuperOffice. The data structures are configured in ![icon][img1] **System design** > **Tables**, where you can display and edit data content in the [tables][1].
+In the **Tables** screen, there is a list of the database tables in SuperOffice. The data structures are configured in ![icon][img1] **System design** > **Tables**, where you can display and edit data content in the [tables][1].
 
 This screen displays both standard tables (predefined in the system and form the basis of different screens) and extra tables (tables you create yourself with optional content).
 
 > [!NOTE]
-> You will see a message that **NetServer** must be restarted every time you add new fields or tables.
+> You will see a message that NetServer must be restarted every time you add new fields or tables. If Travel is activated, you will also see a message that a new Travel database must be generated.
 
 ### Where to find the screen
 

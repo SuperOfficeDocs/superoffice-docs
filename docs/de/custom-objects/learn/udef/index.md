@@ -46,6 +46,18 @@ Sie können *Felder auf Seite 1* (Felder, die auf der "ersten Seite" der entspre
 
 [!include[List](includes/list-page-1-field-locations.md)]
 
+## Maximale Feldanzahl
+
+Die folgenden Einschränkungen gelten für die Anzahl der benutzerdefinierten Felder, die Sie auf den einzelnen Registerkarten Firma, Person, Projekt und Verkauf festlegen können.
+
+* **Nummer**, **Datum**, **Kontrollkästchen** und **Liste**: Insgesamt maximal 60.
+* **Kurzer Text** und **Unbegrenztes Datum**: Insgesamt maximal 40.
+* **Langer Text**: Insgesamt maximal 9.
+* **Dezimal**: Insgesamt maximal 10.
+
+> [!NOTE]
+> Vier der benutzerdefinierten Felder in jeder Gruppe müssen indiziert werden.
+
 ## Beispiele
 
 ### Benutzerdefinierte Felder für Firmen

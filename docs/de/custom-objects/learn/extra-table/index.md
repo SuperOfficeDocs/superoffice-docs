@@ -24,7 +24,7 @@ In den **Tabellen** befindet sich eine Liste der Datenbanktabellen in SuperOffic
 Auf diesem Bild werden sowohl Standardtabellen (die im System vordefiniert sind und die Grundlage für verschiedene Ansichten bilden) als auch Zusatztabellen (selbst erstellte Tabellen mit optionalem Inhalt) angezeigt.
 
 > [!NOTE]
-> Sie sehen eine Mitteilung, dass **NetServer** jedes Mal neu gestartet werden muss, wenn Sie neue Felder oder Tabellen hinzufügen.
+> Sie sehen eine Mitteilung, dass **NetServer** jedes Mal neu gestartet werden muss, wenn Sie neue Felder oder Tabellen hinzufügen. Wenn Travel aktiviert ist, sehen Sie auch eine Mitteilung, dass eine neue Travel-Datenbank erstellt werden muss.
 
 ### Wo finde ich die Anzeige?
 

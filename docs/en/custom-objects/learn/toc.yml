@@ -16,8 +16,6 @@ items:
     href: udef/edit.md
   - name: Page 1 fields
     href: udef/page-1-fields.md
-  - name: Maximum number of fields
-    href: udef/limitations.md
 - name: Extra tables and fields
   topicHref: extra-table/index.md
   items:
