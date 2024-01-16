@@ -91,7 +91,7 @@ Um über die Anzeige Vorschau an der Videokonferenz teilzunehmen, müssen Sie nu
 
 <!-- Referenced links -->
 [1]: ../../../en/video-meeting/howto/connect-provider.md
-[2]: invitation/add-participant.md
+[2]: invitation/add-attendee.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/videocall-off.png

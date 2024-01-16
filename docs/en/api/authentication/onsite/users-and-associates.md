@@ -79,7 +79,7 @@ They bypass the security checks, allowing full access to all data in SuperOffice
 
 ### Resources (type 1)
 
-Resources are also stored in the `associate` table. The reason for this is that resources can also be meeting participants, and thus **have diaries** that can be viewed in the CRM client.
+Resources are also stored in the `associate` table. The reason for this is that resources can also be meeting attendees, and thus **have diaries** that can be viewed in the CRM client.
 
 ```SQL
 SELECT * FROM associate WHERE type = 1

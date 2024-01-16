@@ -27,7 +27,7 @@ You do this using the telephone button in, for example, the **Follow-up** and **
 3. Click the button next to the contact field ![icon][img1]. A list of numbers for the selected contact is displayed.
 4. Select the number you want to call. The contact is then dialled.
 
-## Call from section tabs (to contacts, selection members, stakeholders, participants)
+## Call from section tabs (to contacts, selection members, stakeholders, attendees)
 
 1. Go to a section tab containing contacts.
 2. Click a phone number in a column containing phone numbers. The contact is then dialled.

@@ -5,7 +5,7 @@ description: Follow-ups - meeting, to-do, call
 author: Bergfrid Dias
 so.date: 11.20.2023
 so.version: 10.2.11
-keywords: diary, follow-up, appointment, meeting, task, to-do, phone, call, participant
+keywords: diary, follow-up, appointment, meeting, task, to-do, phone, call, attendee, participant
 so.topic: concept
 language: en
 ---
@@ -56,17 +56,17 @@ The **Activities** section tab (in the Company, Contact, Sale, Project, and Diar
 
 Meetings are activities with a defined start and end time. They are shown in the owner's calendar.
 
-A meeting can be a single event or part of a recurring series. Meetings involving a resource and/or additional participants are called [invitations][5].
+A meeting can be a single event or part of a recurring series. Meetings involving a resource and/or additional attendees are called [invitations][5].
 
 Overdue and completed meetings will be in the **Activities** section tab in addition to in the calendar.
 
 ### Common scenarios
 
-| Scenario | Resource | 2+ participants | Description |
+| Scenario | Resource | 2+ attendees | Description |
 |---|:-:|:-:|---|
 | Own time reserved | | | You have set aside time to work on something, alone |
 | Own time and resource reserved | &#10003; | | As above plus need room or equipment |
-| Meeting with multiple participants | &#10003; | &#10003; | A meeting, commonly also with a resource or location |
+| Meeting with multiple attendees | &#10003; | &#10003; | A meeting, commonly also with a resource or location |
 
 ## <a id="todo" />To-do (task)
 

@@ -17,14 +17,14 @@ The [AppointmentMatrix][1] is used to manage complex appointments: [invitations]
 ```csharp
 using SuperOffice.CRM.Entities;
 
-// Let the participant accept this one
+// Let the attendee accept this one
 using (SoSession.Authenticate("tje3", "tje3"))
 {
   int appointmentId = 123;
   Appointment appointment = Appointment.GetFromIdxAppointmentId( appointmentId );
   AppointmentMatrix matrix = new AppointmentMatrix(appointment, RecurrenceUpdateMode.ThisAndForward);
 
-  // Get participant information for user to assign-to
+  // Get attendee information for user to assign-to
   AssociateCache  associateCache  = AssociateCache.GetCurrent();
   AssociateRow    jimbo           = associateCache.GetAssociate(associateCache.GetAssociateId("jimbo"));
   ParticipantInfo jimboParticipant= new ParticipantInfo(jimbo.AssociateId, jimbo.PersonId, 2, 0, false);
@@ -36,7 +36,7 @@ using (SoSession.Authenticate("tje3", "tje3"))
 ```csharp
 using SuperOffice.CRM.Entities;
 
-// Let the participant accept this one
+// Let the attendee accept this one
 using (SoSession.Authenticate("tje3", "tje3"))
 {
   int assignedAppointmentId = 123;

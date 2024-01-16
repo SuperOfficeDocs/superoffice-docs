@@ -2,6 +2,6 @@ items:
   - name: Overzicht
     href: index.md
   - name: Deelnemers toevoegen aan vervolgactiviteiten
-    href: add-participant.md
+    href: add-attendee.md
   - name: Uitnodigingen accepteren of afwijzen
     href: accept-decline.md

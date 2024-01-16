@@ -2,6 +2,6 @@ items:
   - name: Översikt
     href: index.md
   - name: Lägga till deltagare i händelse
-    href: add-participant.md
+    href: add-attendee.md
   - name: Acceptera eller tacka nej
     href: accept-decline.md

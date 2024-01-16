@@ -28,7 +28,7 @@ a.SetStartDate(start);
 a.SetEndDate(end);
 a.SetDescription("Sprint retrospective");
 
-// Build list of available participants
+// Build list of available attendees
 NSParticipantInfo[] participants;
 NSAssociateAgent associateAgent;
 

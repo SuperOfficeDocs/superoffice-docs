@@ -3,15 +3,15 @@ uid: help-en-resource
 title: Resource
 description: Resource
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 01.15.2023
 keywords: Settings and maintenance
-so.topic: help
+so.topic: reference
 language: en
 ---
 
 # General - Resource
 
-Resources are displayed in the dialog for follow-ups in SuperOffice CRM, and it is here that you can add resources from the **Participants** tab. You can, for example, add resources such as meeting rooms and projectors.
+Resources are displayed in the Follow-up dialog in SuperOffice CRM. You can, for example, add resources such as meeting rooms and projectors.
 
 ## What would you like to do now?
 

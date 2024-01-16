@@ -143,7 +143,7 @@ This recurrence rule has:
 | appointment_id | ID |
 | associate_id   | owner |
 | contact_id     | company |
-| person_id      | participant if a meeting |
+| person_id      | attendee if a meeting |
 | task_idx       | FK Task list |
 | type           | EnumAppointmentType |
 | status         | EnumAppointmentStatus |

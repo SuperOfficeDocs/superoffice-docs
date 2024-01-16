@@ -107,7 +107,7 @@ Dagbokskjermen inneholder følgende detaljkort:
 [!include[Add more section tabs](../../../learn/includes/more-tab.md)]
 
 <!-- Referenced links -->
-[5]: ../invitation/add-participant.md
+[5]: ../invitation/add-attendee.md
 [6]: activities-tab.md
 [7]: sales-tab.md
 [8]: ../change-completed-status.md
