@@ -12,7 +12,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 04.26.2021
+  so.date: 01.18.2024
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -24,7 +24,7 @@ highlightedContent:
     - title: User guide
       itemType: library_books
       typeDesc: reference
-      url: learn/extra-table/index.md
+      url: learn/index.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -40,11 +40,11 @@ conceptualContent:
       - text: How to create a user-defined field
         itemType: school
         typeDesc: learn
-        url: learn/udef/add.md
+        url: admin/add-udef.md
       - text: How to create an extra field
         itemType: school
         typeDesc: learn
-        url: learn/extra-field/create.md
+        url: admin/create-extra-field.md
 
     # Card
     - title: Videos
@@ -122,7 +122,7 @@ conceptualContent:
       - text: CRMScript
         itemType: explore
         typeDesc: concept
-        url: udef/howto/crmscript/index.md
+        url: ../automation/crmscript/howto/custom-objects/index.md
       - text: Web services
         itemType: list
         typeDesc: how-to-guide

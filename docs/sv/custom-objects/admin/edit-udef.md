@@ -1,9 +1,9 @@
 ---
 uid: help-sv-udef-edit
-title: Redigera fält webb
-description: Redigera fält webb
-author: SuperOffice RnD
-so.date: 06.29.2022
+title: Redigera användardefinierade fält
+description: Redigera användardefinierade fält
+author: Bergfrid Dias
+so.date: 01.16.2024
 keywords: udef, anpassa fält
 so.topic: howto
 so.audience: settings
@@ -11,9 +11,9 @@ so.audience.tooltip: Settings and maintenance
 language: sv
 ---
 
-# Redigera fält på fliken Mer
+# Redigera användardefinierade fält
 
-1. [!include[Go to fields and select tab](includes/goto-fields.md)]
+1. [!include[Go to fields and select tab](../includes/goto-fields.md)]
 
 1. Dubbelklicka på önskat fält i listan **Fält**.
 
@@ -27,10 +27,10 @@ language: sv
 1. Klicka på **Publicera** om du vill att ändringarna ska vara tillgängliga för SuperOffice CRM-användarna.
 
 > [!NOTE]
-> Om du definierar [sidan 1-fält][2] måste du först publicera ändringarna för användardefinierade fält innan du definierar sidan 1-fält för de olika användargrupperna och sparar (inte publicerar).
+> Du måste publicera ändringarna för användardefinierade fält innan du [definierar sidan 1-fält][2] för de olika användargrupperna och sparar (inte publicerar).
 
 <!-- Referenced links -->
 [1]: add.md
-[2]: page-1-fields.md
+[2]: edit-udef-layout.md#page-1
 
 <!-- Referenced images -->

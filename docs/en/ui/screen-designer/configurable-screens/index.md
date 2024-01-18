@@ -57,9 +57,9 @@ The **More** tab contains all [custom fields][3] ordered by rank. These fields a
 
 <!-- Referenced links -->
 [2]: add-layout.md
-[3]: ../../../custom-objects/overview.md
-[4]: ../../../custom-objects/learn/extra-field/create.md
-[5]: ../../../custom-objects/learn/udef/add.md
+[3]: ../../../custom-objects/learn/index.md
+[4]: ../../../custom-objects/admin/create-extra-field.md
+[5]: ../../../custom-objects/admin/add-udef.md
 
 <!-- Referenced images -->
 [img1]: media/status-draft.png

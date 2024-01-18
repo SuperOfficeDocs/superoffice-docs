@@ -48,7 +48,7 @@ Here you can find the advanced options in SuperOffice.
 By [adding extra tables and fields][1] to SuperOffice you can save a variety of information important for your company. You can add extra tables and fields to your Requests, Contact cards or Company cards.
 
 <!-- Referenced links -->
-[1]: ../../../custom-objects/learn/extra-table/index.md
+[1]: ../../../custom-objects/admin/create-extra-field.md
 [2]: ../../../automation/crmscript/learn/index.md
 [3]: ../../../automation/crmscript/learn/macro-script.md
 [4]: ../../../automation/crmscript/learn/trigger.md

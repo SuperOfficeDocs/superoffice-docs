@@ -78,7 +78,7 @@ Watch this video to see how you can edit your sales lists to make them fit the w
 [7]: organize/user-group-filtering.md
 [8]: deleting-items.md
 [9]: organize/deleted-items-and-headings.md
-[10]: ../../../custom-objects/learn/udef/index.md
+[10]: ../../../custom-objects/admin/edit-udef-layout.md
 [11]: editing-items.md
 
 <!-- Referenced images -->

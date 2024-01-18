@@ -1,19 +1,19 @@
 ---
 uid: help-nl-udef-edit
-title: Velden bewerken web
-description: Velden bewerken web
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: udef, aangepast veld
+title: Gebruiker gedefinieerde velden bewerken
+description: Gebruiker gedefinieerde velden bewerken
+author: Bergfrid Dias
+so.date: 01.16.2024
+keywords: udef, aangepast veld, gebruiker gedefinieerde veld
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: nl
 ---
 
-# Veld bewerken op het tabblad Meer
+# Gebruiker gedefinieerde velden bewerken
 
-1. [!include[Go to fields and select tab](includes/goto-fields.md)]
+1. [!include[Go to fields and select tab](../includes/goto-fields.md)]
 
 1. Dubbelklik op het gewenste veld in de lijst **Velden**.
 
@@ -27,10 +27,10 @@ language: nl
 1. Klik op **Publiceren** als u de wijzigingen beschikbaar wilt maken voor SuperOffice CRM-gebruikers.
 
 > [!NOTE]
-> Als u [velden pagina 1][2] definieert, moet u eerst de wijzigingen voor door de gebruiker gedefinieerde velden publiceren voordat u pagina 1-velden, voor de verschillende gebruikersgroepen definieert en opslaat (niet publiceert).
+> U moet eerst de wijzigingen voor door de gebruiker gedefinieerde velden publiceren voordat u [velden pagina 1][2], voor de verschillende gebruikersgroepen definieert en opslaat (niet publiceert).
 
 <!-- Referenced links -->
-[1]: add.md
-[2]: page-1-fields.md
+[1]: add-udef.md
+[2]: edit-udef-layout.md#page-1
 
 <!-- Referenced images -->

@@ -2,26 +2,27 @@ items:
 - name: Overview
   href: index.md
 - name: User-defined fields
-  topicHref: udef/index.md
+  topicHref: udef.md
   items:
   - name: Overview
-    href: udef/index.md
+    href: udef.md
   - name: Add field
-    href: udef/add.md
-  - name: Move field
-    href: udef/move.md
-  - name: Edit TAB order of fields
-    href: udef/change-tab-order.md
+    href: ../admin/add-udef.md
   - name: Edit field
-    href: udef/edit.md
-  - name: Page 1 fields
-    href: udef/page-1-fields.md
-- name: Extra tables and fields
-  topicHref: extra-table/index.md
+    href: ../admin/edit-udef.md
+  - name: Customize layout
+    href: ../admin/edit-udef-layout.md
+- name: Extra tables
+  topicHref: extra-table.md
   items:
   - name: Overview
-    href: extra-table/index.md
-  - name: Add extra tables
-    href: extra-table/create.md
+    href: extra-table.md
+  - name: Add extra table
+    href: ../admin/create-extra-table.md
+- name: Extra fields
+  topicHref: extra-field.md
+  items:
+  - name: Overview
+    href: extra-field.md
   - name: Add extra fields
-    href: extra-field/create.md
+    href: ../admin/create-extra-field.md

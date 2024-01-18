@@ -1,19 +1,19 @@
 ---
 uid: help-da-udef-edit
-title: Redigering af felter web
-description: Redigering af felter web
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: udef, tilpasset felt
+title: Redigering af brugerdefinerede felt
+description: Redigering af brugerdefinerede felt
+author: Bergfrid Dias
+so.date: 01.16.2024
+keywords: udef, tilpasset felt, brugerdefinered felt
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: da
 ---
 
-# Feltet Rediger under fanen Mere
+# Redigering af brugerdefinerede felt
 
-1. [!include[Go to fields and select tab](includes/goto-fields.md)]
+1. [!include[Go to fields and select tab](../includes/goto-fields.md)]
 
 1. Dobbeltklik på det påkrævede felt på listen **Felter**.
 
@@ -27,10 +27,10 @@ language: da
 1. Klik på **Udgiv**, hvis ændringerne skal være tilgængelige for SuperOffice CRM-brugere.
 
 > [!NOTE]
-> Hvis du definerer [side 1-felter][2], skal du først publicere ændringerne for brugerdefinerede felter, før du definerer side 1-felter, for de forskellige brugergrupper og gemmer (ikke publicerer).
+> Du skal først publicere ændringerne for brugerdefinerede felter, før du [definerer side 1-felter][2], for de forskellige brugergrupper og gemmer (ikke publicerer).
 
 <!-- Referenced links -->
 [1]: add.md
-[2]: page-1-fields.md
+[2]: edit-udef-layout.md#page-1
 
 <!-- Referenced images -->

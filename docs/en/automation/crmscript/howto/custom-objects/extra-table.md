@@ -54,6 +54,6 @@ In addition, each type has its own set of properties. For example, items for a l
 [Complete list of properties][3].
 
 <!-- Referenced links -->
-[1]: ../../../learn/extra-table/create.md
+[1]: ../../../../custom-objects/admin/create-extra-table.md
+[3]: ../../../../custom-objects/admin/create-extra-field.md
 [2]: ../../searchengine/index.md
-[3]: ../../../learn/extra-field/create.md

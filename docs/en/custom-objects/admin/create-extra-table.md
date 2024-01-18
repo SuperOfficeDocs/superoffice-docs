@@ -1,42 +1,63 @@
 ---
 uid: help-en-extra-table-create
-title:  Define extra tables
-description:  Define extra tables
-author: Hanne Gunnarsson
-so.date: 03.29.2023
-keywords: extra table
+title:  Add extra table
+description: How to define extra tables in SuperOffice
+author: Bergfrid Dias
+so.date: 01.18.2024
+keywords: extra table, custom object
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
-# Add extra tables
+# Add extra table
 
-You can create extra tables in SuperOffice to register different types of data. After you create the table and [create extra fields][1] in it, you can open the table to add content to it by going to **System design** > **Tables**, point at the table and click the button ![icon][img1].
+You can create extra tables in SuperOffice to register different types of data. After you create the table and [create extra fields][1] in it, you can open the table to add content to it.
 
-> [!NOTE]
-> In SuperOffice you can create web panels that can contain table information. To set the relevant access rights, the user must belong to a role that has the functional rights **List tables** and **Edit tables**.
+## Steps
 
-**Steps:**
+1. Go to **Settings and maintenance** > **System design**. Then select the **Tables** tab.
 
-1. Go to the **Tables** screen.
+1. Click **New table**.
 
-    * In Settings and maintenance: Click the ![icon][img3] **System design** button in the navigator. Then select the **Tables** tab.
+    ![Create extra table -screenshot][img1]
 
-2. Click the button ![icon][img4]. The **Table properties** screen appears.
+1. In the **Table properties** screen, enter data about the new table.
 
-3. In the **Table properties** screen, enter data about the new table. Se details about the fields below.
+    * Enter a *name* to be used as the label.
+    * Enter a *database table* beginning with **y_** to identify it in the schema.
+    * Optionally set other properties. Se details about the fields below.
 
-4. Click **OK** to save the new table.
+    > [!NOTE]
+    > Some table properties cannot be set until you have added fields.
 
-## Fields
+1. Click **OK** to save the new table (runs `create table y_mynewtable ...`).
 
-| Field | Description |
+1. [Add fields to your new table][1].
+
+1. Optionally adjust table properties such as sort order.
+    * Click the table name in the list to enter edit mode.
+
+1. Click **Restart NetServer**. If Travel is activated, you will also see a message that a new Travel database must be generated.
+
+You can now open the table in the UI to add content to it **or** populate it via the APIs.
+
+## Add data to the new table
+
+An empty table is not very useful. So you have to set up fields for the new table and then you can populate with data.
+
+1. In Service, click **Requests** and then click **Tables**.
+2. Hover the table you want to add data to and click **New entry**.
+3. Fill in the data for the new row and click **OK**.
+
+## Table properties
+
+| Property | Description |
 |---|---|
 | Folder | To place the table in an existing folder, select a folder from the list. |
-| Name | The name of the table. |
-| Database table   The name of the database table. Can be specified only at creation and cannot be changed. The table name may contain underscores, the letters a-z, and numbers only, and the name must start with "y_". A logical name is best, because it makes it easier to see what the database contains. |
+| Name | The name of the table (label). |
+| Database table | The name of the database table. Can be specified only at creation and **cannot be changed**. The table name may contain underscores, the letters a-z, and numbers only, and the name must start with "y_". A logical name is best, because it makes it easier to see what the database contains. |
 | Search header | The header used in the search screen for this table. |
 | Header for viewing entry | The header used when you display an entry in this table. |
 | Header for new entry | The header used when you create a new entry in this table. |
@@ -45,17 +66,19 @@ You can create extra tables in SuperOffice to register different types of data. 
 | Display field | If data from this table is displayed in another table (a relation), you must select which field to display in the other table. The table must contain fields before you can select anything here. |
 | Parent field | This field is used in connection with hierarchical tables. |
 | Full name |  If this is a hierarchical table, this field can specify a field that is automatically updated with the entry's full name based on the name field for this entry, and all parent entries. |
-| Hide ID field | If this option is enabled, then the ID field will not be shown when listing entries in the table. |
-| Hide the table | If checked, the table will not be visible from ![icon][img3] **System design** > **Tables**. |
+| Hide ID field | If selected, the ID field will not be shown when listing entries in the table. |
+| Hide the table | If selected, the table will not be visible from **System design** > **Tables**. |
+
+## Show table in a web panel
+
+In SuperOffice you can create web panels that can contain table information. To set the relevant access rights, the user must belong to a role that has the functional rights **List tables** and **Edit tables**.
 
 ## What would you like to do now?
 
-* [Define extra fields][1]
+* [Add fields to the new table][1]
 
 <!-- Referenced links -->
-[1]: ../extra-field/create.md
+[1]: create-extra-field.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/service/new-field.png
-[img3]: ../../../../../common/icons/nav-admin-systemdesign-active.png
-[img4]: ../../../../media/icons/service/new-table.png
+[img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

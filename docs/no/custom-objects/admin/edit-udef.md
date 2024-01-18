@@ -1,20 +1,19 @@
 ---
 uid: help-no-udef-edit
-title: Redigere felt for web
-description: Redigere felt for web
-author: SuperOffice RnD
-so.date: 06.29.2022
+title: Redigere egendefinert felt
+description: Redigere egendefinert felt
+author: Bergfrid Dias
+so.date: 01.16.2024
 keywords: udef, egendefinert felt
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
 language: no
 ---
 
-# Redigere felt i fanen Mer
+# Redigere egendefinert felt
 
-1. [!include[Go to fields and select tab](includes/goto-fields.md)]
+1. [!include[Go to fields and select tab](../includes/goto-fields.md)]
 
 1. Dobbeltklikk på ønsket overskrift i **Felt**-listen.
 
@@ -28,10 +27,10 @@ language: no
 1. Klikk på **Publiser** hvis du vil at endringene skal være tilgjengelige for SuperOffice CRM-brukere.
 
 > [!NOTE]
-> Hvis du definerer [side 1-felt][2], må du først publisere endringene for brukerdefinerte felt før du definerer side 1-felt for de forskjellige brukergruppene og lagrer (ikke publiserer).
+> Du må publisere endringene for brukerdefinerte felt før du [definerer side 1-felt][2] for de forskjellige brukergruppene og lagrer (ikke publiserer).
 
 <!-- Referenced links -->
 [1]: add.md
-[2]: page-1-fields.md
+[2]: edit-udef-layout.md#page-1
 
 <!-- Referenced images -->
