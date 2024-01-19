@@ -1,9 +1,9 @@
 ---
-uid: sort_extra_field_values
+uid: crmscript-sort-extra-field-values
 title: Sorting CS extra fields list values
 author: David Hollegien
 so.date: 06.19.2018
-keywords:
+keywords: extra field, custom field
 so.topic: howto
 so.envir:
 so.client:

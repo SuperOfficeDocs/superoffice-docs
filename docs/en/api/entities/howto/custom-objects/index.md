@@ -6,6 +6,8 @@ author: Bergfrid Skaara Dias
 so.date: 11.05.2021
 keywords: udef, user-defined field, custom field, API
 so.topic: concept
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
 # Udef - entity layer

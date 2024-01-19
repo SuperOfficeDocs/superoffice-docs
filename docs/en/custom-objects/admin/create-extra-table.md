@@ -17,7 +17,7 @@ You can create extra tables in SuperOffice to register different types of data. 
 
 ## Steps
 
-1. Go to **Settings and maintenance** > **System design**. Then select the **Tables** tab.
+1. [!include[Go to tables](../includes/goto-tables.md)]
 
 1. Click **New table**.
 
@@ -42,14 +42,6 @@ You can create extra tables in SuperOffice to register different types of data. 
 1. Click **Restart NetServer**. If Travel is activated, you will also see a message that a new Travel database must be generated.
 
 You can now open the table in the UI to add content to it **or** populate it via the APIs.
-
-## Add data to the new table
-
-An empty table is not very useful. So you have to set up fields for the new table and then you can populate with data.
-
-1. In Service, click **Requests** and then click **Tables**.
-2. Hover the table you want to add data to and click **New entry**.
-3. Fill in the data for the new row and click **OK**.
 
 ## Table properties
 

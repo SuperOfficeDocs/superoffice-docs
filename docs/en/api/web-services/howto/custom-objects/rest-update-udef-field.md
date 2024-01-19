@@ -6,6 +6,8 @@ author: AnthonyYates
 so.date: 03.11.2022
 keywords: udef, user-defined field, custom field
 so.topic: howto
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
 # How to update a user-defined field using the web services API

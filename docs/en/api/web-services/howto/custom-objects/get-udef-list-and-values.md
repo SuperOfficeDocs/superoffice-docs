@@ -6,8 +6,8 @@ author: Bergfrid Skaara Dias
 so.date: 11.05.2021
 keywords: udef, user-defined field, custom field, API, api-services, GetUserDefinedFieldList, UserDefinedFieldInfoAgent, UserDefinedFieldInfo
 so.topic: howto
-# so.envir:
-# so.client:
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
 # How to display all user-defined fields
@@ -17,7 +17,7 @@ This example shows how to get all the user-defined fields along with the field v
 > [!NOTE]
 > The code examples on this page use the nuget SOAP proxies, [SuperOffice.NetServer.Services][1].
 
-![02 -screenshot][img1]
+![How to display all user-defined fields -screenshot][img1]
 
 ## Code
 

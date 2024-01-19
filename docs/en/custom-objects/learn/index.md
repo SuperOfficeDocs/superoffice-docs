@@ -35,7 +35,7 @@ SuperOffice CRM and Service were once two separate applications, with different 
 | Extra field | Development Tools | |
 | Extra table | Development Tools | |
 | [Screen Designer][5] | Development Tools | SuperOffice version 10 and newer|
-| [Custom screens][6] | Create new screens in Service | |
+| [Custom screens][6] | Development Tools, Service | Create new screens in Service |
 
 ## Layout (positioning fields)
 

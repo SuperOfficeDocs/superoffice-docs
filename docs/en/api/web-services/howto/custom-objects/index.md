@@ -6,6 +6,8 @@ author: Bergfrid Skaara Dias, AnthonyYates
 so.date: 03.11.2021
 keywords: udef, user-defined field, custom field, API
 so.topic: how-to-guide
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
 # How to work with user-defined fields using web services

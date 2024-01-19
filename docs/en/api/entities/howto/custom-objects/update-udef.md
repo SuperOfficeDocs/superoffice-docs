@@ -6,8 +6,8 @@ author: Tony Yates
 so.date: 11.05.2021
 keywords: udef, user-defined field, custom field, API, UdefHelper, UdefLarge, UdefSmall, progId, udeffield
 so.topic: howto
-# so.envir:
-# so.client:
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
 # How to update a Udef field
@@ -47,4 +47,4 @@ If the `progId` is blank, we can assume it to be equal to *"SuperOffice:" + udef
 The main purpose of the `progId` is to facilitate 3rd-party developers to make their fields with a name they can use in their code to find their user-defined fields again.
 
 <!-- Referenced links -->
-[1]: ../../../database/tables/udeffield.md
+[1]: ../../../../database/tables/udeffield.md

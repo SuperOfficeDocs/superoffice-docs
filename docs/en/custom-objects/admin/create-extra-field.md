@@ -13,13 +13,15 @@ language: en
 
 # Add extra fields
 
-After you create an [extra table][1], you must set up fields in the table, to allow you to subsequently input data (entries) into the table. You can also create extra fields in standard tables.
+After you create an [extra table][1], you must set up fields in the table, to allow you to subsequently input data (entries). You can also create extra fields in standard tables.
 
 ## Steps
 
-1. Go to **Settings and maintenance** > **System design**. Then select the **Tables** tab.
+1. [!include[Go to tables](../includes/goto-tables.md)]
 
 1. Browse to the table you want, point at the table name and click **New field**.
+
+    ![Create extra field -screenshot][img1]
 
 1. Select a type for the new field and click **OK**.
 
@@ -75,7 +77,7 @@ After you create an [extra table][1], you must set up fields in the table, to al
 | Use default value | If checked, the field is assigned a default value unless otherwise specified. |
 | View in relational choosers | If the current table has a relation with another table (extra table relation), select this option to make this field available as a search field. Example: You created an extra table called "Products" with an extra table relation to the **Requests** table. In this way you can search for and add products in the **Extra fields** tab when creating new requests. By selecting **View in relational choosers** for specific fields in the "Products" table, these fields are available as search fields in the **Extra fields** tab. |
 
-### Add relation (foreign key, FK)
+## Add relation (foreign key, FK)
 
 1. Click **New field**.
 1. Select the relation type for the entity you want to connect to and click **OK**.
@@ -90,3 +92,4 @@ For example, to connect all incoming requests to a specific sale, you can add an
 [4]: ../../database/tables/ticket.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

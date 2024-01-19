@@ -6,6 +6,8 @@ author: Tony Yates
 so.date: 11.05.2021
 keywords: udef, user-defined field, custom field, API, UDFHelper, SyncRoot, GetUDFInfo, SetUDFValue, UDFSearch, GetUDFColumnID, GetUDFData
 so.topic: reference
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
 # Complete UDFHelper class and UDFInfo struct source

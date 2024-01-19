@@ -22,7 +22,6 @@ When you [add new fields][2], they are placed beneath each other by default. Eac
 
 ## Where to begin
 
-1. Go to Settings and maintenance.
 1. [!include[Go to fields and select tab](../includes/goto-fields.md)]
 
 ## How to select fields

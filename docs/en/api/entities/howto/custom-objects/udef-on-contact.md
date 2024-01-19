@@ -5,8 +5,8 @@ description: Udef on contact
 author: {github-id}
 keywords: entity
 so.topic: sample
-# so.envir:
-# so.client:
+so.audience: api
+so.audience.tooltip: SuperOffice APIs and database
 ---
 
 # Udef on contact

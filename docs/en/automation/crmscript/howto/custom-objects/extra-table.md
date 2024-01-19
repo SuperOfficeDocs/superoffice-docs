@@ -1,9 +1,10 @@
 ---
-uid: crmscript_extra_tables
+uid: crmscript-extra-tables
 title: Third-party tables
+description: Working with third-party tables in CRMScript
 author: Bergfrid Skaara Dias
 so.date: 02.07.2022
-keywords: CRMScript, database
+keywords: CRMScript, database, extra table, custom object
 so.topic: concept
 ---
 
