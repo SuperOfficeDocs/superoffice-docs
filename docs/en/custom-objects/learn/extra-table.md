@@ -36,7 +36,7 @@ Table folders are used to organize your custom tables.
 >
 > A logical name is best because it makes it easier to see what the database contains.
 
-The prefixes ensure that what you create do not conflict with future SuperOffice table and field names. However, it does not guarantee a lack of naming conflicts between different 3rd parties.
+Prefixes ensure that what you create do not conflict with future SuperOffice table and field names. However, it does not guarantee a lack of naming conflicts between different 3rd parties.
 
 ### Table names
 
@@ -48,7 +48,7 @@ The prefixes ensure that what you create do not conflict with future SuperOffice
 * Must start with **x_**
 * Must be unique within the table
 * Must be a single word
-* May contain only underscores, letters from a to z, or numbers
+* May contain only underscores, letters from a to z, and numbers
 
 ## Related topics
 

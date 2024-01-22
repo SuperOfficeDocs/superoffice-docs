@@ -4,7 +4,7 @@ title: Extra fields
 description: An extra field is a custom field that you add to an existing SuperOffice database table in Service.
 author: Bergfrid Dias
 so.date: 01.16.2024
-keywords: extra field, Service
+keywords: extra field, custom field, Service
 so.topic: concept
 language: en
 so.audience: user
@@ -45,7 +45,7 @@ Extra fields are managed in **Settings and maintenance**, in the **Tables** scre
 * Attachment
 * Dynamic link
 
-In addition, there is a relation type for each entity. For example, the *contact relation*.
+In addition, each entity has a relation type. For example, the *contact relation*.
 
 Unlike user-defined fields, extra fields are added as actual fields to the database tables. There are no pre-defined slots you need to take into consideration, and essentially no limitations.
 
@@ -71,7 +71,7 @@ Extra fields can for instance be used as search criteria and columns in sales in
 
 ## Related content
 
-* [Add extra fields to the Details tab][1]
+* [Show extra fields on the Details tab][1]
 * [Create extra field][2]
 
 <!-- Referenced links -->

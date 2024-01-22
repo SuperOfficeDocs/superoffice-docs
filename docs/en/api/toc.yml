@@ -326,24 +326,21 @@ items:
       href: entities/delete-entity.md
     - name: Delete an entity through an entity
       href: entities/delete-entity-from-entity.md
-    - name: Howto
-      topicHref: entities/howto/custom-objects/index.md
+    - name: Custom objects and fields
+      href: entities/howto/custom-objects/index.md
       items:
-      - name: Custom objects and fields
-        href: web-services/howto/custom-objects/index.md
-        items:
-        - name: Set udef list-item value
-          href: entities/howto/custom-objects/set-udef-listitem-value.md
-        - name: Get udef value
-          href: entities/howto/custom-objects/get-udef-field-value.md
-        - name: Update udef
-          href: entities/howto/custom-objects/update-udef.md
-        - name: Using UDFHelper
-          href: entities/howto/custom-objects/using-udefhelper.md
-        - name: UDFHelper class
-          href: entities/howto/custom-objects/udefhelper-class.md
-        - name: Udef on contact
-          href: entities/howto/custom-objects/udef-on-contact.md
+      - name: Set udef list-item value
+        href: entities/howto/custom-objects/set-udef-listitem-value.md
+      - name: Get udef value
+        href: entities/howto/custom-objects/get-udef-field-value.md
+      - name: Update udef
+        href: entities/howto/custom-objects/update-udef.md
+      - name: Using UDFHelper
+        href: entities/howto/custom-objects/using-udefhelper.md
+      - name: UDFHelper class
+        href: entities/howto/custom-objects/udefhelper-class.md
+      - name: Udef on contact
+        href: entities/howto/custom-objects/udef-on-contact.md
 
 - name: Rows
   href: rows/index.md
@@ -408,13 +405,12 @@ items:
     - name: SoundEx
       href: osql/soundx.md
 - name: Raw SQL queries
-  topicHref: howto/custom-objects/index.md
   items:
   - name: Custom objects and fields
-    href: howto/custom-objects/index.md
+    topicHref: sql/howto/custom-objects/index.md
     items:
     - name: Set udef
-      href: howto/custom-objects/set-udef.md
+      href: sql/howto/custom-objects/set-udef.md
 - name: Bulk Operation
   href: bulk-operations/index.md
   items:

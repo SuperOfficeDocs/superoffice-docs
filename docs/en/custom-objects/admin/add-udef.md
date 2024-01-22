@@ -26,25 +26,26 @@ Watch this video to find out how you can create your own extra fields in SuperOf
 
 1. Enter a **Name** and select a [**Type**][2] (for example number, text, or date).
 
-1. Optionally set other [field properties](#properties), such as whether it is mandatory or should be indexed.
+1. Optionally set other [field properties](#properties), such as whether the field
+ is mandatory or should be indexed.
 
-1. When you have specified the required settings, click **Save**. The dialog closes and the new field is displayed in the **Fields** list and in the grid.
+1. When you are done, click **Save**. The dialog closes and the new field is displayed in the **Fields** list and in the grid.
 
 1. [Optionally, adjust the position of the field][3]. This requires the Development Tools license!
 
-1. Continue adding fields. Click **Publish** when you are done if you want the field to be available to SuperOffice CRM users. Unpublished fields ![icon][img1] and fields with unpublished changes ![icon][img2] are displayed in bold text in the **Fields** list.
+1. Continue adding fields. Click **Publish** when you are done to make the field available to SuperOffice users. Unpublished fields ![icon][img1] and fields with unpublished changes ![icon][img2] are displayed in bold text in the **Fields** list.
 
 ## <a id="properties" />Field properties
 
 | Property | Description |
 |---|---|
 | Default value | The value to be inserted by default in this field. |
-| Tooltip | A brief description that pops up when the mouse pointer is held over the field. This could be a description with information for the users who will use this field. |
-| Prog ID | A default ID for this field. The format is **text:number**. Keep the text portion to letters a-z or their uppercase equivalents. Can be overridden by our partners. |
+| Tooltip | A brief description appearing when hovering over the field. For example, usage information. |
+| Prog ID | A default ID for this field. The format is **text:number**. Keep the text portion to letters a-z or their uppercase equivalents. Can be overridden by SuperOffice partners. |
 | Mandatory | Makes it mandatory to fill in this field. Does not apply to the *Checkbox* field type. |
 | Hide label | If selected, the name of the field is not displayed. |
 | Read only | If selected, it is not possible to amend the field. |
-| Indexed | If selected, it is possible to search by this field. This makes it quicker to search on these fields using **Find**. Non-indexed fields are also searchable, but the search takes longer. You should only index fields that are frequently searched and contain frequently used data. |
+| Indexed | If selected, this field becomes searchable, speeding up **Find**. Non-indexed fields can also be searched, but it is slower. Index only fields that are often searched and hold commonly used data. |
 
 > [!NOTE]
 > You cannot check **Read only** if you checked **Mandatory**. These options are mutually exclusive.

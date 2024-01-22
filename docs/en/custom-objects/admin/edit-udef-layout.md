@@ -24,7 +24,7 @@ When you [add new fields][2], they are placed beneath each other by default. Eac
 
 1. [!include[Go to fields and select tab](../includes/goto-fields.md)]
 
-## How to select fields
+**How to select fields:**
 
 * Click a field in the grid to select it.
 * Click and drag in the grid to select several fields.
@@ -57,7 +57,7 @@ Select the fields you want to adjust and click left-align ![icon][img5] or right
 
 ## Change the width of a field
 
-1. Double-click the relevant field in the **Fields** list or grid
+1. Double-click the relevant field in the **Fields** list or the grid
 2. Specify the width of the label in the field to the right of **Label**.
 3. Specify the width of the data field in the field to the right of **Data**.
 
@@ -73,7 +73,7 @@ The TAB order is displayed in the **Name** list on the left of the screen. This 
 
 1. Click one of the arrows below the list to move the field either up ![icon][img3] or down ![icon][img4].
 
-1. Click **Publish** if you want the changes to be available to SuperOffice CRM users.
+1. Click **Publish** to make the changes available to SuperOffice CRM users.
 
 ## <a id="page-1" />Display a user-defined field on the first page
 

@@ -17,7 +17,7 @@ All companies and organizations have their own requirements for the information 
 
 SuperOffice CRM and Service were once two separate applications, with different extensibility options. [**User-defined fields**][1] (udefs for short) belong in SuperOffice CRM, while [**extra tables**][3] (aka 3rd party tables) and [**extra fields**][2] belong in Service. The term **custom field** includes both user-defined fields and extra fields.
 
-## Use cases
+## Usage
 
 * A good example of a custom field you can use in the **Contact** screen is a field called "Satisfied customer", where the value of the field is Yes or No. For example, you can send your contacts a mailing (with link actions) where they can state whether they are satisfied with your services. This will give you valuable insight into the general customer satisfaction rate.
 
@@ -29,19 +29,19 @@ SuperOffice CRM and Service were once two separate applications, with different 
 
 | Customization | License | Comment |
 |---|---|---|
-| Add/remove user-defined field | Included | Automatically displayed on the More tab. Need Development Tools to customize placement. |
+| Add/remove user-defined field | None | Automatically displayed on the More tab. Need Development Tools to customize placement. |
 | Customize layout of the More tab | Development Tools | |
 | Manage page 1 fields | Development Tools | |
 | Extra field | Development Tools | |
 | Extra table | Development Tools | |
-| [Screen Designer][5] | Development Tools | SuperOffice version 10 and newer|
-| [Custom screens][6] | Development Tools, Service | Create new screens in Service |
+| [Screen Designer][5] | Development Tools | SuperOffice version 10 and newer. |
+| [Custom screens][6] | Development Tools, Service | Create new screens in Service. |
 
 ## Layout (positioning fields)
 
-Any custom screen layouts (created in the Screen Designer) using screen designer may override the settings on fields.
+UI customization of any type requires the Development Tools license. Any custom screen layouts (created in the Screen Designer) may override the settings on individual custom fields.
 
-If you do not have a Development Tools license (for Configurable Screens), use the rank of the different fields to sort them.
+If you do not have a Development Tools license, use the rank of the different fields to sort them on the **More** tab.
 
 ## Related content
 

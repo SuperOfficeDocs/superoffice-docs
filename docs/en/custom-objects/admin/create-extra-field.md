@@ -19,7 +19,7 @@ After you create an [extra table][1], you must set up fields in the table, to al
 
 1. [!include[Go to tables](../includes/goto-tables.md)]
 
-1. Browse to the table you want, point at the table name and click **New field**.
+1. Browse to your desired table, point at the table name, and click **New field**.
 
     ![Create extra field -screenshot][img1]
 
@@ -46,14 +46,14 @@ After you create an [extra table][1], you must set up fields in the table, to al
 |---|---|
 | Cannot be empty | Makes it mandatory to fill in this field. |
 | Choose from list box | If the field is connected to an extra table, select this option to display a list of table values. |
-| Choose values from list | If checked, the field becomes a list box. The options in the list will be the text strings entered in the text box. There is one line per option. |
+| Choose values from list | If checked, the field turns into a list box. The list options are the text strings inputted in the text box, with one option per line. |
 | Create index | If selected, it is possible to search by this field. It is quicker to search for data in indexed fields. |
-| Database field | The name the column will have in the database. This name must be unique in this table. In addition, the column name must be a single word, containing only underscores, letters from a to z, or numbers, and must begin with "x_". Can be specified only at creation and **cannot be changed**. |
+| Database field | The column's name in the database must be unique within the table. It should be a single word, containing only underscores, letters (a-z), or numbers, and must start with "x_". This can only be set during creation and and **cannot be changed**. |
 | Decimal places | The number of decimal places that are allowed in a number. |
 | Default value | The value to be inserted by default in this field. |
 | Description | The default description. |
-| Display value | Whether to display the value. |
-| External | If checked, the field is available from a customer centre. Relevant only for default tables (extra tables are always displayed in customer centres). |
+| Display value | Whether to display the field's value. |
+| External | If checked, the field is available from a customer centre. Relevant only for standard tables (extra tables are always displayed in customer centres). |
 | Header for list | A header for these entries when they are displayed as "sub-entries" in a list. |
 | Hide function buttons | (relations) Select this option to hide the function for adding new entries to relation tables. |
 | Hide the field | Whether to display the field. |
@@ -64,15 +64,15 @@ After you create an [extra table][1], you must set up fields in the table, to al
 | Position | Specifies this field's position among the other fields in lists. |
 | Search operator | Which search operator to use for this field. |
 | Show in table | If checked, this field is displayed as a column in screens where several entries are displayed in a table. |
-| Show one-to-many relations | If you selected the **Contact relation**, **Company relation** or **Request relation** field types and want to display a tab containing data from this table in the contact, company or request screens, you can check this field. |
+| Show one-to-many relations | If you selected the **Contact relation**, **Company relation** or **Request relation** field types and want to display a tab containing data from this table in the contact, company, or request screens, you can check this field. |
 | Table | The table this field belongs to. |
-| Target table | Which table to use should be used. |
-| Text area /Height | The height (number of lines) of the text field. |
+| Target table | Which table to use. |
+| Text area / Height | The number of lines of the text field. |
 | Type | Displays the field type you selected. |
-| Update null values now | Check this option to replace all null values (empty fields) in the database with the default value. Note that this operation can take a while. |
+| Update null values now | Check this option to replace all null values (empty fields) in the database with the default value. **This operation can take a while.** |
 | URL | The URL of the dynamic link here. |
-| Use active user as default value | If checked, the field's value is set as the current user as default. |
-| Use current date/time as default value | If checked, the field's value is set as the current date/time as default. |
+| Use active user as default value | If checked, the field's value is by default set to the current user. |
+| Use current date/time as default value | If checked, the field's value is by default set to the current date/time. |
 | Use days / Use hours / Use minutes | The time unit for the time span field. |
 | Use default value | If checked, the field is assigned a default value unless otherwise specified. |
 | View in relational choosers | If the current table has a relation with another table (extra table relation), select this option to make this field available as a search field. Example: You created an extra table called "Products" with an extra table relation to the **Requests** table. In this way you can search for and add products in the **Extra fields** tab when creating new requests. By selecting **View in relational choosers** for specific fields in the "Products" table, these fields are available as search fields in the **Extra fields** tab. |

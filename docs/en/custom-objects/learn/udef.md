@@ -44,7 +44,7 @@ There are 8 types of user-defined fields:
 
 The following limitations apply to the number of user-defined fields you can specify in each of the Company, Contact, Project, and Sale tabs.
 
-* **Number**, **Date**, **Check box** and **List**: Maximum of 60 in all.
+* **Number**, **Date**, **Check box**, and **List**: Maximum of 60 in all.
 * **Short text** and **Unlimited date**: Maximum of 40 in all.
 * **Long text**: Maximum of 9 in all.
 * **Decimal**: Maximum of 10 in all.
@@ -56,7 +56,7 @@ The following limitations apply to the number of user-defined fields you can spe
 
 Indexing is good for user experience and performance. The first 4 fields of each data type are reserved for indexes.
 
-You have to mark the checkbox when creating the field to allow it to be indexed. You can mark up to 4 fields in each of the 4 data types (Long, Double String[40], String[200]) for each entity. For example, you can index 4 numbers and 4 decimals for a contact, however you can't at the same time also index a date - because all Long index slots are taken by the numbers.
+You have to mark the checkbox when creating the field to allow it to be indexed. You can mark up to 4 fields in each of the 4 data types (Long, Double, String[40], String[200]) for each entity. For example, you can index 4 numbers and 4 decimals for a contact, however you cannot at the same time also index a date - because all Long index slots are taken by the numbers.
 
 If you choose not to index at all, you are essentially wasting 16 fields! Thus, the max number of custom fields is reduced to 103.
 
@@ -125,7 +125,7 @@ You can then add these fields to the Project screen:
 <!-- Referenced links -->
 [1]: ../admin/edit-udef-layout.md#page-1
 [2]: ../admin/add-udef.md
-[3]:../../admin/lists/learn/adding-user-defined-lists.md
+[3]: ../../admin/lists/learn/adding-user-defined-lists.md
 [8]: ../../ui/screen-designer/learn/index.md
 
 <!-- Referenced links -->
