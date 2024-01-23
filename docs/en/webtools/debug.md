@@ -1,12 +1,12 @@
 ---
 title: Debug
-uid: webtools_debug
+uid: webtools-debug
 description: How to debug WebTools
-author: {github-id}
+author: Jostein K, Bergfrid Dias
+so.date: 01.23.2024
 keywords: debug, WebTools
 so.topic: howto
 so.envir: onsite
-so.client:
 ---
 
 # Debugging WebTools
@@ -24,8 +24,6 @@ From 8.0 SR1 and CRM Online 8.0 R14, we check the last active computer and open 
 
 ## Turn on logging
 
-You may enable 2 different log files.
-
 ### LogFile
 
 > [!TIP]
@@ -38,12 +36,6 @@ You may enable 2 different log files.
     * Value data = The full path to a log file where it should write diagnostics. User running WebTools needs to have write permission to this file and folder.
 
 ![WebTools LogFile -screenshot][img1]
-
-### Get extra logging from SignalR - ProtocolLogfile
-
-Do the same as for LogFile, but now set name to **ProtocolLogFile**.
-
-![WebTools ProtocolLogfile -screenshot][img2]
 
 ### Get a WebTools for Mac log file
 
@@ -63,15 +55,8 @@ Do the same as for LogFile, but now set name to **ProtocolLogFile**.
 
     ![WebTools for Mac log file -screenshot][img7]
 
-## Change the default timeout value - NetworkTimeoutPeriod
-
-The timeout value is from when a message is sent and until we expect a response. By default this is set to 1000 milliseconds, meaning 1 second. If however, you have a slow connection, this may not be enough and you may experience that WebTools lose connection. You may change the default timeout period by adding a DWORD (32bit) value with a different value. Note that the value here is in milliseconds, so adding 5000 will change the default timeout value from 1 second to 5 seconds.
-
-![NetworkTimeoutPeriod -screenshot][img2]
-
 <!-- Referenced images -->
 [img1]: media/webtoolslog.png
-[img2]: media/registrywebtoolsnetwork.png
 [img4]: media/imagewukx.png
 [img5]: media/imagew1mo6.png
 [img6]: media/imagelzq97.png
