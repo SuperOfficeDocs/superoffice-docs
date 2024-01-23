@@ -1,8 +1,8 @@
 ---
 title: Technical overview
-uid: webtools_technical_overview
+uid: webtools-technical-overview
 description: Technical overview of SuperOffice WebTools
-author: Jostein, Bergfrid, Hans Oluf Waaler
+author: Jostein, Bergfrid, H.O. Waaler
 keywords: WebTools
 so.topic: concept
 so.date: 01.05.2024
@@ -32,7 +32,7 @@ Check out the [system requirements][2].
 
 ![Starting up WebTools 10.2.10 and earlier][img4]
 
-After WebTools have finished starting up, it will resume incomplete tasks.
+After starting, WebTools will resume incomplete tasks.
 
 The tasks files are stored in *%localappdata%SuperOffice\SuperOffice 7 Web Extensions\Tasks*. One task consists of a task file and a directory with the same name. This directory will contain the document during editing/reading.
 
