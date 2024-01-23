@@ -6,6 +6,8 @@ items:
 - name: Arbejd med formularer
   topicHref: form-templates.md
   items:
+  - name: Oversigt
+    href: form-templates.md
   - name: Opret ny formular
     href: create.md
   - name: Indstillinger for felt
@@ -19,6 +21,8 @@ items:
 - name: Formularindsendelser
   topicHref: submissions/index.md
   items:
+  - name: Oversigt
+    href: submissions/index.md
   - name: Spor formularindsendelser og vis statistik
     href: submissions/track.md
   - name: Behandl formularerindsendelser

@@ -6,6 +6,8 @@ items:
 - name: Work with forms
   topicHref: form-templates.md
   items:
+  - name: Overview
+    href: form-templates.md
   - name: Create new form
     href: create.md
   - name: Field options

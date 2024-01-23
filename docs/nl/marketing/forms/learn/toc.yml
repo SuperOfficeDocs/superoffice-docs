@@ -6,6 +6,8 @@ items:
 - name: Werken met formulieren
   topicHref: form-templates.md
   items:
+  - name: Overzicht
+    href: form-templates.md
   - name: Nieuw formulier maken
     href: create.md
   - name: Veldopties
@@ -19,6 +21,8 @@ items:
 - name: Formulierverzendingen
   topicHref: submissions/index.md
   items:
+  - name: Overzicht
+    href: submissions/index.md
   - name: Formulierverzendingen traceren en statistieken weergeven
     href: submissions/track.md
   - name: Formulierverzendingen verwerken
