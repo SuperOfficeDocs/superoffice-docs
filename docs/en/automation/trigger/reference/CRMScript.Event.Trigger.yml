@@ -42,6 +42,7 @@ items:
   - CRMScript.Event.Trigger.SalesAfterSaveSelection
   - CRMScript.Event.Trigger.SalesAfterSaveSelectionMember
   - CRMScript.Event.Trigger.SalesAfterSaveStakeholder
+  - CRMScript.Event.Trigger.SalesAfterSaveTicket
   - CRMScript.Event.Trigger.SalesBeforeSaveAcceptQuote
   - CRMScript.Event.Trigger.SalesBeforeSaveAppointment
   - CRMScript.Event.Trigger.SalesBeforeSaveContact
@@ -57,6 +58,7 @@ items:
   - CRMScript.Event.Trigger.SalesBeforeSaveSelection
   - CRMScript.Event.Trigger.SalesBeforeSaveSelectionMember
   - CRMScript.Event.Trigger.SalesBeforeSaveStakeholder
+  - CRMScript.Event.Trigger.SalesBeforeSaveTicket
   - CRMScript.Event.Trigger.ScheduledTaskFailed
   - CRMScript.Event.Trigger.ServiceScreenAddMessageAfterSubmit
   - CRMScript.Event.Trigger.ServiceScreenAddMessageBeforeSubmit
@@ -639,6 +641,22 @@ items:
   fullName: CRMScript.Event.Trigger.SalesAfterSaveStakeholder
   type: Method
   summary: "\n(1002) Called after a sale stakeholder is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
+  remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>AddMembersArchiveConfig.ArchiveColumnInfo.length</td><td>ArchiveColumn length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo.length</td><td>ArchiveEntity length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo[].&#42;</td><td>List of archiveEntity with variables</td></tr><tr><td>ContactPersonList.length</td><td>Length of person list</td></tr><tr><td>ContactPersonList[].&#42;</td><td>List of persons with variables</td></tr><tr><td>CurrentContactId</td><td>Current ContactId</td></tr><tr><td>CurrentContactName</td><td>Current contact name</td></tr><tr><td>CurrentEntityName</td><td>Current sale name</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>MainEntity.*</td><td>MainEntity variables</td></tr><tr><td>NewMembers</td><td>&quot;§&quot; separated rows, each containing pipe-separated columns: ID, contact ID, contact name, person ID, stakeholder role ID</td></tr></tbody></table>\n"
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nString[] param1 = ed.getInputValue(&quot;NewMembers&quot;).split(&quot;§&quot;);\nfor(Integer i = 0; i &lt; param1.length(); i++)\n{\n//Do something with each new member\n}</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesAfterSaveTicket
+  commentId: M:CRMScript.Event.Trigger.SalesAfterSaveTicket
+  id: 'SalesAfterSaveTicket'
+  so.intellisense: 
+  so.version: 9.2 R08
+  langs:
+  - crmscript
+  name: 'SalesAfterSaveTicket'
+  nameWithType: Trigger.SalesAfterSaveTicket
+  fullName: CRMScript.Event.Trigger.SalesAfterSaveTicket
+  type: Method
+  summary: "\n(1016) Called after a Ticket is saved. EventData contains all variables passed by datahandler in the Sales client.\n"
   remarks: "\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>AddMembersArchiveConfig.ArchiveColumnInfo.length</td><td>ArchiveColumn length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo.length</td><td>ArchiveEntity length</td></tr><tr><td>AddMembersArchiveConfig.ArchiveEntityInfo[].&#42;</td><td>List of archiveEntity with variables</td></tr><tr><td>ContactPersonList.length</td><td>Length of person list</td></tr><tr><td>ContactPersonList[].&#42;</td><td>List of persons with variables</td></tr><tr><td>CurrentContactId</td><td>Current ContactId</td></tr><tr><td>CurrentContactName</td><td>Current contact name</td></tr><tr><td>CurrentEntityName</td><td>Current sale name</td></tr><tr><td>IsNew</td><td>Is new</td></tr><tr><td>MainEntity.*</td><td>MainEntity variables</td></tr><tr><td>NewMembers</td><td>&quot;§&quot; separated rows, each containing pipe-separated columns: ID, contact ID, contact name, person ID, stakeholder role ID</td></tr></tbody></table>\n"
   syntax: 
   example: 
