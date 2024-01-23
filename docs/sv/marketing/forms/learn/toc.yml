@@ -6,6 +6,8 @@ items:
 - name: Arbeta med formulär
   topicHref: form-templates.md
   items:
+  - name: Översikt
+    href: form-templates.md
   - name: Skapa nytt formulär
     href: create.md
   - name: Fältalternativ
@@ -19,6 +21,8 @@ items:
 - name: Formulärinlämningar
   topicHref: submissions/index.md
   items:
+  - name: Översikt
+    href: submissions/index.md
   - name: Spåra formulärinlämningar och visa statistik
     href: submissions/track.md
   - name: Behandla formulärinlämningar

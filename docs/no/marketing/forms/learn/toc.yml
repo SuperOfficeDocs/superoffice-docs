@@ -6,6 +6,8 @@ items:
 - name: Arbeide med skjemaer
   topicHref: form-templates.md
   items:
+  - name: Oversikt
+    href: form-templates.md
   - name: Opprett nytt skjema
     href: create.md
   - name: Feltalternativer
@@ -19,6 +21,8 @@ items:
 - name: Skjemainnsendinger
   topicHref: submissions/index.md
   items:
+  - name: Oversikt
+    href: submissions/index.md
   - name: Spore skjemainnsendinger og vise statistikk
     href: submissions/track.md
   - name: Behandle skjemainnsendinger
