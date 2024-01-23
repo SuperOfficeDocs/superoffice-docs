@@ -11,7 +11,6 @@ so.topic: reference
 
 # New and improved Marketing
 
-* [FEATURE (10.3.1)][1]
+* Nothing new (10.3.1)
 
 <!-- Referenced links-->
-[1]: 10.3.1-update.md

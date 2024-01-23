@@ -36,8 +36,8 @@ items:
   items:
   - name: 10.3.1 update
     href: api/10.0.1-update.md
-- name: Developer Products
-  href: development-products/index.md
-  items:
-  - name: 10.3.1 update
-    href: development-products/10.3.1-update.md
+#- name: Developer Products
+#  href: development-products/index.md
+#  items:
+#  - name: 10.3.1 update
+#    href: development-products/10.3.1-update.md

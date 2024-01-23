@@ -11,7 +11,6 @@ so.topic: reference
 
 # Customer engagement platform
 
-* [FEATURE (10.3.1)][1]
+* Nothing new (10.3.1)
 
 <!-- Referenced links-->
-[1]: 10.3.1-update.md

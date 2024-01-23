@@ -131,7 +131,7 @@ so.version: 10.2
 [15]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Zapier_3.2
 [16]: https://zapier.com/apps/superofficecrm/integrations
 [17]: office-integrations/3.1-update.md
-[18]: https://appstore.superoffice.com/Category/new-or-updated
+[18]: https://appstore.superoffice.com/Category/new-or-updated1
 [19]: ../../docs/en/document/cloud/sharepoint-documents/migrate/index.md
 [20]: ../../docs/en/developer-portal/create-app/message-center.md
 [21]: https://appstore.superoffice.com/lasso-x/lasso-for-superoffice

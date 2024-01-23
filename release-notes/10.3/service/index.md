@@ -11,7 +11,10 @@ so.topic: reference
 
 # New and improved Service
 
-* [FEATURE (10.3.1)][1]
+* [Right click to take ownership of request(s) (10.3.1)][1]
+* [Show Company SAINT status monitor on the Request screen (10.3.1)][1]
+* [System design - Creating new field gives option to show in Properties panel (10.3.1)][2]
 
 <!-- Referenced links-->
 [1]: 10.3.1-update.md
+[2]: ../admin/10.3.1-update.md
