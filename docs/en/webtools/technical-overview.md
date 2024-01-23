@@ -5,7 +5,7 @@ description: Technical overview of SuperOffice WebTools
 author: Jostein, Bergfrid, H.O. Waaler
 keywords: WebTools
 so.topic: concept
-so.date: 01.05.2024
+so.date: 01.23.2024
 so.envir:
 ---
 
@@ -13,12 +13,13 @@ so.envir:
 
 The interaction between SuperOffice WebTools and SuperOffice CRM depends heavily on the capabilities in the browser used.
 
-We currently use a custom protocol to communicate between SuperOffice in the browser and WebTools running on the user's desktop. The previous generations used SignalR-technology, NPAPI-based plugins, and before that protocol handlers.
+We currently use a custom protocol to communicate between SuperOffice in the browser and WebTools running on the user's desktop. The previous generation used SignalR-technology.
 
-WebTools consists of 2 components installed server-side along with SuperOffice CRM and access the SuperOffice database through NetServer APIs. (Yes, the same APIs that are available to partners).
+WebTools consists of 3 components installed server-side along with SuperOffice CRM and access the SuperOffice database through NetServer APIs. (Yes, the same APIs that are available to partners).
 
 * The installed component on the user's computer
 * TrayApp2.svc (WCF)
+* MailLinkService.svc (WCF)
 
 Check out the [system requirements][2].
 
