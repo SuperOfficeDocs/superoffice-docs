@@ -2,11 +2,10 @@
 title: Troubleshooting
 uid: webtools-troubleshooting
 description: Troubleshooting WebTools
-author: {github-id}
+author: Jostein K, Bergfrid Dias
+so.date: 01.23.2024
 keywords: WebTools
 so.topic: howto
-# so.envir:
-# so.client:
 ---
 
 # Troubleshooting WebTools
@@ -25,7 +24,7 @@ This is often caused by WebTools not being properly configured. Note that earlie
 
 *WebToolsDiagnostics.aspx* is, as the name suggests, a tool to give hints on the current connectivity state between SuperOffice WebTools and the browser. Information such as the version and the machine name of WebTools are displayed along with which signals clients are connected.
 
-The registry keys `LogFile` and `ProtocolLogFile` enable logging of the main actions and the SignalR-protocol respectively.
+The registry key `LogFile` enables logging of the main actions.
 
 > [!NOTE]
 > A restart of WebTools is often necessary for applying the registry settings.

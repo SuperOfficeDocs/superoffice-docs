@@ -1,0 +1,27 @@
+title Open document - CRM 10.2.11 and later
+
+actor User as u
+participant Browser as b
+participant CRM as c
+participant OS as o
+participant WebTools as wt
+
+u->+b: Open document!
+
+b->+c: Open document
+c-->-b: OpenDocJS
+
+b->b: eval(js)
+b->+o: superoffice-extensions:doc_id=13
+o->+wt: OpenProtocol(superoffice-extensions:doc_id=13)
+
+note right of wt: Everything after this is the same
+
+wt->+c: GetDocumentStream(123)
+c-->-wt: binary
+wt->o: WriteDoc(binary)
+wt->o: OpenDoc()
+wt->wt: Start editor with document
+
+wt-->-o: Opened!
+o-->-b: Opened!

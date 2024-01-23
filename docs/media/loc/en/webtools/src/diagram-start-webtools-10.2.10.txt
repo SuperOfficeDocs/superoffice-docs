@@ -1,0 +1,18 @@
+title Start WebTools - CRM 10.2.10 and earlier
+
+participant WebTools as wt
+participant "CRM (SignalR + Web)" as r
+participant "CRM (WCF)" as c
+
+loop foreach site in siteinfos
+    wt->+c: Connect with credentials + IIS auth
+    c->-wt: Ticket
+
+    wt->+r: Connect with Ticket and ClientId (+ IIS auth)
+    r->r: Associate this connection with ClientId
+    r->-wt: Connection established
+end
+
+note over wt: WebTools is now running and ready to accept commands from the web client.
+
+wt->r: Keep connection open. Re-establish if the connection is dropped.

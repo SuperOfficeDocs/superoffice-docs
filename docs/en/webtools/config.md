@@ -2,10 +2,10 @@
 title: Configure WebTools
 uid: webtools-configure
 description: "How to configure WebTools."
-author: Hans Oluf Waaler
+author: H.O. Waaler, Jostein K, Bergfrid Dias
 keywords: WebTools, SiteInfo, registry
 so.topic: howto
-so.date: 10.13.2016
+so.date: 01.23.2024
 so.envir: onsite
 ---
 
@@ -33,12 +33,7 @@ The following registry entries in *HKCU\Software\SuperOffice\DocLink* are availa
 |------|------|-------------|
 | SupressExitWarning | REG_DWORD | Set to 1 to disable the exit warning when closing WebTools |
 | ClientId | REG_SZ | The identifier which uniquely identifies the user and machine when multiple WebTools from the same user are connecting to one installation. Incorrect values of ClientId result in loss of functionality. |
-| ProtocolLogFile | REG_SZ | The path incl filename where data sent and received through the SignalR-connection are logged. Empty or missing value results in no logging. |
 | LogFile | REG_SZ | Path incl. Filename where general logging is stored. Empty or missing value results in no logging. |
-| NetworkTimeoutPeriod | REG_DWORD | The default timeout period before network invocations are considered unresponsive. (SignalR) |
-| ConnectTimeoutRatio | REG_DWORD | The default factor that NetworkTimeoutPeriod is scaled by between connection timeouts. A lower value will give more immediate reconnect attempts on connection failures, but will also lead to new connections to more quickly be deemed unsuccessful. |
-| QueueLength | REG_DWORD | The default queue-length for the responsiveness-checker. |
-| EnableTracing | REG_DWORD |1 to enable. Enables SignalR connection-level tracing. Files are stored to %TEMP% with prefix trace_. |
 | DisableHttpExpect100Header | REG_DWORD | 1 to disable. Disables the Expect: 100-continue HTTP header in violation of HTTP-spec when working with proxies. Required when working against squid-proxies. |
 | ProxyUsesDefaultCredentials | REG_DWORD | 1 to enable. Use the logged-in user's Windows credentials for authenticating towards the proxy. |
 | DisableTls10 | REG_DWORD | 1 to disable. Disable TLS 1.0. (Only support TLS 1.1 and 1.2) |

@@ -2,7 +2,9 @@
 title: Database mirroring blocked tables
 uid: mirroring_blocked_tables
 description: Lists the tables that are not mirrored.
-author: AnthonyYates
+author: AnthonyYates, Margrethe
+so.date: 01.11.2024
+so.version: 10.2
 keywords: mirroring, blocked tables, database, schema
 so.topic: reference
 so.envir: cloud
@@ -31,32 +33,32 @@ Tables not mirrored might have a reason specified in the "reason” field. This 
 | batchtask                      | Internal, not user data       |
 | batchtaskdefinition            | Internal, not user data       |
 | cachetables                    | Internal, not user data       |
-| cacheinvalidation              |        |
-| cc_template                    |        |
+| cacheinvalidation              | Internal, not user data       |
+| cc_template                    | Configuration       |
 | config                         | Internal, not user data       |
 | configurablescreendelta        | Internal, not user data       |
 | connectionconfigfield          | Internal, not user data       |
 | countervalue                   | SAINT data, very large table       |
 | credentials                    | Credential information       |
-| cust_config                    |        |
-| dashboard                      |        |
-| dashboard_theme                |        |
-| dashboard_tile                 |        |
-| dashboard_tile_definition      |        |
-| dashboard_tile_field           |        |
+| cust_config                    | Configuration, not user data       |
+| dashboard                      | Configuration, not user data         |
+| dashboard_theme                | Configuration, not user data         |
+| dashboard_tile                 | Configuration, not user data         |
+| dashboard_tile_definition      | Configuration, not user data         |
+| dashboard_tile_field           | Configuration, not user data         |
 | dbi_agent                      | Not used in Online       |
 | dbi_agent_field                | Not used in Online       |
 | dbi_agent_schedule             | Not used in Online       |
 | email_account                  | Private information       |
 | email_folder                   | Private information       |
-| service_auth                   |        |
+| service_auth                   | Authentication for Service mail       |
 | email_item                     | Private information       |
 | email_attachment               | Private information       |
 | erpsynclog                     | Configuration, not user data       |
 | foreignapp                     | Internal, not user data       |
 | foreigndevice                  | Internal, not user data       |
 | foreignkey                     | Internal, not user data       |
-| form_keys                      |        |
+| form_keys                      | Internal, not user data       |
 | freetextindex                  | Search index, high volume, internal       |
 | freetextstopwords              | Search index, high volume, internal       |
 | freetextwords                  | Search index, high volume, internal       |
@@ -65,22 +67,22 @@ Tables not mirrored might have a reason specified in the "reason” field. This 
 | importfield                    | Internal configuration, not user data       |
 | importobject                   | Internal configuration, not user data       |
 | importrelation                 | Internal configuration, not user data       |
-| item_config                    |        |
+| item_config                    | Internal configuration, not user data       |
 | inbox                          | Internal, not user data       |
 | licenseassoclink               | Internal configuration, not user data       |
 | licenssatllink                 | Internal configuration, not user data       |
 | locking                        | Internal, not user data       |
-| log_events                     |        |
+| log_events                     | Internal       |
 | login                          | Internal session info, not user data. Sensitive.       |
 | login_customer                 | Internal session info, not user data. Sensitive.       |
-| kb_entry_words                 |        |
+| kb_entry_words                 | Internal, not user data       |
 | mergemovelog                   | Internal operation tracking, not user data. Merge and Move operation consequences are mirrored       |
 | message                        | Internal configuration, not user data       |
 | messagehandler                 | Internal configuration, not user data       |
 | modulelicense                  | Internal configuration, not user data       |
 | moduleowner                    | Internal configuration, not user data       |
-| notice_frame                   |        |
-| notify                         |        |
+| notice_frame                   | Internal, not user data       |
+| notify                         | Internal, not user data       |
 | olefield                       | Internal configuration, not user data       |
 | olefieldtext                   | Internal configuration, not user data       |
 | olesubject                     | Internal configuration, not user data       |
@@ -92,7 +94,7 @@ Tables not mirrored might have a reason specified in the "reason” field. This 
 | prefdescline                   | Internal configuration, not user data       |
 | registry                       | Internal, not user data       |
 | satellite                      | Part of travel       |
-| script_run_trace               |        |
+| script_run_trace               | Debug info, large turnover, not user data       |
 | searchcriteria                 | Internal configuration, not user data       |
 | searchcriteriagroup            | Internal configuration, not user data       |
 | searchcriterion                | Internal configuration, not user data       |
@@ -111,8 +113,6 @@ Tables not mirrored might have a reason specified in the "reason” field. This 
 | superlistcolumnsize            | Internal configuration, not user data       |
 | systemevent                    | Internal configuration, not user data       |
 | taborder                       | Internal configuration, not user data       |
-| ticket_log_action              |        |
-| ticket_log_change              |        |
 | timestamps                     | Internal configuration, not user data       |
 | travelcurrent                  | Part of Travel       |
 | travelgenerateddatabase        | Part of Travel       |
@@ -123,7 +123,7 @@ Tables not mirrored might have a reason specified in the "reason” field. This 
 | trayapp                        | Internal configuration, not user data       |
 | udtempsmall                    | Temporary table for udef moves, not needed       |
 | udtemplarge                    | Temporary table for udef moves, not needed       |
-| usagestats                     |        |
+| usagestats                     | Internal, not user data       |
 | userpreference                 | Very high change volume and generally internal. Implement the OnReplicationCompleted method in IMirrorAdmin, and call PreferenceAgent on the customer site to obtain those preferences that are needed.       |
 | user_attribute                 | Internal configuration, not user data       |
 | user_candidate                 | Internal configuration, not user data       |

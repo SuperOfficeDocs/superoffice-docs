@@ -1,0 +1,11 @@
+title Start WebTools - CRM 10.2.11 and later
+
+participant WebTools as wt
+participant CRM as c
+
+loop foreach site in siteinfos
+    wt->+c: Connect with credentials + IIS auth
+    c->-wt: Ticket
+end
+
+note over wt: WebTools is now running\n and ready to accept commands from the web client.
