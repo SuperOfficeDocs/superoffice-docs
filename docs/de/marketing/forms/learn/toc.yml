@@ -6,6 +6,8 @@ items:
 - name: Mit Formularen arbeiten
   topicHref: form-templates.md
   items:
+  - name: Überblick
+    href: form-templates.md
   - name: Neues Formular erstellen
     href: create.md
   - name: Feldoptionen
@@ -19,6 +21,8 @@ items:
 - name: Formularübermittlungen
   topicHref: submissions/index.md
   items:
+  - name: Überblick
+    href: submissions/index.md
   - name: Formularübermittlungen überwachen und Statistiken anzeigen
     href: submissions/track.md
   - name: Formularübermittlungen verarbeiten
