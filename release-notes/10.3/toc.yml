@@ -1,0 +1,31 @@
+items:
+- name: Introduction
+  href: index.md
+- name: Core CRM
+  href: core-crm/index.md
+  items:
+  - name: 10.3.1 update
+    href: core-crm/10.3.1-update.md
+- name: Settings and Maintenance
+  href: admin/index.md
+  items:
+  - name: 10.3.1 update
+    href: admin/10.3.1-update.md
+- name: Service
+  href: service/index.md
+  items:
+  - name: 10.3.1 update
+    href: service/10.3.1-update.md
+#- name: Marketing
+#  href: marketing/index.md
+#- name: CEP
+#  href: cep/index.md
+#- name: Office integrations
+#  href: office-integrations/index.md
+- name: API
+  href: api/index.md
+#  items:
+#  - name: 10.3.1 update
+#    href: api/10.0.1-update.md
+#- name: Developer Products
+#  href: development-products/index.md
