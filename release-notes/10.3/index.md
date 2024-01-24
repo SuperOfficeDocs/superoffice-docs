@@ -21,25 +21,21 @@ so.topic: reference
 
 * 10.3.1 (26.01.2024):
   * [Dashboard - Requests dashboard and tiles (10.3.1)][2] in Core CRM and Service
-  * [Dashboard - Request tiles (10.3.1)][2] in Core CRM and Service
   * [Web panel setting for reload on navigation (10.3.1)][1] in Settings and maintenance
   * [System design - Creating new field gives option to show in Properties panel (10.3.1)][1] in Settings and maintenance
-  * [Right click to take ownership of requests (10.3.1)][3] in Service
-  * [Show Company SAINT status monitor on the Request screen (10.3.1)][3] in Service
+  * [Right-click to take ownership of requests (10.3.1)][3] in Service
+  * [Show SAINT status monitor on Requests screen (10.3.1)][3] in Service
   * [System design - Creating new field gives option to show in Properties panel (10.3.1)][3] for Service
 
 ### Mobile CRM
 
-* [Request type for requests (10.2.16)][4]
+* Version 10.2.16 released
 
 ### Office integrations
 
 * Nothing new
 
 ### Other highlights
-
-* **Developer Portal**
-  * A none-partner user can be added
 
 * **SuperOffice App store** - [New or updated apps][5]
   * [AccountView for SuperOffice (18.12.2023)][6]
@@ -53,7 +49,6 @@ so.topic: reference
 [1]: admin/10.3.1-update.md
 [2]: core-crm/10.3.1-update.md
 [3]: service/10.3.1-update.md
-[4]: ../mobile/10.2.16-update.md
 [5]: https://appstore.superoffice.com/Category/new-or-updated1
 [6]: https://appstore.superoffice.com/all-crm/accountview-for-superoffice
 [7]: https://appstore.superoffice.com/keyforce-as/visma-business-nxt-quote
