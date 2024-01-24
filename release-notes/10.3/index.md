@@ -20,8 +20,8 @@ so.topic: reference
 ### SuperOffice CRM
 
 * 10.3.1 (26.01.2024):
-  * [Dashboard - Requests dashboard and tiles (10.3.1)][2] in Core CRM
-  * [Dashboard - Request tiles (10.3.1)][2] in Core CRM
+  * [Dashboard - Requests dashboard and tiles (10.3.1)][2] in Core CRM and Service
+  * [Dashboard - Request tiles (10.3.1)][2] in Core CRM and Service
   * [Web panel setting for reload on navigation (10.3.1)][1] in Settings and maintenance
   * [System design - Creating new field gives option to show in Properties panel (10.3.1)][1] in Settings and maintenance
   * [Right click to take ownership of requests (10.3.1)][3] in Service

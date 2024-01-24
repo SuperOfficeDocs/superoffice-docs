@@ -11,7 +11,7 @@ so.topic: reference
 
 # New and improved Core CRM
 
-* [Dashboard - Requests dashboard and tiles (10.3.1)][1]
+* [Dashboard - Requests dashboard (10.3.1)][1]
 * [Dashboard - Request tiles (10.3.1)][1]
 
 <!-- Referenced links-->
