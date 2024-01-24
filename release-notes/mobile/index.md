@@ -16,7 +16,6 @@ so.audience.tooltip: SuperOffice Mobile CRM
 
 ## Version 10.2
 
-* [Request types (10.2.16)][33]
 * [Drill down on Dashboard (10.2.12)][32]
 * [Request with sale and project fields (10.2.11)][31]
 * [Filter icon on Task button in lists (10.2.10)][30]
@@ -70,4 +69,3 @@ so.audience.tooltip: SuperOffice Mobile CRM
 [30]: 10.2.10-update.md
 [31]: 10.2.11-update.md
 [32]: 10.2.12-update.md
-[33]: 10.2.16-update.md
