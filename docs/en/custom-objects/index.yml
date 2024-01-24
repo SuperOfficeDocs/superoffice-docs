@@ -1,166 +1,135 @@
-### YamlMime:Category
+### YamlMime:SubCategory
 
 title: Custom fields
 summary: User-defined fields, extra tables, and extra fields
-brand: devdocs
 
 metadata:
   title: Custom fields
   description: User-defined fields, extra tables, and extra fields
-  so.product: superoffice
   so.topic: hub-page
-  so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 01.18.2024
+  so.date: 01.24.2024
 
-# highlightedContent section (optional)
-# Maximum of 8 items
-highlightedContent:
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
-  items:
-    # Card
-    - title: User guide
-      itemType: library_books
-      typeDesc: reference
-      url: learn/index.md
 
-# conceptualContent section (optional)
-conceptualContent:
-# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
-# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
-  title: "" # < 60 chars (optional)
-  summary: ""
-  items:
+# PLEASE PAY ATTENTION TO INDENTATION
+landingContent:
   # Card
-    - title: Learn the essentials
-      summary: ""
-      links:
-      - text: How to create a user-defined field
-        itemType: school
-        typeDesc: learn
-        url: admin/add-udef.md
-      - text: How to create an extra field
-        itemType: school
-        typeDesc: learn
-        url: admin/create-extra-field.md
-
-    # Card
-    - title: Videos
-      summary: ""
-      links:
-      - text: How to add a user-defined field
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=SpeZVxpxeMM
-      - text: How to filter information
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=HYYI4ZCl4S4&t=29s
-
-    # Card
-    - title: Configuration options
-      summary: ""
-      links:
-        - text: User preferences
-          itemType: library_books
-          typeDesc: reference
-          url: ../admin/user-preferences/index.md
-        - text: Lists - Project status
-          itemType: list
-          typeDesc: how-to-guide
-          url: ../admin/lists/learn/project-status.md
-        - text: Lists - Project type status
-          itemType: list
-          typeDesc: how-to-guide
-          url: ../admin/lists/learn/project-type.md
-
-    # Card
-    - title: UI options
-      summary: ""
-      links:
-      - text: Web panels
-        itemType: map
-        typeDesc: overview
-        url: ../ui/web-panels/index.md
-      - text: SoProtocol
-        itemType: explore
+  - title: Introduction
+    linkLists:
+      - itemType: library_books
         typeDesc: concept
-        url: ../ui/soprotocol/index.md
-      - text: bLogic - select extra field
-        itemType: library_books
-        typeDesc: reference
-        url: ../ui/blogic/reference/select-extra-field.md
+        links:
+        - text: Introduction to custom objects
+          url: learn/index.md
+        - text: User-defined fields
+          url: learn/udef.md
+        - text: Extra tables
+          url: learn/extra-table.md
+        - text: Extra fields
+          url: learn/extra-field.md
 
-    # Card
-    - title: Data options
-      summary: ""
-      links:
-      - text: Custom fields
-        itemType: map
-        typeDesc: overview
-        url: overview.md
-
-    # Card
-    - title: Actions options
-      summary: ""
-      links:
-      - text: Overview
-        itemType: map
-        typeDesc: overview
-        url: ../automation/index.yml
-      - text: Triggers
-        itemType: explore
-        typeDesc: concept
-        url: ../automation/trigger/index.md
-
-    # Card
-    - title: API options
-      summary: ""
-      links:
-      - text: CRMScript
-        itemType: explore
-        typeDesc: concept
-        url: ../automation/crmscript/howto/custom-objects/index.md
-      - text: Web services
-        itemType: list
+  # Card
+  - title: Create custom fields and objects
+    linkLists:
+      - itemType: list
         typeDesc: how-to-guide
+        links:
+        - text: How to create a user-defined field
+          url: admin/add-udef.md
+        - text: Add extra table
+          url: admin/create-extra-table.md
+        - text: How to create an extra field
+          url: admin/create-extra-field.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: How to add a user-defined field
+          url: https://www.youtube.com/watch?v=SpeZVxpxeMM
+
+  # Card
+  - title: UI customization
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Screen Designer
+          url: ../ui/screen-designer/learn/index.md
+        - text: Web panels
+          url: ../ui/web-panels/index.md
+        - text: SoProtocol
+          url: ../ui/soprotocol/index.md
+        - text: Custom screens (bLogic)
+          url: ../ui/blogic/custom-screens/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Show extra field to the Details tab
+          url: ../admin/show-extra-field-on-request-details
+        - text: Customize layout of user-defined fields
+          url: ../admin/edit-udef-layout.md
+        - text: Choose page-1 fields
+          url: ../admin/edit-udef-layout.md#page-1
+        - text: bLogic - select extra field
+          url: ../ui/blogic/reference/select-extra-field.md
+
+  # Card
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overview
+          url: ../automation/crmscript/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Get, update, search, convert udef
+          url: ../automation/crmscript/howto/custom-objects/udef.md
+        - text: Working with extra fields
+          url: ../automation/crmscript/howto/custom-objects/extra-field.md
+        - text: Sorting CS extra fields list values
+          url: ../automation/crmscript/howto/custom-objects/sort-extra-field-values.md
+        - text: Add data to a new table
+          url: ../automation/crmscript/howto/custom-objects/extra-table.md
+
+  # Card
+  - title: API options
+    linkLists:
+    - itemType: explore
+      typeDesc: concept
+      links:
+      - text: Technical overview
+        url: ../api/overview/custom-database-schema/index.md
+    - itemType: list
+      typeDesc: how-to-guide
+      links:
+      - text: Web services
         url: ../api/web-services/howto/custom-objects/set-udef-listitem-value.md
       - text: Entities
-        itemType: list
-        typeDesc: how-to-guide
         url: ../api/entity/howto/custom-objects/set-udef-listitem-value.md
       - text: Raw SQL
-        itemType: list
-        typeDesc: how-to-guide
         url: ../api/sql/howto/custom-objects/set-udef.md
 
-    # Card
-    - title: Database options
-      summary: ""
+  # Card
+  - title: Database tables
+    linkLists:
+    - itemType: library_books
+      typeDesc: reference
       links:
       - text: Udeffield table
-        itemType: library_books
-        typeDesc: reference
         url: ../database/tables/udeffield.md
       - text: udpersonsmall table
-        itemType: library_books
-        typeDesc: reference
         url: ../database/tables/udpersonsmall.md
       - text: udpersonlarge table
-        itemType: library_books
-        typeDesc: reference
         url: ../database/tables/udpersonlarge.md
       - text: udlist table
-        itemType: library_books
-        typeDesc: reference
         url: ../database/tables/udlist.md
       - text: extra_tables table
-        itemType: library_books
-        typeDesc: reference
         url: ../database/tables/extra-tables.md
       - text: extra_fields table
-        itemType: library_books
-        typeDesc: reference
         url: ../database/tables/extra-fields.md
+
+  # Add another card here, and so on
