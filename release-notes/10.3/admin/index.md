@@ -1,11 +1,11 @@
 ---
-title: What's new in SuperOffice 10.3
 uid: news-admin-10.3
+title: What's new in SuperOffice 10.3
 description: Release notes. What's new in SuperOffice 10.3
 author: SuperOffice AS – Research and Development
-so.date: 
-keywords: Settings and maintenance
+so.date: 01.26.2024
 so.version: 10.3
+keywords: Settings and maintenance, system design, web panel
 so.topic: reference
 ---
 

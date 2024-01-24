@@ -1,12 +1,12 @@
 ---
+uid: release-notes-10.3
 title: What's new in SuperOffice 10.3
-uid: 10.3
 description: Release notes - What's new in SuperOffice 10.3
 author: SuperOffice AS – Research and Development
-so.date: 2024.01.22
+so.date: 01.26.2024
+so.version: 10.3
 keywords: web panel, system design, dashboard, request, SAINT
 so.topic: reference
-so.version: 10.3
 ---
 
 # What's new in SuperOffice 10.3
@@ -20,11 +20,11 @@ so.version: 10.3
 ### SuperOffice CRM
 
 * 10.3.1 (26.01.2024):
-  * [Web panel setting for reload on navigation (10.3.1)][1] in Settings and maintenance
-  * [System design - Creating new field gives option to show in Properties panel (10.3.1)][1] in Settings and maintenance
   * [Dashboard - Requests dashboard and tiles (10.3.1)][2] in Core CRM
   * [Dashboard - Request tiles (10.3.1)][2] in Core CRM
-  * [Right click to take ownership of request(s) (10.3.1)][3] in Service
+  * [Web panel setting for reload on navigation (10.3.1)][1] in Settings and maintenance
+  * [System design - Creating new field gives option to show in Properties panel (10.3.1)][1] in Settings and maintenance
+  * [Right click to take ownership of requests (10.3.1)][3] in Service
   * [Show Company SAINT status monitor on the Request screen (10.3.1)][3] in Service
   * [System design - Creating new field gives option to show in Properties panel (10.3.1)][3] for Service
 

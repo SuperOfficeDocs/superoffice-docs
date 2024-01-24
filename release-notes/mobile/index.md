@@ -3,13 +3,10 @@ title: New and improved mobile
 uid: news-mobile-crm
 description: Release notes. What's new in SuperOffice mobile CRM
 author: SuperOffice AS – Research and Development
-so.date: 09.19.2023
-keywords: mobile, CallerID, notification, request, ticket, quote, custom tasks, new button, SharePoint, filter, request, dashboard
-so.topic: reference
-so.client: mobile
-so.audience: person
-so.audience.tooltip: SuperOffice Mobile CRM
+so.date: 01.24.2024
 so.version.mobile: 10.2
+keywords: mobile, CallerID, notification, request, ticket, quote, custom task, new button, SharePoint, filter, request, dashboard
+so.topic: reference
 so.client: mobile
 so.audience: person
 so.audience.tooltip: SuperOffice Mobile CRM
@@ -19,7 +16,7 @@ so.audience.tooltip: SuperOffice Mobile CRM
 
 ## Version 10.2
 
-* [Request type for requests (10.2.16)][33]
+* [Request types (10.2.16)][33]
 * [Drill down on Dashboard (10.2.12)][32]
 * [Request with sale and project fields (10.2.11)][31]
 * [Filter icon on Task button in lists (10.2.10)][30]

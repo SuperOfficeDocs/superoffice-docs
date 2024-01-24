@@ -3,15 +3,15 @@ title: What's new in SuperOffice 10.3
 uid: news-core-10.3
 description: Release notes. What's new in SuperOffice 10.3
 author: SuperOffice AS – Research and Development
-so.date: 
-keywords: service
+so.date: 01.26.2024
 so.version: 10.3
+keywords: Service
 so.topic: reference
 ---
 
 # New and improved Service
 
-* [Right click to take ownership of request(s) (10.3.1)][1]
+* [Right click to take ownership of requests (10.3.1)][1]
 * [Show Company SAINT status monitor on the Request screen (10.3.1)][1]
 * [System design - Creating new field gives option to show in Properties panel (10.3.1)][2]
 

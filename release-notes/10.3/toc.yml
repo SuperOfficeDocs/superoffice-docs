@@ -18,26 +18,14 @@ items:
     href: service/10.3.1-update.md
 #- name: Marketing
 #  href: marketing/index.md
-#  items:
-#  - name: 10.3.1 update
-#    href: marketing/10.0.4-update.md
 #- name: CEP
 #  href: cep/index.md
-#  items:
-#  - name: 10.3.1 update
-#    href: cep/10.0.2-update.md
 #- name: Office integrations
 #  href: office-integrations/index.md
-#  items:
-#  - name: 10.3.1 update
-#    href: office-integrations/10.3.1-update.md
 - name: API
   href: api/index.md
-  items:
-  - name: 10.3.1 update
-    href: api/10.0.1-update.md
-#- name: Developer Products
-#  href: development-products/index.md
 #  items:
 #  - name: 10.3.1 update
-#    href: development-products/10.3.1-update.md
+#    href: api/10.0.1-update.md
+#- name: Developer Products
+#  href: development-products/index.md

@@ -3,7 +3,7 @@ uid: release-notes
 title: What's new in SuperOffice
 description: Release notes. Here you will find all the small and big changes that has been released for SuperOffice in the different versions.
 author: SuperOffice AS – Research and Development
-so.date: 10.20.2023
+so.date: 01.24.2024
 so.topic: reference
 ---
 
@@ -25,7 +25,7 @@ The latest release is [**version 10.3.1**][8] - 26.01.2024.
 
 ## Mobile CRM versions
 
-The latest release is [**version 10.2.16**][6] - 11.01.2024.
+The latest release is [**version 10.2.16**][7] - 11.01.2024.
 
 * [10.0 - 10.2][7]
 
