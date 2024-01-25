@@ -17,7 +17,7 @@ After you create an [extra table][1], you must set up fields in the table, to al
 
 ## Steps
 
-1. [!include[Go to tables](../includes/goto-tables.md)]
+1. [!include[Go to tables](includes/goto-tables.md)]
 
 1. Browse to your desired table, point at the table name, and click **New field**.
 

@@ -17,7 +17,7 @@ You can create extra database tables to register different types of data in Supe
 
 ## Steps
 
-1. [!include[Go to tables](../includes/goto-tables.md)]
+1. [!include[Go to tables](includes/goto-tables.md)]
 
 1. Click **New table**.
 

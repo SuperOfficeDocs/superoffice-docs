@@ -13,7 +13,7 @@ language: en
 
 # Edit user-defined field
 
-1. [!include[Go to fields and select tab](../includes/goto-fields.md)]
+1. [!include[Go to fields and select tab](includes/goto-fields.md)]
 
 1. Double-click the required field in the **Fields** list.
 

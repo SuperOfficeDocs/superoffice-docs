@@ -20,7 +20,7 @@ Watch this video to find out how you can create your own extra fields in SuperOf
 
 ## Steps
 
-1. [!include[Go to fields and select tab](../includes/goto-fields.md)]
+1. [!include[Go to fields and select tab](includes/goto-fields.md)]
 
 1. Click the **Add** button below the **Fields** list.
 
