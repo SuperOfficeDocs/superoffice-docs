@@ -2,8 +2,9 @@
 uid: help-no-extra-table-create
 title:  Definere ekstratabeller
 description:  Definere ekstratabeller
-author: Hanne Gunnarsson
-so.date: 03.29.2023
+author: Bergfrid Dias
+so.date: 01.25.2024
+so.version: 10
 keywords: ekstra tabell, systemdesign
 so.topic: howto
 so.audience: settings
@@ -13,22 +14,34 @@ language: no
 
 # Legge til ekstra tabeller
 
-Du kan opprette ekstra tabeller i SuperOffice for å registrere ulike typer data. Når du har opprettet tabellen og [opprettet ekstra felt][1] i den, kan du åpne tabellen for å legge til innhold ved å gå til **Systemdesign** > **Tabeller**, peke på tabellen, og deretter klikke på knappen ![ikon][img1].
+Du kan opprette ekstra tabeller i SuperOffice for å registrere ulike typer data. Når du har opprettet tabellen og [opprettet ekstrafelt][1] i den, kan du åpne tabellen for å legge til innhold.
 
-> [!NOTE]
-> I SuperOffice CRM kan du opprette nettleserfaner som kan inneholde tabellinformasjon. For å angi de relevante tilgangsrettighetene må brukeren tilhøre en rolle som har de funksjonelle rettighetene **Liste opp tabeller** og **Rediger tabeller**.
+## Trinn
 
-**Trinn:**
+1. [!include[Gå til tabeller](includes/goto-tables.md)]
 
-1. Gå til **Tabeller**-bildet.
+1. Klikk på **Ny tabell**.
 
-    * I Innstillinger og vedlikehold: Klikk på ![ikon][img3] **Systemdesign**-knappen i navigatoren. Velg deretter **Tabeller**-fanen.
+    ![Opprett ekstra tabell -screenshot][img1]
 
-2. Klikk på knappen ![ikon][img4]. Bildet **Egenskaper for tabell** vises.
+1. I bildet **Egenskaper for tabell** skriv inn data om den nye tabellen.
 
-3. I bildet **Egenskaper for tabell** angir du informasjon om den nye tabellen. Se detaljer om feltene nedenfor.
+    * Skriv inn et *navn* som skal brukes som ledetekst.
+    * Skriv inn en *databasetabell* som begynner med **y_** for å identifisere tabellen i skjemaet.
+    * Valgfritt sett andre egenskaper. Se detaljer om feltene nedenfor.
 
-4. Klikk på **OK** for å lagre den nye tabellen.
+    > [!MERK]
+    > Noen tabelleegenskaper kan ikke settes før du har lagt til felt.
+
+1. Klikk på **OK** for å lagre den nye tabellen (kjører `create table y_mynewtable ...`).
+
+1. [Legg til felt i din nye tabell][1].
+
+1. Valgfritt, juster tabelleegenskaper som sorteringsrekkefølge. (Klikk på tabellnavnet i listen for å gå inn i redigeringsmodus.)
+
+1. Klikk **Start NetServer om igjen** når du er ferdig. Hvis Travel er aktivert, vil du også se en melding om at en ny Travel-database må genereres.
+
+Du kan nå åpne tabellen i brukergrensesnittet for å legge til innhold i den **eller** fylle den via APIene.
 
 ## Felt
 
@@ -46,16 +59,14 @@ Du kan opprette ekstra tabeller i SuperOffice for å registrere ulike typer data
 | Overordnet felt | Dette feltet brukes i forbindelse med hierarkisk organiserte tabeller. |
 | Fullstendig navn |  Hvis dette er en hierarkisk organisert tabell, kan dette feltet angi et felt som automatisk oppdateres med postens fullstendige navn basert på navnefeltet for denne posten, og alle overordnede poster. |
 | Skjul ID-felt | Hvis du merker av for dette alternativet, vises ikke ID-feltet når poster føres opp i tabellen. |
-| Skjul tabellen | Hvis denne er merket, vil ikke tabellen være synlig fra ![ikon][img3] **Systemdesign** > **Tabeller**. |
+| Skjul tabellen | Hvis denne er merket, vil ikke tabellen være synlig fra **Systemdesign** > **Tabeller**. |
 
-## Hva vil du gjøre nå?
+## Vis tabell i nettleserfane
 
-* [Definere ekstrafelt][1]
+I SuperOffice CRM kan du opprette nettleserfaner som kan inneholde tabellinformasjon. For å angi de relevante tilgangsrettighetene må brukeren tilhøre en rolle som har de funksjonelle rettighetene **Liste opp tabeller** og **Rediger tabeller**.
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/service/new-field.png
-[img3]: ../../../../common/icons/nav-admin-systemdesign-active.png
-[img4]: ../../../media/icons/service/new-table.png
+[img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

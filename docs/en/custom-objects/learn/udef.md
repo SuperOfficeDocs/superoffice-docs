@@ -4,6 +4,7 @@ title: User-defined fields explained
 description: Introduction to user-defined fields in SuperOffice
 author: Bergfrid Dias
 so.date: 01.16.2024
+so-version: 10
 keywords: udef, custom objects, custom fields, user-defined field
 so.topic: concept
 language: en
@@ -13,7 +14,7 @@ so.audience.tooltip: SuperOffice CRM
 
 # User-defined fields
 
-A *user-defined* field (udef) is a custom field that you add to an existing SuperOffice database table. You can extend the following entities:
+A *user-defined* field (udef) is a custom field that you add to a standard SuperOffice database table. You can extend the following entities:
 
 * Company
 * Contact

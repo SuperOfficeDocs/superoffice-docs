@@ -4,6 +4,7 @@ title:  Add extra table
 description: How to define extra tables in SuperOffice
 author: Bergfrid Dias
 so.date: 01.18.2024
+so.version: 10
 keywords: extra table, custom object
 so.topic: howto
 so.audience: settings

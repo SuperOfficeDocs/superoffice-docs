@@ -4,6 +4,7 @@ title: Third-party tables
 descripotion: Introduction to SuperOffice extra tables
 author: Bergfrid Dias
 so.date: 01.16.2024
+so.version: 10
 keywords: database, extra table, custom object
 so.topic: concept
 language: en

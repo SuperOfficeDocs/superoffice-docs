@@ -4,6 +4,7 @@ title: Add extra fields
 description: How to define extra fields in SuperOffice
 author: Bergfrid Dias
 so.date: 01.18.2024
+so.version: 10
 keywords: extra field, custom field
 so.topic: howto
 so.audience: settings
@@ -25,11 +26,11 @@ After you create an [extra table][1], you must set up fields in the table, to al
 
 1. Select a type for the new field and click **OK**.
 
-1. In the **Field properties** screen, enter data about the new field. The available properties depend on the type of extra field (specified in step 3).
+1. In the **Field properties** screen, enter data about the new field.
 
     * Enter a *name* to be used as the label.
-    * Enter a *database field* beginning with **x_** to identify it in the schema.
-    * Optionally set other properties. The type determines what is available. Se details about the fields below.
+    * Enter a *database field* beginning with **x_** to identify the field in the schema.
+    * Optionally set other properties. The type (specified in step 3) determines what is available. Se details about the fields below.
 
     > [!TIP]
     > To make a field mandatory, select **Cannot be empty**.

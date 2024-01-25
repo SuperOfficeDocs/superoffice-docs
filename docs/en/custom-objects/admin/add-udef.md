@@ -4,6 +4,7 @@ title: Add user-defined field
 description: How to add a user-defined field in Settings and maintenance
 author: Bergfrid Dias
 so.date: 01.18.2024
+so.version: 10
 keywords: udef, user-defined, custom field
 so.topic: howto
 so.audience: settings
@@ -26,8 +27,7 @@ Watch this video to find out how you can create your own extra fields in SuperOf
 
 1. Enter a **Name** and select a [**Type**][2] (for example number, text, or date).
 
-1. Optionally set other [field properties](#properties), such as whether the field
- is mandatory or should be indexed.
+1. Optionally set other [field properties](#properties), such as whether the field is mandatory or should be indexed.
 
 1. When you are done, click **Save**. The dialog closes and the new field is displayed in the **Fields** list and in the grid.
 

@@ -4,6 +4,7 @@ title: Custom objects
 description: Introduction to database schema customizations in SuperOffice
 author: Bergfrid Dias
 so.date: 01.16.2024
+so.version: 10
 keywords: custom object, table, field, user-defined field, udef, custom field, extra field, extra table
 so.topic: concept
 language: en
