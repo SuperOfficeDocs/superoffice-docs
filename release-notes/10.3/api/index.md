@@ -10,3 +10,5 @@ so.topic: reference
 ---
 
 # API changes
+
+[!include[Generated changelog](includes/changes-10.3.1.759.md)]
