@@ -1,7 +1,7 @@
 ---
 uid: help-no-extra-table-create
-title:  Definere ekstratabeller
-description:  Definere ekstratabeller
+title: Legge til ekstra tabeller
+description: Legge til ekstra tabeller
 author: Bergfrid Dias
 so.date: 01.25.2024
 so.version: 10
@@ -49,7 +49,7 @@ Du kan nå åpne tabellen i brukergrensesnittet for å legge til innhold i den *
 |---|---|
 | Mappe | Hvis du vil legge tabellen i en eksisterende mappe, velger du en mappe fra listen. |
 | Navn | Tabellens navn. |
-| Databasetabell   Navnet på databasetabellen. Kan bare angis ved opprettelse, og kan ikke endres. Tabellnavnet kan bare inneholde understrek, bokstavene a–z og tall, og navnet må starte med "y_". Det er lurt å bruke et logisk navn, slik at det er lett å skjønne hva databasen inneholder. |
+| Databasetabell | Navnet på databasetabellen. Kan bare angis ved opprettelse, og kan ikke endres. Tabellnavnet kan bare inneholde understrek, bokstavene a–z og tall, og navnet må starte med "y_". Det er lurt å bruke et logisk navn, slik at det er lett å skjønne hva databasen inneholder. |
 | Overskrift for søk | Overskriften som brukes i søkebildet for denne tabellen. |
 | Overskrift for visning av datapost | Overskriften som brukes når du viser en oppføring i denne tabellen. |
 | Overskrift for ny post | Overskriften som brukes når du oppretter en ny oppføring i denne tabellen. |

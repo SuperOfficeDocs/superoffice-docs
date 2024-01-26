@@ -1,13 +1,13 @@
 ---
-uid: help-no-extra-field
+uid: help-da-extra-field
 title: Ekstrafelt
 description: Et ekstrafelt er et tilpasset felt som du legger til i en eksisterende SuperOffice-databasetabell i Service.
 author: Bergfrid Dias
-so.date: 01.25.2024
+so.date: 01.26.2024
 so.version: 10
 keywords: ekstrafelt, tilpasset felt, Service
 so.topic: concept
-language: no
+language: da
 so.audience: user
 so.audience.tooltip: SuperOffice CRM
 ---
@@ -15,6 +15,41 @@ so.audience.tooltip: SuperOffice CRM
 # Ekstrafelt
 
 [!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+
+En *ekstra felt* er et brugerdefineret felt, du tilføjer til en eksisterende SuperOffice-databasetabel. Du kan udvide følgende enheder:
+
+* Kategori
+* Firma
+* Kontakt
+* FAQ-kategori og -indgang
+* Besked
+* Anmodning
+* Bruger
+* Dine [brugerdefinerede tabeller][6]
+
+> [!NOTE]
+> Ekstra felter på virksomhed eller kontakt er ikke det samme som brugerdefinerede felter på disse enheder!
+
+Ekstra felter administreres i **Indstillinger og vedligeholdelse**, på **Tabeller**-skærmen.
+
+## <a id="field-types" />Felttyper
+
+* Bool (ja/nej)
+* Heltal
+* Flydende tal
+* Tekst (kort)
+* Tekst (lang)
+* Dato
+* Dato og tid
+* Tid
+* Tidsrum
+* Vedhæftning
+* Dynamisk link
+
+Desuden har hver enhed en relations type. For eksempel *kontaktrelationen*.
+
+I modsætning til brugerdefinerede felter tilføjes ekstra felter som faktiske felter til databasetabellerne. Der er ingen foruddefinerede pladser, du skal tage hensyn til, og i princippet ingen begrænsninger.
+
 
 Et *ekstra felt* er et tilpasset felt som du legger til i en eksisterende SuperOffice-databasetabell. Du kan utvide følgende enheter:
 
@@ -32,27 +67,9 @@ Et *ekstra felt* er et tilpasset felt som du legger til i en eksisterende SuperO
 
 Ekstrafelt administreres i **Innstillinger og vedlikehold** > **Tabeller**.
 
-## <a id="field-types" />Felttyper
+### Relasjoner (fremmednøgler, FK)
 
-* Sannhetsverdi (ja/nei)
-* Heltall
-* Flyttall
-* Tekststreng (kort)
-* Tekststreng (lang)
-* Dato
-* Dato og klokkeslett
-* Klokkeslett
-* Tidsintervall
-* Vedlegg
-* Dynamisk kobling
-
-I tillegg har hver enhet en relasjonstype. For eksempel *personrelasjonen*.
-
-I motsetning til brukerdefinerte felt, legges ekstra felt til som faktiske felt i databasetabellene. Det er ingen forhåndsdefinerte spor du må ta hensyn til, og i prinsippet ingen begrensninger.
-
-### Relasjoner (fremmednøkler, FK)
-
-Databasetabeller er koblet sammen med *fremmednøkler* (FK). Disse er felttypene som slutter på *relasjon*.
+Databasetabeller er koblet sammen med *fremmednøgler* (FK). Disse er felttypene som slutter på *relasjon*.
 
 * Personrelasjon
 * Firmarelasjon
@@ -73,7 +90,7 @@ Ekstrafelt kan for eksempel brukes som søkekriterier og kolonner i salg i Super
 ## Relatert innhold
 
 * [Vis ekstrafelt på detaljfanen][1]
-* [Opprett ekstra felt][2]
+* [Tilføj ekstra felter][2]
 
 <!-- Referenced links -->
 [1]: ../admin/show-extra-field-on-request-details.md

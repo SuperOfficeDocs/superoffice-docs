@@ -1,7 +1,7 @@
 ---
 uid: help-no-udef-add
-title: Legge til felt
-description: Legge til felt
+title: Legge til brukerdefinert felt
+description: Legge til brukerdefinert felt
 author: Bergfrid Dias
 so.date: 01.25.2024
 so.version: 10

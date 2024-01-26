@@ -2,28 +2,29 @@ items:
 - name: Oversigt
   href: index.md
 - name: Brugerdefinerede felter
-  topicHref: udef/index.md
+  topicHref: udef.md
   items:
   - name: Oversigt
-    href: udef/index.md
+    href: udef.md
   - name: Tilføj felt
-    href: udef/add.md
-  - name: Flyt felt
-    href: udef/move.md
-  - name: Rediger TAB-rækkefølgen på felterne
-    href: udef/change-tab-order.md
+    href: ../admin/add-udef.md
   - name: Rediger felt
-    href: udef/edit.md
-  - name: Side 1-felter
-    href: udef/page-1-fields.md
-  - name: Maksimalt antal felter
-    href: udef/limitations.md
-- name: Ekstra tabeller og felter
-  topicHref: extra-table/index.md
+    href: ../admin/edit-udef.md
+  - name: Tilpas brugergrænseflade
+    href: ../admin/edit-udef-layout.md
+- name: Ekstra tabeller
+  topicHref: extra-table.md
   items:
   - name: Oversigt
-    href: extra-table/index.md
+    href: extra-table.md
   - name: Tilføj ekstra tabeller
-    href: extra-table/create.md
+    href: ../admin/create-extra-table.md
+- name: Ekstrafelt
+  topicHref: extra-field.md
+  items:
+  - name: Oversigt
+    href: extra-field.md
   - name: Tilføj ekstra felter
-    href: extra-field/create.md
+    href: ../admin/create-extra-field.md
+#  - name: Show extra field on Details tab
+#    href: ../admin/show-extra-field-on-request-details

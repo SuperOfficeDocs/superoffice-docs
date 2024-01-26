@@ -15,7 +15,7 @@ so.audience.tooltip: Settings and maintenance
 
 ## Brugerdefinerede felter
 
-Alle virksomheder og organisationer har deres egne krav til de oplysninger, de har brug for at registrere vedrørende deres kontakter, salg, projekter, kontrakter og så videre. Du kan indtaste dine egne felter til SuperOffice CRM på skærmbilledet **Felter** . På denne måde kan du tilpasse den type oplysninger, der kan registreres vedrørende virksomheder, kontakter, projekter, salg, dokumenter og opfølgninger.
+Alle virksomheder og organisationer har deres egne krav til de oplysninger, de har brug for at registrere vedrørende deres kontakter, salg, projekter, kontrakter og så videre. Du kan indtaste dine egne felter til SuperOffice CRM på skærmbilledet **Felt** . På denne måde kan du tilpasse den type oplysninger, der kan registreres vedrørende virksomheder, kontakter, projekter, salg, dokumenter og opfølgninger.
 
 ## Brugerdefinerede felter og tabeller
 

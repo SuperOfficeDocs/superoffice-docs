@@ -2,7 +2,6 @@
 uid: help-no-extra-table
 title: Ekstra tabell
 description: Introduksjon til ekstra tabeller i SuperOffice,
-author: SuperOffice RnD
 author: Bergfrid Dias
 so.date: 01.25.2024
 so.version: 10

@@ -1,9 +1,10 @@
 ---
 uid: help-da-udef-add
-title: Tilføjelse af felter
-description: Tilføjelse af felter
+title: Tilføj brugerdefinerede felter
+description: Tilføj brugerdefinerede felter
 author: Bergfrid Dias
-so.date: 01.16.2024
+so.date: 01.25.2024
+so.version: 10
 keywords: udef, brugerdefineret, tilpasset felt
 so.topic: howto
 so.audience: settings
@@ -20,46 +21,46 @@ Se denne video for at finde ud af, hvordan du kan oprette dine egne ekstrafelter
 
 ## Trin
 
-1. [!include[Go to fields and select tab](../includes/goto-fields.md)]
+1. [!include[Gå til Felter og velg fane](includes/goto-fields.md)]
 
-1. Klik på knappen **Tilføj** under listen **Felter**.
+1. Klik på knappen **Tilføj** under listen **Felt**.
 
-1. Skriv det ønskede navn i feltet **Navn**.
+1. Indtast et **Navn** og vælg en [**Type**][2] (for eksempel nummer, tekst eller dato).
 
-1. På rullelisten **Type** vælger du den [felttype][6], du gerne vil tilføje (f.eks. tal, tekst eller dato).
+1. Indstil eventuelt andre [feltegenskaber](#properties), såsom om feltet er obligatorisk eller skal indekseres.
 
-1. Angiv den værdi, der som standard skal indsættes i dette felt, i feltet  **Standardværdi**.
+1. Når du er færdig, klik på **Gem**. Dialogboksen lukkes, og det nye felt vises i **Felt**-listen og i gitteret.
 
-1. I feltet **Værktøjstip** skal du skrive en kort beskrivelse, der skal vises, når musemarkøren holdes over feltet. Dette kan være en beskrivelse med oplysninger til de brugere, der skal bruge dette felt.
+1. [Valgfrit, justér feltets placering][3]. Dette kræver licensen Development Tools!
 
-1. Feltet **Prog-id** indeholder et standard-id for dette felt. Prog-id'et kan tilsidesættes af vores partnere for bedre forbindelse med partnerapplikationer. I stedet for at ændre deres kode kan de skrive et mere logisk navn eller et specifikt id til et brugerdefineret felt (UDEF).
+1. Fortsæt med at tilføje felter. Klik på **Udgiv**, når du er færdig, for at gøre feltet tilgængeligt for SuperOffice-brugere. Upublicerede felter ![ikon][img1] og felter med upublicerede ændringer ![ikon][img2] vises i fed tekst i listen **Felt**.
 
-1. Markér **Obligatorisk,** hvis det skal være obligatorisk at udfylde dette felt.
+## <a id="properties" />Feltegenskaber
 
-    > [!NOTE]
-    > Dette gælder ikke for felttypen **Afkrydsningsfelt.**
+| Egenskab | Beskrivelse |
+|---|---|
+| Standardværdi | Værdien, der skal indsættes som standard i dette felt. |
+| Værktøjstip | En kort beskrivelse, der vises, når musemarkøren holdes over feltet. For eksempel, brugsoplysninger. |
+| Prog-ID | En standard ID for dette felt. Formatet er **tekst:nummer**. For tekst, brug bogstaver a-z eller deres store bogstavækvivalenter. Kan tilsidesættes af SuperOffice-partnere. |
+| Obligatorisk | Gør det obligatorisk at udfylde dette felt. Gælder ikke for felttypen *Afkrydsningsfelt*. |
+| Skjul etiket | Hvis valgt, vises navnet på feltet ikke. |
+| Skrivebeskyttet | Hvis valgt, er det ikke muligt at ændre feltet. |
+| Indekseret | Hvis valgt, bliver dette felt søgbart og fremskynder **Find**. Der kan også søges i ikke-indekserede felter, men søgningen tager længere tid. Indekser kun felter, der ofte søges i og som indeholder almindeligt anvendte data. |
 
-1. Markér **Skjul etiket**, hvis navnet på feltet ikke skal vises.
+> [!NOTE]
+> Du kan ikke vælge **Skrivebeskyttet**, hvis du har valgt **Obligatorisk**. Disse muligheder udelukker hinanden.
 
-1. Markér **Skrivebeskyttet**, hvis du ikke ønsker, at det skal være muligt at ændre feltet.
+## Hvor vises de felter, jeg opretter?
 
-    > [!NOTE]
-    > Du kan ikke markere **Skrivebeskyttet**, hvis du har markeret **Obligatorisk**. Disse muligheder udelukker hinanden.
+* [Fanen Mere (Firma)][16]
+* [Fanen Mere (Person)][17]
+* [Fanen Mere (projekt)][13]
+* [Fanen Mere (opfølgninger)][14]
+* [Fanen Mere (Dokument)][15]
+* [Fanen Detaljer på skærmbilledet Salg][19]
 
-1. Markér **Indekseret**, hvis du ønsker, at det skal være muligt at søge efter dette felt.
-
-1. Når du har angivet de nødvendige indstillinger, skal du klikke på **Gem**. Dialogboksen lukkes, og det nye felt vises på listen **Felter** og i gitteret.
-
-    > [!TIP]
-    > Nederst til højre i dialogboksen **Felter** er **navnet på skabelonvariablen** efterfulgt af en kode (ID), som kan bruges til at genbruge de oplysninger, du indtaster i dette felt, f.eks. som [skabelonvariabler][2] i dokumenter og mails.
-
-1. [Juster feltets placering][3].
-
-1. Klik på **Udgiv**, hvis feltet skal være tilgængeligt for SuperOffice CRM-brugere. Ikonet ![Ikke-publicerede][img1] felter og felter med ikonet ![for ikke-publicerede ændringer][img2] vises med fed tekst på listen **Felter** .
-
-## Hvorfor er det en god ide at indeksere?
-
-Hvis du vælger **Indekseret,** bliver det hurtigere at søge på disse felter ved hjælp af **Søg**. Der kan også søges i ikke-indekserede felter, men søgningen tager længere tid. Du bør kun indeksere felter, der ofte søges i, og som indeholder ofte anvendte data.
+> [!TIP]
+> Nederst til højre i dialogboksen **Felt** er **navnet på skabelonvariablen** efterfulgt af en kode (ID), som kan bruges til at genbruge de oplysninger, du indtaster i dette felt, f.eks. som [skabelonvariabler][12] i dokumenter og mails.
 
 ## Fejlfinding
 
@@ -72,19 +73,22 @@ Fire af hver felttype (kort tekst, lang tekst, tal, decimal) er søgbare. Hvis d
 ## Relaterede emner
 
 * [Placering af felter][3]
-* [Redigering af felter][4]
-* [Redigering af TAB-rækkefølgen på felter][5]
-* [Maksimalt antal felter][1]
-* [Skærmdesigner][7]
+* [Redigering af feltegenskaber][4]
+* [Skærmdesigner][11]
 
 <!-- Referenced links -->
-[1]: limitations.md
-[2]: ../../document/learn/template-variables.md
-[3]: move.md
-[4]: edit.md
-[5]: change-tab-order.md
-[6]: index.md#field-types
-[7]: ../../../ui/screen-designer/learn/index.md
+[1]: ../learn/udef.md#limit
+[2]: ../learn/udef.md#field-types
+[3]: edit-udef-layout.md
+[4]: edit-udef.md
+[11]: ../../ui/screen-designer/learn/index.md
+[12]: ../../document/learn/template-variables.md
+[13]: ../../project/learn/index.md#more-tab
+[14]: ../../diary/learn/screen/dialog-for-followups.md
+[15]: ../../document/learn/screen/index.md
+[16]: ../../company/learn/create.md#more-tab
+[17]: ../../contact/learn/create.md#more-tab
+[19]: ../../sale/learn/index.md#more-tab
 
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png

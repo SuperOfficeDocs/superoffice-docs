@@ -78,15 +78,15 @@ Når du har opprettet en [ekstra tabell][1], må du definere felt i tabellen, sl
 | Bruk standardverdi | Hvis det er merket av for dette alternativet, får feltet en standardverdi hvis ikke annet er angitt. |
 | Vis i relasjonsvelgere | Hvis den gjeldende tabellen har en relasjon til en annen tabell (relasjon til ekstratabell), velger du dette alternativet for å gjøre dette feltet tilgjengelig som et søkefelt. Eksempel: Du har opprettet en ekstratabell kalt "Produkter" med en relasjon til tabellen **Saker**. På denne måten kan du søke etter og legge til produkter i fanen **Ekstrafelt** når du oppretter nye saker. Hvis du velger **Vis i relasjonsvelger** for bestemte felt i tabellen "Produkter", blir disse feltene tilgjengelige som søkefelt i fanen **Ekstrafelt**. |
 
-## Legg til relasjon (FK)
+## Legg til relasjon (fremmednøkkel, FK)
 
 1. Klikk på **Nytt felt**.
 1. Velg relasjonstypen for enheten du vil koble til og klikk på **OK**.
-1. Sett felt egenskaper som beskrevet ovenfor.
+1. Sett feltegenskaper som beskrevet ovenfor.
 1. Klikk på **OK** for å lagre relasjonen.
 1. Klikk på **Start NetServer om igjen** for å anvende endringene.
 
-For eksempel, for å koble alle innkommende forespørsler til et bestemt salg, kan du legge til et ekstrafelt av typen salgsrelasjon til forespørsler ([ticket tabellen][4]). For å liste opp tilknyttede forespørsler når du ser på et salg i SuperOffice CRM, må du bygge et webpanel.
+For eksempel, for å koble alle innkommende saker til et bestemt salg, kan du legge til et ekstrafelt av typen salgsrelasjon til Sak ([ticket tabellen][4]). For å liste opp tilknyttede saker når du ser på et salg i SuperOffice CRM, må du bygge et webpanel.
 
 <!-- Referenced links -->
 [1]: create-extra-table.md

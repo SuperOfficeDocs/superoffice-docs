@@ -15,14 +15,23 @@ language: da
 
 Flere dele af SuperOffice CRM, for eksempel skærmbilledet Firma, har en separat fane, der hedder Mere. Her kan du tilføje dine egne felter for at tilpasse programmet organisationens egne behov.
 
-Alle virksomheder og organisationer har deres egne krav til de oplysninger, de har brug for at registrere vedrørende deres kunder, salg, projekter, kontrakter og så videre. Du kan indtaste dine egne felter til SuperOffice CRM på skærmbilledet **Felter** . På denne måde kan du tilpasse den type oplysninger, der kan registreres vedrørende virksomheder, kontakter, projekter, salg, dokumenter og opfølgninger.
+Alle virksomheder og organisationer har deres egne krav til de oplysninger, de har brug for at registrere vedrørende deres kunder, salg, projekter, kontrakter og så videre. Du kan indtaste dine egne felter til SuperOffice CRM på skærmbilledet **Felt** . På denne måde kan du tilpasse den type oplysninger, der kan registreres vedrørende virksomheder, kontakter, projekter, salg, dokumenter og opfølgninger.
 
 > [!NOTE]
 > Du kan angive 3 felter, der kan vises på "første side" i deres respektive skærme eller dialoger. [Hvordan][1]. Bemærk, at dette muligvis ikke gælder, hvis du bruger et andet layout via [skærmdesigneren][8].
 
 ## <a id="field-types" />Felttyper
 
-[!include[List of field types](includes/field-types.md)]
+* **Nummer**: heltal, ubegrænset antal cifre.
+* **Kort tekst:**tekst på højst 39 tegn. Angiv i feltet **Tekstlængde**, som aktiveres, når du vælger denne indstilling, det maksimale antal tegn, brugerne kan skrive i dette felt.
+* **Lang tekst:**tekst på højst 199 tegn. Angiv i feltet **Tekstlængde**, som aktiveres, når du vælger denne indstilling, det maksimale antal tegn, brugerne kan skrive i dette felt.
+* **Dato**: dato mellem 01.01.1970 og 19.01.2038.
+* **Ubegrænset dato**: enhver dato.
+* **Afkrydsningsfelt**: et afkrydsningsfelt.
+* **Liste**: en liste. Vælg en liste fra systemet i feltet nedenfor.
+* **Decimal**: et nummer med decimaltegn.
+
+## Hvorfor er det en god ide at indeksere?
 
 ## Hvilken fordel får jeg af de oplysninger, jeg indtaster i disse felter?
 
@@ -32,18 +41,13 @@ Alle virksomheder og organisationer har deres egne krav til de oplysninger, de h
 * Du kan genbruge oplysningerne fra disse felter i dokumenter og mails ved hjælp af skabelonvariabler. Hvert felt, du tilføjer, får sit eget entydige id, som kan bruges i dokumenter til at flette personspecifikke oplysninger.
     **For eksempel**: Hvis du sender mail til kunder, der angiver, at vedligeholdelsesaftalen snart udløber, kan skabelonvariablen for udløbsdato bruges til at angive den korrekte udløbsdato i den meddelelse, der sendes.
 
-## Hvor vises de felter, jeg opretter?
-
-* [Fanen Mere (Firma)][6]
-* [Fanen Mere (Person)][7]
-* [Fanen Mere (projekt)][3]
-* [Fanen Mere (opfølgninger)][4]
-* [Fanen Mere (Dokument)][5]
-* Fanen Detaljer på skærmbilledet Salg
-
  Du kan angive *side 1-felter* (felter, der kan vises på "første side" i deres respektive skærme eller dialoger) på følgende steder.
 
-[!include[List](includes/list-page-1-field-locations.md)]
+* Fanen **Firma** på skærmbilledet Firma
+* Fanen **Kontakt** på personkortet
+* Fanen **Projekt** på skærmbilledet Projekt
+* Fanen **Salg** på skærmbilledet Salg
+* Fanen **Detaljer** på skærmbilledet Dokument
 
 ## Maksimalt antal felter
 
@@ -56,6 +60,13 @@ Følgende begrænsninger gælder for antallet af tilpassede felter, du kan angiv
 
 > [!NOTE]
 > Fire af de tilpassede felter i hver gruppe skal indekseres.
+
+## Valg af side 1-felt
+
+> [!NOTE]
+> Denne funktion er ikke tilgængelig, hvis din organisation bruger tilpassede skærmlayout.
+
+Blandt de brugerdefinerede felter, der vises under fanen **Mere** i SuperOffice CRM, kan du vælge *tre* der skal fungere som side 1-felter (såkaldte, fordi de vises på "første side" på deres respektive skærmbilleder).
 
 ## Eksempler
 

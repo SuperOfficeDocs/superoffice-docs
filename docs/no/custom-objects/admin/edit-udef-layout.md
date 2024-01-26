@@ -22,7 +22,7 @@ Når du [legger til nye felt][2], plasseres de som standard under hverandre. Hve
 
 ## Hvor du skal begynne
 
-1. [!inkluder[Gå til Felt og velg fane](includes/goto-fields.md)]
+1. [!include[Gå til Felt og velg fane](includes/goto-fields.md)]
 
 **Hvordan velge felt:**
 
