@@ -1,11 +1,12 @@
 ---
-uid: custom-db
+uid: custom-objects-reference
 title: Database customizations
 description: There are 3 ways to customize the database schema - user-defined fields; extra fields; extra tables
 author: Bergfrid Dias
 so.date: 01.18.2024
+so.version: 10
 keywords: custom object, custom field, udef, extra table, extra field, user-defined field, UDefField, updatedCount, udefidentity
-so.topic: concept
+so.topic: reference
 so.audience: api
 so.audience.tooltip: SuperOffice APIs and database
 ---
@@ -14,7 +15,7 @@ so.audience.tooltip: SuperOffice APIs and database
 
 [!include[License requirement](../../../../common/includes/req-dev-tools.md)]
 
->It is only possible to create and manage user-defined fields via the APIs, however extra fields and tables must be managed in the SuperOffice Service UI. All custom object data is accessible via the APIs. ?
+Via the APIs, it is possible to create and manage user-defined fields only. Extra fields and tables must be managed in Settings and maintenance. However, all custom object data is accessible via the APIs.
 
 ## Data-driven approach
 
@@ -328,10 +329,10 @@ The **prog ID** is used to identify user-defined fields for an entity. The forma
 * [udappntsmall table][17]
 
 <!-- Referenced links -->
-[1]: ../../custom-objects/learn/udef.md
-[2]: ../../custom-objects/learn/extra-field.md
-[3]: ../../custom-objects/learn/extra-table.md
-[5]: ../search/index.md
+[1]: ../learn/udef.md
+[2]: ../learn/extra-field.md
+[3]: ../learn/extra-table.md
+[5]: ../../api/search/index.md
 [10]: ../../database/dictionary/index.md
 [11]: ../../database/tables/udeffield.md
 [12]: ../../database/tables/udcontactsmall.md
