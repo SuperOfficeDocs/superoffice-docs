@@ -23,7 +23,7 @@ Et *ekstra felt* er et tilpasset felt som du legger til i en eksisterende SuperO
 * Person
 * FAQ-kategori og -oppføring
 * Melding
-* Sak
+* Sak og saksbehandler
 * Bruker
 * Dine [egendefinerte tabeller][6]
 

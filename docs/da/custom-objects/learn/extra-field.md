@@ -16,78 +16,61 @@ so.audience.tooltip: SuperOffice CRM
 
 [!include[License requirement](../../../../common/includes/req-dev-tools.md)]
 
-En *ekstra felt* er et brugerdefineret felt, du tilføjer til en eksisterende SuperOffice-databasetabel. Du kan udvide følgende enheder:
+Et *ekstra felt* er et brugerdefineret felt, du tilføjer til en eksisterende SuperOffice-databasetabel. Du kan udvide følgende enheder:
 
 * Kategori
 * Firma
-* Kontakt
-* FAQ-kategori og -indgang
-* Besked
-* Anmodning
+* Person
+* FAQ-kategori og -post
+* Meddelelse
+* Sag og sagsbehandler
 * Bruger
 * Dine [brugerdefinerede tabeller][6]
 
 > [!NOTE]
-> Ekstra felter på virksomhed eller kontakt er ikke det samme som brugerdefinerede felter på disse enheder!
+> Ekstra felter på firma eller person er ikke det samme som brugerdefinerede felter på disse enheder!
 
 Ekstra felter administreres i **Indstillinger og vedligeholdelse**, på **Tabeller**-skærmen.
 
 ## <a id="field-types" />Felttyper
 
-* Bool (ja/nej)
+* Sandhedsværdi (ja/nej)
 * Heltal
 * Flydende tal
-* Tekst (kort)
-* Tekst (lang)
+* Tekststreng (kort)
+* Tekststreng (lang)
 * Dato
-* Dato og tid
-* Tid
-* Tidsrum
-* Vedhæftning
+* Dato og klokkeslæt
+* Klokkeslæt
+* Tidsinterval
+* Vedhæft
 * Dynamisk link
 
 Desuden har hver enhed en relations type. For eksempel *kontaktrelationen*.
 
 I modsætning til brugerdefinerede felter tilføjes ekstra felter som faktiske felter til databasetabellerne. Der er ingen foruddefinerede pladser, du skal tage hensyn til, og i princippet ingen begrænsninger.
 
+### Relationer (fremmednøgler, FK)
 
-Et *ekstra felt* er et tilpasset felt som du legger til i en eksisterende SuperOffice-databasetabell. Du kan utvide følgende enheter:
+Databasetabeller er forbundet med *fremmednøgler* (FK). Disse er felttyper, der slutter på *relation*.
 
-* Kategori
-* Firma
-* Person
-* FAQ-kategori og -oppføring
-* Melding
-* Sak
-* Bruker
-* Dine [egendefinerte tabeller][6]
+* Personrelation
+* Firmarelation
+* Brugerrelation
+* Sagsrelation
+* Kategorirelation
+* Prioritetsrelation
+* FAQ-relation
+* Salgsrelation
+* Projektrelation
+* Aftalerelation
+* Relation til Ekstratabel
 
-> [!NOTE]
-> Ekstrafelt på firma eller kontakt er ikke det samme som brukerdefinerte felt på disse enhetene!
+## Brug
 
-Ekstrafelt administreres i **Innstillinger og vedlikehold** > **Tabeller**.
+Ekstra felter kan for eksempel bruges som søgekriterier og kolonner i salg i SuperOffice CRM.
 
-### Relasjoner (fremmednøgler, FK)
-
-Databasetabeller er koblet sammen med *fremmednøgler* (FK). Disse er felttypene som slutter på *relasjon*.
-
-* Personrelasjon
-* Firmarelasjon
-* Brukerrelasjon
-* Saksrelasjon
-* Kategorirelasjon
-* Prioritetsrelasjon
-* FAQ-relasjon
-* Salgsrelasjon
-* Prosjektrelasjon
-* Avtalerelasjon
-* Relasjon til ekstra tabell
-
-## Bruk
-
-Ekstrafelt kan for eksempel brukes som søkekriterier og kolonner i salg i SuperOffice CRM.
-
-## Relatert innhold
+## Relateret indhold
 
 * [Vis ekstrafelt på detaljfanen][1]
 * [Tilføj ekstra felter][2]

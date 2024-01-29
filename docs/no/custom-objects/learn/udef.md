@@ -51,7 +51,7 @@ Følgende begrensninger gjelder for hvor mange brukerdefinerte felt du kan angi 
 > [!NOTE]
 > Fire av de brukerdefinerte feltene i hver gruppe må indekseres.
 
-<a id="index" />Indekserte felt
+## <a id="index" />Indekserte felt
 
 Indeksering er bra for brukeropplevelsen og ytelsen. De fire første feltene av hver datatype er reservert for indekser.
 

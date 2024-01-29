@@ -3,7 +3,7 @@ uid: help-no-custom-objects
 title: Egendefinerte objekter
 description: Egendefinerte objekter
 author: Bergfrid Dias
-so.date: 01.16.2024
+so.date: 01.29.2024
 so.version: 10
 keywords: egendefinert objekt, felt, brukerdefinert, udef, ekstrafelt, ekstra tabell
 so.topic: concept
@@ -15,17 +15,9 @@ so.audience.tooltip: SuperOffice CRM
 
 # Egendefinerte objekter og felter
 
-## Brukerdefinerte felt
+Alle firma og organisasjoner har egne krav til hvilke opplysninger de trenger å registrere angående kontakter, salg, prosjekter, kontrakter og så videre. Administratorer kan legge til felt og tabeller i SuperOffice for å tilpasse typen informasjon som kan registreres.
 
-Alle firmaer og organisasjoner har egne krav til hvilke opplysninger de vil registrere. Dette kan være for firmaer, personer, salg, prosjekter og så videre. Som administrator kan du legge til dine egne felt i Innstillinger og vedlikehold.
-
-Alle firmaer og organisasjoner har sine egne krav til informasjonen de trenger for å registrere om sine personer, salg, prosjekter, kontrakter og så videre. Du kan angi dine egne felt for SuperOffice CRM i **Felt**-bildet. På den måten kan du tilpasse typen opplysninger som kan registreres om firmaer, personer, prosjekter, salg, dokumenter og oppfølginger.
-
-Flere deler av SuperOffice CRM, for eksempel Firma-bildet, har en egen fane som heter **Mer**. Her kan du legge inn egne felt for å tilpasse programmet til organisasjonens egne behov.
-
-Alle firmaer og organisasjoner har sine egne krav til informasjonen de trenger for å registrere om sine kunder, salg, prosjekter, kontrakter og så videre. Du kan angi dine egne felt for SuperOffice CRM i **Felt**-bildet.
-
-Du kan selvfølgelig legge til et bredt utvalg av tabeller og felt i SuperOffice for å lagre all informasjon som kundeserviceagentene dine trenger.
+SuperOffice CRM og Service var en gang to separate applikasjoner med ulike utvidelsesalternativer. [**Brukerdefinerte felt**][1] (kort kalt udefs) hører hjemme i SuperOffice CRM, mens [**ekstra tabeller**][3] (også kalt tredjepartstabeller) og [**ekstra felt**][2] hører hjemme i Service. Begrepet **tilpasset felt** inkluderer både brukerdefinerte felt og ekstra felt.
 
 ## Bruk
 

@@ -1,24 +1,32 @@
 ---
 uid: help-da-udef
-title: Felter
-description: Felter
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: udef, tilpasset felt
+title: Brugerdefinerede felter
+description: Brugerdefinerede felter
+author: Bergfrid Dias
+so.date: 01.29.2024
+so-version: 10
+keywords: udef, tilpasset felt, Brugerdefinered
 so.topic: concept
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 language: da
 ---
 
 # Brugerdefinerede felter
 
-Flere dele af SuperOffice CRM, for eksempel skærmbilledet Firma, har en separat fane, der hedder Mere. Her kan du tilføje dine egne felter for at tilpasse programmet organisationens egne behov.
+Et *brugerdefineret* felt (udef) er et tilpasset felt, du tilføjer til en standard SuperOffice-databasetabel. Du kan udvide følgende enheder:
 
-Alle virksomheder og organisationer har deres egne krav til de oplysninger, de har brug for at registrere vedrørende deres kunder, salg, projekter, kontrakter og så videre. Du kan indtaste dine egne felter til SuperOffice CRM på skærmbilledet **Felt** . På denne måde kan du tilpasse den type oplysninger, der kan registreres vedrørende virksomheder, kontakter, projekter, salg, dokumenter og opfølgninger.
+* Firma
+* Kontakt
+* Dokumenter
+* Opfølgning
+* Projekt
+* Salg
+
+Brugerdefinerede felter administreres i Indstillinger og vedligeholdelse, i **Felter**-skærmen. I applikationen er brugerdefinerede felter synlige på **Mere**-fanen for den enhed, de blev tilføjet til. For eksempel vises et brugerdefineret felt på et firma på **Mere**-fanen i Firma-skærmen.
 
 > [!NOTE]
-> Du kan angive 3 felter, der kan vises på "første side" i deres respektive skærme eller dialoger. [Hvordan][1]. Bemærk, at dette muligvis ikke gælder, hvis du bruger et andet layout via [skærmdesigneren][8].
+> Alle kan **opdatere** de data, der er gemt i et brugerdefineret felt. Kun en administrator kan tilføje (eller fjerne) et brugerdefineret felt. Du skal have en Development Tools-licens for at tilpasse layoutet af **Mere**-fanen og bruge side 1-felter.
 
 ## <a id="field-types" />Felttyper
 
@@ -31,27 +39,9 @@ Alle virksomheder og organisationer har deres egne krav til de oplysninger, de h
 * **Liste**: en liste. Vælg en liste fra systemet i feltet nedenfor.
 * **Decimal**: et nummer med decimaltegn.
 
-## Hvorfor er det en god ide at indeksere?
+## <a id="limit" />Maksimalt antal felter
 
-## Hvilken fordel får jeg af de oplysninger, jeg indtaster i disse felter?
-
-* Ved hjælp af funktionen **Find** kan du søge efter de oplysninger, du registrerer i disse felter, og foretage valg.
-    **For eksempel**: Hvis du f.eks. registrerer udløbsdatoen for den vedligeholdelsesaftale, du har med personer, kan du oprette et dynamisk valg, der viser de personer, som aftalen udløber for, om mindre end en måned.
-
-* Du kan genbruge oplysningerne fra disse felter i dokumenter og mails ved hjælp af skabelonvariabler. Hvert felt, du tilføjer, får sit eget entydige id, som kan bruges i dokumenter til at flette personspecifikke oplysninger.
-    **For eksempel**: Hvis du sender mail til kunder, der angiver, at vedligeholdelsesaftalen snart udløber, kan skabelonvariablen for udløbsdato bruges til at angive den korrekte udløbsdato i den meddelelse, der sendes.
-
- Du kan angive *side 1-felter* (felter, der kan vises på "første side" i deres respektive skærme eller dialoger) på følgende steder.
-
-* Fanen **Firma** på skærmbilledet Firma
-* Fanen **Kontakt** på personkortet
-* Fanen **Projekt** på skærmbilledet Projekt
-* Fanen **Salg** på skærmbilledet Salg
-* Fanen **Detaljer** på skærmbilledet Dokument
-
-## Maksimalt antal felter
-
-Følgende begrænsninger gælder for antallet af tilpassede felter, du kan angive under hver fanerne Firma, Kontakt, Projekt og Salg.
+Følgende begrænsninger gælder for antallet af tilpassede felter, du kan angive under hver fanerne Firma, Person, Projekt og Salg.
 
 * **Nummer**, **Dato**, **Afkrydsningsfelt** og **Liste**: Højst 60 i alt.
 * **Kort tekst** og **Ubegrænset dato**: Højst 40 i alt.
@@ -59,14 +49,30 @@ Følgende begrænsninger gælder for antallet af tilpassede felter, du kan angiv
 * **Decimal**: Højst 10 i alt.
 
 > [!NOTE]
-> Fire af de tilpassede felter i hver gruppe skal indekseres.
+> Fire af de brugerdefinerede felter i hver gruppe skal indekseres.
 
-## Valg af side 1-felt
+## <a id="index" />Indekserede felter
 
-> [!NOTE]
-> Denne funktion er ikke tilgængelig, hvis din organisation bruger tilpassede skærmlayout.
+Indeksering er godt for brugeroplevelsen og ydeevnen. De første 4 felter af hver datetype er reserveret til indeks.
+
+Du skal markere af i afkrydsningsfeltet, når du opretter feltet, for at tillade indeksering. Du kan markere op til 4 felter i hver af de 4 datatyper (Long, Double, String[40], String[200]) for hver enhed. For eksempel kan du indeksere 4 tal og 4 decimaler for en kontakt, men du kan ikke samtidig indeksere en dato - fordi alle Long-indekspositioner er optaget af tallene.
+
+Hvis du vælger slet ikke at indeksere, spilder du i princippet 16 felter! Derfor reduceres det maksimale antal brugerdefinerede felter til 103.
+
+## <a id="page-1" />Side 1-felt
 
 Blandt de brugerdefinerede felter, der vises under fanen **Mere** i SuperOffice CRM, kan du vælge *tre* der skal fungere som side 1-felter (såkaldte, fordi de vises på "første side" på deres respektive skærmbilleder).
+
+**Placering:**
+
+* Fanen **Firma** på skærmbilledet Firma
+* Fanen **Kontakt** på personkortet
+* Fanen **Projekt** på skærmbilledet Projekt
+* Fanen **Salg** på skærmbilledet Salg
+* Fanen **Detaljer** på skærmbilledet Dokument
+
+> [!NOTE]
+> Side-1 felt kræver licensen Development Tools og er ikke tilgængelig, hvis organisationen bruger en anden layout via [Skærmdesigneren][8].
 
 ## Eksempler
 
@@ -80,7 +86,7 @@ Du kan derefter tilføje disse felter til skærmbilledet Virksomhed:
 |---|---|---|
 | Antal PC'er | Antal | Et talfelt, hvor du kan registrere antallet af pc'er. |
 | Medarbejderantal | Antal | Et talfelt, hvor du kan registrere antallet af medarbejdere. |
-| Vedligeholdelsesaftale | Liste | En liste over de forskellige typer vedligeholdelsesaftaler, du tilbyder. Listen skal [oprettes på skærmbilledet][2] Lister. |
+| Vedligeholdelsesaftale | Liste | En liste over de forskellige typer vedligeholdelsesaftaler, du tilbyder. Listen skal [oprettes på skærmbilledet][3] Lister. |
 | Kontrakten udløber | Dato | Et datofelt, hvor du kan registrere kontraktens udløbsdato. |
 | Ansøgning A; Ansøgning B; Ansøgning C | Afkrydsningsfelt | Tre afkrydsningsfelter, hvor du kan markere de applikationer, som kunden har købt. |
 
@@ -111,14 +117,14 @@ Du kan derefter tilføje disse felter til skærmbilledet Projekt:
 |---|---|---|---|
 | Budget | Decimal | Et talfelt, hvor du kan angive en sum. | [Vælg, at feltet skal vises på side 1][1]. |
 
+## Relateret indhold
+
+* [Tilføj brugerdefinerede felt][2]
+
 <!-- Referenced links -->
-[1]: page-1-fields.md
-[2]: ../../../admin/lists/learn/adding-user-defined-lists.md
-[3]: ../../../project/learn/index.md#more-tab
-[4]: ../../../diary/learn/screen/dialog-for-followups.md
-[5]: ../../../document/learn/screen/index.md
-[6]: ../../../company/learn/create.md#more-tab
-[7]: ../../../contact/learn/create.md#more-tab
-[8]: ../../../ui/screen-designer/learn/index.md
+[1]: ../admin/edit-udef-layout.md#page-1
+[2]: ../admin/add-udef.md
+[3]: ../../admin/lists/learn/adding-user-defined-lists.md
+[8]: ../../ui/screen-designer/learn/index.md
 
 <!-- Referenced images -->
