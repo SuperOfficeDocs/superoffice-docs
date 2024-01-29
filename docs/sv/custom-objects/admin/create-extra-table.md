@@ -1,9 +1,10 @@
 ---
 uid: help-sv-extra-table-create
-title:  Definiera extratabeller
-description:  Definiera extratabeller
-author: Hanne Gunnarsson
-so.date: 03.29.2023
+title: Lägg till extratabell
+description: Lägg till extratabell
+author: Bergfrid Dias
+so.date: 01.29.2024
+so.version: 10
 keywords: extratabell
 so.topic: howto
 so.audience: settings
@@ -11,24 +12,36 @@ so.audience.tooltip: Settings and maintenance
 language: sv
 ---
 
-# Lägg till extratabeller
+# Lägg till extratabell
 
-Du kan skapa extratabeller i SuperOffice för att registrera olika typer av data. När du har skapat tabellen och [skapat extrafält i den][1] kan du öppna tabellen för att lägga till innehåll i den genom att gå till **Systemdesign** > **Tabeller**, peka på tabellen och klicka på knappen ![ikon][img1].
+Du kan skapa extratabeller i SuperOffice för att registrera olika typer av data. När du har skapat tabellen och [skapat extrafält i den][1] kan du öppna tabellen för att lägga till innehåll i den.
 
-> [!NOTE]
-> I SuperOffice CRM kan du skapa webbpaneler som kan innehålla tabellinformation. Om du vill ange relevanta åtkomstbehörighet,måste användaren tillhöra en roll som har funktionsrättigheterna **Lista tabeller** och **Redigera tabeller**.
+## Steg
 
-**Steg:**
+1. [!include[Gå tilt tabeller](includes/goto-tables.md)]
 
-1. Gå till fönstret **Tabeller**.
+1. Klicka på **Ny tabell**.
 
-    * Under Inställningar och underhåll: Klicka på knappen **Systemdesign** ![ikon][img3] i navigatorn. Välj fliken **Tabeller**.
+    ![Skapa extra tabell -screenshot][img1]
 
-2. Klicka på knappen ![ikon][img4]. Skärmen **Egenskaper för tabell** visas.
+1. I skärmen **Egenskaper för tabell**, ange data om den nya tabellen.
 
-3. Ange information om den nya tabellen i fönstret **Tabellegenskaper**. Mer information om fälten finns nedan.
+    * Ange ett *namn* som ska användas som etiketten.
+    * Ange en *databastabell* som börjar med **y_** för att identifiera det i schemat.
+    * Valfritt ställ in andra egenskaper. Se detaljer om fälten nedan.
 
-4. Klicka på **OK** för att spara den nya tabellen.
+    > [!NOTE]
+    > Vissa tabelleegenskaper kan inte ställas in förrän du har lagt till fält.
+
+1. Klicka på **OK** för att spara den nya tabellen (detta kör `create table y_mynewtable ...`).
+
+1. [Lägg till fält i din nya tabell][1].
+
+1. Valfritt, justera tabellegenskaper som sorteringsordning. (Klicka på tabellnamnet i listan för att gå in i redigeringsläge.)
+
+1. Klicka på **Starta om NetServer**. Om Travel är aktiverat kommer du också att se ett meddelande om att en ny Travel-databas måste skapas.
+
+Du kan nu öppna tabellen i användargränssnittet för att lägga till innehåll i den **eller** befolka den via API:erna.
 
 ## Fält
 
@@ -37,25 +50,23 @@ Du kan skapa extratabeller i SuperOffice för att registrera olika typer av data
 | Mapp | Om du vill placera tabellen i en befintlig väljer du en mapp i listan. |
 | Namn | Tabellens namn. |
 | Databastabell   Databastabellens namn. Kan endast anges när tabellen skapas och kan inte ändras. Tabellnamnet får bara innehålla understreck, bokstäverna a–z eller siffror, och namnet måste börja med "y_". Ett logiskt namn är bäst eftersom det då blir enklare att se vad databasen innehåller. |
-| Sidhuvud för sökning | Sidhuvudet används i sökfönstret för tabellen. |
-| Sidhuvud för visning av post | Sidhuvudet används när du visar en post i den här tabellen. |
-| Sidhuvud för ny post | Sidhuvudet används när du skapar en ny post i den här tabellen. |
-| Sidhuvud för redigering av post | Sidhuvudet används när du redigerar en post i den här tabellen. |
-| Sortering | Kolumnen som tabellen sorteras efter. Om du markerar **Fallande** sorteras värdena i fallande ordning. För numeriska värden betyder det att det högsta värdet visas överst i tabellen. Tabellen måste innehålla fält innan du kan välja något här. |
+| Rubrik för sökning | Används i sökfönstret för tabellen. |
+| Rubrik för visning av post | Används när du visar en post i den här tabellen. |
+| Rubrik för ny post | Används när du skapar en ny post i den här tabellen. |
+| Rubrik för redigering av post | Används när du redigerar en post i den här tabellen. |
+| Sorteringsordning | Kolumnen som tabellen sorteras efter. Om du markerar **Fallande** sorteras värdena i fallande ordning. För numeriska värden betyder det att det högsta värdet visas överst i tabellen. Tabellen måste innehålla fält innan du kan välja något här. |
 | Visningsfält | Om data från tabellen ska visas i en annan tabell (en relation) måste du välja vilket fält som ska visas i den andra tabellen. Tabellen måste innehålla fält innan du kan välja något här. |
 | Överordnat fält | Detta fält används i samband med hierarkiskt organiserade tabeller. |
 | Fullständigt namn |  Om detta är en hierarkiskt organiserad tabell kan detta fält ange ett fält som automatiskt uppdateras med postens fullständiga namn baserat på namnfältet för posten och alla överordnade poster. |
 | Dölj ID-fält | Om du markerar detta alternativ visas inte ID-fältet när posterna i tabellen visas. |
-| Dölj tabellen | Om du markerar det här alternativet är tabellen inte synlig från ![ikon][img3] **Systemdesign** > **Tabeller**. |
+| Dölj tabellen | Om du markerar det här alternativet är tabellen inte synlig från **Systemdesign** > **Tabeller**. |
 
-## Vad vill du göra nu?
+## Visa tabell i webbpanel
 
-* [Definiera extrafält][1]
+I SuperOffice CRM kan du skapa webbpaneler som kan innehålla tabellinformation. Om du vill ange relevanta åtkomstbehörighet,måste användaren tillhöra en roll som har funktionsrättigheterna **Lista tabeller** och **Redigera tabeller**.
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/service/new-field.png
-[img3]: ../../../../common/icons/nav-admin-systemdesign-active.png
-[img4]: ../../../media/icons/service/new-table.png
+[img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

@@ -2,26 +2,29 @@ items:
 - name: Översikt
   href: index.md
 - name: Användardefinierade fält
-  topicHref: udef/index.md
+  topicHref: udef.md
   items:
   - name: Översikt
-    href: udef/index.md
+    href: udef.md
   - name: Lägga till fält
-    href: udef/add.md
-  - name: Flytta fält
-    href: udef/move.md
-  - name: Redigera TAB-ordningen på fält
-    href: udef/change-tab-order.md
+    href: ../admin/add-udef.md
   - name: Redigera fält
-    href: udef/edit.md
-  - name: Sidan 1-fält
-    href: udef/page-1-fields.md
-- name: Extratabeller och fält
-  topicHref: extra-table/index.md
+    href: ../admin/edit-udef.md
+  - name: Anpassa sidlayouter
+    href: ../admin/edit-udef-layout.md
+- name: Extratabeller
+  topicHref: extra-table.md
   items:
   - name: Översikt
-    href: extra-table/index.md
+    href: extra-table.md
   - name: Lägga till extratabeller
-    href: extra-table/create.md
+    href: ../admin/create-extra-table.md
+- name: Extrafält
+  topicHref: extra-field.md
+  items:
+  - name: Översikt
+    href: extra-field.md
   - name: Lägga till extrafält
-    href: extra-field/create.md
+    href: ../admin/create-extra-field.md
+#  - name: Show extra field on Details tab
+#    href: ../admin/show-extra-field-on-request-details

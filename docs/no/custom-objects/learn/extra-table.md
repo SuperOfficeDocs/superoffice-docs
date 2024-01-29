@@ -56,7 +56,7 @@ Prefikser sikrer at det du oppretter ikke skaper konflikt med fremtidige SuperOf
 * [Legge til ekstra tabell][2]
 * [Legge til ekstrafelt][3]
 * [Brukerdefinerte felt][4]
-* [Custom screens][1]
+* [Egendefinerte skjermer][1]
 
 <!-- Referenced links -->
 [1]: ../../ui/blogic/learn/index.md

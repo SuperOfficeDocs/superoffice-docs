@@ -1,18 +1,18 @@
 ---
 uid: help-no-udef-layout
-title: Flytte felt
-description: Flytte felt
+title: Grensesnitttilpasning
+description: Grensesnitttilpasning
 author: Bergfrid Dias
-so.date: 01.25.2024
+so.date: 01.29.2024
 so.version: 9
 keywords: udef, egendefinert felt, side-1
 so.topic: howto
-so.audience: admin
+so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: no
 ---
 
-# Plassere felt
+# Grensesnitttilpasning
 
 [!include[License requirement](../../../../common/includes/req-dev-tools.md)]
 
@@ -41,15 +41,15 @@ Når du [legger til nye felt][2], plasseres de som standard under hverandre. Hve
 
 1. Angi følgende i feltene til høyre for **Ledetekst**:
 
-    **X**: horisontal posisjon for ledeteksten. Jo høyere nummeret, jo lengre til høyre.
+    **X**: Horisontal posisjon for ledeteksten. Jo høyere nummeret, jo lengre til høyre.
 
-    **Y**: vertikal posisjon for ledeteksten. Jo høyere nummeret, jo lenger ned.
+    **Y**: Vertikal posisjon for ledeteksten. Jo høyere nummeret, jo lenger ned.
 
 2. Angi følgende i feltene til høyre for **Data**:
 
-    **X**: horisontal posisjon for datafeltet. Jo høyere nummeret, jo lengre til høyre.
+    **X**: Horisontal posisjon for datafeltet. Jo høyere nummeret, jo lengre til høyre.
 
-    **Y**: vertikal posisjon for datafeltet. Jo høyere nummeret, jo lenger ned.
+    **Y**: Vertikal posisjon for datafeltet. Jo høyere nummeret, jo lenger ned.
 
 ## Justere felt (høyre/venstre)
 

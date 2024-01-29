@@ -1,9 +1,10 @@
 ---
 uid: help-sv-udef-add
-title: Lägga till fält
-description: Lägga till fält
+title: Lägg till användardefinierat fält
+description: Lägg till användardefinierat fält
 author: Bergfrid Dias
-so.date: 01.16.2024
+so.date: 01.29.2024
+so.version: 10
 keywords: udef, användardefinierade, anpassa fält
 so.topic: howto
 so.audience: settings
@@ -20,46 +21,46 @@ Den här filmen visar hur du skapar egna extrafält i SuperOffice CRM (filmens l
 
 ## Steg
 
-1. [!include[Go to fields and select tab](../includes/goto-fields.md)]
+1. [!include[Gå til Fält og välj flik](includes/goto-fields.md)]
 
 1. Klicka på knappen **Lägg till** under listan **Fält**.
 
-1. Skriv in namnet i fältet **Namn**.
+1. Ange ett **Namn** och välj en [**Typ**][2] (till exempel nummer, text eller datum).
 
-1. I listrutan **Typ** väljer du vilken [typ av fält][6] du vill lägga till (till exempel nummer, text eller datum).
+1. Ställ in eventuella andra [fältegenskaper](#properties), som om fältet är obligatoriskt eller ska indexeras.
 
-1. I fältet **Standardvärde** anger du det värde som ska infogas som standardvärde i fältet.
+1. När du är klar, klicka på **Spara**. Dialogen stängs och det nya fältet visas i **Fält**-listan och i rutnätet.
 
-1. I fältet **Hjälptext** skriver du en kort beskrivning som visas när muspekaren hålls över fältet. Det kan vara en beskrivning med information till de användare som kommer att använda fältet.
+1. [Valfritt, justera positionen för fältet][3]. Detta kräver en licens för Development Tools!
 
-1. Fältet **Program-ID** innehåller ett standard-ID för fältet. Program-ID:t kan åsidosättas av dina samarbetspartner så att anslutningen till partnerprogrammen fungerar bättre. I stället för att ändra sin kod kan de skriva in ett mer logiskt namn eller ett specifikt ID för ett användardefinierat fält (UDEF).
+1. Fortsätt att lägga till fält. Klicka på **Publicera** när du är klar för att göra fältet tillgängligt för SuperOffice-användare. Opublicerade fält ![ikon][img1] och fält med opublicerade ändringar ![ikon][img2] visas i fetstil i listan **Fält**.
 
-1. Markera alternativet **Obligatoriskt** om du vill att det ska vara obligatoriskt att fylla i fältet.
+## <a id="properties" />Fältegenskaper
 
-    > [!NOTE]
-    > Detta gäller inte fälttypen **Kryssruta**.
+| Egenskap | Beskrivning |
+|---|---|
+| Standardvärde | Värdet som ska infogas som standard i detta fält. |
+| Text i inforuta | En kort beskrivning som visas när muspekaren hålls över fältet. Till exempel användningsinformation. |
+| Program-ID | Ett standard-ID för detta fält. Formatet är **text:nummer**. Behåll textdelen till bokstäverna a-z eller deras versaler. Kan åsidosättas av SuperOffice-partners. |
+| Obligatorisk | Gör det obligatoriskt att fylla i detta fält. Gäller inte för fälttypen *Kryssruta*. |
+| Dölj ledtext | Om vald visas inte namnet på fältet. |
+| Endast läsbart | Om vald är det inte möjligt att ändra fältet. |
+| Indexterat | Om vald blir detta fält sökbart och det går snabbare att söka **Hitta**. Icke-indexerade fält kan också sökas, men det går långsammare. Indexera bara fält som ofta söks och innehåller ofta använda data. |
 
-1. Markera **Dölj ledtext** om du inte vill att fältets namn ska visas.
+> [!NOTE]
+> Du kan inte markera **Endast läsbart** om du har markerat alternativet **Obligatorisk**. Dessa alternativ utesluter varandra.
 
-1. Markera **Endast läsbart** om du inte vill att fältet ska kunna ändras.
+## Var visas fälten jag skapar?
 
-    > [!NOTE]
-    > Du kan inte markera **Endast läsbart** om du har markerat alternativet **Obligatoriskt**. Dessa alternativ utesluter varandra.
+* [Fliken Mer (företag)][16]
+* [Fliken Mer (kontakt)][17]
+* [Fliken Mer (projekt)][13]
+* [Fliken Mer (händelser)][14]
+* [Fliken Mer (dokument)][15]
+* [Fliken Mer (sälj)][19]
 
-1. Markera **Indexerat** om du vill att fältet ska vara sökbart.
-
-1. När du har angett alla inställningar klickar du på **Spara**. Dialogrutan stängs och det nya fältet visas i listan **Fält** och i rutnätet.
-
-    > [!TIP]
-    > Längst ned till höger i dialogrutan **Fält** finns **Mallvariabelnamnet** följt av en kod (ID), som kan användas för att återanvända informationen du anger i det här fältet, till exempel som [mallvariabler][2] i dokument och e-postmeddelanden.
-
-1. [Justera fältets position][3].
-
-1. Klicka på **Publicera** om du vill att fältet ska vara tillgängligt för SuperOffice CRM-användarna. Opublicerade fält ![ikon][img1] och fält med opublicerade ändringar ![ikon][img2] visas i fetstil i listan **Fält**.
-
-## Varför är det en bra idé att indexera?
-
-Om du väljer **Indexerat** går det snabbare att söka i fälten med **sökfunktionen**. Icke-indexerade fält är också sökbara, men sökningen tar längre tid. Du bör bara indexera fält som genomsöks ofta och innehåller data som används ofta.
+> [!TIP]
+> Längst ned till höger i dialogrutan **Fält** finns **Mallvariabelnamnet** följt av en kod (ID), som kan användas för att återanvända informationen du anger i det här fältet, till exempel som [mallvariabler][12] i dokument och e-postmeddelanden.
 
 ## Felsökning
 
@@ -69,22 +70,25 @@ Om du inte kan skapa ett nytt fält kan det bero på att du redan har nått det 
 
 Fyra fält av varje typ (Kort text, Lång text, Nummer och Decimal) är sökbara. Om du till exempel inte markerar några fält som sökbara kan du bara lägga till sex decimalfält.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Placera fält][3]
 * [Redigera fält][4]
-* [Redigera tabbordning för fält][5]
-* [Maximalt antal fält][1]
-* [Skärmdesigner][7]
+* [Skärmdesigner][11]
 
 <!-- Referenced links -->
-[1]: limitations.md
-[2]: ../../document/learn/template-variables.md
-[3]: move.md
-[4]: edit.md
-[5]: change-tab-order.md
-[6]: index.md#field-types
-[7]: ../../ui/screen-designer/learn/index.md
+[1]: ../learn/udef.md#limit
+[2]: ../learn/udef.md#field-types
+[3]: edit-udef-layout.md
+[4]: edit-udef.md
+[11]: ../../ui/screen-designer/learn/index.md
+[12]: ../../document/learn/template-variables.md
+[13]: ../../project/learn/index.md#more-tab
+[14]: ../../diary/learn/screen/dialog-for-followups.md
+[15]: ../../document/learn/screen/index.md
+[16]: ../../company/learn/create.md#more-tab
+[17]: ../../contact/learn/create.md#more-tab
+[19]: ../../sale/learn/index.md#more-tab
 
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png

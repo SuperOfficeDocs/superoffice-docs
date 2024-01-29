@@ -73,7 +73,7 @@ Ekstrafelt kan for eksempel brukes som søkekriterier og kolonner i salg i Super
 ## Relatert innhold
 
 * [Vis ekstrafelt på detaljfanen][1]
-* [Opprett ekstra felt][2]
+* [Opprett ekstrafelt][2]
 
 <!-- Referenced links -->
 [1]: ../admin/show-extra-field-on-request-details.md

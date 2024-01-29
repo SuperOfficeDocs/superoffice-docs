@@ -1,9 +1,10 @@
 ---
-uid: help-sv-udef-move
-title: Flytta fält
-description: Flytta fält
-author: SuperOffice RnD
-so.date: 06.29.2022
+uid: help-sv-udef-layout
+title: Anpassa användargränssnitt
+description: Anpassa användargränssnitt
+author: Bergfrid Dias
+so.date: 01.29.2024
+so.version: 10
 keywords: udef, anpassa fält
 so.topic: howto
 so.audience: settings
@@ -11,47 +12,52 @@ so.audience.tooltip: Settings and maintenance
 language: sv
 ---
 
-# Placera fält
+# Anpassa användargränssnitt
 
-> [!NOTE]
-> SuperOffice version 10 (publicerad i oktober 2021) inkluderade [Skärmdesigner][1] med anpassningsbara sidlayouter för specifika användargrupper. Alla anpassade skärmlayouter som använder Skärmdesigner kan åsidosätta inställningarna som beskrivs nedan.
+[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
 
-När du lägger till nya fält placeras de som standard under varandra. Varje fält består av en ledtext med ett datafält till höger. Du kan själv avgöra var i rutnätet fälten ska placeras.
+SuperOffice version 10 (utgiven i oktober 2021) introducerade [Skärmdesigner][1] med anpassningsbara skärmlayouter för specifika användargrupper. Eventuella anpassade skärmlayouter med skärmdesignern kan åsidosätta de inställningar som beskrivs nedan.
 
-## Hur markerar jag fält?
+När du [lägger till nya fält][2], placeras de under varandra som standard. Varje fält består av en ledtext med ett datafält till höger. Du kan bestämma var i rutan dessa fält ska placeras.
+
+## Var du ska börja
+
+1. [!inkludera[Gå till Fält och välj flik](includes/goto-fields.md)]
+
+**Hur du väljer fält:**
 
 * Klicka på ett fält i rutnätet för att markera det.
 * Klicka och dra i rutnätet för att markera flera fält.
 * Klicka på ett fält i listan **Fält** för att markera både ledtexten och datafältet i rutnätet.
 
-## Hur flyttar jag fält?
+## Flytta fält
 
 * Klicka och dra med musen. Fälten passas automatiskt in i rutnätet.
 * Klicka på ett fält och använd piltangenterna på tangentbordet.
-* Klicka på ett fält och använd piltangenterna längst ned till höger (![ikon][img2] ![ikon][img1] ![ikon][img4] ![ikon][img3]).
+* Klicka på ett fält och använd piltangenterna i nedre högra hörnet ( ![ikon][img2] ![ikon][img1] ![ikon][img4] ![ikon][img3] ).
 * Dubbelklicka på ett fält och ange positionsvärdena **X** och **Y** i dialogrutan **Fält**.
 
-## Hur justerar jag positionen?
+## Ange position
 
-1. I fälten till höger om **Ledtext** anger du följande:
+1. Ange följande i fälten till höger om **Ledtext**:
 
-    **X**: Horisontell position för ledtexten. Ju högre siffra, desto längre till höger.
+    **X**: Horisontell position för ledtexten. Ju högre siffr, desto längre till höger.
 
-    **Y**: Vertikal position för ledtexten. Ju högre siffra, desto längre ned.
+    **Y**: Vertikal position för ledtexten. Ju högre siffr, desto längre ner.
 
-2. I fälten till höger om **Data** anger du följande:
+2. Ange följande i fälten till höger om **Data**:
 
-    **X**: Horisontell position för datafältet. Ju högre siffra, desto längre till höger.
+    **X**: Horisontell position för datafältet. Ju högre siffr, desto längre till höger.
 
-    **Y**: Vertikal position för datafältet. Ju högre siffra, desto längre ned.
+    **Y**: Vertikal position för datafältet. Ju högre siffr, desto längre ner.
 
-## Hur höger-/vänsterjusterar jag fält?
+## Justera fält (höger/vänster)
 
-Markera de fält du vill justera och klicka på vänsterjustering (![ikon][img5]) eller högerjustering (![ikon][img6]) under rutnätet.
+Markera de fält du vill justera och klicka på vänsterjustera ![ikon][img5] eller högerjustera ![ikon][img6] under rutnätet.
 
-## Hur ändrar jag bredden på ett fält?
+## Ändra bredden på ett fält
 
-1. Dubbelklicka på fältet i listan **Fält** eller i rutnätet
+1. Dubbelklicka på det relevanta fältet i listan **Fält** eller i rutnätet.
 2. Ange bredden på ledtexten i fältet till höger om **Ledtext**.
 3. Ange bredden på datafältet i fältet till höger om **Data**.
 
@@ -63,28 +69,13 @@ Tabbordningen visas i listan **Namn** på vänster sida av fönstret. Ordningen 
 
 **Steg:**
 
-1. [!include[Go to fields and select tab](includes/goto-fields.md)]
-
 1. Välj önskat fält under listan.
 
-1. Klicka på en av pilarna under listan för att flytta fältet uppåt (![ikon][img1]) eller nedåt (![ikon][img2]).
+1. Klicka på en av pilarna under listan för att flytta fältet uppåt ![ikon][img1] eller nedåt ![ikon][img2].
 
-1. Klicka på **Publicera** om du vill att ändringarna ska vara tillgängliga för SuperOffice CRM-användarna.
+1. Klicka på **Publicera** för att ändringarna ska vara tillgängliga för SuperOffice CRM-användarna.
 
-## Välja sidan-1-fält
-
-> [!NOTE]
-> Den här funktionen är inte tillgänglig om ditt företag använder anpassade sidlayouter.
-
-Bland de användardefinierade fält som visas på **Mer**-flikarna i SuperOffice CRM kan du välja *tre* stycken som ska fungera som sidan 1-fält (de kallas så eftersom de visas på "förstasidan" i respektive fönster).
-
-## Var kan jag visa sidan 1-fält?
-
-[!include[List](includes/list-page-1-field-locations.md)]
-
-## Så visar du ett användardefinierat fält på förstasidan
-
-1. [!include[Go to fields and select tab](includes/goto-fields.md)]
+## <a id="page-1" />Visa användardefinierat fält på förstasidan
 
 1. Markera **Tillåt olika sidan 1-fält för olika användargrupper** längst ner på fliken om du vill definiera olika sidan 1-fält för olika användargrupper. Om det här alternativet inte markeras används fälten du skapar för alla användargrupper.
 
@@ -92,14 +83,13 @@ Bland de användardefinierade fält som visas på **Mer**-flikarna i SuperOffice
 
 1. I listrutan **Fält 1** väljer du det fält som ska placeras högst upp. Välj vilka fält som ska visas på efterföljande positioner i listrutorna **Fält 2** och **Fält 3**.
 
-1. Klicka på **Spara** om du bara vill spara ändringarna under Inställningar och underhåll eller klicka på **Publicera** om du vill göra ändringarna tillgängliga för SuperOffice CRM-användarna.
+1. Klicka på **Spara** om du bara vill spara ändringarna under Inställningar och underhåll eller klicka på **Publicera** för att göra ändringarna tillgängliga för SuperOffice CRM-användarna.
 
-## Användargrupper och sidan-1-fält
+### Användargrupper och sidan-1-fält
+
+Användargrupper definieras i fönstret **Listor** och den grupp som en användare tillhör definieras i fönstret Användare.
 
 När du väljer ett namn i listan **Användargrupp** visas de tillgängliga sidan 1-fälten för den valda användargruppen under **Fält 1**, **2** och **3**.
-
-> [!NOTE]
-> Användargrupper definieras i fönstret **Listor** och den grupp som en användare tillhör definieras i fönstret Användare.
 
 Om du väljer **(alla användargrupper)** i listan **Användargrupper**, väljer ett eller flera fält och sparar konfigurationen kommer samma val av fält att gälla för alla användargrupper i SuperOffice CRM. Om du sedan väljer en specifik användargrupp kan du åsidosätta de befintliga fältinställningarna för just denna grupp genom att använda en annan specifikation. Om du inte anger något i ett fält lämnas det tomt eftersom åsidosättningen gäller alla tre fälten, oavsett deras innehåll.
 
@@ -107,12 +97,13 @@ Om du väljer **(alla användargrupper)** i listan **Användargrupper**, väljer
 > Du måste publicera en åsidosättning för en enskild användargrupp *efter* att du har skapat en konfiguration för alla användargrupper. Annars tillämpas den inte.
 
 <!-- Referenced links -->
-[1]: ../../../ui/screen-designer/learn/index.md
+[1]: ../../ui/screen-designer/learn/index.md
+[2]: add-udef.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../../media/icons/arrow-left.png
-[img3]: ../../../../media/icons/arrow-up.png
-[img4]: ../../../../media/icons/arrow-down.png
-[img5]: ../../../../media/icons/admin/align-left.png
-[img6]: ../../../../media/icons/admin/align-right.png
+[img1]: ../../../media/icons/arrow-right.png
+[img2]: ../../../media/icons/arrow-left.png
+[img3]: ../../../media/icons/arrow-up.png
+[img4]: ../../../media/icons/arrow-down.png
+[img5]: ../../../media/icons/admin/align-left.png
+[img6]: ../../../media/icons/admin/align-right.png

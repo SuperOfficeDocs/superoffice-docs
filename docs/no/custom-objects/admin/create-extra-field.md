@@ -3,7 +3,7 @@ uid: help-no-extra-fields-create
 title:  Definere ekstrafelt
 description: Definere ekstrafelt
 author: Bergfrid Dias
-so.date: 01.25.2024
+so.date: 01.29.2024
 so.version: 10
 keywords: ekstrafelt, egendefinert felt
 so.topic: howto
@@ -32,7 +32,7 @@ Når du har opprettet en [ekstra tabell][1], må du definere felt i tabellen, sl
     * Skriv inn et *databasefelt* som begynner med **x_** for å identifisere feltet i skjemaet.
     * Valgfritt sett andre egenskaper. Typen (spesifisert i trinn 3) bestemmer hva som er tilgjengelig. Se detaljer om feltene nedenfor.
 
-    > [!TIPS]
+    > [!TIP]
     > For å gjøre et felt obligatorisk, velg **Kan ikke være tomt**.
 
 1. Klikk **OK** for å lagre det nye feltet (kjører `alter table y_mynewtable add column x_mynewfield ...`).
@@ -49,7 +49,7 @@ Når du har opprettet en [ekstra tabell][1], må du definere felt i tabellen, sl
 | Velg fra listeboks | Hvis feltet er knyttet til en ekstratabell, velger du dette alternativet for å vise en liste over tabellverdier. |
 | Velg verdier fra liste | Hvis dette er merket, blir feltet til en listeboks. Alternativene på listen vil være de tekstene som skrives inn i tekstboksen. Det er én linje per alternativ. |
 | Opprett indeks | Angi om feltet skal indekseres. Det er raskere å søke etter data i indekserte felt. |
-| Databasefelt | Navnet som kolonnen vil få i databasen. Dette navnet må være unikt for denne tabellen. Videre må kolonnenavnet være et enkeltord, og det kan bare inneholde understrek, bokstavene a til z eller tall, og det må begynne med "x_". Kan bare angis når feltet opprettes. Dette **kan ikke endres senere**. |
+| Databasefelt | Navnet som kolonnen vil få i databasen. Dette navnet må være unikt for denne tabellen. Videre må kolonnenavnet være et enkeltord, og det kan bare inneholde understrek, bokstavene a til z eller tall, og det må begynne med "x_". Kan bare angis når feltet opprettes. **Kan ikke endres senere**. |
 | Antall desimaler | Antall desimaler som er tillatt i et tall. |
 | Standardverdi | Standardverdien brukes for dette feltet. |
 | Beskrivelse | Standardbeskrivelsen. |

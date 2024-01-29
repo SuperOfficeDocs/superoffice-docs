@@ -1,70 +1,60 @@
 ---
-title: Egendefinierade objekt
 uid: help-sv-custom-objects
-description: Egendefinierade objekt
+title: Egendefinierade objekt och fält
+description: Egendefinierade objekt och fält
 author: Bergfrid Dias
-so.date: 02.23.2023
-keywords: anpassa objekt
+so.date: 01.29.2024
+so.version: 10
+keywords: egendefinierade objekt, användardefinierade fält, extratabell, extrafält, tilläggsfält, anpassat fält
 so.topic: concept
 language: sv
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 ---
 
-# Egendefinierade objekt
+# Egendefinierade objekt och fält
 
-## Användardefinierade fält
+Alla företag och organisationer har sina egna krav på den information de behöver registrera angående sina kontakter, försäljning, projekt, avtal och så vidare. Administratörer kan lägga till fält och tabeller i SuperOffice för att anpassa vilken typ av information som kan registreras.
 
-Alla företag och organisationer har sina egna krav på vilken information de behöver registrera om sina kontakter, försäljningar, projekt, avtal och så vidare. I fönstret **Fält** kan du skapa egna fält i SuperOffice CRM. På så sätt kan du anpassa vilken typ av information som kan registreras om företag, kontakter, projekt, försäljningar, dokument och händelser.
+SuperOffice CRM och Service var en gång två separata applikationer med olika möjligheter till utökning. [**Användardefinierade fält**][1] (kallat udefs för kort) hör hemma i SuperOffice CRM, medan [**extra tabeller**][3] (även kallade tredjepartstabeller) och [**extrafält**][2] hör hemma i Service. Begreppet **anpassat fält** inkluderar både användardefinierade fält och extra fält.
 
-## Egendefinierade fält och tabeller
+## Användning
 
-Ett bra exempel på ett egendefinierat fält som du kan använda på **kontaktkortet** är ett fält som heter "Nöjd kund" med värdet Ja eller Nej.
+* Ett bra exempel på ett anpassat fält du kan använda på **Kontakt**-skärmen är ett fält kallat "Nöjd kund", där värdet av fältet är Ja eller Nej. Till exempel kan du skicka dina kontakter ett mail (med länkåtgärder) där de kan ange om de är nöjda med din service. Detta ger dig värdefull insikt i den generella kundnöjdhetsgraden.
 
-Du kan till exempel skicka ett utskick till dina kontakter (med länkåtgärder) där de kan ange om de är nöjda med din service. På så sätt får du värdefull information om den generella kundnöjdheten.
+* Genom att använda **Sök**-funktionen kan du söka efter informationen du lägger in i anpassade fält och skapa urval. Om du till exempel registrerar förfallodatumet för underhållsavtalet du har med kontakter kan du skapa ett dynamiskt urval som visar alla kontakter vars avtal löper ut om mindre än en månad.
 
-Naturligtvis kan du lägga till många olika tabeller och fält i SuperOffice för att spara all information som dina kundtjänstmedarbetare behöver.
+* Du kan återanvända informationen från dessa fält i dokument och e-post som **mallvariabler**. Varje fält du lägger till får sitt eget unika ID (Program-ID), som kan användas i dokument för att slå ihop kontaktspecifik information. Så om du vill skicka ett mail till dina kontakter som säger att deras underhållsavtal snart löper ut, kan du använda mallvariabeln för förfallodatum för att visa rätt förfallodatum för deras avtal i meddelandet.
 
-![I fönstret Tabeller kan du välja att (a) skapa ett extrafält eller (b) skapa en ny tabell -screenshot][img1]
+## Krav
 
-### Extratabeller
+| Anpassning | Licens | Kommentar |
+|---|---|---|
+| Lägg till/ta bort användardefinierat fält | Ingen | Visas automatiskt på fliken Mer. Behöver Development Tools för att anpassa placeringen. |
+| Anpassa layouten för fliken Mer | Development Tools | |
+| Hantera sid 1-fält | Development Tools | |
+| Extra fält | Development Tools | |
+| Extra tabell | Development Tools | |
+| [Skärmdesigner][5] | Development Tools | SuperOffice version 10 och nyare. |
+| [Anpassade skärmar][6] | Development Tools, Service | Skapa nya skärmar i Service. |
 
-* [Introduktion till extratabeller][3]
-* [Definiera en tabell][4]
+## Layout (positionering av fält)
 
-### Anpassa fält
+UI-anpassning av vilken typ som helst kräver en Development Tools-licens. Eventuella anpassade skärmlayouter (skapade i Skärmdesignern) kan åsidosätta inställningarna för enskilda anpassade fält.
 
-Alla företag och organisationer har sina egna krav på vilken information de behöver registrera. Informationen kan gälla företag, kontakter, försäljningar, projekt och så vidare. Som administratör kan du lägga till egna fält under Inställningar och underhåll.
-
-* [Användardefinierade fält][1]
-* [Tilläggsfält][2]
-
-#### Fördelar med att lägga till fält
-
-Med sökfunktionen kan du söka efter den information du lägger in i de här fälten och göra urval.
-
-Om du till exempel registrerar förfallodatumet för underhållsavtalet du tecknar med dina kontakter kan du skapa ett dynamiskt urval som visar alla kontakter vars avtal löper ut om mindre än en månad.
-
-Du kan återanvända informationen från de här fälten i dokument och e-postmeddelanden med hjälp av mallvariabler. Varje fält som du lägger till får ett unikt ID (Program-ID), som kan användas i dokument för att slå ihop kontaktspecifik information.
-
-Om du vill skicka ett e-postmeddelande till dina kontakter som informerar dem om att deras underhållsavtal snart löper ut kan du alltså använda mallvariabeln för förfallodatum för att visa rätt förfallodatum för deras avtal i meddelandet.
-
-#### Placering
-
-Alla anpassade sidolayouter (skapade i Skärmdesigner) som använder Skärmdesigner kan åsidosätta inställningarna för fälten.
-
-Om du inte har licens för konfigurerbara skärmbilder använder du rangordningen för de olika fälten.
+Om du inte har en Development Tools-licens, använd rangordningen av de olika fälten för att sortera dem på fliken **Mer**.
 
 ## Relaterat innehåll
 
-* [Skärmdesigner][5]
+* [Brukerdefinerte felt][1]
+* [Ekstrafelt][2]
+* [Ekstra tabeller][3]
 
 <!-- Referenced links -->
-[1]: udef/index.md
-[2]: extra-field/create.md
-[3]: extra-table/index.md
-[4]: extra-table/create.md
+[1]: udef.md
+[2]: extra-field.md
+[3]: extra-table.md
 [5]: ../../ui/screen-designer/learn/index.md
+[6]: ../../ui/blogic/custom-screens/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png
