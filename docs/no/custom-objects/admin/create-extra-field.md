@@ -1,11 +1,11 @@
 ---
 uid: help-no-extra-fields-create
-title:  Definere ekstrafelt
-description: Definere ekstrafelt
+title: Legge til ekstrafelt
+description: Legge til ekstrafelt
+keywords: ekstrafelt, egendefinert felt
 author: Bergfrid Dias
 so.date: 01.29.2024
 so.version: 10
-keywords: ekstrafelt, egendefinert felt
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance

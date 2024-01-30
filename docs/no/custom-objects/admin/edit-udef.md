@@ -2,10 +2,10 @@
 uid: help-no-udef-edit
 title: Redigere egendefinert felt
 description: Redigere egendefinert felt
+keywords: udef, egendefinert felt
 author: Bergfrid Dias
 so.date: 01.25.2024
 so.version: 10
-keywords: udef, egendefinert felt
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
@@ -20,7 +20,7 @@ language: no
 
 1. Gjør ønskede endringer i de ulike feltene.  (Se listen over [feltegenskaper][1]).
 
-    Bruk nedtrekksmenyen for **Type** for å velge en ny type. Du vil bare se kompatible felttyper. Det vil si, der eksisterende data kan konverteres for å passe til den nye felttypen.
+    Nedtrekksmenyen **Type** viser kun kompatible felttyper. Det vil si, der eksisterende data kan konverteres for å passe til den nye felttypen.
 
 1. Klikk på **Lagre**.
 

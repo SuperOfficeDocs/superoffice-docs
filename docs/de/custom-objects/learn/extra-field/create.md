@@ -1,13 +1,11 @@
 ---
 uid: help-de-extra-fields-create-redirect
-title:  Zusatzfelder definieren
-description: Zusatzfelder definieren
-author: Hanne Gunnarsson
-so.date: 03.29.2023
+title: Zusatzfelder hinzufügen
+description: Zusatzfelder hinzufügen
+author: Bergfrid Dias
+so.date: 01.30.2024
 keywords:
 so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
 language: de
 redirect_url: https://docs.superoffice.com/de/custom-objects/admin/create-extra-field.html
 ---

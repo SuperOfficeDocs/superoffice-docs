@@ -30,7 +30,7 @@ Du kan opprette ekstra tabeller i SuperOffice for å registrere ulike typer data
     * Skriv inn en *databasetabell* som begynner med **y_** for å identifisere tabellen i skjemaet.
     * Valgfritt sett andre egenskaper. Se detaljer om feltene nedenfor.
 
-    > [!MERK]
+    > [!NOTE]
     > Noen tabelleegenskaper kan ikke settes før du har lagt til felt.
 
 1. Klikk på **OK** for å lagre den nye tabellen (kjører `create table y_mynewtable ...`).

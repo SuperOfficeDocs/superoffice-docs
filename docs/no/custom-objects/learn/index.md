@@ -2,15 +2,14 @@
 uid: help-no-custom-objects
 title: Egendefinerte objekter
 description: Egendefinerte objekter
+keywords: egendefinert objekt, felt, brukerdefinert, udef, ekstrafelt, ekstra tabell
 author: Bergfrid Dias
 so.date: 01.29.2024
 so.version: 10
-keywords: egendefinert objekt, felt, brukerdefinert, udef, ekstrafelt, ekstra tabell
 so.topic: concept
-language: no
 so.audience: user
 so.audience.tooltip: SuperOffice CRM
-
+language: no
 ---
 
 # Egendefinerte objekter og felter

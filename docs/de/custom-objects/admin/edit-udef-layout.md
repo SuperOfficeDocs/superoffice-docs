@@ -1,120 +1,107 @@
 ---
-uid: help-de-udef-move
-title: Felder verschieben
-description: Felder verschieben
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: udef, benutzerdefiniertes Feld
+uid: help-de-udef-layout
+title: Benutzeroberfläche anpassen
+description: Benutzeroberfläche anpassen
+keywords: udef, benutzerdefiniertes Feld, layout, Seite 1-Felder, anpassen
+author: Bergfrid Dias
+so.date: 01.30.2024
+so.version: 10
 so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: de
 ---
 
-# Felder platzieren
+# Benutzeroberfläche anpassen
 
-> [!NOTE]
-> Die SuperOffice Version 10 (veröffentlicht im Oktober 2021) führte den [Ansichtsdesigner][1] mit anpassbaren Anzeigenlayouts für bestimmte Benutzergruppen ein. Bei benutzerdefinierten, mit dem Ansichtsdesigner erstellten Ansichtslayouts werden die unten beschriebenen Einstellungen möglicherweise überschreiben.
+[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
 
-Wenn Sie neue Felder hinzufügen, werden diese standardmäßig untereinander platziert. Jedes Feld besteht aus einer Bezeichnung mit einem Datenfeld auf der rechten Seite. Sie können entscheiden, an welcher Stelle des Rasters diese Felder platziert werden sollen.
+SuperOffice Version 10 (veröffentlicht im Oktober 2021) führte [Ansichtsdesigner][1] ein, mit anpassbaren Anzeigenlayouts für bestimmte Benutzergruppen. Jegliche benutzerdefinierten Anzeigenlayouts, die den Ansichtsdesigner verwenden, können die unten beschriebenen Einstellungen außer Kraft setzen.
 
-## Wie kann ich Felder auswählen?
+Wenn Sie [neue Felder hinzufügen][2], werden diese standardmäßig untereinander platziert. Jedes Feld besteht aus einem Bezeichnung mit einem Datenfeld rechts. Sie können entscheiden, wo im Raster diese Felder platziert werden sollen.
 
-* Wählen Sie ein Feld im Raster aus, indem Sie darauf klicken.
-* Wählen Sie mehrere Felder im Raster durch Klicken und Ziehen aus.
+## Wo anfangen
+
+1. [!include[Zu Feldern gehen und Tab auswählen](includes/goto-fields.md)]
+
+**Wie man Felder auswählt:**
+
+* Klicken Sie auf ein Feld im Raster, um es auszuwählen.
+* Klicken Sie im Raster und ziehen Sie, um mehrere Felder auszuwählen.
 * Klicken Sie auf ein Feld in der Liste **Felder**, um sowohl das Bezeichnungs- als auch das Datenfeld im Raster auszuwählen.
 
-## Wie kann ich Felder verschieben?
+## Feld verschieben
 
 * Ziehen Sie das Feld mit gedrückter Maustaste. Die Felder werden automatisch an das Raster angepasst.
 * Klicken Sie auf ein Feld und verwenden Sie die Pfeiltasten auf der Tastatur.
-* Klicken Sie auf ein Feld und verwenden Sie die Pfeiltasten in der rechten unteren Ecke (![Symbol][img2] ![Symbol][img1] ![Symbol][img4] ![Symbol][img3]).
-* Doppelklicken Sie auf ein Feld und legen Sie die Positionswerte **X** und **Y** im Dialogfeld **Felder** fest.
+* Klicken Sie auf ein Feld und verwenden Sie die Pfeiltasten unten rechts ( ![icon][img2] ![icon][img1] ![icon][img4] ![icon][img3] ).
+* Doppelklicken Sie auf ein Feld und geben Sie Positionswerte **X** und **Y** im Dialogfeld **Felder** an.
 
-## Wie lege ich die Position fest?
+## Position festlegen
 
-1. In den Feldern rechts neben **Bezeichnung** können Sie Folgendes festlegen:
+1. Geben Sie in den Feldern rechts von **Bezeichnung** Folgendes an:
 
-    **X**: Die horizontale Position der Bezeichnung. Je größer die Zahl ist, desto weiter rechts wird das Feld platziert.
+    **X**: Horizontale Position der Bezeichnung. Je höher die Zahl, desto weiter rechts.
 
-    **Y**: Die vertikale Position der Bezeichnung. Je größer die Zahl ist, desto weiter unten wird das Feld platziert.
+    **Y**: Vertikale Position der Bezeichnung. Je höher die Zahl, desto weiter unten.
 
-2. In den Feldern rechts neben **Daten** können Sie Folgendes festlegen:
+2. Geben Sie in den Feldern rechts von **Data** Folgendes an:
 
-    **X**: Die horizontale Position des Datenfelds. Je größer die Zahl ist, desto weiter rechts wird das Feld platziert.
+    **X**: Horizontale Position des Datenfelds. Je höher die Zahl, desto weiter rechts.
 
-    **Y**: Die vertikale Position des Datenfelds. Je größer die Zahl ist, desto weiter unten wird das Feld platziert.
+    **Y**: Vertikale Position des Datenfelds. Je höher die Zahl, desto weiter unten.
 
-## Wie kann ich Felder rechts-/linksbündig ausrichten?
+## Felder ausrichten (rechts/links)
 
-Wählen Sie die Felder aus, die Sie anpassen möchten, und klicken Sie unter dem Raster auf linksbündig (![Symbol][img6]) oder rechtsbündig (![Symbol][img5]).
+Wählen Sie die Felder aus, die Sie anpassen möchten, und klicken Sie unter dem Raster auf links ausrichten ![icon][img5] oder rechts ausrichten ![icon][img6].
 
-## Wie kann ich die Breite von Feldern ändern?
+## Breite eines Feldes ändern
 
-1. Doppelklicken Sie in der Liste bzw. im Raster **Felder** auf das entsprechende Feld.
-2. Im Feld rechts neben **Bezeichnung** können Sie die Breite des Bezeichnungsfeldes festlegen.
-3. Im Feld rechts neben **Daten** können Sie die Breite des Datenfeldes festlegen.
+1. Doppelklicken Sie auf das relevante Feld in der Liste **Felder** oder im Raster.
+2. Geben Sie die Breite der Bezeichnung im Feld rechts von **Bezeichnung** an.
+3. Geben Sie die Breite des Datenfelds im Feld rechts von **Data** an
 
-## TAB-Reihenfolge der Felder auf der Registerkarte Mehr bearbeiten
+## Ändern Sie die TAB-Reihenfolge der Felder im Tab "Mehr"
 
-Die TAB-Reihenfolge ist die Reihenfolge, in der Sie sich durch Betätigen der TAB-Taste zwischen den verschiedenen Feldern verschieben. Sie können die TAB-Reihenfolge ändern, um die logische Reihenfolge widerzuspiegeln, in der die Benutzer normalerweise Daten in Felder eingeben.
+Die TAB-Reihenfolge ist die Reihenfolge, in der Sie sich zwischen den verschiedenen Feldern bewegen, wenn Sie die TAB-Taste drücken. Sie können die TAB-Reihenfolge ändern, um die logische Reihenfolge widerzuspiegeln, in der Benutzer normalerweise Daten in Felder eingeben.
 
-Die TAB-Reihenfolge wird in der Liste **Name** an der linken Seite der Anzeige angezeigt. Diese Reihenfolge ist nicht identisch mit den physischen Positionen der Felder, die im Vorschaufeld oben rechts angezeigt werden.
+Die TAB-Reihenfolge wird in der Liste **Name** links auf der Anzeige angezeigt. Diese Reihenfolge ist nicht identisch mit den physischen Positionen der Felder, die rechts oben im Vorschaufeld angezeigt werden.
 
 **Schritte:**
 
-1. [!include[Go to fields and select tab](includes/goto-fields.md)]
+1. Wählen Sie das erforderliche Feld unterhalb der Liste aus.
 
-1. Wählen Sie das gewünschten Feld in der Liste aus.
+1. Klicken Sie auf einen der Pfeile unterhalb der Liste, um das Feld nach oben ![icon][img3] oder nach unten ![icon][img4] zu verschieben.
 
-1. Klicken Sie auf einen der Pfeile unter der Liste, um das Feld entweder nach oben (![Symbol][img1]) oder nach unten (![Symbol][img2]) zu verschieben.
+1. Klicken Sie auf **Veröffentlichen**, um die Änderungen für SuperOffice CRM-Benutzer verfügbar zu machen.
 
-1. Klicken Sie auf **Veröffentlichen**, wenn Sie möchten, dass die Änderungen für SuperOffice CRM-Benutzer verfügbar sind.
+## <a id="page-1" />Benutzerdefiniertes Feld auf der ersten Seite anzeigen
 
-## Seite 1-Felder auswählen
+1. Aktivieren Sie **Unterschiedliche Felder auf Seite 1 für unterschiedliche Benutzergruppen zulassen** unten auf der Registerkarte, um unterschiedliche Felder für Seite 1 für verschiedene Benutzergruppen anzugeben. Wenn diese Option nicht aktiviert ist, werden die von Ihnen festgelegten Felder für alle Benutzergruppen verwendet.
 
-> [!NOTE]
-> Diese Funktion ist nicht verfügbar, wenn Ihre Organisation benutzerdefinierte Anzeigenlayouts verwendet.
+1. In der Benutzergruppenliste oben wählen Sie die erforderliche Benutzergruppe aus (wenn Sie **Unterschiedliche Felder auf Seite 1 für unterschiedliche Benutzergruppen zulassen** im vorherigen Schritt aktiviert haben).
 
-Unter den benutzerdefinierten Feldern, die in den Registerkarten **Mehr** in SuperOffice CRM angezeigt werden, können *Sie drei* auswählen, die als Felder auf Seite 1 fungieren (so genannt, weil sie auf der "ersten Seite" in ihren jeweiligen Ansichten angezeigt werden).
+1. In der Listbox **Feld 1** wählen Sie das Feld aus, das oben angezeigt werden soll. Wählen Sie die Felder aus, die in den nächsten Positionen in den Listboxen **Feld 2** und **Feld 3** angezeigt werden sollen.
 
-## Wo kann ich Seite 1-Felder anzeigen?
+1. Klicken Sie auf **Speichern**, um Ihre Änderungen nur in "Einstellungen und Wartung" zu speichern, oder klicken Sie auf **Veröffentlichen**, um die Änderungen für SuperOffice CRM-Benutzer verfügbar zu machen.
 
-[!include[List](includes/list-page-1-field-locations.md)]
+### Benutzergruppen und Seite-1-Felder
 
-## Benutzerdefiniertes Feld auf der ersten Seite anzeigen
+Benutzergruppen werden in der Anzeige **Listen** definiert, und die Gruppe, der ein Benutzer angehört, wird in der Anzeige Benutzer definiert. Wenn Sie einen Namen in der Liste **Benutzergruppe** auswählen, werden die verfügbaren Seite-1-Felder für die ausgewählte Benutzergruppe unter **Felder 1**, **2** und **3** angezeigt.
 
-1. [!include[Go to fields and select tab](includes/goto-fields.md)]
-
-1. Aktivieren Sie **Unterschiedliche Felder auf Seite 1 für unterschiedliche Benutzergruppen zulassen** am unteren Rand der Registerkarte, um unterschiedliche Felder für Seite 1 für verschiedene Benutzergruppen anzugeben. Wenn diese Option nicht aktiviert ist, werden die von Ihnen festgelegten Felder für alle Benutzergruppen verwendet.
-
-1. Wählen Sie in der Liste der Benutzergruppen oben die gewünschte Benutzergruppe aus (wenn Sie im vorherigen Schritt die Option **Unterschiedliche Felder auf Seite 1 für unterschiedliche Benutzergruppen zulassen** aktiviert haben).
-
-1. Wählen Sie im Listenfeld **Feld 1** das Feld aus, das an oberster Position angezeigt werden soll. Wählen Sie in den Listenfeldern **Feld 2** und **Feld 3** die nachfolgend anzuzeigenden Felder aus.
-
-1. Klicken Sie auf **Speichern**, um Ihre Änderungen nur in Einstellungen und Verwaltung zu speichern, oder klicken Sie auf **Veröffentlichen**, um die Änderungen für SuperOffice CRM-Benutzer verfügbar zu machen.
-
-## Benutzergruppen und Felder auf Seite 1
-
-Wenn Sie in der Liste **Benutzergruppe** einen Namen ausgewählt haben, werden die verfügbaren Seite 1-Felder für die relevante Benutzergruppe unter **Feld 1**, **2** und **3** angezeigt.
-
-> [!NOTE]
-> Benutzergruppen werden auf der Anzeige **Listen** definiert und auf der Anzeige Benutzer wird die Gruppe, zu der ein Benutzer gehört, festgelegt.
-
-Wenn Sie in der Liste Benutzergruppen **(alle Benutzergruppen)** auswählen, ein oder mehrere Felder auswählen und das Setup speichern, gilt die gleiche Selektion von Feldern für alle **Benutzergruppen** in SuperOffice CRM. Wenn Sie anschließend eine bestimmte Benutzergruppe auswählen, können Sie die vorhandene Feldeinstellung nur für diese Gruppe überschreiben, indem Sie eine andere Einstellung verwenden. Wenn Sie in einem Feld nichts ausfüllen, bleibt es leer – weil die Überschreibung unabhängig von ihrem Inhalt für alle drei Felder gilt.
+Wenn Sie **(alle Benutzergruppen)** in der Liste **Benutzergruppe** auswählen, Felder auswählen und die Einrichtung speichern, gilt dieselbe Auswahl von Feldern für alle Benutzergruppen in SuperOffice CRM. Wenn Sie dann eine bestimmte Benutzergruppe auswählen, können Sie die vorhandene Feldkonfiguration nur für diese Gruppe überschreiben, indem Sie eine andere Spezifikation verwenden. Wenn Sie in einem Feld nichts angeben, bleibt es leer, da die Überschreibung für alle drei Felder unabhängig von ihrem Inhalt gilt.
 
 > [!NOTE]
 > Sie müssen eine Überschreibung für eine einzelne Benutzergruppe veröffentlichen, *nachdem* Sie ein Setup für alle Benutzergruppen festgelegt haben. Andernfalls wird es nicht wirksam.
 
 <!-- Referenced links -->
-[1]: ../../../ui/screen-designer/learn/index.md
+[1]: ../../ui/screen-designer/learn/index.md
+[2]: add-udef.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../../media/icons/arrow-left.png
-[img3]: ../../../../media/icons/arrow-up.png
-[img4]: ../../../../media/icons/arrow-down.png
-[img5]: ../../../../media/icons/admin/align-left.png
-[img6]: ../../../../media/icons/admin/align-right.png
+[img1]: ../../../media/icons/arrow-right.png
+[img2]: ../../../media/icons/arrow-left.png
+[img3]: ../../../media/icons/arrow-up.png
+[img4]: ../../../media/icons/arrow-down.png
+[img5]: ../../../media/icons/admin/align-left.png
+[img6]: ../../../media/icons/admin/align-right.png

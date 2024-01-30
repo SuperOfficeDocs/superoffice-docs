@@ -1,10 +1,11 @@
 ---
 uid: help-de-extra-table-create
-title:  Zusatztabellen definieren
-description:  Zusatztabellen definieren
-author: Hanne Gunnarsson
-so.date: 03.29.2023
-keywords: Zusatztabelle
+title: Zusatztabellen hinzufügen
+description: Zusatztabellen hinzufügen
+author: Bergfrid Dias
+so.date: 01.30.2024
+so.version: 10
+keywords: Zusatztabelle, Tabelle, Datentypen, Systemdesign
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
@@ -13,22 +14,34 @@ language: de
 
 # Zusatztabellen hinzufügen
 
-Sie können Zusatztabellen in SuperOffice Service erstellen, um unterschiedliche Datentypen zu erfassen. Nachdem Sie die Tabelle und darin [Zusatzfelder erstellt][1] wurden, können Sie die Tabelle öffnen, um ihr Inhalte hinzuzufügen, indem Sie zum **Systemdesign** > **Tabellen** gehen, mit dem Mauszeiger auf die Tabelle zeigen und die Schaltfläche ![Symbol][img1] anklicken.
+Sie können Zusatztabellen in SuperOffice erstellen, um unterschiedliche Datentypen zu erfassen. Nachdem Sie die Tabelle und darin [Zusatzfelder erstellt][1] wurden, können Sie die Tabelle öffnen, um ihr Inhalte hinzuzufügen.
 
-> [!NOTE]
-> In SuperOffice können Sie Web-Bildschirme erstellen, die Tabelleninformationen enthalten können. Um die entsprechenden Zugriffsrechte festzulegen, muss der Benutzer einer Rolle angehören, die über die Funktionsrechte **Tabellen anzeigen** und **Tabellen bearbeiten**verfügt.
+## Schritte
 
-**Schritte:**
+1. [!include[Zu Tabellen gehen](includes/goto-tables.md)]
 
-1. Gehen Sie zur Anzeige **Tabellen**.
+1. Klicken Sie auf **Neue Tabelle**.
 
-    * In Einstellungen und Verwaltung: Klicken Sie im Navigator auf das ![Symbol][img3] der Schaltfläche **Systemdesign**. Wählen Sie dann die Registerkarte **Tabellen** aus.
+    ![Erstellen Sie eine zusätzliche Tabelle -screenshot][img1]
 
-2. Klicken Sie auf die Schaltfläche ![Symbol][img4]. Die Ansicht **Eigenschaften der Tabelle** wird geöffnet.
+1. In der Ansicht **Eigenschaften der Tabelle** geben Sie Daten über die neue Tabelle ein.
 
-3. In der Ansicht **Eigenschaften der Tabelle** geben Sie Daten über die neue Tabelle ein. Weitere Details zu den folgenden Feldern finden Sie hier.
+    * Geben Sie einen *Namen* ein, der als Bezeichnung verwendet wird.
+    * Geben Sie eine *Datenbanktabelle* ein, die mit **y_** beginnt, um sie im Schema zu identifizieren.
+    * Optional setzen Sie andere Eigenschaften. Sehen Sie Details zu den Feldern unten.
 
-4. Klicken Sie auf **OK**, um die neue Tabelle zu speichern.
+    > [!NOTE]
+    > Einige Tabelleneigenschaften können nicht eingestellt werden, bis Sie Felder hinzugefügt haben.
+
+1. Klicken Sie auf **OK**, um die neue Tabelle zu speichern (führt `create table y_mynewtable ...` aus).
+
+1. [Fügen Sie Felder zu Ihrer neuen Tabelle hinzu][1].
+
+1. Optional, passen Sie Tabelleneigenschaften wie Sortierreihenfolge an. (Klicken Sie auf den Tabellennamen in der Liste, um den Bearbeitungsmodus zu betreten.)
+
+1. Klicken Sie auf **NetServer neu starten**. Wenn Travel aktiviert ist, sehen Sie auch eine Nachricht, dass eine neue Travel-Datenbank generiert werden muss.
+
+Sie können nun die Tabelle in der Benutzeroberfläche öffnen, um Inhalte hinzuzufügen **oder** sie über die APIs zu füllen.
 
 ## Felder
 
@@ -44,18 +57,16 @@ Sie können Zusatztabellen in SuperOffice Service erstellen, um unterschiedliche
 | Sortierreihenfolge | Die Spalte, nach der die Tabelle sortiert wird. Wenn Sie **Absteigend** aktivieren, werden die Werte in absteigender Reihenfolge sortiert. Für Zahlenwerte bedeutet dies, dass der höchste Wert ganz oben in der Tabelle angezeigt wird. Die Tabelle muss Felder enthalten, bevor Sie hier etwas auswählen können. |
 | Anzeigefeld | Wenn Daten aus dieser Tabelle in einer anderen Tabelle (eine Beziehung) angezeigt werden sollen, müssen Sie hier auswählen, welches Feld in der anderen Tabelle angezeigt werden soll. Die Tabelle muss Felder enthalten, bevor Sie hier etwas auswählen können. |
 | Übergeordnetes Feld | Dieses Feld kommt in Verbindung mit Tabellen mit hierarchischer Struktur zum Einsatz. |
-| Vollständiger Name |  Für hierarchisch strukturierte Tabellen können Sie hier ein Feld angeben, in das automatisch der vollständige Name des Eintrags eingefügt wird. Der Name wird aus dem Namensfeld des Eintrags und aller übergeordneten Einträge abgeleitet. |
+| Vollständiger Name | Für hierarchisch strukturierte Tabellen können Sie hier ein Feld angeben, in das automatisch der vollständige Name des Eintrags eingefügt wird. Der Name wird aus dem Namensfeld des Eintrags und aller übergeordneten Einträge abgeleitet. |
 | ID-Feld ausblenden | Wenn diese Option ausgewählt ist, wird das ID-Feld bei der Auflistung von Einträgen in der Tabelle nicht angezeigt. |
-| Tabelle ausblenden | Wenn diese Option aktiviert ist, ist die Tabelle nicht über das ![Symbol][img3] **Systemdesign** > **Tabellen**sichtbar. |
+| Tabelle ausblenden | Wenn diese Option aktiviert ist, ist die Tabelle nicht über das **Systemdesign** > **Tabellen** sichtbar. |
 
-## Was möchten Sie jetzt tun?
+## Tabelleninformation in Web-Bildschirme erstellen
 
-* [Zusatzfelder definieren][1]
+In SuperOffice können Sie Web-Bildschirme erstellen, die Tabelleninformationen enthalten können. Um die entsprechenden Zugriffsrechte festzulegen, muss der Benutzer einer Rolle angehören, die über die Funktionsrechte **Tabellen anzeigen** und **Tabellen bearbeiten** verfügt.
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/service/new-field.png
-[img3]: ../../../../common/icons/nav-admin-systemdesign-active.png
-[img4]: ../../../media/icons/service/new-table.png
+[img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

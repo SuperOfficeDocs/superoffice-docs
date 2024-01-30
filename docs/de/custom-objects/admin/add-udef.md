@@ -2,9 +2,10 @@
 uid: help-de-udef-add
 title: Felder hinzufügen
 description: Felder hinzufügen
+keywords: udef, Benutzerdefiniert, Feld
 author: Bergfrid Dias
-so.date: 01.16.2024
-keywords: udef, Benutzerdefiniert, benutzerdefiniertes Feld
+so.date: 01.30.2024
+so.version: 10
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
@@ -20,46 +21,46 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihre eigenen Zusatzfelder 
 
 ## Schritte
 
-1. [!include[Go to fields and select tab](../includes/goto-fields.md)]
+1. [!include[Zu Felder gehen](includes/goto-tables.md)]
 
 1. Klicken Sie unter der Liste **Felder** auf die Schaltfläche **Hinzufügen**.
 
-1. Geben Sie den gewünschten Namen im Feld **Name** ein.
+1. Geben Sie einen **Namen** ein und wählen Sie einen [**Typ**][2] (zum Beispiel Zahl, Text oder Datum).
 
-1. Wählen Sie im Listenfeld **Typ** den [Feldtyp][6] aus, den Sie hinzufügen möchten (zum Beispiel Zahl, Text oder Datum).
+1. Setzen Sie optional andere [Feld-Eigenschaften](#properties), wie zum Beispiel, ob das Feld obligatorisch ist oder indiziert werden soll.
 
-1. Geben Sie im Feld **Standardwert** den Wert ein, der standardmäßig in dieses Feld eingetragen werden soll.
+1. Wenn Sie fertig sind, klicken Sie auf **Speichern**. Das Dialogfeld wird geschlossen und das neue Feld wird in der Liste **Felder** und im Raster angezeigt.
 
-1. Geben Sie im Feld **QuickInfo** eine kurze Beschreibung ein, die eingeblendet wird, wenn der Mauszeiger über dem Feld platziert wird. Dabei könnte es sich um eine Beschreibung mit Informationen für die Benutzer handeln, die dieses Feld verwenden.
+1. [Optional können Sie die Position des Feldes anpassen][3]. Dies erfordert eine Lizenz für Development Tools!
 
-1. Das Feld **Prog ID** enthält eine Standard-ID für dieses Feld. Die Prog ID kann von unseren Partnern für eine bessere Verbindung mit den Partneranwendungen überschrieben werden. Sie können, anstatt ihren Code zu ändern, einen sinnvolleren Namen oder eine bestimmte ID für ein benutzerdefiniertes Feld (UDEF) eingeben.
+1. Fahren Sie fort, Felder hinzuzufügen. Klicken Sie auf **Veröffentlichen**, wenn Sie fertig sind, um das Feld für SuperOffice-Benutzer verfügbar zu machen. Nicht veröffentlichte Felder ![Symbol][img1] und Felder mit nicht veröffentlichten Änderungen ![Symbol][img2] werden in Fettschrift in der Liste **Felder** angezeigt.
 
-1. Aktivieren Sie die Option **Obligatorisch**, wenn eine Eingabe in dieses Feld obligatorisch sein soll.
+## <a id="properties" />
 
-    > [!NOTE]
-    > Dies gilt nicht für den Feldtyp **Kontrollkästchen**.
+| Eigenschaft | Beschreibung |
+|---|---|
+| Standardwert | Der Wert, der standardmäßig in dieses Feld eingetragen werden soll. |
+| QuickInfo | Eine kurze Beschreibung, die angezeigt wird, wenn der Mauszeiger über dem Feld platziert wird. Zum Beispiel Informationen zur Verwendung. |
+| Prog ID | Eine Standard-ID für dieses Feld. Das Format lautet **text:number**. Behalten Sie den Textteil bei Buchstaben a-z oder deren Großbuchstaben. Kann von SuperOffice-Partnern außer Kraft gesetzt werden. |
+| Obligatorisch | Macht es obligatorisch, dieses Feld auszufüllen. Gilt nicht für den Feldtyp *Kontrollkästchen*. |
+| Bezeichn. ausbl. | Wenn ausgewählt, wird der Name des Feldes nicht angezeigt. |
+| Schreibgeschützt | Wenn ausgewählt, ist es nicht möglich, das Feld zu ändern. |
+| Indiziert | Wenn ausgewählt, wird dieses Feld durchsuchbar und beschleunigt die **Suchen**. Nicht indizierte Felder können ebenfalls durchsucht werden, dies dauert jedoch länger. Indizieren Sie nur Felder, die häufig gesucht werden und häufig verwendete Daten enthalten. |
 
-1. Aktivieren Sie die Option **Bezeichn. ausbl.**, wenn Sie nicht möchten, dass der Name des Felds angezeigt wird.
+> [!NOTE]
+> Sie können das Kontrollkästchen **Schreibgeschützt** nicht aktivieren, wenn Sie **Obligatorisch** aktiviert haben. Diese beiden Optionen schließen sich gegenseitig aus.
 
-1. Aktivieren Sie die Option **Schreibgeschützt**, wenn Sie eine Eingabe im Feld nicht zulassen möchten.
+## Wo werden die von mir erstellten Felder angezeigt?
 
-    > [!NOTE]
-    > Sie können das Kontrollkästchen **Schreibgeschützt** nicht aktivieren, wenn Sie **Obligatorisch** aktiviert haben. Diese beiden Optionen schließen sich gegenseitig aus.
+* [Registerkarte Mehr (Firma)][16]
+* [Registerkarte Mehr (Person)][17]
+* [Registerkarte Mehr (Projekt)][13]
+* [Registerkarte Mehr (Folgeaufgaben)][14]
+* [Registerkarte Mehr (Dokument)][15]
+[Registerkarte Mehr (Verkauf)][19]
 
-1. Aktivieren Sie die Option **Indiziert**, wenn eine Suche nach diesem Feld möglich sein soll.
-
-1. Wenn Sie die gewünschten Einstellungen vorgenommen haben, klicken Sie auf **Speichern**. Das Dialogfeld wird geschlossen und das neue Feld wird in der Liste **Felder** und im Raster angezeigt.
-
-    > [!TIP]
-    > Im unteren Teil rechts befindet sich im Dialogfeld **Felder** der **Vorlagenvariablenname**, gefolgt von einem Code (ID), mit dem die in diesem Feld die Information wiederverwenden können, wie zum Beispiel als [Vorlagenvariablen][2] in Dokumenten und E-Mails.
-
-1. [Passen Sie die Position des Feldes an][3].
-
-1. Klicken Sie auf **Veröffentlichen**, wenn das Feld für SuperOffice CRM-Benutzer verfügbar sein soll. Nicht veröffentlichte Felder ![Symbol][img1] und Felder mit nicht veröffentlichten Änderungen ![Symbol][img2] werden in der Liste **Felder** in Fettschrift angezeigt.
-
-## Warum ist eine Indexierung sinnvoll?
-
-Wenn Sie **Indiziert** auswählen, können Sie diese Felder mithilfe von **Suchen** schneller suchen. Felder ohne Indexierung können auch gesucht werden, die Suche dauert jedoch länger. Sie sollten nur Felder indizieren, die häufig gesucht werden und häufig verwendete Daten enthalten.
+> [!TIP]
+> Im unteren Teil rechts befindet sich im Dialogfeld **Felder** der **Vorlagenvariablenname**, gefolgt von einem Code (ID), mit dem die in diesem Feld die Information wiederverwenden können, wie zum Beispiel als [Vorlagenvariablen][12] in Dokumenten und E-Mails.
 
 ## Fehlerbehebung
 
@@ -73,18 +74,21 @@ Vier von jedem Feldtyp (Kurzer Text, Langer Text, Nummer, Dezimalzahl) sind such
 
 * [Felder platzieren][3]
 * [Felder bearbeiten][4]
-* [TAB-Reihenfolge der Felder bearbeiten][5]
-* [Maximale Feldanzahl][1]
-* [Ansichtsdesigner][7]
+* [Ansichtsdesigner][11]
 
 <!-- Referenced links -->
-[1]: limitations.md
-[2]: ../../document/learn/template-variables.md
-[3]: move.md
-[4]: edit.md
-[5]: change-tab-order.md
-[6]: index.md#field-types
-[7]: ../../ui/screen-designer/learn/index.md
+[1]: ../learn/udef.md#limit
+[2]: ../learn/udef.md#field-types
+[3]: edit-udef-layout.md
+[4]: edit-udef.md
+[11]: ../../ui/screen-designer/learn/index.md
+[12]: ../../document/learn/template-variables.md
+[13]: ../../project/learn/index.md#more-tab
+[14]: ../../diary/learn/screen/dialog-for-followups.md
+[15]: ../../document/learn/screen/index.md
+[16]: ../../company/learn/create.md#more-tab
+[17]: ../../contact/learn/create.md#more-tab
+[19]: ../../sale/learn/index.md#more-tab
 
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png

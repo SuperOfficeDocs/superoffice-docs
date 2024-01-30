@@ -2,10 +2,10 @@
 uid: help-no-udef-layout
 title: Grensesnitttilpasning
 description: Grensesnitttilpasning
+keywords: udef, egendefinert felt, side-1
 author: Bergfrid Dias
 so.date: 01.29.2024
 so.version: 9
-keywords: udef, egendefinert felt, side-1
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance

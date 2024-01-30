@@ -2,11 +2,11 @@
 uid: help-no-udef-add
 title: Legge til brukerdefinert felt
 description: Legge til brukerdefinert felt
+so.topic: howto
 author: Bergfrid Dias
 so.date: 01.25.2024
 so.version: 10
 keywords: udef, brukerdefinert, egendefinert felt
-so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: no

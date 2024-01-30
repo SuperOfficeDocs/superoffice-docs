@@ -60,7 +60,7 @@ Select the fields you want to adjust and click left-align ![icon][img5] or right
 1. Double-click the relevant field in the **Fields** list or the grid
 2. Specify the width of the label in the field to the right of **Label**.
 3. Specify the width of the data field in the field to the right of **Data**.
->
+
 ## Edit the TAB order of fields in the More tab
 
 The TAB order is the order that you move between the various fields when you press the TAB key. You can change the TAB order to reflect the logical sequence users normally enter data in fields.

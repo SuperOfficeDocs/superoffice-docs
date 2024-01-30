@@ -2,10 +2,10 @@
 uid: help-no-udef
 title: Brukerdefinerte felt
 description: Introduksjon til brukerdefinerte felt i SuperOffice
+keywords: udef, egendefinert, brukerdefinert, felt
 author: Bergfrid Dias
 so.date: 01.25.2024
 so-version: 10
-keywords: udef, egendefinert, brukerdefinert, felt
 so.topic: concept
 so.audience: user
 so.audience.tooltip: SuperOffice CRM

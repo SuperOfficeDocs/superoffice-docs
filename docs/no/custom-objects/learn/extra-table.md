@@ -2,14 +2,14 @@
 uid: help-no-extra-table
 title: Ekstra tabell
 description: Introduksjon til ekstra tabeller i SuperOffice,
+keywords: database, ekstra tabell
 author: Bergfrid Dias
 so.date: 01.25.2024
 so.version: 10
-keywords: database, ekstra tabell
 so.topic: concept
-language: no
 so.audience: user
 so.audience.tooltip: SuperOffice CRM
+language: no
 ---
 
 # Ekstratabeller
