@@ -1,10 +1,11 @@
 ---
 uid: help-nl-udef-add
-title: Velden toevoegen
-description: Velden toevoegen
-author: Bergfrid Dias
-so.date: 01.16.2024
+title: Door gebruiker gedefinieerd veld toevoegen
+description: Door gebruiker gedefinieerd veld toevoegen
 keywords: udef, door gebruikers gedefinieerd, aangepast veld
+author: Bergfrid Dias
+so.date: 01.30.2024
+so.version: 10
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
@@ -20,46 +21,46 @@ Bekijk deze video om erachter te komen hoe u uw eigen extra velden kunt maken in
 
 ## Stappen
 
-1. [!include[Go to fields and select tab](../includes/goto-fields.md)]
+1. [!include[Ga naar Velden](includes/goto-fields.md)]
 
 1. Klik op de knop **Toevoegen** onder de lijst **Velden**.
 
-1. Typ de gewenste naam in het veld **Naam**.
+1. Voer een **Naam** in en selecteer een [**Type**][2] (bijvoorbeeld nummer, tekst of datum).
 
-1. Selecteer in de keuzelijst **Type** het [type veld][6] dat u wilt toevoegen (bijvoorbeeld nummer, tekst of datum).
+1. Stel eventueel andere [veld eigenschappen](#properties) in, zoals of het veld verplicht is of geïndexeerd moet worden.
 
-1. Voer in het veld **Standaardwaarde** de waarde in die standaard moet zijn ingevuld in dit veld.
+1. Als u klaar bent, klik op **Opslaan**. Het dialoogvenster sluit en het nieuwe veld wordt weergegeven in de lijst **Velden** en in het raster.
 
-1. Typ in het veld **Knopinfo** een korte beschrijving die wordt weergegeven als u de muisaanwijzer boven het veld houdt. Dit kan een beschrijving zijn met informatie voor de gebruikers die dit veld zullen gebruiken.
+1. [Optioneel, pas de positie van het veld aan][3]. Dit vereist een licentie voor Development Tools!
 
-1. Het veld **Prog-ID** bevat een standaard-ID voor dit veld. De prog-ID kan door onze partners worden overschreven om een betere verbinding te realiseren voor de partnertoepassingen. In plaats van de wijziging van hun code kunnen ze ook een logischer naam of een specifieke ID voor door gebruiker gedefinieerde velden (UDEF) invoeren.
+1. Ga door met het toevoegen van velden. Klik op **Publiceren** als u klaar bent om het veld beschikbaar te maken voor SuperOffice-gebruikers. Niet-gepubliceerde velden ![pictogram][img1] en velden met niet-gepubliceerde wijzigingen ![pictogram][img2] worden vet weergegeven in de lijst **Velden**.
 
-1. Schakel **Verplicht** in als u wilt dat dit een verplicht veld is.
+## <a id="properties" />Veld eigenschappen
 
-    > [!NOTE]
-    > dit geldt niet voor het veldtype **Selectievakje**.
+| Eigenschap | Beschrijving |
+|---|---|
+| Standaardwaarde | De waarde die standaard in dit veld moet worden ingevuld. |
+| Knopinfo | Een korte beschrijving die verschijnt wanneer je met de muis over het veld beweegt. Bijvoorbeeld, gebruiksinformatie. |
+| Prog-ID | Een standaard-ID voor dit veld. Het formaat is **tekst:getal**. Behoud het tekstgedeelte voor letters a-z of hun hoofdletterequivalenten. Kan worden overschreven door SuperOffice-partners. |
+| Verplicht | Maakt het verplicht om dit veld in te vullen. Geldt niet voor het *Selectievakje*-veldtype. |
+| Label verbergen | Als geselecteerd, wordt de naam van het veld niet weergegeven. |
+| Alleen lezen | Als geselecteerd, is het niet mogelijk om het veld te wijzigen. |
+| Geïndexeerd | Als geselecteerd, wordt dit veld doorzoekbaar en versnelt het **Zoeken**. Niet-geïndexeerde velden zijn ook doorzoekbaar, maar het zoeken duurt langer. U moet alleen velden indexeren die vaak worden gezocht en die veelgebruikte gegevens bevatten. |
 
-1. Schakel **Label verbergen** in als u niet wilt dat de naam van het veld wordt weergegeven.
+> [!NOTE]
+> U kunt **Alleen lezen** niet aanvinken als u **Verplicht** hebt aangevinkt. Deze opties sluiten elkaar uit.
 
-1. Schakel **Alleen lezen** in als u niet wilt dat gegevens in het veld kunnen worden ingevoerd of gewijzigd.
+## Waar worden de velden die ik maak, weergegeven?
 
-    > [!NOTE]
-    > U kunt **alleen-lezen** niet inschakelen als u **Verplicht** hebt aangevinkt. U kunt slechts een van beide opties tegelijk inschakelen.
+* [Het tabblad Meer (Bedrijf)][16]
+* [Het tabblad Meer (Contactpersoon)][17]
+* [Het tabblad Meer (Project)][13]
+* [Het tabblad Meer (Vervolgactiviteit)][14]
+* [Het tabblad Meer (Document)][15]
+* [Het tabblad Meer (Verkoop)][19]
 
-1. Schakel **Geïndexeerd** in als u wilt dat op dit veld kan worden gezocht.
-
-1. Klik op **Opslaan** als u alle benodigde instellingen hebt opgegeven. Het dialoogvenster wordt gesloten en het nieuwe veld wordt weergegeven in de lijst **Velden** en in het raster.
-
-    > [!TIP]
-    > In de rechterbenedenhoek van het dialoogvenster **Velden** staat de **Naam sjabloonvariabele** gevolgd door een code (ID), die kan worden gebruikt om de informatie die u in dit veld invoert opnieuw te gebruiken, bijvoorbeeld als [sjabloonvariabelen][2] in documenten en e-mails.
-
-1. [De positie van het veld aanpassen][3].
-
-1. Klik op **Publiceren** als u de wijzigingen beschikbaar wilt maken voor SuperOffice CRM-gebruikers. Niet-gepubliceerde velden (![pictogram][img1]) en velden met niet-gepubliceerde wijzigingen ![pictogram][img2] worden in vette tekst weergeven in de lijst **Velden**.
-
-## Wanneer is het verstandig om een index te maken?
-
-Als u **Geïndexeerd** kiest, kunt u sneller op deze velden zoeken met **Zoeken**. Niet-geïndexeerde velden zijn ook doorzoekbaar, maar het zoeken duurt langer. U moet alleen velden indexeren die vaak worden gezocht en die veelgebruikte gegevens bevatten.
+> [!TIP]
+> In de rechterbenedenhoek van het dialoogvenster **Velden** staat de **Naam sjabloonvariabele** gevolgd door een code (ID), die kan worden gebruikt om de informatie die u in dit veld invoert opnieuw te gebruiken, bijvoorbeeld als [sjabloonvariabelen][12] in documenten en e-mails.
 
 ## Troubleshooting
 
@@ -73,18 +74,21 @@ Vier van elk type veld (korte tekst, lange tekst, getal, decimaal) zijn doorzoek
 
 * [Velden plaatsen][3]
 * [Velden bewerken][4]
-* [De tabvolgorde van velden bewerken][5]
-* [Maximumaantal velden][1]
-* [Schermontwerper][7]
+* [Schermontwerper][11]
 
 <!-- Referenced links -->
-[1]: limitations.md
-[2]: ../../document/learn/template-variables.md
-[3]: move.md
-[4]: edit.md
-[5]: change-tab-order.md
-[6]: index.md#field-types
-[7]: ../../ui/screen-designer/learn/index.md
+[1]: ../learn/udef.md#limit
+[2]: ../learn/udef.md#field-types
+[3]: edit-udef-layout.md
+[4]: edit-udef.md
+[11]: ../../ui/screen-designer/learn/index.md
+[12]: ../../document/learn/template-variables.md
+[13]: ../../project/learn/index.md#more-tab
+[14]: ../../diary/learn/screen/dialog-for-followups.md
+[15]: ../../document/learn/screen/index.md
+[16]: ../../company/learn/create.md#more-tab
+[17]: ../../contact/learn/create.md#more-tab
+[19]: ../../sale/learn/index.md#more-tab
 
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png

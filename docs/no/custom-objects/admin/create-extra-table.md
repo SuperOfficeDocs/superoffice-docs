@@ -2,10 +2,10 @@
 uid: help-no-extra-table-create
 title: Legge til ekstra tabeller
 description: Legge til ekstra tabeller
+keywords: ekstra tabell, systemdesign, tabelleegenskaper
 author: Bergfrid Dias
 so.date: 01.25.2024
 so.version: 10
-keywords: ekstra tabell, systemdesign
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance

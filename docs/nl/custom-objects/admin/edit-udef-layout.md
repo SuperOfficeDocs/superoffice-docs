@@ -1,59 +1,63 @@
 ---
-uid: help-nl-udef-move
-title: Velden verplaatsen
-description: Velden verplaatsen
-author: SuperOffice RnD
-so.date: 06.29.2022
+uid: help-nl-udef-layout
+title: Gebruikersinterface aanpassen
+description: Gebruikersinterface aanpassen
 keywords: udef, aangepast veld
+author: Bergfrid Dias
+so.date: 01.30.2024
+so.version: 10
 so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: nl
 ---
 
-# Velden plaatsen
+# Gebruikersinterface aanpassen
 
-> [!NOTE]
-> SuperOffice versie 10 (uitgebracht in oktober 2021) introduceerde [Schermontwerper][1] met aanpasbare schermopmaken voor specifieke gebruikersgroepen. Aanpasbare schermopmaken die gebruik maken van Schermontwerper, kunnen de hieronder beschreven instellingen overschrijven.
+[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
 
-Wanneer u nieuwe velden toevoegt, worden ze standaard onder elkaar geplaatst. Elk veld bestaat uit een label met een gegevensveld aan de rechterkant. U kunt bepalen waar in het raster deze velden moeten worden geplaatst.
+SuperOffice versie 10 (uitgebracht in oktober 2021) introduceerde [Schermontwerper][1] met aanpasbare schermopmaken voor specifieke gebruikersgroepen. Eventuele aangepaste schermopmaken met de Schermontwerper kunnen de hieronder beschreven instellingen overschrijven.
 
-## Hoe selecteer ik velden?
+Wanneer je [nieuwe velden toevoegt][2], worden ze standaard onder elkaar geplaatst. Elk veld bestaat uit een label met een gegevensveld aan de rechterkant. Je kunt bepalen waar in het raster deze velden moeten worden geplaatst.
+
+## Waar te beginnen
+
+1. [!include[Ga naar velden en selecteer tabblad](includes/goto-fields.md)]
+
+**Hoe velden te selecteren:**
 
 * Klik op een veld in het raster om het te selecteren.
 * Klik en sleep in het raster om meerdere velden te selecteren.
 * Klik op een veld in de lijst **Velden** om zowel het label als het gegevensveld in het raster te selecteren.
 
-## Hoe kan ik velden verplaatsen?
+## Verplaats veld
 
-* Klik en sleep met de muis. De velden worden automatisch aangepast aan het raster.
+* Klik en sleep met de muis. De velden worden automatisch aangepast om in het raster te passen.
 * Klik op een veld en gebruik de pijltoetsen op het toetsenbord.
-* Klik op een veld en gebruik de pijltjestoetsen in de rechterbenedenhoek ( ![pictogram][img2] ![pictogram][img1] ![pictogram][img4] ![pictogram][img3]).
-* Dubbelklik op een veld een specificeer positiewaarden **X** en **Y** in het dialoogscherm **Velden**.
+* Klik op een veld en gebruik de pijltoetsen in de rechterbenedenhoek ( ![icoon][img2] ![icoon][img1] ![icoon][img4] ![icoon][img3] ).
+* Dubbelklik op een veld en specificeer positiewaarden **X** en **Y** in het dialoogvenster **Velden**.
 
-## Hoe stel ik de positie in?
+## Stel positie in
 
-1. Geef de volgende informatie op in de velden rechts van **Label**:
+1. Geef het volgende in de velden rechts van **Label**:
 
-    **X**: horizontale positie van het label. Hoe hoger het getal, hoe verder naar rechts.
+    **X**: Horizontale positie van het label. Hoe hoger het nummer, hoe verder naar rechts.
 
-    **Y**: verticale positie van het label. Hoe hoger het getal, hoe verder naar beneden.
+    **Y**: Berticale positie van het label. Hoe hoger het nummer, hoe verder naar beneden.
 
-2. Geef de volgende informatie op in de velden rechts van **Gegevens**:
+2. Geef het volgende in de velden rechts van **Data**:
 
-    **X**: horizontale positie van het gegevensveld. Hoe hoger het getal, hoe verder naar rechts.
+    **X**: Horizontale positie van het gegevensveld. Hoe hoger het nummer, hoe verder naar rechts.
 
-    **Y**: verticale positie van het gegevensveld. Hoe hoger het getal, hoe verder naar beneden.
+    **Y**: Verticale positie van het gegevensveld. Hoe hoger het nummer, hoe verder naar beneden.
 
-## Hoe kan ik velden rechts en links uitlijnen?
+## Richt velden uit (rechts/links)
 
-Selecteer de velden die u wilt aanpassen en klik op links uitlijnen (![pictogram][img5]) of rechts uitlijnen (![pictogram][img6]) onder het raster.
+Selecteer de velden die je wilt aanpassen en klik op links uitlijnen ![icoon][img5] of rechts uitlijnen ![icoon][img6] onder het raster.
 
-## Hoe wijzig ik de breedte van een veld?
+## Wijzig de breedte van een veld
 
-1. Dubbelklik op het desbetreffende veld in de lijst **Velden** of het raster
+1. Dubbelklik op het relevante veld in de lijst **Velden** of het raster.
 2. Geef de breedte van het label op in het veld rechts van **Label**.
 3. Geef de breedte van het gegevensveld op in het veld rechts van **Gegevens**.
 
@@ -65,28 +69,13 @@ De TAB-volgorde wordt weergeven in de lijst **Naam** links in het scherm. Deze v
 
 **Stappen:**
 
-1. [!include[Go to fields and select tab](includes/goto-fields.md)]
-
 1. Selecteer het gewenste veld onder de lijst.
 
-1. Klik op een van de pijlen onder de lijst om het veld omhoog (![pictogram][img1]) of omlaag (![pictogram][img2]) te verplaatsen.
+1. Klik op een van de pijlen onder de lijst om het veld omhoog ![pictogram][img1] of omlaag ![pictogram][img2] te verplaatsen.
 
 1. Klik op **Publiceren** als u de wijzigingen beschikbaar wilt maken voor SuperOffice CRM-gebruikers.
 
-## Velden pagina 1 selecteren
-
-> [!NOTE]
-> Deze functie is niet beschikbaar als uw organisatie aangepaste schermindelingen gebruikt.
-
-Uit de door gebruikers gedefinieerde velden die worden weergegeven op de tabbladen **Meer** in SuperOffice CRM kunt u *drie* velden kiezen die fungeren als velden voor pagina 1 (deze heten zo omdat de velden worden weergegeven op de eerste pagina van de respectievelijke schermen).
-
-## Waar kan ik pagina 1-velden weergeven?
-
-[!include[List](includes/list-page-1-field-locations.md)]
-
-## Een door de gebruiker gedefinieerd veld op de eerste pagina weergeven
-
-1. [!include[Go to fields and select tab](includes/goto-fields.md)]
+## <a id="page-1" />Een door de gebruiker gedefinieerd veld op de eerste pagina weergeven
 
 1. Schakel **Verschillende velden voor pagina 1 toestaan voor verschillende gebruikersgroepen** onder in het tabblad in om verschillende velden voor pagina 1 voor verschillende gebruikersgroepen op te geven. Als dit niet is ingeschakeld, worden de velden die u opgeeft gebruikt voor alle gebruikersgroepen.
 
@@ -96,12 +85,11 @@ Uit de door gebruikers gedefinieerde velden die worden weergegeven op de tabblad
 
 1. Klik op **Opslaan** als u de wijzigingen alleen wilt opslaan in Instellingen en onderhoud, of klik op **Publiceren** als u de wijzigingen beschikbaar wilt stellen voor alle SuperOffice CRM-gebruikers.
 
-## Gebruikersgroepen en velden voor pagina 1
+### Gebruikersgroepen en velden voor pagina 1
+
+U definieert gebruikersgroepen in het scherm **Lijsten**. U definieert de groep waartoe een gebruiker behoort in het scherm Gebruikers.
 
 Wanneer u een naam selecteert in de lijst **Gebruikersgroep**, worden de beschikbare Pagina 1-velden voor de betreffende gebruikersgroep weergegeven onder **Veld 1**, **2** en **3**
-
-> [!NOTE]
-> U definieert gebruikersgroepen in het scherm **Lijsten**. U definieert de groep waartoe een gebruiker behoort in het scherm Gebruikers.
 
 Als u **(alle gebruikersgroepen)** selecteert in de lijst **Gebruikersgroep**, een veld of velden selecteert en de instelling opslaat, geldt dezelfde veldselectie voor alle gebruikersgroepen in SuperOffice CRM. Als u vervolgens een specifieke gebruikersgroep selecteert, kunt u de bestaande veldinstellingen opheffen voor deze groep door een andere keuze op te geven. Als u in een veld niets opgeeft, blijft dit leeg, omdat alle drie de velden worden overschreven, ongeacht de inhoud.
 
@@ -109,12 +97,13 @@ Als u **(alle gebruikersgroepen)** selecteert in de lijst **Gebruikersgroep**, e
 > U moet een overschrijving voor één gebruikersgroep publiceren *nadat* u een instelling voor alle gebruikersgroepen hebt opgegeven. Anders heeft het geen effect.
 
 <!-- Referenced links -->
-[1]: ../../../ui/screen-designer/learn/index.md
+[1]: ../../ui/screen-designer/learn/index.md
+[2]: add-udef.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../../media/icons/arrow-left.png
-[img3]: ../../../../media/icons/arrow-up.png
-[img4]: ../../../../media/icons/arrow-down.png
-[img5]: ../../../../media/icons/admin/align-left.png
-[img6]: ../../../../media/icons/admin/align-right.png
+[img1]: ../../../media/icons/arrow-right.png
+[img2]: ../../../media/icons/arrow-left.png
+[img3]: ../../../media/icons/arrow-up.png
+[img4]: ../../../media/icons/arrow-down.png
+[img5]: ../../../media/icons/admin/align-left.png
+[img6]: ../../../media/icons/admin/align-right.png

@@ -1,70 +1,60 @@
 ---
-title: Aangepaste objecten
 uid: help-nl-custom-objects
-description: Aangepaste objecten
+title: Aangepaste objecten  en velden
+description: Aangepaste objecten en velden
+keywords: aangepast object, veld
 author: Bergfrid Dias
-so.date: 02.23.2023
-keywords: aangepast object
+so.date: 01.30.2024
+so.version: 10
 so.topic: concept
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 language: nl
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
 ---
 
-# Aangepaste objecten
+# Aangepaste objecten en velden
 
-## Door gebruiker gedefinieerde velden
+Alle bedrijven en organisaties hebben hun eigen eisen voor de informatie die ze moeten registreren met betrekking tot hun contacten, verkopen, projecten, contracten, enzovoort. Beheerders kunnen velden en tabellen toevoegen in SuperOffice om het type informatie dat kan worden geregistreerd aan te passen.
 
-Alle bedrijven en organisaties hebben hun eigen vereisten voor de informatie die ze moeten registreren met betrekking tot hun contactpersonen, verkoop, projecten, contracten, enzovoort. U kunt uw eigen velden invoeren voor SuperOffice CRM in het scherm **Velden**. Zo kunt u het type informatie aanpassen dat kan worden geregistreerd met betrekking tot bedrijven, personen, projecten, verkoop, documenten en vervolgactiviteiten.
+SuperOffice CRM en Service waren ooit twee aparte toepassingen met verschillende uitbreidingsmogelijkheden. [**Gebruikersgedefinieerde velden**][1] (kortweg udefs) horen thuis in SuperOffice CRM, terwijl [**extra tabellen**][3] (ook wel 3rd party-tabellen genoemd) en [**extra velden**][2] thuis horen in Service. De term **aangepast veld** omvat zowel gebruikersgedefinieerde velden als extra velden.
 
-## Aangepaste velden en tabellen
+## Gebruik
 
-Een goed voorbeeld van een aangepast veld dat u op de **Persoonskaart** kunt gebruiken, is een veld met de naam "Tevreden klant", waarbij de waarde van het veld Ja of Nee is.
+* Een goed voorbeeld van een aangepast veld dat je kunt gebruiken op het scherm **Contact** is een veld genaamd "Tevreden klant", waar de waarde van het veld Ja of Nee is. Je kunt bijvoorbeeld je klanten een mailing sturen (met linkacties) waarin ze kunnen aangeven of ze tevreden zijn met je diensten. Dit geeft je waardevol inzicht in het algemene klanttevredenheidspercentage.
 
-U kunt uw conctactpersonen bijvoorbeeld een mailing sturen (met linkacties) waarin ze kunnen aangeven of ze tevreden zijn over uw dienstverlening. Dit geeft u waardevol inzicht in de algemene klanttevredenheid.
+* Met de **Zoeken**-functie kun je zoeken naar de informatie die je registreert in aangepaste velden en selecties maken. Bijvoorbeeld, als je de verloopdatum van de onderhoudsovereenkomst registreert die je hebt met klanten, kun je een dynamische selectie maken die de klanten toont waarvoor de overeenkomst binnen minder dan een maand verloopt.
 
-Natuurlijk kunt u een breed scala aan tabellen en velden toevoegen aan SuperOffice om alle informatie op te slaan die uw klantenservicemedewerkers nodig hebben.
+* Je kunt de informatie uit deze velden hergebruiken in documenten en e-mails als **sjabloonvariabelen**. Elk veld dat je toevoegt krijgt zijn eigen unieke ID (Prog ID), die in documenten kan worden gebruikt om contactspecifieke informatie samen te voegen. Dus als je een e-mail naar je klanten wilt sturen waarin staat dat hun onderhoudsovereenkomst binnenkort verloopt, kun je de sjabloonvariabele voor de verloopdatum gebruiken om de juiste verloopdatum van hun overeenkomst in het bericht weer te geven.
 
-![In het scherm Tabellen kunt u ervoor kiezen om (a) een extra veld te maken of (b) een nieuwe tabel te maken -screenshot][img1]
+## Vereisten
 
-### Extra tabellen
+| Aanpassing | Licentie | Opmerking |
+|---|---|---|
+| Voeg toe/verwijder gebruikersgedefinieerd veld | Geen | Wordt automatisch weergegeven op het tabblad Meer. Vereist Development Tools om de plaatsing aan te passen. |
+| Pas het layout van het Meer tabblad aan | Development Tools | |
+| Beheer pagina 1 velden | Development Tools | |
+| Extra veld | Development Tools | |
+| Extra tabel | Development Tools | |
+| [Schermontwerper][5] | Development Tools | SuperOffice versie 10 en nieuwer. |
+| [Aangepaste schermen][6] | Development Tools, Service | Maak nieuwe schermen in Service. |
 
-* [Inleiding tot extra tabellen][3]
-* [Een tabel definiëren][4]
+## Layout (positionering van velden)
 
-### Aangepaste velden
+UI-aanpassing van welk type dan ook vereist de Development Tools-licentie. Eventuele aangepaste schermindelingen (gemaakt in de Schermontwerper) kunnen de instellingen voor individuele aangepaste velden overschrijven.
 
-Alle bedrijven en organisaties hebben hun eigen vereisten voor de informatie die ze nodig hebben om zich te registreren. Dit kan zijn voor bedrijven, contactpersonen, verkoop, projecten, enzovoort. Als beheerder kunt u uw eigen velden toevoegen in Instellingen en onderhoud.
-
-* [Door gebruiker gedefinieerde velden][1]
-* [Extra velden][2]
-
-#### De voordelen van het toevoegen van velden
-
-Met de functie Zoeken kunt u zoeken naar de informatie die u in deze velden registreert en selecties maken.
-
-Als u bijvoorbeeld de vervaldatum registreert van de onderhoudsovereenkomst die u met contactpersonen hebt, kunt u een dynamische selectie maken die de contactpersonen weergeeft waarvoor de overeenkomst over minder dan een maand verloopt.
-
-Met sjabloonvariabelen kunt u de informatie uit deze velden hergebruiken voor documenten en e-mails. Elk veld dat u toevoegt, krijgt een eigen unieke ID (Prog ID), die in documenten kan worden gebruikt om contactspecifieke informatie samen te voegen.
-
-Dus als u een e-mail naar uw contactpersonen wilt sturen waarin staat dat hun onderhoudsovereenkomst binnenkort verloopt, kunt u de sjabloonvariabele voor vervaldatum gebruiken om de juiste vervaldatum van hun overeenkomst in het bericht weer te geven.
-
-#### Positionering
-
-Aangepaste schermindelingen (gemaakt in Schermontwerper) met schermontwerper kunnen de instellingen in velden overschrijven.
-
-Als u geen licentie hebt voor configureerbare schermen, gebruikt u de rang van de verschillende velden.
+Als u geen Development Tools-licentie heeft, gebruikt u de rang van de verschillende velden om ze te sorteren op het tabblad **Meer**.
 
 ## Gerelateerde inhoud
 
-* [De schermontwerper][5]
+* [Brukerdefinerte felt][1]
+* [Ekstrafelt][2]
+* [Ekstra tabeller][3]
 
 <!-- Referenced links -->
-[1]: udef/index.md
-[2]: extra-field/create.md
-[3]: extra-table/index.md
-[4]: extra-table/create.md
+[1]: udef.md
+[2]: extra-field.md
+[3]: extra-table.md
 [5]: ../../ui/screen-designer/learn/index.md
+[6]: ../../ui/blogic/custom-screens/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png
