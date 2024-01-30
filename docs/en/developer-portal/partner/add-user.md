@@ -19,6 +19,39 @@ You can view the users already added on your partner page.
 
 ![Users page -screenshot][img1]
 
+# [Partner Admin](#tab/partner-admin)
+
+## Who can I add?
+
+You can add any known user by email address that shares one or more tenants with you.
+
+* If it matches an existing [SuperID][2] user account **in production**, all you have to do is to add it to the partner. If you know this user is a SuperOffice CRM Online user, make sure you use the correct UPN - `firstname@company.com` versus `firstname.lastname@company.com`
+* If the address is unknown, ensure the **active user** belongs to at least one of your shared tenants **in production**. If not, you can't add them to your partner.
+
+## How to
+
+1. In the Developer Portal, go to your partner page.
+2. Select **Users** from the left menu.
+3. Click **Add User** button.
+
+    ![Add use -screenshot][img6]
+
+4. Enter a valid email address, then select the user from the list.
+
+    ![Find user by email in the SuperOffice Developer Portal -screenshot][img7]
+
+5. Selected the user from the list, then click **Add**.
+
+    ![Select the use from the list -screenshot][img8]
+
+6. The user is added to the Partner Users collection.
+
+    ![User is added to the users collection -screenshot][img9]
+
+7. You can now [assign permissions][1].
+
+# [DevPortal Admins](#tab/devportal-admin)
+
 ## Who can I add?
 
 You can assign a known user or create a new one. In both cases, you look up an email address.
@@ -55,6 +88,9 @@ You can assign a known user or create a new one. In both cases, you look up an e
 
 6. You can now [assign permissions][1].
 
+---
+
+
 <!-- markdownlint-disable DOCSMD007 -->
 > [!TIP]
 > [!include[Link to user settings](includes/see-user-settings.md)]
@@ -70,3 +106,7 @@ You can assign a known user or create a new one. In both cases, you look up an e
 [img3]: media/create-user.png
 [img4]: media/create-user-form.png
 [img5]: media/assign-user-to-partner.png
+[img6]: media/add-user-button.png
+[img7]: media/type-user-email.png
+[img8]: media/user-selected.png
+[img9]: media/user-added.png

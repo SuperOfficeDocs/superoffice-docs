@@ -15,6 +15,8 @@ so.client: online
 
 ![Partner settings -screenshot][img1]
 
+[!include[User sources](../partner/includes/note-users-collection.md)]
+
 > [!NOTE]
 > These steps apply to the *partner settings*. To update the technical contact for a specific application, [update the application settings][1].
 

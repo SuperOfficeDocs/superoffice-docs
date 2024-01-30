@@ -30,6 +30,8 @@ The information shown on your app-specific product pages in the App Store comes 
 
 1. To update the technical contact person, click **Clear** and choose another contact by email address.
 
+    [!include[User sources](../partner/includes/note-users-collection.md)]
+
 1. To receive error emails at different or additional email addresses, scroll to the bottom and enter one or more addresses in the **Error reporting emails** field.
 
     ![Application settings, error reporting emails -screenshot][img5]
