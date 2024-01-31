@@ -67,7 +67,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Show extra field to the Details tab
-          url: ../admin/show-extra-field-on-request-details
+          url: ../admin/show-extra-field-on-request-details.md
         - text: Customize layout of user-defined fields
           url: ../admin/edit-udef-layout.md
         - text: Choose page-1 fields

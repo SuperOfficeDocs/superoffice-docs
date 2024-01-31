@@ -78,7 +78,7 @@ Se denne video for at se, hvordan du kan redigere dine salgslister, så de passe
 [7]: organize/user-group-filtering.md
 [8]: deleting-items.md
 [9]: organize/deleted-items-and-headings.md
-[10]: ../../../custom-objects/learn/udef/index.md
+[10]: ../../../custom-objects/learn/udef.md
 [11]: editing-items.md
 
 <!-- Referenced images -->

@@ -27,4 +27,4 @@ items:
   - name: Add extra fields
     href: ../admin/create-extra-field.md
   - name: Show extra field on Details tab
-    href: ../admin/show-extra-field-on-request-details
+    href: ../admin/show-extra-field-on-request-details.md

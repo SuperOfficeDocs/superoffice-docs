@@ -148,7 +148,7 @@ Dit tabblad bevat alle velden die in Instellingen en onderhoud zijn [gedefinieer
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../diary/learn/linking-documents-to-follow-ups.md
-[3]: ../../../custom-objects/learn/udef/index.md
+[3]: ../../../custom-objects/learn/udef.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-icon.png

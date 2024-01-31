@@ -43,11 +43,11 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Door gebruiker gedefinieerde velden
-          url: ../custom-objects/learn/udef/index.md
+          url: ../custom-objects/learn/udef.md
         - text: Extra velden
-          url: ../custom-objects/learn/extra-field/create.md
+          url: ../custom-objects/admin/create-extra-field.md
         - text: Extra tabellen
-          url: ../custom-objects/learn/extra-table/create.md
+          url: ../custom-objects/admin/create-extra-table.md
       
   # Card
   - title: Gebruikersinterface

@@ -48,7 +48,7 @@ Her finder du de avancerede indstillinger i SuperOffice.
 Ved [at tilføje ekstra tabeller og felter][1] til SuperOffice kan du gemme forskellige typer information, der er vigtig for dit firma. Du kan føje ekstra tabeller og felter til dine sager, personkort eller firmakort.
 
 <!-- Referenced links -->
-[1]: ../../../custom-objects/learn/extra-table/index.md
+[1]: ../../../custom-objects/learn/extra-table.md
 [2]: ../../../automation/crmscript/learn/index.md
 [3]: ../../../automation/crmscript/learn/macro-script.md
 [4]: ../../../automation/crmscript/learn/trigger.md

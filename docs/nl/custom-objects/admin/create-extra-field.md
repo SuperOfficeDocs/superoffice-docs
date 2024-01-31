@@ -90,7 +90,7 @@ Bijvoorbeeld, om alle binnenkomende verzoeken te verbinden met een specifieke ve
 
 <!-- Referenced links -->
 [1]: create-extra-table.md
-[4]: ../../database/tables/ticket.md
+[4]: ../../../en/database/tables/ticket.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

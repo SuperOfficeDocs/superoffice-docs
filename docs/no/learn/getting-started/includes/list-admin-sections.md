@@ -38,6 +38,6 @@
 [35]: ../../../admin/preferences/learn/index.md
 [36]: ../../../admin/options/learn/index.md
 [37]: ../../../admin/import/learn/index.md
-[38]: ../../../custom-objects/learn/udef/index.md
+[38]: ../../../custom-objects/learn/udef.md
 [39]: ../../../request/learn/screen/index.md
 [41]: https://online.superoffice.com/appstore

@@ -48,7 +48,7 @@ Mit der [CRMScript][2]-Funktion können Sie Aufgaben automatisieren oder das Ver
 Durch [Zusatztabellen und Felder zu SuperOffice hinzufügen][1] können Sie eine Vielzahl von Informationen speichern, die für Ihre Firma wichtig sind. Sie können Zusatztabellen und Felder zu Ihren Anfragen, Personenkarten oder Firmenkarten hinzufügen.
 
 <!-- Referenced links -->
-[1]: ../../../custom-objects/learn/extra-table/index.md
+[1]: ../../../custom-objects/learn/extra-table.md
 [2]: ../../../automation/crmscript/learn/index.md
 [3]: ../../../automation/crmscript/learn/macro-script.md
 [4]: ../../../automation/crmscript/learn/trigger.md

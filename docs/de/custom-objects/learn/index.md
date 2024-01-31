@@ -53,6 +53,6 @@ Wenn Sie keine Development Tools-Lizenz haben, verwenden Sie die Reihenfolge der
 [2]: extra-field.md
 [3]: extra-table.md
 [5]: ../../ui/screen-designer/learn/index.md
-[6]: ../../ui/blogic/custom-screens/index.md
+[6]: ../../../en/ui/blogic/custom-screens/index.md
 
 <!-- Referenced images -->

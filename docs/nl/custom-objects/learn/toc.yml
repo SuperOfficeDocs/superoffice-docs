@@ -2,27 +2,29 @@ items:
 - name: Overzicht
   href: index.md
 - name: Door gebruiker gedefinieerde velden
-  topicHref: udef/index.md
+  topicHref: udef.md
   items:
   - name: Overzicht
-    href: udef/index.md
+    href: udef.md
   - name: Veld toevoegen
-    href: udef/add.md
-  - name: Veld verplaatsen
-    href: udef/move.md
-  - name: Tabvolgorde van velden bewerken
-    href: udef/change-tab-order.md
+    href: ../admin/add-udef.md
   - name: Veld bewerken
-    href: udef/edit.md
-  - name: Velden pagina 1
-    href: udef/page-1-fields.md
-- name: Extra tabellen en velden
-  topicHref: extra-table/index.md
+    href: ../admin/edit-udef.md
+  - name: Gebruikersinterface aanpassen
+    href: ../admin/edit-udef-layout.md
+- name: Extra tabellen
+  topicHref: extra-table.md
   items:
   - name: Overzicht
-    href: extra-table/index.md
+    href: extra-table.md
   - name: Extra tabellen toevoegen
-    href: extra-table/create.md
+    href: ../admin/create-extra-table.md
+- name: Extra velden
+  topicHref: extra-field.md
+  items:
+  - name: Overzicht
+    href: extra-field.md
   - name: Extra velden toevoegen
-    href: extra-field/create.md
- 
+    href: ../admin/create-extra-field.md
+  - name: Toon extra veld op het tabblad Details
+    href: ../admin/show-extra-field-on-request-details.md

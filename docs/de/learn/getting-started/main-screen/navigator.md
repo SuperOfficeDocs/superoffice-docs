@@ -54,7 +54,7 @@ Mit Hilfe des linken Navigators können Sie sich zwischen den Hauptbereichen von
 | ![Symbol][img54] | **Import**: wechselt zur Ansicht Import, in der Sie Daten in die SuperOffice-Datenbank importieren können. | [Import][27] |
 | ![Symbol][img55] | **Felder**: wechselt zur Ansicht Felder, in der Sie benutzerdefinierte Felder für SuperOffice CRM festlegen können. | [Felder][28] |
 | ![Symbol][img56] | **CRMScript**: wechselt zur Ansicht mit verschiedenen Scripting- und Automatisierungsfunktionen wie Makros, Event Handler und geplante Aufgaben. | [CRMScript][41] |
-| ![Symbol][img57] | **Anfragen**: Hier finden Sie verschiedene Einstellungen für Anfragen in SuperOffice Service. | [Anfragen][34]
+| ![Symbol][img57] | **Anfragen**: Hier finden Sie verschiedene Einstellungen für Anfragen in SuperOffice Service. | [Anfragen][34] |
 | ![Symbol][img58] | **Kundenzentrum**: Hier können Sie das Kundenzentrum konfigurieren. Sie können Inhalt und Layout des Kundenzentrums und den Standardinhalt bearbeiten. | |
 | ![Symbol][img59] | **Systemdesign**: Hier finden Sie verschiedene erweiterte Einstellungen für SuperOffice Service. | |
 | ![Symbol][img60] | **App Store**: Öffnet den [SuperOffice App Store][44], wo Sie Informationen über Standard-Apps und Integrationen für die Erweiterung von SuperOffice CRM Online durchstöbern können. | |
@@ -99,7 +99,7 @@ Wenn Sie mit dem Mauszeiger auf einen Datensatz in einer der Listen zeigen, wird
 [25]: ../../../admin/preferences/learn/index.md
 [26]: ../../../admin/options/learn/index.md
 [27]: ../../../admin/import/learn/index.md
-[28]: ../../../custom-objects/learn/udef/index.md
+[28]: ../../../custom-objects/learn/udef.md
 
 [41]: ../../../automation/crmscript/learn/index.md
 [42]: ../../../admin/preferences/learn/video-meetings/index.md

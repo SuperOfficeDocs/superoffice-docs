@@ -26,5 +26,5 @@ items:
     href: extra-field.md
   - name: Zusatzfelder hinzufügen
     href: ../admin/create-extra-field.md
-#  - name: Show extra field on Details tab
-#    href: ../admin/show-extra-field-on-request-details
+  - name: Zusatzfelder im Tab Details anzeigen
+    href: ../admin/show-extra-field-on-request-details

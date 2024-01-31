@@ -48,7 +48,7 @@ Hier staan alle geavanceerde opties in SuperOffice Service.
 Door [extra tabellen en velden toe te voegen][1] aan SuperOffice kunt u een verscheidenheid aan informatie opslaan die belangrijk is voor uw bedrijf. U kunt extra tabellen en velden toevoegen aan uw verzoeken, persoonskaarten of bedrijfskaarten.
 
 <!-- Referenced links -->
-[1]: ../../../custom-objects/learn/extra-table/index.md
+[1]: ../../../custom-objects/learn/extra-table.md
 [2]: ../../../automation/crmscript/learn/index.md
 [3]: ../../../automation/crmscript/learn/macro-script.md
 [4]: ../../../automation/crmscript/learn/trigger.md
