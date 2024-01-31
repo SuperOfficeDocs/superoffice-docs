@@ -23,10 +23,10 @@ You can view the users already added on your partner page.
 
 ## Who can I add?
 
-You can add any known user by email address that shares one or more tenants with you.
+You can add any known user by name or email address that shares one or more tenants with you **in production**. You can't add users that don't share a tenant with you. If you want to add a user that doesn't share a tenant with you, you must first add the user to your tenant by creating a new user in the target SuperOffice instance [Settings and maintenance][3].
 
-* If it matches an existing [SuperID][2] user account **in production**, all you have to do is to add it to the partner. If you know this user is a SuperOffice CRM Online user, make sure you use the correct UPN - `firstname@company.com` versus `firstname.lastname@company.com`
-* If the address is unknown, ensure the **active user** belongs to at least one of your shared tenants **in production**. If not, you can't add them to your partner.
+* If it matches an existing [SuperID][2] user account, select and add the user to the partner. If you know this user is a SuperOffice CRM Online user, make sure you use the correct UPN - `firstname@company.com` versus `firstname.lastname@company.com`
+* If the search results are empty, ensure the **active user** belongs to at least one of your shared tenants **in production**. If not, you can't add them to your partner.
 
 ## How to
 
@@ -36,7 +36,7 @@ You can add any known user by email address that shares one or more tenants with
 
     ![Add use -screenshot][img6]
 
-4. Enter a valid email address, then select the user from the list.
+4. Enter a valid name or email address, then select the user from the list.
 
     ![Find user by email in the SuperOffice Developer Portal -screenshot][img7]
 
@@ -99,6 +99,7 @@ You can assign a known user or create a new one. In both cases, you look up an e
 <!-- Referenced links -->
 [1]: manage-permissions.md
 [2]: ../../identity-management/superid/overview.md
+[3]: ../../admin/user-management/learn/add-associate.md
 
 <!-- Referenced images -->
 [img1]: media/users.png
