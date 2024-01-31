@@ -64,4 +64,4 @@ Alle brukere som har denne rollen, vil nå kunne se det ekstra feltet i fanen **
 ***
 
 <!-- Referenced links -->
-[1]: ../../ui/screen-designer/configurable-screens/working-with-fields.md
+[1]: ../../../en/ui/screen-designer/configurable-screens/working-with-fields.md

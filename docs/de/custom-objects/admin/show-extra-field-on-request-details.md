@@ -64,4 +64,4 @@ Alle Benutzer mit dieser Rolle können jetzt das zusätzliche Feld auf dem Tab *
 ***
 
 <!-- Referenced links -->
-[1]: ../../ui/screen-designer/configurable-screens/working-with-fields.md
+[1]: ../../../en/ui/screen-designer/configurable-screens/working-with-fields.md

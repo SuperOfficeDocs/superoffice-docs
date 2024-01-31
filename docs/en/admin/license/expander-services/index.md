@@ -55,7 +55,7 @@ Development products are **stand-alone products** that help customers utilize an
 [4]: ../../../automation/trigger/create-trigger-macro.md
 [5]: ../../../ui/blogic/custom-screens/index.md
 [6]: ../../../developer-portal/custom-app/index.md
-[7]: ../../../custom-objects/extra-table/index.md
+[7]: ../../../custom-objects/learn/extra-table.md
 [8]: ../../../ui/screen-designer/index.md
 [10]: ../../../online/sandbox/index.md
 [11]: ../../../identity-management/scim/index.yml

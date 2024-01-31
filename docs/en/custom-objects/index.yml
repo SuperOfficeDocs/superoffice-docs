@@ -67,11 +67,11 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Show extra field to the Details tab
-          url: ../admin/show-extra-field-on-request-details.md
+          url: admin/show-extra-field-on-request-details.md
         - text: Customize layout of user-defined fields
-          url: ../admin/edit-udef-layout.md
+          url: admin/edit-udef-layout.md
         - text: Choose page-1 fields
-          url: ../admin/edit-udef-layout.md#page-1
+          url: admin/edit-udef-layout.md#page-1
         - text: bLogic - select extra field
           url: ../ui/blogic/reference/select-extra-field.md
 
@@ -82,7 +82,7 @@ landingContent:
         typeDesc: concept
         links:
         - text: Overview
-          url: ../automation/crmscript/index.md
+          url: ../automation/crmscript/index.yml
       - itemType: list
         typeDesc: how-to-guide
         links:
@@ -102,14 +102,14 @@ landingContent:
       typeDesc: concept
       links:
       - text: Technical overview
-        url: ../api/overview/custom-database-schema/index.md
+        url: reference/index.md
     - itemType: list
       typeDesc: how-to-guide
       links:
       - text: Web services
         url: ../api/web-services/howto/custom-objects/set-udef-listitem-value.md
       - text: Entities
-        url: ../api/entity/howto/custom-objects/set-udef-listitem-value.md
+        url: ../api/entities/howto/custom-objects/set-udef-listitem-value.md
       - text: Raw SQL
         url: ../api/sql/howto/custom-objects/set-udef.md
 

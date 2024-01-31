@@ -175,7 +175,7 @@ Read more about each platform API in the SDK documentation.
 [27]: ../../ui/web-app/custom-ajax-methods.md
 [28]: ../archive-providers/index.md
 [29]: ../mdo-providers/reference/index.md
-[30]: ../../custom-objects/extra-table/index.md
+[30]: ../../custom-objects/learn/extra-table.md
 [31]: ../../mobile/index.yml
 [32]: netserver.md#domain-level-apis-netserver-core
 [33]: ../config/services.md

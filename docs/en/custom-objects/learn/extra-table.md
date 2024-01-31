@@ -14,7 +14,7 @@ so.audience.tooltip: SuperOffice CRM
 
 # Third-party tables
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../learn/includes/req-expander-services.md)]
 
 SuperOffice Development Tools license gives you the possibility to create extra tables in the database. Instantly, these third-party tables will be available for standard CRUD operations in SuperOffice Service. You need to set up a web panel to access them from the Sales client.
 

@@ -64,4 +64,4 @@ Alla användare som har denna roll kommer nu att kunna se det extra fältet på 
 ***
 
 <!-- Referenced links -->
-[1]: ../../ui/screen-designer/configurable-screens/working-with-fields.md
+[1]: ../../../en/ui/screen-designer/configurable-screens/working-with-fields.md

@@ -14,7 +14,7 @@ language: de
 
 # Zusatztabellen
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../learn/includes/req-expander-services.md)]
 
 Die SuperOffice Development Tools-Lizenz ermöglicht es Ihnen, zusätzliche Tabellen in der Datenbank zu erstellen. Sofort stehen diese Tabellen von Drittanbietern für Standard-CRUD-Operationen in SuperOffice Service zur Verfügung. Sie müssen ein Webpanel einrichten, um von der Verkaufs-App darauf zuzugreifen.
 

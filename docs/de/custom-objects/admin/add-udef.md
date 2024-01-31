@@ -57,7 +57,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihre eigenen Zusatzfelder 
 * [Registerkarte Mehr (Projekt)][13]
 * [Registerkarte Mehr (Folgeaufgaben)][14]
 * [Registerkarte Mehr (Dokument)][15]
-[Registerkarte Mehr (Verkauf)][19]
+* [Registerkarte Mehr (Verkauf)][19]
 
 > [!TIP]
 > Im unteren Teil rechts befindet sich im Dialogfeld **Felder** der **Vorlagenvariablenname**, gefolgt von einem Code (ID), mit dem die in diesem Feld die Information wiederverwenden können, wie zum Beispiel als [Vorlagenvariablen][12] in Dokumenten und E-Mails.
@@ -88,7 +88,7 @@ Vier von jedem Feldtyp (Kurzer Text, Langer Text, Nummer, Dezimalzahl) sind such
 [15]: ../../document/learn/screen/index.md
 [16]: ../../company/learn/create.md#more-tab
 [17]: ../../contact/learn/create.md#more-tab
-[19]: ../../sale/learn/index.md#more-tab
+[19]: ../../sale/learn/index.md
 
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png

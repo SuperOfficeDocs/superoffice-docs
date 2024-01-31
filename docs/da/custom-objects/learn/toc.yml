@@ -27,4 +27,4 @@ items:
   - name: Tilføj ekstra felter
     href: ../admin/create-extra-field.md
   - name: Vis ekstra felt på fanen Detaljer
-    href: ../admin/show-extra-field-on-request-details
+    href: ../admin/show-extra-field-on-request-details.md

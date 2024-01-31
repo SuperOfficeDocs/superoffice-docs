@@ -14,7 +14,7 @@ language: nl
 
 # Extra tabellen
 
-[!include[Requirement](../../../learn/includes/req-expander-services.md)]
+[!include[Requirement](../../learn/includes/req-expander-services.md)]
 
 De SuperOffice Development Tools-licentie geeft je de mogelijkheid om extra tabellen in de database aan te maken. Direct zullen deze tabellen van derden beschikbaar zijn voor standaard CRUD-bewerkingen in SuperOffice Service. Je moet een webpaneel instellen om er vanuit de Verkoop-client toegang toe te krijgen.
 

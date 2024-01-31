@@ -64,4 +64,4 @@ All users who have this role will now be able to see the extra field in the **De
 ***
 
 <!-- Referenced links -->
-[1]: ../../ui/screen-designer/configurable-screens/working-with-fields.md
+[1]: ../../../en/ui/screen-designer/configurable-screens/working-with-fields.md

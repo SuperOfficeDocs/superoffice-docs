@@ -88,7 +88,7 @@ Four of each type of field (Short text, Long text, Number, Decimal) are searchab
 [15]: ../../document/learn/screen/index.md
 [16]: ../../company/learn/create.md#more-tab
 [17]: ../../contact/learn/create.md#more-tab
-[19]: ../../sale/learn/index.md#more-tab
+[19]: ../../sale/learn/index.md
 
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png

@@ -14,7 +14,7 @@ language: no
 
 # Ekstratabeller
 
-[!include[License requirement](../../../../common/includes/req-dev-tools.md)]
+[!include[License requirement](../../learn/includes/req-expander-services.md)]
 
 SuperOffice Development Tools-lisensen gir deg muligheten til å opprette ekstra tabeller i databasen. Umiddelbart vil disse tredjepartstabellene være tilgjengelige for standard CRUD-operasjoner i SuperOffice Service. Du må sette opp et webpanel for å få tilgang til dem fra Salgsklienten.
 
