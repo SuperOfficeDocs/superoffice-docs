@@ -12,12 +12,12 @@ items:
     href: ../admin/edit-udef.md
   - name: Tilpasse brukergrensesnitt
     href: ../admin/edit-udef-layout.md
-- name: Ekstra tabeller
+- name: Ekstratabeller
   topicHref: extra-table.md
   items:
   - name: Oversikt
     href: extra-table.md
-  - name: Legge til ekstra tabeller
+  - name: Legge til ekstratabell
     href: ../admin/create-extra-table.md
 - name: Ekstrafelt
   topicHref: extra-field.md

@@ -2,7 +2,7 @@
 uid: help-de-extra-field
 title: Zusatzfeld
 description: Zusatzfeld
-keywords: ekstrafelt, tilpasset felt, Service
+keywords: Zusatzfeld
 author: Bergfrid Dias
 so.date: 01.30.2024
 so.version: 10
@@ -16,7 +16,7 @@ language: de
 
 [!include[License requirement](../../../../common/includes/req-dev-tools.md)]
 
-Ein *Zusatzfeld* ist ein benutzerdefiniertes Feld, das Sie einer vorhandenen SuperOffice-Datenbanktabelle hinzufügen. Sie können die folgenden Entitäten erweitern:
+Ein *Zusatzfeld* ist ein Feld, das Sie einer vorhandenen SuperOffice-Datenbanktabelle hinzufügen. Sie können die folgenden Entitäten erweitern:
 
 * Kategorie
 * Unternehmen
@@ -25,12 +25,12 @@ Ein *Zusatzfeld* ist ein benutzerdefiniertes Feld, das Sie einer vorhandenen Sup
 * Nachricht
 * Anfrage
 * Benutzer
-* Ihre [benutzerdefinierten Tabellen][6]
+* Ihre [Zusatztabellen][6]
 
 > [!NOTE]
 > Zusatzfelder in Unternehmen oder Kontakt sind nicht dasselbe wie benutzerdefinierte Felder in diesen Entitäten!
 
-Zusatzfelder werden in **Einstellungen und Wartung**, im **Tabellen**-Bildschirm verwaltet.
+Zusatzfelder werden in **Einstellungen und Wartung**, im **Tabellen**-Ansicht verwaltet.
 
 ## <a id="field-types" />Feldtypen
 
@@ -70,7 +70,7 @@ Datenbanktabellen sind mit *Fremdschlüssel* (FK) verbunden. Diese sind Feldtype
 
 Zusatzfelder können beispielsweise als Suchkriterien und Spalten im Verkauf in SuperOffice CRM verwendet werden.
 
-## Verwandter Inhalt
+## Verwandte Themen
 
 * [Zusatzfelder auf der Detailregisterkarte anzeigen][1]
 * [Zusatzfelder hinzufügen][2]

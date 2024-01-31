@@ -3,9 +3,9 @@ uid: help-de-extra-table-create
 title: Zusatztabellen hinzufügen
 description: Zusatztabellen hinzufügen
 author: Bergfrid Dias
+keywords: Zusatztabelle, Tabelle, Datentypen, Datenbanktabelle, Systemdesign
 so.date: 01.30.2024
 so.version: 10
-keywords: Zusatztabelle, Tabelle, Datentypen, Systemdesign
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
@@ -22,7 +22,7 @@ Sie können Zusatztabellen in SuperOffice erstellen, um unterschiedliche Datenty
 
 1. Klicken Sie auf **Neue Tabelle**.
 
-    ![Erstellen Sie eine zusätzliche Tabelle -screenshot][img1]
+    ![Erstellen Sie eine Zusatztabelle -screenshot][img1]
 
 1. In der Ansicht **Eigenschaften der Tabelle** geben Sie Daten über die neue Tabelle ein.
 
@@ -49,7 +49,7 @@ Sie können nun die Tabelle in der Benutzeroberfläche öffnen, um Inhalte hinzu
 |---|---|
 | Ordner | Um die Tabelle in einen vorhandenen Ordner zu kopieren, wählen Sie einen Ordner von der Liste aus. |
 | Name | Der Name der Tabelle. |
-| Datenbanktabelle Der Name der Datenbanktabelle. Kann nur bei der Erstellung festgelegt und nicht mehr geändert werden. Der Tabellenname kann Unterstriche, die Buchstaben a-z und Zahlen enthalten, und der Name muss mit "y_" beginnen. Ein logischer Name ist am besten, weil er es einfacher macht, zu sehen, was die Datenbank enthält. |
+| Datenbanktabelle | Der Name der Datenbanktabelle. Kann nur bei der Erstellung festgelegt und nicht mehr geändert werden. Der Tabellenname kann Unterstriche, die Buchstaben a-z und Zahlen enthalten, und der Name muss mit "y_" beginnen. Ein logischer Name ist am besten, weil er es einfacher macht, zu sehen, was die Datenbank enthält. |
 | Kopfzeile für Suche | Die Kopfzeile wird für diese Tabelle in der Ansicht Suchen verwendet. |
 | Kopfzeile für Datenanzeige | Die Kopfzeile wird zur Anzeige eines Eintrags in dieser Tabelle verwendet. |
 | Kopfzeile für neuen Eintrag | Die Kopfzeile wird zum Erstellen eines neuen Eintrags in dieser Tabelle verwendet. |

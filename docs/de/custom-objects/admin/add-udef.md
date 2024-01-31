@@ -2,7 +2,7 @@
 uid: help-de-udef-add
 title: Felder hinzufügen
 description: Felder hinzufügen
-keywords: udef, Benutzerdefiniert, Feld
+keywords: udef, benutzerdefiniertes Feld, Feld-Eigenschaften
 author: Bergfrid Dias
 so.date: 01.30.2024
 so.version: 10
@@ -14,7 +14,7 @@ language: de
 
 # Benutzerdefiniertes Feld hinzufügen
 
-Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihre eigenen Zusatzfelder in SuperOffice CRM erstellen können (Videolänge - 2:51):
+Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihre eigenen Benutzerdefiniertes Felder in SuperOffice CRM erstellen können (Videolänge - 2:51):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/SpeZVxpxeMM]
@@ -35,7 +35,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihre eigenen Zusatzfelder 
 
 1. Fahren Sie fort, Felder hinzuzufügen. Klicken Sie auf **Veröffentlichen**, wenn Sie fertig sind, um das Feld für SuperOffice-Benutzer verfügbar zu machen. Nicht veröffentlichte Felder ![Symbol][img1] und Felder mit nicht veröffentlichten Änderungen ![Symbol][img2] werden in Fettschrift in der Liste **Felder** angezeigt.
 
-## <a id="properties" />
+## <a id="properties" />Feld-Eigenschaften
 
 | Eigenschaft | Beschreibung |
 |---|---|

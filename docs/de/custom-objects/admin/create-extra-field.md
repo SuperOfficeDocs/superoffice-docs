@@ -2,10 +2,10 @@
 uid: help-de-extra-fields-create
 title: Zusatzfelder hinzufügen
 description: Zusatzfelder hinzufügen
+keywords: Zusatzfeld, Zusatztabelle, Datenbankfeld
 author: Bergfrid Dias
 so.date: 01.30.2024
 so.version: 10
-keywords: Zusatzfeld, benutzerdefiniertes Feld, Zusatztabelle
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
@@ -86,7 +86,7 @@ Nachdem Sie eine [Zusatztabelle][1] erstellt haben, müssen Sie Felder in der Ta
 1. Klicken Sie auf **OK**, um die Beziehung zu speichern.
 1. Klicken Sie auf **NetServer neu starten**, um die Änderungen anzuwenden.
 
-Zum Beispiel, um alle eingehenden Anfragen mit einem bestimmten Verkauf zu verbinden, können Sie ein zusätzliches Feld des Typs Verkaufsbeziehung zu Anfragen hinzufügen ([Tickettabelle][4]). Um verbundene Anfragen beim Anzeigen eines Verkaufs in SuperOffice CRM aufzulisten, müssen Sie ein Webpanel erstellen.
+Zum Beispiel, um alle eingehenden Anfragen mit einem bestimmten Verkauf zu verbinden, können Sie ein zusätzliches Feld des Typs Verkaufsbeziehung zu Anfragen hinzufügen ([Tickettabelle][4]). Um verbundene Anfragen beim Ansicht eines Verkaufs in SuperOffice CRM aufzulisten, müssen Sie ein Webpanel erstellen.
 
 <!-- Referenced links -->
 [1]: create-extra-table.md

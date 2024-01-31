@@ -2,7 +2,7 @@
 uid: help-no-extra-field-display
 title: Vis ekstrafelt i fanen Detaljer
 description: Vis ekstrafelt i fanen Detaljer
-keywords: ekstrafelt, custom field, request, layout, screen designer
+keywords: ekstrafelt, sak, layout, Skjermdesigner
 author: Bergfrid Dias
 so.date: 01.18.2024
 so.topic: howto
@@ -13,14 +13,14 @@ language: no
 
 # Vis ekstrafelt i fanen Detaljer
 
-Scenario: Du har lagt til et ekstrafelt for firma (`contact` tabellen) som indikerer om et firma har en støtteavtale, og du ønsker å vise denne informasjonen når du ser på en forespørsel.
+Scenario: Du har lagt til et ekstrafelt for firma (`contact` tabellen) som indikerer om et firma har en støtteavtale, og du ønsker å vise denne informasjonen når du ser på en sak.
 
 <!-- markdownlint-disable-file MD051 -->
 ## Trinn
 
-### [I den nye skjermen for forespørsler med Screen Designer](#tab/screen-designer)
+### [I den nye skjermen for saker med Skjermdesigner](#tab/screen-designer)
 
-1. Gå til **Innstillinger og vedlikehold** > **Screen designer** og velg fanen **Forespørsler**.
+1. Gå til **Innstillinger og vedlikehold** > **Skjermdesigner** og velg fanen **Sak**.
 1. Klikk på **Rediger oppsett** nederst.
 1. Finn innstillingen for **Felter**.
 1. Velg ditt felt.
@@ -28,7 +28,7 @@ Scenario: Du har lagt til et ekstrafelt for firma (`contact` tabellen) som indik
 1. Klikk på **Lagre** for å lagre innstillingene.
 
 > [!TIP]
-> Du kan også gruppere felt, legge til overskrifter for grupper og endre størrelsen på kolonner. [Lær mer om Screen Designer][1].
+> Du kan også gruppere felt, legge til overskrifter for grupper og endre størrelsen på kolonner. [Lær mer om Skjermdesigner][1].
 
 ### [I klassisk Service](#tab/service)
 
@@ -36,7 +36,7 @@ I Service må du opprette en felles elementprofil.
 
 1. Gå til **Innstillinger og vedlikehold** > **Systemdesign** og velg fanen **Profil**.
 
-1. Velg **Systemskjermer**. Klikk deretter på **Vis billett**, pek på **billettinfo**, og klikk på **Ny felles profil**.
+1. Velg **Systemskjermer**. Klikk deretter på **Vis sak**, pek på **Saksinfo**, og klikk på **Ny felles profil**.
 
 1. Skriv inn et **navn** for den nye profilen.
 

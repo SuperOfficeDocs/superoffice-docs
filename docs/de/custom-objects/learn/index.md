@@ -32,9 +32,9 @@ SuperOffice CRM und Service waren einmal zwei separate Anwendungen mit unterschi
 |---|---|---|
 | Benutzerdefiniertes Feld hinzufügen/entfernen | Keine | Wird automatisch auf der Registerkarte Mehr angezeigt. Benötigt Development Tools, um die Platzierung anzupassen. |
 | Layout der Registerkarte Mehr anpassen | Development Tools | |
-| Page-1-Felder verwalten | Development Tools | |
-| Zusätzliches Feld | Development Tools | |
-| Zusätzliche Tabelle | Development Tools | |
+| Site-1-Felder verwalten | Development Tools | |
+| Zusatzfeld | Development Tools | |
+| Zusatztabelle | Development Tools | |
 | [Ansichtsdesigner][5] | Development Tools | SuperOffice Version 10 und neuer. |
 | [Benutzerdefinierte Ansichten][6] | Development Tools, Service | Neues Ansicht in Service erstellen. |
 

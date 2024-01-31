@@ -2,10 +2,10 @@
 uid: help-en-extra-fields-create
 title: Add extra fields
 description: How to define extra fields in SuperOffice
+keywords: extra field, custom field, field properties
 author: Bergfrid Dias
 so.date: 01.18.2024
 so.version: 10
-keywords: extra field, custom field
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance

@@ -1,10 +1,10 @@
 ### YamlMime:SubCategory
 
-title: Custom fields
+title: Custom objects and fields
 summary: User-defined fields, extra tables, and extra fields
 
 metadata:
-  title: Custom fields
+  title: Custom objects and fields
   description: User-defined fields, extra tables, and extra fields
   so.topic: hub-page
   author: Bergfrid Dias
@@ -41,7 +41,7 @@ landingContent:
           url: admin/add-udef.md
         - text: Add extra table
           url: admin/create-extra-table.md
-        - text: How to create an extra field
+        - text: Add extra field
           url: admin/create-extra-field.md
       - itemType: video_library
         typeDesc: video

@@ -2,11 +2,11 @@
 uid: help-no-udef-add
 title: Legge til brukerdefinert felt
 description: Legge til brukerdefinert felt
-keywords: udef, brukerdefinert, egendefinert felt
-so.topic: howto
+keywords: udef, brukerdefinert, egendefinert felt, feltegenskaper
 author: Bergfrid Dias
 so.date: 01.25.2024
 so.version: 10
+so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: no
@@ -23,7 +23,7 @@ Se denne videoen for å finne ut hvordan du kan opprette dine egne ekstra felt i
 
 1. [!include[Gå til Felt og velg fane](includes/goto-fields.md)]
 
-1. Klikk på **Legg til**-knappen under listen **Felt**.
+1. Klikk på **Legg til** under listen **Felt**.
 
 1. Skriv inn et **Navn** og velg en [**Type**][2] (for eksempel nummer, tekst eller dato).
 
@@ -55,7 +55,7 @@ Se denne videoen for å finne ut hvordan du kan opprette dine egne ekstra felt i
 * [Mer-fanen (Firma)][16]
 * [Mer-fanen (Kontaktperson)][17]
 * [Mer-fanen (Prosjekt)][13]
-* [Mer-fanen (oppfølginger)][14]
+* [Mer-fanen (Oppfølginger)][14]
 * [Mer-fanen (Dokument)][15]
 * [Mer-fanen (Salg)][19]
 

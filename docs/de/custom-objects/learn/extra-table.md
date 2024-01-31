@@ -16,19 +16,19 @@ language: de
 
 [!include[License requirement](../../learn/includes/req-expander-services.md)]
 
-Die SuperOffice Development Tools-Lizenz ermöglicht es Ihnen, zusätzliche Tabellen in der Datenbank zu erstellen. Sofort stehen diese Tabellen von Drittanbietern für Standard-CRUD-Operationen in SuperOffice Service zur Verfügung. Sie müssen ein Webpanel einrichten, um von der Verkaufs-App darauf zuzugreifen.
+Die SuperOffice Development Tools-Lizenz ermöglicht es Ihnen, Zusatztabellen in der Datenbank zu erstellen. Sofort stehen diese Tabellen von Drittanbietern für Standard-CRUD-Operationen in SuperOffice Service zur Verfügung. Sie müssen ein Webpanel einrichten, um von der Verkaufs-App darauf zuzugreifen.
 
-Die Anzeige Tabellen ist Ihr Werkzeug zur Anpassung des Datenbankschemas.
+Die Ansicht Tabellen ist Ihr Werkzeug zur Anpassung des Datenbankschemas.
 
-## Anzeige Tabellen
+## Ansicht Tabellen
 
-Die Anzeige Tabellen zeigt eine Liste von Datenbanktabellen an. Er zeigt sowohl Standardtabellen (im System vordefiniert und bildet die Grundlage für verschiedene Ansichten) als auch Zusatztabellen (Tabellen, die Sie selbst mit optionalen Inhalten erstellen).
+Die Ansicht Tabellen zeigt eine Liste von Datenbanktabellen an. Er zeigt sowohl Standardtabellen (im System vordefiniert und bildet die Grundlage für verschiedene Ansichten) als auch Zusatztabellen (Tabellen, die Sie selbst mit optionalen Inhalten erstellen).
 
 Hier können Sie neue Tabellen und Felder für verschiedene Karten und Dialogfelder erstellen. Nur Administratoren haben Zugriff auf diese Funktion.
 
 ## Tabellenordners
 
-Tabellenordner werden zum Organisieren von benutzerdefinierten Tabellen verwendet.
+Tabellenordner werden zum Organisieren von Zusatztabellen verwendet.
 
 ## Konventionen
 

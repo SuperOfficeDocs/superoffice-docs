@@ -2,10 +2,10 @@
 uid: help-en-extra-table-create
 title:  Add extra table
 description: How to define extra tables in SuperOffice
+keywords: extra table, custom object, 3rd-party table, System design
 author: Bergfrid Dias
 so.date: 01.18.2024
 so.version: 10
-keywords: extra table, custom object
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance

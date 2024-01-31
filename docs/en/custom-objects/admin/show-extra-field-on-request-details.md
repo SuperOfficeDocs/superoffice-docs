@@ -2,9 +2,10 @@
 uid: help-en-extra-field-display
 title: Show extra field to the Details tab
 description: Show extra field to the Details tab
-keywords: extra field, custom field, request, layout, screen designer
+keywords: extra field, custom field, request, layout, screen designer, System design
 author: Bergfrid Dias
 so.date: 01.18.2024
+so.version: 10
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance

@@ -23,7 +23,7 @@ Ein *benutzerdefiniertes* Feld (udef) ist ein anzupassendes Feld, das Sie einer 
 * Projekt
 * Verkauf
 
-Benutzerdefinierte Felder werden in Einstellungen und Verwaltung im **Felder**-Anzeige verwaltet. In der Anwendung sind benutzerdefinierte Felder im **Mehr**-Tab der Entität sichtbar, zu der sie hinzugefügt wurden. Zum Beispiel wird ein benutzerdefiniertes Feld in einer Firma im **Mehr**-Tab im Anzeige Firma angezeigt.
+Benutzerdefinierte Felder werden in Einstellungen und Verwaltung im Ansicht **Felder** verwaltet. In der Anwendung sind benutzerdefinierte Felder im **Mehr**-Tab der Entität sichtbar, zu der sie hinzugefügt wurden. Zum Beispiel wird ein benutzerdefiniertes Feld in einer Firma im **Mehr**-Tab im Ansicht Firma angezeigt.
 
 > [!NOTE]
 > Jeder kann die in einem benutzerdefinierten Feld gespeicherten Daten **aktualisieren**. Nur ein Administrator kann ein benutzerdefiniertes Feld hinzufügen (oder entfernen). Sie benötigen eine Development Tools-Lizenz, um das Layout des **Mehr**-Tabs anzupassen und Seiten-1-Felder zu verwenden.
@@ -67,9 +67,9 @@ Unter den benutzerdefinierten Feldern, die in den Registerkarten **Mehr** in Sup
 
 * Die Registerkarte **Firma** in der Ansicht Firma
 * Auf der Registerkarte **Person** auf der Personenkarte
-* Die Registerkarte **Projekt** in der Anzeige Projekt
-* Die Registerkarte **Verkauf** in der Anzeige Verkauf
-* Die Registerkarte **Details** in der Anzeige Dokument
+* Die Registerkarte **Projekt** in der Ansicht Projekt
+* Die Registerkarte **Verkauf** in der Ansicht Verkauf
+* Die Registerkarte **Details** in der Ansicht Dokument
 
 > [!NOTE]
 > Seite-1-Feld erfordert die Lizenz für Development Tools und ist nicht verfügbar, wenn Ihre Organisation ein anderes Layout über [Ansichtsdesigner][8] verwendet.
@@ -97,7 +97,7 @@ Sie können diese Felder dann der Ansicht Firma hinzufügen:
 
 Bei der Erstellung eines Verkaufs kann es hilfreich sein, die verkauften Produkte und deren Anzahl anzugeben.
 
-Sie können dann die folgenden Felder zur Anzeige Verkauf hinzufügen:
+Sie können dann die folgenden Felder zur Ansicht Verkauf hinzufügen:
 
 | Feldname | Typ | Beschreibung |
 |---|---|---|

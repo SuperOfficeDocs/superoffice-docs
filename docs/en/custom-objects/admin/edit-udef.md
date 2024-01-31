@@ -2,9 +2,9 @@
 uid: help-en-udef-edit
 title: Edit user-defined field
 description: Edit user-defined field
+keywords: udef, user-defiend field, custom field, field type
 author: Bergfrid Dias
 so.date: 01.16.2024
-keywords: udef, user-defiend field, custom field, field type
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance

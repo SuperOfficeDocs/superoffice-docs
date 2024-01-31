@@ -1,8 +1,8 @@
 ---
 uid: help-no-extra-table-create
-title: Legge til ekstra tabeller
-description: Legge til ekstra tabeller
-keywords: ekstra tabell, systemdesign, tabelleegenskaper
+title: Legge til ekstratabeller
+description: Legge til ekstratabeller
+keywords: ekstratabell, tredjepartstabell, systemdesign, tabelleegenskaper
 author: Bergfrid Dias
 so.date: 01.25.2024
 so.version: 10
@@ -12,9 +12,9 @@ so.audience.tooltip: Settings and maintenance
 language: no
 ---
 
-# Legge til ekstra tabeller
+# Legge til ekstratabeller
 
-Du kan opprette ekstra tabeller i SuperOffice for å registrere ulike typer data. Når du har opprettet tabellen og [opprettet ekstrafelt][1] i den, kan du åpne tabellen for å legge til innhold.
+Du kan opprette ekstratabeller i SuperOffice for å registrere ulike typer data. Når du har opprettet tabellen og [opprettet ekstrafelt][1] i den, kan du åpne tabellen for å legge til innhold.
 
 ## Trinn
 
@@ -22,7 +22,7 @@ Du kan opprette ekstra tabeller i SuperOffice for å registrere ulike typer data
 
 1. Klikk på **Ny tabell**.
 
-    ![Opprett ekstra tabell -screenshot][img1]
+    ![Opprett ekstratabell -screenshot][img1]
 
 1. I bildet **Egenskaper for tabell** skriv inn data om den nye tabellen.
 

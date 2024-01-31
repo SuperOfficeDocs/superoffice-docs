@@ -1,7 +1,7 @@
 ---
 uid: help-de-extra-field-display
-title: Zusätzliches Feld im Tab Details anzeigen
-description: Zusätzliches Feld im Tab Details anzeigen
+title: Zusatzfeld im Tab Details anzeigen
+description: Zusatzfeld im Tab Details anzeigen
 keywords: extra field, custom field, request, layout, screen designer
 author: Bergfrid Dias
 so.date: 01.30.2024
@@ -11,16 +11,16 @@ so.audience.tooltip: Settings and maintenance
 language: de
 ---
 
-# Zusätzliches Feld im Tab Details anzeigen
+# Zusatzfeld im Tab Details anzeigen
 
-Szenario: Sie haben ein zusätzliches Feld für Unternehmen (`contact` Tabelle) hinzugefügt, das angibt, ob ein Unternehmen einen Supportvertrag hat, und Sie möchten diese Informationen anzeigen, wenn Sie eine Anfrage anzeigen.
+Szenario: Sie haben ein Zusatzfeld für Unternehmen (`contact` Tabelle) hinzugefügt, das angibt, ob ein Unternehmen einen Supportvertrag hat, und Sie möchten diese Informationen anzeigen, wenn Sie eine Anfrage anzeigen.
 
 <!-- markdownlint-disable-file MD051 -->
 ## Schritte
 
-### [In der neuen Anfragenansicht mit dem Screen Designer](#tab/screen-designer)
+### [In der neuen Anfragenansicht mit dem Ansichtsdesigner](#tab/screen-designer)
 
-1. Gehen Sie zu **Einstellungen und Wartung** > **Screen Designer** und wählen Sie den Tab **Anfragen**.
+1. Gehen Sie zu **Einstellungen und Wartung** > **Ansichtsdesigner** und wählen Sie den Tab **Anfragen**.
 1. Klicken Sie unten auf **Layout bearbeiten**.
 1. Suchen Sie die Einstellung für **Felder**.
 1. Wählen Sie Ihr Feld aus.
@@ -28,7 +28,7 @@ Szenario: Sie haben ein zusätzliches Feld für Unternehmen (`contact` Tabelle) 
 1. Klicken Sie auf **Speichern**, um die Einstellungen zu speichern.
 
 > [!TIP]
-> Sie können auch Felder gruppieren, Überschriften für Gruppen hinzufügen und die Größe von Spalten ändern. [Erfahren Sie mehr über den Screen Designer][1].
+> Sie können auch Felder gruppieren, Überschriften für Gruppen hinzufügen und die Größe von Spalten ändern. [Erfahren Sie mehr über den Ansichtsdesigner][1].
 
 ### [Im klassischen Service](#tab/service)
 
@@ -51,7 +51,7 @@ Im Service müssen Sie ein gemeinsames Elementprofil erstellen.
 
 1. Klicken Sie erneut auf das Hamburger-Menü und wählen Sie **Rollen**.
 
-1. Wählen Sie eine Rolle aus (wer das Feld auf dem Anfragebildschirm sehen darf).
+1. Wählen Sie eine Rolle aus (wer das Feld auf dem Ansicht **Anfrage** sehen darf).
 
 1. Wählen Sie im Dialogfeld den Tab **Profil**.
 

@@ -1,8 +1,8 @@
 ---
 uid: help-no-custom-objects
-title: Egendefinerte objekter
-description: Egendefinerte objekter
-keywords: egendefinert objekt, felt, brukerdefinert, udef, ekstrafelt, ekstra tabell
+title: Egendefinerte objekter og felt
+description: Egendefinerte objekter og felt
+keywords: egendefinert objekt, felt, brukerdefinert, udef, ekstrafelt, ekstratabell
 author: Bergfrid Dias
 so.date: 01.29.2024
 so.version: 10
@@ -12,11 +12,11 @@ so.audience.tooltip: SuperOffice CRM
 language: no
 ---
 
-# Egendefinerte objekter og felter
+# Egendefinerte objekter og felt
 
 Alle firma og organisasjoner har egne krav til hvilke opplysninger de trenger å registrere angående kontakter, salg, prosjekter, kontrakter og så videre. Administratorer kan legge til felt og tabeller i SuperOffice for å tilpasse typen informasjon som kan registreres.
 
-SuperOffice CRM og Service var en gang to separate applikasjoner med ulike utvidelsesalternativer. [**Brukerdefinerte felt**][1] (kort kalt udefs) hører hjemme i SuperOffice CRM, mens [**ekstra tabeller**][3] (også kalt tredjepartstabeller) og [**ekstra felt**][2] hører hjemme i Service. Begrepet **tilpasset felt** inkluderer både brukerdefinerte felt og ekstra felt.
+SuperOffice CRM og Service var en gang to separate applikasjoner med ulike utvidelsesalternativer. [**Brukerdefinerte felt**][1] (kort kalt udefs) hører hjemme i SuperOffice CRM, mens [**ekstratabeller**][3] (også kalt tredjepartstabeller) og [**ekstrafelt**][2] hører hjemme i Service. Begrepet **tilpasset felt** inkluderer både brukerdefinerte felt og ekstra felt.
 
 ## Bruk
 
@@ -33,8 +33,8 @@ SuperOffice CRM og Service var en gang to separate applikasjoner med ulike utvid
 | Legg til/fjern brukerdefinert felt | Ingen | Vises automatisk på fanen Mer. Trenger Development Tools for å tilpasse plassering. |
 | Tilpass layouten for fanen Mer | Development Tools | |
 | Administrer side 1-felter | Development Tools | |
-| Ekstra felt | Development Tools | |
-| Ekstra tabell | Development Tools | |
+| Ekstrafelt | Development Tools | |
+| Ekstratabell | Development Tools | |
 | [Skjermdesigner][5] | Development Tools | SuperOffice versjon 10 og nyere. |
 | [Egendefinerte skjermer][6] | Development Tools, Service | Opprett nye skjermer i Service. |
 
@@ -48,7 +48,7 @@ Hvis du ikke har en Development Tools-lisens, bruk rangeringen av de forskjellig
 
 * [Brukerdefinerte felt][1]
 * [Ekstrafelt][2]
-* [Ekstra tabeller][3]
+* [Ekstratabeller][3]
 
 <!-- Referenced links -->
 [1]: udef.md

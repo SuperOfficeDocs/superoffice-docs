@@ -2,7 +2,7 @@
 uid: help-de-udef-layout
 title: Benutzeroberfläche anpassen
 description: Benutzeroberfläche anpassen
-keywords: udef, benutzerdefiniertes Feld, layout, Seite 1-Felder, anpassen
+keywords: udef, benutzerdefiniertes Feld, layout, Seite-1-Felder, anpassen, ausrichten
 author: Bergfrid Dias
 so.date: 01.30.2024
 so.version: 10
@@ -16,7 +16,7 @@ language: de
 
 [!include[License requirement](../../../../common/includes/req-dev-tools.md)]
 
-SuperOffice Version 10 (veröffentlicht im Oktober 2021) führte [Ansichtsdesigner][1] ein, mit anpassbaren Anzeigenlayouts für bestimmte Benutzergruppen. Jegliche benutzerdefinierten Anzeigenlayouts, die den Ansichtsdesigner verwenden, können die unten beschriebenen Einstellungen außer Kraft setzen.
+SuperOffice Version 10 (veröffentlicht im Oktober 2021) führte [Ansichtsdesigner][1] ein, mit anpassbaren Ansichtlayouts für bestimmte Benutzergruppen. Jegliche benutzerdefinierten Ansichtlayouts, die den Ansichtsdesigner verwenden, können die unten beschriebenen Einstellungen außer Kraft setzen.
 
 Wenn Sie [neue Felder hinzufügen][2], werden diese standardmäßig untereinander platziert. Jedes Feld besteht aus einem Bezeichnung mit einem Datenfeld rechts. Sie können entscheiden, wo im Raster diese Felder platziert werden sollen.
 
@@ -65,7 +65,7 @@ Wählen Sie die Felder aus, die Sie anpassen möchten, und klicken Sie unter dem
 
 Die TAB-Reihenfolge ist die Reihenfolge, in der Sie sich zwischen den verschiedenen Feldern bewegen, wenn Sie die TAB-Taste drücken. Sie können die TAB-Reihenfolge ändern, um die logische Reihenfolge widerzuspiegeln, in der Benutzer normalerweise Daten in Felder eingeben.
 
-Die TAB-Reihenfolge wird in der Liste **Name** links auf der Anzeige angezeigt. Diese Reihenfolge ist nicht identisch mit den physischen Positionen der Felder, die rechts oben im Vorschaufeld angezeigt werden.
+Die TAB-Reihenfolge wird in der Liste **Name** links auf der Ansicht angezeigt. Diese Reihenfolge ist nicht identisch mit den physischen Positionen der Felder, die rechts oben im Vorschaufeld angezeigt werden.
 
 **Schritte:**
 
@@ -87,7 +87,7 @@ Die TAB-Reihenfolge wird in der Liste **Name** links auf der Anzeige angezeigt. 
 
 ### Benutzergruppen und Seite-1-Felder
 
-Benutzergruppen werden in der Anzeige **Listen** definiert, und die Gruppe, der ein Benutzer angehört, wird in der Anzeige Benutzer definiert. Wenn Sie einen Namen in der Liste **Benutzergruppe** auswählen, werden die verfügbaren Seite-1-Felder für die ausgewählte Benutzergruppe unter **Felder 1**, **2** und **3** angezeigt.
+Benutzergruppen werden in der Ansicht **Listen** definiert, und die Gruppe, der ein Benutzer angehört, wird in der Ansicht Benutzer definiert. Wenn Sie einen Namen in der Liste **Benutzergruppe** auswählen, werden die verfügbaren Seite-1-Felder für die ausgewählte Benutzergruppe unter **Felder 1**, **2** und **3** angezeigt.
 
 Wenn Sie **(alle Benutzergruppen)** in der Liste **Benutzergruppe** auswählen, Felder auswählen und die Einrichtung speichern, gilt dieselbe Auswahl von Feldern für alle Benutzergruppen in SuperOffice CRM. Wenn Sie dann eine bestimmte Benutzergruppe auswählen, können Sie die vorhandene Feldkonfiguration nur für diese Gruppe überschreiben, indem Sie eine andere Spezifikation verwenden. Wenn Sie in einem Feld nichts angeben, bleibt es leer, da die Überschreibung für alle drei Felder unabhängig von ihrem Inhalt gilt.
 

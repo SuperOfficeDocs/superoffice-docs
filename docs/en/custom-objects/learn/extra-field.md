@@ -2,10 +2,10 @@
 uid: help-en-extra-field
 title: Extra fields
 description: An extra field is a custom field that you add to an existing SuperOffice database table in Service.
+keywords: extra field, custom field, field types
 author: Bergfrid Dias
 so.date: 01.16.2024
 so.version: 10
-keywords: extra field, custom field, Service
 so.topic: concept
 language: en
 so.audience: user

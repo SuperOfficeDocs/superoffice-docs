@@ -2,10 +2,10 @@
 uid: help-no-extra-field
 title: Ekstrafelt
 description: Et ekstrafelt er et tilpasset felt som du legger til i en eksisterende SuperOffice-databasetabell i Service.
+keywords: ekstrafelt, tilpasset felt
 author: Bergfrid Dias
 so.date: 01.25.2024
 so.version: 10
-keywords: ekstrafelt, tilpasset felt, Service
 so.topic: concept
 language: no
 so.audience: user
@@ -64,7 +64,7 @@ Databasetabeller er koblet sammen med *fremmednøkler* (FK). Disse er felttypene
 * Salgsrelasjon
 * Prosjektrelasjon
 * Avtalerelasjon
-* Relasjon til ekstra tabell
+* Relasjon til ekstratabell
 
 ## Bruk
 

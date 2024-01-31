@@ -1,8 +1,8 @@
 ---
 uid: help-no-extra-table
-title: Ekstra tabell
-description: Introduksjon til ekstra tabeller i SuperOffice,
-keywords: database, ekstra tabell
+title: Ekstratabeller
+description: Introduksjon til ekstratabeller i SuperOffice,
+keywords: database, ekstratabell, tabellmappe, tredjepartstabell
 author: Bergfrid Dias
 so.date: 01.25.2024
 so.version: 10
@@ -16,7 +16,7 @@ language: no
 
 [!include[License requirement](../../learn/includes/req-expander-services.md)]
 
-SuperOffice Development Tools-lisensen gir deg muligheten til å opprette ekstra tabeller i databasen. Umiddelbart vil disse tredjepartstabellene være tilgjengelige for standard CRUD-operasjoner i SuperOffice Service. Du må sette opp et webpanel for å få tilgang til dem fra Salgsklienten.
+SuperOffice Development Tools-lisensen gir deg muligheten til å opprette ekstratabeller i databasen. Umiddelbart vil disse tredjepartstabellene være tilgjengelige for standard CRUD-operasjoner i SuperOffice Service. Du må sette opp et webpanel for å få tilgang til dem fra Salgsklienten.
 
 **Tabeller**-skjermbildet er verktøyet ditt for tilpasning av databaseskjemaet.
 
@@ -53,7 +53,7 @@ Prefikser sikrer at det du oppretter ikke skaper konflikt med fremtidige SuperOf
 
 ## Aktuelle emner
 
-* [Legge til ekstra tabell][2]
+* [Legge til ekstratabell][2]
 * [Legge til ekstrafelt][3]
 * [Brukerdefinerte felt][4]
 * [Egendefinerte skjermer][1]

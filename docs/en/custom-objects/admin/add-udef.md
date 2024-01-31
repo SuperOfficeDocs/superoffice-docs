@@ -2,10 +2,10 @@
 uid: help-en-udef-add
 title: Add user-defined field
 description: How to add a user-defined field in Settings and maintenance
+keywords: udef, user-defined field, custom field, field properties
 author: Bergfrid Dias
 so.date: 01.18.2024
 so.version: 10
-keywords: udef, user-defined, custom field
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance

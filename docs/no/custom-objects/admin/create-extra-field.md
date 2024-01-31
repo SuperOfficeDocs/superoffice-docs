@@ -2,7 +2,7 @@
 uid: help-no-extra-fields-create
 title: Legge til ekstrafelt
 description: Legge til ekstrafelt
-keywords: ekstrafelt, egendefinert felt
+keywords: ekstrafelt, tilpasset felt, databasefelt, feltegenskaper
 author: Bergfrid Dias
 so.date: 01.29.2024
 so.version: 10
@@ -14,7 +14,7 @@ language: no
 
 # Legge til ekstrafelt
 
-Når du har opprettet en [ekstra tabell][1], må du definere felt i tabellen, slik at du senere kan skrive inn data (oppføringer). Du kan også opprette ekstrafelt i standardtabeller.
+Når du har opprettet en [ekstratabell][1], må du definere felt i tabellen, slik at du senere kan skrive inn data (oppføringer). Du kan også opprette ekstrafelt i standardtabeller.
 
 ## Trinn
 
@@ -54,7 +54,7 @@ Når du har opprettet en [ekstra tabell][1], må du definere felt i tabellen, sl
 | Standardverdi | Standardverdien brukes for dette feltet. |
 | Beskrivelse | Standardbeskrivelsen. |
 | Vis verdi | Angi om verdien skal vises. |
-| Eksterne | Hvis det er merket av, er feltet tilgjengelig fra et kundesenter. Bare relevant for standardtabeller, siden ekstra tabeller alltid vises i kundesentre. |
+| Eksterne | Hvis det er merket av, er feltet tilgjengelig fra et kundesenter. Bare relevant for standardtabeller, siden ekstratabeller alltid vises i kundesentre. |
 | Topptekst for liste | En overskrift for disse postene når de vises som "underposter" på en liste. |
 | Skjul funksjonsknapper | (relasjoner) Velg dette alternativet hvis du vil skjule funksjonen for å legge til nye poster i relasjonstabellen. |
 | Skjul feltet | Angi om feltet skal vises. |
