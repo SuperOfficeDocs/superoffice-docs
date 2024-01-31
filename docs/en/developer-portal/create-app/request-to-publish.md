@@ -28,7 +28,7 @@ In all three cases, after you click the **Request to Publish** button we create 
 
 Watch the walk-through on YouTube:
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+<!-- markdownlint-disable-next-line MD034 MD007 -->
 > [!Video https://www.youtube-nocookie.com/embed/kqEpAw7qQEY?start=1918]
 
 ## Application - Configuration

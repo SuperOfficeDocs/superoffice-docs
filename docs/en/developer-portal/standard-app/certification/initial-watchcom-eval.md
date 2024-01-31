@@ -47,7 +47,6 @@ Watchcom’s expert penetration testers will make a limited manual audit of the 
 
 Depending on the integration toward SuperOffice, the testing will include (but is not limited to) testing of weaknesses and vulnerabilities related to network communication, API endpoints, and web applications.
 
-
 The testing performed by Watchcom involves both manual and automated testing. **This may impact the service that is in scope, and could cause unwanted down-time.**
 
 ### Audit report

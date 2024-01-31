@@ -34,7 +34,7 @@ In SOD, a version is a **draft** and can be edited until you request to publish 
 
 Watch the walk-through on YouTube:
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+<!-- markdownlint-disable-next-line MD034 MD007 -->
 > [!Video https://www.youtube-nocookie.com/embed/kqEpAw7qQEY?start=1095]
 
 ### States

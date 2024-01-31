@@ -10,6 +10,7 @@ so.version:
 so.envir: cloud
 so.client: online
 ---
+<!-- markdownlint-disable-file MD051 -->
 
 # Add a user
 
@@ -89,7 +90,6 @@ You can assign a known user or create a new one. In both cases, you look up an e
 6. You can now [assign permissions][1].
 
 ---
-
 
 <!-- markdownlint-disable DOCSMD007 -->
 > [!TIP]

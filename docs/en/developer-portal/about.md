@@ -142,7 +142,7 @@ You can get started using the SuperOffice Online API by [signing up for a develo
 
 Watch the walk-through on YouTube:
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+<!-- markdownlint-disable-next-line MD034 MD007 -->
 > [!Video https://www.youtube-nocookie.com/embed/One6P5Jm5l0]
 
 <!-- Referenced links -->

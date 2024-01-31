@@ -102,7 +102,6 @@ The available timeframes are:
 * Last six months
 * Last year
 
-
 <!-- Referenced links -->
 [1]: ../create-app/message-center.md
 
